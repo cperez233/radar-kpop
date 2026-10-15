@@ -1,4 +1,4 @@
-"""Canales de envio: Discord (webhook y DM por bot) y WhatsApp Cloud API (plantilla).
+"""Canales de envio: Discord (webhook y DM por bot), WhatsApp Cloud API (plantilla) y notificaciones push (Web Push).
 
 Todas las funciones devuelven True si el mensaje salio (o si es prueba) y False si fallo.
 En modo prueba (dry=True) solo imprimen lo que enviarian.
@@ -11,7 +11,8 @@ import time
 import urllib.error
 import urllib.request
 
-GROUP_COLORS = {"bts": 0x6A3AE0, "skz": 0xD2383D, "twice": 0xCF6E14, "lngshot": 0x0B8AA8}
+GROUP_COLORS = {"bts": 0x6A3AE0, "skz": 0xD2383D, "twice": 0xCF6E14, "blackpink": 0xF2559A, "lngshot": 0x0B8AA8,
+                "seventeen": 0x6C7BE8, "enhypen": 0x22A36A, "newjeans": 0xF2B705}
 DISCORD_API = "https://discord.com/api/v10"
 GRAPH_API = "https://graph.facebook.com/v21.0"
 UA = "DiscordBot (https://github.com/radar-kpop, 1.0)"
@@ -109,4 +110,32 @@ def send_whatsapp(token: str | None, phone_id: str | None, to: str, template: st
         return False
     except (urllib.error.URLError, OSError) as exc:
         print(f"Fallo WhatsApp a +{digits[:4]}...: {exc}")
+        return False
+
+
+def send_webpush(sub: dict, alert: dict, dry: bool) -> bool:
+    """Notificacion push al navegador del fan. Necesita pywebpush (pip install pywebpush) y las llaves VAPID.
+
+    VAPID_PRIVATE_KEY: llave privada (la publica va en config.js, vapidPublicKey). VAPID_SUBJECT: mailto: o https: de contacto.
+    """
+    import os
+    info = sub.get("push") or {}
+    if dry:
+        print(f"[prueba] push {info.get('endpoint', '')[:40]}... | {alert['title']}")
+        return True
+    key, subject = os.environ.get("VAPID_PRIVATE_KEY"), os.environ.get("VAPID_SUBJECT", "mailto:radar@example.com")
+    if not key or not info.get("endpoint"):
+        print("Falta VAPID_PRIVATE_KEY o la suscripción push, no se envía la notificación")
+        return False
+    try:
+        from pywebpush import webpush, WebPushException  # noqa: PLC0415
+    except ImportError:
+        print("Falta pywebpush (pip install pywebpush), no se envía la notificación")
+        return False
+    payload = {"title": alert["title"], "body": alert.get("body", "")[:180], "group": alert.get("group", ""), "url": alert.get("url") or "./"}
+    try:
+        webpush(subscription_info=info, data=json.dumps(payload), vapid_private_key=key, vapid_claims={"sub": subject}, ttl=86400)
+        return True
+    except WebPushException as exc:
+        print(f"Fallo push: {exc}")
         return False

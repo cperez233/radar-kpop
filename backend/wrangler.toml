@@ -1,0 +1,15 @@
+# Servidor de suscripciones del Radar K-pop. Guía en ALERTAS.md, sección "Servidor de suscripciones".
+name = "radar-kpop-subs"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+# Dominio(s) de la web, separados por coma. Ejemplo: "https://cperez233.github.io"
+ALLOWED_ORIGIN = ""
+
+# Crea el KV con: npx wrangler kv namespace create SUBS  y pega aquí el id que te devuelve.
+[[kv_namespaces]]
+binding = "SUBS"
+id = "PEGA_AQUI_EL_ID_DEL_KV"
+
+# El token del motor va como secreto, no aquí: npx wrangler secret put ADMIN_TOKEN

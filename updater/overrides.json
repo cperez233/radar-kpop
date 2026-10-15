@@ -2,18 +2,249 @@
   "lngshot": {
     "watch": [
       "Comeback esperado a finales de octubre o inicios de noviembre (fuentes de la industria, sin confirmar)."
+    ],
+    "watch_en": [
+      "Comeback expected in late October or early November (industry sources, unconfirmed)."
     ]
   },
   "twice": {
     "watch": [
-      "La gira This Is For cerró el 12 de julio de 2026 y no hay fechas nuevas confirmadas.",
+      "La gira This Is For cerró el 12 de julio de 2026 y no encontré fechas nuevas confirmadas.",
       "Jihyo contó en un vlog (30 jul 2026) que quieren hacer gira por Sudamérica más adelante, sin fechas."
+    ],
+    "watch_en": [
+      "The This Is For tour ended on July 12, 2026 and there are no confirmed new dates.",
+      "Jihyo said in a vlog (Jul 30, 2026) that they want to tour South America later, no dates yet."
     ]
   },
   "blackpink": {
     "watch": [
       "La gira Deadline cerró el 26 de enero de 2026 en el Kai Tak Stadium de Hong Kong y no hay fechas nuevas anunciadas.",
       "Su mini álbum Deadline salió el 27 de febrero de 2026."
+    ],
+    "watch_en": [
+      "The Deadline tour ended on January 26, 2026 at Kai Tak Stadium, Hong Kong, with no new dates announced.",
+      "Their mini album Deadline came out on February 27, 2026."
+    ]
+  },
+  "skz": {
+    "watch": [
+      "Tokyo Dome aparece en la gira, pero las fechas exactas no salen claras en las fuentes."
+    ],
+    "watch_en": [
+      "Tokyo Dome is on the tour, but the exact dates are not clear in the sources."
+    ]
+  },
+  "seventeen": {
+    "watch": [
+      "La gira completa NEW_ cerró el 5 de abril de 2026 en Incheon. Ahora sale de gira la unidad JxJ (Jeonghan y Joshua).",
+      "Varios miembros están en el servicio militar, así que no hay conciertos del grupo completo anunciados."
+    ],
+    "watch_en": [
+      "The full NEW_ tour ended on April 5, 2026 in Incheon. The JxJ unit (Jeonghan and Joshua) is touring now.",
+      "Several members are doing military service, so no full group concerts are announced."
+    ],
+    "events": [
+      {
+        "id": "svt-20261030-incheon",
+        "local_date": "2026-10-30",
+        "start": "2026-10-30T20:00:00+09:00",
+        "city": "Incheon",
+        "country": "Corea del Sur",
+        "venue": "Inspire Arena",
+        "lat": 37.4637,
+        "lon": 126.3897,
+        "status": "confirmado",
+        "lineup": [
+          "jeonghan",
+          "joshua"
+        ]
+      },
+      {
+        "id": "svt-20261101-incheon",
+        "local_date": "2026-11-01",
+        "start": "2026-11-01T20:00:00+09:00",
+        "city": "Incheon",
+        "country": "Corea del Sur",
+        "venue": "Inspire Arena",
+        "lat": 37.4637,
+        "lon": 126.3897,
+        "status": "confirmado",
+        "lineup": [
+          "jeonghan",
+          "joshua"
+        ]
+      },
+      {
+        "id": "svt-20261121-saitama",
+        "local_date": "2026-11-21",
+        "start": "2026-11-21T17:00:00+09:00",
+        "city": "Saitama",
+        "country": "Japón",
+        "venue": "Belluna Dome",
+        "lat": 35.7686,
+        "lon": 139.4204,
+        "status": "confirmado",
+        "lineup": [
+          "jeonghan",
+          "joshua"
+        ]
+      },
+      {
+        "id": "svt-20261122-saitama",
+        "local_date": "2026-11-22",
+        "start": "2026-11-22T17:00:00+09:00",
+        "city": "Saitama",
+        "country": "Japón",
+        "venue": "Belluna Dome",
+        "lat": 35.7686,
+        "lon": 139.4204,
+        "status": "confirmado",
+        "lineup": [
+          "jeonghan",
+          "joshua"
+        ]
+      },
+      {
+        "id": "svt-20261211-macao",
+        "local_date": "2026-12-11",
+        "start": "2026-12-11T20:00:00+08:00",
+        "city": "Macao",
+        "country": "China",
+        "venue": "Galaxy Arena",
+        "lat": 22.149,
+        "lon": 113.556,
+        "status": "confirmado",
+        "lineup": [
+          "jeonghan",
+          "joshua"
+        ]
+      },
+      {
+        "id": "svt-20261212-macao",
+        "local_date": "2026-12-12",
+        "start": "2026-12-12T20:00:00+08:00",
+        "city": "Macao",
+        "country": "China",
+        "venue": "Galaxy Arena",
+        "lat": 22.149,
+        "lon": 113.556,
+        "status": "confirmado",
+        "lineup": [
+          "jeonghan",
+          "joshua"
+        ]
+      },
+      {
+        "id": "svt-20270109-taipéi",
+        "local_date": "2027-01-09",
+        "start": "2027-01-09T20:00:00+08:00",
+        "city": "Taipéi",
+        "country": "Taiwán",
+        "venue": "Taipei Arena",
+        "lat": 25.0516,
+        "lon": 121.5497,
+        "status": "confirmado",
+        "lineup": [
+          "jeonghan",
+          "joshua"
+        ]
+      },
+      {
+        "id": "svt-20270110-taipéi",
+        "local_date": "2027-01-10",
+        "start": "2027-01-10T20:00:00+08:00",
+        "city": "Taipéi",
+        "country": "Taiwán",
+        "venue": "Taipei Arena",
+        "lat": 25.0516,
+        "lon": 121.5497,
+        "status": "confirmado",
+        "lineup": [
+          "jeonghan",
+          "joshua"
+        ]
+      },
+      {
+        "id": "svt-20270130-busan",
+        "local_date": "2027-01-30",
+        "start": "2027-01-30T20:00:00+09:00",
+        "city": "Busan",
+        "country": "Corea del Sur",
+        "venue": "BEXCO",
+        "lat": 35.1691,
+        "lon": 129.1361,
+        "status": "confirmado",
+        "lineup": [
+          "jeonghan",
+          "joshua"
+        ]
+      },
+      {
+        "id": "svt-20270131-busan",
+        "local_date": "2027-01-31",
+        "start": "2027-01-31T20:00:00+09:00",
+        "city": "Busan",
+        "country": "Corea del Sur",
+        "venue": "BEXCO",
+        "lat": 35.1691,
+        "lon": 129.1361,
+        "status": "confirmado",
+        "lineup": [
+          "jeonghan",
+          "joshua"
+        ]
+      },
+      {
+        "id": "svt-20270220-hong",
+        "local_date": "2027-02-20",
+        "start": "2027-02-20T20:00:00+08:00",
+        "city": "Hong Kong",
+        "country": "China",
+        "venue": "AsiaWorld-Arena",
+        "lat": 22.3219,
+        "lon": 113.9431,
+        "status": "confirmado",
+        "lineup": [
+          "jeonghan",
+          "joshua"
+        ]
+      },
+      {
+        "id": "svt-20270221-hong",
+        "local_date": "2027-02-21",
+        "start": "2027-02-21T20:00:00+08:00",
+        "city": "Hong Kong",
+        "country": "China",
+        "venue": "AsiaWorld-Arena",
+        "lat": 22.3219,
+        "lon": 113.9431,
+        "status": "confirmado",
+        "lineup": [
+          "jeonghan",
+          "joshua"
+        ]
+      }
+    ]
+  },
+  "enhypen": {
+    "watch": [
+      "Desde marzo de 2026 ENHYPEN sigue con seis miembros; Heeseung continúa como solista.",
+      "Las horas de Europa y Yakarta todavía no son oficiales."
+    ],
+    "watch_en": [
+      "Since March 2026 ENHYPEN continues as six members; Heeseung goes on as a soloist.",
+      "Show times for Europe and Jakarta are not official yet."
+    ]
+  },
+  "newjeans": {
+    "watch": [
+      "No hay shows anunciados en 2026. ADOR dice que el grupo prepara su regreso como cuarteto, sin fecha.",
+      "La última vez que llenaron un estadio fue el Bunnies Camp en el Tokyo Dome, en junio de 2024."
+    ],
+    "watch_en": [
+      "No shows announced in 2026. ADOR says the group is preparing a comeback as a four-piece, no date yet.",
+      "Their last stadium event was Bunnies Camp at Tokyo Dome, June 2024."
     ]
   }
 }

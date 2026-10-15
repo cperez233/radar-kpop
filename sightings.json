@@ -1,0 +1,72 @@
+{
+  "updated_at": "2026-10-15T16:26:51Z",
+  "source": "sample",
+  "sample": true,
+  "items": [
+    {
+      "id": "sample-bts-bts-20261009-lima",
+      "group": "bts",
+      "group_name": "BTS",
+      "city": "Lima",
+      "country": "Perú",
+      "lat": -12.0672,
+      "lon": -77.0333,
+      "text": "Ejemplo: así se vería un post oficial de BTS que menciona Lima.",
+      "url": "",
+      "account": "",
+      "when": "2026-10-15T13:26:51Z"
+    },
+    {
+      "id": "sample-skz-skz-20261024-fukuoka",
+      "group": "skz",
+      "group_name": "Stray Kids",
+      "city": "Fukuoka",
+      "country": "Japón",
+      "lat": 33.5953,
+      "lon": 130.3622,
+      "text": "Ejemplo: así se vería un post oficial de Stray Kids que menciona Fukuoka.",
+      "url": "",
+      "account": "",
+      "when": "2026-10-15T08:26:51Z"
+    },
+    {
+      "id": "sample-lngshot-lng-20261013-vienna",
+      "group": "lngshot",
+      "group_name": "LNGSHOT",
+      "city": "Viena",
+      "country": "Austria",
+      "lat": 48.187,
+      "lon": 16.42,
+      "text": "Ejemplo: así se vería un post oficial de LNGSHOT que menciona Viena.",
+      "url": "",
+      "account": "",
+      "when": "2026-10-14T17:26:51Z"
+    },
+    {
+      "id": "sample-seventeen-svt-20261030-incheon",
+      "group": "seventeen",
+      "group_name": "SEVENTEEN",
+      "city": "Incheon",
+      "country": "Corea del Sur",
+      "lat": 37.4637,
+      "lon": 126.3897,
+      "text": "Ejemplo: así se vería un post oficial de SEVENTEEN que menciona Incheon.",
+      "url": "",
+      "account": "",
+      "when": "2026-10-14T12:26:51Z"
+    },
+    {
+      "id": "sample-enhypen-enh-20261016-macao",
+      "group": "enhypen",
+      "group_name": "ENHYPEN",
+      "city": "Macao",
+      "country": "China",
+      "lat": 22.149,
+      "lon": 113.556,
+      "text": "Ejemplo: así se vería un post oficial de ENHYPEN que menciona Macao.",
+      "url": "",
+      "account": "",
+      "when": "2026-10-14T07:26:51Z"
+    }
+  ]
+}

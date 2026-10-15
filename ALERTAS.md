@@ -1,6 +1,6 @@
 # Radar K-pop: configuración de alertas
 
-> Volver al [README](README.md). Este documento explica el motor que manda las alertas por Discord y WhatsApp.
+> Volver al [README](README.md). Este documento explica el motor que manda las alertas por Discord, WhatsApp y notificaciones push, el conector de avistamientos en X y el servidor de suscripciones.
 
 El workflow corre cada 15 minutos, revisa la agenda y manda las alertas. Si no pones ninguna llave, corre en modo prueba y no envía nada.
 
@@ -50,9 +50,12 @@ Alternativa más rápida para probar: Twilio WhatsApp Sandbox. Cada persona mand
 
 ## 4. Suscriptores
 
-1. Copia `alerts/subscribers.example.json`, edítalo con tus datos y los de tus amigos.
-2. Pega todo el JSON como secreto `SUBSCRIBERS_JSON`. No lo subas al repo, trae números de teléfono.
-3. Campos: `lat` y `lon` de la ciudad, `radius_km` para las alertas de cercanía, `groups` (`["*"]` o `["bts","skz"]`), `types` para Discord y `whatsapp_types` para WhatsApp.
+Dos formas, se pueden usar juntas:
+
+- **A mano:** copia `alerts/subscribers.example.json`, edítalo y pega todo el JSON como secreto `SUBSCRIBERS_JSON`. No lo subas al repo, trae números de teléfono.
+- **Con el servidor** (sección 7): la gente se suscribe desde la web y el motor lee la lista con `SUBSCRIBERS_URL` y `SUBSCRIBERS_TOKEN`.
+
+Campos: `lat` y `lon` de la ciudad (redondeadas), `radius_km` para las alertas de cercanía, `groups` (`["*"]` o `["bts","skz"]`), `types` para Discord y push, `whatsapp_types` para WhatsApp, y `push` para notificaciones.
 
 ## 5. Posts oficiales (para "llegaron a la ciudad")
 
@@ -65,7 +68,44 @@ X ya no tiene RSS gratis y su API es de pago. La salida práctica es un RSSHub p
 
 Es la parte más frágil: si X cambia algo, esas rutas dejan de responder. Sin `RSSHUB_URL` el motor se salta los posts oficiales y sigue con prensa y agenda.
 
-## 6. Probar sin enviar nada
+## 6. Avistamientos cercanos (X API)
+
+`sightings/fetch_x.py` lee las cuentas oficiales de `alerts/feeds.json` (sección `social`) con la API v2 de X y guarda en `sightings.json` los posts que mencionan una ciudad. La web los muestra como "avistamientos cercanos", ordenados por distancia a quien la abre.
+
+Reglas que el conector cumple siempre:
+- Solo cuentas oficiales, nunca respuestas ni posts de otras cuentas.
+- Solo nivel ciudad: el punto en el mapa es el centro de la ciudad (`sightings/cities.json` más las ciudades de las giras).
+- Descarta los posts que hablan de aeropuertos, hoteles o vuelos.
+- No guarda ubicación de personas.
+
+Para conectarlo:
+1. Crea una app en developer.x.com y copia el **Bearer Token**.
+2. Guárdalo como secreto `X_BEARER_TOKEN` en GitHub, o en un archivo `.env` en la raíz para correrlo en tu computador (`X_BEARER_TOKEN=...`; `.env` está en `.gitignore`).
+3. `python sightings/fetch_x.py`. Sin token escribe datos de ejemplo marcados con `"sample": true`, y la web los muestra con una etiqueta.
+
+El plan gratis de X da muy pocas lecturas al mes: el conector pide 10 posts por cuenta y guarda los ids de usuario en `sightings/user_ids.json`. Si el workflow corre cada 15 minutos, conviene pasar este paso a un cron aparte cada pocas horas, o usar un plan de pago.
+
+## 7. Servidor de suscripciones (Cloudflare Workers, gratis)
+
+`backend/worker.js` recibe los formularios de la web y guarda a cada suscriptor en Cloudflare KV.
+
+1. `npm i -g wrangler` y `wrangler login`.
+2. `cd backend && wrangler kv namespace create SUBS`, y pega el id en `wrangler.toml`.
+3. En `wrangler.toml`, pon en `ALLOWED_ORIGIN` el dominio de la web (por ejemplo `https://cperez233.github.io`).
+4. `wrangler secret put ADMIN_TOKEN` (inventa un token largo) y `wrangler deploy`.
+5. En `config.js`, pon la URL del worker en `subscribeEndpoint`.
+6. En GitHub, crea los secretos `SUBSCRIBERS_URL` (la URL del worker más `/subscribers`) y `SUBSCRIBERS_TOKEN` (el mismo `ADMIN_TOKEN`).
+
+Rutas: `POST /subscribe`, `POST /push`, `DELETE /subscribe/:id` (con el token que se devolvió al suscribirse; el botón "Borrar mis datos" lo usa) y `GET /subscribers` (solo con `ADMIN_TOKEN`). Prueba local: `node backend/test.mjs`.
+
+## 8. Notificaciones push
+
+1. `npx web-push generate-vapid-keys`.
+2. La llave pública va en `config.js`, en `vapidPublicKey`. La privada va como secreto `VAPID_PRIVATE_KEY`, y `VAPID_SUBJECT` con un `mailto:` tuyo.
+3. Necesita el servidor de la sección 7. El workflow instala `pywebpush` para mandarlas.
+4. En iPhone solo funcionan con la web instalada en la pantalla de inicio (iOS 16.4 o más).
+
+## 9. Probar sin enviar nada
 
 ```
 SUBSCRIBERS_JSON='[...]' DRY_RUN=1 NO_NEWS=1 NOW=2026-10-16T12:00:00Z python alerts/engine.py
@@ -75,6 +115,6 @@ SUBSCRIBERS_JSON='[...]' DRY_RUN=1 NO_NEWS=1 NOW=2026-10-16T12:00:00Z python ale
 
 ## Pendiente de verificar
 
-- Los IDs de canal de YouTube en `alerts/feeds.json` están sin confirmar (incluido el de BLACKPINK, agregado en esta versión) y el de LNGSHOT está vacío. Si un ID es incorrecto, el motor lo salta y sigue.
+- Cuentas e IDs revisados el 15 de octubre de 2026: el canal de YouTube de Stray Kids estaba mal (ahora `UC9rMiEjNaCSsebs31MRDCRA`), la cuenta de X de LNGSHOT es `LNGSHOT4sho` (confianza media: su web oficial no enlaza X) y su canal oficial de YouTube es `UC8PPjyqCQJtNfEwHBcq_uxw`. Agregados SEVENTEEN (`pledis_17`), ENHYPEN (`ENHYPEN`) y NewJeans (`NewJeans_ADOR`).
 - Las URLs RSS de Soompi y allkpop son las estándar de WordPress. Si alguna falla, el motor lo avisa en el log y sigue con las demás.
 - El actualizador de Ticketmaster y el envío real a WhatsApp y Discord no se probaron contra las APIs reales.

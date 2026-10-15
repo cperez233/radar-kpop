@@ -7,6 +7,8 @@
   /* ================= base ================= */
   var CFG = window.RADAR_CONFIG || {};
   var PHOTOS = window.RADAR_PHOTOS || {};
+  var ROSTER = window.RADAR_ROSTER || {};
+  var CHANGES = window.RADAR_CHANGES || [];
   var data = window.RADAR_DATA0 || { groups: [], sources: [] };
   var K = Math.PI / 180;
   var SHOW_MS = 4 * 3600e3;
@@ -41,7 +43,21 @@
     skz: { ko: '스트레이 키즈', fan: 'STAY', cheer: '가자, 스테이!', hint: { es: '¡vamos, STAY!', en: "let's go, STAY!" } },
     twice: { ko: '트와이스', fan: 'ONCE', cheer: '원스, 사랑해', hint: { es: 'ONCE, te quiero', en: 'ONCE, love you' } },
     blackpink: { ko: '블랙핑크', fan: 'BLINK', cheer: '보고 싶어', hint: { es: 'te extrañamos', en: 'we miss you' } },
-    lngshot: { ko: '롱샷', fan: '', cheer: '화이팅!', hint: { es: '¡ánimo!', en: 'fighting!' } }
+    lngshot: { ko: '롱샷', fan: 'SHOTTIES', cheer: '화이팅!', hint: { es: '¡ánimo!', en: 'fighting!' } },
+    seventeen: { ko: '세븐틴', fan: 'CARAT', cheer: '세븐틴 화이팅!', hint: { es: '¡ánimo, SEVENTEEN!', en: 'go SEVENTEEN!' } },
+    enhypen: { ko: '엔하이픈', fan: 'ENGENE', cheer: '엔하이픈 화이팅!', hint: { es: '¡ánimo, ENHYPEN!', en: 'go ENHYPEN!' } },
+    newjeans: { ko: '뉴진스', fan: 'Bunnies', cheer: '뉴진스 사랑해!', hint: { es: '¡te queremos, NewJeans!', en: 'we love you, NewJeans!' } }
+  };
+  /* mini trivia: [pregunta es, pregunta en, opciones, índice correcto]. Datos verificados (Wikipedia, Soompi). */
+  var TRIVIA = {
+    bts: [['¿En qué año debutó BTS?', 'What year did BTS debut?', ['2011', '2013', '2015'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['ARMY', 'ONCE', 'BLINK'], 0], ['¿Cuál fue su primer sencillo todo en inglés (2020)?', 'Their first all-English single (2020)?', ['Dynamite', 'Fake Love', 'Fancy'], 0]],
+    skz: [['¿En qué año debutó Stray Kids?', 'What year did Stray Kids debut?', ['2016', '2018', '2020'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['STAY', 'CARAT', 'ENGENE'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['HYBE', 'JYP Entertainment', 'YG Entertainment'], 1]],
+    twice: [['¿En qué año debutó TWICE?', 'What year did TWICE debut?', ['2015', '2017', '2019'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['ONCE', 'STAY', 'Bunnies'], 0], ['¿En qué programa se formó TWICE?', 'Which survival show formed TWICE?', ['I-LAND', 'SIXTEEN', 'Produce 101'], 1]],
+    blackpink: [['¿En qué año debutó BLACKPINK?', 'What year did BLACKPINK debut?', ['2014', '2016', '2018'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['BLINK', 'ARMY', 'ONCE'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['SM', 'JYP', 'YG Entertainment'], 2]],
+    lngshot: [['¿Quién fundó su sello MORE VISION?', 'Who founded their label MORE VISION?', ['Jay Park', 'PSY', 'Zico'], 0], ['¿Cuál fue su canción de debut?', 'What was their debut song?', ["Moonwalkin'", '4SHO 4SHO', 'Shot Callers'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['SHOTTIES', 'STAY', 'ENGENE'], 0]],
+    seventeen: [['¿En qué año debutó SEVENTEEN?', 'What year did SEVENTEEN debut?', ['2013', '2015', '2017'], 1], ['¿Cuántos miembros tiene?', 'How many members are there?', ['9', '11', '13'], 2], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['CARAT', 'BLINK', 'ARMY'], 0]],
+    enhypen: [['¿En qué año debutó ENHYPEN?', 'What year did ENHYPEN debut?', ['2019', '2020', '2022'], 1], ['¿En qué programa se formó?', 'Which survival show formed them?', ['I-LAND', 'SIXTEEN', 'Boys Planet'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['ENGENE', 'MOA', 'CARAT'], 0]],
+    newjeans: [['¿En qué año debutó NewJeans?', 'What year did NewJeans debut?', ['2020', '2022', '2024'], 1], ['¿Cuál es su agencia?', 'Which agency are they with?', ['ADOR', 'Pledis', 'JYP'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['Bunnies', 'ONCE', 'STAY'], 0]]
   };
   var FALLBACK_COLORS = ['#8E7CC3', '#E0679B', '#3A9BD9', '#53B87A', '#E79A2E'];
   var colorCache = {};
@@ -52,13 +68,42 @@
     return (colorCache[id] = v);
   }
   function gStyle(id) { return '--gc:' + gColor(id); }
-  function face(id) {
-    if (PHOTOS[id]) return { src: 'assets/photos/' + PHOTOS[id], photo: true };
-    return { src: 'assets/chibis/' + (META[id] ? id : 'default') + '.svg', photo: false };
-  }
+  /* avatar pequeño = el grupo completo en chibi (se ve entero, sin recortes) */
+  function face(id) { return { src: 'assets/chibis/' + (ROSTER[id] ? id : 'default') + '.svg', photo: false }; }
   function faceImg(id, cls, alt) {
-    var f = face(id);
-    return '<img src="' + esc(f.src) + '" alt="' + esc(alt || '') + '" class="' + (cls || '') + (f.photo ? ' photo' : '') + '" decoding="async" draggable="false">';
+    return '<img src="' + esc(face(id).src) + '" alt="' + esc(alt || '') + '" class="' + (cls || '') + '" decoding="async" draggable="false">';
+  }
+  function members(id) { return ROSTER[id] || []; }
+  function memberSrc(gid, mid) { return 'assets/chibis/' + gid + '/' + mid + '.svg'; }
+  function photoOf(id) {
+    var p = PHOTOS[id]; if (!p) return null;
+    return typeof p === 'string' ? { src: 'assets/photos/' + p } : { src: 'assets/photos/' + p.file, w: p.w, h: p.h };
+  }
+  /* quién sale en la próxima parada: si el evento trae lineup (una unidad), solo esos */
+  function lineupOf(st) {
+    var all = members(st.id), lu = st.cur && st.cur.lineup;
+    if (!lu || !lu.length) return all;
+    var out = all.filter(function (m) { return lu.indexOf(m.id) >= 0; });
+    return out.length ? out : all;
+  }
+  /* multitud de chibis: misma geometría que tools/chibis.py (sprites 100 x 140, paso .6, fila de atrás) */
+  function crowdLayout(n, target) {
+    var rows = n <= 5 ? [n] : [Math.ceil(n / 2), Math.floor(n / 2)];
+    var k = rows[0], mw = Math.min(target * .62, target / (1 + (k - 1) * .6)), mh = mw * 1.4, step = mw * .6, row = mh * .414;
+    var width = mw + (k - 1) * step, out = [];
+    rows.forEach(function (cnt, r) {
+      var off = (width - (mw + (cnt - 1) * step)) / 2;
+      for (var i = 0; i < cnt; i++) out.push({ x: off + i * step, y: r * row, r: r });
+    });
+    return { pos: out, w: width, h: mh + (rows.length - 1) * row, mw: mw, mh: mh };
+  }
+  function crowdHtml(gid, list, target) {
+    var L0 = crowdLayout(list.length, target);
+    return { w: L0.w, h: L0.h, html: list.map(function (m, i) {
+      var p = L0.pos[i];
+      return '<img class="cm" src="' + esc(memberSrc(gid, m.id)) + '" alt="" draggable="false" decoding="async" style="left:' + p.x.toFixed(1) + 'px;top:' + p.y.toFixed(1) + 'px;width:' + L0.mw.toFixed(1) + 'px;z-index:' + (p.r * 20 + i) +
+        ';--bd:' + (2.2 + (i % 4) * .35).toFixed(2) + 's;--dl:-' + (i * .41 % 2.4).toFixed(2) + 's;--hi:' + i + '">';
+    }).join('') };
   }
 
   /* ================= idioma ================= */
@@ -75,7 +120,7 @@
       privacy: 'Tus datos se guardan solo en este navegador. Si el radar tiene servidor configurado, se envían únicamente para mandarte estas alertas. Puedes borrarlos cuando quieras.',
       privacyLink: 'Cómo usamos tus datos', privacyTitle: 'Privacidad',
       privacy1: 'El radar no tiene cuentas, ni cookies de rastreo, ni analítica. En tu navegador (localStorage) se guardan tu ciudad, tu idioma, si silenciaste los sonidos, tu grupo favorito, qué alertas ya viste y, si llenas el formulario, tu nombre, tu ID de Discord o tu WhatsApp, tus grupos y tus tipos de alerta.',
-      privacy2: '"Usar mi ubicación" pide permiso al navegador y la posición se guarda redondeada solo en tu equipo, para medir distancias. Nada de eso sale de tu equipo, salvo el formulario cuando el radar tenga un servidor de alertas configurado: en ese caso se envía solo para mandarte las alertas que pediste.',
+      privacy2: 'Al entrar, el radar le pide tu ubicación al navegador. Si aceptas, la posición se redondea (unos 1 km) y se guarda solo en tu equipo para medir distancias; si no, usamos Bucaramanga o la ciudad que elijas. Tu ubicación nunca sale de tu equipo, salvo la ciudad y el radio del formulario cuando el radar tenga un servidor de alertas configurado.',
       privacy3: 'Las fuentes tipográficas se cargan desde Google Fonts, que recibe tu dirección IP como cualquier sitio que las use. Para borrar todo, usa "Borrar mis datos" o limpia los datos del sitio en tu navegador.',
       subSubmit: 'Guardar mis alertas', subDelete: 'Borrar mis datos', bye: 'Nos vemos en la próxima parada',
       disclaimer1: 'Esto muestra la agenda oficial y pública de cada grupo. No rastrea a nadie en tiempo real: el chibi está en la próxima fecha confirmada, no donde están en este momento.',
@@ -98,6 +143,19 @@
       typesLatam: 'Latinoamérica', typesNews: 'Comebacks y giras', typesVideo: 'Videos',
       vTitle: '¿Dónde están hoy?', vRest: 'en pausa, esperando fechas', vOutro: '¿Y tú, cuándo los ves?', dday: 'D-DAY', unmute: 'Sonidos activados', mute: 'Sonidos en silencio',
       installed: 'Radar instalado', tapToStart: 'Toca para empezar',
+      zoomIn: 'Acercar', zoomOut: 'Alejar', centerMe: 'Centrar en mí', geoLooking: 'Buscando tu ubicación...', geoDenied: 'No pudimos leer tu ubicación. Usamos Bucaramanga, puedes cambiarla en "Tu ciudad".',
+      geoOk: 'Usando tu ubicación, cerca de {city}', geoNear: 'cerca de {city}', geoNote: 'Sin permiso de ubicación: estamos midiendo desde Bucaramanga.', retry: 'Reintentar', youRef: 'ti',
+      sightTitle: 'Avistamientos cercanos', sightLead: 'Publicaciones oficiales de los grupos que mencionan una ciudad, ordenadas por distancia a ti. Solo la ciudad, nunca hoteles, aeropuertos ni lugares exactos.',
+      sightSample: 'Datos de ejemplo: el conector de X todavía no tiene token.', sightAway: 'a {km} km de ti', sightNew: '¡{n} avistamientos nuevos!', sightNew1: '¡Un avistamiento nuevo!', sightSee: 'Ver post oficial',
+      sightEmpty: 'Todavía no hay avistamientos. Aparecen cuando una cuenta oficial menciona una ciudad.', tickerK: 'AVISTAMIENTOS CERCANOS', sightSource: 'Fuente: cuentas oficiales en X',
+      squad: 'Toca a cada miembro', notOnTour: 'no va en esta gira', photoAlt: 'Foto oficial de {g}', withUnit: 'con {names}',
+      triviaTitle: 'Mini trivia', triviaOk: '¡Correcto!', triviaNo: 'Casi... era {a}', triviaScore: '{n} de {t} correctas',
+      onsaleToday: '¡HOY VENDEN BOLETAS!', onsaleIn: 'Venta de boletas {d} · {when}', pushTab: 'Celular',
+      pushLead: 'Notificaciones en este celular o computador, aunque la web esté cerrada.', pushNeedCfg: 'Todavía falta el servidor de notificaciones (subscribeEndpoint y vapidPublicKey en config.js). Tus preferencias quedan guardadas aquí.',
+      pushUnsupported: 'Este navegador no soporta notificaciones. En iPhone primero instala el radar en tu pantalla de inicio.', pushDenied: 'Las notificaciones están bloqueadas. Actívalas en los ajustes del navegador.', pushOn: '¡Listo! Te llegarán notificaciones.',
+      changesTitle: 'Novedades', you2: 'Tú',
+      fConsent: 'Autorizo al radar a usar estos datos solo para mandarme las alertas que elegí. Si soy menor de edad, tengo permiso de mi mamá, papá o acudiente.', eConsent: 'Necesitamos tu autorización para guardar tus alertas.',
+      privacy4: 'Responsable: Cristian Pérez (cristianperez.me). Puedes conocer, actualizar o borrar tus datos y retirar tu autorización cuando quieras: "Borrar mis datos" los borra de este navegador y del servidor, o escríbele desde su web. Si el radar tiene servidor, tus datos se guardan en Cloudflare solo para mandarte alertas, sin tu IP ni tu ubicación exacta; las notificaciones push pasan por el servicio de tu navegador (Google, Apple o Mozilla). Si eres menor de edad, pide permiso a un adulto antes de dejar tu WhatsApp.',
       T: { new_date: 'Fecha nueva', changed: 'Cambio', removed: 'Quitada', stop_today: 'Hoy', live: 'En vivo', next_stop: 'Siguiente parada', arrival_official: 'Llegada oficial', arrival: 'Llegada', latam: 'Latam', comeback: 'Comeback', tour: 'Gira', video: 'Video', prox: 'Cerca de ti', prox_new: 'Cerca de ti' },
       months: ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'], wdays: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
       cardinal: ['N', 'E', 'S', 'O'], locale: 'es-CO'
@@ -114,7 +172,7 @@
       privacy: 'Your data is stored only in this browser. If the radar has a server configured, it is sent only to deliver these alerts. You can delete it anytime.',
       privacyLink: 'How we use your data', privacyTitle: 'Privacy',
       privacy1: 'The radar has no accounts, no tracking cookies and no analytics. Your browser (localStorage) keeps your city, your language, whether you muted sounds, your favorite group, which alerts you already saw and, if you fill the form, your name, your Discord ID or WhatsApp, your groups and alert types.',
-      privacy2: '"Use my location" asks your browser for permission and the position is stored rounded, only on your device, to measure distances. None of it leaves your device, except the form once the radar has an alert server configured: then it is sent only to deliver the alerts you asked for.',
+      privacy2: 'When you open it, the radar asks your browser for your location. If you allow it, the position is rounded (about 1 km) and stored only on your device to measure distances; if not, we use Bucaramanga or the city you choose. Your location never leaves your device, except the city and radius from the form once the radar has an alert server configured.',
       privacy3: 'Fonts load from Google Fonts, which sees your IP address like on any site that uses them. To erase everything, use "Delete my data" or clear this site\'s data in your browser.',
       subSubmit: 'Save my alerts', subDelete: 'Delete my data', bye: 'See you at the next stop',
       disclaimer1: 'This shows each group\'s official, public schedule. It does not track anyone in real time: the chibi stands on the next confirmed date, not where they are right now.',
@@ -137,6 +195,19 @@
       typesLatam: 'Latin America', typesNews: 'Comebacks and tours', typesVideo: 'Videos',
       vTitle: 'Where are they today?', vRest: 'on a break, waiting for dates', vOutro: 'When are you seeing them?', dday: 'D-DAY', unmute: 'Sounds on', mute: 'Sounds muted',
       installed: 'Radar installed', tapToStart: 'Tap to start',
+      zoomIn: 'Zoom in', zoomOut: 'Zoom out', centerMe: 'Center on me', geoLooking: 'Finding you...', geoDenied: 'We could not read your location. Using Bucaramanga, you can change it in "Your city".',
+      geoOk: 'Using your location, near {city}', geoNear: 'near {city}', geoNote: 'No location permission: measuring from Bucaramanga.', retry: 'Try again', youRef: 'you',
+      sightTitle: 'Sightings near you', sightLead: 'Official group posts that mention a city, sorted by distance to you. City level only, never hotels, airports or exact places.',
+      sightSample: 'Sample data: the X connector has no token yet.', sightAway: '{km} km from you', sightNew: '{n} new sightings!', sightNew1: 'A new sighting!', sightSee: 'See official post',
+      sightEmpty: 'No sightings yet. They show up when an official account mentions a city.', tickerK: 'SIGHTINGS NEAR YOU', sightSource: 'Source: official accounts on X',
+      squad: 'Tap each member', notOnTour: 'not on this tour', photoAlt: 'Official photo of {g}', withUnit: 'with {names}',
+      triviaTitle: 'Mini trivia', triviaOk: 'Correct!', triviaNo: 'So close... it was {a}', triviaScore: '{n} of {t} right',
+      onsaleToday: 'TICKETS ON SALE TODAY!', onsaleIn: 'Tickets on sale {d} · {when}', pushTab: 'Phone',
+      pushLead: 'Notifications on this phone or computer, even when the site is closed.', pushNeedCfg: 'The notification server is not set up yet (subscribeEndpoint and vapidPublicKey in config.js). Your preferences are saved here.',
+      pushUnsupported: 'This browser does not support notifications. On iPhone, install the radar on your home screen first.', pushDenied: 'Notifications are blocked. Turn them on in your browser settings.', pushOn: 'Done! Notifications are on.',
+      changesTitle: 'What\'s new', you2: 'You',
+      fConsent: 'I allow the radar to use this data only to send me the alerts I chose. If I am under 18, I have permission from a parent or guardian.', eConsent: 'We need your permission to save your alerts.',
+      privacy4: 'Data controller: Cristian Pérez (cristianperez.me). You can see, update or delete your data and withdraw your consent anytime: "Delete my data" erases it from this browser and from the server, or write to him through his site. If the radar has a server, your data is stored on Cloudflare only to send you alerts, without your IP or exact location; push notifications go through your browser\'s service (Google, Apple or Mozilla). If you are under 18, ask an adult before sharing your WhatsApp.',
       T: { new_date: 'New date', changed: 'Changed', removed: 'Removed', stop_today: 'Today', live: 'Live', next_stop: 'Next stop', arrival_official: 'Official arrival', arrival: 'Arrival', latam: 'Latam', comeback: 'Comeback', tour: 'Tour', video: 'Video', prox: 'Near you', prox_new: 'Near you' },
       months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], wdays: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
       cardinal: ['N', 'E', 'S', 'W'], locale: 'en-US'
@@ -148,7 +219,7 @@
     'Corea del Sur': 'South Korea', 'México': 'Mexico', 'EE. UU.': 'USA', 'España': 'Spain', 'Panamá': 'Panama', 'Rep. Dominicana': 'Dominican Rep.',
     'Sídney': 'Sydney', 'Londres': 'London', 'Yakarta': 'Jakarta', 'Taipéi': 'Taipei', 'Milán': 'Milan', 'Viena': 'Vienna', 'Zúrich': 'Zurich', 'París': 'Paris',
     'Edimburgo': 'Edinburgh', 'Tokio': 'Tokyo', 'Seúl': 'Seoul', 'Nueva York': 'New York', 'Los Ángeles': 'Los Angeles', 'Ciudad de México': 'Mexico City',
-    'Bogotá': 'Bogota', 'Medellín': 'Medellin', 'São Paulo': 'São Paulo'
+    'Bogotá': 'Bogota', 'Medellín': 'Medellin', 'São Paulo': 'São Paulo', 'Macao': 'Macau', 'Milán': 'Milan', 'Ámsterdam': 'Amsterdam', 'Berlín': 'Berlin', 'Países Bajos': 'Netherlands', 'Alemania': 'Germany', 'Indonesia': 'Indonesia'
   };
   var lang = store('radar-lang') || ((navigator.language || 'es').toLowerCase().indexOf('en') === 0 ? 'en' : 'es');
   if (params.get('lang') === 'en' || params.get('lang') === 'es') lang = params.get('lang');
@@ -196,15 +267,48 @@
     ['Londres', 'Reino Unido', 51.5074, -0.1278], ['París', 'Francia', 48.8566, 2.3522], ['Seúl', 'Corea del Sur', 37.5665, 126.978],
     ['Tokio', 'Japón', 35.6762, 139.6503], ['Manila', 'Filipinas', 14.5995, 120.9842], ['Sídney', 'Australia', -33.8688, 151.2093]
   ];
-  var originIdx = 0, geoOrigin = null;
+  /* origen: la ubicación real si el navegador la da; si no, una ciudad. Bucaramanga es el respaldo. */
+  var originIdx = 0, geoOrigin = null, geoState = 'idle';
+  var savedOrigin = store('radar-origin');
   (function () {
-    var s = parseInt(store('radar-origin'), 10); if (s >= 0 && s < ORIGINS.length) originIdx = s;
+    var s = parseInt(savedOrigin, 10); if (s >= 0 && s < ORIGINS.length) originIdx = s;
     try { geoOrigin = JSON.parse(store('radar-geo') || 'null'); } catch (e) { geoOrigin = null; }
-    if (store('radar-origin') === 'geo' && geoOrigin) originIdx = -1;
+    if (savedOrigin === 'geo' && geoOrigin) originIdx = -1;
   })();
   function origin() {
-    if (originIdx === -1 && geoOrigin) return { name: t('myLocation'), country: '', lat: geoOrigin.lat, lon: geoOrigin.lon, geo: true };
+    if (originIdx === -1 && geoOrigin) return { name: t('myLocation'), country: '', lat: geoOrigin.lat, lon: geoOrigin.lon, geo: true, near: geoOrigin.near || '' };
     var o = ORIGINS[originIdx] || ORIGINS[0]; return { name: o[0], country: o[1], lat: o[2], lon: o[3] };
+  }
+  function originRef() { var o = origin(); return o.geo ? t('youRef') : place(o.name); }
+  function originLabel() { var o = origin(); return o.geo ? t('myLocation') + (o.near ? ' (' + t('geoNear', { city: place(o.near) }) + ')' : '') : place(o.name); }
+  /* ciudad conocida más cercana (solo para nombrar, nunca se envía a ningún lado) */
+  function nearestPlace(lat, lon) {
+    var best = null;
+    ORIGINS.forEach(function (c) { var d = hav(lat, lon, c[2], c[3]); if (!best || d < best.d) best = { d: d, name: c[0] }; });
+    (data.groups || []).forEach(function (g) { (g.events || []).forEach(function (e) { var d = hav(lat, lon, e.lat, e.lon); if (!best || d < best.d) best = { d: d, name: e.city }; }); });
+    return best && best.d < 90 ? best.name : '';
+  }
+  function useFallback(reason, quiet) {
+    geoState = reason;
+    if (originIdx === -1 || savedOrigin == null || savedOrigin === 'geo') originIdx = 0;
+    renderAll();
+    var once = false; try { once = sessionStorage.getItem('radar-geo-told') === '1'; sessionStorage.setItem('radar-geo-told', '1'); } catch (e) { once = false; }
+    if (!quiet || !once) toast(t('geoDenied'));
+  }
+  function locate(manual) {
+    if (!navigator.geolocation || !window.isSecureContext) { useFallback('fail', !manual); return; }
+    geoState = 'asking'; renderNear();
+    if (manual) toast(t('geoLooking'));
+    navigator.geolocation.getCurrentPosition(function (p) {
+      var lat = +p.coords.latitude.toFixed(2), lon = +p.coords.longitude.toFixed(2);
+      geoOrigin = { lat: lat, lon: lon, near: nearestPlace(lat, lon) };
+      store('radar-geo', JSON.stringify(geoOrigin));
+      originIdx = -1; savedOrigin = 'geo'; store('radar-origin', 'geo'); geoState = 'ok';
+      Sound.play('pop'); renderAll();
+      toast(geoOrigin.near ? t('geoOk', { city: place(geoOrigin.near) }) : t('myLocation'));
+    }, function (err) {
+      useFallback(err && err.code === 1 ? 'denied' : 'fail', !manual);
+    }, { enableHighAccuracy: false, timeout: 12000, maximumAge: 900000 });
   }
 
   /* ================= estado de cada grupo ================= */
@@ -285,10 +389,16 @@
       g.gain.setValueAtTime(0.0001, t0); g.gain.exponentialRampToValueAtTime(vol || .1, t0 + dur * .35); g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
       s.connect(bp); bp.connect(g); g.connect(this.master); s.start(t0); s.stop(t0 + dur + .05);
     },
-    play: function (name) {
+    play: function (name, arg) {
       if (!this.ok()) return;
       var s = this;
       switch (name) {
+        case 'boop': var f0 = [523.3, 587.3, 659.3, 784, 880, 1046.5, 1174.7, 1318.5][(arg || 0) % 8]; s.tone(f0, 0, .16, 'sine', .08, f0 * 1.5); s.tone(f0 * 2, .05, .1, 'triangle', .025); break;
+        case 'hop': [0, 1, 2, 3].forEach(function (i) { s.tone(660 + i * 180, i * .06, .1, 'sine', .05, 900 + i * 220); }); break;
+        case 'open': s.tone(620, 0, .1, 'sine', .06, 980); s.tone(1240, .05, .08, 'triangle', .025); break;
+        case 'close': s.tone(900, 0, .1, 'sine', .05, 540); break;
+        case 'ping': s.bell(1760, 0, .05); s.tone(2637, .12, .5, 'sine', .03); s.tone(1318.5, .26, .6, 'sine', .025); break;
+        case 'right': s.bell(1046.5, 0, .05); s.bell(1318.5, .07, .05); s.bell(1568, .14, .05); s.bell(2093, .21, .05); break;
         case 'tap': s.tone(1180, 0, .09, 'triangle', .05, 1560); break;
         case 'pop': s.tone(520, 0, .12, 'sine', .09, 1240); s.tone(2200, .03, .05, 'sine', .02); break;
         case 'select': s.bell(1318.5, 0, .06); s.bell(1975.5, .085, .055); break;
@@ -328,7 +438,7 @@
     this.proj = d3.geoOrthographic().clipAngle(90).precision(1.2);
     this.path = d3.geoPath(this.proj);
     this.grat = d3.geoGraticule10();
-    this.pinEls = {}; this.last = 0; this.time = 0; this.landPath = null; this.landKey = '';
+    this.pinEls = {}; this.sightEls = {}; this.sights = []; this.me = null; this.last = 0; this.time = 0; this.landPath = null; this.landKey = '';
     // capas estáticas en CSS (halo, océano con borde troquelado, volumen): el compositor solo las escala
     var host = canvas.parentNode;
     this.halo = document.createElement('div'); this.halo.className = 'g-halo'; this.halo.setAttribute('aria-hidden', 'true');
@@ -376,45 +486,107 @@
     x *= s; y *= s; z *= s;
     return { x: this.cx + x * R, y: this.cy - y * R, z: z, vis: z > 0 || (x * x + y * y) > 1 };
   };
+  /* gestos: un dedo gira, dos dedos hacen zoom (pellizco). touch-action: none en el contenedor, así la página no se mueve. */
+  var ZMIN = .75, ZMAX = 4;
   Globe.prototype.bindInput = function () {
-    var self = this, c = this.c;
-    c.addEventListener('pointerdown', function (e) {
-      if (e.button) return;
-      self.drag = { id: e.pointerId, x: e.clientX, y: e.clientY, lon: self.lon, lat: self.lat, lt: performance.now(), lx: e.clientX, ly: e.clientY, moved: false };
+    var self = this, host = this.c.parentNode, c = this.c, ptrs = {};
+    function count() { return Object.keys(ptrs).length; }
+    function two() { var k = Object.keys(ptrs); return [ptrs[k[0]], ptrs[k[1]]]; }
+    function startDrag(id, x, y, moved, pin) {
+      self.drag = { id: id, x: x, y: y, lon: self.lon, lat: self.lat, lt: performance.now(), lx: x, ly: y, moved: !!moved, pin: pin || null };
+    }
+    host.addEventListener('pointerdown', function (e) {
+      if (e.pointerType === 'mouse' && e.button) return;
+      if (e.target.closest && e.target.closest('button:not(.pin):not(.sight), a, .zoom-ctrl')) return;
+      ptrs[e.pointerId] = { x: e.clientX, y: e.clientY };
+      try { host.setPointerCapture(e.pointerId); } catch (er) { /* nada */ }
       self.tween = null; self.vlon = self.vlat = 0;
-      try { c.setPointerCapture(e.pointerId); } catch (er) { /* nada */ }
+      if (count() === 1) startDrag(e.pointerId, e.clientX, e.clientY, false, e.target.closest ? e.target.closest('.pin, .sight') : null);
+      else if (count() === 2) {
+        var p = two(); self.pinch = { d0: Math.hypot(p[0].x - p[1].x, p[0].y - p[1].y) || 1, z0: self.zoom };
+        if (self.drag) self.drag.moved = true;
+        hideHintOnce(self);
+      }
     });
-    c.addEventListener('pointermove', function (e) {
-      var d = self.drag; if (!d || d.id !== e.pointerId) return;
-      var dx = e.clientX - d.x, dy = e.clientY - d.y;
-      if (!d.moved && Math.abs(dx) + Math.abs(dy) > 5) { d.moved = true; c.classList.add('grabbing'); if (self.opt.onDragStart) self.opt.onDragStart(); }
-      if (!d.moved) return;
+    host.addEventListener('pointermove', function (e) {
+      if (!ptrs[e.pointerId]) return;
+      ptrs[e.pointerId] = { x: e.clientX, y: e.clientY };
+      if (self.pinch && count() >= 2) {
+        var p = two(), d = Math.hypot(p[0].x - p[1].x, p[0].y - p[1].y);
+        self.setZoom(self.pinch.z0 * d / self.pinch.d0);
+        self.idleUntil = performance.now() + 10000;
+        return;
+      }
+      var dr = self.drag; if (!dr || dr.id !== e.pointerId) return;
+      var dx = e.clientX - dr.x, dy = e.clientY - dr.y;
+      if (!dr.moved && Math.abs(dx) + Math.abs(dy) > 6) { dr.moved = true; c.classList.add('grabbing'); hideHintOnce(self); }
+      if (!dr.moved) return;
       var k = 180 / (Math.PI * self.R0 * self.zoom) * .95;
-      self.lon = d.lon - dx * k; self.lat = clamp(d.lat + dy * k, -78, 78);
-      var tt = performance.now(), dt = Math.max(1, tt - d.lt);
-      self.vlon = .6 * self.vlon + .4 * (-(e.clientX - d.lx) * k / dt);
-      self.vlat = .6 * self.vlat + .4 * ((e.clientY - d.ly) * k / dt);
-      d.lt = tt; d.lx = e.clientX; d.ly = e.clientY;
+      self.lon = dr.lon - dx * k; self.lat = clamp(dr.lat + dy * k, -78, 78);
+      var tt = performance.now(), dt = Math.max(1, tt - dr.lt);
+      self.vlon = .6 * self.vlon + .4 * (-(e.clientX - dr.lx) * k / dt);
+      self.vlat = .6 * self.vlat + .4 * ((e.clientY - dr.ly) * k / dt);
+      dr.lt = tt; dr.lx = e.clientX; dr.ly = e.clientY;
       self.kick();
     });
     function end(e) {
-      var d = self.drag; if (!d || d.id !== e.pointerId) return;
-      self.drag = null; c.classList.remove('grabbing');
+      if (!ptrs[e.pointerId]) return;
+      delete ptrs[e.pointerId];
+      if (count() < 2) self.pinch = null;
+      if (count() === 1) {  // queda un dedo después del pellizco: sigue girando desde ahí, sin saltos
+        var k = Object.keys(ptrs)[0]; startDrag(+k, ptrs[k].x, ptrs[k].y, true); self.vlon = self.vlat = 0; return;
+      }
+      if (count()) return;
+      var dr = self.drag; self.drag = null; c.classList.remove('grabbing');
       self.idleUntil = performance.now() + 10000;
-      if (performance.now() - d.lt > 90 || reduce) self.vlon = self.vlat = 0;
-      if (!d.moved && e.type === 'pointerup') {
-        var r = c.getBoundingClientRect(), hit = self.hitTest(e.clientX - r.left, e.clientY - r.top);
-        if (hit && self.opt.onPick) self.opt.onPick(hit);
+      if (!dr) return;
+      if (performance.now() - dr.lt > 90 || reduce) self.vlon = self.vlat = 0;
+      if (!dr.moved && e.type === 'pointerup') {
+        if (dr.pin && dr.pin.classList.contains('sight')) { if (self.opt.onSight) self.opt.onSight(dr.pin.getAttribute('data-sid')); }
+        else {
+          var r = c.getBoundingClientRect(), hit = dr.pin ? dr.pin.getAttribute('data-id') : self.hitTest(e.clientX - r.left, e.clientY - r.top);
+          if (hit && self.opt.onPick) self.opt.onPick(hit);
+        }
       }
       self.kick();
     }
-    c.addEventListener('pointerup', end); c.addEventListener('pointercancel', end);
+    host.addEventListener('pointerup', end); host.addEventListener('pointercancel', end);
+    host.addEventListener('lostpointercapture', function (e) { if (ptrs[e.pointerId]) end(e); });
+    // trackpad: pellizco llega como ctrl + rueda. La rueda sola sigue bajando la página.
+    host.addEventListener('wheel', function (e) {
+      if (!e.ctrlKey) return;
+      e.preventDefault(); self.setZoom(self.zoom * Math.exp(-e.deltaY * .01)); self.idleUntil = performance.now() + 10000;
+    }, { passive: false });
+    // teclado: flechas giran, + y - acercan
+    c.tabIndex = 0;
+    c.addEventListener('keydown', function (e) {
+      var step = 12 / self.zoom, used = true;
+      if (e.key === 'ArrowLeft') self.flyTo(self.lon - step, self.lat, self.zoom, 260);
+      else if (e.key === 'ArrowRight') self.flyTo(self.lon + step, self.lat, self.zoom, 260);
+      else if (e.key === 'ArrowUp') self.flyTo(self.lon, clamp(self.lat + step, -78, 78), self.zoom, 260);
+      else if (e.key === 'ArrowDown') self.flyTo(self.lon, clamp(self.lat - step, -78, 78), self.zoom, 260);
+      else if (e.key === '+' || e.key === '=') self.zoomBy(1.4);
+      else if (e.key === '-' || e.key === '_') self.zoomBy(1 / 1.4);
+      else used = false;
+      if (used) { e.preventDefault(); self.idleUntil = performance.now() + 10000; }
+    });
+  };
+  function hideHintOnce(g) { if (g.opt.onDragStart) g.opt.onDragStart(); }
+  Globe.prototype.setZoom = function (z) {
+    this.zoom = clamp(z, ZMIN, ZMAX); this.tween = null;
+    if (this.opt.onZoom) this.opt.onZoom(this.zoom);
+    this.kick();
+  };
+  Globe.prototype.zoomBy = function (f) {
+    var z = clamp(this.zoom * f, ZMIN, ZMAX);
+    this.flyTo(this.lon, this.lat, z, reduce ? 0 : 380, true);
+    if (this.opt.onZoom) this.opt.onZoom(z);
   };
   Globe.prototype.hitTest = function (x, y) {
     var best = null, bd = 46;
     this.markers.forEach(function (m) {
       if (!m.screen || !m.screen.front) return;
-      var d = Math.hypot(m.screen.x - x, m.screen.y - 30 - y);
+      var d = Math.hypot(m.screen.x - x, m.screen.y - (m.ph || 60) * .45 - y);
       if (d < bd) { bd = d; best = m.id; }
     });
     return best;
@@ -427,15 +599,20 @@
       keep[m.id] = 1;
       var el = self.pinEls[m.id];
       if (!el) {
-        el = document.createElement('button'); el.type = 'button'; el.className = 'pin away';
-        el.innerHTML = '<span class="pin-bob"><span class="pin-glow"></span><img class="pin-img" alt="" draggable="false"><span class="pin-tag"></span></span>';
-        el.addEventListener('click', function () { if (self.opt.onPick) self.opt.onPick(m.id); });
+        el = document.createElement('button'); el.type = 'button'; el.className = 'pin away'; el.setAttribute('data-id', m.id);
+        el.innerHTML = '<span class="pin-bob"><span class="pin-glow"></span><span class="crowd"></span><span class="pin-tag"></span></span>';
+        // el clic con mouse o dedo lo resuelve el gesto del globo; este solo atiende teclado (Enter / Espacio)
+        el.addEventListener('click', function (e) { if (e.detail === 0 && self.opt.onPick) self.opt.onPick(m.id); });
         if (self.opt.passive) { el.tabIndex = -1; el.style.pointerEvents = 'none'; }
-        self.pinsEl.appendChild(el); self.pinEls[m.id] = el; el._t = '';
+        self.pinsEl.appendChild(el); self.pinEls[m.id] = el; el._t = ''; el._ck = '';
       }
-      var f = face(m.id), img = el.querySelector('.pin-img');
-      if (img.getAttribute('src') !== f.src) { img.src = f.src; img.classList.toggle('photo', f.photo); }
-      el.style.cssText = gStyle(m.id) + ';--bd:' + (1.25 + (i % 5) * .17).toFixed(2) + 's;--bdl:-' + (i * .37).toFixed(2) + 's';
+      var ck = m.list.map(function (x) { return x.id; }).join(',') + '|' + Math.round(self.pinTarget || 90);
+      if (el._ck !== ck) {
+        var cr = crowdHtml(m.id, m.list, self.pinTarget || 90), box = el.querySelector('.crowd');
+        box.style.width = cr.w.toFixed(1) + 'px'; box.style.height = cr.h.toFixed(1) + 'px'; box.innerHTML = cr.html;
+        m.pw = cr.w; m.ph = cr.h; el._pw = cr.w; el._ph = cr.h; el._ck = ck;
+      } else { m.pw = el._pw; m.ph = el._ph; }
+      el.style.cssText = gStyle(m.id) + ';width:' + m.pw.toFixed(1) + 'px;--bd:' + (1.9 + (i % 5) * .23).toFixed(2) + 's;--bdl:-' + (i * .37).toFixed(2) + 's';
       el._t = '';
       el.classList.toggle('live', m.mode === 'live'); el.classList.toggle('rest', m.mode === 'rest'); el.classList.toggle('low', !!m.low);
       el.querySelector('.pin-tag').innerHTML = esc(m.name) + (m.label ? ' <i>' + esc(m.label) + '</i>' : '');
@@ -444,16 +621,38 @@
     Object.keys(this.pinEls).forEach(function (id) { if (!keep[id]) { self.pinEls[id].remove(); delete self.pinEls[id]; } });
     this.kick();
   };
+  /* avistamientos: insignias redondas sobre la ciudad (nivel ciudad, nunca más fino) */
+  Globe.prototype.setSights = function (list) {
+    var self = this, keep = {};
+    this.sights = list;
+    list.forEach(function (sg) {
+      keep[sg.sid] = 1;
+      var el = self.sightEls[sg.sid];
+      if (!el) {
+        el = document.createElement('button'); el.type = 'button'; el.className = 'sight away'; el.setAttribute('data-sid', sg.sid);
+        el.innerHTML = '<span class="sight-ring"></span><img alt="" draggable="false" decoding="async">';
+        el.addEventListener('click', function (e) { if (e.detail === 0 && self.opt.onSight) self.opt.onSight(sg.sid); });
+        if (self.opt.passive) { el.tabIndex = -1; el.style.pointerEvents = 'none'; }
+        self.pinsEl.appendChild(el); self.sightEls[sg.sid] = el; el._t = '';
+      }
+      el.querySelector('img').src = face(sg.group).src;
+      el.style.cssText = gStyle(sg.group); el._t = '';
+      el.classList.toggle('fresh', !!sg.fresh);
+      el.setAttribute('aria-label', sg.aria);
+    });
+    Object.keys(this.sightEls).forEach(function (k) { if (!keep[k]) { self.sightEls[k].remove(); delete self.sightEls[k]; } });
+    this.kick();
+  };
   Globe.prototype.setSel = function (id) {
     this.sel = id;
     var self = this;
     Object.keys(this.pinEls).forEach(function (k) { self.pinEls[k].classList.toggle('sel', k === id); self.pinEls[k].classList.toggle('dim', !!id && k !== id); });
     this.kick();
   };
-  Globe.prototype.flyTo = function (lon, lat, zoom, dur) {
+  Globe.prototype.flyTo = function (lon, lat, zoom, dur, noDip) {
     if (reduce || !dur) { this.lon = lon; this.lat = lat; this.zoom = zoom; this.tween = null; this.kick(); return; }
     var dl = ((lon - this.lon) % 360 + 540) % 360 - 180;
-    this.tween = { t0: performance.now(), dur: dur, lon0: this.lon, lat0: this.lat, z0: this.zoom, dl: dl, dlat: lat - this.lat, z1: zoom, dip: Math.min(.32, Math.abs(dl) / 280 + Math.abs(lat - this.lat) / 400) };
+    this.tween = { t0: performance.now(), dur: dur, lon0: this.lon, lat0: this.lat, z0: this.zoom, dl: dl, dlat: lat - this.lat, z1: zoom, dip: noDip ? 0 : Math.min(.32, Math.abs(dl) / 280 + Math.abs(lat - this.lat) / 400) };
     this.vlon = this.vlat = 0;
     this.kick();
   };
@@ -476,7 +675,7 @@
       if (Math.abs(this.vlon) + Math.abs(this.vlat) > .0004) {
         this.lon += this.vlon * dt; this.lat = clamp(this.lat + this.vlat * dt, -78, 78);
         var f = Math.pow(.94, dt / 16); this.vlon *= f; this.vlat *= f; moving = true;
-      } else if (!reduce && !this.sel && performance.now() > this.idleUntil && this.spin) {
+      } else if (!reduce && !this.sel && this.zoom < 1.3 && performance.now() > this.idleUntil && this.spin) {
         this.lon += this.spin * dt / 1000;
         this.lat += (8 - this.lat) * Math.min(1, dt / 2400);
         moving = true;
@@ -522,16 +721,34 @@
     this.routes.forEach(function (rt) { self.drawRoute(rt); });
     // puntos de parada y sombra bajo cada chibi
     this.markers.forEach(function (m) {
-      var p = self.project(m.lon, m.lat, 0);
-      m.screen = { x: p.x + (m.dx || 0), y: p.y, z: p.z, front: p.z > .12 };
+      var own = self.sel === m.id || m.alat == null;
+      var p = own ? self.project(m.lon, m.lat, 0) : self.project(m.alon, m.alat, 0), ox = own ? 0 : (m.dx || 0), oy = own ? 0 : (m.dy || 0);
+      m.screen = { x: p.x + ox, y: p.y + oy, z: p.z, front: p.z > .12 };
       if (p.z <= .05) return;
       ctx.globalAlpha = Math.min(1, p.z * 3);
-      ctx.fillStyle = 'rgba(46,33,80,.22)'; ctx.beginPath(); ctx.ellipse(p.x + (m.dx || 0), p.y + 1, 15 * (.7 + .3 * p.z), 5, 0, 0, TAU); ctx.fill();
+      ctx.fillStyle = 'rgba(46,33,80,.22)'; ctx.beginPath(); ctx.ellipse(p.x + ox, p.y + 1 + oy, 15 * (.7 + .3 * p.z), 5, 0, 0, TAU); ctx.fill();
+      if (!own) { p = self.project(m.lon, m.lat, 0); if (p.z <= .05) { ctx.globalAlpha = 1; return; } }
       ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(p.x, p.y, 5.5, 0, TAU); ctx.fill();
       ctx.lineWidth = 2; ctx.strokeStyle = '#2E2150'; ctx.stroke();
       ctx.fillStyle = m.color; ctx.beginPath(); ctx.arc(p.x, p.y, 3, 0, TAU); ctx.fill();
       ctx.globalAlpha = 1;
     });
+    // tú: corazón con la palabra "Tú"
+    if (this.me) {
+      var mp = this.project(this.me.lon, this.me.lat, 0);
+      if (mp.z > .05) {
+        ctx.globalAlpha = Math.min(1, mp.z * 3);
+        var pr = reduce ? 0 : (this.time % 2.2) / 2.2;
+        ctx.strokeStyle = 'rgba(255,95,168,' + (1 - pr).toFixed(2) + ')'; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.arc(mp.x, mp.y, 6 + pr * 22, 0, TAU); ctx.stroke();
+        ctx.fillStyle = '#FF5FA8'; ctx.strokeStyle = '#2E2150'; ctx.lineWidth = 2;
+        var hs = 7; ctx.beginPath(); ctx.moveTo(mp.x, mp.y + hs * .9);
+        ctx.bezierCurveTo(mp.x - hs * 1.5, mp.y - hs * .1, mp.x - hs * .8, mp.y - hs * 1.2, mp.x, mp.y - hs * .4);
+        ctx.bezierCurveTo(mp.x + hs * .8, mp.y - hs * 1.2, mp.x + hs * 1.5, mp.y - hs * .1, mp.x, mp.y + hs * .9); ctx.fill(); ctx.stroke();
+        ctx.font = '400 13px Jua, "Baloo 2", sans-serif'; ctx.textAlign = 'center';
+        ctx.lineWidth = 4; ctx.strokeStyle = '#fff'; ctx.strokeText(this.me.label, mp.x, mp.y + 22); ctx.fillStyle = '#2E2150'; ctx.fillText(this.me.label, mp.x, mp.y + 22);
+        ctx.globalAlpha = 1;
+      }
+    }
     this.placePins();
   };
   Globe.prototype.cloud = function (x, y, s) {
@@ -590,19 +807,29 @@
     }
   };
   Globe.prototype.placePins = function () {
-    var self = this, pw = this.pinW || 74;
-    if (this._pw !== pw) { this._pw = pw; this.pinsEl.style.setProperty('--pw', pw + 'px'); this.markers.forEach(function (m) { var el = self.pinEls[m.id]; if (el) el._t = ''; }); }
+    var self = this, zs = clamp(.85 + (self.zoom - 1) * .3, .85, 1.25);
     this.markers.forEach(function (m) {
       var el = self.pinEls[m.id]; if (!el || !m.screen) return;
-      var s = m.screen, front = s.front, sc = (.72 + .28 * Math.max(0, s.z)) * clamp(.85 + (self.zoom - 1) * .35, .85, 1.2) * (self.starId === m.id ? 1.35 : 1);
-      var x = s.x - pw / 2, y = s.y - pw * 1.16;
+      var s = m.screen, front = s.front, sc = (.74 + .26 * Math.max(0, s.z)) * zs * (self.starId === m.id ? 1.3 : 1);
+      var x = s.x - m.pw / 2, y = s.y - m.ph * .97;
       var key = front ? (x.toFixed(1) + ',' + y.toFixed(1) + ',' + sc.toFixed(3)) : 'away';
       if (key === el._t) return;
       el._t = key;
       if (!front) { el.classList.add('away'); return; }
       el.classList.remove('away');
       el.style.transform = 'translate3d(' + x.toFixed(1) + 'px,' + y.toFixed(1) + 'px,0) scale(' + sc.toFixed(3) + ')';
-      el.style.zIndex = String(Math.round(s.z * 100));
+      el.style.zIndex = String(Math.round(s.z * 100) + 10);
+    });
+    this.sights.forEach(function (sg) {
+      var el = self.sightEls[sg.sid]; if (!el) return;
+      var p = self.project(sg.lon, sg.lat, 0), front = p.z > .15;
+      var key = front ? (p.x.toFixed(1) + ',' + p.y.toFixed(1)) : 'away';
+      if (key === el._t) return;
+      el._t = key;
+      if (!front) { el.classList.add('away'); return; }
+      el.classList.remove('away');
+      el.style.transform = 'translate3d(' + (p.x - 17 + (sg.dx || 0)).toFixed(1) + 'px,' + (p.y - 17).toFixed(1) + 'px,0)';
+      el.style.zIndex = String(Math.round(p.z * 10));
     });
   };
 
@@ -614,8 +841,10 @@
       if (st.mode === 'live') label = 'LIVE';
       else if (st.mode === 'next') label = dday(st.cur);
       else label = 'zZ';
+      var list = lineupOf(st);
       markers.push({
-        id: st.id, name: st.g.name, lat: st.pos.lat, lon: st.pos.lon, color: color, mode: st.mode, label: label,
+        id: st.id, name: st.g.name, lat: st.pos.lat, lon: st.pos.lon, color: color, mode: st.mode, label: label, list: list,
+        cw: crowdLayout(Math.max(1, list.length), pinWidth()).w,
         aria: st.g.name + ', ' + (st.mode === 'rest' ? t('rest') : city + ', ' + fmtKm(hav(o.lat, o.lon, st.pos.lat, st.pos.lon)) + ' km')
       });
       // ruta: de la última parada pasada a la actual, y de ahí todas las que vienen
@@ -640,10 +869,26 @@
     // separa chibis que caen en la misma ciudad
     var groups = [];
     markers.forEach(function (m) {
-      var g = groups.filter(function (gr) { return hav(gr[0].lat, gr[0].lon, m.lat, m.lon) < 950; })[0];
+      var g = groups.filter(function (gr) { return gr.some(function (o) { return hav(o.lat, o.lon, m.lat, m.lon) < 2300; }); })[0];
       if (g) g.push(m); else groups.push([m]);
     });
-    groups.forEach(function (gr) { gr.forEach(function (m, i) { m.dx = (i - (gr.length - 1) / 2) * (pinWidth() * .9); m.low = gr.length > 1 && i % 2 === 1; }); });
+    // grupos en la misma zona: en filas de hasta 3 (la de atrás un poco más arriba) para que nadie tape a nadie
+    groups.forEach(function (gr) {
+      if (gr.length === 1) return;
+      // centro de la región: la foto grupal se arma ahí; al elegir un grupo, vuelve a su ciudad exacta
+      var cl = gr.reduce(function (a, m) { return [a[0] + m.lat / gr.length, a[1] + m.lon / gr.length]; }, [0, 0]);
+      gr.forEach(function (m) { m.alat = cl[0]; m.alon = cl[1]; });
+      var cols = gr.length <= 3 ? gr.length : Math.ceil(gr.length / 2), maxH = 0;
+      gr.forEach(function (m) { maxH = Math.max(maxH, crowdLayout(Math.max(1, m.list.length), pinWidth()).h); });
+      for (var r = 0; r * cols < gr.length; r++) {
+        var row = gr.slice(r * cols, r * cols + cols), total = row.reduce(function (a, m) { return a + m.cw * .86; }, 0), x = -total / 2;
+        row.forEach(function (m, i) {
+          m.dx = x + m.cw * .43; x += m.cw * .86;
+          m.dy = -r * maxH * .62;
+          m.low = gr.length > cols ? r === 0 : i % 2 === 1;
+        });
+      }
+    });
     return { markers: markers, routes: routes };
   }
 
@@ -671,7 +916,7 @@
       s += '<text x="' + c[0] + '" y="' + c[1] + '" text-anchor="middle" font-family="Jua, sans-serif" font-size="7" fill="#2E2150">' + c[2] + '</text>';
     });
     $('#sonarPlate').innerHTML = s + '</svg>';
-    $('#sonarMe').innerHTML = esc(t('you')) + ' · ' + esc(place(o.name));
+    $('#sonarMe').innerHTML = esc(t('you')) + (o.geo ? '' : ' · ' + esc(place(o.name)));
     var html = '';
     // posición real y luego un pequeño relajo para que no se monten los que están cerca entre sí
     states.forEach(function (st) {
@@ -679,8 +924,8 @@
       st.sonar = { x: 100 + r * Math.sin(b), y: 100 - r * Math.cos(b), km: km };
       st.sonar.tx = st.sonar.x; st.sonar.ty = st.sonar.y;
     });
-    var MIN = 36;
-    for (var it = 0; it < 60; it++) {
+    var MIN = states.length > 6 ? 44 : 36;
+    for (var it = 0; it < 120; it++) {
       states.forEach(function (a, i) {
         states.forEach(function (b2, j) {
           if (j <= i) return;
@@ -688,11 +933,11 @@
           if (d < MIN) { var push = (MIN - d) / 2, ux = dx / d, uy = dy / d; a.sonar.x -= ux * push; a.sonar.y -= uy * push; b2.sonar.x += ux * push; b2.sonar.y += uy * push; }
         });
       });
-      states.forEach(function (st) { var cx = st.sonar.x - 100, cy = st.sonar.y - 100, d = Math.hypot(cx, cy); if (d > 86) { st.sonar.x = 100 + cx / d * 86; st.sonar.y = 100 + cy / d * 86; } });
+      states.forEach(function (st) { var cx = st.sonar.x - 100, cy = st.sonar.y - 100, d = Math.hypot(cx, cy); if (d > 80) { st.sonar.x = 100 + cx / d * 80; st.sonar.y = 100 + cy / d * 80; } });
     }
     states.forEach(function (st) {
       var x = st.sonar.x, y = st.sonar.y, km = st.sonar.km;
-      var lab = st.mode === 'live' ? 'LIVE' : st.mode === 'next' ? dday(st.cur) : '쉬는 중';
+      var lab = st.mode === 'live' ? 'LIVE' : st.mode === 'next' ? dday(st.cur) : 'zZ';
       html += '<button type="button" class="blip ' + st.mode + '" data-pick="' + esc(st.id) + '" aria-pressed="' + (sel === st.id) + '" style="left:' + (x / 2).toFixed(2) + '%;top:' + (y / 2).toFixed(2) + '%;' + gStyle(st.id) + '" aria-label="' + esc(st.g.name + ', ' + (st.mode === 'rest' ? t('rest') : place(st.pos.city)) + ', ' + fmtKm(km) + ' km') + '">' +
         '<span class="blip-face">' + faceImg(st.id) + '</span><span class="blip-l">' + esc(st.g.name) + ' <i>' + esc(lab) + '</i></span></button>';
     });
@@ -746,6 +991,7 @@
     var where = st.mode === 'rest'
       ? '<b>' + esc(t('rest')) + '</b>' + (st.last ? ' · ' + esc(t('lastStop')) + ': ' + esc(place(st.last.city)) + ', ' + esc(fmtShort(st.last.local_date)) + ' ' + parts(st.last.local_date).y : '')
       : '<b>' + esc(place(st.cur.city)) + '</b>, ' + esc(place(st.cur.country)) + ' · ' + fmtKm(km) + ' km';
+    var lu = lineupOf(st); if (lu.length < members(st.id).length) where += '<br>' + esc(t('withUnit', { names: lu.map(function (m) { return m.name; }).join(' & ') }));
     el.hidden = false;
     el.setAttribute('style', gStyle(st.id));
     el.innerHTML = '<span class="f-face">' + faceImg(st.id) + '</span>' +
@@ -761,12 +1007,15 @@
     states.forEach(function (st) {
       st.up.forEach(function (e) { var d = hav(o.lat, o.lon, e.lat, e.lon); if (!best || d < best.d) best = { d: d, e: e, st: st }; });
     });
-    var el = $('#nearCard');
+    var el = $('#nearCard'), note = $('#geoNote');
+    if (geoState === 'asking') { note.hidden = false; note.innerHTML = '<span class="geo-dot" aria-hidden="true"></span>' + esc(t('geoLooking')); }
+    else if ((geoState === 'denied' || geoState === 'fail') && originIdx !== -1) { note.hidden = false; note.innerHTML = esc(t('geoNote')) + ' <button type="button" class="link-btn" data-geo-retry>' + esc(t('retry')) + '</button>'; }
+    else note.hidden = true;
     if (!best) { el.innerHTML = '<div class="nearest"><p class="n-v">' + esc(t('nothingNear')) + '</p></div>'; return; }
     var e = best.e;
     e.t = Date.parse(e.start);
     el.innerHTML = '<div class="nearest" style="' + gStyle(best.st.id) + '"><span class="n-face">' + faceImg(best.st.id) + '</span>' +
-      '<p class="n-k">' + esc(t('nearest')) + ' · ' + esc(place(o.name)) + '</p>' +
+      '<p class="n-k">' + esc(t('nearest')) + ' · ' + esc(originLabel()) + '</p>' +
       '<p class="n-v"><b>' + esc(best.st.g.name) + '</b> · ' + esc(place(e.city)) + '</p>' +
       '<p class="n-s">' + fmtKm(best.d) + ' km · ' + esc(fmtDate(e.local_date)) + ' · ' + esc(ms >= e.t ? t('live') : dday(e)) + '</p></div>';
   }
@@ -776,12 +1025,39 @@
       return '<div class="cd-t"><div class="cd-n"><span>00</span></div><div class="cd-l"><span class="ko" lang="ko">' + l[0] + '</span>' + esc(t(l[1])) + '</div></div>';
     }).join('') + '</div>';
   }
+  function squadHtml(st) {
+    var all = members(st.id); if (!all.length) return '';
+    var on = lineupOf(st).map(function (m) { return m.id; }), unit = on.length < all.length;
+    return '<div class="squad-wrap"><p class="squad-k">' + esc(t('squad')) + (unit ? ' · <b>' + esc(t('withUnit', { names: lineupOf(st).map(function (m) { return m.name; }).join(' & ') })) + '</b>' : '') + '</p><ul class="squad" data-n="' + all.length + '">' + all.map(function (m, i) {
+      var off = unit && on.indexOf(m.id) < 0;
+      return '<li><button type="button" class="mem' + (off ? ' off' : '') + '" data-mem="' + esc(st.id + ':' + m.id) + '" data-i="' + i + '" aria-label="' + esc(m.name + (off ? ', ' + t('notOnTour') : '')) + '" style="--dl:-' + (i * .37 % 2.6).toFixed(2) + 's">' +
+        '<span class="mem-say" lang="ko" aria-hidden="true">' + esc(m.ko) + '!</span><img src="' + esc(memberSrc(st.id, m.id)) + '" alt="" loading="lazy" decoding="async" draggable="false"><span class="mem-n">' + esc(m.name) + '</span></button></li>';
+    }).join('') + '</ul></div>';
+  }
+  function triviaHtml(gid) {
+    var q = TRIVIA[gid]; if (!q) return '';
+    return '<details class="agenda trivia"><summary>' + esc(t('triviaTitle')) + ' <span class="ko" lang="ko">퀴즈</span></summary><ol class="tq">' + q.map(function (x, i) {
+      return '<li data-q="' + i + '"><p>' + esc(lang === 'en' ? x[1] : x[0]) + '</p><div class="tq-o">' + x[2].map(function (o, j) {
+        return '<button type="button" class="chip-btn" data-trivia="' + esc(gid + ':' + i + ':' + j) + '">' + esc(o) + '</button>';
+      }).join('') + '</div><p class="tq-r" aria-live="polite"></p></li>';
+    }).join('') + '</ol><p class="tq-score" aria-live="polite"></p></details>';
+  }
+  /* venta de boletas: sticker cuando la venta está a 14 días o menos (campo opcional onsale del evento) */
+  function onsaleHtml(st) {
+    var ms = now(), best = null;
+    st.up.forEach(function (e) { if (!e.onsale) return; var t0 = Date.parse(e.onsale); if (isNaN(t0) || t0 + 864e5 < ms || t0 - ms > 14 * 864e5) return; if (!best || t0 < best.t) best = { t: t0, e: e }; });
+    if (!best) return '';
+    var a = new Date(ms); a.setHours(0, 0, 0, 0); var b = new Date(best.t); b.setHours(0, 0, 0, 0);
+    var d = Math.round((b - a) / 864e5);
+    if (d <= 0) return '<p class="onsale today"><span class="ko" lang="ko">티켓팅</span> ' + esc(t('onsaleToday')) + ' <small>' + esc(place(best.e.city)) + ' · ' + esc(myTime(best.t)) + '</small></p>';
+    return '<p class="onsale"><span class="ko" lang="ko">티켓팅</span> ' + esc(t('onsaleIn', { d: 'D-' + d, when: myTime(best.t) })) + ' <small>' + esc(place(best.e.city)) + '</small></p>';
+  }
   function cardHtml(st) {
     var g = st.g, o = origin(), m = META[g.id] || {}, h = '';
     h += '<article class="card ' + (sel === g.id ? 'is-sel' : '') + '" id="card-' + esc(g.id) + '" data-g="' + esc(g.id) + '" style="' + gStyle(g.id) + '">';
     h += '<span class="tape" aria-hidden="true"></span>';
-    h += '<div class="c-top"><div class="c-face">' + faceImg(g.id, '', '') + '</div><div>' +
-      (m.ko ? '<p class="c-ko" lang="ko">' + esc(m.ko) + '</p>' : '') + '<h3 class="c-name' + (/^\S{9,}$/.test(g.name) ? ' long' : '') + '">' + esc(g.name) + '</h3>' +
+    h += '<div class="c-top"><div class="c-face">' + faceImg(g.id, '', '') + '</div><div class="c-id">' +
+      (m.ko ? '<p class="c-ko" lang="ko">' + esc(m.ko) + '</p>' : '') + '<h3 class="c-name' + (g.name.length >= 9 && /^\S+$/.test(g.name) ? ' xlong' : g.name.length >= 7 ? ' long' : '') + '">' + esc(g.name) + '</h3>' +
       '<p class="c-tour">' + esc(tourName(g.tour)) + '</p></div>' +
       '<button type="button" class="bias" data-bias="' + esc(g.id) + '" aria-pressed="' + (bias === g.id) + '" aria-label="' + esc(t('bias')) + ': ' + esc(g.name) + '">' + ICON.heart + '</button></div>';
     if (st.mode === 'rest') {
@@ -794,13 +1070,19 @@
       h += '<p class="c-where">' + esc(place(e.city)) + '<small>' + esc(place(e.country)) + (e.venue ? ' · ' + esc(e.venue) : '') + '</small></p>';
       h += '<p class="c-when"><b>' + esc(fmtDate(e.local_date)) + ', ' + esc(e.start.slice(11, 16)) + '</b> ' + esc(t('localTime')) +
         (e.status === 'anunciado' ? ' <span class="tag">' + esc(t('announced')) + '</span>' : '') + '<br>' + esc(t('yourTime')) + ': ' + esc(myTime(e.t)) + '</p>';
+      h += onsaleHtml(st);
       h += live ? '<div class="cd-live"><span class="ko" lang="ko">지금 무대 위!</span>' + esc(lang === 'en' ? 'On stage right now' : 'En el escenario ahora mismo') + '</div>' : cdTiles(e.start);
-      h += '<div class="facts"><span class="km">' + fmtKm(km) + ' <small>' + esc(t('kmFrom', { city: place(o.name) })) + '</small></span><span class="fly">' + esc(t('flight', { h: flightH(km) })) + '</span><span class="dday">' + esc(live ? 'LIVE' : dday(e)) + '</span></div>';
+      h += '<div class="facts"><span class="km">' + fmtKm(km) + ' <small>' + esc(t('kmFrom', { city: originRef() })) + '</small></span><span class="fly">' + esc(t('flight', { h: flightH(km) })) + '</span><span class="dday">' + esc(live ? 'LIVE' : dday(e)) + '</span></div>';
     }
     h += '<div class="acts"><button type="button" class="act solid" data-share="' + esc(g.id) + '">' + ICON.share + esc(t('share')) + '</button>' +
       '<button type="button" class="act" data-pick="' + esc(g.id) + '" data-top="1" aria-label="' + esc(t('seeGlobe')) + '">' + ICON.globe + esc(t('globe')) + '</button>' +
       (st.cur ? '<button type="button" class="act" data-ics="' + esc(g.id) + '" aria-label="' + esc(t('calendar')) + '">' + ICON.cal + esc(t('calShort')) + '</button>' : '') + '</div>';
-    if (g.watch && g.watch.length) h += '<ul class="watch" lang="es">' + g.watch.map(function (w) { return '<li>' + esc(w) + '</li>'; }).join('') + '</ul>';
+    var watch = lang === 'en' && g.watch_en && g.watch_en.length ? g.watch_en : g.watch;
+    if (watch && watch.length) h += '<ul class="watch" lang="' + (watch === g.watch_en ? 'en' : 'es') + '">' + watch.map(function (w) { return '<li>' + esc(w) + '</li>'; }).join('') + '</ul>';
+    h += squadHtml(st);
+    var ph = photoOf(g.id);
+    if (ph) h += '<figure class="polaroid"><img src="' + esc(ph.src) + '"' + (ph.w ? ' width="' + ph.w + '" height="' + ph.h + '"' : '') + ' alt="' + esc(t('photoAlt', { g: g.name })) + '" loading="lazy" decoding="async"><figcaption>' + esc(g.name) + (m.fan ? ' · ' + esc(m.fan) : '') + '</figcaption></figure>';
+    h += triviaHtml(g.id);
     var rows = st.upStops;
     if (rows.length > 1 || (st.mode === 'rest' && st.past.length)) {
       var list = rows.length ? rows : stops(st.past).slice(-6);
@@ -840,7 +1122,7 @@
     $('#sources').innerHTML = (data.sources || []).map(function (s) {
       return /^https?:\/\//.test(s.url) ? '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s.name) + '</a></li>' : '';
     }).join('');
-    $('#moonChibis').innerHTML = data.groups.map(function (g, i) { return '<img src="' + esc(face(g.id).photo ? 'assets/chibis/' + (META[g.id] ? g.id : 'default') + '.svg' : face(g.id).src) + '" alt="" style="--r:' + ((i % 2 ? 1 : -1) * (6 + i * 2)) + 'deg" decoding="async">'; }).join('');
+    $('#moonChibis').innerHTML = data.groups.map(function (g, i) { return '<img src="' + esc(face(g.id).src) + '" alt="" style="--r:' + ((i % 2 ? 1 : -1) * (6 + i * 2)) + 'deg" decoding="async">'; }).join('');
   }
   function renderMeta() {
     var u = new Date(data.updated_at || Date.now());
@@ -852,7 +1134,7 @@
   }
   function renderOrigins() {
     var s = $('#origin');
-    s.innerHTML = (geoOrigin ? '<option value="-1">' + esc(t('myLocation')) + '</option>' : '') +
+    s.innerHTML = (geoOrigin ? '<option value="-1">' + esc(t('myLocation') + (geoOrigin.near ? ' (' + t('geoNear', { city: place(geoOrigin.near) }) + ')' : '')) + '</option>' : '') +
       ORIGINS.map(function (c, i) { return '<option value="' + i + '">' + esc(place(c[0])) + (c[1] ? ', ' + esc(place(c[1])) : '') + '</option>'; }).join('');
     s.value = String(originIdx);
   }
@@ -869,9 +1151,11 @@
     renderFeed();
     renderSources();
     renderMeta();
-    if (globe) { var gd = buildGeo(); globe.setData(gd.markers, gd.routes); globe.setSel(sel); }
+    if (globe) { var gd = buildGeo(); globe.setData(gd.markers, gd.routes); globe.setSel(sel); var o = origin(); globe.me = { lat: o.lat, lon: o.lon, label: t('you2') }; }
     if (view === 'sonar') renderSonar();
     renderForm();
+    renderSights();
+    renderChanges();
   }
 
   /* cuenta regresiva: solo cambia el dígito que cambió, rodando hacia abajo */
@@ -912,6 +1196,7 @@
     $$('.card').forEach(function (c) { c.classList.toggle('is-sel', c.getAttribute('data-g') === id); });
     if (globe) {
       globe.setSel(id);
+      var pe = globe.pinEls[id]; if (pe && !reduce) { pe.classList.remove('hop'); void pe.offsetWidth; pe.classList.add('hop'); }
       var big = globe.w < 600 ? 1.55 : 1.45;
       globe.flyTo(st.pos.lon, st.pos.lat - (globe.w < 600 ? 6 : 3), big, 1500);
       if (!reduce) setTimeout(function () { Sound.play('whoosh'); }, 60);
@@ -948,7 +1233,11 @@
     var st = stOf(id); if (!st) return Promise.reject();
     var o = origin(), col = gColor(id), m = META[id] || {}, W = 1080, H = 1920;
     var fonts = ['400 120px Jua', '700 60px Gaegu', '700 50px "Baloo 2"', '600 40px "Baloo 2"'].map(function (f) { return document.fonts ? document.fonts.load(f) : null; });
-    return Promise.all(fonts).catch(function () { }).then(function () { return loadImg(face(id).src); }).then(function (im) {
+    var ph = photoOf(id);
+    return Promise.all(fonts).catch(function () { }).then(function () {
+      return Promise.all([loadImg(face(id).src), ph ? loadImg(ph.src).catch(function () { return null; }) : null]);
+    }).then(function (ims) {
+      var im = ims[0], pim = ims[1];
       var c = document.createElement('canvas'); c.width = W; c.height = H; var x = c.getContext('2d');
       x.fillStyle = '#F4EEFF'; x.fillRect(0, 0, W, H);
       x.strokeStyle = '#E7DDFB'; x.lineWidth = 2;
@@ -968,14 +1257,17 @@
       roundRect(x, -450 + 18, -ch / 2 + 24, 900, ch, 64); x.fillStyle = col; x.fill();
       roundRect(x, -450, -ch / 2, 900, ch, 64); x.fillStyle = '#fff'; x.fill(); x.lineWidth = 7; x.strokeStyle = '#2E2150'; x.stroke();
       x.restore();
-      // chibi o foto
-      var f = face(id);
-      if (f.photo) {
-        x.save(); x.beginPath(); x.arc(W / 2, 470, 210, 0, Math.PI * 2); x.closePath(); x.fillStyle = '#fff'; x.fill(); x.clip();
-        var s = Math.max(420 / im.width, 420 / im.height); x.drawImage(im, W / 2 - im.width * s / 2, 470 - im.height * s / 2, im.width * s, im.height * s); x.restore();
-        x.lineWidth = 12; x.strokeStyle = '#fff'; x.beginPath(); x.arc(W / 2, 470, 216, 0, Math.PI * 2); x.stroke();
-        x.lineWidth = 7; x.strokeStyle = col; x.beginPath(); x.arc(W / 2, 470, 226, 0, Math.PI * 2); x.stroke();
-      } else x.drawImage(im, W / 2 - 230, 230, 460, 575);
+      // foto oficial completa (sin recortar) como polaroid, y el grupo en chibi delante
+      function contain(img, bx, by, bw, bh) { var k = Math.min(bw / img.width, bh / img.height); return [bx + (bw - img.width * k) / 2, by + (bh - img.height * k) / 2, img.width * k, img.height * k]; }
+      if (pim) {
+        var r = contain(pim, 150, 250, 780, 470);
+        x.save(); x.translate(r[0] + r[2] / 2, r[1] + r[3] / 2); x.rotate(.025);
+        roundRect(x, -r[2] / 2 - 18, -r[3] / 2 - 18, r[2] + 36, r[3] + 60, 14); x.fillStyle = '#fff'; x.fill(); x.lineWidth = 5; x.strokeStyle = '#2E2150'; x.stroke();
+        x.drawImage(pim, -r[2] / 2, -r[3] / 2, r[2], r[3]); x.restore();
+        var cr = contain(im, 300, 600, 480, 250); x.drawImage(im, cr[0], cr[1], cr[2], cr[3]);
+      } else {
+        var cr2 = contain(im, 170, 260, 740, 560); x.drawImage(im, cr2[0], cr2[1], cr2[2], cr2[3]);
+      }
       star4(x, 210, 340, 46, '#FFD84D'); star4(x, 880, 300, 34, '#FFB3D4'); star4(x, 900, 690, 28, '#FFD84D'); star4(x, 170, 720, 24, '#B9E8FF');
       // textos
       x.textAlign = 'center'; x.textBaseline = 'alphabetic';
@@ -990,7 +1282,7 @@
         var e = st.cur, km = hav(o.lat, o.lon, e.lat, e.lon);
         chip = (st.mode === 'live' ? '공연 중 · ' + t('live') : '다음 공연 · ' + t('next'));
         city = place(e.city).split(' (')[0]; sub = place(e.country) + ' · ' + fmtDate(e.local_date);
-        big = st.mode === 'live' ? 'LIVE' : dday(e); sub2 = fmtKm(km) + ' ' + t('kmFrom', { city: place(o.name) });
+        big = st.mode === 'live' ? 'LIVE' : dday(e); sub2 = fmtKm(km) + ' ' + t('kmFrom', { city: originRef() });
       }
       x.font = '400 42px Jua, "Baloo 2"'; var cw = x.measureText(chip).width + 60;
       x.save(); x.translate(W / 2, 1090); x.rotate(-.03); roundRect(x, -cw / 2, -38, cw, 76, 24); x.fillStyle = st.mode === 'live' ? '#FF3D8B' : '#FFF1A8'; x.fill(); x.lineWidth = 5; x.strokeStyle = '#2E2150'; x.stroke();
@@ -1076,6 +1368,7 @@
       if (saved.discord_user_id) $('#fDiscord').value = saved.discord_user_id;
       if (saved.whatsapp) $('#fWa').value = saved.whatsapp;
       if (saved.whatsapp_opt_in) $('#fOptIn').checked = true;
+      if (saved.consent_v) $('#fConsent').checked = true;
       if (saved.radius_km) $('#fRadius').value = saved.radius_km;
       if (saved.channel) setChannel(saved.channel, true);
     }
@@ -1098,6 +1391,7 @@
     pv.className = 'preview-bubble ' + form.ch;
     var hhmm = new Date().toTimeString().slice(0, 5);
     if (form.ch === 'discord') pv.innerHTML = '<b>Radar K-pop</b> <span class="pv-meta" style="display:inline">' + esc(t('pvNow')) + '</span><br>' + (name ? '@' + esc(name) + ' ' : '') + t('pvDiscord', { g: esc(g), city: esc(city) }).replace(/\*\*(.+?)\*\*/, '<b>$1</b>');
+    else if (form.ch === 'push') pv.innerHTML = '<span class="pv-app"><img src="assets/icons/icon-192.png" alt="" width="20" height="20"> Radar K-pop · ' + esc(t('pvNow')) + '</span><b>' + esc(g) + '</b> · ' + esc(city) + '<br>' + esc(t('pvWa', { g: g, city: city, km: km }).replace(/^Radar K-pop: /, ''));
     else pv.innerHTML = (name ? esc(name) + ', ' : '') + esc(t('pvWa', { g: g, city: city, km: km })) + '<span class="pv-meta">' + hhmm + ' ✓✓</span>';
   }
   function slug(s) { return (s || 'fan').normalize('NFKD').replace(/[^\w]+/g, '-').replace(/^-|-$/g, '').toLowerCase().slice(0, 24) || 'fan'; }
@@ -1108,10 +1402,12 @@
     var saved = loadForm() || {};
     var sub = {
       id: saved.id || slug($('#fName').value) + '-' + Math.random().toString(36).slice(2, 6),
-      name: $('#fName').value.trim(), city: o.name, lat: +o.lat.toFixed(4), lon: +o.lon.toFixed(4), radius_km: +$('#fRadius').value,
-      groups: groups.length ? groups : ['*'], channel: form.ch
+      name: $('#fName').value.trim(), city: o.geo ? (o.near || 'Mi ubicación') : o.name, lat: +o.lat.toFixed(2), lon: +o.lon.toFixed(2), radius_km: +$('#fRadius').value,
+      groups: groups.length ? groups : ['*'], channel: form.ch,
+      consent_v: '2026-10-15'  // versión del texto de autorización que aceptó (prueba de la autorización, Ley 1581)
     };
     if (form.ch === 'discord') { sub.discord_user_id = $('#fDiscord').value.replace(/\D/g, ''); sub.types = types; }
+    else if (form.ch === 'push') { sub.types = types; }
     else { sub.whatsapp = $('#fWa').value.trim(); sub.whatsapp_opt_in = $('#fOptIn').checked; sub.whatsapp_types = types; }
     return sub;
   }
@@ -1123,23 +1419,28 @@
       if (!field || field === 'wa') check('#fWa', '#eWa', /^\+\d[\d\s-]{7,17}$/.test($('#fWa').value.trim()));
       if (!field || field === 'opt') { var e = $('#eOpt'); e.hidden = $('#fOptIn').checked; if (!$('#fOptIn').checked) ok = false; }
     }
+    if (!field || field === 'consent') { var c = $('#eConsent'); c.hidden = $('#fConsent').checked; if (!$('#fConsent').checked) ok = false; }
     return ok;
   }
   function submitForm(ev) {
     ev.preventDefault();
-    if (!validate()) { Sound.play('boing'); var bad = $('.sub-form [aria-invalid="true"]'); if (bad) bad.focus(); return; }
+    if (!validate()) { Sound.play('boing'); var bad = $('.sub-form [aria-invalid="true"]') || (!$('#fConsent').checked && $('#fConsent')); if (bad) bad.focus(); return; }
     var sub = subscriberJson();
     store('radar-sub', JSON.stringify(sub));
+    if (form.ch === 'push') { subscribePush(sub); return; }
     var out = $('#subResult'), btn = $('#subSubmit'), clean = Object.assign({}, sub); delete clean.channel;
-    var endpoint = (CFG.subscribeEndpoint || '').trim();
+    var endpoint = apiBase() ? apiBase() + '/subscribe' : '';
     function showJson(msg) {
       out.hidden = false;
       out.innerHTML = '<p><b>' + esc(t('subSaved')) + '</b> ' + esc(msg) + '</p><pre id="subJson">' + esc(JSON.stringify(clean, null, 2)) + '</pre><button type="button" class="btn small" id="copyJson">' + esc(t('copy')) + '</button>';
     }
     if (!endpoint) { showJson(t('subNoEndpoint')); Sound.play('heart'); return; }
     btn.disabled = true; btn.firstChild.textContent = '...';
-    fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(clean) }).then(function (r) {
+    fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Delete-Token': store('radar-sub-token') || '' }, body: JSON.stringify(clean) }).then(function (r) {
       if (!r.ok) throw new Error(r.status);
+      return r.json().catch(function () { return {}; });
+    }).then(function (j) {
+      if (j && j.token) store('radar-sub-token', j.token);
       out.hidden = false; out.innerHTML = '<p><b>' + esc(t('subSent')) + '</b></p>'; Sound.play('fanfare');
     }).catch(function () { showJson(t('subFail')); Sound.play('boing'); })
       .then(function () { btn.disabled = false; btn.firstChild.textContent = t('subSubmit'); });
@@ -1233,6 +1534,112 @@
     }).catch(function () { renderFeed(); });
   }
 
+
+  /* ================= avistamientos cercanos (sightings.json, conector de X) ================= */
+  var sights = [], sightsMeta = { sample: false }, seenS = {}, seenSRaw = store('radar-seen-sightings');
+  try { (JSON.parse(seenSRaw || '[]') || []).forEach(function (k) { seenS[k] = 1; }); } catch (e) { seenS = {}; }
+  var firstSight = seenSRaw == null, freshS = {};
+  function sightKey(a) { return String(a.id || [a.group, a.city, a.when].join('|')); }
+  function okUrl(u) { return /^https:\/\/(x|twitter)\.com\//.test(u || '') ? u : ''; }
+  function pollSights() {
+    return fetch('sightings.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (j) {
+      if (!j || !Array.isArray(j.items)) return;
+      sightsMeta = { sample: !!j.sample, updated: j.updated_at };
+      sights = j.items.filter(function (a) { return a && isFinite(a.lat) && isFinite(a.lon) && a.city && a.group; });
+      var fresh = sights.filter(function (a) { return !seenS[sightKey(a)]; });
+      sights.forEach(function (a) { seenS[sightKey(a)] = 1; });
+      store('radar-seen-sightings', JSON.stringify(Object.keys(seenS).slice(-300)));
+      if (!firstSight) fresh.forEach(function (a) { freshS[sightKey(a)] = 1; });
+      renderSights();
+      if (!firstSight && fresh.length) announceSights(fresh.length);
+      firstSight = false;
+    }).catch(function () { renderSights(); });
+  }
+  function sightList() {
+    var o = origin();
+    return sights.map(function (a) { return { a: a, km: hav(o.lat, o.lon, a.lat, a.lon), key: sightKey(a) }; })
+      .sort(function (x, y) { return x.km - y.km; });
+  }
+  function gName(id) { var g = (data.groups || []).filter(function (x) { return x.id === id; })[0]; return g ? g.name : (id || ''); }
+  function renderSights() {
+    var el = $('#sightList'); if (!el) return;
+    var list = sightList();
+    $('#sightSample').hidden = !sightsMeta.sample;
+    if (!list.length) { el.innerHTML = '<li class="bub empty"><span class="bub-face">' + faceImg('default') + '</span><div class="bub-body"><p class="bub-b">' + esc(t('sightEmpty')) + '</p></div></li>'; }
+    else el.innerHTML = list.slice(0, innerWidth < 600 ? 4 : 6).map(function (x) {
+      var a = x.a, url = okUrl(a.url);
+      return '<li class="bub sighting' + (freshS[x.key] ? ' fresh' : '') + '" id="s-' + esc(x.key.replace(/[^\w-]/g, '')) + '" style="' + gStyle(a.group) + '"><span class="bub-face">' + faceImg(a.group) + '</span><div class="bub-body">' +
+        '<div class="bub-h"><span class="typ">' + esc(gName(a.group)) + '</span><span>' + esc(place(a.city)) + (a.country ? ', ' + esc(place(a.country)) : '') + '</span>' + (a.when ? '<time datetime="' + esc(a.when) + '">' + esc(t('ago', { n: agoTxt(now() - Date.parse(a.when)) })) + '</time>' : '') + '</div>' +
+        '<p class="bub-t">' + esc(t('sightAway', { km: fmtKm(x.km) })) + '</p>' + (a.text ? '<p class="bub-b">' + esc(a.text) + '</p>' : '') +
+        (url ? '<a class="s-link" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + esc(t('sightSee')) + (a.account ? ' · @' + esc(a.account) : '') + '</a>' : '') + '</div></li>';
+    }).join('');
+    // cinta tipo noticiero (inspirada en el tracker de Spidey): de lo más cerca a lo más lejos
+    var tk = $('#tickerTrack');
+    if (tk) {
+      var items = list.slice(0, 10).map(function (x) { return '<span class="tk-i" style="' + gStyle(x.a.group) + '"><b>' + esc(gName(x.a.group)) + '</b> ' + esc(place(x.a.city)) + ' · ' + fmtKm(x.km) + ' km</span>'; }).join('');
+      if (!items) items = '<span class="tk-i">' + esc(t('sightEmpty')) + '</span>';
+      tk.innerHTML = '<span class="tk-run">' + items + '</span><span class="tk-run" aria-hidden="true">' + items + '</span>';
+      tk.style.setProperty('--tk', Math.max(18, list.slice(0, 10).length * 5) + 's');
+    }
+    if (globe) {
+      var byCity = {};
+      globe.setSights(list.slice(0, 14).map(function (x) {
+        var ck = x.a.city + x.a.lat.toFixed(1), n = byCity[ck] = (byCity[ck] || 0) + 1;
+        return { sid: x.key, group: x.a.group, lat: x.a.lat, lon: x.a.lon, dx: (n - 1) * 22, fresh: !!freshS[x.key],
+          aria: gName(x.a.group) + ', ' + place(x.a.city) + ', ' + t('sightAway', { km: fmtKm(x.km) }) };
+      }));
+    }
+  }
+  var bubbleT = 0;
+  function announceSights(n) {
+    var b = $('#sightBubble');
+    b.textContent = n === 1 ? t('sightNew1') : t('sightNew', { n: n });
+    b.hidden = false; b.classList.remove('go'); void b.offsetWidth; b.classList.add('go');
+    Sound.play('ping');
+    if (navigator.vibrate) try { navigator.vibrate([30, 40, 30]); } catch (e) { /* nada */ }
+    clearTimeout(bubbleT); bubbleT = setTimeout(function () { b.hidden = true; }, 7000);
+  }
+  function showSight(key) {
+    var x = sightList().filter(function (y) { return y.key === key; })[0]; if (!x) return;
+    Sound.play('ping');
+    toast(gName(x.a.group) + ' · ' + place(x.a.city) + ' · ' + t('sightAway', { km: fmtKm(x.km) }));
+    var li = document.getElementById('s-' + key.replace(/[^\w-]/g, ''));
+    if (li) { li.classList.remove('flash'); void li.offsetWidth; li.classList.add('flash'); }
+  }
+
+  /* ================= novedades (changelog.json, lo embebe build.py) ================= */
+  function renderChanges() {
+    var el = $('#changes'); if (!el) return;
+    el.innerHTML = CHANGES.map(function (v) {
+      var items = (lang === 'en' ? v.en : v.es) || [];
+      return '<li><p class="ch-v"><b>' + esc(v.version) + '</b> · <time datetime="' + esc(v.date) + '">' + esc(v.date) + '</time> · ' + esc(lang === 'en' ? v.title_en : v.title_es) + '</p><ul>' +
+        items.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul></li>';
+    }).join('');
+  }
+
+  /* ================= notificaciones push (opcional, necesita servidor) ================= */
+  function b64ToU8(b) { var p = '='.repeat((4 - b.length % 4) % 4), raw = atob((b + p).replace(/-/g, '+').replace(/_/g, '/')), out = new Uint8Array(raw.length); for (var i = 0; i < raw.length; i++) out[i] = raw.charCodeAt(i); return out; }
+  /* subscribeEndpoint = la URL del servidor de backend/ (también sirve si termina en /subscribe) */
+  function apiBase() { return (CFG.subscribeEndpoint || '').trim().replace(/\/+$/, '').replace(/\/subscribe$/, ''); }
+  function pushEndpoint() { return apiBase() ? apiBase() + '/push' : ''; }
+  function subscribePush(sub) {
+    var out = $('#subResult');
+    function say(msg, ok) { out.hidden = false; out.innerHTML = '<p><b>' + esc(msg) + '</b></p>'; Sound.play(ok ? 'fanfare' : 'boing'); }
+    if (!('serviceWorker' in navigator) || !('PushManager' in window) || !('Notification' in window)) return say(t('pushUnsupported'));
+    if (!pushEndpoint() || !CFG.vapidPublicKey) return say(t('pushNeedCfg'));
+    Notification.requestPermission().then(function (perm) {
+      if (perm !== 'granted') throw new Error('denied');
+      return navigator.serviceWorker.ready;
+    }).then(function (reg) {
+      return reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64ToU8(CFG.vapidPublicKey) });
+    }).then(function (ps) {
+      var body = Object.assign({}, sub, { push: ps.toJSON() }); delete body.channel;
+      return fetch(pushEndpoint(), { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Delete-Token': store('radar-sub-token') || '' }, body: JSON.stringify(body) });
+    }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json().catch(function () { return {}; }); })
+      .then(function (j) { if (j && j.token) store('radar-sub-token', j.token); say(t('pushOn'), true); })
+      .catch(function (e) { say(e && e.message === 'denied' ? t('pushDenied') : t('subFail')); });
+  }
+
   /* ================= modo video (9:16, ~15 s) ================= */
   var Video = { globe: null, timers: [], running: false };
   function vClear() { Video.timers.forEach(clearTimeout); Video.timers = []; }
@@ -1242,9 +1649,9 @@
     if (v.requestFullscreen && !finePointer) v.requestFullscreen().catch(function () { });
     if (!Video.globe) {
       Video.globe = new Globe($('#vglobe'), $('#vpins'), { passive: true, fit: .44, cy: .47, spin: 10, lon: -70, lat: 10 });
-      Video.globe.pinW = Math.max(74, Math.min(110, innerWidth * .22));
+      Video.globe.pinTarget = Math.max(74, Math.min(110, innerWidth * .22));
     } else Video.globe.resize();
-    Video.globe.pinW = Math.max(70, Math.min(108, $('#vframe').clientWidth * .22));
+    Video.globe.pinTarget = Math.max(70, Math.min(108, $('#vframe').clientWidth * .22));
     Video.globe.inView = true;
     var gd = buildGeo(); Video.globe.setData(gd.markers, gd.routes); Video.globe.setSel(null);
     if (globe) globe.inView = false;
@@ -1272,7 +1679,7 @@
           var s = step.st, km = hav(o.lat, o.lon, s.cur.lat, s.cur.lon); gid = s.id; pos = s.pos;
           html = '<div class="v-cap ' + (s.mode === 'live' ? 'live' : '') + '" style="' + gStyle(s.id) + '"><span class="tape"></span><span class="vc-d">' + esc(s.mode === 'live' ? 'LIVE' : dday(s.cur)) + '</span>' +
             '<p class="vc-ko" lang="ko">' + esc((META[s.id] || {}).ko || '') + ' · ' + (s.mode === 'live' ? '공연 중' : '다음 공연') + '</p>' +
-            '<p class="vc-n">' + esc(s.g.name) + '</p><p class="vc-w">' + esc(place(s.cur.city).split(' (')[0]) + ', ' + esc(place(s.cur.country)) + ' · ' + esc(fmtShort(s.cur.local_date)) + '<br>' + fmtKm(km) + ' ' + esc(t('kmFrom', { city: place(o.name) })) + '</p></div>';
+            '<p class="vc-n">' + esc(s.g.name) + '</p><p class="vc-w">' + esc(place(s.cur.city).split(' (')[0]) + ', ' + esc(place(s.cur.country)) + ' · ' + esc(fmtShort(s.cur.local_date)) + '<br>' + fmtKm(km) + ' ' + esc(t('kmFrom', { city: originRef() })) + '</p></div>';
         } else {
           gid = step.rest[0].id; pos = step.rest[0].pos;
           html = '<div class="v-cap" style="' + gStyle(gid) + '"><span class="tape"></span><span class="vc-d">D-?</span><p class="vc-ko" lang="ko">쉬는 중</p>' +
@@ -1327,10 +1734,16 @@
   window.addEventListener('pointerdown', function () { lastKeyboard = false; }, true);
 
   document.addEventListener('click', function (ev) {
-    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,#copyJson,.dock a') : null;
+    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-zoom],[data-center-me],#sightBubble,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,#copyJson,.dock a') : null;
     if (!el) { if (ev.target === $('#party')) closeParty(); return; }
     if (el.hasAttribute('data-pick')) { if (view !== 'globe' && el.hasAttribute('data-top')) setView('globe'); pick(el.getAttribute('data-pick'), { top: el.hasAttribute('data-top') }); return; }
     if (el.hasAttribute('data-unsel')) { unselect(); return; }
+    if (el.hasAttribute('data-mem')) { memberTap(el); return; }
+    if (el.hasAttribute('data-trivia')) { triviaTap(el); return; }
+    if (el.hasAttribute('data-geo-retry')) { locate(true); return; }
+    if (el.hasAttribute('data-zoom')) { if (globe) { globe.zoomBy(el.getAttribute('data-zoom') === 'in' ? 1.45 : 1 / 1.45); globe.idleUntil = performance.now() + 10000; } Sound.play('tap'); hideHint(); return; }
+    if (el.hasAttribute('data-center-me')) { var me = origin(); if (globe) { if (sel) unselect(); globe.flyTo(me.lon, me.lat, Math.max(1.6, globe.zoom), 1200); globe.idleUntil = performance.now() + 12000; } Sound.play('whoosh'); return; }
+    if (el.id === 'sightBubble') { el.hidden = true; var sa = document.getElementById('avistamientos'); if (sa) sa.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); Sound.play('tap'); return; }
     if (el.hasAttribute('data-open-privacy')) { var pv = $('#privacidad'); pv.open = true; Sound.play('tap'); return; }
     if (el.hasAttribute('data-share')) { doShare(el.getAttribute('data-share')); return; }
     if (el.hasAttribute('data-ics')) { doIcs(el.getAttribute('data-ics')); return; }
@@ -1364,20 +1777,16 @@
         if (deferredInstall) { deferredInstall.prompt(); deferredInstall.userChoice.then(function () { deferredInstall = null; }); }
         else if (isIOS) $('#iosSheet').hidden = false;
         break;
-      case 'geoBtn':
-        if (!navigator.geolocation) { toast(t('geoFail')); break; }
-        toast(t('geoAsk'));
-        navigator.geolocation.getCurrentPosition(function (p) {
-          geoOrigin = { lat: +p.coords.latitude.toFixed(3), lon: +p.coords.longitude.toFixed(3) }; store('radar-geo', JSON.stringify(geoOrigin));
-          originIdx = -1; store('radar-origin', 'geo'); Sound.play('pop'); renderAll();
-        }, function () { toast(t('geoFail')); }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 600000 });
-        break;
+      case 'geoBtn': locate(true); break;
       case 'refresh': Sound.play('tap'); poll(); pollFeed(); break;
       case 'testParty':
         var any = states[0] || { id: 'default', g: { name: 'K-pop' } };
         var a = feed[0] || { type: 'new_date', group: any.id, group_name: any.g.name, title: lang === 'en' ? any.g.name + ' added new dates' : any.g.name + ' agregó fechas nuevas', body: lang === 'en' ? 'This is a test: this is how a real alert celebrates.' : 'Esto es una prueba: así se celebra una alerta de verdad.', when: new Date().toISOString() };
         celebrate(a, 1); break;
       case 'subDelete':
+        var old = loadForm(), tok = store('radar-sub-token');
+        if (old && old.id && tok && apiBase()) fetch(apiBase() + '/subscribe/' + encodeURIComponent(old.id), { method: 'DELETE', headers: { 'X-Delete-Token': tok } }).catch(function () { });
+        store('radar-sub-token', null);
         store('radar-sub', null); $('#subForm').reset(); renderForm.done = false; renderForm(); $('#subResult').hidden = true; toast(t('deleted')); Sound.play('toggle'); break;
       case 'copyJson':
         var txt = $('#subJson').textContent;
@@ -1387,6 +1796,27 @@
         break;
     }
   });
+  /* tocar a un miembro: salta, dice su nombre en hangul y suena una nota distinta por miembro */
+  function memberTap(el) {
+    var i = +el.getAttribute('data-i') || 0;
+    Sound.play('boop', i);
+    el.classList.remove('hop'); void el.offsetWidth; el.classList.add('hop');
+    if (navigator.vibrate) try { navigator.vibrate(12); } catch (e) { /* nada */ }
+  }
+  var triviaScore = {};
+  function triviaTap(el) {
+    var p = el.getAttribute('data-trivia').split(':'), gid = p[0], qi = +p[1], oi = +p[2], q = TRIVIA[gid] && TRIVIA[gid][qi];
+    if (!q) return;
+    var li = el.closest('li'); if (li.classList.contains('done')) return;
+    li.classList.add('done');
+    var ok = oi === q[3];
+    $$('[data-trivia]', li).forEach(function (b, j) { b.disabled = true; b.classList.toggle('right', j === q[3]); b.classList.toggle('wrong', j === oi && !ok); });
+    $('.tq-r', li).textContent = ok ? t('triviaOk') : t('triviaNo', { a: q[2][q[3]] });
+    var sc = triviaScore[gid] = triviaScore[gid] || { n: 0, done: 0 }; sc.done++; if (ok) sc.n++;
+    var box = el.closest('.trivia'); $('.tq-score', box).textContent = t('triviaScore', { n: sc.n, t: sc.done });
+    Sound.play(ok ? 'right' : 'boing');
+    if (ok && !reduce) { var r = el.getBoundingClientRect(); confettiBurst(r.left + r.width / 2, r.top, 18, [gColor(gid), '#FFD84D', '#FF9CC6', '#fff'], 7, null, Math.PI * 2); }
+  }
   function setView(v) {
     if (view === v) return;
     view = v; Sound.play('toggle');
@@ -1402,12 +1832,14 @@
     store('radar-origin', originIdx === -1 ? 'geo' : String(originIdx));
     Sound.play('pop'); renderAll();
   });
+  document.addEventListener('toggle', function (e) { if (e.target.tagName === 'DETAILS') Sound.play(e.target.open ? 'open' : 'close'); }, true);
   $('#subForm').addEventListener('submit', submitForm);
   $('#subForm').addEventListener('input', function (e) { if (e.target.name !== 'g' && e.target.name !== 't') updatePreview(); else updatePreview(); });
   $('#subForm').addEventListener('change', function (e) { if (e.target.type === 'checkbox') Sound.play('tap'); });
   $('#fDiscord').addEventListener('blur', function () { if (this.value) validate('discord'); });
   $('#fWa').addEventListener('blur', function () { if (this.value) validate('wa'); });
   $('#fOptIn').addEventListener('change', function () { validate('opt'); });
+  $('#fConsent').addEventListener('change', function () { validate('consent'); });
   $('#video').addEventListener('pointermove', showVideoUi);
   $('#video').addEventListener('click', function (e) { if (!e.target.closest('button')) showVideoUi(); });
   $('#videoX').addEventListener('click', closeVideo);
@@ -1434,17 +1866,17 @@
     window.addEventListener('scroll', function () { if (!dockT) dockT = setTimeout(function () { dockT = 0; dockSync(); }, 120); }, { passive: true });
     dockSync();
   }
-  document.addEventListener('visibilitychange', function () { if (!document.hidden) { if (globe) globe.kick(); if (Video.globe && !$('#video').hidden) Video.globe.kick(); poll(); pollFeed(); } });
+  document.addEventListener('visibilitychange', function () { if (!document.hidden) { if (globe) globe.kick(); if (Video.globe && !$('#video').hidden) Video.globe.kick(); poll(); pollFeed(); pollSights(); } });
   mqReduce.addEventListener && mqReduce.addEventListener('change', function (e) { reduce = e.matches; });
   var rz = 0;
   window.addEventListener('resize', function () {
     clearTimeout(rz); rz = setTimeout(function () {
-      if (globe) { globe.pinW = pinWidth(); globe.resize(); }
+      if (globe) { globe.pinTarget = pinWidth(); globe.resize(); }
       if (Video.globe && !$('#video').hidden) Video.globe.resize();
       if (view === 'sonar') sizeSonar();
     }, 120);
   });
-  function pinWidth() { return innerWidth < 600 ? 70 : innerWidth < 1024 ? 82 : 96; }
+  function pinWidth() { return innerWidth < 600 ? 80 : innerWidth < 1024 ? 96 : 112; }
 
   /* ================= firma ================= */
   function zw(s) {
@@ -1460,18 +1892,29 @@
     fit: .4, cy: .47, spin: 5,
     lon: (states[0] && states[0].pos ? states[0].pos.lon : -60) + 25, lat: 8,
     onPick: function (id) { pick(id); },
+    onSight: function (sid) { showSight(sid); },
+    onZoom: function (z) {
+      $('#stage').classList.toggle('zoomed-in', z > 1.08);
+      var zi = $('[data-zoom="in"]'), zo = $('[data-zoom="out"]');
+      if (zi) zi.disabled = z >= ZMAX - .01; if (zo) zo.disabled = z <= ZMIN + .01;
+    },
     onDragStart: hideHint,
     onResize: function (g) { var ring = Math.round(g.R0 * 2 * 1.3); $('.ring').style.setProperty('--ring', ring + 'px'); $('.ring').style.top = (g.cy) + 'px'; }
   });
-  globe.pinW = pinWidth();
+  globe.pinTarget = pinWidth();
+  // solo para pruebas automáticas (?debug): lectura del estado del globo, sin efectos
+  if (params.has('debug')) window.__radarDebug = function () { return { lon: globe.lon, lat: globe.lat, zoom: globe.zoom, origin: origin(), geoState: geoState }; };
   globe.idleUntil = performance.now() + (reduce ? 0 : 400);
   renderAll();
   setChannel(form.ch, true);
   observe();
   setInterval(function () { tick(false); }, 1000);
-  poll(); pollFeed();
+  poll(); pollFeed(); pollSights();
   setInterval(poll, 60000);
   setInterval(pollFeed, 60000);
+  setInterval(pollSights, 60000);
+  // ubicación real: se pide al entrar, salvo que hayas elegido una ciudad a mano
+  if (savedOrigin == null || savedOrigin === 'geo') locate(false);
   if (params.get('demo') === 'alert') setTimeout(function () { $('#testParty').click(); }, 1200);
   if (params.get('demo') === 'video') setTimeout(openVideo, 600);
   if (params.get('pick')) setTimeout(function () { pick(params.get('pick'), { force: true }); }, 500);

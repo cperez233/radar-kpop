@@ -1,34 +1,145 @@
 {
   "aliases": {
-    "bts": {"names": ["BTS", "방탄소년단"]},
-    "skz": {"names": ["Stray Kids", "SKZ"]},
-    "twice": {"names": ["TWICE"], "context": "JYP|K-pop|Kpop|girl group|ONCE|Nayeon|Jihyo|Momo|Sana|Mina|Dahyun|Chaeyoung|Tzuyu|Jeongyeon"},
-    "blackpink": {"names": ["BLACKPINK", "블랙핑크"]},
-    "lngshot": {"names": ["LNGSHOT"]}
+    "bts": {
+      "names": [
+        "BTS",
+        "방탄소년단"
+      ]
+    },
+    "skz": {
+      "names": [
+        "Stray Kids",
+        "SKZ"
+      ]
+    },
+    "twice": {
+      "names": [
+        "TWICE"
+      ],
+      "context": "JYP|K-pop|Kpop|girl group|ONCE|Nayeon|Jihyo|Momo|Sana|Mina|Dahyun|Chaeyoung|Tzuyu|Jeongyeon"
+    },
+    "blackpink": {
+      "names": [
+        "BLACKPINK",
+        "블랙핑크"
+      ]
+    },
+    "lngshot": {
+      "names": [
+        "LNGSHOT"
+      ]
+    },
+    "seventeen": {
+      "names": [
+        "SEVENTEEN",
+        "세븐틴",
+        "JxJ"
+      ]
+    },
+    "enhypen": {
+      "names": [
+        "ENHYPEN",
+        "엔하이픈"
+      ]
+    },
+    "newjeans": {
+      "names": [
+        "NewJeans",
+        "뉴진스"
+      ]
+    }
   },
   "news": [
-    {"name": "Soompi", "url": "https://www.soompi.com/feed"},
-    {"name": "allkpop", "url": "https://www.allkpop.com/feed"}
+    {
+      "name": "Soompi",
+      "url": "https://www.soompi.com/feed"
+    },
+    {
+      "name": "allkpop",
+      "url": "https://www.allkpop.com/feed"
+    }
   ],
   "google_news": {
-    "bts": ["BTS tour OR comeback OR concierto OR gira", "BTS llegó OR llegaron OR arrives OR arrived OR aterrizó"],
-    "skz": ["\"Stray Kids\" tour OR comeback OR concierto OR gira", "\"Stray Kids\" llegó OR llegaron OR arrives OR arrived"],
-    "twice": ["TWICE JYP tour OR comeback OR concierto OR gira", "TWICE JYP llegó OR arrives OR arrived"],
-    "blackpink": ["BLACKPINK tour OR comeback OR concierto OR gira", "BLACKPINK llegó OR llegaron OR arrives OR arrived"],
-    "lngshot": ["LNGSHOT comeback OR tour OR concierto", "LNGSHOT arrives OR arrived OR llegó"]
+    "bts": [
+      "BTS tour OR comeback OR concierto OR gira",
+      "BTS llegó OR llegaron OR arrives OR arrived OR aterrizó"
+    ],
+    "skz": [
+      "\"Stray Kids\" tour OR comeback OR concierto OR gira",
+      "\"Stray Kids\" llegó OR llegaron OR arrives OR arrived"
+    ],
+    "twice": [
+      "TWICE JYP tour OR comeback OR concierto OR gira",
+      "TWICE JYP llegó OR arrives OR arrived"
+    ],
+    "blackpink": [
+      "BLACKPINK tour OR comeback OR concierto OR gira",
+      "BLACKPINK llegó OR llegaron OR arrives OR arrived"
+    ],
+    "lngshot": [
+      "LNGSHOT comeback OR tour OR concierto",
+      "LNGSHOT arrives OR arrived OR llegó"
+    ],
+    "seventeen": [
+      "SEVENTEEN tour OR comeback OR concierto OR gira OR JxJ"
+    ],
+    "enhypen": [
+      "ENHYPEN tour OR comeback OR concierto OR gira OR \"Blood Saga\""
+    ],
+    "newjeans": [
+      "NewJeans comeback OR ADOR OR concierto"
+    ]
   },
   "social": [
-    {"group": "bts", "name": "BTS en X", "url": "{RSSHUB}/twitter/user/BTS_twt"},
-    {"group": "skz", "name": "Stray Kids en X", "url": "{RSSHUB}/twitter/user/Stray_Kids"},
-    {"group": "twice", "name": "TWICE en X", "url": "{RSSHUB}/twitter/user/JYPETWICE"},
-    {"group": "blackpink", "name": "BLACKPINK en X", "url": "{RSSHUB}/twitter/user/BLACKPINK"},
-    {"group": "lngshot", "name": "LNGSHOT en X", "url": "{RSSHUB}/twitter/user/LNGSHOT_official"}
+    {
+      "group": "bts",
+      "name": "BTS en X",
+      "url": "{RSSHUB}/twitter/user/BTS_twt"
+    },
+    {
+      "group": "skz",
+      "name": "Stray Kids en X",
+      "url": "{RSSHUB}/twitter/user/Stray_Kids"
+    },
+    {
+      "group": "twice",
+      "name": "TWICE en X",
+      "url": "{RSSHUB}/twitter/user/JYPETWICE"
+    },
+    {
+      "group": "blackpink",
+      "name": "BLACKPINK en X",
+      "url": "{RSSHUB}/twitter/user/BLACKPINK"
+    },
+    {
+      "group": "lngshot",
+      "name": "LNGSHOT en X",
+      "url": "{RSSHUB}/twitter/user/LNGSHOT4sho"
+    },
+    {
+      "group": "seventeen",
+      "name": "SEVENTEEN en X",
+      "url": "{RSSHUB}/twitter/user/pledis_17"
+    },
+    {
+      "group": "enhypen",
+      "name": "ENHYPEN en X",
+      "url": "{RSSHUB}/twitter/user/ENHYPEN"
+    },
+    {
+      "group": "newjeans",
+      "name": "NewJeans en X",
+      "url": "{RSSHUB}/twitter/user/NewJeans_ADOR"
+    }
   ],
   "youtube": {
     "bts": "UCLkAepWjdylmXSltofFvsYQ",
-    "skz": "UCr7lmzIk63PZnBw3bezl-Mg",
+    "skz": "UC9rMiEjNaCSsebs31MRDCRA",
     "twice": "UCzgxx_DM2Dcb9Y1spb9mUJA",
     "blackpink": "UCOmHUn--16B90oW2L6FRR3A",
-    "lngshot": ""
+    "lngshot": "UC8PPjyqCQJtNfEwHBcq_uxw",
+    "seventeen": "UCfkXDY7vwkcJ8ddFGz8KusA",
+    "enhypen": "UCArLZtok93cO5R9RI4_Y5Jw",
+    "newjeans": "UCMki_UkHb4qSc0qyEcOHHJw"
   }
 }

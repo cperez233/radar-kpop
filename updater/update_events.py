@@ -30,6 +30,9 @@ ARTISTS = {
     "twice": "TWICE",
     "blackpink": "BLACKPINK",
     "lngshot": "LNGSHOT",
+    "seventeen": "SEVENTEEN",
+    "enhypen": "ENHYPEN",
+    "newjeans": "NewJeans",
 }
 
 
@@ -100,9 +103,16 @@ def main() -> int:
         if fresh or manual:
             keep_past = [e for e in g["events"] if e["start"] < datetime.now(timezone.utc).isoformat()]
             merged = {e["id"]: e for e in keep_past + fresh + manual}
-            g["events"] = sorted(merged.values(), key=lambda e: e["start"])
-        if "watch" in overrides.get(g["id"], {}):
-            g["watch"] = overrides[g["id"]]["watch"]
+            # mismo día y mismo recinto = mismo show: gana el manual (puede traer lineup u onsale)
+            by_show = {}
+            for e in merged.values():
+                by_show[(e["local_date"], round(e["lat"], 1), round(e["lon"], 1))] = e
+            for e in manual:
+                by_show[(e["local_date"], round(e["lat"], 1), round(e["lon"], 1))] = e
+            g["events"] = sorted(by_show.values(), key=lambda e: e["start"])
+        for field in ("watch", "watch_en"):
+            if field in overrides.get(g["id"], {}):
+                g[field] = overrides[g["id"]][field]
 
     if json.dumps(data["groups"], sort_keys=True) == before:
         print("Sin cambios")

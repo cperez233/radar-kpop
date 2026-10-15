@@ -11,7 +11,9 @@ Importante: "llegar" y "moverse" salen de la agenda oficial (dia del show y fin 
 
 Variables de entorno (todas opcionales; sin ellas corre en modo prueba):
   DISCORD_WEBHOOK_URL, DISCORD_BOT_TOKEN, WHATSAPP_TOKEN, WHATSAPP_PHONE_ID,
-  WHATSAPP_TEMPLATE (por defecto radar_alerta), SUBSCRIBERS_JSON, DRY_RUN=1, NOW=2026-10-16T12:00:00Z
+  WHATSAPP_TEMPLATE (por defecto radar_alerta), SUBSCRIBERS_JSON, DRY_RUN=1, NOW=2026-10-16T12:00:00Z,
+  SUBSCRIBERS_URL y SUBSCRIBERS_TOKEN (lista de suscriptores del servidor de backend/, se suma a SUBSCRIBERS_JSON),
+  VAPID_PRIVATE_KEY y VAPID_SUBJECT (notificaciones push, con pywebpush instalado)
 """
 from __future__ import annotations
 
@@ -310,10 +312,28 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
                 once(f"{a['key']}|dc:{s['id']}", lambda a=a, s=s: channels.send_discord_dm(token, s["discord_user_id"], a, dry))
             if s.get("whatsapp") and s.get("whatsapp_opt_in") and wants(s, "whatsapp_types", a, DEFAULT_WA):
                 once(f"{a['key']}|wa:{s['id']}", lambda a=a, s=s: channels.send_whatsapp(wa_token, wa_phone, s["whatsapp"], template, a, dry))
+            if s.get("push") and wants(s, "types", a):
+                once(f"{a['key']}|push:{s['id']}", lambda a=a, s=s: channels.send_webpush(s, a, dry))
     return count
 
 
 # ---------- principal ----------
+
+def remote_subscribers() -> list[dict]:
+    """Suscriptores guardados por el servidor de backend/ (GET /subscribers con token). Si falla, sigue sin ellos."""
+    url, token = os.environ.get("SUBSCRIBERS_URL"), os.environ.get("SUBSCRIBERS_TOKEN")
+    if not url or not token:
+        return []
+    import urllib.request  # noqa: PLC0415
+    try:
+        req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}", "User-Agent": "radar-kpop"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            body = json.load(r)
+        return [s for s in body.get("subscribers", []) if isinstance(s, dict) and s.get("id")]
+    except Exception as exc:  # noqa: BLE001
+        print(f"No se pudo leer SUBSCRIBERS_URL: {exc}", file=sys.stderr)
+        return []
+
 
 def load_json(path: Path, default):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
@@ -328,6 +348,7 @@ def main() -> int:
         return 1
     state = load_json(STATE, {})
     subs = json.loads(os.environ["SUBSCRIBERS_JSON"]) if os.environ.get("SUBSCRIBERS_JSON") else []
+    subs += remote_subscribers()
     feeds = load_json(FEEDS, {})
 
     bootstrap = "snapshot" not in state  # primera corrida: guardar la foto sin avisar fechas "nuevas"
