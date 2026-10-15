@@ -565,6 +565,9 @@ input[type="range"] { width: 100%; accent-color: var(--bubble); min-height: 32px
 .squad-wrap { display: grid; gap: 6px; }
 .squad-k { margin: 0; font-weight: 800; font-size: 14px; color: var(--ink-2); }
 .squad-k b { color: var(--gc); }
+.squad-former { margin: 4px 0 0; padding: 8px 12px 8px 30px; position: relative; font-size: 13.5px; line-height: 1.45; color: var(--ink-2); background: color-mix(in srgb, var(--gc) 9%, #fff); border: 2px dashed color-mix(in srgb, var(--gc) 45%, transparent); border-radius: 14px; }
+.squad-former::before { content: "♡"; position: absolute; left: 11px; top: 7px; color: var(--gc); font-weight: 900; }
+.squad-former b { color: var(--ink); }
 .squad { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(54px, 1fr)); gap: 2px; }
 .mem { position: relative; width: 100%; border: 0; background: none; padding: 16px 0 0; display: grid; justify-items: center; gap: 0; border-radius: 14px; }
 .mem img { width: 50px; height: auto; aspect-ratio: 132 / 174; transform-origin: 50% 94%; animation: breathe 2.6s ease-in-out var(--dl, 0s) infinite; pointer-events: none; }

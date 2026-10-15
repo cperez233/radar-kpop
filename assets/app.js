@@ -45,7 +45,8 @@
     blackpink: { ko: '블랙핑크', fan: 'BLINK', cheer: '보고 싶어', hint: { es: 'te extrañamos', en: 'we miss you' } },
     lngshot: { ko: '롱샷', fan: 'SHOTTIES', cheer: '화이팅!', hint: { es: '¡ánimo!', en: 'fighting!' } },
     seventeen: { ko: '세븐틴', fan: 'CARAT', cheer: '세븐틴 화이팅!', hint: { es: '¡ánimo, SEVENTEEN!', en: 'go SEVENTEEN!' } },
-    enhypen: { ko: '엔하이픈', fan: 'ENGENE', cheer: '엔하이픈 화이팅!', hint: { es: '¡ánimo, ENHYPEN!', en: 'go ENHYPEN!' } },
+    enhypen: { ko: '엔하이픈', fan: 'ENGENE', cheer: '엔하이픈 화이팅!', hint: { es: '¡ánimo, ENHYPEN!', en: 'go ENHYPEN!' },
+      former: { name: 'Heeseung', ko: '희승', es: 'fue el séptimo miembro de ENHYPEN; desde marzo de 2026 el grupo sigue con seis y él continúa como solista.', en: 'was ENHYPEN\'s seventh member; since March 2026 the group continues as six and he goes on as a soloist.' } },
     newjeans: { ko: '뉴진스', fan: 'Bunnies', cheer: '뉴진스 사랑해!', hint: { es: '¡te queremos, NewJeans!', en: 'we love you, NewJeans!' } }
   };
   /* mini trivia: [pregunta es, pregunta en, opciones, índice correcto]. Datos verificados (Wikipedia, Soompi). */
@@ -1121,7 +1122,11 @@
       var off = unit && on.indexOf(m.id) < 0;
       return '<li><button type="button" class="mem' + (off ? ' off' : '') + '" data-mem="' + esc(st.id + ':' + m.id) + '" data-i="' + i + '" aria-label="' + esc(m.name + (off ? ', ' + t('notOnTour') : '')) + '" style="--dl:-' + (i * .37 % 2.6).toFixed(2) + 's">' +
         '<span class="mem-say" lang="ko" aria-hidden="true">' + esc(m.ko) + '!</span><img src="' + esc(memberSrc(st.id, m.id)) + '" alt="" loading="lazy" decoding="async" draggable="false"><span class="mem-n">' + esc(m.name) + '</span></button></li>';
-    }).join('') + '</ul></div>';
+    }).join('') + '</ul>' + formerHtml(st.id) + '</div>';
+  }
+  function formerHtml(gid) {
+    var f = META[gid] && META[gid].former; if (!f) return '';
+    return '<p class="squad-former"><b>' + esc(f.name) + '</b> <span class="ko" lang="ko">' + esc(f.ko) + '</span> ' + esc(lang === 'en' ? f.en : f.es) + '</p>';
   }
   function triviaHtml(gid) {
     var q = TRIVIA[gid]; if (!q) return '';
