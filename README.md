@@ -2,56 +2,67 @@
 
 ![Radar K-pop](assets/icons/og.png)
 
-A fan site that shows where eight K-pop groups play next. Each group stands on its next tour stop on a small 3D globe, drawn as chibis, with a countdown and the distance to you.
+A fan site that shows where eight K-pop groups play next. Each group stands on its next tour stop on a small 3D globe, drawn as chibis, with a countdown, the distance to you and a pastel map of the venue's neighbourhood.
 
 Groups: BTS, Stray Kids, TWICE, BLACKPINK, LNGSHOT, SEVENTEEN, ENHYPEN and NewJeans.
 
+Live at [radar-kpop.vercel.app](https://radar-kpop.vercel.app).
+
 ## Why
 
-Tour dates are spread across label posts, ticket sites and fan accounts. I wanted one page that answers "where are they next, how far is that from me, and how many days are left", and that is fun enough to share.
+Tour dates are spread across label posts, ticket sites and fan accounts. I wanted one page that answers three questions: where they are next, how far that is from me, and how many days are left. It also had to be fun enough to open every day and share.
 
-The radar only uses public, official schedules and posts. It shows the next confirmed show, not where anyone is right now, and it works at city level only. No airport sightings and no tracking of people.
+The radar only uses public, official schedules and posts. It shows the next confirmed show, not where anyone is right now. It works at city level only, with no airport sightings and no tracking of people.
 
 ## Features
 
-- **Globe.** It spins on its own. Drag it with one finger, pinch or use the + and − buttons to zoom, and tap the target button to center on yourself. Rotating never scrolls the page.
-- **Chibis.** There is one chibi per member, 55 in total, with big heads and big eyes. They breathe while idle, hop when you tap them, and say their name in Hangul. When a unit tours (JxJ from SEVENTEEN), only those members stand on the map.
-- **Your location.** The site asks for it on load. If you deny it or it fails, it falls back to Bucaramanga and tells you. You can also pick a city.
-- **Sightings near you.** These are official X posts that mention a city, sorted by distance to you. They appear on the globe as round badges and in a news ticker, with a sound and a heads-up when new ones arrive.
-- **Group cards.** Each card has a big countdown, km and flight hours from you, local time and your time, and the full tour. You also get the official photo (uncropped), a mini trivia, a ticket on-sale sticker and an .ics calendar file.
-- **Share.** Exports a 1080 × 1920 PNG story card.
-- **Alerts.** `alerts.json` is checked every minute. A new alert triggers a confetti celebration with sound.
-- **Video mode.** A 9:16 automatic globe tour of about 15 seconds, ready to screen record.
-- **Sonar view.** Every group placed by direction and distance from you.
-- **Get alerts.** Sign up for Discord, WhatsApp or push notifications. Without a server, the form stays in your browser.
-- **Other details:**
-  - ES/EN.
-  - Installable PWA that works offline.
-  - Sounds start muted until your first tap and have a mute button.
+- **Globe.** It spins on its own until you touch it. After that it stays exactly where you leave it.
+  - Drag with one finger in any direction; the page does not scroll.
+  - Pinch or use the + and − buttons to zoom.
+  - Center on yourself, or turn auto-rotate back on.
+- **Chibis.** Every current member is hand-built in SVG, 55 in total, in a K-pop sticker style. They breathe and blink. Tap one and it hops and says its name in Hangul.
+- **Location.** It asks with a tap, so the browser always shows its prompt. The screen always says whether your location is real, picked by you, or the default (Bucaramanga), and why.
+- **City map.** A pastel map around each venue, with 3D buildings and the group standing on it. Built with MapLibre and OpenFreeMap: free, no API key.
+- **Group cards.** Each card shows:
+  - a big countdown, km from you and local time;
+  - the uncropped official photo and the full tour;
+  - a mini trivia, a ticket on-sale sticker and an .ics calendar file.
+- **Sightings near you.** Official posts that mention a city, sorted by distance to you, with a news ticker and a heads-up when new ones arrive.
+- **Releases and videos.** The latest music and official YouTube uploads of each group.
+- **Alerts.** A new alert triggers a confetti celebration. You can also sign up for Discord, WhatsApp or push notifications.
+- **Video mode.** A clean 9:16 tour of about 15 seconds, made for screen recording.
+- **Everything else.**
+  - A top menu that follows the section you are in.
+  - A sonar view of all groups around you.
+  - Shareable PNG story cards.
+  - Spanish and English, with an animated switch.
+  - An installable PWA.
+  - Small sounds: muted until your first tap, with a mute button.
   - Respects `prefers-reduced-motion`.
+
+## Data sources
+
+| Data | Source | Status |
+|---|---|---|
+| Tour dates | `events.json` (curated, sources listed in the page footer) + Ticketmaster Discovery API | Curated data works. Ticketmaster needs `TM_API_KEY`. |
+| Releases | iTunes Search API | Works, no key |
+| Official videos | YouTube channel RSS | Works, no key |
+| News | Soompi and Koreaboo RSS, Google News RSS | Works, no key |
+| City maps | OpenFreeMap vector tiles | Works, no key |
+| Sightings | X API v2, official accounts only | Sample data until `X_BEARER_TOKEN` is set |
+| "Arrived in..." posts | X through a self-hosted RSSHub | Needs `RSSHUB_URL` |
+| Sign-ups and push | `backend/` worker on Cloudflare | Needs `subscribeEndpoint`, `vapidPublicKey` and `VAPID_PRIVATE_KEY` |
+| Discord and WhatsApp delivery | Discord bot or webhook, WhatsApp Cloud API | Need their tokens |
+
+A GitHub Action runs every 15 minutes: it refreshes dates, releases, sightings and alerts, sends messages, and rebuilds the page. Key setup is in [ALERTAS.md](ALERTAS.md) (Spanish).
 
 ## Run it
 
 ```bash
-python build.py               # builds index.html from src/template.html + events.json
+python build.py               # builds index.html (data, photos, chibis, changelog, CSP, asset versions)
 python -m http.server 8000    # open http://localhost:8000
 ```
 
-No framework and no npm install. Test parameters: `?now=2026-10-16T12:00:00Z`, `?pick=bts`, `?view=sonar`, `?lang=en`, `?demo=alert`, `?demo=video`.
-
-## Data and automation
-
-| File | What it is |
-|---|---|
-| `events.json` | Tour dates. Optional fields per event: `lineup` (unit members) and `onsale` (ticket sale date); `watch_en` per group. |
-| `alerts.json` | Public alert feed. |
-| `sightings.json` | Sightings, written by `sightings/fetch_x.py`. Without `X_BEARER_TOKEN` it holds labeled sample data. |
-| `tools/members.json` | Chibi traits. `python tools/chibis.py` regenerates every SVG. |
-| `assets/photos/` | Official group photos, one per group id. |
-| `changelog.json` | Version history. `build.py` writes `CHANGELOG.md` and the site's "What's new" section from it. |
-| `backend/` | Subscription server for Cloudflare Workers (`node backend/test.mjs` runs its tests). |
-| `config.js` | Server URL, VAPID public key and public site URL. |
-
-A GitHub Action runs every 15 minutes. It updates dates, sightings and alerts, sends Discord, WhatsApp and push messages, and rebuilds the page. Setup for every key and server is in [ALERTAS.md](ALERTAS.md) (Spanish).
+No framework and no npm install. `python tools/chibis.py` redraws the chibis from `tools/members.json`. Test parameters: `?now=2026-10-16T12:00:00Z`, `?pick=bts`, `?view=sonar`, `?lang=en`, `?demo=alert`, `?demo=video`.
 
 Made with fan love by [Cristian Pérez](https://cristianperez.me).

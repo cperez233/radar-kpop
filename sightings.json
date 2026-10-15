@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T16:26:51Z",
+  "updated_at": "2026-10-15T17:28:27Z",
   "source": "sample",
   "sample": true,
   "items": [
@@ -12,9 +12,10 @@
       "lat": -12.0672,
       "lon": -77.0333,
       "text": "Ejemplo: así se vería un post oficial de BTS que menciona Lima.",
+      "text_en": "Sample: this is how an official BTS post that mentions Lima would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-15T13:26:51Z"
+      "when": "2026-10-15T14:28:27Z"
     },
     {
       "id": "sample-skz-skz-20261024-fukuoka",
@@ -25,9 +26,10 @@
       "lat": 33.5953,
       "lon": 130.3622,
       "text": "Ejemplo: así se vería un post oficial de Stray Kids que menciona Fukuoka.",
+      "text_en": "Sample: this is how an official Stray Kids post that mentions Fukuoka would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-15T08:26:51Z"
+      "when": "2026-10-15T09:28:27Z"
     },
     {
       "id": "sample-lngshot-lng-20261013-vienna",
@@ -38,9 +40,10 @@
       "lat": 48.187,
       "lon": 16.42,
       "text": "Ejemplo: así se vería un post oficial de LNGSHOT que menciona Viena.",
+      "text_en": "Sample: this is how an official LNGSHOT post that mentions Vienna would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-14T17:26:51Z"
+      "when": "2026-10-14T18:28:27Z"
     },
     {
       "id": "sample-seventeen-svt-20261030-incheon",
@@ -51,9 +54,10 @@
       "lat": 37.4637,
       "lon": 126.3897,
       "text": "Ejemplo: así se vería un post oficial de SEVENTEEN que menciona Incheon.",
+      "text_en": "Sample: this is how an official SEVENTEEN post that mentions Incheon would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-14T12:26:51Z"
+      "when": "2026-10-14T13:28:27Z"
     },
     {
       "id": "sample-enhypen-enh-20261016-macao",
@@ -64,9 +68,10 @@
       "lat": 22.149,
       "lon": 113.556,
       "text": "Ejemplo: así se vería un post oficial de ENHYPEN que menciona Macao.",
+      "text_en": "Sample: this is how an official ENHYPEN post that mentions Macau would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-14T07:26:51Z"
+      "when": "2026-10-14T08:28:27Z"
     }
   ]
 }

@@ -105,7 +105,15 @@ Rutas: `POST /subscribe`, `POST /push`, `DELETE /subscribe/:id` (con el token qu
 3. Necesita el servidor de la sección 7. El workflow instala `pywebpush` para mandarlas.
 4. En iPhone solo funcionan con la web instalada en la pantalla de inicio (iOS 16.4 o más).
 
-## 9. Probar sin enviar nada
+## 9. Estrenos y videos (sin claves)
+
+`updater/media.py` escribe `media.json` con los últimos lanzamientos de cada grupo (iTunes Search API, catálogo de Apple Music) y sus últimos videos oficiales (RSS de cada canal de YouTube). No necesita ninguna clave y el workflow lo corre solo. Los ids de artista están en `alerts/feeds.json`, sección `itunes`.
+
+## 10. Mapa de ciudad (sin claves)
+
+La vista de ciudad usa MapLibre (guardado en `assets/vendor/`) y los mapas vectoriales de OpenFreeMap (`tiles.openfreemap.org`), gratis, sin registro y sin límites. Solo se carga cuando alguien abre un mapa. Los colores pastel se aplican en `kawaiiStyle()` de `assets/app.js`.
+
+## 11. Probar sin enviar nada
 
 ```
 SUBSCRIBERS_JSON='[...]' DRY_RUN=1 NO_NEWS=1 NOW=2026-10-16T12:00:00Z python alerts/engine.py
@@ -116,5 +124,5 @@ SUBSCRIBERS_JSON='[...]' DRY_RUN=1 NO_NEWS=1 NOW=2026-10-16T12:00:00Z python ale
 ## Pendiente de verificar
 
 - Cuentas e IDs revisados el 15 de octubre de 2026: el canal de YouTube de Stray Kids estaba mal (ahora `UC9rMiEjNaCSsebs31MRDCRA`), la cuenta de X de LNGSHOT es `LNGSHOT4sho` (confianza media: su web oficial no enlaza X) y su canal oficial de YouTube es `UC8PPjyqCQJtNfEwHBcq_uxw`. Agregados SEVENTEEN (`pledis_17`), ENHYPEN (`ENHYPEN`) y NewJeans (`NewJeans_ADOR`).
-- Las URLs RSS de Soompi y allkpop son las estándar de WordPress. Si alguna falla, el motor lo avisa en el log y sigue con las demás.
+- Noticias: Soompi y Koreaboo por RSS (allkpop bloquea robots con 403 y se quitó). Si alguna falla, el motor lo avisa en el log y sigue con las demás.
 - El actualizador de Ticketmaster y el envío real a WhatsApp y Discord no se probaron contra las APIs reales.

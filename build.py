@@ -65,6 +65,9 @@ for g in data["groups"]:
 roster_file = root / "assets" / "chibis" / "roster.json"
 roster = json.loads(roster_file.read_text(encoding="utf-8")) if roster_file.exists() else {}
 
+places_file = root / "assets" / "places-en.json"
+places_en = json.loads(places_file.read_text(encoding="utf-8"))["places"] if places_file.exists() else {}
+
 changes_file = root / "changelog.json"
 changes = json.loads(changes_file.read_text(encoding="utf-8")) if changes_file.exists() else []
 if changes:
@@ -87,7 +90,7 @@ def js(obj) -> str:
 
 
 html = (tpl.replace("__DATA__", js(data)).replace("__PHOTOS__", js(photos))
-        .replace("__ROSTER__", js(roster)).replace("__CHANGES__", js(changes))
+        .replace("__ROSTER__", js(roster)).replace("__CHANGES__", js(changes)).replace("__PLACES__", js(places_en))
         .replace("__OG_IMAGE__", og_image).replace("__CANONICAL__\n", canonical + ("\n" if canonical else "")))
 # Política de seguridad (CSP) como <meta>, porque GitHub Pages no deja poner cabeceras.
 # El único script en línea es el de los datos; se permite por su hash, que cambia en cada build.
@@ -95,9 +98,19 @@ inline = re.search(r"<script>(window\.RADAR_DATA0 = .*?)</script>", html, re.S).
 digest = base64.b64encode(hashlib.sha256(inline.encode("utf-8")).digest()).decode()
 csp = ("default-src 'self'; script-src 'self' 'sha256-" + digest + "'; "
        "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; "
-       "img-src 'self' data: blob:; connect-src 'self' https:; manifest-src 'self'; worker-src 'self'; "
+       "img-src 'self' data: blob: https:; connect-src 'self' https:; manifest-src 'self'; worker-src 'self' blob:; child-src blob:; "
        "object-src 'none'; base-uri 'self'; form-action 'self'")
 html = html.replace("__CSP__", f'<meta http-equiv="Content-Security-Policy" content="{csp}">')
+# Versión del código: va en las URLs de app.js, app.css y config.js y en sw.js, para que ningún navegador
+# se quede con una mezcla de versión vieja y nueva.
+code = b"".join((root / f).read_bytes() for f in ("assets/app.js", "assets/app.css", "config.js", "src/template.html"))
+code += re.sub(rb"var VERSION = '[^']*';", b"", (root / "sw.js").read_bytes())
+version = hashlib.sha256(code).hexdigest()[:10]
+for f in ("assets/app.js", "assets/app.css", "config.js"):
+    html = html.replace(f'"{f}"', f'"{f}?v={version}"')
+sw = (root / "sw.js").read_text(encoding="utf-8")
+sw = re.sub(r"var VERSION = '[^']*';", f"var VERSION = '{version}';", sw, count=1)
+(root / "sw.js").write_text(sw, encoding="utf-8")
 (root / "index.html").write_text(html, encoding="utf-8")
 print("index.html listo,", len(data["groups"]), "grupos,", len(photos), "fotos oficiales,",
       sum(len(v) for v in roster.values()), "chibis")

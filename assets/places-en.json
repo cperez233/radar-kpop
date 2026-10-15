@@ -1,0 +1,15 @@
+{
+  "_doc": "Spanish place names used in events.json, the city list and the sightings gazetteer, with their English names. Used by the site (EN mode) and by alerts/engine.py. Add a line when a new city shows up.",
+  "places": {
+    "Berlín": "Berlin", "Bogotá": "Bogota", "Ciudad de México": "Mexico City", "Edimburgo": "Edinburgh", "Londres": "London",
+    "Londres (Wembley)": "London (Wembley)", "Los Ángeles": "Los Angeles", "Macao": "Macau", "Medellín": "Medellin", "Milán": "Milan",
+    "Nonthaburi (Bangkok)": "Nonthaburi (Bangkok)", "Nueva York": "New York", "París": "Paris", "Río de Janeiro": "Rio de Janeiro",
+    "Seúl": "Seoul", "Singapur": "Singapore", "Sídney": "Sydney", "Taipéi": "Taipei", "Tokio": "Tokyo", "Viena": "Vienna",
+    "Yakarta": "Jakarta", "Zúrich (Dübendorf)": "Zurich (Dübendorf)", "Zúrich": "Zurich", "Ámsterdam": "Amsterdam", "Asunción": "Asuncion",
+    "Panamá": "Panama City", "San José": "San Jose",
+    "Alemania": "Germany", "Brasil": "Brazil", "Canadá": "Canada", "Corea del Sur": "South Korea", "EE. UU.": "USA", "España": "Spain",
+    "Filipinas": "Philippines", "Francia": "France", "Italia": "Italy", "Japón": "Japan", "Luxemburgo": "Luxembourg", "Malasia": "Malaysia",
+    "México": "Mexico", "Países Bajos": "Netherlands", "Perú": "Peru", "Reino Unido": "United Kingdom", "Suiza": "Switzerland",
+    "Tailandia": "Thailand", "Taiwán": "Taiwan", "Rep. Dominicana": "Dominican Republic"
+  }
+}

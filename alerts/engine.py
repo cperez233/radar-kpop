@@ -41,6 +41,13 @@ KEEP_DAYS = 45
 FEED_MAX = 60
 DEFAULT_WA = {"prox", "prox_new", "stop_today", "live", "latam", "arrival_official", "arrival"}
 MONTHS = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
+MONTHS_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+PLACES_EN = json.loads((ROOT / "assets" / "places-en.json").read_text(encoding="utf-8"))["places"] if (ROOT / "assets" / "places-en.json").exists() else {}
+
+
+def en(place: str) -> str:
+    """Nombre en inglés de una ciudad o país de events.json (la web en modo EN usa el mismo diccionario)."""
+    return PLACES_EN.get(place) or PLACES_EN.get(place.split(" (")[0], place)
 
 
 # ---------- utilidades ----------
@@ -60,13 +67,15 @@ def hav(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     return 2 * 6371 * math.asin(math.sqrt(a))
 
 
-def day_label(ld: str) -> str:
+def day_label(ld: str, lang: str = "es") -> str:
     y, m, d = (int(x) for x in ld.split("-"))
+    if lang == "en":
+        return f"{MONTHS_EN[m - 1]} {d}" + (f", {y}" if y != 2026 else "")
     return f"{d} {MONTHS[m - 1]}" + (f" {y}" if y != 2026 else "")
 
 
-def dates_label(evs: list[dict]) -> str:
-    return ", ".join(day_label(e["local_date"]) for e in evs)
+def dates_label(evs: list[dict], lang: str = "es") -> str:
+    return ", ".join(day_label(e["local_date"], lang) for e in evs)
 
 
 def km(n: float) -> str:
@@ -74,6 +83,7 @@ def km(n: float) -> str:
 
 
 def mk(kind: str, key: str, group: dict, title: str, body: str, when: datetime, **extra) -> dict:
+    """title/body en español; title_en/body_en (opcionales) para la web en inglés."""
     a = {"key": key, "type": kind, "group": group["id"], "group_name": group["name"], "title": title, "body": body, "when": iso(when)}
     a.update(extra)
     return a
@@ -121,12 +131,17 @@ def diff_events(old: dict, data: dict, now: datetime) -> list[dict]:
                         f"Antes: {day_label(o['d'])} en {o['c']}" + (f" ({o['v']})" if o["v"] else "") +
                         f". Ahora: {day_label(e['local_date'])} en {e['city']}" + (f" ({e['venue']})" if e["venue"] else "") + ".",
                         now, places=[{"lat": e["lat"], "lon": e["lon"], "city": e["city"]}],
+                        title_en=f"{g['name']} changed its show in {en(e['city'])}",
+                        body_en=f"Before: {day_label(o['d'], 'en')} in {en(o['c'])}" + (f" ({o['v']})" if o["v"] else "") +
+                        f". Now: {day_label(e['local_date'], 'en')} in {en(e['city'])}" + (f" ({e['venue']})" if e["venue"] else "") + ".",
                     ))
         for city, es in new_by_city.items():
             alerts.append(mk(
                 "new_date", f"new:{g['id']}:{es[0]['id']}", g, f"{g['name']} agregó fechas en {city}",
                 f"{dates_label(es)}" + (f" en {es[0]['venue']}" if es[0]["venue"] else "") + f", {es[0]['country']}.",
                 now, places=[{"lat": es[0]["lat"], "lon": es[0]["lon"], "city": city}],
+                title_en=f"{g['name']} added dates in {en(city)}",
+                body_en=f"{dates_label(es, 'en')}" + (f" at {es[0]['venue']}" if es[0]["venue"] else "") + f", {en(es[0]['country'])}.",
             ))
     current = {e["id"] for g in data["groups"] for e in g["events"]}
     names = {g["id"]: g["name"] for g in data["groups"]}
@@ -136,6 +151,8 @@ def diff_events(old: dict, data: dict, now: datetime) -> list[dict]:
             alerts.append(mk(
                 "removed", f"gone:{eid}", gmap[o["g"]], f"{names[o['g']]} quitó {o['c']} de la agenda",
                 f"La fecha del {day_label(o['d'])} ya no aparece en las fuentes. Puede ser cancelación o cambio, confirma en la boletería.", now,
+                title_en=f"{names[o['g']]} removed {en(o['c'])} from the schedule",
+                body_en=f"The {day_label(o['d'], 'en')} date no longer shows up in the sources. It may be a cancellation or a change, check with the box office.",
             ))
     return alerts
 
@@ -151,18 +168,21 @@ def time_alerts(data: dict, now: datetime) -> list[dict]:
             end = last["_t"] + timedelta(hours=SHOW_H)
             place = {"lat": first["lat"], "lon": first["lon"], "city": first["city"]}
             where = f"{first['venue']}, {first['city']}" if first["venue"] else first["city"]
+            where_en = f"{first['venue']}, {en(first['city'])}" if first["venue"] else en(first["city"])
 
             local_now = now.astimezone(first["_t"].tzinfo)
             if local_now.date().isoformat() == first["local_date"] and local_now.hour >= 8 and now < end:
                 alerts.append(mk(
                     "stop_today", f"today:{g['id']}:{first['id']}", g, f"Hoy {g['name']} abre en {first['city']}",
                     f"{where}. Hora aproximada, confirma en la boletería.", now, places=[place],
+                    title_en=f"Today {g['name']} opens in {en(first['city'])}", body_en=f"{where_en}. Approximate time, check with the box office.",
                 ))
             for e in st:
                 if e["_t"] - timedelta(minutes=45) <= now < e["_t"] + timedelta(hours=SHOW_H):
                     alerts.append(mk(
                         "live", f"live:{e['id']}", g, f"{g['name']} sube al escenario en {e['city']}",
                         f"{where}. Hora aproximada, el show puede arrancar un poco antes o después.", now, places=[place],
+                        title_en=f"{g['name']} goes on stage in {en(e['city'])}", body_en=f"{where_en}. Approximate time, the show may start a little earlier or later.",
                     ))
             if now >= end and now < end + timedelta(hours=24) and i + 1 < len(sts):
                 nxt = sts[i + 1]
@@ -171,6 +191,8 @@ def time_alerts(data: dict, now: datetime) -> list[dict]:
                     "next_stop", f"next:{g['id']}:{last['id']}", g, f"{g['name']} sigue a {nxt[0]['city']}",
                     f"Cerró en {last['city']}. Siguiente parada: {nxt[0]['city']}, {nxt[0]['country']} ({dates_label(nxt)}), a unos {km(hop)} km.",
                     now, places=[{"lat": nxt[0]["lat"], "lon": nxt[0]["lon"], "city": nxt[0]["city"]}],
+                    title_en=f"{g['name']} moves on to {en(nxt[0]['city'])}",
+                    body_en=f"Wrapped up in {en(last['city'])}. Next stop: {en(nxt[0]['city'])}, {en(nxt[0]['country'])} ({dates_label(nxt, 'en')}), about {round(hop):,} km away.",
                 ))
     return alerts
 
@@ -218,19 +240,23 @@ def news_alerts(items: list[dict], seen: set, data: dict, now: datetime, bootstr
             text = norm(it["text"])
             hit = next((c for c in active_places(g, now) if any(n in text for n in city_names(c))), None)
             if hit:
-                title = f"Posible llegada de {g['name']} a {hit}"
+                title, title_en = f"Posible llegada de {g['name']} a {hit}", f"{g['name']} may have arrived in {en(hit)}"
             elif news.ARRIVAL.search(it["text"]):
-                title = f"{g['name']} avisó que llegó"
+                title, title_en = f"{g['name']} avisó que llegó", f"{g['name']} said they arrived"
             else:
                 continue
             alerts.append(mk("arrival_official", f"news:{it['id']}", g, title,
-                             f"Lo publicó {it['source']}: «{short(it['title'])}». Salió de su cuenta oficial.", now, url=it["link"]))
+                             f"Lo publicó {it['source']}: «{short(it['title'])}». Salió de su cuenta oficial.", now, url=it["link"],
+                             title_en=title_en, body_en=f"Posted by {it['source']}: \"{short(it['title'])}\". From their official account."))
             continue
         label = {"arrival": "Llegada reportada", "latam": "Latinoamérica", "comeback": "Comeback", "tour": "Gira", "video": "Nuevo video"}[it["kind"]]
-        body = f"{short(it['title'])} ({it['source']})"
+        label_en = {"arrival": "Reported arrival", "latam": "Latin America", "comeback": "Comeback", "tour": "Tour", "video": "New video"}[it["kind"]]
+        body = body_en = f"{short(it['title'])} ({it['source']})"
         if it["kind"] == "arrival":
             body += ". Lo reporta la prensa, no es confirmación oficial."
-        alerts.append(mk(it["kind"], f"news:{it['id']}", g, f"{label}: {g['name']}", body, now, url=it["link"]))
+            body_en += ". Reported by the press, not an official confirmation."
+        alerts.append(mk(it["kind"], f"news:{it['id']}", g, f"{label}: {g['name']}", body, now, url=it["link"],
+                         title_en=f"{label_en}: {g['name']}", body_en=body_en))
     return alerts
 
 
@@ -379,7 +405,7 @@ def main() -> int:
     fresh = [a for a in alerts if not a.get("sub") and f"{a['key']}|canal" in state["sent"] and f"{a['key']}|canal" not in sent_before]
     if fresh or not FEED_OUT.exists():
         feed = load_json(FEED_OUT, {"alerts": []})["alerts"]
-        public = [{k: a.get(k) for k in ("type", "group", "group_name", "title", "body", "when", "url")} for a in fresh]
+        public = [{k: a.get(k) for k in ("type", "group", "group_name", "title", "body", "title_en", "body_en", "when", "url")} for a in fresh]
         FEED_OUT.write_text(json.dumps({"updated_at": iso(now), "alerts": (public + feed)[:FEED_MAX]}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return 0
 

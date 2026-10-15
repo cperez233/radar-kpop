@@ -1,18 +1,19 @@
-/* Service worker del Radar K-pop.
-   - events.json, alerts.json y sightings.json: primero la red (siempre fresco), la copia guardada si no hay conexión.
-   - El resto (página, estilos, chibis, fotos, fuentes): sirve lo guardado al instante y lo actualiza por detrás.
-   - Notificaciones push: muestra la alerta y al tocarla abre el radar. */
-var CACHE = 'radar-kpop-v3';
-var SHELL = [
-  './', 'index.html', 'config.js', 'manifest.webmanifest', 'assets/app.css', 'assets/app.js', 'assets/land-110m.json',
+/* Radar K-pop service worker.
+   - The page, scripts, styles and data (events, alerts, sightings, media): network first, so a new deploy shows up
+     on the very next visit. The saved copy is only used offline.
+   - Images, chibis, map data and fonts: served from the cache right away and refreshed in the background.
+   - Push notifications: shows the alert and opens the radar when tapped.
+   build.py writes VERSION on every build, so the browser always notices a new worker. */
+var VERSION = '9cc7a6fa3b';
+var CACHE = 'radar-kpop-' + VERSION;
+var SHELL = ['./', 'index.html', 'config.js', 'manifest.webmanifest', 'assets/app.css', 'assets/app.js', 'assets/land-110m.json',
   'assets/vendor/d3-array.min.js', 'assets/vendor/d3-geo.min.js', 'assets/vendor/topojson-client.min.js',
-  'assets/chibis/bts.svg', 'assets/chibis/skz.svg', 'assets/chibis/twice.svg', 'assets/chibis/blackpink.svg',
-  'assets/chibis/lngshot.svg', 'assets/chibis/seventeen.svg', 'assets/chibis/enhypen.svg', 'assets/chibis/newjeans.svg',
-  'assets/chibis/default.svg', 'assets/icons/icon-192.png', 'assets/icons/favicon.svg'
-];
+  'assets/icons/icon-192.png', 'assets/icons/favicon.svg'];
 
 self.addEventListener('install', function (e) {
-  e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(SHELL); }).then(function () { return self.skipWaiting(); }));
+  e.waitUntil(caches.open(CACHE).then(function (c) {
+    return Promise.all(SHELL.map(function (u) { return fetch(u, { cache: 'no-cache' }).then(function (r) { if (r.ok) return c.put(u, r); }).catch(function () { }); }));
+  }).then(function () { return self.skipWaiting(); }));
 });
 
 self.addEventListener('activate', function (e) {
@@ -21,28 +22,32 @@ self.addEventListener('activate', function (e) {
   }).then(function () { return self.clients.claim(); }));
 });
 
+function networkFirst(req, key) {
+  return fetch(req, { cache: 'no-cache' }).then(function (res) {
+    if (res && res.ok) { var copy = res.clone(); caches.open(CACHE).then(function (c) { c.put(key, copy); }); }
+    return res;
+  }).catch(function () {
+    return caches.match(key, { ignoreSearch: true }).then(function (hit) { return hit || caches.match('index.html'); });
+  });
+}
+
 self.addEventListener('fetch', function (e) {
   var req = e.request;
   if (req.method !== 'GET') return;
-  var url = new URL(req.url);
-  var live = /\/(events|alerts|sightings)\.json$/.test(url.pathname);
-  if (live) {
-    e.respondWith(fetch(req).then(function (res) {
-      var copy = res.clone();
-      caches.open(CACHE).then(function (c) { c.put(url.pathname, copy); });
-      return res;
-    }).catch(function () { return caches.match(url.pathname); }));
+  var url = new URL(req.url), same = url.origin === self.location.origin;
+  var fonts = /fonts\.(googleapis|gstatic)\.com$/.test(url.hostname);
+  if (!same && !fonts) return;  // mapas, portadas y demás terceros: directo a la red
+  var shell = same && (req.mode === 'navigate' || /\.(js|css|json|webmanifest|html)$/.test(url.pathname) || url.pathname.endsWith('/'));
+  if (shell && !/land-110m\.json$/.test(url.pathname)) {
+    e.respondWith(networkFirst(req, req.mode === 'navigate' ? 'index.html' : req.url.split('?')[0]));
     return;
   }
-  var sameOrigin = url.origin === self.location.origin;
-  var fonts = /fonts\.(googleapis|gstatic)\.com$/.test(url.hostname);
-  if (!sameOrigin && !fonts) return;
   e.respondWith(caches.open(CACHE).then(function (c) {
-    return c.match(req, { ignoreSearch: sameOrigin && req.mode === 'navigate' }).then(function (hit) {
+    return c.match(req).then(function (hit) {
       var net = fetch(req).then(function (res) {
         if (res && (res.ok || res.type === 'opaque')) c.put(req, res.clone());
         return res;
-      }).catch(function () { return hit || (req.mode === 'navigate' ? c.match('index.html') : undefined); });
+      }).catch(function () { return hit; });
       return hit || net;
     });
   }));

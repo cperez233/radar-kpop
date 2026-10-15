@@ -31,7 +31,8 @@
     },
     {
       "name": "Soompi (LNGSHOT con Jay Park)",
-      "url": "https://www.soompi.com/article/1847441wpp/jay-park-announces-2026-world-tour-stops-with-lngshot"
+      "url": "https://www.soompi.com/article/1847441wpp/jay-park-announces-2026-world-tour-stops-with-lngshot",
+      "name_en": "Soompi (LNGSHOT with Jay Park)"
     },
     {
       "name": "Setlist.fm (LNGSHOT)",
@@ -39,7 +40,8 @@
     },
     {
       "name": "allkpop (comeback de LNGSHOT)",
-      "url": "https://www.allkpop.com/article/2026/09/lngshot-eye-a-late-october-or-early-november-return-with-new-music"
+      "url": "https://www.allkpop.com/article/2026/09/lngshot-eye-a-late-october-or-early-november-return-with-new-music",
+      "name_en": "allkpop (LNGSHOT comeback)"
     },
     {
       "name": "Wikipedia, NEW_ World Tour (SEVENTEEN)",
@@ -47,23 +49,28 @@
     },
     {
       "name": "Soompi (gira de JxJ)",
-      "url": "https://www.soompi.com/article/1873646wpp/seventeen-unit-jxj-jeonghan-x-joshua-announces-stops-for-tour-journey-into-dreaming"
+      "url": "https://www.soompi.com/article/1873646wpp/seventeen-unit-jxj-jeonghan-x-joshua-announces-stops-for-tour-journey-into-dreaming",
+      "name_en": "Soompi (JxJ tour)"
     },
     {
       "name": "NME (Blood Saga de ENHYPEN)",
-      "url": "https://www.nme.com/news/music/enhypen-announce-details-of-blood-saga-world-tour-for-2026-and-2027-3940808"
+      "url": "https://www.nme.com/news/music/enhypen-announce-details-of-blood-saga-world-tour-for-2026-and-2027-3940808",
+      "name_en": "NME (ENHYPEN Blood Saga)"
     },
     {
       "name": "PR Times (ENHYPEN en Japón)",
-      "url": "https://prtimes.jp/main/html/rd/p/000000684.000045862.html"
+      "url": "https://prtimes.jp/main/html/rd/p/000000684.000045862.html",
+      "name_en": "PR Times (ENHYPEN in Japan)"
     },
     {
       "name": "Wikipedia, presentaciones de NewJeans",
-      "url": "https://en.wikipedia.org/wiki/List_of_NewJeans_live_performances"
+      "url": "https://en.wikipedia.org/wiki/List_of_NewJeans_live_performances",
+      "name_en": "Wikipedia, NewJeans live performances"
     },
     {
       "name": "Star News (NewJeans en 2026)",
-      "url": "https://starnewskorea.com/en/music/2026/10/14/2026101410031571957"
+      "url": "https://starnewskorea.com/en/music/2026/10/14/2026101410031571957",
+      "name_en": "Star News (NewJeans in 2026)"
     }
   ],
   "groups": [
@@ -178,7 +185,7 @@
           "start": "2026-11-19T20:00:00+08:00",
           "city": "Kaohsiung",
           "country": "Taiwán",
-          "venue": "Estadio Nacional de Kaohsiung",
+          "venue": "Kaohsiung National Stadium",
           "lat": 22.701,
           "lon": 120.294,
           "status": "confirmado"
@@ -189,7 +196,7 @@
           "start": "2026-11-21T20:00:00+08:00",
           "city": "Kaohsiung",
           "country": "Taiwán",
-          "venue": "Estadio Nacional de Kaohsiung",
+          "venue": "Kaohsiung National Stadium",
           "lat": 22.701,
           "lon": 120.294,
           "status": "confirmado"
@@ -200,7 +207,7 @@
           "start": "2026-11-22T20:00:00+08:00",
           "city": "Kaohsiung",
           "country": "Taiwán",
-          "venue": "Estadio Nacional de Kaohsiung",
+          "venue": "Kaohsiung National Stadium",
           "lat": 22.701,
           "lon": 120.294,
           "status": "confirmado"
@@ -211,7 +218,7 @@
           "start": "2026-12-03T20:00:00+07:00",
           "city": "Bangkok",
           "country": "Tailandia",
-          "venue": "Estadio Rajamangala",
+          "venue": "Rajamangala National Stadium",
           "lat": 13.7558,
           "lon": 100.6217,
           "status": "confirmado"
@@ -222,7 +229,7 @@
           "start": "2026-12-05T20:00:00+07:00",
           "city": "Bangkok",
           "country": "Tailandia",
-          "venue": "Estadio Rajamangala",
+          "venue": "Rajamangala National Stadium",
           "lat": 13.7558,
           "lon": 100.6217,
           "status": "confirmado"
@@ -233,7 +240,7 @@
           "start": "2026-12-06T20:00:00+07:00",
           "city": "Bangkok",
           "country": "Tailandia",
-          "venue": "Estadio Rajamangala",
+          "venue": "Rajamangala National Stadium",
           "lat": 13.7558,
           "lon": 100.6217,
           "status": "confirmado"
@@ -244,7 +251,7 @@
           "start": "2026-12-12T20:00:00+08:00",
           "city": "Kuala Lumpur",
           "country": "Malasia",
-          "venue": "Estadio Nacional Bukit Jalil",
+          "venue": "Bukit Jalil National Stadium",
           "lat": 3.0546,
           "lon": 101.6919,
           "status": "confirmado"
@@ -255,7 +262,7 @@
           "start": "2026-12-13T20:00:00+08:00",
           "city": "Kuala Lumpur",
           "country": "Malasia",
-          "venue": "Estadio Nacional Bukit Jalil",
+          "venue": "Bukit Jalil National Stadium",
           "lat": 3.0546,
           "lon": 101.6919,
           "status": "confirmado"
@@ -266,7 +273,7 @@
           "start": "2026-12-17T20:00:00+08:00",
           "city": "Singapur",
           "country": "Singapur",
-          "venue": "Estadio Nacional",
+          "venue": "National Stadium",
           "lat": 1.3047,
           "lon": 103.8747,
           "status": "confirmado"
@@ -277,7 +284,7 @@
           "start": "2026-12-19T20:00:00+08:00",
           "city": "Singapur",
           "country": "Singapur",
-          "venue": "Estadio Nacional",
+          "venue": "National Stadium",
           "lat": 1.3047,
           "lon": 103.8747,
           "status": "confirmado"
@@ -288,7 +295,7 @@
           "start": "2026-12-20T20:00:00+08:00",
           "city": "Singapur",
           "country": "Singapur",
-          "venue": "Estadio Nacional",
+          "venue": "National Stadium",
           "lat": 1.3047,
           "lon": 103.8747,
           "status": "confirmado"
@@ -299,7 +306,7 @@
           "start": "2026-12-22T20:00:00+08:00",
           "city": "Singapur",
           "country": "Singapur",
-          "venue": "Estadio Nacional",
+          "venue": "National Stadium",
           "lat": 1.3047,
           "lon": 103.8747,
           "status": "confirmado"
@@ -426,7 +433,8 @@
           "status": "anunciado"
         }
       ],
-      "watch_en": []
+      "watch_en": [],
+      "tour_en": "Arirang World Tour"
     },
     {
       "id": "skz",
@@ -527,7 +535,8 @@
       ],
       "watch_en": [
         "Tokyo Dome is on the tour, but the exact dates are not clear in the sources."
-      ]
+      ],
+      "tour_en": "Run It World Tour"
     },
     {
       "id": "twice",
@@ -541,7 +550,8 @@
       "watch_en": [
         "The This Is For tour ended on July 12, 2026 and there are no confirmed new dates.",
         "Jihyo said in a vlog (Jul 30, 2026) that they want to tour South America later, no dates yet."
-      ]
+      ],
+      "tour_en": "This Is For World Tour (ended)"
     },
     {
       "id": "blackpink",
@@ -622,7 +632,8 @@
       "watch_en": [
         "The Deadline tour ended on January 26, 2026 at Kai Tak Stadium, Hong Kong, with no new dates announced.",
         "Their mini album Deadline came out on February 27, 2026."
-      ]
+      ],
+      "tour_en": "Deadline World Tour (ended)"
     },
     {
       "id": "lngshot",
@@ -712,7 +723,8 @@
       ],
       "watch_en": [
         "Comeback expected in late October or early November (industry sources, unconfirmed)."
-      ]
+      ],
+      "tour_en": "With Jay Park, Serenades & Body Rolls"
     },
     {
       "id": "seventeen",
@@ -951,7 +963,8 @@
             "joshua"
           ]
         }
-      ]
+      ],
+      "tour_en": "JEONGHAN X JOSHUA, Journey Into [Dreaming] (JxJ unit)"
     },
     {
       "id": "enhypen",
@@ -1164,7 +1177,8 @@
           "lon": 103.8746,
           "status": "confirmado"
         }
-      ]
+      ],
+      "tour_en": "Blood Saga World Tour"
     },
     {
       "id": "newjeans",
@@ -1201,7 +1215,8 @@
           "lon": 139.7519,
           "status": "confirmado"
         }
-      ]
+      ],
+      "tour_en": "Bunnies Camp 2024 (fan meeting)"
     }
   ]
 }

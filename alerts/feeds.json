@@ -55,8 +55,8 @@
       "url": "https://www.soompi.com/feed"
     },
     {
-      "name": "allkpop",
-      "url": "https://www.allkpop.com/feed"
+      "name": "Koreaboo",
+      "url": "https://www.koreaboo.com/feed/"
     }
   ],
   "google_news": {
@@ -141,5 +141,15 @@
     "seventeen": "UCfkXDY7vwkcJ8ddFGz8KusA",
     "enhypen": "UCArLZtok93cO5R9RI4_Y5Jw",
     "newjeans": "UCMki_UkHb4qSc0qyEcOHHJw"
+  },
+  "itunes": {
+    "bts": 883131348,
+    "skz": 1304823362,
+    "twice": 1203816887,
+    "blackpink": 1141774019,
+    "lngshot": 1862022916,
+    "seventeen": 999644772,
+    "enhypen": 1541011620,
+    "newjeans": 1635469693
   }
 }

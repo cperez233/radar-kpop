@@ -30,6 +30,7 @@ IDS = ROOT / "sightings" / "user_ids.json"
 API = "https://api.x.com/2"
 BLOCK = re.compile(r"airport|aeropuerto|aeroporto|공항|空港|hotel|호텔|ホテル|flight|vuelo|departure|arrival gate|출국|입국|terminal", re.I)
 KEEP_DAYS = 30
+PLACES_EN = json.loads((ROOT / "assets" / "places-en.json").read_text(encoding="utf-8"))["places"]
 MAX_ITEMS = 60
 
 
@@ -136,6 +137,7 @@ def sample(events: dict, now: datetime) -> list[dict]:
             "id": f"sample-{g['id']}-{e['id']}", "group": g["id"], "group_name": g["name"],
             "city": city, "country": e["country"], "lat": e["lat"], "lon": e["lon"],
             "text": f"Ejemplo: así se vería un post oficial de {g['name']} que menciona {city}.",
+            "text_en": f"Sample: this is how an official {g['name']} post that mentions {PLACES_EN.get(city, city)} would look.",
             "url": "", "account": "", "when": (now - timedelta(hours=3 + i * 5)).strftime("%Y-%m-%dT%H:%M:%SZ"),
         })
     return items

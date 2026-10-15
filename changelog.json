@@ -1,5 +1,37 @@
 [
   {
+    "version": "4.0",
+    "date": "2026-10-15",
+    "title_es": "Más vivo: chibis nuevos, mapa de ciudad y menú arriba",
+    "title_en": "More alive: new chibis, city map and a top menu",
+    "es": [
+      "Chibis redibujados al estilo sticker K-pop: mechones con brillo, ojos grandes con degradado, parpadean solos, respiran y saltan al tocarlos. Todos los miembros actuales de los 8 grupos.",
+      "Arreglado el motivo de las versiones viejas en el celular: el service worker ahora pide primero a la red la página, el código y los datos, y cada versión lleva su número.",
+      "Globo: girar en vertical ya no mueve la página, se queda donde lo dejas (sin rebote ni inercia vertical), se puede mover con un grupo elegido y el giro automático se detiene al tocarlo (con botón para volver a activarlo).",
+      "Ubicación: se pide con un toque (así el navegador siempre muestra el aviso) y en pantalla se ve si es real, elegida o por defecto, con el motivo y cómo activarla en iPhone, Android o computador.",
+      "Menú arriba con píldora animada que sigue la sección en la que estás; se quitó el dock de abajo.",
+      "Secciones numeradas, cada una con su color, su cinta y una entrada animada.",
+      "Mapa de la ciudad de cada parada (MapLibre + OpenFreeMap, gratis y sin clave) en colores pastel, con edificios 3D y el grupo en chibi sobre el recinto.",
+      "Nueva sección Estrenos y videos: lo último en música (iTunes Search API) y en los canales oficiales de YouTube, sin claves.",
+      "Modo video rehecho: título, globo y tarjeta en zonas separadas que nunca se pisan, y solo el grupo en foco sobre el globo.",
+      "Toda la página en inglés en modo EN (alertas, avisos, ciudades, giras, fuentes y etiquetas de accesibilidad), con animación al cambiar de idioma.",
+      "Noticias: allkpop bloquea robots y se cambió por Koreaboo."
+    ],
+    "en": [
+      "Chibis redrawn in K-pop sticker style: glossy hair locks, big gradient eyes, they blink on their own, breathe and hop when tapped. Every current member of all 8 groups.",
+      "Fixed why phones showed old versions: the service worker now fetches the page, code and data from the network first, and every build is versioned.",
+      "Globe: vertical drags no longer move the page, it stays where you leave it (no bounce, no vertical inertia), it moves while a group is selected, and auto-rotate stops when you touch it (with a button to turn it back on).",
+      "Location: requested with a tap so the browser always shows its prompt, and the screen says whether it is real, picked or default, with the reason and how to enable it on iPhone, Android or desktop.",
+      "Top menu with an animated pill that follows the section you are in; the bottom dock is gone.",
+      "Numbered sections, each with its own colour, tape and entrance animation.",
+      "City map for each stop (MapLibre + OpenFreeMap, free and keyless) in pastel colours, with 3D buildings and the group as chibis on the venue.",
+      "New Releases and videos section: the latest music (iTunes Search API) and official YouTube uploads, no keys needed.",
+      "Video mode rebuilt: title, globe and card in separate zones that never overlap, and only the featured group on the globe.",
+      "The whole page in English in EN mode (alerts, notices, cities, tours, sources and accessibility labels), with an animation when switching language.",
+      "News: allkpop blocks bots, replaced with Koreaboo."
+    ]
+  },
+  {
     "version": "3.0",
     "date": "2026-10-15",
     "title_es": "Chibis de cada miembro, avistamientos y mapa con zoom",

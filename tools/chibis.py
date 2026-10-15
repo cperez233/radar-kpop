@@ -1,14 +1,14 @@
-"""Genera los chibis SVG (estilo SD: cabeza enorme, cuerpo chiquito, ojos grandes) de cada miembro.
+"""Draws the chibi SVGs (K-pop fan-sticker style: big head, small body, big glossy eyes, layered hair locks).
 
-Uso: python tools/chibis.py
-Lee tools/members.json y escribe:
-  assets/chibis/<grupo>/<miembro>.svg   un sprite por miembro (viewBox 100 x 140, pies abajo)
-  assets/chibis/<grupo>.svg             todo el grupo junto, para avatares pequeños
-  assets/chibis/default.svg             chibi genérico para grupos nuevos
-  assets/chibis/roster.json             nombres de los miembros para la web (build.py lo embebe)
+Usage: python tools/chibis.py
+Reads tools/members.json and writes:
+  assets/chibis/<group>/<member>.svg   one sprite per member (viewBox 120 x 160, feet at the bottom)
+  assets/chibis/<group>.svg            the whole group, for small avatars
+  assets/chibis/default.svg            generic chibi for new groups
+  assets/chibis/roster.json            member names for the site (build.py embeds it)
 
-Son personajes originales inspirados en el peinado y la ropa de una foto de cada grupo. No son retratos.
-Para cambiar un peinado, un color o un gesto, edita tools/members.json y vuelve a correr este script.
+Every chibi is original art drawn in code, inspired by the hair and outfit in an official photo of each group.
+They are not portraits. To change a hairstyle, a colour or a pose, edit tools/members.json and run this again.
 """
 import json
 import math
@@ -16,19 +16,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "assets" / "chibis"
-INK = "#2E2150"
-SKIN = "#FFE6D6"
-SKIN_SH = "#F8CDB8"
-BLUSH = "#FF8FB8"
-S = f'stroke="{INK}" stroke-linejoin="round" stroke-linecap="round"'
-W = 'stroke-width="2.2"'
-
-FILTER = ('<filter id="cut" x="-12%" y="-10%" width="124%" height="118%" color-interpolation-filters="sRGB">'
-          '<feMorphology in="SourceAlpha" operator="dilate" radius="2.6" result="d"/>'
-          '<feOffset in="d" dx="1.2" dy="2.4" result="o"/>'
-          '<feFlood flood-color="#B9A4EE"/><feComposite in2="o" operator="in" result="sh"/>'
-          '<feFlood flood-color="#FFFFFF"/><feComposite in2="d" operator="in" result="w"/>'
-          '<feMerge><feMergeNode in="sh"/><feMergeNode in="w"/><feMergeNode in="SourceGraphic"/></feMerge></filter>')
+OL = "#3B2433"          # line colour: warm dark plum, thinner than the old ink
+SKIN = "#FFE8DA"
+SKIN_SH = "#F7CBB6"
+W, H = 120, 160
+ROW = 66                # back row offset in group shots, so faces behind stay visible
+STEP = 72
 
 
 def mix(c1: str, c2: str, t: float) -> str:
@@ -37,313 +30,404 @@ def mix(c1: str, c2: str, t: float) -> str:
     return "#" + "".join(f"{round(x + (y - x) * t):02X}" for x, y in zip(a, b))
 
 
-def light(c: str) -> bool:
+def lum(c: str) -> float:
     r, g, b = (int(c[i:i + 2], 16) for i in (1, 3, 5))
-    return (0.299 * r + 0.587 * g + 0.114 * b) > 150
+    return (0.299 * r + 0.587 * g + 0.114 * b) / 255
 
 
-def pts(points) -> str:
-    return " ".join(f"L{x} {y}" for x, y in points)
+def S(w: float = 1.6) -> str:
+    return f'stroke="{OL}" stroke-width="{w}" stroke-linejoin="round" stroke-linecap="round"'
 
 
-# ---------------- cabello ----------------
-CAP_TOP = "M{l} {ys} C{l} 20 29 7 50 7 C71 7 {r} 20 {r} {ys}"
-FRONT = {
-    "fringe": (60, [(86, 45), (79, 41), (72, 45), (64, 39), (57, 44), (50, 38), (43, 44), (36, 39), (28, 45), (21, 41), (14, 46)]),
-    "zigzag": (62, [(85, 44), (80, 50), (74, 37), (68, 48), (61, 35), (55, 47), (48, 34), (42, 47), (35, 36), (29, 49), (22, 39), (15, 48)]),
-    "curtain": (66, [(86, 50), (79, 40), (67, 32), (57, 27), (50, 31), (43, 27), (33, 32), (21, 40), (14, 50)]),
-    "part": (64, [(87, 48), (80, 42), (69, 40), (57, 35), (46, 30), (39, 25), (33, 31), (27, 38), (20, 44), (14, 51)]),
-    "swept": (56, [(87, 40), (78, 30), (64, 25), (50, 24), (36, 25), (22, 30), (13, 40)]),
-    "long": (76, [(88, 58), (86, 45), (78, 43), (70, 46), (62, 42), (54, 46), (46, 42), (38, 46), (30, 42), (22, 46), (14, 45), (12, 58)]),
-    "longpart": (78, [(88, 60), (81, 42), (66, 28), (50, 23), (34, 28), (19, 42), (12, 60)]),
-}
-STYLE = {  # peinado -> (flequillo, pelo de atrás)
-    "fringe": ("fringe", "short"), "zigzag": ("zigzag", "short"), "curtain": ("curtain", "short"),
-    "part": ("part", "short"), "swept": ("swept", "short"), "spiky": ("zigzag", "spiky"),
-    "mullet": ("zigzag", "mullet"), "wavy": ("curtain", "wavy"), "long": ("long", "long"),
-    "longpart": ("longpart", "long"), "bob": ("long", "bob"), "curly": ("curly", "curly"),
-    "pony": ("fringe", "pony"), "lowpony": ("longpart", "lowpony"), "lowbun": ("curtain", "lowbun"),
-    "spacebuns": ("long", "spacebuns"), "topbun": ("part", "topbun"), "updo": ("longpart", "updo"),
-}
+class Art:
+    """Collects defs (gradients) with ids unique per member, so many members can live in one SVG."""
+
+    def __init__(self, uid: str):
+        self.uid, self.defs = uid, []
+
+    def lin(self, name: str, stops, x2=0, y2=1) -> str:
+        gid = f"{self.uid}-{name}"
+        st = "".join(f'<stop offset="{o}" stop-color="{c}"/>' for o, c in stops)
+        self.defs.append(f'<linearGradient id="{gid}" x1="0" y1="0" x2="{x2}" y2="{y2}">{st}</linearGradient>')
+        return f"url(#{gid})"
+
+    def rad(self, name: str, stops) -> str:
+        gid = f"{self.uid}-{name}"
+        st = "".join(f'<stop offset="{o}" stop-color="{c}" stop-opacity="{a}"/>' for o, c, a in stops)
+        self.defs.append(f'<radialGradient id="{gid}">{st}</radialGradient>')
+        return f"url(#{gid})"
 
 
-def front_hair(kind: str, hc: str) -> str:
-    sh = mix(hc, "#FFFFFF", .38) if not light(hc) else mix(hc, "#FFFFFF", .55)
-    if kind == "curly":
-        bumps = "".join(f'<circle cx="{x}" cy="{y}" r="{r}" fill="{hc}" {S} {W}/>' for x, y, r in
-                        [(17, 44, 7), (27, 36, 8), (39, 31, 8), (52, 30, 8), (64, 32, 8), (75, 37, 8), (84, 45, 7)])
-        cap = f'<path d="{CAP_TOP.format(l=9, r=91, ys=56)} L86 46 L14 46 Z" fill="{hc}" {S} {W}/>'
-        return cap + bumps + f'<path d="M36 16 Q50 10 64 15" fill="none" stroke="{sh}" stroke-width="3" stroke-linecap="round"/>'
-    ys, edge = FRONT[kind]
-    d = CAP_TOP.format(l=9, r=91, ys=ys) + " " + pts(edge) + f" L9 {ys} Z"
-    out = f'<path d="{d}" fill="{hc}" {S} {W}/>'
-    out += f'<path d="M30 17 Q44 10 58 12" fill="none" stroke="{sh}" stroke-width="3.2" stroke-linecap="round"/>'
-    if kind in ("curtain", "longpart"):
-        out += f'<path d="M50 9 Q51 18 50 28" fill="none" stroke="{INK}" stroke-width="1.4" stroke-linecap="round" opacity=".55"/>'
-    if kind == "swept":
-        out += f'<path d="M34 10 Q46 -1 66 6 Q54 6 50 13 Z" fill="{hc}" {S} {W}/>'
+# ---------------- hair ----------------
+def smooth(pts, closed=True) -> str:
+    """Catmull-Rom through the points, as cubic Bezier segments: organic curves without hand-tuning controls."""
+    n = len(pts)
+    d = f"M{pts[0][0]:.1f} {pts[0][1]:.1f}"
+    rng = range(n) if closed else range(n - 1)
+    for i in rng:
+        p0, p1, p2, p3 = pts[(i - 1) % n], pts[i], pts[(i + 1) % n], pts[(i + 2) % n]
+        if not closed:
+            p0 = pts[max(i - 1, 0)]
+            p3 = pts[min(i + 2, n - 1)]
+        c1 = (p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6)
+        c2 = (p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6)
+        d += f" C{c1[0]:.1f} {c1[1]:.1f} {c2[0]:.1f} {c2[1]:.1f} {p2[0]:.1f} {p2[1]:.1f}"
+    return d + (" Z" if closed else "")
+
+
+def lock(xr, yr, xt, yt, w, bend, fill, sw=1.4) -> str:
+    """One petal-shaped lock of hair from a root (xr, yr) to a sharp tip (xt, yt), curved by `bend`."""
+    dx, dy = xt - xr, yt - yr
+    n = math.hypot(dx, dy) or 1
+    px, py = -dy / n, dx / n
+    left, right = [], []
+    for t in (0, .22, .45, .7, .88):
+        cx = xr + dx * t + px * bend * math.sin(math.pi * t)
+        cy = yr + dy * t + py * bend * math.sin(math.pi * t)
+        half = w / 2 * (1 - t) ** .75 * (1 + .25 * math.sin(math.pi * t))
+        left.append((cx - px * half, cy - py * half))
+        right.append((cx + px * half, cy + py * half))
+    tip = (xt + px * bend * .1, yt + py * bend * .1)
+    d = smooth(left + [tip] + right[::-1])
+    return f'<path d="{d}" fill="{fill}" {S(sw)}/>'
+
+
+CAP = "M16 74 C10 34 33 12 60 12 C87 12 110 34 104 74 C100 56 92 42 60 38 C28 42 20 56 16 74 Z"
+CAP_LINE = "M16 74 C10 34 33 12 60 12 C87 12 110 34 104 74"
+
+
+def fringe_locks(kind: str, fill: str) -> str:
+    out = ""
+    if kind == "fringe":       # bangs falling to the brows
+        for xr, xt, yt, b in [(30, 24, 56, -3), (40, 34, 52, -2), (50, 46, 54, -2), (60, 58, 51, 0), (70, 70, 54, 2), (80, 84, 52, 2), (90, 96, 57, 3)]:
+            out += lock(xr, 22, xt, yt, 16, b, fill)
+    elif kind == "swept":      # side-swept bangs
+        for i, (xr, xt, yt) in enumerate([(86, 70, 48), (76, 56, 50), (66, 44, 52), (56, 32, 56), (46, 24, 62)]):
+            out += lock(xr, 20, xt, yt, 18, 7, fill)
+        out += lock(94, 26, 100, 58, 14, 3, fill)
+    elif kind == "curtain":    # centre part, forehead showing
+        for xt, yt in [(44, 46), (32, 56), (24, 70)]:
+            out += lock(58, 18, xt, yt, 16, -6, fill)
+        for xt, yt in [(76, 46), (88, 56), (96, 70)]:
+            out += lock(62, 18, xt, yt, 16, 6, fill)
+    elif kind == "up":         # pompadour, forehead showing
+        for xr, xt, yt, b in [(34, 30, 12, 4), (46, 44, 6, 3), (58, 60, 4, 0), (70, 76, 6, -3), (82, 90, 14, -4)]:
+            out += lock(xr, 38, xt, yt, 18, b, fill)
+        out += lock(22, 44, 18, 72, 12, -2, fill) + lock(98, 44, 102, 72, 12, 2, fill)
+    elif kind == "spiky":      # messy short spikes
+        for xr, xt, yt, b in [(30, 18, 14, 3), (44, 36, 2, 2), (60, 62, 0, 0), (76, 86, 4, -2), (90, 104, 18, -3)]:
+            out += lock(xr, 30, xt, yt, 16, b, fill)
+        for xr, xt, yt, b in [(34, 28, 54, -2), (48, 44, 50, -1), (62, 62, 52, 0), (76, 80, 50, 1), (88, 94, 54, 2)]:
+            out += lock(xr, 24, xt, yt, 14, b, fill)
+    elif kind == "long":       # straight bangs for long hair
+        for xr, xt, yt, b in [(32, 26, 54, -2), (42, 38, 52, -1), (52, 50, 53, 0), (62, 62, 52, 0), (72, 74, 53, 1), (84, 88, 54, 2)]:
+            out += lock(xr, 22, xt, yt, 15, b, fill)
+    elif kind == "open":       # middle part without bangs
+        out += lock(58, 16, 24, 76, 26, -10, fill) + lock(62, 16, 96, 76, 26, 10, fill)
     return out
 
 
-def back_hair(kind: str, hc: str) -> str:
-    dk = mix(hc, INK, .25)
-    if kind == "short":
-        return f'<ellipse cx="50" cy="44" rx="41.5" ry="35" fill="{hc}" {S} {W}/>'
+def side_locks(kind: str, fill: str, long: bool) -> str:
+    y = 104 if long else 88
+    if kind in ("up",):
+        return ""
     if kind == "spiky":
-        sp = "".join(f'<path d="M{x - 7} {y + 8} L{x} {y - 9} L{x + 7} {y + 8} Z" fill="{hc}" {S} {W}/>' for x, y in
-                     [(22, 16), (36, 7), (50, 3), (64, 7), (78, 16)])
-        return sp + f'<ellipse cx="50" cy="44" rx="41.5" ry="35" fill="{hc}" {S} {W}/>'
+        return lock(24, 48, 19, 80, 8, -2, fill) + lock(96, 48, 101, 80, 8, 2, fill)
+    return lock(25, 46, 19, y, 9, -3, fill) + lock(95, 46, 101, y, 9, 3, fill)
+
+
+def back_hair(kind: str, fill: str, dark: str) -> str:
+    if kind == "short":
+        return f'<path d="M14 72 C8 32 32 10 60 10 C88 10 112 32 106 72 C104 78 98 80 94 75 L26 75 C22 80 16 78 14 72 Z" fill="{fill}" {S()}/>'
     if kind == "mullet":
-        return (f'<path d="M10 50 C10 18 30 8 50 8 C70 8 90 18 90 50 L92 80 Q86 86 80 78 L20 78 Q14 86 8 80 Z" fill="{hc}" {S} {W}/>')
+        return (f'<path d="M14 76 C8 34 32 10 60 10 C88 10 112 34 106 76 L108 104 L98 96 L94 108 L84 98 L36 98 L26 108 L22 96 L12 104 Z" fill="{fill}" {S()}/>')
     if kind == "wavy":
-        return (f'<path d="M9 50 C9 18 30 8 50 8 C70 8 91 18 91 50 Q95 62 90 72 Q94 80 86 84 L14 84 Q6 80 10 72 Q5 62 9 50 Z" fill="{hc}" {S} {W}/>')
+        return (f'<path d="M14 76 C8 34 32 10 60 10 C88 10 112 34 106 76 Q112 88 104 96 Q110 104 98 106 L22 106 Q10 104 16 96 Q8 88 14 76 Z" fill="{fill}" {S()}/>')
     if kind == "long":
-        return (f'<path d="M9 50 C9 18 30 8 50 8 C70 8 91 18 91 50 L94 104 Q88 110 82 104 Q76 110 70 104 L30 104 Q24 110 18 104 Q12 110 6 104 Z" fill="{hc}" {S} {W}/>'
-                f'<path d="M14 66 L13 98 M86 66 L87 98" stroke="{dk}" stroke-width="1.6" stroke-linecap="round" opacity=".6"/>')
+        return (f'<path d="M14 74 C8 32 32 10 60 10 C88 10 112 32 106 74 L112 132 L102 124 L98 138 L88 126 L32 126 L22 138 L18 124 L8 132 Z" fill="{fill}" {S()}/>'
+                f'<path d="M18 92 L16 122 M102 92 L104 122" stroke="{dark}" stroke-width="1.2" stroke-linecap="round" opacity=".55"/>')
     if kind == "bob":
-        return f'<path d="M9 50 C9 18 30 8 50 8 C70 8 91 18 91 50 L93 82 Q50 92 7 82 Z" fill="{hc}" {S} {W}/>'
+        return f'<path d="M14 74 C8 32 32 10 60 10 C88 10 112 32 106 74 L108 104 Q100 112 92 104 L28 104 Q20 112 12 104 Z" fill="{fill}" {S()}/>'
     if kind == "curly":
-        blobs = [(10, 58, 9), (9, 76, 9), (12, 94, 9), (90, 58, 9), (91, 76, 9), (88, 94, 9), (22, 102, 8), (36, 106, 8), (50, 107, 8), (64, 106, 8), (78, 102, 8)]
-        c = "".join(f'<circle cx="{x}" cy="{y}" r="{r}" fill="{hc}" {S} {W}/>' for x, y, r in blobs)
-        return c + f'<path d="M8 50 C8 16 30 6 50 6 C70 6 92 16 92 50 L92 92 Q50 104 8 92 Z" fill="{hc}" {S} {W}/>'
+        blobs = [(14, 70, 11), (12, 90, 11), (16, 110, 11), (106, 70, 11), (108, 90, 11), (104, 110, 11), (30, 120, 10), (48, 124, 10), (72, 124, 10), (90, 120, 10)]
+        c = "".join(f'<circle cx="{x}" cy="{y}" r="{r}" fill="{fill}" {S()}/>' for x, y, r in blobs)
+        return c + f'<path d="M12 72 C8 30 32 8 60 8 C88 8 112 30 108 72 L110 116 Q60 130 10 116 Z" fill="{fill}" {S()}/>'
     if kind == "pony":
-        return (f'<path d="M78 20 C104 20 104 62 96 98 C94 106 84 106 86 96 C92 64 90 40 74 30 Z" fill="{hc}" {S} {W}/>'
-                f'<ellipse cx="50" cy="44" rx="41.5" ry="35" fill="{hc}" {S} {W}/>'
-                f'<circle cx="80" cy="24" r="4" fill="{INK}"/>')
+        return (f'<path d="M92 28 C122 30 120 80 110 120 C108 128 98 128 100 118 C108 82 106 50 88 40 Z" fill="{fill}" {S()}/>'
+                + back_hair("short", fill, dark) + f'<circle cx="94" cy="32" r="4.5" fill="#FF7FB0" {S(1.2)}/>')
     if kind == "lowpony":
-        return (f'<path d="M72 72 C90 76 92 96 86 112 C84 118 76 116 78 108 C82 96 78 86 66 80 Z" fill="{hc}" {S} {W}/>'
-                f'<path d="M9 50 C9 18 30 8 50 8 C70 8 91 18 91 50 L92 70 L8 70 Z" fill="{hc}" {S} {W}/>')
+        return (f'<path d="M84 84 C106 90 108 116 100 136 C98 142 88 140 90 132 C96 116 92 104 78 94 Z" fill="{fill}" {S()}/>'
+                + back_hair("short", fill, dark))
     if kind == "lowbun":
-        return (f'<circle cx="84" cy="76" r="10" fill="{hc}" {S} {W}/>'
-                f'<path d="M9 50 C9 18 30 8 50 8 C70 8 91 18 91 50 L91 70 L9 70 Z" fill="{hc}" {S} {W}/>')
+        return f'<circle cx="100" cy="88" r="12" fill="{fill}" {S()}/>' + back_hair("short", fill, dark)
     if kind == "spacebuns":
-        return (f'<circle cx="22" cy="14" r="10" fill="{hc}" {S} {W}/><circle cx="78" cy="14" r="10" fill="{hc}" {S} {W}/>'
-                f'<path d="M17 12 Q22 8 27 12 M73 12 Q78 8 83 12" fill="none" stroke="{mix(hc, "#FFFFFF", .35)}" stroke-width="1.6" stroke-linecap="round"/>'
-                f'<path d="M9 50 C9 18 30 8 50 8 C70 8 91 18 91 50 L93 96 Q50 104 7 96 Z" fill="{hc}" {S} {W}/>')
+        return (f'<circle cx="28" cy="16" r="12" fill="{fill}" {S()}/><circle cx="92" cy="16" r="12" fill="{fill}" {S()}/>'
+                + back_hair("long", fill, dark))
     if kind == "topbun":
-        spikes = "".join(f'<path d="M50 6 L{50 + 13 * math.cos(a):.1f} {6 + 13 * math.sin(a):.1f}" stroke="{hc}" stroke-width="3.4" stroke-linecap="round"/>'
-                         for a in (math.radians(v) for v in (-150, -115, -70, -30)))
-        return (spikes + f'<circle cx="50" cy="8" r="9" fill="{hc}" {S} {W}/>'
-                f'<ellipse cx="50" cy="44" rx="41.5" ry="35" fill="{hc}" {S} {W}/>')
+        return (f'<path d="M60 6 L48 -2 M60 6 L54 -6 M60 6 L68 -6 M60 6 L74 -1" stroke="{fill}" stroke-width="3.4" stroke-linecap="round"/>'
+                f'<circle cx="60" cy="8" r="11" fill="{fill}" {S()}/>' + back_hair("short", fill, dark))
     if kind == "updo":
         braid = ""
-        for x in (11, 89):
-            for i in range(6):
-                braid += f'<ellipse cx="{x + (1.5 if i % 2 else -1.5)}" cy="{58 + i * 8}" rx="4" ry="5" fill="{hc}" {S} stroke-width="1.6"/>'
-        return (braid + f'<circle cx="50" cy="7" r="10" fill="{hc}" {S} {W}/>'
-                f'<ellipse cx="50" cy="44" rx="41.5" ry="35" fill="{hc}" {S} {W}/>')
-    return ""
+        for x in (14, 106):
+            for i in range(7):
+                braid += f'<ellipse cx="{x + (1.6 if i % 2 else -1.6)}" cy="{70 + i * 9}" rx="4.6" ry="5.6" fill="{fill}" {S(1.2)}/>'
+        return braid + f'<circle cx="60" cy="7" r="12" fill="{fill}" {S()}/>' + back_hair("short", fill, dark)
+    return back_hair("short", fill, dark)
+
+
+STYLE = {  # hairstyle -> (fringe, back, long side locks)
+    "fringe": ("fringe", "short", False), "zigzag": ("spiky", "short", False), "curtain": ("curtain", "short", False),
+    "part": ("swept", "short", False), "swept": ("up", "short", False), "spiky": ("spiky", "short", False),
+    "mullet": ("fringe", "mullet", False), "wavy": ("curtain", "wavy", False), "long": ("long", "long", True),
+    "longpart": ("open", "long", True), "bob": ("long", "bob", False), "curly": ("long", "curly", True),
+    "pony": ("fringe", "pony", False), "lowpony": ("open", "lowpony", False), "lowbun": ("curtain", "lowbun", False),
+    "spacebuns": ("long", "spacebuns", True), "topbun": ("swept", "topbun", False), "updo": ("open", "updo", False),
+}
 
 
 def accessory(kind: str, color: str) -> str:
     if kind == "headband":
-        return (f'<path d="M11 40 Q50 2 89 40" fill="none" stroke="{INK}" stroke-width="8" stroke-linecap="round"/>'
-                f'<path d="M11 40 Q50 2 89 40" fill="none" stroke="{color}" stroke-width="4.6" stroke-linecap="round"/>')
+        return (f'<path d="M18 50 Q60 6 102 50" fill="none" stroke="{OL}" stroke-width="8" stroke-linecap="round"/>'
+                f'<path d="M18 50 Q60 6 102 50" fill="none" stroke="{color}" stroke-width="5" stroke-linecap="round"/>')
     if kind == "bandana":
-        return (f'<path d="M9 46 C9 18 30 6 50 6 C70 6 91 18 91 46 Q50 34 9 46 Z" fill="{color}" {S} {W}/>'
-                f'<path d="M88 40 L99 34 L97 48 Z M88 44 L98 54 L88 56 Z" fill="{color}" {S} {W}/>'
-                f'<path d="M24 22 Q40 16 56 18" fill="none" stroke="{mix(color, "#FFFFFF", .3)}" stroke-width="2" stroke-linecap="round"/>')
+        return (f'<path d="M14 56 C12 22 34 8 60 8 C86 8 108 22 106 56 Q60 40 14 56 Z" fill="{color}" {S()}/>'
+                f'<path d="M104 48 L118 40 L116 58 Z M104 54 L116 66 L104 68 Z" fill="{color}" {S()}/>'
+                f'<path d="M30 26 Q46 18 62 20" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".35"/>')
     if kind == "beanie":
-        return (f'<path d="M10 42 C10 14 30 4 50 4 C70 4 90 14 90 42 Z" fill="{color}" {S} {W}/>'
-                f'<rect x="8" y="34" width="84" height="11" rx="5.5" fill="{mix(color, "#FFFFFF", .35)}" {S} {W}/>')
+        return (f'<path d="M14 52 C14 18 34 4 60 4 C86 4 106 18 106 52 Z" fill="{color}" {S()}/>'
+                f'<rect x="12" y="42" width="96" height="13" rx="6.5" fill="{mix(color, "#FFFFFF", .3)}" {S()}/>')
     if kind == "bow":
-        return (f'<path d="M74 18 L62 9 L63 27 Z M74 18 L87 9 L86 27 Z" fill="{color}" {S} {W}/><circle cx="74" cy="18" r="4" fill="{color}" {S} {W}/>')
+        return (f'<path d="M90 24 L76 14 L77 34 Z M90 24 L104 14 L103 34 Z" fill="{color}" {S()}/><circle cx="90" cy="24" r="4.4" fill="{color}" {S()}/>')
     if kind == "clip":
-        return f'<rect x="62" y="22" width="18" height="5" rx="2.5" fill="{color}" {S} stroke-width="1.6" transform="rotate(-18 71 24)"/>'
+        return f'<rect x="74" y="28" width="22" height="6" rx="3" fill="{color}" {S(1.2)}/>'
     if kind == "hoops":
-        return (f'<circle cx="11" cy="66" r="3.6" fill="none" stroke="#F5C542" stroke-width="1.8"/>'
-                f'<circle cx="89" cy="66" r="3.6" fill="none" stroke="#F5C542" stroke-width="1.8"/>')
+        return (f'<circle cx="19" cy="78" r="4" fill="none" stroke="#F2C14E" stroke-width="2"/>'
+                f'<circle cx="101" cy="78" r="4" fill="none" stroke="#F2C14E" stroke-width="2"/>')
     return ""
 
 
-# ---------------- cara ----------------
-def eye(x: float, y: float, kind: str, iris: str, lashes: bool, side: int) -> str:
-    if kind == "closed":
-        return f'<path d="M{x - 8} {y + 1} Q{x} {y - 8} {x + 8} {y + 1}" fill="none" stroke="{INK}" stroke-width="3" stroke-linecap="round"/>'
-    out = (f'<ellipse cx="{x}" cy="{y}" rx="8.2" ry="10.6" fill="{INK}"/>'
-           f'<ellipse cx="{x}" cy="{y + 2}" rx="6.4" ry="8" fill="{iris}"/>'
-           f'<ellipse cx="{x}" cy="{y + 5.8}" rx="4.4" ry="3" fill="{mix(iris, "#FFFFFF", .45)}"/>'
-           f'<ellipse cx="{x}" cy="{y + .8}" rx="3.2" ry="4.2" fill="{INK}"/>'
-           f'<circle cx="{x - 2.8}" cy="{y - 4}" r="3.4" fill="#fff"/>'
-           f'<circle cx="{x + 3}" cy="{y + 4}" r="1.5" fill="#fff"/>'
-           f'<path d="M{x - 9.4} {y - 5} Q{x} {y - 14.6} {x + 9.4} {y - 5}" fill="none" stroke="{INK}" stroke-width="3" stroke-linecap="round"/>')
-    if lashes:
-        ox = x + side * 9.4
-        out += f'<path d="M{ox} {y - 5} L{ox + side * 3.4} {y - 8.6}" stroke="{INK}" stroke-width="2.4" stroke-linecap="round"/>'
-    return out
-
-
-def face(m: dict) -> str:
-    iris = m.get("iris", "#6A4636")
+# ---------------- face ----------------
+def eyes(m: dict, art: Art, delay: float) -> str:
+    iris = m.get("iris", "#7A4A34")
+    grad = art.lin("iris", [(0, mix(iris, OL, .65)), (.55, iris), (1, mix(iris, "#FFD9A8", .45))])
     lashes = m.get("lashes", False)
-    e = m.get("eyes", "open")
-    lx, rx, y = 34.5, 65.5, 58
-    if e == "happy":
-        out = eye(lx, y, "closed", iris, lashes, -1) + eye(rx, y, "closed", iris, lashes, 1)
-    elif e == "wink":
-        out = eye(lx, y, "open", iris, lashes, -1) + eye(rx, y, "closed", iris, lashes, 1)
-    else:
-        out = eye(lx, y, "open", iris, lashes, -1) + eye(rx, y, "open", iris, lashes, 1)
-    out += (f'<ellipse cx="24" cy="69" rx="6.2" ry="3.4" fill="{BLUSH}" opacity=".75"/>'
-            f'<ellipse cx="76" cy="69" rx="6.2" ry="3.4" fill="{BLUSH}" opacity=".75"/>'
-            f'<path d="M21 68.5 l1.6 -2 M24.5 68.5 l1.6 -2 M74 68.5 l1.6 -2 M77.5 68.5 l1.6 -2" stroke="#fff" stroke-width="1.1" stroke-linecap="round" opacity=".9"/>')
+    kind = m.get("eyes", "open")
+
+    def open_eye(x: float, side: int) -> str:
+        y = 68
+        e = (f'<ellipse cx="{x}" cy="{y}" rx="8.6" ry="10.6" fill="#FFFFFF" {S(1.2)}/>'
+             f'<ellipse cx="{x}" cy="{y + 1}" rx="7.4" ry="9.6" fill="{grad}"/>'
+             f'<ellipse cx="{x}" cy="{y + 1.5}" rx="3.6" ry="4.8" fill="{mix(iris, OL, .8)}"/>'
+             f'<ellipse cx="{x - 2.8}" cy="{y - 3.8}" rx="3.2" ry="3.8" fill="#FFFFFF"/>'
+             f'<circle cx="{x + 3.2}" cy="{y + 4.4}" r="1.6" fill="#FFFFFF"/>'
+             f'<circle cx="{x - 4.2}" cy="{y + 3.2}" r=".8" fill="#FFFFFF" opacity=".8"/>'
+             f'<path d="M{x - 9.4} {y - 5.4} Q{x} {y - 15} {x + 9.4} {y - 5.4}" fill="none" stroke="{OL}" stroke-width="3.2" stroke-linecap="round"/>')
+        tip = x + side * 9.4
+        e += f'<path d="M{tip} {y - 5.4} L{tip + side * (4 if lashes else 2)} {y - (9 if lashes else 7)}" stroke="{OL}" stroke-width="{2.4 if lashes else 2}" stroke-linecap="round"/>'
+        if lashes:
+            e += f'<path d="M{tip - side * 1.5} {y - 2} L{tip + side * 3} {y - 4}" stroke="{OL}" stroke-width="1.6" stroke-linecap="round"/>'
+        e += f'<path d="M{x - 5} {y + 11} Q{x} {y + 12.4} {x + 5} {y + 11}" fill="none" stroke="{OL}" stroke-width="1" opacity=".35" stroke-linecap="round"/>'
+        return e
+
+    def closed(x: float) -> str:
+        return f'<path d="M{x - 8} {y0 + 1} Q{x} {y0 - 8} {x + 8} {y0 + 1}" fill="none" stroke="{OL}" stroke-width="3" stroke-linecap="round"/>'
+
+    y0 = 68
+    if kind == "happy":
+        return closed(44) + closed(76)
+    left = open_eye(44, -1)
+    right = closed(76) if kind == "wink" else open_eye(76, 1)
+    # parpadeo propio del SVG: cambios en pasos, sin repintar entre parpadeos
+    blink = (f'<style>.b{art.uid}{{transform-box:fill-box;transform-origin:center;animation:k{art.uid} 5.2s steps(1) {delay:.2f}s infinite}}'
+             f'@keyframes k{art.uid}{{0%{{transform:none}}94%{{transform:scaleY(.12)}}97%{{transform:none}}}}'
+             f'@media (prefers-reduced-motion:reduce){{.b{art.uid}{{animation:none}}}}</style>')
+    if kind == "wink":
+        return blink + f'<g class="b{art.uid}">{left}</g>' + right
+    return blink + f'<g class="b{art.uid}">{left}{right}</g>'
+
+
+def face(m: dict, art: Art, delay: float) -> str:
+    blush = art.rad("blush", [(0, "#FF8FB3", .75), (1, "#FF8FB3", 0)])
+    out = (f'<path d="M36 52 Q42 49 48 51 M72 51 Q78 49 84 52" fill="none" stroke="{mix(m.get("hc", "#2B2233"), OL, .3)}" stroke-width="1.6" stroke-linecap="round"/>'
+           + eyes(m, art, delay)
+           + f'<ellipse cx="34" cy="83" rx="9" ry="5.5" fill="{blush}"/><ellipse cx="86" cy="83" rx="9" ry="5.5" fill="{blush}"/>'
+           f'<path d="M31 82 l2 -2.4 M35 82 l2 -2.4 M83 82 l2 -2.4 M87 82 l2 -2.4" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" opacity=".9"/>'
+           f'<path d="M60 77 l-1 2.2" stroke="{SKIN_SH}" stroke-width="1.4" stroke-linecap="round"/>')
     mo = m.get("mouth", "smile")
     if mo == "open":
-        out += f'<path d="M45 70 Q50 79 55 70 Z" fill="#E8536F" {S} stroke-width="1.8"/><path d="M47.5 74.5 Q50 73 52.5 74.5" fill="none" stroke="#FF9DB5" stroke-width="1.6" stroke-linecap="round"/>'
+        out += (f'<path d="M54.5 85 Q60 94 65.5 85 Z" fill="#D9566F" {S(1.3)}/>'
+                f'<path d="M57 89.5 Q60 88 63 89.5" fill="none" stroke="#FF9DB5" stroke-width="1.6" stroke-linecap="round"/>')
     elif mo == "cat":
-        out += f'<path d="M44.5 70 Q47.3 73.6 50 70.4 Q52.7 73.6 55.5 70" fill="none" stroke="{INK}" stroke-width="1.9" stroke-linecap="round"/>'
+        out += f'<path d="M54 85 Q57 88.6 60 85.4 Q63 88.6 66 85" fill="none" stroke="{OL}" stroke-width="1.6" stroke-linecap="round"/>'
     elif mo == "grin":
-        out += f'<path d="M43.5 69.5 Q50 80 56.5 69.5 Z" fill="#E8536F" {S} stroke-width="1.8"/><path d="M44.5 70.2 H55.5 L54.6 72 H45.4 Z" fill="#fff"/>'
+        out += (f'<path d="M53 84.5 Q60 95 67 84.5 Z" fill="#D9566F" {S(1.3)}/>'
+                f'<path d="M54 85.2 H66 L65 87.2 H55 Z" fill="#FFFFFF"/>')
     else:
-        out += f'<path d="M46 70.5 Q50 74.5 54 70.5" fill="none" stroke="{INK}" stroke-width="1.9" stroke-linecap="round"/>'
+        out += f'<path d="M56 86 Q60 89.4 64 86" fill="none" stroke="{OL}" stroke-width="1.6" stroke-linecap="round"/>'
     return out
 
 
-# ---------------- cuerpo ----------------
-def arm(x1, y1, x2, y2, color) -> str:
-    return (f'<path d="M{x1} {y1} L{x2} {y2}" stroke="{INK}" stroke-width="10.4" stroke-linecap="round"/>'
-            f'<path d="M{x1} {y1} L{x2} {y2}" stroke="{color}" stroke-width="6.2" stroke-linecap="round"/>'
-            f'<circle cx="{x2}" cy="{y2}" r="4.4" fill="{SKIN}" {S} stroke-width="2"/>')
+# ---------------- body ----------------
+def sleeve(x1, y1, x2, y2, color) -> str:
+    return (f'<path d="M{x1} {y1} L{x2} {y2}" stroke="{OL}" stroke-width="11" stroke-linecap="round"/>'
+            f'<path d="M{x1} {y1} L{x2} {y2}" stroke="{color}" stroke-width="7.8" stroke-linecap="round"/>')
+
+
+def hand(x, y, r=4.6) -> str:
+    return f'<circle cx="{x}" cy="{y}" r="{r}" fill="{SKIN}" {S(1.4)}/>'
 
 
 def small_heart(x, y, s, fill) -> str:
     return (f'<path d="M{x} {y + s} C{x - 1.6 * s} {y} {x - .9 * s} {y - 1.1 * s} {x} {y - .3 * s} '
-            f'C{x + .9 * s} {y - 1.1 * s} {x + 1.6 * s} {y} {x} {y + s} Z" fill="{fill}" {S} stroke-width="1.6"/>')
+            f'C{x + .9 * s} {y - 1.1 * s} {x + 1.6 * s} {y} {x} {y + s} Z" fill="{fill}" {S(1.2)}/>')
 
 
-def body(m: dict, gc: str) -> tuple[str, str]:
-    """Devuelve (lo que va detrás de la cabeza, lo que va delante: brazos y manos)."""
+def body(m: dict, gc: str, art: Art) -> tuple[str, str]:
     oc, inner = m.get("oc", gc), m.get("inner", "#FFFFFF")
-    pants, shoe = m.get("pants", "#2B2638"), m.get("shoe", "#FFFFFF")
-    sleeve = SKIN if m.get("outfit") == "tank" else oc
-    legs = (f'<rect x="39" y="110" width="9.5" height="16" rx="4.5" fill="{pants}" {S} {W}/>'
-            f'<rect x="51.5" y="110" width="9.5" height="16" rx="4.5" fill="{pants}" {S} {W}/>'
-            f'<ellipse cx="43" cy="128.5" rx="7.2" ry="4.4" fill="{shoe}" {S} {W}/>'
-            f'<ellipse cx="57" cy="128.5" rx="7.2" ry="4.4" fill="{shoe}" {S} {W}/>'
-            f'<path d="M38 128 H48 M52 128 H62" stroke="{gc}" stroke-width="1.6" stroke-linecap="round"/>')
-    torso = f'<path d="M35 92 Q35 84 44 84 H56 Q65 84 65 92 L67.5 112 Q68 116 63 116 H37 Q32 116 32.5 112 Z" fill="{oc}" {S} {W}/>'
+    pants, shoe = m.get("pants", "#2E2A3A"), m.get("shoe", "#FFFFFF")
     o = m.get("outfit", "tee")
+    cloth = art.lin("cloth", [(0, mix(oc, "#FFFFFF", .14)), (1, mix(oc, "#000000", .12))])
+    sl = SKIN if o == "tank" else cloth
+    legs = (f'<rect x="47" y="134" width="11" height="15" rx="5" fill="{pants}" {S()}/>'
+            f'<rect x="62" y="134" width="11" height="15" rx="5" fill="{pants}" {S()}/>'
+            f'<path d="M43 154 Q43 147 52 147 Q60 147 59 154 Z" fill="{shoe}" {S()}/>'
+            f'<path d="M61 154 Q60 147 68 147 Q77 147 77 154 Z" fill="{shoe}" {S()}/>'
+            f'<path d="M45 151.5 H57 M63 151.5 H75" stroke="{gc}" stroke-width="1.4" stroke-linecap="round"/>')
+    neck = f'<rect x="54" y="94" width="12" height="10" rx="3" fill="{SKIN_SH}" {S(1.2)}/>'
+    torso = f'<path d="M41 108 Q41 101 49 100 L71 100 Q79 101 79 108 L83 134 Q83 138 79 138 L41 138 Q37 138 37 134 Z" fill="{cloth}" {S()}/>'
     det = ""
     if o in ("jacket", "coat", "blazer", "suit"):
-        det = (f'<path d="M44 84 L50 100 L56 84 Z" fill="{inner}" {S} stroke-width="1.6"/>'
-               f'<path d="M44 84 L47 96 L41 92 Z M56 84 L53 96 L59 92 Z" fill="{mix(oc, "#000000", .18) if not light(oc) else mix(oc, "#000000", .1)}" {S} stroke-width="1.4"/>')
-        if o == "blazer":
-            det += f'<circle cx="50" cy="106" r="1.6" fill="{gc}"/>'
+        lap = mix(oc, "#000000", .2) if lum(oc) > .25 else mix(oc, "#FFFFFF", .16)
+        det = (f'<path d="M52 100 L60 120 L68 100 Z" fill="{inner}" {S(1.2)}/>'
+               f'<path d="M52 100 L56 116 L47 110 Z M68 100 L64 116 L73 110 Z" fill="{lap}" {S(1.1)}/>')
+        if o in ("blazer", "suit"):
+            det += f'<circle cx="60" cy="126" r="1.6" fill="{gc}"/>'
         if o == "coat":
-            det += f'<path d="M50 100 V116" stroke="{INK}" stroke-width="1.4"/>'
+            det += f'<path d="M60 120 V138" stroke="{OL}" stroke-width="1.1"/><circle cx="56" cy="126" r="1.2" fill="{OL}"/><circle cx="56" cy="133" r="1.2" fill="{OL}"/>'
+        if o == "suit":
+            det += f'<path d="M60 102 L58 108 L60 118 L62 108 Z" fill="{gc}" {S(1)}/>'
     elif o == "shirt":
-        det = (f'<path d="M43 84 L50 92 L57 84 L55 82 H45 Z" fill="{inner}" {S} stroke-width="1.6"/>'
-               f'<path d="M50 92 V116" stroke="{INK}" stroke-width="1.2" opacity=".6"/>')
+        det = (f'<path d="M51 100 L60 109 L69 100 L66 98 H54 Z" fill="{inner}" {S(1.2)}/>'
+               f'<path d="M60 109 V138" stroke="{OL}" stroke-width="1" opacity=".5"/>')
     elif o == "hoodie":
-        det = (f'<path d="M38 86 Q50 98 62 86" fill="none" stroke="{INK}" stroke-width="1.8"/>'
-               f'<path d="M46 92 V102 M54 92 V102" stroke="{inner}" stroke-width="1.6" stroke-linecap="round"/>'
-               f'<path d="M41 106 H59" stroke="{mix(oc, INK, .3)}" stroke-width="1.6" stroke-linecap="round"/>')
+        det = (f'<path d="M45 102 Q60 116 75 102" fill="none" stroke="{OL}" stroke-width="1.4"/>'
+               f'<path d="M55 110 V120 M65 110 V120" stroke="{inner}" stroke-width="1.6" stroke-linecap="round"/>'
+               f'<path d="M48 126 H72" stroke="{mix(oc, OL, .3)}" stroke-width="1.4" stroke-linecap="round"/>')
     elif o == "knit":
-        det = "".join(f'<path d="M{x} 88 Q{x + 2} 94 {x} 100 Q{x - 2} 106 {x} 112" fill="none" stroke="{mix(oc, INK, .22)}" stroke-width="1.4"/>' for x in (42, 50, 58))
+        det = "".join(f'<path d="M{x} 104 Q{x + 2.4} 111 {x} 118 Q{x - 2.4} 125 {x} 132" fill="none" stroke="{mix(oc, OL, .22)}" stroke-width="1.2"/>' for x in (49, 60, 71))
     elif o == "stripes":
-        det = "".join(f'<path d="M35 {y} H65" stroke="{inner}" stroke-width="2.2"/>' for y in (92, 99, 106))
+        det = "".join(f'<path d="M39 {y} H81" stroke="{inner}" stroke-width="2.2"/>' for y in (110, 118, 126))
     elif o == "tank":
-        det = f'<path d="M42 84 Q50 92 58 84" fill="{SKIN}" {S} stroke-width="1.6"/><path d="M41 84 V90 M59 84 V90" stroke="{gc}" stroke-width="2"/>'
+        det = f'<path d="M50 100 Q60 110 70 100" fill="{SKIN}" {S(1.2)}/><path d="M49 100 V106 M71 100 V106" stroke="{gc}" stroke-width="2"/>'
     elif o == "overalls":
-        det = (f'<path d="M38 98 H62 L64 116 H36 Z" fill="{oc}" {S} stroke-width="1.6"/>'
-               f'<path d="M40 98 L42 84 M60 98 L58 84" stroke="{oc}" stroke-width="3"/><circle cx="41" cy="98" r="1.4" fill="{gc}"/><circle cx="59" cy="98" r="1.4" fill="{gc}"/>')
-        torso = torso.replace(f'fill="{oc}"', f'fill="{inner}"', 1)
+        torso = torso.replace(f'fill="{cloth}"', f'fill="{inner}"', 1)
+        det = (f'<path d="M45 116 H75 L79 138 H41 Z" fill="{cloth}" {S(1.2)}/>'
+               f'<path d="M47 116 L50 100 M73 116 L70 100" stroke="{oc}" stroke-width="3.2"/><circle cx="48" cy="116" r="1.5" fill="{gc}"/><circle cx="72" cy="116" r="1.5" fill="{gc}"/>')
     else:
-        det = f'<path d="M43 84 Q50 90 57 84" fill="none" stroke="{INK}" stroke-width="1.6"/>'
-    det += f'<path d="M36 112 H64" stroke="{gc}" stroke-width="2" stroke-linecap="round" opacity=".85"/>'
+        det = f'<path d="M51 100 Q60 108 69 100" fill="none" stroke="{OL}" stroke-width="1.3"/>'
+    det += f'<path d="M38 134 H82" stroke="{gc}" stroke-width="1.8" stroke-linecap="round" opacity=".9"/>'
 
     pose = m.get("pose", "down")
-    left = arm(36, 90, 28, 106, sleeve)
-    right = arm(64, 90, 72, 106, sleeve)
-    extra = ""
+    left, right, extra = sleeve(43, 106, 34, 124, sl) + hand(33, 126), sleeve(77, 106, 86, 124, sl) + hand(87, 126), ""
     if pose == "wave":
-        right = arm(64, 90, 76, 74, sleeve)
-        extra = f'<path d="M81 66 Q84 62 82 58 M85 70 Q90 68 90 63" fill="none" stroke="{gc}" stroke-width="1.8" stroke-linecap="round"/>'
+        right = sleeve(77, 106, 92, 88, sl) + hand(94, 85)
+        extra = f'<path d="M99 76 Q103 72 101 67 M104 82 Q110 80 110 74" fill="none" stroke="{gc}" stroke-width="1.8" stroke-linecap="round"/>'
     elif pose == "v":
-        right = arm(64, 90, 76, 78, sleeve)
-        extra = (f'<path d="M75 75 L72 64 M78 75 L80 64" stroke="{INK}" stroke-width="5" stroke-linecap="round"/>'
-                 f'<path d="M75 75 L72 64 M78 75 L80 64" stroke="{SKIN}" stroke-width="2.6" stroke-linecap="round"/>')
+        right = sleeve(77, 106, 90, 92, sl) + hand(91, 90)
+        extra = (f'<path d="M89 88 L86 76 M93 88 L96 76" stroke="{OL}" stroke-width="5.4" stroke-linecap="round"/>'
+                 f'<path d="M89 88 L86 76 M93 88 L96 76" stroke="{SKIN}" stroke-width="3" stroke-linecap="round"/>')
     elif pose == "heart":
-        left = arm(36, 90, 46, 98, sleeve)
-        right = arm(64, 90, 54, 98, sleeve)
-        extra = small_heart(50, 90, 5.5, gc)
+        left = sleeve(43, 106, 54, 114, sl) + hand(55, 114, 4.2)
+        right = sleeve(77, 106, 66, 114, sl) + hand(65, 114, 4.2)
+        extra = small_heart(60, 106, 5.6, gc)
     elif pose == "hip":
-        left = arm(36, 90, 30, 102, sleeve).replace('r="4.4"', 'r="4"')
-        right = arm(64, 90, 70, 102, sleeve).replace('r="4.4"', 'r="4"')
-    return legs + torso + det, left + right + extra
+        left = sleeve(43, 106, 37, 122, sl) + hand(38, 123, 4.2)
+        right = sleeve(77, 106, 83, 122, sl) + hand(82, 123, 4.2)
+    elif pose == "chin":
+        right = sleeve(77, 106, 72, 96, sl) + hand(70, 95, 4.6)
+    return legs + neck + torso + det, left + right + extra
 
 
-def sprite(m: dict, gc: str) -> str:
-    """El dibujo de un miembro, sin <svg>: coordenadas 0..100 x 0..140."""
+def sprite(m: dict, gc: str, uid: str, delay: float = 0.0) -> tuple[str, str]:
+    """(defs, drawing) of one member, coordinates 0..120 x 0..160."""
+    art = Art(uid)
     hc = m.get("hc", "#2B2233")
-    front_kind, back_kind = STYLE.get(m.get("hair", "fringe"), ("fringe", "short"))
-    front_kind = m.get("front", front_kind)
-    accs = m.get("acc", [])
-    back_body, arms = body(m, gc)
-    head = (f'<ellipse cx="11.5" cy="58" rx="4.6" ry="6.4" fill="{SKIN}" {S} {W}/>'
-            f'<ellipse cx="88.5" cy="58" rx="4.6" ry="6.4" fill="{SKIN}" {S} {W}/>'
-            f'<path d="M12 50 C12 25 29 13 50 13 C71 13 88 25 88 50 C88 72 72 86 50 86 C28 86 12 72 12 50 Z" fill="{SKIN}" {S} {W}/>'
-            f'<path d="M30 80 Q50 90 70 80" fill="none" stroke="{SKIN_SH}" stroke-width="2" opacity=".8"/>')
-    g = back_hair(back_kind, hc) + back_body + head + face(m) + front_hair(front_kind, hc)
-    for a in accs:
+    fringe, back, long_side = STYLE.get(m.get("hair", "fringe"), ("fringe", "short", False))
+    fringe = {"fringe": "fringe", "zigzag": "spiky", "curtain": "curtain", "part": "swept", "swept": "up", "long": "long",
+              "longpart": "open"}.get(m.get("front", ""), fringe)
+    light = lum(hc) > .55
+    hair = art.lin("hair", [(0, mix(hc, "#FFFFFF", .32 if not light else .45)), (.55, hc), (1, mix(hc, OL, .28))])
+    dark = mix(hc, OL, .45)
+    back_body, arms = body(m, gc, art)
+    head = (f'<ellipse cx="20" cy="70" rx="5.6" ry="7.4" fill="{SKIN}" {S()}/><ellipse cx="100" cy="70" rx="5.6" ry="7.4" fill="{SKIN}" {S()}/>'
+            f'<path d="M20 62 C20 36 37 22 60 22 C83 22 100 36 100 62 C100 84 84 100 60 101 C36 100 20 84 20 62 Z" fill="{SKIN}" {S()}/>'
+            f'<path d="M26 54 Q60 40 94 54 L94 58 Q60 46 26 58 Z" fill="{SKIN_SH}" opacity=".55"/>')
+    sh = mix(hc, "#FFFFFF", .55 if not light else .7)
+    shine = (f'<path d="M28 30 Q44 17 62 17 Q46 21 30 33 Z" fill="{sh}" opacity=".8"/>'
+             f'<path d="M70 17 Q80 18 88 25 Q79 21 70 20 Z" fill="{sh}" opacity=".6"/>')
+    g = (back_hair(back, hair, dark) + back_body + head + face(m, art, delay)
+         + f'<path d="{CAP}" fill="{hair}"/>' + f'<path d="{CAP_LINE}" fill="none" {S()}/>'
+         + fringe_locks(fringe, hair) + side_locks(fringe, hair, long_side) + shine)
+    for a in m.get("acc", []):
         g += accessory(a, m.get("ac", gc))
-    return g + arms
+    return "".join(art.defs), g + arms
 
 
-def svg_member(m: dict, gc: str, group_name: str) -> str:
+FILTER = ('<filter id="cut" x="-12%" y="-10%" width="124%" height="118%" color-interpolation-filters="sRGB">'
+          '<feMorphology in="SourceAlpha" operator="dilate" radius="3" result="d"/>'
+          '<feOffset in="d" dx="1.4" dy="2.6" result="o"/>'
+          '<feFlood flood-color="#B9A4EE" flood-opacity=".9"/><feComposite in2="o" operator="in" result="sh"/>'
+          '<feFlood flood-color="#FFFFFF"/><feComposite in2="d" operator="in" result="w"/>'
+          '<feMerge><feMergeNode in="sh"/><feMergeNode in="w"/><feMergeNode in="SourceGraphic"/></feMerge></filter>')
+
+
+def svg_member(m: dict, gc: str, group_name: str, uid: str, delay: float) -> str:
     title = f'{m["name"]} ({group_name}), chibi'
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 140" width="100" height="140" role="img" aria-label="{title}">'
-            f'<title>{title}</title><defs>{FILTER}</defs><g filter="url(#cut)">{sprite(m, gc)}</g></svg>\n')
-
-
-ROW = 58  # la fila de adelante baja lo justo para que se vean las caras de atrás
+    defs, g = sprite(m, gc, uid, delay)
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -10 {W + 12} {H + 14}" width="{W + 12}" height="{H + 14}" role="img" aria-label="{title}">'
+            f'<title>{title}</title><defs>{FILTER}{defs}</defs><g filter="url(#cut)">{g}</g></svg>\n')
 
 
 def crowd_layout(n: int):
-    """Posiciones (x, y, fila) de n sprites de 100 x 140, en una o dos filas apretaditas."""
-    step = 60
-    if n <= 5:
-        rows = [n]
-    else:
-        rows = [math.ceil(n / 2), n // 2]
-    back = rows[0]
-    width = 100 + (back - 1) * step
+    rows = [n] if n <= 5 else [math.ceil(n / 2), n // 2]
+    width = W + (rows[0] - 1) * STEP
     out = []
     for r, k in enumerate(rows):
-        off = (width - (100 + (k - 1) * step)) / 2
+        off = (width - (W + (k - 1) * STEP)) / 2
         for i in range(k):
-            out.append((off + i * step, r * ROW, r))
-    return out, width, 140 + (len(rows) - 1) * ROW
+            out.append((off + i * STEP, r * ROW))
+    return out, width, H + (len(rows) - 1) * ROW
 
 
 def svg_group(gid: str, g: dict, name: str) -> str:
     ms = g["members"]
     lay, w, h = crowd_layout(len(ms))
-    defs = FILTER + "".join(f'<symbol id="{m["id"]}" viewBox="0 0 100 140">{sprite(m, g["color"])}</symbol>' for m in ms)
-    uses = "".join(f'<use href="#{m["id"]}" x="{x:.0f}" y="{y}" width="100" height="140" filter="url(#cut)"/>' for m, (x, y, _) in zip(ms, lay))
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -4 {w + 8:.0f} {h + 8}" width="{w + 8:.0f}" height="{h + 8}" role="img" aria-label="{name}, chibis">'
+    defs, uses = FILTER, ""
+    for i, (m, (x, y)) in enumerate(zip(ms, lay)):
+        d, body_svg = sprite(m, g["color"], f"{gid}-{m['id']}", i * .7)
+        defs += d + f'<symbol id="{gid}-{m["id"]}-s" viewBox="-6 -10 {W + 12} {H + 14}">{body_svg}</symbol>'
+        uses += f'<use href="#{gid}-{m["id"]}-s" x="{x - 6:.0f}" y="{y - 10}" width="{W + 12}" height="{H + 14}" filter="url(#cut)"/>'
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -14 {w + 20:.0f} {h + 22}" width="{w + 20:.0f}" height="{h + 22}" role="img" aria-label="{name}, chibis">'
             f'<title>{name}, chibis</title><defs>{defs}</defs>{uses}</svg>\n')
 
 
 def main() -> None:
     src = json.loads((ROOT / "tools" / "members.json").read_text(encoding="utf-8"))
-    events = json.loads((ROOT / "events.json").read_text(encoding="utf-8"))
-    names = {g["id"]: g["name"] for g in events["groups"]}
     roster = {}
     for gid, g in src["groups"].items():
         d = OUT / gid
         d.mkdir(parents=True, exist_ok=True)
         for old in d.glob("*.svg"):
             old.unlink()
-        for m in g["members"]:
-            (d / f'{m["id"]}.svg').write_text(svg_member(m, g["color"], names.get(gid, gid)), encoding="utf-8")
-        (OUT / f"{gid}.svg").write_text(svg_group(gid, g, names.get(gid, gid)), encoding="utf-8")
+        for i, m in enumerate(g["members"]):
+            (d / f'{m["id"]}.svg').write_text(svg_member(m, g["color"], g.get("name", gid), f"{gid}-{m['id']}", i * .9 % 4.6), encoding="utf-8")
+        (OUT / f"{gid}.svg").write_text(svg_group(gid, g, g.get("name", gid)), encoding="utf-8")
         roster[gid] = [{"id": m["id"], "name": m["name"], "ko": m["ko"]} for m in g["members"]]
-    generic = {"id": "fan", "name": "Fan", "hair": "fringe", "hc": "#5A4B82", "outfit": "hoodie", "oc": "#DCCFFF", "inner": "#FFFFFF", "eyes": "happy", "mouth": "open", "pose": "wave"}
-    (OUT / "default.svg").write_text(svg_member(generic, "#FF5FA8", "Radar K-pop"), encoding="utf-8")
+    generic = {"id": "fan", "name": "Fan", "hair": "fringe", "hc": "#6A5A8E", "outfit": "hoodie", "oc": "#DCCFFF", "inner": "#FFFFFF",
+               "eyes": "happy", "mouth": "open", "pose": "wave"}
+    (OUT / "default.svg").write_text(svg_member(generic, "#FF5FA8", "Radar K-pop", "fan", 0), encoding="utf-8")
     (OUT / "roster.json").write_text(json.dumps(roster, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    total = sum(len(v) for v in roster.values())
-    print(f"{total} chibis en {len(roster)} grupos")
+    print(f"{sum(len(v) for v in roster.values())} chibis in {len(roster)} groups")
 
 
 if __name__ == "__main__":

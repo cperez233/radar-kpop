@@ -31,30 +31,44 @@ __CANONICAL__
 <body>
 <a class="skip" href="#grupos" data-i18n="skip">Saltar a los grupos</a>
 
-<header class="bar">
-  <a class="logo" href="#mundo" aria-label="Radar K-pop, inicio">
-    <span class="logo-dot" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3.5 10.5 Q12 13 20.5 10.5 M12 3 Q7.5 12 12 21 M12 3 Q16.5 12 12 21"/></svg></span>
-    <span class="logo-text">Radar <b>K-pop</b></span>
-    <span class="logo-ko" lang="ko">케이팝 레이더</span>
-  </a>
-  <div class="bar-actions">
-    <button class="btn-ico install" id="installBtn" type="button" hidden>
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14"/></svg>
-      <span data-i18n="install">Instalar</span>
-    </button>
-    <div class="lang" role="group" aria-label="Idioma / Language">
-      <button type="button" data-lang="es" aria-pressed="true">ES</button>
-      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+<header class="bar" id="bar">
+  <div class="bar-top">
+    <a class="logo" href="#mundo" aria-label="Radar K-pop" data-i18n-aria="homeAria">
+      <span class="logo-dot" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3.5 10.5 Q12 13 20.5 10.5 M12 3 Q7.5 12 12 21 M12 3 Q16.5 12 12 21"/></svg></span>
+      <span class="logo-text">Radar <b>K-pop</b></span>
+      <span class="logo-ko" lang="ko">케이팝 레이더</span>
+    </a>
+    <div class="bar-actions">
+      <button class="btn-ico install" id="installBtn" type="button" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14"/></svg>
+        <span data-i18n="install">Install</span>
+      </button>
+      <div class="lang" role="group" aria-label="Language" data-i18n-aria="langAria">
+        <span class="lang-pill" aria-hidden="true"></span>
+        <button type="button" data-lang="es" aria-pressed="false">ES</button>
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      </div>
+      <button class="btn-ico mute" id="muteBtn" type="button" aria-pressed="false" aria-label="Mute sounds">
+        <svg class="ico-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg>
+        <svg class="ico-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M16 9.5l5 5m0-5-5 5"/></svg>
+      </button>
     </div>
-    <button class="btn-ico mute" id="muteBtn" type="button" aria-pressed="false" aria-label="Silenciar sonidos">
-      <svg class="ico-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg>
-      <svg class="ico-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M16 9.5l5 5m0-5-5 5"/></svg>
-    </button>
   </div>
+  <nav class="topnav" id="topnav" aria-label="Sections" data-i18n-aria="navAria">
+    <span class="tn-pill" aria-hidden="true"></span>
+    <a href="#mundo" data-nav="mundo" aria-current="true"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.8 10 Q12 12.5 20.2 10 M12 3.5 Q8 12 12 20.5 M12 3.5 Q16 12 12 20.5"/></svg><span data-i18n="dockWorld">World</span></a>
+    <a href="#cerca" data-nav="cerca"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg><span data-i18n="navCity">You</span></a>
+    <a href="#avistamientos" data-nav="avistamientos"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="2.2"/><path d="M7.5 7.5a6.4 6.4 0 0 0 0 9M16.5 7.5a6.4 6.4 0 0 1 0 9M4.6 4.6a10.4 10.4 0 0 0 0 14.8M19.4 4.6a10.4 10.4 0 0 1 0 14.8"/></svg><span data-i18n="navSight">Sightings</span></a>
+    <a href="#grupos" data-nav="grupos"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="11" height="15" rx="2.5" transform="rotate(-6 9.5 12.5)"/><rect x="10" y="4" width="10" height="14" rx="2.5" transform="rotate(8 15 11)"/></svg><span data-i18n="dockGroups">Groups</span></a>
+    <a href="#estrenos" data-nav="estrenos"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="2.5"/><path d="M12 3.5a8.5 8.5 0 0 1 8.5 8.5"/></svg><span data-i18n="navMedia">Releases</span></a>
+    <a href="#avisos" data-nav="avisos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 1.5h-15z"/><path d="M10 20.5a2.2 2.2 0 0 0 4 0"/></svg><span data-i18n="dockFeed">News</span></a>
+    <a href="#alertas" data-nav="alertas"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 6.5h15v9.5h-8l-4.5 3.5V16h-2.5z"/><path d="M8.5 10.5h7M8.5 13h4.5"/></svg><span data-i18n="dockAlerts">Alerts</span></a>
+    <button type="button" data-video><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 9.5v5l4-2.5z"/></svg><span data-i18n="dockVideo">Video</span></button>
+  </nav>
 </header>
 
 <main class="layout">
-  <section class="stage-col" id="mundo" aria-label="Mundo">
+  <section class="stage-col" id="mundo" aria-label="World" data-i18n-aria="dockWorld">
     <div class="stage" id="stage">
       <div class="sky" aria-hidden="true">
         <i class="spark anim-twinkle" style="--x:8%;--y:14%;--s:16px;--d:3.1s"></i>
@@ -67,24 +81,21 @@ __CANONICAL__
         <i class="heart-f anim-float" style="--x:84%;--y:34%;--d:7.4s"></i>
       </div>
 
-      <div class="view-toggle" role="group" aria-label="Vista">
+      <div class="view-toggle" role="group" aria-label="View" data-i18n-aria="viewAria">
         <span class="vt-pill" aria-hidden="true"></span>
         <button type="button" data-view="globe" aria-pressed="true"><span lang="ko">지구</span> <span data-i18n="globe">Globo</span></button>
         <button type="button" data-view="sonar" aria-pressed="false"><span lang="ko">레이더</span> <span data-i18n="sonar">Sonar</span></button>
       </div>
-      <button class="btn-ico video-btn" type="button" data-video>
-        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 9.5v5l4-2.5z"/></svg>
-        <span data-i18n="videoMode">Modo video</span>
-      </button>
 
       <div class="globe-view" id="globeView">
         <div class="ring anim-spin" aria-hidden="true">
           <svg viewBox="0 0 200 200"><defs><path id="ringPath" d="M100 100 m-88 0 a88 88 0 1 1 176 0 a88 88 0 1 1 -176 0"/></defs>
           <text><textPath href="#ringPath">케이팝 레이더 ✦ RADAR K-POP ✦ 지금 어디야? ✦ WHERE ARE THEY NOW ✦ 콘서트 ✦</textPath></text></svg>
         </div>
-        <canvas id="globe" role="img" aria-label="Globo con la próxima parada de cada grupo"></canvas>
+        <canvas id="globe" role="img" aria-label="Globe with each group's next stop" data-i18n-aria="globeAria"></canvas>
         <div class="pins" id="pins"></div>
         <div class="zoom-ctrl" role="group" aria-label="Zoom">
+          <button type="button" class="z-btn" data-spin aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.8 4.5v4h-4"/></svg><span class="sr" data-i18n="autoSpin">Auto-rotate</span></button>
           <button type="button" class="z-btn" data-zoom="in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6v12M6 12h12"/></svg><span class="sr" data-i18n="zoomIn">Acercar</span></button>
           <button type="button" class="z-btn" data-zoom="out"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12"/></svg><span class="sr" data-i18n="zoomOut">Alejar</span></button>
           <button type="button" class="z-btn" data-center-me><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6.5"/><circle cx="12" cy="12" r="2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3"/></svg><span class="sr" data-i18n="centerMe">Centrar en mí</span></button>
@@ -107,17 +118,18 @@ __CANONICAL__
       <div class="focus" id="focus" hidden></div>
     </div>
 
-    <div class="rail" id="rail" role="group" aria-label="Grupos"></div>
-    <a class="ticker" href="#avistamientos" aria-label="Avistamientos cercanos">
+    <div class="rail" id="rail" role="group" aria-label="Groups" data-i18n-aria="dockGroups"></div>
+    <a class="ticker" href="#avistamientos" aria-label="Sightings near you" data-i18n-aria="sightTitle">
       <span class="ticker-k"><span class="ticker-dot" aria-hidden="true"></span><span data-i18n="tickerK">AVISTAMIENTOS CERCANOS</span></span>
       <span class="ticker-vp"><span class="ticker-track anim-ticker" id="tickerTrack"></span></span>
     </a>
   </section>
 
   <div class="content-col">
-    <section class="near" id="cerca" aria-labelledby="nearTitle">
+    <section class="sec sec-near" id="cerca" aria-labelledby="nearTitle">
       <div class="near-head">
-        <h2 id="nearTitle"><span class="ko" lang="ko">내 도시</span> <span data-i18n="myCity">Tu ciudad</span></h2>
+        <h2 class="sec-title" id="nearTitle"><span class="sec-n" aria-hidden="true">01</span><span class="ko" lang="ko">내 위치</span> <span data-i18n="myCity">Your location</span></h2>
+        <p class="loc-chip" id="locChip" aria-live="polite"></p>
         <div class="near-ctrls">
           <label class="select-sticker">
             <span class="sr" data-i18n="myCity">Tu ciudad</span>
@@ -129,26 +141,34 @@ __CANONICAL__
           </button>
         </div>
       </div>
-      <p class="geo-note" id="geoNote" aria-live="polite" hidden></p>
+      <div class="loc-ask" id="locAsk" hidden></div>
       <div class="near-card" id="nearCard"></div>
       <p class="meta" aria-live="polite"><span id="meta">Cargando agenda</span> <button class="link-btn" id="refresh" type="button" data-i18n="checkNow">Revisar ahora</button></p>
     </section>
 
-    <section class="sights" id="avistamientos" aria-labelledby="sightTitle">
-      <h2 class="sec-title" id="sightTitle"><span class="ko" lang="ko">목격담</span> <span data-i18n="sightTitle">Avistamientos cercanos</span></h2>
+    <section class="sec sec-sights" id="avistamientos" aria-labelledby="sightTitle">
+      <h2 class="sec-title" id="sightTitle"><span class="sec-n" aria-hidden="true">02</span><span class="ko" lang="ko">목격담</span> <span data-i18n="sightTitle">Avistamientos cercanos</span></h2>
       <p class="sub-lead" data-i18n="sightLead">Publicaciones oficiales de los grupos que mencionan una ciudad, ordenadas por distancia a ti.</p>
       <p class="sample-tag" id="sightSample" hidden><span data-i18n="sightSample">Datos de ejemplo: el conector de X todavía no tiene token.</span></p>
       <ol class="bubbles" id="sightList"></ol>
       <p class="sight-src" data-i18n="sightSource">Fuente: cuentas oficiales en X</p>
     </section>
 
-    <section class="groups" id="grupos" aria-labelledby="groupsTitle">
-      <h2 class="sec-title" id="groupsTitle"><span class="ko" lang="ko">다음 공연</span> <span data-i18n="groupsTitle">¿Cuándo y dónde?</span></h2>
+    <section class="sec sec-groups" id="grupos" aria-labelledby="groupsTitle">
+      <h2 class="sec-title" id="groupsTitle"><span class="sec-n" aria-hidden="true">03</span><span class="ko" lang="ko">다음 공연</span> <span data-i18n="groupsTitle">When and where?</span></h2>
       <div class="cards" id="cards"></div>
     </section>
 
-    <section class="feed" id="avisos" aria-labelledby="feedTitle">
-      <h2 class="sec-title" id="feedTitle"><span class="ko" lang="ko">새 소식</span> <span data-i18n="feedTitle">Últimas alertas</span></h2>
+    <section class="sec sec-media" id="estrenos" aria-labelledby="mediaTitle">
+      <h2 class="sec-title" id="mediaTitle"><span class="sec-n" aria-hidden="true">04</span><span class="ko" lang="ko">신곡</span> <span data-i18n="mediaTitle">Releases and videos</span></h2>
+      <p class="sub-lead" data-i18n="mediaLead">The latest music and official videos of each group.</p>
+      <div class="media-filter chips" id="mediaFilter" role="group" aria-label="Filter" data-i18n-aria="filterAria"></div>
+      <ul class="media" id="media"></ul>
+      <p class="sight-src" id="mediaSrc"></p>
+    </section>
+
+    <section class="sec sec-feed" id="avisos" aria-labelledby="feedTitle">
+      <h2 class="sec-title" id="feedTitle"><span class="sec-n" aria-hidden="true">05</span><span class="ko" lang="ko">새 소식</span> <span data-i18n="feedTitle">Últimas alertas</span></h2>
       <ol class="bubbles" id="feed"></ol>
       <button class="btn ghost small" id="testParty" type="button">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.2 5.6L20 9.3l-4.5 3.9 1.4 5.8L12 16l-4.9 3 1.4-5.8L4 9.3l5.8-.7z"/></svg>
@@ -156,11 +176,11 @@ __CANONICAL__
       </button>
     </section>
 
-    <section class="subscribe" id="alertas" aria-labelledby="subTitle">
-      <h2 class="sec-title" id="subTitle"><span class="ko" lang="ko">알림 받기</span> <span data-i18n="subTitle">Recibir alertas</span></h2>
+    <section class="sec sec-subscribe" id="alertas" aria-labelledby="subTitle">
+      <h2 class="sec-title" id="subTitle"><span class="sec-n" aria-hidden="true">06</span><span class="ko" lang="ko">알림 받기</span> <span data-i18n="subTitle">Recibir alertas</span></h2>
       <p class="sub-lead" data-i18n="subLead">Te avisamos cuando tu grupo anuncia fechas, llega a una ciudad cerca o sube al escenario.</p>
       <form class="sub-form" id="subForm" novalidate>
-        <div class="tabs" role="tablist" aria-label="Canal">
+        <div class="tabs" role="tablist" aria-label="Channel" data-i18n-aria="channelAria">
           <span class="tab-pill" aria-hidden="true"></span>
           <button type="button" role="tab" data-ch="discord" aria-selected="true">Discord</button>
           <button type="button" role="tab" data-ch="whatsapp" aria-selected="false">WhatsApp</button>
@@ -238,61 +258,47 @@ __CANONICAL__
   </div>
 </main>
 
-<nav class="dock" aria-label="Secciones">
-  <a href="#mundo" data-dock="mundo" aria-current="true">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.8 10 Q12 12.5 20.2 10 M12 3.5 Q8 12 12 20.5 M12 3.5 Q16 12 12 20.5"/></svg>
-    <span data-i18n="dockWorld">Mundo</span>
-  </a>
-  <a href="#grupos" data-dock="grupos">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="11" height="15" rx="2.5" transform="rotate(-6 9.5 12.5)"/><rect x="10" y="4" width="10" height="14" rx="2.5" transform="rotate(8 15 11)"/></svg>
-    <span data-i18n="dockGroups">Grupos</span>
-  </a>
-  <a href="#avisos" data-dock="avisos">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 1.5h-15z"/><path d="M10 20.5a2.2 2.2 0 0 0 4 0"/></svg>
-    <span data-i18n="dockFeed">Avisos</span>
-  </a>
-  <a href="#alertas" data-dock="alertas">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 6.5h15v9.5h-8l-4.5 3.5V16h-2.5z"/><path d="M8.5 10.5h7M8.5 13h4.5"/></svg>
-    <span data-i18n="dockAlerts">Alertas</span>
-  </a>
-  <button type="button" data-video>
-    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 9.5v5l4-2.5z"/></svg>
-    <span data-i18n="dockVideo">Video</span>
-  </button>
-</nav>
-
 <div class="party" id="party" hidden>
   <canvas class="confetti" id="confetti" aria-hidden="true"></canvas>
   <div class="party-card" id="partyCard" role="alertdialog" aria-modal="false" aria-labelledby="partyTitle"></div>
 </div>
 
-<div class="video" id="video" hidden aria-label="Modo video">
+<div class="video" id="video" hidden aria-label="Video mode" data-i18n-aria="videoMode">
   <div class="video-frame" id="vframe">
     <div class="v-sky" aria-hidden="true"></div>
-    <canvas id="vglobe" aria-hidden="true"></canvas>
-    <div class="pins" id="vpins" aria-hidden="true"></div>
-    <div class="v-layer" id="vlayer" aria-live="polite"></div>
+    <div class="v-top" id="vtop" aria-live="polite"></div>
+    <div class="v-zone" id="vzone">
+      <canvas id="vglobe" aria-hidden="true"></canvas>
+      <div class="pins" id="vpins" aria-hidden="true"></div>
+    </div>
+    <div class="v-bottom" id="vcap" aria-live="polite"></div>
+    <div class="v-endbar" id="vend"></div>
   </div>
-  <button class="video-x" id="videoX" type="button" aria-label="Salir del modo video">
+  <button class="video-x" id="videoX" type="button" aria-label="Exit video mode" data-i18n-aria="closeVideo">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
   </button>
 </div>
 
-<div class="sheet" id="iosSheet" hidden role="dialog" aria-modal="true" aria-labelledby="iosTitle">
-  <div class="sheet-card">
-    <h2 id="iosTitle" data-i18n="iosTitle">Instálala en tu iPhone</h2>
-    <ol>
-      <li data-i18n="ios1">Toca el botón Compartir de Safari.</li>
-      <li data-i18n="ios2">Elige "Añadir a pantalla de inicio".</li>
-      <li data-i18n="ios3">Abre Radar K-pop desde tu pantalla, como una app.</li>
-    </ol>
-    <button class="btn primary" type="button" data-close-sheet data-i18n="gotIt">Listo</button>
+<div class="city" id="city" hidden role="dialog" aria-modal="true" aria-labelledby="cityTitle">
+  <div class="city-card">
+    <div class="city-head">
+      <span class="city-face" id="cityFace"></span>
+      <div class="city-id"><p class="city-k" id="cityK"></p><h2 id="cityTitle"></h2><p class="city-sub" id="citySub"></p></div>
+      <button class="city-x" type="button" data-city-close aria-label="Close" data-i18n-aria="close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="city-map" id="cityMap"><p class="city-msg" id="cityMsg" data-i18n="cityLoading">Drawing the city...</p></div>
+    <div class="city-tools">
+      <button type="button" class="z-btn" data-cmap="in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6v12M6 12h12"/></svg><span class="sr" data-i18n="zoomIn">Zoom in</span></button>
+      <button type="button" class="z-btn" data-cmap="out"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12"/></svg><span class="sr" data-i18n="zoomOut">Zoom out</span></button>
+      <button type="button" class="z-btn" data-cmap="tilt"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 16l8 4 8-4M4 12l8 4 8-4M12 4l8 4-8 4-8-4z"/></svg><span class="sr" data-i18n="cityTilt">3D view</span></button>
+      <button type="button" class="z-btn" data-cmap="venue"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6.5"/><circle cx="12" cy="12" r="2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3"/></svg><span class="sr" data-i18n="cityVenue">Back to the venue</span></button>
+    </div>
   </div>
 </div>
 
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
-<script>window.RADAR_DATA0 = __DATA__; window.RADAR_PHOTOS = __PHOTOS__; window.RADAR_ROSTER = __ROSTER__; window.RADAR_CHANGES = __CHANGES__;</script>
+<script>window.RADAR_DATA0 = __DATA__; window.RADAR_PHOTOS = __PHOTOS__; window.RADAR_ROSTER = __ROSTER__; window.RADAR_CHANGES = __CHANGES__; window.RADAR_PLACES = __PLACES__;</script>
 <script src="config.js"></script>
 <script src="assets/vendor/d3-array.min.js"></script>
 <script src="assets/vendor/d3-geo.min.js"></script>

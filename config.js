@@ -11,5 +11,5 @@ window.RADAR_CONFIG = {
 
   // URL pública de la web, por ejemplo "https://cperez233.github.io/radar-kpop". La usan la tarjeta para compartir,
   // el modo video y build.py (imagen para redes con URL completa). Vacío = la dirección actual.
-  siteUrl: ""
+  siteUrl: "https://radar-kpop.vercel.app"
 };
