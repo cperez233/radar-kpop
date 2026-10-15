@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cris",
+    "name": "Cris",
+    "city": "Bucaramanga",
+    "lat": 7.1254,
+    "lon": -73.1198,
+    "radius_km": 800,
+    "groups": ["*"],
+    "discord_user_id": "123456789012345678",
+    "types": ["*"],
+    "whatsapp": "+57 300 000 0000",
+    "whatsapp_opt_in": true,
+    "whatsapp_types": ["prox", "prox_new", "stop_today", "live", "latam"]
+  }
+]

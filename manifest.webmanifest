@@ -1,0 +1,18 @@
+{
+  "name": "Radar K-pop · 케이팝 레이더",
+  "short_name": "Radar K-pop",
+  "description": "Mira en un mundito dónde es la próxima parada de gira de tu grupo, cuenta los días y comparte tu tarjeta.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4EEFF",
+  "theme_color": "#F4EEFF",
+  "categories": ["entertainment", "music"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

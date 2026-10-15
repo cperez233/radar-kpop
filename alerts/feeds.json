@@ -1,0 +1,34 @@
+{
+  "aliases": {
+    "bts": {"names": ["BTS", "방탄소년단"]},
+    "skz": {"names": ["Stray Kids", "SKZ"]},
+    "twice": {"names": ["TWICE"], "context": "JYP|K-pop|Kpop|girl group|ONCE|Nayeon|Jihyo|Momo|Sana|Mina|Dahyun|Chaeyoung|Tzuyu|Jeongyeon"},
+    "blackpink": {"names": ["BLACKPINK", "블랙핑크"]},
+    "lngshot": {"names": ["LNGSHOT"]}
+  },
+  "news": [
+    {"name": "Soompi", "url": "https://www.soompi.com/feed"},
+    {"name": "allkpop", "url": "https://www.allkpop.com/feed"}
+  ],
+  "google_news": {
+    "bts": ["BTS tour OR comeback OR concierto OR gira", "BTS llegó OR llegaron OR arrives OR arrived OR aterrizó"],
+    "skz": ["\"Stray Kids\" tour OR comeback OR concierto OR gira", "\"Stray Kids\" llegó OR llegaron OR arrives OR arrived"],
+    "twice": ["TWICE JYP tour OR comeback OR concierto OR gira", "TWICE JYP llegó OR arrives OR arrived"],
+    "blackpink": ["BLACKPINK tour OR comeback OR concierto OR gira", "BLACKPINK llegó OR llegaron OR arrives OR arrived"],
+    "lngshot": ["LNGSHOT comeback OR tour OR concierto", "LNGSHOT arrives OR arrived OR llegó"]
+  },
+  "social": [
+    {"group": "bts", "name": "BTS en X", "url": "{RSSHUB}/twitter/user/BTS_twt"},
+    {"group": "skz", "name": "Stray Kids en X", "url": "{RSSHUB}/twitter/user/Stray_Kids"},
+    {"group": "twice", "name": "TWICE en X", "url": "{RSSHUB}/twitter/user/JYPETWICE"},
+    {"group": "blackpink", "name": "BLACKPINK en X", "url": "{RSSHUB}/twitter/user/BLACKPINK"},
+    {"group": "lngshot", "name": "LNGSHOT en X", "url": "{RSSHUB}/twitter/user/LNGSHOT_official"}
+  ],
+  "youtube": {
+    "bts": "UCLkAepWjdylmXSltofFvsYQ",
+    "skz": "UCr7lmzIk63PZnBw3bezl-Mg",
+    "twice": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+    "blackpink": "UCOmHUn--16B90oW2L6FRR3A",
+    "lngshot": ""
+  }
+}

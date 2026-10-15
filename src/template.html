@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- Diseño y desarrollo: editorial-ui, skill de Cristian Pérez · https://cristianperez.me -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="generator" content="editorial-ui · Cristian Pérez (https://cristianperez.me)">
+<title>Radar K-pop · 케이팝 레이더</title>
+<meta name="description" content="Un mundito donde ves a BTS, Stray Kids, TWICE, BLACKPINK y LNGSHOT parados en su próxima ciudad de gira, con cuenta regresiva y la distancia a tu ciudad.">
+<meta name="theme-color" content="#F4EEFF">
+<meta name="color-scheme" content="light">
+<meta property="og:title" content="Radar K-pop · 케이팝 레이더">
+<meta property="og:description" content="¿Dónde está tu grupo? Gira el mundito, mira su próxima parada y cuenta los días.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/icons/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Radar K-pop">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Gaegu:wght@400;700&family=Jua&display=swap">
+<link rel="preload" href="assets/land-110m.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip" href="#grupos" data-i18n="skip">Saltar a los grupos</a>
+
+<header class="bar">
+  <a class="logo" href="#mundo" aria-label="Radar K-pop, inicio">
+    <span class="logo-dot" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3.5 10.5 Q12 13 20.5 10.5 M12 3 Q7.5 12 12 21 M12 3 Q16.5 12 12 21"/></svg></span>
+    <span class="logo-text">Radar <b>K-pop</b></span>
+    <span class="logo-ko" lang="ko">케이팝 레이더</span>
+  </a>
+  <div class="bar-actions">
+    <button class="btn-ico install" id="installBtn" type="button" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14"/></svg>
+      <span data-i18n="install">Instalar</span>
+    </button>
+    <div class="lang" role="group" aria-label="Idioma / Language">
+      <button type="button" data-lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <button class="btn-ico mute" id="muteBtn" type="button" aria-pressed="false" aria-label="Silenciar sonidos">
+      <svg class="ico-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg>
+      <svg class="ico-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M16 9.5l5 5m0-5-5 5"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="layout">
+  <section class="stage-col" id="mundo" aria-label="Mundo">
+    <div class="stage" id="stage">
+      <div class="sky" aria-hidden="true">
+        <i class="spark anim-twinkle" style="--x:8%;--y:14%;--s:16px;--d:3.1s"></i>
+        <i class="spark anim-twinkle" style="--x:88%;--y:10%;--s:22px;--d:4.3s"></i>
+        <i class="spark anim-twinkle" style="--x:92%;--y:58%;--s:12px;--d:2.7s"></i>
+        <i class="spark anim-twinkle" style="--x:5%;--y:66%;--s:20px;--d:5.2s"></i>
+        <i class="spark anim-twinkle" style="--x:20%;--y:88%;--s:11px;--d:3.7s"></i>
+        <i class="spark anim-twinkle" style="--x:76%;--y:86%;--s:15px;--d:4.9s"></i>
+        <i class="heart-f anim-float" style="--x:14%;--y:36%;--d:6.2s"></i>
+        <i class="heart-f anim-float" style="--x:84%;--y:34%;--d:7.4s"></i>
+      </div>
+
+      <div class="view-toggle" role="group" aria-label="Vista">
+        <span class="vt-pill" aria-hidden="true"></span>
+        <button type="button" data-view="globe" aria-pressed="true"><span lang="ko">지구</span> <span data-i18n="globe">Globo</span></button>
+        <button type="button" data-view="sonar" aria-pressed="false"><span lang="ko">레이더</span> <span data-i18n="sonar">Sonar</span></button>
+      </div>
+      <button class="btn-ico video-btn" type="button" data-video>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 9.5v5l4-2.5z"/></svg>
+        <span data-i18n="videoMode">Modo video</span>
+      </button>
+
+      <div class="globe-view" id="globeView">
+        <div class="ring anim-spin" aria-hidden="true">
+          <svg viewBox="0 0 200 200"><defs><path id="ringPath" d="M100 100 m-88 0 a88 88 0 1 1 176 0 a88 88 0 1 1 -176 0"/></defs>
+          <text><textPath href="#ringPath">케이팝 레이더 ✦ RADAR K-POP ✦ 지금 어디야? ✦ WHERE ARE THEY NOW ✦ 콘서트 ✦</textPath></text></svg>
+        </div>
+        <canvas id="globe" role="img" aria-label="Globo con la próxima parada de cada grupo"></canvas>
+        <div class="pins" id="pins"></div>
+        <p class="drag-hint" id="dragHint" aria-hidden="true"><span lang="ko">드래그!</span> <span data-i18n="dragHint">arrástrame</span></p>
+      </div>
+
+      <div class="sonar-view" id="sonarView" hidden>
+        <div class="sonar" id="sonar">
+          <div class="sonar-plate" id="sonarPlate"></div>
+          <div class="sonar-sweep anim-sweep" aria-hidden="true"></div>
+          <svg class="sonar-line" id="sonarLine" aria-hidden="true"></svg>
+          <div class="sonar-me" id="sonarMe"><span data-i18n="you">Tú</span></div>
+          <div class="sonar-blips" id="sonarBlips"></div>
+        </div>
+        <p class="sonar-note" data-i18n="sonarNote">Distancia en escala de raíz: lo cercano se ve más separado.</p>
+      </div>
+
+      <div class="focus" id="focus" hidden></div>
+    </div>
+
+    <div class="rail" id="rail" role="group" aria-label="Grupos"></div>
+  </section>
+
+  <div class="content-col">
+    <section class="near" id="cerca" aria-labelledby="nearTitle">
+      <div class="near-head">
+        <h2 id="nearTitle"><span class="ko" lang="ko">내 도시</span> <span data-i18n="myCity">Tu ciudad</span></h2>
+        <div class="near-ctrls">
+          <label class="select-sticker">
+            <span class="sr" data-i18n="myCity">Tu ciudad</span>
+            <select id="origin"></select>
+          </label>
+          <button class="btn small" id="geoBtn" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg>
+            <span data-i18n="useLocation">Usar mi ubicación</span>
+          </button>
+        </div>
+      </div>
+      <div class="near-card" id="nearCard"></div>
+      <p class="meta" aria-live="polite"><span id="meta">Cargando agenda</span> <button class="link-btn" id="refresh" type="button" data-i18n="checkNow">Revisar ahora</button></p>
+    </section>
+
+    <section class="groups" id="grupos" aria-labelledby="groupsTitle">
+      <h2 class="sec-title" id="groupsTitle"><span class="ko" lang="ko">다음 공연</span> <span data-i18n="groupsTitle">¿Cuándo y dónde?</span></h2>
+      <div class="cards" id="cards"></div>
+    </section>
+
+    <section class="feed" id="avisos" aria-labelledby="feedTitle">
+      <h2 class="sec-title" id="feedTitle"><span class="ko" lang="ko">새 소식</span> <span data-i18n="feedTitle">Últimas alertas</span></h2>
+      <ol class="bubbles" id="feed"></ol>
+      <button class="btn ghost small" id="testParty" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.2 5.6L20 9.3l-4.5 3.9 1.4 5.8L12 16l-4.9 3 1.4-5.8L4 9.3l5.8-.7z"/></svg>
+        <span data-i18n="testParty">Probar la celebración</span>
+      </button>
+    </section>
+
+    <section class="subscribe" id="alertas" aria-labelledby="subTitle">
+      <h2 class="sec-title" id="subTitle"><span class="ko" lang="ko">알림 받기</span> <span data-i18n="subTitle">Recibir alertas</span></h2>
+      <p class="sub-lead" data-i18n="subLead">Te avisamos cuando tu grupo anuncia fechas, llega a una ciudad cerca o sube al escenario.</p>
+      <form class="sub-form" id="subForm" novalidate>
+        <div class="tabs" role="tablist" aria-label="Canal">
+          <span class="tab-pill" aria-hidden="true"></span>
+          <button type="button" role="tab" data-ch="discord" aria-selected="true">Discord</button>
+          <button type="button" role="tab" data-ch="whatsapp" aria-selected="false">WhatsApp</button>
+        </div>
+        <div class="field">
+          <label for="fName" data-i18n="fName">Tu nombre o apodo</label>
+          <input id="fName" name="name" autocomplete="nickname" maxlength="40">
+        </div>
+        <div class="field" data-for="discord">
+          <label for="fDiscord" data-i18n="fDiscord">Tu ID de usuario de Discord</label>
+          <input id="fDiscord" name="discord" inputmode="numeric" autocomplete="off" maxlength="20" placeholder="123456789012345678">
+          <p class="hint" data-i18n="fDiscordHint">Discord, Ajustes, Avanzado, Modo desarrollador. Luego clic derecho en tu nombre y Copiar ID.</p>
+          <p class="err" id="eDiscord" hidden data-i18n="eDiscord">El ID son 17 a 20 números.</p>
+        </div>
+        <div class="field" data-for="whatsapp" hidden>
+          <label for="fWa" data-i18n="fWa">Tu WhatsApp con indicativo</label>
+          <input id="fWa" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" maxlength="20" placeholder="+57 300 000 0000">
+          <p class="err" id="eWa" hidden data-i18n="eWa">Escríbelo con el indicativo, por ejemplo +57 300 000 0000.</p>
+          <label class="check"><input type="checkbox" id="fOptIn"> <span data-i18n="fOptIn">Acepto recibir mensajes del radar por WhatsApp.</span></label>
+          <p class="err" id="eOpt" hidden data-i18n="eOpt">WhatsApp exige que lo aceptes.</p>
+        </div>
+        <fieldset class="field">
+          <legend data-i18n="fGroups">Grupos</legend>
+          <div class="chips" id="fGroups"></div>
+        </fieldset>
+        <fieldset class="field">
+          <legend data-i18n="fTypes">Qué quieres que te avisemos</legend>
+          <div class="chips" id="fTypes"></div>
+        </fieldset>
+        <div class="field">
+          <label for="fRadius"><span data-i18n="fRadius">Avísame de shows a menos de</span> <b id="fRadiusOut">800 km</b></label>
+          <input id="fRadius" type="range" min="100" max="3000" step="50" value="800">
+        </div>
+        <div class="preview" aria-live="polite">
+          <p class="preview-k" data-i18n="preview">Así te llegaría</p>
+          <div class="preview-bubble" id="preview"></div>
+        </div>
+        <p class="privacy"><span data-i18n="privacy">Tus datos se guardan solo en este navegador. Si el radar tiene servidor configurado, se envían únicamente para mandarte estas alertas. Puedes borrarlos cuando quieras.</span> <a href="#privacidad" data-open-privacy data-i18n="privacyLink">Cómo usamos tus datos</a></p>
+        <div class="form-actions">
+          <button class="btn primary" type="submit" id="subSubmit"><span data-i18n="subSubmit">Guardar mis alertas</span></button>
+          <button class="link-btn" type="button" id="subDelete" data-i18n="subDelete">Borrar mis datos</button>
+        </div>
+        <div class="sub-result" id="subResult" hidden></div>
+      </form>
+    </section>
+
+    <footer class="foot">
+      <div class="moon-scene" aria-hidden="true">
+        <div class="moon"></div>
+        <div class="moon-chibis" id="moonChibis"></div>
+        <span class="zzz anim-zzz">z</span><span class="zzz anim-zzz z2">z</span><span class="zzz anim-zzz z3">Z</span>
+      </div>
+      <p class="bye"><span class="ko" lang="ko">다음에 또 봐요</span> <span data-i18n="bye">Nos vemos en la próxima parada</span></p>
+      <p data-i18n="disclaimer1">Esto muestra la agenda oficial y pública de cada grupo. No rastrea a nadie en tiempo real: el chibi está en la próxima fecha confirmada, no donde están en este momento.</p>
+      <p data-i18n="disclaimer2">Las horas son aproximadas (20:00 hora local cuando la fuente no la trae) y las coordenadas de los recintos también. Las fechas marcadas como anunciadas vienen de un solo anuncio y pueden cambiar.</p>
+      <details class="privacy-box" id="privacidad">
+        <summary data-i18n="privacyTitle">Privacidad</summary>
+        <p data-i18n="privacy1">El radar no tiene cuentas, ni cookies de rastreo, ni analítica. En tu navegador (localStorage) se guardan tu ciudad, tu idioma, si silenciaste los sonidos, tu grupo favorito, qué alertas ya viste y, si llenas el formulario, tu nombre, tu ID de Discord o tu WhatsApp, tus grupos y tus tipos de alerta.</p>
+        <p data-i18n="privacy2">"Usar mi ubicación" pide permiso al navegador y la posición se guarda redondeada solo en tu equipo, para medir distancias. Nada de eso sale de tu equipo, salvo el formulario cuando el radar tenga un servidor de alertas configurado: en ese caso se envía solo para mandarte las alertas que pediste.</p>
+        <p data-i18n="privacy3">Las fuentes tipográficas se cargan desde Google Fonts, que recibe tu dirección IP como cualquier sitio que las use. Para borrar todo, usa "Borrar mis datos" o limpia los datos del sitio en tu navegador.</p>
+      </details>
+      <p class="sources-k" data-i18n="sources">Fuentes</p>
+      <ul class="sources" id="sources"></ul>
+      <p class="foot-row"><span>Radar K-pop · 2026</span> <span class="credit"><span data-i18n="credit">Hecho con amor de fan por</span> <a href="https://cristianperez.me" target="_blank" rel="noopener noreferrer">Cristian Pérez</a><span id="zw"></span></span></p>
+    </footer>
+  </div>
+</main>
+
+<nav class="dock" aria-label="Secciones">
+  <a href="#mundo" data-dock="mundo" aria-current="true">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.8 10 Q12 12.5 20.2 10 M12 3.5 Q8 12 12 20.5 M12 3.5 Q16 12 12 20.5"/></svg>
+    <span data-i18n="dockWorld">Mundo</span>
+  </a>
+  <a href="#grupos" data-dock="grupos">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="11" height="15" rx="2.5" transform="rotate(-6 9.5 12.5)"/><rect x="10" y="4" width="10" height="14" rx="2.5" transform="rotate(8 15 11)"/></svg>
+    <span data-i18n="dockGroups">Grupos</span>
+  </a>
+  <a href="#avisos" data-dock="avisos">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 1.5h-15z"/><path d="M10 20.5a2.2 2.2 0 0 0 4 0"/></svg>
+    <span data-i18n="dockFeed">Avisos</span>
+  </a>
+  <a href="#alertas" data-dock="alertas">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 6.5h15v9.5h-8l-4.5 3.5V16h-2.5z"/><path d="M8.5 10.5h7M8.5 13h4.5"/></svg>
+    <span data-i18n="dockAlerts">Alertas</span>
+  </a>
+  <button type="button" data-video>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 9.5v5l4-2.5z"/></svg>
+    <span data-i18n="dockVideo">Video</span>
+  </button>
+</nav>
+
+<div class="party" id="party" hidden>
+  <canvas class="confetti" id="confetti" aria-hidden="true"></canvas>
+  <div class="party-card" id="partyCard" role="alertdialog" aria-modal="false" aria-labelledby="partyTitle"></div>
+</div>
+
+<div class="video" id="video" hidden aria-label="Modo video">
+  <div class="video-frame" id="vframe">
+    <div class="v-sky" aria-hidden="true"></div>
+    <canvas id="vglobe" aria-hidden="true"></canvas>
+    <div class="pins" id="vpins" aria-hidden="true"></div>
+    <div class="v-layer" id="vlayer" aria-live="polite"></div>
+  </div>
+  <button class="video-x" id="videoX" type="button" aria-label="Salir del modo video">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+  </button>
+</div>
+
+<div class="sheet" id="iosSheet" hidden role="dialog" aria-modal="true" aria-labelledby="iosTitle">
+  <div class="sheet-card">
+    <h2 id="iosTitle" data-i18n="iosTitle">Instálala en tu iPhone</h2>
+    <ol>
+      <li data-i18n="ios1">Toca el botón Compartir de Safari.</li>
+      <li data-i18n="ios2">Elige "Añadir a pantalla de inicio".</li>
+      <li data-i18n="ios3">Abre Radar K-pop desde tu pantalla, como una app.</li>
+    </ol>
+    <button class="btn primary" type="button" data-close-sheet data-i18n="gotIt">Listo</button>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script>window.RADAR_DATA0 = __DATA__; window.RADAR_PHOTOS = __PHOTOS__;</script>
+<script src="config.js"></script>
+<script src="assets/vendor/d3-array.min.js"></script>
+<script src="assets/vendor/d3-geo.min.js"></script>
+<script src="assets/vendor/topojson-client.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- Diseño y desarrollo: editorial-ui, skill de Cristian Pérez · https://cristianperez.me -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="generator" content="editorial-ui · Cristian Pérez (https://cristianperez.me)">
+<title>Radar K-pop · 케이팝 레이더</title>
+<meta name="description" content="Un mundito donde ves a BTS, Stray Kids, TWICE, BLACKPINK y LNGSHOT parados en su próxima ciudad de gira, con cuenta regresiva y la distancia a tu ciudad.">
+<meta name="theme-color" content="#F4EEFF">
+<meta name="color-scheme" content="light">
+<meta property="og:title" content="Radar K-pop · 케이팝 레이더">
+<meta property="og:description" content="¿Dónde está tu grupo? Gira el mundito, mira su próxima parada y cuenta los días.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/icons/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Radar K-pop">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Gaegu:wght@400;700&family=Jua&display=swap">
+<link rel="preload" href="assets/land-110m.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip" href="#grupos" data-i18n="skip">Saltar a los grupos</a>
+
+<header class="bar">
+  <a class="logo" href="#mundo" aria-label="Radar K-pop, inicio">
+    <span class="logo-dot" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3.5 10.5 Q12 13 20.5 10.5 M12 3 Q7.5 12 12 21 M12 3 Q16.5 12 12 21"/></svg></span>
+    <span class="logo-text">Radar <b>K-pop</b></span>
+    <span class="logo-ko" lang="ko">케이팝 레이더</span>
+  </a>
+  <div class="bar-actions">
+    <button class="btn-ico install" id="installBtn" type="button" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14"/></svg>
+      <span data-i18n="install">Instalar</span>
+    </button>
+    <div class="lang" role="group" aria-label="Idioma / Language">
+      <button type="button" data-lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <button class="btn-ico mute" id="muteBtn" type="button" aria-pressed="false" aria-label="Silenciar sonidos">
+      <svg class="ico-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg>
+      <svg class="ico-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M16 9.5l5 5m0-5-5 5"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="layout">
+  <section class="stage-col" id="mundo" aria-label="Mundo">
+    <div class="stage" id="stage">
+      <div class="sky" aria-hidden="true">
+        <i class="spark anim-twinkle" style="--x:8%;--y:14%;--s:16px;--d:3.1s"></i>
+        <i class="spark anim-twinkle" style="--x:88%;--y:10%;--s:22px;--d:4.3s"></i>
+        <i class="spark anim-twinkle" style="--x:92%;--y:58%;--s:12px;--d:2.7s"></i>
+        <i class="spark anim-twinkle" style="--x:5%;--y:66%;--s:20px;--d:5.2s"></i>
+        <i class="spark anim-twinkle" style="--x:20%;--y:88%;--s:11px;--d:3.7s"></i>
+        <i class="spark anim-twinkle" style="--x:76%;--y:86%;--s:15px;--d:4.9s"></i>
+        <i class="heart-f anim-float" style="--x:14%;--y:36%;--d:6.2s"></i>
+        <i class="heart-f anim-float" style="--x:84%;--y:34%;--d:7.4s"></i>
+      </div>
+
+      <div class="view-toggle" role="group" aria-label="Vista">
+        <span class="vt-pill" aria-hidden="true"></span>
+        <button type="button" data-view="globe" aria-pressed="true"><span lang="ko">지구</span> <span data-i18n="globe">Globo</span></button>
+        <button type="button" data-view="sonar" aria-pressed="false"><span lang="ko">레이더</span> <span data-i18n="sonar">Sonar</span></button>
+      </div>
+      <button class="btn-ico video-btn" type="button" data-video>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 9.5v5l4-2.5z"/></svg>
+        <span data-i18n="videoMode">Modo video</span>
+      </button>
+
+      <div class="globe-view" id="globeView">
+        <div class="ring anim-spin" aria-hidden="true">
+          <svg viewBox="0 0 200 200"><defs><path id="ringPath" d="M100 100 m-88 0 a88 88 0 1 1 176 0 a88 88 0 1 1 -176 0"/></defs>
+          <text><textPath href="#ringPath">케이팝 레이더 ✦ RADAR K-POP ✦ 지금 어디야? ✦ WHERE ARE THEY NOW ✦ 콘서트 ✦</textPath></text></svg>
+        </div>
+        <canvas id="globe" role="img" aria-label="Globo con la próxima parada de cada grupo"></canvas>
+        <div class="pins" id="pins"></div>
+        <p class="drag-hint" id="dragHint" aria-hidden="true"><span lang="ko">드래그!</span> <span data-i18n="dragHint">arrástrame</span></p>
+      </div>
+
+      <div class="sonar-view" id="sonarView" hidden>
+        <div class="sonar" id="sonar">
+          <div class="sonar-plate" id="sonarPlate"></div>
+          <div class="sonar-sweep anim-sweep" aria-hidden="true"></div>
+          <svg class="sonar-line" id="sonarLine" aria-hidden="true"></svg>
+          <div class="sonar-me" id="sonarMe"><span data-i18n="you">Tú</span></div>
+          <div class="sonar-blips" id="sonarBlips"></div>
+        </div>
+        <p class="sonar-note" data-i18n="sonarNote">Distancia en escala de raíz: lo cercano se ve más separado.</p>
+      </div>
+
+      <div class="focus" id="focus" hidden></div>
+    </div>
+
+    <div class="rail" id="rail" role="group" aria-label="Grupos"></div>
+  </section>
+
+  <div class="content-col">
+    <section class="near" id="cerca" aria-labelledby="nearTitle">
+      <div class="near-head">
+        <h2 id="nearTitle"><span class="ko" lang="ko">내 도시</span> <span data-i18n="myCity">Tu ciudad</span></h2>
+        <div class="near-ctrls">
+          <label class="select-sticker">
+            <span class="sr" data-i18n="myCity">Tu ciudad</span>
+            <select id="origin"></select>
+          </label>
+          <button class="btn small" id="geoBtn" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg>
+            <span data-i18n="useLocation">Usar mi ubicación</span>
+          </button>
+        </div>
+      </div>
+      <div class="near-card" id="nearCard"></div>
+      <p class="meta" aria-live="polite"><span id="meta">Cargando agenda</span> <button class="link-btn" id="refresh" type="button" data-i18n="checkNow">Revisar ahora</button></p>
+    </section>
+
+    <section class="groups" id="grupos" aria-labelledby="groupsTitle">
+      <h2 class="sec-title" id="groupsTitle"><span class="ko" lang="ko">다음 공연</span> <span data-i18n="groupsTitle">¿Cuándo y dónde?</span></h2>
+      <div class="cards" id="cards"></div>
+    </section>
+
+    <section class="feed" id="avisos" aria-labelledby="feedTitle">
+      <h2 class="sec-title" id="feedTitle"><span class="ko" lang="ko">새 소식</span> <span data-i18n="feedTitle">Últimas alertas</span></h2>
+      <ol class="bubbles" id="feed"></ol>
+      <button class="btn ghost small" id="testParty" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.2 5.6L20 9.3l-4.5 3.9 1.4 5.8L12 16l-4.9 3 1.4-5.8L4 9.3l5.8-.7z"/></svg>
+        <span data-i18n="testParty">Probar la celebración</span>
+      </button>
+    </section>
+
+    <section class="subscribe" id="alertas" aria-labelledby="subTitle">
+      <h2 class="sec-title" id="subTitle"><span class="ko" lang="ko">알림 받기</span> <span data-i18n="subTitle">Recibir alertas</span></h2>
+      <p class="sub-lead" data-i18n="subLead">Te avisamos cuando tu grupo anuncia fechas, llega a una ciudad cerca o sube al escenario.</p>
+      <form class="sub-form" id="subForm" novalidate>
+        <div class="tabs" role="tablist" aria-label="Canal">
+          <span class="tab-pill" aria-hidden="true"></span>
+          <button type="button" role="tab" data-ch="discord" aria-selected="true">Discord</button>
+          <button type="button" role="tab" data-ch="whatsapp" aria-selected="false">WhatsApp</button>
+        </div>
+        <div class="field">
+          <label for="fName" data-i18n="fName">Tu nombre o apodo</label>
+          <input id="fName" name="name" autocomplete="nickname" maxlength="40">
+        </div>
+        <div class="field" data-for="discord">
+          <label for="fDiscord" data-i18n="fDiscord">Tu ID de usuario de Discord</label>
+          <input id="fDiscord" name="discord" inputmode="numeric" autocomplete="off" maxlength="20" placeholder="123456789012345678">
+          <p class="hint" data-i18n="fDiscordHint">Discord, Ajustes, Avanzado, Modo desarrollador. Luego clic derecho en tu nombre y Copiar ID.</p>
+          <p class="err" id="eDiscord" hidden data-i18n="eDiscord">El ID son 17 a 20 números.</p>
+        </div>
+        <div class="field" data-for="whatsapp" hidden>
+          <label for="fWa" data-i18n="fWa">Tu WhatsApp con indicativo</label>
+          <input id="fWa" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" maxlength="20" placeholder="+57 300 000 0000">
+          <p class="err" id="eWa" hidden data-i18n="eWa">Escríbelo con el indicativo, por ejemplo +57 300 000 0000.</p>
+          <label class="check"><input type="checkbox" id="fOptIn"> <span data-i18n="fOptIn">Acepto recibir mensajes del radar por WhatsApp.</span></label>
+          <p class="err" id="eOpt" hidden data-i18n="eOpt">WhatsApp exige que lo aceptes.</p>
+        </div>
+        <fieldset class="field">
+          <legend data-i18n="fGroups">Grupos</legend>
+          <div class="chips" id="fGroups"></div>
+        </fieldset>
+        <fieldset class="field">
+          <legend data-i18n="fTypes">Qué quieres que te avisemos</legend>
+          <div class="chips" id="fTypes"></div>
+        </fieldset>
+        <div class="field">
+          <label for="fRadius"><span data-i18n="fRadius">Avísame de shows a menos de</span> <b id="fRadiusOut">800 km</b></label>
+          <input id="fRadius" type="range" min="100" max="3000" step="50" value="800">
+        </div>
+        <div class="preview" aria-live="polite">
+          <p class="preview-k" data-i18n="preview">Así te llegaría</p>
+          <div class="preview-bubble" id="preview"></div>
+        </div>
+        <p class="privacy"><span data-i18n="privacy">Tus datos se guardan solo en este navegador. Si el radar tiene servidor configurado, se envían únicamente para mandarte estas alertas. Puedes borrarlos cuando quieras.</span> <a href="#privacidad" data-open-privacy data-i18n="privacyLink">Cómo usamos tus datos</a></p>
+        <div class="form-actions">
+          <button class="btn primary" type="submit" id="subSubmit"><span data-i18n="subSubmit">Guardar mis alertas</span></button>
+          <button class="link-btn" type="button" id="subDelete" data-i18n="subDelete">Borrar mis datos</button>
+        </div>
+        <div class="sub-result" id="subResult" hidden></div>
+      </form>
+    </section>
+
+    <footer class="foot">
+      <div class="moon-scene" aria-hidden="true">
+        <div class="moon"></div>
+        <div class="moon-chibis" id="moonChibis"></div>
+        <span class="zzz anim-zzz">z</span><span class="zzz anim-zzz z2">z</span><span class="zzz anim-zzz z3">Z</span>
+      </div>
+      <p class="bye"><span class="ko" lang="ko">다음에 또 봐요</span> <span data-i18n="bye">Nos vemos en la próxima parada</span></p>
+      <p data-i18n="disclaimer1">Esto muestra la agenda oficial y pública de cada grupo. No rastrea a nadie en tiempo real: el chibi está en la próxima fecha confirmada, no donde están en este momento.</p>
+      <p data-i18n="disclaimer2">Las horas son aproximadas (20:00 hora local cuando la fuente no la trae) y las coordenadas de los recintos también. Las fechas marcadas como anunciadas vienen de un solo anuncio y pueden cambiar.</p>
+      <details class="privacy-box" id="privacidad">
+        <summary data-i18n="privacyTitle">Privacidad</summary>
+        <p data-i18n="privacy1">El radar no tiene cuentas, ni cookies de rastreo, ni analítica. En tu navegador (localStorage) se guardan tu ciudad, tu idioma, si silenciaste los sonidos, tu grupo favorito, qué alertas ya viste y, si llenas el formulario, tu nombre, tu ID de Discord o tu WhatsApp, tus grupos y tus tipos de alerta.</p>
+        <p data-i18n="privacy2">"Usar mi ubicación" pide permiso al navegador y la posición se guarda redondeada solo en tu equipo, para medir distancias. Nada de eso sale de tu equipo, salvo el formulario cuando el radar tenga un servidor de alertas configurado: en ese caso se envía solo para mandarte las alertas que pediste.</p>
+        <p data-i18n="privacy3">Las fuentes tipográficas se cargan desde Google Fonts, que recibe tu dirección IP como cualquier sitio que las use. Para borrar todo, usa "Borrar mis datos" o limpia los datos del sitio en tu navegador.</p>
+      </details>
+      <p class="sources-k" data-i18n="sources">Fuentes</p>
+      <ul class="sources" id="sources"></ul>
+      <p class="foot-row"><span>Radar K-pop · 2026</span> <span class="credit"><span data-i18n="credit">Hecho con amor de fan por</span> <a href="https://cristianperez.me" target="_blank" rel="noopener noreferrer">Cristian Pérez</a><span id="zw"></span></span></p>
+    </footer>
+  </div>
+</main>
+
+<nav class="dock" aria-label="Secciones">
+  <a href="#mundo" data-dock="mundo" aria-current="true">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.8 10 Q12 12.5 20.2 10 M12 3.5 Q8 12 12 20.5 M12 3.5 Q16 12 12 20.5"/></svg>
+    <span data-i18n="dockWorld">Mundo</span>
+  </a>
+  <a href="#grupos" data-dock="grupos">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="11" height="15" rx="2.5" transform="rotate(-6 9.5 12.5)"/><rect x="10" y="4" width="10" height="14" rx="2.5" transform="rotate(8 15 11)"/></svg>
+    <span data-i18n="dockGroups">Grupos</span>
+  </a>
+  <a href="#avisos" data-dock="avisos">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 1.5h-15z"/><path d="M10 20.5a2.2 2.2 0 0 0 4 0"/></svg>
+    <span data-i18n="dockFeed">Avisos</span>
+  </a>
+  <a href="#alertas" data-dock="alertas">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 6.5h15v9.5h-8l-4.5 3.5V16h-2.5z"/><path d="M8.5 10.5h7M8.5 13h4.5"/></svg>
+    <span data-i18n="dockAlerts">Alertas</span>
+  </a>
+  <button type="button" data-video>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 9.5v5l4-2.5z"/></svg>
+    <span data-i18n="dockVideo">Video</span>
+  </button>
+</nav>
+
+<div class="party" id="party" hidden>
+  <canvas class="confetti" id="confetti" aria-hidden="true"></canvas>
+  <div class="party-card" id="partyCard" role="alertdialog" aria-modal="false" aria-labelledby="partyTitle"></div>
+</div>
+
+<div class="video" id="video" hidden aria-label="Modo video">
+  <div class="video-frame" id="vframe">
+    <div class="v-sky" aria-hidden="true"></div>
+    <canvas id="vglobe" aria-hidden="true"></canvas>
+    <div class="pins" id="vpins" aria-hidden="true"></div>
+    <div class="v-layer" id="vlayer" aria-live="polite"></div>
+  </div>
+  <button class="video-x" id="videoX" type="button" aria-label="Salir del modo video">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+  </button>
+</div>
+
+<div class="sheet" id="iosSheet" hidden role="dialog" aria-modal="true" aria-labelledby="iosTitle">
+  <div class="sheet-card">
+    <h2 id="iosTitle" data-i18n="iosTitle">Instálala en tu iPhone</h2>
+    <ol>
+      <li data-i18n="ios1">Toca el botón Compartir de Safari.</li>
+      <li data-i18n="ios2">Elige "Añadir a pantalla de inicio".</li>
+      <li data-i18n="ios3">Abre Radar K-pop desde tu pantalla, como una app.</li>
+    </ol>
+    <button class="btn primary" type="button" data-close-sheet data-i18n="gotIt">Listo</button>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script>window.RADAR_DATA0 = {"updated_at":"2026-10-15T03:30:00Z","sources":[{"name":"Live Nation (BTS)","url":"https://www.livenation.com/artist/K8vZ917KpXV/bts-events"},{"name":"Wikipedia, Arirang World Tour","url":"https://en.wikipedia.org/wiki/Arirang_World_Tour"},{"name":"Wikipedia, Run It World Tour","url":"https://en.wikipedia.org/wiki/Run_It_World_Tour"},{"name":"KpopOfficial (Stray Kids)","url":"https://kpopofficial.com/schedule/stray-kids/"},{"name":"JamBase (Stray Kids)","url":"https://www.jambase.com/band/stray-kids"},{"name":"Wikipedia, This Is For World Tour","url":"https://en.wikipedia.org/wiki/This_Is_For_World_Tour"},{"name":"Wikipedia, Deadline World Tour (BLACKPINK)","url":"https://en.wikipedia.org/wiki/Deadline_World_Tour"},{"name":"Soompi (LNGSHOT con Jay Park)","url":"https://www.soompi.com/article/1847441wpp/jay-park-announces-2026-world-tour-stops-with-lngshot"},{"name":"Setlist.fm (LNGSHOT)","url":"https://www.setlist.fm/setlists/lngshot-1b9d5104.html"},{"name":"allkpop (comeback de LNGSHOT)","url":"https://www.allkpop.com/article/2026/09/lngshot-eye-a-late-october-or-early-november-return-with-new-music"}],"groups":[{"id":"bts","name":"BTS","tour":"Arirang World Tour","watch":[],"events":[{"id":"bts-20261009-lima","local_date":"2026-10-09","start":"2026-10-09T20:00:00-05:00","city":"Lima","country":"Perú","venue":"Estadio Nacional","lat":-12.0672,"lon":-77.0333,"status":"anunciado"},{"id":"bts-20261016-santiago","local_date":"2026-10-16","start":"2026-10-16T20:00:00-03:00","city":"Santiago","country":"Chile","venue":"Estadio Nacional Julio Martínez Prádanos","lat":-33.4645,"lon":-70.6107,"status":"confirmado"},{"id":"bts-20261017-santiago","local_date":"2026-10-17","start":"2026-10-17T20:00:00-03:00","city":"Santiago","country":"Chile","venue":"Estadio Nacional Julio Martínez Prádanos","lat":-33.4645,"lon":-70.6107,"status":"confirmado"},{"id":"bts-20261021-laplata","local_date":"2026-10-21","start":"2026-10-21T20:00:00-03:00","city":"La Plata","country":"Argentina","venue":"Estadio Único Diego Armando Maradona","lat":-34.9138,"lon":-57.9893,"status":"confirmado"},{"id":"bts-20261023-laplata","local_date":"2026-10-23","start":"2026-10-23T20:00:00-03:00","city":"La Plata","country":"Argentina","venue":"Estadio Único Diego Armando Maradona","lat":-34.9138,"lon":-57.9893,"status":"confirmado"},{"id":"bts-20261024-laplata","local_date":"2026-10-24","start":"2026-10-24T20:00:00-03:00","city":"La Plata","country":"Argentina","venue":"Estadio Único Diego Armando Maradona","lat":-34.9138,"lon":-57.9893,"status":"confirmado"},{"id":"bts-20261028-saopaulo","local_date":"2026-10-28","start":"2026-10-28T20:00:00-03:00","city":"São Paulo","country":"Brasil","venue":"Estádio MorumBIS","lat":-23.6,"lon":-46.72,"status":"confirmado"},{"id":"bts-20261030-saopaulo","local_date":"2026-10-30","start":"2026-10-30T20:00:00-03:00","city":"São Paulo","country":"Brasil","venue":"Estádio MorumBIS","lat":-23.6,"lon":-46.72,"status":"confirmado"},{"id":"bts-20261031-saopaulo","local_date":"2026-10-31","start":"2026-10-31T20:00:00-03:00","city":"São Paulo","country":"Brasil","venue":"Estádio MorumBIS","lat":-23.6,"lon":-46.72,"status":"confirmado"},{"id":"bts-20261119-kaohsiung","local_date":"2026-11-19","start":"2026-11-19T20:00:00+08:00","city":"Kaohsiung","country":"Taiwán","venue":"Estadio Nacional de Kaohsiung","lat":22.701,"lon":120.294,"status":"confirmado"},{"id":"bts-20261121-kaohsiung","local_date":"2026-11-21","start":"2026-11-21T20:00:00+08:00","city":"Kaohsiung","country":"Taiwán","venue":"Estadio Nacional de Kaohsiung","lat":22.701,"lon":120.294,"status":"confirmado"},{"id":"bts-20261122-kaohsiung","local_date":"2026-11-22","start":"2026-11-22T20:00:00+08:00","city":"Kaohsiung","country":"Taiwán","venue":"Estadio Nacional de Kaohsiung","lat":22.701,"lon":120.294,"status":"confirmado"},{"id":"bts-20261203-bangkok","local_date":"2026-12-03","start":"2026-12-03T20:00:00+07:00","city":"Bangkok","country":"Tailandia","venue":"Estadio Rajamangala","lat":13.7558,"lon":100.6217,"status":"confirmado"},{"id":"bts-20261205-bangkok","local_date":"2026-12-05","start":"2026-12-05T20:00:00+07:00","city":"Bangkok","country":"Tailandia","venue":"Estadio Rajamangala","lat":13.7558,"lon":100.6217,"status":"confirmado"},{"id":"bts-20261206-bangkok","local_date":"2026-12-06","start":"2026-12-06T20:00:00+07:00","city":"Bangkok","country":"Tailandia","venue":"Estadio Rajamangala","lat":13.7558,"lon":100.6217,"status":"confirmado"},{"id":"bts-20261212-kualalumpur","local_date":"2026-12-12","start":"2026-12-12T20:00:00+08:00","city":"Kuala Lumpur","country":"Malasia","venue":"Estadio Nacional Bukit Jalil","lat":3.0546,"lon":101.6919,"status":"confirmado"},{"id":"bts-20261213-kualalumpur","local_date":"2026-12-13","start":"2026-12-13T20:00:00+08:00","city":"Kuala Lumpur","country":"Malasia","venue":"Estadio Nacional Bukit Jalil","lat":3.0546,"lon":101.6919,"status":"confirmado"},{"id":"bts-20261217-singapore","local_date":"2026-12-17","start":"2026-12-17T20:00:00+08:00","city":"Singapur","country":"Singapur","venue":"Estadio Nacional","lat":1.3047,"lon":103.8747,"status":"confirmado"},{"id":"bts-20261219-singapore","local_date":"2026-12-19","start":"2026-12-19T20:00:00+08:00","city":"Singapur","country":"Singapur","venue":"Estadio Nacional","lat":1.3047,"lon":103.8747,"status":"confirmado"},{"id":"bts-20261220-singapore","local_date":"2026-12-20","start":"2026-12-20T20:00:00+08:00","city":"Singapur","country":"Singapur","venue":"Estadio Nacional","lat":1.3047,"lon":103.8747,"status":"confirmado"},{"id":"bts-20261222-singapore","local_date":"2026-12-22","start":"2026-12-22T20:00:00+08:00","city":"Singapur","country":"Singapur","venue":"Estadio Nacional","lat":1.3047,"lon":103.8747,"status":"confirmado"},{"id":"bts-20261226-jakarta","local_date":"2026-12-26","start":"2026-12-26T20:00:00+07:00","city":"Yakarta","country":"Indonesia","venue":null,"lat":-6.2088,"lon":106.8456,"status":"anunciado"},{"id":"bts-20261227-jakarta","local_date":"2026-12-27","start":"2026-12-27T20:00:00+07:00","city":"Yakarta","country":"Indonesia","venue":null,"lat":-6.2088,"lon":106.8456,"status":"anunciado"},{"id":"bts-20270212-melbourne","local_date":"2027-02-12","start":"2027-02-12T20:00:00+11:00","city":"Melbourne","country":"Australia","venue":null,"lat":-37.8136,"lon":144.9631,"status":"anunciado"},{"id":"bts-20270213-melbourne","local_date":"2027-02-13","start":"2027-02-13T20:00:00+11:00","city":"Melbourne","country":"Australia","venue":null,"lat":-37.8136,"lon":144.9631,"status":"anunciado"},{"id":"bts-20270220-sydney","local_date":"2027-02-20","start":"2027-02-20T20:00:00+11:00","city":"Sídney","country":"Australia","venue":null,"lat":-33.8688,"lon":151.2093,"status":"anunciado"},{"id":"bts-20270221-sydney","local_date":"2027-02-21","start":"2027-02-21T20:00:00+11:00","city":"Sídney","country":"Australia","venue":null,"lat":-33.8688,"lon":151.2093,"status":"anunciado"},{"id":"bts-20270304-hongkong","local_date":"2027-03-04","start":"2027-03-04T20:00:00+08:00","city":"Hong Kong","country":"China","venue":null,"lat":22.3193,"lon":114.1694,"status":"anunciado"},{"id":"bts-20270306-hongkong","local_date":"2027-03-06","start":"2027-03-06T20:00:00+08:00","city":"Hong Kong","country":"China","venue":null,"lat":22.3193,"lon":114.1694,"status":"anunciado"},{"id":"bts-20270307-hongkong","local_date":"2027-03-07","start":"2027-03-07T20:00:00+08:00","city":"Hong Kong","country":"China","venue":null,"lat":22.3193,"lon":114.1694,"status":"anunciado"},{"id":"bts-20270313-manila","local_date":"2027-03-13","start":"2027-03-13T20:00:00+08:00","city":"Manila","country":"Filipinas","venue":null,"lat":14.5995,"lon":120.9842,"status":"anunciado"},{"id":"bts-20270314-manila","local_date":"2027-03-14","start":"2027-03-14T20:00:00+08:00","city":"Manila","country":"Filipinas","venue":null,"lat":14.5995,"lon":120.9842,"status":"anunciado"}]},{"id":"skz","name":"Stray Kids","tour":"Run It World Tour","watch":["Tokyo Dome aparece en la gira, pero las fechas exactas no salen claras en las fuentes."],"events":[{"id":"skz-20260919-osaka","local_date":"2026-09-19","start":"2026-09-19T18:00:00+09:00","city":"Osaka","country":"Japón","venue":"Kyocera Dome Osaka","lat":34.6695,"lon":135.4762,"status":"confirmado"},{"id":"skz-20260920-osaka","local_date":"2026-09-20","start":"2026-09-20T18:00:00+09:00","city":"Osaka","country":"Japón","venue":"Kyocera Dome Osaka","lat":34.6695,"lon":135.4762,"status":"confirmado"},{"id":"skz-20261024-fukuoka","local_date":"2026-10-24","start":"2026-10-24T18:00:00+09:00","city":"Fukuoka","country":"Japón","venue":"Mizuho PayPay Dome Fukuoka","lat":33.5953,"lon":130.3622,"status":"confirmado"},{"id":"skz-20261205-hongkong","local_date":"2026-12-05","start":"2026-12-05T20:00:00+08:00","city":"Hong Kong","country":"China","venue":"Kai Tak Stadium","lat":22.3047,"lon":114.194,"status":"confirmado"},{"id":"skz-20261212-taipei","local_date":"2026-12-12","start":"2026-12-12T19:00:00+08:00","city":"Taipéi","country":"Taiwán","venue":"Taipei Dome","lat":25.0437,"lon":121.56,"status":"confirmado"},{"id":"skz-20270116-bangkok","local_date":"2027-01-16","start":"2027-01-16T19:00:00+07:00","city":"Nonthaburi (Bangkok)","country":"Tailandia","venue":"IMPACT Arena","lat":13.913,"lon":100.546,"status":"anunciado"},{"id":"skz-20270117-bangkok","local_date":"2027-01-17","start":"2027-01-17T19:00:00+07:00","city":"Nonthaburi (Bangkok)","country":"Tailandia","venue":"IMPACT Arena","lat":13.913,"lon":100.546,"status":"anunciado"},{"id":"skz-20270307-singapore","local_date":"2027-03-07","start":"2027-03-07T19:00:00+08:00","city":"Singapur","country":"Singapur","venue":null,"lat":1.3521,"lon":103.8198,"status":"anunciado"}]},{"id":"twice","name":"TWICE","tour":"This Is For World Tour (terminada)","watch":["La gira This Is For cerró el 12 de julio de 2026 y no encontré fechas nuevas confirmadas.","Jihyo contó en un vlog (30 jul 2026) que quieren hacer gira por Sudamérica más adelante, sin fechas."],"events":[]},{"id":"blackpink","name":"BLACKPINK","tour":"Deadline World Tour (terminada)","watch":["La gira Deadline cerró el 26 de enero de 2026 en el Kai Tak Stadium de Hong Kong y no hay fechas nuevas anunciadas.","Su mini álbum Deadline salió el 27 de febrero de 2026."],"events":[{"id":"bp-20260116-tokyo","local_date":"2026-01-16","start":"2026-01-16T20:00:00+09:00","city":"Tokio","country":"Japón","venue":"Tokyo Dome","lat":35.7056,"lon":139.7519,"status":"confirmado"},{"id":"bp-20260117-tokyo","local_date":"2026-01-17","start":"2026-01-17T20:00:00+09:00","city":"Tokio","country":"Japón","venue":"Tokyo Dome","lat":35.7056,"lon":139.7519,"status":"confirmado"},{"id":"bp-20260118-tokyo","local_date":"2026-01-18","start":"2026-01-18T20:00:00+09:00","city":"Tokio","country":"Japón","venue":"Tokyo Dome","lat":35.7056,"lon":139.7519,"status":"confirmado"},{"id":"bp-20260124-hongkong","local_date":"2026-01-24","start":"2026-01-24T20:00:00+08:00","city":"Hong Kong","country":"China","venue":"Kai Tak Stadium","lat":22.3047,"lon":114.194,"status":"confirmado"},{"id":"bp-20260125-hongkong","local_date":"2026-01-25","start":"2026-01-25T20:00:00+08:00","city":"Hong Kong","country":"China","venue":"Kai Tak Stadium","lat":22.3047,"lon":114.194,"status":"confirmado"},{"id":"bp-20260126-hongkong","local_date":"2026-01-26","start":"2026-01-26T20:00:00+08:00","city":"Hong Kong","country":"China","venue":"Kai Tak Stadium","lat":22.3047,"lon":114.194,"status":"confirmado"}]},{"id":"lngshot","name":"LNGSHOT","tour":"Con Jay Park, Serenades & Body Rolls","watch":["Comeback esperado a finales de octubre o inicios de noviembre (fuentes de la industria, sin confirmar)."],"events":[{"id":"lng-20261013-vienna","local_date":"2026-10-13","start":"2026-10-13T20:00:00+02:00","city":"Viena","country":"Austria","venue":"Gasometer","lat":48.187,"lon":16.42,"status":"confirmado"},{"id":"lng-20261015-zurich","local_date":"2026-10-15","start":"2026-10-15T20:00:00+02:00","city":"Zúrich (Dübendorf)","country":"Suiza","venue":"The Hall","lat":47.3995,"lon":8.619,"status":"confirmado"},{"id":"lng-20261017-milan","local_date":"2026-10-17","start":"2026-10-17T20:00:00+02:00","city":"Milán","country":"Italia","venue":"Fabrique","lat":45.4381,"lon":9.2415,"status":"confirmado"},{"id":"lng-20261020-paris","local_date":"2026-10-20","start":"2026-10-20T20:00:00+02:00","city":"París","country":"Francia","venue":"Zénith","lat":48.894,"lon":2.393,"status":"confirmado"},{"id":"lng-20261022-esch","local_date":"2026-10-22","start":"2026-10-22T20:00:00+02:00","city":"Esch-sur-Alzette","country":"Luxemburgo","venue":"Rockhal","lat":49.503,"lon":5.946,"status":"confirmado"},{"id":"lng-20261026-london","local_date":"2026-10-26","start":"2026-10-26T19:30:00+00:00","city":"Londres (Wembley)","country":"Reino Unido","venue":"OVO Arena Wembley","lat":51.556,"lon":-0.2796,"status":"confirmado"},{"id":"lng-20261028-edinburgh","local_date":"2026-10-28","start":"2026-10-28T19:30:00+00:00","city":"Edimburgo","country":"Reino Unido","venue":"Corn Exchange","lat":55.936,"lon":-3.243,"status":"confirmado"}]}]}; window.RADAR_PHOTOS = {};</script>
+<script src="config.js"></script>
+<script src="assets/vendor/d3-array.min.js"></script>
+<script src="assets/vendor/d3-geo.min.js"></script>
+<script src="assets/vendor/topojson-client.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
