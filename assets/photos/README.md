@@ -14,6 +14,7 @@ polaroid en la tarjeta del grupo y en la imagen para compartir. Los chibis (glob
 | SEVENTEEN | `seventeen.webp` |
 | ENHYPEN | `enhypen.webp` |
 | NewJeans | `newjeans.webp` |
+| CORTIS | `cortis.webp` |
 
 Después de agregar o quitar una foto corre `python build.py` (el workflow lo hace solo cada 15 minutos).
 

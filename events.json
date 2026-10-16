@@ -71,6 +71,20 @@
       "name": "Star News (NewJeans en 2026)",
       "url": "https://starnewskorea.com/en/music/2026/10/14/2026101410031571957",
       "name_en": "Star News (NewJeans in 2026)"
+    },
+    {
+      "name": "Consequence (gira de CORTIS)",
+      "url": "https://consequence.net/2026/06/cortis-2026-north-american-put-your-phone-down-tour/",
+      "name_en": "Consequence (CORTIS tour)"
+    },
+    {
+      "name": "KpopOfficial (CORTIS)",
+      "url": "https://kpopofficial.com/schedule/cortis/"
+    },
+    {
+      "name": "Namane (fechas de Seúl y Japón de CORTIS)",
+      "url": "https://blog.namanecard.com/en/cortis-put-your-phone-down-tour-2026-dates/",
+      "name_en": "Namane (CORTIS Seoul and Japan dates)"
     }
   ],
   "groups": [
@@ -1215,6 +1229,187 @@
         }
       ],
       "tour_en": "Bunnies Camp 2024 (fan meeting)"
+    },
+    {
+      "id": "cortis",
+      "name": "CORTIS",
+      "tour": "Put Your Phone Down (terminada)",
+      "watch": [
+        "La gira Put Your Phone Down cerró el 6 de septiembre de 2026 en Yokohama y su última presentación fue en el Gran Premio de F1 de Singapur (9 de octubre). No hay fechas nuevas confirmadas.",
+        "Su EP más reciente es GREENGREEN (4 de mayo de 2026)."
+      ],
+      "watch_en": [
+        "The Put Your Phone Down tour ended on September 6, 2026 in Yokohama and their last show was at the Singapore F1 Grand Prix (October 9). No new dates are confirmed.",
+        "Their latest EP is GREENGREEN (May 4, 2026)."
+      ],
+      "events": [
+        {
+          "id": "cortis-20260718-incheon",
+          "local_date": "2026-07-18",
+          "start": "2026-07-18T18:00:00+09:00",
+          "city": "Incheon",
+          "country": "Corea del Sur",
+          "venue": "INSPIRE Arena",
+          "lat": 37.4637,
+          "lon": 126.3897,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260719-incheon",
+          "local_date": "2026-07-19",
+          "start": "2026-07-19T17:00:00+09:00",
+          "city": "Incheon",
+          "country": "Corea del Sur",
+          "venue": "INSPIRE Arena",
+          "lat": 37.4637,
+          "lon": 126.3897,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260801-chicago",
+          "local_date": "2026-08-01",
+          "start": "2026-08-01T18:00:00-05:00",
+          "city": "Chicago",
+          "country": "EE. UU.",
+          "venue": "Lollapalooza (Grant Park)",
+          "lat": 41.8758,
+          "lon": -87.6189,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260804-toronto",
+          "local_date": "2026-08-04",
+          "start": "2026-08-04T20:00:00-04:00",
+          "city": "Toronto",
+          "country": "Canadá",
+          "venue": "The Theatre at Great Canadian Toronto",
+          "lat": 43.7166,
+          "lon": -79.604,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260806-nueva-york",
+          "local_date": "2026-08-06",
+          "start": "2026-08-06T20:00:00-04:00",
+          "city": "Nueva York",
+          "country": "EE. UU.",
+          "venue": "Infosys Theater at Madison Square Garden",
+          "lat": 40.7505,
+          "lon": -73.9934,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260808-atlanta",
+          "local_date": "2026-08-08",
+          "start": "2026-08-08T20:00:00-04:00",
+          "city": "Atlanta",
+          "country": "EE. UU.",
+          "venue": "Fox Theatre",
+          "lat": 33.7725,
+          "lon": -84.3857,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260811-irving",
+          "local_date": "2026-08-11",
+          "start": "2026-08-11T20:00:00-05:00",
+          "city": "Irving",
+          "country": "EE. UU.",
+          "venue": "The Pavilion at Toyota Music Factory",
+          "lat": 32.8781,
+          "lon": -96.9375,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260813-inglewood",
+          "local_date": "2026-08-13",
+          "start": "2026-08-13T20:00:00-07:00",
+          "city": "Inglewood (Los Ángeles)",
+          "country": "EE. UU.",
+          "venue": "YouTube Theater",
+          "lat": 33.9519,
+          "lon": -118.339,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260815-san-francisco",
+          "local_date": "2026-08-15",
+          "start": "2026-08-15T20:00:00-07:00",
+          "city": "San Francisco",
+          "country": "EE. UU.",
+          "venue": "The Theater at Bill Graham Civic Auditorium",
+          "lat": 37.7785,
+          "lon": -122.4176,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260822-seul",
+          "local_date": "2026-08-22",
+          "start": "2026-08-22T18:00:00+09:00",
+          "city": "Seúl",
+          "country": "Corea del Sur",
+          "venue": "Hwajeong Tiger Dome (Universidad de Corea)",
+          "lat": 37.5866,
+          "lon": 127.0293,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260823-seul",
+          "local_date": "2026-08-23",
+          "start": "2026-08-23T17:00:00+09:00",
+          "city": "Seúl",
+          "country": "Corea del Sur",
+          "venue": "Hwajeong Tiger Dome (Universidad de Corea)",
+          "lat": 37.5866,
+          "lon": 127.0293,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260904-yokohama",
+          "local_date": "2026-09-04",
+          "start": "2026-09-04T19:00:00+09:00",
+          "city": "Yokohama",
+          "country": "Japón",
+          "venue": "PIA ARENA MM",
+          "lat": 35.456,
+          "lon": 139.6282,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260905-yokohama",
+          "local_date": "2026-09-05",
+          "start": "2026-09-05T17:00:00+09:00",
+          "city": "Yokohama",
+          "country": "Japón",
+          "venue": "PIA ARENA MM",
+          "lat": 35.456,
+          "lon": 139.6282,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260906-yokohama",
+          "local_date": "2026-09-06",
+          "start": "2026-09-06T15:00:00+09:00",
+          "city": "Yokohama",
+          "country": "Japón",
+          "venue": "PIA ARENA MM",
+          "lat": 35.456,
+          "lon": 139.6282,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20261009-singapur",
+          "local_date": "2026-10-09",
+          "start": "2026-10-09T20:00:00+08:00",
+          "city": "Singapur",
+          "country": "Singapur",
+          "venue": "Padang Stage, Gran Premio de F1 de Singapur",
+          "lat": 1.2903,
+          "lon": 103.852,
+          "status": "confirmado"
+        }
+      ],
+      "tour_en": "Put Your Phone Down (ended)"
     }
   ]
 }

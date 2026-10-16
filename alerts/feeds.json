@@ -47,6 +47,12 @@
         "NewJeans",
         "뉴진스"
       ]
+    },
+    "cortis": {
+      "names": [
+        "CORTIS",
+        "코르티스"
+      ]
     }
   },
   "news": [
@@ -88,6 +94,10 @@
     ],
     "newjeans": [
       "NewJeans comeback OR ADOR OR concierto"
+    ],
+    "cortis": [
+      "CORTIS BIGHIT tour OR comeback OR concierto OR gira",
+      "CORTIS llegó OR arrives OR arrived"
     ]
   },
   "social": [
@@ -130,6 +140,11 @@
       "group": "newjeans",
       "name": "NewJeans en X",
       "url": "{RSSHUB}/twitter/user/NewJeans_ADOR"
+    },
+    {
+      "group": "cortis",
+      "name": "CORTIS en X",
+      "url": "{RSSHUB}/twitter/user/cortis_bighit"
     }
   ],
   "youtube": {
@@ -140,7 +155,8 @@
     "lngshot": "UC8PPjyqCQJtNfEwHBcq_uxw",
     "seventeen": "UCfkXDY7vwkcJ8ddFGz8KusA",
     "enhypen": "UCArLZtok93cO5R9RI4_Y5Jw",
-    "newjeans": "UCMki_UkHb4qSc0qyEcOHHJw"
+    "newjeans": "UCMki_UkHb4qSc0qyEcOHHJw",
+    "cortis": "UCZMYvSPulDSUdx7bdtTFdrg"
   },
   "itunes": {
     "bts": 883131348,
@@ -150,6 +166,7 @@
     "lngshot": 1862022916,
     "seventeen": 999644772,
     "enhypen": 1541011620,
-    "newjeans": 1635469693
+    "newjeans": 1635469693,
+    "cortis": 1831651635
   }
 }

@@ -124,5 +124,6 @@ SUBSCRIBERS_JSON='[...]' DRY_RUN=1 NO_NEWS=1 NOW=2026-10-16T12:00:00Z python ale
 ## Pendiente de verificar
 
 - Cuentas e IDs revisados el 15 de octubre de 2026: el canal de YouTube de Stray Kids estaba mal (ahora `UC9rMiEjNaCSsebs31MRDCRA`), la cuenta de X de LNGSHOT es `LNGSHOT4sho` (confianza media: su web oficial no enlaza X) y su canal oficial de YouTube es `UC8PPjyqCQJtNfEwHBcq_uxw`. Agregados SEVENTEEN (`pledis_17`), ENHYPEN (`ENHYPEN`) y NewJeans (`NewJeans_ADOR`).
+- CORTIS, agregado el 16 de octubre de 2026: X `cortis_bighit` (lo enlaza su canal oficial), YouTube `UCZMYvSPulDSUdx7bdtTFdrg` (@cortis_bighit) e iTunes `1831651635`. El RSS de YouTube no se pudo probar desde el entorno de desarrollo (también falla para los otros canales ahí).
 - Noticias: Soompi y Koreaboo por RSS (allkpop bloquea robots con 403 y se quitó). Si alguna falla, el motor lo avisa en el log y sigue con las demás.
 - El actualizador de Ticketmaster y el envío real a WhatsApp y Discord no se probaron contra las APIs reales.

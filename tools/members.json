@@ -793,6 +793,37 @@
         }
       ],
       "name": "NewJeans"
+    },
+    "cortis": {
+      "color": "#7CB518",
+      "name": "CORTIS",
+      "members": [
+        {
+          "id": "martin",
+          "name": "Martin",
+          "ko": "마틴"
+        },
+        {
+          "id": "james",
+          "name": "James",
+          "ko": "제임스"
+        },
+        {
+          "id": "juhoon",
+          "name": "Juhoon",
+          "ko": "주훈"
+        },
+        {
+          "id": "seonghyeon",
+          "name": "Seonghyeon",
+          "ko": "성현"
+        },
+        {
+          "id": "keonho",
+          "name": "Keonho",
+          "ko": "건호"
+        }
+      ]
     }
   }
 }

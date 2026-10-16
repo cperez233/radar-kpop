@@ -90,6 +90,13 @@ SHEETS = {
         "vernon": ("Vernon", (360, 520, 680, 1010), "seventeen-stickers-2.webp"),
         "dino": ("Dino", (680, 520, 1010, 1010), "seventeen-stickers-2.webp"),
     }),
+    "cortis": ("CORTIS", {
+        "martin": ("Martin", (20, 20, 362, 380)),
+        "james": ("James", (660, 20, 1010, 380)),
+        "juhoon": ("Juhoon", (340, 380, 690, 690)),
+        "seonghyeon": ("Seonghyeon", (20, 690, 362, 1010)),
+        "keonho": ("Keonho", (660, 690, 1010, 1010)),
+    }),
     "twice": ("TWICE", {
         "nayeon": ("Nayeon", (20, 20, 358, 382)),
         "jeongyeon": ("Jeongyeon", (358, 20, 680, 382)),

@@ -33,6 +33,7 @@ ARTISTS = {
     "seventeen": "SEVENTEEN",
     "enhypen": "ENHYPEN",
     "newjeans": "NewJeans",
+    "cortis": "CORTIS",
 }
 
 

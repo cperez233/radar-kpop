@@ -12,7 +12,8 @@ import urllib.error
 import urllib.request
 
 GROUP_COLORS = {"bts": 0x6A3AE0, "skz": 0xD2383D, "twice": 0xCF6E14, "blackpink": 0xF2559A, "lngshot": 0x0B8AA8,
-                "seventeen": 0x6C7BE8, "enhypen": 0x22A36A, "newjeans": 0xF2B705}
+                "seventeen": 0x6C7BE8, "enhypen": 0x22A36A, "newjeans": 0xF2B705,
+                "cortis": 0x5E8C12}
 DISCORD_API = "https://discord.com/api/v10"
 GRAPH_API = "https://graph.facebook.com/v21.0"
 UA = "DiscordBot (https://github.com/radar-kpop, 1.0)"
