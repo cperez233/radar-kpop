@@ -809,12 +809,31 @@ input[type="range"] { width: 100%; accent-color: var(--bubble); min-height: 32px
 .v-cap .vc-k { margin: .4cqh 0 0; font: 600 clamp(10px, min(3.6cqw, 2.1cqh), 18px)/1.2 var(--f-body); color: var(--ink-2); }
 .v-cap .vc-d { position: absolute; right: 14px; top: -22px; padding: 4px 14px 0; border-radius: 16px; background: var(--ink); color: var(--white); font: 400 clamp(15px, min(7cqw, 4cqh), 40px)/1.2 var(--f-display); transform: rotate(5deg); border: 3px solid var(--white); }
 .v-cap.live .vc-d { background: var(--live); }
-.v-cap.v-intro { grid-template-columns: auto 1fr; }
-.v-cap.v-intro img { width: min(16cqw, 10cqh); height: auto; }
+.v-cap.v-intro { grid-template-columns: 1fr; justify-items: center; text-align: center; }
+.v-cap.v-intro .vc-faces { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .6cqh 1.5cqw; width: 100%; }
+.v-cap.v-intro .vc-faces img { width: 100%; height: min(7cqh, 13cqw); max-height: none; margin: 0; object-fit: contain; }
 .v-cap.v-intro p { margin: 0; font: 400 clamp(14px, min(6cqw, 3.4cqh), 32px)/1.15 var(--f-display); }
 .v-outro { width: 100%; text-align: center; animation: capIn .6s var(--boing) both; }
 .v-outro b { display: inline-block; padding: 8px 20px 4px; background: var(--bubble); color: var(--white); border: 3px solid var(--ink); border-radius: 20px; box-shadow: 5px 7px 0 var(--ink); font: 400 clamp(15px, min(7.4cqw, 4.2cqh), 40px)/1.1 var(--f-display); transform: rotate(-2deg); }
 .v-outro span { display: block; margin-top: 2cqh; font: 700 clamp(11px, min(4.4cqw, 2.5cqh), 22px)/1.1 var(--f-body); }
+/* en pantallas horizontales (computador) el video es 16:9: globo a la izquierda, título y tarjeta a la derecha */
+@media (min-aspect-ratio: 5/4) {
+  .video-frame { width: min(100vw, calc(100svh * 16 / 9)); height: min(100svh, calc(100vw * 9 / 16));
+    grid-template-columns: 56% 44%; grid-template-rows: 30% 70%; grid-template-areas: "zone top" "zone bottom"; }
+  .v-zone { grid-area: zone; }
+  .v-top { grid-area: top; align-self: end; padding: 0 5cqw 2cqh 0; }
+  .v-bottom { grid-area: bottom; padding: 3cqh 5cqw 0 0; }
+  .v-cap .vc-face { width: min(14cqw, 20cqh); max-height: 24cqh; }
+  .v-cap .vc-faces img { width: min(8cqw, 13cqh); max-height: 16cqh; }
+  .v-cap.v-intro .vc-faces img { width: 100%; height: min(11cqh, 7cqw); }
+  .v-cap .vc-n { font-size: clamp(16px, min(5cqw, 7cqh), 64px); }
+  .v-cap .vc-w { font-size: clamp(11px, min(2.4cqw, 3.4cqh), 28px); }
+  .v-cap .vc-k { font-size: clamp(10px, min(2cqw, 2.8cqh), 22px); }
+  .v-title b { font-size: clamp(18px, min(5.4cqw, 8cqh), 72px); }
+  .v-title span { font-size: clamp(11px, min(2.4cqw, 3.4cqh), 30px); }
+  .v-outro b { font-size: clamp(15px, min(4cqw, 6cqh), 52px); }
+  .v-outro span { font-size: clamp(11px, min(2.2cqw, 3.2cqh), 26px); }
+}
 @keyframes capIn { from { transform: translateY(30px) scale(.92); opacity: 0; } to { transform: none; opacity: 1; } }
 .v-endbar { position: absolute; z-index: 3; left: 0; right: 0; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); display: flex; justify-content: center; gap: 10px; pointer-events: none; }
 .v-endbar .btn { pointer-events: auto; animation: capIn .4s var(--boing) both; }

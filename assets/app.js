@@ -2405,7 +2405,7 @@
     if (rest.length) steps.push({ rest: rest });
     var intro = 1600, outro = 2400, per = clamp((15000 - intro - outro) / Math.max(1, steps.length), 1500, 3000);
     top.innerHTML = '<div class="v-title"><b>Radar <em>K-pop</em></b><span>' + esc(t('vTitle')) + '</span></div>';
-    cap.innerHTML = '<div class="v-cap v-intro"><img src="' + esc(face('default').src) + '" alt=""><p>' + esc(t('vAll', { n: tour.length })) + '</p></div>';
+    cap.innerHTML = '<div class="v-cap v-intro"><div class="vc-faces">' + states.map(function (s) { return '<img src="' + esc(face(s.id).src) + '" alt="">'; }).join('') + '</div><p>' + esc(t('vAll', { n: tour.length })) + '</p></div>';
     Sound.play('fanfare');
     steps.forEach(function (step, i) {
       vAt(intro + i * per, function () {
