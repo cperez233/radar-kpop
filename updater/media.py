@@ -1,9 +1,10 @@
 """Releases and videos: writes media.json with each group's latest music and official YouTube videos.
 
 Usage: python updater/media.py
-Free sources, no keys:
+Free sources:
 - Apple Music catalog through the iTunes Search API (lookup by artist id, newest albums and singles).
-- The RSS feed of each official YouTube channel (alerts/feeds.json, "youtube").
+- The latest uploads of each official YouTube channel (alerts/feeds.json, "youtube"): YouTube Data API with YT_API_KEY
+  (free); without it, the public RSS feed, which YouTube stopped serving in 2026.
 Artist ids live in alerts/feeds.json, "itunes". If a source fails, the previous items for that group are kept.
 """
 import json
@@ -11,11 +12,12 @@ import re
 import sys
 import time
 import urllib.request
-import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "alerts"))
+import youtube  # noqa: E402
 OUT = ROOT / "media.json"
 UA = {"User-Agent": "radar-kpop (+https://radar-kpop.vercel.app)"}
 PER_GROUP = 3
@@ -54,17 +56,10 @@ def music(gid: str, artist_id: int) -> list[dict]:
 
 
 def videos(gid: str, channel: str) -> list[dict]:
-    ns = {"a": "http://www.w3.org/2005/Atom", "media": "http://search.yahoo.com/mrss/", "yt": "http://www.youtube.com/xml/schemas/2015"}
-    root = ET.fromstring(get(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel}"))
-    out = []
-    for e in root.findall("a:entry", ns)[:PER_GROUP]:
-        vid = e.findtext("yt:videoId", default="", namespaces=ns)
-        out.append({
-            "type": "video", "group": gid, "title": e.findtext("a:title", default="", namespaces=ns),
-            "date": (e.findtext("a:published", default="", namespaces=ns) or "")[:10],
-            "url": f"https://www.youtube.com/watch?v={vid}", "image": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg",
-        })
-    return out
+    return [{
+        "type": "video", "group": gid, "title": v["title"], "date": v["published"][:10], "published": v["published"],
+        "url": f"https://www.youtube.com/watch?v={v['id']}", "image": v["image"],
+    } for v in youtube.latest(channel, PER_GROUP)]
 
 
 def main() -> int:

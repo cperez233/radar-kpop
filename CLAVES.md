@@ -1,77 +1,89 @@
-# Claves del robot, paso a paso
+# Claves del robot (la lista oficial)
 
-El robot (`.github/workflows/update-radar.yml`) corre cada 15 minutos en GitHub. Sin ninguna clave ya trae estrenos,
-videos, noticias, las estadísticas de Spotify y reconstruye la página. Cada clave suma algo más.
+El robot (`.github/workflows/update-radar.yml`) corre solo cada 15 minutos en GitHub (a veces GitHub lo retrasa) y también
+a mano en **Actions**, **Actualizar radar y mandar alertas**, **Run workflow**. Ninguna clave va en el código: todas son
+secretos de GitHub (**Settings**, **Secrets and variables**, **Actions**, **New repository secret**). Un secreto no se puede
+volver a leer; para cambiarlo se usa **Update**.
 
-## 0. Que el robot use `main` (ya está)
+**¿Cómo sé si todo funciona?** Abre el último run en **Actions** y mira el **Summary**: una tabla dice qué claves hay
+(sí/no, nunca el valor) y qué tan frescos están las fechas, los videos, los números de Spotify, los avistamientos y las alertas.
+Si un servicio se cae, ese paso sale con advertencia y el resto sigue igual.
 
-GitHub corre las tareas programadas en la **rama por defecto**. Ya es `main` y el robot corrió bien el 16 de octubre de 2026.
-Si alguna vez cambia, se arregla en **Settings**, **General**, **Default branch**. Para probarlo a mano: pestaña **Actions**,
-**Actualizar radar y mandar alertas**, **Run workflow**; en un minuto debe salir con el chulito verde.
+## Estado (16 de octubre de 2026)
 
-## Cómo se guarda cualquier clave
-
-**Settings**, **Secrets and variables**, **Actions**, botón verde **New repository secret**. En **Name** va el nombre exacto
-(por ejemplo `TM_API_KEY`) y en **Secret** el valor. Nadie más la puede ver, ni siquiera tú después de guardarla.
-
-## Cuáles valen la pena
-
-| Clave | Qué agrega | Costo | Recomendación |
+| Secreto | Qué hace | Costo | Estado |
 |---|---|---|---|
-| `TM_API_KEY` | Fechas de gira nuevas solas (Ticketmaster) | Gratis (5.000 consultas al día) | Sí |
-| `YT_API_KEY` | Suscriptores de YouTube en "Datos y números" | Gratis (10.000 unidades al día; el radar usa 1 al día) | Sí |
-| `DISCORD_WEBHOOK_URL` | Avisos en un canal de Discord | Gratis | Sí, si usas Discord |
-| `VAPID_PRIVATE_KEY` + `VAPID_SUBJECT` | Notificaciones push en el celular | Gratis (necesita el worker de Cloudflare, también gratis) | Opcional |
-| `X_BEARER_TOKEN` | Avistamientos reales (posts oficiales con ciudad) | **De pago**: X cobra unos 0,005 USD por post leído | Solo si quieres pagar |
-| `RSSHUB_URL` | Avisos "llegaron a..." desde X | Gratis, pero hay que montar un servidor propio y usar una cuenta de X | No por ahora |
-| `WHATSAPP_TOKEN` + `WHATSAPP_PHONE_ID` | Avisos por WhatsApp | **De pago** por mensaje y pide verificar un negocio en Meta | No por ahora |
+| `TM_API_KEY` | Fechas de gira nuevas desde Ticketmaster | Gratis | Guardado |
+| `YT_API_KEY` | Videos nuevos de YouTube y suscriptores | Gratis | Guardado |
+| `RSSHUB_URL` | Posts de las cuentas oficiales en X: avistamientos, anuncios oficiales y llegadas | Gratis (tu RSSHub en Vercel) | Guardado y probado: responden las 9 cuentas |
+| `DISCORD_WEBHOOK_URL` | Alertas en tu canal de Discord | Gratis | Guardado |
+| `NTFY_TOPIC` | Alertas al celular con la app ntfy | Gratis | **Falta crearlo** (pasos abajo) |
+| `X_BEARER_TOKEN` | Respaldo de X, solo si RSSHub falla entero | De pago (~0,005 USD por post) | Guardado, sin saldo. No hace falta cargarle |
+| `VAPID_PRIVATE_KEY` + `VAPID_SUBJECT` | Notificaciones push del navegador para los fans que se suscriben en la web | Gratis (con el worker de Cloudflare) | Opcional, no configurado |
+| `WHATSAPP_TOKEN` + `WHATSAPP_PHONE_ID` | Avisos por WhatsApp | De pago y pide verificar un negocio | Para después |
 
-## Ticketmaster: `TM_API_KEY` (gratis)
+Lo que no necesita clave: estrenos (catálogo de Apple Music), noticias (Soompi, Koreaboo, Google Noticias) y los números
+de Spotify (kworb.net).
 
-1. Entra a **developer.ticketmaster.com** y toca **Get your API key** (o **Sign up**). Crea la cuenta con tu correo.
-2. Confirma el correo y entra a **My Apps**. Ya viene una app creada ("...-App").
-3. Ábrela y copia la **Consumer Key** (no la Consumer Secret).
-4. Guárdala en GitHub como `TM_API_KEY`.
+## ntfy: alertas al celular (gratis, 3 minutos)
 
-## YouTube: `YT_API_KEY` (gratis)
+1. Instala la app **ntfy** (Play Store o App Store).
+2. Inventa un tema largo que nadie pueda adivinar, por ejemplo `radar-kpop-cris-7f3k9q2m`. Cualquiera que sepa el nombre
+   puede leer los avisos, así que no uses algo corto como `radar-kpop`.
+3. En la app: **+** (Subscribe to topic), escribe el tema y deja el servidor `ntfy.sh`. **Subscribe**.
+4. En GitHub crea el secreto `NTFY_TOPIC` con ese mismo tema (solo el nombre, sin `https://ntfy.sh/`).
+5. Corre el workflow a mano. Desde ahí, cada alerta que va a Discord también llega como notificación al celular.
 
-1. Entra a **console.cloud.google.com** con tu cuenta de Google. Acepta los términos si los pide (no pide tarjeta).
-2. Arriba, en el selector de proyectos, **New project**, nombre `radar-kpop`, **Create**, y selecciónalo.
-3. En el buscador de arriba escribe **YouTube Data API v3**, ábrela y toca **Enable**.
-4. Menú **APIs & Services**, **Credentials**, **Create credentials**, **API key**. Copia la clave.
-5. Recomendado: toca la clave, en **API restrictions** elige **Restrict key** y marca solo **YouTube Data API v3**. **Save**.
-6. Guárdala en GitHub como `YT_API_KEY`.
+## Ticketmaster: `TM_API_KEY`
 
-## Discord: `DISCORD_WEBHOOK_URL` (gratis)
+1. **developer.ticketmaster.com**, crea la cuenta y entra a **My Apps**.
+2. Copia la **Consumer Key** (no la Consumer Secret) y guárdala como `TM_API_KEY`.
 
-1. En tu servidor de Discord, entra a la configuración del canal donde quieres los avisos (rueda dentada al lado del nombre).
-2. **Integrations**, **Webhooks**, **New Webhook**. Ponle nombre (por ejemplo "Radar K-pop") y foto si quieres.
-3. **Copy Webhook URL**.
-4. Guárdala en GitHub como `DISCORD_WEBHOOK_URL`.
+Qué esperar: Ticketmaster cubre sobre todo Norteamérica, Latinoamérica y Europa. Que no salga nada para un grupo es normal
+(por ejemplo, fechas en Asia que se venden por Interpark o Yes24): el robot lo toma como "sin fechas nuevas", no como error,
+y nunca borra las fechas que ya estaban. En el Summary de cada run, el paso de fechas dice cuántos resultados trajo por grupo.
+Si la key está mal, el paso lo dice ("Ticketmaster rechazó la key (401)").
 
-## Notificaciones push (gratis, un poco más largo)
+## YouTube: `YT_API_KEY`
 
-Necesitan el servidor de suscripciones de `backend/` en Cloudflare Workers (plan gratis). Los pasos están en
-[ALERTAS.md](ALERTAS.md), secciones del worker y de push. Resumen: crear cuenta en Cloudflare, `wrangler deploy`,
-poner la URL en `config.js` y generar las llaves con `npx web-push generate-vapid-keys`.
+1. **console.cloud.google.com**, crea un proyecto `radar-kpop` y selecciónalo.
+2. Busca **YouTube Data API v3** y toca **Enable**.
+3. **APIs & Services**, **Credentials**, **Create credentials**, **API key**. Copia la clave.
+4. Recomendado: en la clave, **API restrictions**, **Restrict key**, solo **YouTube Data API v3**.
+5. Guárdala como `YT_API_KEY`.
 
-## X: `X_BEARER_TOKEN` (de pago)
+Hace falta porque YouTube dejó de servir sus feeds RSS públicos en 2026 (responden 404). El robot usa unas 900 unidades
+al día de las 10.000 gratis.
 
-Desde febrero de 2026 X cobra por uso: unos 0,005 USD por cada post leído. El robot ya está ajustado para gastar poco
-(lee una vez por hora y solo los posts nuevos), así que debería quedar en unos pocos dólares al mes. Si igual lo quieres:
+## RSSHub: `RSSHUB_URL`
 
-1. Entra a **console.x.com** (o developer.x.com) con la cuenta de X que va a pagar.
-2. Crea un proyecto y una app, y en **Billing** compra créditos. Pon un **spending limit** bajo (por ejemplo 5 USD).
-3. En la app, **Keys and tokens**, **Bearer Token**, **Generate**. Cópialo.
-4. Guárdalo en GitHub como `X_BEARER_TOKEN`.
+Tu RSSHub vive en `https://rss-hub-eta-one.vercel.app` (fork `cperez233/RSSHub`). El secreto lleva esa URL sin barra final.
+El robot lee `/twitter/user/<cuenta>` de las 9 cuentas oficiales una sola vez por run (las alertas reusan lo que trajeron
+los avistamientos).
 
-Sin esta clave, la sección de avistamientos muestra ejemplos marcados como tales.
+Mantenimiento:
+- RSSHub entra a X con la cookie `auth_token` de una cuenta secundaria, guardada como variable de entorno en Vercel. Esa
+  cookie caduca cada 1 a 3 meses. Señal: en el Summary, "Avistamientos" deja de actualizarse o el paso dice
+  "RSSHub @cuenta: ...". Para renovarla: entra a x.com con la cuenta secundaria, F12, **Application**, **Cookies**,
+  `x.com`, copia `auth_token`, pégala en la variable de Vercel y haz **Redeploy**.
+- No cierres sesión ni cambies la contraseña de esa cuenta (invalida la cookie).
+- Si sincronizas el fork con el original, revisa que sigan el override `"sanitize-html>htmlparser2": "8.0.0"` en
+  `package.json` y el Install Command `pnpm install --no-frozen-lockfile` en Vercel.
 
-## Lo que ya funciona sin claves
+## Discord: `DISCORD_WEBHOOK_URL`
 
-- **Estrenos**: catálogo de Apple Music (iTunes Search API).
-- **Videos**: el feed RSS de cada canal oficial de YouTube.
-- **Noticias y alertas**: RSS de Soompi, Koreaboo y Google News.
-- **Datos y números**: oyentes mensuales, récord, reproducciones y canción top de Spotify (kworb.net).
+Canal, rueda dentada, **Integrations**, **Webhooks**, **New Webhook**, **Copy Webhook URL**. Guárdala como `DISCORD_WEBHOOK_URL`.
 
-Todo esto se actualiza solo cada vez que corre el robot.
+## X: `X_BEARER_TOKEN` (no hace falta)
+
+Con RSSHub funcionando, la API oficial de X solo se usa si RSSHub no responde para ninguna cuenta. Sin saldo, X responde
+402 o 403 y el robot sigue con lo que tenía. Si algún día le cargas saldo, pon un límite de gasto bajo en
+**console.x.com**, **Billing**; el robot lee como mucho una vez por hora y solo los posts nuevos.
+
+## Más adelante
+
+- **WhatsApp:** la opción oficial (Meta) es de pago y pide verificar un negocio. Una alternativa gratis para avisarte solo
+  a ti es CallMeBot; si la quieres, se agrega como un canal más.
+- **Correo:** se puede mandar por Gmail con una contraseña de aplicación (`MAIL_USERNAME`, `MAIL_PASSWORD`). No está hecho.
+- **Weverse:** no tiene API pública. Los avisos de Weverse casi siempre los repiten en X (`[NOTICE]`), y esos sí llegan
+  como "Anuncio oficial" por RSSHub.

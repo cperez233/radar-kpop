@@ -4,3 +4,4 @@ node_modules/
 .editorial-ui/
 .env*
 .wrangler/
+state/social.json

@@ -1,8 +1,8 @@
 # Radar K-pop: configuración de alertas
 
-> Volver al [README](README.md). Este documento explica el motor que manda las alertas por Discord, WhatsApp y notificaciones push, el conector de avistamientos en X y el servidor de suscripciones.
+> Volver al [README](README.md). Este documento explica el motor que manda las alertas por Discord, ntfy, WhatsApp y notificaciones push, el conector de avistamientos y el servidor de suscripciones. **La lista oficial de claves, con su estado y cómo sacar cada una, está en [CLAVES.md](CLAVES.md).**
 
-El workflow corre cada 15 minutos, revisa la agenda y manda las alertas. Si no pones ninguna llave, corre en modo prueba y no envía nada.
+El workflow corre cada 15 minutos, revisa la agenda y manda las alertas. Sin canales configurados (Discord, ntfy...) no envía nada, pero las alertas igual salen en la web.
 
 ## Qué alertas manda
 
@@ -18,8 +18,9 @@ El workflow corre cada 15 minutos, revisa la agenda y manda las alertas. Si no p
 | Llegada oficial | Una cuenta oficial del grupo publica algo que menciona la ciudad de su próxima parada (desde 72 h antes), o avisa que llegó | sí |
 | Llegada reportada | Un medio publica que el grupo llegó. Se marca como reportado, no como oficial | sí |
 | Latinoamérica | Noticia de gira o concierto que menciona países o regiones de Latam | sí |
-| Comeback / Gira | Noticias en Soompi, allkpop y Google Noticias | no |
-| Video | Video nuevo en el canal oficial de YouTube | no |
+| Anuncio oficial | Una cuenta oficial publica un anuncio de gira, entradas o comeback (también los `[NOTICE]` que vienen de Weverse). Máximo uno por grupo, tipo y día | no |
+| Comeback / Gira | Noticias en Soompi, Koreaboo y Google Noticias | no |
+| Video | Video nuevo en el canal oficial de YouTube (con `YT_API_KEY`) | no |
 
 "Llegó a una ciudad" sale de lo que ellos mismos publican en sus cuentas oficiales, de lo que reporta la prensa, y de la agenda (día del show y fin del show). El motor no usa avistamientos de fans ni rastreo de vuelos, a propósito.
 
@@ -28,6 +29,10 @@ El workflow corre cada 15 minutos, revisa la agenda y manda las alertas. Si no p
 1. En tu servidor, haz clic derecho en el canal, **Editar canal**, **Integraciones**, **Webhooks**, **Nuevo webhook**.
 2. Copia la **URL del webhook**.
 3. En GitHub: tu repo, **Settings**, **Secrets and variables**, **Actions**, **New repository secret**. Nombre `DISCORD_WEBHOOK_URL`, valor la URL.
+
+## 1b. ntfy (alertas a tu celular, gratis)
+
+Instala la app ntfy, suscríbete a un tema largo e imposible de adivinar y guarda ese tema como secreto `NTFY_TOPIC`. Cada alerta del canal de Discord también llega como notificación. Pasos en [CLAVES.md](CLAVES.md).
 
 ## 2. Discord (mensajes directos por bot)
 
@@ -57,33 +62,26 @@ Dos formas, se pueden usar juntas:
 
 Campos: `lat` y `lon` de la ciudad (redondeadas), `radius_km` para las alertas de cercanía, `groups` (`["*"]` o `["bts","skz"]`), `types` para Discord y push, `whatsapp_types` para WhatsApp, y `push` para notificaciones.
 
-## 5. Posts oficiales (para "llegaron a la ciudad")
+## 5. Posts oficiales y avistamientos (RSSHub)
 
-X ya no tiene RSS gratis y su API es de pago. La salida práctica es un RSSHub propio que lea las cuentas oficiales.
+X ya no tiene RSS gratis y su API es de pago, así que las cuentas oficiales se leen con un RSSHub propio
+(`RSSHUB_URL`, ruta `/twitter/user/<cuenta>`; el despliegue y el mantenimiento de la cookie están en [CLAVES.md](CLAVES.md)).
+Las cuentas están en `alerts/feeds.json`, sección `social`.
 
-1. Despliega RSSHub (github.com/DIYgod/RSSHub, la guía de despliegue está en su documentación) en un servidor tuyo o en un servicio como Railway.
-2. Sigue en su documentación la configuración de la ruta de Twitter/X, que pide credenciales y cambia seguido.
-3. Guarda la URL base de tu RSSHub como secreto `RSSHUB_URL`.
-4. Las cuentas están en `alerts/feeds.json`, sección `social`. Verifica que cada usuario de X sea el oficial.
-
-Es la parte más frágil: si X cambia algo, esas rutas dejan de responder. Sin `RSSHUB_URL` el motor se salta los posts oficiales y sigue con prensa y agenda.
-
-## 6. Avistamientos cercanos (X API)
-
-`sightings/fetch_x.py` lee las cuentas oficiales de `alerts/feeds.json` (sección `social`) con la API v2 de X y guarda en `sightings.json` los posts que mencionan una ciudad. La web los muestra como "avistamientos cercanos", ordenados por distancia a quien la abre.
+`sightings/fetch_x.py` corre primero: lee las 9 cuentas, guarda los posts crudos en `state/social.json` (no se sube al repo)
+y escribe en `sightings.json` los que mencionan una ciudad. Después `alerts/engine.py` reusa esos posts para las alertas de
+llegada y de anuncio oficial, sin volver a pedirlos.
 
 Reglas que el conector cumple siempre:
-- Solo cuentas oficiales, nunca respuestas ni posts de otras cuentas.
+- Solo cuentas oficiales, sin retweets ni respuestas.
 - Solo nivel ciudad: el punto en el mapa es el centro de la ciudad (`sightings/cities.json` más las ciudades de las giras).
-- Descarta los posts que hablan de aeropuertos, hoteles o vuelos.
+- Descarta los posts que hablan de aeropuertos, hoteles o vuelos, y títulos que no son lugares ("Paris, Texas").
+- Un avistamiento por grupo y ciudad (el más reciente), para que una promo repetida no llene la lista.
 - No guarda ubicación de personas.
 
-Para conectarlo:
-1. Crea una app en developer.x.com y copia el **Bearer Token**.
-2. Guárdalo como secreto `X_BEARER_TOKEN` en GitHub, o en un archivo `.env` en la raíz para correrlo en tu computador (`X_BEARER_TOKEN=...`; `.env` está en `.gitignore`).
-3. `python sightings/fetch_x.py`. Sin token escribe datos de ejemplo marcados con `"sample": true`, y la web los muestra con una etiqueta.
-
-El plan gratis de X da muy pocas lecturas al mes: el conector pide 10 posts por cuenta y guarda los ids de usuario en `sightings/user_ids.json`. Si el workflow corre cada 15 minutos, conviene pasar este paso a un cron aparte cada pocas horas, o usar un plan de pago.
+Respaldo: si RSSHub no responde para ninguna cuenta y hay `X_BEARER_TOKEN`, usa la API oficial de X (de pago, una vez por
+hora, solo posts nuevos). Si nada responde, `sightings.json` queda como estaba. Sin ninguna de las dos, datos de ejemplo
+marcados con `"sample": true`.
 
 ## 7. Servidor de suscripciones (Cloudflare Workers, gratis)
 
@@ -105,9 +103,9 @@ Rutas: `POST /subscribe`, `POST /push`, `DELETE /subscribe/:id` (con el token qu
 3. Necesita el servidor de la sección 7. El workflow instala `pywebpush` para mandarlas.
 4. En iPhone solo funcionan con la web instalada en la pantalla de inicio (iOS 16.4 o más).
 
-## 9. Estrenos y videos (sin claves)
+## 9. Estrenos y videos
 
-`updater/media.py` escribe `media.json` con los últimos lanzamientos de cada grupo (iTunes Search API, catálogo de Apple Music) y sus últimos videos oficiales (RSS de cada canal de YouTube). No necesita ninguna clave y el workflow lo corre solo. Los ids de artista están en `alerts/feeds.json`, sección `itunes`.
+`updater/media.py` escribe `media.json` con los últimos lanzamientos de cada grupo (iTunes Search API, catálogo de Apple Music, sin clave; los que tienen fecha futura salen en la tarjeta como "Próximo estreno") y sus últimos videos oficiales (YouTube Data API con `YT_API_KEY`, porque YouTube dejó de servir sus RSS en 2026). Los ids están en `alerts/feeds.json`, secciones `itunes` y `youtube`.
 
 ## 10. Mapa de ciudad (sin claves)
 
@@ -121,13 +119,11 @@ SUBSCRIBERS_JSON='[...]' DRY_RUN=1 NO_NEWS=1 NOW=2026-10-16T12:00:00Z python ale
 
 `NOW` simula la hora. `DRY_RUN=1` imprime lo que enviaría y no guarda estado.
 
-## Pendiente de verificar
+## Verificado
 
-- Cuentas e IDs revisados el 15 de octubre de 2026: el canal de YouTube de Stray Kids estaba mal (ahora `UC9rMiEjNaCSsebs31MRDCRA`), la cuenta de X de LNGSHOT es `LNGSHOT4sho` (confianza media: su web oficial no enlaza X) y su canal oficial de YouTube es `UC8PPjyqCQJtNfEwHBcq_uxw`. Agregados SEVENTEEN (`pledis_17`), ENHYPEN (`ENHYPEN`) y NewJeans (`NewJeans_ADOR`).
-- CORTIS, agregado el 16 de octubre de 2026: X `cortis_bighit` (lo enlaza su canal oficial), YouTube `UCZMYvSPulDSUdx7bdtTFdrg` (@cortis_bighit) e iTunes `1831651635`. El RSS de YouTube no se pudo probar desde el entorno de desarrollo (también falla para los otros canales ahí).
+- 16 de octubre de 2026: RSSHub responde para las 9 cuentas oficiales; ntfy publica bien (con tildes y coreano); Ticketmaster,
+  YouTube y X con una clave mala avisan en el log y conservan los datos. Falta ver Ticketmaster, YouTube y Discord con las
+  claves reales en un run del workflow (el Summary del run lo muestra).
+- Cuentas e IDs revisados el 15 de octubre de 2026: el canal de YouTube de Stray Kids es `UC9rMiEjNaCSsebs31MRDCRA`, la cuenta de X de LNGSHOT es `LNGSHOT4sho` y su canal es `UC8PPjyqCQJtNfEwHBcq_uxw`. SEVENTEEN `pledis_17`, ENHYPEN `ENHYPEN`, NewJeans `NewJeans_ADOR`.
+- CORTIS (16 de octubre de 2026): X `cortis_bighit`, YouTube `UCZMYvSPulDSUdx7bdtTFdrg`, iTunes `1831651635`.
 - Noticias: Soompi y Koreaboo por RSS (allkpop bloquea robots con 403 y se quitó). Si alguna falla, el motor lo avisa en el log y sigue con las demás.
-- El actualizador de Ticketmaster y el envío real a WhatsApp y Discord no se probaron contra las APIs reales.
-
-## Claves para fechas y números
-
-`TM_API_KEY` (Ticketmaster) y `YT_API_KEY` (YouTube) son gratis. El paso a paso, con lo que cuesta cada clave, está en [CLAVES.md](CLAVES.md).

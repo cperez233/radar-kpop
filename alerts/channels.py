@@ -1,4 +1,5 @@
-"""Canales de envio: Discord (webhook y DM por bot), WhatsApp Cloud API (plantilla) y notificaciones push (Web Push).
+"""Canales de envio: Discord (webhook y DM por bot), ntfy (push al celular, gratis), WhatsApp Cloud API (plantilla)
+y notificaciones push del navegador (Web Push).
 
 Todas las funciones devuelven True si el mensaje salio (o si es prueba) y False si fallo.
 En modo prueba (dry=True) solo imprimen lo que enviarian.
@@ -54,6 +55,30 @@ def send_discord_webhook(url: str | None, alert: dict, dry: bool) -> bool:
         return True
     except (urllib.error.URLError, OSError) as exc:
         print(f"Fallo el webhook de Discord: {exc}")
+        return False
+
+
+NTFY_TAGS = {"new_date": "date", "changed": "warning", "removed": "x", "live": "red_circle", "stop_today": "star",
+             "next_stop": "airplane", "arrival_official": "airplane", "arrival": "airplane", "latam": "tada",
+             "comeback": "cd", "tour": "ticket", "official": "loudspeaker", "video": "tv"}
+
+
+def send_ntfy(topic: str | None, alert: dict, dry: bool, server: str = "https://ntfy.sh") -> bool:
+    """Push al celular con la app ntfy (gratis, sin cuenta): el fan se suscribe al tema NTFY_TOPIC en la app."""
+    if not topic:
+        return False
+    if dry:
+        print(f"[prueba] ntfy | {alert['title']}")
+        return True
+    payload = {"topic": topic, "title": alert["title"][:200], "message": alert.get("body", "")[:1000] or alert["title"],
+               "tags": [NTFY_TAGS.get(alert.get("type"), "sparkles")], "priority": 4 if alert.get("type") in ("new_date", "live", "latam", "official") else 3}
+    if alert.get("url"):
+        payload["click"] = alert["url"]
+    try:
+        _post(server.rstrip("/"), payload, {})
+        return True
+    except (urllib.error.URLError, OSError) as exc:
+        print(f"Fallo ntfy: {exc}")
         return False
 
 

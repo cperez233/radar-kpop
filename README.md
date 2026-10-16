@@ -52,18 +52,16 @@ The radar only uses public, official schedules and posts. It shows the next conf
 
 | Data | Source | Status |
 |---|---|---|
-| Tour dates | `events.json` (curated, sources listed in the page footer) + Ticketmaster Discovery API | Curated data works. Ticketmaster needs `TM_API_KEY`; without it the robot keeps the current dates and moves on. |
-| Releases | iTunes Search API | Works, no key |
-| Group numbers (`stats.json`) | kworb.net (Spotify listeners, streams, top song) + YouTube Data API v3 | Spotify numbers work with no key, refreshed every 12 hours. YouTube subscribers need `YT_API_KEY`. |
-| Official videos | YouTube channel RSS | Works, no key |
-| News | Soompi and Koreaboo RSS, Google News RSS | Works, no key |
-| City maps | OpenFreeMap vector tiles | Works, no key |
-| Sightings | X API v2, official accounts only | Sample data until `X_BEARER_TOKEN` is set |
-| "Arrived in..." posts | X through a self-hosted RSSHub | Needs `RSSHUB_URL` |
-| Sign-ups and push | `backend/` worker on Cloudflare | Needs `subscribeEndpoint`, `vapidPublicKey` and `VAPID_PRIVATE_KEY` |
-| Discord and WhatsApp delivery | Discord bot or webhook, WhatsApp Cloud API | Need their tokens |
+| Tour dates | `events.json` (curated, sources in the page footer) + Ticketmaster Discovery API | Ticketmaster adds and updates dates (`TM_API_KEY`); curated dates are never dropped; old past dates are pruned |
+| Releases | iTunes Search API (Apple Music catalog) | No key. Future-dated releases show as "Next release" on the card |
+| Official videos | YouTube Data API v3 | Needs `YT_API_KEY` (YouTube stopped serving channel RSS in 2026) |
+| Group numbers (`stats.json`) | kworb.net (Spotify listeners, streams, top song) + YouTube Data API | Spotify numbers need no key, refreshed every 12 hours |
+| News | Soompi and Koreaboo RSS, Google News RSS | No key |
+| Official posts: sightings, arrivals, announcements | X through a self-hosted RSSHub (`RSSHUB_URL`); paid X API as a fallback | Works with RSSHub |
+| City maps | OpenFreeMap vector tiles | No key |
+| Alert delivery | Discord webhook, ntfy (phone push), Web Push, WhatsApp Cloud API | Discord and ntfy are free; see CLAVES.md |
 
-A GitHub Action runs every 15 minutes: it refreshes dates, releases, sightings and alerts, sends messages, and rebuilds the page. Key setup, with what each key costs, is in [CLAVES.md](CLAVES.md) (Spanish); alert channels are in [ALERTAS.md](ALERTAS.md).
+A GitHub Action runs every 15 minutes: it refreshes dates, releases, numbers, sightings and alerts, sends messages, and rebuilds the page. Every step fails softly, and each run's Summary shows which keys are set and how fresh each source is. Key setup, with what each key costs, is in [CLAVES.md](CLAVES.md) (Spanish); alert channels are in [ALERTAS.md](ALERTAS.md).
 
 ## Run it
 

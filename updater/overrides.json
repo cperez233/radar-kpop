@@ -1,11 +1,7 @@
 {
   "lngshot": {
-    "watch": [
-      "Comeback esperado a finales de octubre o inicios de noviembre (fuentes de la industria, sin confirmar)."
-    ],
-    "watch_en": [
-      "Comeback expected in late October or early November (industry sources, unconfirmed)."
-    ]
+    "watch": [],
+    "watch_en": []
   },
   "twice": {
     "watch": [
@@ -33,7 +29,9 @@
     ],
     "watch_en": [
       "Tokyo Dome is on the tour, but the exact dates are not clear in the sources."
-    ]
+    ],
+    "watch_always": true,
+    "watch_until": "2027-03-07"
   },
   "seventeen": {
     "watch": [
@@ -225,7 +223,9 @@
           "joshua"
         ]
       }
-    ]
+    ],
+    "watch_always": true,
+    "watch_until": "2027-02-21"
   },
   "enhypen": {
     "watch": [
@@ -233,7 +233,9 @@
     ],
     "watch_en": [
       "Show times for Europe and Jakarta are not official yet."
-    ]
+    ],
+    "watch_always": true,
+    "watch_until": "2027-03-14"
   },
   "newjeans": {
     "watch": [

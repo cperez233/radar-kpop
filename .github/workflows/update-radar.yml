@@ -1,8 +1,12 @@
 name: Actualizar radar y mandar alertas
 
+# Corre solo cada 15 minutos (GitHub puede retrasarlo) y también a mano desde Actions > Run workflow.
+# Cada paso de datos falla suave (continue-on-error): si un servicio se cae, los demás siguen, la página se
+# reconstruye igual y el resumen del run dice qué funcionó. Las claves están en Settings > Secrets (ver CLAVES.md).
+
 on:
   schedule:
-    - cron: "*/15 * * * *"   # cada 15 minutos (GitHub puede retrasarlo unos minutos)
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -15,31 +19,48 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - name: Traer fechas nuevas
+
+      - name: Fechas de gira (Ticketmaster + overrides, poda de fechas viejas)
+        continue-on-error: true
         env:
           TM_API_KEY: ${{ secrets.TM_API_KEY }}
         run: python updater/update_events.py
-      - name: Releases and official videos (iTunes + YouTube RSS, no keys)
-        run: python updater/media.py
-      - name: Números de cada grupo (Apple Music sin clave; YouTube con YT_API_KEY opcional)
+
+      - name: Estrenos y videos (Apple Music + YouTube)
+        continue-on-error: true
         env:
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
-        run: python updater/stats.py || echo "stats falló, se conservan los anteriores"
-      - name: Avistamientos en X (sin token deja datos de ejemplo)
+        run: python updater/media.py
+
+      - name: Números de cada grupo (Spotify vía kworb, YouTube)
+        continue-on-error: true
         env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+        run: python updater/stats.py
+
+      - name: Avistamientos (cuentas oficiales vía RSSHub; X de respaldo)
+        continue-on-error: true
+        env:
+          RSSHUB_URL: ${{ secrets.RSSHUB_URL }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
         run: python sightings/fetch_x.py
-      - name: Librería para notificaciones push
-        run: pip install --quiet pywebpush || echo "sin pywebpush, las notificaciones push se saltan"
+
+      - name: Librería para notificaciones push del navegador
+        continue-on-error: true
+        run: pip install --quiet pywebpush
+
       - name: Detectar cambios y mandar alertas
+        continue-on-error: true
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           WHATSAPP_TOKEN: ${{ secrets.WHATSAPP_TOKEN }}
           WHATSAPP_PHONE_ID: ${{ secrets.WHATSAPP_PHONE_ID }}
           SUBSCRIBERS_JSON: ${{ secrets.SUBSCRIBERS_JSON }}
@@ -49,12 +70,29 @@ jobs:
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
           VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
         run: python alerts/engine.py
+
       - name: Reconstruir index.html
         run: python build.py
+
+      - name: Resumen del run (qué fuentes respondieron, sin mostrar claves)
+        if: always()
+        env:
+          HAS_TM_API_KEY: ${{ secrets.TM_API_KEY != '' }}
+          HAS_YT_API_KEY: ${{ secrets.YT_API_KEY != '' }}
+          HAS_RSSHUB_URL: ${{ secrets.RSSHUB_URL != '' }}
+          HAS_X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN != '' }}
+          HAS_DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL != '' }}
+          HAS_NTFY_TOPIC: ${{ secrets.NTFY_TOPIC != '' }}
+          HAS_VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY != '' }}
+        run: python tools/health.py
+
       - name: Commit si hubo cambios
         run: |
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
           git add events.json alerts.json sightings.json media.json stats.json index.html sw.js state/ CHANGELOG.md
           if [ -f sightings/user_ids.json ]; then git add sightings/user_ids.json; fi
-          git diff --cached --quiet || (git commit -m "Actualiza radar y alertas" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "Actualiza radar y alertas"
+          # si alguien subió cambios mientras corría: se trae main (gana el dato nuevo del robot), se reconstruye y se reintenta
+          git push || { git pull --rebase -X theirs origin main && python build.py && git add index.html sw.js && git commit --amend --no-edit && git push; }

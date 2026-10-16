@@ -68,7 +68,7 @@
     skz: [['¿En qué año debutó Stray Kids?', 'What year did Stray Kids debut?', ['2016', '2018', '2020'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['STAY', 'CARAT', 'ENGENE'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['HYBE', 'JYP Entertainment', 'YG Entertainment'], 1], ['¿Quién es el líder?', 'Who is the leader?', ['Bang Chan', 'Changbin', 'Hyunjin'], 0], ['¿Cómo se llama su unidad de producción?', 'What is their producing unit called?', ['3RACHA', 'BSS', 'MISAMO'], 0], ['¿De qué país son Bang Chan y Felix?', 'Which country are Bang Chan and Felix from?', ['Canadá|Canada', 'Australia', 'Nueva Zelanda|New Zealand'], 1]],
     twice: [['¿En qué año debutó TWICE?', 'What year did TWICE debut?', ['2015', '2017', '2019'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['ONCE', 'STAY', 'Bunnies'], 0], ['¿En qué programa se formó TWICE?', 'Which survival show formed TWICE?', ['I-LAND', 'SIXTEEN', 'Produce 101'], 1], ['¿Quién es la líder?', 'Who is the leader?', ['Nayeon', 'Jihyo', 'Jeongyeon'], 1], ['¿De dónde es Tzuyu?', 'Where is Tzuyu from?', ['Taiwán|Taiwan', 'Japón|Japan', 'Tailandia|Thailand'], 0], ['¿Quiénes forman la subunidad MISAMO?', 'Who is in the sub-unit MISAMO?', ['Mina, Sana y Momo|Mina, Sana & Momo', 'Nayeon, Jihyo y Dahyun|Nayeon, Jihyo & Dahyun', 'Mina, Tzuyu y Chaeyoung|Mina, Tzuyu & Chaeyoung'], 0]],
     blackpink: [['¿En qué año debutó BLACKPINK?', 'What year did BLACKPINK debut?', ['2014', '2016', '2018'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['BLINK', 'ARMY', 'ONCE'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['SM', 'JYP', 'YG Entertainment'], 2], ['¿De qué país es Lisa?', 'Which country is Lisa from?', ['Tailandia|Thailand', 'Japón|Japan', 'Australia'], 0], ['¿Cuál es el nombre real de Rosé?', 'What is Rosé\'s real name?', ['Park Chaeyoung', 'Son Chaeyoung', 'Kim Chaewon'], 0], ['¿Con qué dos canciones debutaron?', 'Which two songs did they debut with?', ['Whistle y Boombayah|Whistle & Boombayah', 'DDU-DU DDU-DU y Forever Young|DDU-DU DDU-DU & Forever Young', 'Kill This Love y Don\'t Know What To Do|Kill This Love & Don\'t Know What To Do'], 0]],
-    lngshot: [['¿En qué año debutó LNGSHOT?', 'What year did LNGSHOT debut?', ['2024', '2025', '2026'], 2], ['¿Quién fundó su sello MORE VISION?', 'Who founded their label MORE VISION?', ['Jay Park', 'PSY', 'Zico'], 0], ['¿Cuál fue su canción de debut?', 'What was their debut song?', ["Moonwalkin'", '4SHO 4SHO', 'Shot Callers'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['SHOTTIES', 'STAY', 'ENGENE'], 0], ['¿Cómo se llama su EP de debut?', 'What is their debut EP called?', ['SHOT CALLERS', 'LONG WAY', 'MOONLIGHT'], 0]],
+    lngshot: [['¿En qué año debutó LNGSHOT?', 'What year did LNGSHOT debut?', ['2024', '2025', '2026'], 2], ['¿Quién fundó su sello MORE VISION?', 'Who founded their label MORE VISION?', ['Jay Park', 'PSY', 'Zico'], 0], ['¿Cuál fue su canción de debut?', 'What was their debut song?', ["Moonwalkin'", '4SHO 4SHO', 'Shot Callers'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['SHOTTIES', 'STAY', 'ENGENE'], 0], ['¿Cómo se llama su EP de debut?', 'What is their debut EP called?', ['SHOT CALLERS', 'LONG WAY', 'MOONLIGHT'], 0], ['¿Cómo se pronuncia LNGSHOT?', 'How do you pronounce LNGSHOT?', ['Longshot', 'Lingshot', 'Long Shoot'], 0]],
     seventeen: [['¿En qué año debutó SEVENTEEN?', 'What year did SEVENTEEN debut?', ['2013', '2015', '2017'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['CARAT', 'BLINK', 'ARMY'], 0], ['¿Quién es el líder?', 'Who is the leader?', ['S.Coups', 'Jeonghan', 'Mingyu'], 0], ['¿Cuáles son sus tres unidades?', 'What are their three units?', ['Hip-hop, Vocal y Performance|Hip-hop, Vocal & Performance', 'Rap, Dance y Ballad|Rap, Dance & Ballad', 'Sun, Moon y Star|Sun, Moon & Star'], 0], ['¿Qué miembro es el "tigre" del grupo (Horanghae)?', 'Which member is the group\'s "tiger" (Horanghae)?', ['Hoshi', 'Dino', 'Jun'], 0], ['¿Quiénes forman BSS (BooSeokSoon)?', 'Who is in BSS (BooSeokSoon)?', ['Seungkwan, DK y Hoshi|Seungkwan, DK & Hoshi', 'Woozi, Vernon y Dino|Woozi, Vernon & Dino', 'Jun, The8 y Mingyu|Jun, The8 & Mingyu'], 0]],
     enhypen: [['¿En qué año debutó ENHYPEN?', 'What year did ENHYPEN debut?', ['2019', '2020', '2022'], 1], ['¿En qué programa se formó?', 'Which survival show formed them?', ['I-LAND', 'SIXTEEN', 'Boys Planet'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['ENGENE', 'MOA', 'CARAT'], 0], ['¿Quién es el líder?', 'Who is the leader?', ['Jungwon', 'Jay', 'Sunghoon'], 0], ['¿De qué país es Ni-ki?', 'Which country is Ni-ki from?', ['Japón|Japan', 'Estados Unidos|United States', 'Australia'], 0], ['¿Cuál fue su canción de debut?', 'What was their debut song?', ['Given-Taken', 'Drunk-Dazed', 'Polaroid Love'], 0]],
     newjeans: [['¿En qué año debutó NewJeans?', 'What year did NewJeans debut?', ['2020', '2022', '2024'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['Bunnies', 'ONCE', 'STAY'], 0], ['¿Cuál fue su canción de debut?', 'What was their debut song?', ['Attention', 'Ditto', 'OMG'], 0], ['¿Quién es la menor del grupo?', 'Who is the youngest member?', ['Hyein', 'Minji', 'Haerin'], 0], ['¿Qué miembro es vietnamita-australiana?', 'Which member is Vietnamese-Australian?', ['Hanni', 'Minji', 'Haerin'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['ADOR', 'Pledis', 'JYP'], 0]],
@@ -162,10 +162,10 @@
       zoomIn: 'Acercar', zoomOut: 'Alejar', centerMe: 'Centrar en mí', geoLooking: 'Buscando tu ubicación...', geoDenied: 'No pudimos leer tu ubicación. Usamos Bucaramanga, puedes cambiarla en "Tu ciudad".',
       geoOk: 'Usando tu ubicación, cerca de {city}', geoNear: 'cerca de {city}', geoNote: 'Sin permiso de ubicación: estamos midiendo desde Bucaramanga.', retry: 'Reintentar', youRef: 'ti',
       sightTitle: 'Avistamientos cercanos', sightLead: 'Publicaciones oficiales de los grupos que mencionan una ciudad, ordenadas por distancia a ti. Solo la ciudad, nunca hoteles, aeropuertos ni lugares exactos.',
-      sightSample: 'Datos de ejemplo: el conector de X todavía no tiene token.', sightAway: 'a {km} km de ti', sightNew: '¡{n} avistamientos nuevos!', sightNew1: '¡Un avistamiento nuevo!', sightSee: 'Ver post oficial',
+      sightSample: 'Datos de ejemplo: todavía no hay conexión con las cuentas oficiales.', sightAway: 'a {km} km de ti', sightNew: '¡{n} avistamientos nuevos!', sightNew1: '¡Un avistamiento nuevo!', sightSee: 'Ver post oficial',
       sightEmpty: 'Todavía no hay avistamientos. Aparecen cuando una cuenta oficial menciona una ciudad.', tickerK: 'AVISTAMIENTOS CERCANOS', sightSource: 'Fuente: cuentas oficiales en X',
       squad: 'Toca a cada miembro', notOnTour: 'no va en esta gira', photoAlt: 'Foto oficial de {g}', withUnit: 'con {names}',
-      listen: 'Escúchalos en', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
+      listen: 'Escúchalos en', nextRelease: 'Próximo estreno', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
       stMembers: 'miembros', stDebutK: 'debut', stListeners: 'oyentes mensuales en Spotify', stPeak: 'récord de oyentes mensuales', stStreams: 'reproducciones en Spotify',
       stTopSong: 'su canción más escuchada · {n} reproducciones', stTopSongK: 'su canción más escuchada', stSubs: 'suscriptores en YouTube', stAgency: 'Agencia',
       stSource: 'Números de Spotify vía kworb.net, se actualizan solos una vez al día.',
@@ -193,7 +193,7 @@
       changesTitle: 'Novedades', you2: 'Tú',
       fConsent: 'Autorizo al radar a usar estos datos solo para mandarme las alertas que elegí. Si soy menor de edad, tengo permiso de mi mamá, papá o acudiente.', eConsent: 'Necesitamos tu autorización para guardar tus alertas.',
       privacy4: 'Responsable: Cristian Pérez (cristianperez.me). Puedes conocer, actualizar o borrar tus datos y retirar tu autorización cuando quieras: "Borrar mis datos" los borra de este navegador y del servidor, o escribe a crisperezm879@gmail.com. Si el radar tiene servidor, tus datos se guardan en Cloudflare solo para mandarte alertas, sin tu IP ni tu ubicación exacta; las notificaciones push pasan por el servicio de tu navegador (Google, Apple o Mozilla). Si eres menor de edad, pide permiso a un adulto antes de dejar tu WhatsApp.',
-      T: { new_date: 'Fecha nueva', changed: 'Cambio', removed: 'Quitada', stop_today: 'Hoy', live: 'En vivo', next_stop: 'Siguiente parada', arrival_official: 'Llegada oficial', arrival: 'Llegada', latam: 'Latam', comeback: 'Comeback', tour: 'Gira', video: 'Video', prox: 'Cerca de ti', prox_new: 'Cerca de ti' },
+      T: { new_date: 'Fecha nueva', changed: 'Cambio', removed: 'Quitada', stop_today: 'Hoy', live: 'En vivo', next_stop: 'Siguiente parada', arrival_official: 'Llegada oficial', arrival: 'Llegada', latam: 'Latam', comeback: 'Comeback', tour: 'Gira', official: 'Oficial', video: 'Video', prox: 'Cerca de ti', prox_new: 'Cerca de ti' },
       months: ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'], wdays: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
       cardinal: ['N', 'E', 'S', 'O'], locale: 'es-CO'
     },
@@ -235,10 +235,10 @@
       zoomIn: 'Zoom in', zoomOut: 'Zoom out', centerMe: 'Center on me', geoLooking: 'Finding you...', geoDenied: 'We could not read your location. Using Bucaramanga, you can change it in "Your city".',
       geoOk: 'Using your location, near {city}', geoNear: 'near {city}', geoNote: 'No location permission: measuring from Bucaramanga.', retry: 'Try again', youRef: 'you',
       sightTitle: 'Sightings near you', sightLead: 'Official group posts that mention a city, sorted by distance to you. City level only, never hotels, airports or exact places.',
-      sightSample: 'Sample data: the X connector has no token yet.', sightAway: '{km} km from you', sightNew: '{n} new sightings!', sightNew1: 'A new sighting!', sightSee: 'See official post',
+      sightSample: 'Sample data: not connected to the official accounts yet.', sightAway: '{km} km from you', sightNew: '{n} new sightings!', sightNew1: 'A new sighting!', sightSee: 'See official post',
       sightEmpty: 'No sightings yet. They show up when an official account mentions a city.', tickerK: 'SIGHTINGS NEAR YOU', sightSource: 'Source: official accounts on X',
       squad: 'Tap each member', notOnTour: 'not on this tour', photoAlt: 'Official photo of {g}', withUnit: 'with {names}',
-      listen: 'Listen on', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
+      listen: 'Listen on', nextRelease: 'Next release', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
       stMembers: 'members', stDebutK: 'debut', stListeners: 'Spotify monthly listeners', stPeak: 'monthly listeners record', stStreams: 'Spotify streams',
       stTopSong: 'their most streamed song · {n} streams', stTopSongK: 'their most streamed song', stSubs: 'YouTube subscribers', stAgency: 'Agency',
       stSource: 'Spotify numbers via kworb.net, updated automatically once a day.',
@@ -266,7 +266,7 @@
       changesTitle: 'What\'s new', you2: 'You',
       fConsent: 'I allow the radar to use this data only to send me the alerts I chose. If I am under 18, I have permission from a parent or guardian.', eConsent: 'We need your permission to save your alerts.',
       privacy4: 'Data controller: Cristian Pérez (cristianperez.me). You can see, update or delete your data and withdraw your consent anytime: "Delete my data" erases it from this browser and from the server, or write to crisperezm879@gmail.com. If the radar has a server, your data is stored on Cloudflare only to send you alerts, without your IP or exact location; push notifications go through your browser\'s service (Google, Apple or Mozilla). If you are under 18, ask an adult before sharing your WhatsApp.',
-      T: { new_date: 'New date', changed: 'Changed', removed: 'Removed', stop_today: 'Today', live: 'Live', next_stop: 'Next stop', arrival_official: 'Official arrival', arrival: 'Arrival', latam: 'Latam', comeback: 'Comeback', tour: 'Tour', video: 'Video', prox: 'Near you', prox_new: 'Near you' },
+      T: { new_date: 'New date', changed: 'Changed', removed: 'Removed', stop_today: 'Today', live: 'Live', next_stop: 'Next stop', arrival_official: 'Official arrival', arrival: 'Arrival', latam: 'Latam', comeback: 'Comeback', tour: 'Tour', official: 'Official', video: 'Video', prox: 'Near you', prox_new: 'Near you' },
       months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], wdays: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
       cardinal: ['N', 'E', 'S', 'W'], locale: 'en-US'
     }
@@ -1232,6 +1232,14 @@
     if (d <= 0) return '<p class="onsale today"><span class="ko" lang="ko">티켓팅</span> ' + esc(t('onsaleToday')) + ' <small>' + esc(place(best.e.city)) + ' · ' + esc(myTime(best.t)) + '</small></p>';
     return '<p class="onsale"><span class="ko" lang="ko">티켓팅</span> ' + esc(t('onsaleIn', { d: 'D-' + d, when: myTime(best.t) })) + ' <small>' + esc(place(best.e.city)) + '</small></p>';
   }
+  /* próximo estreno: sale solo del catálogo de Apple Music (media.json trae los lanzamientos con fecha futura) */
+  function nextReleaseHtml(gid) {
+    var today = new Date(now()).toISOString().slice(0, 10);
+    var up = (media || []).filter(function (m) { return m.group === gid && m.type === 'music' && m.date > today && okLink(m.url); })
+      .sort(function (a, b) { return a.date < b.date ? -1 : 1; })[0];
+    if (!up) return '';
+    return '<p class="next-rel"><span class="ko" lang="ko">컴백</span> ' + esc(t('nextRelease')) + ': <a href="' + esc(up.url) + '" target="_blank" rel="noopener noreferrer"><b>' + esc(up.title) + '</b></a> · ' + esc(fmtShort(up.date)) + '</p>';
+  }
   function cardHtml(st) {
     var g = st.g, o = origin(), m = META[g.id] || {}, h = '';
     h += '<article class="card ' + (sel === g.id ? 'is-sel' : '') + '" id="card-' + esc(g.id) + '" data-g="' + esc(g.id) + '" style="' + gStyle(g.id) + '">';
@@ -1260,6 +1268,7 @@
       (cityTarget(st) ? '<button type="button" class="act" data-city="' + esc(g.id) + '">' + ICON.map + esc(t('cityOpen')) + '</button>' : '') + '</div>';
     var watch = lang === 'en' && g.watch_en && g.watch_en.length ? g.watch_en : g.watch;
     if (watch && watch.length) h += '<ul class="watch" lang="' + (watch === g.watch_en ? 'en' : 'es') + '">' + watch.map(function (w) { return '<li>' + esc(w) + '</li>'; }).join('') + '</ul>';
+    h += nextReleaseHtml(g.id);
     h += squadHtml(st);
     var ph = photoOf(g.id);
     if (ph) h += '<figure class="polaroid"><img src="' + esc(ph.src) + '"' + (ph.w ? ' width="' + ph.w + '" height="' + ph.h + '"' : '') + ' alt="' + esc(t('photoAlt', { g: g.name })) + '" loading="lazy" decoding="async"><figcaption>' + esc(g.name) + (m.fan ? ' · ' + esc(m.fan) : '') + '</figcaption></figure>';
@@ -1525,7 +1534,7 @@
   var TYPE_GROUPS = [
     ['typesNear', ['prox', 'prox_new'], true], ['typesLive', ['live', 'stop_today'], true], ['typesDates', ['new_date', 'changed', 'removed'], true],
     ['typesNext', ['next_stop'], false], ['typesArrival', ['arrival_official', 'arrival'], true], ['typesLatam', ['latam'], true],
-    ['typesNews', ['comeback', 'tour'], false], ['typesVideo', ['video'], false]
+    ['typesNews', ['comeback', 'tour', 'official'], false], ['typesVideo', ['video'], false]
   ];
   var form = { ch: 'discord' };
   function loadForm() { try { return JSON.parse(store('radar-sub') || 'null'); } catch (e) { return null; } }
@@ -1798,7 +1807,7 @@
   function okLink(u) { return /^https:\/\/(music\.apple\.com|www\.youtube\.com)\//.test(u || '') ? u : ''; }
   function pollMedia() {
     return fetch('media.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (j) { if (j && Array.isArray(j.items)) { media = j.items; renderMedia(); } }).catch(function () { renderMedia(); });
+      .then(function (j) { if (j && Array.isArray(j.items)) { media = j.items; renderMedia(); if (data && data.groups) renderCards(); } }).catch(function () { renderMedia(); });
   }
   function renderMedia() {
     var el = $('#media'); if (!el) return;

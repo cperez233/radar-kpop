@@ -5,7 +5,7 @@ Corre cada pocos minutos (GitHub Action). En cada pasada:
   2. Mira el reloj contra la agenda: llegada a una ciudad, siguiente parada, show por empezar.
   3. Revisa noticias y videos: comebacks, giras, anuncios para Latinoamerica.
   4. Para cada suscriptor con ciudad: aviso cuando se anuncia un show cerca y recordatorios de 7 d, 24 h y 3 h.
-  5. Envia por Discord (canal y DM) y WhatsApp, sin repetir nada que ya salio.
+  5. Envia por Discord (canal y DM), ntfy, WhatsApp y push, sin repetir nada que ya salio.
 
 Importante: "llegar" y "moverse" salen de la agenda oficial (dia del show y fin del show), no de ubicacion en vivo.
 
@@ -13,7 +13,8 @@ Variables de entorno (todas opcionales; sin ellas corre en modo prueba):
   DISCORD_WEBHOOK_URL, DISCORD_BOT_TOKEN, WHATSAPP_TOKEN, WHATSAPP_PHONE_ID,
   WHATSAPP_TEMPLATE (por defecto radar_alerta), SUBSCRIBERS_JSON, DRY_RUN=1, NOW=2026-10-16T12:00:00Z,
   SUBSCRIBERS_URL y SUBSCRIBERS_TOKEN (lista de suscriptores del servidor de backend/, se suma a SUBSCRIBERS_JSON),
-  VAPID_PRIVATE_KEY y VAPID_SUBJECT (notificaciones push, con pywebpush instalado)
+  VAPID_PRIVATE_KEY y VAPID_SUBJECT (notificaciones push, con pywebpush instalado),
+  NTFY_TOPIC (push al celular con la app ntfy; NTFY_SERVER si usas otro servidor que ntfy.sh)
 """
 from __future__ import annotations
 
@@ -238,16 +239,20 @@ def news_alerts(items: list[dict], seen: set, data: dict, now: datetime, bootstr
         g = gmap[it["group"]]
         if it["kind"] == "social":
             text = norm(it["text"])
-            hit = next((c for c in active_places(g, now) if any(n in text for n in city_names(c))), None)
+            hit = None if news.OFFICIAL_SKIP.search(it["title"]) else next((c for c in active_places(g, now) if any(n in text for n in city_names(c))), None)
             if hit:
-                title, title_en = f"Posible llegada de {g['name']} a {hit}", f"{g['name']} may have arrived in {en(hit)}"
-            elif news.ARRIVAL.search(it["text"]):
-                title, title_en = f"{g['name']} avisó que llegó", f"{g['name']} said they arrived"
-            else:
+                alerts.append(mk("arrival_official", f"news:{it['id']}", g, f"Posible llegada de {g['name']} a {hit}",
+                                 f"Lo publicó {it['source']}: «{short(it['title'])}». Salió de su cuenta oficial.", now, url=it["link"],
+                                 title_en=f"{g['name']} may have arrived in {en(hit)}",
+                                 body_en=f"Posted by {it['source']}: \"{short(it['title'])}\". From their official account."))
                 continue
-            alerts.append(mk("arrival_official", f"news:{it['id']}", g, title,
-                             f"Lo publicó {it['source']}: «{short(it['title'])}». Salió de su cuenta oficial.", now, url=it["link"],
-                             title_en=title_en, body_en=f"Posted by {it['source']}: \"{short(it['title'])}\". From their official account."))
+            # anuncio oficial de gira o comeback (también lo que suben a Weverse y repiten en X); uno por grupo, tipo y día
+            kind = news.official_kind(it["title"])
+            if kind:
+                lab = {"tour": ("gira", "tour"), "latam": ("Latinoamérica", "Latin America"), "comeback": ("comeback", "comeback")}[kind]
+                alerts.append(mk("official", f"official:{g['id']}:{kind}:{now:%Y-%m-%d}", g, f"Anuncio oficial de {g['name']}: {lab[0]}",
+                                 f"«{short(it['title'], 180)}» ({it['source']}).", now, url=it["link"],
+                                 title_en=f"Official {g['name']} news: {lab[1]}", body_en=f"\"{short(it['title'], 180)}\" ({it['source']})."))
             continue
         label = {"arrival": "Llegada reportada", "latam": "Latinoamérica", "comeback": "Comeback", "tour": "Gira", "video": "Nuevo video"}[it["kind"]]
         label_en = {"arrival": "Reported arrival", "latam": "Latin America", "comeback": "Comeback", "tour": "Tour", "video": "New video"}[it["kind"]]
@@ -315,6 +320,7 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
     stamp = iso(datetime.now(timezone.utc))
     count = 0
     webhook, token = os.environ.get("DISCORD_WEBHOOK_URL"), os.environ.get("DISCORD_BOT_TOKEN")
+    ntfy_topic, ntfy_server = os.environ.get("NTFY_TOPIC", "").strip(), os.environ.get("NTFY_SERVER", "").strip() or "https://ntfy.sh"
     wa_token, wa_phone = os.environ.get("WHATSAPP_TOKEN"), os.environ.get("WHATSAPP_PHONE_ID")
     template = os.environ.get("WHATSAPP_TEMPLATE", "radar_alerta")
 
@@ -329,6 +335,8 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
     for a in alerts:
         if not a.get("sub"):
             once(f"{a['key']}|canal", lambda a=a: channels.send_discord_webhook(webhook, a, dry))
+            if ntfy_topic:
+                once(f"{a['key']}|ntfy", lambda a=a: channels.send_ntfy(ntfy_topic, a, dry, ntfy_server))
         for s in subs:
             if a.get("sub") and a["sub"] != s["id"]:
                 continue

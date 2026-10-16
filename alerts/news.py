@@ -1,7 +1,8 @@
-"""Lee noticias (RSS) y videos de YouTube (feed Atom) y los convierte en candidatos a alerta."""
+"""Lee noticias (RSS), posts de las cuentas oficiales (RSSHub) y los videos de media.json, y los convierte en candidatos a alerta."""
 from __future__ import annotations
 
 import hashlib
+import json
 import os
 import re
 import urllib.parse
@@ -9,13 +10,14 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from pathlib import Path
 
 UA = {"User-Agent": "radar-kpop/1.0"}
 ATOM = "{http://www.w3.org/2005/Atom}"
 MAX_AGE = timedelta(days=3)
 
-TOUR = re.compile(r"tour|concert|fan ?meeting|fan ?con\b|showcase|festival|gira|concierto|fanmeeting", re.I)
-COMEBACK = re.compile(r"comeback|new album|new single|teaser|release date|mini album|full album|pre-release|regreso|nuevo [aá]lbum|lanzamiento", re.I)
+TOUR = re.compile(r"tour|concert|fan ?meeting|fan ?con\b|showcase|festival|gira|concierto|fanmeeting|투어|콘서트|팬미팅|팬콘|ツアー|ライブ", re.I)
+COMEBACK = re.compile(r"comeback|new album|new single|teaser|release date|mini album|full album|pre-release|regreso|nuevo [aá]lbum|lanzamiento|컴백|발매|カムバック", re.I)
 LATAM = re.compile(
     r"colombia|bogot[aá]|medell[ií]n|south america|latin america|latam|am[eé]rica latina|sudam[eé]rica|"
     r"m[eé]xico|brazil|brasil|chile|peru|per[uú]|argentina",
@@ -27,6 +29,23 @@ ARRIVAL = re.compile(
     r"\b(arrive[sd]?|arriving|landed|lands in|touch(?:ed)? down)\b|\b(lleg[oó]|llegaron|llega a|llegando|llegada|aterriz[oó]|aterrizaron|ya est[aá]n? en)\b",
     re.I,
 )
+
+
+# posts de cuentas oficiales: reglas más estrictas que para la prensa (suben teasers de realities, streams, VR...)
+OFFICIAL_SKIP = re.compile(r"^RT |beyond live|online|온라인|stream|스트리밍|\bVR\b|reality|리얼리티|behind|vlog|\bep\.\s*\d|episode|대형 스크린|screening|movie|영화", re.I)
+OFFICIAL_COMEBACK = re.compile(r"comeback|컴백|mini album|full album|정규|미니|(?-i:\bEP\b)|single|싱글|tracklist|트랙리스트|발매|release|vinyl|pre-?order|pre-?save|カムバック", re.I)
+OFFICIAL_TOUR = re.compile(r"world tour|tour\b|투어|concert|콘서트|fan ?meeting|팬미팅|팬콘|fan ?con\b|ツアー|ticket open|티켓 오픈|예매", re.I)
+
+
+def official_kind(title: str) -> str | None:
+    """Tipo de anuncio en un post oficial, o None si no es anuncio de gira ni de comeback."""
+    if OFFICIAL_SKIP.search(title):
+        return None
+    if OFFICIAL_COMEBACK.search(title):
+        return "comeback"
+    if OFFICIAL_TOUR.search(title):
+        return "latam" if LATAM.search(title) else "tour"
+    return None
 
 
 def classify(title: str) -> str | None:
@@ -118,26 +137,43 @@ def collect(feeds: dict, now: datetime) -> list[dict]:
             except Exception as exc:  # noqa: BLE001
                 print(f"Google Noticias fallo para {gid}: {exc}")
 
-    # Cuentas oficiales (X, Weverse, Instagram) via un RSSHub tuyo. Sin RSSHUB_URL se salta.
+    # Cuentas oficiales en X vía tu RSSHub. sightings/fetch_x.py (corre antes) deja los posts en state/social.json;
+    # si ese archivo tiene menos de 1 hora se reusa, si no se piden aquí. Sin RSSHUB_URL se salta.
     rsshub = os.environ.get("RSSHUB_URL", "").rstrip("/")
-    for acct in feeds.get("social", []) if rsshub else []:
-        try:
-            for it in fetch(acct["url"].replace("{RSSHUB}", rsshub)):
-                if keep(it):
-                    out.append({"id": _item_id(it), "group": acct["group"], "kind": "social", "title": it["title"], "link": it["link"],
-                                "source": acct["name"], "text": it["title"] + " " + it["summary"]})
-        except Exception as exc:  # noqa: BLE001
-            print(f"Cuenta oficial caida ({acct['name']}): {exc}")
+    cache = Path(__file__).resolve().parent.parent / "state" / "social.json"
+    posts: list[tuple[dict, dict]] = []
+    try:
+        c = json.loads(cache.read_text(encoding="utf-8")) if cache.exists() else {}
+        fresh_cache = c.get("updated_at") and now - _parse_dt(c["updated_at"]) < timedelta(hours=1)
+    except ValueError:
+        c, fresh_cache = {}, False
+    names = {a["group"]: a["name"] for a in feeds.get("social", [])}
+    if fresh_cache:
+        for p in c.get("items", []):
+            posts.append(({"group": p["group"], "name": names.get(p["group"], p["account"])},
+                          {"title": p["title"], "link": p["link"], "summary": p.get("summary", ""), "ts": _parse_dt(p.get("pubDate"))}))
+    else:
+        for acct in feeds.get("social", []) if rsshub else []:
+            try:
+                for it in fetch(acct["url"].replace("{RSSHUB}", rsshub)):
+                    posts.append((acct, it))
+            except Exception as exc:  # noqa: BLE001
+                print(f"Cuenta oficial caida ({acct['name']}): {exc}")
+    for acct, it in posts:
+        if keep(it):
+            out.append({"id": _item_id(it), "group": acct["group"], "kind": "social", "title": it["title"], "link": it["link"],
+                        "source": acct["name"], "text": it["title"] + " " + it["summary"]})
 
-    for gid, channel in feeds.get("youtube", {}).items():
-        if not channel.startswith("UC"):
-            continue
-        try:
-            for it in fetch("https://www.youtube.com/feeds/videos.xml?channel_id=" + channel):
-                if keep(it):
-                    out.append({"id": _item_id(it), "group": gid, "kind": "video", "title": it["title"], "link": it["link"], "source": "YouTube"})
-        except Exception as exc:  # noqa: BLE001
-            print(f"YouTube fallo para {gid}: {exc}")
+    # Videos: los trae updater/media.py (corre antes en el workflow) y quedan en media.json; aquí no se vuelve a pedir a YouTube
+    media = Path(__file__).resolve().parent.parent / "media.json"
+    try:
+        vids = [m for m in json.loads(media.read_text(encoding="utf-8")).get("items", []) if m.get("type") == "video"] if media.exists() else []
+    except ValueError:
+        vids = []
+    for m in vids:
+        it = {"title": m.get("title", ""), "link": m.get("url", ""), "summary": "", "ts": _parse_dt(m.get("published") or None)}
+        if it["ts"] and keep(it):
+            out.append({"id": _item_id(it), "group": m["group"], "kind": "video", "title": it["title"], "link": it["link"], "source": "YouTube"})
 
     seen, uniq = set(), []
     for o in out:

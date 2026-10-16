@@ -1,40 +1,48 @@
 """Avistamientos: lee las cuentas oficiales de cada grupo en X y guarda en sightings.json los posts que mencionan una ciudad.
 
 Uso:
-    python sightings/fetch_x.py            # con X_BEARER_TOKEN en el entorno o en .env
+    python sightings/fetch_x.py            # con RSSHUB_URL o X_BEARER_TOKEN en el entorno o en .env
     python sightings/fetch_x.py --sample   # fuerza los datos de ejemplo
+
+Fuentes, en orden:
+1. RSSHUB_URL (gratis): tu RSSHub, ruta /twitter/user/<cuenta>. Es la principal.
+2. X_BEARER_TOKEN (de pago por uso, ~0,005 USD por post): solo si no hay RSSHub o si RSSHub falla entero.
+   Para gastar poco: ids de usuario guardados en sightings/user_ids.json, solo posts nuevos (since_id) y como mucho
+   una lectura por hora (MIN_GAP). Si X responde 402/403 (sin saldo o sin permiso) se detiene sin insistir.
+Si ninguna fuente responde, se conserva sightings.json como estaba. Sin ninguna de las dos, escribe datos de ejemplo
+marcados con "sample": true (la web los muestra con una etiqueta).
 
 Reglas para que esto nunca sea acoso:
 - Solo cuentas oficiales (las de alerts/feeds.json, "social").
 - Solo nivel ciudad: el post se ubica en la ciudad que menciona, con las coordenadas del centro de la ciudad.
 - Se descartan los posts que hablan de aeropuertos, hoteles o vuelos, para no mandar gente a esperar a nadie.
 - No se guarda ninguna ubicación de personas ni de fans, y no se leen respuestas ni posts de otras cuentas.
-
-Sin token, escribe datos de ejemplo marcados con "sample": true (la web los muestra con una etiqueta).
-X API v2: GET /2/users/by/username/:name y GET /2/users/:id/tweets. X cobra por cada post y perfil leído (pago por uso),
-así que el gasto se mantiene mínimo:
-- los ids de usuario se piden una sola vez y quedan en sightings/user_ids.json;
-- se guarda el último post visto de cada cuenta ("_since") y solo se piden los más nuevos (since_id);
-- se lee como mucho una vez por hora aunque el workflow corra cada 15 minutos (MIN_GAP).
 """
+import html
 import json
 import os
 import re
 import sys
+import time
 import unicodedata
+import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "sightings.json"
 IDS = ROOT / "sightings" / "user_ids.json"
+SOCIAL = ROOT / "state" / "social.json"  # posts crudos de RSSHub; las alertas los reusan para no pedirlos dos veces
 API = "https://api.x.com/2"
 BLOCK = re.compile(r"airport|aeropuerto|aeroporto|공항|空港|hotel|호텔|ホテル|flight|vuelo|departure|arrival gate|출국|입국|terminal", re.I)
 KEEP_DAYS = 30
 PLACES_EN = json.loads((ROOT / "assets" / "places-en.json").read_text(encoding="utf-8"))["places"]
 MAX_ITEMS = 60
+NOT_PLACE = re.compile(r"paris,? texas|tokyo drift|london boy|seoul city sky|new york state of mind", re.I)  # títulos que no son lugares
 MIN_GAP = timedelta(minutes=55)
 
 
@@ -92,12 +100,67 @@ def api(path: str, token: str, **qs) -> dict:
         return json.load(r)
 
 
-def fetch_real(token: str, events: dict) -> list[dict]:
+def item(gid: str, names: dict, handle: str, tid: str, text: str, when: str, gaz: list) -> dict | None:
+    text = html.unescape(text)
+    if BLOCK.search(text) or NOT_PLACE.search(text):
+        return None
+    c = find_city(text, gaz)
+    if not c:
+        return None
+    return {
+        "id": f"x-{tid}", "group": gid, "group_name": names.get(gid, gid),
+        "city": c["city"], "country": c["country"], "lat": c["lat"], "lon": c["lon"],
+        "text": " ".join(re.sub(r"\(\s*\)", " ", re.sub(r"https?://[^\s)]+", "", text)).split())[:220],
+        "url": f"https://x.com/{handle}/status/{tid}", "account": handle, "when": when,
+    }
+
+
+def fetch_rsshub(base: str, events: dict) -> list[dict] | None:
+    """Posts de cada cuenta oficial vía RSSHub. None si no respondió ninguna cuenta."""
+    gaz, names, items, ok, raw = gazetteer(events), {g["id"]: g["name"] for g in events["groups"]}, [], 0, []
+    for gid, handle in accounts().items():
+        root = None
+        for attempt in (1, 2):  # RSSHub en Vercel a veces corta la conexión: un reintento
+            try:
+                req = urllib.request.Request(f"{base}/twitter/user/{handle}", headers={"User-Agent": "radar-kpop"})
+                with urllib.request.urlopen(req, timeout=60) as r:
+                    root = ET.fromstring(r.read())
+                break
+            except Exception as exc:  # noqa: BLE001
+                if attempt == 2:
+                    print(f"RSSHub @{handle}: {exc}", file=sys.stderr)
+                time.sleep(3)
+        if root is None:
+            continue
+        ok += 1
+        for it in root.iter("item"):
+            raw.append({"group": gid, "account": handle, "title": (it.findtext("title") or "").strip(), "link": it.findtext("link") or "",
+                        "summary": re.sub(r"<[^>]+>", " ", it.findtext("description") or "")[:400], "pubDate": it.findtext("pubDate") or ""})
+            link = it.findtext("link") or ""
+            m = re.search(r"/status/(\d+)", link)
+            if not m or (it.findtext("title") or "").startswith("RT "):
+                continue  # los retweets son de otras cuentas
+            text = re.sub(r"<[^>]+>", " ", it.findtext("description") or it.findtext("title") or "")
+            try:
+                when = parsedate_to_datetime(it.findtext("pubDate")).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+            except (TypeError, ValueError):
+                continue
+            x = item(gid, names, handle, m.group(1), " ".join(text.split()), when, gaz)
+            if x:
+                items.append(x)
+    print(f"RSSHub: {ok} de {len(accounts())} cuentas respondieron")
+    if ok:
+        SOCIAL.parent.mkdir(parents=True, exist_ok=True)
+        SOCIAL.write_text(json.dumps({"updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "items": raw}, ensure_ascii=False) + "\n", encoding="utf-8")
+    return items if ok else None
+
+
+def fetch_real(token: str, events: dict) -> list[dict] | None:
     gaz = gazetteer(events)
     names = {g["id"]: g["name"] for g in events["groups"]}
     ids = json.loads(IDS.read_text(encoding="utf-8")) if IDS.exists() else {}
     since = ids.setdefault("_since", {})
-    items = []
+    items, ok = [], 0
     for gid, handle in accounts().items():
         try:
             if handle not in ids:
@@ -106,6 +169,13 @@ def fetch_real(token: str, events: dict) -> list[dict]:
             if handle in since:
                 qs["since_id"] = since[handle]  # solo lo nuevo: si no hay posts nuevos, no se cobra nada
             body = api(f"/users/{ids[handle]}/tweets", token, **qs)
+            ok += 1
+        except urllib.error.HTTPError as exc:
+            if exc.code in (401, 402, 403):
+                print(f"X respondió {exc.code} (sin saldo, sin permiso o token malo): se deja de consultar en esta corrida", file=sys.stderr)
+                break
+            print(f"{gid} (@{handle}): X respondió {exc.code}", file=sys.stderr)
+            continue
         except Exception as exc:  # noqa: BLE001
             print(f"{gid} (@{handle}): {exc}", file=sys.stderr)
             continue
@@ -113,21 +183,11 @@ def fetch_real(token: str, events: dict) -> list[dict]:
         if newest:
             since[handle] = newest
         for tw in body.get("data", []):
-            text = tw.get("text", "")
-            if BLOCK.search(text):
-                continue
-            c = find_city(text, gaz)
-            if not c:
-                continue
-            items.append({
-                "id": f"x-{tw['id']}", "group": gid, "group_name": names.get(gid, gid),
-                "city": c["city"], "country": c["country"], "lat": c["lat"], "lon": c["lon"],
-                "text": re.sub(r"https://t\.co/\S+", "", text).strip()[:220],
-                "url": f"https://x.com/{handle}/status/{tw['id']}", "account": handle,
-                "when": tw.get("created_at", datetime.now(timezone.utc).isoformat()),
-            })
+            x = item(gid, names, handle, tw["id"], tw.get("text", ""), tw.get("created_at", datetime.now(timezone.utc).isoformat()), gaz)
+            if x:
+                items.append(x)
     IDS.write_text(json.dumps(ids, indent=2) + "\n", encoding="utf-8")
-    return items
+    return items if ok else None
 
 
 def sample(events: dict, now: datetime) -> list[dict]:
@@ -158,23 +218,37 @@ def main() -> int:
     events = json.loads((ROOT / "events.json").read_text(encoding="utf-8"))
     now = datetime.now(timezone.utc)
     token = os.environ.get("X_BEARER_TOKEN", "").strip()
+    rsshub = os.environ.get("RSSHUB_URL", "").strip().rstrip("/")
     old = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {"items": [], "sample": True}
-    if token and "--sample" not in sys.argv:
-        last = old.get("updated_at") if not old.get("sample") else None
-        if last and now - datetime.fromisoformat(last.replace("Z", "+00:00")) < MIN_GAP:
-            print("Se leyó X hace menos de una hora, se espera a la próxima")
+    if (rsshub or token) and "--sample" not in sys.argv:
+        fresh, source = (fetch_rsshub(rsshub, events), "rsshub") if rsshub else (None, "")
+        if fresh is None and token:
+            last = old.get("updated_at") if old.get("source") == "x" else None
+            if last and now - datetime.fromisoformat(last.replace("Z", "+00:00")) < MIN_GAP:
+                print("Se leyó X hace menos de una hora, se espera a la próxima")
+                return 0
+            fresh, source = fetch_real(token, events), "x"
+        if fresh is None:
+            print("Ninguna fuente de avistamientos respondió: se conserva sightings.json como estaba", file=sys.stderr)
             return 0
-        fresh = fetch_real(token, events)
         keep = [] if old.get("sample") else old.get("items", [])
         merged = {x["id"]: x for x in keep + fresh}
         cutoff = now - timedelta(days=KEEP_DAYS)
         items = [x for x in merged.values() if datetime.fromisoformat(x["when"].replace("Z", "+00:00")) >= cutoff]
         items.sort(key=lambda x: x["when"], reverse=True)
-        doc = {"updated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "source": "x", "sample": False, "items": items[:MAX_ITEMS]}
-        print(f"{len(fresh)} posts con ciudad, {len(doc['items'])} avistamientos guardados")
+        seen, uniq = set(), []
+        for x in items:  # un avistamiento por grupo y ciudad: el más reciente (una promo repetida no llena la lista)
+            if (x["group"], x["city"]) not in seen:
+                seen.add((x["group"], x["city"]))
+                uniq.append(x)
+        items = uniq
+        doc = {"updated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "source": source, "sample": False, "items": items[:MAX_ITEMS]}
+        print(f"{len(fresh)} posts con ciudad, {len(doc['items'])} avistamientos guardados ({source})")
+        if not old.get("sample") and [x["id"] for x in old.get("items", [])] == [x["id"] for x in doc["items"]]:
+            print("Avistamientos sin cambios")
+            return 0
     else:
-        if not token:
-            print("Falta X_BEARER_TOKEN (en .env o en los secretos del workflow). Se escriben datos de ejemplo.", file=sys.stderr)
+        print("Sin RSSHUB_URL ni X_BEARER_TOKEN: se escriben datos de ejemplo.", file=sys.stderr)
         doc = {"updated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "source": "sample", "sample": True, "items": sample(events, now)}
         if old.get("sample") and [x["id"] for x in old.get("items", [])] == [x["id"] for x in doc["items"]]:
             print("Ejemplo sin cambios")

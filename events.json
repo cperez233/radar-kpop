@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T16:30:00Z",
+  "updated_at": "2026-10-16T07:17:43Z",
   "sources": [
     {
       "name": "Live Nation (BTS)",
@@ -653,9 +653,7 @@
       "id": "lngshot",
       "name": "LNGSHOT",
       "tour": "Con Jay Park, Serenades & Body Rolls",
-      "watch": [
-        "Comeback esperado a finales de octubre o inicios de noviembre (fuentes de la industria, sin confirmar)."
-      ],
+      "watch": [],
       "events": [
         {
           "id": "lng-20261013-vienna",
@@ -735,9 +733,7 @@
           "status": "confirmado"
         }
       ],
-      "watch_en": [
-        "Comeback expected in late October or early November (industry sources, unconfirmed)."
-      ],
+      "watch_en": [],
       "tour_en": "With Jay Park, Serenades & Body Rolls"
     },
     {
@@ -1195,7 +1191,7 @@
     {
       "id": "newjeans",
       "name": "NewJeans",
-      "tour": "Bunnies Camp 2024 (fan meeting)",
+      "tour": "Bunnies Camp 2024, fan meeting (terminada)",
       "watch": [
         "No hay shows anunciados en 2026. ADOR dice que el grupo prepara su regreso como cuarteto, sin fecha.",
         "La última vez que llenaron un estadio fue el Bunnies Camp en el Tokyo Dome, en junio de 2024."
@@ -1228,7 +1224,7 @@
           "status": "confirmado"
         }
       ],
-      "tour_en": "Bunnies Camp 2024 (fan meeting)"
+      "tour_en": "Bunnies Camp 2024, fan meeting (ended)"
     },
     {
       "id": "cortis",

@@ -590,6 +590,9 @@ input[type="range"] { width: 100%; accent-color: var(--bubble); min-height: 32px
 .trivia .tq { margin: 6px 0 0; padding: 0 0 0 20px; display: grid; gap: 12px; }
 .trivia .tq p { margin: 0 0 6px; font-weight: 700; font-size: 15px; }
 .tq-o { display: flex; flex-wrap: wrap; gap: 6px; }
+.next-rel { margin: 0; padding: 9px 13px; border-radius: 14px; background: color-mix(in srgb, var(--gc) 14%, #fff); border: 2px dashed color-mix(in srgb, var(--gc) 55%, transparent); font-weight: 700; font-size: 14.5px; }
+.next-rel .ko { color: var(--gc); font-weight: 900; margin-right: 2px; }
+.next-rel a { color: var(--ink); text-decoration: underline wavy color-mix(in srgb, var(--gc) 70%, transparent); text-underline-offset: 3px; }
 .listen { display: grid; gap: 6px; }
 .listen ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
 .ln { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; padding: 4px 13px 4px 5px; border-radius: 999px; border: 2px solid var(--ink); background: var(--white); color: var(--ink); font-weight: 800; font-size: 13.5px; text-decoration: none; box-shadow: 0 3px 0 var(--gc); transition: transform .25s var(--boing), box-shadow .2s; }

@@ -1,5 +1,27 @@
 [
   {
+    "version": "4.4",
+    "date": "2026-10-16",
+    "title_es": "El radar se actualiza solo",
+    "title_en": "The radar updates itself",
+    "es": [
+      "Avistamientos reales: las cuentas oficiales se leen por RSSHub, gratis, sin pagar la API de X.",
+      "Nueva alerta Anuncio oficial: cuando una cuenta oficial anuncia gira, entradas o comeback (también los avisos de Weverse que repiten en X).",
+      "Las fechas de gira se mantienen solas: Ticketmaster suma y actualiza, las fechas curadas no se pierden, las viejas se podan y el nombre de la gira dice si terminó.",
+      "Próximo estreno en la tarjeta de cada grupo, tomado del catálogo de Apple Music.",
+      "Videos por la API de YouTube (el RSS dejó de funcionar) y alertas al celular con ntfy.",
+      "Cada fuente falla suave y cada run del robot deja un resumen de qué funcionó."
+    ],
+    "en": [
+      "Real sightings: official accounts are read through RSSHub, for free, without paying for the X API.",
+      "New Official news alert: when an official account announces a tour, tickets or a comeback (including Weverse notices reposted on X).",
+      "Tour dates maintain themselves: Ticketmaster adds and updates, curated dates are kept, old ones are pruned and the tour name says when it ended.",
+      "Next release on each group's card, from the Apple Music catalog.",
+      "Videos through the YouTube API (the RSS feed stopped working) and phone alerts with ntfy.",
+      "Every source fails softly and each robot run leaves a summary of what worked."
+    ]
+  },
+  {
     "version": "4.3",
     "date": "2026-10-16",
     "title_es": "Números de Spotify y logos sticker",
