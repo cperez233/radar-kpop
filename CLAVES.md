@@ -3,16 +3,11 @@
 El robot (`.github/workflows/update-radar.yml`) corre cada 15 minutos en GitHub. Sin ninguna clave ya trae estrenos,
 videos, noticias, las estadísticas de Spotify y reconstruye la página. Cada clave suma algo más.
 
-## 0. Antes de todo: que el robot use `main`
+## 0. Que el robot use `main` (ya está)
 
-GitHub corre las tareas programadas en la **rama por defecto**, y hoy es una rama vieja (`claude/jolly-keller-r165hv`).
-Hasta cambiarla, el robot sigue corriendo la versión vieja y no actualiza nada.
-
-1. Abre el repo en GitHub y entra a **Settings** (arriba a la derecha).
-2. En **General**, busca **Default branch** y toca el ícono de flechas al lado del nombre de la rama.
-3. Elige `main` y confirma con **Update** e **I understand, update the default branch**.
-4. Prueba que funciona: pestaña **Actions**, workflow **Actualizar radar y mandar alertas**, botón **Run workflow**.
-   En un minuto debe salir con el chulito verde.
+GitHub corre las tareas programadas en la **rama por defecto**. Ya es `main` y el robot corrió bien el 16 de octubre de 2026.
+Si alguna vez cambia, se arregla en **Settings**, **General**, **Default branch**. Para probarlo a mano: pestaña **Actions**,
+**Actualizar radar y mandar alertas**, **Run workflow**; en un minuto debe salir con el chulito verde.
 
 ## Cómo se guarda cualquier clave
 
@@ -79,4 +74,4 @@ Sin esta clave, la sección de avistamientos muestra ejemplos marcados como tale
 - **Noticias y alertas**: RSS de Soompi, Koreaboo y Google News.
 - **Datos y números**: oyentes mensuales, récord, reproducciones y canción top de Spotify (kworb.net).
 
-Todo esto se actualiza solo cada vez que corre el robot, apenas la rama por defecto sea `main`.
+Todo esto se actualiza solo cada vez que corre el robot.
