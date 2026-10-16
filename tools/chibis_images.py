@@ -25,7 +25,8 @@ BOX = (-4, -8, 128, 170)  # where a sticker may sit inside the sprite: x, y, wid
 SCALE = 2.4             # pixels per sprite unit kept in the embedded image (sharp on 2x screens)
 GROUP_SCALE = 1.3       # the group sprite is only ever shown small
 
-# group -> (name, {member: (name, crop box x0, y0, x1, y1 in the sheet)}), in roster order
+# group -> (name, {member: (name, crop box x0, y0, x1, y1, [sheet file])}), in roster order.
+# The sheet defaults to <group>-stickers.webp; big groups can be split across several files.
 SHEETS = {
     "bts": ("BTS", {
         "rm": ("RM", (40, 30, 372, 404)),
@@ -66,6 +67,21 @@ SHEETS = {
         "ryul": ("RYUL", (520, 20, 1010, 519)),
         "woojin": ("WOOJIN", (20, 519, 520, 1010)),
         "louis": ("LOUIS", (520, 519, 1010, 1010)),
+    }),
+    "seventeen": ("SEVENTEEN", {
+        "scoups": ("S.Coups", (20, 20, 360, 380), "seventeen-stickers-1.webp"),
+        "jeonghan": ("Jeonghan", (360, 20, 686, 380), "seventeen-stickers-1.webp"),
+        "joshua": ("Joshua", (686, 20, 1010, 380), "seventeen-stickers-1.webp"),
+        "jun": ("Jun", (360, 380, 690, 689), "seventeen-stickers-1.webp"),
+        "hoshi": ("Hoshi", (20, 689, 362, 1010), "seventeen-stickers-1.webp"),
+        "wonwoo": ("Wonwoo", (362, 689, 688, 1010), "seventeen-stickers-1.webp"),
+        "woozi": ("Woozi", (688, 689, 1010, 1010), "seventeen-stickers-1.webp"),
+        "dk": ("DK", (20, 20, 360, 520), "seventeen-stickers-2.webp"),
+        "mingyu": ("Mingyu", (360, 20, 681, 520), "seventeen-stickers-2.webp"),
+        "the8": ("THE 8", (681, 20, 1010, 520), "seventeen-stickers-2.webp"),
+        "seungkwan": ("Seungkwan", (20, 520, 360, 1010), "seventeen-stickers-2.webp"),
+        "vernon": ("Vernon", (360, 520, 680, 1010), "seventeen-stickers-2.webp"),
+        "dino": ("Dino", (680, 520, 1010, 1010), "seventeen-stickers-2.webp"),
     }),
     "twice": ("TWICE", {
         "nayeon": ("Nayeon", (20, 20, 358, 382)),
@@ -141,12 +157,16 @@ def crowd_layout(n: int):
 
 
 def main() -> None:
+    sheets = {}
     for gid, (gname, members) in SHEETS.items():
-        rgba = cutout(Image.open(ART / f"{gid}-stickers.webp"))
         d = OUT / gid
         d.mkdir(parents=True, exist_ok=True)
         tags = {}
-        for mid, (name, box) in members.items():
+        for mid, (name, box, *sheet) in members.items():
+            file = sheet[0] if sheet else f"{gid}-stickers.webp"
+            if file not in sheets:
+                sheets[file] = cutout(Image.open(ART / file))
+            rgba = sheets[file]
             tags[mid] = image_tag(sticker(rgba, box, GROUP_SCALE))
             title = f"{name} ({gname}), chibi"
             (d / f"{mid}.svg").write_text(
@@ -160,7 +180,7 @@ def main() -> None:
         (OUT / f"{gid}.svg").write_text(
             f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -14 {w + 20:.0f} {h + 22}" width="{w + 20:.0f}" height="{h + 22}" role="img" aria-label="{gname}, chibis">'
             f'<title>{gname}, chibis</title><defs>{defs}</defs>{uses}</svg>\n', encoding="utf-8")
-        print(f"{gid}: {len(members)} chibis from {gid}-stickers.webp")
+        print(f"{gid}: {len(members)} chibis")
 
 
 if __name__ == "__main__":
