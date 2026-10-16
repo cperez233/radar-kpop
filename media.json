@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-15T17:33:40Z",
+ "updated_at": "2026-10-16T05:40:37Z",
  "sample": false,
  "items": [
   {
@@ -210,6 +210,15 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/c8/6f/21c86f53-8d07-7841-7403-82c1c7f60550/823375387930_Cover.jpg/300x300bb.jpg"
   },
   {
+   "type": "music",
+   "group": "cortis",
+   "title": "GREENGREEN_playextended",
+   "kind": "Album",
+   "date": "2026-08-23",
+   "url": "https://music.apple.com/us/album/greengreen-playextended/6801189433",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/db/df/99dbdf86-b7f8-86ce-e8da-4ddd845f1bdc/823375359456_Cover.jpg/300x300bb.jpg"
+  },
+  {
    "type": "video",
    "group": "blackpink",
    "title": "BLACKPINK 10th Anniversary MEET & GREET 🖤💗",
@@ -242,6 +251,15 @@
    "date": "2026-07-31",
    "url": "https://music.apple.com/us/album/skz-replay-2026-pt-1/6790903804",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/70/ea/2270ea94-60f0-94a6-bce2-99fafaa8a057/8809928957340_Cover.jpg/300x300bb.jpg"
+  },
+  {
+   "type": "music",
+   "group": "cortis",
+   "title": "MOTION (feat. Juicy J)",
+   "kind": "Album",
+   "date": "2026-07-31",
+   "url": "https://music.apple.com/us/album/motion-feat-juicy-j-single/6793946474",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/f9/a9/82f9a9b8-db69-6fec-3816-54a403297436/823375327356_Cover.jpg/300x300bb.jpg"
   },
   {
    "type": "music",
@@ -293,6 +311,15 @@
    "date": "2026-06-12",
    "url": "https://music.apple.com/us/album/come-over-single/6777857411",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/a3/50/b4a350d5-4197-6928-eebf-e7e53ae4c2b6/823375205715_Cover.jpg/300x300bb.jpg"
+  },
+  {
+   "type": "music",
+   "group": "cortis",
+   "title": "GREENGREEN",
+   "kind": "Album",
+   "date": "2026-05-04",
+   "url": "https://music.apple.com/us/album/greengreen-ep/1887671065",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/5f/47/9b5f4711-dc78-2dea-6721-d06709ea5121/198704992810_Cover.jpg/300x300bb.jpg"
   },
   {
    "type": "music",

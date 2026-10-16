@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T17:28:27Z",
+  "updated_at": "2026-10-16T05:40:39Z",
   "source": "sample",
   "sample": true,
   "items": [
@@ -15,7 +15,7 @@
       "text_en": "Sample: this is how an official BTS post that mentions Lima would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-15T14:28:27Z"
+      "when": "2026-10-16T02:40:39Z"
     },
     {
       "id": "sample-skz-skz-20261024-fukuoka",
@@ -29,21 +29,21 @@
       "text_en": "Sample: this is how an official Stray Kids post that mentions Fukuoka would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-15T09:28:27Z"
+      "when": "2026-10-15T21:40:39Z"
     },
     {
-      "id": "sample-lngshot-lng-20261013-vienna",
+      "id": "sample-lngshot-lng-20261015-zurich",
       "group": "lngshot",
       "group_name": "LNGSHOT",
-      "city": "Viena",
-      "country": "Austria",
-      "lat": 48.187,
-      "lon": 16.42,
-      "text": "Ejemplo: así se vería un post oficial de LNGSHOT que menciona Viena.",
-      "text_en": "Sample: this is how an official LNGSHOT post that mentions Vienna would look.",
+      "city": "Zúrich",
+      "country": "Suiza",
+      "lat": 47.3995,
+      "lon": 8.619,
+      "text": "Ejemplo: así se vería un post oficial de LNGSHOT que menciona Zúrich.",
+      "text_en": "Sample: this is how an official LNGSHOT post that mentions Zurich would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-14T18:28:27Z"
+      "when": "2026-10-15T06:40:39Z"
     },
     {
       "id": "sample-seventeen-svt-20261030-incheon",
@@ -57,7 +57,7 @@
       "text_en": "Sample: this is how an official SEVENTEEN post that mentions Incheon would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-14T13:28:27Z"
+      "when": "2026-10-15T01:40:39Z"
     },
     {
       "id": "sample-enhypen-enh-20261016-macao",
@@ -71,7 +71,21 @@
       "text_en": "Sample: this is how an official ENHYPEN post that mentions Macau would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-14T08:28:27Z"
+      "when": "2026-10-14T20:40:39Z"
+    },
+    {
+      "id": "sample-cortis-cortis-20261009-singapur",
+      "group": "cortis",
+      "group_name": "CORTIS",
+      "city": "Singapur",
+      "country": "Singapur",
+      "lat": 1.2903,
+      "lon": 103.852,
+      "text": "Ejemplo: así se vería un post oficial de CORTIS que menciona Singapur.",
+      "text_en": "Sample: this is how an official CORTIS post that mentions Singapore would look.",
+      "url": "",
+      "account": "",
+      "when": "2026-10-14T10:40:39Z"
     }
   ]
 }
