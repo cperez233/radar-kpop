@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-16T14:54:04Z",
+ "updated_at": "2026-10-16T18:43:06Z",
  "sample": false,
  "items": [
   {
@@ -55,6 +55,24 @@
    "published": "2026-10-16T11:00:15Z",
    "url": "https://www.youtube.com/watch?v=X-Irlu8_Cy4",
    "image": "https://i.ytimg.com/vi/X-Irlu8_Cy4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "#BLOODSAGA_IN_MACAU DAY1✨#EN_WORLDTOUR_BLOODSAGA #ENHYPEN",
+   "date": "2026-10-16",
+   "published": "2026-10-16T16:24:36Z",
+   "url": "https://www.youtube.com/watch?v=rdbG9d0Nzo4",
+   "image": "https://i.ytimg.com/vi/rdbG9d0Nzo4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "#BLOODSAGA_IN_MACAU DAY1❤️‍🔥#EN_WORLDTOUR_BLOODSAGA #ENHYPEN",
+   "date": "2026-10-16",
+   "published": "2026-10-16T16:22:33Z",
+   "url": "https://www.youtube.com/watch?v=qo-FyzXcD4g",
+   "image": "https://i.ytimg.com/vi/qo-FyzXcD4g/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -136,24 +154,6 @@
    "published": "2026-10-15T11:00:05Z",
    "url": "https://www.youtube.com/watch?v=6yxjpm8L4DI",
    "image": "https://i.ytimg.com/vi/6yxjpm8L4DI/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "이름 하나로 친구가 될 수 있을까? | 내 이름은 김선우 예고편 | ENHYPEN SUNOO",
-   "date": "2026-10-15",
-   "published": "2026-10-15T11:59:28Z",
-   "url": "https://www.youtube.com/watch?v=gRpG3a7i97Q",
-   "image": "https://i.ytimg.com/vi/gRpG3a7i97Q/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "ENHYPEN OFFICIAL LIGHT STICK VER.2(RENEWAL EDITION) TEASER",
-   "date": "2026-10-15",
-   "published": "2026-10-15T02:03:03Z",
-   "url": "https://www.youtube.com/watch?v=KzEUqcSrY_w",
-   "image": "https://i.ytimg.com/vi/KzEUqcSrY_w/hqdefault.jpg"
   },
   {
    "type": "video",

@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-10-16T14:55:07Z",
+ "updated_at": "2026-10-16T18:44:10Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "#BLOODSAGA_IN_MACAU DAY1✨#EN_WORLDTOUR_BLOODSAGA #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "#BLOODSAGA_IN_MACAU DAY1✨#EN_WORLDTOUR_BLOODSAGA #ENHYPEN (YouTube)",
+   "when": "2026-10-16T16:24:36Z",
+   "url": "https://www.youtube.com/watch?v=rdbG9d0Nzo4"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "#BLOODSAGA_IN_MACAU DAY1❤️‍🔥#EN_WORLDTOUR_BLOODSAGA #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "#BLOODSAGA_IN_MACAU DAY1❤️‍🔥#EN_WORLDTOUR_BLOODSAGA #ENHYPEN (YouTube)",
+   "when": "2026-10-16T16:22:33Z",
+   "url": "https://www.youtube.com/watch?v=qo-FyzXcD4g"
+  },
   {
    "type": "stop_today",
    "group": "bts",
