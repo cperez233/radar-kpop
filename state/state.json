@@ -70,7 +70,13 @@
   "news:d5a96446e327f726|canal": "2026-10-16T14:55:17Z",
   "news:1a003286b58d6018|canal": "2026-10-16T14:55:17Z",
   "news:8ad15c2ec3cf151e|canal": "2026-10-16T14:55:17Z",
-  "news:5a476ecfa13cca44|canal": "2026-10-16T14:55:17Z"
+  "news:5a476ecfa13cca44|canal": "2026-10-16T14:55:17Z",
+  "today:bts:bts-20261016-santiago|pub:radarkpop-bts-shows": "2026-10-16T15:48:16Z",
+  "today:bts:bts-20261016-santiago|pub:radarkpop-pais-chile": "2026-10-16T15:48:16Z",
+  "next:lngshot:lng-20261015-zurich|pub:radarkpop-lngshot-shows": "2026-10-16T15:48:16Z",
+  "today:enhypen:enh-20261016-macao|pub:radarkpop-enhypen-shows": "2026-10-16T15:48:16Z",
+  "today:enhypen:enh-20261016-macao|pub:radarkpop-pais-china": "2026-10-16T15:48:16Z",
+  "live:enh-20261016-macao|pub:radarkpop-enhypen-shows": "2026-10-16T15:48:16Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1030,6 +1036,7 @@
   "a6aca9d79fc7ba8a",
   "a880fa2c23d52329",
   "a89c1f791d473b61",
+  "aa43f8e08837f26d",
   "ab2fbcb45155586b",
   "ab4a9fbee2c772ac",
   "ac396c6a08b27779",
@@ -1207,5 +1214,6 @@
    ],
    "t": "2026-10-16T14:55:07Z"
   }
- ]
+ ],
+ "discord_threads": {}
 }
