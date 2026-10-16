@@ -1160,3 +1160,8 @@ input[type="range"] { width: 100%; accent-color: var(--bubble); min-height: 32px
 @media (prefers-reduced-motion: reduce) { .gpk-live { animation: none; } }
 
 #feed .bub-b { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* ---------- rendimiento: lo que está lejos de la pantalla no se dibuja hasta que llegas ---------- */
+.sec-media, .sec-feed, .sec-subscribe, .foot { content-visibility: auto; contain-intrinsic-size: auto 900px; }
+.pin .cm, .pin-bob { backface-visibility: hidden; }
+

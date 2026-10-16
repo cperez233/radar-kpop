@@ -7,6 +7,8 @@ member's sticker and writes:
   assets/chibis/<group>.svg            the whole group, same crowd layout as tools/chibis.py and app.js
 tools/chibis.py leaves these groups alone, so running it does not overwrite them.
 Needs Pillow and numpy.
+
+After this, run `node tools/chibis_webp.js`: the site loads the WebP versions (big and -s small), not these SVGs.
 """
 import base64
 import io

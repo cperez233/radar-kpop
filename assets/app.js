@@ -86,12 +86,14 @@
   }
   function gStyle(id) { return '--gc:' + gColor(id); }
   /* avatar pequeño = el grupo completo en chibi (se ve entero, sin recortes) */
-  function face(id) { return { src: 'assets/chibis/' + (ROSTER[id] ? id : 'default') + '.svg', photo: false }; }
+  // los chibis van en WebP (tools/chibis_webp.js): pesan menos y el navegador no redibuja un SVG cada vez que uno se mueve
+  // big = la versión grande (modo video, tarjeta para compartir); el resto usa la chica (-s.webp), que es la que se ve en pantalla
+  function face(id, big) { return { src: 'assets/chibis/' + (ROSTER[id] ? id + (big ? '.webp' : '-s.webp') : 'default.svg'), photo: false }; }
   function faceImg(id, cls, alt) {
     return '<img src="' + esc(face(id).src) + '" alt="' + esc(alt || '') + '" class="' + (cls || '') + '" decoding="async" draggable="false">';
   }
   function members(id) { return ROSTER[id] || []; }
-  function memberSrc(gid, mid) { return 'assets/chibis/' + gid + '/' + mid + '.svg'; }
+  function memberSrc(gid, mid, big) { return 'assets/chibis/' + gid + '/' + mid + (big ? '.webp' : '-s.webp'); }
   function photoOf(id) {
     var p = PHOTOS[id]; if (!p) return null;
     return typeof p === 'string' ? { src: 'assets/photos/' + p } : { src: 'assets/photos/' + p.file, w: p.w, h: p.h };
@@ -591,7 +593,7 @@
     this.lon = this.opt.lon != null ? this.opt.lon : -60; this.lat = this.opt.lat != null ? this.opt.lat : 6; this.zoom = 1;
     this.spin = this.opt.spin || 5; this.autoSpin = true; this.vlon = 0; this.vlat = 0; this.idleUntil = 0; this.tween = null; this.drag = null;
     this.markers = []; this.routes = []; this.sel = null; this.running = false; this.inView = true;
-    this.proj = d3.geoOrthographic().clipAngle(90).precision(1.2);
+    this.proj = d3.geoOrthographic().clipAngle(90).precision(1.8);
     this.path = d3.geoPath(this.proj);
     this.grat = d3.geoGraticule10();
     this.pinEls = {}; this.sightEls = {}; this.sights = []; this.me = null; this.last = 0; this.time = 0; this.landPath = null; this.landKey = '';
@@ -632,6 +634,7 @@
     var s, x;
     // trama de puntitos para la tierra (como sticker impreso)
     s = document.createElement('canvas'); s.width = s.height = 8; x = s.getContext('2d');
+    x.fillStyle = '#C6F3DA'; x.fillRect(0, 0, 8, 8);  // el verde de la tierra va dentro de la trama: una pasada de pintura menos por cuadro
     x.fillStyle = 'rgba(46,33,80,.13)'; x.beginPath(); x.arc(2, 2, 1, 0, Math.PI * 2); x.fill(); x.beginPath(); x.arc(6, 6, 1, 0, Math.PI * 2); x.fill();
     this.dots = this.ctx.createPattern(s, 'repeat');
   };
@@ -827,6 +830,9 @@
   };
   Globe.prototype.frame = function (ts) {
     if (!this.inView || document.hidden) { this.running = false; return; }
+    // girando solo (sin que lo toques) basta con ~30 cuadros por segundo: se ve igual de suave y gasta la mitad
+    var busy = this.tween || this.drag || Math.abs(this.vlon) + Math.abs(this.vlat) > .0004;
+    if (!busy && this.last && ts - this.last < 30) { requestAnimationFrame(this.frameFn); return; }
     var dt = this.last ? Math.min(64, ts - this.last) : 16; this.last = ts; this.time += dt / 1000;
     var tw = this.tween, moving = false;
     if (tw) {
@@ -861,12 +867,20 @@
     this.proj.scale(R).translate([cx, cy]).rotate([-this.lon, -this.lat]);
     ctx.save(); ctx.beginPath(); ctx.arc(cx, cy, R, 0, TAU); ctx.clip();
     // cuadrícula como renglones de cuaderno
+    // la tierra y la cuadrícula se proyectan directo a Path2D (sin armar texto SVG) y solo cuando el globo se movió
+    var key = this.lon.toFixed(3) + ',' + this.lat.toFixed(3) + ',' + R.toFixed(2) + ',' + cx + ',' + cy + (landFeature ? 'L' : '');
+    if (key !== this.landKey) {
+      this.landKey = key;
+      this.gratPath = new Path2D(); this.path.context(this.gratPath)(this.grat);
+      this.landPath = null;
+      if (landFeature) { this.landPath = new Path2D(); this.path.context(this.landPath)(landFeature); }
+      this.path.context(null);
+    }
     ctx.setLineDash([2, 6]); ctx.lineWidth = 1.2; ctx.strokeStyle = 'rgba(255,255,255,.6)';
-    ctx.stroke(new Path2D(this.path(this.grat))); ctx.setLineDash([]);
-    if (landFeature) {
-      var lp = new Path2D(this.path(landFeature));
+    ctx.stroke(this.gratPath); ctx.setLineDash([]);
+    if (this.landPath) {
+      var lp = this.landPath;
       ctx.save(); ctx.translate(R * .006, R * .022); ctx.fillStyle = 'rgba(123,93,206,.38)'; ctx.fill(lp); ctx.restore();
-      ctx.fillStyle = '#C6F3DA'; ctx.fill(lp);
       ctx.fillStyle = this.dots; ctx.fill(lp);
       ctx.lineJoin = 'round'; ctx.lineWidth = Math.max(1.6, R * .009); ctx.strokeStyle = '#fff'; ctx.stroke(lp);
     }
@@ -1580,7 +1594,7 @@
     var fonts = ['400 120px Jua', '700 60px Gaegu', '700 50px "Baloo 2"', '600 40px "Baloo 2"'].map(function (f) { return document.fonts ? document.fonts.load(f) : null; });
     var ph = photoOf(id);
     return Promise.all(fonts).catch(function () { }).then(function () {
-      return Promise.all([loadImg(face(id).src), ph ? loadImg(ph.src).catch(function () { return null; }) : null]);
+      return Promise.all([loadImg(face(id, true).src), ph ? loadImg(ph.src).catch(function () { return null; }) : null]);
     }).then(function (ims) {
       var im = ims[0], pim = ims[1];
       var c = document.createElement('canvas'); c.width = W; c.height = H; var x = c.getContext('2d');
@@ -1867,7 +1881,7 @@
     var id = st.id, mm = members(id).filter(function (x) { return x.id === mid; })[0]; if (!mm) return gpMembers(st);
     var p = person(id, mid), b = bdayInfo(p), feed = ((socialFeed[id] || {}).members || {})[mid] || {}, h = '';
     h += '<button type="button" class="gp-back" data-gp-tab="members">‹ ' + esc(t('gpAllMembers')) + '</button>';
-    h += '<section class="gp-prof"><button type="button" class="gp-big-chibi' + ((memStatus(id, mid) || {}).k === 'mil' ? ' away' : '') + '" data-gp-hop aria-label="' + esc(mm.name) + '"><img src="' + esc(memberSrc(id, mid)) + '" alt=""></button>' +
+    h += '<section class="gp-prof"><button type="button" class="gp-big-chibi' + ((memStatus(id, mid) || {}).k === 'mil' ? ' away' : '') + '" data-gp-hop aria-label="' + esc(mm.name) + '"><img src="' + esc(memberSrc(id, mid, true)) + '" alt=""></button>' +
       '<div><h3>' + esc(mm.name) + ' <span lang="ko">' + esc(mm.ko || '') + '</span></h3>' +
       (b ? '<p class="gp-bd' + (b.today ? ' today' : '') + '">🎂 ' + esc(fmtDate(b.date.replace(/^\d{4}/, String(new Date(now()).getFullYear())), false).replace(/,? \d{4}$/, '')) + ' · ' +
         esc(b.today ? t('bdayTurnsToday', { n: b.turning }) : t('bdayAgeIn', { age: b.age, n: b.days })) + '</p>' : '') +
@@ -2413,7 +2427,7 @@
         if (step.st) {
           var s = step.st, km = hav(o.lat, o.lon, s.cur.lat, s.cur.lon); gid = s.id; pos = s.pos; ids = [s.id];
           html = '<div class="v-cap ' + (s.mode === 'live' ? 'live' : '') + '" style="' + gStyle(s.id) + '"><span class="tape"></span>' +
-            '<img class="vc-face" src="' + esc(face(s.id).src) + '" alt=""><div class="vc-txt"><p class="vc-ko" lang="ko">' + esc((META[s.id] || {}).ko || '') + '</p>' +
+            '<img class="vc-face" src="' + esc(face(s.id, true).src) + '" alt=""><div class="vc-txt"><p class="vc-ko" lang="ko">' + esc((META[s.id] || {}).ko || '') + '</p>' +
             '<p class="vc-n">' + esc(s.g.name) + '</p><p class="vc-w">' + esc(place(s.cur.city).split(' (')[0]) + ' · ' + esc(fmtShort(s.cur.local_date)) + '</p>' +
             '<p class="vc-k">' + fmtKm(km) + ' ' + esc(t('kmFrom', { city: originRef() })) + '</p></div><span class="vc-d">' + esc(s.mode === 'live' ? 'LIVE' : dday(s.cur)) + '</span></div>';
         } else {
