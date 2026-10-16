@@ -64,15 +64,15 @@
   };
   /* mini trivia: [pregunta es, pregunta en, opciones ('es|en' si cambian), índice correcto]. Datos verificados (Wikipedia, Soompi). */
   var TRIVIA = {
-    bts: [['¿En qué año debutó BTS?', 'What year did BTS debut?', ['2011', '2013', '2015'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['ARMY', 'ONCE', 'BLINK'], 0], ['¿Cuál fue su primer sencillo todo en inglés (2020)?', 'Their first all-English single (2020)?', ['Dynamite', 'Fake Love', 'Fancy'], 0], ['¿Qué significa BTS en coreano?', 'What does BTS stand for in Korean?', ['Bangtan Sonyeondan', 'Beyond The Scene', 'Big Top Stars'], 0], ['¿Quién es el líder?', 'Who is the leader?', ['Jin', 'SUGA', 'RM'], 2], ['¿Con qué organización lanzaron la campaña Love Myself?', 'Which organization did they launch the Love Myself campaign with?', ['UNICEF', 'Cruz Roja|Red Cross', 'WWF'], 0]],
+    bts: [['¿En qué año debutó BTS?', 'What year did BTS debut?', ['2011', '2013', '2015'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['ARMY', 'ONCE', 'BLINK'], 0], ['¿Quién es el líder?', 'Who is the leader?', ['Jin', 'SUGA', 'RM'], 2], ['¿Qué significa BTS en coreano?', 'What does BTS stand for in Korean?', ['Bangtan Sonyeondan', 'Beyond The Scene', 'Big Top Stars'], 0], ['¿A quién le dicen "Worldwide Handsome"?', 'Who is called "Worldwide Handsome"?', ['Jin', 'V', 'Jimin'], 0], ['¿Cuál es el nombre real de SUGA?', 'What is SUGA\'s real name?', ['Min Yoongi', 'Jung Hoseok', 'Kim Namjoon'], 0]],
     skz: [['¿En qué año debutó Stray Kids?', 'What year did Stray Kids debut?', ['2016', '2018', '2020'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['STAY', 'CARAT', 'ENGENE'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['HYBE', 'JYP Entertainment', 'YG Entertainment'], 1], ['¿Quién es el líder?', 'Who is the leader?', ['Bang Chan', 'Changbin', 'Hyunjin'], 0], ['¿Cómo se llama su unidad de producción?', 'What is their producing unit called?', ['3RACHA', 'BSS', 'MISAMO'], 0], ['¿De qué país son Bang Chan y Felix?', 'Which country are Bang Chan and Felix from?', ['Canadá|Canada', 'Australia', 'Nueva Zelanda|New Zealand'], 1]],
-    twice: [['¿En qué año debutó TWICE?', 'What year did TWICE debut?', ['2015', '2017', '2019'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['ONCE', 'STAY', 'Bunnies'], 0], ['¿En qué programa se formó TWICE?', 'Which survival show formed TWICE?', ['I-LAND', 'SIXTEEN', 'Produce 101'], 1], ['¿Cuál fue su canción de debut?', 'What was their debut song?', ['Like Ooh-Ahh', 'Cheer Up', 'TT'], 0], ['¿Quiénes forman la subunidad MISAMO?', 'Who is in the sub-unit MISAMO?', ['Mina, Sana y Momo|Mina, Sana & Momo', 'Nayeon, Jihyo y Dahyun|Nayeon, Jihyo & Dahyun', 'Mina, Tzuyu y Chaeyoung|Mina, Tzuyu & Chaeyoung'], 0], ['¿Quién es la líder?', 'Who is the leader?', ['Nayeon', 'Jihyo', 'Jeongyeon'], 1]],
-    blackpink: [['¿En qué año debutó BLACKPINK?', 'What year did BLACKPINK debut?', ['2014', '2016', '2018'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['BLINK', 'ARMY', 'ONCE'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['SM', 'JYP', 'YG Entertainment'], 2], ['¿Con qué dos canciones debutaron?', 'Which two songs did they debut with?', ['Whistle y Boombayah|Whistle & Boombayah', 'DDU-DU DDU-DU y Forever Young|DDU-DU DDU-DU & Forever Young', 'Kill This Love y Don\'t Know What To Do|Kill This Love & Don\'t Know What To Do'], 0], ['¿De qué país es Lisa?', 'Which country is Lisa from?', ['Tailandia|Thailand', 'Japón|Japan', 'Australia'], 0], ['¿Con quién cantó Rosé "APT." (2024)?', 'Who did Rosé sing "APT." with (2024)?', ['Bruno Mars', 'Ed Sheeran', 'Dua Lipa'], 0]],
-    lngshot: [['¿Quién fundó su sello MORE VISION?', 'Who founded their label MORE VISION?', ['Jay Park', 'PSY', 'Zico'], 0], ['¿Cuál fue su canción de debut?', 'What was their debut song?', ["Moonwalkin'", '4SHO 4SHO', 'Shot Callers'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['SHOTTIES', 'STAY', 'ENGENE'], 0], ['¿Cómo se llama su EP de debut (enero de 2026)?', 'What is their debut EP called (January 2026)?', ['SHOT CALLERS', 'S.W.I.S.H.', 'LONG WAY'], 0], ['¿Cuántos miembros tiene?', 'How many members are there?', ['4', '5', '7'], 0], ['¿Qué EP sale el 10 de noviembre de 2026?', 'Which EP comes out on November 10, 2026?', ['S.W.I.S.H.', 'GREENGREEN', 'SHOT CALLERS'], 0]],
-    seventeen: [['¿En qué año debutó SEVENTEEN?', 'What year did SEVENTEEN debut?', ['2013', '2015', '2017'], 1], ['¿Cuántos miembros tiene?', 'How many members are there?', ['9', '11', '13'], 2], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['CARAT', 'BLINK', 'ARMY'], 0], ['¿Cuáles son sus tres unidades?', 'What are their three units?', ['Hip-hop, Vocal y Performance|Hip-hop, Vocal & Performance', 'Rap, Dance y Ballad|Rap, Dance & Ballad', 'Sun, Moon y Star|Sun, Moon & Star'], 0], ['¿Quiénes forman BSS (BooSeokSoon)?', 'Who is in BSS (BooSeokSoon)?', ['Seungkwan, DK y Hoshi|Seungkwan, DK & Hoshi', 'Woozi, Vernon y Dino|Woozi, Vernon & Dino', 'Jun, The8 y Mingyu|Jun, The8 & Mingyu'], 0], ['¿Quién es el productor principal del grupo?', 'Who is the group\'s main producer?', ['Woozi', 'Wonwoo', 'Joshua'], 0]],
-    enhypen: [['¿En qué año debutó ENHYPEN?', 'What year did ENHYPEN debut?', ['2019', '2020', '2022'], 1], ['¿En qué programa se formó?', 'Which survival show formed them?', ['I-LAND', 'SIXTEEN', 'Boys Planet'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['ENGENE', 'MOA', 'CARAT'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['BELIFT LAB', 'PLEDIS', 'ADOR'], 0], ['¿Quién es el líder?', 'Who is the leader?', ['Jungwon', 'Jay', 'Sunghoon'], 0], ['¿Cuál fue su canción de debut?', 'What was their debut song?', ['Given-Taken', 'Drunk-Dazed', 'Polaroid Love'], 0]],
-    newjeans: [['¿En qué año debutó NewJeans?', 'What year did NewJeans debut?', ['2020', '2022', '2024'], 1], ['¿Cuál es su agencia?', 'Which agency are they with?', ['ADOR', 'Pledis', 'JYP'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['Bunnies', 'ONCE', 'STAY'], 0], ['¿Cuál fue su canción de debut?', 'What was their debut song?', ['Attention', 'Ditto', 'OMG'], 0], ['¿En qué EP de 2023 está "Super Shy"?', 'Which 2023 EP has "Super Shy"?', ['Get Up', 'New Jeans', 'How Sweet'], 0], ['¿Cuántos años tenía Hyein al debutar?', 'How old was Hyein at debut?', ['14', '17', '19'], 0]],
-    cortis: [['¿En qué año debutó CORTIS?', 'What year did CORTIS debut?', ['2023', '2025', '2026'], 1], ['¿Qué significa CORTIS?', 'What does CORTIS stand for?', ['Color Outside the Lines', 'Crew Of Real Talents', 'Cool On The Inside'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['COER', 'MOA', 'ENGENE'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['BIGHIT MUSIC', 'BELIFT LAB', 'KOZ'], 0], ['¿Cuál es la canción principal de GREENGREEN (2026)?', 'What is the title track of GREENGREEN (2026)?', ['REDRED', 'GO!', 'FaSHioN'], 0], ['¿Hace cuántos años no debutaba un grupo masculino en BIGHIT?', 'How long since BIGHIT last debuted a boy group?', ['2 años|2 years', '6 años|6 years', '10 años|10 years'], 1]]
+    twice: [['¿En qué año debutó TWICE?', 'What year did TWICE debut?', ['2015', '2017', '2019'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['ONCE', 'STAY', 'Bunnies'], 0], ['¿En qué programa se formó TWICE?', 'Which survival show formed TWICE?', ['I-LAND', 'SIXTEEN', 'Produce 101'], 1], ['¿Quién es la líder?', 'Who is the leader?', ['Nayeon', 'Jihyo', 'Jeongyeon'], 1], ['¿De dónde es Tzuyu?', 'Where is Tzuyu from?', ['Taiwán|Taiwan', 'Japón|Japan', 'Tailandia|Thailand'], 0], ['¿Quiénes forman la subunidad MISAMO?', 'Who is in the sub-unit MISAMO?', ['Mina, Sana y Momo|Mina, Sana & Momo', 'Nayeon, Jihyo y Dahyun|Nayeon, Jihyo & Dahyun', 'Mina, Tzuyu y Chaeyoung|Mina, Tzuyu & Chaeyoung'], 0]],
+    blackpink: [['¿En qué año debutó BLACKPINK?', 'What year did BLACKPINK debut?', ['2014', '2016', '2018'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['BLINK', 'ARMY', 'ONCE'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['SM', 'JYP', 'YG Entertainment'], 2], ['¿De qué país es Lisa?', 'Which country is Lisa from?', ['Tailandia|Thailand', 'Japón|Japan', 'Australia'], 0], ['¿Cuál es el nombre real de Rosé?', 'What is Rosé\'s real name?', ['Park Chaeyoung', 'Son Chaeyoung', 'Kim Chaewon'], 0], ['¿Con qué dos canciones debutaron?', 'Which two songs did they debut with?', ['Whistle y Boombayah|Whistle & Boombayah', 'DDU-DU DDU-DU y Forever Young|DDU-DU DDU-DU & Forever Young', 'Kill This Love y Don\'t Know What To Do|Kill This Love & Don\'t Know What To Do'], 0]],
+    lngshot: [['¿En qué año debutó LNGSHOT?', 'What year did LNGSHOT debut?', ['2024', '2025', '2026'], 2], ['¿Quién fundó su sello MORE VISION?', 'Who founded their label MORE VISION?', ['Jay Park', 'PSY', 'Zico'], 0], ['¿Cuál fue su canción de debut?', 'What was their debut song?', ["Moonwalkin'", '4SHO 4SHO', 'Shot Callers'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['SHOTTIES', 'STAY', 'ENGENE'], 0], ['¿Cómo se llama su EP de debut?', 'What is their debut EP called?', ['SHOT CALLERS', 'LONG WAY', 'MOONLIGHT'], 0]],
+    seventeen: [['¿En qué año debutó SEVENTEEN?', 'What year did SEVENTEEN debut?', ['2013', '2015', '2017'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['CARAT', 'BLINK', 'ARMY'], 0], ['¿Quién es el líder?', 'Who is the leader?', ['S.Coups', 'Jeonghan', 'Mingyu'], 0], ['¿Cuáles son sus tres unidades?', 'What are their three units?', ['Hip-hop, Vocal y Performance|Hip-hop, Vocal & Performance', 'Rap, Dance y Ballad|Rap, Dance & Ballad', 'Sun, Moon y Star|Sun, Moon & Star'], 0], ['¿Qué miembro es el "tigre" del grupo (Horanghae)?', 'Which member is the group\'s "tiger" (Horanghae)?', ['Hoshi', 'Dino', 'Jun'], 0], ['¿Quiénes forman BSS (BooSeokSoon)?', 'Who is in BSS (BooSeokSoon)?', ['Seungkwan, DK y Hoshi|Seungkwan, DK & Hoshi', 'Woozi, Vernon y Dino|Woozi, Vernon & Dino', 'Jun, The8 y Mingyu|Jun, The8 & Mingyu'], 0]],
+    enhypen: [['¿En qué año debutó ENHYPEN?', 'What year did ENHYPEN debut?', ['2019', '2020', '2022'], 1], ['¿En qué programa se formó?', 'Which survival show formed them?', ['I-LAND', 'SIXTEEN', 'Boys Planet'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['ENGENE', 'MOA', 'CARAT'], 0], ['¿Quién es el líder?', 'Who is the leader?', ['Jungwon', 'Jay', 'Sunghoon'], 0], ['¿De qué país es Ni-ki?', 'Which country is Ni-ki from?', ['Japón|Japan', 'Estados Unidos|United States', 'Australia'], 0], ['¿Cuál fue su canción de debut?', 'What was their debut song?', ['Given-Taken', 'Drunk-Dazed', 'Polaroid Love'], 0]],
+    newjeans: [['¿En qué año debutó NewJeans?', 'What year did NewJeans debut?', ['2020', '2022', '2024'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['Bunnies', 'ONCE', 'STAY'], 0], ['¿Cuál fue su canción de debut?', 'What was their debut song?', ['Attention', 'Ditto', 'OMG'], 0], ['¿Quién es la menor del grupo?', 'Who is the youngest member?', ['Hyein', 'Minji', 'Haerin'], 0], ['¿Qué miembro es vietnamita-australiana?', 'Which member is Vietnamese-Australian?', ['Hanni', 'Minji', 'Haerin'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['ADOR', 'Pledis', 'JYP'], 0]],
+    cortis: [['¿En qué año debutó CORTIS?', 'What year did CORTIS debut?', ['2023', '2025', '2026'], 1], ['¿Qué significa CORTIS?', 'What does CORTIS stand for?', ['Color Outside the Lines', 'Crew Of Real Talents', 'Cool On The Inside'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['COER', 'MOA', 'ENGENE'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['BIGHIT MUSIC', 'BELIFT LAB', 'KOZ'], 0], ['¿Qué miembro jugaba hockey?', 'Which member used to play hockey?', ['James', 'Martin', 'Keonho'], 0], ['¿Qué perro es el emoji de Martin?', 'Which dog is Martin\'s emoji?', ['Galgo italiano|Italian Greyhound', 'Chihuahua', 'Corgi'], 0]]
   };
   var FALLBACK_COLORS = ['#8E7CC3', '#E0679B', '#3A9BD9', '#53B87A', '#E79A2E'];
   var colorCache = {};
@@ -166,8 +166,9 @@
       sightEmpty: 'Todavía no hay avistamientos. Aparecen cuando una cuenta oficial menciona una ciudad.', tickerK: 'AVISTAMIENTOS CERCANOS', sightSource: 'Fuente: cuentas oficiales en X',
       squad: 'Toca a cada miembro', notOnTour: 'no va en esta gira', photoAlt: 'Foto oficial de {g}', withUnit: 'con {names}',
       listen: 'Escúchalos en', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
-      stMembers: 'miembros', stShows: 'shows en el radar', stPlaces: 'ciudades · países', stKm: 'recorridos en gira', stReleases: 'lanzamientos en Apple Music',
-      stSubs: 'suscriptores en YouTube', stViews: 'vistas en YouTube', stAgency: 'Agencia', stSource: 'Shows y km salen de las fechas del radar; lanzamientos y YouTube se actualizan solos.',
+      stMembers: 'miembros', stDebutK: 'debut', stListeners: 'oyentes mensuales en Spotify', stPeak: 'récord de oyentes mensuales', stStreams: 'reproducciones en Spotify',
+      stTopSong: 'su canción más escuchada · {n} reproducciones', stTopSongK: 'su canción más escuchada', stSubs: 'suscriptores en YouTube', stAgency: 'Agencia',
+      stSource: 'Números de Spotify vía kworb.net, se actualizan solos una vez al día.',
       triviaTitle: 'Mini trivia', triviaOk: '¡Correcto!', triviaNo: 'Casi... era {a}', triviaScore: '{n} de {t} correctas',
       onsaleToday: '¡HOY VENDEN BOLETAS!', onsaleIn: 'Venta de boletas {d} · {when}', pushTab: 'Celular',
       pushLead: 'Notificaciones en este celular o computador, aunque la web esté cerrada.', pushNeedCfg: 'Todavía falta el servidor de notificaciones (subscribeEndpoint y vapidPublicKey en config.js). Tus preferencias quedan guardadas aquí.',
@@ -238,8 +239,9 @@
       sightEmpty: 'No sightings yet. They show up when an official account mentions a city.', tickerK: 'SIGHTINGS NEAR YOU', sightSource: 'Source: official accounts on X',
       squad: 'Tap each member', notOnTour: 'not on this tour', photoAlt: 'Official photo of {g}', withUnit: 'with {names}',
       listen: 'Listen on', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
-      stMembers: 'members', stShows: 'shows on the radar', stPlaces: 'cities · countries', stKm: 'traveled on tour', stReleases: 'releases on Apple Music',
-      stSubs: 'YouTube subscribers', stViews: 'YouTube views', stAgency: 'Agency', stSource: 'Shows and km come from the radar dates; releases and YouTube update on their own.',
+      stMembers: 'members', stDebutK: 'debut', stListeners: 'Spotify monthly listeners', stPeak: 'monthly listeners record', stStreams: 'Spotify streams',
+      stTopSong: 'their most streamed song · {n} streams', stTopSongK: 'their most streamed song', stSubs: 'YouTube subscribers', stAgency: 'Agency',
+      stSource: 'Spotify numbers via kworb.net, updated automatically once a day.',
       triviaTitle: 'Mini trivia', triviaOk: 'Correct!', triviaNo: 'So close... it was {a}', triviaScore: '{n} of {t} right',
       onsaleToday: 'TICKETS ON SALE TODAY!', onsaleIn: 'Tickets on sale {d} · {when}', pushTab: 'Phone',
       pushLead: 'Notifications on this phone or computer, even when the site is closed.', pushNeedCfg: 'The notification server is not set up yet (subscribeEndpoint and vapidPublicKey in config.js). Your preferences are saved here.',
@@ -1156,6 +1158,16 @@
     for (var i = n - 1; i > 0; i--) { h = (h * 1103515245 + 12345) >>> 0; var r = h % (i + 1), tmp = idx[i]; idx[i] = idx[r]; idx[r] = tmp; }
     return idx;
   }
+  /* logos de plataformas en versión sticker (borde blanco, contorno de tinta), mismo trazo que los chibis */
+  var BACK = '<rect x="1.5" y="1.5" width="33" height="33" rx="11" fill="#fff" stroke="currentColor" stroke-width="2.2"/>';
+  var PLAT = {
+    spotify: BACK + '<circle cx="18" cy="18" r="12" fill="#1ED760" stroke="currentColor" stroke-width="1.8"/><path d="M11.2 14.6c4.6-1.4 9.4-1 13.4 1.2M12 18.5c3.7-1 7.6-.7 10.8 1M12.9 22.2c2.9-.8 5.9-.6 8.4.8" fill="none" stroke="#191414" stroke-width="2.2" stroke-linecap="round"/>',
+    apple: BACK + '<rect x="6" y="6" width="24" height="24" rx="7.5" fill="#FA2D48" stroke="currentColor" stroke-width="1.8"/><path d="M21.6 10.6v10.6a2.7 2.7 0 1 1-1.9-2.6v-5.4l-5.6 1.3v7.6a2.7 2.7 0 1 1-1.9-2.6v-7.6z" fill="#fff"/>',
+    ytm: BACK + '<circle cx="18" cy="18" r="12" fill="#FF0033" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="18" r="6.6" fill="none" stroke="#fff" stroke-width="1.8"/><path d="M16.3 15.3v5.4l4.4-2.7z" fill="#fff"/>',
+    yt: BACK + '<rect x="5.5" y="9.5" width="25" height="17" rx="5.5" fill="#FF0033" stroke="currentColor" stroke-width="1.8"/><path d="M15.5 14.2v7.6l6.4-3.8z" fill="#fff"/>',
+    wv: BACK + '<rect x="6" y="6" width="24" height="24" rx="7.5" fill="#1CC8D8" stroke="currentColor" stroke-width="1.8"/><path d="M10.6 13.4l3 9.2 4.4-7.2 4.4 7.2 3-9.2" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>'
+  };
+  function platIcon(k) { return '<svg class="ln-ico" viewBox="0 0 36 36" aria-hidden="true">' + PLAT[k] + '</svg>'; }
   /* dónde escucharlos: enlaces a perfiles oficiales */
   function listenHtml(g) {
     var p = PROFILE[g.id]; if (!p) return '';
@@ -1166,45 +1178,33 @@
     if (p.youtube) links.push(['yt', 'YouTube', 'https://www.youtube.com/channel/' + p.youtube]);
     if (p.weverse) links.push(['wv', 'Weverse', 'https://weverse.io/' + p.weverse]);
     return '<div class="listen"><p class="squad-k">' + esc(t('listen')) + '</p><ul>' + links.map(function (l) {
-      return '<li><a class="ln ln-' + l[0] + '" href="' + esc(l[2]) + '" target="_blank" rel="noopener noreferrer">' + esc(l[1]) + '</a></li>';
+      return '<li><a class="ln ln-' + l[0] + '" href="' + esc(l[2]) + '" target="_blank" rel="noopener noreferrer">' + platIcon(l[0]) + '<span>' + esc(l[1]) + '</span></a></li>';
     }).join('') + '</ul></div>';
   }
   /* datos y números: perfil + lo que sale de events.json + stats.json (iTunes y YouTube, si el robot los trajo) */
   var groupStats = {};
   function fmtBig(n) {
-    if (n >= 1e9) return (n / 1e9).toLocaleString(L().locale, { maximumFractionDigits: 1 }) + (lang === 'en' ? 'B' : ' mil M');
-    if (n >= 1e6) return (n / 1e6).toLocaleString(L().locale, { maximumFractionDigits: 1 }) + ' M';
-    if (n >= 1e4) return Math.round(n / 1e3).toLocaleString(L().locale) + ' k';
+    var en = lang === 'en', f = function (x) { return x.toLocaleString(L().locale, { maximumFractionDigits: 1 }); };
+    if (n >= 1e9) return f(n / 1e9) + (en ? ' B' : ' mil M');
+    if (n >= 1e6) return f(n / 1e6) + ' M';
+    if (n >= 1e4) return Math.round(n / 1e3).toLocaleString(L().locale) + (en ? ' K' : ' mil');
     return Math.round(n).toLocaleString(L().locale);
   }
-  function tourStats(g) {
-    var ev = (g.events || []).slice().sort(function (a, b) { return a.start < b.start ? -1 : 1; });
-    var cities = {}, countries = {}, km = 0, prev = null;
-    ev.forEach(function (e) {
-      cities[e.city] = 1; if (e.country) countries[e.country] = 1;
-      if (prev && prev.city !== e.city) km += hav(prev.lat, prev.lon, e.lat, e.lon);
-      prev = e;
-    });
-    return { shows: ev.length, cities: Object.keys(cities).length, countries: Object.keys(countries).length, km: km };
-  }
   function statsHtml(g) {
-    var p = PROFILE[g.id] || {}, s = groupStats[g.id] || {}, ts = tourStats(g), tiles = [];
-    function tile(v, k) { tiles.push('<li><b>' + esc(v) + '</b><span>' + esc(k) + '</span></li>'); }
-    if (p.debut) {
-      var d = parts(p.debut), yrs = Math.floor((now() - Date.UTC(d.y, d.m - 1, d.d)) / (365.2425 * 864e5));
-      tile(String(d.y), t('stDebut', { d: fmtShort(p.debut) }));
-      tile(yrs > 1 ? t('stYears', { n: yrs }) : yrs === 1 ? t('stYear') : t('stRookie'), t('stCareer'));
-    }
-    if (members(g.id).length) tile(String(members(g.id).length), t('stMembers'));
-    if (ts.shows) {
-      tile(String(ts.shows), t('stShows'));
-      tile(ts.cities + ' · ' + ts.countries, t('stPlaces'));
-      if (ts.km > 0) tile(fmtKm(ts.km) + ' km', t('stKm'));
-    }
-    if (s.releases) tile(String(s.releases), t('stReleases'));
-    if (s.yt_subs) tile(fmtBig(s.yt_subs), t('stSubs'));
-    if (s.yt_views) tile(fmtBig(s.yt_views), t('stViews'));
-    if (!tiles.length) return '';
+    var p = PROFILE[g.id] || {}, s = groupStats[g.id] || {}, tiles = [];
+    function tile(v, k, cls) { tiles.push('<li' + (cls ? ' class="' + cls + '"' : '') + '><b>' + (v == null ? '—' : v) + '</b><span>' + esc(k) + '</span></li>'); }
+    // las mismas categorías para todos los grupos; si falta un dato se ve "—"
+    var d = p.debut ? parts(p.debut) : null, yrs = d ? Math.floor((now() - Date.UTC(d.y, d.m - 1, d.d)) / (365.2425 * 864e5)) : null;
+    tile(d ? esc(String(d.y)) : null, d ? t('stDebut', { d: fmtShort(p.debut) }) : t('stDebutK'));
+    tile(yrs == null ? null : esc(yrs > 1 ? t('stYears', { n: yrs }) : yrs === 1 ? t('stYear') : t('stRookie')), t('stCareer'));
+    tile(members(g.id).length ? esc(String(members(g.id).length)) : null, t('stMembers'));
+    tile(s.listeners ? esc(fmtBig(s.listeners)) : null, t('stListeners'));
+    tile(s.listeners_peak ? esc(fmtBig(s.listeners_peak)) : null, t('stPeak'));
+    tile(s.streams ? esc(fmtBig(s.streams)) : null, t('stStreams'));
+    if (Object.keys(groupStats).length && Object.keys(groupStats).every(function (k) { return groupStats[k].yt_subs; })) tile(esc(fmtBig(s.yt_subs)), t('stSubs'));
+    var ts = s.top_song, songOk = ts && /^https:\/\/open\.spotify\.com\/track\/[A-Za-z0-9]+$/.test(ts.url || '');
+    tile(ts ? (songOk ? '<a href="' + esc(ts.url) + '" target="_blank" rel="noopener noreferrer">' + esc(ts.title) + '</a>' : esc(ts.title)) : null,
+      ts ? t('stTopSong', { n: fmtBig(ts.streams) }) : t('stTopSongK'), 'wide');
     return '<details class="agenda stats"><summary>' + esc(t('statsTitle')) + ' <span class="ko" lang="ko">숫자</span></summary>' +
       (p.agency ? '<p class="st-ag">' + esc(t('stAgency')) + ': <b>' + esc(p.agency) + '</b></p>' : '') +
       '<ul class="st-grid">' + tiles.join('') + '</ul><p class="st-src">' + esc(t('stSource')) + '</p></details>';

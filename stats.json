@@ -1,32 +1,96 @@
 {
-  "updated_at": "2026-10-16T04:37:19Z",
+  "updated_at": "2026-10-16T06:03:28Z",
+  "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
-      "releases": 61
+      "listeners": 30940141,
+      "listeners_peak": 46724346,
+      "streams": 50534636856,
+      "top_song": {
+        "title": "Dynamite",
+        "streams": 2366455358,
+        "url": "https://open.spotify.com/track/5QDLhrAOJJdNAmCTJ8xMyW"
+      }
     },
     "skz": {
-      "releases": 72
+      "listeners": 10009699,
+      "listeners_peak": 14253317,
+      "streams": 15631241613,
+      "top_song": {
+        "title": "God’s Menu",
+        "streams": 552555084,
+        "url": "https://open.spotify.com/track/4XPXrcpyNr30Km6aPiflJy"
+      }
     },
     "twice": {
-      "releases": 63
+      "listeners": 14872663,
+      "listeners_peak": 27003979,
+      "streams": 12961383727,
+      "top_song": {
+        "title": "What is Love?",
+        "streams": 707799786,
+        "url": "https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y"
+      }
     },
     "blackpink": {
-      "releases": 25
+      "listeners": 18881960,
+      "listeners_peak": 35310315,
+      "streams": 16690462148,
+      "top_song": {
+        "title": "How You Like That",
+        "streams": 1299308937,
+        "url": "https://open.spotify.com/track/4SFknyjLcyTLJFPKD2m96o"
+      }
     },
     "lngshot": {
-      "releases": 6
+      "streams": 355785674,
+      "top_song": {
+        "title": "Moonwalkin'",
+        "streams": 113311555,
+        "url": "https://open.spotify.com/track/46V2ciN6F5bxjQWityNhkY"
+      },
+      "listeners": 3748850,
+      "listeners_peak": 6085028
     },
     "seventeen": {
-      "releases": 47
+      "streams": 8408146002,
+      "top_song": {
+        "title": "Super",
+        "streams": 327687578,
+        "url": "https://open.spotify.com/track/3ZpfXyQgcqdSA1TGNc7Ret"
+      },
+      "listeners": 4568485,
+      "listeners_peak": 9240435
     },
     "enhypen": {
-      "releases": 43
+      "listeners": 10114060,
+      "listeners_peak": 11080262,
+      "streams": 7961711478,
+      "top_song": {
+        "title": "Bite Me",
+        "streams": 541776948,
+        "url": "https://open.spotify.com/track/7mpdNiaQvygj2rHoxkzMfa"
+      }
     },
     "newjeans": {
-      "releases": 12
+      "listeners": 13433042,
+      "listeners_peak": 26786050,
+      "streams": 7912457122,
+      "top_song": {
+        "title": "OMG",
+        "streams": 985856529,
+        "url": "https://open.spotify.com/track/65FftemJ1DbbZ45DUfHJXE"
+      }
     },
     "cortis": {
-      "releases": 5
+      "listeners": 11386325,
+      "listeners_peak": 12947465,
+      "streams": 1397466629,
+      "top_song": {
+        "title": "GO!",
+        "streams": 256100734,
+        "url": "https://open.spotify.com/track/6OWWZtNQORY1McaZmOrwhc"
+      }
     }
   }
 }

@@ -1,5 +1,23 @@
 [
   {
+    "version": "4.3",
+    "date": "2026-10-16",
+    "title_es": "Números de Spotify y logos sticker",
+    "title_en": "Spotify numbers and sticker logos",
+    "es": [
+      "Datos y números ahora es igual para todos los grupos: debut, años, miembros, oyentes mensuales en Spotify, su récord, reproducciones y su canción más escuchada. Se actualiza solo.",
+      "Los botones para escucharlos llevan los logos en versión sticker, como los chibis.",
+      "La trivia es solo de datos que no caducan: nombres, apodos, líderes y fandoms.",
+      "Avistamientos en X: el robot lee una vez por hora y solo los posts nuevos, para gastar lo mínimo."
+    ],
+    "en": [
+      "Facts and numbers is now the same for every group: debut, years, members, Spotify monthly listeners, their record, streams and most streamed song. It updates on its own.",
+      "The listen buttons carry sticker versions of the logos, like the chibis.",
+      "The trivia only asks timeless facts: names, nicknames, leaders and fandoms.",
+      "X sightings: the robot reads once an hour and only new posts, to keep costs minimal."
+    ]
+  },
+  {
     "version": "4.2",
     "date": "2026-10-16",
     "title_es": "Dónde escucharlos, números y más trivia",

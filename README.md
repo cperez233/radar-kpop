@@ -32,9 +32,9 @@ The radar only uses public, official schedules and posts. It shows the next conf
 - **Group cards.** Each card shows:
   - a big countdown, km from you and local time;
   - the uncropped official photo and the full tour;
-  - links to Spotify, Apple Music, YouTube Music, YouTube and Weverse (when the group has a community);
-  - facts and numbers: debut, agency, members, shows, cities and km on tour, releases and YouTube stats;
-  - a six-question mini trivia, a ticket on-sale sticker and an .ics calendar file.
+  - sticker-style links to Spotify, Apple Music, YouTube Music, YouTube and Weverse (when the group has a community);
+  - facts and numbers, the same for every group: debut, years active, members, Spotify monthly listeners, their record, total streams and most streamed song;
+  - a mini trivia of timeless facts (names, nicknames, leaders), a ticket on-sale sticker and an .ics calendar file.
 - **Sightings near you.** Official posts that mention a city, sorted by distance to you, with a news ticker and a heads-up when new ones arrive.
 - **Releases and videos.** The latest music and official YouTube uploads of each group.
 - **Alerts.** A new alert triggers a confetti celebration. You can also sign up for Discord, WhatsApp or push notifications.
@@ -54,7 +54,7 @@ The radar only uses public, official schedules and posts. It shows the next conf
 |---|---|---|
 | Tour dates | `events.json` (curated, sources listed in the page footer) + Ticketmaster Discovery API | Curated data works. Ticketmaster needs `TM_API_KEY`; without it the robot keeps the current dates and moves on. |
 | Releases | iTunes Search API | Works, no key |
-| Group numbers (`stats.json`) | iTunes Search API + YouTube Data API v3 | Release counts work with no key. YouTube subscribers and views need `YT_API_KEY`. |
+| Group numbers (`stats.json`) | kworb.net (Spotify listeners, streams, top song) + YouTube Data API v3 | Spotify numbers work with no key, refreshed every 12 hours. YouTube subscribers need `YT_API_KEY`. |
 | Official videos | YouTube channel RSS | Works, no key |
 | News | Soompi and Koreaboo RSS, Google News RSS | Works, no key |
 | City maps | OpenFreeMap vector tiles | Works, no key |
@@ -63,7 +63,7 @@ The radar only uses public, official schedules and posts. It shows the next conf
 | Sign-ups and push | `backend/` worker on Cloudflare | Needs `subscribeEndpoint`, `vapidPublicKey` and `VAPID_PRIVATE_KEY` |
 | Discord and WhatsApp delivery | Discord bot or webhook, WhatsApp Cloud API | Need their tokens |
 
-A GitHub Action runs every 15 minutes: it refreshes dates, releases, sightings and alerts, sends messages, and rebuilds the page. Key setup is in [ALERTAS.md](ALERTAS.md) (Spanish).
+A GitHub Action runs every 15 minutes: it refreshes dates, releases, sightings and alerts, sends messages, and rebuilds the page. Key setup, with what each key costs, is in [CLAVES.md](CLAVES.md) (Spanish); alert channels are in [ALERTAS.md](ALERTAS.md).
 
 ## Run it
 

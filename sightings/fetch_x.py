@@ -11,8 +11,11 @@ Reglas para que esto nunca sea acoso:
 - No se guarda ninguna ubicación de personas ni de fans, y no se leen respuestas ni posts de otras cuentas.
 
 Sin token, escribe datos de ejemplo marcados con "sample": true (la web los muestra con una etiqueta).
-X API v2: GET /2/users/by/username/:name y GET /2/users/:id/tweets. El plan gratis de X tiene muy pocas lecturas al mes,
-por eso se piden pocos posts por cuenta y se guardan los ids de usuario en sightings/user_ids.json.
+X API v2: GET /2/users/by/username/:name y GET /2/users/:id/tweets. X cobra por cada post y perfil leído (pago por uso),
+así que el gasto se mantiene mínimo:
+- los ids de usuario se piden una sola vez y quedan en sightings/user_ids.json;
+- se guarda el último post visto de cada cuenta ("_since") y solo se piden los más nuevos (since_id);
+- se lee como mucho una vez por hora aunque el workflow corra cada 15 minutos (MIN_GAP).
 """
 import json
 import os
@@ -32,6 +35,7 @@ BLOCK = re.compile(r"airport|aeropuerto|aeroporto|공항|空港|hotel|호텔|ホ
 KEEP_DAYS = 30
 PLACES_EN = json.loads((ROOT / "assets" / "places-en.json").read_text(encoding="utf-8"))["places"]
 MAX_ITEMS = 60
+MIN_GAP = timedelta(minutes=55)
 
 
 def load_env() -> None:
@@ -92,16 +96,22 @@ def fetch_real(token: str, events: dict) -> list[dict]:
     gaz = gazetteer(events)
     names = {g["id"]: g["name"] for g in events["groups"]}
     ids = json.loads(IDS.read_text(encoding="utf-8")) if IDS.exists() else {}
+    since = ids.setdefault("_since", {})
     items = []
     for gid, handle in accounts().items():
         try:
             if handle not in ids:
                 ids[handle] = api(f"/users/by/username/{handle}", token)["data"]["id"]
-            body = api(f"/users/{ids[handle]}/tweets", token, max_results=10,
-                       exclude="retweets,replies", **{"tweet.fields": "created_at"})
+            qs = {"max_results": 5, "exclude": "retweets,replies", "tweet.fields": "created_at"}
+            if handle in since:
+                qs["since_id"] = since[handle]  # solo lo nuevo: si no hay posts nuevos, no se cobra nada
+            body = api(f"/users/{ids[handle]}/tweets", token, **qs)
         except Exception as exc:  # noqa: BLE001
             print(f"{gid} (@{handle}): {exc}", file=sys.stderr)
             continue
+        newest = body.get("meta", {}).get("newest_id")
+        if newest:
+            since[handle] = newest
         for tw in body.get("data", []):
             text = tw.get("text", "")
             if BLOCK.search(text):
@@ -150,6 +160,10 @@ def main() -> int:
     token = os.environ.get("X_BEARER_TOKEN", "").strip()
     old = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {"items": [], "sample": True}
     if token and "--sample" not in sys.argv:
+        last = old.get("updated_at") if not old.get("sample") else None
+        if last and now - datetime.fromisoformat(last.replace("Z", "+00:00")) < MIN_GAP:
+            print("Se leyó X hace menos de una hora, se espera a la próxima")
+            return 0
         fresh = fetch_real(token, events)
         keep = [] if old.get("sample") else old.get("items", [])
         merged = {x["id"]: x for x in keep + fresh}

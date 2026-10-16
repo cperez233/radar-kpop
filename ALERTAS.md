@@ -128,9 +128,6 @@ SUBSCRIBERS_JSON='[...]' DRY_RUN=1 NO_NEWS=1 NOW=2026-10-16T12:00:00Z python ale
 - Noticias: Soompi y Koreaboo por RSS (allkpop bloquea robots con 403 y se quitó). Si alguna falla, el motor lo avisa en el log y sigue con las demás.
 - El actualizador de Ticketmaster y el envío real a WhatsApp y Discord no se probaron contra las APIs reales.
 
-## Claves opcionales para fechas y números
+## Claves para fechas y números
 
-- `TM_API_KEY`: crea una app gratis en developer.ticketmaster.com y copia la **Consumer Key**. Sin ella el robot conserva las fechas que ya están en `events.json`.
-- `YT_API_KEY`: en console.cloud.google.com crea un proyecto, activa **YouTube Data API v3** y en **Credenciales** crea una **clave de API**. Sirve para los suscriptores y las vistas de cada grupo. Sin ella las tarjetas muestran solo los datos que no la necesitan.
-
-Las dos van en **Settings**, **Secrets and variables**, **Actions**, igual que las demás.
+`TM_API_KEY` (Ticketmaster) y `YT_API_KEY` (YouTube) son gratis. El paso a paso, con lo que cuesta cada clave, está en [CLAVES.md](CLAVES.md).
