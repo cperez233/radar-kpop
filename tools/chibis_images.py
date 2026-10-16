@@ -46,6 +46,15 @@ SHEETS = {
         "seungmin": ("Seungmin", (370, 685, 680, 1010)),
         "in": ("I.N", (690, 685, 1010, 1010)),
     }),
+    # the sheet also has Heeseung (top middle, 376-671 x 52-378); he is solo since March 2026, so he is not in the roster
+    "enhypen": ("ENHYPEN", {
+        "jungwon": ("Jungwon", (40, 40, 360, 378)),
+        "jay": ("Jay", (681, 40, 1010, 378)),
+        "jake": ("Jake", (360, 378, 690, 690)),
+        "sunghoon": ("Sunghoon", (40, 690, 358, 1010)),
+        "sunoo": ("Sunoo", (358, 690, 684, 1010)),
+        "niki": ("Ni-ki", (684, 690, 1010, 1010)),
+    }),
     "twice": ("TWICE", {
         "nayeon": ("Nayeon", (20, 20, 358, 382)),
         "jeongyeon": ("Jeongyeon", (358, 20, 680, 382)),
