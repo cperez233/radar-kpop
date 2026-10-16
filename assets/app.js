@@ -1410,9 +1410,18 @@
     box.innerHTML = states.map(cardHtml).join('');
     box.scrollLeft = sx;  // en el celular las tarjetas son un carrusel: redibujar no te devuelve al primer grupo
     renderPick();
+    watchCards();
     evenCards();  // con todo plegado; luego se reabre lo que estaba abierto
     Object.keys(open).forEach(function (id) { var d = $('#card-' + id + ' details'); if (d) d.open = true; });
     tick(true);
+  }
+  /* qué tarjetas están en pantalla (para animar solo esas) */
+  var cardIO = null;
+  function watchCards() {
+    if (!('IntersectionObserver' in window)) { $$('#cards .card').forEach(function (c) { c.classList.add('vis'); }); return; }
+    if (!cardIO) cardIO = new IntersectionObserver(function (es) { es.forEach(function (en) { en.target.classList.toggle('vis', en.isIntersecting); }); }, { threshold: .15 });
+    cardIO.disconnect();
+    $$('#cards .card').forEach(function (c) { cardIO.observe(c); });
   }
   /* en el carrusel todas las tarjetas miden lo mismo (la más alta, con todo plegado); abrir algo solo alarga esa tarjeta */
   function evenCards() {
@@ -1922,10 +1931,16 @@
   function gpMusic(id) {
     var list = (media || []).filter(function (m) { return m.group === id && okLink(m.url); }).sort(function (a, b) { return a.date < b.date ? 1 : -1; });
     if (!list.length) return '<p class="gp-muted">' + esc(t('mediaEmpty')) + '</p>';
+    // primero la música (canciones, álbumes y MV); los vlogs, teasers y shorts van aparte, abajo
+    var mus = list.filter(inMusic), vids = list.filter(function (m) { return !inMusic(m); });
+    return (mus.length ? '<section class="gp-sec"><h4>' + esc(t('mediaMusic')) + '</h4>' + gpMediaList(id, mus) + '</section>' : '') +
+      (vids.length ? '<section class="gp-sec"><h4>' + esc(t('mediaVideo')) + '</h4>' + gpMediaList(id, vids) + '</section>' : '');
+  }
+  function gpMediaList(id, list) {
     return '<ul class="gp-media">' + list.map(function (m) {
-      var img = okImg(m.image), yt = m.type === 'video' && /[?&]v=([\w-]{6,})/.exec(m.url);
+      var img = okImg(m.image), yt = m.type === 'video' && /[?&]v=([\w-]{6,})/.exec(m.url), vk = m.type === 'video' ? vkind(m.title) : '';
       return '<li class="m-' + esc(m.type) + '"><div class="gp-thumb"' + (yt ? ' data-yt="' + esc(yt[1]) + '" role="button" tabindex="0" aria-label="' + esc(t('gpPlayHere') + ': ' + m.title) + '"' : '') + '><img src="' + esc(img || face(id).src) + '" alt="" loading="lazy">' + (yt ? '<span class="gp-play">▶</span>' : '') + '</div>' +
-        '<div><b>' + esc(m.title) + '</b><small>' + esc(m.date ? fmtDate(m.date, true) : '') + (m.kind ? ' · ' + esc(m.kind) : '') + '</small><a class="src-link" href="' + esc(okLink(m.url)) + '" target="_blank" rel="noopener noreferrer">' + esc(m.type === 'music' ? t('mediaListen') : t('mediaWatch')) + '</a></div></li>';
+        '<div><b>' + esc(m.title) + '</b><small>' + esc(m.date ? fmtDate(m.date, true) : '') + (m.kind ? ' · ' + esc(m.kind) : '') + (vk && vk !== 'video' ? ' · ' + esc(t('vk' + { mv: 'Mv', teaser: 'Teaser', short: 'Short', vlog: 'Vlog', behind: 'Behind', show: 'Show' }[vk])) : '') + '</small><a class="src-link" href="' + esc(okLink(m.url)) + '" target="_blank" rel="noopener noreferrer">' + esc(m.type === 'music' ? t('mediaListen') : t('mediaWatch')) + '</a></div></li>';
     }).join('') + '</ul>';
   }
   function gpSocial(id) {

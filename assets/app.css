@@ -238,7 +238,10 @@ a { color: inherit; }
 .pin.away { opacity: 0; pointer-events: none; }
 .pin-bob { display: block; position: relative; animation: bob var(--bd, 2s) ease-in-out var(--bdl, 0s) infinite; transform-origin: 50% 100%; }
 .crowd { position: relative; display: block; margin: 0 auto; pointer-events: none; }
-.crowd .cm { position: absolute; height: auto; -webkit-user-drag: none; user-select: none; transform-origin: 50% 94%; animation: breathe var(--bd, 2.4s) ease-in-out var(--dl, 0s) infinite; }
+.crowd .cm { position: absolute; height: auto; -webkit-user-drag: none; user-select: none; transform-origin: 50% 94%; }
+/* rendimiento: con 10 grupos son ~60 chibis sobre el globo; animarlos uno por uno trababa el celular cuando se juntaban.
+   El pin entero flota (pin-bob) y solo el grupo elegido respira miembro por miembro. */
+.pin.sel .crowd .cm { animation: breathe var(--bd, 2.4s) ease-in-out var(--dl, 0s) infinite; }
 .pin.hop .cm { animation: memHop .75s var(--boing) calc(var(--hi, 0) * 55ms) 1 both; }
 @keyframes breathe { 0%, 100% { transform: scale(1, 1); } 50% { transform: scale(.985, 1.035); } }
 @keyframes memHop { 0% { transform: translateY(0) scale(1, 1); } 25% { transform: translateY(2px) scale(1.08, .9); } 55% { transform: translateY(-38%) scale(.94, 1.08) rotate(-6deg); } 80% { transform: translateY(0) scale(1.06, .94); } 100% { transform: none; } }
@@ -1163,5 +1166,8 @@ input[type="range"] { width: 100%; accent-color: var(--bubble); min-height: 32px
 
 /* ---------- rendimiento: lo que está lejos de la pantalla no se dibuja hasta que llegas ---------- */
 .sec-media, .sec-feed, .sec-subscribe, .foot { content-visibility: auto; contain-intrinsic-size: auto 900px; }
-.pin .cm, .pin-bob { backface-visibility: hidden; }
+.pin-bob { backface-visibility: hidden; }
+.pin { contain: layout style; }
+/* los miembros de una tarjeta solo respiran mientras la tarjeta está en pantalla (en el carrusel, las otras 9 quedan quietas) */
+.card:not(.vis) .mem img { animation: none; }
 

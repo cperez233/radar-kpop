@@ -18,7 +18,9 @@
       "Weverse verificado contra el sitemap oficial: se agrega LNGSHOT y se corrige el enlace de NewJeans (newjeansofficial). Stray Kids, TWICE y ATEEZ no tienen comunidad en Weverse.",
       "Los grupos sin Weverse muestran su app de fans con su icono: FANS y bubble (Stray Kids y TWICE), fromm y TOKTOQ (ATEEZ).",
       "Modo video: en el computador se ve horizontal (16:9, globo a la izquierda y tarjeta a la derecha); en el celular sigue vertical. La intro muestra los chibis de los 10 grupos en vez del chibi genérico.",
-      "Más rápida: el globo arma el mapa sin pasos intermedios, se salta trabajo cuando no se mueve y gira solo a 30 cuadros por segundo (al tocarlo vuelve a 60). Los chibis pasan a WebP, con una versión chica para los usos pequeños: la página carga ~2,5 MB en vez de ~4 MB."
+      "Más rápida: el globo arma el mapa sin pasos intermedios, se salta trabajo cuando no se mueve y gira solo a 30 cuadros por segundo (al tocarlo vuelve a 60). Los chibis pasan a WebP, con una versión chica para los usos pequeños: la página carga ~2,5 MB en vez de ~4 MB.",
+      "El globo ya no se traba cuando se juntan los grupos: los chibis sobre el globo flotan juntos (solo el grupo elegido respira miembro por miembro) y en las tarjetas solo se animan los miembros de la que está en pantalla.",
+      "La pestaña Música de cada grupo separa Música y MV de los Videos (vlogs, teasers, shorts), con su etiqueta."
     ],
     "en": [
       "Get alerts, redone: pick groups and types (dates and concerts, releases, news, members and birthdays) and subscribe for free with the ntfy app, no account or number. Also one topic per country and the Monday recap.",
@@ -34,7 +36,9 @@
       "Weverse checked against the official sitemap: LNGSHOT added and the NewJeans link fixed (newjeansofficial). Stray Kids, TWICE and ATEEZ have no Weverse community.",
       "Groups without Weverse show their fan app with its icon: FANS and bubble (Stray Kids and TWICE), fromm and TOKTOQ (ATEEZ).",
       "Video mode: landscape on computers (16:9, globe left and card right), still vertical on phones. The intro shows the 10 group chibis instead of the generic one.",
-      "Faster: the globe builds the map without intermediate steps, skips work when it is still and auto-spins at 30 fps (60 when you touch it). Chibis are now WebP, with a small version for tiny spots: the page loads ~2.5 MB instead of ~4 MB."
+      "Faster: the globe builds the map without intermediate steps, skips work when it is still and auto-spins at 30 fps (60 when you touch it). Chibis are now WebP, with a small version for tiny spots: the page loads ~2.5 MB instead of ~4 MB.",
+      "The globe no longer stutters when groups cluster: chibis on the globe float together (only the selected group breathes member by member) and only the on-screen card animates its members.",
+      "Each group's Music tab splits Music & MVs from Videos (vlogs, teasers, shorts), with a tag."
     ]
   },
   {
