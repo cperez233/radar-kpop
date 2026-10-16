@@ -1,5 +1,21 @@
 [
   {
+    "version": "4.5",
+    "date": "2026-10-16",
+    "title_es": "Avisos de Weverse y un vigilante",
+    "title_en": "Weverse notices and a watchdog",
+    "es": [
+      "Avisos oficiales en cada tarjeta: los [NOTICE] de las cuentas oficiales, con enlace directo a Weverse.",
+      "El robot se vigila solo: si una fuente falla (Ticketmaster, YouTube, RSSHub, Discord...) avisa por Discord y al celular, y otra vez cuando se arregla.",
+      "Botón para mandar una alerta de prueba desde GitHub Actions."
+    ],
+    "en": [
+      "Official notices on each card: the [NOTICE] posts from official accounts, with a direct Weverse link.",
+      "The robot watches itself: if a source fails (Ticketmaster, YouTube, RSSHub, Discord...) it warns on Discord and your phone, and again when it recovers.",
+      "A button to send a test alert from GitHub Actions."
+    ]
+  },
+  {
     "version": "4.4",
     "date": "2026-10-16",
     "title_es": "El radar se actualiza solo",

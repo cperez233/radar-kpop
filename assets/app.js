@@ -165,7 +165,7 @@
       sightSample: 'Datos de ejemplo: todavía no hay conexión con las cuentas oficiales.', sightAway: 'a {km} km de ti', sightNew: '¡{n} avistamientos nuevos!', sightNew1: '¡Un avistamiento nuevo!', sightSee: 'Ver post oficial',
       sightEmpty: 'Todavía no hay avistamientos. Aparecen cuando una cuenta oficial menciona una ciudad.', tickerK: 'AVISTAMIENTOS CERCANOS', sightSource: 'Fuente: cuentas oficiales en X',
       squad: 'Toca a cada miembro', notOnTour: 'no va en esta gira', photoAlt: 'Foto oficial de {g}', withUnit: 'con {names}',
-      listen: 'Escúchalos en', nextRelease: 'Próximo estreno', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
+      listen: 'Escúchalos en', nextRelease: 'Próximo estreno', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
       stMembers: 'miembros', stDebutK: 'debut', stListeners: 'oyentes mensuales en Spotify', stPeak: 'récord de oyentes mensuales', stStreams: 'reproducciones en Spotify',
       stTopSong: 'su canción más escuchada · {n} reproducciones', stTopSongK: 'su canción más escuchada', stSubs: 'suscriptores en YouTube', stAgency: 'Agencia',
       stSource: 'Números de Spotify vía kworb.net, se actualizan solos una vez al día.',
@@ -238,7 +238,7 @@
       sightSample: 'Sample data: not connected to the official accounts yet.', sightAway: '{km} km from you', sightNew: '{n} new sightings!', sightNew1: 'A new sighting!', sightSee: 'See official post',
       sightEmpty: 'No sightings yet. They show up when an official account mentions a city.', tickerK: 'SIGHTINGS NEAR YOU', sightSource: 'Source: official accounts on X',
       squad: 'Tap each member', notOnTour: 'not on this tour', photoAlt: 'Official photo of {g}', withUnit: 'with {names}',
-      listen: 'Listen on', nextRelease: 'Next release', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
+      listen: 'Listen on', nextRelease: 'Next release', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
       stMembers: 'members', stDebutK: 'debut', stListeners: 'Spotify monthly listeners', stPeak: 'monthly listeners record', stStreams: 'Spotify streams',
       stTopSong: 'their most streamed song · {n} streams', stTopSongK: 'their most streamed song', stSubs: 'YouTube subscribers', stAgency: 'Agency',
       stSource: 'Spotify numbers via kworb.net, updated automatically once a day.',
@@ -1209,6 +1209,19 @@
       (p.agency ? '<p class="st-ag">' + esc(t('stAgency')) + ': <b>' + esc(p.agency) + '</b></p>' : '') +
       '<ul class="st-grid">' + tiles.join('') + '</ul><p class="st-src">' + esc(t('stSource')) + '</p></details>';
   }
+  /* avisos oficiales (notices.json): posts [NOTICE]/[공지] de las cuentas oficiales, casi siempre con enlace a Weverse */
+  var notices = {};
+  function noticesHtml(gid) {
+    var list = (notices[gid] || []).filter(function (n) { return /^https:\/\/(weverse\.io|x\.com|twitter\.com)\//.test(n.url || ''); }).slice(0, 4);
+    if (!list.length) return '';
+    return '<details class="agenda notices"><summary>' + esc(t('noticesTitle')) + ' <span class="ko" lang="ko">공지</span></summary><ul class="nt-list">' + list.map(function (n) {
+      return '<li><a href="' + esc(n.url) + '" target="_blank" rel="noopener noreferrer"><span class="nt-src">' + (n.weverse ? 'Weverse' : 'X') + '</span>' + esc(n.title) + '</a><small>' + esc(t('ago', { n: agoTxt(now() - Date.parse(n.when)) })) + '</small></li>';
+    }).join('') + '</ul></details>';
+  }
+  function pollNotices() {
+    return fetch('notices.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (j) { if (j && j.groups) { notices = j.groups; if (data && data.groups) renderCards(); } }).catch(function () { /* sin avisos */ });
+  }
   function pollStats() {
     return fetch('stats.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (j) { if (j && j.groups) { groupStats = j.groups; if (data && data.groups) renderCards(); } }).catch(function () { /* sin stats: solo los datos locales */ });
@@ -1273,6 +1286,7 @@
     var ph = photoOf(g.id);
     if (ph) h += '<figure class="polaroid"><img src="' + esc(ph.src) + '"' + (ph.w ? ' width="' + ph.w + '" height="' + ph.h + '"' : '') + ' alt="' + esc(t('photoAlt', { g: g.name })) + '" loading="lazy" decoding="async"><figcaption>' + esc(g.name) + (m.fan ? ' · ' + esc(m.fan) : '') + '</figcaption></figure>';
     h += listenHtml(g);
+    h += noticesHtml(g.id);
     h += statsHtml(g);
     h += triviaHtml(g.id);
     var rows = st.upStops;
@@ -2283,12 +2297,13 @@
   setChannel(form.ch, true);
   observe();
   setInterval(function () { tick(false); }, 1000);
-  poll(); pollFeed(); pollSights(); pollMedia(); pollStats();
+  poll(); pollFeed(); pollSights(); pollMedia(); pollStats(); pollNotices();
   setInterval(poll, 60000);
   setInterval(pollFeed, 60000);
   setInterval(pollSights, 60000);
   setInterval(pollMedia, 15 * 60000);
   setInterval(pollStats, 60 * 60000);
+  setInterval(pollNotices, 15 * 60000);
   // ubicación real: se pide al entrar, salvo que hayas elegido una ciudad a mano
   startGeo();
   if (params.get('demo') === 'alert') setTimeout(function () { $('#testParty').click(); }, 1200);

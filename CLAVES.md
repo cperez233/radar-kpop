@@ -5,6 +5,14 @@ a mano en **Actions**, **Actualizar radar y mandar alertas**, **Run workflow**. 
 secretos de GitHub (**Settings**, **Secrets and variables**, **Actions**, **New repository secret**). Un secreto no se puede
 volver a leer; para cambiarlo se usa **Update**.
 
+**Probar las alertas:** **Actions**, **Actualizar radar y mandar alertas**, **Run workflow**, marca **Mandar una alerta
+de prueba** y **Run workflow**. En un minuto llega "Prueba del Radar K-pop 💜" a Discord y al celular (ntfy). Esa corrida
+no toca nada más.
+
+**El vigilante:** si una fuente empieza a fallar (por ejemplo, vence la cookie de RSSHub, Ticketmaster rechaza la key o
+Discord deja de recibir), el robot te avisa una sola vez por Discord y ntfy con "⚠️ Radar: ... está fallando", y otra vez
+con "✅ ... volvió a funcionar" cuando se arregla. No tienes que revisar nada a mano.
+
 **¿Cómo sé si todo funciona?** Abre el último run en **Actions** y mira el **Summary**: una tabla dice qué claves hay
 (sí/no, nunca el valor) y qué tan frescos están las fechas, los videos, los números de Spotify, los avistamientos y las alertas.
 Si un servicio se cae, ese paso sale con advertencia y el resto sigue igual.
@@ -17,7 +25,7 @@ Si un servicio se cae, ese paso sale con advertencia y el resto sigue igual.
 | `YT_API_KEY` | Videos nuevos de YouTube y suscriptores | Gratis | Funciona: 27 videos en el primer run |
 | `RSSHUB_URL` | Posts de las cuentas oficiales en X: avistamientos, anuncios oficiales y llegadas | Gratis (tu RSSHub en Vercel) | Guardado y probado: responden las 9 cuentas |
 | `DISCORD_WEBHOOK_URL` | Alertas en tu canal de Discord | Gratis | Funciona: el primer run mandó 26 alertas |
-| `NTFY_TOPIC` | Alertas al celular con la app ntfy | Gratis | **Falta crearlo** (pasos abajo) |
+| `NTFY_TOPIC` | Alertas al celular con la app ntfy | Gratis | Guardado |
 | `X_BEARER_TOKEN` | Respaldo de X, solo si RSSHub falla entero | De pago (~0,005 USD por post) | Guardado, sin saldo. No hace falta cargarle |
 | `VAPID_PRIVATE_KEY` + `VAPID_SUBJECT` | Notificaciones push del navegador para los fans que se suscriben en la web | Gratis (con el worker de Cloudflare) | Opcional, no configurado |
 | `WHATSAPP_TOKEN` + `WHATSAPP_PHONE_ID` | Avisos por WhatsApp | De pago y pide verificar un negocio | Para después |

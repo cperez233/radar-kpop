@@ -30,6 +30,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import channels  # noqa: E402
 import news  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+from status import report  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 EVENTS = ROOT / "events.json"
@@ -326,6 +328,12 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
     wa_token, wa_phone = os.environ.get("WHATSAPP_TOKEN"), os.environ.get("WHATSAPP_PHONE_ID")
     template = os.environ.get("WHATSAPP_TEMPLATE", "radar_alerta")
 
+    tally = {"discord": [0, 0], "ntfy": [0, 0]}  # [bien, mal] para el vigilante
+
+    def track(name: str, ok: bool) -> bool:
+        tally[name][0 if ok else 1] += 1
+        return ok
+
     def once(key: str, fn) -> None:
         nonlocal count
         if key in sent:
@@ -336,9 +344,10 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
 
     for a in alerts:
         if not a.get("sub"):
-            once(f"{a['key']}|canal", lambda a=a: channels.send_discord_webhook(webhook, a, dry))
+            once(f"{a['key']}|canal", lambda a=a: track("discord", channels.send_discord_webhook(webhook, a, dry)) if webhook and not dry
+                 else channels.send_discord_webhook(webhook, a, dry))
             if ntfy_topic and a["type"] not in NTFY_SKIP:
-                once(f"{a['key']}|ntfy", lambda a=a: channels.send_ntfy(ntfy_topic, a, dry, ntfy_server))
+                once(f"{a['key']}|ntfy", lambda a=a: track("ntfy", channels.send_ntfy(ntfy_topic, a, dry, ntfy_server)))
         for s in subs:
             if a.get("sub") and a["sub"] != s["id"]:
                 continue
@@ -350,7 +359,23 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
                 once(f"{a['key']}|wa:{s['id']}", lambda a=a, s=s: channels.send_whatsapp(wa_token, wa_phone, s["whatsapp"], template, a, dry))
             if s.get("push") and wants(s, "types", a):
                 once(f"{a['key']}|push:{s['id']}", lambda a=a, s=s: channels.send_webpush(s, a, dry))
+    if not dry:
+        for name, (good, bad) in tally.items():
+            if good or bad:
+                report(name, good > 0 or bad == 0, "" if good else f"fallaron los {bad} envíos")
     return count
+
+
+def test_alert(now: datetime) -> int:
+    """TEST_ALERT=1: manda una alerta de prueba por Discord y ntfy (botón 'Run workflow' con la opción de prueba)."""
+    a = {"type": "official", "group": "bts", "group_name": "Radar K-pop", "when": iso(now), "url": "https://radar-kpop.vercel.app",
+         "title": "Prueba del Radar K-pop 💜", "body": "Si ves esto, las alertas llegan bien. 보라해!"}
+    webhook, topic = os.environ.get("DISCORD_WEBHOOK_URL"), os.environ.get("NTFY_TOPIC", "").strip()
+    ok_d = channels.send_discord_webhook(webhook, a, False) if webhook else None
+    ok_n = channels.send_ntfy(topic, a, False, os.environ.get("NTFY_SERVER", "").strip() or "https://ntfy.sh") if topic else None
+    print(f"Prueba: Discord {'enviada' if ok_d else 'falló' if ok_d is False else 'sin DISCORD_WEBHOOK_URL'}, "
+          f"ntfy {'enviada' if ok_n else 'falló' if ok_n is False else 'sin NTFY_TOPIC'}")
+    return 0
 
 
 # ---------- principal ----------
@@ -378,6 +403,8 @@ def load_json(path: Path, default):
 def main() -> int:
     dry = os.environ.get("DRY_RUN") == "1"
     now = dt(os.environ["NOW"]) if os.environ.get("NOW") else datetime.now(timezone.utc)
+    if os.environ.get("TEST_ALERT") == "1":
+        return test_alert(now)
     data = load_json(EVENTS, None)
     if not data:
         print("No hay events.json", file=sys.stderr)

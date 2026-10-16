@@ -20,6 +20,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+from status import report  # noqa: E402
 OUT = ROOT / "stats.json"
 FEEDS = ROOT / "alerts" / "feeds.json"
 UA = {"User-Agent": "radar-kpop (+https://radar-kpop.vercel.app)"}
@@ -83,11 +85,14 @@ def main() -> int:
     sp = feeds.get("spotify", {})
 
     try:
-        for gid, (now, peak) in listeners(sp).items():
+        got = listeners(sp)
+        report("kworb", bool(got), "" if got else "kworb no trajo oyentes (¿cambió la página?)")
+        for gid, (now, peak) in got.items():
             g = groups.setdefault(gid, {})
             g["listeners"], g["listeners_peak"] = now, max(peak, g.get("listeners_peak", 0))
     except Exception as exc:  # noqa: BLE001
         print(f"kworb listeners falló ({exc}), se conserva lo anterior", file=sys.stderr)
+        report("kworb", False, f"kworb no respondió: {exc}")
     for gid, sid in sp.items():
         try:
             groups.setdefault(gid, {}).update(songs(sid))

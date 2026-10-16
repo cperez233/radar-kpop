@@ -20,7 +20,8 @@ El workflow corre cada 15 minutos, revisa la agenda y manda las alertas. Sin can
 | Latinoamérica | Noticia de gira o concierto que menciona países o regiones de Latam | sí |
 | Anuncio oficial | Una cuenta oficial publica un anuncio de gira, entradas o comeback (también los `[NOTICE]` que vienen de Weverse). Máximo uno por grupo, tipo y día | no |
 | Comeback / Gira | Noticias en Soompi, Koreaboo y Google Noticias | no |
-| Video | Video nuevo en el canal oficial de YouTube (con `YT_API_KEY`) | no |
+| Video | Video nuevo en el canal oficial de YouTube (con `YT_API_KEY`; no va a ntfy) | no |
+| Robot | Una fuente del robot empieza a fallar o vuelve a funcionar (el vigilante, `tools/health.py --notify`) | no |
 
 "Llegó a una ciudad" sale de lo que ellos mismos publican en sus cuentas oficiales, de lo que reporta la prensa, y de la agenda (día del show y fin del show). El motor no usa avistamientos de fans ni rastreo de vuelos, a propósito.
 
@@ -78,6 +79,10 @@ Reglas que el conector cumple siempre:
 - Descarta los posts que hablan de aeropuertos, hoteles o vuelos, y títulos que no son lugares ("Paris, Texas").
 - Un avistamiento por grupo y ciudad (el más reciente), para que una promo repetida no llene la lista.
 - No guarda ubicación de personas.
+
+Avisos oficiales: los posts `[NOTICE]`, `[공지]`, `[NEWS]` o con enlace a Weverse se guardan en `notices.json` (los 6 más
+recientes por grupo, 45 días) y salen en la tarjeta de cada grupo como "Avisos oficiales", con el enlace directo a Weverse.
+Weverse no tiene API pública ni ruta en RSSHub, así que esta es la forma de traer lo que publican ahí.
 
 Respaldo: si RSSHub no responde para ninguna cuenta y hay `X_BEARER_TOKEN`, usa la API oficial de X (de pago, una vez por
 hora, solo posts nuevos). Si nada responde, `sightings.json` queda como estaba. Sin ninguna de las dos, datos de ejemplo

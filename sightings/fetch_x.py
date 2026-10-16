@@ -34,9 +34,14 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+from status import report  # noqa: E402
 OUT = ROOT / "sightings.json"
 IDS = ROOT / "sightings" / "user_ids.json"
-SOCIAL = ROOT / "state" / "social.json"  # posts crudos de RSSHub; las alertas los reusan para no pedirlos dos veces
+SOCIAL = ROOT / "state" / "social.json"
+NOTICES = ROOT / "notices.json"  # avisos oficiales: posts [NOTICE]/[공지] y enlaces a Weverse de las cuentas oficiales
+NOTICE = re.compile(r"^\s*\[(NOTICE|공지|NEWS|안내|INFO|お知らせ)\]|weverse\.io/[\w-]+/(notice|live|artist)", re.I)
+NOTICES_PER_GROUP, NOTICES_DAYS = 6, 45  # posts crudos de RSSHub; las alertas los reusan para no pedirlos dos veces
 API = "https://api.x.com/2"
 BLOCK = re.compile(r"airport|aeropuerto|aeroporto|공항|空港|hotel|호텔|ホテル|flight|vuelo|departure|arrival gate|출국|입국|terminal", re.I)
 KEEP_DAYS = 30
@@ -150,9 +155,39 @@ def fetch_rsshub(base: str, events: dict) -> list[dict] | None:
                 items.append(x)
     print(f"RSSHub: {ok} de {len(accounts())} cuentas respondieron")
     if ok:
+        save_notices(raw)
+    report("rsshub", ok > 0, "" if ok else "ninguna cuenta respondió: puede que haya vencido la cookie auth_token en Vercel")
+    if ok:
         SOCIAL.parent.mkdir(parents=True, exist_ok=True)
         SOCIAL.write_text(json.dumps({"updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "items": raw}, ensure_ascii=False) + "\n", encoding="utf-8")
     return items if ok else None
+
+
+def save_notices(raw: list[dict]) -> None:
+    """Junta los avisos oficiales nuevos con los que ya había (por grupo, los más recientes) y escribe notices.json."""
+    old = json.loads(NOTICES.read_text(encoding="utf-8")) if NOTICES.exists() else {"groups": {}}
+    groups = {g: list(v) for g, v in old.get("groups", {}).items()}
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=NOTICES_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for p in raw:
+        text = p["title"] + " " + p.get("summary", "")
+        if p["title"].startswith("RT ") or not NOTICE.search(text):
+            continue
+        try:
+            when = parsedate_to_datetime(p["pubDate"]).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        except (TypeError, ValueError):
+            continue
+        wv = re.search(r"https://weverse\.io/[^\s)\"'<]+", text)
+        title = " ".join(re.sub(r"https?://\S+|#\S+|▶️|🔗", " ", html.unescape(p["title"])).split())[:140]
+        item = {"title": title, "url": wv.group(0) if wv else p["link"], "post": p["link"], "when": when, "weverse": bool(wv)}
+        lst = groups.setdefault(p["group"], [])
+        if not any(x["post"] == item["post"] for x in lst):
+            lst.append(item)
+    for g in groups:
+        groups[g] = sorted((x for x in groups[g] if x["when"] >= cutoff), key=lambda x: x["when"], reverse=True)[:NOTICES_PER_GROUP]
+    if groups != old.get("groups"):
+        NOTICES.write_text(json.dumps({"updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "groups": groups},
+                                      ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        print(f"notices.json: {sum(len(v) for v in groups.values())} avisos oficiales")
 
 
 def fetch_real(token: str, events: dict) -> list[dict] | None:

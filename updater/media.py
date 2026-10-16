@@ -18,6 +18,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "alerts"))
 import youtube  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+from status import report  # noqa: E402
 OUT = ROOT / "media.json"
 UA = {"User-Agent": "radar-kpop (+https://radar-kpop.vercel.app)"}
 PER_GROUP = 3
@@ -69,9 +71,10 @@ def main() -> int:
     for it in old.get("items", []):
         keep.setdefault((it["group"], it["type"]), []).append(it)
     items, ok, failed = [], 0, []
+    n_it = n_yt = 0
     for gid, aid in feeds.get("itunes", {}).items():
         try:
-            items += music(gid, int(aid)); ok += 1
+            items += music(gid, int(aid)); ok += 1; n_it += 1
         except Exception as exc:  # noqa: BLE001
             failed.append(f"itunes {gid}: {exc}"); items += keep.get((gid, "music"), [])
         time.sleep(1.2)  # la API de iTunes pide calma (unas 20 consultas por minuto)
@@ -79,9 +82,12 @@ def main() -> int:
         if not ch:
             continue
         try:
-            items += videos(gid, ch); ok += 1
+            items += videos(gid, ch); ok += 1; n_yt += 1
         except Exception as exc:  # noqa: BLE001
             failed.append(f"youtube {gid}: {exc}"); items += keep.get((gid, "video"), [])
+    report("itunes", n_it > 0, "" if n_it else "el catálogo de Apple Music no respondió")
+    yt_err = next((f for f in failed if f.startswith("youtube")), "")
+    report("youtube", n_yt > 0, "" if n_yt else ("la key fue rechazada (revisa YT_API_KEY)" if " 400" in yt_err or " 403" in yt_err else yt_err or "no respondió"))
     items.sort(key=lambda x: x["date"], reverse=True)
     doc = {"updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "sample": False, "items": items}
     if [x["url"] for x in items] == [x["url"] for x in old.get("items", [])]:

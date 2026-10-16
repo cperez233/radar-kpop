@@ -33,6 +33,8 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+from status import report  # noqa: E402
 EVENTS = ROOT / "events.json"
 OVERRIDES = ROOT / "updater" / "overrides.json"
 PLACES = ROOT / "assets" / "places-en.json"
@@ -230,6 +232,7 @@ def main() -> int:
     now = now_utc()
     today = now.strftime("%Y-%m-%d")
     auth_failed = False
+    tm_ok = tm_err = 0
 
     for g in data["groups"]:
         name = ARTISTS.get(g["id"])
@@ -242,18 +245,24 @@ def main() -> int:
                     if e and not any(same_show(e, x) for x in fresh):  # Ticketmaster repite shows con varios listados
                         fresh.append(e)
                 print(f"{g['id']}: Ticketmaster trajo {len(raw)} resultados, {len(fresh)} shows del grupo")
+                tm_ok += 1
             except urllib.error.HTTPError as exc:
                 if exc.code in (401, 403):
                     print(f"Ticketmaster rechazó la key ({exc.code}): revisa el secreto TM_API_KEY. Se conserva todo.", file=sys.stderr)
                     auth_failed = True
                 else:
+                    tm_err += 1
                     print(f"{g['id']}: Ticketmaster respondió {exc.code}, se conserva lo anterior", file=sys.stderr)
             except Exception as exc:  # noqa: BLE001
                 print(f"{g['id']}: falló Ticketmaster ({exc}), se conserva lo anterior", file=sys.stderr)
+                tm_err += 1
         ov = overrides.get(g["id"], {})
         merge_group(g, fresh, ov.get("events", []), now)
         apply_notes(g, ov, any(parse(e["start"]) > now for e in g["events"]), today)
 
+    if key:
+        report("ticketmaster", not auth_failed and tm_ok > 0,
+               "la key fue rechazada (revisa TM_API_KEY)" if auth_failed else "" if tm_ok else f"no respondió ({tm_err} errores)")
     if json.dumps(data["groups"], sort_keys=True) == before:
         print("Sin cambios")
         return 0
