@@ -909,6 +909,7 @@ input[type="range"] { width: 100%; accent-color: var(--bubble); min-height: 32px
 .m-video .m-img { aspect-ratio: 4 / 3; background: #1C1726; }
 .m-img img { width: 100%; height: 100%; object-fit: contain; }
 .m-img img.m-fb { padding: 10%; object-fit: contain; animation: breathe 3.2s ease-in-out infinite; transform-origin: 50% 90%; }
+.ph-bg { display: none; }
 .m-kind { position: absolute; right: 6px; top: 6px; padding: 1px 8px 0; border-radius: 8px; background: var(--ink); color: var(--white); font: 800 11px/1.6 var(--f-body); }
 .m-badge { position: absolute; left: 6px; bottom: 6px; padding: 1px 8px 0; border-radius: 8px; background: var(--white); border: 1.5px solid var(--ink); font: 400 11.5px/1.5 var(--f-display); }
 .m-txt { display: grid; gap: 2px; min-width: 0; }
@@ -1100,8 +1101,12 @@ input[type="range"] { width: 100%; accent-color: var(--bubble); min-height: 32px
   .cards > .card > .c-state, .cards > .card > .onsale { align-self: flex-start; }
   /* lo que sobra en las tarjetas más cortas lo toma la foto (hasta un tope); el resto queda sobre la foto */
   .cards .c-foot { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: flex-end; gap: 12px; }
-  .cards .polaroid { flex: 1 1 auto; display: flex; flex-direction: column; max-height: 380px; margin: 4px 0; transform: rotate(.8deg); }
-  .cards .polaroid img { flex: 1 1 auto; width: 100%; height: min(200px, 48vw); min-height: min(200px, 48vw); max-height: none; object-fit: cover; object-position: 50% 30%; }
+  .cards .polaroid { flex: 1 1 auto; display: flex; flex-direction: column; margin: 4px 0; transform: rotate(.8deg); }
+  /* la foto toma el alto que sobre: se ve completa y el espacio extra lo llena la misma foto desenfocada (nunca queda blanco) */
+  .cards .ph { position: relative; flex: 1 1 auto; display: block; min-height: min(200px, 48vw); overflow: hidden; border-radius: 2px; background: var(--paper); }
+  .cards .ph-bg { display: block; position: absolute; inset: -24px; background: center / cover no-repeat; filter: blur(16px) saturate(1.15); opacity: .85; }
+  .cards .polaroid .ph img { position: absolute; inset: 0; width: 100%; height: 100%; max-height: none; object-fit: contain; }
+}
 }
 @media (min-width: 700px) {
   .card .watch li:nth-child(n+2) { display: grid; }

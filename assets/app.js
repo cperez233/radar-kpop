@@ -56,10 +56,10 @@
     skz: { debut: '2018-03-25', agency: 'JYP Entertainment', spotify: '2dIgFjalVxs4ThymZ67YCE', apple: 1304823362, youtube: 'UC9rMiEjNaCSsebs31MRDCRA' },
     twice: { debut: '2015-10-20', agency: 'JYP Entertainment', spotify: '7n2Ycct7Beij7Dj7meI4X0', apple: 1203816887, youtube: 'UCzgxx_DM2Dcb9Y1spb9mUJA' },
     blackpink: { debut: '2016-08-08', agency: 'YG Entertainment', spotify: '41MozSoPIsD1dJM0CLPjZF', apple: 1141774019, youtube: 'UCOmHUn--16B90oW2L6FRR3A', weverse: 'blackpink' },
-    lngshot: { debut: '2026-01-13', agency: 'MORE VISION', spotify: '2F4oTJOWkcD1JaTeKEa9h6', apple: 1862022916, youtube: 'UC8PPjyqCQJtNfEwHBcq_uxw' },
+    lngshot: { debut: '2026-01-13', agency: 'MORE VISION', spotify: '2F4oTJOWkcD1JaTeKEa9h6', apple: 1862022916, youtube: 'UC8PPjyqCQJtNfEwHBcq_uxw', weverse: 'lngshot' },
     seventeen: { debut: '2015-05-26', agency: 'PLEDIS Entertainment', spotify: '7nqOGRxlXj7N2JYbgNEjYH', apple: 999644772, youtube: 'UCfkXDY7vwkcJ8ddFGz8KusA', weverse: 'seventeen' },
     enhypen: { debut: '2020-11-30', agency: 'BELIFT LAB', spotify: '5t5FqBwTcgKTaWmfEbwQY9', apple: 1541011620, youtube: 'UCArLZtok93cO5R9RI4_Y5Jw', weverse: 'enhypen' },
-    newjeans: { debut: '2022-07-22', agency: 'ADOR', spotify: '6HvZYsbFfjnjFrWF950C9d', apple: 1635469693, youtube: 'UCMki_UkHb4qSc0qyEcOHHJw', weverse: 'newjeans' },
+    newjeans: { debut: '2022-07-22', agency: 'ADOR', spotify: '6HvZYsbFfjnjFrWF950C9d', apple: 1635469693, youtube: 'UCMki_UkHb4qSc0qyEcOHHJw', weverse: 'newjeansofficial' },
     cortis: { debut: '2025-08-18', agency: 'BIGHIT MUSIC', spotify: '1ebt9HnXdyYA6KgLXr1n4P', apple: 1831651635, youtube: 'UCZMYvSPulDSUdx7bdtTFdrg', weverse: 'cortis' },
     ateez: { debut: '2018-10-24', agency: 'KQ Entertainment', spotify: '68KmkJeZGfwe1OUaivBa2L', apple: 1439301205, youtube: 'UC2e4Ukj5Pfr7cb3KpJAFBdQ' }
   };
@@ -1203,7 +1203,7 @@
     }).join('') + formerList(st.id).map(function (x) {
       var back = x.ret && x.ret.official;  // si un aviso oficial dice que volvió, sale a color
       return '<li><button type="button" class="mem fm-mem' + (back ? ' fm-back' : ' away') + '" data-gp-open="' + esc(st.id) + '" data-gp-t="members" aria-label="' + esc(x.f.name + ', ' + (back ? t('fmBack') : t('fmTitle'))) + '"><span class="fm-tag">' + (back ? '✨' : 'ex') + '</span><img src="' + esc(formerSrc(st.id, x)) + '" alt="" loading="lazy" decoding="async" draggable="false"><span class="mem-n">' + esc(x.f.name) + '</span></button></li>';
-    }).join('') + '</ul>' + milHtml(st.id) + '</div>';
+    }).join('') + '</ul></div>';
   }
   /* orden de opciones fijo por pregunta (no cambia al redibujar) pero sin que la correcta quede siempre primero */
   function mixOrder(seed, n) {
@@ -1367,9 +1367,8 @@
     // abajo, alineado entre tarjetas: la foto, dónde escucharlos y lo plegable (avisos, números, trivia, gira)
     h += '<div class="c-foot">';
     var ph = photoOf(g.id);
-    if (ph) h += '<figure class="polaroid"><img src="' + esc(ph.src) + '"' + (ph.w ? ' width="' + ph.w + '" height="' + ph.h + '"' : '') + ' alt="' + esc(t('photoAlt', { g: g.name })) + '" loading="lazy" decoding="async"><figcaption>' + esc(g.name) + (m.fan ? ' · ' + esc(m.fan) : '') + '</figcaption></figure>';
+    if (ph) h += '<figure class="polaroid"><span class="ph"><i class="ph-bg" aria-hidden="true" style="background-image:url(\'' + esc(ph.src) + '\')"></i><img src="' + esc(ph.src) + '"' + (ph.w ? ' width="' + ph.w + '" height="' + ph.h + '"' : '') + ' alt="' + esc(t('photoAlt', { g: g.name })) + '" loading="lazy" decoding="async"></span><figcaption>' + esc(g.name) + (m.fan ? ' · ' + esc(m.fan) : '') + '</figcaption></figure>';
     h += listenHtml(g);
-    h += noticesHtml(g.id);
     h += statsHtml(g);
     h += triviaHtml(g.id);
     var rows = st.upStops;
