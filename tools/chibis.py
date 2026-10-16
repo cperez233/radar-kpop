@@ -9,14 +9,14 @@ Reads tools/members.json and writes:
 
 Every chibi is original art drawn in code, inspired by the hair and outfit in an official photo of each group.
 They are not portraits. To change a hairstyle, a colour or a pose, edit tools/members.json and run this again.
-Groups listed in tools/chibis_sticker.py (GROUPS) are drawn there in the new sticker style: this script keeps
+Groups listed in tools/chibis_images.py (GROUPS) are built there from a hand-made sticker sheet: this script keeps
 their names in roster.json but leaves their SVGs alone.
 """
 import json
 import math
 from pathlib import Path
 
-from chibis_sticker import GROUPS as STICKER_GROUPS
+from chibis_images import GROUPS as STICKER_GROUPS
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "assets" / "chibis"

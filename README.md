@@ -63,6 +63,6 @@ python build.py               # builds index.html (data, photos, chibis, changel
 python -m http.server 8000    # open http://localhost:8000
 ```
 
-No framework and no npm install. `python tools/chibis.py` redraws the chibis from `tools/members.json`; BTS is drawn in the new sticker style by `python tools/chibis_sticker.py`. Test parameters: `?now=2026-10-16T12:00:00Z`, `?pick=bts`, `?view=sonar`, `?lang=en`, `?demo=alert`, `?demo=video`.
+No framework and no npm install. `python tools/chibis.py` redraws the chibis from `tools/members.json`; BTS comes from a hand-made sticker sheet (`tools/art/bts-stickers.webp`) via `python tools/chibis_images.py`. Test parameters: `?now=2026-10-16T12:00:00Z`, `?pick=bts`, `?view=sonar`, `?lang=en`, `?demo=alert`, `?demo=video`.
 
 Made with fan love by [Cristian Pérez](https://cristianperez.me).
