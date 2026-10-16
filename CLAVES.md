@@ -13,10 +13,10 @@ Si un servicio se cae, ese paso sale con advertencia y el resto sigue igual.
 
 | Secreto | Qué hace | Costo | Estado |
 |---|---|---|---|
-| `TM_API_KEY` | Fechas de gira nuevas desde Ticketmaster | Gratis | Guardado |
-| `YT_API_KEY` | Videos nuevos de YouTube y suscriptores | Gratis | Guardado |
+| `TM_API_KEY` | Fechas de gira nuevas desde Ticketmaster | Gratis | Funciona: en el primer run trajo BTS, ENHYPEN y LNGSHOT |
+| `YT_API_KEY` | Videos nuevos de YouTube y suscriptores | Gratis | Funciona: 27 videos en el primer run |
 | `RSSHUB_URL` | Posts de las cuentas oficiales en X: avistamientos, anuncios oficiales y llegadas | Gratis (tu RSSHub en Vercel) | Guardado y probado: responden las 9 cuentas |
-| `DISCORD_WEBHOOK_URL` | Alertas en tu canal de Discord | Gratis | Guardado |
+| `DISCORD_WEBHOOK_URL` | Alertas en tu canal de Discord | Gratis | Funciona: el primer run mandó 26 alertas |
 | `NTFY_TOPIC` | Alertas al celular con la app ntfy | Gratis | **Falta crearlo** (pasos abajo) |
 | `X_BEARER_TOKEN` | Respaldo de X, solo si RSSHub falla entero | De pago (~0,005 USD por post) | Guardado, sin saldo. No hace falta cargarle |
 | `VAPID_PRIVATE_KEY` + `VAPID_SUBJECT` | Notificaciones push del navegador para los fans que se suscriben en la web | Gratis (con el worker de Cloudflare) | Opcional, no configurado |
@@ -32,7 +32,7 @@ de Spotify (kworb.net).
    puede leer los avisos, así que no uses algo corto como `radar-kpop`.
 3. En la app: **+** (Subscribe to topic), escribe el tema y deja el servidor `ntfy.sh`. **Subscribe**.
 4. En GitHub crea el secreto `NTFY_TOPIC` con ese mismo tema (solo el nombre, sin `https://ntfy.sh/`).
-5. Corre el workflow a mano. Desde ahí, cada alerta que va a Discord también llega como notificación al celular.
+5. Corre el workflow a mano. Desde ahí, cada alerta que va a Discord también llega como notificación al celular, menos los videos nuevos (son varios al día; esos quedan en Discord y en la web).
 
 ## Ticketmaster: `TM_API_KEY`
 

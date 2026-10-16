@@ -5,9 +5,9 @@
    "type": "new_date",
    "group": "bts",
    "group_name": "BTS",
-   "title": "BTS agregó fechas en Docklands",
+   "title": "BTS agregó fechas en Melbourne",
    "body": "10 feb 2027 en Marvel Stadium, Australia.",
-   "title_en": "BTS added dates in Docklands",
+   "title_en": "BTS added dates in Melbourne",
    "body_en": "Feb 10, 2027 at Marvel Stadium, Australia.",
    "when": "2026-10-16T07:28:52Z",
    "url": null
@@ -16,21 +16,10 @@
    "type": "new_date",
    "group": "enhypen",
    "group_name": "ENHYPEN",
-   "title": "ENHYPEN agregó fechas en Berlín",
-   "body": "6 mar 2027 en Uber Arena, Alemania.",
-   "title_en": "ENHYPEN added dates in Berlin",
-   "body_en": "Mar 6, 2027 at Uber Arena, Germany.",
-   "when": "2026-10-16T07:28:52Z",
-   "url": null
-  },
-  {
-   "type": "new_date",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
    "title": "ENHYPEN agregó fechas en Londres",
-   "body": "8 mar 2027, 8 mar 2027 en The O2, Reino Unido.",
+   "body": "8 mar 2027 en The O2, Reino Unido.",
    "title_en": "ENHYPEN added dates in London",
-   "body_en": "Mar 8, 2027, Mar 8, 2027 at The O2, United Kingdom.",
+   "body_en": "Mar 8, 2027 at The O2, United Kingdom.",
    "when": "2026-10-16T07:28:52Z",
    "url": null
   },
@@ -80,39 +69,6 @@
   },
   {
    "type": "official",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Anuncio oficial de TWICE: comeback",
-   "body": "«TWICE Special Vinyl <THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE So, are you ready? 🔥 Just ONE MORE DAY until the Special Live Vinyl is OUT! ❤...» (TWICE en X).",
-   "title_en": "Official TWICE news: comeback",
-   "body_en": "\"TWICE Special Vinyl <THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE So, are you ready? 🔥 Just ONE MORE DAY until the Special Live Vinyl is OUT! ❤...\" (TWICE en X).",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://x.com/JYPETWICE/status/2110656948672823319"
-  },
-  {
-   "type": "official",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Anuncio oficial de TWICE: comeback",
-   "body": "«TWICE Special Vinyl <THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE D-2! It’s almost here! 👀 Pre-save & pre-order the Special Live Vinyl now! ❤️...» (TWICE en X).",
-   "title_en": "Official TWICE news: comeback",
-   "body_en": "\"TWICE Special Vinyl <THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE D-2! It’s almost here! 👀 Pre-save & pre-order the Special Live Vinyl now! ❤️...\" (TWICE en X).",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://x.com/JYPETWICE/status/2110294630252372347"
-  },
-  {
-   "type": "official",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Anuncio oficial de TWICE: comeback",
-   "body": "«TWICE Special Vinyl <THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE ONCE~ Can’t wait for you to hear it! 💗 💙Pre-Save / Pre-Order💙 https://tw...» (TWICE en X).",
-   "title_en": "Official TWICE news: comeback",
-   "body_en": "\"TWICE Special Vinyl <THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE ONCE~ Can’t wait for you to hear it! 💗 💙Pre-Save / Pre-Order💙 https://tw...\" (TWICE en X).",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://x.com/JYPETWICE/status/2109932295566364768"
-  },
-  {
-   "type": "official",
    "group": "lngshot",
    "group_name": "LNGSHOT",
    "title": "Anuncio oficial de LNGSHOT: comeback",
@@ -124,50 +80,6 @@
   },
   {
    "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (사운드웨이브) https://weverse.io/lngshot/notice/40089 #LNGSHOT #SWISH #MOREVISION» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "\"[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (사운드웨이브) https://weverse.io/lngshot/notice/40089 #LNGSHOT #SWISH #MOREVISION\" (LNGSHOT en X).",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2110657940306927787"
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«A look inside, 8pm KST tonight. Stay tuned. EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. https://lngshot.lnk.to/SWISH #LNGSHOT #MORE...» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "\"A look inside, 8pm KST tonight. Stay tuned. EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. https://lngshot.lnk.to/SWISH #LNGSHOT #MORE...\" (LNGSHOT en X).",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2110385145715081491"
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«comeback to me. 11/10 new ep loading.🤞 #LNGSHOT» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "\"comeback to me. 11/10 new ep loading.🤞 #LNGSHOT\" (LNGSHOT en X).",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2110294542763311113"
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. https://lngshot.lnk.to/SWISH #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "\"EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. https://lngshot.lnk.to/SWISH #LNGSHOT #MOREVISION\" (LNGSHOT en X).",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2110022763134189830"
-  },
-  {
-   "type": "official",
    "group": "seventeen",
    "group_name": "SEVENTEEN",
    "title": "Anuncio oficial de SEVENTEEN: comeback",
@@ -176,28 +88,6 @@
    "body_en": "\"[NOTICE] 정한X조슈아 1st Mini Album ‘DREAMSCAPE' COUNTDOWN LIVE 진행 안내 (+ENG/JPN/CHN) ▶️ https://weverse.io/seventeen/notice/40081 #JxJ #정한X조...\" (SEVENTEEN en X).",
    "when": "2026-10-16T07:28:52Z",
    "url": "https://x.com/pledis_17/status/2110898526482034919"
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«[NEWS] Don't forget to PRE-SAVE JxJ's 1st Mini Album ‘DREAMSCAPE’ ▶️ https://link.fans/jxj-dreamscape #JxJ #정한X조슈아 #DREAMSCAPE» (SEVENTEEN en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "\"[NEWS] Don't forget to PRE-SAVE JxJ's 1st Mini Album ‘DREAMSCAPE’ ▶️ https://link.fans/jxj-dreamscape #JxJ #정한X조슈아 #DREAMSCAPE\" (SEVENTEEN en X).",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://x.com/pledis_17/status/2110573884244107638"
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«JEONGHAN X JOSHUA 1st Mini Album ‘𝗗𝗥𝗘𝗔𝗠𝗦𝗖𝗔𝗣𝗘’ highlight medley https://youtu.be/izUj1RMN5fs 2026.10.19 6PM (KST) / 5AM...» (SEVENTEEN en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "\"JEONGHAN X JOSHUA 1st Mini Album ‘𝗗𝗥𝗘𝗔𝗠𝗦𝗖𝗔𝗣𝗘’ highlight medley https://youtu.be/izUj1RMN5fs 2026.10.19 6PM (KST) / 5AM...\" (SEVENTEEN en X).",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://x.com/pledis_17/status/2110022791290565057"
   },
   {
    "type": "video",

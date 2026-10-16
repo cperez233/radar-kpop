@@ -40,6 +40,7 @@ FEED_OUT = ROOT / "alerts.json"
 SHOW_H = 4
 KEEP_DAYS = 45
 FEED_MAX = 60
+NTFY_SKIP = {"video"}  # al celular no: los grupos suben varios videos al día (siguen en Discord y en la web)
 DEFAULT_WA = {"prox", "prox_new", "stop_today", "live", "latam", "arrival_official", "arrival"}
 MONTHS = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 MONTHS_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -147,8 +148,9 @@ def diff_events(old: dict, data: dict, now: datetime) -> list[dict]:
     current = {e["id"] for g in data["groups"] for e in g["events"]}
     names = {g["id"]: g["name"] for g in data["groups"]}
     gmap = {g["id"]: g for g in data["groups"]}
+    same_day = {(e["_g"], e["local_date"], e["city"]) for g in data["groups"] for e in [dict(x, _g=g["id"]) for x in g["events"]]}
     for eid, o in old.items():
-        if eid not in current and dt(o["s"]) > now and o["g"] in gmap:
+        if eid not in current and dt(o["s"]) > now and o["g"] in gmap and (o["g"], o["d"], o["c"]) not in same_day:  # otro listado del mismo show sigue
             alerts.append(mk(
                 "removed", f"gone:{eid}", gmap[o["g"]], f"{names[o['g']]} quitó {o['c']} de la agenda",
                 f"La fecha del {day_label(o['d'])} ya no aparece en las fuentes. Puede ser cancelación o cambio, confirma en la boletería.", now,
@@ -335,7 +337,7 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
     for a in alerts:
         if not a.get("sub"):
             once(f"{a['key']}|canal", lambda a=a: channels.send_discord_webhook(webhook, a, dry))
-            if ntfy_topic:
+            if ntfy_topic and a["type"] not in NTFY_SKIP:
                 once(f"{a['key']}|ntfy", lambda a=a: channels.send_ntfy(ntfy_topic, a, dry, ntfy_server))
         for s in subs:
             if a.get("sub") and a["sub"] != s["id"]:
@@ -395,6 +397,13 @@ def main() -> int:
     seen |= {i["id"] for i in items}
 
     alerts += subscriber_alerts(data, alerts, subs, now)
+
+    uniq, keys = [], set()
+    for a in alerts:  # varias alertas pueden compartir clave (p. ej. un anuncio oficial por grupo y día): sale la primera
+        if a["key"] not in keys:
+            keys.add(a["key"])
+            uniq.append(a)
+    alerts = uniq
 
     sent_before = set(state.get("sent", {}))
     n = deliver(alerts, subs, state, dry)

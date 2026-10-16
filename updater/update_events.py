@@ -68,6 +68,18 @@ COUNTRY_ES = {
 }
 
 
+# barrios o suburbios donde quedan los estadios -> nombre que usa la web (assets/places-en.json lo traduce)
+CITY_FIX = {
+    "Docklands": "Melbourne", "Olympic Park": "Sídney", "Sydney Olympic Park": "Sídney", "Inglewood": "Inglewood (Los Ángeles)",
+    "East Rutherford": "East Rutherford (Nueva York)", "Elmont": "Elmont (Nueva York)", "Newark": "Newark (Nueva York)",
+    "Santa Clara": "Santa Clara (San Francisco)", "Arlington": "Arlington (Dallas)", "Frisco": "Frisco (Dallas)",
+    "Foxborough": "Foxborough (Boston)", "Rosemont": "Rosemont (Chicago)", "Sunrise": "Sunrise (Miami)",
+    "Paradise": "Las Vegas", "Saint-Denis": "Saint-Denis (París)", "Nanterre": "Nanterre (París)",
+}
+# entradas de Ticketmaster que son productos (palcos, paquetes VIP, parqueadero), no shows
+NOT_A_SHOW = re.compile(r"\b(vip|packages?|suites?|box seats?|parking|hospitality|upgrades?|premium|merch)\b", re.I)
+
+
 def now_utc() -> datetime:
     return datetime.now(timezone.utc)
 
@@ -96,6 +108,8 @@ def to_event(group_id: str, name: str, ev: dict, city_es: dict) -> dict | None:
     attractions = [a.get("name", "").lower() for a in ev.get("_embedded", {}).get("attractions", [])]
     if name.lower() not in attractions:
         return None  # la búsqueda trajo otra cosa (tributos, eventos con nombre parecido)
+    if NOT_A_SHOW.search(ev.get("name", "")):
+        return None
     if ev.get("dates", {}).get("status", {}).get("code") in ("cancelled", "canceled", "offsale"):
         return None
     venues = ev.get("_embedded", {}).get("venues", [])
@@ -121,7 +135,7 @@ def to_event(group_id: str, name: str, ev: dict, city_es: dict) -> dict | None:
         "id": f"{group_id}-tm-{ev['id']}",
         "local_date": start["localDate"],
         "start": stamp,
-        "city": city_es.get(city, city),
+        "city": CITY_FIX.get(city) or city_es.get(city, city),
         "country": COUNTRY_ES.get(country, country),
         "venue": v.get("name"),
         "lat": round(float(loc["latitude"]), 4),
@@ -223,7 +237,10 @@ def main() -> int:
         if key and name and not auth_failed:
             try:
                 raw = fetch_artist(name, key)
-                fresh = [e for e in (to_event(g["id"], name, ev, city_es) for ev in raw) if e]
+                fresh = []
+                for e in (to_event(g["id"], name, ev, city_es) for ev in raw):
+                    if e and not any(same_show(e, x) for x in fresh):  # Ticketmaster repite shows con varios listados
+                        fresh.append(e)
                 print(f"{g['id']}: Ticketmaster trajo {len(raw)} resultados, {len(fresh)} shows del grupo")
             except urllib.error.HTTPError as exc:
                 if exc.code in (401, 403):

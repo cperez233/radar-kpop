@@ -356,7 +356,7 @@
           "id": "bts-tm-17a8v0G65R_Eq8g",
           "local_date": "2027-02-10",
           "start": "2027-02-10T17:00:00+11:00",
-          "city": "Docklands",
+          "city": "Melbourne",
           "country": "Australia",
           "venue": "Marvel Stadium",
           "lat": -37.8165,
@@ -1188,34 +1188,6 @@
           "lon": 13.4434,
           "status": "confirmado",
           "onsale": "2026-08-06T15:28:00Z"
-        },
-        {
-          "id": "enhypen-tm-Z698xZC2Z16v4IZgoN",
-          "local_date": "2027-03-06",
-          "start": "2027-03-06T20:00:00+01:00",
-          "city": "Berlín",
-          "country": "Alemania",
-          "venue": "Uber Arena",
-          "lat": 52.5057,
-          "lon": 13.4431,
-          "status": "confirmado",
-          "source": "tm",
-          "tm_name": "ENHYPEN | Box seat in the Ticketmaster Suite",
-          "onsale": "2026-09-10T09:32:00Z"
-        },
-        {
-          "id": "enhypen-tm-1AgZk34Gkdx7PmQ",
-          "local_date": "2027-03-08",
-          "start": "2027-03-08T17:30:00+00:00",
-          "city": "Londres",
-          "country": "Reino Unido",
-          "venue": "The O2",
-          "lat": 51.5016,
-          "lon": 0.0055,
-          "status": "confirmado",
-          "source": "tm",
-          "tm_name": "ENHYPEN: WORLD TOUR 'BLOOD SAGA' - VIP Packages",
-          "onsale": "2026-09-18T09:00:00Z"
         },
         {
           "id": "enhypen-tm-1AgZk3fGkd9ddBf",

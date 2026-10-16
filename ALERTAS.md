@@ -121,9 +121,9 @@ SUBSCRIBERS_JSON='[...]' DRY_RUN=1 NO_NEWS=1 NOW=2026-10-16T12:00:00Z python ale
 
 ## Verificado
 
-- 16 de octubre de 2026: RSSHub responde para las 9 cuentas oficiales; ntfy publica bien (con tildes y coreano); Ticketmaster,
-  YouTube y X con una clave mala avisan en el log y conservan los datos. Falta ver Ticketmaster, YouTube y Discord con las
-  claves reales en un run del workflow (el Summary del run lo muestra).
+- 16 de octubre de 2026, run real del workflow: Ticketmaster (BTS, ENHYPEN, LNGSHOT; los listados VIP y de palcos se
+  descartan), YouTube Data API (27 videos), RSSHub (9 de 9 cuentas) y Discord (26 alertas) funcionan. ntfy publica bien
+  (con tildes y coreano). Con una clave mala, Ticketmaster, YouTube y X avisan en el log y conservan los datos.
 - Cuentas e IDs revisados el 15 de octubre de 2026: el canal de YouTube de Stray Kids es `UC9rMiEjNaCSsebs31MRDCRA`, la cuenta de X de LNGSHOT es `LNGSHOT4sho` y su canal es `UC8PPjyqCQJtNfEwHBcq_uxw`. SEVENTEEN `pledis_17`, ENHYPEN `ENHYPEN`, NewJeans `NewJeans_ADOR`.
 - CORTIS (16 de octubre de 2026): X `cortis_bighit`, YouTube `UCZMYvSPulDSUdx7bdtTFdrg`, iTunes `1831651635`.
 - Noticias: Soompi y Koreaboo por RSS (allkpop bloquea robots con 403 y se quitó). Si alguna falla, el motor lo avisa en el log y sigue con las demás.

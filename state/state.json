@@ -195,7 +195,7 @@
    "g": "bts",
    "d": "2027-02-10",
    "s": "2027-02-10T17:00:00+11:00",
-   "c": "Docklands",
+   "c": "Melbourne",
    "v": "Marvel Stadium"
   },
   "bts-20270212-melbourne": {
@@ -631,20 +631,6 @@
    "s": "2027-03-05T20:00:00+01:00",
    "c": "Berlín",
    "v": "Uber Arena"
-  },
-  "enhypen-tm-Z698xZC2Z16v4IZgoN": {
-   "g": "enhypen",
-   "d": "2027-03-06",
-   "s": "2027-03-06T20:00:00+01:00",
-   "c": "Berlín",
-   "v": "Uber Arena"
-  },
-  "enhypen-tm-1AgZk34Gkdx7PmQ": {
-   "g": "enhypen",
-   "d": "2027-03-08",
-   "s": "2027-03-08T17:30:00+00:00",
-   "c": "Londres",
-   "v": "The O2"
   },
   "enhypen-tm-1AgZk3fGkd9ddBf": {
    "g": "enhypen",
