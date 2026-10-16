@@ -32,7 +32,9 @@ The radar only uses public, official schedules and posts. It shows the next conf
 - **Group cards.** Each card shows:
   - a big countdown, km from you and local time;
   - the uncropped official photo and the full tour;
-  - a mini trivia, a ticket on-sale sticker and an .ics calendar file.
+  - links to Spotify, Apple Music, YouTube Music, YouTube and Weverse (when the group has a community);
+  - facts and numbers: debut, agency, members, shows, cities and km on tour, releases and YouTube stats;
+  - a six-question mini trivia, a ticket on-sale sticker and an .ics calendar file.
 - **Sightings near you.** Official posts that mention a city, sorted by distance to you, with a news ticker and a heads-up when new ones arrive.
 - **Releases and videos.** The latest music and official YouTube uploads of each group.
 - **Alerts.** A new alert triggers a confetti celebration. You can also sign up for Discord, WhatsApp or push notifications.
@@ -50,8 +52,9 @@ The radar only uses public, official schedules and posts. It shows the next conf
 
 | Data | Source | Status |
 |---|---|---|
-| Tour dates | `events.json` (curated, sources listed in the page footer) + Ticketmaster Discovery API | Curated data works. Ticketmaster needs `TM_API_KEY`. |
+| Tour dates | `events.json` (curated, sources listed in the page footer) + Ticketmaster Discovery API | Curated data works. Ticketmaster needs `TM_API_KEY`; without it the robot keeps the current dates and moves on. |
 | Releases | iTunes Search API | Works, no key |
+| Group numbers (`stats.json`) | iTunes Search API + YouTube Data API v3 | Release counts work with no key. YouTube subscribers and views need `YT_API_KEY`. |
 | Official videos | YouTube channel RSS | Works, no key |
 | News | Soompi and Koreaboo RSS, Google News RSS | Works, no key |
 | City maps | OpenFreeMap vector tiles | Works, no key |

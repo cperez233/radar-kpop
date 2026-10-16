@@ -1,0 +1,32 @@
+{
+  "updated_at": "2026-10-16T04:37:19Z",
+  "groups": {
+    "bts": {
+      "releases": 61
+    },
+    "skz": {
+      "releases": 72
+    },
+    "twice": {
+      "releases": 63
+    },
+    "blackpink": {
+      "releases": 25
+    },
+    "lngshot": {
+      "releases": 6
+    },
+    "seventeen": {
+      "releases": 47
+    },
+    "enhypen": {
+      "releases": 43
+    },
+    "newjeans": {
+      "releases": 12
+    },
+    "cortis": {
+      "releases": 5
+    }
+  }
+}

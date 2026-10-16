@@ -1,5 +1,25 @@
 [
   {
+    "version": "4.2",
+    "date": "2026-10-16",
+    "title_es": "Dónde escucharlos, números y más trivia",
+    "title_en": "Where to listen, numbers and more trivia",
+    "es": [
+      "Cada grupo tiene enlaces a Spotify, Apple Music, YouTube Music, YouTube y Weverse.",
+      "Nuevo bloque Datos y números: debut, agencia, miembros, shows, ciudades y km de gira, lanzamientos y estadísticas de YouTube.",
+      "La mini trivia ahora tiene 6 preguntas por grupo y las opciones salen en desorden.",
+      "CORTIS ya tiene su foto oficial.",
+      "En el celular los nombres de los miembros ya no se parten en dos líneas."
+    ],
+    "en": [
+      "Every group links to Spotify, Apple Music, YouTube Music, YouTube and Weverse.",
+      "New Facts and numbers block: debut, agency, members, shows, cities and km on tour, releases and YouTube stats.",
+      "The mini trivia now has 6 questions per group, with shuffled options.",
+      "CORTIS now has its official photo.",
+      "On phones, member names no longer break into two lines."
+    ]
+  },
+  {
     "version": "4.1",
     "date": "2026-10-16",
     "title_es": "Stickers hechos a mano y llega CORTIS",

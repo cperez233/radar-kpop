@@ -82,8 +82,8 @@ def to_event(group_id: str, name: str, ev: dict) -> dict | None:
 def main() -> int:
     key = os.environ.get("TM_API_KEY")
     if not key:
-        print("Falta TM_API_KEY", file=sys.stderr)
-        return 1
+        # sin key no se cae el workflow: se conservan las fechas y siguen los demas pasos
+        print("Falta TM_API_KEY: se conservan las fechas actuales (solo se aplican overrides)", file=sys.stderr)
 
     data = json.loads(EVENTS.read_text(encoding="utf-8"))
     overrides = json.loads(OVERRIDES.read_text(encoding="utf-8")) if OVERRIDES.exists() else {}
@@ -94,7 +94,7 @@ def main() -> int:
         fresh = []
         if name:
             try:
-                for ev in fetch_artist(name, key):
+                for ev in (fetch_artist(name, key) if key else []):
                     e = to_event(g["id"], name, ev)
                     if e:
                         fresh.append(e)
