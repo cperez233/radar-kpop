@@ -6,28 +6,47 @@ El workflow corre cada 15 minutos, revisa la agenda y manda las alertas. Sin can
 
 ## Qué alertas manda
 
-| Tipo | Cuándo sale | Por defecto en WhatsApp |
+| Tipo | Cuándo sale | Tema para los fans (ntfy) |
 |---|---|---|
-| Fecha nueva | Aparece un show que antes no estaba | no |
-| Cambio | Cambia fecha, hora, ciudad o recinto de un show | no |
-| Quitada | Un show futuro desaparece de la agenda | no |
-| Hoy abre en... | El día del primer show de una ciudad, desde las 8 a. m. hora local | sí |
-| En vivo | 45 min antes del show y hasta 4 h después | sí |
-| Sigue a... | Terminó en una ciudad y viene la siguiente (con km de viaje) | no |
-| Cerca de ti | Show a menos de tu radio: al anunciarse y a los 7 días, 24 h y 3 h | sí |
-| Llegada oficial | Una cuenta oficial del grupo publica algo que menciona la ciudad de su próxima parada (desde 72 h antes), o avisa que llegó | sí |
-| Llegada reportada | Un medio publica que el grupo llegó. Se marca como reportado, no como oficial | sí |
-| Latinoamérica | Noticia de gira o concierto que menciona países o regiones de Latam | sí |
-| Anuncio oficial | Una cuenta oficial publica un anuncio de gira, entradas o comeback (también los `[NOTICE]` que vienen de Weverse). Máximo uno por grupo, tipo y día | no |
-| Comeback / Gira | Noticias en Soompi, Koreaboo y Google Noticias. Si varios medios cuentan la misma historia en 48 h, sale una sola alerta | no |
-| Video | Video nuevo en el canal oficial de YouTube (con `YT_API_KEY`; no va a ntfy) | no |
-| Cumpleaños | El día del cumpleaños de cada miembro (hora de Corea), con los años que cumple (`assets/people.json`) | no |
-| Servicio militar y regresos | El día que un miembro se enlista o vuelve (por fecha, `assets/people.json`), y cuando un aviso oficial o una noticia habla de un regreso, una baja del servicio o una salida (`rosterwatch.json`). La noticia sin aviso oficial dice "sin confirmar" | no |
-| Hoy sale | El día de un estreno (hora de Corea), desde Apple Music o desde el anuncio oficial (`releases.json`) | no |
-| Tu semana K-pop | Los lunes desde las 8 a. m. (hora de Colombia): shows, estrenos y cumpleaños de los próximos 7 días | no |
-| Robot | Una fuente del robot empieza a fallar o vuelve a funcionar (el vigilante, `tools/health.py --notify`) | no |
+| Fecha nueva | Aparece un show que antes no estaba | Fechas y conciertos (+ tema del país) |
+| Cambio | Cambia fecha, hora, ciudad o recinto de un show | Fechas y conciertos |
+| Quitada | Un show futuro desaparece de la agenda | Fechas y conciertos |
+| Hoy abre en... | El día del primer show de una ciudad, desde las 8 a. m. hora local | Fechas y conciertos (+ tema del país) |
+| En vivo | 45 min antes del show y hasta 4 h después | Fechas y conciertos |
+| Sigue a... | Terminó en una ciudad y viene la siguiente (con km de viaje) | Fechas y conciertos |
+| Cerca de ti | Show a menos de tu radio: al anunciarse y a los 7 días, 24 h y 3 h | — (solo con el servidor de `backend/`) |
+| Llegada oficial | Una cuenta oficial del grupo publica algo que menciona la ciudad de su próxima parada (desde 72 h antes), o avisa que llegó | Fechas y conciertos |
+| Llegada reportada | Un medio publica que el grupo llegó. Se marca como reportado, no como oficial | Noticias de prensa |
+| Latinoamérica | Noticia de gira o concierto que menciona países o regiones de Latam | Noticias de prensa |
+| Anuncio oficial | Una cuenta oficial publica un anuncio de gira, entradas o comeback (también los `[NOTICE]` que vienen de Weverse). Máximo uno por grupo, tipo y día | Fechas y conciertos (gira) o Estrenos (comeback) |
+| Comeback / Gira | Noticias en Soompi, Koreaboo y Google Noticias. Si varios medios cuentan la misma historia en 48 h, sale una sola alerta | Noticias de prensa |
+| Video | Video nuevo en el canal oficial de YouTube (con `YT_API_KEY`; no va a ntfy) | — (son varios al día; solo Discord y la web) |
+| Cumpleaños | El día del cumpleaños de cada miembro (hora de Corea), con los años que cumple (`assets/people.json`) | Integrantes y cumpleaños |
+| Servicio militar y regresos | El día que un miembro se enlista o vuelve (por fecha, `assets/people.json`), y cuando un aviso oficial o una noticia habla de un regreso, una baja del servicio o una salida (`rosterwatch.json`). La noticia sin aviso oficial dice "sin confirmar" | Integrantes y cumpleaños |
+| Hoy sale | El día de un estreno (hora de Corea), desde Apple Music o desde el anuncio oficial (`releases.json`) | Estrenos |
+| Tu semana K-pop | Los lunes desde las 8 a. m. (hora de Colombia): shows, estrenos y cumpleaños de los próximos 7 días | Resumen de los lunes (`radarkpop-semana`) |
+| Robot | Una fuente del robot empieza a fallar o vuelve a funcionar (el vigilante, `tools/health.py --notify`) | — (solo a ti) |
 
 "Llegó a una ciudad" sale de lo que ellos mismos publican en sus cuentas oficiales, de lo que reporta la prensa, y de la agenda (día del show y fin del show). El motor no usa avistamientos de fans ni rastreo de vuelos, a propósito.
+
+## 0. Alertas para los fans (lo que usa la web)
+
+Sin servidor, sin cuentas y sin pedir datos personales. En la sección **Recibir alertas** cada fan elige grupos y tipos:
+
+- **Celular (ntfy):** el robot publica cada alerta, además de en tu tema privado (`NTFY_TOPIC`), en temas públicos
+  `radarkpop-<grupo>-<tipo>` con cuatro tipos: `shows` (fechas y conciertos), `music` (estrenos), `news` (noticias de prensa)
+  y `members` (integrantes y cumpleaños). Además `radarkpop-pais-<país>` (fechas nuevas y día del show en ese país, por ejemplo
+  `radarkpop-pais-mexico`) y `radarkpop-semana` (resumen de los lunes). La web arma la lista de temas según lo que el fan marcó;
+  en Android un toque abre la app y suscribe, en iPhone se copia el nombre y se pega en la app (**+**). El prefijo sale de
+  `ntfyTopicPrefix` en `config.js` (vacío lo apaga). Tope de 45 publicaciones públicas por corrida: ntfy.sh deja 250 al día.
+  Los temas públicos los puede leer cualquiera (son las mismas alertas que ya muestra la web) y, en teoría, alguien podría
+  publicar en ellos; si eso pasa, cambia el prefijo en `config.js` y avisa en la web.
+- **Discord:** un canal tipo foro con una publicación por grupo (`DISCORD_FORUM_WEBHOOK_URL`, pasos en [CLAVES.md](CLAVES.md)).
+  El fan entra con la invitación de `discordInvite` (en `config.js`) y sigue las publicaciones de sus grupos. Los ids de las
+  publicaciones se guardan en `state/state.json` (`discord_threads`); si alguien borra una, el robot crea otra.
+- **WhatsApp:** no está en la web. La API oficial de Meta es de pago y pide verificar un negocio, y los servicios "gratis" no
+  son oficiales ni estables. Lo de las secciones 2, 3, 4, 7 y 8 (DM por bot, WhatsApp, suscriptores, servidor y push) sigue
+  funcionando en el motor para quien lo quiera montar, pero la web ya no lo usa.
 
 ## 1. Discord (canal para todos)
 

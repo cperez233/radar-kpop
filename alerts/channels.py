@@ -58,6 +58,26 @@ def send_discord_webhook(url: str | None, alert: dict, dry: bool) -> bool:
         return False
 
 
+def send_discord_forum(url: str, alert: dict, thread_id: str | None, thread_name: str, dry: bool) -> tuple[bool, str | None]:
+    """Webhook de un canal tipo foro: escribe en la publicación del grupo (thread_id) o la crea (thread_name).
+    Devuelve (salió, id de la publicación). Así cada fan sigue solo las publicaciones de sus grupos."""
+    if dry or not url:
+        print(f"[prueba] discord foro [{thread_name}] | {alert['title']}")
+        return True, thread_id
+    sep = "&" if "?" in url else "?"
+    try:
+        if thread_id:
+            _post(f"{url}{sep}wait=true&thread_id={thread_id}", {"embeds": [_embed(alert)]}, {})
+            time.sleep(0.6)
+            return True, thread_id
+        msg = _post(f"{url}{sep}wait=true", {"thread_name": thread_name[:100], "embeds": [_embed(alert)]}, {})
+        time.sleep(0.6)
+        return True, str(msg.get("channel_id") or "") or None
+    except (urllib.error.URLError, OSError, ValueError) as exc:
+        print(f"Fallo el foro de Discord ({thread_name}): {exc}")
+        return False, None
+
+
 NTFY_TAGS = {"new_date": "date", "changed": "warning", "removed": "x", "live": "red_circle", "stop_today": "star",
              "next_stop": "airplane", "arrival_official": "airplane", "arrival": "airplane", "latam": "tada",
              "comeback": "cd", "tour": "ticket", "official": "loudspeaker", "video": "tv", "roster": "newspaper",
@@ -69,14 +89,14 @@ def send_ntfy(topic: str | None, alert: dict, dry: bool, server: str = "https://
     if not topic:
         return False
     if dry:
-        print(f"[prueba] ntfy | {alert['title']}")
+        print(f"[prueba] ntfy {topic} | {alert['title']}")
         return True
     payload = {"topic": topic, "title": alert["title"][:200], "message": alert.get("body", "")[:1000] or alert["title"],
                "tags": [NTFY_TAGS.get(alert.get("type"), "sparkles")], "priority": 4 if alert.get("type") in ("new_date", "live", "latam", "official") else 3}
-    if alert.get("url"):
-        payload["click"] = alert["url"]
+    payload["click"] = alert.get("url") or "https://radar-kpop.vercel.app"  # sin enlace propio, tocarla abre el radar
     try:
         _post(server.rstrip("/"), payload, {})
+        time.sleep(0.4)  # ntfy.sh: ráfagas de hasta 60 y luego 1 cada 5 s
         return True
     except (urllib.error.URLError, OSError) as exc:
         print(f"Fallo ntfy: {exc}")

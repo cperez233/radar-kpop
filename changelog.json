@@ -1,12 +1,40 @@
 [
   {
+    "version": "4.8",
+    "date": "2026-10-16",
+    "title_es": "Alertas que sí puedes elegir y tarjetas completas",
+    "title_en": "Alerts you can actually choose and full cards",
+    "es": [
+      "Recibir alertas, de nuevo: eliges grupos y tipos (fechas y conciertos, estrenos, noticias, integrantes y cumpleaños), y te suscribes gratis con la app ntfy, sin cuenta ni número. También un tema por país y el resumen de los lunes.",
+      "Discord por grupo: un foro con una publicación por grupo; cada fan sigue solo las de sus grupos.",
+      "Salen del formulario el apodo, WhatsApp y el push del navegador: necesitaban un servidor o eran de pago. Ya no guardamos ningún dato tuyo.",
+      "Las tarjetas de los grupos vuelven a mostrar la foto y Escúchalos en, sin el botón Más, y en el celular todas miden lo mismo.",
+      "Exintegrantes en gris dentro de la fila de miembros, con su etiqueta ex.",
+      "Estrenos y videos: por defecto solo música y MV; vlogs, teasers y shorts quedan en Videos, con su etiqueta.",
+      "Las noticias muestran la hora en que se publicaron, no la hora en que el robot las vio.",
+      "En el iPhone el sticker del logo ya no tapa el botón de instalar.",
+      "Woojin ya no aparece en Stray Kids."
+    ],
+    "en": [
+      "Get alerts, redone: pick groups and types (dates and concerts, releases, news, members and birthdays) and subscribe for free with the ntfy app, no account or number. Also one topic per country and the Monday recap.",
+      "Discord per group: a forum with one post per group; each fan follows only their groups.",
+      "Nickname, WhatsApp and browser push are gone from the form: they needed a server or cost money. We no longer store any of your data.",
+      "Group cards show the photo and Listen on again, without the More button, and on phones they are all the same height.",
+      "Former members in grey inside the member row, with an ex tag.",
+      "Releases and videos: music and MVs by default; vlogs, teasers and shorts live under Videos, with a tag.",
+      "News show when they were published, not when the robot saw them.",
+      "On iPhone the logo sticker no longer covers the install button.",
+      "Woojin no longer shows up in Stray Kids."
+    ]
+  },
+  {
     "version": "4.7",
     "date": "2026-10-16",
     "title_es": "ATEEZ, integrantes en servicio y la web en el celular",
     "title_en": "ATEEZ, members away and the site on phones",
     "es": [
       "Llega ATEEZ: chibis de los 8, foto, trivia, estadísticas y su gira 2027 ZERO TO ALL (Incheon, Tokio y Kobe por ahora).",
-      "Miembros en servicio militar en gris con su casco, fecha de regreso y barra de progreso; vuelven a color solos el día que terminan. Exintegrantes (Woojin, Heeseung, Danielle) en gris con el motivo.",
+      "Miembros en servicio militar en gris con su casco, fecha de regreso y barra de progreso; vuelven a color solos el día que terminan. Exintegrantes (Heeseung, Danielle) en gris con el motivo.",
       "Un vigilante lee avisos oficiales y noticias: si hay aviso oficial de un regreso o un enlistamiento, la web cambia sola; si es solo noticia, muestra el enlace.",
       "Próximos estrenos leídos de los posts oficiales, \"¡Sale hoy!\" el día del estreno y \"Nuevo\" los 10 días siguientes. Las notas viejas caducan solas.",
       "Chibis nítidos en iPhone (la sombra ya no usa un filtro que Safari dibuja borroso).",
@@ -15,7 +43,7 @@
     ],
     "en": [
       "ATEEZ joins: chibis for all 8, photo, trivia, numbers and their 2027 ZERO TO ALL tour (Incheon, Tokyo and Kobe so far).",
-      "Members in military service shown in grey with a helmet, return date and progress bar; they turn back to colour on their own when they finish. Former members (Woojin, Heeseung, Danielle) in grey with the reason.",
+      "Members in military service shown in grey with a helmet, return date and progress bar; they turn back to colour on their own when they finish. Former members (Heeseung, Danielle) in grey with the reason.",
       "A watcher reads official notices and the news: an official notice of a return or an enlistment updates the site by itself; news alone shows a link.",
       "Upcoming releases read from official posts, \"Out today!\" on release day and \"New\" for the next 10 days. Old notes expire on their own.",
       "Sharp chibis on iPhone (the shadow no longer uses a filter Safari draws blurry).",

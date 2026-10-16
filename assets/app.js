@@ -123,24 +123,21 @@
         ';--bd:' + (2.2 + (i % 4) * .35).toFixed(2) + 's;--dl:-' + (i * .41 % 2.4).toFixed(2) + 's;--hi:' + i + '">';
     }).join('') };
   }
-
   /* ================= idioma ================= */
   var I18N = {
     es: {
       skip: 'Saltar a los grupos', install: 'Instalar', globe: 'Globo', sonar: 'Sonar', videoMode: 'Modo video', dragHint: 'arrástrame', you: 'Tú',
       sonarNote: 'Distancia en escala de raíz: lo cercano se ve más separado.', myCity: 'Tu ubicación', useLocation: 'Usar mi ubicación', checkNow: 'Revisar ahora',
-      groupsTitle: '¿Cuándo y dónde?', feedTitle: 'Últimas alertas', testParty: 'Probar la celebración', subTitle: 'Recibir alertas',
-      subLead: 'Te avisamos cuando tu grupo anuncia fechas, llega a una ciudad cerca o sube al escenario.',
-      fName: 'Tu nombre o apodo', fDiscord: 'Tu ID de usuario de Discord', fDiscordHint: 'Discord, Ajustes, Avanzado, Modo desarrollador. Luego clic derecho en tu nombre y Copiar ID.',
-      eDiscord: 'El ID son 17 a 20 números.', fWa: 'Tu WhatsApp con indicativo', eWa: 'Escríbelo con el indicativo, por ejemplo +57 300 000 0000.',
-      fOptIn: 'Acepto recibir mensajes del radar por WhatsApp.', eOpt: 'WhatsApp exige que lo aceptes.', fGroups: 'Grupos', fTypes: 'Qué quieres que te avisemos',
-      fRadius: 'Avísame de shows a menos de', preview: 'Así te llegaría',
-      privacy: 'Tus datos se guardan solo en este navegador. Si el radar tiene servidor configurado, se envían únicamente para mandarte estas alertas. Puedes borrarlos cuando quieras.',
+      groupsTitle: '¿Cuándo y dónde?', feedTitle: 'Últimas alertas', testParty: 'Probar la celebración', subTitle: 'Recibir alertas', dcUseNtfy: 'Usar el celular (ntfy)', dcSoon: 'Mientras tanto, las alertas al celular con ntfy ya funcionan y te dejan elegir grupo y tipo.', dcSoonT: 'El servidor de Discord viene pronto.', dcNote: 'Para elegir también el tipo de alerta (solo estrenos, solo fechas...), usa el celular con ntfy.', dcYours: 'tus grupos', dcFollow: 'Entra a la publicación de {g} y toca "Seguir". Discord te avisará solo de esas.', dcForum: 'Abre el canal #alertas: es un foro con una publicación por grupo.', dcJoin: 'Entrar al servidor de Discord', ntfyMany: 'Son {n} temas: si te parecen muchos, quita tipos o grupos.', ntfyCopyAll: 'Copiar los {n} temas', ntfyOpen: 'Abrir en ntfy', ntfyHowIos: 'En la app toca "+", pega el nombre del tema y toca Subscribe. Repite con cada uno (el botón Copiar te lo deja listo).', ntfyHow: 'Toca "Abrir en ntfy" en cada uno y confirma en la app. Cada tema es un tipo de alerta de un grupo.', ntfyPick: 'Elige al menos un grupo y un tipo de alerta, o tu país.', ntfyOff: 'Las alertas por ntfy están apagadas en este radar.', topicWeekly: 'Resumen de los lunes', topicCountry: '{c}: fechas nuevas y día del show', catMembers: 'Integrantes y cumpleaños', catNews: 'Noticias de prensa', catMusic: 'Estrenos', catShows: 'Fechas y conciertos', ntfySubTitle: 'Suscríbete a tus temas', ntfyWhy: 'Es gratis y no pide cuenta, número ni correo. Te llegan notificaciones aunque la web esté cerrada.', storeAndroid: 'Disponible en', storeIos: 'Descárgala en', ntfyInstall: 'Instala ntfy, la app que recibe las alertas', fWeekly: 'El resumen de los lunes: shows, estrenos y cumpleaños de la semana', fCountryAria: 'País', fCountry: 'Fechas nuevas de cualquier grupo en',
+      subLead: 'Elige tus grupos y qué quieres saber. Gratis, sin cuenta y sin darnos tu número ni tu correo.',
+      fGroups: 'Tus grupos', fTypes: 'Qué quieres que te avisemos',
+      preview: 'Así te llegaría',
+      privacy: 'No guardamos nada tuyo: tus elecciones quedan solo en este navegador y la suscripción vive en tu app.',
       privacyLink: 'Cómo usamos tus datos', privacyTitle: 'Privacidad',
-      privacy1: 'El radar no tiene cuentas, ni cookies de rastreo, ni analítica. En tu navegador (localStorage) se guardan tu ciudad, tu idioma, si silenciaste los sonidos, tu grupo favorito, qué alertas ya viste y, si llenas el formulario, tu nombre, tu ID de Discord o tu WhatsApp, tus grupos y tus tipos de alerta.',
-      privacy2: 'Al entrar, el radar le pide tu ubicación al navegador. Si aceptas, la posición se redondea (unos 1 km) y se guarda solo en tu equipo para medir distancias; si no, usamos Bucaramanga o la ciudad que elijas. Tu ubicación nunca sale de tu equipo, salvo la ciudad y el radio del formulario cuando el radar tenga un servidor de alertas configurado.',
+      privacy1: 'El radar no tiene cuentas, ni cookies de rastreo, ni analítica. En tu navegador (localStorage) se guardan tu ciudad, tu idioma, si silenciaste los sonidos, tu grupo favorito, qué alertas ya viste y lo que elegiste en "Recibir alertas" (grupos, tipos y país). Nada de eso sale de tu equipo.',
+      privacy2: 'Al entrar, el radar le pide tu ubicación al navegador. Si aceptas, la posición se redondea (unos 1 km) y se guarda solo en tu equipo para medir distancias; si no, usamos Bucaramanga o la ciudad que elijas. Tu ubicación nunca sale de tu equipo.',
       privacy3: 'Las fuentes se cargan desde Google Fonts. Las portadas de los estrenos vienen de Apple Music y YouTube, y el mapa de ciudad (solo si lo abres) de OpenFreeMap. Cada uno de esos servicios ve tu dirección IP, como en cualquier sitio que los use. Para borrar todo, usa "Borrar mis datos" o limpia los datos del sitio en tu navegador.',
-      subSubmit: 'Guardar mis alertas', subDelete: 'Borrar mis datos', bye: 'Nos vemos en la próxima parada', footLead: 'El robot revisa giras, estrenos, avisos y redes cada 15 minutos. Tú solo vuelve cuando quieras.', howTitle: 'Cómo funciona',
+      subDelete: 'Borrar mis elecciones', bye: 'Nos vemos en la próxima parada', footLead: 'El robot revisa giras, estrenos, avisos y redes cada 15 minutos. Tú solo vuelve cuando quieras.', howTitle: 'Cómo funciona',
       disclaimer1: 'Esto muestra la agenda oficial y pública de cada grupo. No rastrea a nadie en tiempo real: el chibi está en la próxima fecha confirmada, no donde están en este momento.',
       disclaimer2: 'Las horas son aproximadas (20:00 hora local cuando la fuente no la trae) y las coordenadas de los recintos también. Las fechas marcadas como anunciadas vienen de un solo anuncio y pueden cambiar.',
       sources: 'Fuentes', credit: 'Hecho con amor de fan por', dockWorld: 'Mundo', dockGroups: 'Grupos', dockFeed: 'Avisos', dockAlerts: 'Alertas', dockVideo: 'Video',
@@ -148,17 +145,14 @@
       live: 'En vivo ahora', liveKo: '공연 중', next: 'Próxima parada', nextKo: '다음 공연', rest: 'Sin fechas anunciadas', restKo: '쉬는 중',
       restWhere: 'En pausa', lastStop: 'Última parada', kmFrom: 'km de {city}', flight: '~{h} h de vuelo directo', localTime: 'hora local', yourTime: 'en tu hora',
       days: 'días', hours: 'horas', mins: 'min', secs: 'seg', share: 'Compartir', calendar: 'Agregar al calendario', calShort: 'Agendar', seeCard: 'Ver ficha', seeGlobe: 'Ver en el globo',
-      tour: 'Ver gira ({n} ciudades)', pastTour: 'Última gira ({n} ciudades)', announced: 'anunciado', toConfirm: 'por confirmar', timeTbd: 'hora por confirmar', seeNotice: 'Ver el anuncio oficial', seeNews: 'Ver la noticia', bias: 'Mi grupo favorito', nearest: 'Lo más cerca de ti', nothingNear: 'Ningún grupo tiene fechas por ahora.',
+      tour: 'Ver gira ({n} ciudades)', pastTour: 'Última gira ({n} ciudades)', tour1: 'Ver gira (1 ciudad)', pastTour1: 'Última gira (1 ciudad)', restShows1: 'shows en 1 ciudad', announced: 'anunciado', toConfirm: 'por confirmar', timeTbd: 'hora por confirmar', seeNotice: 'Ver el anuncio oficial', seeNews: 'Ver la noticia', bias: 'Mi grupo favorito', nearest: 'Lo más cerca de ti', nothingNear: 'Ningún grupo tiene fechas por ahora.',
       agendaOf: 'Agenda del {when}', checkedAgo: 'revisada hace {ago}', offline: 'Sin conexión con la agenda, mostrando la última copia ({when})', loading: 'Cargando agenda',
       emptyFeed: 'Todavía no hay alertas. Aparecen aquí cuando cambia la agenda, un grupo pasa a la siguiente ciudad, hay un show por empezar o sale una noticia de gira o comeback.',
       ago: 'hace {n}', newAlert: '¡Alerta nueva!', moreAlerts: 'y {n} alertas más en el feed', close: 'Cerrar', closeVideo: 'Salir', replay: 'Repetir', see: 'Ver',
       shareText: '{g} en {city} en {d}. ¿Y tú, cuándo los ves?', shareRest: '{g} está en pausa, sin fechas anunciadas. Esperando juntos.', shared: 'Tarjeta lista', saved: 'Imagen descargada',
       icsSaved: 'Evento descargado, ábrelo para guardarlo', geoAsk: 'Buscando tu ubicación...', geoFail: 'No pudimos leer tu ubicación', myLocation: 'Mi ubicación',
-      subSaved: 'Guardado en este navegador.', subSent: '¡Listo! Te suscribimos a las alertas.', subNoEndpoint: 'Todavía no hay servidor de alertas. Tus datos quedan guardados aquí y este es el formato que necesita el radar:',
-      subFail: 'No pudimos enviar los datos. Quedaron guardados aquí, inténtalo más tarde.', copy: 'Copiar', copied: 'Copiado', deleted: 'Datos borrados',
-      pvDiscord: '**{g}** sube al escenario en {city}', pvWa: 'Radar K-pop: {g} toca en {city} cerca de ti, a {km} km.', pvNow: 'ahora',
-      typesNear: 'Cerca de ti', typesLive: 'En vivo y hoy', typesDates: 'Fechas nuevas o cambios', typesNext: 'Siguiente parada', typesArrival: 'Llegadas',
-      typesLatam: 'Latinoamérica', typesNews: 'Comebacks y giras', typesMembers: 'Cumpleaños, servicio militar y regresos', typesVideo: 'Videos',
+      copy: 'Copiar', copied: 'Copiado', deleted: 'Elecciones borradas',
+      pvNow: 'ahora',
       vTitle: '¿Dónde están hoy?', vRest: 'en pausa, esperando fechas', vOutro: '¿Y tú, cuándo los ves?', dday: 'D-DAY', unmute: 'Sonidos activados', mute: 'Sonidos en silencio',
       installed: 'Radar instalado', tapToStart: 'Toca para empezar',
       zoomIn: 'Acercar', zoomOut: 'Alejar', centerMe: 'Centrar en mí', geoLooking: 'Buscando tu ubicación...', geoDenied: 'No pudimos leer tu ubicación. Usamos Bucaramanga, puedes cambiarla en "Tu ciudad".',
@@ -167,7 +161,7 @@
       sightSample: 'Datos de ejemplo: todavía no hay conexión con las cuentas oficiales.', sightAway: 'a {km} km de ti', sightNew: '¡{n} avistamientos nuevos!', sightNew1: '¡Un avistamiento nuevo!', sightSee: 'Ver post oficial',
       sightEmpty: 'Todavía no hay avistamientos. Aparecen cuando una cuenta oficial menciona una ciudad.', tickerK: 'AVISTAMIENTOS CERCANOS', sightSource: 'Fuente: cuentas oficiales en X',
       squad: 'Toca a cada miembro', notOnTour: 'no va en esta gira', photoAlt: 'Foto oficial de {g}', withUnit: 'con {names}',
-      gpOpen: 'Ver todo', cardMore: 'Foto, música, datos y trivia', swipeHint: 'Desliza para ver los demás grupos', feedMore: 'Ver {n} más', groupsPick: 'Grupos', cardLess: 'Mostrar menos', gpHome: 'Inicio', gpMembers: 'Miembros', gpTour: 'Gira', gpMusic: 'Música', gpSocial: 'Redes', gpSeeTour: 'Ver la gira', gpTapMember: 'Toca a un miembro para ver su perfil, su cumpleaños y sus redes.', gpAllMembers: 'Todos los miembros', gpNoPersonal: 'No tiene cuentas personales públicas; sigue al grupo en Redes.', gpLatestPosts: 'Lo último que publicaron', gpPlayHere: 'Ver aquí', gpOpenPost: 'Abrir el post', gpSource: 'fuente', gpUpcoming: 'Próximas fechas ({n} ciudades)', gpPast: 'Últimas paradas ({n})', gpNoDates: 'Sin fechas anunciadas por ahora.', gpNoPosts: 'Todavía no hay posts guardados; el robot los trae solo.', gpMemberAccounts: 'Cuentas de los miembros', bdayToday: 'Hoy cumple {name}', bdayIsToday: '¡cumple hoy!', bdayIn: 'cumple en {n} días', bdayTurnsToday: '¡hoy cumple {n}!', bdayAgeIn: '{age} años · cumple en {n} días', regCo: 'Colombia', regLatam: 'Latinoamérica y el Caribe', regNa: 'Estados Unidos y Canadá', regEu: 'Europa', regAsia: 'Asia, Oceanía y Medio Oriente', listen: 'Escúchalos en', nextRelease: 'Próximo estreno', relToday: '¡Sale hoy!', relNew: 'Nuevo', relAnn: 'anuncio oficial', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
+      gpOpen: 'Ver todo', swipeHint: 'Desliza para ver los demás grupos', feedMore: 'Ver {n} más', groupsPick: 'Grupos', gpHome: 'Inicio', gpMembers: 'Miembros', gpTour: 'Gira', gpMusic: 'Música', gpSocial: 'Redes', gpSeeTour: 'Ver la gira', gpTapMember: 'Toca a un miembro para ver su perfil, su cumpleaños y sus redes.', gpAllMembers: 'Todos los miembros', gpNoPersonal: 'No tiene cuentas personales públicas; sigue al grupo en Redes.', gpLatestPosts: 'Lo último que publicaron', gpPlayHere: 'Ver aquí', gpOpenPost: 'Abrir el post', gpSource: 'fuente', gpUpcoming: 'Próximas fechas ({n} ciudades)', gpPast: 'Últimas paradas ({n})', gpNoDates: 'Sin fechas anunciadas por ahora.', gpNoPosts: 'Todavía no hay posts guardados; el robot los trae solo.', gpMemberAccounts: 'Cuentas de los miembros', bdayToday: 'Hoy cumple {name}', bdayIsToday: '¡cumple hoy!', bdayIn: 'cumple en {n} días', bdayTurnsToday: '¡hoy cumple {n}!', bdayAgeIn: '{age} años · cumple en {n} días', regCo: 'Colombia', regLatam: 'Latinoamérica y el Caribe', regNa: 'Estados Unidos y Canadá', regEu: 'Europa', regAsia: 'Asia, Oceanía y Medio Oriente', listen: 'Escúchalos en', nextRelease: 'Próximo estreno', relToday: '¡Sale hoy!', relNew: 'Nuevo', relAnn: 'anuncio oficial', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
       stMembers: 'miembros', stDebutK: 'debut', stListeners: 'oyentes mensuales en Spotify', stPeak: 'récord de oyentes mensuales', stStreams: 'reproducciones en Spotify',
       stTopSong: 'su canción más escuchada · {n} reproducciones', stTopSongK: 'su canción más escuchada', stSubs: 'suscriptores en YouTube', stAgency: 'Agencia',
       stSource: 'Números de Spotify vía kworb.net, se actualizan solos una vez al día.',
@@ -177,14 +171,12 @@
       msLeft: 'faltan {n} días', msSince: 'se enlistó el {d}', msTitle: 'En servicio militar ({n})', msNote: 'Las fechas de regreso marcadas como estimadas salen de la duración del servicio (18 meses activo, 21 alternativo); cambian solas cuando hay aviso oficial.',
       fmTitle: 'Exintegrantes', fmLeft: 'salió del grupo', fmSolo: 'ahora es solista', fmContract: 'contrato terminado', fmBack: '¡volvió al grupo!', fmSince: 'desde {d}',
       rwNews: 'Hay noticias sobre esto', rwOfficial: 'Aviso oficial', rwSee: 'Ver la noticia',
-      pushLead: 'Notificaciones en este celular o computador, aunque la web esté cerrada.', pushNeedCfg: 'Todavía falta el servidor de notificaciones (subscribeEndpoint y vapidPublicKey en config.js). Tus preferencias quedan guardadas aquí.',
-      pushUnsupported: 'Este navegador no soporta notificaciones. En iPhone primero instala el radar en tu pantalla de inicio.', pushDenied: 'Las notificaciones están bloqueadas. Actívalas en los ajustes del navegador.', pushOn: '¡Listo! Te llegarán notificaciones.',
       homeAria: 'Radar K-pop, inicio', langAria: 'Idioma', navAria: 'Secciones', navCity: 'Tú', navSight: 'Avistamientos', navMedia: 'Estrenos', viewAria: 'Vista',
       globeAria: 'Globo con la próxima parada de cada grupo', autoSpin: 'Girar solo', channelAria: 'Canal', sortAria: 'Orden', filterAria: 'Filtrar',
-      mediaTitle: 'Estrenos y videos', mediaLead: 'Lo último en música y los videos oficiales de cada grupo.', mediaAll: 'Todo', mediaMusic: 'Música', mediaVideo: 'Videos',
+      mediaTitle: 'Estrenos y videos', mediaLead: 'Primero la música: canciones, álbumes y MV. Los vlogs, teasers y shorts están en Videos.', mediaAll: 'Todo', mediaMusic: 'Música y MV', mediaVideo: 'Videos', vkMv: 'MV', vkTeaser: 'Teaser', vkShort: 'Short', vkVlog: 'Vlog', vkBehind: 'Detrás de cámaras', vkShow: 'Programa',
       mediaSrc: 'Fuentes: catálogo de Apple Music (iTunes Search API) y canales oficiales de YouTube. Se actualiza solo.', mediaEmpty: 'Todavía no hay estrenos guardados.',
       mediaListen: 'Escuchar', mediaWatch: 'Ver video', mediaSample: 'Datos de ejemplo', released: 'salió {when}',
-      cityOpen: 'Mapa de la ciudad', cityLoading: 'Dibujando la ciudad...', cityTilt: 'Vista 3D', cityVenue: 'Volver al recinto', cityFail: 'No pudimos cargar el mapa. Revisa tu conexión.',
+      cityOpen: 'Mapa de la ciudad', cityShort: 'Mapa', restShows: 'shows en {n} ciudades', cityLoading: 'Dibujando la ciudad...', cityTilt: 'Vista 3D', cityVenue: 'Volver al recinto', cityFail: 'No pudimos cargar el mapa. Revisa tu conexión.',
       cityK: 'Próxima parada', cityLast: 'Última parada', cityYou: 'Tú', cityAttr: 'Mapa: OpenFreeMap · datos © OpenStreetMap',
       locReal: 'Ubicación real', locNear: 'cerca de {city}', locAcc: '±{km} km', locDefault: 'Ciudad por defecto: Bucaramanga', locChosen: 'Ciudad elegida por ti',
       locAsking: 'Esperando el permiso de ubicación...', locWhy: 'Motivo: {why}', locFix: 'Cómo activarla', locAgain: 'Intentar de nuevo',
@@ -197,8 +189,7 @@
       helpDesktop: 'Haz clic en el candado o el ícono de ajustes junto a la dirección y permite la ubicación para este sitio. Luego toca "Intentar de nuevo".',
       langHello: '¡Hola!', vNext: 'próxima parada', vAll: '{n} grupos de gira', vWaiting: 'esperando fechas',
       changesTitle: 'Novedades', you2: 'Tú',
-      fConsent: 'Autorizo al radar a usar estos datos solo para mandarme las alertas que elegí. Si soy menor de edad, tengo permiso de mi mamá, papá o acudiente.', eConsent: 'Necesitamos tu autorización para guardar tus alertas.',
-      privacy4: 'Responsable: Cristian Pérez (cristianperez.me). Puedes conocer, actualizar o borrar tus datos y retirar tu autorización cuando quieras: "Borrar mis datos" los borra de este navegador y del servidor, o escribe a crisperezm879@gmail.com. Si el radar tiene servidor, tus datos se guardan en Cloudflare solo para mandarte alertas, sin tu IP ni tu ubicación exacta; las notificaciones push pasan por el servicio de tu navegador (Google, Apple o Mozilla). Si eres menor de edad, pide permiso a un adulto antes de dejar tu WhatsApp.',
+      privacy4: 'Responsable: Cristian Pérez (cristianperez.me). Las alertas llegan por ntfy (ntfy.sh) o Discord: el radar publica en temas y canales públicos y tú decides a cuáles suscribirte desde tu app, así que el radar nunca conoce tu número, tu correo ni tu ubicación. Puedes borrar tus elecciones con "Borrar mis elecciones", cancelar la suscripción en la app cuando quieras, o escribir a crisperezm879@gmail.com.',
       T: { new_date: 'Fecha nueva', changed: 'Cambio', removed: 'Quitada', stop_today: 'Hoy', live: 'En vivo', next_stop: 'Siguiente parada', arrival_official: 'Llegada oficial', arrival: 'Llegada', latam: 'Latam', comeback: 'Comeback', tour: 'Gira', official: 'Oficial', video: 'Video', prox: 'Cerca de ti', prox_new: 'Cerca de ti', roster: 'Miembros', birthday: 'Cumpleaños', weekly: 'Tu semana' },
       months: ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'], wdays: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
       cardinal: ['N', 'E', 'S', 'O'], locale: 'es-CO'
@@ -206,18 +197,16 @@
     en: {
       skip: 'Skip to the groups', install: 'Install', globe: 'Globe', sonar: 'Sonar', videoMode: 'Video mode', dragHint: 'drag me', you: 'You',
       sonarNote: 'Square-root distance scale: nearby stops look more spread out.', myCity: 'Your location', useLocation: 'Use my location', checkNow: 'Check now',
-      groupsTitle: 'When and where?', feedTitle: 'Latest alerts', testParty: 'Try the celebration', subTitle: 'Get alerts',
-      subLead: 'We ping you when your group announces dates, lands in a city near you or goes on stage.',
-      fName: 'Your name or nickname', fDiscord: 'Your Discord user ID', fDiscordHint: 'Discord, Settings, Advanced, Developer Mode. Then right click your name and Copy ID.',
-      eDiscord: 'The ID is 17 to 20 digits.', fWa: 'Your WhatsApp with country code', eWa: 'Add the country code, for example +1 305 000 0000.',
-      fOptIn: 'I agree to receive radar messages on WhatsApp.', eOpt: 'WhatsApp requires your consent.', fGroups: 'Groups', fTypes: 'What should we tell you about',
-      fRadius: 'Tell me about shows closer than', preview: 'This is how it arrives',
-      privacy: 'Your data is stored only in this browser. If the radar has a server configured, it is sent only to deliver these alerts. You can delete it anytime.',
+      groupsTitle: 'When and where?', feedTitle: 'Latest alerts', testParty: 'Try the celebration', subTitle: 'Get alerts', dcUseNtfy: 'Use the phone (ntfy)', dcSoon: 'Meanwhile, phone alerts with ntfy already work and let you pick group and type.', dcSoonT: 'The Discord server is coming soon.', dcNote: 'To also pick the alert type (only releases, only dates...), use the phone tab with ntfy.', dcYours: 'your groups', dcFollow: 'Open the post for {g} and tap "Follow". Discord will only ping you about those.', dcForum: 'Open the #alertas channel: it is a forum with one post per group.', dcJoin: 'Join the Discord server', ntfyMany: 'That is {n} topics: if it feels like a lot, remove some types or groups.', ntfyCopyAll: 'Copy all {n} topics', ntfyOpen: 'Open in ntfy', ntfyHowIos: 'In the app tap "+", paste the topic name and tap Subscribe. Repeat for each one (the Copy button gets it ready).', ntfyHow: 'Tap "Open in ntfy" on each one and confirm in the app. Each topic is one alert type from one group.', ntfyPick: 'Pick at least one group and one alert type, or your country.', ntfyOff: 'ntfy alerts are turned off on this radar.', topicWeekly: 'Monday recap', topicCountry: '{c}: new dates and show day', catMembers: 'Members and birthdays', catNews: 'Press news', catMusic: 'Releases', catShows: 'Dates and concerts', ntfySubTitle: 'Subscribe to your topics', ntfyWhy: 'It is free and asks for no account, number or email. Notifications arrive even when the site is closed.', storeAndroid: 'Get it on', storeIos: 'Download on the', ntfyInstall: 'Install ntfy, the app that gets the alerts', fWeekly: 'The Monday recap: shows, releases and birthdays of the week', fCountryAria: 'Country', fCountry: 'New dates from any group in',
+      subLead: 'Pick your groups and what you want to know. Free, no account, and no phone number or email.',
+      fGroups: 'Your groups', fTypes: 'What should we tell you about',
+      preview: 'This is how it arrives',
+      privacy: 'We keep nothing of yours: your choices stay in this browser and the subscription lives in your app.',
       privacyLink: 'How we use your data', privacyTitle: 'Privacy',
-      privacy1: 'The radar has no accounts, no tracking cookies and no analytics. Your browser (localStorage) keeps your city, your language, whether you muted sounds, your favorite group, which alerts you already saw and, if you fill the form, your name, your Discord ID or WhatsApp, your groups and alert types.',
-      privacy2: 'When you open it, the radar asks your browser for your location. If you allow it, the position is rounded (about 1 km) and stored only on your device to measure distances; if not, we use Bucaramanga or the city you choose. Your location never leaves your device, except the city and radius from the form once the radar has an alert server configured.',
+      privacy1: 'The radar has no accounts, no tracking cookies and no analytics. Your browser (localStorage) keeps your city, your language, whether you muted sounds, your favorite group, which alerts you already saw and what you picked in "Get alerts" (groups, types and country). None of it leaves your device.',
+      privacy2: 'When you open it, the radar asks your browser for your location. If you allow it, the position is rounded (about 1 km) and stored only on your device to measure distances; if not, we use Bucaramanga or the city you choose. Your location never leaves your device.',
       privacy3: 'Fonts load from Google Fonts. Release covers come from Apple Music and YouTube, and the city map (only if you open it) from OpenFreeMap. Each of those services sees your IP address, like on any site that uses them. To erase everything, use "Delete my data" or clear this site\'s data in your browser.',
-      subSubmit: 'Save my alerts', subDelete: 'Delete my data', bye: 'See you at the next stop', footLead: 'The robot checks tours, releases, notices and socials every 15 minutes. Just come back whenever you like.', howTitle: 'How it works',
+      subDelete: 'Delete my choices', bye: 'See you at the next stop', footLead: 'The robot checks tours, releases, notices and socials every 15 minutes. Just come back whenever you like.', howTitle: 'How it works',
       disclaimer1: 'This shows each group\'s official, public schedule. It does not track anyone in real time: the chibi stands on the next confirmed date, not where they are right now.',
       disclaimer2: 'Times are approximate (8 pm local time when the source has none) and so are venue coordinates. Dates marked as announced come from a single announcement and may change.',
       sources: 'Sources', credit: 'Made with fan love by', dockWorld: 'World', dockGroups: 'Groups', dockFeed: 'News', dockAlerts: 'Alerts', dockVideo: 'Video',
@@ -225,17 +214,14 @@
       live: 'Live now', liveKo: '공연 중', next: 'Next stop', nextKo: '다음 공연', rest: 'No dates announced', restKo: '쉬는 중',
       restWhere: 'On a break', lastStop: 'Last stop', kmFrom: 'km from {city}', flight: '~{h} h direct flight', localTime: 'local time', yourTime: 'your time',
       days: 'days', hours: 'hours', mins: 'min', secs: 'sec', share: 'Share', calendar: 'Add to calendar', calShort: 'Save date', seeCard: 'Details', seeGlobe: 'See on the globe',
-      tour: 'See tour ({n} cities)', pastTour: 'Last tour ({n} cities)', announced: 'announced', toConfirm: 'to be confirmed', timeTbd: 'time to be confirmed', seeNotice: 'See the official announcement', seeNews: 'See the news', bias: 'My favorite group', nearest: 'Closest to you', nothingNear: 'No group has dates right now.',
+      tour: 'See tour ({n} cities)', pastTour: 'Last tour ({n} cities)', tour1: 'See tour (1 city)', pastTour1: 'Last tour (1 city)', restShows1: 'shows in 1 city', announced: 'announced', toConfirm: 'to be confirmed', timeTbd: 'time to be confirmed', seeNotice: 'See the official announcement', seeNews: 'See the news', bias: 'My favorite group', nearest: 'Closest to you', nothingNear: 'No group has dates right now.',
       agendaOf: 'Schedule from {when}', checkedAgo: 'checked {ago} ago', offline: 'Can\'t reach the schedule, showing the last copy ({when})', loading: 'Loading schedule',
       emptyFeed: 'No alerts yet. They show up here when the schedule changes, a group moves to the next city, a show is about to start or there is tour or comeback news.',
       ago: '{n} ago', newAlert: 'New alert!', moreAlerts: 'and {n} more alerts in the feed', close: 'Close', closeVideo: 'Exit', replay: 'Replay', see: 'See',
       shareText: '{g} in {city} in {d}. When are you seeing them?', shareRest: '{g} is on a break, no dates yet. Waiting together.', shared: 'Card ready', saved: 'Image downloaded',
       icsSaved: 'Event downloaded, open it to save it', geoAsk: 'Finding you...', geoFail: 'We could not read your location', myLocation: 'My location',
-      subSaved: 'Saved in this browser.', subSent: 'Done! You are subscribed.', subNoEndpoint: 'There is no alert server yet. Your data stays here and this is the format the radar needs:',
-      subFail: 'We could not send it. It is saved here, try again later.', copy: 'Copy', copied: 'Copied', deleted: 'Data deleted',
-      pvDiscord: '**{g}** goes on stage in {city}', pvWa: 'Radar K-pop: {g} plays {city} near you, {km} km away.', pvNow: 'now',
-      typesNear: 'Near you', typesLive: 'Live and today', typesDates: 'New or changed dates', typesNext: 'Next stop', typesArrival: 'Arrivals',
-      typesLatam: 'Latin America', typesNews: 'Comebacks and tours', typesMembers: 'Birthdays, military service and returns', typesVideo: 'Videos',
+      copy: 'Copy', copied: 'Copied', deleted: 'Choices deleted',
+      pvNow: 'now',
       vTitle: 'Where are they today?', vRest: 'on a break, waiting for dates', vOutro: 'When are you seeing them?', dday: 'D-DAY', unmute: 'Sounds on', mute: 'Sounds muted',
       installed: 'Radar installed', tapToStart: 'Tap to start',
       zoomIn: 'Zoom in', zoomOut: 'Zoom out', centerMe: 'Center on me', geoLooking: 'Finding you...', geoDenied: 'We could not read your location. Using Bucaramanga, you can change it in "Your city".',
@@ -244,7 +230,7 @@
       sightSample: 'Sample data: not connected to the official accounts yet.', sightAway: '{km} km from you', sightNew: '{n} new sightings!', sightNew1: 'A new sighting!', sightSee: 'See official post',
       sightEmpty: 'No sightings yet. They show up when an official account mentions a city.', tickerK: 'SIGHTINGS NEAR YOU', sightSource: 'Source: official accounts on X',
       squad: 'Tap each member', notOnTour: 'not on this tour', photoAlt: 'Official photo of {g}', withUnit: 'with {names}',
-      gpOpen: 'See all', cardMore: 'Photo, music, facts and trivia', swipeHint: 'Swipe to see the other groups', feedMore: 'See {n} more', groupsPick: 'Groups', cardLess: 'Show less', gpHome: 'Home', gpMembers: 'Members', gpTour: 'Tour', gpMusic: 'Music', gpSocial: 'Social', gpSeeTour: 'See the tour', gpTapMember: 'Tap a member to see their profile, birthday and accounts.', gpAllMembers: 'All members', gpNoPersonal: 'No public personal accounts; follow the group under Social.', gpLatestPosts: 'Latest posts', gpPlayHere: 'Watch here', gpOpenPost: 'Open the post', gpSource: 'source', gpUpcoming: 'Upcoming dates ({n} cities)', gpPast: 'Last stops ({n})', gpNoDates: 'No dates announced for now.', gpNoPosts: 'No posts saved yet; the robot brings them on its own.', gpMemberAccounts: 'Members\' accounts', bdayToday: "It's {name}'s birthday", bdayIsToday: 'birthday today!', bdayIn: 'birthday in {n} days', bdayTurnsToday: 'turns {n} today!', bdayAgeIn: '{age} years old · birthday in {n} days', regCo: 'Colombia', regLatam: 'Latin America and the Caribbean', regNa: 'United States and Canada', regEu: 'Europe', regAsia: 'Asia, Oceania and Middle East', listen: 'Listen on', nextRelease: 'Next release', relToday: 'Out today!', relNew: 'New', relAnn: 'official announcement', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
+      gpOpen: 'See all', swipeHint: 'Swipe to see the other groups', feedMore: 'See {n} more', groupsPick: 'Groups', gpHome: 'Home', gpMembers: 'Members', gpTour: 'Tour', gpMusic: 'Music', gpSocial: 'Social', gpSeeTour: 'See the tour', gpTapMember: 'Tap a member to see their profile, birthday and accounts.', gpAllMembers: 'All members', gpNoPersonal: 'No public personal accounts; follow the group under Social.', gpLatestPosts: 'Latest posts', gpPlayHere: 'Watch here', gpOpenPost: 'Open the post', gpSource: 'source', gpUpcoming: 'Upcoming dates ({n} cities)', gpPast: 'Last stops ({n})', gpNoDates: 'No dates announced for now.', gpNoPosts: 'No posts saved yet; the robot brings them on its own.', gpMemberAccounts: 'Members\' accounts', bdayToday: "It's {name}'s birthday", bdayIsToday: 'birthday today!', bdayIn: 'birthday in {n} days', bdayTurnsToday: 'turns {n} today!', bdayAgeIn: '{age} years old · birthday in {n} days', regCo: 'Colombia', regLatam: 'Latin America and the Caribbean', regNa: 'United States and Canada', regEu: 'Europe', regAsia: 'Asia, Oceania and Middle East', listen: 'Listen on', nextRelease: 'Next release', relToday: 'Out today!', relNew: 'New', relAnn: 'official announcement', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
       stMembers: 'members', stDebutK: 'debut', stListeners: 'Spotify monthly listeners', stPeak: 'monthly listeners record', stStreams: 'Spotify streams',
       stTopSong: 'their most streamed song · {n} streams', stTopSongK: 'their most streamed song', stSubs: 'YouTube subscribers', stAgency: 'Agency',
       stSource: 'Spotify numbers via kworb.net, updated automatically once a day.',
@@ -254,14 +240,12 @@
       msLeft: '{n} days to go', msSince: 'enlisted on {d}', msTitle: 'In military service ({n})', msNote: 'Return dates marked as estimates come from the length of service (18 months active, 21 alternative); they update on their own when there is an official notice.',
       fmTitle: 'Former members', fmLeft: 'left the group', fmSolo: 'now a soloist', fmContract: 'contract ended', fmBack: 'back in the group!', fmSince: 'since {d}',
       rwNews: 'There is news about this', rwOfficial: 'Official notice', rwSee: 'See the news',
-      pushLead: 'Notifications on this phone or computer, even when the site is closed.', pushNeedCfg: 'The notification server is not set up yet (subscribeEndpoint and vapidPublicKey in config.js). Your preferences are saved here.',
-      pushUnsupported: 'This browser does not support notifications. On iPhone, install the radar on your home screen first.', pushDenied: 'Notifications are blocked. Turn them on in your browser settings.', pushOn: 'Done! Notifications are on.',
       homeAria: 'Radar K-pop, home', langAria: 'Language', navAria: 'Sections', navCity: 'You', navSight: 'Sightings', navMedia: 'Releases', viewAria: 'View',
       globeAria: 'Globe with each group\'s next stop', autoSpin: 'Auto-rotate', channelAria: 'Channel', sortAria: 'Order', filterAria: 'Filter',
-      mediaTitle: 'Releases and videos', mediaLead: 'The latest music and official videos of each group.', mediaAll: 'All', mediaMusic: 'Music', mediaVideo: 'Videos',
+      mediaTitle: 'Releases and videos', mediaLead: 'Music first: songs, albums and MVs. Vlogs, teasers and shorts are under Videos.', mediaAll: 'All', mediaMusic: 'Music & MVs', mediaVideo: 'Videos', vkMv: 'MV', vkTeaser: 'Teaser', vkShort: 'Short', vkVlog: 'Vlog', vkBehind: 'Behind the scenes', vkShow: 'Show',
       mediaSrc: 'Sources: Apple Music catalog (iTunes Search API) and official YouTube channels. Updates on its own.', mediaEmpty: 'No releases saved yet.',
       mediaListen: 'Listen', mediaWatch: 'Watch video', mediaSample: 'Sample data', released: 'out {when}',
-      cityOpen: 'City map', cityLoading: 'Drawing the city...', cityTilt: '3D view', cityVenue: 'Back to the venue', cityFail: 'We could not load the map. Check your connection.',
+      cityOpen: 'City map', cityShort: 'Map', restShows: 'shows in {n} cities', cityLoading: 'Drawing the city...', cityTilt: '3D view', cityVenue: 'Back to the venue', cityFail: 'We could not load the map. Check your connection.',
       cityK: 'Next stop', cityLast: 'Last stop', cityYou: 'You', cityAttr: 'Map: OpenFreeMap · data © OpenStreetMap',
       locReal: 'Real location', locNear: 'near {city}', locAcc: '±{km} km', locDefault: 'Default city: Bucaramanga', locChosen: 'City you picked',
       locAsking: 'Waiting for location permission...', locWhy: 'Why: {why}', locFix: 'How to turn it on', locAgain: 'Try again',
@@ -274,8 +258,7 @@
       helpDesktop: 'Click the lock or settings icon next to the address and allow location for this site. Then tap "Try again".',
       langHello: 'Hello!', vNext: 'next stop', vAll: '{n} groups on tour', vWaiting: 'waiting for dates',
       changesTitle: 'What\'s new', you2: 'You',
-      fConsent: 'I allow the radar to use this data only to send me the alerts I chose. If I am under 18, I have permission from a parent or guardian.', eConsent: 'We need your permission to save your alerts.',
-      privacy4: 'Data controller: Cristian Pérez (cristianperez.me). You can see, update or delete your data and withdraw your consent anytime: "Delete my data" erases it from this browser and from the server, or write to crisperezm879@gmail.com. If the radar has a server, your data is stored on Cloudflare only to send you alerts, without your IP or exact location; push notifications go through your browser\'s service (Google, Apple or Mozilla). If you are under 18, ask an adult before sharing your WhatsApp.',
+      privacy4: 'Data controller: Cristian Pérez (cristianperez.me). Alerts arrive through ntfy (ntfy.sh) or Discord: the radar posts to public topics and channels and you choose which to subscribe to from your app, so the radar never knows your number, email or location. You can delete your choices with "Delete my choices", unsubscribe in the app anytime, or write to crisperezm879@gmail.com.',
       T: { new_date: 'New date', changed: 'Changed', removed: 'Removed', stop_today: 'Today', live: 'Live', next_stop: 'Next stop', arrival_official: 'Official arrival', arrival: 'Arrival', latam: 'Latam', comeback: 'Comeback', tour: 'Tour', official: 'Official', video: 'Video', prox: 'Near you', prox_new: 'Near you', roster: 'Members', birthday: 'Birthday', weekly: 'Your week' },
       months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], wdays: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
       cardinal: ['N', 'E', 'S', 'W'], locale: 'en-US'
@@ -1217,7 +1200,10 @@
       var off = unit && on.indexOf(m.id) < 0, ms = memStatus(st.id, m.id), away = ms && ms.k === 'mil';
       return '<li><button type="button" class="mem' + (off && !away ? ' off' : '') + (away ? ' away' : '') + (ms ? ' st-' + ms.k : '') + '" data-mem="' + esc(st.id + ':' + m.id) + '" data-i="' + i + '" aria-label="' + esc(m.name + (ms ? ', ' + msShort(ms) : off ? ', ' + t('notOnTour') : '')) + '" style="--dl:-' + (i * .37 % 2.6).toFixed(2) + 's">' + msBadge(ms) +
         (function () { var b = bdayInfo(person(st.id, m.id)); return b && b.today ? '<span class="gp-hat" aria-hidden="true">🎂</span>' : ''; })() + '<span class="mem-say" lang="ko" aria-hidden="true">' + esc(m.ko) + '!</span><img src="' + esc(memberSrc(st.id, m.id)) + '" alt="" loading="lazy" decoding="async" draggable="false"><span class="mem-n">' + esc(m.name) + '</span></button></li>';
-    }).join('') + '</ul>' + milHtml(st.id) + formerHtml(st.id) + '</div>';
+    }).join('') + formerList(st.id).map(function (x) {
+      var back = x.ret && x.ret.official;  // si un aviso oficial dice que volvió, sale a color
+      return '<li><button type="button" class="mem fm-mem' + (back ? ' fm-back' : ' away') + '" data-gp-open="' + esc(st.id) + '" data-gp-t="members" aria-label="' + esc(x.f.name + ', ' + (back ? t('fmBack') : t('fmTitle'))) + '"><span class="fm-tag">' + (back ? '✨' : 'ex') + '</span><img src="' + esc(formerSrc(st.id, x)) + '" alt="" loading="lazy" decoding="async" draggable="false"><span class="mem-n">' + esc(x.f.name) + '</span></button></li>';
+    }).join('') + '</ul>' + milHtml(st.id) + '</div>';
   }
   /* orden de opciones fijo por pregunta (no cambia al redibujar) pero sin que la correcta quede siempre primero */
   function mixOrder(seed, n) {
@@ -1242,12 +1228,12 @@
     var p = PROFILE[g.id]; if (!p) return '';
     var q = encodeURIComponent(g.name), links = [];
     if (p.spotify) links.push(['spotify', 'Spotify', 'https://open.spotify.com/artist/' + p.spotify]);
-    if (p.apple) links.push(['apple', 'Apple Music', 'https://music.apple.com/artist/' + p.apple]);
-    links.push(['ytm', 'YouTube Music', 'https://music.youtube.com/search?q=' + q]);
+    if (p.apple) links.push(['apple', 'Apple Music', 'https://music.apple.com/artist/' + p.apple, 'Apple']);
+    links.push(['ytm', 'YouTube Music', 'https://music.youtube.com/search?q=' + q, 'YT Music']);
     if (p.youtube) links.push(['yt', 'YouTube', 'https://www.youtube.com/channel/' + p.youtube]);
     if (p.weverse) links.push(['wv', 'Weverse', 'https://weverse.io/' + p.weverse]);
     return '<div class="listen"><p class="squad-k">' + esc(t('listen')) + '</p><ul>' + links.map(function (l) {
-      return '<li><a class="ln ln-' + l[0] + '" href="' + esc(l[2]) + '" target="_blank" rel="noopener noreferrer">' + platIcon(l[0]) + '<span>' + esc(l[1]) + '</span></a></li>';
+      return '<li><a class="ln ln-' + l[0] + '" href="' + esc(l[2]) + '" target="_blank" rel="noopener noreferrer" aria-label="' + esc(l[1]) + '">' + platIcon(l[0]) + '<span class="ln-l">' + esc(l[1]) + '</span><span class="ln-s" aria-hidden="true">' + esc(l[3] || l[1]) + '</span></a></li>';
     }).join('') + '</ul></div>';
   }
   /* datos y números: perfil + lo que sale de events.json + stats.json (iTunes y YouTube, si el robot los trajo) */
@@ -1341,7 +1327,6 @@
     return '<p class="next-rel rel-' + r.k + '"><span class="ko" lang="ko">' + (r.k === 'new' ? '신곡' : '컴백') + '</span> ' + esc(lab) + ': <a href="' + esc(m.url) + '" target="_blank" rel="noopener noreferrer"><b>' + esc(m.title) + '</b></a>' +
       (when ? ' · ' + esc(when) : '') + (m.ann ? ' <span class="tag">' + esc(t('relAnn')) + '</span>' : '') + '</p>';
   }
-  var openMore = {};
   function cardHtml(st) {
     var g = st.g, o = origin(), m = META[g.id] || {}, h = '';
     h += '<article class="card ' + (sel === g.id ? 'is-sel' : '') + '" id="card-' + esc(g.id) + '" data-g="' + esc(g.id) + '" style="' + gStyle(g.id) + '">';
@@ -1354,6 +1339,8 @@
       h += '<span class="c-state rest"><span class="ko" lang="ko">' + t('restKo') + '</span> ' + esc(t('rest')) + '</span>';
       if (st.last) h += '<p class="c-when">' + esc(t('lastStop')) + ': <b>' + esc(place(st.last.city)) + ', ' + esc(place(st.last.country)) + '</b> · ' + esc(fmtDate(st.last.local_date, true)) + (st.last.venue ? ' · ' + esc(st.last.venue) : '') + '</p>';
       h += '<div class="cd-rest"><b>D-?</b><span>' + (m.cheer ? '<span lang="ko" class="ko">' + esc(m.cheer) + '</span> ' + esc(m.hint[lang]) + (/[.!?]$/.test(m.hint[lang]) ? ' ' : '. ') : '') + esc(lang === 'en' ? 'The chibi waits in Seoul until there are new dates.' : 'El chibi espera en Seúl hasta que haya fechas nuevas.') + '</span></div>';
+      // la gira que terminó, en números (mismo renglón que los km de las tarjetas con gira)
+      if (st.last) h += '<div class="facts"><span class="km">' + st.past.length + ' <small>' + esc(t(stops(st.past).length === 1 ? 'restShows1' : 'restShows', { n: stops(st.past).length })) + '</small></span><span class="dday">' + esc(t('ago', { n: agoTxt(now() - Date.parse(st.last.start)) })) + '</span></div>';
     } else {
       var e = st.cur, km = hav(o.lat, o.lon, e.lat, e.lon), live = st.mode === 'live';
       h += '<span class="c-state ' + (live ? 'live' : '') + '"><span class="ko" lang="ko">' + (live ? t('liveKo') : t('nextKo')) + '</span> ' + esc(live ? t('live') : t('next')) + '</span>';
@@ -1370,15 +1357,15 @@
     h += '<div class="acts"><button type="button" class="act solid" data-share="' + esc(g.id) + '">' + ICON.share + esc(t('share')) + '</button>' +
       '<button type="button" class="act" data-pick="' + esc(g.id) + '" data-top="1" aria-label="' + esc(t('seeGlobe')) + '">' + ICON.globe + esc(t('globe')) + '</button>' +
       (st.cur ? '<button type="button" class="act" data-ics="' + esc(g.id) + '" aria-label="' + esc(t('calendar')) + '">' + ICON.cal + esc(t('calShort')) + '</button>' : '') +
-      (cityTarget(st) ? '<button type="button" class="act" data-city="' + esc(g.id) + '">' + ICON.map + esc(t('cityOpen')) + '</button>' : '') +
+      (cityTarget(st) ? '<button type="button" class="act" data-city="' + esc(g.id) + '" aria-label="' + esc(t('cityOpen')) + '">' + ICON.map + esc(t('cityShort')) + '</button>' : '') +
       '<button type="button" class="act gp-open" data-gp-open="' + esc(g.id) + '">' + ICON.card + esc(t('gpOpen')) + '</button></div>';
     var watch = lang === 'en' && g.watch_en && g.watch_en.length ? g.watch_en : g.watch;
     if (watch && watch.length) h += '<ul class="watch" lang="' + (watch === g.watch_en ? 'en' : 'es') + '">' + watch.map(function (w) { return '<li><span>' + esc(w) + '</span></li>'; }).join('') + '</ul>';
     h += nextReleaseHtml(g.id);
     birthdaysToday(g.id).forEach(function (mm) { h += '<button type="button" class="gp-bday" data-gp-open="' + esc(g.id) + '" data-gp-t="members" data-gp-m="' + esc(mm.id) + '"><span>🎂</span>' + esc(t('bdayToday', { name: mm.name })) + ' <b lang="ko">생일 축하해!</b></button>'; });
     h += squadHtml(st);
-    // en el celular lo que sigue va plegado (botón "Más"): la tarjeta queda en lo esencial y todo está también en "Ver todo"
-    h += '<button type="button" class="c-more-btn" data-cmore="' + esc(g.id) + '" aria-expanded="' + !!openMore[g.id] + '">' + esc(t(openMore[g.id] ? 'cardLess' : 'cardMore')) + '</button><div class="c-more' + (openMore[g.id] ? ' open' : '') + '">';
+    // abajo, alineado entre tarjetas: la foto, dónde escucharlos y lo plegable (avisos, números, trivia, gira)
+    h += '<div class="c-foot">';
     var ph = photoOf(g.id);
     if (ph) h += '<figure class="polaroid"><img src="' + esc(ph.src) + '"' + (ph.w ? ' width="' + ph.w + '" height="' + ph.h + '"' : '') + ' alt="' + esc(t('photoAlt', { g: g.name })) + '" loading="lazy" decoding="async"><figcaption>' + esc(g.name) + (m.fan ? ' · ' + esc(m.fan) : '') + '</figcaption></figure>';
     h += listenHtml(g);
@@ -1389,7 +1376,7 @@
     if (rows.length > 1 || (st.mode === 'rest' && st.past.length)) {
       var list = rows.length ? rows : stops(st.past).slice(-6);
       var isPast = !rows.length;
-      h += '<details class="agenda"><summary>' + esc(t(isPast ? 'pastTour' : 'tour', { n: list.length })) + '</summary><ul class="stubs">' + list.map(function (r) {
+      h += '<details class="agenda"><summary>' + esc(t((isPast ? 'pastTour' : 'tour') + (list.length === 1 ? '1' : ''), { n: list.length })) + '</summary><ul class="stubs">' + list.map(function (r) {
         var e0 = r[0], d = hav(o.lat, o.lon, e0.lat, e0.lon);
         var dates = r.map(function (x) { return parts(x.local_date).d; }).join(' · ') + ' ' + L().months[parts(e0.local_date).m - 1];
         return '<li class="stub' + (isPast ? ' past' : '') + '"><span class="s-d">' + esc(dates) + '</span><span class="s-c">' + esc(place(e0.city)) + ', ' + esc(place(e0.country)) +
@@ -1405,8 +1392,21 @@
     box.innerHTML = states.map(cardHtml).join('');
     box.scrollLeft = sx;  // en el celular las tarjetas son un carrusel: redibujar no te devuelve al primer grupo
     renderPick();
+    evenCards();  // con todo plegado; luego se reabre lo que estaba abierto
     Object.keys(open).forEach(function (id) { var d = $('#card-' + id + ' details'); if (d) d.open = true; });
     tick(true);
+  }
+  /* en el carrusel todas las tarjetas miden lo mismo (la más alta, con todo plegado); abrir algo solo alarga esa tarjeta */
+  function evenCards() {
+    var box = $('#cards'); if (!box) return;
+    box.style.removeProperty('--card-h');
+    if (innerWidth >= 700 || !box.children.length) return;
+    var opened = $$('#cards details[open]');
+    opened.forEach(function (d) { d.open = false; });
+    var mx = 0;
+    for (var i = 0; i < box.children.length; i++) mx = Math.max(mx, box.children[i].offsetHeight);
+    opened.forEach(function (d) { d.open = true; });
+    box.style.setProperty('--card-h', mx + 'px');
   }
   /* tira de grupos sobre el carrusel (celular): toca uno para ir a su tarjeta; se marca el que estás viendo */
   function renderPick() {
@@ -1949,114 +1949,109 @@
   var toastT = 0;
   function toast(msg) { var el = $('#toast'); el.textContent = msg; el.hidden = false; el.style.animation = 'none'; void el.offsetWidth; el.style.animation = ''; clearTimeout(toastT); toastT = setTimeout(function () { el.hidden = true; }, 2600); }
 
-  /* ================= alertas: formulario ================= */
-  var TYPE_GROUPS = [
-    ['typesNear', ['prox', 'prox_new'], true], ['typesLive', ['live', 'stop_today'], true], ['typesDates', ['new_date', 'changed', 'removed'], true],
-    ['typesNext', ['next_stop'], false], ['typesArrival', ['arrival_official', 'arrival'], true], ['typesLatam', ['latam'], true],
-    ['typesNews', ['comeback', 'tour', 'official'], false], ['typesMembers', ['roster', 'birthday'], true], ['typesVideo', ['video'], false]
-  ];
-  var form = { ch: 'discord' };
-  function loadForm() { try { return JSON.parse(store('radar-sub') || 'null'); } catch (e) { return null; } }
+  /* ================= alertas: ntfy por temas y Discord por grupo =================
+     Sin servidor ni datos personales: el robot publica cada alerta en temas públicos de ntfy
+     ("<prefijo>-<grupo>-<tipo>", "<prefijo>-pais-<país>", "<prefijo>-semana"; ver alerts/engine.py, public_topics)
+     y en el foro de Discord (una publicación por grupo). Aquí el fan elige y se lleva la lista de temas a la app. */
+  var NTFY_CATS = [['shows', 'catShows', true], ['music', 'catMusic', true], ['news', 'catNews', false], ['members', 'catMembers', false]];
+  var form = { ch: 'ntfy' };
+  function loadForm() { try { var f = JSON.parse(store('radar-sub') || 'null'); return f && f.v === 2 ? f : null; } catch (e) { return null; } }
+  function saveForm() {
+    store('radar-sub', JSON.stringify({ v: 2, ch: form.ch, groups: $$('#fGroups input:checked').map(function (i) { return i.value; }),
+      cats: $$('#fTypes input:checked').map(function (i) { return i.value; }), countryOn: $('#fCountryOn').checked, country: $('#fCountry').value, weekly: $('#fWeekly').checked }));
+  }
+  function slugTopic(x) { return String(x || '').toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, ''); }
+  function topicPrefix() { return /^[A-Za-z0-9_-]{1,40}$/.test(CFG.ntfyTopicPrefix || '') ? CFG.ntfyTopicPrefix : ''; }
+  function myCountry() {
+    var o = origin();
+    if (o.country) return o.country;
+    var best = null; ORIGINS.forEach(function (c) { var d = hav(o.lat, o.lon, c[2], c[3]); if (!best || d < best.d) best = { d: d, c: c[1] }; });
+    return best && best.d < 600 ? best.c : 'Colombia';
+  }
+  function countryList() {
+    var seen = {}, out = [];
+    ORIGINS.forEach(function (c) { if (!seen[c[1]]) { seen[c[1]] = 1; out.push(c[1]); } });
+    (data.groups || []).forEach(function (g) { (g.events || []).forEach(function (e) { if (e.country && !seen[e.country]) { seen[e.country] = 1; out.push(e.country); } }); });
+    return out.sort(function (x, y) { return place(x).localeCompare(place(y), L().locale); });
+  }
   function renderForm() {
     var saved = loadForm() || {};
-    var gs = saved.groups || ['*'];
-    if (renderForm.done && $('#fGroups input')) {
-      gs = $$('#fGroups input:checked').map(function (i) { return i.value; });
-      saved = Object.assign({}, saved, { types: [] });
-      $$('#fTypes input:checked').forEach(function (i) { saved.types = saved.types.concat(TYPE_GROUPS[+i.value][1]); });
-    }
+    if (renderForm.done) saved = { groups: $$('#fGroups input:checked').map(function (i) { return i.value; }), cats: $$('#fTypes input:checked').map(function (i) { return i.value; }),
+      countryOn: $('#fCountryOn').checked, country: $('#fCountry').value, weekly: $('#fWeekly').checked, ch: form.ch };
+    var gs = saved.groups || (bias ? [bias] : []);
     $('#fGroups').innerHTML = data.groups.map(function (g) {
-      var on = gs.indexOf('*') >= 0 || gs.indexOf(g.id) >= 0;
-      return '<label class="chip" style="' + gStyle(g.id) + '"><input type="checkbox" name="g" value="' + esc(g.id) + '"' + (on ? ' checked' : '') + '><span>' + esc(g.name) + '</span></label>';
+      return '<label class="chip" style="' + gStyle(g.id) + '"><input type="checkbox" name="g" value="' + esc(g.id) + '"' + (gs.indexOf(g.id) >= 0 ? ' checked' : '') + '><span>' + esc(g.name) + '</span></label>';
     }).join('');
-    var ts = saved.types || null;
-    $('#fTypes').innerHTML = TYPE_GROUPS.map(function (tg, i) {
-      var on = ts ? tg[1].some(function (x) { return ts.indexOf(x) >= 0 || ts.indexOf('*') >= 0; }) : tg[2];
-      return '<label class="chip"><input type="checkbox" name="t" value="' + i + '"' + (on ? ' checked' : '') + '><span>' + esc(t(tg[0])) + '</span></label>';
+    $('#fTypes').innerHTML = NTFY_CATS.map(function (c) {
+      var on = saved.cats ? saved.cats.indexOf(c[0]) >= 0 : c[2];
+      return '<label class="chip"><input type="checkbox" name="t" value="' + c[0] + '"' + (on ? ' checked' : '') + '><span>' + esc(t(c[1])) + '</span></label>';
     }).join('');
-    if (!renderForm.done) {
-      renderForm.done = true;
-      if (saved.name) $('#fName').value = saved.name;
-      if (saved.discord_user_id) $('#fDiscord').value = saved.discord_user_id;
-      if (saved.whatsapp) $('#fWa').value = saved.whatsapp;
-      if (saved.whatsapp_opt_in) $('#fOptIn').checked = true;
-      if (saved.consent_v) $('#fConsent').checked = true;
-      if (saved.radius_km) $('#fRadius').value = saved.radius_km;
-      if (saved.channel) setChannel(saved.channel, true);
-    }
-    updatePreview();
+    var cc = saved.country || myCountry();
+    $('#fCountry').innerHTML = countryList().map(function (c) { return '<option value="' + esc(c) + '"' + (c === cc ? ' selected' : '') + '>' + esc(place(c)) + '</option>'; }).join('');
+    $('#fCountryOn').checked = saved.countryOn !== false;
+    $('#fWeekly').checked = !!saved.weekly;
+    if (!renderForm.done) { renderForm.done = true; if (saved.ch === 'discord') form.ch = 'discord'; }
+    setChannel(form.ch, true);
   }
   function setChannel(ch, silent) {
     form.ch = ch;
     $('.tabs').setAttribute('data-ch', ch);
     $$('.tabs [role="tab"]').forEach(function (b) { b.setAttribute('aria-selected', String(b.getAttribute('data-ch') === ch)); });
     $$('[data-for]').forEach(function (f) { f.hidden = f.getAttribute('data-for') !== ch; });
-    if (!silent) Sound.play('toggle');
+    if (!silent) { Sound.play('toggle'); saveForm(); }
+    updateSub();
+  }
+  function myTopics() {
+    var p = topicPrefix(), out = []; if (!p) return out;
+    var gs = $$('#fGroups input:checked').map(function (i) { return i.value; }), cs = $$('#fTypes input:checked').map(function (i) { return i.value; });
+    gs.forEach(function (g) { cs.forEach(function (c) { out.push({ id: p + '-' + g + '-' + c, g: g, label: gName(g) + ' · ' + t(NTFY_CATS.filter(function (x) { return x[0] === c; })[0][1]) }); }); });
+    if ($('#fCountryOn').checked && $('#fCountry').value) out.push({ id: p + '-pais-' + slugTopic($('#fCountry').value), g: 'default', label: t('topicCountry', { c: place($('#fCountry').value) }) });
+    if ($('#fWeekly').checked) out.push({ id: p + '-semana', g: 'default', label: t('topicWeekly') });
+    return out;
+  }
+  var ntfyDone = (function () { try { return JSON.parse(store('radar-ntfy-done') || '{}') || {}; } catch (e) { return {}; } })();
+  function topicHref(id) {
+    var ua = navigator.userAgent || '';
+    if (/Android/i.test(ua)) return 'ntfy://ntfy.sh/' + id;  // abre la app y suscribe (deep link de ntfy en Android)
+    if (/iPhone|iPad|iPod/i.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) return '';  // en iPhone se pega el nombre en la app
+    return 'https://ntfy.sh/' + id;  // en el computador, la web de ntfy también avisa
+  }
+  function updateSub() {
+    var list = $('#ntfyList');
+    if (list) {
+      var tps = myTopics(), ios = !topicHref('x');
+      if (!topicPrefix()) list.innerHTML = '<p class="hint">' + esc(t('ntfyOff')) + '</p>';
+      else if (!tps.length) list.innerHTML = '<p class="hint">' + esc(t('ntfyPick')) + '</p>';
+      else list.innerHTML = '<p class="hint">' + esc(t(ios ? 'ntfyHowIos' : 'ntfyHow')) + '</p><ul class="topics">' + tps.map(function (x) {
+        var href = topicHref(x.id);
+        return '<li class="' + (ntfyDone[x.id] ? 'done' : '') + '" style="' + gStyle(x.g) + '"><div class="tp-txt"><span class="tp-l">' + esc(x.label) + '</span><code>' + esc(x.id) + '</code></div>' +
+          '<div class="tp-acts">' + (href ? '<a class="act solid" href="' + esc(href) + '" target="_blank" rel="noopener noreferrer" data-topic="' + esc(x.id) + '">' + esc(t('ntfyOpen')) + '</a>' : '') +
+          '<button type="button" class="act" data-copy="' + esc(x.id) + '">' + esc(t('copy')) + '</button></div></li>';
+      }).join('') + '</ul>' + (tps.length > 1 ? '<button type="button" class="link-btn" data-copy="' + esc(tps.map(function (x) { return x.id; }).join('\n')) + '">' + esc(t('ntfyCopyAll', { n: tps.length })) + '</button>' : '') +
+        (tps.length > 8 ? '<p class="hint warn">' + esc(t('ntfyMany', { n: tps.length })) + '</p>' : '');
+    }
+    var dc = $('#dcBox');
+    if (dc) {
+      var inv = /^https:\/\/(discord\.gg|discord\.com\/invite)\/[A-Za-z0-9-]+$/.test(CFG.discordInvite || '') ? CFG.discordInvite : '';
+      var names = $$('#fGroups input:checked').map(function (i) { return gName(i.value); });
+      dc.innerHTML = inv ? '<ol class="dc-steps"><li><a class="btn primary" href="' + esc(inv) + '" target="_blank" rel="noopener noreferrer">' + esc(t('dcJoin')) + '</a></li><li>' + esc(t('dcForum')) + '</li><li>' + esc(t('dcFollow', { g: names.length ? names.join(', ') : t('dcYours') })) + '</li></ol><p class="hint">' + esc(t('dcNote')) + '</p>'
+        : '<p class="dc-soon"><b>' + esc(t('dcSoonT')) + '</b> ' + esc(t('dcSoon')) + '</p><button type="button" class="btn small" data-ch="ntfy">' + esc(t('dcUseNtfy')) + '</button>';
+    }
     updatePreview();
   }
   function updatePreview() {
-    var r = $('#fRadius'); $('#fRadiusOut').textContent = fmtKm(+r.value) + ' km';
-    var o = origin(), best = null;
-    states.forEach(function (st) { if (st.cur) { var d = hav(o.lat, o.lon, st.cur.lat, st.cur.lon); if (!best || d < best.d) best = { d: d, st: st }; } });
-    var g = best ? best.st.g.name : 'BTS', city = best ? place(best.st.cur.city) : 'Santiago', km = best ? fmtKm(best.d) : '4.000';
-    var name = $('#fName').value.trim(), pv = $('#preview');
-    pv.className = 'preview-bubble ' + form.ch;
-    var hhmm = new Date().toTimeString().slice(0, 5);
-    if (form.ch === 'discord') pv.innerHTML = '<b>Radar K-pop</b> <span class="pv-meta" style="display:inline">' + esc(t('pvNow')) + '</span><br>' + (name ? '@' + esc(name) + ' ' : '') + t('pvDiscord', { g: esc(g), city: esc(city) }).replace(/\*\*(.+?)\*\*/, '<b>$1</b>');
-    else if (form.ch === 'push') pv.innerHTML = '<span class="pv-app"><img src="assets/icons/icon-192.png" alt="" width="20" height="20"> Radar K-pop · ' + esc(t('pvNow')) + '</span><b>' + esc(g) + '</b> · ' + esc(city) + '<br>' + esc(t('pvWa', { g: g, city: city, km: km }).replace(/^Radar K-pop: /, ''));
-    else pv.innerHTML = (name ? esc(name) + ', ' : '') + esc(t('pvWa', { g: g, city: city, km: km })) + '<span class="pv-meta">' + hhmm + ' ✓✓</span>';
+    var g0 = ($$('#fGroups input:checked')[0] || {}).value, st = states.filter(function (x) { return x.id === g0; })[0] || states.filter(function (x) { return x.cur; })[0] || states[0];
+    var pv = $('#preview'); if (!pv || !st) return;
+    var city = st.cur ? place(st.cur.city) : 'Seúl', title = lang === 'en' ? 'Today ' + st.g.name + ' opens in ' + city : 'Hoy ' + st.g.name + ' abre en ' + city;
+    var body = st.cur && st.cur.venue ? st.cur.venue + ', ' + city : city;
+    pv.className = 'preview-bubble ' + (form.ch === 'discord' ? 'discord' : 'push');
+    if (form.ch === 'discord') pv.innerHTML = '<b>Radar K-pop</b> <span class="pv-meta" style="display:inline">' + esc(t('pvNow')) + '</span><br><span class="pv-thread"># ' + esc(st.g.name) + ' · alertas</span><br><b>' + esc(title) + '</b><br>' + esc(body);
+    else pv.innerHTML = '<span class="pv-app"><img src="assets/icons/icon-192.png" alt="" width="20" height="20"> ntfy · ' + esc(t('pvNow')) + '</span><b>' + esc(title) + '</b><br>' + esc(body);
   }
-  function slug(s) { return (s || 'fan').normalize('NFKD').replace(/[^\w]+/g, '-').replace(/^-|-$/g, '').toLowerCase().slice(0, 24) || 'fan'; }
-  function subscriberJson() {
-    var o = origin(), groups = $$('#fGroups input:checked').map(function (i) { return i.value; });
-    if (groups.length === data.groups.length) groups = ['*'];
-    var types = []; $$('#fTypes input:checked').forEach(function (i) { types = types.concat(TYPE_GROUPS[+i.value][1]); });
-    var saved = loadForm() || {};
-    var sub = {
-      id: saved.id || slug($('#fName').value) + '-' + Math.random().toString(36).slice(2, 6),
-      name: $('#fName').value.trim(), city: o.geo ? (o.near || 'Mi ubicación') : o.name, lat: +o.lat.toFixed(2), lon: +o.lon.toFixed(2), radius_km: +$('#fRadius').value,
-      groups: groups.length ? groups : ['*'], channel: form.ch,
-      consent_v: '2026-10-15'  // versión del texto de autorización que aceptó (prueba de la autorización, Ley 1581)
-    };
-    if (form.ch === 'discord') { sub.discord_user_id = $('#fDiscord').value.replace(/\D/g, ''); sub.types = types; }
-    else if (form.ch === 'push') { sub.types = types; }
-    else { sub.whatsapp = $('#fWa').value.trim(); sub.whatsapp_opt_in = $('#fOptIn').checked; sub.whatsapp_types = types; }
-    return sub;
+  function copyText(txt) {
+    (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(function () { toast(t('copied')); Sound.play('pop'); }).catch(function () { window.prompt(t('copy'), txt); });
   }
-  function validate(field) {
-    var ok = true;
-    function check(inputSel, errSel, good) { var i = $(inputSel), e = $(errSel); i && i.setAttribute('aria-invalid', String(!good)); e.hidden = good; if (!good) ok = false; }
-    if (form.ch === 'discord' && (!field || field === 'discord')) check('#fDiscord', '#eDiscord', /^\d{17,20}$/.test($('#fDiscord').value.replace(/\s/g, '')));
-    if (form.ch === 'whatsapp') {
-      if (!field || field === 'wa') check('#fWa', '#eWa', /^\+\d[\d\s-]{7,17}$/.test($('#fWa').value.trim()));
-      if (!field || field === 'opt') { var e = $('#eOpt'); e.hidden = $('#fOptIn').checked; if (!$('#fOptIn').checked) ok = false; }
-    }
-    if (!field || field === 'consent') { var c = $('#eConsent'); c.hidden = $('#fConsent').checked; if (!$('#fConsent').checked) ok = false; }
-    return ok;
-  }
-  function submitForm(ev) {
-    ev.preventDefault();
-    if (!validate()) { Sound.play('boing'); var bad = $('.sub-form [aria-invalid="true"]') || (!$('#fConsent').checked && $('#fConsent')); if (bad) bad.focus(); return; }
-    var sub = subscriberJson();
-    store('radar-sub', JSON.stringify(sub));
-    if (form.ch === 'push') { subscribePush(sub); return; }
-    var out = $('#subResult'), btn = $('#subSubmit'), clean = Object.assign({}, sub); delete clean.channel;
-    var endpoint = apiBase() ? apiBase() + '/subscribe' : '';
-    function showJson(msg) {
-      out.hidden = false;
-      out.innerHTML = '<p><b>' + esc(t('subSaved')) + '</b> ' + esc(msg) + '</p><pre id="subJson">' + esc(JSON.stringify(clean, null, 2)) + '</pre><button type="button" class="btn small" id="copyJson">' + esc(t('copy')) + '</button>';
-    }
-    if (!endpoint) { showJson(t('subNoEndpoint')); Sound.play('heart'); return; }
-    btn.disabled = true; btn.firstChild.textContent = '...';
-    fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Delete-Token': store('radar-sub-token') || '' }, body: JSON.stringify(clean) }).then(function (r) {
-      if (!r.ok) throw new Error(r.status);
-      return r.json().catch(function () { return {}; });
-    }).then(function (j) {
-      if (j && j.token) store('radar-sub-token', j.token);
-      out.hidden = false; out.innerHTML = '<p><b>' + esc(t('subSent')) + '</b></p>'; Sound.play('fanfare');
-    }).catch(function () { showJson(t('subFail')); Sound.play('boing'); })
-      .then(function () { btn.disabled = false; btn.firstChild.textContent = t('subSubmit'); });
-  }
+  function markTopic(id) { if (!id || id.indexOf('\n') >= 0) return; ntfyDone[id] = 1; store('radar-ntfy-done', JSON.stringify(ntfyDone)); updateSub(); }
 
   /* ================= celebración de alerta nueva ================= */
   var confetti = { parts: [], running: false };
@@ -2225,7 +2220,20 @@
 
 
   /* ================= estrenos y videos (media.json: iTunes + YouTube RSS) ================= */
-  var media = [], mediaType = 'all';
+  var media = [], mediaType = store('radar-media') || 'music';
+  if (['music', 'video', 'all'].indexOf(mediaType) < 0) mediaType = 'music';
+  /* qué tipo de video es, por el título: un MV va con la música; vlogs, teasers y shorts van en Videos */
+  function vkind(title) {
+    var x = title || '';
+    if (/비하인드|behind|making|reaction|리액션/i.test(x)) return 'behind';
+    if (/\bM\/?V\b|music video|뮤직비디오|performance (?:video|film)|dance practice|안무 영상|special (?:clip|video)|official (?:video|audio|visualizer)|visualizer|lyric video/i.test(x)) return 'mv';
+    if (/vlog|브이로그|log_logbook|relay cam|릴레이/i.test(x)) return 'vlog';
+    if (/teaser|trailer|티저|예고|preview|highlight medley|D-\d/i.test(x)) return 'teaser';
+    if (/\b(?:ep\.?|episode)\s*\d|run\s?bts|달려라|skz-talker|inside seventeen|going seventeen|en-o'clock|light jeans|talk|라이브|live/i.test(x)) return 'show';
+    if (/#\S/.test(x) && x.replace(/#\S+/g, '').trim().length < 40) return 'short';
+    return 'video';
+  }
+  function inMusic(m) { return m.type === 'music' || (m.type === 'video' && vkind(m.title) === 'mv'); }
   function okImg(u) { return /^https:\/\/([a-z0-9-]+\.)*(mzstatic\.com|ytimg\.com)\//.test(u || '') ? u : ''; }
   function okLink(u) { return /^https:\/\/(music\.apple\.com|www\.youtube\.com)\//.test(u || '') ? u : ''; }
   function pollMedia() {
@@ -2234,17 +2242,17 @@
   }
   function renderMedia() {
     var el = $('#media'); if (!el) return;
-    $('#mediaFilter').innerHTML = [['all', 'mediaAll'], ['music', 'mediaMusic'], ['video', 'mediaVideo']].map(function (f) {
+    $('#mediaFilter').innerHTML = [['music', 'mediaMusic'], ['video', 'mediaVideo'], ['all', 'mediaAll']].map(function (f) {
       return '<button type="button" class="chip-btn" data-mfilter="' + f[0] + '" aria-pressed="' + (mediaType === f[0]) + '">' + esc(t(f[1])) + '</button>';
     }).join('');
     $('#mediaSrc').textContent = t('mediaSrc');
-    var list = media.filter(function (m) { return (mediaType === 'all' || m.type === mediaType) && okLink(m.url); })
+    var list = media.filter(function (m) { return (mediaType === 'all' || (mediaType === 'music' ? inMusic(m) : !inMusic(m))) && okLink(m.url); })
       .sort(function (a, b) { return a.date < b.date ? 1 : -1; }).slice(0, innerWidth < 600 ? 6 : 9);
     if (!list.length) { el.innerHTML = '<li class="m-empty">' + esc(t('mediaEmpty')) + '</li>'; return; }
     el.innerHTML = list.map(function (m, i) {
       var img = okImg(m.image), d = m.date ? fmtDate(m.date, true) : '';
       return '<li class="m-item m-' + esc(m.type) + '" style="' + gStyle(m.group) + ';--i:' + i + '"><a href="' + esc(okLink(m.url)) + '" target="_blank" rel="noopener noreferrer">' +
-        '<span class="m-img">' + '<img src="' + esc(img || face(m.group).src) + '" alt="" loading="lazy" decoding="async" data-fb="' + esc(face(m.group).src) + '"' + (img ? '' : ' class="m-fb"') + '>' + '<span class="m-badge">' + esc(m.type === 'music' ? t('mediaListen') : t('mediaWatch')) + '</span></span>' +
+        '<span class="m-img">' + '<img src="' + esc(img || face(m.group).src) + '" alt="" loading="lazy" decoding="async" data-fb="' + esc(face(m.group).src) + '"' + (img ? '' : ' class="m-fb"') + '>' + '<span class="m-badge">' + esc(m.type === 'music' ? t('mediaListen') : t('mediaWatch')) + '</span>' + (m.type === 'video' && vkind(m.title) !== 'video' ? '<span class="m-kind">' + esc(t('vk' + { mv: 'Mv', teaser: 'Teaser', short: 'Short', vlog: 'Vlog', behind: 'Behind', show: 'Show' }[vkind(m.title)])) + '</span>' : '') + '</span>' +
         '<span class="m-txt"><b class="m-g">' + esc(gName(m.group)) + '</b><span class="m-t">' + esc(m.title) + '</span><span class="m-d">' + esc(t('released', { when: d })) + '</span></span></a></li>';
     }).join('');
     el.querySelectorAll('img[data-fb]').forEach(function (im) {
@@ -2352,29 +2360,6 @@
       return '<li><p class="ch-v"><b>' + esc(v.version) + '</b> · <time datetime="' + esc(v.date) + '">' + esc(v.date) + '</time> · ' + esc(lang === 'en' ? v.title_en : v.title_es) + '</p><ul>' +
         items.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul></li>';
     }).join('');
-  }
-
-  /* ================= notificaciones push (opcional, necesita servidor) ================= */
-  function b64ToU8(b) { var p = '='.repeat((4 - b.length % 4) % 4), raw = atob((b + p).replace(/-/g, '+').replace(/_/g, '/')), out = new Uint8Array(raw.length); for (var i = 0; i < raw.length; i++) out[i] = raw.charCodeAt(i); return out; }
-  /* subscribeEndpoint = la URL del servidor de backend/ (también sirve si termina en /subscribe) */
-  function apiBase() { return (CFG.subscribeEndpoint || '').trim().replace(/\/+$/, '').replace(/\/subscribe$/, ''); }
-  function pushEndpoint() { return apiBase() ? apiBase() + '/push' : ''; }
-  function subscribePush(sub) {
-    var out = $('#subResult');
-    function say(msg, ok) { out.hidden = false; out.innerHTML = '<p><b>' + esc(msg) + '</b></p>'; Sound.play(ok ? 'fanfare' : 'boing'); }
-    if (!('serviceWorker' in navigator) || !('PushManager' in window) || !('Notification' in window)) return say(t('pushUnsupported'));
-    if (!pushEndpoint() || !CFG.vapidPublicKey) return say(t('pushNeedCfg'));
-    Notification.requestPermission().then(function (perm) {
-      if (perm !== 'granted') throw new Error('denied');
-      return navigator.serviceWorker.ready;
-    }).then(function (reg) {
-      return reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64ToU8(CFG.vapidPublicKey) });
-    }).then(function (ps) {
-      var body = Object.assign({}, sub, { push: ps.toJSON() }); delete body.channel;
-      return fetch(pushEndpoint(), { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Delete-Token': store('radar-sub-token') || '' }, body: JSON.stringify(body) });
-    }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json().catch(function () { return {}; }); })
-      .then(function (j) { if (j && j.token) store('radar-sub-token', j.token); say(t('pushOn'), true); })
-      .catch(function (e) { say(e && e.message === 'denied' ? t('pushDenied') : t('subFail')); });
   }
 
   /* ================= modo video (9:16, ~15 s) =================
@@ -2485,7 +2470,7 @@
   window.addEventListener('pointerdown', function () { lastKeyboard = false; }, true);
 
   document.addEventListener('click', function (ev) {
-    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-geo-help],[data-geo-later],[data-zoom],[data-spin],[data-center-me],[data-city],[data-city-close],[data-cmap],[data-mfilter],[data-ssort],[data-cmore],[data-gpick],[data-feedall],[data-gp-close],[data-gp-tab],[data-gp-mem],[data-gp-hop],[data-yt],[data-tt],[data-gp-open],#sightBubble,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,#copyJson,.topnav a') : null;
+    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-geo-help],[data-geo-later],[data-zoom],[data-spin],[data-center-me],[data-city],[data-city-close],[data-cmap],[data-mfilter],[data-ssort],[data-gpick],[data-feedall],[data-copy],[data-topic],[data-gp-close],[data-gp-tab],[data-gp-mem],[data-gp-hop],[data-yt],[data-tt],[data-gp-open],#sightBubble,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,.topnav a') : null;
     if (!el) { if (ev.target === $('#party')) closeParty(); return; }
     if (el.hasAttribute('data-pick')) { if (view !== 'globe' && el.hasAttribute('data-top')) setView('globe'); pick(el.getAttribute('data-pick'), { top: el.hasAttribute('data-top') }); return; }
     if (el.hasAttribute('data-unsel')) { unselect(); return; }
@@ -2495,18 +2480,15 @@
     if (el.hasAttribute('data-city-close')) { closeCity(); return; }
     if (el.hasAttribute('data-cmap')) { cityTool(el.getAttribute('data-cmap')); return; }
     if (el.hasAttribute('data-feedall')) { feedAll = true; renderFeed(); Sound.play('toggle'); return; }
+    if (el.hasAttribute('data-copy')) { copyText(el.getAttribute('data-copy')); markTopic(el.getAttribute('data-copy')); return; }
+    if (el.hasAttribute('data-topic')) { var tid = el.getAttribute('data-topic'); setTimeout(function () { markTopic(tid); }, 300); return; }
     if (el.hasAttribute('data-gpick')) {
       var pc = document.getElementById('card-' + el.getAttribute('data-gpick'));
       if (pc) { var bx = $('#cards'); bx.scrollTo({ left: pc.offsetLeft - (bx.clientWidth - pc.offsetWidth) / 2, behavior: reduce ? 'auto' : 'smooth' }); }
       Sound.play('tap'); return;
     }
-    if (el.hasAttribute('data-cmore')) {
-      var cg = el.getAttribute('data-cmore'), box = el.nextElementSibling; openMore[cg] = !openMore[cg];
-      if (box) box.classList.toggle('open', !!openMore[cg]); el.setAttribute('aria-expanded', String(!!openMore[cg])); el.textContent = t(openMore[cg] ? 'cardLess' : 'cardMore');
-      Sound.play('toggle'); return;
-    }
     if (el.hasAttribute('data-ssort')) { sightSort = el.getAttribute('data-ssort'); store('radar-sight-sort', sightSort); renderSights(); Sound.play('toggle'); return; }
-    if (el.hasAttribute('data-mfilter')) { mediaType = el.getAttribute('data-mfilter'); renderMedia(); Sound.play('toggle'); return; }
+    if (el.hasAttribute('data-mfilter')) { mediaType = el.getAttribute('data-mfilter'); store('radar-media', mediaType); renderMedia(); Sound.play('toggle'); return; }
     if (el.hasAttribute('data-trivia')) { triviaTap(el); return; }
     if (el.hasAttribute('data-geo-retry')) { locate(true); return; }
     if (el.hasAttribute('data-geo-help')) { var hp = el.closest('.loc-chip').querySelector('.loc-help'); hp.hidden = !hp.hidden; Sound.play(hp.hidden ? 'close' : 'open'); return; }
@@ -2555,16 +2537,7 @@
         var a = feed[0] || { type: 'new_date', group: any.id, group_name: any.g.name, title: lang === 'en' ? any.g.name + ' added new dates' : any.g.name + ' agregó fechas nuevas', body: lang === 'en' ? 'This is a test: this is how a real alert celebrates.' : 'Esto es una prueba: así se celebra una alerta de verdad.', when: new Date().toISOString() };
         celebrate(a, 1); break;
       case 'subDelete':
-        var old = loadForm(), tok = store('radar-sub-token');
-        if (old && old.id && tok && apiBase()) fetch(apiBase() + '/subscribe/' + encodeURIComponent(old.id), { method: 'DELETE', headers: { 'X-Delete-Token': tok } }).catch(function () { });
-        store('radar-sub-token', null);
-        store('radar-sub', null); $('#subForm').reset(); renderForm.done = false; renderForm(); $('#subResult').hidden = true; toast(t('deleted')); Sound.play('toggle'); break;
-      case 'copyJson':
-        var txt = $('#subJson').textContent;
-        (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(function () { toast(t('copied')); Sound.play('pop'); }).catch(function () {
-          var r = document.createRange(); r.selectNodeContents($('#subJson')); var s = getSelection(); s.removeAllRanges(); s.addRange(r);
-        });
-        break;
+        store('radar-sub', null); store('radar-ntfy-done', null); ntfyDone = {}; renderForm.done = false; form.ch = 'ntfy'; renderForm(); toast(t('deleted')); Sound.play('toggle'); break;
     }
   });
   /* tocar a un miembro: salta, dice su nombre en hangul y suena una nota distinta por miembro */
@@ -2623,13 +2596,8 @@
     Sound.play('pop'); renderAll();
   });
   document.addEventListener('toggle', function (e) { if (e.target.tagName === 'DETAILS') Sound.play(e.target.open ? 'open' : 'close'); }, true);
-  $('#subForm').addEventListener('submit', submitForm);
-  $('#subForm').addEventListener('input', function (e) { if (e.target.name !== 'g' && e.target.name !== 't') updatePreview(); else updatePreview(); });
-  $('#subForm').addEventListener('change', function (e) { if (e.target.type === 'checkbox') Sound.play('tap'); });
-  $('#fDiscord').addEventListener('blur', function () { if (this.value) validate('discord'); });
-  $('#fWa').addEventListener('blur', function () { if (this.value) validate('wa'); });
-  $('#fOptIn').addEventListener('change', function () { validate('opt'); });
-  $('#fConsent').addEventListener('change', function () { validate('consent'); });
+  $('#subForm').addEventListener('submit', function (e) { e.preventDefault(); });
+  $('#subForm').addEventListener('change', function (e) { if (e.target.type === 'checkbox') Sound.play('tap'); saveForm(); updateSub(); });
   $('#video').addEventListener('pointermove', showVideoUi);
   $('#video').addEventListener('click', function (e) { if (!e.target.closest('button')) showVideoUi(); });
   $('#videoX').addEventListener('click', closeVideo);
@@ -2685,8 +2653,10 @@
       if (Video.globe && !$('#video').hidden) { Video.globe.resize(); Video.globe.pinTarget = Math.max(84, Math.min(130, $('#vzone').clientWidth * .3)); }
       if (view === 'sonar') sizeSonar();
       if (navCur) navSet(navCur, true);
+      evenCards();
     }, 120);
   });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { evenCards(); });
   function pinWidth() { return innerWidth < 600 ? 80 : innerWidth < 1024 ? 96 : 112; }
 
   /* ================= firma ================= */
@@ -2718,7 +2688,6 @@
   if (params.has('debug')) window.__radarDebug = function () { return { lon: globe.lon, lat: globe.lat, zoom: globe.zoom, origin: origin(), geoState: geoState }; };
   globe.idleUntil = performance.now() + (reduce ? 0 : 400);
   renderAll();
-  setChannel(form.ch, true);
   observe();
   var cardsBox = $('#cards'); if (cardsBox) cardsBox.addEventListener('scroll', onCardsScroll, { passive: true });
   setInterval(function () { tick(false); }, 1000);

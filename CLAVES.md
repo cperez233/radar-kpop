@@ -25,10 +25,12 @@ Si un servicio se cae, ese paso sale con advertencia y el resto sigue igual.
 | `YT_API_KEY` | Videos nuevos de YouTube y suscriptores | Gratis | Funciona: 27 videos en el primer run |
 | `RSSHUB_URL` | Posts de las cuentas oficiales en X: avistamientos, anuncios oficiales y llegadas | Gratis (tu RSSHub en Vercel) | Guardado y probado: responden las 9 cuentas |
 | `DISCORD_WEBHOOK_URL` | Alertas en tu canal de Discord | Gratis | Funciona: el primer run mandó 26 alertas |
-| `NTFY_TOPIC` | Alertas al celular con la app ntfy | Gratis | Guardado |
+| `NTFY_TOPIC` | Todas las alertas a tu celular (tu tema privado en ntfy) | Gratis | Funciona: llegó la prueba |
+| (sin clave) | Alertas para los fans en temas públicos de ntfy por grupo y tipo (`ntfyTopicPrefix` en `config.js`) | Gratis | Activo desde la 4.8 |
+| `DISCORD_FORUM_WEBHOOK_URL` | Foro de Discord para los fans: una publicación por grupo, cada quien sigue las suyas | Gratis | Falta crearlo (pasos abajo) |
 | `X_BEARER_TOKEN` | Respaldo de X, solo si RSSHub falla entero | De pago (~0,005 USD por post) | Guardado, sin saldo. No hace falta cargarle |
-| `VAPID_PRIVATE_KEY` + `VAPID_SUBJECT` | Notificaciones push del navegador para los fans que se suscriben en la web | Gratis (con el worker de Cloudflare) | Opcional, no configurado |
-| `WHATSAPP_TOKEN` + `WHATSAPP_PHONE_ID` | Avisos por WhatsApp | De pago y pide verificar un negocio | Para después |
+| `VAPID_PRIVATE_KEY` + `VAPID_SUBJECT` | Push del navegador con el servidor de `backend/` | Gratis (con el worker de Cloudflare) | Ya no hace falta: la web usa ntfy |
+| `WHATSAPP_TOKEN` + `WHATSAPP_PHONE_ID` | Avisos por WhatsApp | De pago y pide verificar un negocio | Descartado por ahora (no hay opción gratis y estable) |
 
 Lo que no necesita clave: estrenos (catálogo de Apple Music), noticias (Soompi, Koreaboo, Google Noticias) y los números
 de Spotify (kworb.net).
@@ -81,6 +83,23 @@ Mantenimiento:
 ## Discord: `DISCORD_WEBHOOK_URL`
 
 Canal, rueda dentada, **Integrations**, **Webhooks**, **New Webhook**, **Copy Webhook URL**. Guárdala como `DISCORD_WEBHOOK_URL`.
+Ese canal recibe todo (es el tuyo, para revisar).
+
+## Discord para los fans: `DISCORD_FORUM_WEBHOOK_URL` (gratis, 5 minutos)
+
+Para que cada fan elija sus grupos, el robot escribe en un **canal tipo foro** con una publicación por grupo
+("BTS · alertas", "Stray Kids · alertas"...). Cada fan sigue las publicaciones de sus grupos y Discord solo le avisa de esas.
+No hay que meter a nadie a mano ni pedir su usuario: entran con el enlace de invitación.
+
+1. En tu servidor: **+** junto a los canales, **Crear canal**, tipo **Foro**, nombre `alertas`. (Si no sale "Foro", activa la
+   comunidad: **Ajustes del servidor**, **Habilitar comunidad**.)
+2. En el foro: rueda dentada, **Integraciones**, **Webhooks**, **Nuevo webhook**, **Copiar URL del webhook**.
+3. En GitHub crea el secreto `DISCORD_FORUM_WEBHOOK_URL` con esa URL. El robot crea solo cada publicación la primera vez
+   que hay una alerta de ese grupo.
+4. Invitación: clic derecho al servidor, **Invitar gente**, **Editar enlace de invitación**, caduca **Nunca**. Pon ese enlace
+   en `config.js`, en `discordInvite` (no es secreto, o pásamelo y lo pongo yo). Desde ahí la pestaña Discord de la web
+   muestra el botón para entrar y los pasos.
+5. Recomendado: en **Ajustes del servidor**, **Notificaciones predeterminadas**, deja **Solo @menciones**, así nadie recibe todo.
 
 ## X: `X_BEARER_TOKEN` (no hace falta)
 

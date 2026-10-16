@@ -43,7 +43,7 @@ The radar only uses public, official schedules and posts. It shows the next conf
 - **On phones.** Group cards are a swipeable carousel with a strip of group chibis on top; each card keeps the essentials and folds the photo, music, facts and trivia under one button.
 - **Sightings near you.** Official posts that mention a city, newest first (or nearest first), skipping vlogs, videos and merch, with a news ticker and a heads-up when new ones arrive.
 - **Releases and videos.** The latest music and official YouTube uploads of each group. Upcoming releases are read from official posts before Apple Music lists them; the card says "Out today!" on the day and "New" for ten days after.
-- **Alerts.** A new alert triggers a confetti celebration. You can also sign up for Discord, WhatsApp or push notifications.
+- **Alerts.** A new alert triggers a confetti celebration. Fans pick groups and alert types and subscribe for free with the ntfy app (public topics per group and type, plus one per country) or follow their groups' posts in the Discord forum. No account and no personal data.
 - **Video mode.** A clean 9:16 tour of about 15 seconds, made for screen recording.
 - **Everything else.**
   - A top menu that follows the section you are in.
@@ -67,7 +67,7 @@ The radar only uses public, official schedules and posts. It shows the next conf
 | News | Soompi and Koreaboo RSS, Google News RSS | No key |
 | Official posts: sightings, arrivals, announcements | X through a self-hosted RSSHub (`RSSHUB_URL`); paid X API as a fallback | Works with RSSHub |
 | City maps | OpenFreeMap vector tiles | No key |
-| Alert delivery | Discord webhook, ntfy (phone push), Web Push, WhatsApp Cloud API | Discord and ntfy are free; see CLAVES.md |
+| Alert delivery | ntfy (private topic + public topics per group, type and country), Discord webhook and forum | Free; see CLAVES.md and ALERTAS.md |
 
 A GitHub Action runs every 15 minutes: it refreshes dates, releases, numbers, sightings and alerts, sends messages, and rebuilds the page. Every step fails softly, and each run's Summary shows which keys are set and how fresh each source is. Key setup, with what each key costs, is in [CLAVES.md](CLAVES.md) (Spanish); alert channels are in [ALERTAS.md](ALERTAS.md).
 

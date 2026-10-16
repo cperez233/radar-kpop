@@ -181,56 +181,46 @@ __CANONICAL__
 
     <section class="sec sec-subscribe" id="alertas" aria-labelledby="subTitle">
       <h2 class="sec-title" id="subTitle"><span class="sec-n" aria-hidden="true">06</span><span class="ko" lang="ko">알림 받기</span> <span data-i18n="subTitle">Recibir alertas</span></h2>
-      <p class="sub-lead" data-i18n="subLead">Te avisamos cuando tu grupo anuncia fechas, llega a una ciudad cerca o sube al escenario.</p>
+      <p class="sub-lead" data-i18n="subLead">Elige tus grupos y qué quieres saber. Gratis, sin cuenta y sin darnos tu número ni tu correo.</p>
       <form class="sub-form" id="subForm" novalidate>
         <div class="tabs" role="tablist" aria-label="Channel" data-i18n-aria="channelAria">
           <span class="tab-pill" aria-hidden="true"></span>
-          <button type="button" role="tab" data-ch="discord" aria-selected="true">Discord</button>
-          <button type="button" role="tab" data-ch="whatsapp" aria-selected="false">WhatsApp</button>
-          <button type="button" role="tab" data-ch="push" aria-selected="false" data-i18n="pushTab">Celular</button>
-        </div>
-        <p class="hint push-lead" data-for="push" hidden data-i18n="pushLead">Notificaciones en este celular o computador, aunque la web esté cerrada.</p>
-        <div class="field">
-          <label for="fName" data-i18n="fName">Tu nombre o apodo</label>
-          <input id="fName" name="name" autocomplete="nickname" maxlength="40">
-        </div>
-        <div class="field" data-for="discord">
-          <label for="fDiscord" data-i18n="fDiscord">Tu ID de usuario de Discord</label>
-          <input id="fDiscord" name="discord" inputmode="numeric" autocomplete="off" maxlength="20" placeholder="123456789012345678">
-          <p class="hint" data-i18n="fDiscordHint">Discord, Ajustes, Avanzado, Modo desarrollador. Luego clic derecho en tu nombre y Copiar ID.</p>
-          <p class="err" id="eDiscord" hidden data-i18n="eDiscord">El ID son 17 a 20 números.</p>
-        </div>
-        <div class="field" data-for="whatsapp" hidden>
-          <label for="fWa" data-i18n="fWa">Tu WhatsApp con indicativo</label>
-          <input id="fWa" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" maxlength="20" placeholder="+57 300 000 0000">
-          <p class="err" id="eWa" hidden data-i18n="eWa">Escríbelo con el indicativo, por ejemplo +57 300 000 0000.</p>
-          <label class="check"><input type="checkbox" id="fOptIn"> <span data-i18n="fOptIn">Acepto recibir mensajes del radar por WhatsApp.</span></label>
-          <p class="err" id="eOpt" hidden data-i18n="eOpt">WhatsApp exige que lo aceptes.</p>
+          <button type="button" role="tab" data-ch="ntfy" aria-selected="true"><span data-i18n="pushTab">Celular</span> <small>ntfy</small></button>
+          <button type="button" role="tab" data-ch="discord" aria-selected="false">Discord</button>
         </div>
         <fieldset class="field">
-          <legend data-i18n="fGroups">Grupos</legend>
+          <legend><span class="step-n" aria-hidden="true">1</span><span data-i18n="fGroups">Tus grupos</span></legend>
           <div class="chips" id="fGroups"></div>
         </fieldset>
-        <fieldset class="field">
-          <legend data-i18n="fTypes">Qué quieres que te avisemos</legend>
-          <div class="chips" id="fTypes"></div>
-        </fieldset>
-        <div class="field">
-          <label for="fRadius"><span data-i18n="fRadius">Avísame de shows a menos de</span> <b id="fRadiusOut">800 km</b></label>
-          <input id="fRadius" type="range" min="100" max="3000" step="50" value="800">
+        <div class="ntfy-only" data-for="ntfy">
+          <fieldset class="field">
+            <legend><span class="step-n" aria-hidden="true">2</span><span data-i18n="fTypes">Qué quieres que te avisemos</span></legend>
+            <div class="chips" id="fTypes"></div>
+            <div class="sub-extra">
+              <label class="check"><input type="checkbox" id="fCountryOn"> <span data-i18n="fCountry">Fechas nuevas de cualquier grupo en</span></label>
+              <label class="select-sticker small"><span class="sr" data-i18n="fCountryAria">País</span><select id="fCountry"></select></label>
+            </div>
+            <label class="check"><input type="checkbox" id="fWeekly"> <span data-i18n="fWeekly">El resumen de los lunes: shows, estrenos y cumpleaños de la semana</span></label>
+          </fieldset>
+          <div class="field">
+            <p class="legend"><span class="step-n" aria-hidden="true">3</span><span data-i18n="ntfyInstall">Instala ntfy, la app que recibe las alertas</span></p>
+            <div class="stores">
+              <a class="store" href="https://apps.apple.com/app/ntfy/id1625396347" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.8-3-.8C6.9 7.4 5.4 8.3 4.6 9.8c-1.7 2.9-.4 7.2 1.2 9.5.8 1.1 1.7 2.4 2.9 2.4 1.2 0 1.6-.8 3-.8s1.8.8 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.7 0 0-2.4-.9-2.4-4zM14.1 5.8c.6-.8 1.1-1.8 1-2.8-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.7-1 2.7 1 .1 2-.5 2.7-1.3z"/></svg><span><small data-i18n="storeIos">Descárgala en</small> App Store</span></a>
+              <a class="store" href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.2 2.6 13.6 12l-9.4 9.4c-.4-.2-.7-.7-.7-1.3V3.9c0-.6.3-1.1.7-1.3zm10.6 8.2 2.6-2.6 3.2 1.8c.9.5.9 1.8 0 2.3l-3.2 1.8-2.6-2.6zm-.9-.9L5.6 1.6l9.9 5.7-1.6 2.6zm0 4.2 1.6 2.6-9.9 5.7 8.3-8.3z"/></svg><span><small data-i18n="storeAndroid">Disponible en</small> Google Play</span></a>
+            </div>
+            <p class="hint" data-i18n="ntfyWhy">Es gratis y no pide cuenta, número ni correo. Te llegan notificaciones aunque la web esté cerrada.</p>
+          </div>
+          <div class="field">
+            <p class="legend"><span class="step-n" aria-hidden="true">4</span><span data-i18n="ntfySubTitle">Suscríbete a tus temas</span></p>
+            <div id="ntfyList" aria-live="polite"></div>
+          </div>
         </div>
+        <div class="dc-only" data-for="discord" hidden><div id="dcBox"></div></div>
         <div class="preview" aria-live="polite">
           <p class="preview-k" data-i18n="preview">Así te llegaría</p>
           <div class="preview-bubble" id="preview"></div>
         </div>
-        <label class="check consent"><input type="checkbox" id="fConsent"> <span data-i18n="fConsent">Autorizo al radar a usar estos datos solo para mandarme las alertas que elegí. Si soy menor de edad, tengo permiso de mi mamá, papá o acudiente.</span></label>
-        <p class="err" id="eConsent" hidden data-i18n="eConsent">Necesitamos tu autorización para guardar tus alertas.</p>
-        <p class="privacy"><span data-i18n="privacy">Tus datos se guardan solo en este navegador. Si el radar tiene servidor configurado, se envían únicamente para mandarte estas alertas. Puedes borrarlos cuando quieras.</span> <a href="#privacidad" data-open-privacy data-i18n="privacyLink">Cómo usamos tus datos</a></p>
-        <div class="form-actions">
-          <button class="btn primary" type="submit" id="subSubmit"><span data-i18n="subSubmit">Guardar mis alertas</span></button>
-          <button class="link-btn" type="button" id="subDelete" data-i18n="subDelete">Borrar mis datos</button>
-        </div>
-        <div class="sub-result" id="subResult" hidden></div>
+        <p class="privacy"><span data-i18n="privacy">No guardamos nada tuyo: tus elecciones quedan solo en este navegador y la suscripción vive en tu app.</span> <a href="#privacidad" data-open-privacy data-i18n="privacyLink">Cómo usamos tus datos</a> · <button class="link-btn" type="button" id="subDelete" data-i18n="subDelete">Borrar mis elecciones</button></p>
       </form>
     </section>
 

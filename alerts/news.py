@@ -110,7 +110,7 @@ def _item_id(item: dict) -> str:
 
 
 def collect(feeds: dict, now: datetime) -> list[dict]:
-    """Devuelve [{id, group, kind, title, link, source}] de los ultimos 3 dias. Un feed caido no tumba al resto."""
+    """Devuelve [{id, group, kind, title, link, source, ts (cuándo se publicó, o None)}] de los ultimos 3 dias. Un feed caido no tumba al resto."""
     out: list[dict] = []
 
     def keep(item: dict) -> bool:
@@ -122,7 +122,7 @@ def collect(feeds: dict, now: datetime) -> list[dict]:
                 gid = _match_group(it, feeds["aliases"]) if keep(it) else None
                 kind = classify(it["title"]) if gid else None
                 if gid and kind:
-                    out.append({"id": _item_id(it), "group": gid, "kind": kind, "title": it["title"], "link": it["link"], "source": feed["name"]})
+                    out.append({"id": _item_id(it), "group": gid, "kind": kind, "title": it["title"], "link": it["link"], "source": feed["name"], "ts": it["ts"]})
         except Exception as exc:  # noqa: BLE001
             print(f"Feed caido ({feed['name']}): {exc}")
 
@@ -133,7 +133,7 @@ def collect(feeds: dict, now: datetime) -> list[dict]:
                 for it in fetch(url):
                     kind = classify(it["title"]) if keep(it) else None
                     if kind:
-                        out.append({"id": _item_id(it), "group": gid, "kind": kind, "title": it["title"], "link": it["link"], "source": "Google Noticias"})
+                        out.append({"id": _item_id(it), "group": gid, "kind": kind, "title": it["title"], "link": it["link"], "source": "Google Noticias", "ts": it["ts"]})
             except Exception as exc:  # noqa: BLE001
                 print(f"Google Noticias fallo para {gid}: {exc}")
 
@@ -162,7 +162,7 @@ def collect(feeds: dict, now: datetime) -> list[dict]:
     for acct, it in posts:
         if keep(it):
             out.append({"id": _item_id(it), "group": acct["group"], "kind": "social", "title": it["title"], "link": it["link"],
-                        "source": acct["name"], "text": it["title"] + " " + it["summary"]})
+                        "source": acct["name"], "text": it["title"] + " " + it["summary"], "ts": it["ts"]})
 
     # Videos: los trae updater/media.py (corre antes en el workflow) y quedan en media.json; aquí no se vuelve a pedir a YouTube
     media = Path(__file__).resolve().parent.parent / "media.json"
@@ -173,7 +173,7 @@ def collect(feeds: dict, now: datetime) -> list[dict]:
     for m in vids:
         it = {"title": m.get("title", ""), "link": m.get("url", ""), "summary": "", "ts": _parse_dt(m.get("published") or None)}
         if it["ts"] and keep(it):
-            out.append({"id": _item_id(it), "group": m["group"], "kind": "video", "title": it["title"], "link": it["link"], "source": "YouTube"})
+            out.append({"id": _item_id(it), "group": m["group"], "kind": "video", "title": it["title"], "link": it["link"], "source": "YouTube", "ts": it["ts"]})
 
     seen, uniq = set(), []
     for o in out:

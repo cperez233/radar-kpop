@@ -14,7 +14,14 @@ Variables de entorno (todas opcionales; sin ellas corre en modo prueba):
   WHATSAPP_TEMPLATE (por defecto radar_alerta), SUBSCRIBERS_JSON, DRY_RUN=1, NOW=2026-10-16T12:00:00Z,
   SUBSCRIBERS_URL y SUBSCRIBERS_TOKEN (lista de suscriptores del servidor de backend/, se suma a SUBSCRIBERS_JSON),
   VAPID_PRIVATE_KEY y VAPID_SUBJECT (notificaciones push, con pywebpush instalado),
-  NTFY_TOPIC (push al celular con la app ntfy; NTFY_SERVER si usas otro servidor que ntfy.sh)
+  NTFY_TOPIC (push al celular con la app ntfy; NTFY_SERVER si usas otro servidor que ntfy.sh),
+  DISCORD_FORUM_WEBHOOK_URL (webhook de un canal tipo foro: una publicación por grupo que cada fan sigue o no).
+
+Alertas para los fans, sin servidor ni datos personales (ver public_topics y ALERTAS.md):
+  - ntfy: cada alerta sale también en un tema público por grupo y tipo (radarkpop-bts-shows, radarkpop-skz-music...)
+    y las fechas nuevas en un tema por país (radarkpop-pais-mexico). El fan elige en la web y se suscribe en la app.
+    El prefijo sale de ntfyTopicPrefix en config.js (o NTFY_PUBLIC_PREFIX; "off" lo apaga).
+  - Discord: en el foro, una publicación por grupo; el fan sigue las de sus grupos.
 """
 from __future__ import annotations
 
@@ -152,7 +159,7 @@ def diff_events(old: dict, data: dict, now: datetime) -> list[dict]:
                 "new_date", f"new:{g['id']}:{es[0]['id']}", g, f"{g['name']} agregó fechas en {city}" + (" (por confirmar)" if es[0].get("source") == "auto" else ""),
                 f"{dates_label(es)}" + (f" en {es[0]['venue']}" if es[0]["venue"] else "") + f", {es[0]['country']}." +
                 (" Salió de un anuncio; la hora y los detalles están por confirmar." if es[0].get("source") == "auto" else ""),
-                now, places=[{"lat": es[0]["lat"], "lon": es[0]["lon"], "city": city}], url=es[0].get("src") or None,
+                now, places=[{"lat": es[0]["lat"], "lon": es[0]["lon"], "city": city}], url=es[0].get("src") or None, country=es[0]["country"],
                 title_en=f"{g['name']} added dates in {en(city)}" + (" (to be confirmed)" if es[0].get("source") == "auto" else ""),
                 body_en=f"{dates_label(es, 'en')}" + (f" at {es[0]['venue']}" if es[0]["venue"] else "") + f", {en(es[0]['country'])}.",
             ))
@@ -188,7 +195,7 @@ def time_alerts(data: dict, now: datetime) -> list[dict]:
             if local_now.date().isoformat() == first["local_date"] and local_now.hour >= 8 and now < end:
                 alerts.append(mk(
                     "stop_today", f"today:{g['id']}:{first['id']}", g, f"Hoy {g['name']} abre en {first['city']}",
-                    f"{where}. Hora aproximada, confirma en la boletería.", now, places=[place],
+                    f"{where}. Hora aproximada, confirma en la boletería.", now, places=[place], country=first["country"],
                     title_en=f"Today {g['name']} opens in {en(first['city'])}", body_en=f"{where_en}. Approximate time, check with the box office.",
                 ))
             for e in st:
@@ -274,12 +281,14 @@ def news_alerts(items: list[dict], seen: set, data: dict, now: datetime, bootstr
         if it["id"] in seen or it["group"] not in gmap or bootstrap:
             continue
         g = gmap[it["group"]]
+        # la hora de la alerta es la de la publicación (no la de esta corrida), si la fuente la trae
+        at = min(it["ts"], now) if it.get("ts") else now
         if it["kind"] == "social":
             text = norm(it["text"])
             hit = None if news.OFFICIAL_SKIP.search(it["title"]) else next((c for c in active_places(g, now) if any(n in text for n in city_names(c))), None)
             if hit:
                 alerts.append(mk("arrival_official", f"news:{it['id']}", g, f"Posible llegada de {g['name']} a {hit}",
-                                 f"Lo publicó {it['source']}: «{short(it['title'])}». Salió de su cuenta oficial.", now, url=it["link"],
+                                 f"Lo publicó {it['source']}: «{short(it['title'])}». Salió de su cuenta oficial.", at, url=it["link"],
                                  title_en=f"{g['name']} may have arrived in {en(hit)}",
                                  body_en=f"Posted by {it['source']}: \"{short(it['title'])}\". From their official account."))
                 continue
@@ -288,7 +297,7 @@ def news_alerts(items: list[dict], seen: set, data: dict, now: datetime, bootstr
             if kind:
                 lab = {"tour": ("gira", "tour"), "latam": ("Latinoamérica", "Latin America"), "comeback": ("comeback", "comeback")}[kind]
                 alerts.append(mk("official", f"official:{g['id']}:{kind}:{now:%Y-%m-%d}", g, f"Anuncio oficial de {g['name']}: {lab[0]}",
-                                 f"«{short(it['title'], 180)}» ({it['source']}).", now, url=it["link"],
+                                 f"«{short(it['title'], 180)}» ({it['source']}).", at, url=it["link"],
                                  title_en=f"Official {g['name']} news: {lab[1]}", body_en=f"\"{short(it['title'], 180)}\" ({it['source']})."))
             continue
         if it["kind"] != "video":
@@ -303,7 +312,7 @@ def news_alerts(items: list[dict], seen: set, data: dict, now: datetime, bootstr
         if it["kind"] == "arrival":
             body += ". Lo reporta la prensa, no es confirmación oficial."
             body_en += ". Reported by the press, not an official confirmation."
-        alerts.append(mk(it["kind"], f"news:{it['id']}", g, f"{label}: {g['name']}", body, now, url=it["link"],
+        alerts.append(mk(it["kind"], f"news:{it['id']}", g, f"{label}: {g['name']}", body, at, url=it["link"],
                          title_en=f"{label_en}: {g['name']}", body_en=body_en))
     return alerts
 
@@ -414,7 +423,7 @@ def roster_alerts(data: dict, people: dict, now: datetime) -> list[dict]:
         es, en_ = KIND_ES[x["kind"]]
         tag = "Aviso oficial" if x.get("official") else "Noticia (sin confirmar)"
         alerts.append(mk("roster", f"roster:{x['url']}", g, f"{'📢' if x.get('official') else '📰'} {n} ({g['name']}) {es}",
-                         f"{tag}: «{short(x['title'], 180)}»", now, member=x["member"], url=x["url"],
+                         f"{tag}: «{short(x['title'], 180)}»", min(dt(x["when"]), now), member=x["member"], url=x["url"],
                          title_en=f"{'📢' if x.get('official') else '📰'} {n} ({g['name']}) {en_}",
                          body_en=f"{'Official notice' if x.get('official') else 'News (unconfirmed)'}: \"{short(x['title'], 180)}\""))
     return alerts
@@ -478,6 +487,53 @@ def subscriber_alerts(data: dict, new_alerts: list[dict], subs: list[dict], now:
 
 # ---------- 5. entrega ----------
 
+PUBLIC_MAX = 45  # tope de publicaciones en temas públicos por corrida (ntfy.sh deja 250 al día por IP)
+CATS = {  # tipo de alerta -> categoría que el fan elige en la web (assets/app.js, NTFY_CATS)
+    "new_date": "shows", "changed": "shows", "removed": "shows", "stop_today": "shows", "live": "shows", "next_stop": "shows",
+    "arrival_official": "shows", "tour": "news", "latam": "news", "arrival": "news", "roster": "members", "birthday": "members",
+}
+
+
+def topic_slug(s: str) -> str:
+    """'Corea del Sur' -> 'coreadelsur', 'EE. UU.' -> 'eeuu' (igual que slugTopic en assets/app.js)."""
+    return re.sub(r"[^a-z0-9]", "", unicodedata.normalize("NFKD", s.lower()).encode("ascii", "ignore").decode())
+
+
+def public_prefix() -> str:
+    env = os.environ.get("NTFY_PUBLIC_PREFIX")
+    if env is not None:
+        return "" if env.strip().lower() in ("", "off", "0") else env.strip()
+    try:
+        m = re.search(r'ntfyTopicPrefix:\s*"([A-Za-z0-9_-]*)"', (ROOT / "config.js").read_text(encoding="utf-8"))
+    except OSError:
+        return ""
+    return m.group(1) if m else ""
+
+
+def alert_cat(a: dict) -> str | None:
+    t = a["type"]
+    if t == "comeback":
+        return "music" if a["key"].startswith("rel:") else "news"
+    if t == "official":
+        return "music" if ":comeback:" in a["key"] else "shows"
+    return CATS.get(t)
+
+
+def public_topics(a: dict, prefix: str) -> list[str]:
+    """Temas públicos de ntfy donde sale esta alerta. Videos no (los grupos suben varios al día)."""
+    if not prefix or a.get("sub"):
+        return []
+    if a["type"] == "weekly":
+        return [f"{prefix}-semana"]
+    out = []
+    cat = alert_cat(a)
+    if cat:
+        out.append(f"{prefix}-{a['group']}-{cat}")
+    if a["type"] in ("new_date", "stop_today") and a.get("country"):
+        out.append(f"{prefix}-pais-{topic_slug(a['country'])}")
+    return out
+
+
 def wants(sub: dict, field: str, alert: dict, default: set | None = None) -> bool:
     types = sub.get(field)
     if types is None:
@@ -494,6 +550,9 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
     wa_token, wa_phone = os.environ.get("WHATSAPP_TOKEN"), os.environ.get("WHATSAPP_PHONE_ID")
     template = os.environ.get("WHATSAPP_TEMPLATE", "radar_alerta")
 
+    forum = os.environ.get("DISCORD_FORUM_WEBHOOK_URL", "").strip()
+    threads: dict = state.setdefault("discord_threads", {})
+    prefix, public_n = public_prefix(), 0
     tally = {"discord": [0, 0], "ntfy": [0, 0]}  # [bien, mal] para el vigilante
 
     def track(name: str, ok: bool) -> bool:
@@ -514,6 +573,12 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
                  else channels.send_discord_webhook(webhook, a, dry))
             if ntfy_topic and a["type"] not in NTFY_SKIP:
                 once(f"{a['key']}|ntfy", lambda a=a: track("ntfy", channels.send_ntfy(ntfy_topic, a, dry, ntfy_server)))
+            for tp in public_topics(a, prefix):
+                if public_n < PUBLIC_MAX and f"{a['key']}|pub:{tp}" not in sent:
+                    public_n += 1
+                    once(f"{a['key']}|pub:{tp}", lambda a=a, tp=tp: track("ntfy", channels.send_ntfy(tp, a, dry, ntfy_server)))
+            if forum and a["type"] != "video":
+                once(f"{a['key']}|foro", lambda a=a: track("discord", forum_post(forum, a, threads, dry)))
         for s in subs:
             if a.get("sub") and a["sub"] != s["id"]:
                 continue
@@ -530,6 +595,21 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
             if good or bad:
                 report(name, good > 0 or bad == 0, "" if good else f"fallaron los {bad} envíos")
     return count
+
+
+FORUM_NAMES = {"radar": "📅 Tu semana K-pop"}
+
+
+def forum_post(url: str, a: dict, threads: dict, dry: bool) -> bool:
+    """Publica en el foro de Discord, dentro de la publicación del grupo (la crea la primera vez y guarda su id)."""
+    gid = a["group"]
+    name = FORUM_NAMES.get(gid) or f"{a.get('group_name') or gid} · alertas"
+    ok, tid = channels.send_discord_forum(url, a, threads.get(gid), name, dry)
+    if not ok and threads.get(gid) and not dry:  # la publicación se borró: se crea otra
+        ok, tid = channels.send_discord_forum(url, a, None, name, dry)
+    if ok and tid:
+        threads[gid] = tid
+    return ok
 
 
 def test_alert(now: datetime) -> int:
@@ -623,7 +703,7 @@ def main() -> int:
     if fresh or not FEED_OUT.exists():
         feed = load_json(FEED_OUT, {"alerts": []})["alerts"]
         public = [{k: a.get(k) for k in ("type", "group", "group_name", "title", "body", "title_en", "body_en", "when", "url")} for a in fresh]
-        FEED_OUT.write_text(json.dumps({"updated_at": iso(now), "alerts": (public + feed)[:FEED_MAX]}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        FEED_OUT.write_text(json.dumps({"updated_at": iso(now), "alerts": sorted(public + feed, key=lambda a: a["when"], reverse=True)[:FEED_MAX]}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return 0
 
 
