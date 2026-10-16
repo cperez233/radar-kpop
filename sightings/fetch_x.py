@@ -269,7 +269,8 @@ def main() -> int:
         if fresh is None:
             print("Ninguna fuente de avistamientos respondió: se conserva sightings.json como estaba", file=sys.stderr)
             return 0
-        keep = [] if old.get("sample") else old.get("items", [])
+        # los guardados también pasan por los filtros de hoy (si un filtro mejora, lo viejo que no cumple se va)
+        keep = [] if old.get("sample") else [x for x in old.get("items", []) if not (BLOCK.search(x.get("text", "")) or NOT_PLACE.search(x.get("text", "")) or CONTENT.search(x.get("text", "")))]
         merged = {x["id"]: x for x in keep + fresh}
         cutoff = now - timedelta(days=KEEP_DAYS)
         items = [x for x in merged.values() if datetime.fromisoformat(x["when"].replace("Z", "+00:00")) >= cutoff]
