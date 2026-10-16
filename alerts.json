@@ -1,4 +1,27 @@
 {
-  "updated_at": "2026-10-15T04:30:00Z",
-  "alerts": []
+ "updated_at": "2026-10-16T05:40:45Z",
+ "alerts": [
+  {
+   "type": "next_stop",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "LNGSHOT sigue a Milán",
+   "body": "Cerró en Zúrich (Dübendorf). Siguiente parada: Milán, Italia (17 oct), a unos 223 km.",
+   "title_en": "LNGSHOT moves on to Milan",
+   "body_en": "Wrapped up in Zurich (Dübendorf). Next stop: Milan, Italy (Oct 17), about 223 km away.",
+   "when": "2026-10-16T05:40:45Z",
+   "url": null
+  },
+  {
+   "type": "stop_today",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Hoy ENHYPEN abre en Macao",
+   "body": "Galaxy Arena, Macao. Hora aproximada, confirma en la boletería.",
+   "title_en": "Today ENHYPEN opens in Macau",
+   "body_en": "Galaxy Arena, Macau. Approximate time, check with the box office.",
+   "when": "2026-10-16T05:40:45Z",
+   "url": null
+  }
+ ]
 }

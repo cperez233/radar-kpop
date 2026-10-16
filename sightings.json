@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T06:06:28Z",
+  "updated_at": "2026-10-16T05:40:39Z",
   "source": "sample",
   "sample": true,
   "items": [
@@ -15,7 +15,7 @@
       "text_en": "Sample: this is how an official BTS post that mentions Lima would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-16T03:06:28Z"
+      "when": "2026-10-16T02:40:39Z"
     },
     {
       "id": "sample-skz-skz-20261024-fukuoka",
@@ -29,7 +29,7 @@
       "text_en": "Sample: this is how an official Stray Kids post that mentions Fukuoka would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-15T22:06:28Z"
+      "when": "2026-10-15T21:40:39Z"
     },
     {
       "id": "sample-lngshot-lng-20261015-zurich",
@@ -43,7 +43,7 @@
       "text_en": "Sample: this is how an official LNGSHOT post that mentions Zurich would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-15T07:06:28Z"
+      "when": "2026-10-15T06:40:39Z"
     },
     {
       "id": "sample-seventeen-svt-20261030-incheon",
@@ -57,7 +57,7 @@
       "text_en": "Sample: this is how an official SEVENTEEN post that mentions Incheon would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-15T02:06:28Z"
+      "when": "2026-10-15T01:40:39Z"
     },
     {
       "id": "sample-enhypen-enh-20261016-macao",
@@ -71,7 +71,7 @@
       "text_en": "Sample: this is how an official ENHYPEN post that mentions Macau would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-14T21:06:28Z"
+      "when": "2026-10-14T20:40:39Z"
     },
     {
       "id": "sample-cortis-cortis-20261009-singapur",
@@ -85,7 +85,7 @@
       "text_en": "Sample: this is how an official CORTIS post that mentions Singapore would look.",
       "url": "",
       "account": "",
-      "when": "2026-10-14T11:06:28Z"
+      "when": "2026-10-14T10:40:39Z"
     }
   ]
 }

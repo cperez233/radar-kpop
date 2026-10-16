@@ -1,0 +1,784 @@
+{
+ "sent": {
+  "next:lngshot:lng-20261015-zurich|canal": "2026-10-16T05:40:54Z",
+  "today:enhypen:enh-20261016-macao|canal": "2026-10-16T05:40:54Z"
+ },
+ "snapshot": {
+  "bts-20261009-lima": {
+   "g": "bts",
+   "d": "2026-10-09",
+   "s": "2026-10-09T20:00:00-05:00",
+   "c": "Lima",
+   "v": "Estadio Nacional"
+  },
+  "bts-20261016-santiago": {
+   "g": "bts",
+   "d": "2026-10-16",
+   "s": "2026-10-16T20:00:00-03:00",
+   "c": "Santiago",
+   "v": "Estadio Nacional Julio Martínez Prádanos"
+  },
+  "bts-20261017-santiago": {
+   "g": "bts",
+   "d": "2026-10-17",
+   "s": "2026-10-17T20:00:00-03:00",
+   "c": "Santiago",
+   "v": "Estadio Nacional Julio Martínez Prádanos"
+  },
+  "bts-20261021-laplata": {
+   "g": "bts",
+   "d": "2026-10-21",
+   "s": "2026-10-21T20:00:00-03:00",
+   "c": "La Plata",
+   "v": "Estadio Único Diego Armando Maradona"
+  },
+  "bts-20261023-laplata": {
+   "g": "bts",
+   "d": "2026-10-23",
+   "s": "2026-10-23T20:00:00-03:00",
+   "c": "La Plata",
+   "v": "Estadio Único Diego Armando Maradona"
+  },
+  "bts-20261024-laplata": {
+   "g": "bts",
+   "d": "2026-10-24",
+   "s": "2026-10-24T20:00:00-03:00",
+   "c": "La Plata",
+   "v": "Estadio Único Diego Armando Maradona"
+  },
+  "bts-20261028-saopaulo": {
+   "g": "bts",
+   "d": "2026-10-28",
+   "s": "2026-10-28T20:00:00-03:00",
+   "c": "São Paulo",
+   "v": "Estádio MorumBIS"
+  },
+  "bts-20261030-saopaulo": {
+   "g": "bts",
+   "d": "2026-10-30",
+   "s": "2026-10-30T20:00:00-03:00",
+   "c": "São Paulo",
+   "v": "Estádio MorumBIS"
+  },
+  "bts-20261031-saopaulo": {
+   "g": "bts",
+   "d": "2026-10-31",
+   "s": "2026-10-31T20:00:00-03:00",
+   "c": "São Paulo",
+   "v": "Estádio MorumBIS"
+  },
+  "bts-20261119-kaohsiung": {
+   "g": "bts",
+   "d": "2026-11-19",
+   "s": "2026-11-19T20:00:00+08:00",
+   "c": "Kaohsiung",
+   "v": "Kaohsiung National Stadium"
+  },
+  "bts-20261121-kaohsiung": {
+   "g": "bts",
+   "d": "2026-11-21",
+   "s": "2026-11-21T20:00:00+08:00",
+   "c": "Kaohsiung",
+   "v": "Kaohsiung National Stadium"
+  },
+  "bts-20261122-kaohsiung": {
+   "g": "bts",
+   "d": "2026-11-22",
+   "s": "2026-11-22T20:00:00+08:00",
+   "c": "Kaohsiung",
+   "v": "Kaohsiung National Stadium"
+  },
+  "bts-20261203-bangkok": {
+   "g": "bts",
+   "d": "2026-12-03",
+   "s": "2026-12-03T20:00:00+07:00",
+   "c": "Bangkok",
+   "v": "Rajamangala National Stadium"
+  },
+  "bts-20261205-bangkok": {
+   "g": "bts",
+   "d": "2026-12-05",
+   "s": "2026-12-05T20:00:00+07:00",
+   "c": "Bangkok",
+   "v": "Rajamangala National Stadium"
+  },
+  "bts-20261206-bangkok": {
+   "g": "bts",
+   "d": "2026-12-06",
+   "s": "2026-12-06T20:00:00+07:00",
+   "c": "Bangkok",
+   "v": "Rajamangala National Stadium"
+  },
+  "bts-20261212-kualalumpur": {
+   "g": "bts",
+   "d": "2026-12-12",
+   "s": "2026-12-12T20:00:00+08:00",
+   "c": "Kuala Lumpur",
+   "v": "Bukit Jalil National Stadium"
+  },
+  "bts-20261213-kualalumpur": {
+   "g": "bts",
+   "d": "2026-12-13",
+   "s": "2026-12-13T20:00:00+08:00",
+   "c": "Kuala Lumpur",
+   "v": "Bukit Jalil National Stadium"
+  },
+  "bts-20261217-singapore": {
+   "g": "bts",
+   "d": "2026-12-17",
+   "s": "2026-12-17T20:00:00+08:00",
+   "c": "Singapur",
+   "v": "National Stadium"
+  },
+  "bts-20261219-singapore": {
+   "g": "bts",
+   "d": "2026-12-19",
+   "s": "2026-12-19T20:00:00+08:00",
+   "c": "Singapur",
+   "v": "National Stadium"
+  },
+  "bts-20261220-singapore": {
+   "g": "bts",
+   "d": "2026-12-20",
+   "s": "2026-12-20T20:00:00+08:00",
+   "c": "Singapur",
+   "v": "National Stadium"
+  },
+  "bts-20261222-singapore": {
+   "g": "bts",
+   "d": "2026-12-22",
+   "s": "2026-12-22T20:00:00+08:00",
+   "c": "Singapur",
+   "v": "National Stadium"
+  },
+  "bts-20261226-jakarta": {
+   "g": "bts",
+   "d": "2026-12-26",
+   "s": "2026-12-26T20:00:00+07:00",
+   "c": "Yakarta",
+   "v": null
+  },
+  "bts-20261227-jakarta": {
+   "g": "bts",
+   "d": "2026-12-27",
+   "s": "2026-12-27T20:00:00+07:00",
+   "c": "Yakarta",
+   "v": null
+  },
+  "bts-20270212-melbourne": {
+   "g": "bts",
+   "d": "2027-02-12",
+   "s": "2027-02-12T20:00:00+11:00",
+   "c": "Melbourne",
+   "v": null
+  },
+  "bts-20270213-melbourne": {
+   "g": "bts",
+   "d": "2027-02-13",
+   "s": "2027-02-13T20:00:00+11:00",
+   "c": "Melbourne",
+   "v": null
+  },
+  "bts-20270220-sydney": {
+   "g": "bts",
+   "d": "2027-02-20",
+   "s": "2027-02-20T20:00:00+11:00",
+   "c": "Sídney",
+   "v": null
+  },
+  "bts-20270221-sydney": {
+   "g": "bts",
+   "d": "2027-02-21",
+   "s": "2027-02-21T20:00:00+11:00",
+   "c": "Sídney",
+   "v": null
+  },
+  "bts-20270304-hongkong": {
+   "g": "bts",
+   "d": "2027-03-04",
+   "s": "2027-03-04T20:00:00+08:00",
+   "c": "Hong Kong",
+   "v": null
+  },
+  "bts-20270306-hongkong": {
+   "g": "bts",
+   "d": "2027-03-06",
+   "s": "2027-03-06T20:00:00+08:00",
+   "c": "Hong Kong",
+   "v": null
+  },
+  "bts-20270307-hongkong": {
+   "g": "bts",
+   "d": "2027-03-07",
+   "s": "2027-03-07T20:00:00+08:00",
+   "c": "Hong Kong",
+   "v": null
+  },
+  "bts-20270313-manila": {
+   "g": "bts",
+   "d": "2027-03-13",
+   "s": "2027-03-13T20:00:00+08:00",
+   "c": "Manila",
+   "v": null
+  },
+  "bts-20270314-manila": {
+   "g": "bts",
+   "d": "2027-03-14",
+   "s": "2027-03-14T20:00:00+08:00",
+   "c": "Manila",
+   "v": null
+  },
+  "skz-20260919-osaka": {
+   "g": "skz",
+   "d": "2026-09-19",
+   "s": "2026-09-19T18:00:00+09:00",
+   "c": "Osaka",
+   "v": "Kyocera Dome Osaka"
+  },
+  "skz-20260920-osaka": {
+   "g": "skz",
+   "d": "2026-09-20",
+   "s": "2026-09-20T18:00:00+09:00",
+   "c": "Osaka",
+   "v": "Kyocera Dome Osaka"
+  },
+  "skz-20261024-fukuoka": {
+   "g": "skz",
+   "d": "2026-10-24",
+   "s": "2026-10-24T18:00:00+09:00",
+   "c": "Fukuoka",
+   "v": "Mizuho PayPay Dome Fukuoka"
+  },
+  "skz-20261205-hongkong": {
+   "g": "skz",
+   "d": "2026-12-05",
+   "s": "2026-12-05T20:00:00+08:00",
+   "c": "Hong Kong",
+   "v": "Kai Tak Stadium"
+  },
+  "skz-20261212-taipei": {
+   "g": "skz",
+   "d": "2026-12-12",
+   "s": "2026-12-12T19:00:00+08:00",
+   "c": "Taipéi",
+   "v": "Taipei Dome"
+  },
+  "skz-20270116-bangkok": {
+   "g": "skz",
+   "d": "2027-01-16",
+   "s": "2027-01-16T19:00:00+07:00",
+   "c": "Nonthaburi (Bangkok)",
+   "v": "IMPACT Arena"
+  },
+  "skz-20270117-bangkok": {
+   "g": "skz",
+   "d": "2027-01-17",
+   "s": "2027-01-17T19:00:00+07:00",
+   "c": "Nonthaburi (Bangkok)",
+   "v": "IMPACT Arena"
+  },
+  "skz-20270307-singapore": {
+   "g": "skz",
+   "d": "2027-03-07",
+   "s": "2027-03-07T19:00:00+08:00",
+   "c": "Singapur",
+   "v": null
+  },
+  "bp-20260116-tokyo": {
+   "g": "blackpink",
+   "d": "2026-01-16",
+   "s": "2026-01-16T20:00:00+09:00",
+   "c": "Tokio",
+   "v": "Tokyo Dome"
+  },
+  "bp-20260117-tokyo": {
+   "g": "blackpink",
+   "d": "2026-01-17",
+   "s": "2026-01-17T20:00:00+09:00",
+   "c": "Tokio",
+   "v": "Tokyo Dome"
+  },
+  "bp-20260118-tokyo": {
+   "g": "blackpink",
+   "d": "2026-01-18",
+   "s": "2026-01-18T20:00:00+09:00",
+   "c": "Tokio",
+   "v": "Tokyo Dome"
+  },
+  "bp-20260124-hongkong": {
+   "g": "blackpink",
+   "d": "2026-01-24",
+   "s": "2026-01-24T20:00:00+08:00",
+   "c": "Hong Kong",
+   "v": "Kai Tak Stadium"
+  },
+  "bp-20260125-hongkong": {
+   "g": "blackpink",
+   "d": "2026-01-25",
+   "s": "2026-01-25T20:00:00+08:00",
+   "c": "Hong Kong",
+   "v": "Kai Tak Stadium"
+  },
+  "bp-20260126-hongkong": {
+   "g": "blackpink",
+   "d": "2026-01-26",
+   "s": "2026-01-26T20:00:00+08:00",
+   "c": "Hong Kong",
+   "v": "Kai Tak Stadium"
+  },
+  "lng-20261013-vienna": {
+   "g": "lngshot",
+   "d": "2026-10-13",
+   "s": "2026-10-13T20:00:00+02:00",
+   "c": "Viena",
+   "v": "Gasometer"
+  },
+  "lng-20261015-zurich": {
+   "g": "lngshot",
+   "d": "2026-10-15",
+   "s": "2026-10-15T20:00:00+02:00",
+   "c": "Zúrich (Dübendorf)",
+   "v": "The Hall"
+  },
+  "lng-20261017-milan": {
+   "g": "lngshot",
+   "d": "2026-10-17",
+   "s": "2026-10-17T20:00:00+02:00",
+   "c": "Milán",
+   "v": "Fabrique"
+  },
+  "lng-20261020-paris": {
+   "g": "lngshot",
+   "d": "2026-10-20",
+   "s": "2026-10-20T20:00:00+02:00",
+   "c": "París",
+   "v": "Zénith"
+  },
+  "lng-20261022-esch": {
+   "g": "lngshot",
+   "d": "2026-10-22",
+   "s": "2026-10-22T20:00:00+02:00",
+   "c": "Esch-sur-Alzette",
+   "v": "Rockhal"
+  },
+  "lng-20261026-london": {
+   "g": "lngshot",
+   "d": "2026-10-26",
+   "s": "2026-10-26T19:30:00+00:00",
+   "c": "Londres (Wembley)",
+   "v": "OVO Arena Wembley"
+  },
+  "lng-20261028-edinburgh": {
+   "g": "lngshot",
+   "d": "2026-10-28",
+   "s": "2026-10-28T19:30:00+00:00",
+   "c": "Edimburgo",
+   "v": "Corn Exchange"
+  },
+  "svt-20260307-singapur-new": {
+   "g": "seventeen",
+   "d": "2026-03-07",
+   "s": "2026-03-07T19:00:00+08:00",
+   "c": "Singapur",
+   "v": "National Stadium"
+  },
+  "svt-20260314-bangkok-new": {
+   "g": "seventeen",
+   "d": "2026-03-14",
+   "s": "2026-03-14T19:00:00+07:00",
+   "c": "Bangkok",
+   "v": "Suphachalasai Stadium"
+  },
+  "svt-20260321-bulacan-new": {
+   "g": "seventeen",
+   "d": "2026-03-21",
+   "s": "2026-03-21T19:00:00+08:00",
+   "c": "Bulacan",
+   "v": "Philippine Sports Stadium"
+  },
+  "svt-20260405-incheon-new": {
+   "g": "seventeen",
+   "d": "2026-04-05",
+   "s": "2026-04-05T18:30:00+09:00",
+   "c": "Incheon",
+   "v": "Incheon Asiad Main Stadium"
+  },
+  "svt-20261030-incheon": {
+   "g": "seventeen",
+   "d": "2026-10-30",
+   "s": "2026-10-30T20:00:00+09:00",
+   "c": "Incheon",
+   "v": "Inspire Arena"
+  },
+  "svt-20261101-incheon": {
+   "g": "seventeen",
+   "d": "2026-11-01",
+   "s": "2026-11-01T20:00:00+09:00",
+   "c": "Incheon",
+   "v": "Inspire Arena"
+  },
+  "svt-20261121-saitama": {
+   "g": "seventeen",
+   "d": "2026-11-21",
+   "s": "2026-11-21T17:00:00+09:00",
+   "c": "Saitama",
+   "v": "Belluna Dome"
+  },
+  "svt-20261122-saitama": {
+   "g": "seventeen",
+   "d": "2026-11-22",
+   "s": "2026-11-22T17:00:00+09:00",
+   "c": "Saitama",
+   "v": "Belluna Dome"
+  },
+  "svt-20261211-macao": {
+   "g": "seventeen",
+   "d": "2026-12-11",
+   "s": "2026-12-11T20:00:00+08:00",
+   "c": "Macao",
+   "v": "Galaxy Arena"
+  },
+  "svt-20261212-macao": {
+   "g": "seventeen",
+   "d": "2026-12-12",
+   "s": "2026-12-12T20:00:00+08:00",
+   "c": "Macao",
+   "v": "Galaxy Arena"
+  },
+  "svt-20270109-taipéi": {
+   "g": "seventeen",
+   "d": "2027-01-09",
+   "s": "2027-01-09T20:00:00+08:00",
+   "c": "Taipéi",
+   "v": "Taipei Arena"
+  },
+  "svt-20270110-taipéi": {
+   "g": "seventeen",
+   "d": "2027-01-10",
+   "s": "2027-01-10T20:00:00+08:00",
+   "c": "Taipéi",
+   "v": "Taipei Arena"
+  },
+  "svt-20270130-busan": {
+   "g": "seventeen",
+   "d": "2027-01-30",
+   "s": "2027-01-30T20:00:00+09:00",
+   "c": "Busan",
+   "v": "BEXCO"
+  },
+  "svt-20270131-busan": {
+   "g": "seventeen",
+   "d": "2027-01-31",
+   "s": "2027-01-31T20:00:00+09:00",
+   "c": "Busan",
+   "v": "BEXCO"
+  },
+  "svt-20270220-hong": {
+   "g": "seventeen",
+   "d": "2027-02-20",
+   "s": "2027-02-20T20:00:00+08:00",
+   "c": "Hong Kong",
+   "v": "AsiaWorld-Arena"
+  },
+  "svt-20270221-hong": {
+   "g": "seventeen",
+   "d": "2027-02-21",
+   "s": "2027-02-21T20:00:00+08:00",
+   "c": "Hong Kong",
+   "v": "AsiaWorld-Arena"
+  },
+  "enh-20261016-macao": {
+   "g": "enhypen",
+   "d": "2026-10-16",
+   "s": "2026-10-16T20:00:00+08:00",
+   "c": "Macao",
+   "v": "Galaxy Arena"
+  },
+  "enh-20261017-macao": {
+   "g": "enhypen",
+   "d": "2026-10-17",
+   "s": "2026-10-17T19:30:00+08:00",
+   "c": "Macao",
+   "v": "Galaxy Arena"
+  },
+  "enh-20261018-macao": {
+   "g": "enhypen",
+   "d": "2026-10-18",
+   "s": "2026-10-18T18:30:00+08:00",
+   "c": "Macao",
+   "v": "Galaxy Arena"
+  },
+  "enh-20261201-tokio": {
+   "g": "enhypen",
+   "d": "2026-12-01",
+   "s": "2026-12-01T18:30:00+09:00",
+   "c": "Tokio",
+   "v": "Tokyo Dome"
+  },
+  "enh-20261202-tokio": {
+   "g": "enhypen",
+   "d": "2026-12-02",
+   "s": "2026-12-02T16:00:00+09:00",
+   "c": "Tokio",
+   "v": "Tokyo Dome"
+  },
+  "enh-20261226-nagoya": {
+   "g": "enhypen",
+   "d": "2026-12-26",
+   "s": "2026-12-26T17:00:00+09:00",
+   "c": "Nagoya",
+   "v": "Vantelin Dome Nagoya"
+  },
+  "enh-20261227-nagoya": {
+   "g": "enhypen",
+   "d": "2026-12-27",
+   "s": "2026-12-27T16:00:00+09:00",
+   "c": "Nagoya",
+   "v": "Vantelin Dome Nagoya"
+  },
+  "enh-20270123-yakarta": {
+   "g": "enhypen",
+   "d": "2027-01-23",
+   "s": "2027-01-23T20:00:00+07:00",
+   "c": "Yakarta",
+   "v": "Jakarta International Stadium"
+  },
+  "enh-20270206-fukuoka": {
+   "g": "enhypen",
+   "d": "2027-02-06",
+   "s": "2027-02-06T17:00:00+09:00",
+   "c": "Fukuoka",
+   "v": "Mizuho PayPay Dome Fukuoka"
+  },
+  "enh-20270207-fukuoka": {
+   "g": "enhypen",
+   "d": "2027-02-07",
+   "s": "2027-02-07T16:00:00+09:00",
+   "c": "Fukuoka",
+   "v": "Mizuho PayPay Dome Fukuoka"
+  },
+  "enh-20270219-osaka": {
+   "g": "enhypen",
+   "d": "2027-02-19",
+   "s": "2027-02-19T18:00:00+09:00",
+   "c": "Osaka",
+   "v": "Kyocera Dome Osaka"
+  },
+  "enh-20270220-osaka": {
+   "g": "enhypen",
+   "d": "2027-02-20",
+   "s": "2027-02-20T16:00:00+09:00",
+   "c": "Osaka",
+   "v": "Kyocera Dome Osaka"
+  },
+  "enh-20270224-milán": {
+   "g": "enhypen",
+   "d": "2027-02-24",
+   "s": "2027-02-24T20:00:00+01:00",
+   "c": "Milán",
+   "v": "Unipol Dome"
+  },
+  "enh-20270227-parís": {
+   "g": "enhypen",
+   "d": "2027-02-27",
+   "s": "2027-02-27T20:00:00+01:00",
+   "c": "París",
+   "v": "Paris La Défense Arena"
+  },
+  "enh-20270302-ámsterdam": {
+   "g": "enhypen",
+   "d": "2027-03-02",
+   "s": "2027-03-02T20:00:00+01:00",
+   "c": "Ámsterdam",
+   "v": "Ziggo Dome"
+  },
+  "enh-20270305-berlín": {
+   "g": "enhypen",
+   "d": "2027-03-05",
+   "s": "2027-03-05T20:00:00+01:00",
+   "c": "Berlín",
+   "v": "Uber Arena"
+  },
+  "enh-20270309-londres": {
+   "g": "enhypen",
+   "d": "2027-03-09",
+   "s": "2027-03-09T20:00:00+00:00",
+   "c": "Londres",
+   "v": "The O2"
+  },
+  "enh-20270314-singapur": {
+   "g": "enhypen",
+   "d": "2027-03-14",
+   "s": "2027-03-14T19:00:00+08:00",
+   "c": "Singapur",
+   "v": "National Stadium"
+  },
+  "nj-20240626-tokio": {
+   "g": "newjeans",
+   "d": "2024-06-26",
+   "s": "2024-06-26T19:00:00+09:00",
+   "c": "Tokio",
+   "v": "Tokyo Dome"
+  },
+  "nj-20240627-tokio": {
+   "g": "newjeans",
+   "d": "2024-06-27",
+   "s": "2024-06-27T19:00:00+09:00",
+   "c": "Tokio",
+   "v": "Tokyo Dome"
+  },
+  "cortis-20260718-incheon": {
+   "g": "cortis",
+   "d": "2026-07-18",
+   "s": "2026-07-18T18:00:00+09:00",
+   "c": "Incheon",
+   "v": "INSPIRE Arena"
+  },
+  "cortis-20260719-incheon": {
+   "g": "cortis",
+   "d": "2026-07-19",
+   "s": "2026-07-19T17:00:00+09:00",
+   "c": "Incheon",
+   "v": "INSPIRE Arena"
+  },
+  "cortis-20260801-chicago": {
+   "g": "cortis",
+   "d": "2026-08-01",
+   "s": "2026-08-01T18:00:00-05:00",
+   "c": "Chicago",
+   "v": "Lollapalooza (Grant Park)"
+  },
+  "cortis-20260804-toronto": {
+   "g": "cortis",
+   "d": "2026-08-04",
+   "s": "2026-08-04T20:00:00-04:00",
+   "c": "Toronto",
+   "v": "The Theatre at Great Canadian Toronto"
+  },
+  "cortis-20260806-nueva-york": {
+   "g": "cortis",
+   "d": "2026-08-06",
+   "s": "2026-08-06T20:00:00-04:00",
+   "c": "Nueva York",
+   "v": "Infosys Theater at Madison Square Garden"
+  },
+  "cortis-20260808-atlanta": {
+   "g": "cortis",
+   "d": "2026-08-08",
+   "s": "2026-08-08T20:00:00-04:00",
+   "c": "Atlanta",
+   "v": "Fox Theatre"
+  },
+  "cortis-20260811-irving": {
+   "g": "cortis",
+   "d": "2026-08-11",
+   "s": "2026-08-11T20:00:00-05:00",
+   "c": "Irving",
+   "v": "The Pavilion at Toyota Music Factory"
+  },
+  "cortis-20260813-inglewood": {
+   "g": "cortis",
+   "d": "2026-08-13",
+   "s": "2026-08-13T20:00:00-07:00",
+   "c": "Inglewood (Los Ángeles)",
+   "v": "YouTube Theater"
+  },
+  "cortis-20260815-san-francisco": {
+   "g": "cortis",
+   "d": "2026-08-15",
+   "s": "2026-08-15T20:00:00-07:00",
+   "c": "San Francisco",
+   "v": "The Theater at Bill Graham Civic Auditorium"
+  },
+  "cortis-20260822-seul": {
+   "g": "cortis",
+   "d": "2026-08-22",
+   "s": "2026-08-22T18:00:00+09:00",
+   "c": "Seúl",
+   "v": "Hwajeong Tiger Dome (Universidad de Corea)"
+  },
+  "cortis-20260823-seul": {
+   "g": "cortis",
+   "d": "2026-08-23",
+   "s": "2026-08-23T17:00:00+09:00",
+   "c": "Seúl",
+   "v": "Hwajeong Tiger Dome (Universidad de Corea)"
+  },
+  "cortis-20260904-yokohama": {
+   "g": "cortis",
+   "d": "2026-09-04",
+   "s": "2026-09-04T19:00:00+09:00",
+   "c": "Yokohama",
+   "v": "PIA ARENA MM"
+  },
+  "cortis-20260905-yokohama": {
+   "g": "cortis",
+   "d": "2026-09-05",
+   "s": "2026-09-05T17:00:00+09:00",
+   "c": "Yokohama",
+   "v": "PIA ARENA MM"
+  },
+  "cortis-20260906-yokohama": {
+   "g": "cortis",
+   "d": "2026-09-06",
+   "s": "2026-09-06T15:00:00+09:00",
+   "c": "Yokohama",
+   "v": "PIA ARENA MM"
+  },
+  "cortis-20261009-singapur": {
+   "g": "cortis",
+   "d": "2026-10-09",
+   "s": "2026-10-09T20:00:00+08:00",
+   "c": "Singapur",
+   "v": "Padang Stage, Gran Premio de F1 de Singapur"
+  }
+ },
+ "news_seen": [
+  "03ae1c65fce023b6",
+  "0ce8c9dcdb689998",
+  "0dfdd6e27b87bab9",
+  "27483291ba1cfe9a",
+  "279cd74c3b8d0092",
+  "2eee342e72d4b1e7",
+  "317b82dacc069601",
+  "34de096ff87fab5f",
+  "4397eca529ab51a6",
+  "451b754633e40597",
+  "4549b9cdf22c491a",
+  "48e69a540f086961",
+  "49ae9537dd2a4281",
+  "4b7a46f9539f8195",
+  "4ed6072038194971",
+  "536884143bdd3388",
+  "55326539450ba7de",
+  "562513c3000bea59",
+  "5a769e67c4024311",
+  "679ac96bd183b1b7",
+  "7c9e9c0539f01758",
+  "7ebbb187fd0730fc",
+  "801dd41f9ee44208",
+  "82457908a84a4ac1",
+  "84038b786c539d8d",
+  "84df9a5990e09fa1",
+  "9216ba88243d23ea",
+  "926c29d76532b8f2",
+  "95022b324a91dfd9",
+  "9eeb1f42eb447f73",
+  "a4a6317a2074cad2",
+  "a5b18da4e90b1f3c",
+  "b4a5ca75ee1ecb75",
+  "c05c9ba06305e7b0",
+  "c2c6828f0e1b7d73",
+  "c8c7e5d61ca24a51",
+  "cdcffd89759f760b",
+  "d4c9df50f3292907",
+  "d5e9f8e16ae44802",
+  "df039864311dc247",
+  "e20959cc2895af1d",
+  "e89f63b4fc4534fa",
+  "eb114ff53d81c04a",
+  "ec325e1df85ea8ee",
+  "fa9f82f465a290fe",
+  "fb8056f4c7959797"
+ ]
+}
