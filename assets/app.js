@@ -53,15 +53,15 @@
   /* perfil: debut, agencia y dónde escucharlos (ids verificados: Spotify oEmbed, iTunes lookup, canal oficial de YouTube; Weverse solo si el grupo tiene comunidad) */
   var PROFILE = {
     bts: { debut: '2013-06-13', agency: 'BIGHIT MUSIC', spotify: '3Nrfpe0tUJi4K4DXYWgMUX', apple: 883131348, youtube: 'UCLkAepWjdylmXSltofFvsYQ', weverse: 'bts' },
-    skz: { debut: '2018-03-25', agency: 'JYP Entertainment', spotify: '2dIgFjalVxs4ThymZ67YCE', apple: 1304823362, youtube: 'UC9rMiEjNaCSsebs31MRDCRA' },
-    twice: { debut: '2015-10-20', agency: 'JYP Entertainment', spotify: '7n2Ycct7Beij7Dj7meI4X0', apple: 1203816887, youtube: 'UCzgxx_DM2Dcb9Y1spb9mUJA' },
+    skz: { debut: '2018-03-25', agency: 'JYP Entertainment', spotify: '2dIgFjalVxs4ThymZ67YCE', apple: 1304823362, youtube: 'UC9rMiEjNaCSsebs31MRDCRA', fan: [['fans', 'FANS', 'https://app.fans/community/StrayKids'], ['bubble', 'bubble', 'https://www.dearu.com/en/pages/business_bubble.php']] },
+    twice: { debut: '2015-10-20', agency: 'JYP Entertainment', spotify: '7n2Ycct7Beij7Dj7meI4X0', apple: 1203816887, youtube: 'UCzgxx_DM2Dcb9Y1spb9mUJA', fan: [['fans', 'FANS', 'https://app.fans/community/TWICE'], ['bubble', 'bubble', 'https://www.dearu.com/en/pages/business_bubble.php']] },
     blackpink: { debut: '2016-08-08', agency: 'YG Entertainment', spotify: '41MozSoPIsD1dJM0CLPjZF', apple: 1141774019, youtube: 'UCOmHUn--16B90oW2L6FRR3A', weverse: 'blackpink' },
     lngshot: { debut: '2026-01-13', agency: 'MORE VISION', spotify: '2F4oTJOWkcD1JaTeKEa9h6', apple: 1862022916, youtube: 'UC8PPjyqCQJtNfEwHBcq_uxw', weverse: 'lngshot' },
     seventeen: { debut: '2015-05-26', agency: 'PLEDIS Entertainment', spotify: '7nqOGRxlXj7N2JYbgNEjYH', apple: 999644772, youtube: 'UCfkXDY7vwkcJ8ddFGz8KusA', weverse: 'seventeen' },
     enhypen: { debut: '2020-11-30', agency: 'BELIFT LAB', spotify: '5t5FqBwTcgKTaWmfEbwQY9', apple: 1541011620, youtube: 'UCArLZtok93cO5R9RI4_Y5Jw', weverse: 'enhypen' },
     newjeans: { debut: '2022-07-22', agency: 'ADOR', spotify: '6HvZYsbFfjnjFrWF950C9d', apple: 1635469693, youtube: 'UCMki_UkHb4qSc0qyEcOHHJw', weverse: 'newjeansofficial' },
     cortis: { debut: '2025-08-18', agency: 'BIGHIT MUSIC', spotify: '1ebt9HnXdyYA6KgLXr1n4P', apple: 1831651635, youtube: 'UCZMYvSPulDSUdx7bdtTFdrg', weverse: 'cortis' },
-    ateez: { debut: '2018-10-24', agency: 'KQ Entertainment', spotify: '68KmkJeZGfwe1OUaivBa2L', apple: 1439301205, youtube: 'UC2e4Ukj5Pfr7cb3KpJAFBdQ' }
+    ateez: { debut: '2018-10-24', agency: 'KQ Entertainment', spotify: '68KmkJeZGfwe1OUaivBa2L', apple: 1439301205, youtube: 'UC2e4Ukj5Pfr7cb3KpJAFBdQ', fan: [['fromm', 'fromm', 'https://apps.apple.com/app/id1641293296'], ['toktoq', 'TOKTOQ', 'https://apps.apple.com/app/id6448908646']] }
   };
   /* mini trivia: [pregunta es, pregunta en, opciones ('es|en' si cambian), índice correcto]. Datos verificados (Wikipedia, Soompi). */
   var TRIVIA = {
@@ -1220,7 +1220,11 @@
     apple: BACK + '<rect x="6" y="6" width="24" height="24" rx="7.5" fill="#FA2D48" stroke="currentColor" stroke-width="1.8"/><path d="M21.6 10.6v10.6a2.7 2.7 0 1 1-1.9-2.6v-5.4l-5.6 1.3v7.6a2.7 2.7 0 1 1-1.9-2.6v-7.6z" fill="#fff"/>',
     ytm: BACK + '<circle cx="18" cy="18" r="12" fill="#FF0033" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="18" r="6.6" fill="none" stroke="#fff" stroke-width="1.8"/><path d="M16.3 15.3v5.4l4.4-2.7z" fill="#fff"/>',
     yt: BACK + '<rect x="5.5" y="9.5" width="25" height="17" rx="5.5" fill="#FF0033" stroke="currentColor" stroke-width="1.8"/><path d="M15.5 14.2v7.6l6.4-3.8z" fill="#fff"/>',
-    wv: BACK + '<rect x="6" y="6" width="24" height="24" rx="7.5" fill="#1CC8D8" stroke="currentColor" stroke-width="1.8"/><path d="M10.6 13.4l3 9.2 4.4-7.2 4.4 7.2 3-9.2" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>'
+    wv: BACK + '<rect x="6" y="6" width="24" height="24" rx="7.5" fill="#1CC8D8" stroke="currentColor" stroke-width="1.8"/><path d="M10.6 13.4l3 9.2 4.4-7.2 4.4 7.2 3-9.2" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>',
+    fans: BACK + '<rect x="6" y="6" width="24" height="24" rx="7.5" fill="#111" stroke="currentColor" stroke-width="1.8"/><path d="M13.6 24.5v-13h8.4M13.6 17.6h6.6" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="23.4" cy="23.4" r="1.9" fill="#FF4F8B"/>',
+    bubble: BACK + '<path d="M18 7.5c6.1 0 10.8 4 10.8 9s-4.7 9-10.8 9c-1.2 0-2.3-.1-3.4-.4L9.3 27.5l1.4-4.6C8.5 21.3 7.2 19 7.2 16.5c0-5 4.7-9 10.8-9z" fill="#8C6CFF" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="14" cy="16.6" r="1.6" fill="#fff"/><circle cx="18" cy="16.6" r="1.6" fill="#fff"/><circle cx="22" cy="16.6" r="1.6" fill="#fff"/>',
+    fromm: BACK + '<rect x="6" y="6" width="24" height="24" rx="7.5" fill="#FF7A59" stroke="currentColor" stroke-width="1.8"/><path d="M20.6 11.2c-2.3-.4-4 .7-4 3.2V25M13.4 16.6h6.4" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>',
+    toktoq: BACK + '<rect x="6" y="6" width="24" height="24" rx="7.5" fill="#2E6BFF" stroke="currentColor" stroke-width="1.8"/><path d="M11 13.2h7.6M14.8 13.2V24M19 18.6h6.4M22.2 18.6V26" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>',
   };
   function platIcon(k) { return '<svg class="ln-ico" viewBox="0 0 36 36" aria-hidden="true">' + PLAT[k] + '</svg>'; }
   /* dónde escucharlos: enlaces a perfiles oficiales */
@@ -1232,6 +1236,7 @@
     links.push(['ytm', 'YouTube Music', 'https://music.youtube.com/search?q=' + q, 'YT Music']);
     if (p.youtube) links.push(['yt', 'YouTube', 'https://www.youtube.com/channel/' + p.youtube]);
     if (p.weverse) links.push(['wv', 'Weverse', 'https://weverse.io/' + p.weverse]);
+    (p.fan || []).forEach(function (f) { if (/^https:\/\//.test(f[2])) links.push(f); });  // la app de fans que usan si no están en Weverse (FANS y bubble en JYP, fromm y TOKTOQ en KQ)
     return '<div class="listen"><p class="squad-k">' + esc(t('listen')) + '</p><ul>' + links.map(function (l) {
       return '<li><a class="ln ln-' + l[0] + '" href="' + esc(l[2]) + '" target="_blank" rel="noopener noreferrer" aria-label="' + esc(l[1]) + '">' + platIcon(l[0]) + '<span class="ln-l">' + esc(l[1]) + '</span><span class="ln-s" aria-hidden="true">' + esc(l[3] || l[1]) + '</span></a></li>';
     }).join('') + '</ul></div>';
