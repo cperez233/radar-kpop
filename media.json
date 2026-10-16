@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-16T08:25:20Z",
+ "updated_at": "2026-10-16T10:08:36Z",
  "sample": false,
  "items": [
   {
@@ -22,19 +22,46 @@
   },
   {
    "type": "video",
+   "group": "twice",
+   "title": "TWICE 11th Anniversary MD Shoot Behind Teaser",
+   "date": "2026-10-16",
+   "published": "2026-10-16T09:00:11Z",
+   "url": "https://www.youtube.com/watch?v=qcTMapoI-OM",
+   "image": "https://i.ytimg.com/vi/qcTMapoI-OM/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "[Choreography Video] 호시 (HOSHI) - ‘BOYFRIEND'",
+   "date": "2026-10-16",
+   "published": "2026-10-16T09:14:59Z",
+   "url": "https://www.youtube.com/watch?v=QYUArW-pGBI",
+   "image": "https://i.ytimg.com/vi/QYUArW-pGBI/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "cortis",
    "title": "하모니카 한 모금 SIP #CORTIS #코르티스",
    "date": "2026-10-16",
-   "published": "2026-10-16T04:00:39+00:00",
+   "published": "2026-10-16T04:00:39Z",
    "url": "https://www.youtube.com/watch?v=lYs8zReUz5E",
    "image": "https://i.ytimg.com/vi/lYs8zReUz5E/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) log_logbook#236",
+   "date": "2026-10-16",
+   "published": "2026-10-16T10:00:04Z",
+   "url": "https://www.youtube.com/watch?v=mpbuz7kFg0k",
+   "image": "https://i.ytimg.com/vi/mpbuz7kFg0k/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "bts",
    "title": "3 DAYS IN LA l V’s VLOG",
    "date": "2026-10-15",
-   "published": "2026-10-15T10:00:07+00:00",
+   "published": "2026-10-15T10:00:07Z",
    "url": "https://www.youtube.com/watch?v=1qOJvWakMz0",
    "image": "https://i.ytimg.com/vi/1qOJvWakMz0/hqdefault.jpg"
   },
@@ -43,7 +70,7 @@
    "group": "skz",
    "title": "찹쌀떡을 만들어보겠습니다",
    "date": "2026-10-15",
-   "published": "2026-10-15T10:41:20+00:00",
+   "published": "2026-10-15T10:41:20Z",
    "url": "https://www.youtube.com/watch?v=BDY7GUM-4TE",
    "image": "https://i.ytimg.com/vi/BDY7GUM-4TE/hqdefault.jpg"
   },
@@ -52,7 +79,7 @@
    "group": "twice",
    "title": "TWICE Special Vinyl ＜THIS IS FOR＞  WORLD TOUR FINALE in SEOUL - LIVE : D-1",
    "date": "2026-10-15",
-   "published": "2026-10-15T09:00:07+00:00",
+   "published": "2026-10-15T09:00:07Z",
    "url": "https://www.youtube.com/watch?v=mD3oHeiWtVc",
    "image": "https://i.ytimg.com/vi/mD3oHeiWtVc/hqdefault.jpg"
   },
@@ -61,7 +88,7 @@
    "group": "twice",
    "title": "Introducing..🍭 MYODETTE🐧DUPNYANGEE😸 SONCHAETTY🐯TZUKUMI🦌 #TWICE #트와이스 #TDOONGZ #트둥즈",
    "date": "2026-10-15",
-   "published": "2026-10-15T05:00:08+00:00",
+   "published": "2026-10-15T05:00:08Z",
    "url": "https://www.youtube.com/watch?v=u7IK-YomePs",
    "image": "https://i.ytimg.com/vi/u7IK-YomePs/hqdefault.jpg"
   },
@@ -70,7 +97,7 @@
    "group": "lngshot",
    "title": "‘S.W.I.S.H.’ EPISODE 1",
    "date": "2026-10-15",
-   "published": "2026-10-15T11:00:05+00:00",
+   "published": "2026-10-15T11:00:05Z",
    "url": "https://www.youtube.com/watch?v=6yxjpm8L4DI",
    "image": "https://i.ytimg.com/vi/6yxjpm8L4DI/hqdefault.jpg"
   },
@@ -79,7 +106,7 @@
    "group": "seventeen",
    "title": "[MIN9YU:ON] 한 그릇 툭 | 마늘쫑 비빔밥 | 이게 얼마나 맛있을까요?",
    "date": "2026-10-15",
-   "published": "2026-10-15T12:46:03+00:00",
+   "published": "2026-10-15T12:46:03Z",
    "url": "https://www.youtube.com/watch?v=Wr5EG0HUp-s",
    "image": "https://i.ytimg.com/vi/Wr5EG0HUp-s/hqdefault.jpg"
   },
@@ -88,7 +115,7 @@
    "group": "seventeen",
    "title": "so, who’s the one? #JxJ #정한X조슈아 #SEUNGKWAN #승관 #DREAMSCAPE",
    "date": "2026-10-15",
-   "published": "2026-10-15T11:00:12+00:00",
+   "published": "2026-10-15T11:00:12Z",
    "url": "https://www.youtube.com/watch?v=liamVbPlQQo",
    "image": "https://i.ytimg.com/vi/liamVbPlQQo/hqdefault.jpg"
   },
@@ -97,7 +124,7 @@
    "group": "enhypen",
    "title": "이름 하나로 친구가 될 수 있을까? | 내 이름은 김선우 예고편 | ENHYPEN SUNOO",
    "date": "2026-10-15",
-   "published": "2026-10-15T11:59:28+00:00",
+   "published": "2026-10-15T11:59:28Z",
    "url": "https://www.youtube.com/watch?v=gRpG3a7i97Q",
    "image": "https://i.ytimg.com/vi/gRpG3a7i97Q/hqdefault.jpg"
   },
@@ -106,7 +133,7 @@
    "group": "enhypen",
    "title": "ENHYPEN OFFICIAL LIGHT STICK VER.2(RENEWAL EDITION) TEASER",
    "date": "2026-10-15",
-   "published": "2026-10-15T02:03:03+00:00",
+   "published": "2026-10-15T02:03:03Z",
    "url": "https://www.youtube.com/watch?v=KzEUqcSrY_w",
    "image": "https://i.ytimg.com/vi/KzEUqcSrY_w/hqdefault.jpg"
   },
@@ -115,7 +142,7 @@
    "group": "cortis",
    "title": "10/10 view 😍 #CORTIS #코르티스",
    "date": "2026-10-15",
-   "published": "2026-10-15T07:00:34+00:00",
+   "published": "2026-10-15T07:00:34Z",
    "url": "https://www.youtube.com/watch?v=IOm-s6u3gAc",
    "image": "https://i.ytimg.com/vi/IOm-s6u3gAc/hqdefault.jpg"
   },
@@ -124,7 +151,7 @@
    "group": "cortis",
    "title": "Thank you airbnb for the perfect place to unplug and lock in. More on the way 🎬 #광고 #airbnbpartner",
    "date": "2026-10-15",
-   "published": "2026-10-15T03:00:15+00:00",
+   "published": "2026-10-15T03:00:15Z",
    "url": "https://www.youtube.com/watch?v=icA58QiIvpg",
    "image": "https://i.ytimg.com/vi/icA58QiIvpg/hqdefault.jpg"
   },
@@ -133,7 +160,7 @@
    "group": "bts",
    "title": "BTS WORLD TOUR ‘ARIRANG’ IN BUENOS AIRES & SÃO PAULO: LIVE VIEWING - Special Trailer",
    "date": "2026-10-14",
-   "published": "2026-10-14T13:00:06+00:00",
+   "published": "2026-10-14T13:00:06Z",
    "url": "https://www.youtube.com/watch?v=EvKMPk3ArNQ",
    "image": "https://i.ytimg.com/vi/EvKMPk3ArNQ/hqdefault.jpg"
   },
@@ -142,43 +169,25 @@
    "group": "skz",
    "title": "[Stray Kids : SKZ-TALKER] Ep.87",
    "date": "2026-10-14",
-   "published": "2026-10-14T10:59:57+00:00",
+   "published": "2026-10-14T10:59:57Z",
    "url": "https://www.youtube.com/watch?v=T3CHJEMwkF0",
    "image": "https://i.ytimg.com/vi/T3CHJEMwkF0/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "TWICE Special Vinyl ＜THIS IS FOR＞  WORLD TOUR FINALE in SEOUL - LIVE : D-2",
-   "date": "2026-10-14",
-   "published": "2026-10-14T09:00:28+00:00",
-   "url": "https://www.youtube.com/watch?v=U7cZw1XoNtw",
-   "image": "https://i.ytimg.com/vi/U7cZw1XoNtw/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "lngshot",
    "title": "comeback to me. 11/10 new ep loading.🤞 #LNGSHOT",
    "date": "2026-10-14",
-   "published": "2026-10-14T09:00:17+00:00",
+   "published": "2026-10-14T09:00:17Z",
    "url": "https://www.youtube.com/watch?v=fn8hoXbFAp8",
    "image": "https://i.ytimg.com/vi/fn8hoXbFAp8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[GOING JxJ SPECIAL] THE DREAM GAME SHOW #1",
-   "date": "2026-10-14",
-   "published": "2026-10-14T11:59:52+00:00",
-   "url": "https://www.youtube.com/watch?v=fkjIvJAJcxo",
-   "image": "https://i.ytimg.com/vi/fkjIvJAJcxo/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "ateez",
    "title": "ATEEZ(에이티즈) log_logbook#235",
    "date": "2026-10-14",
-   "published": "2026-10-14T09:59:57+00:00",
+   "published": "2026-10-14T09:59:57Z",
    "url": "https://www.youtube.com/watch?v=5yq1V26GjdQ",
    "image": "https://i.ytimg.com/vi/5yq1V26GjdQ/hqdefault.jpg"
   },
@@ -187,7 +196,7 @@
    "group": "skz",
    "title": "Stray Kids 2027 Season’s Greetings [Paper Tale] MAKING FILM",
    "date": "2026-10-12",
-   "published": "2026-10-12T11:00:01+00:00",
+   "published": "2026-10-12T11:00:01Z",
    "url": "https://www.youtube.com/watch?v=WpTB5HHeUnQ",
    "image": "https://i.ytimg.com/vi/WpTB5HHeUnQ/hqdefault.jpg"
   },
@@ -196,25 +205,16 @@
    "group": "ateez",
    "title": "ATEEZ(에이티즈) 종호 | 최종호 왕자님 생일 파티🤴🎂",
    "date": "2026-10-12",
-   "published": "2026-10-12T10:25:08+00:00",
+   "published": "2026-10-12T10:25:08Z",
    "url": "https://www.youtube.com/watch?v=NApodp8KKYg",
    "image": "https://i.ytimg.com/vi/NApodp8KKYg/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "최종호 님의 미니홈피 | ATEEZ(에이티즈) 종호",
-   "date": "2026-10-12",
-   "published": "2026-10-12T03:00:04+00:00",
-   "url": "https://www.youtube.com/watch?v=ZQKO0fYwwWc",
-   "image": "https://i.ytimg.com/vi/ZQKO0fYwwWc/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "bts",
    "title": "오케이! 이해했다 #BTS #방탄소년단 #RunBTS #달려라방탄 #달방",
    "date": "2026-10-11",
-   "published": "2026-10-11T11:01:17+00:00",
+   "published": "2026-10-11T11:01:17Z",
    "url": "https://www.youtube.com/watch?v=rGb4rH-P8eE",
    "image": "https://i.ytimg.com/vi/rGb4rH-P8eE/hqdefault.jpg"
   },
@@ -223,7 +223,7 @@
    "group": "lngshot",
    "title": "LNGSHOT EP [S.W.I.S.H.] Trailer",
    "date": "2026-10-11",
-   "published": "2026-10-11T15:00:10+00:00",
+   "published": "2026-10-11T15:00:10Z",
    "url": "https://www.youtube.com/watch?v=b_hgDjQrVOE",
    "image": "https://i.ytimg.com/vi/b_hgDjQrVOE/hqdefault.jpg"
   },
@@ -232,7 +232,7 @@
    "group": "enhypen",
    "title": "[Vlog] 엔하이픈의 남북미 투어 브이로그 - ENHYPEN (엔하이픈)",
    "date": "2026-10-11",
-   "published": "2026-10-11T13:00:02+00:00",
+   "published": "2026-10-11T13:00:02Z",
    "url": "https://www.youtube.com/watch?v=adP7nxu4rWI",
    "image": "https://i.ytimg.com/vi/adP7nxu4rWI/hqdefault.jpg"
   },
@@ -295,7 +295,7 @@
    "group": "blackpink",
    "title": "BLACKPINK 10th Anniversary MEET & GREET 🖤💗",
    "date": "2026-08-17",
-   "published": "2026-08-17T09:00:25+00:00",
+   "published": "2026-08-17T09:00:25Z",
    "url": "https://www.youtube.com/watch?v=uw4OYow_v7Y",
    "image": "https://i.ytimg.com/vi/uw4OYow_v7Y/hqdefault.jpg"
   },
@@ -313,7 +313,7 @@
    "group": "blackpink",
    "title": "BLACKPINK 10TH ANNIVERSARY",
    "date": "2026-08-08",
-   "published": "2026-08-08T02:59:56+00:00",
+   "published": "2026-08-08T02:59:56Z",
    "url": "https://www.youtube.com/watch?v=k--lCrP69hg",
    "image": "https://i.ytimg.com/vi/k--lCrP69hg/hqdefault.jpg"
   },
@@ -358,7 +358,7 @@
    "group": "newjeans",
    "title": "[Light Jeans] 2026 Summer of NewJeans BehindㅣNewJeans",
    "date": "2026-07-24",
-   "published": "2026-07-24T13:59:58+00:00",
+   "published": "2026-07-24T13:59:58Z",
    "url": "https://www.youtube.com/watch?v=YujaE27VmSA",
    "image": "https://i.ytimg.com/vi/YujaE27VmSA/hqdefault.jpg"
   },
@@ -367,7 +367,7 @@
    "group": "newjeans",
    "title": "newjeansound˖°🌊⋆🐚🫧 #NewJeans #뉴진스 #NewJeansDay #NewJeans_4th_Anniversary",
    "date": "2026-07-24",
-   "published": "2026-07-24T06:00:02+00:00",
+   "published": "2026-07-24T06:00:02Z",
    "url": "https://www.youtube.com/watch?v=fYzUmTJXBQo",
    "image": "https://i.ytimg.com/vi/fYzUmTJXBQo/hqdefault.jpg"
   },
@@ -376,7 +376,7 @@
    "group": "newjeans",
    "title": "ᵢ ₗₒᵥₑ Bᵤₙₙᵢₑₛ ₛₒ ₘᵤcₕ #NewJeans #뉴진스 #MINJI #NewJeansDay #NewJeans_4th_Anniversary",
    "date": "2026-07-24",
-   "published": "2026-07-24T05:30:17+00:00",
+   "published": "2026-07-24T05:30:17Z",
    "url": "https://www.youtube.com/watch?v=aHSXHTIF3uQ",
    "image": "https://i.ytimg.com/vi/aHSXHTIF3uQ/hqdefault.jpg"
   },
@@ -439,7 +439,7 @@
    "group": "blackpink",
    "title": "BLACKPINK - DEADLINE JACKET MAKING FILM",
    "date": "2026-03-13",
-   "published": "2026-03-13T10:00:03+00:00",
+   "published": "2026-03-13T10:00:03Z",
    "url": "https://www.youtube.com/watch?v=w1ayRv8j5yk",
    "image": "https://i.ytimg.com/vi/w1ayRv8j5yk/hqdefault.jpg"
   },

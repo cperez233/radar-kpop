@@ -1,6 +1,50 @@
 {
- "updated_at": "2026-10-16T08:48:52Z",
+ "updated_at": "2026-10-16T10:09:25Z",
  "alerts": [
+  {
+   "type": "latam",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Latinoamérica: BTS",
+   "body": "Cansaron hasta a las ARMY: BTS arrasa en el primero de tres conciertos en Chile - BioBioChile (Google Noticias)",
+   "title_en": "Latin America: BTS",
+   "body_en": "Cansaron hasta a las ARMY: BTS arrasa en el primero de tres conciertos en Chile - BioBioChile (Google Noticias)",
+   "when": "2026-10-16T10:09:25Z",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMEpCMVpmN1gxVmxQc1lJYy1OdlVvQy1IOGZQQUlNT0pWekxCYkJEUW9NT2pZQjFTeEJ5d1lOVF9OQ1d3c2ZYMi1YMUNTSjhtOXhKQVlkdWx3M2NRWU1taFk0dWtxOEc3UHcySV9IRnFfVzhSUGdMT1dYZDFVd3R3TEZBdVd6eFFVNkh4bjVVWEtrZEw1QXNyaGhSSFVFQ1kwY1hUMnNKN0tNelBWTzRsaUdIT09Ea0ZkNGU3elh0eFBEWUFKTDVJN3pVdTFTTVFNWHZfUDMwVno2c3RLakczMnB1MUJhdklBVEI2WHVGY2FlYmJybWVnVTdNSQ?oc=5"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "TWICE 11th Anniversary MD Shoot Behind Teaser (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "TWICE 11th Anniversary MD Shoot Behind Teaser (YouTube)",
+   "when": "2026-10-16T10:09:25Z",
+   "url": "https://www.youtube.com/watch?v=qcTMapoI-OM"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "[Choreography Video] 호시 (HOSHI) - ‘BOYFRIEND' (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "[Choreography Video] 호시 (HOSHI) - ‘BOYFRIEND' (YouTube)",
+   "when": "2026-10-16T10:09:25Z",
+   "url": "https://www.youtube.com/watch?v=QYUArW-pGBI"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) log_logbook#236 (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) log_logbook#236 (YouTube)",
+   "when": "2026-10-16T10:09:25Z",
+   "url": "https://www.youtube.com/watch?v=mpbuz7kFg0k"
+  },
   {
    "type": "new_date",
    "group": "ateez",
