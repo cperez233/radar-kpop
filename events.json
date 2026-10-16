@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T07:17:43Z",
+  "updated_at": "2026-10-16T07:28:28Z",
   "sources": [
     {
       "name": "Live Nation (BTS)",
@@ -114,7 +114,8 @@
           "venue": "Estadio Nacional Julio Martínez Prádanos",
           "lat": -33.4645,
           "lon": -70.6107,
-          "status": "confirmado"
+          "status": "confirmado",
+          "onsale": "2026-03-27T16:00:00Z"
         },
         {
           "id": "bts-20261017-santiago",
@@ -125,7 +126,8 @@
           "venue": "Estadio Nacional Julio Martínez Prádanos",
           "lat": -33.4645,
           "lon": -70.6107,
-          "status": "confirmado"
+          "status": "confirmado",
+          "onsale": "2026-03-27T16:00:00Z"
         },
         {
           "id": "bts-20261021-laplata",
@@ -169,7 +171,8 @@
           "venue": "Estádio MorumBIS",
           "lat": -23.6,
           "lon": -46.72,
-          "status": "confirmado"
+          "status": "confirmado",
+          "onsale": "2026-04-16T23:21:00Z"
         },
         {
           "id": "bts-20261030-saopaulo",
@@ -180,7 +183,8 @@
           "venue": "Estádio MorumBIS",
           "lat": -23.6,
           "lon": -46.72,
-          "status": "confirmado"
+          "status": "confirmado",
+          "onsale": "2026-04-16T23:22:00Z"
         },
         {
           "id": "bts-20261031-saopaulo",
@@ -191,7 +195,8 @@
           "venue": "Estádio MorumBIS",
           "lat": -23.6,
           "lon": -46.72,
-          "status": "confirmado"
+          "status": "confirmado",
+          "onsale": "2026-04-16T23:23:00Z"
         },
         {
           "id": "bts-20261119-kaohsiung",
@@ -348,6 +353,20 @@
           "status": "anunciado"
         },
         {
+          "id": "bts-tm-17a8v0G65R_Eq8g",
+          "local_date": "2027-02-10",
+          "start": "2027-02-10T17:00:00+11:00",
+          "city": "Docklands",
+          "country": "Australia",
+          "venue": "Marvel Stadium",
+          "lat": -37.8165,
+          "lon": 144.9455,
+          "status": "confirmado",
+          "source": "tm",
+          "tm_name": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
+          "onsale": "2026-06-04T00:00:00Z"
+        },
+        {
           "id": "bts-20270212-melbourne",
           "local_date": "2027-02-12",
           "start": "2027-02-12T20:00:00+11:00",
@@ -356,7 +375,8 @@
           "venue": null,
           "lat": -37.8136,
           "lon": 144.9631,
-          "status": "anunciado"
+          "status": "anunciado",
+          "onsale": "2026-06-04T00:00:00Z"
         },
         {
           "id": "bts-20270213-melbourne",
@@ -367,7 +387,8 @@
           "venue": null,
           "lat": -37.8136,
           "lon": 144.9631,
-          "status": "anunciado"
+          "status": "anunciado",
+          "onsale": "2026-06-04T00:00:00Z"
         },
         {
           "id": "bts-20270220-sydney",
@@ -378,7 +399,8 @@
           "venue": null,
           "lat": -33.8688,
           "lon": 151.2093,
-          "status": "anunciado"
+          "status": "anunciado",
+          "onsale": "2026-06-04T03:00:00Z"
         },
         {
           "id": "bts-20270221-sydney",
@@ -389,7 +411,8 @@
           "venue": null,
           "lat": -33.8688,
           "lon": 151.2093,
-          "status": "anunciado"
+          "status": "anunciado",
+          "onsale": "2026-06-04T03:00:00Z"
         },
         {
           "id": "bts-20270304-hongkong",
@@ -719,7 +742,8 @@
           "venue": "OVO Arena Wembley",
           "lat": 51.556,
           "lon": -0.2796,
-          "status": "confirmado"
+          "status": "confirmado",
+          "onsale": "2026-06-12T09:00:00Z"
         },
         {
           "id": "lng-20261028-edinburgh",
@@ -1150,7 +1174,8 @@
           "venue": "Ziggo Dome",
           "lat": 52.3134,
           "lon": 4.9373,
-          "status": "confirmado"
+          "status": "confirmado",
+          "onsale": "2026-04-24T08:00:00Z"
         },
         {
           "id": "enh-20270305-berlín",
@@ -1161,7 +1186,50 @@
           "venue": "Uber Arena",
           "lat": 52.5052,
           "lon": 13.4434,
-          "status": "confirmado"
+          "status": "confirmado",
+          "onsale": "2026-08-06T15:28:00Z"
+        },
+        {
+          "id": "enhypen-tm-Z698xZC2Z16v4IZgoN",
+          "local_date": "2027-03-06",
+          "start": "2027-03-06T20:00:00+01:00",
+          "city": "Berlín",
+          "country": "Alemania",
+          "venue": "Uber Arena",
+          "lat": 52.5057,
+          "lon": 13.4431,
+          "status": "confirmado",
+          "source": "tm",
+          "tm_name": "ENHYPEN | Box seat in the Ticketmaster Suite",
+          "onsale": "2026-09-10T09:32:00Z"
+        },
+        {
+          "id": "enhypen-tm-1AgZk34Gkdx7PmQ",
+          "local_date": "2027-03-08",
+          "start": "2027-03-08T17:30:00+00:00",
+          "city": "Londres",
+          "country": "Reino Unido",
+          "venue": "The O2",
+          "lat": 51.5016,
+          "lon": 0.0055,
+          "status": "confirmado",
+          "source": "tm",
+          "tm_name": "ENHYPEN: WORLD TOUR 'BLOOD SAGA' - VIP Packages",
+          "onsale": "2026-09-18T09:00:00Z"
+        },
+        {
+          "id": "enhypen-tm-1AgZk3fGkd9ddBf",
+          "local_date": "2027-03-08",
+          "start": "2027-03-08T17:30:00+00:00",
+          "city": "Londres",
+          "country": "Reino Unido",
+          "venue": "The O2",
+          "lat": 51.5016,
+          "lon": 0.0055,
+          "status": "confirmado",
+          "source": "tm",
+          "tm_name": "ENHYPEN: WORLD TOUR 'BLOOD SAGA'",
+          "onsale": "2026-09-18T09:00:00Z"
         },
         {
           "id": "enh-20270309-londres",
@@ -1172,7 +1240,8 @@
           "venue": "The O2",
           "lat": 51.503,
           "lon": 0.0032,
-          "status": "confirmado"
+          "status": "confirmado",
+          "onsale": "2026-04-24T09:00:00Z"
         },
         {
           "id": "enh-20270314-singapur",
