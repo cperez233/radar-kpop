@@ -61,6 +61,12 @@ SHEETS = {
         "rose": ("Rosé", (20, 522, 526, 1010)),
         "lisa": ("Lisa", (526, 522, 1010, 1010)),
     }),
+    "lngshot": ("LNGSHOT", {
+        "ohyul": ("OHYUL", (20, 20, 520, 519)),
+        "ryul": ("RYUL", (520, 20, 1010, 519)),
+        "woojin": ("WOOJIN", (20, 519, 520, 1010)),
+        "louis": ("LOUIS", (520, 519, 1010, 1010)),
+    }),
     "twice": ("TWICE", {
         "nayeon": ("Nayeon", (20, 20, 358, 382)),
         "jeongyeon": ("Jeongyeon", (358, 20, 680, 382)),
