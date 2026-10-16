@@ -36,7 +36,7 @@ de Spotify (kworb.net).
 ## ntfy: alertas al celular (gratis, 3 minutos)
 
 1. Instala la app **ntfy** (Play Store o App Store).
-2. Inventa un tema largo que nadie pueda adivinar, por ejemplo `radar-kpop-cris-7f3k9q2m`. Cualquiera que sepa el nombre
+2. Inventa un tema largo que nadie pueda adivinar, por ejemplo `radar-kpop-` seguido de letras y números al azar. Cualquiera que sepa el nombre
    puede leer los avisos, así que no uses algo corto como `radar-kpop`.
 3. En la app: **+** (Subscribe to topic), escribe el tema y deja el servidor `ntfy.sh`. **Subscribe**.
 4. En GitHub crea el secreto `NTFY_TOPIC` con ese mismo tema (solo el nombre, sin `https://ntfy.sh/`).
@@ -87,6 +87,13 @@ Canal, rueda dentada, **Integrations**, **Webhooks**, **New Webhook**, **Copy We
 Con RSSHub funcionando, la API oficial de X solo se usa si RSSHub no responde para ninguna cuenta. Sin saldo, X responde
 402 o 403 y el robot sigue con lo que tenía. Si algún día le cargas saldo, pon un límite de gasto bajo en
 **console.x.com**, **Billing**; el robot lee como mucho una vez por hora y solo los posts nuevos.
+
+## Instagram de los miembros (opcional)
+
+La página de cada miembro ya enlaza su Instagram. Para que además muestre sus últimos posts, tu RSSHub tiene que poder
+leer Instagram, que pide iniciar sesión con una cuenta. Hoy responde 503 (no configurado). Si lo quieres: en Vercel, en tu
+proyecto de RSSHub, agrega las variables que pide la ruta de Instagram en docs.rsshub.app (usa una cuenta secundaria de
+Instagram, igual que con X) y haz **Redeploy**. El robot lo detecta solo; no hay que tocar el código.
 
 ## Más adelante
 

@@ -21,6 +21,7 @@ from __future__ import annotations
 import hashlib
 import json
 import math
+import re
 import os
 import sys
 import unicodedata
@@ -38,8 +39,15 @@ EVENTS = ROOT / "events.json"
 FEEDS = ROOT / "alerts" / "feeds.json"
 STATE = ROOT / "state" / "state.json"
 FEED_OUT = ROOT / "alerts.json"
+PEOPLE = ROOT / "assets" / "people.json"  # cumpleaños y redes de cada miembro
+MEDIA = ROOT / "media.json"
+KST = timezone(timedelta(hours=9))
+BOGOTA = timezone(timedelta(hours=-5))
 
 SHOW_H = 4
+# nombres alternativos de cada grupo, para que "Stray Kids" o "방탄소년단" no cuenten como tema
+META_NAMES = {"bts": ["bangtan", "방탄소년단"], "skz": ["stray", "kids", "스트레이키즈"], "twice": ["트와이스"], "blackpink": ["블랙핑크"],
+              "lngshot": ["longshot", "롱샷"], "seventeen": ["세븐틴", "svt"], "enhypen": ["엔하이픈"], "newjeans": ["뉴진스"], "cortis": ["코르티스"]}
 KEEP_DAYS = 45
 FEED_MAX = 60
 NTFY_SKIP = {"video"}  # al celular no: los grupos suben varios videos al día (siguen en Discord y en la web)
@@ -141,10 +149,11 @@ def diff_events(old: dict, data: dict, now: datetime) -> list[dict]:
                     ))
         for city, es in new_by_city.items():
             alerts.append(mk(
-                "new_date", f"new:{g['id']}:{es[0]['id']}", g, f"{g['name']} agregó fechas en {city}",
-                f"{dates_label(es)}" + (f" en {es[0]['venue']}" if es[0]["venue"] else "") + f", {es[0]['country']}.",
-                now, places=[{"lat": es[0]["lat"], "lon": es[0]["lon"], "city": city}],
-                title_en=f"{g['name']} added dates in {en(city)}",
+                "new_date", f"new:{g['id']}:{es[0]['id']}", g, f"{g['name']} agregó fechas en {city}" + (" (por confirmar)" if es[0].get("source") == "auto" else ""),
+                f"{dates_label(es)}" + (f" en {es[0]['venue']}" if es[0]["venue"] else "") + f", {es[0]['country']}." +
+                (" Salió de un anuncio; la hora y los detalles están por confirmar." if es[0].get("source") == "auto" else ""),
+                now, places=[{"lat": es[0]["lat"], "lon": es[0]["lon"], "city": city}], url=es[0].get("src") or None,
+                title_en=f"{g['name']} added dates in {en(city)}" + (" (to be confirmed)" if es[0].get("source") == "auto" else ""),
                 body_en=f"{dates_label(es, 'en')}" + (f" at {es[0]['venue']}" if es[0]["venue"] else "") + f", {en(es[0]['country'])}.",
             ))
     current = {e["id"] for g in data["groups"] for e in g["events"]}
@@ -183,6 +192,8 @@ def time_alerts(data: dict, now: datetime) -> list[dict]:
                     title_en=f"Today {g['name']} opens in {en(first['city'])}", body_en=f"{where_en}. Approximate time, check with the box office.",
                 ))
             for e in st:
+                if e.get("time_tbd"):
+                    continue  # sin hora confirmada no se avisa "sube al escenario"
                 if e["_t"] - timedelta(minutes=45) <= now < e["_t"] + timedelta(hours=SHOW_H):
                     alerts.append(mk(
                         "live", f"live:{e['id']}", g, f"{g['name']} sube al escenario en {e['city']}",
@@ -234,9 +245,31 @@ def short(s: str, n: int = 140) -> str:
     return s if len(s) <= n else s[: n - 1] + "…"
 
 
-def news_alerts(items: list[dict], seen: set, data: dict, now: datetime, bootstrap: bool) -> list[dict]:
+STOP = set("the and for with from that this their about after into over will are was has have its new now des del los las una por con para que sus como mas the8 en el la de un al y o a e su se lo le es".split())
+TOPIC_HOURS = 48
+
+
+def topic_words(title: str, group_words: set) -> set:
+    """Palabras que definen de qué habla una noticia (sin relleno ni el nombre del grupo)."""
+    title = re.sub(r"\s[-–|]\s[^-–|]{2,40}$", "", title)  # "... - Soompi" / "| Koreaboo": el medio no cuenta
+    return {w for w in re.findall(r"[a-z0-9가-힣]{3,}", norm(title)) if w not in STOP and w not in group_words}
+
+
+def same_topic(a: set, b: set) -> bool:
+    if not a or not b:
+        return False
+    inter = len(a & b)
+    return inter >= 4 or inter / len(a | b) >= 0.45
+
+
+def news_alerts(items: list[dict], seen: set, data: dict, now: datetime, bootstrap: bool, topics: list | None = None) -> list[dict]:
+    """topics: noticias ya avisadas en las últimas 48 h ([{g, w, t}]); se actualiza aquí. Cinco medios con la misma
+    historia = una sola alerta."""
     gmap = {g["id"]: g for g in data["groups"]}
     alerts = []
+    topics = topics if topics is not None else []
+    cutoff = iso(now - timedelta(hours=TOPIC_HOURS))
+    topics[:] = [x for x in topics if x["t"] >= cutoff]
     for it in items:
         if it["id"] in seen or it["group"] not in gmap or bootstrap:
             continue
@@ -258,6 +291,12 @@ def news_alerts(items: list[dict], seen: set, data: dict, now: datetime, bootstr
                                  f"«{short(it['title'], 180)}» ({it['source']}).", now, url=it["link"],
                                  title_en=f"Official {g['name']} news: {lab[1]}", body_en=f"\"{short(it['title'], 180)}\" ({it['source']})."))
             continue
+        if it["kind"] != "video":
+            gw = {w for n in [g["name"], g["id"]] + (META_NAMES.get(g["id"], [])) for w in re.findall(r"[a-z0-9가-힣]{3,}", norm(n))}
+            words = topic_words(it["title"], gw)
+            if any(x["g"] == g["id"] and same_topic(words, set(x["w"])) for x in topics):
+                continue  # la misma historia ya salió (otro medio o el mismo con otro título)
+            topics.append({"g": g["id"], "w": sorted(words), "t": iso(now)})
         label = {"arrival": "Llegada reportada", "latam": "Latinoamérica", "comeback": "Comeback", "tour": "Gira", "video": "Nuevo video"}[it["kind"]]
         label_en = {"arrival": "Reported arrival", "latam": "Latin America", "comeback": "Comeback", "tour": "Tour", "video": "New video"}[it["kind"]]
         body = body_en = f"{short(it['title'])} ({it['source']})"
@@ -267,6 +306,79 @@ def news_alerts(items: list[dict], seen: set, data: dict, now: datetime, bootstr
         alerts.append(mk(it["kind"], f"news:{it['id']}", g, f"{label}: {g['name']}", body, now, url=it["link"],
                          title_en=f"{label_en}: {g['name']}", body_en=body_en))
     return alerts
+
+
+# ---------- 3b. cumpleaños y resumen semanal ----------
+
+def roster_names() -> dict:
+    p = ROOT / "assets" / "chibis" / "roster.json"
+    try:
+        return {g: {m["id"]: m for m in ms} for g, ms in json.loads(p.read_text(encoding="utf-8")).items()}
+    except (OSError, ValueError):
+        return {}
+
+
+def birthdays_between(people: dict, start: datetime, days: int) -> list[tuple[datetime, str, str, int]]:
+    """[(día, grupo, miembro, años que cumple)] entre start y start+days (fechas en hora de Corea)."""
+    out = []
+    for gid, g in people.get("groups", {}).items():
+        for mid, m in g.get("members", {}).items():
+            b = m.get("birthday") or ""
+            if not re.match(r"^\d{4}-\d\d-\d\d$", b):
+                continue
+            y, mo, d = map(int, b.split("-"))
+            for k in range(days):
+                day = (start + timedelta(days=k)).date()
+                if (day.month, day.day) == (mo, d):
+                    out.append((datetime(day.year, mo, d, tzinfo=KST), gid, mid, day.year - y))
+    return sorted(out)
+
+
+def birthday_alerts(data: dict, people: dict, now: datetime) -> list[dict]:
+    gmap, names, alerts = {g["id"]: g for g in data["groups"]}, roster_names(), []
+    for day, gid, mid, age in birthdays_between(people, now.astimezone(KST), 1):
+        g = gmap.get(gid)
+        name = names.get(gid, {}).get(mid, {}).get("name", mid)
+        if not g:
+            continue
+        alerts.append(mk("birthday", f"bday:{gid}:{mid}:{day.year}", g, f"🎂 Hoy cumple {name} ({g['name']})",
+                         f"Cumple {age} años. ¡생일 축하해, {name}!", now, member=mid,
+                         title_en=f"🎂 It's {name}'s birthday ({g['name']})", body_en=f"Turning {age}. Happy birthday, {name}! 생일 축하해!"))
+    return alerts
+
+
+def weekly_alert(data: dict, people: dict, now: datetime) -> list[dict]:
+    """Los lunes desde las 8 a. m. (hora de Colombia): lo que viene en los próximos 7 días."""
+    local = now.astimezone(BOGOTA)
+    if local.weekday() != 0 or local.hour < 8:
+        return []
+    end = now + timedelta(days=7)
+    lines, lines_en = [], []
+    for g in data["groups"]:
+        for st in stops(prep(g)):
+            if now <= st[0]["_t"] < end:
+                lines.append(f"🎤 {g['name']} en {st[0]['city']} ({dates_label(st)})")
+                lines_en.append(f"🎤 {g['name']} in {en(st[0]['city'])} ({dates_label(st, 'en')})")
+    try:
+        media = json.loads(MEDIA.read_text(encoding="utf-8")).get("items", [])
+    except (OSError, ValueError):
+        media = []
+    gnames = {g["id"]: g["name"] for g in data["groups"]}
+    for m in media:
+        if m.get("type") == "music" and local.date().isoformat() <= m.get("date", "") < (local + timedelta(days=7)).date().isoformat():
+            lines.append(f"💿 {gnames.get(m['group'], m['group'])}: {m['title']} ({day_label(m['date'])})")
+            lines_en.append(f"💿 {gnames.get(m['group'], m['group'])}: {m['title']} ({day_label(m['date'], 'en')})")
+    names = roster_names()
+    for day, gid, mid, age in birthdays_between(people, now.astimezone(KST), 7):
+        n = names.get(gid, {}).get(mid, {}).get("name", mid)
+        lines.append(f"🎂 {n} ({gnames.get(gid, gid)}) cumple {age} el {day_label(day.date().isoformat())}")
+        lines_en.append(f"🎂 {n} ({gnames.get(gid, gid)}) turns {age} on {day_label(day.date().isoformat(), 'en')}")
+    if not lines:
+        lines, lines_en = ["Semana tranquila: sin shows, estrenos ni cumpleaños."], ["A quiet week: no shows, releases or birthdays."]
+    wk = local.isocalendar()
+    g0 = {"id": "radar", "name": "Radar K-pop"}
+    return [mk("weekly", f"weekly:{wk[0]}-{wk[1]}", g0, "📅 Tu semana K-pop", "\n".join(lines[:15]), now,
+               title_en="📅 Your K-pop week", body_en="\n".join(lines_en[:15]))]
 
 
 # ---------- 4. alertas por suscriptor ----------
@@ -417,10 +529,14 @@ def main() -> int:
     bootstrap = "snapshot" not in state  # primera corrida: guardar la foto sin avisar fechas "nuevas"
     alerts: list[dict] = [] if bootstrap else diff_events(state["snapshot"], data, now)
     alerts += time_alerts(data, now)
+    people = load_json(PEOPLE, {})
+    alerts += birthday_alerts(data, people, now)
+    alerts += weekly_alert(data, people, now)
 
     seen = set(state.get("news_seen", []))
     items = news.collect(feeds, now) if feeds and not os.environ.get("NO_NEWS") else []
-    alerts += news_alerts(items, seen, data, now, "news_seen" not in state)
+    topics = state.get("news_topics", [])
+    alerts += news_alerts(items, seen, data, now, "news_seen" not in state, topics)
     seen |= {i["id"] for i in items}
 
     alerts += subscriber_alerts(data, alerts, subs, now)
@@ -443,6 +559,7 @@ def main() -> int:
     state["sent"] = {k: v for k, v in state.get("sent", {}).items() if v >= cutoff}
     state["snapshot"] = snapshot(data)
     state["news_seen"] = sorted(seen)[-800:]
+    state["news_topics"] = topics[-300:]
     STATE.parent.mkdir(parents=True, exist_ok=True)
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 

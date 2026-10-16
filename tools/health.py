@@ -16,7 +16,8 @@ sys.path.insert(0, str(ROOT / "tools"))
 import status  # noqa: E402
 
 LABELS = {"ticketmaster": "Ticketmaster (fechas)", "itunes": "Apple Music (estrenos)", "youtube": "YouTube (videos)",
-          "kworb": "kworb (números de Spotify)", "rsshub": "RSSHub (cuentas oficiales de X)", "discord": "Discord", "ntfy": "ntfy"}
+          "kworb": "kworb (números de Spotify)", "rsshub": "RSSHub (cuentas oficiales de X)", "discord": "Discord", "ntfy": "ntfy",
+          "tiktok": "TikTok (vía RSSHub)", "autodates": "Fechas automáticas por anuncios"}
 KEYS = [
     ("TM_API_KEY", "Fechas nuevas de Ticketmaster"),
     ("YT_API_KEY", "Videos y suscriptores de YouTube"),

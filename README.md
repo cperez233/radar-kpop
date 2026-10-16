@@ -35,6 +35,9 @@ The radar only uses public, official schedules and posts. It shows the next conf
   - sticker-style links to Spotify, Apple Music, YouTube Music, YouTube and Weverse (when the group has a community);
   - facts and numbers, the same for every group: debut, years active, members, Spotify monthly listeners, their record, total streams and most streamed song;
   - a mini trivia of timeless facts (names, nicknames, leaders), a ticket on-sale sticker and an .ics calendar file.
+- **Group pages.** "See all" on a card (or tapping a chibi) opens a page with tabs: home, members, tour, music and social.
+  - Each member has a profile with their birthday, official accounts and latest TikToks; videos play right there.
+  - Birthdays get a banner, a cake on the chibi and confetti.
 - **Sightings near you.** Official posts that mention a city, sorted by distance to you, with a news ticker and a heads-up when new ones arrive.
 - **Releases and videos.** The latest music and official YouTube uploads of each group.
 - **Alerts.** A new alert triggers a confetti celebration. You can also sign up for Discord, WhatsApp or push notifications.

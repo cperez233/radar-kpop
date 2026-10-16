@@ -1,10 +1,22 @@
 {
  "sources": {
+  "autodates": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-16T07:55:55Z"
+  },
   "rsshub": {
    "msg": "",
    "notified": false,
    "ok": true,
    "since": "2026-10-16T07:42:15Z"
+  },
+  "tiktok": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-16T08:01:53Z"
   }
  }
 }

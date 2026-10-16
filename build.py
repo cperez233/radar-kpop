@@ -65,6 +65,9 @@ for g in data["groups"]:
 roster_file = root / "assets" / "chibis" / "roster.json"
 roster = json.loads(roster_file.read_text(encoding="utf-8")) if roster_file.exists() else {}
 
+people_file = root / "assets" / "people.json"  # cumpleaños y redes de cada miembro (página de grupo)
+people = json.loads(people_file.read_text(encoding="utf-8")).get("groups", {}) if people_file.exists() else {}
+
 places_file = root / "assets" / "places-en.json"
 places_en = json.loads(places_file.read_text(encoding="utf-8"))["places"] if places_file.exists() else {}
 
@@ -90,7 +93,7 @@ def js(obj) -> str:
 
 
 html = (tpl.replace("__DATA__", js(data)).replace("__PHOTOS__", js(photos))
-        .replace("__ROSTER__", js(roster)).replace("__CHANGES__", js(changes)).replace("__PLACES__", js(places_en))
+        .replace("__ROSTER__", js(roster)).replace("__CHANGES__", js(changes)).replace("__PLACES__", js(places_en)).replace("__PEOPLE__", js(people))
         .replace("__OG_IMAGE__", og_image).replace("__CANONICAL__\n", canonical + ("\n" if canonical else "")))
 # Política de seguridad (CSP) como <meta>, porque GitHub Pages no deja poner cabeceras.
 # El único script en línea es el de los datos; se permite por su hash, que cambia en cada build.
@@ -99,6 +102,7 @@ digest = base64.b64encode(hashlib.sha256(inline.encode("utf-8")).digest()).decod
 csp = ("default-src 'self'; script-src 'self' 'sha256-" + digest + "'; "
        "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; "
        "img-src 'self' data: blob: https:; connect-src 'self' https:; manifest-src 'self'; worker-src 'self' blob:; child-src blob:; "
+       "frame-src https://www.youtube-nocookie.com https://www.tiktok.com; "
        "object-src 'none'; base-uri 'self'; form-action 'self'")
 html = html.replace("__CSP__", f'<meta http-equiv="Content-Security-Policy" content="{csp}">')
 # Versión del código: va en las URLs de app.js, app.css y config.js y en sw.js, para que ningún navegador

@@ -1,5 +1,27 @@
 [
   {
+    "version": "4.6",
+    "date": "2026-10-16",
+    "title_es": "Página de cada grupo, cumpleaños y TikTok",
+    "title_en": "Group pages, birthdays and TikTok",
+    "es": [
+      "Cada grupo tiene su página con pestañas: Inicio, Miembros, Gira, Música y Redes. Se abre con \"Ver todo\" o tocando un chibi.",
+      "Perfil de cada miembro con su cumpleaños, sus cuentas oficiales y sus últimos TikToks; los videos se ven ahí mismo.",
+      "Cumpleaños: alerta el día, banner en la tarjeta, pastel en el chibi y confeti.",
+      "Resumen \"Tu semana K-pop\" todos los lunes por Discord y al celular.",
+      "Fechas de Asia automáticas desde anuncios oficiales y prensa, marcadas \"por confirmar\".",
+      "Noticias: si varios medios cuentan lo mismo, sale una sola alerta."
+    ],
+    "en": [
+      "Every group has its own page with tabs: Home, Members, Tour, Music and Social. Open it with \"See all\" or by tapping a chibi.",
+      "A profile for each member with their birthday, official accounts and latest TikToks; videos play right there.",
+      "Birthdays: an alert on the day, a banner on the card, a cake on the chibi and confetti.",
+      "A \"Your K-pop week\" digest every Monday on Discord and your phone.",
+      "Asia dates added automatically from official announcements and the press, marked \"to be confirmed\".",
+      "News: when several outlets tell the same story, you get a single alert."
+    ]
+  },
+  {
     "version": "4.5",
     "date": "2026-10-16",
     "title_es": "Avisos de Weverse y un vigilante",

@@ -1,0 +1,419 @@
+{
+ "_doc": "Cumpleaños y cuentas oficiales (personales y del grupo). Verificado el 16 de octubre de 2026 (kprofiles, kpopping, Soompi, TWICEpedia, Wikipedia; TikTok probado con RSSHub). Solo cuentas confirmadas: un enlace equivocado es peor que ninguno. Lo usan la página de cada grupo, las alertas de cumpleaños y updater/social_feeds.py.",
+ "groups": {
+  "bts": {
+   "tiktok": "bts_official_bighit",
+   "instagram": "bts.bighitofficial",
+   "members": {
+    "rm": {
+     "birthday": "1994-09-12",
+     "instagram": "rkive",
+     "tiktok": "",
+     "x": ""
+    },
+    "jin": {
+     "birthday": "1992-12-04",
+     "instagram": "jin",
+     "tiktok": "",
+     "x": ""
+    },
+    "suga": {
+     "birthday": "1993-03-09",
+     "instagram": "agustd",
+     "tiktok": "",
+     "x": ""
+    },
+    "jhope": {
+     "birthday": "1994-02-18",
+     "instagram": "uarmyhope",
+     "tiktok": "iamurhope",
+     "x": ""
+    },
+    "jimin": {
+     "birthday": "1995-10-13",
+     "instagram": "j.m",
+     "tiktok": "jimin",
+     "x": ""
+    },
+    "v": {
+     "birthday": "1995-12-30",
+     "instagram": "thv",
+     "tiktok": "tete",
+     "x": ""
+    },
+    "jungkook": {
+     "birthday": "1997-09-01",
+     "instagram": "mnijungkook",
+     "tiktok": "jungkook",
+     "x": ""
+    }
+   }
+  },
+  "skz": {
+   "tiktok": "jypestraykids",
+   "instagram": "realstraykids",
+   "members": {
+    "bangchan": {
+     "birthday": "1997-10-03",
+     "instagram": "gnabnahc",
+     "tiktok": "",
+     "x": ""
+    },
+    "leeknow": {
+     "birthday": "1998-10-25",
+     "instagram": "t.leeknowsaurus",
+     "tiktok": "",
+     "x": ""
+    },
+    "changbin": {
+     "birthday": "1999-08-11",
+     "instagram": "jutdwae",
+     "tiktok": "",
+     "x": ""
+    },
+    "hyunjin": {
+     "birthday": "2000-03-20",
+     "instagram": "hynjinnnn",
+     "tiktok": "",
+     "x": ""
+    },
+    "han": {
+     "birthday": "2000-09-14",
+     "instagram": "_doolsetnet",
+     "tiktok": "",
+     "x": ""
+    },
+    "felix": {
+     "birthday": "2000-09-15",
+     "instagram": "yong.lixx",
+     "tiktok": "",
+     "x": ""
+    },
+    "seungmin": {
+     "birthday": "2000-09-22",
+     "instagram": "miniverse.__",
+     "tiktok": "",
+     "x": ""
+    },
+    "in": {
+     "birthday": "2001-02-08",
+     "instagram": "i.2.n.8",
+     "tiktok": "",
+     "x": ""
+    }
+   }
+  },
+  "twice": {
+   "tiktok": "twice_tiktok_official",
+   "instagram": "twicetagram",
+   "members": {
+    "nayeon": {
+     "birthday": "1995-09-22",
+     "instagram": "nayeonyny",
+     "tiktok": "",
+     "x": ""
+    },
+    "jeongyeon": {
+     "birthday": "1996-11-01",
+     "instagram": "jy_piece",
+     "tiktok": "",
+     "x": ""
+    },
+    "momo": {
+     "birthday": "1996-11-09",
+     "instagram": "momo",
+     "tiktok": "momo",
+     "x": ""
+    },
+    "sana": {
+     "birthday": "1996-12-29",
+     "instagram": "m.by__sana",
+     "tiktok": "",
+     "x": ""
+    },
+    "jihyo": {
+     "birthday": "1997-02-01",
+     "instagram": "_zyozyo",
+     "tiktok": "",
+     "x": ""
+    },
+    "mina": {
+     "birthday": "1997-03-24",
+     "instagram": "mina_sr_my",
+     "tiktok": "",
+     "x": ""
+    },
+    "dahyun": {
+     "birthday": "1998-05-28",
+     "instagram": "dahhyunnee",
+     "tiktok": "",
+     "x": ""
+    },
+    "chaeyoung": {
+     "birthday": "1999-04-23",
+     "instagram": "chaeyo.0",
+     "tiktok": "",
+     "x": ""
+    },
+    "tzuyu": {
+     "birthday": "1999-06-14",
+     "instagram": "thinkaboutzu",
+     "tiktok": "",
+     "x": ""
+    }
+   }
+  },
+  "blackpink": {
+   "tiktok": "bp_tiktok",
+   "instagram": "blackpinkofficial",
+   "members": {
+    "jisoo": {
+     "birthday": "1995-01-03",
+     "instagram": "sooyaaa__",
+     "tiktok": "jisoo",
+     "x": ""
+    },
+    "jennie": {
+     "birthday": "1996-01-16",
+     "instagram": "jennierubyjane",
+     "tiktok": "jennierubyjane",
+     "x": ""
+    },
+    "rose": {
+     "birthday": "1997-02-11",
+     "instagram": "roses_are_rosie",
+     "tiktok": "roses_are_rosie",
+     "x": ""
+    },
+    "lisa": {
+     "birthday": "1997-03-27",
+     "instagram": "lalalalisa_m",
+     "tiktok": "lalalalisa_m",
+     "x": ""
+    }
+   }
+  },
+  "lngshot": {
+   "tiktok": "lngshot4sho",
+   "instagram": "lngshot4sho",
+   "members": {
+    "ohyul": {
+     "birthday": "2006-01-21",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "ryul": {
+     "birthday": "2006-09-18",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "woojin": {
+     "birthday": "2008-03-08",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "louis": {
+     "birthday": "2010-05-01",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    }
+   }
+  },
+  "seventeen": {
+   "tiktok": "seventeen17_official",
+   "instagram": "saythename_17",
+   "members": {
+    "scoups": {
+     "birthday": "1995-08-08",
+     "instagram": "sound_of_coups",
+     "tiktok": "",
+     "x": ""
+    },
+    "jeonghan": {
+     "birthday": "1995-10-04",
+     "instagram": "jeonghaniyoo_n",
+     "tiktok": "",
+     "x": ""
+    },
+    "joshua": {
+     "birthday": "1995-12-30",
+     "instagram": "joshu_acoustic",
+     "tiktok": "",
+     "x": ""
+    },
+    "jun": {
+     "birthday": "1996-06-10",
+     "instagram": "junhui_moon",
+     "tiktok": "",
+     "x": ""
+    },
+    "hoshi": {
+     "birthday": "1996-06-15",
+     "instagram": "ho5hi_kwon",
+     "tiktok": "",
+     "x": ""
+    },
+    "wonwoo": {
+     "birthday": "1996-07-17",
+     "instagram": "everyone_woo",
+     "tiktok": "",
+     "x": ""
+    },
+    "woozi": {
+     "birthday": "1996-11-22",
+     "instagram": "woozi_universefactory",
+     "tiktok": "",
+     "x": ""
+    },
+    "dk": {
+     "birthday": "1997-02-18",
+     "instagram": "dk_is_dokyeom",
+     "tiktok": "",
+     "x": ""
+    },
+    "mingyu": {
+     "birthday": "1997-04-06",
+     "instagram": "min9yu_k",
+     "tiktok": "",
+     "x": ""
+    },
+    "the8": {
+     "birthday": "1997-11-07",
+     "instagram": "xuminghao_o",
+     "tiktok": "",
+     "x": ""
+    },
+    "seungkwan": {
+     "birthday": "1998-01-16",
+     "instagram": "pledis_boos",
+     "tiktok": "",
+     "x": ""
+    },
+    "vernon": {
+     "birthday": "1998-02-18",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "dino": {
+     "birthday": "1999-02-11",
+     "instagram": "feat.dino",
+     "tiktok": "",
+     "x": ""
+    }
+   }
+  },
+  "enhypen": {
+   "tiktok": "enhypen",
+   "instagram": "enhypen",
+   "members": {
+    "jungwon": {
+     "birthday": "2004-02-09",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "jay": {
+     "birthday": "2002-04-20",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "jake": {
+     "birthday": "2002-11-15",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "sunghoon": {
+     "birthday": "2002-12-08",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "sunoo": {
+     "birthday": "2003-06-24",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "niki": {
+     "birthday": "2005-12-09",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    }
+   }
+  },
+  "newjeans": {
+   "tiktok": "newjeans_official",
+   "instagram": "newjeans_official",
+   "members": {
+    "minji": {
+     "birthday": "2004-05-07",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "hanni": {
+     "birthday": "2004-10-06",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "haerin": {
+     "birthday": "2006-05-15",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "hyein": {
+     "birthday": "2008-04-21",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    }
+   }
+  },
+  "cortis": {
+   "tiktok": "cortis_bighit",
+   "instagram": "cortis",
+   "members": {
+    "martin": {
+     "birthday": "2008-03-20",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "james": {
+     "birthday": "2005-10-14",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "juhoon": {
+     "birthday": "2008-01-03",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "seonghyeon": {
+     "birthday": "2009-01-13",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "keonho": {
+     "birthday": "2009-02-14",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    }
+   }
+  }
+ }
+}

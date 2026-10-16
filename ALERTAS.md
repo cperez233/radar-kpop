@@ -19,8 +19,10 @@ El workflow corre cada 15 minutos, revisa la agenda y manda las alertas. Sin can
 | Llegada reportada | Un medio publica que el grupo llegó. Se marca como reportado, no como oficial | sí |
 | Latinoamérica | Noticia de gira o concierto que menciona países o regiones de Latam | sí |
 | Anuncio oficial | Una cuenta oficial publica un anuncio de gira, entradas o comeback (también los `[NOTICE]` que vienen de Weverse). Máximo uno por grupo, tipo y día | no |
-| Comeback / Gira | Noticias en Soompi, Koreaboo y Google Noticias | no |
+| Comeback / Gira | Noticias en Soompi, Koreaboo y Google Noticias. Si varios medios cuentan la misma historia en 48 h, sale una sola alerta | no |
 | Video | Video nuevo en el canal oficial de YouTube (con `YT_API_KEY`; no va a ntfy) | no |
+| Cumpleaños | El día del cumpleaños de cada miembro (hora de Corea), con los años que cumple (`assets/people.json`) | no |
+| Tu semana K-pop | Los lunes desde las 8 a. m. (hora de Colombia): shows, estrenos y cumpleaños de los próximos 7 días | no |
 | Robot | Una fuente del robot empieza a fallar o vuelve a funcionar (el vigilante, `tools/health.py --notify`) | no |
 
 "Llegó a una ciudad" sale de lo que ellos mismos publican en sus cuentas oficiales, de lo que reporta la prensa, y de la agenda (día del show y fin del show). El motor no usa avistamientos de fans ni rastreo de vuelos, a propósito.
@@ -107,6 +109,20 @@ Rutas: `POST /subscribe`, `POST /push`, `DELETE /subscribe/:id` (con el token qu
 2. La llave pública va en `config.js`, en `vapidPublicKey`. La privada va como secreto `VAPID_PRIVATE_KEY`, y `VAPID_SUBJECT` con un `mailto:` tuyo.
 3. Necesita el servidor de la sección 7. El workflow instala `pywebpush` para mandarlas.
 4. En iPhone solo funcionan con la web instalada en la pantalla de inicio (iOS 16.4 o más).
+
+## 6. Fechas automáticas por anuncios (Asia)
+
+`updater/auto_dates.py` lee los posts oficiales (los de RSSHub) y titulares de Google Noticias. Si un texto anuncia un
+concierto o gira (no un comeback), trae una fecha futura y una ciudad o recinto conocido (`sightings/cities.json`,
+`updater/venues.json`), agrega la fecha a `events.json` marcada "por confirmar", sin hora y con el enlace al anuncio, y
+sale la alerta de fecha nueva. Nunca duplica ni borra. Si una sale mal, su id va en `ignore_auto` de `updater/overrides.json`.
+Muchos anuncios son solo un póster (imagen): esos no se pueden leer y siguen llegando como "Anuncio oficial".
+
+## 6b. Redes de grupos y miembros
+
+`updater/social_feeds.py` escribe `socialfeed.json` con los últimos TikToks de cada grupo y de los miembros que tienen
+cuenta, y los posts oficiales en X (una vez por hora). Las cuentas están en `assets/people.json`, junto con los cumpleaños.
+Instagram funciona solo si tu RSSHub tiene Instagram configurado (ver CLAVES.md).
 
 ## 9. Estrenos y videos
 

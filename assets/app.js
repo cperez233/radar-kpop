@@ -146,7 +146,7 @@
       live: 'En vivo ahora', liveKo: '공연 중', next: 'Próxima parada', nextKo: '다음 공연', rest: 'Sin fechas anunciadas', restKo: '쉬는 중',
       restWhere: 'En pausa', lastStop: 'Última parada', kmFrom: 'km de {city}', flight: '~{h} h de vuelo directo', localTime: 'hora local', yourTime: 'en tu hora',
       days: 'días', hours: 'horas', mins: 'min', secs: 'seg', share: 'Compartir', calendar: 'Agregar al calendario', calShort: 'Agendar', seeCard: 'Ver ficha', seeGlobe: 'Ver en el globo',
-      tour: 'Ver gira ({n} ciudades)', pastTour: 'Última gira ({n} ciudades)', announced: 'anunciado', bias: 'Mi grupo favorito', nearest: 'Lo más cerca de ti', nothingNear: 'Ningún grupo tiene fechas por ahora.',
+      tour: 'Ver gira ({n} ciudades)', pastTour: 'Última gira ({n} ciudades)', announced: 'anunciado', toConfirm: 'por confirmar', timeTbd: 'hora por confirmar', seeNotice: 'Ver el anuncio oficial', seeNews: 'Ver la noticia', bias: 'Mi grupo favorito', nearest: 'Lo más cerca de ti', nothingNear: 'Ningún grupo tiene fechas por ahora.',
       agendaOf: 'Agenda del {when}', checkedAgo: 'revisada hace {ago}', offline: 'Sin conexión con la agenda, mostrando la última copia ({when})', loading: 'Cargando agenda',
       emptyFeed: 'Todavía no hay alertas. Aparecen aquí cuando cambia la agenda, un grupo pasa a la siguiente ciudad, hay un show por empezar o sale una noticia de gira o comeback.',
       ago: 'hace {n}', newAlert: '¡Alerta nueva!', moreAlerts: 'y {n} alertas más en el feed', close: 'Cerrar', closeVideo: 'Salir', replay: 'Repetir', see: 'Ver',
@@ -165,7 +165,7 @@
       sightSample: 'Datos de ejemplo: todavía no hay conexión con las cuentas oficiales.', sightAway: 'a {km} km de ti', sightNew: '¡{n} avistamientos nuevos!', sightNew1: '¡Un avistamiento nuevo!', sightSee: 'Ver post oficial',
       sightEmpty: 'Todavía no hay avistamientos. Aparecen cuando una cuenta oficial menciona una ciudad.', tickerK: 'AVISTAMIENTOS CERCANOS', sightSource: 'Fuente: cuentas oficiales en X',
       squad: 'Toca a cada miembro', notOnTour: 'no va en esta gira', photoAlt: 'Foto oficial de {g}', withUnit: 'con {names}',
-      listen: 'Escúchalos en', nextRelease: 'Próximo estreno', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
+      gpOpen: 'Ver todo', gpHome: 'Inicio', gpMembers: 'Miembros', gpTour: 'Gira', gpMusic: 'Música', gpSocial: 'Redes', gpSeeTour: 'Ver la gira', gpTapMember: 'Toca a un miembro para ver su perfil, su cumpleaños y sus redes.', gpAllMembers: 'Todos los miembros', gpNoPersonal: 'No tiene cuentas personales públicas; sigue al grupo en Redes.', gpLatestPosts: 'Lo último que publicaron', gpPlayHere: 'Ver aquí', gpOpenPost: 'Abrir el post', gpSource: 'fuente', gpUpcoming: 'Próximas fechas ({n} ciudades)', gpPast: 'Últimas paradas ({n})', gpNoDates: 'Sin fechas anunciadas por ahora.', gpNoPosts: 'Todavía no hay posts guardados; el robot los trae solo.', gpMemberAccounts: 'Cuentas de los miembros', bdayToday: 'Hoy cumple {name}', bdayIsToday: '¡cumple hoy!', bdayIn: 'cumple en {n} días', bdayTurnsToday: '¡hoy cumple {n}!', bdayAgeIn: '{age} años · cumple en {n} días', listen: 'Escúchalos en', nextRelease: 'Próximo estreno', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
       stMembers: 'miembros', stDebutK: 'debut', stListeners: 'oyentes mensuales en Spotify', stPeak: 'récord de oyentes mensuales', stStreams: 'reproducciones en Spotify',
       stTopSong: 'su canción más escuchada · {n} reproducciones', stTopSongK: 'su canción más escuchada', stSubs: 'suscriptores en YouTube', stAgency: 'Agencia',
       stSource: 'Números de Spotify vía kworb.net, se actualizan solos una vez al día.',
@@ -219,7 +219,7 @@
       live: 'Live now', liveKo: '공연 중', next: 'Next stop', nextKo: '다음 공연', rest: 'No dates announced', restKo: '쉬는 중',
       restWhere: 'On a break', lastStop: 'Last stop', kmFrom: 'km from {city}', flight: '~{h} h direct flight', localTime: 'local time', yourTime: 'your time',
       days: 'days', hours: 'hours', mins: 'min', secs: 'sec', share: 'Share', calendar: 'Add to calendar', calShort: 'Save date', seeCard: 'Details', seeGlobe: 'See on the globe',
-      tour: 'See tour ({n} cities)', pastTour: 'Last tour ({n} cities)', announced: 'announced', bias: 'My favorite group', nearest: 'Closest to you', nothingNear: 'No group has dates right now.',
+      tour: 'See tour ({n} cities)', pastTour: 'Last tour ({n} cities)', announced: 'announced', toConfirm: 'to be confirmed', timeTbd: 'time to be confirmed', seeNotice: 'See the official announcement', seeNews: 'See the news', bias: 'My favorite group', nearest: 'Closest to you', nothingNear: 'No group has dates right now.',
       agendaOf: 'Schedule from {when}', checkedAgo: 'checked {ago} ago', offline: 'Can\'t reach the schedule, showing the last copy ({when})', loading: 'Loading schedule',
       emptyFeed: 'No alerts yet. They show up here when the schedule changes, a group moves to the next city, a show is about to start or there is tour or comeback news.',
       ago: '{n} ago', newAlert: 'New alert!', moreAlerts: 'and {n} more alerts in the feed', close: 'Close', closeVideo: 'Exit', replay: 'Replay', see: 'See',
@@ -238,7 +238,7 @@
       sightSample: 'Sample data: not connected to the official accounts yet.', sightAway: '{km} km from you', sightNew: '{n} new sightings!', sightNew1: 'A new sighting!', sightSee: 'See official post',
       sightEmpty: 'No sightings yet. They show up when an official account mentions a city.', tickerK: 'SIGHTINGS NEAR YOU', sightSource: 'Source: official accounts on X',
       squad: 'Tap each member', notOnTour: 'not on this tour', photoAlt: 'Official photo of {g}', withUnit: 'with {names}',
-      listen: 'Listen on', nextRelease: 'Next release', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
+      gpOpen: 'See all', gpHome: 'Home', gpMembers: 'Members', gpTour: 'Tour', gpMusic: 'Music', gpSocial: 'Social', gpSeeTour: 'See the tour', gpTapMember: 'Tap a member to see their profile, birthday and accounts.', gpAllMembers: 'All members', gpNoPersonal: 'No public personal accounts; follow the group under Social.', gpLatestPosts: 'Latest posts', gpPlayHere: 'Watch here', gpOpenPost: 'Open the post', gpSource: 'source', gpUpcoming: 'Upcoming dates ({n} cities)', gpPast: 'Last stops ({n})', gpNoDates: 'No dates announced for now.', gpNoPosts: 'No posts saved yet; the robot brings them on its own.', gpMemberAccounts: 'Members\' accounts', bdayToday: "It's {name}'s birthday", bdayIsToday: 'birthday today!', bdayIn: 'birthday in {n} days', bdayTurnsToday: 'turns {n} today!', bdayAgeIn: '{age} years old · birthday in {n} days', listen: 'Listen on', nextRelease: 'Next release', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
       stMembers: 'members', stDebutK: 'debut', stListeners: 'Spotify monthly listeners', stPeak: 'monthly listeners record', stStreams: 'Spotify streams',
       stTopSong: 'their most streamed song · {n} streams', stTopSongK: 'their most streamed song', stSubs: 'YouTube subscribers', stAgency: 'Agency',
       stSource: 'Spotify numbers via kworb.net, updated automatically once a day.',
@@ -1143,7 +1143,7 @@
     return '<div class="squad-wrap"><p class="squad-k">' + esc(t('squad')) + (unit ? ' · <b>' + esc(t('withUnit', { names: lineupOf(st).map(function (m) { return m.name; }).join(' & ') })) + '</b>' : '') + '</p><ul class="squad" data-n="' + all.length + '">' + all.map(function (m, i) {
       var off = unit && on.indexOf(m.id) < 0;
       return '<li><button type="button" class="mem' + (off ? ' off' : '') + '" data-mem="' + esc(st.id + ':' + m.id) + '" data-i="' + i + '" aria-label="' + esc(m.name + (off ? ', ' + t('notOnTour') : '')) + '" style="--dl:-' + (i * .37 % 2.6).toFixed(2) + 's">' +
-        '<span class="mem-say" lang="ko" aria-hidden="true">' + esc(m.ko) + '!</span><img src="' + esc(memberSrc(st.id, m.id)) + '" alt="" loading="lazy" decoding="async" draggable="false"><span class="mem-n">' + esc(m.name) + '</span></button></li>';
+        (function () { var b = bdayInfo(person(st.id, m.id)); return b && b.today ? '<span class="gp-hat" aria-hidden="true">🎂</span>' : ''; })() + '<span class="mem-say" lang="ko" aria-hidden="true">' + esc(m.ko) + '!</span><img src="' + esc(memberSrc(st.id, m.id)) + '" alt="" loading="lazy" decoding="async" draggable="false"><span class="mem-n">' + esc(m.name) + '</span></button></li>';
     }).join('') + '</ul>' + formerHtml(st.id) + '</div>';
   }
   function formerHtml(gid) {
@@ -1269,8 +1269,11 @@
       var e = st.cur, km = hav(o.lat, o.lon, e.lat, e.lon), live = st.mode === 'live';
       h += '<span class="c-state ' + (live ? 'live' : '') + '"><span class="ko" lang="ko">' + (live ? t('liveKo') : t('nextKo')) + '</span> ' + esc(live ? t('live') : t('next')) + '</span>';
       h += '<p class="c-where">' + esc(place(e.city)) + '<small>' + esc(place(e.country)) + (e.venue ? ' · ' + esc(e.venue) : '') + '</small></p>';
-      h += '<p class="c-when"><b>' + esc(fmtDate(e.local_date)) + ', ' + esc(e.start.slice(11, 16)) + '</b> ' + esc(t('localTime')) +
-        (e.status === 'anunciado' ? ' <span class="tag">' + esc(t('announced')) + '</span>' : '') + '<br>' + esc(t('yourTime')) + ': ' + esc(myTime(e.t)) + '</p>';
+      var srcOk = e.src && /^https:\/\//.test(e.src);
+      h += '<p class="c-when"><b>' + esc(fmtDate(e.local_date)) + (e.time_tbd ? '' : ', ' + esc(e.start.slice(11, 16))) + '</b> ' + esc(e.time_tbd ? t('timeTbd') : t('localTime')) +
+        (e.source === 'auto' ? ' <span class="tag">' + esc(t('toConfirm')) + '</span>' : e.status === 'anunciado' ? ' <span class="tag">' + esc(t('announced')) + '</span>' : '') +
+        (e.time_tbd ? '' : '<br>' + esc(t('yourTime')) + ': ' + esc(myTime(e.t))) +
+        (srcOk ? '<br><a class="src-link" href="' + esc(e.src) + '" target="_blank" rel="noopener noreferrer">' + esc(t(e.src_kind === 'news' ? 'seeNews' : 'seeNotice')) + '</a>' : '') + '</p>';
       h += onsaleHtml(st);
       h += live ? '<div class="cd-live"><span class="ko" lang="ko">지금 무대 위!</span>' + esc(lang === 'en' ? 'On stage right now' : 'En el escenario ahora mismo') + '</div>' : cdTiles(e.start);
       h += '<div class="facts"><span class="km">' + fmtKm(km) + ' <small>' + esc(t('kmFrom', { city: originRef() })) + '</small></span><span class="fly">' + esc(t('flight', { h: flightH(km) })) + '</span><span class="dday">' + esc(live ? 'LIVE' : dday(e)) + '</span></div>';
@@ -1278,10 +1281,12 @@
     h += '<div class="acts"><button type="button" class="act solid" data-share="' + esc(g.id) + '">' + ICON.share + esc(t('share')) + '</button>' +
       '<button type="button" class="act" data-pick="' + esc(g.id) + '" data-top="1" aria-label="' + esc(t('seeGlobe')) + '">' + ICON.globe + esc(t('globe')) + '</button>' +
       (st.cur ? '<button type="button" class="act" data-ics="' + esc(g.id) + '" aria-label="' + esc(t('calendar')) + '">' + ICON.cal + esc(t('calShort')) + '</button>' : '') +
-      (cityTarget(st) ? '<button type="button" class="act" data-city="' + esc(g.id) + '">' + ICON.map + esc(t('cityOpen')) + '</button>' : '') + '</div>';
+      (cityTarget(st) ? '<button type="button" class="act" data-city="' + esc(g.id) + '">' + ICON.map + esc(t('cityOpen')) + '</button>' : '') +
+      '<button type="button" class="act gp-open" data-gp-open="' + esc(g.id) + '">' + ICON.card + esc(t('gpOpen')) + '</button></div>';
     var watch = lang === 'en' && g.watch_en && g.watch_en.length ? g.watch_en : g.watch;
     if (watch && watch.length) h += '<ul class="watch" lang="' + (watch === g.watch_en ? 'en' : 'es') + '">' + watch.map(function (w) { return '<li>' + esc(w) + '</li>'; }).join('') + '</ul>';
     h += nextReleaseHtml(g.id);
+    birthdaysToday(g.id).forEach(function (mm) { h += '<button type="button" class="gp-bday" data-gp-open="' + esc(g.id) + '" data-gp-t="members" data-gp-m="' + esc(mm.id) + '"><span>🎂</span>' + esc(t('bdayToday', { name: mm.name })) + ' <b lang="ko">생일 축하해!</b></button>'; });
     h += squadHtml(st);
     var ph = photoOf(g.id);
     if (ph) h += '<figure class="polaroid"><img src="' + esc(ph.src) + '"' + (ph.w ? ' width="' + ph.w + '" height="' + ph.h + '"' : '') + ' alt="' + esc(t('photoAlt', { g: g.name })) + '" loading="lazy" decoding="async"><figcaption>' + esc(g.name) + (m.fan ? ' · ' + esc(m.fan) : '') + '</figcaption></figure>';
@@ -1539,6 +1544,196 @@
     download(new Blob([ics], { type: 'text/calendar;charset=utf-8' }), id + '-' + e.local_date + '.ics');
     Sound.play('pop'); toast(t('icsSaved'));
   }
+
+  /* ================= página de cada grupo (pestañas) y perfil de cada miembro ================= */
+  var PEOPLE = window.RADAR_PEOPLE || {};
+  var socialFeed = {};
+  var GP = { id: null, tab: 'home', mem: null };
+  var GP_TABS = [['home', 'gpHome', '홈'], ['members', 'gpMembers', '멤버'], ['tour', 'gpTour', '투어'], ['music', 'gpMusic', '음악'], ['social', 'gpSocial', 'SNS']];
+  function pollSocial() {
+    return fetch('socialfeed.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (j) { if (j && j.groups) { socialFeed = j.groups; if (GP.id) renderGP(); } }).catch(function () { /* sin redes todavía */ });
+  }
+  function person(gid, mid) { var g = PEOPLE[gid]; return (g && g.members && g.members[mid]) || {}; }
+  function okHandle(h) { return /^[A-Za-z0-9._]{1,40}$/.test(h || '') ? h : ''; }
+  function socialLinks(p, cls) {
+    var out = [];
+    if (okHandle(p.instagram)) out.push(['ig', 'Instagram', 'https://www.instagram.com/' + p.instagram + '/']);
+    if (okHandle(p.tiktok)) out.push(['tt', 'TikTok', 'https://www.tiktok.com/@' + p.tiktok]);
+    if (okHandle(p.x)) out.push(['x', 'X', 'https://x.com/' + p.x]);
+    return out.map(function (l) { return '<a class="' + (cls || 'soc') + ' soc-' + l[0] + '" href="' + esc(l[2]) + '" target="_blank" rel="noopener noreferrer">' + SOC_ICON[l[0]] + '<span>' + esc(l[1]) + ' · @' + esc(l[2].replace(/\/$/, '').split(/[/@]/).pop()) + '</span></a>'; }).join('');
+  }
+  var SOC_ICON = {
+    ig: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" class="dot"/></svg>',
+    tt: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4v10.5a3.5 3.5 0 1 1-3.5-3.5M14 4c.6 2.6 2.3 4 5 4.3"/></svg>',
+    x: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5l14 15M19 4.5 5 19.5"/></svg>'
+  };
+  function bdayInfo(p) {
+    var b = p.birthday || ''; if (!/^\d{4}-\d\d-\d\d$/.test(b)) return null;
+    var y = +b.slice(0, 4), mo = +b.slice(5, 7), d = +b.slice(8, 10);
+    var kst = new Date(now() + 9 * 36e5), ty = kst.getUTCFullYear(), today = Date.UTC(ty, kst.getUTCMonth(), kst.getUTCDate());
+    var next = Date.UTC(ty, mo - 1, d); if (next < today) next = Date.UTC(ty + 1, mo - 1, d);
+    var days = Math.round((next - today) / 864e5);
+    return { date: b, age: new Date(next).getUTCFullYear() - y - (days === 0 ? 0 : 1), turning: new Date(next).getUTCFullYear() - y, days: days, today: days === 0 };
+  }
+  function birthdaysToday(gid) {
+    return members(gid).filter(function (m) { var b = bdayInfo(person(gid, m.id)); return b && b.today; });
+  }
+  function openGP(id, tab, mem, noPush) {
+    if (!stOf(id)) return;
+    GP.id = id; GP.tab = tab || 'home'; GP.mem = mem || null;
+    var box = $('#gp'); box.setAttribute('style', gStyle(id));
+    renderGP(); box.hidden = false; document.documentElement.style.overflow = 'hidden';
+    if (!noPush) try { history.pushState({ gp: id }, '', '#g=' + id + (GP.tab !== 'home' ? '&t=' + GP.tab : '') + (GP.mem ? '&m=' + GP.mem : '')); } catch (e) { /* nada */ }
+    Sound.play('open');
+    var x = $('#gp .gp-x'); if (x) x.focus({ preventScroll: true });
+    if (GP.mem) celebrateIfBday();
+  }
+  function closeGP(fromPop) {
+    var box = $('#gp'); if (box.hidden) return;
+    box.hidden = true; box.innerHTML = ''; GP.id = null; document.documentElement.style.overflow = '';
+    if (!fromPop && history.state && history.state.gp) try { history.back(); } catch (e) { /* nada */ }
+  }
+  function gpSet(tab, mem) {
+    GP.tab = tab; GP.mem = mem || null; renderGP();
+    try { history.replaceState({ gp: GP.id }, '', '#g=' + GP.id + (tab !== 'home' ? '&t=' + tab : '') + (GP.mem ? '&m=' + GP.mem : '')); } catch (e) { /* nada */ }
+    var body = $('#gp .gp-body'); if (body) body.scrollTop = 0;
+    if (GP.mem) celebrateIfBday();
+  }
+  function celebrateIfBday() {
+    var b = bdayInfo(person(GP.id, GP.mem)); if (!b || !b.today || reduce) return;
+    setTimeout(function () { confettiBurst(innerWidth / 2, innerHeight * .3, 60, [gColor(GP.id), '#FFD84D', '#FF9CC6', '#fff'], 10, null, Math.PI * 2); Sound.play('fanfare'); }, 250);
+  }
+  function renderGP() {
+    var id = GP.id, st = stOf(id); if (!st) return;
+    var g = st.g, m = META[id] || {}, h = '';
+    h += '<div class="gp-card"><header class="gp-head"><span class="gp-face">' + faceImg(id) + '</span><div class="gp-id">' +
+      (m.ko ? '<p class="gp-ko" lang="ko">' + esc(m.ko) + '</p>' : '') + '<h2 id="gpTitle">' + esc(g.name) + '</h2><p class="gp-sub">' + esc([m.fan, (PROFILE[id] || {}).agency].filter(Boolean).join(' · ')) + '</p></div>' +
+      '<button class="gp-x" type="button" data-gp-close aria-label="' + esc(t('close')) + '">' + ICON.x + '</button></header>';
+    h += '<nav class="gp-tabs" role="tablist">' + GP_TABS.map(function (tb) {
+      return '<button type="button" role="tab" data-gp-tab="' + tb[0] + '" aria-selected="' + (GP.tab === tb[0]) + '"><span class="ko" lang="ko">' + tb[2] + '</span>' + esc(t(tb[1])) + '</button>';
+    }).join('') + '</nav><div class="gp-body">';
+    if (GP.tab === 'home') h += gpHome(st);
+    else if (GP.tab === 'members') h += GP.mem ? gpMember(st, GP.mem) : gpMembers(st);
+    else if (GP.tab === 'tour') h += gpTour(st);
+    else if (GP.tab === 'music') h += gpMusic(id);
+    else h += gpSocial(id);
+    h += '</div></div>';
+    $('#gp').innerHTML = h;
+  }
+  function gpHome(st) {
+    var id = st.id, h = '', bd = birthdaysToday(id);
+    bd.forEach(function (mm) { h += '<button type="button" class="gp-bday" data-gp-mem="' + esc(mm.id) + '"><span>🎂</span>' + esc(t('bdayToday', { name: mm.name })) + ' <b lang="ko">생일 축하해!</b></button>'; });
+    var e = st.cur;
+    if (e) {
+      var o = origin(), km = hav(o.lat, o.lon, e.lat, e.lon);
+      h += '<section class="gp-sec gp-next"><p class="gp-k">' + esc(st.mode === 'live' ? t('live') : t('next')) + '</p><p class="gp-big">' + esc(place(e.city)) + '</p><p>' + esc(fmtDate(e.local_date, true)) + (e.venue ? ' · ' + esc(e.venue) : '') + '</p><p class="gp-muted">' + esc(fmtKm(km)) + ' ' + esc(t('kmFrom', { city: originRef() })) + ' · ' + esc(dday(e)) + '</p>' +
+        '<button type="button" class="act" data-gp-tab="tour">' + ICON.map + esc(t('gpSeeTour')) + '</button></section>';
+    } else if (st.last) {
+      h += '<section class="gp-sec gp-next"><p class="gp-k">' + esc(t('rest')) + '</p><p class="gp-big">' + esc(t('lastStop')) + ': ' + esc(place(st.last.city)) + '</p><p class="gp-muted">' + esc(fmtDate(st.last.local_date, true)) + '</p></section>';
+    }
+    h += nextReleaseHtml(id);
+    var p = PEOPLE[id] || {};
+    h += listenHtml(st.g).replace('</ul></div>', (okHandle(p.tiktok) ? '<li><a class="ln ln-tt" href="https://www.tiktok.com/@' + esc(p.tiktok) + '" target="_blank" rel="noopener noreferrer">' + SOC_ICON.tt + '<span>TikTok</span></a></li>' : '') +
+      (okHandle(p.instagram) ? '<li><a class="ln ln-ig" href="https://www.instagram.com/' + esc(p.instagram) + '/" target="_blank" rel="noopener noreferrer">' + SOC_ICON.ig + '<span>Instagram</span></a></li>' : '') + '</ul></div>');
+    h += noticesHtml(id).replace('<details class="agenda notices">', '<details class="agenda notices" open>');
+    h += statsHtml(st.g).replace('<details class="agenda stats">', '<details class="agenda stats" open>');
+    return h;
+  }
+  function gpMembers(st) {
+    var id = st.id, list = members(id);
+    return '<p class="gp-hint">' + esc(t('gpTapMember')) + '</p><ul class="gp-mems">' + list.map(function (mm, i) {
+      var b = bdayInfo(person(id, mm.id));
+      return '<li><button type="button" data-gp-mem="' + esc(mm.id) + '" style="--dl:-' + (i * .41 % 2.6).toFixed(2) + 's">' + (b && b.today ? '<span class="gp-hat" aria-hidden="true">🎂</span>' : '') +
+        '<img src="' + esc(memberSrc(id, mm.id)) + '" alt="" loading="lazy" decoding="async"><b>' + esc(mm.name) + '</b><span lang="ko">' + esc(mm.ko || '') + '</span>' +
+        (b ? '<small>' + esc(b.today ? t('bdayIsToday') : t('bdayIn', { n: b.days })) + '</small>' : '') + '</button></li>';
+    }).join('') + '</ul>' + formerHtml(id);
+  }
+  function gpMember(st, mid) {
+    var id = st.id, mm = members(id).filter(function (x) { return x.id === mid; })[0]; if (!mm) return gpMembers(st);
+    var p = person(id, mid), b = bdayInfo(p), feed = ((socialFeed[id] || {}).members || {})[mid] || {}, h = '';
+    h += '<button type="button" class="gp-back" data-gp-tab="members">‹ ' + esc(t('gpAllMembers')) + '</button>';
+    h += '<section class="gp-prof"><button type="button" class="gp-big-chibi" data-gp-hop aria-label="' + esc(mm.name) + '"><img src="' + esc(memberSrc(id, mid)) + '" alt=""></button>' +
+      '<div><h3>' + esc(mm.name) + ' <span lang="ko">' + esc(mm.ko || '') + '</span></h3>' +
+      (b ? '<p class="gp-bd' + (b.today ? ' today' : '') + '">🎂 ' + esc(fmtDate(b.date.replace(/^\d{4}/, String(new Date(now()).getFullYear())), false).replace(/,? \d{4}$/, '')) + ' · ' +
+        esc(b.today ? t('bdayTurnsToday', { n: b.turning }) : t('bdayAgeIn', { age: b.age, n: b.days })) + '</p>' : '') +
+      '<div class="soc-row">' + (socialLinks(p) || '<p class="gp-muted">' + esc(t('gpNoPersonal')) + '</p>') + '</div></div></section>';
+    var posts = [].concat((feed.tiktok || []).map(function (x) { return Object.assign({ k: 'tt' }, x); }), (feed.instagram || []).map(function (x) { return Object.assign({ k: 'ig' }, x); }))
+      .sort(function (a, c) { return a.when < c.when ? 1 : -1; }).slice(0, 6);
+    if (posts.length) h += '<section class="gp-sec"><h4>' + esc(t('gpLatestPosts')) + '</h4>' + postList(posts) + '</section>';
+    var others = members(id).filter(function (x) { return x.id !== mid; });
+    h += '<div class="gp-others">' + others.map(function (x) { return '<button type="button" data-gp-mem="' + esc(x.id) + '" aria-label="' + esc(x.name) + '"><img src="' + esc(memberSrc(id, x.id)) + '" alt="" loading="lazy"></button>'; }).join('') + '</div>';
+    return h;
+  }
+  function postList(posts) {
+    return '<ul class="gp-posts">' + posts.map(function (x) {
+      var vid = x.k === 'tt' && /\/video\/(\d+)/.exec(x.url || '');
+      var ok = /^https:\/\/(www\.)?(tiktok\.com|instagram\.com|x\.com|twitter\.com)\//.test(x.url || '');
+      if (!ok) return '';
+      return '<li class="gp-post p-' + x.k + '"><div class="gp-post-h"><span class="soc-mini soc-' + x.k + '">' + SOC_ICON[x.k] + '</span><time>' + esc(t('ago', { n: agoTxt(now() - Date.parse(x.when)) })) + '</time></div>' +
+        '<p>' + esc(x.title || '') + '</p>' + (vid ? '<button type="button" class="chip-btn" data-tt="' + esc(vid[1]) + '">▶ ' + esc(t('gpPlayHere')) + '</button> ' : '') +
+        '<a class="src-link" href="' + esc(x.url) + '" target="_blank" rel="noopener noreferrer">' + esc(t('gpOpenPost')) + '</a></li>';
+    }).join('') + '</ul>';
+  }
+  function gpTour(st) {
+    var o = origin(), h = '', up = st.upStops, past = stops(st.past).slice(-8).reverse();
+    function row(r, isPast) {
+      var e0 = r[0], d = hav(o.lat, o.lon, e0.lat, e0.lon);
+      var dates = r.map(function (x) { return parts(x.local_date).d; }).join(' · ') + ' ' + L().months[parts(e0.local_date).m - 1] + ' ' + parts(e0.local_date).y;
+      var src = e0.src && /^https:\/\//.test(e0.src) ? ' <a class="src-link" href="' + esc(e0.src) + '" target="_blank" rel="noopener noreferrer">' + esc(t('gpSource')) + '</a>' : '';
+      return '<li class="stub' + (isPast ? ' past' : '') + '"><span class="s-d">' + esc(dates) + '</span><span class="s-c">' + esc(place(e0.city)) + ', ' + esc(place(e0.country)) +
+        (e0.venue ? '<span>' + esc(e0.venue) + '</span>' : '') + (e0.source === 'auto' ? '<span class="tag">' + esc(t('toConfirm')) + '</span>' + src : '') + '</span><span class="s-k">' + fmtKm(d) + ' km</span></li>';
+    }
+    h += '<p class="gp-tourname">' + esc(tourName(st.g)) + '</p>';
+    if (up.length) h += '<section class="gp-sec"><h4>' + esc(t('gpUpcoming', { n: up.length })) + '</h4><ul class="stubs">' + up.map(function (r) { return row(r, false); }).join('') + '</ul></section>';
+    else h += '<p class="gp-muted">' + esc(t('gpNoDates')) + '</p>';
+    if (past.length) h += '<details class="agenda"><summary>' + esc(t('gpPast', { n: past.length })) + '</summary><ul class="stubs">' + past.map(function (r) { return row(r, true); }).join('') + '</ul></details>';
+    if (st.cur && cityTarget(st)) h += '<div class="acts"><button type="button" class="act" data-city="' + esc(st.id) + '">' + ICON.map + esc(t('cityOpen')) + '</button>' + (st.cur ? '<button type="button" class="act" data-ics="' + esc(st.id) + '">' + ICON.cal + esc(t('calShort')) + '</button>' : '') + '</div>';
+    return h;
+  }
+  function gpMusic(id) {
+    var list = (media || []).filter(function (m) { return m.group === id && okLink(m.url); }).sort(function (a, b) { return a.date < b.date ? 1 : -1; });
+    if (!list.length) return '<p class="gp-muted">' + esc(t('mediaEmpty')) + '</p>';
+    return '<ul class="gp-media">' + list.map(function (m) {
+      var img = okImg(m.image), yt = m.type === 'video' && /[?&]v=([\w-]{6,})/.exec(m.url);
+      return '<li class="m-' + esc(m.type) + '"><div class="gp-thumb"' + (yt ? ' data-yt="' + esc(yt[1]) + '" role="button" tabindex="0" aria-label="' + esc(t('gpPlayHere') + ': ' + m.title) + '"' : '') + '><img src="' + esc(img || face(id).src) + '" alt="" loading="lazy">' + (yt ? '<span class="gp-play">▶</span>' : '') + '</div>' +
+        '<div><b>' + esc(m.title) + '</b><small>' + esc(m.date ? fmtDate(m.date, true) : '') + (m.kind ? ' · ' + esc(m.kind) : '') + '</small><a class="src-link" href="' + esc(okLink(m.url)) + '" target="_blank" rel="noopener noreferrer">' + esc(m.type === 'music' ? t('mediaListen') : t('mediaWatch')) + '</a></div></li>';
+    }).join('') + '</ul>';
+  }
+  function gpSocial(id) {
+    var f = socialFeed[id] || {}, h = '', p = PEOPLE[id] || {};
+    var posts = [].concat((f.x || []).map(function (x) { return Object.assign({ k: 'x' }, x); }), (f.tiktok || []).map(function (x) { return Object.assign({ k: 'tt' }, x); }), (f.instagram || []).map(function (x) { return Object.assign({ k: 'ig' }, x); }))
+      .sort(function (a, c) { return a.when < c.when ? 1 : -1; }).slice(0, 12);
+    var groupLinks = socialLinks({ instagram: p.instagram, tiktok: p.tiktok }, 'soc');
+    if (groupLinks) h += '<div class="soc-row">' + groupLinks + '</div>';
+    h += noticesHtml(id).replace('<details class="agenda notices">', '<details class="agenda notices" open>');
+    h += posts.length ? '<section class="gp-sec"><h4>' + esc(t('gpLatestPosts')) + '</h4>' + postList(posts) + '</section>' : '<p class="gp-muted">' + esc(t('gpNoPosts')) + '</p>';
+    var withSoc = members(id).filter(function (mm) { var q = person(id, mm.id); return okHandle(q.instagram) || okHandle(q.tiktok) || okHandle(q.x); });
+    if (withSoc.length) h += '<section class="gp-sec"><h4>' + esc(t('gpMemberAccounts')) + '</h4><ul class="gp-socmem">' + withSoc.map(function (mm) {
+      return '<li><button type="button" data-gp-mem="' + esc(mm.id) + '"><img src="' + esc(memberSrc(id, mm.id)) + '" alt="" loading="lazy"><b>' + esc(mm.name) + '</b></button><div class="soc-row">' + socialLinks(person(id, mm.id), 'soc small') + '</div></li>';
+    }).join('') + '</ul></section>';
+    return h;
+  }
+  function playEmbed(el, src, ratio) {
+    var wrap = document.createElement('div'); wrap.className = 'gp-embed' + (ratio === 'tall' ? ' tall' : '');
+    var f = document.createElement('iframe'); f.src = src; f.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture; fullscreen'); f.setAttribute('allowfullscreen', ''); f.setAttribute('loading', 'lazy'); f.title = 'video';
+    wrap.appendChild(f); el.replaceWith(wrap);
+  }
+  function gpClick(el) {
+    if (el.hasAttribute('data-gp-close')) { closeGP(); return true; }
+    if (el.hasAttribute('data-gp-tab')) { gpSet(el.getAttribute('data-gp-tab')); Sound.play('tick'); return true; }
+    if (el.hasAttribute('data-gp-mem')) { GP.tab = 'members'; gpSet('members', el.getAttribute('data-gp-mem')); Sound.play('pop'); return true; }
+    if (el.hasAttribute('data-gp-hop')) { var im = el.querySelector('img'); im.classList.remove('hop'); void im.offsetWidth; im.classList.add('hop'); Sound.play('hop'); return true; }
+    if (el.hasAttribute('data-yt')) { playEmbed(el, 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(el.getAttribute('data-yt')) + '?autoplay=1&rel=0'); return true; }
+    if (el.hasAttribute('data-tt')) { playEmbed(el, 'https://www.tiktok.com/embed/v2/' + encodeURIComponent(el.getAttribute('data-tt')), 'tall'); return true; }
+    if (el.hasAttribute('data-gp-open')) { openGP(el.getAttribute('data-gp-open'), el.getAttribute('data-gp-t') || 'home', el.getAttribute('data-gp-m')); return true; }
+    return false;
+  }
+  window.addEventListener('popstate', function () { if (!$('#gp').hidden) closeGP(true); });
+  (function () { /* abrir desde un enlace: #g=bts&t=members&m=jimin */
+    var m = /#g=([a-z0-9]+)(?:&t=(\w+))?(?:&m=([a-z0-9]+))?/.exec(location.hash || '');
+    if (m) setTimeout(function () { openGP(m[1], m[2], m[3], true); }, 400);
+  })();
 
   /* ================= toast ================= */
   var toastT = 0;
@@ -2072,14 +2267,15 @@
 
   /* ================= eventos ================= */
   var lastKeyboard = false;
-  window.addEventListener('keydown', function (e) { lastKeyboard = true; if (e.key === 'Escape') { if (!$('#city').hidden) closeCity(); else if (!$('#video').hidden) closeVideo(); else if (!$('#party').hidden) closeParty(); else if (!$('#iosSheet').hidden) $('#iosSheet').hidden = true; else if (sel) unselect(); } });
+  window.addEventListener('keydown', function (e) { lastKeyboard = true; if (e.key === 'Escape') { if (!$('#city').hidden) closeCity(); else if (!$('#gp').hidden) closeGP(); else if (!$('#video').hidden) closeVideo(); else if (!$('#party').hidden) closeParty(); else if (!$('#iosSheet').hidden) $('#iosSheet').hidden = true; else if (sel) unselect(); } });
   window.addEventListener('pointerdown', function () { lastKeyboard = false; }, true);
 
   document.addEventListener('click', function (ev) {
-    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-geo-help],[data-geo-later],[data-zoom],[data-spin],[data-center-me],[data-city],[data-city-close],[data-cmap],[data-mfilter],#sightBubble,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,#copyJson,.topnav a') : null;
+    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-geo-help],[data-geo-later],[data-zoom],[data-spin],[data-center-me],[data-city],[data-city-close],[data-cmap],[data-mfilter],[data-gp-close],[data-gp-tab],[data-gp-mem],[data-gp-hop],[data-yt],[data-tt],[data-gp-open],#sightBubble,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,#copyJson,.topnav a') : null;
     if (!el) { if (ev.target === $('#party')) closeParty(); return; }
     if (el.hasAttribute('data-pick')) { if (view !== 'globe' && el.hasAttribute('data-top')) setView('globe'); pick(el.getAttribute('data-pick'), { top: el.hasAttribute('data-top') }); return; }
     if (el.hasAttribute('data-unsel')) { unselect(); return; }
+    if (gpClick(el)) return;
     if (el.hasAttribute('data-mem')) { memberTap(el); return; }
     if (el.hasAttribute('data-city')) { openCity(el.getAttribute('data-city')); return; }
     if (el.hasAttribute('data-city-close')) { closeCity(); return; }
@@ -2167,6 +2363,8 @@
     Sound.play('boop', i);
     el.classList.remove('hop'); void el.offsetWidth; el.classList.add('hop');
     if (navigator.vibrate) try { navigator.vibrate(12); } catch (e) { /* nada */ }
+    var gm = (el.getAttribute('data-mem') || '').split(':');
+    if (gm[1]) setTimeout(function () { openGP(gm[0], 'members', gm[1]); }, 420);  /* después del saltito, su perfil */
   }
   var triviaScore = {};
   function triviaTap(el) {
@@ -2297,13 +2495,14 @@
   setChannel(form.ch, true);
   observe();
   setInterval(function () { tick(false); }, 1000);
-  poll(); pollFeed(); pollSights(); pollMedia(); pollStats(); pollNotices();
+  poll(); pollFeed(); pollSights(); pollMedia(); pollStats(); pollNotices(); pollSocial();
   setInterval(poll, 60000);
   setInterval(pollFeed, 60000);
   setInterval(pollSights, 60000);
   setInterval(pollMedia, 15 * 60000);
   setInterval(pollStats, 60 * 60000);
   setInterval(pollNotices, 15 * 60000);
+  setInterval(pollSocial, 30 * 60000);
   // ubicación real: se pide al entrar, salvo que hayas elegido una ciudad a mano
   startGeo();
   if (params.get('demo') === 'alert') setTimeout(function () { $('#testParty').click(); }, 1200);
