@@ -55,6 +55,12 @@ SHEETS = {
         "sunoo": ("Sunoo", (358, 690, 684, 1010)),
         "niki": ("Ni-ki", (684, 690, 1010, 1010)),
     }),
+    "blackpink": ("BLACKPINK", {
+        "jisoo": ("Jisoo", (20, 20, 518, 522)),
+        "jennie": ("Jennie", (518, 20, 1010, 522)),
+        "rose": ("Rosé", (20, 522, 526, 1010)),
+        "lisa": ("Lisa", (526, 522, 1010, 1010)),
+    }),
     "twice": ("TWICE", {
         "nayeon": ("Nayeon", (20, 20, 358, 382)),
         "jeongyeon": ("Jeongyeon", (358, 20, 680, 382)),
