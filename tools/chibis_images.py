@@ -36,6 +36,16 @@ SHEETS = {
         "v": ("V", (370, 680, 690, 1010)),
         "jungkook": ("Jung Kook", (690, 680, 1010, 1010)),
     }),
+    "skz": ("Stray Kids", {
+        "bangchan": ("Bang Chan", (40, 30, 365, 386)),
+        "leeknow": ("Lee Know", (362, 30, 680, 375)),
+        "changbin": ("Changbin", (690, 30, 1010, 375)),
+        "hyunjin": ("Hyunjin", (40, 386, 360, 685)),
+        "han": ("HAN", (360, 378, 700, 685)),
+        "felix": ("Felix", (40, 685, 365, 1010)),
+        "seungmin": ("Seungmin", (370, 685, 680, 1010)),
+        "in": ("I.N", (690, 685, 1010, 1010)),
+    }),
 }
 GROUPS = set(SHEETS)
 
@@ -68,6 +78,8 @@ def sticker(rgba: np.ndarray, box, scale: float = SCALE) -> tuple[str, float, fl
     """Trims one sticker, fits it in BOX (bottom-aligned, centred) and returns (data uri, x, y, w, h)."""
     x0, y0, x1, y1 = box
     a = rgba[y0:y1, x0:x1, 3]
+    if a[0].any() or a[-1].any() or a[:, 0].any() or a[:, -1].any():
+        print(f"  warning: something touches the edge of crop box {box}")
     ys, xs = np.nonzero(a)
     crop = Image.fromarray(rgba[y0 + ys.min():y0 + ys.max() + 1, x0 + xs.min():x0 + xs.max() + 1], "RGBA")
     bx, by, bw, bottom = BOX
