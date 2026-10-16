@@ -1,6 +1,39 @@
 {
- "updated_at": "2026-10-16T18:44:10Z",
+ "updated_at": "2026-10-16T21:48:00Z",
  "alerts": [
+  {
+   "type": "latam",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Latinoamérica: BTS",
+   "body": "BTS en Argentina: El pedido de higiene que se volvió viral antes del concierto - Indie Hoy (Google Noticias)",
+   "title_en": "Latin America: BTS",
+   "body_en": "BTS en Argentina: El pedido de higiene que se volvió viral antes del concierto - Indie Hoy (Google Noticias)",
+   "when": "2026-10-16T20:30:00Z",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQXE1V0prWmRmLXlPUjlQWVJ5Y1NoS0x0dmhDT3huQ0lwQXMtU0xfenVVYWhtdUNSd3ZELTY0WUxQTzNLanVKVWlScDJ5ODVDMGdYY3g0U1lDZS1aZ2NPckNEUi1Ea1NkZGRPc2Q0bFJ6R2xYaHJZLXdqTXR1SE1vc3BHUFJzVThxNkhtRGtCQjcxckQtcGhrMGJFM0FiWEI2b0MxUm82Q1RCWnNHbGVMYi1lVnnSAbQBQVVfeXFMUEFxNVdKa1pkZi15T1I5UFlSeWNTaEtMdHZoQ094bkNJcEFzLVNMX3p1VWFobXVDUnd2RC02NFlMUE8zS2p1SlVpUnAyeTg1QzBnWGN4NFNZQ2UtWmdjT3JDRFItRGtTZGRkT3NkNGxSekdsWGhyWS13ak10dUhNb3NwR1BSc1U4cTZIbURrQkI3MXJELXBoazBiRTNBYlhCNm9DMVJvNkNUQlpzR2xlTGItZVZ5?oc=5"
+  },
+  {
+   "type": "latam",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Latinoamérica: BTS",
+   "body": "BTS en Argentina: todo lo que tenés que saber sobre los shows de la gira ARIRANG - Rolling Stone en Español (Google Noticias)",
+   "title_en": "Latin America: BTS",
+   "body_en": "BTS en Argentina: todo lo que tenés que saber sobre los shows de la gira ARIRANG - Rolling Stone en Español (Google Noticias)",
+   "when": "2026-10-16T20:00:02Z",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPazFQX3VkY3ZEeV9XdVMzVEZGY3ZFNU1CMWViRmxwOXBYUVg0WkNoY3RhOVQtQkRyYW8xeUpJampqd1ZFNG5rdFRVaDZLTXZxSkttWmdscnJhcWsyazZORXNjZC1hUXUySFRYX0lpVUkwa21QNDhFTTFoQlk0blltaXE4cHR6cTlDa1JoWnlLRmtUQkZuREZMZElWbXgwcmd3b3hnVWEtckFJbnNaUDFWMlJB?oc=5"
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "Samsung conecta al público con la gira ‘BTS WORLD TOUR ‘ARIRANG’ EN BUENOS AIRES’ a través de la Serie Galaxy S26 - samsung.com (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "Samsung conecta al público con la gira ‘BTS WORLD TOUR ‘ARIRANG’ EN BUENOS AIRES’ a través de la Serie Galaxy S26 - samsung.com (Google Noticias)",
+   "when": "2026-10-16T19:07:39Z",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSFBQRDlTYnVEMDhWQkZfZ3RFSUo5eW1fMVdPWFppLTEtWjlpY0x0bG8wMkxUY2xVNzJKRjZmNlZ3VlFlTHpLdFl0QTZzTloxNmtKTXVNQlE3bkZwZkdyMjRMaTB6b0llYkVhMWstTzBybzZEd1pSTVJYaTZzNzd2Wl9sRUk4VUlWUDZvWnFUMVpYZnhPTWRzUmZ1bG1yWlRxTkFtTjFPQjl5cGJuZExQazRCT2lIVUhaT05hOTZYYVZWWF81U2lrWlA0SWNyc1NSUlhn?oc=5"
+  },
   {
    "type": "video",
    "group": "enhypen",

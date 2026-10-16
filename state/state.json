@@ -78,7 +78,16 @@
   "today:enhypen:enh-20261016-macao|pub:radarkpop-pais-china": "2026-10-16T15:48:16Z",
   "live:enh-20261016-macao|pub:radarkpop-enhypen-shows": "2026-10-16T15:48:16Z",
   "news:c643b56965722404|canal": "2026-10-16T18:44:18Z",
-  "news:d369c8ed35a62fb8|canal": "2026-10-16T18:44:18Z"
+  "news:d369c8ed35a62fb8|canal": "2026-10-16T18:44:18Z",
+  "news:b1413ae9d08af5c8|canal": "2026-10-16T21:48:08Z",
+  "news:b1413ae9d08af5c8|ntfy": "2026-10-16T21:48:08Z",
+  "news:b1413ae9d08af5c8|pub:radarkpop-bts-news": "2026-10-16T21:48:08Z",
+  "news:ad862756c22719dc|canal": "2026-10-16T21:48:08Z",
+  "news:ad862756c22719dc|ntfy": "2026-10-16T21:48:08Z",
+  "news:ad862756c22719dc|pub:radarkpop-bts-news": "2026-10-16T21:48:08Z",
+  "news:6d31b59d502cb9a9|canal": "2026-10-16T21:48:08Z",
+  "news:6d31b59d502cb9a9|ntfy": "2026-10-16T21:48:08Z",
+  "news:6d31b59d502cb9a9|pub:radarkpop-bts-news": "2026-10-16T21:48:08Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -980,6 +989,7 @@
   "679ac96bd183b1b7",
   "6898b544ad664ce0",
   "693284d097c750f7",
+  "6d31b59d502cb9a9",
   "6deadc0790723ad5",
   "6f208339857eba05",
   "70f9091478744a16",
@@ -1044,8 +1054,10 @@
   "ab2fbcb45155586b",
   "ab4a9fbee2c772ac",
   "ac396c6a08b27779",
+  "ad862756c22719dc",
   "ae89e2ade18e0672",
   "b0ff906f396a27d4",
+  "b1413ae9d08af5c8",
   "b238ab022b56a96c",
   "b36782312fba7bfa",
   "b455626a2377fc14",
@@ -1219,6 +1231,52 @@
     "segundo"
    ],
    "t": "2026-10-16T14:55:07Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "aires",
+    "arirang",
+    "buenos",
+    "conecta",
+    "galaxy",
+    "gira",
+    "publico",
+    "s26",
+    "samsung",
+    "serie",
+    "tour",
+    "traves",
+    "world"
+   ],
+   "t": "2026-10-16T21:48:00Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "arirang",
+    "gira",
+    "saber",
+    "shows",
+    "sobre",
+    "tenes",
+    "todo"
+   ],
+   "t": "2026-10-16T21:48:00Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "antes",
+    "argentina",
+    "concierto",
+    "higiene",
+    "pedido",
+    "viral",
+    "volvio"
+   ],
+   "t": "2026-10-16T21:48:00Z"
   }
  ],
  "discord_threads": {}
