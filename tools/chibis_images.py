@@ -46,6 +46,17 @@ SHEETS = {
         "seungmin": ("Seungmin", (370, 685, 680, 1010)),
         "in": ("I.N", (690, 685, 1010, 1010)),
     }),
+    "twice": ("TWICE", {
+        "nayeon": ("Nayeon", (20, 20, 358, 382)),
+        "jeongyeon": ("Jeongyeon", (358, 20, 680, 382)),
+        "momo": ("Momo", (680, 20, 1010, 382)),
+        "sana": ("Sana", (20, 382, 358, 690)),
+        "jihyo": ("Jihyo", (358, 382, 680, 690)),
+        "mina": ("Mina", (680, 382, 1010, 690)),
+        "dahyun": ("Dahyun", (20, 690, 358, 1010)),
+        "chaeyoung": ("Chaeyoung", (358, 690, 680, 1010)),
+        "tzuyu": ("Tzuyu", (680, 690, 1010, 1010)),
+    }),
 }
 GROUPS = set(SHEETS)
 
