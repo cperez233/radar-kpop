@@ -22,8 +22,10 @@ ART = ROOT / "tools" / "art"
 W, H = 120, 160
 ROW, STEP = 66, 72      # crowd layout, same as tools/chibis.py and app.js
 BOX = (-4, -8, 128, 170)  # where a sticker may sit inside the sprite: x, y, width, bottom
-SCALE = 2.4             # pixels per sprite unit kept in the embedded image (sharp on 2x screens)
-GROUP_SCALE = 1.3       # the group sprite is only ever shown small
+SCALE = 3.0             # pixels per sprite unit kept in the embedded image (capped at the sheet's own resolution)
+GROUP_SCALE = 1.5       # the group sprite is only shown small (pins, party card ~110 px tall): 1.5 is sharp on 3x screens
+SHADOW_D = (1.4, 2.6)   # sticker shadow offset in sprite units, baked into the image (Safari draws SVG filters blurry)
+SHADOW_RGBA = (185, 164, 238, 230)
 
 # group -> (name, {member: (name, crop box x0, y0, x1, y1, [sheet file])}), in roster order.
 # The sheet defaults to <group>-stickers.webp; big groups can be split across several files.
@@ -108,13 +110,26 @@ SHEETS = {
         "chaeyoung": ("Chaeyoung", (358, 690, 680, 1010)),
         "tzuyu": ("Tzuyu", (680, 690, 1010, 1010)),
     }),
+    "ateez": ("ATEEZ", {
+        "hongjoong": ("Hongjoong", (30, 40, 360, 378)),
+        "seonghwa": ("Seonghwa", (360, 40, 684, 378)),
+        "yunho": ("Yunho", (684, 40, 1010, 378)),
+        "yeosang": ("Yeosang", (30, 378, 360, 690)),
+        "san": ("San", (360, 378, 690, 697)),
+        "mingi": ("Mingi", (30, 690, 360, 1010)),
+        "wooyoung": ("Wooyoung", (360, 697, 690, 1010)),
+        "jongho": ("Jongho", (690, 697, 1010, 1010)),
+    }),
 }
 GROUPS = set(SHEETS)
 
-SHADOW = ('<filter id="cut" x="-10%" y="-10%" width="120%" height="125%" color-interpolation-filters="sRGB">'
-          '<feOffset in="SourceAlpha" dx="1.4" dy="2.6" result="o"/>'
-          '<feFlood flood-color="#B9A4EE" flood-opacity=".9"/><feComposite in2="o" operator="in" result="sh"/>'
-          '<feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter>')
+# former members that still have a sticker on their group's sheet: they get their own SVG (the web shows them
+# greyed out with a note, see assets/people.json "former"), but they are left out of the group sprite
+FORMER = {
+    "enhypen": {"heeseung": ("Heeseung", (360, 40, 684, 378))},
+    "newjeans": {"danielle": ("Danielle", (345, 380, 685, 694))},
+}
+
 
 
 def cutout(sheet: Image.Image) -> np.ndarray:
@@ -146,10 +161,20 @@ def sticker(rgba: np.ndarray, box, scale: float = SCALE) -> tuple[str, float, fl
     crop = Image.fromarray(rgba[y0 + ys.min():y0 + ys.max() + 1, x0 + xs.min():x0 + xs.max() + 1], "RGBA")
     bx, by, bw, bottom = BOX
     s = min(bw / crop.width, (bottom - by) / crop.height)
+    # baked lilac "cut sticker" shadow: the alpha moved down-right, painted below the sticker
+    dx, dy = round(SHADOW_D[0] / s), round(SHADOW_D[1] / s)
+    full = Image.new("RGBA", (crop.width + dx, crop.height + dy), (0, 0, 0, 0))
+    shade = Image.new("RGBA", crop.size, SHADOW_RGBA)
+    shade.putalpha(crop.getchannel("A").point(lambda v: v * SHADOW_RGBA[3] // 255))
+    full.alpha_composite(shade, (dx, dy))
+    full.alpha_composite(crop, (0, 0))
+    crop = full
+    s = min(bw / crop.width, (bottom - by) / crop.height)
     w, h = crop.width * s, crop.height * s
+    scale = min(scale, 1 / s)  # never blow the sticker up past the sheet's own pixels
     px = (round(w * scale), round(h * scale))
     buf = io.BytesIO()
-    crop.resize(px, Image.LANCZOS).save(buf, "WEBP", quality=88, method=6)
+    crop.resize(px, Image.LANCZOS).save(buf, "WEBP", quality=86, method=6)
     uri = "data:image/webp;base64," + base64.b64encode(buf.getvalue()).decode()
     return uri, bx + (bw - w) / 2, bottom - h, w, h
 
@@ -185,12 +210,18 @@ def main() -> None:
             title = f"{name} ({gname}), chibi"
             (d / f"{mid}.svg").write_text(
                 f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -10 {W + 12} {H + 14}" width="{W + 12}" height="{H + 14}" role="img" aria-label="{title}">'
-                f'<title>{title}</title><defs>{SHADOW}</defs><g filter="url(#cut)">{image_tag(sticker(rgba, box))}</g></svg>\n', encoding="utf-8")
+                f'<title>{title}</title>{image_tag(sticker(rgba, box))}</svg>\n', encoding="utf-8")
+        for mid, (name, box, *sheet) in FORMER.get(gid, {}).items():
+            rgba = sheets.setdefault(sheet[0] if sheet else f"{gid}-stickers.webp", cutout(Image.open(ART / (sheet[0] if sheet else f"{gid}-stickers.webp"))))
+            title = f"{name} ({gname}), chibi"
+            (d / f"{mid}.svg").write_text(
+                f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -10 {W + 12} {H + 14}" width="{W + 12}" height="{H + 14}" role="img" aria-label="{title}">'
+                f'<title>{title}</title>{image_tag(sticker(rgba, box))}</svg>\n', encoding="utf-8")
         lay, w, h = crowd_layout(len(members))
-        defs, uses = SHADOW, ""
+        defs, uses = "", ""
         for mid, (x, y) in zip(members, lay):
             defs += f'<symbol id="{gid}-{mid}-s" viewBox="-6 -10 {W + 12} {H + 14}">{tags[mid]}</symbol>'
-            uses += f'<use href="#{gid}-{mid}-s" x="{x - 6:.0f}" y="{y - 10}" width="{W + 12}" height="{H + 14}" filter="url(#cut)"/>'
+            uses += f'<use href="#{gid}-{mid}-s" x="{x - 6:.0f}" y="{y - 10}" width="{W + 12}" height="{H + 14}"/>'
         (OUT / f"{gid}.svg").write_text(
             f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -14 {w + 20:.0f} {h + 22}" width="{w + 20:.0f}" height="{h + 22}" role="img" aria-label="{gname}, chibis">'
             f'<title>{gname}, chibis</title><defs>{defs}</defs>{uses}</svg>\n', encoding="utf-8")

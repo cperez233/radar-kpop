@@ -824,6 +824,52 @@
           "ko": "건호"
         }
       ]
+    },
+    "ateez": {
+      "color": "#E2A93B",
+      "name": "ATEEZ",
+      "members": [
+        {
+          "id": "hongjoong",
+          "name": "Hongjoong",
+          "ko": "홍중"
+        },
+        {
+          "id": "seonghwa",
+          "name": "Seonghwa",
+          "ko": "성화"
+        },
+        {
+          "id": "yunho",
+          "name": "Yunho",
+          "ko": "윤호"
+        },
+        {
+          "id": "yeosang",
+          "name": "Yeosang",
+          "ko": "여상"
+        },
+        {
+          "id": "san",
+          "name": "San",
+          "ko": "산"
+        },
+        {
+          "id": "mingi",
+          "name": "Mingi",
+          "ko": "민기"
+        },
+        {
+          "id": "wooyoung",
+          "name": "Wooyoung",
+          "ko": "우영"
+        },
+        {
+          "id": "jongho",
+          "name": "Jongho",
+          "ko": "종호"
+        }
+      ]
     }
   }
 }

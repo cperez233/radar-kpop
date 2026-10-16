@@ -53,6 +53,12 @@
         "CORTIS",
         "코르티스"
       ]
+    },
+    "ateez": {
+      "names": [
+        "ATEEZ",
+        "에이티즈"
+      ]
     }
   },
   "news": [
@@ -98,6 +104,10 @@
     "cortis": [
       "CORTIS BIGHIT tour OR comeback OR concierto OR gira",
       "CORTIS llegó OR arrives OR arrived"
+    ],
+    "ateez": [
+      "ATEEZ tour OR comeback OR concierto OR gira",
+      "ATEEZ llegó OR llegaron OR arrives OR arrived"
     ]
   },
   "social": [
@@ -145,6 +155,11 @@
       "group": "cortis",
       "name": "CORTIS en X",
       "url": "{RSSHUB}/twitter/user/cortis_bighit"
+    },
+    {
+      "group": "ateez",
+      "name": "ATEEZ en X",
+      "url": "{RSSHUB}/twitter/user/ATEEZofficial"
     }
   ],
   "youtube": {
@@ -156,7 +171,8 @@
     "seventeen": "UCfkXDY7vwkcJ8ddFGz8KusA",
     "enhypen": "UCArLZtok93cO5R9RI4_Y5Jw",
     "newjeans": "UCMki_UkHb4qSc0qyEcOHHJw",
-    "cortis": "UCZMYvSPulDSUdx7bdtTFdrg"
+    "cortis": "UCZMYvSPulDSUdx7bdtTFdrg",
+    "ateez": "UC2e4Ukj5Pfr7cb3KpJAFBdQ"
   },
   "itunes": {
     "bts": 883131348,
@@ -167,7 +183,8 @@
     "seventeen": 999644772,
     "enhypen": 1541011620,
     "newjeans": 1635469693,
-    "cortis": 1831651635
+    "cortis": 1831651635,
+    "ateez": 1439301205
   },
   "spotify": {
     "bts": "3Nrfpe0tUJi4K4DXYWgMUX",
@@ -178,6 +195,7 @@
     "seventeen": "7nqOGRxlXj7N2JYbgNEjYH",
     "enhypen": "5t5FqBwTcgKTaWmfEbwQY9",
     "newjeans": "6HvZYsbFfjnjFrWF950C9d",
-    "cortis": "1ebt9HnXdyYA6KgLXr1n4P"
+    "cortis": "1ebt9HnXdyYA6KgLXr1n4P",
+    "ateez": "68KmkJeZGfwe1OUaivBa2L"
   }
 }

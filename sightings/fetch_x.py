@@ -47,6 +47,9 @@ BLOCK = re.compile(r"airport|aeropuerto|aeroporto|공항|空港|hotel|호텔|ホ
 KEEP_DAYS = 30
 PLACES_EN = json.loads((ROOT / "assets" / "places-en.json").read_text(encoding="utf-8"))["places"]
 MAX_ITEMS = 60
+# contenido grabado o productos: nombran una ciudad pero no dicen que el grupo esté ahí ahora (vlogs, videos, álbumes, boletas, pop-ups)
+CONTENT = re.compile(r"youtu\.?be|\[(?:VIDEO|영상|MV|M/V|EPISODE|REC|BEHIND[^\]]*|SPECIAL[^\]]*|선공개)\]|vlog|\bpov\b|g\.c\.f|behind|teaser|trailer|"
+                     r"pop-?up|merch|vinyl|\balbum\b|\bLP\b|out now|streaming|스트리밍|이용권|ticket|티켓|pre-?order|예매|^RT ", re.I)
 NOT_PLACE = re.compile(r"paris,? texas|tokyo drift|london boy|seoul city sky|new york state of mind", re.I)  # títulos que no son lugares
 MIN_GAP = timedelta(minutes=55)
 
@@ -79,7 +82,7 @@ def gazetteer(events: dict) -> list[dict]:
                 known.add(norm(base))
     out = []
     for c in cities:
-        for n in c["names"] + [c["city"]]:
+        for n in c["names"] + ([] if c.get("strict") else [c["city"]]):
             out.append((norm(n), c))
     out.sort(key=lambda x: -len(x[0]))  # primero los nombres largos: "Santiago de Chile" antes que "Santiago"
     return out
@@ -107,7 +110,7 @@ def api(path: str, token: str, **qs) -> dict:
 
 def item(gid: str, names: dict, handle: str, tid: str, text: str, when: str, gaz: list) -> dict | None:
     text = html.unescape(text)
-    if BLOCK.search(text) or NOT_PLACE.search(text):
+    if BLOCK.search(text) or NOT_PLACE.search(text) or CONTENT.search(text):
         return None
     c = find_city(text, gaz)
     if not c:

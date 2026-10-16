@@ -80,6 +80,17 @@ jobs:
           RSSHUB_URL: ${{ secrets.RSSHUB_URL }}
         run: python updater/social_feeds.py
 
+      - name: Próximos estrenos anunciados en posts oficiales
+        if: ${{ !inputs.prueba }}
+        continue-on-error: true
+        run: python updater/releases.py
+
+      - name: Integrantes (servicio militar, regresos y salidas desde avisos oficiales y prensa)
+        if: ${{ !inputs.prueba }}
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python updater/roster_watch.py
+
       - name: Librería para notificaciones push del navegador
         if: ${{ !inputs.prueba }}
         continue-on-error: true
@@ -125,7 +136,7 @@ jobs:
         run: |
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
-          git add events.json alerts.json sightings.json media.json stats.json notices.json socialfeed.json index.html sw.js state/ CHANGELOG.md
+          git add events.json alerts.json sightings.json media.json stats.json notices.json socialfeed.json rosterwatch.json releases.json index.html sw.js state/ CHANGELOG.md
           if [ -f sightings/user_ids.json ]; then git add sightings/user_ids.json; fi
           git diff --cached --quiet && exit 0
           git commit -m "Actualiza radar y alertas"

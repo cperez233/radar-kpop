@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T06:03:28Z",
+  "updated_at": "2026-10-16T08:25:01Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
@@ -90,6 +90,16 @@
         "title": "GO!",
         "streams": 256100734,
         "url": "https://open.spotify.com/track/6OWWZtNQORY1McaZmOrwhc"
+      }
+    },
+    "ateez": {
+      "listeners": 7323607,
+      "listeners_peak": 7413955,
+      "streams": 4232289175,
+      "top_song": {
+        "title": "BOUNCY - K-HOT CHILLI PEPPERS",
+        "streams": 199142305,
+        "url": "https://open.spotify.com/track/5VGdz8LeTx2M8LHe9iUSQU"
       }
     }
   }

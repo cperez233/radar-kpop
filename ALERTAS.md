@@ -22,6 +22,8 @@ El workflow corre cada 15 minutos, revisa la agenda y manda las alertas. Sin can
 | Comeback / Gira | Noticias en Soompi, Koreaboo y Google Noticias. Si varios medios cuentan la misma historia en 48 h, sale una sola alerta | no |
 | Video | Video nuevo en el canal oficial de YouTube (con `YT_API_KEY`; no va a ntfy) | no |
 | Cumpleaños | El día del cumpleaños de cada miembro (hora de Corea), con los años que cumple (`assets/people.json`) | no |
+| Servicio militar y regresos | El día que un miembro se enlista o vuelve (por fecha, `assets/people.json`), y cuando un aviso oficial o una noticia habla de un regreso, una baja del servicio o una salida (`rosterwatch.json`). La noticia sin aviso oficial dice "sin confirmar" | no |
+| Hoy sale | El día de un estreno (hora de Corea), desde Apple Music o desde el anuncio oficial (`releases.json`) | no |
 | Tu semana K-pop | Los lunes desde las 8 a. m. (hora de Colombia): shows, estrenos y cumpleaños de los próximos 7 días | no |
 | Robot | Una fuente del robot empieza a fallar o vuelve a funcionar (el vigilante, `tools/health.py --notify`) | no |
 
@@ -123,6 +125,26 @@ Muchos anuncios son solo un póster (imagen): esos no se pueden leer y siguen ll
 `updater/social_feeds.py` escribe `socialfeed.json` con los últimos TikToks de cada grupo y de los miembros que tienen
 cuenta, y los posts oficiales en X (una vez por hora). Las cuentas están en `assets/people.json`, junto con los cumpleaños.
 Instagram funciona solo si tu RSSHub tiene Instagram configurado (ver CLAVES.md).
+
+## 6c. Integrantes: servicio militar, regresos y salidas
+
+`assets/people.json` guarda el estado de cada miembro (`status`: `military` con `since`/`until`, `pending` o `back`) y los
+exintegrantes (`former`). La web lo calcula todo con la fecha de hoy: el que se enlista pasa a gris ese día y vuelve a
+color el día de su regreso, sin tocar nada. `updater/roster_watch.py` lee los posts oficiales en cada corrida y Google
+Noticias cada 3 horas, y escribe `rosterwatch.json`:
+
+- un aviso OFICIAL (de la cuenta del grupo) cambia el estado solo: regreso del servicio, regreso al grupo o enlistamiento con fecha;
+- una noticia sin aviso oficial no cambia nada: solo agrega el enlace "Hay noticias sobre esto" y una alerta "sin confirmar".
+
+Para evitar falsos positivos, el nombre del miembro tiene que ir justo antes de la palabra clave ("세븐틴 호시, 오늘 전역",
+"Heeseung leaves the group"), se descartan preguntas, rumores y frases como "antes de su regreso", y salir al aeropuerto
+("departs for") no cuenta como salida del grupo.
+
+## 6d. Próximos estrenos
+
+`updater/releases.py` busca en los posts oficiales de X y TikTok anuncios con fecha ("EP [S.W.I.S.H.] 11/10 6PM KST",
+"GOLDEN HOUR : Part.6 ... 2026. 11. 13 2PM RELEASE") y escribe `releases.json`. Si varios posts hablan del mismo estreno,
+gana el título que más se repite. Votaciones, conciertos y emisiones se descartan. El día después del estreno se borra solo.
 
 ## 9. Estrenos y videos
 

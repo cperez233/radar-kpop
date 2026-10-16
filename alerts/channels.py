@@ -14,7 +14,7 @@ import urllib.request
 
 GROUP_COLORS = {"bts": 0x6A3AE0, "skz": 0xD2383D, "twice": 0xCF6E14, "blackpink": 0xF2559A, "lngshot": 0x0B8AA8,
                 "seventeen": 0x6C7BE8, "enhypen": 0x22A36A, "newjeans": 0xF2B705,
-                "cortis": 0x5E8C12}
+                "cortis": 0x5E8C12, "ateez": 0xB07A12}
 DISCORD_API = "https://discord.com/api/v10"
 GRAPH_API = "https://graph.facebook.com/v21.0"
 UA = "DiscordBot (https://github.com/radar-kpop, 1.0)"
@@ -60,7 +60,8 @@ def send_discord_webhook(url: str | None, alert: dict, dry: bool) -> bool:
 
 NTFY_TAGS = {"new_date": "date", "changed": "warning", "removed": "x", "live": "red_circle", "stop_today": "star",
              "next_stop": "airplane", "arrival_official": "airplane", "arrival": "airplane", "latam": "tada",
-             "comeback": "cd", "tour": "ticket", "official": "loudspeaker", "video": "tv"}
+             "comeback": "cd", "tour": "ticket", "official": "loudspeaker", "video": "tv", "roster": "newspaper",
+             "birthday": "birthday", "weekly": "calendar"}
 
 
 def send_ntfy(topic: str | None, alert: dict, dry: bool, server: str = "https://ntfy.sh") -> bool:

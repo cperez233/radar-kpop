@@ -91,9 +91,16 @@ Con RSSHub funcionando, la API oficial de X solo se usa si RSSHub no responde pa
 ## Instagram de los miembros (opcional)
 
 La página de cada miembro ya enlaza su Instagram. Para que además muestre sus últimos posts, tu RSSHub tiene que poder
-leer Instagram, que pide iniciar sesión con una cuenta. Hoy responde 503 (no configurado). Si lo quieres: en Vercel, en tu
-proyecto de RSSHub, agrega las variables que pide la ruta de Instagram en docs.rsshub.app (usa una cuenta secundaria de
-Instagram, igual que con X) y haz **Redeploy**. El robot lo detecta solo; no hay que tocar el código.
+leer Instagram. Hoy responde 503 y pide la variable `INSTAGRAM_COOKIE`. Es gratis, y el procedimiento es igual que con X:
+
+1. En el computador, entra a instagram.com con una **cuenta secundaria** (no la tuya: Instagram puede bloquear cuentas que leen mucho).
+2. Abre las herramientas del navegador (F12) → **Application** (Chrome) o **Almacenamiento** (Firefox) → **Cookies** → `https://www.instagram.com`.
+3. Copia los valores de `sessionid`, `ds_user_id` y `csrftoken`, y arma un texto así: `sessionid=XXX; ds_user_id=YYY; csrftoken=ZZZ`.
+4. En Vercel, abre tu proyecto de RSSHub → **Settings → Environment Variables** → nombre `INSTAGRAM_COOKIE`, valor el texto del paso 3.
+5. **Deployments → Redeploy**. Prueba abriendo `TU_RSSHUB/instagram/user/newjeans_official`: debe salir una lista de posts.
+
+El robot lo detecta solo en la siguiente hora; no hay que tocar el código ni GitHub. La cookie dura meses; si un día deja
+de funcionar, el vigilante del robot no se cae (Instagram es opcional) y basta repetir los pasos 1 a 5.
 
 ## Más adelante
 

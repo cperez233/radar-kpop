@@ -45,10 +45,10 @@
     blackpink: { ko: '블랙핑크', fan: 'BLINK', cheer: '보고 싶어', hint: { es: 'te extrañamos', en: 'we miss you' } },
     lngshot: { ko: '롱샷', fan: 'SHOTTIES', cheer: '화이팅!', hint: { es: '¡ánimo!', en: 'fighting!' } },
     seventeen: { ko: '세븐틴', fan: 'CARAT', cheer: '세븐틴 화이팅!', hint: { es: '¡ánimo, SEVENTEEN!', en: 'go SEVENTEEN!' } },
-    enhypen: { ko: '엔하이픈', fan: 'ENGENE', cheer: '엔하이픈 화이팅!', hint: { es: '¡ánimo, ENHYPEN!', en: 'go ENHYPEN!' },
-      former: { name: 'Heeseung', ko: '희승', es: 'fue el séptimo miembro de ENHYPEN; desde marzo de 2026 el grupo sigue con seis y él continúa como solista.', en: 'was ENHYPEN\'s seventh member; since March 2026 the group continues as six and he goes on as a soloist.' } },
+    enhypen: { ko: '엔하이픈', fan: 'ENGENE', cheer: '엔하이픈 화이팅!', hint: { es: '¡ánimo, ENHYPEN!', en: 'go ENHYPEN!' } },
     newjeans: { ko: '뉴진스', fan: 'Bunnies', cheer: '뉴진스 사랑해!', hint: { es: '¡te queremos, NewJeans!', en: 'we love you, NewJeans!' } },
-    cortis: { ko: '코르티스', fan: 'COER', cheer: '코르티스 화이팅!', hint: { es: '¡ánimo, CORTIS!', en: 'go CORTIS!' } }
+    cortis: { ko: '코르티스', fan: 'COER', cheer: '코르티스 화이팅!', hint: { es: '¡ánimo, CORTIS!', en: 'go CORTIS!' } },
+    ateez: { ko: '에이티즈', fan: 'ATINY', cheer: '에이티즈 화이팅!', hint: { es: '¡ánimo, ATEEZ!', en: 'go ATEEZ!' } }
   };
   /* perfil: debut, agencia y dónde escucharlos (ids verificados: Spotify oEmbed, iTunes lookup, canal oficial de YouTube; Weverse solo si el grupo tiene comunidad) */
   var PROFILE = {
@@ -60,7 +60,8 @@
     seventeen: { debut: '2015-05-26', agency: 'PLEDIS Entertainment', spotify: '7nqOGRxlXj7N2JYbgNEjYH', apple: 999644772, youtube: 'UCfkXDY7vwkcJ8ddFGz8KusA', weverse: 'seventeen' },
     enhypen: { debut: '2020-11-30', agency: 'BELIFT LAB', spotify: '5t5FqBwTcgKTaWmfEbwQY9', apple: 1541011620, youtube: 'UCArLZtok93cO5R9RI4_Y5Jw', weverse: 'enhypen' },
     newjeans: { debut: '2022-07-22', agency: 'ADOR', spotify: '6HvZYsbFfjnjFrWF950C9d', apple: 1635469693, youtube: 'UCMki_UkHb4qSc0qyEcOHHJw', weverse: 'newjeans' },
-    cortis: { debut: '2025-08-18', agency: 'BIGHIT MUSIC', spotify: '1ebt9HnXdyYA6KgLXr1n4P', apple: 1831651635, youtube: 'UCZMYvSPulDSUdx7bdtTFdrg', weverse: 'cortis' }
+    cortis: { debut: '2025-08-18', agency: 'BIGHIT MUSIC', spotify: '1ebt9HnXdyYA6KgLXr1n4P', apple: 1831651635, youtube: 'UCZMYvSPulDSUdx7bdtTFdrg', weverse: 'cortis' },
+    ateez: { debut: '2018-10-24', agency: 'KQ Entertainment', spotify: '68KmkJeZGfwe1OUaivBa2L', apple: 1439301205, youtube: 'UC2e4Ukj5Pfr7cb3KpJAFBdQ' }
   };
   /* mini trivia: [pregunta es, pregunta en, opciones ('es|en' si cambian), índice correcto]. Datos verificados (Wikipedia, Soompi). */
   var TRIVIA = {
@@ -72,7 +73,8 @@
     seventeen: [['¿En qué año debutó SEVENTEEN?', 'What year did SEVENTEEN debut?', ['2013', '2015', '2017'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['CARAT', 'BLINK', 'ARMY'], 0], ['¿Quién es el líder?', 'Who is the leader?', ['S.Coups', 'Jeonghan', 'Mingyu'], 0], ['¿Cuáles son sus tres unidades?', 'What are their three units?', ['Hip-hop, Vocal y Performance|Hip-hop, Vocal & Performance', 'Rap, Dance y Ballad|Rap, Dance & Ballad', 'Sun, Moon y Star|Sun, Moon & Star'], 0], ['¿Qué miembro es el "tigre" del grupo (Horanghae)?', 'Which member is the group\'s "tiger" (Horanghae)?', ['Hoshi', 'Dino', 'Jun'], 0], ['¿Quiénes forman BSS (BooSeokSoon)?', 'Who is in BSS (BooSeokSoon)?', ['Seungkwan, DK y Hoshi|Seungkwan, DK & Hoshi', 'Woozi, Vernon y Dino|Woozi, Vernon & Dino', 'Jun, The8 y Mingyu|Jun, The8 & Mingyu'], 0]],
     enhypen: [['¿En qué año debutó ENHYPEN?', 'What year did ENHYPEN debut?', ['2019', '2020', '2022'], 1], ['¿En qué programa se formó?', 'Which survival show formed them?', ['I-LAND', 'SIXTEEN', 'Boys Planet'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['ENGENE', 'MOA', 'CARAT'], 0], ['¿Quién es el líder?', 'Who is the leader?', ['Jungwon', 'Jay', 'Sunghoon'], 0], ['¿De qué país es Ni-ki?', 'Which country is Ni-ki from?', ['Japón|Japan', 'Estados Unidos|United States', 'Australia'], 0], ['¿Cuál fue su canción de debut?', 'What was their debut song?', ['Given-Taken', 'Drunk-Dazed', 'Polaroid Love'], 0]],
     newjeans: [['¿En qué año debutó NewJeans?', 'What year did NewJeans debut?', ['2020', '2022', '2024'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['Bunnies', 'ONCE', 'STAY'], 0], ['¿Cuál fue su canción de debut?', 'What was their debut song?', ['Attention', 'Ditto', 'OMG'], 0], ['¿Quién es la menor del grupo?', 'Who is the youngest member?', ['Hyein', 'Minji', 'Haerin'], 0], ['¿Qué miembro es vietnamita-australiana?', 'Which member is Vietnamese-Australian?', ['Hanni', 'Minji', 'Haerin'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['ADOR', 'Pledis', 'JYP'], 0]],
-    cortis: [['¿En qué año debutó CORTIS?', 'What year did CORTIS debut?', ['2023', '2025', '2026'], 1], ['¿Qué significa CORTIS?', 'What does CORTIS stand for?', ['Color Outside the Lines', 'Crew Of Real Talents', 'Cool On The Inside'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['COER', 'MOA', 'ENGENE'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['BIGHIT MUSIC', 'BELIFT LAB', 'KOZ'], 0], ['¿Qué miembro jugaba hockey?', 'Which member used to play hockey?', ['James', 'Martin', 'Keonho'], 0], ['¿Qué perro es el emoji de Martin?', 'Which dog is Martin\'s emoji?', ['Galgo italiano|Italian Greyhound', 'Chihuahua', 'Corgi'], 0]]
+    cortis: [['¿En qué año debutó CORTIS?', 'What year did CORTIS debut?', ['2023', '2025', '2026'], 1], ['¿Qué significa CORTIS?', 'What does CORTIS stand for?', ['Color Outside the Lines', 'Crew Of Real Talents', 'Cool On The Inside'], 0], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['COER', 'MOA', 'ENGENE'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['BIGHIT MUSIC', 'BELIFT LAB', 'KOZ'], 0], ['¿Qué miembro jugaba hockey?', 'Which member used to play hockey?', ['James', 'Martin', 'Keonho'], 0], ['¿Qué perro es el emoji de Martin?', 'Which dog is Martin\'s emoji?', ['Galgo italiano|Italian Greyhound', 'Chihuahua', 'Corgi'], 0]],
+    ateez: [['¿En qué año debutó ATEEZ?', 'What year did ATEEZ debut?', ['2016', '2018', '2020'], 1], ['¿Cómo se llama su fandom?', 'What is their fandom called?', ['ATINY', 'STAY', 'MOA'], 0], ['¿Quién es el líder?', 'Who is the leader?', ['Hongjoong', 'Seonghwa', 'San'], 0], ['¿Cuál es su agencia?', 'Which agency are they with?', ['KQ Entertainment', 'JYP Entertainment', 'Cube Entertainment'], 0], ['¿Con qué canción debutaron?', 'What was their debut song?', ['Pirate King', 'Wonderland', 'BOUNCY'], 0], ['¿Quién es el menor del grupo?', 'Who is the youngest member?', ['Jongho', 'Wooyoung', 'Yeosang'], 0]]
   };
   var FALLBACK_COLORS = ['#8E7CC3', '#E0679B', '#3A9BD9', '#53B87A', '#E79A2E'];
   var colorCache = {};
@@ -138,7 +140,7 @@
       privacy1: 'El radar no tiene cuentas, ni cookies de rastreo, ni analítica. En tu navegador (localStorage) se guardan tu ciudad, tu idioma, si silenciaste los sonidos, tu grupo favorito, qué alertas ya viste y, si llenas el formulario, tu nombre, tu ID de Discord o tu WhatsApp, tus grupos y tus tipos de alerta.',
       privacy2: 'Al entrar, el radar le pide tu ubicación al navegador. Si aceptas, la posición se redondea (unos 1 km) y se guarda solo en tu equipo para medir distancias; si no, usamos Bucaramanga o la ciudad que elijas. Tu ubicación nunca sale de tu equipo, salvo la ciudad y el radio del formulario cuando el radar tenga un servidor de alertas configurado.',
       privacy3: 'Las fuentes se cargan desde Google Fonts. Las portadas de los estrenos vienen de Apple Music y YouTube, y el mapa de ciudad (solo si lo abres) de OpenFreeMap. Cada uno de esos servicios ve tu dirección IP, como en cualquier sitio que los use. Para borrar todo, usa "Borrar mis datos" o limpia los datos del sitio en tu navegador.',
-      subSubmit: 'Guardar mis alertas', subDelete: 'Borrar mis datos', bye: 'Nos vemos en la próxima parada',
+      subSubmit: 'Guardar mis alertas', subDelete: 'Borrar mis datos', bye: 'Nos vemos en la próxima parada', footLead: 'El robot revisa giras, estrenos, avisos y redes cada 15 minutos. Tú solo vuelve cuando quieras.', howTitle: 'Cómo funciona',
       disclaimer1: 'Esto muestra la agenda oficial y pública de cada grupo. No rastrea a nadie en tiempo real: el chibi está en la próxima fecha confirmada, no donde están en este momento.',
       disclaimer2: 'Las horas son aproximadas (20:00 hora local cuando la fuente no la trae) y las coordenadas de los recintos también. Las fechas marcadas como anunciadas vienen de un solo anuncio y pueden cambiar.',
       sources: 'Fuentes', credit: 'Hecho con amor de fan por', dockWorld: 'Mundo', dockGroups: 'Grupos', dockFeed: 'Avisos', dockAlerts: 'Alertas', dockVideo: 'Video',
@@ -156,25 +158,29 @@
       subFail: 'No pudimos enviar los datos. Quedaron guardados aquí, inténtalo más tarde.', copy: 'Copiar', copied: 'Copiado', deleted: 'Datos borrados',
       pvDiscord: '**{g}** sube al escenario en {city}', pvWa: 'Radar K-pop: {g} toca en {city} cerca de ti, a {km} km.', pvNow: 'ahora',
       typesNear: 'Cerca de ti', typesLive: 'En vivo y hoy', typesDates: 'Fechas nuevas o cambios', typesNext: 'Siguiente parada', typesArrival: 'Llegadas',
-      typesLatam: 'Latinoamérica', typesNews: 'Comebacks y giras', typesVideo: 'Videos',
+      typesLatam: 'Latinoamérica', typesNews: 'Comebacks y giras', typesMembers: 'Cumpleaños, servicio militar y regresos', typesVideo: 'Videos',
       vTitle: '¿Dónde están hoy?', vRest: 'en pausa, esperando fechas', vOutro: '¿Y tú, cuándo los ves?', dday: 'D-DAY', unmute: 'Sonidos activados', mute: 'Sonidos en silencio',
       installed: 'Radar instalado', tapToStart: 'Toca para empezar',
       zoomIn: 'Acercar', zoomOut: 'Alejar', centerMe: 'Centrar en mí', geoLooking: 'Buscando tu ubicación...', geoDenied: 'No pudimos leer tu ubicación. Usamos Bucaramanga, puedes cambiarla en "Tu ciudad".',
       geoOk: 'Usando tu ubicación, cerca de {city}', geoNear: 'cerca de {city}', geoNote: 'Sin permiso de ubicación: estamos midiendo desde Bucaramanga.', retry: 'Reintentar', youRef: 'ti',
-      sightTitle: 'Avistamientos cercanos', sightLead: 'Publicaciones oficiales de los grupos que mencionan una ciudad, ordenadas por distancia a ti. Solo la ciudad, nunca hoteles, aeropuertos ni lugares exactos.',
+      sightTitle: 'Avistamientos cercanos', sightRecent: 'Más recientes', sightNear: 'Más cerca de mí', sightLead: 'Publicaciones oficiales de los grupos que mencionan una ciudad: primero lo más reciente (o lo más cerca, si prefieres). Solo la ciudad, nunca hoteles, aeropuertos ni lugares exactos.',
       sightSample: 'Datos de ejemplo: todavía no hay conexión con las cuentas oficiales.', sightAway: 'a {km} km de ti', sightNew: '¡{n} avistamientos nuevos!', sightNew1: '¡Un avistamiento nuevo!', sightSee: 'Ver post oficial',
       sightEmpty: 'Todavía no hay avistamientos. Aparecen cuando una cuenta oficial menciona una ciudad.', tickerK: 'AVISTAMIENTOS CERCANOS', sightSource: 'Fuente: cuentas oficiales en X',
       squad: 'Toca a cada miembro', notOnTour: 'no va en esta gira', photoAlt: 'Foto oficial de {g}', withUnit: 'con {names}',
-      gpOpen: 'Ver todo', gpHome: 'Inicio', gpMembers: 'Miembros', gpTour: 'Gira', gpMusic: 'Música', gpSocial: 'Redes', gpSeeTour: 'Ver la gira', gpTapMember: 'Toca a un miembro para ver su perfil, su cumpleaños y sus redes.', gpAllMembers: 'Todos los miembros', gpNoPersonal: 'No tiene cuentas personales públicas; sigue al grupo en Redes.', gpLatestPosts: 'Lo último que publicaron', gpPlayHere: 'Ver aquí', gpOpenPost: 'Abrir el post', gpSource: 'fuente', gpUpcoming: 'Próximas fechas ({n} ciudades)', gpPast: 'Últimas paradas ({n})', gpNoDates: 'Sin fechas anunciadas por ahora.', gpNoPosts: 'Todavía no hay posts guardados; el robot los trae solo.', gpMemberAccounts: 'Cuentas de los miembros', bdayToday: 'Hoy cumple {name}', bdayIsToday: '¡cumple hoy!', bdayIn: 'cumple en {n} días', bdayTurnsToday: '¡hoy cumple {n}!', bdayAgeIn: '{age} años · cumple en {n} días', listen: 'Escúchalos en', nextRelease: 'Próximo estreno', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
+      gpOpen: 'Ver todo', cardMore: 'Foto, música, datos y trivia', swipeHint: 'Desliza para ver los demás grupos', feedMore: 'Ver {n} más', groupsPick: 'Grupos', cardLess: 'Mostrar menos', gpHome: 'Inicio', gpMembers: 'Miembros', gpTour: 'Gira', gpMusic: 'Música', gpSocial: 'Redes', gpSeeTour: 'Ver la gira', gpTapMember: 'Toca a un miembro para ver su perfil, su cumpleaños y sus redes.', gpAllMembers: 'Todos los miembros', gpNoPersonal: 'No tiene cuentas personales públicas; sigue al grupo en Redes.', gpLatestPosts: 'Lo último que publicaron', gpPlayHere: 'Ver aquí', gpOpenPost: 'Abrir el post', gpSource: 'fuente', gpUpcoming: 'Próximas fechas ({n} ciudades)', gpPast: 'Últimas paradas ({n})', gpNoDates: 'Sin fechas anunciadas por ahora.', gpNoPosts: 'Todavía no hay posts guardados; el robot los trae solo.', gpMemberAccounts: 'Cuentas de los miembros', bdayToday: 'Hoy cumple {name}', bdayIsToday: '¡cumple hoy!', bdayIn: 'cumple en {n} días', bdayTurnsToday: '¡hoy cumple {n}!', bdayAgeIn: '{age} años · cumple en {n} días', regCo: 'Colombia', regLatam: 'Latinoamérica y el Caribe', regNa: 'Estados Unidos y Canadá', regEu: 'Europa', regAsia: 'Asia, Oceanía y Medio Oriente', listen: 'Escúchalos en', nextRelease: 'Próximo estreno', relToday: '¡Sale hoy!', relNew: 'Nuevo', relAnn: 'anuncio oficial', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
       stMembers: 'miembros', stDebutK: 'debut', stListeners: 'oyentes mensuales en Spotify', stPeak: 'récord de oyentes mensuales', stStreams: 'reproducciones en Spotify',
       stTopSong: 'su canción más escuchada · {n} reproducciones', stTopSongK: 'su canción más escuchada', stSubs: 'suscriptores en YouTube', stAgency: 'Agencia',
       stSource: 'Números de Spotify vía kworb.net, se actualizan solos una vez al día.',
       triviaTitle: 'Mini trivia', triviaOk: '¡Correcto!', triviaNo: 'Casi... era {a}', triviaScore: '{n} de {t} correctas',
       onsaleToday: '¡HOY VENDEN BOLETAS!', onsaleIn: 'Venta de boletas {d} · {when}', pushTab: 'Celular',
+      msMil: 'en servicio militar', msSoon: 'se enlista el {d}', msBack: '¡volvió!', msBackOn: 'volvió el {d}', msPending: 'regreso sin anunciar', msUntil: 'vuelve el {d}', msUntilEst: 'vuelve hacia {d} (estimado)',
+      msLeft: 'faltan {n} días', msSince: 'se enlistó el {d}', msTitle: 'En servicio militar ({n})', msNote: 'Las fechas de regreso marcadas como estimadas salen de la duración del servicio (18 meses activo, 21 alternativo); cambian solas cuando hay aviso oficial.',
+      fmTitle: 'Exintegrantes', fmLeft: 'salió del grupo', fmSolo: 'ahora es solista', fmContract: 'contrato terminado', fmBack: '¡volvió al grupo!', fmSince: 'desde {d}',
+      rwNews: 'Hay noticias sobre esto', rwOfficial: 'Aviso oficial', rwSee: 'Ver la noticia',
       pushLead: 'Notificaciones en este celular o computador, aunque la web esté cerrada.', pushNeedCfg: 'Todavía falta el servidor de notificaciones (subscribeEndpoint y vapidPublicKey en config.js). Tus preferencias quedan guardadas aquí.',
       pushUnsupported: 'Este navegador no soporta notificaciones. En iPhone primero instala el radar en tu pantalla de inicio.', pushDenied: 'Las notificaciones están bloqueadas. Actívalas en los ajustes del navegador.', pushOn: '¡Listo! Te llegarán notificaciones.',
       homeAria: 'Radar K-pop, inicio', langAria: 'Idioma', navAria: 'Secciones', navCity: 'Tú', navSight: 'Avistamientos', navMedia: 'Estrenos', viewAria: 'Vista',
-      globeAria: 'Globo con la próxima parada de cada grupo', autoSpin: 'Girar solo', channelAria: 'Canal', filterAria: 'Filtrar',
+      globeAria: 'Globo con la próxima parada de cada grupo', autoSpin: 'Girar solo', channelAria: 'Canal', sortAria: 'Orden', filterAria: 'Filtrar',
       mediaTitle: 'Estrenos y videos', mediaLead: 'Lo último en música y los videos oficiales de cada grupo.', mediaAll: 'Todo', mediaMusic: 'Música', mediaVideo: 'Videos',
       mediaSrc: 'Fuentes: catálogo de Apple Music (iTunes Search API) y canales oficiales de YouTube. Se actualiza solo.', mediaEmpty: 'Todavía no hay estrenos guardados.',
       mediaListen: 'Escuchar', mediaWatch: 'Ver video', mediaSample: 'Datos de ejemplo', released: 'salió {when}',
@@ -193,7 +199,7 @@
       changesTitle: 'Novedades', you2: 'Tú',
       fConsent: 'Autorizo al radar a usar estos datos solo para mandarme las alertas que elegí. Si soy menor de edad, tengo permiso de mi mamá, papá o acudiente.', eConsent: 'Necesitamos tu autorización para guardar tus alertas.',
       privacy4: 'Responsable: Cristian Pérez (cristianperez.me). Puedes conocer, actualizar o borrar tus datos y retirar tu autorización cuando quieras: "Borrar mis datos" los borra de este navegador y del servidor, o escribe a crisperezm879@gmail.com. Si el radar tiene servidor, tus datos se guardan en Cloudflare solo para mandarte alertas, sin tu IP ni tu ubicación exacta; las notificaciones push pasan por el servicio de tu navegador (Google, Apple o Mozilla). Si eres menor de edad, pide permiso a un adulto antes de dejar tu WhatsApp.',
-      T: { new_date: 'Fecha nueva', changed: 'Cambio', removed: 'Quitada', stop_today: 'Hoy', live: 'En vivo', next_stop: 'Siguiente parada', arrival_official: 'Llegada oficial', arrival: 'Llegada', latam: 'Latam', comeback: 'Comeback', tour: 'Gira', official: 'Oficial', video: 'Video', prox: 'Cerca de ti', prox_new: 'Cerca de ti' },
+      T: { new_date: 'Fecha nueva', changed: 'Cambio', removed: 'Quitada', stop_today: 'Hoy', live: 'En vivo', next_stop: 'Siguiente parada', arrival_official: 'Llegada oficial', arrival: 'Llegada', latam: 'Latam', comeback: 'Comeback', tour: 'Gira', official: 'Oficial', video: 'Video', prox: 'Cerca de ti', prox_new: 'Cerca de ti', roster: 'Miembros', birthday: 'Cumpleaños', weekly: 'Tu semana' },
       months: ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'], wdays: ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
       cardinal: ['N', 'E', 'S', 'O'], locale: 'es-CO'
     },
@@ -211,7 +217,7 @@
       privacy1: 'The radar has no accounts, no tracking cookies and no analytics. Your browser (localStorage) keeps your city, your language, whether you muted sounds, your favorite group, which alerts you already saw and, if you fill the form, your name, your Discord ID or WhatsApp, your groups and alert types.',
       privacy2: 'When you open it, the radar asks your browser for your location. If you allow it, the position is rounded (about 1 km) and stored only on your device to measure distances; if not, we use Bucaramanga or the city you choose. Your location never leaves your device, except the city and radius from the form once the radar has an alert server configured.',
       privacy3: 'Fonts load from Google Fonts. Release covers come from Apple Music and YouTube, and the city map (only if you open it) from OpenFreeMap. Each of those services sees your IP address, like on any site that uses them. To erase everything, use "Delete my data" or clear this site\'s data in your browser.',
-      subSubmit: 'Save my alerts', subDelete: 'Delete my data', bye: 'See you at the next stop',
+      subSubmit: 'Save my alerts', subDelete: 'Delete my data', bye: 'See you at the next stop', footLead: 'The robot checks tours, releases, notices and socials every 15 minutes. Just come back whenever you like.', howTitle: 'How it works',
       disclaimer1: 'This shows each group\'s official, public schedule. It does not track anyone in real time: the chibi stands on the next confirmed date, not where they are right now.',
       disclaimer2: 'Times are approximate (8 pm local time when the source has none) and so are venue coordinates. Dates marked as announced come from a single announcement and may change.',
       sources: 'Sources', credit: 'Made with fan love by', dockWorld: 'World', dockGroups: 'Groups', dockFeed: 'News', dockAlerts: 'Alerts', dockVideo: 'Video',
@@ -229,25 +235,29 @@
       subFail: 'We could not send it. It is saved here, try again later.', copy: 'Copy', copied: 'Copied', deleted: 'Data deleted',
       pvDiscord: '**{g}** goes on stage in {city}', pvWa: 'Radar K-pop: {g} plays {city} near you, {km} km away.', pvNow: 'now',
       typesNear: 'Near you', typesLive: 'Live and today', typesDates: 'New or changed dates', typesNext: 'Next stop', typesArrival: 'Arrivals',
-      typesLatam: 'Latin America', typesNews: 'Comebacks and tours', typesVideo: 'Videos',
+      typesLatam: 'Latin America', typesNews: 'Comebacks and tours', typesMembers: 'Birthdays, military service and returns', typesVideo: 'Videos',
       vTitle: 'Where are they today?', vRest: 'on a break, waiting for dates', vOutro: 'When are you seeing them?', dday: 'D-DAY', unmute: 'Sounds on', mute: 'Sounds muted',
       installed: 'Radar installed', tapToStart: 'Tap to start',
       zoomIn: 'Zoom in', zoomOut: 'Zoom out', centerMe: 'Center on me', geoLooking: 'Finding you...', geoDenied: 'We could not read your location. Using Bucaramanga, you can change it in "Your city".',
       geoOk: 'Using your location, near {city}', geoNear: 'near {city}', geoNote: 'No location permission: measuring from Bucaramanga.', retry: 'Try again', youRef: 'you',
-      sightTitle: 'Sightings near you', sightLead: 'Official group posts that mention a city, sorted by distance to you. City level only, never hotels, airports or exact places.',
+      sightTitle: 'Sightings near you', sightRecent: 'Newest', sightNear: 'Nearest to me', sightLead: 'Official group posts that mention a city: newest first (or nearest, if you prefer). City level only, never hotels, airports or exact places.',
       sightSample: 'Sample data: not connected to the official accounts yet.', sightAway: '{km} km from you', sightNew: '{n} new sightings!', sightNew1: 'A new sighting!', sightSee: 'See official post',
       sightEmpty: 'No sightings yet. They show up when an official account mentions a city.', tickerK: 'SIGHTINGS NEAR YOU', sightSource: 'Source: official accounts on X',
       squad: 'Tap each member', notOnTour: 'not on this tour', photoAlt: 'Official photo of {g}', withUnit: 'with {names}',
-      gpOpen: 'See all', gpHome: 'Home', gpMembers: 'Members', gpTour: 'Tour', gpMusic: 'Music', gpSocial: 'Social', gpSeeTour: 'See the tour', gpTapMember: 'Tap a member to see their profile, birthday and accounts.', gpAllMembers: 'All members', gpNoPersonal: 'No public personal accounts; follow the group under Social.', gpLatestPosts: 'Latest posts', gpPlayHere: 'Watch here', gpOpenPost: 'Open the post', gpSource: 'source', gpUpcoming: 'Upcoming dates ({n} cities)', gpPast: 'Last stops ({n})', gpNoDates: 'No dates announced for now.', gpNoPosts: 'No posts saved yet; the robot brings them on its own.', gpMemberAccounts: 'Members\' accounts', bdayToday: "It's {name}'s birthday", bdayIsToday: 'birthday today!', bdayIn: 'birthday in {n} days', bdayTurnsToday: 'turns {n} today!', bdayAgeIn: '{age} years old · birthday in {n} days', listen: 'Listen on', nextRelease: 'Next release', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
+      gpOpen: 'See all', cardMore: 'Photo, music, facts and trivia', swipeHint: 'Swipe to see the other groups', feedMore: 'See {n} more', groupsPick: 'Groups', cardLess: 'Show less', gpHome: 'Home', gpMembers: 'Members', gpTour: 'Tour', gpMusic: 'Music', gpSocial: 'Social', gpSeeTour: 'See the tour', gpTapMember: 'Tap a member to see their profile, birthday and accounts.', gpAllMembers: 'All members', gpNoPersonal: 'No public personal accounts; follow the group under Social.', gpLatestPosts: 'Latest posts', gpPlayHere: 'Watch here', gpOpenPost: 'Open the post', gpSource: 'source', gpUpcoming: 'Upcoming dates ({n} cities)', gpPast: 'Last stops ({n})', gpNoDates: 'No dates announced for now.', gpNoPosts: 'No posts saved yet; the robot brings them on its own.', gpMemberAccounts: 'Members\' accounts', bdayToday: "It's {name}'s birthday", bdayIsToday: 'birthday today!', bdayIn: 'birthday in {n} days', bdayTurnsToday: 'turns {n} today!', bdayAgeIn: '{age} years old · birthday in {n} days', regCo: 'Colombia', regLatam: 'Latin America and the Caribbean', regNa: 'United States and Canada', regEu: 'Europe', regAsia: 'Asia, Oceania and Middle East', listen: 'Listen on', nextRelease: 'Next release', relToday: 'Out today!', relNew: 'New', relAnn: 'official announcement', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
       stMembers: 'members', stDebutK: 'debut', stListeners: 'Spotify monthly listeners', stPeak: 'monthly listeners record', stStreams: 'Spotify streams',
       stTopSong: 'their most streamed song · {n} streams', stTopSongK: 'their most streamed song', stSubs: 'YouTube subscribers', stAgency: 'Agency',
       stSource: 'Spotify numbers via kworb.net, updated automatically once a day.',
       triviaTitle: 'Mini trivia', triviaOk: 'Correct!', triviaNo: 'So close... it was {a}', triviaScore: '{n} of {t} right',
       onsaleToday: 'TICKETS ON SALE TODAY!', onsaleIn: 'Tickets on sale {d} · {when}', pushTab: 'Phone',
+      msMil: 'in military service', msSoon: 'enlists on {d}', msBack: 'back!', msBackOn: 'back since {d}', msPending: 'return not announced', msUntil: 'back on {d}', msUntilEst: 'back around {d} (estimate)',
+      msLeft: '{n} days to go', msSince: 'enlisted on {d}', msTitle: 'In military service ({n})', msNote: 'Return dates marked as estimates come from the length of service (18 months active, 21 alternative); they update on their own when there is an official notice.',
+      fmTitle: 'Former members', fmLeft: 'left the group', fmSolo: 'now a soloist', fmContract: 'contract ended', fmBack: 'back in the group!', fmSince: 'since {d}',
+      rwNews: 'There is news about this', rwOfficial: 'Official notice', rwSee: 'See the news',
       pushLead: 'Notifications on this phone or computer, even when the site is closed.', pushNeedCfg: 'The notification server is not set up yet (subscribeEndpoint and vapidPublicKey in config.js). Your preferences are saved here.',
       pushUnsupported: 'This browser does not support notifications. On iPhone, install the radar on your home screen first.', pushDenied: 'Notifications are blocked. Turn them on in your browser settings.', pushOn: 'Done! Notifications are on.',
       homeAria: 'Radar K-pop, home', langAria: 'Language', navAria: 'Sections', navCity: 'You', navSight: 'Sightings', navMedia: 'Releases', viewAria: 'View',
-      globeAria: 'Globe with each group\'s next stop', autoSpin: 'Auto-rotate', channelAria: 'Channel', filterAria: 'Filter',
+      globeAria: 'Globe with each group\'s next stop', autoSpin: 'Auto-rotate', channelAria: 'Channel', sortAria: 'Order', filterAria: 'Filter',
       mediaTitle: 'Releases and videos', mediaLead: 'The latest music and official videos of each group.', mediaAll: 'All', mediaMusic: 'Music', mediaVideo: 'Videos',
       mediaSrc: 'Sources: Apple Music catalog (iTunes Search API) and official YouTube channels. Updates on its own.', mediaEmpty: 'No releases saved yet.',
       mediaListen: 'Listen', mediaWatch: 'Watch video', mediaSample: 'Sample data', released: 'out {when}',
@@ -266,7 +276,7 @@
       changesTitle: 'What\'s new', you2: 'You',
       fConsent: 'I allow the radar to use this data only to send me the alerts I chose. If I am under 18, I have permission from a parent or guardian.', eConsent: 'We need your permission to save your alerts.',
       privacy4: 'Data controller: Cristian Pérez (cristianperez.me). You can see, update or delete your data and withdraw your consent anytime: "Delete my data" erases it from this browser and from the server, or write to crisperezm879@gmail.com. If the radar has a server, your data is stored on Cloudflare only to send you alerts, without your IP or exact location; push notifications go through your browser\'s service (Google, Apple or Mozilla). If you are under 18, ask an adult before sharing your WhatsApp.',
-      T: { new_date: 'New date', changed: 'Changed', removed: 'Removed', stop_today: 'Today', live: 'Live', next_stop: 'Next stop', arrival_official: 'Official arrival', arrival: 'Arrival', latam: 'Latam', comeback: 'Comeback', tour: 'Tour', official: 'Official', video: 'Video', prox: 'Near you', prox_new: 'Near you' },
+      T: { new_date: 'New date', changed: 'Changed', removed: 'Removed', stop_today: 'Today', live: 'Live', next_stop: 'Next stop', arrival_official: 'Official arrival', arrival: 'Arrival', latam: 'Latam', comeback: 'Comeback', tour: 'Tour', official: 'Official', video: 'Video', prox: 'Near you', prox_new: 'Near you', roster: 'Members', birthday: 'Birthday', weekly: 'Your week' },
       months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], wdays: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
       cardinal: ['N', 'E', 'S', 'W'], locale: 'en-US'
     }
@@ -325,8 +335,71 @@
     ['Buenos Aires', 'Argentina', -34.6037, -58.3816], ['São Paulo', 'Brasil', -23.5505, -46.6333], ['Miami', 'EE. UU.', 25.7617, -80.1918],
     ['Nueva York', 'EE. UU.', 40.7128, -74.006], ['Los Ángeles', 'EE. UU.', 34.0522, -118.2437], ['Madrid', 'España', 40.4168, -3.7038],
     ['Londres', 'Reino Unido', 51.5074, -0.1278], ['París', 'Francia', 48.8566, 2.3522], ['Seúl', 'Corea del Sur', 37.5665, 126.978],
-    ['Tokio', 'Japón', 35.6762, 139.6503], ['Manila', 'Filipinas', 14.5995, 120.9842], ['Sídney', 'Australia', -33.8688, 151.2093]
+    ['Tokio', 'Japón', 35.6762, 139.6503], ['Manila', 'Filipinas', 14.5995, 120.9842], ['Sídney', 'Australia', -33.8688, 151.2093],
+    ['Pereira', 'Colombia', 4.8133, -75.6961], ['Manizales', 'Colombia', 5.0703, -75.5138], ['Cúcuta', 'Colombia', 7.8939, -72.5078],
+    ['Santa Marta', 'Colombia', 11.2408, -74.199], ['Ibagué', 'Colombia', 4.4389, -75.2322], ['Villavicencio', 'Colombia', 4.142, -73.6266],
+    ['Armenia', 'Colombia', 4.5339, -75.6811], ['Pasto', 'Colombia', 1.2136, -77.2811], ['Neiva', 'Colombia', 2.9273, -75.2819],
+    ['Montería', 'Colombia', 8.7479, -75.8814], ['Tunja', 'Colombia', 5.5353, -73.3678], ['Popayán', 'Colombia', 2.4448, -76.6147],
+    ['Valledupar', 'Colombia', 10.4631, -73.2532], ['Sincelejo', 'Colombia', 9.3047, -75.3978], ['Puebla', 'México', 19.0414, -98.2063],
+    ['Tijuana', 'México', 32.5149, -117.0382], ['León', 'México', 21.125, -101.686], ['Querétaro', 'México', 20.5888, -100.3899],
+    ['Mérida', 'México', 20.9674, -89.5926], ['Cancún', 'México', 21.1619, -86.8515], ['Toluca', 'México', 19.2826, -99.6557],
+    ['San Luis Potosí', 'México', 22.1565, -100.9855], ['Aguascalientes', 'México', 21.8853, -102.2916], ['Chihuahua', 'México', 28.632, -106.0691],
+    ['Hermosillo', 'México', 29.0729, -110.9559], ['Culiacán', 'México', 24.8091, -107.394], ['Mexicali', 'México', 32.6245, -115.4523],
+    ['Veracruz', 'México', 19.1738, -96.1342], ['Morelia', 'México', 19.706, -101.195], ['Torreón', 'México', 25.5428, -103.4068],
+    ['Saltillo', 'México', 25.4232, -101.0053], ['Oaxaca', 'México', 17.0732, -96.7266], ['Villahermosa', 'México', 17.9892, -92.9475],
+    ['Tuxtla Gutiérrez', 'México', 16.7516, -93.1029], ['Brasília', 'Brasil', -15.7939, -47.8828], ['Belo Horizonte', 'Brasil', -19.9167, -43.9345],
+    ['Salvador', 'Brasil', -12.9777, -38.5016], ['Fortaleza', 'Brasil', -3.7319, -38.5267], ['Recife', 'Brasil', -8.0476, -34.877],
+    ['Porto Alegre', 'Brasil', -30.0346, -51.2177], ['Curitiba', 'Brasil', -25.4284, -49.2733], ['Manaos', 'Brasil', -3.119, -60.0217],
+    ['Belém', 'Brasil', -1.4558, -48.4902], ['Goiânia', 'Brasil', -16.6869, -49.2648], ['Florianópolis', 'Brasil', -27.5949, -48.5482],
+    ['Campinas', 'Brasil', -22.9099, -47.0626], ['Natal', 'Brasil', -5.7945, -35.211], ['Río de Janeiro', 'Brasil', -22.9068, -43.1729],
+    ['Córdoba', 'Argentina', -31.4201, -64.1888], ['Rosario', 'Argentina', -32.9442, -60.6505], ['Mendoza', 'Argentina', -32.8895, -68.8458],
+    ['La Plata', 'Argentina', -34.9205, -57.9536], ['Mar del Plata', 'Argentina', -38.0055, -57.5426], ['Tucumán', 'Argentina', -26.8083, -65.2176],
+    ['Salta', 'Argentina', -24.7821, -65.4232], ['Neuquén', 'Argentina', -38.9516, -68.0591], ['Valparaíso', 'Chile', -33.0472, -71.6127],
+    ['Concepción', 'Chile', -36.827, -73.0503], ['Antofagasta', 'Chile', -23.6509, -70.3975], ['Arequipa', 'Perú', -16.409, -71.5375],
+    ['Trujillo', 'Perú', -8.1091, -79.0215], ['Cusco', 'Perú', -13.532, -71.9675], ['Cuenca', 'Ecuador', -2.9001, -79.0059],
+    ['Maracaibo', 'Venezuela', 10.6545, -71.6406], ['Valencia (Venezuela)', 'Venezuela', 10.162, -68.0077], ['Santa Cruz de la Sierra', 'Bolivia', -17.8146, -63.1561],
+    ['Cochabamba', 'Bolivia', -17.3895, -66.1568], ['Ciudad del Este', 'Paraguay', -25.5097, -54.6111], ['Ciudad de Guatemala', 'Guatemala', 14.6349, -90.5069],
+    ['San Salvador', 'El Salvador', 13.6929, -89.2182], ['Tegucigalpa', 'Honduras', 14.0723, -87.1921], ['San Pedro Sula', 'Honduras', 15.5042, -88.025],
+    ['Managua', 'Nicaragua', 12.115, -86.2362], ['La Habana', 'Cuba', 23.1136, -82.3666], ['Santiago de los Caballeros', 'Rep. Dominicana', 19.4517, -70.697],
+    ['Houston', 'EE. UU.', 29.7604, -95.3698], ['Dallas', 'EE. UU.', 32.7767, -96.797], ['San Antonio', 'EE. UU.', 29.4241, -98.4936],
+    ['Austin', 'EE. UU.', 30.2672, -97.7431], ['Chicago', 'EE. UU.', 41.8781, -87.6298], ['Atlanta', 'EE. UU.', 33.749, -84.388],
+    ['Washington D. C.', 'EE. UU.', 38.9072, -77.0369], ['Boston', 'EE. UU.', 42.3601, -71.0589], ['Filadelfia', 'EE. UU.', 39.9526, -75.1652],
+    ['San Francisco', 'EE. UU.', 37.7749, -122.4194], ['San José (California)', 'EE. UU.', 37.3382, -121.8863], ['Seattle', 'EE. UU.', 47.6062, -122.3321],
+    ['Las Vegas', 'EE. UU.', 36.1699, -115.1398], ['Phoenix', 'EE. UU.', 33.4484, -112.074], ['Denver', 'EE. UU.', 39.7392, -104.9903],
+    ['Orlando', 'EE. UU.', 28.5383, -81.3792], ['Tampa', 'EE. UU.', 27.9506, -82.4572], ['San Diego', 'EE. UU.', 32.7157, -117.1611],
+    ['Charlotte', 'EE. UU.', 35.2271, -80.8431], ['Minneapolis', 'EE. UU.', 44.9778, -93.265], ['Detroit', 'EE. UU.', 42.3314, -83.0458],
+    ['Nashville', 'EE. UU.', 36.1627, -86.7816], ['Honolulu', 'EE. UU.', 21.3069, -157.8583], ['Sacramento', 'EE. UU.', 38.5816, -121.4944],
+    ['Portland', 'EE. UU.', 45.5152, -122.6784], ['Salt Lake City', 'EE. UU.', 40.7608, -111.891], ['El Paso', 'EE. UU.', 31.7619, -106.485],
+    ['McAllen', 'EE. UU.', 26.2034, -98.23], ['Toronto', 'Canadá', 43.6532, -79.3832], ['Vancouver', 'Canadá', 49.2827, -123.1207],
+    ['Montreal', 'Canadá', 45.5017, -73.5673], ['Calgary', 'Canadá', 51.0447, -114.0719], ['Barcelona', 'España', 41.3874, 2.1686],
+    ['Valencia', 'España', 39.4699, -0.3763], ['Sevilla', 'España', 37.3891, -5.9845], ['Bilbao', 'España', 43.263, -2.935],
+    ['Málaga', 'España', 36.7213, -4.4214], ['Lisboa', 'Portugal', 38.7223, -9.1393], ['Oporto', 'Portugal', 41.1579, -8.6291],
+    ['Roma', 'Italia', 41.9028, 12.4964], ['Milán', 'Italia', 45.4642, 9.19], ['Berlín', 'Alemania', 52.52, 13.405],
+    ['Múnich', 'Alemania', 48.1351, 11.582], ['Fráncfort', 'Alemania', 50.1109, 8.6821], ['Hamburgo', 'Alemania', 53.5511, 9.9937],
+    ['Colonia', 'Alemania', 50.9375, 6.9603], ['Düsseldorf', 'Alemania', 51.2277, 6.7735], ['Ámsterdam', 'Países Bajos', 52.3676, 4.9041],
+    ['Bruselas', 'Bélgica', 50.8503, 4.3517], ['Viena', 'Austria', 48.2082, 16.3738], ['Zúrich', 'Suiza', 47.3769, 8.5417],
+    ['Varsovia', 'Polonia', 52.2297, 21.0122], ['Praga', 'Chequia', 50.0755, 14.4378], ['Budapest', 'Hungría', 47.4979, 19.0402],
+    ['Estocolmo', 'Suecia', 59.3293, 18.0686], ['Copenhague', 'Dinamarca', 55.6761, 12.5683], ['Oslo', 'Noruega', 59.9139, 10.7522],
+    ['Helsinki', 'Finlandia', 60.1699, 24.9384], ['Dublín', 'Irlanda', 53.3498, -6.2603], ['Mánchester', 'Reino Unido', 53.4808, -2.2426],
+    ['Glasgow', 'Reino Unido', 55.8642, -4.2518], ['Lyon', 'Francia', 45.764, 4.8357], ['Estambul', 'Turquía', 41.0082, 28.9784],
+    ['Atenas', 'Grecia', 37.9838, 23.7275], ['Busan', 'Corea del Sur', 35.1796, 129.0756], ['Osaka', 'Japón', 34.6937, 135.5023],
+    ['Nagoya', 'Japón', 35.1815, 136.9066], ['Fukuoka', 'Japón', 33.5904, 130.4017], ['Sapporo', 'Japón', 43.0618, 141.3545],
+    ['Hiroshima', 'Japón', 34.3853, 132.4553], ['Sendai', 'Japón', 38.2682, 140.8694], ['Daejeon', 'Corea del Sur', 36.3504, 127.3845],
+    ['Suwon', 'Corea del Sur', 37.2636, 127.0286], ['Ulsan', 'Corea del Sur', 35.5384, 129.3114], ['Jeju', 'Corea del Sur', 33.4996, 126.5312],
+    ['Taipéi', 'Taiwán', 25.033, 121.5654], ['Taichung', 'Taiwán', 24.1477, 120.6736], ['Hong Kong', 'China', 22.3193, 114.1694],
+    ['Macao', 'Macao', 22.1987, 113.5439], ['Shenzhen', 'China', 22.5431, 114.0579], ['Cantón', 'China', 23.1291, 113.2644],
+    ['Bangkok', 'Tailandia', 13.7563, 100.5018], ['Singapur', 'Singapur', 1.3521, 103.8198], ['Kuala Lumpur', 'Malasia', 3.139, 101.6869],
+    ['Yakarta', 'Indonesia', -6.2088, 106.8456], ['Ho Chi Minh', 'Vietnam', 10.8231, 106.6297], ['Hanói', 'Vietnam', 21.0278, 105.8342],
+    ['Cebú', 'Filipinas', 10.3157, 123.8854], ['Bombay', 'India', 19.076, 72.8777], ['Nueva Delhi', 'India', 28.6139, 77.209],
+    ['Dubái', 'Emiratos Árabes Unidos', 25.2048, 55.2708], ['Riad', 'Arabia Saudita', 24.7136, 46.6753], ['Shanghái', 'China', 31.2304, 121.4737],
+    ['Melbourne', 'Australia', -37.8136, 144.9631], ['Brisbane', 'Australia', -27.4698, 153.0251], ['Perth', 'Australia', -31.9505, 115.8605],
+    ['Auckland', 'Nueva Zelanda', -36.8485, 174.7633]
   ];
+  /* el selector agrupa por región (orden alfabético dentro de cada una); el índice de ORIGINS es lo que se guarda, así que solo se agregan ciudades al final */
+  var LATAM = ['México', 'Perú', 'Ecuador', 'Venezuela', 'Panamá', 'Costa Rica', 'Rep. Dominicana', 'Puerto Rico', 'Bolivia', 'Paraguay', 'Uruguay', 'Chile', 'Argentina', 'Brasil', 'Guatemala', 'El Salvador', 'Honduras', 'Nicaragua', 'Cuba'];
+  var EUROPE = ['España', 'Reino Unido', 'Francia', 'Portugal', 'Italia', 'Alemania', 'Países Bajos', 'Bélgica', 'Austria', 'Suiza', 'Polonia', 'Chequia', 'Hungría', 'Suecia', 'Dinamarca', 'Noruega', 'Finlandia', 'Irlanda', 'Turquía', 'Grecia'];
+  var ORIGIN_REGIONS = [['co', 'regCo'], ['latam', 'regLatam'], ['na', 'regNa'], ['eu', 'regEu'], ['asia', 'regAsia']];
+  function regionOf(country) { return country === 'Colombia' ? 'co' : LATAM.indexOf(country) >= 0 ? 'latam' : (country === 'EE. UU.' || country === 'Canadá') ? 'na' : EUROPE.indexOf(country) >= 0 ? 'eu' : 'asia'; }
   /* origen: la ubicación real si el navegador la da; si no, una ciudad. Bucaramanga es el respaldo. */
   var originIdx = 0, geoOrigin = null, geoState = 'idle';
   var savedOrigin = store('radar-origin');
@@ -1141,14 +1214,10 @@
     var all = members(st.id); if (!all.length) return '';
     var on = lineupOf(st).map(function (m) { return m.id; }), unit = on.length < all.length;
     return '<div class="squad-wrap"><p class="squad-k">' + esc(t('squad')) + (unit ? ' · <b>' + esc(t('withUnit', { names: lineupOf(st).map(function (m) { return m.name; }).join(' & ') })) + '</b>' : '') + '</p><ul class="squad" data-n="' + all.length + '">' + all.map(function (m, i) {
-      var off = unit && on.indexOf(m.id) < 0;
-      return '<li><button type="button" class="mem' + (off ? ' off' : '') + '" data-mem="' + esc(st.id + ':' + m.id) + '" data-i="' + i + '" aria-label="' + esc(m.name + (off ? ', ' + t('notOnTour') : '')) + '" style="--dl:-' + (i * .37 % 2.6).toFixed(2) + 's">' +
+      var off = unit && on.indexOf(m.id) < 0, ms = memStatus(st.id, m.id), away = ms && ms.k === 'mil';
+      return '<li><button type="button" class="mem' + (off && !away ? ' off' : '') + (away ? ' away' : '') + (ms ? ' st-' + ms.k : '') + '" data-mem="' + esc(st.id + ':' + m.id) + '" data-i="' + i + '" aria-label="' + esc(m.name + (ms ? ', ' + msShort(ms) : off ? ', ' + t('notOnTour') : '')) + '" style="--dl:-' + (i * .37 % 2.6).toFixed(2) + 's">' + msBadge(ms) +
         (function () { var b = bdayInfo(person(st.id, m.id)); return b && b.today ? '<span class="gp-hat" aria-hidden="true">🎂</span>' : ''; })() + '<span class="mem-say" lang="ko" aria-hidden="true">' + esc(m.ko) + '!</span><img src="' + esc(memberSrc(st.id, m.id)) + '" alt="" loading="lazy" decoding="async" draggable="false"><span class="mem-n">' + esc(m.name) + '</span></button></li>';
-    }).join('') + '</ul>' + formerHtml(st.id) + '</div>';
-  }
-  function formerHtml(gid) {
-    var f = META[gid] && META[gid].former; if (!f) return '';
-    return '<p class="squad-former"><b>' + esc(f.name) + '</b> <span class="ko" lang="ko">' + esc(f.ko) + '</span> ' + esc(lang === 'en' ? f.en : f.es) + '</p>';
+    }).join('') + '</ul>' + milHtml(st.id) + formerHtml(st.id) + '</div>';
   }
   /* orden de opciones fijo por pregunta (no cambia al redibujar) pero sin que la correcta quede siempre primero */
   function mixOrder(seed, n) {
@@ -1246,13 +1315,33 @@
     return '<p class="onsale"><span class="ko" lang="ko">티켓팅</span> ' + esc(t('onsaleIn', { d: 'D-' + d, when: myTime(best.t) })) + ' <small>' + esc(place(best.e.city)) + '</small></p>';
   }
   /* próximo estreno: sale solo del catálogo de Apple Music (media.json trae los lanzamientos con fecha futura) */
-  function nextReleaseHtml(gid) {
-    var today = new Date(now()).toISOString().slice(0, 10);
-    var up = (media || []).filter(function (m) { return m.group === gid && m.type === 'music' && m.date > today && okLink(m.url); })
-      .sort(function (a, b) { return a.date < b.date ? -1 : 1; })[0];
-    if (!up) return '';
-    return '<p class="next-rel"><span class="ko" lang="ko">컴백</span> ' + esc(t('nextRelease')) + ': <a href="' + esc(up.url) + '" target="_blank" rel="noopener noreferrer"><b>' + esc(up.title) + '</b></a> · ' + esc(fmtShort(up.date)) + '</p>';
+  /* próximo estreno: Apple Music (media.json) o, antes de que salga ahí, el anuncio oficial (releases.json). Cambia solo con la fecha:
+     antes "Próximo estreno · D-n", el día "¡Sale hoy!", y hasta 10 días después "Nuevo"; luego desaparece. */
+  var announced = [];
+  function pollReleases() {
+    return fetch('releases.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (j) { if (j && Array.isArray(j.items)) { announced = j.items; if (data && data.groups) renderCards(); } }).catch(function () { /* sin anuncios */ });
   }
+  var NEW_DAYS = 10;
+  function releaseOf(gid) {
+    var today = new Date(now()).toISOString().slice(0, 10), cut = new Date(now() - NEW_DAYS * 864e5).toISOString().slice(0, 10);
+    var mus = (media || []).filter(function (m) { return m.group === gid && m.type === 'music' && m.date && okLink(m.url); });
+    var up = mus.filter(function (m) { return m.date >= today; }).sort(function (a, b) { return a.date < b.date ? -1 : 1; })[0];
+    var ann = announced.filter(function (a) { return a.group === gid && a.date >= today && /^https:\/\//.test(a.url || ''); }).sort(function (a, b) { return a.date < b.date ? -1 : 1; })[0];
+    if (ann && (!up || ann.date < up.date)) up = { title: ann.title, date: ann.date, url: ann.url, ann: true };
+    if (up) return { m: up, k: up.date === today ? 'today' : 'next' };
+    var fresh = mus.filter(function (m) { return m.date < today && m.date >= cut; }).sort(function (a, b) { return a.date < b.date ? 1 : -1; })[0];
+    return fresh ? { m: fresh, k: 'new' } : null;
+  }
+  function nextReleaseHtml(gid) {
+    var r = releaseOf(gid); if (!r) return '';
+    var m = r.m, today = new Date(now()).toISOString().slice(0, 10), n = daysBetween(today, m.date);
+    var lab = r.k === 'today' ? t('relToday') : r.k === 'new' ? t('relNew') : t('nextRelease');
+    var when = r.k === 'today' ? '' : r.k === 'new' ? t('ago', { n: agoTxt(now() - Date.parse(m.date + 'T12:00:00Z')) }) : fmtShort(m.date) + ' · D-' + n;
+    return '<p class="next-rel rel-' + r.k + '"><span class="ko" lang="ko">' + (r.k === 'new' ? '신곡' : '컴백') + '</span> ' + esc(lab) + ': <a href="' + esc(m.url) + '" target="_blank" rel="noopener noreferrer"><b>' + esc(m.title) + '</b></a>' +
+      (when ? ' · ' + esc(when) : '') + (m.ann ? ' <span class="tag">' + esc(t('relAnn')) + '</span>' : '') + '</p>';
+  }
+  var openMore = {};
   function cardHtml(st) {
     var g = st.g, o = origin(), m = META[g.id] || {}, h = '';
     h += '<article class="card ' + (sel === g.id ? 'is-sel' : '') + '" id="card-' + esc(g.id) + '" data-g="' + esc(g.id) + '" style="' + gStyle(g.id) + '">';
@@ -1284,10 +1373,12 @@
       (cityTarget(st) ? '<button type="button" class="act" data-city="' + esc(g.id) + '">' + ICON.map + esc(t('cityOpen')) + '</button>' : '') +
       '<button type="button" class="act gp-open" data-gp-open="' + esc(g.id) + '">' + ICON.card + esc(t('gpOpen')) + '</button></div>';
     var watch = lang === 'en' && g.watch_en && g.watch_en.length ? g.watch_en : g.watch;
-    if (watch && watch.length) h += '<ul class="watch" lang="' + (watch === g.watch_en ? 'en' : 'es') + '">' + watch.map(function (w) { return '<li>' + esc(w) + '</li>'; }).join('') + '</ul>';
+    if (watch && watch.length) h += '<ul class="watch" lang="' + (watch === g.watch_en ? 'en' : 'es') + '">' + watch.map(function (w) { return '<li><span>' + esc(w) + '</span></li>'; }).join('') + '</ul>';
     h += nextReleaseHtml(g.id);
     birthdaysToday(g.id).forEach(function (mm) { h += '<button type="button" class="gp-bday" data-gp-open="' + esc(g.id) + '" data-gp-t="members" data-gp-m="' + esc(mm.id) + '"><span>🎂</span>' + esc(t('bdayToday', { name: mm.name })) + ' <b lang="ko">생일 축하해!</b></button>'; });
     h += squadHtml(st);
+    // en el celular lo que sigue va plegado (botón "Más"): la tarjeta queda en lo esencial y todo está también en "Ver todo"
+    h += '<button type="button" class="c-more-btn" data-cmore="' + esc(g.id) + '" aria-expanded="' + !!openMore[g.id] + '">' + esc(t(openMore[g.id] ? 'cardLess' : 'cardMore')) + '</button><div class="c-more' + (openMore[g.id] ? ' open' : '') + '">';
     var ph = photoOf(g.id);
     if (ph) h += '<figure class="polaroid"><img src="' + esc(ph.src) + '"' + (ph.w ? ' width="' + ph.w + '" height="' + ph.h + '"' : '') + ' alt="' + esc(t('photoAlt', { g: g.name })) + '" loading="lazy" decoding="async"><figcaption>' + esc(g.name) + (m.fan ? ' · ' + esc(m.fan) : '') + '</figcaption></figure>';
     h += listenHtml(g);
@@ -1305,15 +1396,41 @@
           (e0.venue ? '<span>' + esc(e0.venue) + '</span>' : '') + '</span><span class="s-k">' + fmtKm(d) + ' km</span></li>';
       }).join('') + '</ul></details>';
     }
-    return h + '</article>';
+    return h + '</div></article>';
   }
   function renderCards() {
     var open = {};
     $$('#cards details[open]').forEach(function (d) { open[d.closest('.card').getAttribute('data-g')] = 1; });
-    $('#cards').innerHTML = states.map(cardHtml).join('');
+    var box = $('#cards'), sx = box.scrollLeft;
+    box.innerHTML = states.map(cardHtml).join('');
+    box.scrollLeft = sx;  // en el celular las tarjetas son un carrusel: redibujar no te devuelve al primer grupo
+    renderPick();
     Object.keys(open).forEach(function (id) { var d = $('#card-' + id + ' details'); if (d) d.open = true; });
     tick(true);
   }
+  /* tira de grupos sobre el carrusel (celular): toca uno para ir a su tarjeta; se marca el que estás viendo */
+  function renderPick() {
+    var el = $('#gPick'); if (!el) return;
+    el.innerHTML = states.map(function (st) {
+      return '<button type="button" role="tab" data-gpick="' + esc(st.id) + '" style="' + gStyle(st.id) + '" aria-selected="false"><span class="gpk-face">' + faceImg(st.id) + '</span><span class="gpk-n">' + esc(st.g.name) + '</span>' +
+        (st.mode === 'live' ? '<i class="gpk-live" aria-hidden="true"></i>' : '') + '</button>';
+    }).join('');
+    syncPick();
+  }
+  function syncPick() {
+    var box = $('#cards'), cards = box ? box.children : [], best = 0, bd = Infinity;
+    if (!cards.length) return;
+    var mid = box.scrollLeft + box.clientWidth / 2;
+    for (var i = 0; i < cards.length; i++) { var c = cards[i], d = Math.abs(c.offsetLeft + c.offsetWidth / 2 - mid); if (d < bd) { bd = d; best = i; } }
+    var id = cards[best].getAttribute('data-g');
+    $$('#gPick [data-gpick]').forEach(function (b) {
+      var on = b.getAttribute('data-gpick') === id;
+      if (on && b.getAttribute('aria-selected') !== 'true') { var strip = $('#gPick'); strip.scrollTo({ left: b.offsetLeft - strip.clientWidth / 2 + b.offsetWidth / 2, behavior: reduce ? 'auto' : 'smooth' }); }
+      b.setAttribute('aria-selected', String(on));
+    });
+  }
+  var pickT = 0;
+  function onCardsScroll() { cancelAnimationFrame(pickT); pickT = requestAnimationFrame(syncPick); }
   function feedKey(a) { return [a.type, a.group, a.title, a.when].join('|'); }
   function renderFeed() {
     var el = $('#feed');
@@ -1321,19 +1438,27 @@
       el.innerHTML = '<li class="bub empty"><span class="bub-face">' + faceImg('default') + '</span><div class="bub-body"><p class="bub-b">' + esc(t('emptyFeed')) + '</p></div></li>';
       return;
     }
-    el.innerHTML = feed.slice(0, 12).map(function (a) {
+    var lim = feedAll ? 12 : innerWidth < 700 ? 5 : 8;
+    el.innerHTML = feed.slice(0, lim).map(function (a) {
       var title = esc(lang === 'en' && a.title_en ? a.title_en : a.title);
       if (a.url && /^https?:\/\//.test(a.url)) title = '<a href="' + esc(a.url) + '" target="_blank" rel="noopener noreferrer">' + title + '</a>';
       return '<li class="bub" style="' + gStyle(a.group || 'default') + '"><span class="bub-face">' + faceImg(a.group) + '</span><div class="bub-body">' +
         '<div class="bub-h"><span class="typ">' + esc((L().T[a.type]) || 'Info') + '</span><span>' + esc(a.group_name || '') + '</span><time datetime="' + esc(a.when) + '">' + esc(t('ago', { n: agoTxt(now() - Date.parse(a.when)) })) + '</time></div>' +
         '<p class="bub-t">' + title + '</p><p class="bub-b">' + esc((lang === 'en' && a.body_en) || a.body || '') + '</p></div></li>';
-    }).join('');
+    }).join('') + (feed.length > lim ? '<li class="feed-more"><button type="button" class="btn" data-feedall>' + esc(t('feedMore', { n: Math.min(12, feed.length) - lim })) + '</button></li>' : '');
   }
+  var feedAll = false;
   function renderSources() {
     $('#sources').innerHTML = (data.sources || []).map(function (s) {
       return /^https?:\/\//.test(s.url) ? '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">' + esc((lang === 'en' && s.name_en) || s.name) + '</a></li>' : '';
     }).join('');
-    $('#moonChibis').innerHTML = data.groups.map(function (g, i) { return '<img src="' + esc(face(g.id).src) + '" alt="" style="--r:' + ((i % 2 ? 1 : -1) * (6 + i * 2)) + 'deg" decoding="async">'; }).join('');
+    var srcN = $('#srcN'); if (srcN) srcN.textContent = '(' + (data.sources || []).length + ')';
+    // un miembro de cada grupo duerme sobre la luna; cambia cada día
+    var day = Math.floor(now() / 864e5);
+    $('#moonChibis').innerHTML = data.groups.map(function (g, i) {
+      var ms = members(g.id).filter(function (m) { var st = memStatus(g.id, m.id); return !st || st.k !== 'mil'; }), m = ms[(day + i * 3) % (ms.length || 1)];
+      return '<img src="' + esc(m ? memberSrc(g.id, m.id) : face(g.id).src) + '" alt="" loading="lazy" decoding="async" style="--r:' + ((i % 2 ? 1 : -1) * (4 + (i * 3) % 9)) + 'deg;--y:' + ((i * 7) % 5) + 'px">';
+    }).join('');
   }
   function renderMeta() {
     var u = new Date(data.updated_at || Date.now());
@@ -1346,7 +1471,11 @@
   function renderOrigins() {
     var s = $('#origin');
     s.innerHTML = (geoOrigin ? '<option value="-1">' + esc(t('myLocation') + (geoOrigin.near ? ' (' + t('geoNear', { city: place(geoOrigin.near) }) + ')' : '')) + '</option>' : '') +
-      ORIGINS.map(function (c, i) { return '<option value="' + i + '">' + esc(place(c[0])) + (c[1] ? ', ' + esc(place(c[1])) : '') + '</option>'; }).join('');
+      ORIGIN_REGIONS.map(function (r) {
+        var list = ORIGINS.map(function (c, i) { return { c: c, i: i }; }).filter(function (x) { return regionOf(x.c[1]) === r[0]; })
+          .sort(function (a, b) { return a.i === 0 ? -1 : b.i === 0 ? 1 : place(a.c[0]).localeCompare(place(b.c[0]), L().locale); });
+        return list.length ? '<optgroup label="' + esc(t(r[1])) + '">' + list.map(function (x) { return '<option value="' + x.i + '">' + esc(place(x.c[0])) + (x.c[1] && r[0] !== 'co' ? ', ' + esc(place(x.c[1])) : '') + '</option>'; }).join('') + '</optgroup>' : '';
+      }).join('');
     s.value = String(originIdx);
   }
   var sigNow = '';
@@ -1555,6 +1684,84 @@
       .then(function (j) { if (j && j.groups) { socialFeed = j.groups; if (GP.id) renderGP(); } }).catch(function () { /* sin redes todavía */ });
   }
   function person(gid, mid) { var g = PEOPLE[gid]; return (g && g.members && g.members[mid]) || {}; }
+  /* estado de cada miembro: servicio militar, regreso, contrato pendiente (assets/people.json) + lo que el robot vio en avisos y noticias (rosterwatch.json).
+     Todo se calcula con la fecha de hoy: nadie tiene que editar nada el día que alguien se enlista o vuelve. */
+  var rosterWatch = [];
+  var BACK_DAYS = 45;
+  function pollRoster() {
+    return fetch('rosterwatch.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (j) { if (j && Array.isArray(j.items)) { rosterWatch = j.items; if (data && data.groups) renderCards(); if (GP.id) renderGP(); } }).catch(function () { /* sin vigilancia todavía */ });
+  }
+  function isoDay(ms) { return new Date(ms + 9 * 36e5).toISOString().slice(0, 10); }
+  function daysBetween(a, b) { return Math.round((Date.parse(b + 'T00:00:00Z') - Date.parse(a + 'T00:00:00Z')) / 864e5); }
+  function addMonths(d, n) { var x = new Date(d + 'T00:00:00Z'); x.setUTCMonth(x.getUTCMonth() + n); return x.toISOString().slice(0, 10); }
+  function watchFor(gid, mid, kind) {
+    return rosterWatch.filter(function (x) { return x.group === gid && x.member === mid && (!kind || x.kind === kind) && /^https:\/\//.test(x.url || ''); })
+      .sort(function (a, b) { return (b.official ? 1 : 0) - (a.official ? 1 : 0) || (a.when < b.when ? 1 : -1); });
+  }
+  function memStatus(gid, mid) {
+    var s = person(gid, mid).status, today = isoDay(now()), en;
+    if (!s && (en = watchFor(gid, mid, 'enlist').filter(function (x) { return x.official && x.date; })[0]))
+      s = { kind: 'military', since: en.date, until: addMonths(en.date, 18), est: true, auto: en };
+    if (!s) return null;
+    if (s.kind === 'military') {
+      var dis = watchFor(gid, mid, 'discharge').filter(function (x) { return (x.date || x.when.slice(0, 10)) >= s.since; })[0];
+      if (today < s.since) return { k: 'soon', s: s, days: daysBetween(today, s.since) };
+      var back = dis && dis.official ? (dis.date || dis.when.slice(0, 10)) : (s.until && today >= s.until ? s.until : '');
+      if (back) return daysBetween(back, today) <= BACK_DAYS ? { k: 'back', s: s, date: back, src: dis } : null;
+      return { k: 'mil', s: s, days: s.until ? daysBetween(today, s.until) : null, news: dis || s.auto };
+    }
+    if (s.kind === 'back') return daysBetween(s.since, today) <= BACK_DAYS ? { k: 'back', s: s, date: s.since } : null;
+    if (s.kind === 'pending') {
+      var ret = watchFor(gid, mid, 'return')[0];
+      if (ret && ret.official) return daysBetween(ret.date || ret.when.slice(0, 10), today) <= BACK_DAYS ? { k: 'back', s: s, date: ret.date || ret.when.slice(0, 10), src: ret } : null;
+      return { k: 'pending', s: s, news: ret };
+    }
+    return null;
+  }
+  var MS_ICON = { mil: '🪖', soon: '📅', back: '✨', pending: '⏳' };
+  function msShort(ms) {
+    if (!ms) return '';
+    if (ms.k === 'mil') return ms.s.until ? t(ms.s.est ? 'msUntilEst' : 'msUntil', { d: ms.s.est ? fmtMonth(ms.s.until) : fmtShort(ms.s.until) + ' ' + parts(ms.s.until).y }) : t('msMil');
+    if (ms.k === 'soon') return t('msSoon', { d: fmtShort(ms.s.since) });
+    if (ms.k === 'back') return t('msBack');
+    return t('msPending');
+  }
+  function fmtMonth(d) { var p = parts(d); return L().months[p.m - 1] + ' ' + p.y; }
+  function msBadge(ms) { return ms ? '<span class="ms-badge ms-' + ms.k + '" aria-hidden="true">' + MS_ICON[ms.k] + '</span>' : ''; }
+  function newsLink(x) {
+    if (!x || !/^https:\/\//.test(x.url || '')) return '';
+    return '<a class="src-link" href="' + esc(x.url) + '" target="_blank" rel="noopener noreferrer">' + esc(x.official ? t('rwOfficial') : t('rwNews')) + '</a>';
+  }
+  function msLong(gid, mid) {
+    var ms = memStatus(gid, mid); if (!ms) return '';
+    var s = ms.s, note = lang === 'en' ? s.en : s.es, h = '<div class="ms-note ms-' + ms.k + '"><b>' + MS_ICON[ms.k] + ' ' + esc(ms.k === 'mil' ? t('msMil') : ms.k === 'back' ? t('msBackOn', { d: fmtDate(ms.date, true) }) : ms.k === 'soon' ? t('msSoon', { d: fmtDate(s.since, true) }) : t('msPending')) + '</b>';
+    if (ms.k === 'mil') h += '<span>' + esc([note, t('msSince', { d: fmtDate(s.since, true) }), msShort(ms), ms.days > 0 ? t('msLeft', { n: ms.days }) : ''].filter(Boolean).join(' · ')) + '</span>';
+    else if (note) h += '<span>' + esc(note) + '</span>';
+    return h + newsLink(ms.news || ms.src) + '</div>';
+  }
+  function milHtml(gid) {
+    var list = members(gid).map(function (m) { return { m: m, ms: memStatus(gid, m.id) }; }).filter(function (x) { return x.ms && (x.ms.k === 'mil' || x.ms.k === 'soon'); });
+    if (!list.length) return '';
+    return '<details class="ms-list"><summary>' + MS_ICON.mil + ' ' + esc(t('msTitle', { n: list.length })) + '</summary><ul>' + list.map(function (x) {
+      var pct = x.ms.k === 'mil' && x.ms.s.until ? Math.max(3, Math.min(100, Math.round(100 * daysBetween(x.ms.s.since, isoDay(now())) / Math.max(1, daysBetween(x.ms.s.since, x.ms.s.until))))) : 0;
+      return '<li><img src="' + esc(memberSrc(gid, x.m.id)) + '" alt="" loading="lazy" class="' + (x.ms.k === 'mil' ? 'gray' : '') + '"><div><b>' + esc(x.m.name) + '</b><small>' + esc(msShort(x.ms)) + (x.ms.k === 'mil' && x.ms.days > 0 ? ' · ' + esc(t('msLeft', { n: x.ms.days })) : '') + '</small>' +
+        (pct ? '<span class="ms-bar" aria-hidden="true"><i style="width:' + pct + '%"></i></span>' : '') + '</div></li>';
+    }).join('') + '</ul><p class="ms-foot">' + esc(t('msNote')) + '</p></details>';
+  }
+  function formerList(gid) {
+    var f = (PEOPLE[gid] || {}).former || {};
+    return Object.keys(f).map(function (id) { var x = f[id]; return { id: id, f: x, ret: watchFor(gid, id, 'return')[0] }; });
+  }
+  function formerSrc(gid, x) { return x.f.chibi ? memberSrc(gid, x.id) : face('default').src; }
+  function formerHtml(gid) {
+    var list = formerList(gid); if (!list.length) return '';
+    return '<div class="former"><p class="squad-k">' + esc(t('fmTitle')) + '</p><ul>' + list.map(function (x) {
+      var back = x.ret && x.ret.official, kind = back ? t('fmBack') : t(x.f.kind === 'solo' ? 'fmSolo' : x.f.kind === 'contract' ? 'fmContract' : 'fmLeft');
+      return '<li class="fm' + (back ? ' fm-back' : '') + '"><span class="fm-pic"><img src="' + esc(formerSrc(gid, x)) + '" alt="" loading="lazy" decoding="async"></span><div><p class="fm-n"><b>' + esc(x.f.name) + '</b> <span class="ko" lang="ko">' + esc(x.f.ko || '') + '</span> <span class="fm-tag">' + esc(kind) + '</span></p>' +
+        '<p class="fm-t">' + esc(lang === 'en' ? x.f.en : x.f.es) + '</p>' + (x.ret ? newsLink(x.ret) : '') + '</div></li>';
+    }).join('') + '</ul></div>';
+  }
   function okHandle(h) { return /^[A-Za-z0-9._]{1,40}$/.test(h || '') ? h : ''; }
   function socialLinks(p, cls) {
     var out = [];
@@ -1638,26 +1845,29 @@
       (okHandle(p.instagram) ? '<li><a class="ln ln-ig" href="https://www.instagram.com/' + esc(p.instagram) + '/" target="_blank" rel="noopener noreferrer">' + SOC_ICON.ig + '<span>Instagram</span></a></li>' : '') + '</ul></div>');
     h += noticesHtml(id).replace('<details class="agenda notices">', '<details class="agenda notices" open>');
     h += statsHtml(st.g).replace('<details class="agenda stats">', '<details class="agenda stats" open>');
+    var wt = lang === 'en' && st.g.watch_en && st.g.watch_en.length ? st.g.watch_en : st.g.watch;
+    if (wt && wt.length) h += '<ul class="watch">' + wt.map(function (w) { return '<li>' + esc(w) + '</li>'; }).join('') + '</ul>';
+    h += triviaHtml(id);
     return h;
   }
   function gpMembers(st) {
     var id = st.id, list = members(id);
     return '<p class="gp-hint">' + esc(t('gpTapMember')) + '</p><ul class="gp-mems">' + list.map(function (mm, i) {
-      var b = bdayInfo(person(id, mm.id));
-      return '<li><button type="button" data-gp-mem="' + esc(mm.id) + '" style="--dl:-' + (i * .41 % 2.6).toFixed(2) + 's">' + (b && b.today ? '<span class="gp-hat" aria-hidden="true">🎂</span>' : '') +
+      var b = bdayInfo(person(id, mm.id)), ms = memStatus(id, mm.id);
+      return '<li><button type="button" class="' + (ms ? 'st-' + ms.k + (ms.k === 'mil' ? ' away' : '') : '') + '" data-gp-mem="' + esc(mm.id) + '" style="--dl:-' + (i * .41 % 2.6).toFixed(2) + 's">' + (b && b.today ? '<span class="gp-hat" aria-hidden="true">🎂</span>' : '') + msBadge(ms) +
         '<img src="' + esc(memberSrc(id, mm.id)) + '" alt="" loading="lazy" decoding="async"><b>' + esc(mm.name) + '</b><span lang="ko">' + esc(mm.ko || '') + '</span>' +
-        (b ? '<small>' + esc(b.today ? t('bdayIsToday') : t('bdayIn', { n: b.days })) + '</small>' : '') + '</button></li>';
-    }).join('') + '</ul>' + formerHtml(id);
+        (ms ? '<small class="ms-s">' + esc(msShort(ms)) + '</small>' : b ? '<small>' + esc(b.today ? t('bdayIsToday') : t('bdayIn', { n: b.days })) + '</small>' : '') + '</button></li>';
+    }).join('') + '</ul>' + milHtml(id) + formerHtml(id);
   }
   function gpMember(st, mid) {
     var id = st.id, mm = members(id).filter(function (x) { return x.id === mid; })[0]; if (!mm) return gpMembers(st);
     var p = person(id, mid), b = bdayInfo(p), feed = ((socialFeed[id] || {}).members || {})[mid] || {}, h = '';
     h += '<button type="button" class="gp-back" data-gp-tab="members">‹ ' + esc(t('gpAllMembers')) + '</button>';
-    h += '<section class="gp-prof"><button type="button" class="gp-big-chibi" data-gp-hop aria-label="' + esc(mm.name) + '"><img src="' + esc(memberSrc(id, mid)) + '" alt=""></button>' +
+    h += '<section class="gp-prof"><button type="button" class="gp-big-chibi' + ((memStatus(id, mid) || {}).k === 'mil' ? ' away' : '') + '" data-gp-hop aria-label="' + esc(mm.name) + '"><img src="' + esc(memberSrc(id, mid)) + '" alt=""></button>' +
       '<div><h3>' + esc(mm.name) + ' <span lang="ko">' + esc(mm.ko || '') + '</span></h3>' +
       (b ? '<p class="gp-bd' + (b.today ? ' today' : '') + '">🎂 ' + esc(fmtDate(b.date.replace(/^\d{4}/, String(new Date(now()).getFullYear())), false).replace(/,? \d{4}$/, '')) + ' · ' +
         esc(b.today ? t('bdayTurnsToday', { n: b.turning }) : t('bdayAgeIn', { age: b.age, n: b.days })) + '</p>' : '') +
-      '<div class="soc-row">' + (socialLinks(p) || '<p class="gp-muted">' + esc(t('gpNoPersonal')) + '</p>') + '</div></div></section>';
+      msLong(id, mid) + '<div class="soc-row">' + (socialLinks(p) || '<p class="gp-muted">' + esc(t('gpNoPersonal')) + '</p>') + '</div></div></section>';
     var posts = [].concat((feed.tiktok || []).map(function (x) { return Object.assign({ k: 'tt' }, x); }), (feed.instagram || []).map(function (x) { return Object.assign({ k: 'ig' }, x); }))
       .sort(function (a, c) { return a.when < c.when ? 1 : -1; }).slice(0, 6);
     if (posts.length) h += '<section class="gp-sec"><h4>' + esc(t('gpLatestPosts')) + '</h4>' + postList(posts) + '</section>';
@@ -1743,7 +1953,7 @@
   var TYPE_GROUPS = [
     ['typesNear', ['prox', 'prox_new'], true], ['typesLive', ['live', 'stop_today'], true], ['typesDates', ['new_date', 'changed', 'removed'], true],
     ['typesNext', ['next_stop'], false], ['typesArrival', ['arrival_official', 'arrival'], true], ['typesLatam', ['latam'], true],
-    ['typesNews', ['comeback', 'tour', 'official'], false], ['typesVideo', ['video'], false]
+    ['typesNews', ['comeback', 'tour', 'official'], false], ['typesMembers', ['roster', 'birthday'], true], ['typesVideo', ['video'], false]
   ];
   var form = { ch: 'discord' };
   function loadForm() { try { return JSON.parse(store('radar-sub') || 'null'); } catch (e) { return null; } }
@@ -1957,16 +2167,20 @@
       firstSight = false;
     }).catch(function () { renderSights(); });
   }
+  /* orden de los avistamientos: lo más reciente primero (por defecto) o lo más cerca */
+  var sightSort = store('radar-sight-sort') === 'near' ? 'near' : 'recent';
   function sightList() {
     var o = origin();
-    return sights.map(function (a) { return { a: a, km: hav(o.lat, o.lon, a.lat, a.lon), key: sightKey(a) }; })
-      .sort(function (x, y) { return x.km - y.km; });
+    return sights.map(function (a) { return { a: a, km: hav(o.lat, o.lon, a.lat, a.lon), key: sightKey(a), w: Date.parse(a.when || '') || 0 }; })
+      .sort(function (x, y) { return sightSort === 'near' ? x.km - y.km : (y.w - x.w) || (x.km - y.km); });
   }
   function gName(id) { var g = (data.groups || []).filter(function (x) { return x.id === id; })[0]; return g ? g.name : (id || ''); }
   function renderSights() {
     var el = $('#sightList'); if (!el) return;
     var list = sightList();
     $('#sightSample').hidden = !sightsMeta.sample;
+    var sf = $('#sightSort');
+    if (sf) sf.innerHTML = [['recent', 'sightRecent'], ['near', 'sightNear']].map(function (f) { return '<button type="button" class="chip-btn" data-ssort="' + f[0] + '" aria-pressed="' + (sightSort === f[0]) + '">' + esc(t(f[1])) + '</button>'; }).join('');
     if (!list.length) { el.innerHTML = '<li class="bub empty"><span class="bub-face">' + faceImg('default') + '</span><div class="bub-body"><p class="bub-b">' + esc(t('sightEmpty')) + '</p></div></li>'; }
     else el.innerHTML = list.slice(0, innerWidth < 600 ? 4 : 6).map(function (x) {
       var a = x.a, url = okUrl(a.url);
@@ -1975,7 +2189,7 @@
         '<p class="bub-t">' + esc(t('sightAway', { km: fmtKm(x.km) })) + '</p>' + (a.text ? '<p class="bub-b">' + esc((lang === 'en' && a.text_en) || a.text) + '</p>' : '') +
         (url ? '<a class="s-link" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + esc(t('sightSee')) + (a.account ? ' · @' + esc(a.account) : '') + '</a>' : '') + '</div></li>';
     }).join('');
-    // cinta tipo noticiero (inspirada en el tracker de Spidey): de lo más cerca a lo más lejos
+    // cinta tipo noticiero (inspirada en el tracker de Spidey): en el mismo orden que la lista
     var tk = $('#tickerTrack');
     if (tk) {
       var items = list.slice(0, 10).map(function (x) { return '<span class="tk-i" style="' + gStyle(x.a.group) + '"><b>' + esc(gName(x.a.group)) + '</b> ' + esc(place(x.a.city)) + ' · ' + fmtKm(x.km) + ' km</span>'; }).join('');
@@ -2271,7 +2485,7 @@
   window.addEventListener('pointerdown', function () { lastKeyboard = false; }, true);
 
   document.addEventListener('click', function (ev) {
-    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-geo-help],[data-geo-later],[data-zoom],[data-spin],[data-center-me],[data-city],[data-city-close],[data-cmap],[data-mfilter],[data-gp-close],[data-gp-tab],[data-gp-mem],[data-gp-hop],[data-yt],[data-tt],[data-gp-open],#sightBubble,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,#copyJson,.topnav a') : null;
+    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-geo-help],[data-geo-later],[data-zoom],[data-spin],[data-center-me],[data-city],[data-city-close],[data-cmap],[data-mfilter],[data-ssort],[data-cmore],[data-gpick],[data-feedall],[data-gp-close],[data-gp-tab],[data-gp-mem],[data-gp-hop],[data-yt],[data-tt],[data-gp-open],#sightBubble,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,#copyJson,.topnav a') : null;
     if (!el) { if (ev.target === $('#party')) closeParty(); return; }
     if (el.hasAttribute('data-pick')) { if (view !== 'globe' && el.hasAttribute('data-top')) setView('globe'); pick(el.getAttribute('data-pick'), { top: el.hasAttribute('data-top') }); return; }
     if (el.hasAttribute('data-unsel')) { unselect(); return; }
@@ -2280,6 +2494,18 @@
     if (el.hasAttribute('data-city')) { openCity(el.getAttribute('data-city')); return; }
     if (el.hasAttribute('data-city-close')) { closeCity(); return; }
     if (el.hasAttribute('data-cmap')) { cityTool(el.getAttribute('data-cmap')); return; }
+    if (el.hasAttribute('data-feedall')) { feedAll = true; renderFeed(); Sound.play('toggle'); return; }
+    if (el.hasAttribute('data-gpick')) {
+      var pc = document.getElementById('card-' + el.getAttribute('data-gpick'));
+      if (pc) { var bx = $('#cards'); bx.scrollTo({ left: pc.offsetLeft - (bx.clientWidth - pc.offsetWidth) / 2, behavior: reduce ? 'auto' : 'smooth' }); }
+      Sound.play('tap'); return;
+    }
+    if (el.hasAttribute('data-cmore')) {
+      var cg = el.getAttribute('data-cmore'), box = el.nextElementSibling; openMore[cg] = !openMore[cg];
+      if (box) box.classList.toggle('open', !!openMore[cg]); el.setAttribute('aria-expanded', String(!!openMore[cg])); el.textContent = t(openMore[cg] ? 'cardLess' : 'cardMore');
+      Sound.play('toggle'); return;
+    }
+    if (el.hasAttribute('data-ssort')) { sightSort = el.getAttribute('data-ssort'); store('radar-sight-sort', sightSort); renderSights(); Sound.play('toggle'); return; }
     if (el.hasAttribute('data-mfilter')) { mediaType = el.getAttribute('data-mfilter'); renderMedia(); Sound.play('toggle'); return; }
     if (el.hasAttribute('data-trivia')) { triviaTap(el); return; }
     if (el.hasAttribute('data-geo-retry')) { locate(true); return; }
@@ -2494,8 +2720,9 @@
   renderAll();
   setChannel(form.ch, true);
   observe();
+  var cardsBox = $('#cards'); if (cardsBox) cardsBox.addEventListener('scroll', onCardsScroll, { passive: true });
   setInterval(function () { tick(false); }, 1000);
-  poll(); pollFeed(); pollSights(); pollMedia(); pollStats(); pollNotices(); pollSocial();
+  poll(); pollFeed(); pollSights(); pollMedia(); pollStats(); pollNotices(); pollSocial(); pollRoster(); pollReleases();
   setInterval(poll, 60000);
   setInterval(pollFeed, 60000);
   setInterval(pollSights, 60000);
@@ -2503,6 +2730,8 @@
   setInterval(pollStats, 60 * 60000);
   setInterval(pollNotices, 15 * 60000);
   setInterval(pollSocial, 30 * 60000);
+  setInterval(pollRoster, 60 * 60000);
+  setInterval(pollReleases, 30 * 60000);
   // ubicación real: se pide al entrar, salvo que hayas elegido una ciudad a mano
   startGeo();
   if (params.get('demo') === 'alert') setTimeout(function () { $('#testParty').click(); }, 1200);

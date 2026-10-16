@@ -54,6 +54,7 @@ ARTISTS = {
     "enhypen": "ENHYPEN",
     "newjeans": "NewJeans",
     "cortis": "CORTIS",
+    "ateez": "ATEEZ",
 }
 
 # Ticketmaster da los países en inglés; la web los guarda en español (assets/places-en.json traduce de vuelta)
@@ -168,12 +169,15 @@ def tour_title(names: list[str], group: str) -> str:
 
 
 def apply_notes(g: dict, ov: dict, has_upcoming: bool, today: str) -> None:
+    """Notas de overrides.json. Cada nota puede ser texto o {"text": ..., "until": "AAAA-MM-DD"}: pasada esa fecha deja de salir sola,
+    para que nada quede desactualizado en la web ("no hay shows en 2026" en 2027)."""
     for field in ("watch", "watch_en"):
         if field not in ov:
             continue
         expired = ov.get("watch_until") and today > ov["watch_until"]
         show = not expired and (ov.get("watch_always") or not has_upcoming)
-        g[field] = ov[field] if show else []
+        notes = [n if isinstance(n, str) else n.get("text", "") for n in ov[field] if isinstance(n, str) or today <= n.get("until", "9999")]
+        g[field] = [n for n in notes if n] if show else []
 
 
 def merge_group(g: dict, fresh: list[dict] | None, manual: list[dict], now: datetime) -> None:

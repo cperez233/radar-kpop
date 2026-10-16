@@ -5,42 +5,68 @@
   },
   "twice": {
     "watch": [
-      "La gira This Is For cerró el 12 de julio de 2026 y no encontré fechas nuevas confirmadas.",
-      "Jihyo contó en un vlog (30 jul 2026) que quieren hacer gira por Sudamérica más adelante, sin fechas."
+      {
+        "text": "La gira This Is For cerró el 12 de julio de 2026 y no encontré fechas nuevas confirmadas.",
+        "until": "2027-01-31"
+      },
+      {
+        "text": "Jihyo contó en un vlog (30 jul 2026) que quieren hacer gira por Sudamérica más adelante, sin fechas.",
+        "until": "2027-03-31"
+      }
     ],
     "watch_en": [
-      "The This Is For tour ended on July 12, 2026 and there are no confirmed new dates.",
-      "Jihyo said in a vlog (Jul 30, 2026) that they want to tour South America later, no dates yet."
+      {
+        "text": "The This Is For tour ended on July 12, 2026 and there are no confirmed new dates.",
+        "until": "2027-01-31"
+      },
+      {
+        "text": "Jihyo said in a vlog (Jul 30, 2026) that they want to tour South America later, no dates yet.",
+        "until": "2027-03-31"
+      }
     ]
   },
   "blackpink": {
     "watch": [
-      "La gira Deadline cerró el 26 de enero de 2026 en el Kai Tak Stadium de Hong Kong y no hay fechas nuevas anunciadas.",
-      "Su mini álbum Deadline salió el 27 de febrero de 2026."
+      {
+        "text": "La gira Deadline cerró el 26 de enero de 2026 en el Kai Tak Stadium de Hong Kong y no hay fechas nuevas anunciadas.",
+        "until": "2026-12-31"
+      }
     ],
     "watch_en": [
-      "The Deadline tour ended on January 26, 2026 at Kai Tak Stadium, Hong Kong, with no new dates announced.",
-      "Their mini album Deadline came out on February 27, 2026."
+      {
+        "text": "The Deadline tour ended on January 26, 2026 at Kai Tak Stadium, Hong Kong, with no new dates announced.",
+        "until": "2026-12-31"
+      }
     ]
   },
   "skz": {
     "watch": [
-      "Tokyo Dome aparece en la gira, pero las fechas exactas no salen claras en las fuentes."
+      {
+        "text": "Tokyo Dome aparece en la gira, pero las fechas exactas no salen claras en las fuentes.",
+        "until": "2027-03-07"
+      }
     ],
     "watch_en": [
-      "Tokyo Dome is on the tour, but the exact dates are not clear in the sources."
+      {
+        "text": "Tokyo Dome is on the tour, but the exact dates are not clear in the sources.",
+        "until": "2027-03-07"
+      }
     ],
     "watch_always": true,
     "watch_until": "2027-03-07"
   },
   "seventeen": {
     "watch": [
-      "La gira completa NEW_ cerró el 5 de abril de 2026 en Incheon. Ahora sale de gira la unidad JxJ (Jeonghan y Joshua).",
-      "Varios miembros están en el servicio militar, así que no hay conciertos del grupo completo anunciados."
+      {
+        "text": "La gira completa NEW_ cerró el 5 de abril de 2026 en Incheon. Ahora sale de gira la unidad JxJ (Jeonghan y Joshua) mientras varios miembros hacen el servicio militar (en Miembros ves cuándo vuelve cada uno).",
+        "until": "2027-02-21"
+      }
     ],
     "watch_en": [
-      "The full NEW_ tour ended on April 5, 2026 in Incheon. The JxJ unit (Jeonghan and Joshua) is touring now.",
-      "Several members are doing military service, so no full group concerts are announced."
+      {
+        "text": "The full NEW_ tour ended on April 5, 2026 in Incheon. Now the JxJ unit (Jeonghan and Joshua) is touring while several members do military service (Members shows when each one returns).",
+        "until": "2027-02-21"
+      }
     ],
     "events": [
       {
@@ -229,32 +255,188 @@
   },
   "enhypen": {
     "watch": [
-      "Las horas de Europa y Yakarta todavía no son oficiales."
+      {
+        "text": "Las horas de Europa y Yakarta todavía no son oficiales.",
+        "until": "2027-03-14"
+      }
     ],
     "watch_en": [
-      "Show times for Europe and Jakarta are not official yet."
+      {
+        "text": "Show times for Europe and Jakarta are not official yet.",
+        "until": "2027-03-14"
+      }
     ],
     "watch_always": true,
     "watch_until": "2027-03-14"
   },
   "newjeans": {
     "watch": [
-      "No hay shows anunciados en 2026. ADOR dice que el grupo prepara su regreso como cuarteto, sin fecha.",
+      {
+        "text": "No hay shows anunciados en 2026. ADOR dice que el grupo prepara su regreso como cuarteto, sin fecha.",
+        "until": "2026-12-31"
+      },
       "La última vez que llenaron un estadio fue el Bunnies Camp en el Tokyo Dome, en junio de 2024."
     ],
     "watch_en": [
-      "No shows announced in 2026. ADOR says the group is preparing a comeback as a four-piece, no date yet.",
+      {
+        "text": "No shows announced in 2026. ADOR says the group is preparing a comeback as a four-piece, no date yet.",
+        "until": "2026-12-31"
+      },
       "Their last stadium event was Bunnies Camp at Tokyo Dome, June 2024."
     ]
   },
   "cortis": {
     "watch": [
-      "La gira Put Your Phone Down cerró el 6 de septiembre de 2026 en Yokohama y su última presentación fue en el Gran Premio de F1 de Singapur (9 de octubre). No hay fechas nuevas confirmadas.",
-      "Su EP más reciente es GREENGREEN (4 de mayo de 2026)."
+      {
+        "text": "La gira Put Your Phone Down cerró el 6 de septiembre de 2026 en Yokohama y su última presentación fue en el Gran Premio de F1 de Singapur (9 de octubre). No hay fechas nuevas confirmadas.",
+        "until": "2027-01-31"
+      }
     ],
     "watch_en": [
-      "The Put Your Phone Down tour ended on September 6, 2026 in Yokohama and their last show was at the Singapore F1 Grand Prix (October 9). No new dates are confirmed.",
-      "Their latest EP is GREENGREEN (May 4, 2026)."
+      {
+        "text": "The Put Your Phone Down tour ended on September 6, 2026 in Yokohama and their last show was at the Singapore F1 Grand Prix (October 9). No new dates are confirmed.",
+        "until": "2027-01-31"
+      }
+    ]
+  },
+  "ateez": {
+    "watch": [
+      "KQ anunció la gira ZERO TO ALL (10 de octubre de 2026): Incheon, Tokio y Kobe primero; Europa en abril, Norteamérica en julio y agosto y Sudamérica en septiembre de 2027. Los recintos y las horas todavía no son oficiales."
+    ],
+    "watch_en": [
+      "KQ announced the ZERO TO ALL tour (October 10, 2026): Incheon, Tokyo and Kobe first; Europe in April, North America in July and August and South America in September 2027. Venues and times are not official yet."
+    ],
+    "watch_always": true,
+    "watch_until": "2027-02-15",
+    "events": [
+      {
+        "id": "ateez-20260314-manila",
+        "local_date": "2026-03-14",
+        "start": "2026-03-14T19:00:00+08:00",
+        "city": "Manila",
+        "country": "Filipinas",
+        "venue": "Araneta Coliseum",
+        "lat": 14.6206,
+        "lon": 121.0527,
+        "status": "confirmado"
+      },
+      {
+        "id": "ateez-20260322-kualalumpur",
+        "local_date": "2026-03-22",
+        "start": "2026-03-22T19:00:00+08:00",
+        "city": "Kuala Lumpur",
+        "country": "Malasia",
+        "venue": "Axiata Arena",
+        "lat": 3.0546,
+        "lon": 101.6919,
+        "status": "confirmado"
+      },
+      {
+        "id": "ateez-20260328-macao",
+        "local_date": "2026-03-28",
+        "start": "2026-03-28T19:00:00+08:00",
+        "city": "Macao",
+        "country": "Macao",
+        "venue": "The Venetian Arena",
+        "lat": 22.1476,
+        "lon": 113.5605,
+        "status": "confirmado"
+      },
+      {
+        "id": "ateez-20260404-bangkok",
+        "local_date": "2026-04-04",
+        "start": "2026-04-04T19:00:00+07:00",
+        "city": "Bangkok",
+        "country": "Tailandia",
+        "venue": "IMPACT Exhibition Hall 5-6",
+        "lat": 13.9116,
+        "lon": 100.5469,
+        "status": "confirmado"
+      },
+      {
+        "id": "ateez-20270122-incheon",
+        "local_date": "2027-01-22",
+        "start": "2027-01-22T19:00:00+09:00",
+        "city": "Incheon",
+        "country": "Corea del Sur",
+        "venue": "",
+        "lat": 37.4563,
+        "lon": 126.7052,
+        "status": "anunciado",
+        "time_tbd": true
+      },
+      {
+        "id": "ateez-20270123-incheon",
+        "local_date": "2027-01-23",
+        "start": "2027-01-23T19:00:00+09:00",
+        "city": "Incheon",
+        "country": "Corea del Sur",
+        "venue": "",
+        "lat": 37.4563,
+        "lon": 126.7052,
+        "status": "anunciado",
+        "time_tbd": true
+      },
+      {
+        "id": "ateez-20270125-incheon",
+        "local_date": "2027-01-25",
+        "start": "2027-01-25T19:00:00+09:00",
+        "city": "Incheon",
+        "country": "Corea del Sur",
+        "venue": "",
+        "lat": 37.4563,
+        "lon": 126.7052,
+        "status": "anunciado",
+        "time_tbd": true
+      },
+      {
+        "id": "ateez-20270202-tokio",
+        "local_date": "2027-02-02",
+        "start": "2027-02-02T19:00:00+09:00",
+        "city": "Tokio",
+        "country": "Japón",
+        "venue": "",
+        "lat": 35.6812,
+        "lon": 139.7671,
+        "status": "anunciado",
+        "time_tbd": true
+      },
+      {
+        "id": "ateez-20270203-tokio",
+        "local_date": "2027-02-03",
+        "start": "2027-02-03T19:00:00+09:00",
+        "city": "Tokio",
+        "country": "Japón",
+        "venue": "",
+        "lat": 35.6812,
+        "lon": 139.7671,
+        "status": "anunciado",
+        "time_tbd": true
+      },
+      {
+        "id": "ateez-20270213-kobe",
+        "local_date": "2027-02-13",
+        "start": "2027-02-13T19:00:00+09:00",
+        "city": "Kobe",
+        "country": "Japón",
+        "venue": "",
+        "lat": 34.6901,
+        "lon": 135.1955,
+        "status": "anunciado",
+        "time_tbd": true
+      },
+      {
+        "id": "ateez-20270214-kobe",
+        "local_date": "2027-02-14",
+        "start": "2027-02-14T19:00:00+09:00",
+        "city": "Kobe",
+        "country": "Japón",
+        "venue": "",
+        "lat": 34.6901,
+        "lon": 135.1955,
+        "status": "anunciado",
+        "time_tbd": true
+      }
     ]
   }
 }

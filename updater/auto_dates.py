@@ -119,7 +119,7 @@ def places() -> list[tuple[str, dict]]:
             for n in v["match"]:
                 out.append((norm(n), {**c, "venue": v["name"], "lat": v["lat"], "lon": v["lon"]}))
     for c in cities.values():
-        for n in c["names"] + [c["city"]]:
+        for n in c["names"] + ([] if c.get("strict") else [c["city"]]):
             if len(n) >= 3:
                 out.append((norm(n), {**c, "venue": None}))
     return sorted(out, key=lambda x: -len(x[0]))

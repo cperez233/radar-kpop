@@ -47,7 +47,7 @@ BOGOTA = timezone(timedelta(hours=-5))
 SHOW_H = 4
 # nombres alternativos de cada grupo, para que "Stray Kids" o "방탄소년단" no cuenten como tema
 META_NAMES = {"bts": ["bangtan", "방탄소년단"], "skz": ["stray", "kids", "스트레이키즈"], "twice": ["트와이스"], "blackpink": ["블랙핑크"],
-              "lngshot": ["longshot", "롱샷"], "seventeen": ["세븐틴", "svt"], "enhypen": ["엔하이픈"], "newjeans": ["뉴진스"], "cortis": ["코르티스"]}
+              "lngshot": ["longshot", "롱샷"], "seventeen": ["세븐틴", "svt"], "enhypen": ["엔하이픈"], "newjeans": ["뉴진스"], "cortis": ["코르티스"], "ateez": ["에이티즈", "atiny"]}
 KEEP_DAYS = 45
 FEED_MAX = 60
 NTFY_SKIP = {"video"}  # al celular no: los grupos suben varios videos al día (siguen en Discord y en la web)
@@ -381,6 +381,60 @@ def weekly_alert(data: dict, people: dict, now: datetime) -> list[dict]:
                title_en="📅 Your K-pop week", body_en="\n".join(lines_en[:15]))]
 
 
+ROSTERWATCH = ROOT / "rosterwatch.json"
+KIND_ES = {"discharge": ("terminó el servicio militar", "finished military service"), "return": ("vuelve al grupo", "is back in the group"),
+           "enlist": ("se enlista", "enlists"), "leave": ("sale del grupo", "leaves the group")}
+
+
+def roster_alerts(data: dict, people: dict, now: datetime) -> list[dict]:
+    """Servicio militar y regresos: el día que alguien se enlista o vuelve (por fecha) y lo que vio updater/roster_watch.py."""
+    gmap, names, alerts = {g["id"]: g for g in data["groups"]}, roster_names(), []
+    today = now.astimezone(KST).date().isoformat()
+    for gid, pg in people.get("groups", {}).items():
+        g = gmap.get(gid)
+        for mid, m in (pg.get("members") or {}).items() if g else []:
+            st, n = m.get("status") or {}, names.get(gid, {}).get(mid, {}).get("name", mid)
+            if st.get("kind") != "military":
+                continue
+            if st.get("since") == today:
+                alerts.append(mk("roster", f"mil:{gid}:{mid}:{today}", g, f"🪖 Hoy se enlista {n} ({g['name']})",
+                                 f"Empieza su servicio militar. Vuelve hacia {day_label(st['until'])}" + (" (fecha estimada)." if st.get("est") else ".") if st.get("until") else "Empieza su servicio militar.",
+                                 now, member=mid, title_en=f"🪖 {n} ({g['name']}) enlists today", body_en="Military service starts today."))
+            if st.get("until") == today and not st.get("est"):
+                alerts.append(mk("roster", f"back:{gid}:{mid}:{today}", g, f"✨ ¡{n} ({g['name']}) vuelve hoy del servicio militar!",
+                                 "Termina su servicio hoy. ¡Bienvenido de vuelta!", now, member=mid,
+                                 title_en=f"✨ {n} ({g['name']}) is back from military service today!", body_en="Service ends today. Welcome back!"))
+    doc = load_json(ROSTERWATCH, {"items": []})
+    former = {(gid, fid): f.get("name", fid) for gid, pg in people.get("groups", {}).items() for fid, f in (pg.get("former") or {}).items()}
+    for x in doc.get("items", []):
+        g = gmap.get(x.get("group"))
+        if not g or x.get("kind") not in KIND_ES or now - dt(x["when"]) > timedelta(days=3):
+            continue
+        n = names.get(g["id"], {}).get(x["member"], {}).get("name") or former.get((g["id"], x["member"]), x["member"])
+        es, en_ = KIND_ES[x["kind"]]
+        tag = "Aviso oficial" if x.get("official") else "Noticia (sin confirmar)"
+        alerts.append(mk("roster", f"roster:{x['url']}", g, f"{'📢' if x.get('official') else '📰'} {n} ({g['name']}) {es}",
+                         f"{tag}: «{short(x['title'], 180)}»", now, member=x["member"], url=x["url"],
+                         title_en=f"{'📢' if x.get('official') else '📰'} {n} ({g['name']}) {en_}",
+                         body_en=f"{'Official notice' if x.get('official') else 'News (unconfirmed)'}: \"{short(x['title'], 180)}\""))
+    return alerts
+
+
+def release_alerts(data: dict, now: datetime) -> list[dict]:
+    """El día del estreno (hora de Corea, cuando salen casi todos): Apple Music (media.json) o anuncio oficial (releases.json)."""
+    gmap, today, out, seen = {g["id"]: g for g in data["groups"]}, now.astimezone(KST).date().isoformat(), [], set()
+    media = load_json(MEDIA, {"items": []}).get("items", [])
+    ann = load_json(ROOT / "releases.json", {"items": []}).get("items", [])
+    for m in [x for x in media if x.get("type") == "music"] + ann:
+        g = gmap.get(m.get("group"))
+        if not g or m.get("date") != today or g["id"] in seen:
+            continue
+        seen.add(g["id"])
+        out.append(mk("comeback", f"rel:{g['id']}:{today}", g, f"💿 Hoy sale «{m['title']}» de {g['name']}", "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+                      now, url=m.get("url"), title_en=f"💿 {g['name']}'s «{m['title']}» is out today", body_en="Go listen! (or in a few hours, depending on your time zone)"))
+    return out
+
+
 # ---------- 4. alertas por suscriptor ----------
 
 def follows(sub: dict, group_id: str) -> bool:
@@ -532,6 +586,8 @@ def main() -> int:
     people = load_json(PEOPLE, {})
     alerts += birthday_alerts(data, people, now)
     alerts += weekly_alert(data, people, now)
+    alerts += roster_alerts(data, people, now)
+    alerts += release_alerts(data, now)
 
     seen = set(state.get("news_seen", []))
     items = news.collect(feeds, now) if feeds and not os.environ.get("NO_NEWS") else []

@@ -1,5 +1,5 @@
 {
- "_doc": "Cumpleaños y cuentas oficiales (personales y del grupo). Verificado el 16 de octubre de 2026 (kprofiles, kpopping, Soompi, TWICEpedia, Wikipedia; TikTok probado con RSSHub). Solo cuentas confirmadas: un enlace equivocado es peor que ninguno. Lo usan la página de cada grupo, las alertas de cumpleaños y updater/social_feeds.py.",
+ "_doc": "Cumpleaños y cuentas oficiales (personales y del grupo). Verificado el 16 de octubre de 2026 (kprofiles, kpopping, Soompi, TWICEpedia, Wikipedia; TikTok probado con RSSHub). Solo cuentas confirmadas: un enlace equivocado es peor que ninguno. Lo usan la página de cada grupo, las alertas de cumpleaños y updater/social_feeds.py. 'status' de un miembro: military (since/until; est=true si la fecha de regreso es estimada: 18 meses en servicio activo, 21 en alternativo), pending (contrato sin anunciar) o back (ya volvió). 'former': exintegrantes (left, solo, contract) con aviso; la web los muestra en gris. updater/roster_watch.py vigila avisos oficiales y noticias de regreso, salida o servicio militar y escribe rosterwatch.json.",
  "groups": {
   "bts": {
    "tiktok": "bts_official_bighit",
@@ -100,6 +100,18 @@
      "instagram": "i.2.n.8",
      "tiktok": "",
      "x": ""
+    }
+   },
+   "former": {
+    "woojin": {
+     "name": "Woojin",
+     "ko": "우진",
+     "kind": "left",
+     "since": "2019-10-28",
+     "chibi": false,
+     "es": "salió de Stray Kids en octubre de 2019 por motivos personales y hoy es solista.",
+     "en": "left Stray Kids in October 2019 for personal reasons and is now a soloist.",
+     "birthday": "1997-04-08"
     }
    }
   },
@@ -237,7 +249,13 @@
      "birthday": "1995-10-04",
      "instagram": "jeonghaniyoo_n",
      "tiktok": "",
-     "x": ""
+     "x": "",
+     "status": {
+      "kind": "back",
+      "since": "2026-06-25",
+      "es": "terminó su servicio social en junio de 2026",
+      "en": "finished his social service in June 2026"
+     }
     },
     "joshua": {
      "birthday": "1995-12-30",
@@ -255,31 +273,71 @@
      "birthday": "1996-06-15",
      "instagram": "ho5hi_kwon",
      "tiktok": "",
-     "x": ""
+     "x": "",
+     "status": {
+      "kind": "military",
+      "since": "2025-09-16",
+      "until": "2027-03-15",
+      "est": false,
+      "es": "servicio activo en el Ejército",
+      "en": "active duty in the Army"
+     }
     },
     "wonwoo": {
      "birthday": "1996-07-17",
      "instagram": "everyone_woo",
      "tiktok": "",
-     "x": ""
+     "x": "",
+     "status": {
+      "kind": "military",
+      "since": "2025-04-03",
+      "until": "2027-01-02",
+      "est": false,
+      "es": "servicio social alternativo",
+      "en": "alternative social service"
+     }
     },
     "woozi": {
      "birthday": "1996-11-22",
      "instagram": "woozi_universefactory",
      "tiktok": "",
-     "x": ""
+     "x": "",
+     "status": {
+      "kind": "military",
+      "since": "2025-09-15",
+      "until": "2027-03-14",
+      "est": false,
+      "es": "servicio activo en el Ejército",
+      "en": "active duty in the Army"
+     }
     },
     "dk": {
      "birthday": "1997-02-18",
      "instagram": "dk_is_dokyeom",
      "tiktok": "",
-     "x": ""
+     "x": "",
+     "status": {
+      "kind": "military",
+      "since": "2026-09-08",
+      "until": "2028-03-07",
+      "est": true,
+      "es": "servicio activo en el Ejército",
+      "en": "active duty in the Army"
+     }
     },
     "mingyu": {
      "birthday": "1997-04-06",
      "instagram": "min9yu_k",
      "tiktok": "",
-     "x": ""
+     "x": "",
+     "status": {
+      "kind": "military",
+      "since": "2026-09-10",
+      "until": "2028-06-09",
+      "est": true,
+      "es": "servicio social alternativo",
+      "en": "alternative social service"
+     }
     },
     "the8": {
      "birthday": "1997-11-07",
@@ -291,19 +349,43 @@
      "birthday": "1998-01-16",
      "instagram": "pledis_boos",
      "tiktok": "",
-     "x": ""
+     "x": "",
+     "status": {
+      "kind": "military",
+      "since": "2026-10-26",
+      "until": "2028-04-25",
+      "est": true,
+      "es": "banda militar del Ejército",
+      "en": "Army military band"
+     }
     },
     "vernon": {
      "birthday": "1998-02-18",
      "instagram": "",
      "tiktok": "",
-     "x": ""
+     "x": "",
+     "status": {
+      "kind": "military",
+      "since": "2026-08-20",
+      "until": "2028-05-19",
+      "est": true,
+      "es": "servicio alternativo",
+      "en": "alternative service"
+     }
     },
     "dino": {
      "birthday": "1999-02-11",
      "instagram": "feat.dino",
      "tiktok": "",
-     "x": ""
+     "x": "",
+     "status": {
+      "kind": "military",
+      "since": "2026-10-26",
+      "until": "2028-04-25",
+      "est": true,
+      "es": "banda militar del Ejército",
+      "en": "Army military band"
+     }
     }
    }
   },
@@ -347,6 +429,18 @@
      "tiktok": "",
      "x": ""
     }
+   },
+   "former": {
+    "heeseung": {
+     "name": "Heeseung",
+     "ko": "희승",
+     "kind": "solo",
+     "since": "2026-03-10",
+     "chibi": true,
+     "es": "dejó ENHYPEN en marzo de 2026 para ser solista (sigue en BELIFT LAB). El grupo continúa con seis.",
+     "en": "left ENHYPEN in March 2026 to go solo (still with BELIFT LAB). The group continues as six.",
+     "birthday": "2001-10-15"
+    }
    }
   },
   "newjeans": {
@@ -357,7 +451,13 @@
      "birthday": "2004-05-07",
      "instagram": "",
      "tiktok": "",
-     "x": ""
+     "x": "",
+     "status": {
+      "kind": "pending",
+      "since": "2025-11-12",
+      "es": "ADOR todavía no anuncia oficialmente su regreso; aparece en el contenido del aniversario (julio de 2026)",
+      "en": "ADOR has not officially announced her return yet; she appears in the anniversary content (July 2026)"
+     }
     },
     "hanni": {
      "birthday": "2004-10-06",
@@ -376,6 +476,18 @@
      "instagram": "",
      "tiktok": "",
      "x": ""
+    }
+   },
+   "former": {
+    "danielle": {
+     "name": "Danielle",
+     "ko": "다니엘",
+     "kind": "contract",
+     "since": "2025-12-29",
+     "chibi": true,
+     "es": "ADOR terminó su contrato en diciembre de 2025 y hay una demanda en curso. No está en el regreso del grupo.",
+     "en": "ADOR ended her contract in December 2025 and a lawsuit is ongoing. She is not part of the group's return.",
+     "birthday": "2005-04-11"
     }
    }
   },
@@ -409,6 +521,60 @@
     },
     "keonho": {
      "birthday": "2009-02-14",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    }
+   }
+  },
+  "ateez": {
+   "tiktok": "ateez_official_",
+   "instagram": "ateez_official_",
+   "members": {
+    "hongjoong": {
+     "birthday": "1998-11-07",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "seonghwa": {
+     "birthday": "1998-04-03",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "yunho": {
+     "birthday": "1999-03-23",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "yeosang": {
+     "birthday": "1999-06-15",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "san": {
+     "birthday": "1999-07-10",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "mingi": {
+     "birthday": "1999-08-09",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "wooyoung": {
+     "birthday": "1999-11-26",
+     "instagram": "",
+     "tiktok": "",
+     "x": ""
+    },
+    "jongho": {
+     "birthday": "2000-10-12",
      "instagram": "",
      "tiktok": "",
      "x": ""

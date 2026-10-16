@@ -148,15 +148,18 @@ __CANONICAL__
 
     <section class="sec sec-sights" id="avistamientos" aria-labelledby="sightTitle">
       <h2 class="sec-title" id="sightTitle"><span class="sec-n" aria-hidden="true">02</span><span class="ko" lang="ko">목격담</span> <span data-i18n="sightTitle">Avistamientos cercanos</span></h2>
-      <p class="sub-lead" data-i18n="sightLead">Publicaciones oficiales de los grupos que mencionan una ciudad, ordenadas por distancia a ti.</p>
+      <p class="sub-lead" data-i18n="sightLead">Publicaciones oficiales de los grupos que mencionan una ciudad, primero lo más reciente.</p>
       <p class="sample-tag" id="sightSample" hidden><span data-i18n="sightSample">Datos de ejemplo: el conector de X todavía no tiene token.</span></p>
+      <div class="chips sight-sort" id="sightSort" role="group" aria-label="Orden" data-i18n-aria="sortAria"></div>
       <ol class="bubbles" id="sightList"></ol>
       <p class="sight-src" data-i18n="sightSource">Fuente: cuentas oficiales en X</p>
     </section>
 
     <section class="sec sec-groups" id="grupos" aria-labelledby="groupsTitle">
       <h2 class="sec-title" id="groupsTitle"><span class="sec-n" aria-hidden="true">03</span><span class="ko" lang="ko">다음 공연</span> <span data-i18n="groupsTitle">When and where?</span></h2>
+      <div class="g-pick" id="gPick" role="tablist" aria-label="Grupos" data-i18n-aria="groupsPick"></div>
       <div class="cards" id="cards"></div>
+      <p class="swipe-hint" data-i18n="swipeHint">Desliza para ver los demás grupos</p>
     </section>
 
     <section class="sec sec-media" id="estrenos" aria-labelledby="mediaTitle">
@@ -232,28 +235,38 @@ __CANONICAL__
     </section>
 
     <footer class="foot">
-      <div class="moon-scene" aria-hidden="true">
-        <div class="moon"></div>
-        <div class="moon-chibis" id="moonChibis"></div>
-        <span class="zzz anim-zzz">z</span><span class="zzz anim-zzz z2">z</span><span class="zzz anim-zzz z3">Z</span>
+      <div class="foot-card">
+        <div class="moon-scene" aria-hidden="true">
+          <div class="moon-chibis" id="moonChibis"></div>
+          <div class="moon"></div>
+          <span class="zzz anim-zzz">z</span><span class="zzz anim-zzz z2">z</span><span class="zzz anim-zzz z3">Z</span>
+        </div>
+        <p class="bye"><span class="ko" lang="ko">다음에 또 봐요</span> <span data-i18n="bye">Nos vemos en la próxima parada</span></p>
+        <p class="foot-lead" data-i18n="footLead">El robot revisa giras, estrenos, avisos y redes cada 15 minutos. Tú solo vuelve cuando quieras.</p>
       </div>
-      <p class="bye"><span class="ko" lang="ko">다음에 또 봐요</span> <span data-i18n="bye">Nos vemos en la próxima parada</span></p>
-      <p data-i18n="disclaimer1">Esto muestra la agenda oficial y pública de cada grupo. No rastrea a nadie en tiempo real: el chibi está en la próxima fecha confirmada, no donde están en este momento.</p>
-      <p data-i18n="disclaimer2">Las horas son aproximadas (20:00 hora local cuando la fuente no la trae) y las coordenadas de los recintos también. Las fechas marcadas como anunciadas vienen de un solo anuncio y pueden cambiar.</p>
-      <details class="privacy-box changes-box" id="novedades">
-        <summary><span class="ko" lang="ko">업데이트</span>&nbsp;<span data-i18n="changesTitle">Novedades</span></summary>
-        <ol class="changes" id="changes"></ol>
-      </details>
-      <details class="privacy-box" id="privacidad">
-        <summary data-i18n="privacyTitle">Privacidad</summary>
-        <p data-i18n="privacy1">El radar no tiene cuentas, ni cookies de rastreo, ni analítica. En tu navegador (localStorage) se guardan tu ciudad, tu idioma, si silenciaste los sonidos, tu grupo favorito, qué alertas ya viste y, si llenas el formulario, tu nombre, tu ID de Discord o tu WhatsApp, tus grupos y tus tipos de alerta.</p>
-        <p data-i18n="privacy2">Al entrar, el radar le pide tu ubicación al navegador. Si aceptas, la posición se redondea y se guarda solo en tu equipo.</p>
-        <p data-i18n="privacy3">Las fuentes tipográficas se cargan desde Google Fonts, que recibe tu dirección IP como cualquier sitio que las use. Para borrar todo, usa "Borrar mis datos" o limpia los datos del sitio en tu navegador.</p>
-        <p data-i18n="privacy4">Responsable: Cristian Pérez. Puedes conocer, actualizar o borrar tus datos y retirar tu autorización escribiendo a crisperezm879@gmail.com.</p>
-        <p class="privacy-mail"><a href="mailto:crisperezm879@gmail.com?subject=Radar%20K-pop">crisperezm879@gmail.com</a></p>
-      </details>
-      <p class="sources-k" data-i18n="sources">Fuentes</p>
-      <ul class="sources" id="sources"></ul>
+      <div class="folds">
+        <details class="fold">
+          <summary><span class="fold-i" aria-hidden="true">💡</span><span data-i18n="howTitle">Cómo funciona</span></summary>
+          <p data-i18n="disclaimer1">Esto muestra la agenda oficial y pública de cada grupo. No rastrea a nadie en tiempo real: el chibi está en la próxima fecha confirmada, no donde están en este momento.</p>
+          <p data-i18n="disclaimer2">Las horas son aproximadas (20:00 hora local cuando la fuente no la trae) y las coordenadas de los recintos también. Las fechas marcadas como anunciadas vienen de un solo anuncio y pueden cambiar.</p>
+        </details>
+        <details class="fold" id="novedades">
+          <summary><span class="fold-i" aria-hidden="true">✨</span><span data-i18n="changesTitle">Novedades</span></summary>
+          <ol class="changes" id="changes"></ol>
+        </details>
+        <details class="fold" id="privacidad">
+            <summary><span class="fold-i" aria-hidden="true">🔒</span><span data-i18n="privacyTitle">Privacidad</span></summary>
+          <p data-i18n="privacy1">El radar no tiene cuentas, ni cookies de rastreo, ni analítica. En tu navegador (localStorage) se guardan tu ciudad, tu idioma, si silenciaste los sonidos, tu grupo favorito, qué alertas ya viste y, si llenas el formulario, tu nombre, tu ID de Discord o tu WhatsApp, tus grupos y tus tipos de alerta.</p>
+          <p data-i18n="privacy2">Al entrar, el radar le pide tu ubicación al navegador. Si aceptas, la posición se redondea y se guarda solo en tu equipo.</p>
+          <p data-i18n="privacy3">Las fuentes tipográficas se cargan desde Google Fonts, que recibe tu dirección IP como cualquier sitio que las use. Para borrar todo, usa "Borrar mis datos" o limpia los datos del sitio en tu navegador.</p>
+          <p data-i18n="privacy4">Responsable: Cristian Pérez. Puedes conocer, actualizar o borrar tus datos y retirar tu autorización escribiendo a crisperezm879@gmail.com.</p>
+          <p class="privacy-mail"><a href="mailto:crisperezm879@gmail.com?subject=Radar%20K-pop">crisperezm879@gmail.com</a></p>
+        </details>
+        <details class="fold">
+          <summary><span class="fold-i" aria-hidden="true">📚</span><span data-i18n="sources">Fuentes</span><span class="fold-n" id="srcN"></span></summary>
+          <ul class="sources" id="sources"></ul>
+        </details>
+      </div>
       <p class="foot-row"><span>Radar K-pop · 2026</span> <span class="credit"><span data-i18n="credit">Hecho con amor de fan por</span> <a href="https://cristianperez.me" target="_blank" rel="noopener noreferrer">Cristian Pérez</a><span id="zw"></span></span></p>
     </footer>
   </div>
