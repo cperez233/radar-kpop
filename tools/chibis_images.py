@@ -68,6 +68,13 @@ SHEETS = {
         "woojin": ("WOOJIN", (20, 519, 520, 1010)),
         "louis": ("LOUIS", (520, 519, 1010, 1010)),
     }),
+    # the sheet also has Danielle (centre sticker); she is not in the roster, so she is not used
+    "newjeans": ("NewJeans", {
+        "minji": ("Minji", (20, 20, 362, 378)),
+        "hanni": ("Hanni", (660, 20, 1010, 378)),
+        "haerin": ("Haerin", (20, 694, 360, 1010)),
+        "hyein": ("Hyein", (684, 694, 1010, 1010)),
+    }),
     "seventeen": ("SEVENTEEN", {
         "scoups": ("S.Coups", (20, 20, 360, 380), "seventeen-stickers-1.webp"),
         "jeonghan": ("Jeonghan", (360, 20, 686, 380), "seventeen-stickers-1.webp"),
