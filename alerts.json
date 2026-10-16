@@ -1,6 +1,160 @@
 {
- "updated_at": "2026-10-16T10:09:25Z",
+ "updated_at": "2026-10-16T14:55:07Z",
  "alerts": [
+  {
+   "type": "stop_today",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Hoy BTS abre en Santiago",
+   "body": "Estadio Nacional Julio Martínez Prádanos, Santiago. Hora aproximada, confirma en la boletería.",
+   "title_en": "Today BTS opens in Santiago",
+   "body_en": "Estadio Nacional Julio Martínez Prádanos, Santiago. Approximate time, check with the box office.",
+   "when": "2026-10-16T14:55:07Z",
+   "url": null
+  },
+  {
+   "type": "live",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "ENHYPEN sube al escenario en Macao",
+   "body": "Galaxy Arena, Macao. Hora aproximada, el show puede arrancar un poco antes o después.",
+   "title_en": "ENHYPEN goes on stage in Macau",
+   "body_en": "Galaxy Arena, Macau. Approximate time, the show may start a little earlier or later.",
+   "when": "2026-10-16T14:55:07Z",
+   "url": null
+  },
+  {
+   "type": "latam",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Latinoamérica: BTS",
+   "body": "BTS presentó el tráiler oficial de sus conciertos en Buenos Aires y Sao Paulo - El Comercio Perú (Google Noticias)",
+   "title_en": "Latin America: BTS",
+   "body_en": "BTS presentó el tráiler oficial de sus conciertos en Buenos Aires y Sao Paulo - El Comercio Perú (Google Noticias)",
+   "when": "2026-10-16T14:55:07Z",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSm1xd0dXc19sMWtJdzJ2ZTNHcXZ1d0JiTTNQMkVjV09jZFR2LTNrcXVyaGFuN0pKYXpBSURhV2lIby1VNjVXdVVCNWJJSEhxbUdFNGhqXzRRUndkTmNwU0Z3cTZuVlI2VDY5WFU5bk9JeFVCaGR4UDJ4ZHFUbHBSWGwzcFMyV0l4YkRuSGY0a2Q2NFlrR1V3N01WVGUyejEwZm5pODRqMXZuX0lJZ3lKdEpQZ3dqOG42LTJKX2lNZFNkdHl6ZDFZYUlyX3BOd2pvU29Ud0VEdDVITXMwZWU0Z2l6WS1DZFNJOGfSAeoBQVVfeXFMTkptcXdHV3NfbDFrSXcydmUzR3F2dXdCYk0zUDJFY1dPY2RUdi0za3F1cmhhbjdKSmF6QUlEYVdpSG8tVTY1V3VVQjViSUhIcW1HRTRoal80UVJ3ZE5jcFNGd3E2blZSNlQ2OVhVOW5PSXhVQmhkeFAyeGRxVGxwUlhsM3BTMldJeGJEbkhmNGtkNjRZa0dVdzdNVlRlMnoxMGZuaTg0ajF2bl9JSWd5SnRKUGd3ajhuNi0ySl9pTWRTZHR5emQxWWFJcl9wTndqb1NvVHdFRHQ1SE1zMGVlNGdpelktQ2RTSThn?oc=5"
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "Carabineros elogia el comportamiento de las ARMY's en concierto de BTS: hicieron un reconocimiento a la banda surcoreana - Canal 13 (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "Carabineros elogia el comportamiento de las ARMY's en concierto de BTS: hicieron un reconocimiento a la banda surcoreana - Canal 13 (Google Noticias)",
+   "when": "2026-10-16T14:55:07Z",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPemhPM2JETmpzNmRqMjFkQzN2SWZ6M1hNMFh1eF95ekd0RWJ4ZWtXczdGZUEzMFFHSkx0S2x5ZkYyUTgtb0pBR2x3Snl0UDBjQUdvSE42cnZnQzRtUEtKazBJcHl1d1hOMzYyUWM2ZUs2ZkFYUnpTTEdUVm51SjZRM0pOUjVjeUo0eXBtazdkY1hxMmhHVmRieEVHRERLdllhSl9id2pIMVVpTXY1U2tYbS1Iaw?oc=5"
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "Acciones de Hybe, la empresa detrás de BTS, se dispararon 10% ante proyecciones de resultados récord por sus giras - La Tercera (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "Acciones de Hybe, la empresa detrás de BTS, se dispararon 10% ante proyecciones de resultados récord por sus giras - La Tercera (Google Noticias)",
+   "when": "2026-10-16T14:55:07Z",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWEtiNjdaZ0lDNjEyVzZZcVJCRkN6djR6TkI5d2pOakM3MTY5aXZ0NzNpU1ZGMmRseHNjV0w5TVhVajZ6X2IwemxIbDhJSnNSYmtMZmdmN0pBNHhSVjJMbjBxeldQQmpfX1VTZEM1bU9UaWE1blctV294LTBUMHJ5V0UtUWY0enhIcnRpcm9lTmVPYlNSdkcxWUw3eFhKNV82aWlKNXNhenVRLXFWVTc4NTNPS1IwTTlTYU5qbmN5XzZONnpKTkdpSUhiQXFSX2UyM05JQUJfbndLQVJZYXRlenZtbGMycjDSAYgCQVVfeXFMTTU3T0xOYVgyencyc1d5R1d5RmJvakthdEdaTWtoR19zQzRkVUwtVFJBcjJEb04wQnJwWFBkV1ZZU1J1X3d5WFhHQ3NMSWpXNm1zWi1vN1hDbVNzb2RJV1JTNE9uTXp6aVo1VWh0alhsS25aS0pPRXVzNFlxN2dweUhBOGJfbnhRZ1d5bWNsY1Fva3lXVngwZWRJLUZmdFJKN1JqY0gtZWdhVnltSWxXVEFRSU80MGZyVjBRUjFvNGZEVnR2czBralh6X3JuT2RadS1KX0NDN3VvYUpqVmxPeFZ4SERFcm9XZ3k1UWlISTl4aUZzRG5mWjdWYkxPR2hyMVVsM3VTUFhQ?oc=5"
+  },
+  {
+   "type": "latam",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Latinoamérica: BTS",
+   "body": "Concierto de BTS en Chile fue autorizado a pesar de las intensas lluvias - El Comercio Perú (Google Noticias)",
+   "title_en": "Latin America: BTS",
+   "body_en": "Concierto de BTS en Chile fue autorizado a pesar de las intensas lluvias - El Comercio Perú (Google Noticias)",
+   "when": "2026-10-16T14:55:07Z",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdkRWZXdvcy0tc3hFVTZiSmNRTTB5WXNhVHRLdzR0WmU0WXJhdmlYUFdOQjNNLVZUTGRuVWVTYzcyY1F0S2FBVlBPcHRBS0o5NTFfSkdJZFVCTDZTbFkzeG85ZU4tb3FNM2tGc2c1dXhYcjYxVUhJaW5kamxyT2dmdkFBa3VSS3E5WW42cWx5eWtiT3ZXVGxBaGFKaDQtRWNFcVFsSG9LVGgyWGdfdVBpWFNrOVdHbHUycjdGRkhBZzFMYjdlVXFFd0JISUo4QngwVEZfbXotbjTSAewBQVVfeXFMTTRHSF84MVlOTGJnNWRDajJhU2o5dXlOVmRrVWVpOU5ONC04aGpQUkM4REtTUWlVQXgyZkFKOUpfVDdDZEVYdHpoTzVKcmxDakRsYWNaUzZFSE9fQXV6QUhtdWt6ZlQweERBd2lOQ3dVNG1uTnJrM1ZIZ29lci13U2d3NmhqUm1jb3V6ZHduNVpielhtb21FaXF0UFN0ZFJ1WVM1Q3ZManNIdHgwVjF6Z3R6NkNvYW5Uay1VYTMzY0VQY1JCTkJEQnlNVWQ5RzNBODBYcTJkVGw5RDFIVWs3RGFfZm12QndJZ1ZfYkc?oc=5"
+  },
+  {
+   "type": "latam",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Latinoamérica: BTS",
+   "body": "¿Lluvia o calor? Así estará el tiempo para el concierto de BTS en Chile este viernes 16 de octubre - LOS40 (Google Noticias)",
+   "title_en": "Latin America: BTS",
+   "body_en": "¿Lluvia o calor? Así estará el tiempo para el concierto de BTS en Chile este viernes 16 de octubre - LOS40 (Google Noticias)",
+   "when": "2026-10-16T14:55:07Z",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSjh2UndWckE3NVJHdzlydmpNU2xvTTFqaW1HcHpLNEl0ZHItSHpPUkJfNEROUUxWcTVvVk5lSG1SdjVOd3lpdktaaE95WndCS1BJdmN1NkkzZmpPelJMMG5qckxCdEVwWm9Pb0RfOWYtOXhjd0RTZTFoRlU0ZFFFSjByVUhRcTFDb0xYbTMzcVVDT1VJVlp4TEZOd2pCdzJWM3l6WnRlRV9zdXRWaG1xdjBZamZSYXFld2VCMktSQThSZjjSAdcBQVVfeXFMTXI3Q2Z4STBXS3E3Wk9qOS1BeTdKbHRPQUhzaUpxY1pURE9TMGtrRGlrdGhhUTVzVUstNWZuREdUdk9MOGtQOWRBZEtLbGlsV2NIRG1yalBwVFBRQlZENlVsUU1wcl96alhFTzdFQWxOZ25SNVlGdS1VVzJ0cnl5WWJCZFhGdEtMUGRsY2VQTzFjZmphaEM5NWg0TnM5Y1J1XzZtbjRnOXpCWnBlN0k0M0FhOXV3MktOcVFsekphaHhzb3FGT0ZreWlQbkdlRUFHUTBBNFNrMWM?oc=5"
+  },
+  {
+   "type": "latam",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Latinoamérica: BTS",
+   "body": "Primer concierto de la banda surcoreana BTS en Chile reunió a 70 mil fanáticos - El Aragueño (Google Noticias)",
+   "title_en": "Latin America: BTS",
+   "body_en": "Primer concierto de la banda surcoreana BTS en Chile reunió a 70 mil fanáticos - El Aragueño (Google Noticias)",
+   "when": "2026-10-16T14:55:07Z",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdlNEWUs0NS1Nclh2VkU0ZVpqc0d6S0NHTHA3MWFMSGVoMTFLS3JKV2FVN3U2OENBU1FKUXlGY0lVUklJOF8yal9LUi1wdDVfdkJRYnpQcDBfSm9kRURnS0Z2UW5NQUNvM0tMUUIzQ194VFd3ZWRSM1laQmNEQWtkcTBpSXRYS3JKcDhwUURDSU1IazBJaVF1dVB3OFN1UDZqTkVLVmtrSFI?oc=5"
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "Ya abrieron las puertas: reportan largas filas para el segundo concierto de BTS en el Estadio Nacional - ADN Radio (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "Ya abrieron las puertas: reportan largas filas para el segundo concierto de BTS en el Estadio Nacional - ADN Radio (Google Noticias)",
+   "when": "2026-10-16T14:55:07Z",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbmp4M1c0ZnJHX1VOeDZtXzhpRmRQMExoZ0pWcU9uZ1ZmYkFlcXlBbDJreWtZUW81TzZiMEFjY3BDV0V3bFRmWVdVaS1fcjFKSEN1N1JkVmotaXBGZzgyS0ZEdVhYaHhOcHVSc2F1STc4UHBMZTBxcVJyZU5fZG8wRVFMa2cycUNJMFVKdnJoQVV1Q0M1SWg4MDVrb3A3MnBZNTJfOTg2UWhEZmg1RFV4VlRIdG16eUJ2UWJyaU5TVUkyb2pWaU51ZWVEVXRsVk9wNXo00gHnAUFVX3lxTE5Yek1IMDZWS3lLdU1Lc3hlV2dwb1hCbjR6VEN2djNnUkEyOGRFTnpjeFdhdGlGQU5YRW5OUWNKU1NWd01hYnhxbE5CWDIxbjdDNWx2Mmp2OUxKZ3ctTmpNdF9UM0ZtY2EwSW56d2RWUXozQ0hsc2lFTDRzSzg3NVMzUkw0aTdzS2s1ZUFMNU1jQUpQd2dWVklvNkdBOVlZdVRXb1djOTRBTEI0R0lJQUpNTFF4ZER4S0Q3Z1F1RmlNSFpvNzRyV09xclRGRFVHZHFEOGtsbjBHOXNkc1NxLV9WNnhNcDBmNA?oc=5"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "[INSIDE SEVENTEEN] 조슈아 'Baby Come Home' Live Clip 촬영 비하인드 (JOSHUA \"Baby Come Home\" Live Clip Sketch) (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "[INSIDE SEVENTEEN] 조슈아 'Baby Come Home' Live Clip 촬영 비하인드 (JOSHUA \"Baby Come Home\" Live Clip Sketch) (YouTube)",
+   "when": "2026-10-16T14:55:07Z",
+   "url": "https://www.youtube.com/watch?v=nIRQaYMlADQ"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "꿈이 시작된 순간을 기억하나요? #아이유 #이별로부터_Challenge #JxJ #정한X조슈아 #DREAMSCAPE (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "꿈이 시작된 순간을 기억하나요? #아이유 #이별로부터_Challenge #JxJ #정한X조슈아 #DREAMSCAPE (YouTube)",
+   "when": "2026-10-16T14:55:07Z",
+   "url": "https://www.youtube.com/watch?v=x4n42iX_ywE"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "Try to beat JOSHUA 🎮 #JxJ #정한X조슈아 #DREAMSCAPE #Dream_w_JxJ #12oclock (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "Try to beat JOSHUA 🎮 #JxJ #정한X조슈아 #DREAMSCAPE #Dream_w_JxJ #12oclock (YouTube)",
+   "when": "2026-10-16T14:55:07Z",
+   "url": "https://www.youtube.com/watch?v=X-Irlu8_Cy4"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "슥~ 피하기 #SUNGHOON #SUNOO #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "슥~ 피하기 #SUNGHOON #SUNOO #ENHYPEN (YouTube)",
+   "when": "2026-10-16T14:55:07Z",
+   "url": "https://www.youtube.com/watch?v=D3mzJLtI878"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "relay cam LA (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "relay cam LA (YouTube)",
+   "when": "2026-10-16T14:55:07Z",
+   "url": "https://www.youtube.com/watch?v=ISkAWt8_aqI"
+  },
   {
    "type": "latam",
    "group": "bts",
