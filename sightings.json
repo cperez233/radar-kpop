@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-10-16T07:25:14Z",
+  "updated_at": "2026-10-16T08:05:06Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "x-2111004825408483749",
+      "group": "enhypen",
+      "group_name": "ENHYPEN",
+      "city": "Macao",
+      "country": "China",
+      "lat": 22.1987,
+      "lon": 113.5439,
+      "text": "MACAU, D-DAY #ENHYPEN #EN_WORLDTOUR_BLOODSAGA #BLOODSAGA_IN_MACAU",
+      "url": "https://x.com/ENHYPEN/status/2111004825408483749",
+      "account": "ENHYPEN",
+      "when": "2026-10-16T08:02:25Z"
+    },
     {
       "id": "x-2110958921888477270",
       "group": "seventeen",
@@ -41,19 +54,6 @@
       "url": "https://x.com/cortis_bighit/status/2109615067780239729",
       "account": "cortis_bighit",
       "when": "2026-10-12T12:00:01Z"
-    },
-    {
-      "id": "x-2109509368777707719",
-      "group": "enhypen",
-      "group_name": "ENHYPEN",
-      "city": "Macao",
-      "country": "China",
-      "lat": 22.1987,
-      "lon": 113.5439,
-      "text": "[공지] ENHYPEN WORLD TOUR 'BLOOD SAGA’ IN MACAU 멤버십 부스 ‘ENGENE ZONE’ 운영 안내 (+ENG/JPN/CHN)",
-      "url": "https://x.com/ENHYPEN/status/2109509368777707719",
-      "account": "ENHYPEN",
-      "when": "2026-10-12T05:00:00Z"
     },
     {
       "id": "x-2108740853376360542",

@@ -27,7 +27,9 @@
   "news:7fc2b7e1731190ea|canal": "2026-10-16T07:28:58Z",
   "news:03468a6950358870|canal": "2026-10-16T07:28:58Z",
   "news:9055debbc701bc82|canal": "2026-10-16T07:28:58Z",
-  "news:75e89e2eef9699bd|canal": "2026-10-16T07:28:58Z"
+  "news:75e89e2eef9699bd|canal": "2026-10-16T07:28:58Z",
+  "next:lngshot:lng-20261015-zurich|ntfy": "2026-10-16T08:05:46Z",
+  "today:enhypen:enh-20261016-macao|ntfy": "2026-10-16T08:05:46Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -845,6 +847,7 @@
   "837212f9ee6475ab",
   "84038b786c539d8d",
   "84df9a5990e09fa1",
+  "880b48dda87dbd6d",
   "883a15fa5402ae75",
   "88dd608ac4d8cbec",
   "89143d1d0f7b9b5d",
@@ -919,5 +922,6 @@
   "fb8056f4c7959797",
   "fcc5d1953a5f1c97",
   "fded445d7afc4a94"
- ]
+ ],
+ "news_topics": []
 }

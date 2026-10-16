@@ -6,17 +6,41 @@
    "ok": true,
    "since": "2026-10-16T07:55:55Z"
   },
+  "itunes": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-16T08:05:06Z"
+  },
+  "ntfy": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-16T08:05:47Z"
+  },
   "rsshub": {
    "msg": "",
    "notified": false,
    "ok": true,
    "since": "2026-10-16T07:42:15Z"
   },
+  "ticketmaster": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-16T08:04:51Z"
+  },
   "tiktok": {
    "msg": "",
    "notified": false,
    "ok": true,
    "since": "2026-10-16T08:01:53Z"
+  },
+  "youtube": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-16T08:05:06Z"
   }
  }
 }
