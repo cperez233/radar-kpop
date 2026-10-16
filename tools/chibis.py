@@ -9,10 +9,14 @@ Reads tools/members.json and writes:
 
 Every chibi is original art drawn in code, inspired by the hair and outfit in an official photo of each group.
 They are not portraits. To change a hairstyle, a colour or a pose, edit tools/members.json and run this again.
+Groups listed in tools/chibis_sticker.py (GROUPS) are drawn there in the new sticker style: this script keeps
+their names in roster.json but leaves their SVGs alone.
 """
 import json
 import math
 from pathlib import Path
+
+from chibis_sticker import GROUPS as STICKER_GROUPS
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "assets" / "chibis"
@@ -415,13 +419,14 @@ def main() -> None:
     src = json.loads((ROOT / "tools" / "members.json").read_text(encoding="utf-8"))
     roster = {}
     for gid, g in src["groups"].items():
-        d = OUT / gid
-        d.mkdir(parents=True, exist_ok=True)
-        for old in d.glob("*.svg"):
-            old.unlink()
-        for i, m in enumerate(g["members"]):
-            (d / f'{m["id"]}.svg').write_text(svg_member(m, g["color"], g.get("name", gid), f"{gid}-{m['id']}", i * .9 % 4.6), encoding="utf-8")
-        (OUT / f"{gid}.svg").write_text(svg_group(gid, g, g.get("name", gid)), encoding="utf-8")
+        if gid not in STICKER_GROUPS:
+            d = OUT / gid
+            d.mkdir(parents=True, exist_ok=True)
+            for old in d.glob("*.svg"):
+                old.unlink()
+            for i, m in enumerate(g["members"]):
+                (d / f'{m["id"]}.svg').write_text(svg_member(m, g["color"], g.get("name", gid), f"{gid}-{m['id']}", i * .9 % 4.6), encoding="utf-8")
+            (OUT / f"{gid}.svg").write_text(svg_group(gid, g, g.get("name", gid)), encoding="utf-8")
         roster[gid] = [{"id": m["id"], "name": m["name"], "ko": m["ko"]} for m in g["members"]]
     generic = {"id": "fan", "name": "Fan", "hair": "fringe", "hc": "#6A5A8E", "outfit": "hoodie", "oc": "#DCCFFF", "inner": "#FFFFFF",
                "eyes": "happy", "mouth": "open", "pose": "wave"}
