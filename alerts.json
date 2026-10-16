@@ -1,6 +1,72 @@
 {
- "updated_at": "2026-10-16T07:28:52Z",
+ "updated_at": "2026-10-16T08:48:52Z",
  "alerts": [
+  {
+   "type": "new_date",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "ATEEZ agregó fechas en Incheon",
+   "body": "22 ene 2027, 23 ene 2027, 25 ene 2027, Corea del Sur.",
+   "title_en": "ATEEZ added dates in Incheon",
+   "body_en": "Jan 22, 2027, Jan 23, 2027, Jan 25, 2027, South Korea.",
+   "when": "2026-10-16T08:48:52Z",
+   "url": null
+  },
+  {
+   "type": "new_date",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "ATEEZ agregó fechas en Tokio",
+   "body": "2 feb 2027, 3 feb 2027, Japón.",
+   "title_en": "ATEEZ added dates in Tokyo",
+   "body_en": "Feb 2, 2027, Feb 3, 2027, Japan.",
+   "when": "2026-10-16T08:48:52Z",
+   "url": null
+  },
+  {
+   "type": "new_date",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "ATEEZ agregó fechas en Kobe",
+   "body": "13 feb 2027, 14 feb 2027, Japón.",
+   "title_en": "ATEEZ added dates in Kobe",
+   "body_en": "Feb 13, 2027, Feb 14, 2027, Japan.",
+   "when": "2026-10-16T08:48:52Z",
+   "url": null
+  },
+  {
+   "type": "comeback",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "💿 Hoy sale «<THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE» de TWICE",
+   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "title_en": "💿 TWICE's «<THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE» is out today",
+   "body_en": "Go listen! (or in a few hours, depending on your time zone)",
+   "when": "2026-10-16T08:48:52Z",
+   "url": "https://music.apple.com/us/album/this-is-for-world-tour-finale-in-seoul-live/6812503580"
+  },
+  {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[📷] ATEEZ(에이티즈) GOLDEN HOUR : Part.6 Concept Photo 1 2026. 11. 13 2PM RELEASE 📎Pre-save/add: https://ateez.sng.to/golden-hour-part-6 #ATEEZ ...» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
+   "body_en": "\"[📷] ATEEZ(에이티즈) GOLDEN HOUR : Part.6 Concept Photo 1 2026. 11. 13 2PM RELEASE 📎Pre-save/add: https://ateez.sng.to/golden-hour-part-6 #ATEEZ ...\" (ATEEZ en X).",
+   "when": "2026-10-16T08:48:52Z",
+   "url": "https://x.com/ATEEZofficial/status/2110747526156485085"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) log_logbook#235 (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) log_logbook#235 (YouTube)",
+   "when": "2026-10-16T08:48:52Z",
+   "url": "https://www.youtube.com/watch?v=5yq1V26GjdQ"
+  },
   {
    "type": "new_date",
    "group": "bts",
