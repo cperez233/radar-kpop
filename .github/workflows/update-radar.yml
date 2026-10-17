@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       prueba:
-        description: "Mandar una alerta de prueba a Discord y ntfy (y nada más)"
+        description: "Mandar una alerta de prueba a Discord, ntfy y cada publicación del foro (y nada más)"
         type: boolean
         default: false
 
@@ -36,6 +36,7 @@ jobs:
         env:
           TEST_ALERT: "1"
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_FORUM_WEBHOOK_URL: ${{ secrets.DISCORD_FORUM_WEBHOOK_URL }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python alerts/engine.py
 
