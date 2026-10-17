@@ -128,7 +128,10 @@
   "today:lngshot:lng-20261017-milan|ntfy": "2026-10-17T06:01:04Z",
   "today:lngshot:lng-20261017-milan|pub:radarkpop-lngshot-shows": "2026-10-17T06:01:04Z",
   "today:lngshot:lng-20261017-milan|pub:radarkpop-pais-italia": "2026-10-17T06:01:04Z",
-  "today:lngshot:lng-20261017-milan|foro": "2026-10-17T06:01:04Z"
+  "today:lngshot:lng-20261017-milan|foro": "2026-10-17T06:01:04Z",
+  "live:enh-20261017-macao|ntfy": "2026-10-17T10:45:55Z",
+  "live:enh-20261017-macao|pub:radarkpop-enhypen-shows": "2026-10-17T10:45:55Z",
+  "live:enh-20261017-macao|foro": "2026-10-17T10:45:55Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1043,6 +1046,7 @@
   "693284d097c750f7",
   "6b9de9f9739b2949",
   "6bbcfae7a465dc47",
+  "6ca044fd3f407569",
   "6d31b59d502cb9a9",
   "6deadc0790723ad5",
   "6eb688ec6484ab24",
@@ -1484,6 +1488,7 @@
   "bts": "1560811054764925032",
   "skz": "1560811126709559389",
   "twice": "1560816133915803742",
-  "lngshot": "1560853868294971504"
+  "lngshot": "1560853868294971504",
+  "enhypen": "1560967098178605127"
  }
 }

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T10:30:31Z",
+ "updated_at": "2026-10-17T10:45:28Z",
  "sample": false,
  "items": [
   {
@@ -19,6 +19,15 @@
    "published": "2026-10-17T10:16:57Z",
    "url": "https://www.youtube.com/watch?v=YW3BxZZSbJc",
    "image": "https://i.ytimg.com/vi/YW3BxZZSbJc/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "따따리따~ #JAY #JAKE #SUNGHOON #ENHYPEN",
+   "date": "2026-10-17",
+   "published": "2026-10-17T10:32:38Z",
+   "url": "https://www.youtube.com/watch?v=YCyWmepwef0",
+   "image": "https://i.ytimg.com/vi/YCyWmepwef0/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -91,15 +100,6 @@
    "published": "2026-10-16T16:24:36Z",
    "url": "https://www.youtube.com/watch?v=rdbG9d0Nzo4",
    "image": "https://i.ytimg.com/vi/rdbG9d0Nzo4/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "#BLOODSAGA_IN_MACAU DAY1❤️‍🔥#EN_WORLDTOUR_BLOODSAGA #ENHYPEN",
-   "date": "2026-10-16",
-   "published": "2026-10-16T16:22:33Z",
-   "url": "https://www.youtube.com/watch?v=qo-FyzXcD4g",
-   "image": "https://i.ytimg.com/vi/qo-FyzXcD4g/hqdefault.jpg"
   },
   {
    "type": "video",
