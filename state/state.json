@@ -137,7 +137,10 @@
   "news:8d5013b8a186306f|foro": "2026-10-17T11:33:18Z",
   "news:67c32e301ed9349e|ntfy": "2026-10-17T13:45:55Z",
   "news:67c32e301ed9349e|pub:radarkpop-bts-news": "2026-10-17T13:45:55Z",
-  "news:67c32e301ed9349e|foro": "2026-10-17T13:45:55Z"
+  "news:67c32e301ed9349e|foro": "2026-10-17T13:45:55Z",
+  "news:12b4a3f7f902c68a|ntfy": "2026-10-17T14:16:04Z",
+  "news:12b4a3f7f902c68a|pub:radarkpop-bts-news": "2026-10-17T14:16:04Z",
+  "news:12b4a3f7f902c68a|foro": "2026-10-17T14:16:04Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -975,6 +978,7 @@
   "0fbf25e3f87492ea",
   "11acf55ff2fd475e",
   "11d3d2e8027fbb9a",
+  "12b4a3f7f902c68a",
   "16bdeddaa9651e21",
   "16fc7055c04918d7",
   "18924fd1bb0ebd19",
@@ -1009,6 +1013,7 @@
   "390ee90c1bd5eabd",
   "39c26763054ebfe8",
   "39f76f66cbf0a9cd",
+  "3b2d73c034e4e4d2",
   "3b5d4a40f7b689df",
   "3c764024703b3435",
   "3d560db24dbf00fa",
@@ -1520,6 +1525,19 @@
     "recaudar"
    ],
    "t": "2026-10-17T13:45:47Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "army",
+    "chismoso",
+    "concierto",
+    "entrada",
+    "llego",
+    "perrito",
+    "sin"
+   ],
+   "t": "2026-10-17T14:15:56Z"
   }
  ],
  "discord_threads": {
