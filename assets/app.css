@@ -1281,8 +1281,6 @@ input[type="range"] { width: 100%; accent-color: var(--bubble); min-height: 32px
 :root[data-theme="dark"] .la-ico { background: #3A1F33; }
 :root[data-theme="dark"] .gp-bday { background: linear-gradient(120deg, #3A1F33, #3A321B); }
 @media (hover: hover) and (pointer: fine) { :root[data-theme="dark"] .topnav a:not([aria-current="true"]):hover { background: rgba(255, 255, 255, .07); } }
-/* el modo video se graba siempre con la paleta de día (es lo que va a TikTok) */
-:root[data-theme="dark"] .video { --paper: #F4EEFF; --grid: #E7DDFB; --ink: #2E2150; --ink-2: #5A4B82; --white: #FFFFFF; --shadow: #B9A4EE; --butter: #FFF1A8; --lilac: #DCCFFF; color-scheme: light; color: var(--ink); }
 
 /* botón del tema: luna de día, sol de noche */
 .btn-ico.theme .ico-sun { display: none; }
@@ -1558,7 +1556,7 @@ details summary::before, details summary::after { transition: transform .4s var(
 .player .app-sw { margin: 0; max-width: none; }
 .pl-frame { border-radius: 16px; overflow: hidden; border: 2px solid var(--ink); background: var(--white); animation: plFrame .35s var(--ease) both; }
 .pl-frame iframe { display: block; width: 100%; height: 452px; border: 0; }
-.pl-frame.video iframe { height: auto; aspect-ratio: 16 / 9; }
+
 .pl-frame.none { border-style: dashed; }
 .pl-note { margin: 0; padding: 10px 12px; font-size: 14px; font-weight: 700; color: var(--ink-2); }
 .pl-frame.none .pl-note { padding: 22px 14px; text-align: center; }
@@ -1571,7 +1569,8 @@ details summary::before, details summary::after { transition: transform .4s var(
 .rel { display: grid; gap: 10px; padding: 10px; border-radius: 20px; border: 2.5px solid var(--ink); background: var(--white); box-shadow: 4px 5px 0 var(--gc, var(--shadow)); animation: plFrame .35s var(--ease) both; }
 .rel-embed { border-radius: 14px; overflow: hidden; background: var(--paper); }
 .rel-embed iframe { display: block; width: 100%; height: 352px; border: 0; }
-.rel-embed.video iframe { height: auto; aspect-ratio: 16 / 9; }
+.rel-embed.video { position: relative; height: 0; padding-top: 56.25%; }
+.rel-embed.video iframe { position: absolute; inset: 0; width: 100%; height: 100% !important; }
 .rel-card { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 14px; align-items: center; }
 .rel-art { width: 112px; height: 112px; border-radius: 14px; border: 2px solid var(--ink); object-fit: cover; transform: rotate(-2deg); box-shadow: 3px 4px 0 var(--gc, var(--shadow)); background: var(--paper); }
 .rel-info { display: grid; gap: 4px; min-width: 0; }
@@ -1595,3 +1594,19 @@ details summary::before, details summary::after { transition: transform .4s var(
 @media (max-width: 420px) { .rel-card { grid-template-columns: 88px minmax(0, 1fr); } .rel-art { width: 88px; height: 88px; } }
 .player .rel { box-shadow: none; border: 0; padding: 0; background: none; }
 @media (prefers-reduced-motion: reduce) { .rel, .rel-play.on { animation: none; } }
+/* modo story de noche: el mismo cuaderno pastel, en lavanda con estrellitas */
+:root[data-theme="dark"] .video { background: #120C22; }
+:root[data-theme="dark"] .video-frame { background-color: #1C1535; }
+:root[data-theme="dark"] .v-sky { background: radial-gradient(circle at 50% 44%, rgba(255, 125, 186, .22) 0, rgba(140, 114, 232, .16) 32%, rgba(28, 21, 53, 0) 62%); }
+/* en PC los lanzamientos respiran: dos columnas en la página del grupo, portada más grande y la hoja más ancha */
+@media (min-width: 900px) {
+  .rel-list { grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); align-items: start; }
+  .rel-card { grid-template-columns: 150px minmax(0, 1fr); }
+  .rel-art { width: 150px; height: 150px; }
+  .rel-info b { font-size: 26px; }
+  .pl-card { width: min(100% - 40px, 760px); }
+  .player .rel-card { grid-template-columns: 200px minmax(0, 1fr); }
+  .player .rel-art { width: 200px; height: 200px; }
+  .player .rel-info b { font-size: 32px; }
+  .cards .acts .c-socs { display: inline-flex; gap: 6px; }
+}

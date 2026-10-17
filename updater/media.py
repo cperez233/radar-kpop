@@ -149,6 +149,8 @@ def match_mv(item: dict, vids: list[dict]) -> str:
         return ""
     for v in vids:
         t = v["title"].lower()
+        if re.search(r"behind|teaser|making|practice|reaction|sketch|shorts?\b|reel|recording|episode|live clip|performance|lyric", t):
+            continue  # un detrás de cámaras o un teaser no es el MV
         if v["group"] == item["group"] and re.search(r"\b(m/?v|music video)\b", t) and re.search(r"(^|[\s'‘’\"“”(\[])" + re.escape(key) + r"($|[\s'‘’\"“”)\].:!?-])", t):
             vid = re.search(r"[?&]v=([\w-]{6,})", v["url"])
             if vid:
@@ -207,6 +209,9 @@ def main() -> int:
     sp_cache, n_sp, n_search, n_tr = {}, 0, 0, 0
     for it in (x for x in items if x["type"] == "music"):
         before = prev.get(it["url"], {})
+        if before and before.get("ytm_v") != 2:  # la búsqueda del MV mejoró: se vuelve a buscar una vez
+            before = {k: v for k, v in before.items() if k not in ("ytm", "ytm_try")}
+        it["ytm_v"] = 2
         for k in ("spotify", "ytm", "tracks"):
             if before.get(k):
                 it[k] = before[k]
@@ -255,7 +260,7 @@ def main() -> int:
     report("youtube", n_yt > 0, "" if n_yt else ("la key fue rechazada (revisa YT_API_KEY)" if " 400" in yt_err or " 403" in yt_err else yt_err or "no respondió"))
     items.sort(key=lambda x: x["date"], reverse=True)
     doc = {"updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "sample": False, "items": items}
-    sig = lambda xs: [(x["url"], x.get("spotify"), x.get("ytm"), x.get("ytm_try"), len(x.get("tracks") or [])) for x in xs]  # noqa: E731
+    sig = lambda xs: [(x["url"], x.get("spotify"), x.get("ytm"), x.get("ytm_try"), x.get("ytm_v"), len(x.get("tracks") or [])) for x in xs]  # noqa: E731
     if sig(items) == sig(old.get("items", [])):
         print(f"Sin cambios ({ok} fuentes bien)")
     else:
