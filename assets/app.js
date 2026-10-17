@@ -101,7 +101,7 @@
     var key = id + (dark ? ':d' : '');
     if (textCache[key]) return textCache[key];
     var c = gColor(id); if (!/^#[0-9a-f]{6}$/i.test(c)) return (textCache[key] = c);
-    return (textCache[key] = dark ? towards(c, [0xEE, 0xE7, 0xFF], '#221A3A') : towards(c, [0x2E, 0x21, 0x50], '#FFFFFF'));
+    return (textCache[key] = dark ? towards(c, [0xF1, 0xEB, 0xFF], '#2E2550') : towards(c, [0x2E, 0x21, 0x50], '#FFFFFF'));
   }
   function gStyle(id) { return '--gc:' + gColor(id) + ';--gt:' + gText(id) + ';--gt-d:' + gText(id, true); }
   /* avatar pequeño = el grupo completo en chibi (se ve entero, sin recortes) */
@@ -526,6 +526,8 @@
     states.sort(function (a, b) {
       if (isFav(a.id) !== isFav(b.id)) return isFav(a.id) ? -1 : 1;
       if (isFav(a.id) && favs.indexOf(a.id) !== favs.indexOf(b.id)) return favs.indexOf(a.id) - favs.indexOf(b.id);
+      // BTS abre la lista (después de tus favoritos); el resto va por quién toca primero
+      if ((a.id === 'bts') !== (b.id === 'bts')) return a.id === 'bts' ? -1 : 1;
       if (rank[a.mode] !== rank[b.mode]) return rank[a.mode] - rank[b.mode];
       if (a.cur && b.cur) return a.cur.t - b.cur.t;
       return 0;
@@ -623,7 +625,7 @@
   /* paletas del globo: de día (papel pastel) y de noche, el modo concierto (océano azul noche y las ciudades encendidas) */
   var GPAL = {
     light: { land: '#C6F3DA', dot: 'rgba(46,33,80,.13)', landShade: 'rgba(123,93,206,.38)', coast: '#fff', grat: 'rgba(255,255,255,.6)', cloud: '#fff', cloudShade: 'rgba(185,164,238,.55)', ink: '#2E2150', halo: '#fff', pin: '#fff' },
-    dark: { land: '#24524E', dot: 'rgba(255,214,120,.62)', landShade: 'rgba(0,0,0,.38)', coast: 'rgba(214,226,255,.85)', grat: 'rgba(150,180,255,.2)', cloud: 'rgba(214,206,255,.26)', cloudShade: 'rgba(0,0,0,.18)', ink: '#EEE7FF', halo: '#140E22', pin: '#221A3A' }
+    dark: { land: '#24524E', dot: 'rgba(255,214,120,.62)', landShade: 'rgba(0,0,0,.38)', coast: 'rgba(214,226,255,.85)', grat: 'rgba(150,180,255,.2)', cloud: 'rgba(214,206,255,.26)', cloudShade: 'rgba(0,0,0,.18)', ink: '#EEE7FF', halo: '#1C1535', pin: '#221A3A' }
   };
   function Globe(canvas, pinsEl, opt) {
     this.c = canvas; this.ctx = canvas.getContext('2d'); this.pinsEl = pinsEl; this.opt = opt || {};
@@ -1340,9 +1342,13 @@
     var L = LIGHTSTICKS[id];
     if (!L) return big ? '<section class="gp-sec ls-none"><p class="gp-k">' + esc(t('lsTitle')) + '</p><p class="gp-muted">' + esc(t('lsNone')) + '</p></section>' : '';
     var on = lit === id;
-    return '<div class="ls-row' + (big ? ' big' : '') + (on ? ' is-lit' : '') + '" style="--lc:' + L.c[0] + ';--lc2:' + L.c[1] + '">' +
-      '<button type="button" class="ls-btn" data-light="' + esc(id) + '" aria-pressed="' + on + '" aria-label="' + esc(t(on ? 'lsOff' : 'lsOn', { name: L.name })) + '"><span class="ls-glow" aria-hidden="true"></span><span class="ls-wave">' + lightstickSvg(id) + '</span></button>' +
-      '<div class="ls-txt"><p class="squad-k">' + esc(t('lsTitle')) + ' <span class="ko" lang="ko">응원봉</span></p><b>' + esc(L.name) + '</b><small>' + esc(t('lsSince', { y: L.year })) + ' · ' + esc(on ? t('lsLit') : t('lsTap')) + '</small>' +
+    // el escenario: un recuadro de noche con estrellitas; el brillo va dentro del lightstick, así se mece con él
+    var stars = '<i class="ls-star s1"></i><i class="ls-star s2"></i><i class="ls-star s3"></i><i class="ls-star s4"></i>';
+    return '<div class="ls-row' + (big ? ' big' : '') + (on ? ' is-lit' : '') + '" data-light="' + esc(id) + '" style="--lc:' + L.c[0] + ';--lc2:' + L.c[1] + '">' +
+      '<button type="button" class="ls-btn" data-light="' + esc(id) + '" aria-pressed="' + on + '" aria-label="' + esc(t(on ? 'lsOff' : 'lsOn', { name: L.name })) + '">' +
+      '<span class="ls-stage" aria-hidden="true">' + stars + '<span class="ls-wave"><span class="ls-pop"><span class="ls-glow"></span><span class="ls-ring"></span>' + lightstickSvg(id) + '</span></span></span></button>' +
+      '<div class="ls-txt"><p class="squad-k">' + esc(t('lsTitle')) + ' <span class="ko" lang="ko">응원봉</span></p><b>' + esc(L.name) + '</b>' +
+      '<span class="ls-meta"><small>' + esc(t('lsSince', { y: L.year })) + '</small><span class="ls-chip">' + esc(on ? t('lsLit') : t('lsTap')) + '</span></span>' +
       (big ? '<p class="ls-note">' + esc(L.note[lang] || L.note.en) + '</p>' : '') + '</div></div>';
   }
   /* el mar de lightsticks (solo de noche, abajo del globo): el color del que tienes encendido, si no el de tu grupo favorito */
@@ -1357,12 +1363,16 @@
     Sound.play(on ? 'heart' : 'toggle');
     if (on) buzz(12);
     $$('.ls-row').forEach(function (r) {
-      var b = r.querySelector('[data-light]'), me = b && b.getAttribute('data-light') === lit;
-      r.classList.toggle('is-lit', !!me); if (b) { b.setAttribute('aria-pressed', String(!!me)); var L = LIGHTSTICKS[b.getAttribute('data-light')]; b.setAttribute('aria-label', t(me ? 'lsOff' : 'lsOn', { name: L.name })); }
-      var sm = r.querySelector('.ls-txt small'); if (sm && b) sm.textContent = t('lsSince', { y: LIGHTSTICKS[b.getAttribute('data-light')].year }) + ' · ' + (me ? t('lsLit') : t('lsTap'));
+      var b = r.querySelector('button[data-light]'), rid = b && b.getAttribute('data-light'), me = rid === lit, was = r.classList.contains('is-lit');
+      r.classList.toggle('is-lit', !!me); if (!b) return;
+      b.setAttribute('aria-pressed', String(!!me)); b.setAttribute('aria-label', t(me ? 'lsOff' : 'lsOn', { name: LIGHTSTICKS[rid].name }));
+      var ch = r.querySelector('.ls-chip'); if (ch) ch.textContent = me ? t('lsLit') : t('lsTap');
+      // un destello al encender y un parpadeo al apagar (se quitan solos)
+      if (me !== was && !reduce) { r.classList.remove('ls-just-on', 'ls-just-off'); void r.offsetWidth; r.classList.add(me ? 'ls-just-on' : 'ls-just-off');
+        setTimeout(function () { r.classList.remove('ls-just-on', 'ls-just-off'); }, 900); }
     });
     renderOcean();
-    if (on && !reduce && el) { var r = el.getBoundingClientRect(), L = LIGHTSTICKS[id]; confettiBurst(r.left + r.width / 2, r.top + 10, 16, [L.c[0], L.c[1], '#FFD84D', '#fff'], 6, null, Math.PI * 2); }
+    if (on && !reduce && el) { var r = (el.querySelector('.ls-stage') || el).getBoundingClientRect(), L = LIGHTSTICKS[id]; confettiBurst(r.left + r.width / 2, r.top + 10, 16, [L.c[0], L.c[1], '#FFD84D', '#fff'], 6, null, Math.PI * 2); }
   }
   function listenHtml(g) {
     var p = PROFILE[g.id]; if (!p) return '';
@@ -2913,7 +2923,7 @@
   function applyTheme(next) {
     theme = next;
     if (next === 'dark') document.documentElement.setAttribute('data-theme', 'dark'); else document.documentElement.removeAttribute('data-theme');
-    var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = next === 'dark' ? '#140E22' : '#F4EEFF';
+    var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = next === 'dark' ? '#1C1535' : '#F4EEFF';
     var b = $('#themeBtn'); if (b) { b.setAttribute('aria-pressed', String(next === 'dark')); b.setAttribute('aria-label', t(next === 'dark' ? 'themeLight' : 'themeDark')); }
     if (globe) globe.kick();
     if (view === 'sonar') renderSonar();
