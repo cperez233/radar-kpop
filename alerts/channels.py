@@ -21,15 +21,27 @@ UA = "DiscordBot (https://github.com/radar-kpop, 1.0)"
 
 
 def _post(url: str, payload: dict, headers: dict) -> dict:
-    req = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json", "User-Agent": UA, **headers},
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=20) as r:
-        raw = r.read()
-    return json.loads(raw) if raw else {}
+    for attempt in (1, 2):
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json", "User-Agent": UA, **headers},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=20) as r:
+                raw = r.read()
+            return json.loads(raw) if raw else {}
+        except urllib.error.HTTPError as exc:
+            if exc.code != 429 or attempt == 2:
+                raise
+            # demasiados mensajes seguidos: se espera lo que pide el servidor y se reintenta una vez
+            try:
+                wait = float(json.loads(exc.read() or b"{}").get("retry_after", 0))
+            except ValueError:
+                wait = 0
+            time.sleep(min(max(wait, float(exc.headers.get("Retry-After") or 0), 1), 15))
+    return {}
 
 
 def _embed(alert: dict) -> dict:
@@ -58,24 +70,33 @@ def send_discord_webhook(url: str | None, alert: dict, dry: bool) -> bool:
         return False
 
 
-def send_discord_forum(url: str, alert: dict, thread_id: str | None, thread_name: str, dry: bool) -> tuple[bool, str | None]:
-    """Webhook de un canal tipo foro: escribe en la publicación del grupo (thread_id) o la crea (thread_name).
-    Devuelve (salió, id de la publicación). Así cada fan sigue solo las publicaciones de sus grupos."""
+def send_discord_forum(url: str, alert: dict, thread_id: str | None, thread_name: str, dry: bool,
+                       intro: str = "") -> tuple[bool, str | None, bool]:
+    """Webhook de un canal tipo foro: escribe en la publicación del grupo (thread_id) o la crea (thread_name, con intro
+    como texto del primer mensaje). Devuelve (salió, id de la publicación, la publicación ya no existe).
+    Así cada fan sigue solo las publicaciones de sus grupos."""
     if dry or not url:
         print(f"[prueba] discord foro [{thread_name}] | {alert['title']}")
-        return True, thread_id
+        return True, thread_id, False
     sep = "&" if "?" in url else "?"
     try:
         if thread_id:
             _post(f"{url}{sep}wait=true&thread_id={thread_id}", {"embeds": [_embed(alert)]}, {})
             time.sleep(0.6)
-            return True, thread_id
-        msg = _post(f"{url}{sep}wait=true", {"thread_name": thread_name[:100], "embeds": [_embed(alert)]}, {})
+            return True, thread_id, False
+        body = {"thread_name": thread_name[:100], "embeds": [_embed(alert)]}
+        if intro:
+            body["content"] = intro[:1900]
+        msg = _post(f"{url}{sep}wait=true", body, {})
         time.sleep(0.6)
-        return True, str(msg.get("channel_id") or "") or None
+        return True, str(msg.get("channel_id") or "") or None, False
+    except urllib.error.HTTPError as exc:
+        print(f"Fallo el foro de Discord ({thread_name}): {exc}")
+        # 404 = la publicación se borró (Unknown Channel); cualquier otro error no es motivo para crear otra
+        return False, None, bool(thread_id) and exc.code == 404
     except (urllib.error.URLError, OSError, ValueError) as exc:
         print(f"Fallo el foro de Discord ({thread_name}): {exc}")
-        return False, None
+        return False, None, False
 
 
 NTFY_TAGS = {"new_date": "date", "changed": "warning", "removed": "x", "live": "red_circle", "stop_today": "star",

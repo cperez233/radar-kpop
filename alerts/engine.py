@@ -598,15 +598,18 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
 
 
 FORUM_NAMES = {"radar": "📅 Tu semana K-pop"}
+FORUM_INTRO = {"radar": "Cada lunes, el resumen de la semana K-pop: fechas, estrenos y cumpleaños. Sigue esta publicación para que Discord te avise."}
 
 
 def forum_post(url: str, a: dict, threads: dict, dry: bool) -> bool:
     """Publica en el foro de Discord, dentro de la publicación del grupo (la crea la primera vez y guarda su id)."""
     gid = a["group"]
     name = FORUM_NAMES.get(gid) or f"{a.get('group_name') or gid} · alertas"
-    ok, tid = channels.send_discord_forum(url, a, threads.get(gid), name, dry)
-    if not ok and threads.get(gid) and not dry:  # la publicación se borró: se crea otra
-        ok, tid = channels.send_discord_forum(url, a, None, name, dry)
+    intro = FORUM_INTRO.get(gid) or (f"Aquí llegan las alertas de {a.get('group_name') or gid}: fechas y entradas, estrenos, noticias, "
+                                      "avisos oficiales y cumpleaños. Sigue esta publicación para que Discord te avise.")
+    ok, tid, gone = channels.send_discord_forum(url, a, threads.get(gid), name, dry, intro)
+    if gone and not dry:  # la publicación se borró: se crea otra
+        ok, tid, _ = channels.send_discord_forum(url, a, None, name, dry, intro)
     if ok and tid:
         threads[gid] = tid
     return ok
