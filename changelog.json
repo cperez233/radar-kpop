@@ -1,5 +1,19 @@
 [
  {
+  "version": "4.16",
+  "date": "2026-10-17",
+  "title_es": "Escucha sin salir del radar",
+  "title_en": "Listen without leaving the radar",
+  "es": [
+   "Al tocar Escuchar en un lanzamiento (abajo en Releases o en la pestaña Música del grupo) se abre el reproductor de tu app: Spotify, Apple Music o YouTube Music, y puedes cambiar de app ahí mismo.",
+   "Moverse con el menú ya no se ve desplazándose detrás de la cortina: salta directo a la sección."
+  ],
+  "en": [
+   "Tapping Listen on a release (in Releases or the group's Music tab) opens your app's player: Spotify, Apple Music or YouTube Music, and you can switch apps right there.",
+   "Moving with the menu no longer scrolls behind the curtain: it jumps straight to the section."
+  ]
+ },
+ {
   "version": "4.15",
   "date": "2026-10-17",
   "title_es": "Enlaces directos en cada app",
