@@ -7,7 +7,7 @@ window.RADAR_CONFIG = {
 
   // Invitación al servidor de Discord del radar (por ejemplo "https://discord.gg/abc123"), con un canal tipo foro donde el
   // robot escribe una publicación por grupo (secreto DISCORD_FORUM_WEBHOOK_URL). Vacío = la pestaña Discord dice que viene pronto.
-  discordInvite: "",
+  discordInvite: "https://discord.gg/kaXmGnwjZ7",
 
   // URL pública de la web, por ejemplo "https://cperez233.github.io/radar-kpop". La usan la tarjeta para compartir,
   // el modo video y build.py (imagen para redes con URL completa). Vacío = la dirección actual.
