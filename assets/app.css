@@ -1223,35 +1223,46 @@ input[type="range"] { width: 100%; accent-color: var(--bubble); min-height: 32px
    de noche con las ciudades encendidas y, abajo, un mar de lightsticks del color de tu grupo favorito.
    Solo cambian las variables (y unos pocos fondos fijos); los rellenos de color de cada grupo no se tocan. */
 :root[data-theme="dark"] {
-  --paper: #140E22;
-  --grid: #1E1633;
-  --ink: #EEE7FF;
-  --ink-2: #BCAFE3;
-  --white: #221A3A;
-  --shadow: #3E2E78;
-  --bubble: #FF6FB3;
-  --mint: #163A30;
-  --sky: #17324C;
-  --butter: #3A321B;
-  --lilac: #2D2452;
-  --peach: #3E2B26;
+  /* noche pastel: lavanda profunda en vez de negro, sombras de caramelo y los pasteles intactos como stickers */
+  --paper: #1C1535;
+  --grid: #261D45;
+  --ink: #F1EBFF;
+  --ink-2: #C7BBEE;
+  --white: #2A2148;
+  --shadow: #8C72E8;
+  --bubble: #FF7DBA;
+  --mint: #A9EDCD;
+  --sky: #ABDAF7;
+  --butter: #FFE89E;
+  --lilac: #D5C6FF;
+  --peach: #FFCBB5;
   --live: #FF4B95;
   --sh-3: 4px 7px 0 var(--shadow), 0 18px 40px rgba(0, 0, 0, .45);
   color-scheme: dark;
 }
 :root[data-theme="dark"] body {
   background-image:
-    radial-gradient(ellipse 120% 60% at 50% -10%, rgba(123, 63, 228, .22), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 8% -6%, rgba(255, 125, 186, .26), transparent 62%),
+    radial-gradient(ellipse 60% 45% at 96% 4%, rgba(169, 237, 205, .16), transparent 60%),
+    radial-gradient(ellipse 90% 50% at 50% 0, rgba(140, 114, 232, .22), transparent 70%),
+    radial-gradient(circle at 12px 12px, rgba(255, 246, 200, .55) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 60px 84px, rgba(213, 198, 255, .5) 0 1.2px, transparent 1.8px),
     linear-gradient(var(--grid) 1px, transparent 1px),
     linear-gradient(90deg, var(--grid) 1px, transparent 1px);
-  background-size: 100% 100vh, 24px 24px, 24px 24px;
-  background-repeat: no-repeat, repeat, repeat;
+  background-size: 100% 110vh, 100% 110vh, 100% 110vh, 96px 96px, 120px 120px, 24px 24px, 24px 24px;
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat, repeat, repeat, repeat;
 }
-:root[data-theme="dark"] .sec-near { --sec-bg: #262013; --sec-line: #4A3F1F; }
-:root[data-theme="dark"] .sec-sights { --sec-bg: #10261D; --sec-line: #1F4A37; }
-:root[data-theme="dark"] .sec-media { --sec-bg: #0F2136; --sec-line: #1D3F62; }
-:root[data-theme="dark"] .sec-feed { --sec-bg: #291812; --sec-line: #4D2E22; }
-:root[data-theme="dark"] .sec-subscribe { --sec-bg: #1C1636; --sec-line: #3A2C6B; }
+:root[data-theme="dark"] .sec-near { --sec-bg: #2C2440; --sec-line: #FFE89E; }
+:root[data-theme="dark"] .sec-sights { --sec-bg: #1F2A43; --sec-line: #A9EDCD; }
+:root[data-theme="dark"] .sec-media { --sec-bg: #1E2549; --sec-line: #ABDAF7; }
+:root[data-theme="dark"] .sec-feed { --sec-bg: #2D2140; --sec-line: #FFCBB5; }
+:root[data-theme="dark"] .sec-subscribe { --sec-bg: #261E4A; --sec-line: #D5C6FF; }
+/* de noche cada sección lleva su borde pastel punteado y una sombra de su color, como un sticker sobre el cuaderno */
+:root[data-theme="dark"] .sec:is(.sec-near, .sec-sights, .sec-media, .sec-feed, .sec-subscribe) { border: 2.5px dashed color-mix(in srgb, var(--sec-line) 70%, transparent); box-shadow: 5px 6px 0 color-mix(in srgb, var(--sec-line) 28%, transparent); }
+/* lo que va relleno de pastel conserva la tinta de día: texto y borde oscuros sobre el sticker */
+:root[data-theme="dark"] :is(.nearest, .moon, .logo-dot, .logo-ko, .mute[aria-pressed="true"], .drag-hint, .z-btn[data-center-me], .c-state.rest, details.agenda[open] summary::before, .sample-tag, .sub-result, .ms-back, .ms-note.ms-back, .fm-back, .next-rel.rel-today, .chip-btn.right, .onsale, .ios-ico, .fm-mem.fm-back .fm-tag) { --ink: #2E2150; --ink-2: #5A4B82; color: var(--ink); }
+:root[data-theme="dark"] .cd-rest { background: color-mix(in srgb, var(--lilac) 16%, var(--white)); }
+:root[data-theme="dark"] .topics li.done { background: color-mix(in srgb, var(--mint) 18%, var(--white)); }
 :root[data-theme="dark"] .sky { background: radial-gradient(circle at 50% 46%, rgba(255, 95, 168, .16) 0, rgba(123, 63, 228, .1) 32%, transparent 62%); }
 :root[data-theme="dark"] .g-halo { background: radial-gradient(circle, rgba(255, 95, 168, .22) 0, rgba(123, 63, 228, .2) 50%, rgba(20, 14, 34, 0) 100%); }
 :root[data-theme="dark"] .g-ball {
@@ -1287,34 +1298,67 @@ input[type="range"] { width: 100%; accent-color: var(--bubble); min-height: 32px
 /* ================= lightsticks =================
    Fila en la tarjeta (mango a la izquierda, nombre a la derecha) y versión grande en la página del grupo.
    Encendido: el lightstick se mece, su luz respira detrás (solo opacidad y transform) y el texto lo dice. */
-.ls-row { display: grid; grid-template-columns: 58px minmax(0, 1fr); gap: 12px; align-items: center; padding: 8px 12px 8px 6px; border-radius: 18px; border: 2px dashed color-mix(in srgb, var(--lc) 55%, var(--ink) 15%); background: color-mix(in srgb, var(--lc) 10%, var(--white)); }
-.ls-row.is-lit { border-style: solid; border-color: var(--lc); background: color-mix(in srgb, var(--lc) 18%, var(--white)); }
-.ls-btn { position: relative; width: 58px; height: 84px; padding: 0; border: 0; background: none; cursor: pointer; display: grid; place-items: center; touch-action: manipulation; }
-.ls-wave { position: relative; z-index: 1; display: block; width: 36px; height: 72px; transform-origin: 50% 92%; transition: transform .35s var(--boing); }
-.ls-btn:active .ls-wave { transform: scale(.92) rotate(-6deg); }
-.ls-svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.ls-row { display: grid; grid-template-columns: 78px minmax(0, 1fr); gap: 14px; align-items: center; padding: 10px 14px 10px 10px; border-radius: 22px; border: 2.5px solid var(--ink); background: var(--white); box-shadow: 3px 4px 0 color-mix(in srgb, var(--lc) 55%, var(--white)); cursor: pointer; transition: box-shadow .4s var(--ease), background-color .4s var(--ease); }
+.ls-row.is-lit { background: color-mix(in srgb, var(--lc) 9%, var(--white)); box-shadow: 3px 4px 0 var(--lc), 0 0 22px color-mix(in srgb, var(--lc) 35%, transparent); }
+.ls-btn { display: block; padding: 0; border: 0; background: none; cursor: pointer; touch-action: manipulation; border-radius: 18px; }
+/* el escenario: pastel de día; al encender cae la noche adentro y salen estrellitas */
+.ls-stage { position: relative; display: block; width: 78px; height: 104px; border-radius: 18px; border: 2px solid var(--ink); overflow: hidden; isolation: isolate;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--lc) 26%, #fff), color-mix(in srgb, var(--lc2) 20%, #fff)); transform: rotate(-2deg); transition: transform .4s var(--boing); }
+:root[data-theme="dark"] .ls-stage { background: linear-gradient(180deg, color-mix(in srgb, var(--lc) 30%, #2A2145), color-mix(in srgb, var(--lc2) 16%, #2A2145)); }
+.ls-stage::before { content: ""; position: absolute; inset: 0; z-index: -1; opacity: 0; transition: opacity .5s var(--ease);
+  background: radial-gradient(circle at 50% 34%, color-mix(in srgb, var(--lc) 60%, #2A1F4E) 0, #2A1F4E 58%, #1A1333 100%); }
+.ls-stage::after { content: ""; position: absolute; left: -10%; right: -10%; bottom: -14px; height: 30px; border-radius: 50%; background: color-mix(in srgb, var(--lc) 30%, rgba(46, 33, 80, .25)); }
+.is-lit .ls-stage::before { opacity: 1; }
+.ls-btn:active .ls-stage, .ls-row:active .ls-stage { transform: rotate(-2deg) scale(.95); }
+@media (hover: hover) and (pointer: fine) { .ls-row:hover .ls-stage { transform: rotate(1deg) scale(1.03); } }
+.ls-star { position: absolute; width: 9px; height: 9px; background: #FFF6C8; clip-path: polygon(50% 0, 62% 38%, 100% 50%, 62% 62%, 50% 100%, 38% 62%, 0 50%, 38% 38%); opacity: 0; transform: scale(.3); transition: opacity .4s var(--ease), transform .5s var(--boing); }
+.ls-star.s1 { left: 12%; top: 14%; } .ls-star.s2 { right: 12%; top: 26%; width: 7px; height: 7px; } .ls-star.s3 { left: 18%; top: 52%; width: 6px; height: 6px; background: #fff; } .ls-star.s4 { right: 16%; top: 62%; width: 8px; height: 8px; background: color-mix(in srgb, var(--lc) 40%, #fff); }
+.is-lit .ls-star { opacity: 1; transform: scale(1); animation: lsTwinkle 2.4s ease-in-out infinite; }
+.is-lit .ls-star.s2 { animation-delay: -.6s; } .is-lit .ls-star.s3 { animation-delay: -1.2s; } .is-lit .ls-star.s4 { animation-delay: -1.8s; }
+/* el lightstick: se mece desde la mano (abajo); el brillo vive adentro, así lo sigue */
+.ls-wave { position: absolute; left: 50%; bottom: -8px; width: 42px; height: 84px; margin-left: -21px; transform-origin: 50% 96%; }
+.ls-pop { position: relative; display: block; width: 100%; height: 100%; transform-origin: 50% 90%; }
+.ls-svg { position: relative; z-index: 1; display: block; width: 100%; height: 100%; overflow: visible;
+  filter: saturate(.45) brightness(.97) drop-shadow(1.6px 0 0 #fff) drop-shadow(-1.6px 0 0 #fff) drop-shadow(0 1.6px 0 #fff) drop-shadow(0 -1.6px 0 #fff);
+  transition: filter .5s var(--ease); }
+.is-lit .ls-svg { filter: saturate(1.15) brightness(1.08) drop-shadow(1.6px 0 0 #fff) drop-shadow(-1.6px 0 0 #fff) drop-shadow(0 1.6px 0 #fff) drop-shadow(0 -1.6px 0 #fff) drop-shadow(0 0 7px var(--lc)); }
 .ls-svg .ls-h { fill: #2E2150; }
 .ls-svg .ls-g { fill: #5A4B82; }
-:root[data-theme="dark"] .ls-svg .ls-h { fill: #4B3D7E; }
-:root[data-theme="dark"] .ls-svg .ls-g { fill: #8E7DCC; }
-.ls-glow { position: absolute; left: 50%; top: 30%; width: 92px; height: 92px; margin: -46px 0 0 -46px; border-radius: 50%; background: radial-gradient(circle, color-mix(in srgb, var(--lc) 75%, transparent) 0, color-mix(in srgb, var(--lc2) 30%, transparent) 45%, transparent 70%); opacity: 0; transform: scale(.6); transition: opacity .4s var(--ease), transform .5s var(--boing); pointer-events: none; }
-.is-lit .ls-glow { opacity: 1; transform: scale(1); animation: lsBreathe 2.2s ease-in-out infinite; }
-.is-lit .ls-wave { animation: lsWave 1.6s ease-in-out infinite; }
-:root[data-theme="dark"] .ls-glow { opacity: .45; transform: scale(.8); }
-:root[data-theme="dark"] .is-lit .ls-glow { opacity: 1; }
-@keyframes lsWave { 0%, 100% { transform: rotate(-14deg); } 50% { transform: rotate(14deg); } }
-@keyframes lsBreathe { 0%, 100% { opacity: .75; transform: scale(.92); } 50% { opacity: 1; transform: scale(1.08); } }
-.ls-txt { min-width: 0; display: grid; gap: 1px; }
+.ls-glow { position: absolute; left: 50%; top: 25%; width: 330%; aspect-ratio: 1; transform: translate(-50%, -50%) scale(.4); border-radius: 50%; opacity: 0; pointer-events: none;
+  background: radial-gradient(circle, #fff 0, color-mix(in srgb, var(--lc) 90%, transparent) 14%, color-mix(in srgb, var(--lc) 45%, transparent) 34%, color-mix(in srgb, var(--lc2) 22%, transparent) 50%, transparent 70%); transition: opacity .45s var(--ease), transform .5s var(--boing); }
+.ls-ring { position: absolute; left: 50%; top: 25%; width: 120%; aspect-ratio: 1; border-radius: 50%; border: 3px solid var(--lc); opacity: 0; transform: translate(-50%, -50%) scale(.3); pointer-events: none; }
+.is-lit .ls-glow { opacity: 1; transform: translate(-50%, -50%) scale(1); animation: lsBreathe 2.2s ease-in-out infinite; }
+.is-lit .ls-wave { animation: lsWave 1.8s ease-in-out infinite; }
+/* encender: salto, destello y una onda de luz. apagar: parpadeo y el lightstick se cae un poquito */
+.ls-just-on .ls-pop { animation: lsPop .65s var(--boing); }
+.ls-just-on .ls-glow { animation: lsFlash .7s var(--ease), lsBreathe 2.2s ease-in-out .7s infinite; }
+.ls-just-on .ls-ring { animation: lsRing .75s var(--ease); }
+.ls-just-on .ls-chip { animation: lsChip .5s var(--boing); }
+.ls-just-off .ls-pop { animation: lsDroop .6s var(--ease); }
+.ls-just-off .ls-glow { animation: lsFlicker .55s linear; }
+@keyframes lsWave { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-13deg); } 75% { transform: rotate(13deg); } }
+@keyframes lsBreathe { 0%, 100% { opacity: 1; transform: translate(-50%, -50%) scale(1); } 50% { opacity: .72; transform: translate(-50%, -50%) scale(.88); } }
+@keyframes lsPop { 0% { transform: scale(.82); } 40% { transform: scale(1.18) rotate(-7deg); } 70% { transform: scale(.96) rotate(4deg); } 100% { transform: none; } }
+@keyframes lsFlash { 0% { opacity: 0; transform: translate(-50%, -50%) scale(.3); } 35% { opacity: 1; transform: translate(-50%, -50%) scale(1.45); } 100% { opacity: 1; transform: translate(-50%, -50%) scale(1); } }
+@keyframes lsRing { 0% { opacity: .95; transform: translate(-50%, -50%) scale(.3); } 100% { opacity: 0; transform: translate(-50%, -50%) scale(2.6); } }
+@keyframes lsFlicker { 0% { opacity: 1; transform: translate(-50%, -50%) scale(1); } 18% { opacity: .15; } 32% { opacity: .8; } 50% { opacity: .1; } 64% { opacity: .45; } 100% { opacity: 0; transform: translate(-50%, -50%) scale(.5); } }
+@keyframes lsDroop { 0% { transform: none; } 35% { transform: rotate(-9deg) scale(.95); } 65% { transform: rotate(4deg); } 100% { transform: none; } }
+@keyframes lsTwinkle { 0%, 100% { opacity: 1; transform: scale(1) rotate(0); } 50% { opacity: .35; transform: scale(.6) rotate(45deg); } }
+@keyframes lsChip { 0% { transform: scale(.7) rotate(-6deg); } 60% { transform: scale(1.12) rotate(3deg); } 100% { transform: rotate(-2deg); } }
+.ls-txt { min-width: 0; display: grid; gap: 3px; }
 .ls-txt .squad-k { margin: 0; }
-.ls-txt b { font: 400 21px/1.15 var(--f-display); letter-spacing: -.01em; }
-.ls-txt small { font-size: 13.5px; font-weight: 700; color: var(--ink-2); }
-.is-lit .ls-txt small { color: var(--ink); }
-.ls-row.big { grid-template-columns: 84px minmax(0, 1fr); padding: 12px 14px 12px 8px; }
-.ls-row.big .ls-btn { width: 84px; height: 124px; }
-.ls-row.big .ls-wave { width: 54px; height: 108px; }
-.ls-row.big .ls-glow { width: 130px; height: 130px; margin: -65px 0 0 -65px; }
+.ls-txt b { font: 400 22px/1.12 var(--f-display); letter-spacing: -.01em; }
+.ls-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+.ls-meta small { font-size: 13.5px; font-weight: 700; color: var(--ink-2); }
+/* la etiqueta es un sticker pastel en los dos temas */
+.ls-chip { --ink: #2E2150; display: inline-block; padding: 2px 10px 1px; border-radius: 10px; border: 2px dashed color-mix(in srgb, var(--lc) 60%, #2E2150); background: #fff; color: var(--ink); font: 700 13px/1.4 var(--f-body); transform: rotate(-2deg); }
+.is-lit .ls-chip { border-style: solid; border-color: #2E2150; background: color-mix(in srgb, var(--lc) 38%, #fff); box-shadow: 0 2px 0 var(--ink); }
+.ls-row.big { grid-template-columns: 108px minmax(0, 1fr); padding: 12px 16px 12px 12px; }
+.ls-row.big .ls-stage { width: 108px; height: 146px; border-radius: 22px; }
+.ls-row.big .ls-wave { width: 60px; height: 120px; margin-left: -30px; }
+.ls-row.big .ls-star { width: 12px; height: 12px; }
 .ls-note { margin: 6px 0 0; font-size: 14.5px; line-height: 1.45; color: var(--ink-2); }
-@media (prefers-reduced-motion: reduce) { .is-lit .ls-wave, .is-lit .ls-glow { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .is-lit .ls-wave, .is-lit .ls-glow, .is-lit .ls-star, .ls-just-on *, .ls-just-off * { animation: none !important; } }
 
 /* el mar de lightsticks: solo de noche, abajo del escenario, con el color del que tienes encendido */
 .ocean { display: none; }
