@@ -87,7 +87,32 @@
   "news:ad862756c22719dc|pub:radarkpop-bts-news": "2026-10-16T21:48:08Z",
   "news:6d31b59d502cb9a9|canal": "2026-10-16T21:48:08Z",
   "news:6d31b59d502cb9a9|ntfy": "2026-10-16T21:48:08Z",
-  "news:6d31b59d502cb9a9|pub:radarkpop-bts-news": "2026-10-16T21:48:08Z"
+  "news:6d31b59d502cb9a9|pub:radarkpop-bts-news": "2026-10-16T21:48:08Z",
+  "today:bts:bts-20261016-santiago|foro": "2026-10-17T00:19:59Z",
+  "live:bts-20261016-santiago|ntfy": "2026-10-17T00:19:59Z",
+  "live:bts-20261016-santiago|pub:radarkpop-bts-shows": "2026-10-17T00:19:59Z",
+  "live:bts-20261016-santiago|foro": "2026-10-17T00:19:59Z",
+  "news:7376ba57eb2d4392|ntfy": "2026-10-17T00:19:59Z",
+  "news:7376ba57eb2d4392|pub:radarkpop-bts-news": "2026-10-17T00:19:59Z",
+  "news:7376ba57eb2d4392|foro": "2026-10-17T00:19:59Z",
+  "news:bebc7fab28da52a5|ntfy": "2026-10-17T00:19:59Z",
+  "news:bebc7fab28da52a5|pub:radarkpop-bts-news": "2026-10-17T00:19:59Z",
+  "news:bebc7fab28da52a5|foro": "2026-10-17T00:19:59Z",
+  "news:fd75ddc4959ac608|ntfy": "2026-10-17T00:19:59Z",
+  "news:fd75ddc4959ac608|pub:radarkpop-bts-news": "2026-10-17T00:19:59Z",
+  "news:fd75ddc4959ac608|foro": "2026-10-17T00:19:59Z",
+  "news:df508a80852ccfa0|ntfy": "2026-10-17T00:19:59Z",
+  "news:df508a80852ccfa0|pub:radarkpop-bts-news": "2026-10-17T00:19:59Z",
+  "news:df508a80852ccfa0|foro": "2026-10-17T00:19:59Z",
+  "news:6bbcfae7a465dc47|ntfy": "2026-10-17T00:19:59Z",
+  "news:6bbcfae7a465dc47|pub:radarkpop-bts-news": "2026-10-17T00:19:59Z",
+  "news:6bbcfae7a465dc47|foro": "2026-10-17T00:19:59Z",
+  "news:21e07935168f73ff|ntfy": "2026-10-17T00:19:59Z",
+  "news:21e07935168f73ff|pub:radarkpop-bts-news": "2026-10-17T00:19:59Z",
+  "news:21e07935168f73ff|foro": "2026-10-17T00:19:59Z",
+  "news:df91eb9facff7351|ntfy": "2026-10-17T00:19:59Z",
+  "news:df91eb9facff7351|pub:radarkpop-skz-news": "2026-10-17T00:19:59Z",
+  "news:df91eb9facff7351|foro": "2026-10-17T00:19:59Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -931,6 +956,7 @@
   "1fdcfdfc76d2c945",
   "20660513ec01ecdb",
   "21b109f093ee5e38",
+  "21e07935168f73ff",
   "2382cccc0d27d138",
   "254ac6a33319392a",
   "27483291ba1cfe9a",
@@ -989,6 +1015,8 @@
   "679ac96bd183b1b7",
   "6898b544ad664ce0",
   "693284d097c750f7",
+  "6b9de9f9739b2949",
+  "6bbcfae7a465dc47",
   "6d31b59d502cb9a9",
   "6deadc0790723ad5",
   "6f208339857eba05",
@@ -996,6 +1024,7 @@
   "721b64b16310b5eb",
   "72be67d66498858d",
   "735bb156e119bf52",
+  "7376ba57eb2d4392",
   "73b5f79e2cac2206",
   "74582231ea978fdc",
   "75e89e2eef9699bd",
@@ -1041,6 +1070,7 @@
   "99bb7b56f0e52584",
   "9e0aece9e2c8cda0",
   "9eeb1f42eb447f73",
+  "a208891472485ef0",
   "a2153cb309fc9198",
   "a3395a5672762573",
   "a42212d3597c2d3a",
@@ -1051,6 +1081,7 @@
   "a880fa2c23d52329",
   "a89c1f791d473b61",
   "aa43f8e08837f26d",
+  "ab11224b98b43419",
   "ab2fbcb45155586b",
   "ab4a9fbee2c772ac",
   "ac396c6a08b27779",
@@ -1069,6 +1100,7 @@
   "b7d7cf59af0f01aa",
   "baffdb70106f1b7b",
   "bb28959efdf88008",
+  "bebc7fab28da52a5",
   "bec8f1410bd57979",
   "bf8f8400bbecc192",
   "c05c9ba06305e7b0",
@@ -1095,6 +1127,8 @@
   "dd323a64c13793af",
   "defb1ef553b2225b",
   "df039864311dc247",
+  "df508a80852ccfa0",
+  "df91eb9facff7351",
   "e20959cc2895af1d",
   "e23d52033c88fcf1",
   "e2d1897da009f191",
@@ -1112,6 +1146,7 @@
   "fa9f82f465a290fe",
   "fb8056f4c7959797",
   "fcc5d1953a5f1c97",
+  "fd75ddc4959ac608",
   "fded445d7afc4a94"
  ],
  "news_topics": [
@@ -1277,7 +1312,113 @@
     "volvio"
    ],
    "t": "2026-10-16T21:48:00Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "celebrar",
+    "chile",
+    "concierto",
+    "cumpleanos",
+    "jimin",
+    "primer",
+    "quebro"
+   ],
+   "t": "2026-10-17T00:19:50Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "concierto",
+    "dome",
+    "emision",
+    "exclusiva",
+    "japon",
+    "noviembre",
+    "tbs",
+    "tokio"
+   ],
+   "t": "2026-10-17T00:19:50Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "aseguro",
+    "chilenas",
+    "concierto",
+    "durante",
+    "empanadas",
+    "estaban",
+    "hablo",
+    "primer",
+    "raja",
+    "santiago",
+    "taehyung"
+   ],
+   "t": "2026-10-17T00:19:50Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arder",
+    "arirang",
+    "colosal",
+    "durante",
+    "fisico",
+    "hizo",
+    "jungkook",
+    "red",
+    "show",
+    "tour"
+   ],
+   "t": "2026-10-17T00:19:50Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "busca",
+    "chismoso",
+    "concierto",
+    "hogar",
+    "ingreso",
+    "perrito",
+    "tercer"
+   ],
+   "t": "2026-10-17T00:19:50Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "americo",
+    "amores",
+    "chile",
+    "compania",
+    "concierto",
+    "dos",
+    "especial",
+    "llego",
+    "mis"
+   ],
+   "t": "2026-10-17T00:19:50Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "concierto",
+    "debes",
+    "fecha",
+    "garbage",
+    "horarios",
+    "saber",
+    "sobre",
+    "todo",
+    "zocalo"
+   ],
+   "t": "2026-10-17T00:19:50Z"
   }
  ],
- "discord_threads": {}
+ "discord_threads": {
+  "bts": "1560809569922453576",
+  "skz": "1560809638612570145"
+ }
 }
