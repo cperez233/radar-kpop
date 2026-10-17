@@ -112,7 +112,13 @@
   "news:21e07935168f73ff|foro": "2026-10-17T00:25:53Z",
   "news:df91eb9facff7351|ntfy": "2026-10-17T00:25:53Z",
   "news:df91eb9facff7351|pub:radarkpop-skz-news": "2026-10-17T00:25:53Z",
-  "news:df91eb9facff7351|foro": "2026-10-17T00:25:53Z"
+  "news:df91eb9facff7351|foro": "2026-10-17T00:25:53Z",
+  "news:6eb688ec6484ab24|ntfy": "2026-10-17T00:46:00Z",
+  "news:6eb688ec6484ab24|pub:radarkpop-bts-news": "2026-10-17T00:46:00Z",
+  "news:6eb688ec6484ab24|foro": "2026-10-17T00:46:00Z",
+  "official:twice:comeback:2026-10-17|ntfy": "2026-10-17T00:46:00Z",
+  "official:twice:comeback:2026-10-17|pub:radarkpop-twice-music": "2026-10-17T00:46:00Z",
+  "official:twice:comeback:2026-10-17|foro": "2026-10-17T00:46:00Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1019,6 +1025,7 @@
   "6bbcfae7a465dc47",
   "6d31b59d502cb9a9",
   "6deadc0790723ad5",
+  "6eb688ec6484ab24",
   "6f208339857eba05",
   "70f9091478744a16",
   "721b64b16310b5eb",
@@ -1104,6 +1111,7 @@
   "bec8f1410bd57979",
   "bf8f8400bbecc192",
   "c05c9ba06305e7b0",
+  "c0900a8bc123825c",
   "c0c589f7ef316fb2",
   "c2c6828f0e1b7d73",
   "c643b56965722404",
@@ -1415,10 +1423,24 @@
     "zocalo"
    ],
    "t": "2026-10-17T00:25:45Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "camiones",
+    "decenas",
+    "escenario",
+    "estadio",
+    "llegaron",
+    "plata",
+    "unico"
+   ],
+   "t": "2026-10-17T00:45:52Z"
   }
  ],
  "discord_threads": {
   "bts": "1560811054764925032",
-  "skz": "1560811126709559389"
+  "skz": "1560811126709559389",
+  "twice": "1560816133915803742"
  }
 }
