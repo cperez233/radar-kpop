@@ -112,9 +112,10 @@ html = (tpl.replace("__DATA__", js(data)).replace("__PHOTOS__", js(photos)).repl
         .replace("__OG_IMAGE__", og_image).replace("__CANONICAL__\n", canonical + ("\n" if canonical else "")))
 # Política de seguridad (CSP) como <meta>, porque GitHub Pages no deja poner cabeceras.
 # El único script en línea es el de los datos; se permite por su hash, que cambia en cada build.
-inline = re.search(r"<script>(window\.RADAR_DATA0 = .*?)</script>", html, re.S).group(1)
-digest = base64.b64encode(hashlib.sha256(inline.encode("utf-8")).digest()).decode()
-csp = ("default-src 'self'; script-src 'self' 'sha256-" + digest + "'; "
+# Scripts en línea: el de los datos y el del tema (va en el <head> para que el modo oscuro no destelle). Se permiten por su hash.
+hashes = " ".join("'sha256-" + base64.b64encode(hashlib.sha256(m.encode("utf-8")).digest()).decode() + "'"
+                  for m in re.findall(r"<script>(.*?)</script>", html, re.S))
+csp = ("default-src 'self'; script-src 'self' " + hashes + "; "
        "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; "
        "img-src 'self' data: blob: https:; connect-src 'self' https:; manifest-src 'self'; worker-src 'self' blob:; child-src blob:; "
        "frame-src https://www.youtube-nocookie.com https://www.tiktok.com; "

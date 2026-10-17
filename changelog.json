@@ -1,5 +1,27 @@
 [
  {
+  "version": "4.11",
+  "date": "2026-10-17",
+  "title_es": "Modo concierto y lightsticks",
+  "title_en": "Concert mode and lightsticks",
+  "es": [
+   "Modo concierto: un modo oscuro de noche de show, con el globo nocturno y las ciudades iluminadas. Se pone solo si tu teléfono está en oscuro, y el botón de la luna lo cambia.",
+   "Lightsticks oficiales: cada grupo muestra el suyo (ARMY Bomb, Nachimbong, Candy Bong, Bi-Ping-Bong y más) con su nombre y su historia. Tócalo para encenderlo.",
+   "Mar de lightsticks: con el modo concierto, abajo del globo se ve un mar de luces del color del lightstick que encendiste.",
+   "El mapa de la ciudad también tiene versión de noche, con las avenidas encendidas.",
+   "La tarjeta para stories ahora lleva tu lightstick encendido junto a tu bias.",
+   "Mejor contraste en los textos de color de cada grupo y una vibración cortita al elegir un grupo o marcar un favorito (Android)."
+  ],
+  "en": [
+   "Concert mode: a show-night dark mode with a night globe and lit-up cities. It turns on by itself if your phone is in dark mode, and the moon button switches it.",
+   "Official lightsticks: each group shows its own (ARMY Bomb, Nachimbong, Candy Bong, Bi-Ping-Bong and more) with its name and story. Tap it to light it up.",
+   "Sea of lightsticks: in concert mode, a sea of lights in the color of the lightstick you lit glows under the globe.",
+   "The city map has a night version too, with the avenues lit up.",
+   "The story card now carries your lit lightstick next to your bias.",
+   "Better contrast for each group's colored text, and a short buzz when you pick a group or add a favorite (Android)."
+  ]
+ },
+ {
   "version": "4.10",
   "date": "2026-10-17",
   "title_es": "Noticias en tu idioma y chibis parejos",

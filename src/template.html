@@ -9,7 +9,8 @@ __CSP__
 <title>Radar K-pop · 케이팝 레이더</title>
 <meta name="description" content="A tiny world where BTS, Stray Kids, TWICE, BLACKPINK, LNGSHOT, SEVENTEEN, ENHYPEN, NewJeans, CORTIS and ATEEZ stand as chibis on their next tour city, with a countdown and the distance to you.">
 <meta name="theme-color" content="#F4EEFF">
-<meta name="color-scheme" content="light">
+<script>try{var t=localStorage.getItem('radar-theme');if(t==='dark'||(t!=='light'&&matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');document.querySelector('meta[name=theme-color]').content='#140E22'}}catch(e){}</script>
+<meta name="color-scheme" content="light dark">
 <meta property="og:title" content="Radar K-pop · 케이팝 레이더">
 <meta property="og:description" content="Where is your group next? Spin the little world, see their next stop and count the days.">
 <meta property="og:type" content="website">
@@ -54,6 +55,10 @@ __CANONICAL__
         <button type="button" data-lang="es" aria-pressed="false">ES</button>
         <button type="button" data-lang="en" aria-pressed="true">EN</button>
       </div>
+      <button class="btn-ico theme" id="themeBtn" type="button" aria-pressed="false" aria-label="Concert mode" data-i18n-aria="themeDark">
+        <svg class="ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10z"/><path d="M17 3.5v3M15.5 5h3"/></svg>
+        <svg class="ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></svg>
+      </button>
       <button class="btn-ico mute" id="muteBtn" type="button" aria-pressed="false" aria-label="Mute sounds">
         <svg class="ico-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg>
         <svg class="ico-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M16 9.5l5 5m0-5-5 5"/></svg>
@@ -86,6 +91,7 @@ __CANONICAL__
         <i class="heart-f anim-float" style="--x:14%;--y:36%;--d:6.2s"></i>
         <i class="heart-f anim-float" style="--x:84%;--y:34%;--d:7.4s"></i>
       </div>
+      <div class="ocean" id="ocean" aria-hidden="true"><i class="anim-sway"></i><i class="anim-sway b"></i></div>
 
       <div class="view-toggle" role="group" aria-label="View" data-i18n-aria="viewAria">
         <span class="vt-pill" aria-hidden="true"></span>
@@ -126,8 +132,8 @@ __CANONICAL__
 
     <div class="rail" id="rail" role="group" aria-label="Groups" data-i18n-aria="dockGroups"></div>
     <a class="ticker" href="#avistamientos" aria-label="Nearby sightings" data-i18n-aria="sightTitle">
-      <span class="ticker-k"><span class="ticker-dot" aria-hidden="true"></span><span data-i18n="tickerK">NEARBY SIGHTINGS</span></span>
-      <span class="ticker-vp"><span class="ticker-track anim-ticker" id="tickerTrack"></span></span>
+      <span class="ticker-k"><span class="ticker-dot" aria-hidden="true"></span><span id="tickerK" data-i18n="tickerK">NEARBY SIGHTINGS</span></span>
+      <span class="ticker-vp" tabindex="0" role="region" aria-labelledby="tickerK"><span class="ticker-track anim-ticker" id="tickerTrack"></span></span>
     </a>
   </section>
 

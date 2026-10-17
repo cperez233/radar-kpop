@@ -44,6 +44,8 @@ The radar only uses public, official schedules and posts. It shows the next conf
 - **Nearby sightings.** Official posts that mention a city, newest first (or nearest first), skipping vlogs, videos and merch, with a news ticker and a heads-up when new ones arrive.
 - **Your bias and your groups.** Heart every group you follow; they go first and the globe opens on them. Pick a bias on each member's profile: they get a heart in the group and a big spot on your story card.
 - **Coming to your country.** When the tour stops in your country (or within 600 km), the group card says so, with a live countdown to that show and how far the group is right now.
+- **Lightsticks.** Each group's official lightstick (ARMY Bomb, Nachimbong, Candy Bong, Bi-Ping-Bong, Carat Bong...) drawn by hand, with its name and story. Tap it to light it up: one at a time, like in a stadium, and it joins your story card.
+- **Concert mode.** A show-night dark mode: night globe, ocean and city map with lit avenues, and a sea of lightsticks in the color you lit. It follows the phone's setting until you tap the moon, and it switches with a circular reveal.
 - **Releases and videos.** The latest music and official YouTube uploads of each group. Upcoming releases are read from official posts before Apple Music lists them; the card says "Out today!" on the day and "New" for ten days after.
 - **Alerts.** A new alert triggers a confetti celebration. Fans pick groups and alert types and subscribe for free with the ntfy app (public topics per group and type, plus one per country) or follow their groups' posts in the Discord forum. No account and no personal data.
 - **Video mode.** A clean 9:16 tour of about 15 seconds, made for screen recording.
