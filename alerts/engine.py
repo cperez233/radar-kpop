@@ -553,7 +553,7 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
     forum = os.environ.get("DISCORD_FORUM_WEBHOOK_URL", "").strip()
     threads: dict = state.setdefault("discord_threads", {})
     prefix, public_n = public_prefix(), 0
-    tally = {"discord": [0, 0], "ntfy": [0, 0]}  # [bien, mal] para el vigilante
+    tally = {"discord": [0, 0], "discord_foro": [0, 0], "ntfy": [0, 0]}  # [bien, mal] para el vigilante
 
     def track(name: str, ok: bool) -> bool:
         tally[name][0 if ok else 1] += 1
@@ -578,7 +578,7 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
                     public_n += 1
                     once(f"{a['key']}|pub:{tp}", lambda a=a, tp=tp: track("ntfy", channels.send_ntfy(tp, a, dry, ntfy_server)))
             if forum and a["type"] != "video":
-                once(f"{a['key']}|foro", lambda a=a: track("discord", forum_post(forum, a, threads, dry)))
+                once(f"{a['key']}|foro", lambda a=a: track("discord_foro", forum_post(forum, a, threads, dry)))
         for s in subs:
             if a.get("sub") and a["sub"] != s["id"]:
                 continue
@@ -593,11 +593,13 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
     if not dry:
         for name, (good, bad) in tally.items():
             if good or bad:
-                report(name, good > 0 or bad == 0, "" if good else f"fallaron los {bad} envíos")
+                report(name, good > 0 or bad == 0, "" if good else f"fallaron los {bad} envíos" + HINTS.get(name, ""))
     return count
 
 
 FORUM_NAMES = {"radar": "📅 Tu semana K-pop"}
+HINTS = {"discord": ": puede que el webhook se haya borrado (crea otro y actualiza DISCORD_WEBHOOK_URL)",
+         "discord_foro": ": puede que el webhook del foro se haya borrado (crea otro y actualiza DISCORD_FORUM_WEBHOOK_URL)"}
 FORUM_INTRO = {"radar": "Cada lunes, el resumen de la semana K-pop: fechas, estrenos y cumpleaños. Sigue esta publicación para que Discord te avise."}
 
 
