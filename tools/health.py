@@ -84,6 +84,8 @@ def notify() -> None:
 
     data = status.load()
     webhook, topic = os.environ.get("DISCORD_WEBHOOK_URL"), os.environ.get("NTFY_TOPIC", "").strip()
+    if not webhook and data.get("sources", {}).pop("discord", None):
+        status.save(data)  # sin canal de Discord (se borró a propósito): esa fila sale del estado, no es una falla
     run = os.environ.get("GITHUB_RUN_ID")
     url = f"{os.environ.get('GITHUB_SERVER_URL', 'https://github.com')}/{os.environ.get('GITHUB_REPOSITORY', '')}/actions/runs/{run}" if run else ""
     changed = False

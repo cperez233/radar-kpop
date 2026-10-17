@@ -12,6 +12,7 @@ The list comes only from Apple Music, so every app shows the same releases; each
 A link found once is kept. Without a direct link, the page opens that app's search for the title.
 """
 import base64
+import html
 import json
 import os
 import re
@@ -158,16 +159,24 @@ def match_mv(item: dict, vids: list[dict]) -> str:
     return ""
 
 
-def search_mv(item: dict, channel: str) -> str:
-    """If the MV is no longer among the latest uploads: one search in the group's channel (100 of the 10,000 daily units;
-    it only runs once per new release because the link is kept)."""
+def search_ytm(item: dict, channel: str) -> str:
+    """The release in YouTube Music: first the official audio of the "<Artist> - Topic" channel (what YouTube Music
+    plays, with the album cover); if not, the group's official MV. One search per new release (100 of the 10,000
+    daily units), and the result is kept."""
     key = os.environ.get("YT_API_KEY", "").strip()
-    if not (key and channel):
+    artist = GROUP_NAMES.get(item["group"], "")
+    if not (key and artist):
         return ""
-    q = urllib.parse.quote(f"{item['title']} MV")
-    body = json.loads(get(f"https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=5&channelId={channel}&q={q}&key={key}"))
-    vids = [{"group": item["group"], "title": x["snippet"]["title"], "url": f"https://www.youtube.com/watch?v={x['id']['videoId']}"}
-            for x in body.get("items", []) if x.get("id", {}).get("videoId")]
+    q = urllib.parse.quote(f"{artist} {item['title']}")
+    body = json.loads(get(f"https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=15&q={q}&key={key}"))
+    found = [x for x in body.get("items", []) if x.get("id", {}).get("videoId")]
+    want = {base_title(item["title"])} | {base_title(t.get("n", "")) for t in (item.get("tracks") or [])[:1]}
+    for x in found:  # el audio oficial (canal Topic del artista)
+        sn = x["snippet"]
+        if sn.get("channelTitle", "").lower() == f"{artist} - topic".lower() and base_title(html.unescape(sn.get("title", ""))) in want:
+            return f"https://music.youtube.com/watch?v={x['id']['videoId']}"
+    vids = [{"group": item["group"], "title": html.unescape(x["snippet"]["title"]), "url": f"https://www.youtube.com/watch?v={x['id']['videoId']}"}
+            for x in found if x["snippet"].get("channelId") == channel]
     return match_mv(item, vids)
 
 
@@ -209,9 +218,9 @@ def main() -> int:
     sp_cache, n_sp, n_search, n_tr, sp_blocked = {}, 0, 0, 0, False
     for it in (x for x in items if x["type"] == "music"):
         before = prev.get(it["url"], {})
-        if before and before.get("ytm_v") != 2:  # la búsqueda del MV mejoró: se vuelve a buscar una vez
+        if before and before.get("ytm_v") != 3:  # YouTube Music ahora busca el audio oficial (Topic): se vuelve a buscar una vez
             before = {k: v for k, v in before.items() if k not in ("ytm", "ytm_try")}
-        it["ytm_v"] = 2
+        it["ytm_v"] = 3
         for k in ("spotify", "ytm", "tracks"):
             if before.get(k):
                 it[k] = before[k]
@@ -222,13 +231,13 @@ def main() -> int:
                 it["tracks"] = tracks(it) or None; time.sleep(1.2)
             except Exception as exc:  # noqa: BLE001
                 failed.append(f"itunes tracks {it['group']}: {exc}")
-        if not it.get("ytm"):
-            it["ytm"] = match_mv(it, vids) or None
+        if not it.get("ytm") and not os.environ.get("YT_API_KEY"):
+            it["ytm"] = match_mv(it, vids) or None  # sin clave: al menos el MV si está entre las últimas subidas
         # búsqueda de un MV que ya no está entre las últimas subidas: una sola vez por lanzamiento (queda marcado)
-        if not it.get("ytm") and not before.get("ytm_try") and n_search < 6:
+        if not it.get("ytm") and not before.get("ytm_try") and n_search < 6 and it["date"] <= datetime.now(timezone.utc).strftime("%Y-%m-%d"):
             n_search += 1; it["ytm_try"] = 1
             try:
-                it["ytm"] = search_mv(it, feeds.get("youtube", {}).get(it["group"], "")) or None
+                it["ytm"] = search_ytm(it, feeds.get("youtube", {}).get(it["group"], "")) or match_mv(it, vids) or None
             except Exception as exc:  # noqa: BLE001
                 failed.append(f"youtube search {it['group']}: {exc}"); it.pop("ytm_try", None)
         elif before.get("ytm_try"):
