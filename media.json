@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T11:00:34Z",
+ "updated_at": "2026-10-17T15:30:31Z",
  "sample": false,
  "items": [
   {
@@ -16,7 +16,7 @@
    "group": "twice",
    "title": "TWICE 11th ANNIVERSARY YouTube Live🎡",
    "date": "2026-10-17",
-   "published": "2026-10-17T10:56:34Z",
+   "published": "2026-10-17T11:33:11Z",
    "url": "https://www.youtube.com/watch?v=jcmVRR_BnZU",
    "image": "https://i.ytimg.com/vi/jcmVRR_BnZU/hqdefault.jpg"
   },
@@ -32,20 +32,29 @@
   {
    "type": "video",
    "group": "enhypen",
+   "title": "checkmatе, checkmate #BLOODSAGA_IN_MACAU #EN_WORLDTOUR_BLOODSAGA #ENHYPEN",
+   "date": "2026-10-17",
+   "published": "2026-10-17T15:25:24Z",
+   "url": "https://www.youtube.com/watch?v=OwJjFocYOFU",
+   "image": "https://i.ytimg.com/vi/OwJjFocYOFU/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "Check, check, check, check Check, check, check, check #BLOODSAGA_IN_MACAU #EN_WORLDTOUR_BLOODSAGA",
+   "date": "2026-10-17",
+   "published": "2026-10-17T15:22:52Z",
+   "url": "https://www.youtube.com/watch?v=X2iCThB34yA",
+   "image": "https://i.ytimg.com/vi/X2iCThB34yA/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
    "title": "따따리따~ #JAY #JAKE #SUNGHOON #ENHYPEN",
    "date": "2026-10-17",
    "published": "2026-10-17T10:32:38Z",
    "url": "https://www.youtube.com/watch?v=YCyWmepwef0",
    "image": "https://i.ytimg.com/vi/YCyWmepwef0/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "😚 #JAKE #ENHYPEN",
-   "date": "2026-10-17",
-   "published": "2026-10-17T06:08:06Z",
-   "url": "https://www.youtube.com/watch?v=PvnEZNYKF7U",
-   "image": "https://i.ytimg.com/vi/PvnEZNYKF7U/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -91,15 +100,6 @@
    "published": "2026-10-16T12:00:20Z",
    "url": "https://www.youtube.com/watch?v=x4n42iX_ywE",
    "image": "https://i.ytimg.com/vi/x4n42iX_ywE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "#BLOODSAGA_IN_MACAU DAY1✨#EN_WORLDTOUR_BLOODSAGA #ENHYPEN",
-   "date": "2026-10-16",
-   "published": "2026-10-16T16:24:36Z",
-   "url": "https://www.youtube.com/watch?v=rdbG9d0Nzo4",
-   "image": "https://i.ytimg.com/vi/rdbG9d0Nzo4/hqdefault.jpg"
   },
   {
    "type": "video",
