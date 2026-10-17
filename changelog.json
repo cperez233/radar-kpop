@@ -1,5 +1,21 @@
 [
  {
+  "version": "4.19",
+  "date": "2026-10-17",
+  "title_es": "Avistamientos de fans, con cuidado",
+  "title_en": "Fan sightings, carefully",
+  "es": [
+   "Nearby sightings ahora también suma lo que dicen los fans en X, pero solo cuando 2 o más cuentas distintas coinciden en la misma ciudad, con 6 horas de retraso y marcado como \"dicen los fans · sin confirmar\". Nunca muestra el texto, la foto, el usuario ni el lugar exacto.",
+   "La sección de estrenos ya no tiene el selector de apps arriba: se elige dentro de cada lanzamiento.",
+   "El año del pie de página se actualiza solo."
+  ],
+  "en": [
+   "Nearby sightings now also count what fans say on X, but only when 2 or more different accounts agree on the same city, 6 hours late and marked \"fans say · unconfirmed\". It never shows anyone's text, photo, handle or exact place.",
+   "The releases section no longer has the app picker on top: you pick it inside each release.",
+   "The footer year updates itself."
+  ]
+ },
+ {
   "version": "4.18",
   "date": "2026-10-17",
   "title_es": "Story de noche y chibis parejos en el globo",

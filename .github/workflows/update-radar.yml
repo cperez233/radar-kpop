@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  actions: write  # solo para el keepalive de abajo
 
 concurrency:
   group: radar
@@ -134,6 +135,16 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python tools/health.py --notify
+
+      # GitHub apaga las tareas programadas de un repo público tras 60 días sin actividad. Los commits del robot ya cuentan,
+      # pero por si un mes no hubiera cambios: una vez al día (la primera corrida después de las 00:00 UTC) se vuelve a habilitar.
+      - name: Mantener vivo el robot
+        if: ${{ github.event_name == 'schedule' }}
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(date -u +%H%M)" -lt 0015 ]; then gh api -X PUT "repos/${{ github.repository }}/actions/workflows/update-radar.yml/enable" && echo "keepalive ok"; fi
 
       - name: Commit si hubo cambios
         if: ${{ !inputs.prueba }}
