@@ -1293,11 +1293,10 @@ input[type="range"] { width: 100%; accent-color: var(--bubble); min-height: 32px
 /* el cambio de tema se abre como un círculo de luz desde el botón
    (solo cuando el cambio es de tema; el cambio de idioma conserva su fundido) */
 html.vt-theme::view-transition-old(root), html.vt-theme::view-transition-new(root) { mix-blend-mode: normal; }
-html.vt-theme::view-transition-old(root) { animation: themeOld 1.2s cubic-bezier(.55, 0, .25, 1) both; }
+html.vt-theme::view-transition-old(root) { animation: none; }
 html.vt-theme::view-transition-new(root) { animation: themeReveal 1.2s cubic-bezier(.55, 0, .25, 1) both; }
 html.vt-theme::view-transition-group(theme-ring) { animation: none; }
 @keyframes themeReveal { from { clip-path: circle(0 at var(--vt-x, 90%) var(--vt-y, 30px)); } to { clip-path: circle(var(--vt-r, 150vmax) at var(--vt-x, 90%) var(--vt-y, 30px)); } }
-@keyframes themeOld { to { transform: scale(.985); filter: brightness(.82) saturate(.9); } }
 /* el aro de luz que viaja en el borde del círculo: va en su propia capa de la transición para quedar encima */
 .theme-ring { position: fixed; z-index: 200; border-radius: 50%; pointer-events: none; view-transition-name: theme-ring;
   border: 5px solid #FFB3D9; box-shadow: 0 0 18px 6px rgba(255, 179, 217, .65), inset 0 0 18px 6px rgba(213, 198, 255, .6);
@@ -1448,14 +1447,11 @@ html { scrollbar-color: color-mix(in oklab, var(--ink) 35%, transparent) var(--p
 /* ================= transiciones: abrir, cerrar, cambiar de pestaña, llegar a una sección =================
    Todo con transform/opacity y resorte; con movimiento reducido no corre nada. */
 /* desplegables (trivia, números, gira, avisos): crecen hasta su alto real y el contenido entra suave */
-details { interpolate-size: allow-keywords; }
-details::details-content { block-size: 0; overflow: clip; transition: block-size .42s cubic-bezier(.3, .7, .2, 1), content-visibility .42s allow-discrete; }
-details[open]::details-content { block-size: auto; }
-details[open] > :not(summary) { animation: foldIn .45s var(--boing) both; }
-details[open] > :not(summary):nth-child(3) { animation-delay: .05s; }
-details[open] > :not(summary):nth-child(4) { animation-delay: .1s; }
+/* sin animar el alto (eso recalcula la página en cada cuadro y se siente lento): solo el contenido entra con opacidad y transform */
+details[open] > :not(summary) { animation: foldIn .32s cubic-bezier(.2, .8, .3, 1.15) both; }
+details[open] > :not(summary):nth-child(3) { animation-delay: .04s; }
 details summary::before, details summary::after { transition: transform .4s var(--boing), background-color .2s; }
-@keyframes foldIn { from { opacity: 0; transform: translateY(-8px) scale(.98); } }
+@keyframes foldIn { from { opacity: 0; transform: translateY(-6px); } }
 /* página del grupo: entra como una tarjeta que sube, sale hundiéndose */
 .gp.gp-opening .gp-card { animation: gpIn .55s var(--boing) both; }
 .gp.gp-opening .gp-head .gp-face { animation: hHop .6s .2s var(--ease) both; }
@@ -1475,7 +1471,6 @@ details summary::before, details summary::after { transition: transform .4s var(
 .sec-arrive .sec-n { animation: secNum .7s var(--boing); }
 .sec-arrive .sec-title { animation: secHead .6s .08s var(--boing); }
 .sec-arrive::after { content: ""; position: absolute; inset: -6px; border-radius: 34px; border: 3px solid var(--sec-ac, var(--bubble)); pointer-events: none; animation: secRing 1s var(--ease) both; }
-@keyframes secNum { 0% { transform: rotate(-5deg) scale(1); } 35% { transform: rotate(-16deg) scale(1.35); } 65% { transform: rotate(4deg) scale(.95); } 100% { transform: rotate(-5deg); } }
 @keyframes secHead { 0% { transform: none; } 40% { transform: translateY(-4px) rotate(-1deg); } 100% { transform: none; } }
 @keyframes secRing { 0% { opacity: 0; transform: scale(.98); } 25% { opacity: .9; } 100% { opacity: 0; transform: scale(1.015); } }
 /* selector de app de música: una píldora que se desliza */
@@ -1497,7 +1492,6 @@ details summary::before, details summary::after { transition: transform .4s var(
 .act.c-soc.soc-ig { color: #D6247A; } .act.c-soc.soc-tt { color: #111; }
 :root[data-theme="dark"] .act.c-soc.soc-ig { color: #FF7DBA; } :root[data-theme="dark"] .act.c-soc.soc-tt { color: var(--ink); }
 @media (prefers-reduced-motion: reduce) {
-  details::details-content { transition: none; }
   details[open] > :not(summary), .gp.gp-opening .gp-card, .gp.gp-closing, .gp.gp-closing .gp-card, .gp.gp-tabbing .gp-body > *, .gp.gp-tabbing .gp-tabs button, .sec-arrive *, .sec-arrive::after, .theme-ring { animation: none !important; }
   .app-pill { transition: none; }
 }
@@ -1508,3 +1502,40 @@ details summary::before, details summary::after { transition: transform .4s var(
   .cards .acts .act.c-soc { width: auto; min-height: 0; padding: 2px; border-radius: 12px; }
   .cards .acts .act.c-soc svg { width: 18px; height: 18px; }
 }
+
+/* ================= cortina: tapa la pantalla al moverse por el menú y al cambiar de idioma ================= */
+.curtain { position: fixed; inset: 0; z-index: 300; display: grid; place-items: center; pointer-events: none; overflow: hidden;
+  background: radial-gradient(circle at 20% 15%, rgba(255, 255, 255, .55) 0 2px, transparent 3px) 0 0 / 46px 46px,
+              radial-gradient(circle at 70% 60%, rgba(255, 255, 255, .4) 0 1.5px, transparent 2.5px) 0 0 / 64px 64px,
+              color-mix(in srgb, var(--cc) 34%, #FFF6FB);
+  color: #2E2150; border-top: 4px solid #2E2150;
+  animation: cuIn .42s cubic-bezier(.2, .9, .25, 1.05) both; will-change: transform; }
+:root[data-theme="dark"] .curtain { background: radial-gradient(circle at 20% 15%, rgba(255, 246, 200, .5) 0 1.5px, transparent 2.5px) 0 0 / 46px 46px,
+  radial-gradient(circle at 70% 60%, rgba(213, 198, 255, .45) 0 1.2px, transparent 2px) 0 0 / 64px 64px,
+  color-mix(in srgb, var(--cc) 30%, #2A2148); color: #F1EBFF; border-top-color: color-mix(in srgb, var(--cc) 70%, #fff); }
+.curtain.out { animation: cuOut .5s cubic-bezier(.6, 0, .4, 1) both; }
+@keyframes cuIn { from { transform: translateY(102%); } to { transform: none; } }
+@keyframes cuOut { to { transform: translateY(-102%); } }
+.cu-in { display: grid; justify-items: center; gap: 6px; text-align: center; padding: 0 20px; }
+.cu-n { display: inline-block; padding: 10px 18px 6px; border-radius: 20px; background: var(--cc); color: #fff; border: 3px solid #2E2150; box-shadow: 0 5px 0 #2E2150;
+  font: 400 clamp(44px, 12vw, 88px)/1 var(--f-display); animation: cuNum .7s .12s var(--boing) both; }
+.cu-ko { font: 700 clamp(22px, 5vw, 32px)/1 var(--f-hand); color: color-mix(in srgb, var(--cc) 75%, #2E2150); animation: cuUp .45s .22s var(--boing) both; }
+:root[data-theme="dark"] .cu-ko { color: color-mix(in srgb, var(--cc) 45%, #fff); }
+.cu-t { font: 400 clamp(34px, 9vw, 72px)/1.05 var(--f-display); letter-spacing: -.01em; animation: cuUp .5s .26s var(--boing) both; }
+.cu-sub { font: 700 clamp(16px, 3.6vw, 22px)/1.2 var(--f-body); opacity: .85; animation: cuUp .45s .34s var(--boing) both; }
+.cu-chibis { display: flex; flex-wrap: wrap; justify-content: center; gap: 2px 6px; margin-top: 12px; max-width: 760px; }
+.cu-chibis img { width: clamp(64px, 17vw, 150px); height: auto; filter: drop-shadow(0 3px 0 rgba(46, 33, 80, .25)); animation: cuHop .7s calc(.3s + var(--k) * .07s) var(--boing) both; }
+.cu-chibis img:nth-child(even) { --r: 6deg; } .cu-chibis img:nth-child(odd) { --r: -6deg; }
+.cu-star { position: absolute; width: 22px; height: 22px; background: #FFE89E; clip-path: polygon(50% 0, 62% 38%, 100% 50%, 62% 62%, 50% 100%, 38% 62%, 0 50%, 38% 38%); animation: cuTw 1.2s ease-in-out infinite; }
+.cu-star.a { left: 14%; top: 22%; } .cu-star.b { right: 16%; top: 30%; width: 16px; height: 16px; background: #fff; animation-delay: -.4s; } .cu-star.c { left: 22%; bottom: 20%; width: 14px; height: 14px; background: #FFB3D9; animation-delay: -.8s; }
+@keyframes cuNum { 0% { transform: scale(.2) rotate(-25deg); opacity: 0; } 55% { transform: scale(1.15) rotate(6deg); opacity: 1; } 100% { transform: rotate(-4deg); } }
+@keyframes cuUp { from { transform: translateY(24px); opacity: 0; } }
+@keyframes cuHop { 0% { transform: translateY(70px) scale(.6); opacity: 0; } 60% { transform: translateY(-14px) rotate(var(--r)) scale(1.05); opacity: 1; } 100% { transform: rotate(var(--r)); } }
+@keyframes cuTw { 50% { transform: scale(.5) rotate(45deg); opacity: .5; } }
+/* el saludo del idioma: el "안녕!" va grande y el resto saluda en los otros idiomas */
+.cu-lang .cu-ko { font-size: clamp(30px, 7vw, 46px); }
+.cu-lang .cu-t { font-size: clamp(46px, 13vw, 96px); }
+/* al llegar: el número salta grande (se ve porque ya estás ahí) */
+.sec-arrive .sec-n { animation: secNum .8s var(--boing); }
+@keyframes secNum { 0% { transform: rotate(-5deg) scale(1); } 30% { transform: translateY(-10px) rotate(-18deg) scale(1.6); } 60% { transform: rotate(6deg) scale(.92); } 100% { transform: rotate(-5deg); } }
+@media (prefers-reduced-motion: reduce) { .curtain { display: none; } }

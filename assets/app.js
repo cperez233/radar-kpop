@@ -2805,7 +2805,15 @@
     if (el.hasAttribute('data-close-sheet')) { $('#iosSheet').hidden = true; if (lastKeyboard) $('#installBtn').focus({ preventScroll: true }); return; }
     if (el.closest('.topnav')) {
       var target = document.getElementById((el.getAttribute('href') || '').slice(1));
-      if (target) { ev.preventDefault(); navLock = Date.now() + 900; navSet(target.id); target.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); arrive(target); }
+      if (target) {
+        ev.preventDefault(); navLock = Date.now() + 1600; navSet(target.id);
+        // una cortina pastel tapa la pantalla con el número y el nombre de la sección; detrás saltamos sin scroll largo y al abrir, el número salta
+        var num = target.querySelector('.sec-n'), ko = target.querySelector('.sec-title .ko'), ttl = target.querySelector('.sec-title [data-i18n]');
+        curtain({ num: num ? num.textContent : '★', ko: ko ? ko.textContent : '세계', title: ttl ? ttl.textContent : (el.textContent || '').trim(),
+          color: getComputedStyle(target).getPropertyValue('--sec-ac').trim() || '#FF5FA8' },
+          function () { target.scrollIntoView({ behavior: 'auto', block: 'start' }); navLock = Date.now() + 900; },
+          function () { arrive(target, true); });
+      }
       Sound.play('tap'); return;
     }
     switch (el.id) {
@@ -2831,25 +2839,41 @@
   /* tocar a un miembro: salta, dice su nombre en hangul y suena una nota distinta por miembro */
   /* cambiar de idioma: la píldora se desliza, sale un sticker y el contenido cambia con una transición suave */
   // al llegar a una sección desde el menú, la sección saluda: su número salta y el borde brilla un momento
-  function arrive(sec) {
+  function arrive(sec, now) {
     if (reduce) return;
+    if (now) { sec.classList.remove('sec-arrive'); void sec.offsetWidth; sec.classList.add('sec-arrive'); setTimeout(function () { sec.classList.remove('sec-arrive'); }, 1100); return; }
     var done = false, fire = function () { if (done) return; done = true; sec.classList.remove('sec-arrive'); void sec.offsetWidth; sec.classList.add('sec-arrive'); setTimeout(function () { sec.classList.remove('sec-arrive'); }, 1100); };
     var t0 = setTimeout(fire, 750);
     if ('onscrollend' in window) window.addEventListener('scrollend', function () { clearTimeout(t0); fire(); }, { once: true });
   }
+  /* cortina: tapa la pantalla con un panel pastel (número, coreano, título y chibis que saltan), hace el cambio detrás y se va.
+     Solo transform y opacidad; con movimiento reducido el cambio es directo. */
+  function curtain(o, mid, after) {
+    if (reduce) { mid(); if (after) after(); return; }
+    var old = $('.curtain'); if (old) old.remove();
+    var ids = states.map(function (x) { return x.id; }).filter(function (id) { return ROSTER[id]; });
+    ids = favs.filter(function (id) { return ids.indexOf(id) >= 0; }).concat(ids.sort(function () { return Math.random() - .5; })).filter(function (v, i, a) { return a.indexOf(v) === i; }).slice(0, 5);
+    var el = document.createElement('div'); el.className = 'curtain' + (o.cls ? ' ' + o.cls : ''); el.setAttribute('aria-hidden', 'true');
+    el.style.setProperty('--cc', o.color || '#FF5FA8');
+    el.innerHTML = '<i class="cu-star a"></i><i class="cu-star b"></i><i class="cu-star c"></i><div class="cu-in">' +
+      (o.num ? '<span class="cu-n">' + esc(o.num) + '</span>' : '') + '<span class="cu-ko" lang="ko">' + esc(o.ko || '') + '</span><b class="cu-t">' + esc(o.title || '') + '</b>' +
+      (o.sub ? '<span class="cu-sub">' + esc(o.sub) + '</span>' : '') +
+      '<span class="cu-chibis">' + ids.map(function (id, i) { return '<img src="' + esc(face(id, true).src) + '" alt="" style="--k:' + i + '">'; }).join('') + '</span></div>';
+    document.body.appendChild(el);
+    Sound.play('whoosh');
+    setTimeout(function () {
+      mid();
+      el.classList.add('out'); Sound.play('pop');
+      setTimeout(function () { el.remove(); if (after) after(); }, 520);
+    }, o.hold || 820);
+  }
   function switchLang(nl) {
     if (nl === lang) return;
-    Sound.play('pop');
     var swap = function () { lang = nl; store('radar-lang', lang); renderAll(); if (navCur) navSet(navCur, true); };
-    if (!reduce) {
-      var pop = document.createElement('div'); pop.className = 'lang-pop'; pop.setAttribute('aria-hidden', 'true');
-      pop.innerHTML = '<span lang="ko">안녕!</span><b>' + esc(I18N[nl].langHello) + '</b>';
-      document.body.appendChild(pop); setTimeout(function () { pop.remove(); }, 1300);
-      setTimeout(function () { Sound.play('heart'); }, 160);
-    }
     $('.lang').setAttribute('data-l', nl);
-    if (document.startViewTransition && !reduce) { var root = document.documentElement; root.classList.add('vt-lang'); document.startViewTransition(swap).finished.finally(function () { root.classList.remove('vt-lang'); }); }
-    else swap();
+    // el saludo tapa la pantalla en los tres idiomas del radar y la página vuelve ya traducida
+    curtain({ cls: 'cu-lang', ko: '안녕!', title: I18N[nl].langHello, sub: nl === 'en' ? '¡Hola! · 안녕하세요' : 'Hello! · 안녕하세요', color: '#FF7DBA', hold: 900 }, swap,
+      function () { Sound.play('heart'); });
   }
   function syncSpin() { var b = $('[data-spin]'); if (b && globe) b.setAttribute('aria-pressed', String(globe.autoSpin)); }
   function memberTap(el) {

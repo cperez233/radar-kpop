@@ -1,5 +1,23 @@
 [
  {
+  "version": "4.14",
+  "date": "2026-10-17",
+  "title_es": "Cortinas chibi",
+  "title_en": "Chibi curtains",
+  "es": [
+   "Al moverte con el menú, una cortina pastel tapa la pantalla con el número y el nombre de la sección y chibis que saltan; al abrirse, el número de la sección salta.",
+   "Al cambiar de idioma, la cortina saluda con 안녕!, ¡Hola! y Hello! y la página vuelve ya traducida.",
+   "El cambio a modo concierto deja la página quieta mientras entra la noche.",
+   "Los desplegables abren más livianos, sin tirones."
+  ],
+  "en": [
+   "Moving with the menu, a pastel curtain covers the screen with the section's number, name and hopping chibis; when it opens, the section number jumps.",
+   "Switching language, the curtain says 안녕!, Hello! and ¡Hola! and the page comes back already translated.",
+   "Switching to concert mode keeps the page still while the night comes in.",
+   "Fold-outs open lighter, without stutter."
+  ]
+ },
+ {
   "version": "4.13",
   "date": "2026-10-17",
   "title_es": "Todo se mueve con cariño",
