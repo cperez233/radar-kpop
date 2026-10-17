@@ -17,7 +17,14 @@ Reglas para que esto nunca sea acoso:
 - Solo nivel ciudad: el post se ubica en la ciudad que menciona, con las coordenadas del centro de la ciudad.
 - Se descartan los posts que hablan de aeropuertos, hoteles o vuelos, para no mandar gente a esperar a nadie.
 - No se guarda ninguna ubicación de personas ni de fans, y no se leen respuestas ni posts de otras cuentas.
+
+Avistamientos de fans (con RSSHub, una búsqueda por grupo cada hora), aparte y con reglas más duras:
+- solo cuenta si 2 o más cuentas distintas dicen que el grupo está en la misma ciudad en menos de 24 horas;
+- se publica con 6 horas de retraso, solo la ciudad: sin el texto, la foto, el usuario ni el lugar exacto de nadie;
+- pasa los mismos filtros (nada de aeropuertos, hoteles ni vuelos) y la web lo marca "dicen los fans · sin confirmar".
 """
+import hashlib
+import hmac
 import html
 import json
 import os
@@ -52,6 +59,11 @@ CONTENT = re.compile(r"youtu\.?be|\[(?:VIDEO|영상|MV|M/V|EPISODE|REC|BEHIND[^\
                      r"pop-?up|merch|vinyl|\balbum\b|\bLP\b|out now|streaming|스트리밍|이용권|ticket|티켓|pre-?order|예매|^RT ", re.I)
 NOT_PLACE = re.compile(r"paris,? texas|tokyo drift|london boy|seoul city sky|new york state of mind", re.I)  # títulos que no son lugares
 MIN_GAP = timedelta(minutes=55)
+FANS = ROOT / "state" / "fans.json"
+FAN_DELAY, FAN_WINDOW, FAN_MIN, FAN_KEEP = timedelta(hours=6), timedelta(hours=24), 2, timedelta(days=4)
+# el post tiene que decir que están ahí ahora (no "vienen a Madrid el próximo año")
+SEEN = re.compile(r"\b(arriv\w*|landed|spotted|in town|are (now )?in|is (now )?in|currently in|llegaron|lleg[oó]|est[aá]n en|vistos? en|chegaram|chegou|est[aã]o em)\b|도착|목격|入国|到着", re.I)
+FUTURE = re.compile(r"\b(will|coming|next (year|month|week)|tour dates?|announce\w*|vendr[aá]n?|pr[oó]xim[oa]|gira|tickets?)\b", re.I)
 
 
 def load_env() -> None:
@@ -228,6 +240,73 @@ def fetch_real(token: str, events: dict) -> list[dict] | None:
     return items if ok else None
 
 
+def fetch_fans(base: str, events: dict, now: datetime) -> list[dict]:
+    """Fan reports, city level, only when several accounts agree, published 6 h late. Never stores a fan's text or handle."""
+    state = json.loads(FANS.read_text(encoding="utf-8")) if FANS.exists() else {"last": "", "obs": []}
+    obs = [o for o in state.get("obs", []) if now - datetime.fromisoformat(o["when"].replace("Z", "+00:00")) < FAN_KEEP]
+    last = state.get("last")
+    if not last or now - datetime.fromisoformat(last.replace("Z", "+00:00")) >= MIN_GAP:
+        gaz, official = gazetteer(events), {h.lower() for h in accounts().values()}
+        salt = (os.environ.get("FAN_SALT") or base).encode()  # la llave es secreta (no está en el repo): la huella no se puede revertir
+        for g in events["groups"]:
+            q = urllib.parse.quote(f'"{g["name"]}" -filter:retweets -filter:replies')
+            try:
+                req = urllib.request.Request(f"{base}/twitter/keyword/{q}", headers={"User-Agent": "radar-kpop"})
+                with urllib.request.urlopen(req, timeout=60) as r:
+                    root = ET.fromstring(r.read())
+            except Exception as exc:  # noqa: BLE001
+                print(f"RSSHub fans {g['id']}: {exc}", file=sys.stderr)
+                continue
+            for it in root.iter("item"):
+                m = re.search(r"x\.com/(\w+)/status/(\d+)|twitter\.com/(\w+)/status/(\d+)", it.findtext("link") or "")
+                if not m:
+                    continue
+                handle = (m.group(1) or m.group(3)).lower()
+                text = " ".join(html.unescape(re.sub(r"<[^>]+>", " ", it.findtext("description") or it.findtext("title") or "")).split())
+                if handle in official or not SEEN.search(text) or FUTURE.search(text) or BLOCK.search(text) or NOT_PLACE.search(text) or CONTENT.search(text):
+                    continue
+                c = find_city(text, gaz)
+                try:
+                    when = parsedate_to_datetime(it.findtext("pubDate")).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+                except (TypeError, ValueError):
+                    continue
+                if c:
+                    # se guarda una huella del usuario (para contar cuentas distintas), no el usuario
+                    key = {"group": g["id"], "city": c["city"], "who": hmac.new(salt, handle.encode(), hashlib.sha256).hexdigest()[:10], "when": when}
+                    if key not in obs:
+                        obs.append({**key, "country": c["country"], "lat": c["lat"], "lon": c["lon"]})
+            time.sleep(1)
+        state["last"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    state["obs"] = obs
+    FANS.parent.mkdir(parents=True, exist_ok=True)
+    FANS.write_text(json.dumps(state, ensure_ascii=False) + "\n", encoding="utf-8")
+    names, out = {g["id"]: g["name"] for g in events["groups"]}, []
+    by = {}
+    for o in obs:
+        by.setdefault((o["group"], o["city"]), []).append(o)
+    for (gid, city), lst in by.items():
+        lst.sort(key=lambda o: o["when"])
+        # la ventana: cuentas distintas que coinciden en 24 h; se publica 6 h después de la segunda
+        for i, o in enumerate(lst):
+            t0 = datetime.fromisoformat(o["when"].replace("Z", "+00:00"))
+            win = [x for x in lst[i:] if datetime.fromisoformat(x["when"].replace("Z", "+00:00")) - t0 <= FAN_WINDOW]
+            who = []
+            for x in win:
+                if x["who"] not in who:
+                    who.append(x["who"])
+                if len(who) >= FAN_MIN:
+                    at = datetime.fromisoformat(x["when"].replace("Z", "+00:00"))
+                    if now - at >= FAN_DELAY:
+                        out.append({"id": f"fan-{gid}-{norm(city).replace(' ', '')}-{at:%Y%m%d}", "group": gid, "group_name": names.get(gid, gid),
+                                    "city": city, "country": o["country"], "lat": o["lat"], "lon": o["lon"], "fan": True,
+                                    "fans": len({y["who"] for y in win}), "text": "", "url": "", "account": "", "when": at.strftime("%Y-%m-%dT%H:%M:%SZ")})
+                    break
+            else:
+                continue
+            break
+    return out
+
+
 def sample(events: dict, now: datetime) -> list[dict]:
     """Un ejemplo por grupo en gira, en la ciudad de su parada más reciente o la próxima. Texto marcado como ejemplo."""
     items = []
@@ -269,6 +348,13 @@ def main() -> int:
         if fresh is None:
             print("Ninguna fuente de avistamientos respondió: se conserva sightings.json como estaba", file=sys.stderr)
             return 0
+        if rsshub and source == "rsshub":
+            try:
+                fans = fetch_fans(rsshub, events, now)
+                print(f"Fans: {len(fans)} avistamientos confirmados por varias cuentas")
+                fresh += fans
+            except Exception as exc:  # noqa: BLE001
+                print(f"Fans: {exc}", file=sys.stderr)
         # los guardados también pasan por los filtros de hoy (si un filtro mejora, lo viejo que no cumple se va)
         keep = [] if old.get("sample") else [x for x in old.get("items", []) if not (BLOCK.search(x.get("text", "")) or NOT_PLACE.search(x.get("text", "")) or CONTENT.search(x.get("text", "")))]
         merged = {x["id"]: x for x in keep + fresh}

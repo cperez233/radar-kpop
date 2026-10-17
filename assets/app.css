@@ -1610,3 +1610,4 @@ details summary::before, details summary::after { transition: transform .4s var(
   .player .rel-info b { font-size: 32px; }
   .cards .acts .c-socs { display: inline-flex; gap: 6px; }
 }
+.fan-tag { --ink: #2E2150; display: inline-block; padding: 1px 9px; border-radius: 9px; border: 2px dashed var(--ink); background: var(--butter); color: var(--ink); font-weight: 800; font-size: 12.5px; transform: rotate(-2deg); }

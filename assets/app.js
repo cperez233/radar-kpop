@@ -199,7 +199,7 @@
       globeAria: 'Globo con la próxima parada de cada grupo', autoSpin: 'Girar solo', channelAria: 'Canal', sortAria: 'Orden', filterAria: 'Filtrar',
       mediaTitle: 'Estrenos y videos', mediaLead: 'Primero la música: canciones, álbumes y MV. Los vlogs, teasers y shorts están en Videos.', mediaAll: 'Todo', mediaMusic: 'Música y MV', mediaVideo: 'Videos', vkMv: 'MV', vkTeaser: 'Teaser', vkShort: 'Short', vkVlog: 'Vlog', vkBehind: 'Detrás de cámaras', vkShow: 'Programa',
       mediaSrc: 'Fuentes: catálogo de Apple Music (iTunes Search API) y canales oficiales de YouTube. Se actualiza solo.', mediaEmpty: 'Todavía no hay estrenos guardados.',
-      relSoon: 'Sale en {n} días', relNotYet: 'Todavía no sale: las canciones aparecen el día del estreno.', relPreview: 'Escuchar un avance de {song}', relNoPreview: 'No se pudo reproducir el avance', plNoEmbed: '{app} no deja reproducir este lanzamiento aquí. Ábrelo en la app.', plOpenIn: 'Abrir en {app}', appPick: '¿Dónde escuchas?', appSet: 'Los enlaces de música abren en {app}', mediaListen: 'Escuchar', mediaWatch: 'Ver video', mediaSample: 'Datos de ejemplo', released: 'salió {when}',
+      sightFanTag: 'dicen los fans · sin confirmar', sightFan: '{n} cuentas distintas coinciden en la ciudad. Sale con 6 horas de retraso y sin detalles de lugar.', relSoon: 'Sale en {n} días', relNotYet: 'Todavía no sale: las canciones aparecen el día del estreno.', relPreview: 'Escuchar un avance de {song}', relNoPreview: 'No se pudo reproducir el avance', plNoEmbed: '{app} no deja reproducir este lanzamiento aquí. Ábrelo en la app.', plOpenIn: 'Abrir en {app}', appPick: '¿Dónde escuchas?', appSet: 'Los enlaces de música abren en {app}', mediaListen: 'Escuchar', mediaWatch: 'Ver video', mediaSample: 'Datos de ejemplo', released: 'salió {when}',
       cityOpen: 'Mapa de la ciudad', cityShort: 'Mapa', restShows: 'shows en {n} ciudades', cityLoading: 'Dibujando la ciudad...', cityTilt: 'Vista 3D', cityVenue: 'Volver al recinto', cityFail: 'No pudimos cargar el mapa. Revisa tu conexión.',
       cityK: 'Próxima parada', cityLast: 'Última parada', cityYou: 'Tú', cityAttr: 'Mapa: OpenFreeMap · datos © OpenStreetMap',
       locReal: 'Ubicación real', locNear: 'cerca de {city}', locAcc: '±{km} km', locDefault: 'Ciudad por defecto: Bucaramanga', locChosen: 'Ciudad elegida por ti',
@@ -268,7 +268,7 @@
       globeAria: 'Globe with each group\'s next stop', autoSpin: 'Auto-rotate', channelAria: 'Channel', sortAria: 'Order', filterAria: 'Filter',
       mediaTitle: 'Releases and videos', mediaLead: 'Music first: songs, albums and MVs. Vlogs, teasers and shorts are under Videos.', mediaAll: 'All', mediaMusic: 'Music & MVs', mediaVideo: 'Videos', vkMv: 'MV', vkTeaser: 'Teaser', vkShort: 'Short', vkVlog: 'Vlog', vkBehind: 'Behind the scenes', vkShow: 'Show',
       mediaSrc: 'Sources: Apple Music catalog (iTunes Search API) and official YouTube channels. Updates on its own.', mediaEmpty: 'No releases saved yet.',
-      relSoon: 'Out in {n} days', relNotYet: 'Not out yet: the songs show up on release day.', relPreview: 'Play a preview of {song}', relNoPreview: 'The preview could not play', plNoEmbed: '{app} cannot play this release here. Open it in the app.', plOpenIn: 'Open in {app}', appPick: 'Where do you listen?', appSet: 'Music links now open in {app}', mediaListen: 'Listen', mediaWatch: 'Watch video', mediaSample: 'Sample data', released: 'out {when}',
+      sightFanTag: 'fans say · unconfirmed', sightFan: '{n} different accounts agree on the city. Shown 6 hours late and without any place details.', relSoon: 'Out in {n} days', relNotYet: 'Not out yet: the songs show up on release day.', relPreview: 'Play a preview of {song}', relNoPreview: 'The preview could not play', plNoEmbed: '{app} cannot play this release here. Open it in the app.', plOpenIn: 'Open in {app}', appPick: 'Where do you listen?', appSet: 'Music links now open in {app}', mediaListen: 'Listen', mediaWatch: 'Watch video', mediaSample: 'Sample data', released: 'out {when}',
       cityOpen: 'City map', cityShort: 'Map', restShows: 'shows in {n} cities', cityLoading: 'Drawing the city...', cityTilt: '3D view', cityVenue: 'Back to the venue', cityFail: 'We could not load the map. Check your connection.',
       cityK: 'Next stop', cityLast: 'Last stop', cityYou: 'You', cityAttr: 'Map: OpenFreeMap · data © OpenStreetMap',
       locReal: 'Real location', locNear: 'near {city}', locAcc: '±{km} km', locDefault: 'Default city: Bucaramanga', locChosen: 'City you picked',
@@ -2429,6 +2429,8 @@
       return '<li class="bub sighting' + (freshS[x.key] ? ' fresh' : '') + '" id="s-' + esc(x.key.replace(/[^\w-]/g, '')) + '" style="' + gStyle(a.group) + '"><span class="bub-face">' + faceImg(a.group) + '</span><div class="bub-body">' +
         '<div class="bub-h"><span class="typ">' + esc(gName(a.group)) + '</span><span>' + esc(place(a.city)) + (a.country ? ', ' + esc(place(a.country)) : '') + '</span>' + (a.when ? '<time datetime="' + esc(a.when) + '">' + esc(t('ago', { n: agoTxt(now() - Date.parse(a.when)) })) + '</time>' : '') + '</div>' +
         '<p class="bub-t">' + esc(t('sightAway', { km: fmtKm(x.km) })) + '</p>' + (a.text ? '<p class="bub-b">' + esc((lang === 'en' && a.text_en) || a.text) + '</p>' : '') +
+        // de fans: solo la ciudad, sin texto ni usuario, y dicho claramente
+        (a.fan ? '<p class="bub-b"><span class="fan-tag">' + esc(t('sightFanTag')) + '</span> ' + esc(t('sightFan', { n: a.fans || 2 })) + '</p>' : '') +
         (url ? '<a class="s-link" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + esc(t('sightSee')) + (a.account ? ' · @' + esc(a.account) : '') + '</a>' : '') + '</div></li>';
     }).join('');
     // cinta tipo noticiero (inspirada en el tracker de Spidey): en el mismo orden que la lista
@@ -2585,7 +2587,6 @@
   }
   function renderMedia() {
     var el = $('#media'); if (!el) return;
-    var asw = $('#appSw'); if (asw) asw.innerHTML = appSwitchHtml();
     $('#mediaFilter').innerHTML = [['music', 'mediaMusic'], ['video', 'mediaVideo'], ['all', 'mediaAll']].map(function (f) {
       return '<button type="button" class="chip-btn" data-mfilter="' + f[0] + '" aria-pressed="' + (mediaType === f[0]) + '">' + esc(t(f[1])) + '</button>';
     }).join('');
@@ -3105,6 +3106,7 @@
   function startState() { return states.filter(function (s) { return isFav(s.id) && s.pos; })[0] || (states[0] && states[0].pos ? states[0] : null); }
   $('#muteBtn').setAttribute('aria-pressed', String(Sound.muted));
   applyTheme(theme);
+  var fy = $('#footYear'); if (fy) fy.textContent = new Date(now()).getFullYear();  // el año del pie no envejece
   computeStates();
   globe = new Globe($('#globe'), $('#pins'), {
     fit: .4, cy: .47, spin: 5,

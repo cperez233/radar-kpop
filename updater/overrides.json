@@ -275,14 +275,20 @@
         "text": "No hay shows anunciados en 2026. ADOR dice que el grupo prepara su regreso como cuarteto, sin fecha.",
         "until": "2026-12-31"
       },
-      "La última vez que llenaron un estadio fue el Bunnies Camp en el Tokyo Dome, en junio de 2024."
+      {
+        "text": "La última vez que llenaron un estadio fue el Bunnies Camp en el Tokyo Dome, en junio de 2024.",
+        "until": "2026-12-31"
+      }
     ],
     "watch_en": [
       {
         "text": "No shows announced in 2026. ADOR says the group is preparing a comeback as a four-piece, no date yet.",
         "until": "2026-12-31"
       },
-      "Their last stadium event was Bunnies Camp at Tokyo Dome, June 2024."
+      {
+        "text": "Their last stadium event was Bunnies Camp at Tokyo Dome, June 2024.",
+        "until": "2026-12-31"
+      }
     ]
   },
   "cortis": {
