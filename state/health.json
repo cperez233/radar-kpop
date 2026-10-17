@@ -49,10 +49,10 @@
    "since": "2026-10-16T08:05:47Z"
   },
   "rosterwatch": {
-   "msg": "",
-   "notified": false,
-   "ok": true,
-   "since": "2026-10-16T14:55:01Z"
+   "msg": "Google News no respondió",
+   "notified": true,
+   "ok": false,
+   "since": "2026-10-17T22:48:21Z"
   },
   "rsshub": {
    "msg": "",
