@@ -134,7 +134,10 @@
   "live:enh-20261017-macao|foro": "2026-10-17T10:45:55Z",
   "news:8d5013b8a186306f|ntfy": "2026-10-17T11:33:18Z",
   "news:8d5013b8a186306f|pub:radarkpop-skz-news": "2026-10-17T11:33:18Z",
-  "news:8d5013b8a186306f|foro": "2026-10-17T11:33:18Z"
+  "news:8d5013b8a186306f|foro": "2026-10-17T11:33:18Z",
+  "news:67c32e301ed9349e|ntfy": "2026-10-17T13:45:55Z",
+  "news:67c32e301ed9349e|pub:radarkpop-bts-news": "2026-10-17T13:45:55Z",
+  "news:67c32e301ed9349e|foro": "2026-10-17T13:45:55Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1046,6 +1049,7 @@
   "647fbfe504b1c95e",
   "6613df77f6d2c2c1",
   "679ac96bd183b1b7",
+  "67c32e301ed9349e",
   "6898b544ad664ce0",
   "693284d097c750f7",
   "6b9de9f9739b2949",
@@ -1500,6 +1504,22 @@
     "run"
    ],
    "t": "2026-10-17T11:33:11Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "800",
+    "argentina",
+    "detras",
+    "gira",
+    "global",
+    "llega",
+    "millones",
+    "negocio",
+    "podria",
+    "recaudar"
+   ],
+   "t": "2026-10-17T13:45:47Z"
   }
  ],
  "discord_threads": {
