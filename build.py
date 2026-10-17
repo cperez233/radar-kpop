@@ -99,7 +99,7 @@ def js(obj) -> str:
 # números, avisos, estrenos, integrantes y videos van dentro de la página: así el primer pintado ya sale completo
 # (antes cada archivo, al llegar, volvía a dibujar las 10 tarjetas). La web igual los vuelve a pedir para estar al día.
 extra = {}
-for key, name in (("stats", "stats.json"), ("notices", "notices.json"), ("releases", "releases.json"), ("roster", "rosterwatch.json"), ("media", "media.json")):
+for key, name in (("stats", "stats.json"), ("notices", "notices.json"), ("releases", "releases.json"), ("roster", "rosterwatch.json"), ("media", "media.json"), ("lightsticks", "lightsticks.json")):
     f = root / name
     if f.exists():
         try:
