@@ -1364,6 +1364,18 @@ html.vt-theme::view-transition-group(theme-ring) { animation: none; }
 .ls-row.big .ls-stage { width: 108px; height: 146px; border-radius: 22px; }
 .ls-row.big .ls-wave { width: 60px; height: 120px; margin-left: -30px; }
 .ls-row.big .ls-star { width: 12px; height: 12px; }
+/* sin lightstick todavía: la silueta punteada flota quieta en su escenario; no se enciende */
+.ls-soon { cursor: default; }
+.ls-soon .ls-stage { border-style: dashed; }
+.ls-soon .ls-svg { filter: drop-shadow(1.6px 0 0 #fff) drop-shadow(-1.6px 0 0 #fff) drop-shadow(0 1.6px 0 #fff) drop-shadow(0 -1.6px 0 #fff); }
+.ls-soon .ls-wave { animation: lsFloat 3.2s ease-in-out infinite; }
+.ls-soon .ls-chip { border-style: dashed; }
+.ls-soon.is-ann .ls-chip { border-style: solid; border-color: #2E2150; background: color-mix(in srgb, var(--lc) 38%, #fff); }
+.ls-soon.is-ann .ls-wave { animation: lsWave 2.6s ease-in-out infinite; }
+.ls-soon .ls-note a { font-weight: 700; color: var(--ink); text-decoration-color: var(--lc); text-underline-offset: 3px; }
+.ls-soon:active .ls-stage { transform: none; }
+@keyframes lsFloat { 0%, 100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-4px) rotate(3deg); } }
+@media (prefers-reduced-motion: reduce) { .ls-soon .ls-wave { animation: none !important; } }
 .ls-note { margin: 6px 0 0; font-size: 14.5px; line-height: 1.45; color: var(--ink-2); }
 @media (prefers-reduced-motion: reduce) { .is-lit .ls-wave, .is-lit .ls-glow, .is-lit .ls-star, .ls-just-on *, .ls-just-off * { animation: none !important; } }
 
