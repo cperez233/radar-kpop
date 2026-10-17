@@ -131,7 +131,10 @@
   "today:lngshot:lng-20261017-milan|foro": "2026-10-17T06:01:04Z",
   "live:enh-20261017-macao|ntfy": "2026-10-17T10:45:55Z",
   "live:enh-20261017-macao|pub:radarkpop-enhypen-shows": "2026-10-17T10:45:55Z",
-  "live:enh-20261017-macao|foro": "2026-10-17T10:45:55Z"
+  "live:enh-20261017-macao|foro": "2026-10-17T10:45:55Z",
+  "news:8d5013b8a186306f|ntfy": "2026-10-17T11:33:18Z",
+  "news:8d5013b8a186306f|pub:radarkpop-skz-news": "2026-10-17T11:33:18Z",
+  "news:8d5013b8a186306f|foro": "2026-10-17T11:33:18Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1086,6 +1089,7 @@
   "8ad15c2ec3cf151e",
   "8cbd2b6b30216cf7",
   "8cc811a5f123bad9",
+  "8d5013b8a186306f",
   "8dcc8d1ad364fdf2",
   "8eb88ae1e9e9d5c5",
   "8f4ff4263eb8af45",
@@ -1483,6 +1487,17 @@
     "traslado"
    ],
    "t": "2026-10-17T03:15:50Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "concierto",
+    "entradas",
+    "fukuoka",
+    "japan",
+    "run"
+   ],
+   "t": "2026-10-17T11:33:11Z"
   }
  ],
  "discord_threads": {
