@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T17:30:36Z",
+ "updated_at": "2026-10-17T17:45:34Z",
  "sample": false,
  "items": [
   {
@@ -9,7 +9,8 @@
    "kind": "Album",
    "date": "2026-11-10",
    "url": "https://music.apple.com/us/album/s-w-i-s-h-ep/6821155823",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/db/96/f4db96a4-7283-d95b-18dd-56dccc927855/8804775413131.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/db/96/f4db96a4-7283-d95b-18dd-56dccc927855/8804775413131.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "video",
@@ -403,7 +404,8 @@
    "kind": "Album",
    "date": "2026-06-19",
    "url": "https://music.apple.com/us/album/fire-with-fire-inspired-by-the-original-motion-picture/6781115620",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/e1/af/86e1af0c-918b-5717-9688-85829a858f43/26UMGIM22394.rgb.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/e1/af/86e1af0c-918b-5717-9688-85829a858f43/26UMGIM22394.rgb.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -441,7 +443,8 @@
    "kind": "Album",
    "date": "2026-03-23",
    "url": "https://music.apple.com/us/album/training-day-ep/1885487042",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/a8/de/cfa8dee7-da1a-eb20-6074-741a4af1a1f6/cover_KM0024394_1.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/a8/de/cfa8dee7-da1a-eb20-6074-741a4af1a1f6/cover_KM0024394_1.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "video",
@@ -459,7 +462,8 @@
    "kind": "Album",
    "date": "2026-02-27",
    "url": "https://music.apple.com/us/album/tiny-light-single/1877599751",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/ec/96/f4ec9661-c3bf-d38e-2e57-9e63e3d86870/26UMGIM16378.rgb.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/ec/96/f4ec9661-c3bf-d38e-2e57-9e63e3d86870/26UMGIM16378.rgb.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -497,7 +501,8 @@
    "kind": "Album",
    "date": "2025-07-14",
    "url": "https://music.apple.com/us/album/where-love-passed-single/1824608406",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/ef/4f/f4ef4f78-5e4d-8d90-4e19-28dfbdf567cf/25UMGIM90145.rgb.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/ef/4f/f4ef4f78-5e4d-8d90-4e19-28dfbdf567cf/25UMGIM90145.rgb.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -517,7 +522,8 @@
    "kind": "Album",
    "date": "2025-05-26",
    "url": "https://music.apple.com/us/album/happy-burstday/1846801259",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/64/e0/bc64e097-7ab4-5650-ed66-61a6b836370c/198704749377_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/64/e0/bc64e097-7ab4-5650-ed66-61a6b836370c/198704749377_Cover.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "music",
