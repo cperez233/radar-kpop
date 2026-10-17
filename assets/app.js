@@ -163,7 +163,7 @@
       sightSample: 'Datos de ejemplo: todavía no hay conexión con las cuentas oficiales.', sightAway: 'a {km} km de ti', sightNew: '¡{n} avistamientos nuevos!', sightNew1: '¡Un avistamiento nuevo!', sightSee: 'Ver post oficial',
       sightEmpty: 'Todavía no hay avistamientos. Aparecen cuando una cuenta oficial menciona una ciudad.', tickerK: 'AVISTAMIENTOS CERCANOS', sightSource: 'Fuente: cuentas oficiales en X',
       squad: 'Toca a cada miembro', notOnTour: 'no va en esta gira', photoAlt: 'Foto oficial de {g}', withUnit: 'con {names}',
-      gpOpen: 'Ver todo', swipeHint: 'Desliza para ver los demás grupos', feedMore: 'Ver {n} más', groupsPick: 'Grupos', gpHome: 'Inicio', gpMembers: 'Miembros', gpTour: 'Gira', gpMusic: 'Música', gpSocial: 'Redes', gpSeeTour: 'Ver la gira', gpTapMember: 'Toca a un miembro para ver su perfil, su cumpleaños y sus redes.', gpAllMembers: 'Todos los miembros', gpNoPersonal: 'No tiene cuentas personales públicas; sigue al grupo en Redes.', gpLatestPosts: 'Lo último que publicaron', gpPlayHere: 'Ver aquí', gpOpenPost: 'Abrir el post', gpSource: 'fuente', gpUpcoming: 'Próximas fechas ({n} ciudades)', gpPast: 'Últimas paradas ({n})', gpNoDates: 'Sin fechas anunciadas por ahora.', gpNoPosts: 'Todavía no hay posts guardados; el robot los trae solo.', gpMemberAccounts: 'Cuentas de los miembros', bdayToday: 'Hoy cumple {name}', bdayIsToday: '¡cumple hoy!', bdayIn: 'cumple en {n} días', bdayTurnsToday: '¡hoy cumple {n}!', bdayAgeIn: '{age} años · cumple en {n} días', regCo: 'Colombia', regLatam: 'Latinoamérica y el Caribe', regNa: 'Estados Unidos y Canadá', regEu: 'Europa', regAsia: 'Asia, Oceanía y Medio Oriente', listen: 'Escúchalos en', nextRelease: 'Próximo estreno', relToday: '¡Sale hoy!', relNew: 'Nuevo', relAnn: 'anuncio oficial', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
+      gpOpen: 'Ver todo', swipeHint: 'Desliza para ver los demás grupos', feedMore: 'Ver {n} más', groupsPick: 'Grupos', gpHome: 'Inicio', gpMembers: 'Miembros', gpTour: 'Gira', gpMusic: 'Música', gpSocial: 'Redes', gpSeeTour: 'Ver la gira', gpTapMember: 'Toca a un miembro para ver su perfil, su cumpleaños y sus redes.', gpAllMembers: 'Todos los miembros', gpNoPersonal: 'No tiene cuentas personales públicas; sigue al grupo en Redes.', gpLatestPosts: 'Lo último que publicaron', gpPlayHere: 'Ver aquí', gpOpenPost: 'Abrir el post', gpSource: 'fuente', gpUpcoming: 'Próximas fechas ({n} ciudades)', gpPast: 'Últimas paradas ({n})', gpNoDates: 'Sin fechas anunciadas por ahora.', gpNoPosts: 'Todavía no hay posts guardados; el robot los trae solo.', gpMemberAccounts: 'Cuentas de los miembros', gpMemberPosts: 'Lo último de los miembros', gpMorePosts: 'Ver más en Redes', bdayToday: 'Hoy cumple {name}', bdayIsToday: '¡cumple hoy!', bdayIn: 'cumple en {n} días', bdayTurnsToday: '¡hoy cumple {n}!', bdayAgeIn: '{age} años · cumple en {n} días', regCo: 'Colombia', regLatam: 'Latinoamérica y el Caribe', regNa: 'Estados Unidos y Canadá', regEu: 'Europa', regAsia: 'Asia, Oceanía y Medio Oriente', listen: 'Escúchalos en', nextRelease: 'Próximo estreno', relToday: '¡Sale hoy!', relNew: 'Nuevo', relAnn: 'anuncio oficial', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
       stMembers: 'miembros', stDebutK: 'debut', stListeners: 'oyentes mensuales en Spotify', stPeak: 'récord de oyentes mensuales', stStreams: 'reproducciones en Spotify',
       stTopSong: 'su canción más escuchada · {n} reproducciones', stTopSongK: 'su canción más escuchada', stSubs: 'suscriptores en YouTube', stAgency: 'Agencia',
       stSource: 'Números de Spotify vía kworb.net, se actualizan solos una vez al día.',
@@ -232,7 +232,7 @@
       sightSample: 'Sample data: not connected to the official accounts yet.', sightAway: '{km} km from you', sightNew: '{n} new sightings!', sightNew1: 'A new sighting!', sightSee: 'See official post',
       sightEmpty: 'No sightings yet. They show up when an official account mentions a city.', tickerK: 'SIGHTINGS NEAR YOU', sightSource: 'Source: official accounts on X',
       squad: 'Tap each member', notOnTour: 'not on this tour', photoAlt: 'Official photo of {g}', withUnit: 'with {names}',
-      gpOpen: 'See all', swipeHint: 'Swipe to see the other groups', feedMore: 'See {n} more', groupsPick: 'Groups', gpHome: 'Home', gpMembers: 'Members', gpTour: 'Tour', gpMusic: 'Music', gpSocial: 'Social', gpSeeTour: 'See the tour', gpTapMember: 'Tap a member to see their profile, birthday and accounts.', gpAllMembers: 'All members', gpNoPersonal: 'No public personal accounts; follow the group under Social.', gpLatestPosts: 'Latest posts', gpPlayHere: 'Watch here', gpOpenPost: 'Open the post', gpSource: 'source', gpUpcoming: 'Upcoming dates ({n} cities)', gpPast: 'Last stops ({n})', gpNoDates: 'No dates announced for now.', gpNoPosts: 'No posts saved yet; the robot brings them on its own.', gpMemberAccounts: 'Members\' accounts', bdayToday: "It's {name}'s birthday", bdayIsToday: 'birthday today!', bdayIn: 'birthday in {n} days', bdayTurnsToday: 'turns {n} today!', bdayAgeIn: '{age} years old · birthday in {n} days', regCo: 'Colombia', regLatam: 'Latin America and the Caribbean', regNa: 'United States and Canada', regEu: 'Europe', regAsia: 'Asia, Oceania and Middle East', listen: 'Listen on', nextRelease: 'Next release', relToday: 'Out today!', relNew: 'New', relAnn: 'official announcement', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
+      gpOpen: 'See all', swipeHint: 'Swipe to see the other groups', feedMore: 'See {n} more', groupsPick: 'Groups', gpHome: 'Home', gpMembers: 'Members', gpTour: 'Tour', gpMusic: 'Music', gpSocial: 'Social', gpSeeTour: 'See the tour', gpTapMember: 'Tap a member to see their profile, birthday and accounts.', gpAllMembers: 'All members', gpNoPersonal: 'No public personal accounts; follow the group under Social.', gpLatestPosts: 'Latest posts', gpPlayHere: 'Watch here', gpOpenPost: 'Open the post', gpSource: 'source', gpUpcoming: 'Upcoming dates ({n} cities)', gpPast: 'Last stops ({n})', gpNoDates: 'No dates announced for now.', gpNoPosts: 'No posts saved yet; the robot brings them on its own.', gpMemberAccounts: 'Members\' accounts', gpMemberPosts: 'Latest from the members', gpMorePosts: 'More under Social', bdayToday: "It's {name}'s birthday", bdayIsToday: 'birthday today!', bdayIn: 'birthday in {n} days', bdayTurnsToday: 'turns {n} today!', bdayAgeIn: '{age} years old · birthday in {n} days', regCo: 'Colombia', regLatam: 'Latin America and the Caribbean', regNa: 'United States and Canada', regEu: 'Europe', regAsia: 'Asia, Oceania and Middle East', listen: 'Listen on', nextRelease: 'Next release', relToday: 'Out today!', relNew: 'New', relAnn: 'official announcement', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
       stMembers: 'members', stDebutK: 'debut', stListeners: 'Spotify monthly listeners', stPeak: 'monthly listeners record', stStreams: 'Spotify streams',
       stTopSong: 'their most streamed song · {n} streams', stTopSongK: 'their most streamed song', stSubs: 'YouTube subscribers', stAgency: 'Agency',
       stSource: 'Spotify numbers via kworb.net, updated automatically once a day.',
@@ -1871,6 +1871,8 @@
     h += listenHtml(st.g).replace('</ul></div>', (okHandle(p.tiktok) ? '<li><a class="ln ln-tt" href="https://www.tiktok.com/@' + esc(p.tiktok) + '" target="_blank" rel="noopener noreferrer">' + SOC_ICON.tt + '<span>TikTok</span></a></li>' : '') +
       (okHandle(p.instagram) ? '<li><a class="ln ln-ig" href="https://www.instagram.com/' + esc(p.instagram) + '/" target="_blank" rel="noopener noreferrer">' + SOC_ICON.ig + '<span>Instagram</span></a></li>' : '') + '</ul></div>');
     h += noticesHtml(id).replace('<details class="agenda notices">', '<details class="agenda notices" open>');
+    var mp = memberPosts(id).slice(0, 3);
+    if (mp.length) h += '<section class="gp-sec"><h4>' + esc(t('gpMemberPosts')) + '</h4>' + postList(mp, id) + '<button type="button" class="act" data-gp-tab="social">' + esc(t('gpMorePosts')) + '</button></section>';
     h += statsHtml(st.g).replace('<details class="agenda stats">', '<details class="agenda stats" open>');
     var wt = lang === 'en' && st.g.watch_en && st.g.watch_en.length ? st.g.watch_en : st.g.watch;
     if (wt && wt.length) h += '<ul class="watch">' + wt.map(function (w) { return '<li>' + esc(w) + '</li>'; }).join('') + '</ul>';
@@ -1895,19 +1897,31 @@
       (b ? '<p class="gp-bd' + (b.today ? ' today' : '') + '">🎂 ' + esc(fmtDate(b.date.replace(/^\d{4}/, String(new Date(now()).getFullYear())), false).replace(/,? \d{4}$/, '')) + ' · ' +
         esc(b.today ? t('bdayTurnsToday', { n: b.turning }) : t('bdayAgeIn', { age: b.age, n: b.days })) + '</p>' : '') +
       msLong(id, mid) + '<div class="soc-row">' + (socialLinks(p) || '<p class="gp-muted">' + esc(t('gpNoPersonal')) + '</p>') + '</div></div></section>';
-    var posts = [].concat((feed.tiktok || []).map(function (x) { return Object.assign({ k: 'tt' }, x); }), (feed.instagram || []).map(function (x) { return Object.assign({ k: 'ig' }, x); }))
-      .sort(function (a, c) { return a.when < c.when ? 1 : -1; }).slice(0, 6);
+    var posts = feedPosts(feed).slice(0, 6);
     if (posts.length) h += '<section class="gp-sec"><h4>' + esc(t('gpLatestPosts')) + '</h4>' + postList(posts) + '</section>';
     var others = members(id).filter(function (x) { return x.id !== mid; });
     h += '<div class="gp-others">' + others.map(function (x) { return '<button type="button" data-gp-mem="' + esc(x.id) + '" aria-label="' + esc(x.name) + '"><img src="' + esc(memberSrc(id, x.id)) + '" alt="" loading="lazy"></button>'; }).join('') + '</div>';
     return h;
   }
-  function postList(posts) {
+  /* posts de una cuenta (grupo o miembro) de todas sus redes, lo más nuevo primero */
+  function feedPosts(f, extra) {
+    return [].concat((f.x || []).map(function (x) { return Object.assign({ k: 'x' }, extra, x); }), (f.tiktok || []).map(function (x) { return Object.assign({ k: 'tt' }, extra, x); }), (f.instagram || []).map(function (x) { return Object.assign({ k: 'ig' }, extra, x); }))
+      .filter(function (x) { return x.when && !isNaN(Date.parse(x.when)); })
+      .sort(function (a, c) { return a.when < c.when ? 1 : -1; });
+  }
+  /* lo último de todos los miembros actuales del grupo, cada post con quién lo publicó */
+  function memberPosts(id) {
+    var mf = (socialFeed[id] || {}).members || {}, out = [];
+    members(id).forEach(function (mm) { if (mf[mm.id]) out = out.concat(feedPosts(mf[mm.id], { mid: mm.id, who: mm.name })); });
+    return out.sort(function (a, c) { return a.when < c.when ? 1 : -1; });
+  }
+  function postList(posts, gid) {
     return '<ul class="gp-posts">' + posts.map(function (x) {
       var vid = x.k === 'tt' && /\/video\/(\d+)/.exec(x.url || '');
       var ok = /^https:\/\/(www\.)?(tiktok\.com|instagram\.com|x\.com|twitter\.com)\//.test(x.url || '');
       if (!ok) return '';
-      return '<li class="gp-post p-' + x.k + '"><div class="gp-post-h"><span class="soc-mini soc-' + x.k + '">' + SOC_ICON[x.k] + '</span><time>' + esc(t('ago', { n: agoTxt(now() - Date.parse(x.when)) })) + '</time></div>' +
+      var who = gid && x.mid ? '<button type="button" class="gp-post-who" data-gp-mem="' + esc(x.mid) + '"><img src="' + esc(memberSrc(gid, x.mid)) + '" alt="" loading="lazy" decoding="async"><b>' + esc(x.who) + '</b></button>' : '';
+      return '<li class="gp-post p-' + x.k + '"><div class="gp-post-h">' + who + '<span class="soc-mini soc-' + x.k + '">' + SOC_ICON[x.k] + '</span><time>' + esc(t('ago', { n: agoTxt(now() - Date.parse(x.when)) })) + '</time></div>' +
         '<p>' + esc(x.title || '') + '</p>' + (vid ? '<button type="button" class="chip-btn" data-tt="' + esc(vid[1]) + '">▶ ' + esc(t('gpPlayHere')) + '</button> ' : '') +
         '<a class="src-link" href="' + esc(x.url) + '" target="_blank" rel="noopener noreferrer">' + esc(t('gpOpenPost')) + '</a></li>';
     }).join('') + '</ul>';
@@ -1945,12 +1959,12 @@
   }
   function gpSocial(id) {
     var f = socialFeed[id] || {}, h = '', p = PEOPLE[id] || {};
-    var posts = [].concat((f.x || []).map(function (x) { return Object.assign({ k: 'x' }, x); }), (f.tiktok || []).map(function (x) { return Object.assign({ k: 'tt' }, x); }), (f.instagram || []).map(function (x) { return Object.assign({ k: 'ig' }, x); }))
-      .sort(function (a, c) { return a.when < c.when ? 1 : -1; }).slice(0, 12);
+    var posts = feedPosts(f).slice(0, 12), mposts = memberPosts(id).slice(0, 12);
     var groupLinks = socialLinks({ instagram: p.instagram, tiktok: p.tiktok }, 'soc');
     if (groupLinks) h += '<div class="soc-row">' + groupLinks + '</div>';
     h += noticesHtml(id).replace('<details class="agenda notices">', '<details class="agenda notices" open>');
     h += posts.length ? '<section class="gp-sec"><h4>' + esc(t('gpLatestPosts')) + '</h4>' + postList(posts) + '</section>' : '<p class="gp-muted">' + esc(t('gpNoPosts')) + '</p>';
+    if (mposts.length) h += '<section class="gp-sec"><h4>' + esc(t('gpMemberPosts')) + '</h4>' + postList(mposts, id) + '</section>';
     var withSoc = members(id).filter(function (mm) { var q = person(id, mm.id); return okHandle(q.instagram) || okHandle(q.tiktok) || okHandle(q.x); });
     if (withSoc.length) h += '<section class="gp-sec"><h4>' + esc(t('gpMemberAccounts')) + '</h4><ul class="gp-socmem">' + withSoc.map(function (mm) {
       return '<li><button type="button" data-gp-mem="' + esc(mm.id) + '"><img src="' + esc(memberSrc(id, mm.id)) + '" alt="" loading="lazy"><b>' + esc(mm.name) + '</b></button><div class="soc-row">' + socialLinks(person(id, mm.id), 'soc small') + '</div></li>';
