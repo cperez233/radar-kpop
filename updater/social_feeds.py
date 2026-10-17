@@ -3,7 +3,7 @@
 Uso: RSSHUB_URL=https://... python updater/social_feeds.py   (después de sightings/fetch_x.py)
 - TikTok del grupo y de los miembros que tienen cuenta (assets/people.json), vía tu RSSHub (/tiktok/user/@cuenta, sin cookie).
 - Instagram (/instagram/user/cuenta) solo si tu RSSHub tiene configurado Instagram. Para que Instagram no marque la cuenta
-  de la cookie como bot: solo IG_PER_RUN cuentas por corrida (en turno, cada cuenta se renueva cada ~6 h), con pausas
+  de la cookie como bot: solo IG_PER_RUN cuentas por corrida (en turno, cada cuenta se renueva cada ~5 h), con pausas
   al azar entre una y otra, y si falla no se vuelve a intentar en IG_BACKOFF (una cookie vencida no se insiste).
 - Posts oficiales en X del grupo: los reusa de state/social.json (los trae fetch_x.py), sin pedirlos otra vez.
 Guarda los últimos PER_ACCOUNT posts por cuenta (texto, enlace y fecha; las miniaturas de TikTok caducan, no se guardan).
@@ -33,7 +33,7 @@ PEOPLE = ROOT / "assets" / "people.json"
 SOCIAL = ROOT / "state" / "social.json"
 PER_ACCOUNT = 5
 MIN_GAP = timedelta(minutes=55)
-IG_PER_RUN = 8
+IG_PER_RUN = 10
 IG_BACKOFF = timedelta(hours=6)
 
 
