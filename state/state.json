@@ -118,7 +118,13 @@
   "news:6eb688ec6484ab24|foro": "2026-10-17T00:46:00Z",
   "official:twice:comeback:2026-10-17|ntfy": "2026-10-17T00:46:00Z",
   "official:twice:comeback:2026-10-17|pub:radarkpop-twice-music": "2026-10-17T00:46:00Z",
-  "official:twice:comeback:2026-10-17|foro": "2026-10-17T00:46:00Z"
+  "official:twice:comeback:2026-10-17|foro": "2026-10-17T00:46:00Z",
+  "news:9a80c3652095c287|ntfy": "2026-10-17T03:15:57Z",
+  "news:9a80c3652095c287|pub:radarkpop-bts-news": "2026-10-17T03:15:57Z",
+  "news:9a80c3652095c287|foro": "2026-10-17T03:15:57Z",
+  "official:lngshot:comeback:2026-10-17|ntfy": "2026-10-17T03:15:57Z",
+  "official:lngshot:comeback:2026-10-17|pub:radarkpop-lngshot-music": "2026-10-17T03:15:57Z",
+  "official:lngshot:comeback:2026-10-17|foro": "2026-10-17T03:15:57Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1078,12 +1084,14 @@
   "9812990bb2d60696",
   "9872c57103ee373f",
   "99bb7b56f0e52584",
+  "9a80c3652095c287",
   "9e0aece9e2c8cda0",
   "9eeb1f42eb447f73",
   "a208891472485ef0",
   "a2153cb309fc9198",
   "a3395a5672762573",
   "a42212d3597c2d3a",
+  "a48a22654f1ccfaa",
   "a4a6317a2074cad2",
   "a512c541fd566a4c",
   "a5b18da4e90b1f3c",
@@ -1126,6 +1134,7 @@
   "cca49e5f4017ea46",
   "cdcffd89759f760b",
   "ce89f92eed1ef948",
+  "cf54b8082791e2d2",
   "cfa384031ef9ad58",
   "d0cc514f1ef6d062",
   "d1f05823aca4b327",
@@ -1441,11 +1450,24 @@
     "unico"
    ],
    "t": "2026-10-17T00:45:52Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "concierto",
+    "durante",
+    "efecto",
+    "recomendaciones",
+    "seguro",
+    "traslado"
+   ],
+   "t": "2026-10-17T03:15:50Z"
   }
  ],
  "discord_threads": {
   "bts": "1560811054764925032",
   "skz": "1560811126709559389",
-  "twice": "1560816133915803742"
+  "twice": "1560816133915803742",
+  "lngshot": "1560853868294971504"
  }
 }

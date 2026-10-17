@@ -7,10 +7,10 @@
    "since": "2026-10-16T07:55:55Z"
   },
   "discord": {
-   "msg": "fallaron los 1 envíos",
-   "notified": true,
-   "ok": false,
-   "since": "2026-10-17T01:01:11Z"
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-17T03:16:02Z"
   },
   "itunes": {
    "msg": "",
