@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T18:28:03Z",
+ "updated_at": "2026-10-17T18:30:39Z",
  "sample": false,
  "items": [
   {
@@ -174,7 +174,8 @@
      "ms": 160835,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/6f/fe/0b6ffe58-115c-1bf7-a537-fb132ab60086/mzaf_18446711858706010651.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm_try": 1
   },
   {
    "type": "video",
@@ -384,7 +385,19 @@
    "url": "https://music.apple.com/us/album/bloody-paradise-english-ver-single/6804583619",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/61/48/5f614875-a66d-c4c2-1737-cd6ce42654ee/823375394006_Cover.jpg/300x300bb.jpg",
    "ytm_v": 3,
-   "spotify": "https://open.spotify.com/album/0pmGnlSL15kAFrftVmfPsx"
+   "spotify": "https://open.spotify.com/album/0pmGnlSL15kAFrftVmfPsx",
+   "tracks": [
+    {
+     "n": "Bloody Paradise (English Ver.)",
+     "ms": 131200,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b5/c0/aa/b5c0aa25-8add-9014-aa2b-e30da3da2a7b/mzaf_17945270291858680336.plus.aac.p.m4a"
+    },
+    {
+     "n": "Bloody Paradise (English Ver.)",
+     "ms": 131200,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/2d/6f/542d6f23-caf3-3127-a9ed-7a6e76adac29/mzaf_15965696081842026818.plus.aac.p.m4a"
+    }
+   ]
   },
   {
    "type": "music",
@@ -394,7 +407,8 @@
    "date": "2026-08-25",
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
-   "ytm_v": 3
+   "ytm_v": 3,
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -405,7 +419,74 @@
    "url": "https://music.apple.com/us/album/the-sin-bliss-sunghoon-ver/6803801121",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/c8/6f/21c86f53-8d07-7841-7403-82c1c7f60550/823375387930_Cover.jpg/300x300bb.jpg",
    "ytm_v": 3,
-   "spotify": "https://open.spotify.com/album/6nvN59P9vZ3XBtv7eWN70w"
+   "spotify": "https://open.spotify.com/album/6nvN59P9vZ3XBtv7eWN70w",
+   "tracks": [
+    {
+     "n": "Bloody Paradise (SUNGHOON Ver.)",
+     "ms": 121000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/88/f0/0588f08b-3754-8ee5-24fc-0a18d8e70f3e/mzaf_17104037333259704550.plus.aac.p.m4a"
+    },
+    {
+     "n": "Voice Note (SUNGHOON Ver.)",
+     "ms": 38000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/e3/8c/78e38cff-1996-8de3-3053-00220403e92a/mzaf_13928654760695378442.plus.aac.p.m4a"
+    },
+    {
+     "n": "Bloody Paradise (English Ver.)",
+     "ms": 131200,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1d/92/fc/1d92fc31-ada3-5d39-6cd8-c99c19f7a260/mzaf_15809950397822092049.plus.aac.p.m4a"
+    },
+    {
+     "n": "Two Fools",
+     "ms": 142267,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/86/51/d0865190-a317-b758-e094-4c669791db68/mzaf_3028803704396562016.plus.aac.p.m4a"
+    },
+    {
+     "n": "Breaking News",
+     "ms": 49467,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/23/27/6a23278b-7fc8-cb41-0843-9b42867b3e81/mzaf_16788075567145576934.plus.aac.p.m4a"
+    },
+    {
+     "n": "Stuck",
+     "ms": 152867,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e9/72/1b/e9721b20-985a-6775-8184-d20624d671a5/mzaf_14938702825346553873.plus.aac.p.m4a"
+    },
+    {
+     "n": "Bad For You",
+     "ms": 195200,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/7c/c0/937cc01c-c193-903c-4528-4052545662d0/mzaf_6221418413439170035.plus.aac.p.m4a"
+    },
+    {
+     "n": "Remnants of Love",
+     "ms": 87733,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/4b/af/0e4bafc2-6424-d7b5-5c45-229eea40d9e8/mzaf_16904722887733502227.plus.aac.p.m4a"
+    },
+    {
+     "n": "Bloody Paradise",
+     "ms": 131200,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/85/92/8685922a-45fb-6a95-13db-96c98484679a/mzaf_3762949686221492928.plus.aac.p.m4a"
+    },
+    {
+     "n": "The Final Moment",
+     "ms": 78600,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/a4/de/f8a4de1e-0ea1-e029-c3d0-b1690fbb7288/mzaf_17441268096341680968.plus.aac.p.m4a"
+    },
+    {
+     "n": "Checkmate",
+     "ms": 143000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/ec/2e/17ec2e47-90b2-a4ee-f2bc-d9ad036a7286/mzaf_5573885058225722149.plus.aac.p.m4a"
+    },
+    {
+     "n": "Highlight",
+     "ms": 193733,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/d1/e2/fdd1e2e4-6320-d07d-db38-b2cb026f640a/mzaf_5985959269801770460.plus.aac.p.m4a"
+    },
+    {
+     "n": "The Veiled Truth",
+     "ms": 95867,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/32/04/043204bd-07a8-5682-b7ab-180564f0c5c7/mzaf_15028971748120058438.plus.aac.p.m4a"
+    }
+   ]
   },
   {
    "type": "music",
@@ -437,6 +518,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/af/6b/f2af6b59-fbd0-60d7-0855-883cda56bf5f/8809928956862_Cover.jpg/300x300bb.jpg",
    "ytm_v": 3,
    "spotify": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+   "ytm": "https://music.youtube.com/watch?v=UdZqzC8kyvc",
    "tracks": [
     {
      "n": "RUN IT",
@@ -494,8 +576,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/bd/c4/b1bdc434-07d5-1da0-bbe1-b5b585aa230c/mzaf_39664860882368930.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": 1,
-   "ytm": "https://music.youtube.com/watch?v=UdZqzC8kyvc"
+   "ytm_try": 1
   },
   {
    "type": "video",
@@ -516,6 +597,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/70/ea/2270ea94-60f0-94a6-bce2-99fafaa8a057/8809928957340_Cover.jpg/300x300bb.jpg",
    "ytm_v": 3,
    "spotify": "https://open.spotify.com/album/6xS6wVbYu6DtNh6J1KZ1Gp",
+   "ytm": "https://music.youtube.com/watch?v=3jqy81PCn5I",
    "tracks": [
     {
      "n": "Battle Ground (Korean Version)",
@@ -588,8 +670,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/cf/aa/fdcfaa60-ccb4-ea4c-20f1-7fd39e443148/mzaf_13212625031362410386.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": 1,
-   "ytm": "https://music.youtube.com/watch?v=3jqy81PCn5I"
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -623,6 +704,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/92/12/639212c1-b9ce-d2dd-16aa-e2d0011d9269/823375303022_Cover.jpg/300x300bb.jpg",
    "ytm_v": 3,
    "spotify": "https://open.spotify.com/album/41K5jLsbiHSIneJHTkcaar",
+   "ytm": "https://music.youtube.com/watch?v=4QMp7lCxEb4",
    "tracks": [
     {
      "n": "NORMAL (MV Still Alternate Cover RM Version)",
@@ -630,8 +712,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/86/d2/4286d2f8-9116-5b18-1ede-0f8a608bc59a/mzaf_17827249742621956391.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": 1,
-   "ytm": "https://music.youtube.com/watch?v=4QMp7lCxEb4"
+   "ytm_try": 1
   },
   {
    "type": "video",
@@ -729,8 +810,8 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2a/71/1e/2a711ec5-5468-855e-76c8-61a1ba0b3f13/823375122449_Cover.jpg/300x300bb.jpg",
    "ytm_v": 3,
    "spotify": "https://open.spotify.com/album/38kbL8yJY3FgCobipweY90",
-   "ytm_try": 1,
-   "ytm": "https://music.youtube.com/watch?v=0XhuQwJotdA"
+   "ytm": "https://music.youtube.com/watch?v=0XhuQwJotdA",
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -833,7 +914,8 @@
      "ms": 187479,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/5c/93/405c933c-1ac2-392d-0ef5-239a39a49b82/mzaf_11064126409298218431.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -907,7 +989,8 @@
      "ms": 164000,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/38/9a/56389afe-4c4e-2dcf-f1d3-3cfd77bad617/mzaf_1996122056518744077.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -942,7 +1025,9 @@
      "ms": 164719,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/e5/22/c0e5223b-b169-bd10-5673-78a4a50ee9b1/mzaf_14292064936326881473.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm_try": 1,
+   "ytm": "https://music.youtube.com/watch?v=CgCVZdcKcqY"
   },
   {
    "type": "music",
@@ -1036,7 +1121,29 @@
    "url": "https://music.apple.com/us/album/supernatural-single/1750576829",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/ce/d6/abced6f6-2b90-c230-eb4b-e146734a3a22/196922907821_Cover.jpg/300x300bb.jpg",
    "ytm_v": 3,
-   "spotify": "https://open.spotify.com/album/1FVw30SoC91lq1UZ6N9rwN"
+   "spotify": "https://open.spotify.com/album/1FVw30SoC91lq1UZ6N9rwN",
+   "tracks": [
+    {
+     "n": "Supernatural",
+     "ms": 191000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/ce/f9/41cef96a-6b48-2ddd-72a8-f479e7a1c752/mzaf_5570335600994446876.plus.aac.p.m4a"
+    },
+    {
+     "n": "Right Now",
+     "ms": 160413,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/a5/ff/d9a5ff09-9936-60c3-322d-6541eb8228a0/mzaf_8507832924895951906.plus.aac.p.m4a"
+    },
+    {
+     "n": "Supernatural (Instrumental)",
+     "ms": 191000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/37/ea/5437eafd-88eb-1bd8-8820-a7db4e10e6b8/mzaf_2206439411773151287.plus.aac.p.m4a"
+    },
+    {
+     "n": "Right Now (Instrumental)",
+     "ms": 160413,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/f5/08/caf50809-faf4-7a50-f4d5-3ca9eaf0bf33/mzaf_4788667005915297884.plus.aac.p.m4a"
+    }
+   ]
   },
   {
    "type": "music",
@@ -1047,7 +1154,29 @@
    "url": "https://music.apple.com/us/album/how-sweet-ep/1744448415",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/68/ca/bf68ca64-4acd-543f-bc78-455f11f06105/196922889738_Cover.jpg/300x300bb.jpg",
    "ytm_v": 3,
-   "spotify": "https://open.spotify.com/album/0EhZEM4RRz0yioTgucDhJq"
+   "spotify": "https://open.spotify.com/album/0EhZEM4RRz0yioTgucDhJq",
+   "tracks": [
+    {
+     "n": "How Sweet",
+     "ms": 219027,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/f8/ec/4df8ec06-579b-0b92-1c4d-d8714cc5d1bc/mzaf_8361635933595309894.plus.aac.p.m4a"
+    },
+    {
+     "n": "Bubble Gum",
+     "ms": 200267,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/d6/aa/94d6aab6-6654-5aca-dbf8-9874b7975bcd/mzaf_16231939766265640228.plus.aac.p.m4a"
+    },
+    {
+     "n": "How Sweet (Instrumental)",
+     "ms": 219013,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/1e/53/661e53a0-7b94-a107-5566-3c0965ecbe9a/mzaf_16927712233418403912.plus.aac.p.m4a"
+    },
+    {
+     "n": "Bubble Gum (Instrumental)",
+     "ms": 200267,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/cf/ca/55cfca9e-66fb-39a8-ed00-72e587332ed0/mzaf_14657405780734511175.plus.aac.p.m4a"
+    }
+   ]
   },
   {
    "type": "music",
@@ -1076,7 +1205,9 @@
      "ms": 162000,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/e0/51/53e051fc-ef76-3ac2-07de-cd19b3fbed2f/mzaf_6643641762713119046.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm_try": 1,
+   "ytm": "https://music.youtube.com/watch?v=cSqOY5nktfg"
   }
  ]
 }
