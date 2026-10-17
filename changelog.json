@@ -1,5 +1,17 @@
 [
   {
+    "version": "4.9",
+    "date": "2026-10-17",
+    "title_es": "Lo último de los integrantes",
+    "title_en": "Latest from the members",
+    "es": [
+      "Cada grupo muestra lo último que publicaron sus integrantes en sus cuentas personales: los 3 más recientes en Inicio y hasta 12 en Redes, con el chibi y el nombre de quien lo publicó. Al tocarlo se abre su perfil."
+    ],
+    "en": [
+      "Each group shows the latest posts from its members' personal accounts: the 3 newest under Home and up to 12 under Social, with the chibi and name of who posted. Tap it to open their profile."
+    ]
+  },
+  {
     "version": "4.8",
     "date": "2026-10-16",
     "title_es": "Alertas que sí puedes elegir y tarjetas completas",
