@@ -1290,10 +1290,20 @@ input[type="range"] { width: 100%; accent-color: var(--bubble); min-height: 32px
 :root[data-theme="dark"] .btn-ico.theme .ico-sun { display: block; }
 .btn-ico.theme svg { transition: transform .5s var(--boing); }
 .btn-ico.theme:active svg { transform: rotate(-40deg) scale(.85); }
-/* el cambio de tema se abre como un círculo de luz desde el botón */
-::view-transition-old(root), ::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
-::view-transition-new(root) { animation: themeReveal .65s var(--ease); }
-@keyframes themeReveal { from { clip-path: circle(0 at var(--vt-x, 90%) var(--vt-y, 30px)); } to { clip-path: circle(150vmax at var(--vt-x, 90%) var(--vt-y, 30px)); } }
+/* el cambio de tema se abre como un círculo de luz desde el botón
+   (solo cuando el cambio es de tema; el cambio de idioma conserva su fundido) */
+html.vt-theme::view-transition-old(root), html.vt-theme::view-transition-new(root) { mix-blend-mode: normal; }
+html.vt-theme::view-transition-old(root) { animation: themeOld 1.2s cubic-bezier(.55, 0, .25, 1) both; }
+html.vt-theme::view-transition-new(root) { animation: themeReveal 1.2s cubic-bezier(.55, 0, .25, 1) both; }
+html.vt-theme::view-transition-group(theme-ring) { animation: none; }
+@keyframes themeReveal { from { clip-path: circle(0 at var(--vt-x, 90%) var(--vt-y, 30px)); } to { clip-path: circle(var(--vt-r, 150vmax) at var(--vt-x, 90%) var(--vt-y, 30px)); } }
+@keyframes themeOld { to { transform: scale(.985); filter: brightness(.82) saturate(.9); } }
+/* el aro de luz que viaja en el borde del círculo: va en su propia capa de la transición para quedar encima */
+.theme-ring { position: fixed; z-index: 200; border-radius: 50%; pointer-events: none; view-transition-name: theme-ring;
+  border: 5px solid #FFB3D9; box-shadow: 0 0 18px 6px rgba(255, 179, 217, .65), inset 0 0 18px 6px rgba(213, 198, 255, .6);
+  animation: themeRing 1.2s cubic-bezier(.55, 0, .25, 1) both; }
+.theme-ring.light { border-color: #FFE89E; box-shadow: 0 0 18px 6px rgba(255, 232, 158, .7), inset 0 0 18px 6px rgba(255, 179, 217, .5); }
+@keyframes themeRing { 0% { transform: scale(0); opacity: 1; } 80% { opacity: 1; } 100% { transform: scale(1); opacity: 0; } }
 
 /* ================= lightsticks =================
    Fila en la tarjeta (mango a la izquierda, nombre a la derecha) y versión grande en la página del grupo.
@@ -1433,4 +1443,68 @@ html { scrollbar-color: color-mix(in oklab, var(--ink) 35%, transparent) var(--p
   .btn-ico.theme:hover .ico-sun { animation: hSpin .8s var(--boing); }
   .link-btn:hover, .sources a:hover { text-decoration-style: wavy; text-decoration-color: var(--bubble); }
   .ls-row:hover { box-shadow: 4px 6px 0 var(--lc); }
+}
+
+/* ================= transiciones: abrir, cerrar, cambiar de pestaña, llegar a una sección =================
+   Todo con transform/opacity y resorte; con movimiento reducido no corre nada. */
+/* desplegables (trivia, números, gira, avisos): crecen hasta su alto real y el contenido entra suave */
+details { interpolate-size: allow-keywords; }
+details::details-content { block-size: 0; overflow: clip; transition: block-size .42s cubic-bezier(.3, .7, .2, 1), content-visibility .42s allow-discrete; }
+details[open]::details-content { block-size: auto; }
+details[open] > :not(summary) { animation: foldIn .45s var(--boing) both; }
+details[open] > :not(summary):nth-child(3) { animation-delay: .05s; }
+details[open] > :not(summary):nth-child(4) { animation-delay: .1s; }
+details summary::before, details summary::after { transition: transform .4s var(--boing), background-color .2s; }
+@keyframes foldIn { from { opacity: 0; transform: translateY(-8px) scale(.98); } }
+/* página del grupo: entra como una tarjeta que sube, sale hundiéndose */
+.gp.gp-opening .gp-card { animation: gpIn .55s var(--boing) both; }
+.gp.gp-opening .gp-head .gp-face { animation: hHop .6s .2s var(--ease) both; }
+.gp.gp-closing { animation: veilOut .26s ease-in both; }
+.gp.gp-closing .gp-card { animation: gpOut .26s ease-in both; }
+@keyframes gpIn { from { opacity: 0; transform: translateY(46px) scale(.96); } }
+@keyframes gpOut { to { opacity: 0; transform: translateY(30px) scale(.97); } }
+/* pestañas: el contenido se desliza desde el lado de la pestaña nueva, en cascada; la pestaña elegida da un saltito */
+.gp.gp-tabbing .gp-body > * { animation: tabIn .46s var(--boing) both; }
+.gp.gp-tabbing .gp-body > :nth-child(2) { animation-delay: .04s; }
+.gp.gp-tabbing .gp-body > :nth-child(3) { animation-delay: .08s; }
+.gp.gp-tabbing .gp-body > :nth-child(n+4) { animation-delay: .12s; }
+.gp.gp-tabbing .gp-tabs button[aria-selected="true"] { animation: tabPop .45s var(--boing); }
+@keyframes tabIn { from { opacity: 0; transform: translateX(var(--dx, 36px)); } }
+@keyframes tabPop { 0% { transform: translateY(0) scale(.9); } 60% { transform: translateY(-4px) rotate(-3deg) scale(1.08); } 100% { transform: translateY(-2px) rotate(-1.5deg); } }
+/* al llegar desde el menú: el número de la sección salta y el borde da un destello pastel */
+.sec-arrive .sec-n { animation: secNum .7s var(--boing); }
+.sec-arrive .sec-title { animation: secHead .6s .08s var(--boing); }
+.sec-arrive::after { content: ""; position: absolute; inset: -6px; border-radius: 34px; border: 3px solid var(--sec-ac, var(--bubble)); pointer-events: none; animation: secRing 1s var(--ease) both; }
+@keyframes secNum { 0% { transform: rotate(-5deg) scale(1); } 35% { transform: rotate(-16deg) scale(1.35); } 65% { transform: rotate(4deg) scale(.95); } 100% { transform: rotate(-5deg); } }
+@keyframes secHead { 0% { transform: none; } 40% { transform: translateY(-4px) rotate(-1deg); } 100% { transform: none; } }
+@keyframes secRing { 0% { opacity: 0; transform: scale(.98); } 25% { opacity: .9; } 100% { opacity: 0; transform: scale(1.015); } }
+/* selector de app de música: una píldora que se desliza */
+.app-sw-wrap:empty { display: none; }
+.app-sw { position: relative; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 4px; margin: 2px 0 10px; border-radius: 999px; border: 2.5px solid var(--ink); background: var(--white); box-shadow: 0 3px 0 var(--shadow); max-width: 440px; }
+.app-pill { position: absolute; top: 4px; bottom: 4px; left: 4px; width: calc((100% - 8px) / 3); border-radius: 999px; background: var(--ink); transform: translateX(calc(var(--i, 0) * 100%)); transition: transform .5s var(--boing); box-shadow: 0 2px 0 var(--bubble); }
+.app-sw button { position: relative; z-index: 1; display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; padding: 0 6px; border: 0; background: none; border-radius: 999px; font-weight: 800; font-size: 13.5px; color: var(--ink); transition: color .3s; white-space: nowrap; }
+.app-sw button[aria-pressed="true"] { color: var(--white); }
+:root[data-theme="dark"] .app-pill { background: #FFD6EA; }
+:root[data-theme="dark"] .app-sw button[aria-pressed="true"] { color: #2E2150; }
+.app-dot { width: 10px; height: 10px; flex: none; border-radius: 50%; border: 1.5px solid currentColor; }
+.app-spotify { background: #1ED760; } .app-apple { background: #FA2D48; } .app-ytm { background: #FF0033; }
+.app-sw button[aria-pressed="true"] .app-dot { animation: hJiggle .5s var(--ease); }
+.app-k { margin: 0 0 4px; font-weight: 700; }
+@media (max-width: 389px) { .app-sw button { font-size: 12px; gap: 4px; } }
+/* Instagram y TikTok en la fila de acciones de la tarjeta */
+.act.c-soc svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.act.c-soc svg .dot { fill: currentColor; stroke: none; }
+.act.c-soc.soc-ig { color: #D6247A; } .act.c-soc.soc-tt { color: #111; }
+:root[data-theme="dark"] .act.c-soc.soc-ig { color: #FF7DBA; } :root[data-theme="dark"] .act.c-soc.soc-tt { color: var(--ink); }
+@media (prefers-reduced-motion: reduce) {
+  details::details-content { transition: none; }
+  details[open] > :not(summary), .gp.gp-opening .gp-card, .gp.gp-closing, .gp.gp-closing .gp-card, .gp.gp-tabbing .gp-body > *, .gp.gp-tabbing .gp-tabs button, .sec-arrive *, .sec-arrive::after, .theme-ring { animation: none !important; }
+  .app-pill { transition: none; }
+}
+.c-socs { display: contents; }
+@media (max-width: 699.98px) {
+  /* en la tarjeta del celular, Instagram y TikTok comparten una columna, uno sobre otro */
+  .cards .acts .c-socs { display: grid; grid-template-rows: 1fr 1fr; gap: 4px; }
+  .cards .acts .act.c-soc { width: auto; min-height: 0; padding: 2px; border-radius: 12px; }
+  .cards .acts .act.c-soc svg { width: 18px; height: 18px; }
 }
