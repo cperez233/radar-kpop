@@ -68,6 +68,15 @@ jobs:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
         run: python sightings/fetch_x.py
 
+      - name: Tesseract para leer pósters de anuncios (inglés, coreano y japonés)
+        if: ${{ !inputs.prueba }}
+        continue-on-error: true
+        timeout-minutes: 4
+        run: |
+          pkgs="tesseract-ocr tesseract-ocr-kor tesseract-ocr-jpn"
+          sudo apt-get install -y -qq --no-install-recommends $pkgs || { sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends $pkgs; }
+          pip install --quiet pillow
+
       - name: Fechas de Asia y otras desde anuncios oficiales y prensa (por confirmar)
         if: ${{ !inputs.prueba }}
         continue-on-error: true

@@ -36,6 +36,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 from status import report  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "updater"))
+import posters  # noqa: E402
 OUT = ROOT / "sightings.json"
 IDS = ROOT / "sightings" / "user_ids.json"
 SOCIAL = ROOT / "state" / "social.json"
@@ -143,7 +145,8 @@ def fetch_rsshub(base: str, events: dict) -> list[dict] | None:
         ok += 1
         for it in root.iter("item"):
             raw.append({"group": gid, "account": handle, "title": (it.findtext("title") or "").strip(), "link": it.findtext("link") or "",
-                        "summary": re.sub(r"<[^>]+>", " ", it.findtext("description") or "")[:400], "pubDate": it.findtext("pubDate") or ""})
+                        "summary": re.sub(r"<[^>]+>", " ", it.findtext("description") or "")[:400], "pubDate": it.findtext("pubDate") or "",
+                        "images": posters.images(it.findtext("description") or "")})  # pósters: los lee updater/auto_dates.py
             link = it.findtext("link") or ""
             m = re.search(r"/status/(\d+)", link)
             if not m or (it.findtext("title") or "").startswith("RT "):
