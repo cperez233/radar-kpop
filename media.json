@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T19:07:20Z",
+ "updated_at": "2026-10-17T23:00:42Z",
  "sample": false,
  "items": [
   {
@@ -103,6 +103,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/23/27/0a/23270ab6-7191-9864-0228-0413879f45a4/8809928956664_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/3HSgUtzlySkMA6JP288qO2",
+   "ytm": "https://music.youtube.com/watch?v=ncUvXLU9XMo",
    "tracks": [
     {
      "n": "THIS IS FOR (Live)",
@@ -175,8 +176,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/6f/fe/0b6ffe58-115c-1bf7-a537-fb132ab60086/mzaf_18446711858706010651.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=ncUvXLU9XMo"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "video",
@@ -350,6 +350,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/3d/d6/273dd626-a877-b44e-e454-21ff656d8110/823375474234_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/2zImnNLEHn96NQPh5cc7FZ",
+   "ytm": "https://music.youtube.com/watch?v=DwjTTD7jqL8",
    "tracks": [
     {
      "n": "Bloody Paradise x VELOCIDADE (PETERBLUE Remix)",
@@ -357,8 +358,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/43/ea/6443ea2b-3ab6-f5ca-bb14-2cfacde91d86/mzaf_2367808758303567990.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=DwjTTD7jqL8"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -370,6 +370,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/18/f4/f018f433-2128-676d-0d47-9f8f613369eb/8809928956763_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/3iFOSc0upPZ5vf90vQziw6",
+   "ytm": "https://music.youtube.com/watch?v=qJ4EqKav8vo",
    "tracks": [
     {
      "n": "November 11th",
@@ -377,8 +378,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/74/ff/8e74ff42-2824-cac0-4fef-de66a5de1b71/mzaf_16205168558300290664.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=qJ4EqKav8vo"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -390,6 +390,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/61/48/5f614875-a66d-c4c2-1737-cd6ce42654ee/823375394006_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/0pmGnlSL15kAFrftVmfPsx",
+   "ytm": "https://music.youtube.com/watch?v=SP6V4Tl4rpo",
    "tracks": [
     {
      "n": "Bloody Paradise (English Ver.)",
@@ -402,8 +403,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/2d/6f/542d6f23-caf3-3127-a9ed-7a6e76adac29/mzaf_15965696081842026818.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=SP6V4Tl4rpo"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -414,7 +414,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-10-17T19"
+   "ytm_try": "2026-10-17T23"
   },
   {
    "type": "music",
@@ -426,6 +426,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/c8/6f/21c86f53-8d07-7841-7403-82c1c7f60550/823375387930_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/6nvN59P9vZ3XBtv7eWN70w",
+   "ytm": "https://music.youtube.com/watch?v=pnQ7xS6S7co",
    "tracks": [
     {
      "n": "Bloody Paradise (SUNGHOON Ver.)",
@@ -493,8 +494,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/32/04/043204bd-07a8-5682-b7ab-180564f0c5c7/mzaf_15028971748120058438.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=pnQ7xS6S7co"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -506,6 +506,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/db/df/99dbdf86-b7f8-86ce-e8da-4ddd845f1bdc/823375359456_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/26w4RoexAyiXRogASNJDZj",
+   "ytm": "https://music.youtube.com/watch?v=ctDQoUQcss0",
    "tracks": [
     {
      "n": "TNT",
@@ -548,8 +549,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/2a/a3/f72aa38c-2fc7-a1c8-3d3b-07e1892e6109/mzaf_16172899169911041078.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=ctDQoUQcss0"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "video",
@@ -570,6 +570,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/af/6b/f2af6b59-fbd0-60d7-0855-883cda56bf5f/8809928956862_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy",
+   "ytm": "https://music.youtube.com/watch?v=4OVOdIwxL10",
    "tracks": [
     {
      "n": "RUN IT",
@@ -627,8 +628,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/bd/c4/b1bdc434-07d5-1da0-bbe1-b5b585aa230c/mzaf_39664860882368930.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=4OVOdIwxL10"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "video",
@@ -649,6 +649,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/70/ea/2270ea94-60f0-94a6-bce2-99fafaa8a057/8809928957340_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/6xS6wVbYu6DtNh6J1KZ1Gp",
+   "ytm": "https://music.youtube.com/watch?v=3jqy81PCn5I",
    "tracks": [
     {
      "n": "Battle Ground (Korean Version)",
@@ -721,8 +722,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/cf/aa/fdcfaa60-ccb4-ea4c-20f1-7fd39e443148/mzaf_13212625031362410386.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=3jqy81PCn5I"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -734,6 +734,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/f9/a9/82f9a9b8-db69-6fec-3816-54a403297436/823375327356_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/7hkn5DHPOpLwrlUpxAbbnp",
+   "ytm": "https://music.youtube.com/watch?v=8W64YPnRu1Y",
    "tracks": [
     {
      "n": "MOTION (feat. Juicy J)",
@@ -741,8 +742,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/e2/94/7de29481-b0d9-fdff-5c28-ce066bd12887/mzaf_10771929580663235334.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=8W64YPnRu1Y"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -754,8 +754,8 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9c/ee/35/9cee35fd-5d10-67a8-3243-c3cbbf828601/26UMGIM71709.rgb.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/3FVjSZcB5DqJ2TC5VGPgEu",
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=4-6LvN_D0y4"
+   "ytm": "https://music.youtube.com/watch?v=4-6LvN_D0y4",
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -767,6 +767,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/92/12/639212c1-b9ce-d2dd-16aa-e2d0011d9269/823375303022_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/41K5jLsbiHSIneJHTkcaar",
+   "ytm": "https://music.youtube.com/watch?v=4QMp7lCxEb4",
    "tracks": [
     {
      "n": "NORMAL (MV Still Alternate Cover RM Version)",
@@ -774,8 +775,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/86/d2/4286d2f8-9116-5b18-1ede-0f8a608bc59a/mzaf_17827249742621956391.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=4QMp7lCxEb4"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "video",
@@ -814,6 +814,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/5e/a0/155ea070-3f0d-84ae-7883-128ecd9ed5bf/196874257944.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV",
+   "ytm": "https://music.youtube.com/watch?v=2P3BK8bGxR4",
    "tracks": [
     {
      "n": "BAD",
@@ -841,8 +842,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/b5/2b/24b52b73-dbe4-fcac-df46-a5f3a1ed655c/mzaf_1726586804421670850.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=2P3BK8bGxR4"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -854,6 +854,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/e1/af/86e1af0c-918b-5717-9688-85829a858f43/26UMGIM22394.rgb.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/5Wea9EBLVR2zPbVp4u0M1b",
+   "ytm": "https://music.youtube.com/watch?v=y53KF3JFeYs",
    "tracks": [
     {
      "n": "Fire With Fire",
@@ -861,8 +862,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/00/83/53/008353c3-c117-9243-ab4e-dd9cd520b838/mzaf_17511119107389124917.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=y53KF3JFeYs"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -874,6 +874,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/a3/50/b4a350d5-4197-6928-eebf-e7e53ae4c2b6/823375205715_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/2xXG0abKT34biU7L9siPde",
+   "ytm": "https://music.youtube.com/watch?v=nFpknCzOUTM",
    "tracks": [
     {
      "n": "Come Over",
@@ -881,8 +882,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/e7/52/68e752e5-9ab7-3a4a-e52f-a88f4ef05b69/mzaf_3088915963673716546.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=nFpknCzOUTM"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -894,6 +894,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/5f/47/9b5f4711-dc78-2dea-6721-d06709ea5121/198704992810_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/2zEdi42kfgLEySoikGJMFT",
+   "ytm": "https://music.youtube.com/watch?v=ctDQoUQcss0",
    "tracks": [
     {
      "n": "TNT",
@@ -926,8 +927,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/6d/fc/526dfc81-b83e-0f02-e9f9-d0ca0232f5eb/mzaf_13741733493109018527.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=ctDQoUQcss0"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -939,8 +939,8 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2a/71/1e/2a711ec5-5468-855e-76c8-61a1ba0b3f13/823375122449_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/38kbL8yJY3FgCobipweY90",
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=0XhuQwJotdA"
+   "ytm": "https://music.youtube.com/watch?v=0XhuQwJotdA",
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -952,6 +952,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/a8/de/cfa8dee7-da1a-eb20-6074-741a4af1a1f6/cover_KM0024394_1.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/7z5ZIN7o44Tk8EUkm7AVar",
+   "ytm": "https://music.youtube.com/watch?v=was7cPFLhuQ",
    "tracks": [
     {
      "n": "Good Girls",
@@ -979,8 +980,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/c2/9f/30c29f0b-bed7-d993-6909-0392418d4dcc/mzaf_15564917017364106254.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=was7cPFLhuQ"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "video",
@@ -1001,6 +1001,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/ec/96/f4ec9661-c3bf-d38e-2e57-9e63e3d86870/26UMGIM16378.rgb.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/29itUVO9h0qMhglTVctEQD",
+   "ytm": "https://music.youtube.com/watch?v=H81NsniDjTk",
    "tracks": [
     {
      "n": "Tiny Light",
@@ -1008,8 +1009,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/3d/0d/703d0d8d-a80a-6aea-8474-5df8a7508915/mzaf_13302896959439297428.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=H81NsniDjTk"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -1021,6 +1021,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f6/32/ce/f632ce4c-647b-1fb5-dddb-03ce77535665/8809519881221.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/0al74j1n8XIEkZMMFRfsbx",
+   "ytm": "https://music.youtube.com/watch?v=Ayy2eUauPo4",
    "tracks": [
     {
      "n": "JUMP",
@@ -1048,8 +1049,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/5c/93/405c933c-1ac2-392d-0ef5-239a39a49b82/mzaf_11064126409298218431.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=Ayy2eUauPo4"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -1061,7 +1061,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/19/e5/d719e542-1441-17d3-0ce1-30f618074972/196874068489.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/1lSvq3SLvzcu61cr77Qz0i",
-   "ytm_try": "2026-10-17T19"
+   "ytm_try": "2026-10-17T23"
   },
   {
    "type": "music",
@@ -1073,6 +1073,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d3/28/8fd328df-89b2-3460-d743-84c5d3921753/8809928954325_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/7zyibWit2LeHvy5h9utbfg",
+   "ytm": "https://music.youtube.com/watch?v=IHkJSZiyfTQ",
    "tracks": [
     {
      "n": "ME+YOU",
@@ -1125,8 +1126,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/38/9a/56389afe-4c4e-2dcf-f1d3-3cfd77bad617/mzaf_1996122056518744077.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=IHkJSZiyfTQ"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -1137,6 +1137,7 @@
    "url": "https://music.apple.com/us/album/where-love-passed-single/1824608406",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/ef/4f/f4ef4f78-5e4d-8d90-4e19-28dfbdf567cf/25UMGIM90145.rgb.jpg/300x300bb.jpg",
    "ytm_v": 6,
+   "ytm": "https://music.youtube.com/watch?v=99Dtv9F4yfo",
    "tracks": [
     {
      "n": "Where love passed",
@@ -1144,8 +1145,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/d1/17/a2d117a6-d540-71ac-ce08-fc6f62d6359b/mzaf_11082709710070726988.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=99Dtv9F4yfo"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -1157,6 +1157,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/5e/74/ee5e747e-52e5-458c-e850-0ed3d703b184/8809519880736.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/3hzoZlx2KwtvJEUl9piPWr",
+   "ytm": "https://music.youtube.com/watch?v=Ayy2eUauPo4",
    "tracks": [
     {
      "n": "JUMP",
@@ -1164,8 +1165,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/e5/22/c0e5223b-b169-bd10-5673-78a4a50ee9b1/mzaf_14292064936326881473.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=Ayy2eUauPo4"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -1177,6 +1177,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/64/e0/bc64e097-7ab4-5650-ed66-61a6b836370c/198704749377_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/6160Q4MxABBaeqMW5AZss4",
+   "ytm": "https://music.youtube.com/watch?v=h5dk1hCL_oY",
    "tracks": [
     {
      "n": "HBD",
@@ -1249,8 +1250,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/bf/12/22bf12c0-3865-0091-e84b-ba9f7854a362/mzaf_5104814436489081190.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=h5dk1hCL_oY"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -1262,6 +1262,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/ce/d6/abced6f6-2b90-c230-eb4b-e146734a3a22/196922907821_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/1FVw30SoC91lq1UZ6N9rwN",
+   "ytm": "https://music.youtube.com/watch?v=8yXGI3kcLsw",
    "tracks": [
     {
      "n": "Supernatural",
@@ -1284,8 +1285,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/f5/08/caf50809-faf4-7a50-f4d5-3ca9eaf0bf33/mzaf_4788667005915297884.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=8yXGI3kcLsw"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -1297,6 +1297,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/68/ca/bf68ca64-4acd-543f-bc78-455f11f06105/196922889738_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/0EhZEM4RRz0yioTgucDhJq",
+   "ytm": "https://music.youtube.com/watch?v=vrM2mrI83uk",
    "tracks": [
     {
      "n": "How Sweet",
@@ -1319,8 +1320,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/cf/ca/55cfca9e-66fb-39a8-ed00-72e587332ed0/mzaf_14657405780734511175.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=vrM2mrI83uk"
+   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -1394,7 +1394,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19"
+   "ytm_try": "2026-10-17T23"
   },
   {
    "type": "music",
@@ -1406,6 +1406,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/56/62/63566266-fc17-677a-d1a7-92509c7f636d/23UMGIM96676.rgb.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "spotify": "https://open.spotify.com/album/01K5Mr0IkO7GQrvoUEsWfS",
+   "ytm": "https://music.youtube.com/watch?v=eSd0DFWo6tg",
    "tracks": [
     {
      "n": "THE GIRLS (BLACKPINK THE GAME OST)",
@@ -1413,8 +1414,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/e0/51/53e051fc-ef76-3ac2-07de-cd19b3fbed2f/mzaf_6643641762713119046.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19",
-   "ytm": "https://music.youtube.com/watch?v=eSd0DFWo6tg"
+   "ytm_try": "2026-10-17T19"
   }
  ]
 }

@@ -155,7 +155,13 @@
   "next:lngshot:lng-20261017-milan|foro": "2026-10-17T22:01:11Z",
   "live:bts-20261017-santiago|ntfy": "2026-10-17T22:16:53Z",
   "live:bts-20261017-santiago|pub:radarkpop-bts-shows": "2026-10-17T22:16:53Z",
-  "live:bts-20261017-santiago|foro": "2026-10-17T22:16:53Z"
+  "live:bts-20261017-santiago|foro": "2026-10-17T22:16:53Z",
+  "news:286eb00d5b68855f|ntfy": "2026-10-17T23:01:12Z",
+  "news:286eb00d5b68855f|pub:radarkpop-bts-news": "2026-10-17T23:01:12Z",
+  "news:286eb00d5b68855f|foro": "2026-10-17T23:01:12Z",
+  "news:bb434866016962a9|ntfy": "2026-10-17T23:01:12Z",
+  "news:bb434866016962a9|pub:radarkpop-bts-news": "2026-10-17T23:01:12Z",
+  "news:bb434866016962a9|foro": "2026-10-17T23:01:12Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1014,6 +1020,7 @@
   "275afe85688bcdce",
   "279cd74c3b8d0092",
   "2848387294dd91d0",
+  "286eb00d5b68855f",
   "287f9571c64e20a0",
   "2b9d1260e8038831",
   "2c483480cb3d0715",
@@ -1176,6 +1183,7 @@
   "b7d7cf59af0f01aa",
   "baffdb70106f1b7b",
   "bb28959efdf88008",
+  "bb434866016962a9",
   "bebc7fab28da52a5",
   "bec8f1410bd57979",
   "bf8f8400bbecc192",
@@ -1587,6 +1595,39 @@
     "world"
    ],
    "t": "2026-10-17T21:16:13Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "000",
+    "900",
+    "aclaro",
+    "cobrados",
+    "concierto",
+    "contrato",
+    "dolares",
+    "grama",
+    "mantenimiento",
+    "sencia"
+   ],
+   "t": "2026-10-17T23:01:04Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "bogota",
+    "campin",
+    "concierto",
+    "control",
+    "generan",
+    "investigacion",
+    "manejo",
+    "mantenimiento",
+    "pagos",
+    "politico",
+    "tras"
+   ],
+   "t": "2026-10-17T23:01:04Z"
   }
  ],
  "discord_threads": {
