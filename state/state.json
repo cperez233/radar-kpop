@@ -88,31 +88,31 @@
   "news:6d31b59d502cb9a9|canal": "2026-10-16T21:48:08Z",
   "news:6d31b59d502cb9a9|ntfy": "2026-10-16T21:48:08Z",
   "news:6d31b59d502cb9a9|pub:radarkpop-bts-news": "2026-10-16T21:48:08Z",
-  "today:bts:bts-20261016-santiago|foro": "2026-10-17T00:19:59Z",
-  "live:bts-20261016-santiago|ntfy": "2026-10-17T00:19:59Z",
-  "live:bts-20261016-santiago|pub:radarkpop-bts-shows": "2026-10-17T00:19:59Z",
-  "live:bts-20261016-santiago|foro": "2026-10-17T00:19:59Z",
-  "news:7376ba57eb2d4392|ntfy": "2026-10-17T00:19:59Z",
-  "news:7376ba57eb2d4392|pub:radarkpop-bts-news": "2026-10-17T00:19:59Z",
-  "news:7376ba57eb2d4392|foro": "2026-10-17T00:19:59Z",
-  "news:bebc7fab28da52a5|ntfy": "2026-10-17T00:19:59Z",
-  "news:bebc7fab28da52a5|pub:radarkpop-bts-news": "2026-10-17T00:19:59Z",
-  "news:bebc7fab28da52a5|foro": "2026-10-17T00:19:59Z",
-  "news:fd75ddc4959ac608|ntfy": "2026-10-17T00:19:59Z",
-  "news:fd75ddc4959ac608|pub:radarkpop-bts-news": "2026-10-17T00:19:59Z",
-  "news:fd75ddc4959ac608|foro": "2026-10-17T00:19:59Z",
-  "news:df508a80852ccfa0|ntfy": "2026-10-17T00:19:59Z",
-  "news:df508a80852ccfa0|pub:radarkpop-bts-news": "2026-10-17T00:19:59Z",
-  "news:df508a80852ccfa0|foro": "2026-10-17T00:19:59Z",
-  "news:6bbcfae7a465dc47|ntfy": "2026-10-17T00:19:59Z",
-  "news:6bbcfae7a465dc47|pub:radarkpop-bts-news": "2026-10-17T00:19:59Z",
-  "news:6bbcfae7a465dc47|foro": "2026-10-17T00:19:59Z",
-  "news:21e07935168f73ff|ntfy": "2026-10-17T00:19:59Z",
-  "news:21e07935168f73ff|pub:radarkpop-bts-news": "2026-10-17T00:19:59Z",
-  "news:21e07935168f73ff|foro": "2026-10-17T00:19:59Z",
-  "news:df91eb9facff7351|ntfy": "2026-10-17T00:19:59Z",
-  "news:df91eb9facff7351|pub:radarkpop-skz-news": "2026-10-17T00:19:59Z",
-  "news:df91eb9facff7351|foro": "2026-10-17T00:19:59Z"
+  "today:bts:bts-20261016-santiago|foro": "2026-10-17T00:25:53Z",
+  "live:bts-20261016-santiago|ntfy": "2026-10-17T00:25:53Z",
+  "live:bts-20261016-santiago|pub:radarkpop-bts-shows": "2026-10-17T00:25:53Z",
+  "live:bts-20261016-santiago|foro": "2026-10-17T00:25:53Z",
+  "news:7376ba57eb2d4392|ntfy": "2026-10-17T00:25:53Z",
+  "news:7376ba57eb2d4392|pub:radarkpop-bts-news": "2026-10-17T00:25:53Z",
+  "news:7376ba57eb2d4392|foro": "2026-10-17T00:25:53Z",
+  "news:bebc7fab28da52a5|ntfy": "2026-10-17T00:25:53Z",
+  "news:bebc7fab28da52a5|pub:radarkpop-bts-news": "2026-10-17T00:25:53Z",
+  "news:bebc7fab28da52a5|foro": "2026-10-17T00:25:53Z",
+  "news:fd75ddc4959ac608|ntfy": "2026-10-17T00:25:53Z",
+  "news:fd75ddc4959ac608|pub:radarkpop-bts-news": "2026-10-17T00:25:53Z",
+  "news:fd75ddc4959ac608|foro": "2026-10-17T00:25:53Z",
+  "news:df508a80852ccfa0|ntfy": "2026-10-17T00:25:53Z",
+  "news:df508a80852ccfa0|pub:radarkpop-bts-news": "2026-10-17T00:25:53Z",
+  "news:df508a80852ccfa0|foro": "2026-10-17T00:25:53Z",
+  "news:6bbcfae7a465dc47|ntfy": "2026-10-17T00:25:53Z",
+  "news:6bbcfae7a465dc47|pub:radarkpop-bts-news": "2026-10-17T00:25:53Z",
+  "news:6bbcfae7a465dc47|foro": "2026-10-17T00:25:53Z",
+  "news:21e07935168f73ff|ntfy": "2026-10-17T00:25:53Z",
+  "news:21e07935168f73ff|pub:radarkpop-bts-news": "2026-10-17T00:25:53Z",
+  "news:21e07935168f73ff|foro": "2026-10-17T00:25:53Z",
+  "news:df91eb9facff7351|ntfy": "2026-10-17T00:25:53Z",
+  "news:df91eb9facff7351|pub:radarkpop-skz-news": "2026-10-17T00:25:53Z",
+  "news:df91eb9facff7351|foro": "2026-10-17T00:25:53Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1324,7 +1324,7 @@
     "primer",
     "quebro"
    ],
-   "t": "2026-10-17T00:19:50Z"
+   "t": "2026-10-17T00:25:45Z"
   },
   {
    "g": "bts",
@@ -1338,7 +1338,7 @@
     "tbs",
     "tokio"
    ],
-   "t": "2026-10-17T00:19:50Z"
+   "t": "2026-10-17T00:25:45Z"
   },
   {
    "g": "bts",
@@ -1355,7 +1355,7 @@
     "santiago",
     "taehyung"
    ],
-   "t": "2026-10-17T00:19:50Z"
+   "t": "2026-10-17T00:25:45Z"
   },
   {
    "g": "bts",
@@ -1371,7 +1371,7 @@
     "show",
     "tour"
    ],
-   "t": "2026-10-17T00:19:50Z"
+   "t": "2026-10-17T00:25:45Z"
   },
   {
    "g": "bts",
@@ -1384,7 +1384,7 @@
     "perrito",
     "tercer"
    ],
-   "t": "2026-10-17T00:19:50Z"
+   "t": "2026-10-17T00:25:45Z"
   },
   {
    "g": "bts",
@@ -1399,7 +1399,7 @@
     "llego",
     "mis"
    ],
-   "t": "2026-10-17T00:19:50Z"
+   "t": "2026-10-17T00:25:45Z"
   },
   {
    "g": "skz",
@@ -1414,11 +1414,11 @@
     "todo",
     "zocalo"
    ],
-   "t": "2026-10-17T00:19:50Z"
+   "t": "2026-10-17T00:25:45Z"
   }
  ],
  "discord_threads": {
-  "bts": "1560809569922453576",
-  "skz": "1560809638612570145"
+  "bts": "1560811054764925032",
+  "skz": "1560811126709559389"
  }
 }
