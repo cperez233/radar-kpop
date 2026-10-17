@@ -8,7 +8,8 @@ Free sources:
 Artist ids live in alerts/feeds.json, "itunes". If a source fails, the previous items for that group are kept.
 The list comes only from Apple Music, so every app shows the same releases; each one then gets its direct link in
 - Spotify: the artist's albums and singles (Web API with SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET, free app);
-- YouTube Music: the release's official MV from the group's channel, opened in music.youtube.com.
+- YouTube Music: a song of the release in the artist's "<Artist> - Topic" channel (alerts/feeds.json, "ytm_topic"),
+  or else its official MV from the group's channel, opened in music.youtube.com.
 A link found once is kept. Without a direct link, the page opens that app's search for the title.
 """
 import base64
@@ -21,7 +22,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -159,30 +160,39 @@ def match_mv(item: dict, vids: list[dict]) -> str:
     return ""
 
 
-def search_ytm(item: dict, channel: str) -> str:
-    """The release in YouTube Music: first the official audio of the "<Artist> - Topic" channel (what YouTube Music
-    plays, with the album cover); if not, the group's official MV. One search per new release (100 of the 10,000
-    daily units), and the result is kept."""
+def norm(t: str) -> str:
+    return re.sub(r"\s+-\s+(single|ep)$", "", html.unescape(t).strip().lower())
+
+
+def topic_uploads(channel: str) -> list[dict]:
+    """The latest 200 songs of the artist's "<Artist> - Topic" channel (what YouTube Music plays, with the album
+    cover). A playlist read costs 1 unit and not the daily search quota, which runs out early."""
     key = os.environ.get("YT_API_KEY", "").strip()
-    artist = GROUP_NAMES.get(item["group"], "")
-    if not (key and artist):
-        return ""
-    q = urllib.parse.quote(f"{artist} {item['title']}")
-    body = json.loads(get(f"https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=15&q={q}&key={key}"))
-    found = [x for x in body.get("items", []) if x.get("id", {}).get("videoId")]
-    want = {base_title(item["title"])} | {base_title(t.get("n", "")) for t in (item.get("tracks") or [])[:1]}
-    def same(title: str) -> bool:
+    if not (key and channel.startswith("UC")):
+        return []
+    out, page = [], ""
+    for _ in range(4):
+        body = json.loads(get(f"https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=UU{channel[2:]}&key={key}{page}"))
+        out += [{"title": x["snippet"].get("title", ""), "id": x["snippet"].get("resourceId", {}).get("videoId", "")} for x in body.get("items", [])]
+        if not body.get("nextPageToken"):
+            break
+        page = f"&pageToken={body['nextPageToken']}"
+    return [x for x in out if x["id"]]
+
+
+def match_topic(item: dict, uploads: list[dict]) -> str:
+    """A song of the release in the Topic channel: each track in order, then the release name; exact names, so
+    "SWIM" is not the remix. The newest upload wins (a song repeated in a later album is that album's)."""
+    def names(t: str) -> set[str]:
         # "11월 11일 (November 11th)": el nombre en inglés a veces va entre paréntesis detrás del coreano
-        t = html.unescape(title)
-        names = {base_title(t)} | {p.strip().lower() for p in re.findall(r"[\(\[]([^\)\]]+)[\)\]]", t)}
-        return bool(names & want)
-    for x in found:  # el audio oficial (canal Topic del artista)
-        sn = x["snippet"]
-        if sn.get("channelTitle", "").lower() == f"{artist} - topic".lower() and same(sn.get("title", "")):
-            return f"https://music.youtube.com/watch?v={x['id']['videoId']}"
-    vids = [{"group": item["group"], "title": html.unescape(x["snippet"]["title"]), "url": f"https://www.youtube.com/watch?v={x['id']['videoId']}"}
-            for x in found if x["snippet"].get("channelId") == channel]
-    return match_mv(item, vids)
+        n = norm(t)
+        return {n} | {p.strip() for p in re.findall(r"[\(\[]([^\)\]]+)[\)\]]", n)}
+    up = [(names(u["title"]), u["id"]) for u in uploads]
+    for want in [norm(t.get("n", "")) for t in item.get("tracks") or []] + [norm(item["title"])]:
+        for got, vid in up:
+            if want and want in got:
+                return f"https://music.youtube.com/watch?v={vid}"
+    return ""
 
 
 def videos(gid: str, channel: str) -> list[dict]:
@@ -220,14 +230,12 @@ def main() -> int:
         token = spotify_token()
     except Exception as exc:  # noqa: BLE001
         token = ""; failed.append(f"spotify token: {exc}")
-    sp_cache, n_sp, n_search, n_tr, sp_blocked = {}, 0, 0, 0, False
+    sp_cache, topic_cache, n_sp, n_tr, sp_blocked = {}, {}, 0, 0, False
     for it in (x for x in items if x["type"] == "music"):
         before = prev.get(it["url"], {})
-        if before and before.get("ytm_v") not in (3, 4):  # YouTube Music ahora busca el audio oficial (Topic): se vuelve a buscar una vez
-            before = {k: v for k, v in before.items() if k not in ("ytm", "ytm_try")}
-        elif before and before.get("ytm_v") == 3 and not before.get("ytm"):  # títulos en coreano con el inglés entre paréntesis: los que fallaron, otra vez
+        if before and before.get("ytm_v") != 5 and not before.get("ytm"):  # ahora se busca en el canal Topic: los que faltan, otra vez
             before = {k: v for k, v in before.items() if k != "ytm_try"}
-        it["ytm_v"] = 4
+        it["ytm_v"] = 5
         for k in ("spotify", "ytm", "tracks"):
             if before.get(k):
                 it[k] = before[k]
@@ -238,17 +246,21 @@ def main() -> int:
                 it["tracks"] = tracks(it) or None; time.sleep(1.2)
             except Exception as exc:  # noqa: BLE001
                 failed.append(f"itunes tracks {it['group']}: {exc}")
-        if not it.get("ytm") and not os.environ.get("YT_API_KEY"):
-            it["ytm"] = match_mv(it, vids) or None  # sin clave: al menos el MV si está entre las últimas subidas
-        # búsqueda de un MV que ya no está entre las últimas subidas: una sola vez por lanzamiento (queda marcado)
-        if not it.get("ytm") and not before.get("ytm_try") and n_search < 6 and it["date"] <= datetime.now(timezone.utc).strftime("%Y-%m-%d"):
-            n_search += 1; it["ytm_try"] = 1
+        # YouTube Music: la canción en el canal Topic del grupo; si no está aún, el MV entre las últimas subidas.
+        # Lo que falta se reintenta cada 3 horas (el audio a veces sube horas después del estreno)
+        now = datetime.now(timezone.utc)
+        due = not before.get("ytm_try") or str(before["ytm_try"]) < (now - timedelta(hours=3)).strftime("%Y-%m-%dT%H")
+        if not it.get("ytm") and due and it["date"] <= now.strftime("%Y-%m-%d"):
+            it["ytm_try"] = now.strftime("%Y-%m-%dT%H")
+            gid = it["group"]
             try:
-                it["ytm"] = search_ytm(it, feeds.get("youtube", {}).get(it["group"], "")) or match_mv(it, vids) or None
+                if gid not in topic_cache:
+                    topic_cache[gid] = topic_uploads(feeds.get("ytm_topic", {}).get(gid, ""))
+                it["ytm"] = match_topic(it, topic_cache[gid]) or match_mv(it, vids) or None
             except Exception as exc:  # noqa: BLE001
-                failed.append(f"youtube search {it['group']}: {exc}"); it.pop("ytm_try", None)
+                topic_cache[gid] = []; failed.append(f"youtube music {gid}: {exc}")
         elif before.get("ytm_try"):
-            it["ytm_try"] = 1
+            it["ytm_try"] = before["ytm_try"]
         sid = feeds.get("spotify", {}).get(it["group"])
         # Spotify da un cupo diario chico: lo que no se encontró se reintenta una vez al día, no en cada corrida
         today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
