@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T10:45:28Z",
+ "updated_at": "2026-10-17T11:00:34Z",
  "sample": false,
  "items": [
   {
@@ -10,6 +10,15 @@
    "date": "2026-11-10",
    "url": "https://music.apple.com/us/album/s-w-i-s-h-ep/6821155823",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/db/96/f4db96a4-7283-d95b-18dd-56dccc927855/8804775413131.jpg/300x300bb.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "TWICE 11th ANNIVERSARY YouTube Live🎡",
+   "date": "2026-10-17",
+   "published": "2026-10-17T10:56:34Z",
+   "url": "https://www.youtube.com/watch?v=jcmVRR_BnZU",
+   "image": "https://i.ytimg.com/vi/jcmVRR_BnZU/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -55,15 +64,6 @@
    "date": "2026-10-16",
    "url": "https://music.apple.com/us/album/this-is-for-world-tour-finale-in-seoul-live/6812503580",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/23/27/0a/23270ab6-7191-9864-0228-0413879f45a4/8809928956664_Cover.jpg/300x300bb.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "TWICE 11th ANNIVERSARY YouTube Live🎡",
-   "date": "2026-10-16",
-   "published": "2026-10-16T11:05:18Z",
-   "url": "https://www.youtube.com/watch?v=jcmVRR_BnZU",
-   "image": "https://i.ytimg.com/vi/jcmVRR_BnZU/hqdefault.jpg"
   },
   {
    "type": "video",
