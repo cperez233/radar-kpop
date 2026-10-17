@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T18:37:25Z",
+ "updated_at": "2026-10-17T18:45:03Z",
  "sample": false,
  "items": [
   {
@@ -355,7 +355,8 @@
      "ms": 192733,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/43/ea/6443ea2b-3ab6-f5ca-bb14-2cfacde91d86/mzaf_2367808758303567990.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -367,6 +368,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/18/f4/f018f433-2128-676d-0d47-9f8f613369eb/8809928956763_Cover.jpg/300x300bb.jpg",
    "ytm_v": 4,
    "spotify": "https://open.spotify.com/album/3iFOSc0upPZ5vf90vQziw6",
+   "ytm": "https://music.youtube.com/watch?v=5mESl85XgyI",
    "tracks": [
     {
      "n": "November 11th",
@@ -374,8 +376,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/74/ff/8e74ff42-2824-cac0-4fef-de66a5de1b71/mzaf_16205168558300290664.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": 1,
-   "ytm": "https://music.youtube.com/watch?v=5mESl85XgyI"
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -800,7 +801,34 @@
    "url": "https://music.apple.com/us/album/golden-hour-part-5-ep/6770401924",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/5e/a0/155ea070-3f0d-84ae-7883-128ecd9ed5bf/196874257944.jpg/300x300bb.jpg",
    "ytm_v": 4,
-   "spotify": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV"
+   "spotify": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV",
+   "tracks": [
+    {
+     "n": "BAD",
+     "ms": 156035,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/1e/3e/ed1e3e69-c85a-eeda-fb06-bc0146d71aad/mzaf_15637797788600386546.plus.aac.p.m4a"
+    },
+    {
+     "n": "MAMACITA",
+     "ms": 189254,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/02/0b/89020b2c-49b7-77c1-d12e-5f9a7b1f77d3/mzaf_613921255709576704.plus.aac.p.m4a"
+    },
+    {
+     "n": "TOXIN",
+     "ms": 168254,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/8b/30/b68b3067-07c4-510f-090c-04e11cf69383/mzaf_10897791506687347183.plus.aac.p.m4a"
+    },
+    {
+     "n": "Fallin'",
+     "ms": 198294,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/67/37/bc67379a-890a-59a9-8895-11df8fa2c44a/mzaf_17584743032321544733.plus.aac.p.m4a"
+    },
+    {
+     "n": "Body",
+     "ms": 177254,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/b5/2b/24b52b73-dbe4-fcac-df46-a5f3a1ed655c/mzaf_1726586804421670850.plus.aac.p.m4a"
+    }
+   ]
   },
   {
    "type": "music",
@@ -818,7 +846,8 @@
      "ms": 234584,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/00/83/53/008353c3-c117-9243-ab4e-dd9cd520b838/mzaf_17511119107389124917.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -931,7 +960,8 @@
      "ms": 170695,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/c2/9f/30c29f0b-bed7-d993-6909-0392418d4dcc/mzaf_15564917017364106254.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm_try": 1
   },
   {
    "type": "video",
@@ -958,7 +988,9 @@
      "ms": 207013,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/3d/0d/703d0d8d-a80a-6aea-8474-5df8a7508915/mzaf_13302896959439297428.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm_try": 1,
+   "ytm": "https://music.youtube.com/watch?v=5A7qyhj-HjE"
   },
   {
    "type": "music",
@@ -1089,7 +1121,9 @@
      "ms": 184000,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/d1/17/a2d117a6-d540-71ac-ce08-fc6f62d6359b/mzaf_11082709710070726988.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm_try": 1,
+   "ytm": "https://music.youtube.com/watch?v=99Dtv9F4yfo"
   },
   {
    "type": "music",
@@ -1192,7 +1226,9 @@
      "ms": 149053,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/bf/12/22bf12c0-3865-0091-e84b-ba9f7854a362/mzaf_5104814436489081190.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm_try": 1,
+   "ytm": "https://music.youtube.com/watch?v=h5dk1hCL_oY"
   },
   {
    "type": "music",
