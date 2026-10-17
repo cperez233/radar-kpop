@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T06:30:48Z",
+ "updated_at": "2026-10-17T07:30:42Z",
  "groups": {
   "bts": {
    "x": [
@@ -1536,7 +1536,7 @@
        "when": "2026-10-13T09:05:57Z"
       },
       {
-       "title": "Photo by 윤정한 on October 10, 2026. May be an image of raft, glasses, pool and text.",
+       "title": "",
        "url": "https://www.instagram.com/p/DeVyiKBk_P4/",
        "when": "2026-10-11T04:22:08Z"
       },
@@ -2263,5 +2263,5 @@
    ]
   }
  },
- "ig_cursor": 30
+ "ig_cursor": 40
 }
