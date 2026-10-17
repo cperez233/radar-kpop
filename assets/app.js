@@ -2488,8 +2488,9 @@
   function musicUrl(m) {
     var u = okLink(m.url); if (!u || m.type !== 'music') return u;
     var q = encodeURIComponent((m.title || '').replace(/\s*[-–(].*?(EP|Single|Album)\)?$/i, '') + ' ' + gName(m.group));
-    if (musicApp === 'spotify') return 'https://open.spotify.com/search/' + q;
-    if (musicApp === 'ytm') return 'https://music.youtube.com/search?q=' + q;
+    // el robot deja el enlace directo de cada lanzamiento (mismo lanzamiento en las tres apps); si aún no lo encontró, la búsqueda
+    if (musicApp === 'spotify') return /^https:\/\/open\.spotify\.com\/(album|track)\/\w+$/.test(m.spotify || '') ? m.spotify : 'https://open.spotify.com/search/' + q;
+    if (musicApp === 'ytm') return /^https:\/\/music\.youtube\.com\/watch\?v=[\w-]{6,}$/.test(m.ytm || '') ? m.ytm : 'https://music.youtube.com/search?q=' + q;
     return u;
   }
   function appSwitchHtml() {

@@ -6,11 +6,18 @@ Free sources:
 - The latest uploads of each official YouTube channel (alerts/feeds.json, "youtube"): YouTube Data API with YT_API_KEY
   (free); without it, the public RSS feed, which YouTube stopped serving in 2026.
 Artist ids live in alerts/feeds.json, "itunes". If a source fails, the previous items for that group are kept.
+The list comes only from Apple Music, so every app shows the same releases; each one then gets its direct link in
+- Spotify: the artist's albums and singles (Web API with SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET, free app);
+- YouTube Music: the release's official MV from the group's channel, opened in music.youtube.com.
+A link found once is kept. Without a direct link, the page opens that app's search for the title.
 """
+import base64
 import json
+import os
 import re
 import sys
 import time
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -57,6 +64,70 @@ def music(gid: str, artist_id: int) -> list[dict]:
     return out[:PER_GROUP]
 
 
+def spotify_token() -> str:
+    cid, sec = os.environ.get("SPOTIFY_CLIENT_ID", "").strip(), os.environ.get("SPOTIFY_CLIENT_SECRET", "").strip()
+    if not (cid and sec):
+        return ""
+    req = urllib.request.Request("https://accounts.spotify.com/api/token", data=b"grant_type=client_credentials", headers={
+        "Authorization": "Basic " + base64.b64encode(f"{cid}:{sec}".encode()).decode(), "Content-Type": "application/x-www-form-urlencoded"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.loads(r.read())["access_token"]
+
+
+def spotify_albums(token: str, artist_id: str) -> list[dict]:
+    url = f"https://api.spotify.com/v1/artists/{artist_id}/albums?include_groups=album,single&market=US&limit=50"
+    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}", **UA})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        body = json.loads(r.read())
+    return [{"key": base_title(a.get("name", "")), "date": a.get("release_date", ""), "url": (a.get("external_urls") or {}).get("spotify", "")}
+            for a in body.get("items", []) if (a.get("external_urls") or {}).get("spotify", "").startswith("https://open.spotify.com/")]
+
+
+def days_apart(a: str, b: str) -> int:
+    try:
+        return abs((datetime.fromisoformat(a[:10]) - datetime.fromisoformat(b[:10])).days)
+    except ValueError:
+        return 999
+
+
+def match_spotify(item: dict, albums: list[dict]) -> str:
+    """Same release name (without '- EP', versions or covers); if several, the closest date. A loose name only counts within 10 days."""
+    key = base_title(item["title"])
+    same = [a for a in albums if a["key"] == key]
+    if not same:
+        same = [a for a in albums if key and a["key"] and (a["key"].startswith(key) or key.startswith(a["key"])) and days_apart(a["date"], item["date"]) <= 10]
+    same.sort(key=lambda a: days_apart(a["date"], item["date"]))
+    # un remix o una versión nueva no es el álbum de hace un año: si la fecha queda muy lejos, mejor la búsqueda
+    return same[0]["url"] if same and days_apart(same[0]["date"], item["date"]) <= 60 else ""
+
+
+def match_mv(item: dict, vids: list[dict]) -> str:
+    """The group's official MV of that release, opened in YouTube Music."""
+    key = base_title(item["title"])
+    if len(key) < 2:
+        return ""
+    for v in vids:
+        t = v["title"].lower()
+        if v["group"] == item["group"] and re.search(r"\b(m/?v|music video)\b", t) and re.search(r"(^|[\s'‘’\"“”(\[])" + re.escape(key) + r"($|[\s'‘’\"“”)\].:!?-])", t):
+            vid = re.search(r"[?&]v=([\w-]{6,})", v["url"])
+            if vid:
+                return f"https://music.youtube.com/watch?v={vid.group(1)}"
+    return ""
+
+
+def search_mv(item: dict, channel: str) -> str:
+    """If the MV is no longer among the latest uploads: one search in the group's channel (100 of the 10,000 daily units;
+    it only runs once per new release because the link is kept)."""
+    key = os.environ.get("YT_API_KEY", "").strip()
+    if not (key and channel):
+        return ""
+    q = urllib.parse.quote(f"{item['title']} MV")
+    body = json.loads(get(f"https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=5&channelId={channel}&q={q}&key={key}"))
+    vids = [{"group": item["group"], "title": x["snippet"]["title"], "url": f"https://www.youtube.com/watch?v={x['id']['videoId']}"}
+            for x in body.get("items", []) if x.get("id", {}).get("videoId")]
+    return match_mv(item, vids)
+
+
 def videos(gid: str, channel: str) -> list[dict]:
     return [{
         "type": "video", "group": gid, "title": v["title"], "date": v["published"][:10], "published": v["published"],
@@ -85,12 +156,50 @@ def main() -> int:
             items += videos(gid, ch); ok += 1; n_yt += 1
         except Exception as exc:  # noqa: BLE001
             failed.append(f"youtube {gid}: {exc}"); items += keep.get((gid, "video"), [])
+    # enlaces directos por app (la lista sigue siendo la de Apple Music: así todas las apps muestran lo mismo)
+    prev = {it["url"]: it for it in old.get("items", []) if it.get("type") == "music"}
+    vids = [x for x in items if x["type"] == "video"] + [x for x in old.get("items", []) if x.get("type") == "video"]
+    try:
+        token = spotify_token()
+    except Exception as exc:  # noqa: BLE001
+        token = ""; failed.append(f"spotify token: {exc}")
+    sp_cache, n_sp, n_search = {}, 0, 0
+    for it in (x for x in items if x["type"] == "music"):
+        before = prev.get(it["url"], {})
+        for k in ("spotify", "ytm"):
+            if before.get(k):
+                it[k] = before[k]
+        if not it.get("ytm"):
+            it["ytm"] = match_mv(it, vids) or None
+        # búsqueda de un MV que ya no está entre las últimas subidas: una sola vez por lanzamiento (queda marcado)
+        if not it.get("ytm") and not before.get("ytm_try") and n_search < 6:
+            n_search += 1; it["ytm_try"] = 1
+            try:
+                it["ytm"] = search_mv(it, feeds.get("youtube", {}).get(it["group"], "")) or None
+            except Exception as exc:  # noqa: BLE001
+                failed.append(f"youtube search {it['group']}: {exc}"); it.pop("ytm_try", None)
+        elif before.get("ytm_try"):
+            it["ytm_try"] = 1
+        sid = feeds.get("spotify", {}).get(it["group"])
+        if token and sid and not it.get("spotify"):
+            try:
+                if sid not in sp_cache:
+                    sp_cache[sid] = spotify_albums(token, sid); time.sleep(.3)
+                it["spotify"] = match_spotify(it, sp_cache[sid]) or None; n_sp += 1
+            except Exception as exc:  # noqa: BLE001
+                failed.append(f"spotify {it['group']}: {exc}")
+        for k in ("spotify", "ytm"):
+            if not it.get(k):
+                it.pop(k, None)
+    if token:
+        report("spotify", not any(f.startswith("spotify") for f in failed), next((f for f in failed if f.startswith("spotify")), ""))
     report("itunes", n_it > 0, "" if n_it else "el catálogo de Apple Music no respondió")
     yt_err = next((f for f in failed if f.startswith("youtube")), "")
     report("youtube", n_yt > 0, "" if n_yt else ("la key fue rechazada (revisa YT_API_KEY)" if " 400" in yt_err or " 403" in yt_err else yt_err or "no respondió"))
     items.sort(key=lambda x: x["date"], reverse=True)
     doc = {"updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "sample": False, "items": items}
-    if [x["url"] for x in items] == [x["url"] for x in old.get("items", [])]:
+    sig = lambda xs: [(x["url"], x.get("spotify"), x.get("ytm"), x.get("ytm_try")) for x in xs]  # noqa: E731
+    if sig(items) == sig(old.get("items", [])):
         print(f"Sin cambios ({ok} fuentes bien)")
     else:
         OUT.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

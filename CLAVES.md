@@ -23,6 +23,7 @@ Si un servicio se cae, ese paso sale con advertencia y el resto sigue igual.
 |---|---|---|---|
 | `TM_API_KEY` | Fechas de gira nuevas desde Ticketmaster | Gratis | Funciona: en el primer run trajo BTS, ENHYPEN y LNGSHOT |
 | `YT_API_KEY` | Videos nuevos de YouTube y suscriptores | Gratis | Funciona: 27 videos en el primer run |
+| `SPOTIFY_CLIENT_ID` + `SPOTIFY_CLIENT_SECRET` | Enlace directo de cada lanzamiento en Spotify (sin esto, "Listen" abre la búsqueda) | Gratis | Por crear (5 minutos, abajo) |
 | `RSSHUB_URL` | Posts de las cuentas oficiales en X: avistamientos, anuncios oficiales y llegadas | Gratis (tu RSSHub en Vercel) | Guardado y probado: responden las 9 cuentas |
 | `DISCORD_WEBHOOK_URL` | Alertas en tu canal de Discord | Gratis | Funciona: el primer run mandó 26 alertas |
 | `NTFY_TOPIC` | Todas las alertas a tu celular (tu tema privado en ntfy) | Gratis | Funciona: llegó la prueba |
@@ -64,6 +65,17 @@ Si la key está mal, el paso lo dice ("Ticketmaster rechazó la key (401)").
 
 Hace falta porque YouTube dejó de servir sus feeds RSS públicos en 2026 (responden 404). El robot usa unas 900 unidades
 al día de las 10.000 gratis.
+
+## Spotify: `SPOTIFY_CLIENT_ID` y `SPOTIFY_CLIENT_SECRET` (gratis, 5 minutos)
+
+La lista de lanzamientos sale solo del catálogo de Apple Music, para que las tres apps muestren lo mismo. Con estas claves el
+robot busca ese mismo lanzamiento en Spotify (en los álbumes y singles del artista) y guarda el enlace directo. YouTube Music
+usa el MV oficial del canal del grupo con `YT_API_KEY` (una búsqueda por lanzamiento nuevo).
+
+1. Entra a **developer.spotify.com/dashboard** con tu cuenta de Spotify (sirve la gratis) y toca **Create app**.
+2. Nombre `radar-kpop`, descripción cualquiera, en **Redirect URI** pon `https://radar-kpop.vercel.app` y marca **Web API**. Guarda.
+3. En la app, **Settings**: copia el **Client ID** y, con **View client secret**, el **Client secret**.
+4. Guárdalos en GitHub (Settings, Secrets and variables, Actions) como `SPOTIFY_CLIENT_ID` y `SPOTIFY_CLIENT_SECRET`.
 
 ## RSSHub: `RSSHUB_URL`
 
