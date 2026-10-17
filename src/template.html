@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
 <!-- Diseño y desarrollo: editorial-ui, skill de Cristian Pérez · https://cristianperez.me -->
 <meta charset="utf-8">
@@ -7,13 +7,19 @@
 __CSP__
 <meta name="generator" content="editorial-ui · Cristian Pérez (https://cristianperez.me)">
 <title>Radar K-pop · 케이팝 레이더</title>
-<meta name="description" content="Un mundito donde ves a BTS, Stray Kids, TWICE, BLACKPINK, LNGSHOT, SEVENTEEN, ENHYPEN, NewJeans y CORTIS en chibi, parados en su próxima ciudad de gira, con cuenta regresiva y la distancia a ti.">
+<meta name="description" content="A tiny world where BTS, Stray Kids, TWICE, BLACKPINK, LNGSHOT, SEVENTEEN, ENHYPEN, NewJeans, CORTIS and ATEEZ stand as chibis on their next tour city, with a countdown and the distance to you.">
 <meta name="theme-color" content="#F4EEFF">
 <meta name="color-scheme" content="light">
 <meta property="og:title" content="Radar K-pop · 케이팝 레이더">
-<meta property="og:description" content="¿Dónde está tu grupo? Gira el mundito, mira su próxima parada y cuenta los días.">
+<meta property="og:description" content="Where is your group next? Spin the little world, see their next stop and count the days.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="__OG_IMAGE__">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Radar K-pop: the chibis of ten K-pop groups standing on a little globe">
+<meta property="og:site_name" content="Radar K-pop">
+<meta property="og:locale" content="en_US">
 __CANONICAL__
 <meta name="twitter:card" content="summary_large_image">
 <link rel="manifest" href="manifest.webmanifest">
@@ -29,17 +35,17 @@ __CANONICAL__
 <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
-<a class="skip" href="#grupos" data-i18n="skip">Saltar a los grupos</a>
+<a class="skip" href="#grupos" data-i18n="skip">Skip to the groups</a>
 
 <header class="bar" id="bar">
   <div class="bar-top">
-    <a class="logo" href="#mundo" aria-label="Radar K-pop" data-i18n-aria="homeAria">
+    <a class="logo" href="#mundo" aria-label="Radar K-pop, home" data-i18n-aria="homeAria">
       <span class="logo-dot" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3.5 10.5 Q12 13 20.5 10.5 M12 3 Q7.5 12 12 21 M12 3 Q16.5 12 12 21"/></svg></span>
       <span class="logo-text">Radar <b>K-pop</b></span>
       <span class="logo-ko" lang="ko">케이팝 레이더</span>
     </a>
     <div class="bar-actions">
-      <button class="btn-ico install" id="installBtn" type="button" hidden>
+      <button class="btn-ico install" id="installBtn" type="button" aria-label="Install" data-i18n-aria="install" hidden>
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14"/></svg>
         <span data-i18n="install">Install</span>
       </button>
@@ -83,7 +89,7 @@ __CANONICAL__
 
       <div class="view-toggle" role="group" aria-label="View" data-i18n-aria="viewAria">
         <span class="vt-pill" aria-hidden="true"></span>
-        <button type="button" data-view="globe" aria-pressed="true"><span lang="ko">지구</span> <span data-i18n="globe">Globo</span></button>
+        <button type="button" data-view="globe" aria-pressed="true"><span lang="ko">지구</span> <span data-i18n="globe">Globe</span></button>
         <button type="button" data-view="sonar" aria-pressed="false"><span lang="ko">레이더</span> <span data-i18n="sonar">Sonar</span></button>
       </div>
 
@@ -96,11 +102,11 @@ __CANONICAL__
         <div class="pins" id="pins"></div>
         <div class="zoom-ctrl" role="group" aria-label="Zoom">
           <button type="button" class="z-btn" data-spin aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.8 4.5v4h-4"/></svg><span class="sr" data-i18n="autoSpin">Auto-rotate</span></button>
-          <button type="button" class="z-btn" data-zoom="in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6v12M6 12h12"/></svg><span class="sr" data-i18n="zoomIn">Acercar</span></button>
-          <button type="button" class="z-btn" data-zoom="out"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12"/></svg><span class="sr" data-i18n="zoomOut">Alejar</span></button>
-          <button type="button" class="z-btn" data-center-me><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6.5"/><circle cx="12" cy="12" r="2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3"/></svg><span class="sr" data-i18n="centerMe">Centrar en mí</span></button>
+          <button type="button" class="z-btn" data-zoom="in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6v12M6 12h12"/></svg><span class="sr" data-i18n="zoomIn">Zoom in</span></button>
+          <button type="button" class="z-btn" data-zoom="out"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12"/></svg><span class="sr" data-i18n="zoomOut">Zoom out</span></button>
+          <button type="button" class="z-btn" data-center-me><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6.5"/><circle cx="12" cy="12" r="2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3"/></svg><span class="sr" data-i18n="centerMe">Center on me</span></button>
         </div>
-        <p class="drag-hint" id="dragHint" aria-hidden="true"><span lang="ko">드래그!</span> <span data-i18n="dragHint">arrástrame</span></p>
+        <p class="drag-hint" id="dragHint" aria-hidden="true"><span lang="ko">드래그!</span> <span data-i18n="dragHint">drag me</span></p>
       </div>
 
       <div class="sonar-view" id="sonarView" hidden>
@@ -108,10 +114,10 @@ __CANONICAL__
           <div class="sonar-plate" id="sonarPlate"></div>
           <div class="sonar-sweep anim-sweep" aria-hidden="true"></div>
           <svg class="sonar-line" id="sonarLine" aria-hidden="true"></svg>
-          <div class="sonar-me" id="sonarMe"><span data-i18n="you">Tú</span></div>
+          <div class="sonar-me" id="sonarMe"><span data-i18n="you">You</span></div>
           <div class="sonar-blips" id="sonarBlips"></div>
         </div>
-        <p class="sonar-note" data-i18n="sonarNote">Distancia en escala de raíz: lo cercano se ve más separado.</p>
+        <p class="sonar-note" data-i18n="sonarNote">Square-root distance scale: nearby stops look more spread out.</p>
       </div>
 
       <button type="button" class="sight-bubble" id="sightBubble" hidden></button>
@@ -119,8 +125,8 @@ __CANONICAL__
     </div>
 
     <div class="rail" id="rail" role="group" aria-label="Groups" data-i18n-aria="dockGroups"></div>
-    <a class="ticker" href="#avistamientos" aria-label="Sightings near you" data-i18n-aria="sightTitle">
-      <span class="ticker-k"><span class="ticker-dot" aria-hidden="true"></span><span data-i18n="tickerK">AVISTAMIENTOS CERCANOS</span></span>
+    <a class="ticker" href="#avistamientos" aria-label="Nearby sightings" data-i18n-aria="sightTitle">
+      <span class="ticker-k"><span class="ticker-dot" aria-hidden="true"></span><span data-i18n="tickerK">NEARBY SIGHTINGS</span></span>
       <span class="ticker-vp"><span class="ticker-track anim-ticker" id="tickerTrack"></span></span>
     </a>
   </section>
@@ -132,95 +138,95 @@ __CANONICAL__
         <p class="loc-chip" id="locChip" aria-live="polite"></p>
         <div class="near-ctrls">
           <label class="select-sticker">
-            <span class="sr" data-i18n="myCity">Tu ciudad</span>
+            <span class="sr" data-i18n="myCity">Your location</span>
             <select id="origin"></select>
           </label>
           <button class="btn small" id="geoBtn" type="button">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg>
-            <span data-i18n="useLocation">Usar mi ubicación</span>
+            <span data-i18n="useLocation">Use my location</span>
           </button>
         </div>
       </div>
       <div class="loc-ask" id="locAsk" hidden></div>
       <div class="near-card" id="nearCard"></div>
-      <p class="meta" aria-live="polite"><span id="meta">Cargando agenda</span> <button class="link-btn" id="refresh" type="button" data-i18n="checkNow">Revisar ahora</button></p>
+      <p class="meta" aria-live="polite"><span id="meta">Loading the schedule</span> <button class="link-btn" id="refresh" type="button" data-i18n="checkNow">Check now</button></p>
     </section>
 
     <section class="sec sec-sights" id="avistamientos" aria-labelledby="sightTitle">
-      <h2 class="sec-title" id="sightTitle"><span class="sec-n" aria-hidden="true">02</span><span class="ko" lang="ko">목격담</span> <span data-i18n="sightTitle">Avistamientos cercanos</span></h2>
-      <p class="sub-lead" data-i18n="sightLead">Publicaciones oficiales de los grupos que mencionan una ciudad, primero lo más reciente.</p>
-      <p class="sample-tag" id="sightSample" hidden><span data-i18n="sightSample">Datos de ejemplo: el conector de X todavía no tiene token.</span></p>
-      <div class="chips sight-sort" id="sightSort" role="group" aria-label="Orden" data-i18n-aria="sortAria"></div>
+      <h2 class="sec-title" id="sightTitle"><span class="sec-n" aria-hidden="true">02</span><span class="ko" lang="ko">목격담</span> <span data-i18n="sightTitle">Nearby sightings</span></h2>
+      <p class="sub-lead" data-i18n="sightLead">Official group posts that mention a city: newest first (or nearest, if you prefer). City level only, never hotels, airports or exact places.</p>
+      <p class="sample-tag" id="sightSample" hidden><span data-i18n="sightSample">Sample data: not connected to the official accounts yet.</span></p>
+      <div class="chips sight-sort" id="sightSort" role="group" aria-label="Order" data-i18n-aria="sortAria"></div>
       <ol class="bubbles" id="sightList"></ol>
-      <p class="sight-src" data-i18n="sightSource">Fuente: cuentas oficiales en X</p>
+      <p class="sight-src" data-i18n="sightSource">Source: official accounts on X</p>
     </section>
 
     <section class="sec sec-groups" id="grupos" aria-labelledby="groupsTitle">
       <h2 class="sec-title" id="groupsTitle"><span class="sec-n" aria-hidden="true">03</span><span class="ko" lang="ko">다음 공연</span> <span data-i18n="groupsTitle">When and where?</span></h2>
-      <div class="g-pick" id="gPick" role="tablist" aria-label="Grupos" data-i18n-aria="groupsPick"></div>
+      <div class="g-pick" id="gPick" role="tablist" aria-label="Groups" data-i18n-aria="groupsPick"></div>
       <div class="cards" id="cards"></div>
-      <p class="swipe-hint" data-i18n="swipeHint">Desliza para ver los demás grupos</p>
+      <p class="swipe-hint" data-i18n="swipeHint">Swipe to see the other groups</p>
     </section>
 
     <section class="sec sec-media" id="estrenos" aria-labelledby="mediaTitle">
       <h2 class="sec-title" id="mediaTitle"><span class="sec-n" aria-hidden="true">04</span><span class="ko" lang="ko">신곡</span> <span data-i18n="mediaTitle">Releases and videos</span></h2>
-      <p class="sub-lead" data-i18n="mediaLead">The latest music and official videos of each group.</p>
+      <p class="sub-lead" data-i18n="mediaLead">Music first: songs, albums and MVs. Vlogs, teasers and shorts are under Videos.</p>
       <div class="media-filter chips" id="mediaFilter" role="group" aria-label="Filter" data-i18n-aria="filterAria"></div>
       <ul class="media" id="media"></ul>
       <p class="sight-src" id="mediaSrc"></p>
     </section>
 
     <section class="sec sec-feed" id="avisos" aria-labelledby="feedTitle">
-      <h2 class="sec-title" id="feedTitle"><span class="sec-n" aria-hidden="true">05</span><span class="ko" lang="ko">새 소식</span> <span data-i18n="feedTitle">Últimas alertas</span></h2>
+      <h2 class="sec-title" id="feedTitle"><span class="sec-n" aria-hidden="true">05</span><span class="ko" lang="ko">새 소식</span> <span data-i18n="feedTitle">Latest alerts</span></h2>
       <ol class="bubbles" id="feed"></ol>
       <button class="btn ghost small" id="testParty" type="button">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.2 5.6L20 9.3l-4.5 3.9 1.4 5.8L12 16l-4.9 3 1.4-5.8L4 9.3l5.8-.7z"/></svg>
-        <span data-i18n="testParty">Probar la celebración</span>
+        <span data-i18n="testParty">Try the celebration</span>
       </button>
     </section>
 
     <section class="sec sec-subscribe" id="alertas" aria-labelledby="subTitle">
-      <h2 class="sec-title" id="subTitle"><span class="sec-n" aria-hidden="true">06</span><span class="ko" lang="ko">알림 받기</span> <span data-i18n="subTitle">Recibir alertas</span></h2>
-      <p class="sub-lead" data-i18n="subLead">Elige tus grupos y qué quieres saber. Gratis, sin cuenta y sin darnos tu número ni tu correo.</p>
+      <h2 class="sec-title" id="subTitle"><span class="sec-n" aria-hidden="true">06</span><span class="ko" lang="ko">알림 받기</span> <span data-i18n="subTitle">Get alerts</span></h2>
+      <p class="sub-lead" data-i18n="subLead">Pick your groups and what you want to know. Free, no account, and no phone number or email.</p>
       <form class="sub-form" id="subForm" novalidate>
         <div class="tabs" role="tablist" aria-label="Channel" data-i18n-aria="channelAria">
           <span class="tab-pill" aria-hidden="true"></span>
-          <button type="button" role="tab" data-ch="ntfy" aria-selected="true"><span data-i18n="pushTab">Celular</span> <small>ntfy</small></button>
+          <button type="button" role="tab" data-ch="ntfy" aria-selected="true"><span data-i18n="pushTab">Phone</span> <small>ntfy</small></button>
           <button type="button" role="tab" data-ch="discord" aria-selected="false">Discord</button>
         </div>
         <fieldset class="field">
-          <legend><span class="step-n" aria-hidden="true">1</span><span data-i18n="fGroups">Tus grupos</span></legend>
+          <legend><span class="step-n" aria-hidden="true">1</span><span data-i18n="fGroups">Your groups</span></legend>
           <div class="chips" id="fGroups"></div>
         </fieldset>
         <div class="ntfy-only" data-for="ntfy">
           <fieldset class="field">
-            <legend><span class="step-n" aria-hidden="true">2</span><span data-i18n="fTypes">Qué quieres que te avisemos</span></legend>
+            <legend><span class="step-n" aria-hidden="true">2</span><span data-i18n="fTypes">What should we tell you about</span></legend>
             <div class="chips" id="fTypes"></div>
             <div class="sub-extra">
-              <label class="check"><input type="checkbox" id="fCountryOn"> <span data-i18n="fCountry">Fechas nuevas de cualquier grupo en</span></label>
-              <label class="select-sticker small"><span class="sr" data-i18n="fCountryAria">País</span><select id="fCountry"></select></label>
+              <label class="check"><input type="checkbox" id="fCountryOn"> <span data-i18n="fCountry">New dates from any group in</span></label>
+              <label class="select-sticker small"><span class="sr" data-i18n="fCountryAria">Country</span><select id="fCountry"></select></label>
             </div>
-            <label class="check"><input type="checkbox" id="fWeekly"> <span data-i18n="fWeekly">El resumen de los lunes: shows, estrenos y cumpleaños de la semana</span></label>
+            <label class="check"><input type="checkbox" id="fWeekly"> <span data-i18n="fWeekly">The Monday recap: shows, releases and birthdays of the week</span></label>
           </fieldset>
           <div class="field">
-            <p class="legend"><span class="step-n" aria-hidden="true">3</span><span data-i18n="ntfyInstall">Instala ntfy, la app que recibe las alertas</span></p>
+            <p class="legend"><span class="step-n" aria-hidden="true">3</span><span data-i18n="ntfyInstall">Install ntfy, the app that gets the alerts</span></p>
             <div class="stores">
-              <a class="store" href="https://apps.apple.com/app/ntfy/id1625396347" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.8-3-.8C6.9 7.4 5.4 8.3 4.6 9.8c-1.7 2.9-.4 7.2 1.2 9.5.8 1.1 1.7 2.4 2.9 2.4 1.2 0 1.6-.8 3-.8s1.8.8 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.7 0 0-2.4-.9-2.4-4zM14.1 5.8c.6-.8 1.1-1.8 1-2.8-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.7-1 2.7 1 .1 2-.5 2.7-1.3z"/></svg><span><small data-i18n="storeIos">Descárgala en</small> App Store</span></a>
-              <a class="store" href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.2 2.6 13.6 12l-9.4 9.4c-.4-.2-.7-.7-.7-1.3V3.9c0-.6.3-1.1.7-1.3zm10.6 8.2 2.6-2.6 3.2 1.8c.9.5.9 1.8 0 2.3l-3.2 1.8-2.6-2.6zm-.9-.9L5.6 1.6l9.9 5.7-1.6 2.6zm0 4.2 1.6 2.6-9.9 5.7 8.3-8.3z"/></svg><span><small data-i18n="storeAndroid">Disponible en</small> Google Play</span></a>
+              <a class="store" href="https://apps.apple.com/app/ntfy/id1625396347" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.8-3-.8C6.9 7.4 5.4 8.3 4.6 9.8c-1.7 2.9-.4 7.2 1.2 9.5.8 1.1 1.7 2.4 2.9 2.4 1.2 0 1.6-.8 3-.8s1.8.8 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.7 0 0-2.4-.9-2.4-4zM14.1 5.8c.6-.8 1.1-1.8 1-2.8-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.7-1 2.7 1 .1 2-.5 2.7-1.3z"/></svg><span><small data-i18n="storeIos">Download on the</small> App Store</span></a>
+              <a class="store" href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.2 2.6 13.6 12l-9.4 9.4c-.4-.2-.7-.7-.7-1.3V3.9c0-.6.3-1.1.7-1.3zm10.6 8.2 2.6-2.6 3.2 1.8c.9.5.9 1.8 0 2.3l-3.2 1.8-2.6-2.6zm-.9-.9L5.6 1.6l9.9 5.7-1.6 2.6zm0 4.2 1.6 2.6-9.9 5.7 8.3-8.3z"/></svg><span><small data-i18n="storeAndroid">Get it on</small> Google Play</span></a>
             </div>
-            <p class="hint" data-i18n="ntfyWhy">Es gratis y no pide cuenta, número ni correo. Te llegan notificaciones aunque la web esté cerrada.</p>
+            <p class="hint" data-i18n="ntfyWhy">It is free and asks for no account, number or email. Notifications arrive even when the site is closed.</p>
           </div>
           <div class="field">
-            <p class="legend"><span class="step-n" aria-hidden="true">4</span><span data-i18n="ntfySubTitle">Suscríbete a tus temas</span></p>
+            <p class="legend"><span class="step-n" aria-hidden="true">4</span><span data-i18n="ntfySubTitle">Subscribe to your topics</span></p>
             <div id="ntfyList" aria-live="polite"></div>
           </div>
         </div>
         <div class="dc-only" data-for="discord" hidden><div id="dcBox"></div></div>
         <div class="preview" aria-live="polite">
-          <p class="preview-k" data-i18n="preview">Así te llegaría</p>
+          <p class="preview-k" data-i18n="preview">This is how it arrives</p>
           <div class="preview-bubble" id="preview"></div>
         </div>
-        <p class="privacy"><span data-i18n="privacy">No guardamos nada tuyo: tus elecciones quedan solo en este navegador y la suscripción vive en tu app.</span> <a href="#privacidad" data-open-privacy data-i18n="privacyLink">Cómo usamos tus datos</a> · <button class="link-btn" type="button" id="subDelete" data-i18n="subDelete">Borrar mis elecciones</button></p>
+        <p class="privacy"><span data-i18n="privacy">We keep nothing of yours: your choices stay in this browser and the subscription lives in your app.</span> <a href="#privacidad" data-open-privacy data-i18n="privacyLink">How we use your data</a> · <button class="link-btn" type="button" id="subDelete" data-i18n="subDelete">Delete my choices</button></p>
       </form>
     </section>
 
@@ -231,36 +237,49 @@ __CANONICAL__
           <div class="moon"></div>
           <span class="zzz anim-zzz">z</span><span class="zzz anim-zzz z2">z</span><span class="zzz anim-zzz z3">Z</span>
         </div>
-        <p class="bye"><span class="ko" lang="ko">다음에 또 봐요</span> <span data-i18n="bye">Nos vemos en la próxima parada</span></p>
-        <p class="foot-lead" data-i18n="footLead">El robot revisa giras, estrenos, avisos y redes cada 15 minutos. Tú solo vuelve cuando quieras.</p>
+        <p class="bye"><span class="ko" lang="ko">다음에 또 봐요</span> <span data-i18n="bye">See you at the next stop</span></p>
+        <p class="foot-lead" data-i18n="footLead">The robot checks tours, releases, notices and socials every 15 minutes. Just come back whenever you like.</p>
       </div>
       <div class="folds">
         <details class="fold">
-          <summary><span class="fold-i" aria-hidden="true">💡</span><span data-i18n="howTitle">Cómo funciona</span></summary>
-          <p data-i18n="disclaimer1">Esto muestra la agenda oficial y pública de cada grupo. No rastrea a nadie en tiempo real: el chibi está en la próxima fecha confirmada, no donde están en este momento.</p>
-          <p data-i18n="disclaimer2">Las horas son aproximadas (20:00 hora local cuando la fuente no la trae) y las coordenadas de los recintos también. Las fechas marcadas como anunciadas vienen de un solo anuncio y pueden cambiar.</p>
+          <summary><span class="fold-i" aria-hidden="true">💡</span><span data-i18n="howTitle">How it works</span></summary>
+          <p data-i18n="disclaimer1">This shows each group's official, public schedule. It does not track anyone in real time: the chibi stands on the next confirmed date, not where they are right now.</p>
+          <p data-i18n="disclaimer2">Times are approximate (8 pm local time when the source has none) and so are venue coordinates. Dates marked as announced come from a single announcement and may change.</p>
         </details>
         <details class="fold" id="novedades">
-          <summary><span class="fold-i" aria-hidden="true">✨</span><span data-i18n="changesTitle">Novedades</span></summary>
+          <summary><span class="fold-i" aria-hidden="true">✨</span><span data-i18n="changesTitle">What's new</span></summary>
           <ol class="changes" id="changes"></ol>
         </details>
         <details class="fold" id="privacidad">
-            <summary><span class="fold-i" aria-hidden="true">🔒</span><span data-i18n="privacyTitle">Privacidad</span></summary>
-          <p data-i18n="privacy1">El radar no tiene cuentas, ni cookies de rastreo, ni analítica. En tu navegador (localStorage) se guardan tu ciudad, tu idioma, si silenciaste los sonidos, tu grupo favorito, qué alertas ya viste y, si llenas el formulario, tu nombre, tu ID de Discord o tu WhatsApp, tus grupos y tus tipos de alerta.</p>
-          <p data-i18n="privacy2">Al entrar, el radar le pide tu ubicación al navegador. Si aceptas, la posición se redondea y se guarda solo en tu equipo.</p>
-          <p data-i18n="privacy3">Las fuentes tipográficas se cargan desde Google Fonts, que recibe tu dirección IP como cualquier sitio que las use. Para borrar todo, usa "Borrar mis datos" o limpia los datos del sitio en tu navegador.</p>
-          <p data-i18n="privacy4">Responsable: Cristian Pérez. Puedes conocer, actualizar o borrar tus datos y retirar tu autorización escribiendo a crisperezm879@gmail.com.</p>
+            <summary><span class="fold-i" aria-hidden="true">🔒</span><span data-i18n="privacyTitle">Privacy</span></summary>
+          <p data-i18n="privacy1">The radar has no accounts, no tracking cookies and no analytics. Your browser (localStorage) keeps your city, your language, whether you muted sounds, your favorite groups and your bias, which alerts you already saw and what you picked in "Get alerts" (groups, types and country). None of it leaves your device.</p>
+          <p data-i18n="privacy2">When you open it, the radar asks your browser for your location. If you allow it, the position is rounded (about 1 km) and stored only on your device to measure distances; if not, we use Bucaramanga or the city you choose. Your location never leaves your device.</p>
+          <p data-i18n="privacy3">Fonts load from Google Fonts. Release covers come from Apple Music and YouTube, and the city map (only if you open it) from OpenFreeMap. Each of those services sees your IP address, like on any site that uses them. To erase everything, use "Delete my data" or clear this site's data in your browser.</p>
+          <p data-i18n="privacy4">Data controller: Cristian Pérez (cristianperez.me). Alerts arrive through ntfy (ntfy.sh) or Discord: the radar posts to public topics and channels and you choose which to subscribe to from your app, so the radar never knows your number, email or location. You can delete your choices with "Delete my choices", unsubscribe in the app anytime, or write to crisperezm879@gmail.com.</p>
           <p class="privacy-mail"><a href="mailto:crisperezm879@gmail.com?subject=Radar%20K-pop">crisperezm879@gmail.com</a></p>
         </details>
         <details class="fold">
-          <summary><span class="fold-i" aria-hidden="true">📚</span><span data-i18n="sources">Fuentes</span><span class="fold-n" id="srcN"></span></summary>
+          <summary><span class="fold-i" aria-hidden="true">📚</span><span data-i18n="sources">Sources</span><span class="fold-n" id="srcN"></span></summary>
           <ul class="sources" id="sources"></ul>
         </details>
       </div>
-      <p class="foot-row"><span>Radar K-pop · 2026</span> <span class="credit"><span data-i18n="credit">Hecho con amor de fan por</span> <a href="https://cristianperez.me" target="_blank" rel="noopener noreferrer">Cristian Pérez</a><span id="zw"></span></span></p>
+      <p class="foot-row"><span>Radar K-pop · 2026</span> <span class="credit"><span data-i18n="credit">Made with fan love by</span> <a href="https://cristianperez.me" target="_blank" rel="noopener noreferrer">Cristian Pérez</a><span id="zw"></span></span></p>
     </footer>
   </div>
 </main>
+
+<div class="party ios-sheet" id="iosSheet" hidden>
+  <div class="party-card" role="dialog" aria-modal="true" aria-labelledby="iosTitle">
+    <p class="p-ko" lang="ko">홈 화면에 추가</p>
+    <h2 id="iosTitle" data-i18n="iosTitle">Install it on your iPhone</h2>
+    <ol class="ios-steps">
+      <li><span class="ios-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v12M7.5 7.5 12 3l4.5 4.5M6 11H5v10h14V11h-1"/></svg></span><span data-i18n="ios1">Tap Safari's Share button.</span></li>
+      <li><span class="ios-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M12 8v8M8 12h8"/></svg></span><span data-i18n="ios2">Choose "Add to Home Screen".</span></li>
+      <li><span class="ios-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 10.5Q12 13 20.5 10.5M12 3.5Q7.5 12 12 20.5M12 3.5Q16.5 12 12 20.5"/></svg></span><span data-i18n="ios3">Open Radar K-pop from your home screen, like an app.</span></li>
+    </ol>
+    <div class="p-acts"><button type="button" class="btn primary" data-close-sheet data-i18n="gotIt">Got it</button></div>
+  </div>
+</div>
 
 <div class="party" id="party" hidden>
   <canvas class="confetti" id="confetti" aria-hidden="true"></canvas>
@@ -278,7 +297,7 @@ __CANONICAL__
     <div class="v-bottom" id="vcap" aria-live="polite"></div>
     <div class="v-endbar" id="vend"></div>
   </div>
-  <button class="video-x" id="videoX" type="button" aria-label="Exit video mode" data-i18n-aria="closeVideo">
+  <button class="video-x" id="videoX" type="button" aria-label="Exit" data-i18n-aria="closeVideo">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
   </button>
 </div>
@@ -304,7 +323,7 @@ __CANONICAL__
 
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
-<script>window.RADAR_DATA0 = __DATA__; window.RADAR_PHOTOS = __PHOTOS__; window.RADAR_ROSTER = __ROSTER__; window.RADAR_CHANGES = __CHANGES__; window.RADAR_PLACES = __PLACES__; window.RADAR_PEOPLE = __PEOPLE__;</script>
+<script>window.RADAR_DATA0 = __DATA__; window.RADAR_PHOTOS = __PHOTOS__; window.RADAR_ROSTER = __ROSTER__; window.RADAR_CHANGES = __CHANGES__; window.RADAR_PLACES = __PLACES__; window.RADAR_PEOPLE = __PEOPLE__; window.RADAR_EXTRA = __EXTRA__;</script>
 <script src="config.js"></script>
 <script src="assets/vendor/d3-array.min.js"></script>
 <script src="assets/vendor/d3-geo.min.js"></script>
