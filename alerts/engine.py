@@ -624,6 +624,17 @@ def test_alert(now: datetime) -> int:
     ok_n = channels.send_ntfy(topic, a, False, os.environ.get("NTFY_SERVER", "").strip() or "https://ntfy.sh") if topic else None
     print(f"Prueba: Discord {'enviada' if ok_d else 'falló' if ok_d is False else 'sin DISCORD_WEBHOOK_URL'}, "
           f"ntfy {'enviada' if ok_n else 'falló' if ok_n is False else 'sin NTFY_TOPIC'}")
+    # foro: un mensaje en cada publicación que el robot tiene guardada (nunca crea publicaciones), así se ve cuál es la buena
+    forum = os.environ.get("DISCORD_FORUM_WEBHOOK_URL", "").strip()
+    names = {g["id"]: g["name"] for g in load_json(EVENTS, {}).get("groups", [])}
+    for gid, tid in load_json(STATE, {}).get("discord_threads", {}).items():
+        if not forum:
+            break
+        name = FORUM_NAMES.get(gid) or f"{names.get(gid, gid)} · alertas"
+        fa = dict(a, group=gid, title=f"✅ Prueba: esta es la publicación de {name} que usa el robot",
+                  body="Aquí llegan las alertas. Si ves otra publicación con el mismo nombre que no recibió esta prueba, puedes borrarla.")
+        ok, _, gone = channels.send_discord_forum(forum, fa, tid, name, False)
+        print(f"Prueba foro {name}: {'enviada' if ok else 'ya no existe (se crea otra con la próxima alerta)' if gone else 'falló'}")
     return 0
 
 
