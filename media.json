@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T18:01:36Z",
+ "updated_at": "2026-10-17T18:14:58Z",
  "sample": false,
  "items": [
   {
@@ -10,7 +10,34 @@
    "date": "2026-11-10",
    "url": "https://music.apple.com/us/album/s-w-i-s-h-ep/6821155823",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/db/96/f4db96a4-7283-d95b-18dd-56dccc927855/8804775413131.jpg/300x300bb.jpg",
-   "ytm_v": 2
+   "ytm_v": 2,
+   "tracks": [
+    {
+     "n": "Track 1",
+     "ms": 169714,
+     "p": ""
+    },
+    {
+     "n": "Track 2",
+     "ms": 165948,
+     "p": ""
+    },
+    {
+     "n": "Track 3",
+     "ms": 188536,
+     "p": ""
+    },
+    {
+     "n": "Track 4",
+     "ms": 162096,
+     "p": ""
+    },
+    {
+     "n": "Track 5",
+     "ms": 196756,
+     "p": ""
+    }
+   ]
   },
   {
    "type": "video",
@@ -147,7 +174,8 @@
      "ms": 160835,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/6f/fe/0b6ffe58-115c-1bf7-a537-fb132ab60086/mzaf_18446711858706010651.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm_try": 1
   },
   {
    "type": "video",
@@ -360,7 +388,8 @@
    "date": "2026-08-25",
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
-   "ytm_v": 2
+   "ytm_v": 2,
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -643,7 +672,14 @@
    "url": "https://music.apple.com/us/album/fire-with-fire-inspired-by-the-original-motion-picture/6781115620",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/e1/af/86e1af0c-918b-5717-9688-85829a858f43/26UMGIM22394.rgb.jpg/300x300bb.jpg",
    "ytm_v": 2,
-   "spotify": "https://open.spotify.com/album/5Wea9EBLVR2zPbVp4u0M1b"
+   "spotify": "https://open.spotify.com/album/5Wea9EBLVR2zPbVp4u0M1b",
+   "tracks": [
+    {
+     "n": "Fire With Fire",
+     "ms": 234584,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/00/83/53/008353c3-c117-9243-ab4e-dd9cd520b838/mzaf_17511119107389124917.plus.aac.p.m4a"
+    }
+   ]
   },
   {
    "type": "music",
@@ -696,7 +732,34 @@
    "url": "https://music.apple.com/us/album/training-day-ep/1885487042",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/a8/de/cfa8dee7-da1a-eb20-6074-741a4af1a1f6/cover_KM0024394_1.jpg/300x300bb.jpg",
    "ytm_v": 2,
-   "spotify": "https://open.spotify.com/album/7z5ZIN7o44Tk8EUkm7AVar"
+   "spotify": "https://open.spotify.com/album/7z5ZIN7o44Tk8EUkm7AVar",
+   "tracks": [
+    {
+     "n": "Good Girls",
+     "ms": 165246,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/33/9a/a2339a64-6135-ed2f-076d-aee32a65596a/mzaf_5884822538582229763.plus.aac.p.m4a"
+    },
+    {
+     "n": "Boo Thang",
+     "ms": 182410,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/0d/ca/010dca43-5c99-3236-2dfe-f954462c2e3e/mzaf_7177787208548750436.plus.aac.p.m4a"
+    },
+    {
+     "n": "Summer Eyes",
+     "ms": 200174,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/77/b2/97/77b297fb-782a-5fcf-3a39-9cdbee95dd89/mzaf_1546966803969116241.plus.aac.p.m4a"
+    },
+    {
+     "n": "For Us",
+     "ms": 105454,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/2e/16/5f2e1600-1629-be39-a784-e0a4b8e30674/mzaf_3709386990029330403.plus.aac.p.m4a"
+    },
+    {
+     "n": "Vanilla Days",
+     "ms": 170695,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/c2/9f/30c29f0b-bed7-d993-6909-0392418d4dcc/mzaf_15564917017364106254.plus.aac.p.m4a"
+    }
+   ]
   },
   {
    "type": "video",
@@ -754,7 +817,8 @@
      "ms": 187479,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/5c/93/405c933c-1ac2-392d-0ef5-239a39a49b82/mzaf_11064126409298218431.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -828,7 +892,8 @@
      "ms": 164000,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/38/9a/56389afe-4c4e-2dcf-f1d3-3cfd77bad617/mzaf_1996122056518744077.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -856,7 +921,9 @@
      "ms": 164719,
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/e5/22/c0e5223b-b169-bd10-5673-78a4a50ee9b1/mzaf_14292064936326881473.plus.aac.p.m4a"
     }
-   ]
+   ],
+   "ytm": "https://music.youtube.com/watch?v=CgCVZdcKcqY",
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -911,7 +978,16 @@
    "url": "https://music.apple.com/us/album/the-girls-blackpink-the-game-ost-single/1703682152",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/56/62/63566266-fc17-677a-d1a7-92509c7f636d/23UMGIM96676.rgb.jpg/300x300bb.jpg",
    "ytm_v": 2,
-   "spotify": "https://open.spotify.com/album/01K5Mr0IkO7GQrvoUEsWfS"
+   "spotify": "https://open.spotify.com/album/01K5Mr0IkO7GQrvoUEsWfS",
+   "tracks": [
+    {
+     "n": "THE GIRLS (BLACKPINK THE GAME OST)",
+     "ms": 162000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/e0/51/53e051fc-ef76-3ac2-07de-cd19b3fbed2f/mzaf_6643641762713119046.plus.aac.p.m4a"
+    }
+   ],
+   "ytm": "https://music.youtube.com/watch?v=cSqOY5nktfg",
+   "ytm_try": 1
   }
  ]
 }
