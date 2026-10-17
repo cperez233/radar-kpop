@@ -118,7 +118,7 @@ hashes = " ".join("'sha256-" + base64.b64encode(hashlib.sha256(m.encode("utf-8")
 csp = ("default-src 'self'; script-src 'self' " + hashes + "; "
        "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; "
        "img-src 'self' data: blob: https:; connect-src 'self' https:; manifest-src 'self'; worker-src 'self' blob:; child-src blob:; "
-       "frame-src https://www.youtube-nocookie.com https://www.tiktok.com; "
+       "frame-src https://www.youtube-nocookie.com https://www.tiktok.com https://open.spotify.com https://embed.music.apple.com; "
        "object-src 'none'; base-uri 'self'; form-action 'self'")
 html = html.replace("__CSP__", f'<meta http-equiv="Content-Security-Policy" content="{csp}">')
 # Versión del código: va en las URLs de app.js, app.css y config.js y en sw.js, para que ningún navegador

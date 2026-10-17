@@ -198,7 +198,7 @@
       globeAria: 'Globo con la próxima parada de cada grupo', autoSpin: 'Girar solo', channelAria: 'Canal', sortAria: 'Orden', filterAria: 'Filtrar',
       mediaTitle: 'Estrenos y videos', mediaLead: 'Primero la música: canciones, álbumes y MV. Los vlogs, teasers y shorts están en Videos.', mediaAll: 'Todo', mediaMusic: 'Música y MV', mediaVideo: 'Videos', vkMv: 'MV', vkTeaser: 'Teaser', vkShort: 'Short', vkVlog: 'Vlog', vkBehind: 'Detrás de cámaras', vkShow: 'Programa',
       mediaSrc: 'Fuentes: catálogo de Apple Music (iTunes Search API) y canales oficiales de YouTube. Se actualiza solo.', mediaEmpty: 'Todavía no hay estrenos guardados.',
-      appPick: '¿Dónde escuchas?', appSet: 'Los enlaces de música abren en {app}', mediaListen: 'Escuchar', mediaWatch: 'Ver video', mediaSample: 'Datos de ejemplo', released: 'salió {when}',
+      plArtist: 'Spotify aún no tiene el enlace de este lanzamiento: aquí está su perfil.', plNoEmbed: '{app} no deja reproducir este lanzamiento aquí. Ábrelo en la app.', plOpenIn: 'Abrir en {app}', appPick: '¿Dónde escuchas?', appSet: 'Los enlaces de música abren en {app}', mediaListen: 'Escuchar', mediaWatch: 'Ver video', mediaSample: 'Datos de ejemplo', released: 'salió {when}',
       cityOpen: 'Mapa de la ciudad', cityShort: 'Mapa', restShows: 'shows en {n} ciudades', cityLoading: 'Dibujando la ciudad...', cityTilt: 'Vista 3D', cityVenue: 'Volver al recinto', cityFail: 'No pudimos cargar el mapa. Revisa tu conexión.',
       cityK: 'Próxima parada', cityLast: 'Última parada', cityYou: 'Tú', cityAttr: 'Mapa: OpenFreeMap · datos © OpenStreetMap',
       locReal: 'Ubicación real', locNear: 'cerca de {city}', locAcc: '±{km} km', locDefault: 'Ciudad por defecto: Bucaramanga', locChosen: 'Ciudad elegida por ti',
@@ -267,7 +267,7 @@
       globeAria: 'Globe with each group\'s next stop', autoSpin: 'Auto-rotate', channelAria: 'Channel', sortAria: 'Order', filterAria: 'Filter',
       mediaTitle: 'Releases and videos', mediaLead: 'Music first: songs, albums and MVs. Vlogs, teasers and shorts are under Videos.', mediaAll: 'All', mediaMusic: 'Music & MVs', mediaVideo: 'Videos', vkMv: 'MV', vkTeaser: 'Teaser', vkShort: 'Short', vkVlog: 'Vlog', vkBehind: 'Behind the scenes', vkShow: 'Show',
       mediaSrc: 'Sources: Apple Music catalog (iTunes Search API) and official YouTube channels. Updates on its own.', mediaEmpty: 'No releases saved yet.',
-      appPick: 'Where do you listen?', appSet: 'Music links now open in {app}', mediaListen: 'Listen', mediaWatch: 'Watch video', mediaSample: 'Sample data', released: 'out {when}',
+      plArtist: 'Spotify does not have this release linked yet: here is their profile.', plNoEmbed: '{app} cannot play this release here. Open it in the app.', plOpenIn: 'Open in {app}', appPick: 'Where do you listen?', appSet: 'Music links now open in {app}', mediaListen: 'Listen', mediaWatch: 'Watch video', mediaSample: 'Sample data', released: 'out {when}',
       cityOpen: 'City map', cityShort: 'Map', restShows: 'shows in {n} cities', cityLoading: 'Drawing the city...', cityTilt: '3D view', cityVenue: 'Back to the venue', cityFail: 'We could not load the map. Check your connection.',
       cityK: 'Next stop', cityLast: 'Last stop', cityYou: 'You', cityAttr: 'Map: OpenFreeMap · data © OpenStreetMap',
       locReal: 'Real location', locNear: 'near {city}', locAcc: '±{km} km', locDefault: 'Default city: Bucaramanga', locChosen: 'City you picked',
@@ -1505,7 +1505,7 @@
     var m = r.m, today = new Date(now()).toISOString().slice(0, 10), n = daysBetween(today, m.date);
     var lab = r.k === 'today' ? t('relToday') : r.k === 'new' ? t('relNew') : t('nextRelease');
     var when = r.k === 'today' ? '' : r.k === 'new' ? t('ago', { n: agoTxt(now() - Date.parse(m.date + 'T12:00:00Z')) }) : fmtShort(m.date) + ' · D-' + n;
-    return '<p class="next-rel rel-' + r.k + '"><span class="ko" lang="ko">' + (r.k === 'new' ? '신곡' : '컴백') + '</span> ' + esc(lab) + ': <a href="' + esc(m.type === 'music' && okLink(m.url) ? musicUrl(m) : m.url) + '" target="_blank" rel="noopener noreferrer"><b>' + esc(m.title) + '</b></a>' +
+    return '<p class="next-rel rel-' + r.k + '"><span class="ko" lang="ko">' + (r.k === 'new' ? '신곡' : '컴백') + '</span> ' + esc(lab) + ': <a href="' + esc(m.type === 'music' && okLink(m.url) ? musicUrl(m) : m.url) + '"' + (m.type === 'music' && okLink(m.url) && media.indexOf(m) >= 0 ? ' data-music="' + media.indexOf(m) + '"' : '') + ' target="_blank" rel="noopener noreferrer"><b>' + esc(m.title) + '</b></a>' +
       (when ? ' · ' + esc(when) : '') + (m.ann ? ' <span class="tag">' + esc(t('relAnn')) + '</span>' : '') + '</p>';
   }
   function cardHtml(st) {
@@ -2504,7 +2504,43 @@
     var i = 0; MUSIC_APPS.forEach(function (x, k) { if (x[0] === a) i = k; });
     $$('.app-sw').forEach(function (sw) { sw.style.setProperty('--i', i); sw.querySelectorAll('[data-app]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-app') === a)); }); });
     $$('a[data-music]').forEach(function (l) { var m = media[+l.getAttribute('data-music')]; if (m) l.href = musicUrl(m); });
-    toast(t('appSet', { app: MUSIC_APPS[i][1] }));
+    if (!$('#player').hidden) playerFrame(); else toast(t('appSet', { app: MUSIC_APPS[i][1] }));
+  }
+  /* el reproductor: al tocar "Escuchar" se abre una hoja con el reproductor de tu app (el mismo lanzamiento en las tres) */
+  var PL = { m: null };
+  function embedOf(m) {
+    if (musicApp === 'apple') { var u = okLink(m.url); return u ? { src: u.replace('https://music.apple.com/', 'https://embed.music.apple.com/'), h: 450 } : null; }
+    if (musicApp === 'spotify') {
+      var sp = /^https:\/\/open\.spotify\.com\/(album|track)\/(\w+)$/.exec(m.spotify || '');
+      if (sp) return { src: 'https://open.spotify.com/embed/' + sp[1] + '/' + sp[2] + '?utm_source=generator', h: 452 };
+      var aid = (PROFILE[m.group] || {}).spotify;
+      return aid ? { src: 'https://open.spotify.com/embed/artist/' + aid + '?utm_source=generator', h: 452, note: t('plArtist') } : null;
+    }
+    var yv = /[?&]v=([\w-]{6,})$/.exec(m.ytm || '');
+    return yv ? { src: 'https://www.youtube-nocookie.com/embed/' + yv[1] + '?rel=0', h: 0, video: true } : null;
+  }
+  function playerFrame() {
+    var m = PL.m; if (!m) return;
+    var app = MUSIC_APPS.filter(function (a) { return a[0] === musicApp; })[0], e = embedOf(m), box = $('#plFrame');
+    if (!$('#plSwitch .app-sw')) $('#plSwitch').innerHTML = appSwitchHtml();
+    box.className = 'pl-frame' + (e && e.video ? ' video' : '') + (e ? '' : ' none');
+    box.innerHTML = e ? (e.note ? '<p class="pl-note">' + esc(e.note) + '</p>' : '') + '<iframe src="' + esc(e.src) + '" title="' + esc(app[1] + ': ' + m.title) + '"' + (e.h ? ' style="height:' + e.h + 'px"' : '') +
+      ' allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+      : '<p class="pl-note">' + esc(t('plNoEmbed', { app: app[1] })) + '</p>';
+    var o = $('#plOpen'); o.href = musicUrl(m); o.textContent = t('plOpenIn', { app: app[1] });
+  }
+  function openPlayer(m) {
+    PL.m = m; var box = $('#player');
+    box.setAttribute('style', gStyle(m.group));
+    $('#plCover').src = okImg(m.image) || face(m.group).src; $('#plGroup').textContent = gName(m.group);
+    $('#plTitle').textContent = m.title; $('#plKind').textContent = [m.kind, m.date ? fmtDate(m.date, true) : ''].filter(Boolean).join(' · ');
+    playerFrame(); box.hidden = false; document.documentElement.style.overflow = 'hidden'; Sound.play('open');
+    $('#player [data-pl-close]').focus({ preventScroll: true });
+  }
+  function closePlayer() {
+    var box = $('#player'); if (box.hidden) return;
+    var done = function () { box.classList.remove('pl-closing'); box.hidden = true; $('#plFrame').innerHTML = ''; PL.m = null; if ($('#gp').hidden) document.documentElement.style.overflow = ''; };
+    if (reduce) done(); else { box.classList.add('pl-closing'); setTimeout(done, 240); }
   }
   function pollMedia() {
     return fetch('media.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
@@ -2741,11 +2777,11 @@
 
   /* ================= eventos ================= */
   var lastKeyboard = false;
-  window.addEventListener('keydown', function (e) { lastKeyboard = true; if (e.key === 'Escape') { if (!$('#city').hidden) closeCity(); else if (!$('#gp').hidden) closeGP(); else if (!$('#video').hidden) closeVideo(); else if (!$('#party').hidden) closeParty(); else if (!$('#iosSheet').hidden) $('#iosSheet').hidden = true; else if (sel) unselect(); } });
+  window.addEventListener('keydown', function (e) { lastKeyboard = true; if (e.key === 'Escape') { if (!$('#player').hidden) closePlayer(); else if (!$('#city').hidden) closeCity(); else if (!$('#gp').hidden) closeGP(); else if (!$('#video').hidden) closeVideo(); else if (!$('#party').hidden) closeParty(); else if (!$('#iosSheet').hidden) $('#iosSheet').hidden = true; else if (sel) unselect(); } });
   window.addEventListener('pointerdown', function () { lastKeyboard = false; }, true);
 
   document.addEventListener('click', function (ev) {
-    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-biasmem],[data-light],[data-app],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-geo-help],[data-geo-later],[data-zoom],[data-spin],[data-center-me],[data-city],[data-city-close],[data-cmap],[data-mfilter],[data-ssort],[data-gpick],[data-feedall],[data-copy],[data-topic],[data-gp-close],[data-gp-tab],[data-gp-mem],[data-gp-hop],[data-yt],[data-tt],[data-gp-open],#sightBubble,#themeBtn,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,.topnav a') : null;
+    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-biasmem],[data-light],[data-app],[data-music],[data-pl-close],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-geo-help],[data-geo-later],[data-zoom],[data-spin],[data-center-me],[data-city],[data-city-close],[data-cmap],[data-mfilter],[data-ssort],[data-gpick],[data-feedall],[data-copy],[data-topic],[data-gp-close],[data-gp-tab],[data-gp-mem],[data-gp-hop],[data-yt],[data-tt],[data-gp-open],#sightBubble,#themeBtn,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,.topnav a') : null;
     if (!el) { if (ev.target === $('#party')) closeParty(); return; }
     if (el.hasAttribute('data-pick')) { if (view !== 'globe' && el.hasAttribute('data-top')) setView('globe'); pick(el.getAttribute('data-pick'), { top: el.hasAttribute('data-top') }); return; }
     if (el.hasAttribute('data-unsel')) { unselect(); return; }
@@ -2764,6 +2800,8 @@
     }
     if (el.hasAttribute('data-ssort')) { sightSort = el.getAttribute('data-ssort'); store('radar-sight-sort', sightSort); renderSights(); Sound.play('toggle'); return; }
     if (el.hasAttribute('data-app')) { setMusicApp(el.getAttribute('data-app')); return; }
+    if (el.hasAttribute('data-pl-close')) { closePlayer(); return; }
+    if (el.hasAttribute('data-music') && !(ev.ctrlKey || ev.metaKey || ev.shiftKey)) { var mm = media[+el.getAttribute('data-music')]; if (mm) { ev.preventDefault(); openPlayer(mm); return; } }
     if (el.hasAttribute('data-mfilter')) { mediaType = el.getAttribute('data-mfilter'); store('radar-media', mediaType); renderMedia(); Sound.play('toggle'); return; }
     if (el.hasAttribute('data-trivia')) { triviaTap(el); return; }
     if (el.hasAttribute('data-geo-retry')) { locate(true); return; }
@@ -2812,7 +2850,7 @@
         var num = target.querySelector('.sec-n'), ko = target.querySelector('.sec-title .ko'), ttl = target.querySelector('.sec-title [data-i18n]');
         curtain({ num: num ? num.textContent : '★', ko: ko ? ko.textContent : '세계', title: ttl ? ttl.textContent : (el.textContent || '').trim(),
           color: getComputedStyle(target).getPropertyValue('--sec-ac').trim() || '#FF5FA8' },
-          function () { target.scrollIntoView({ behavior: 'auto', block: 'start' }); navLock = Date.now() + 900; },
+          function () { target.scrollIntoView({ behavior: 'instant', block: 'start' }); requestAnimationFrame(function () { requestAnimationFrame(function () { target.scrollIntoView({ behavior: 'instant', block: 'start' }); }); }); navLock = Date.now() + 900; },
           function () { arrive(target, true); });
       }
       Sound.play('tap'); return;
