@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T12:30:48Z",
+ "updated_at": "2026-10-17T13:30:48Z",
  "groups": {
   "bts": {
    "x": [
@@ -1379,6 +1379,11 @@
   "lngshot": {
    "x": [
     {
+     "title": "A peek at Masterpiece dance practice 👀 #Masterpiece #SWISH #LNGSHOT #SHOTTIES #MOREVISION",
+     "url": "https://x.com/LNGSHOT4sho/status/2111447428717310173",
+     "when": "2026-10-17T13:21:10Z"
+    },
+    {
      "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (애플뮤직) #LNGSHOT #SWISH #MOREVISION",
      "url": "https://x.com/LNGSHOT4sho/status/2111291823335604689",
      "when": "2026-10-17T03:02:51Z"
@@ -1397,11 +1402,6 @@
      "title": "‘Masterpiece’ 10/21 6PM KST EP [S.W.I.S.H.] 11/10 6PM KST Pre-order & pre-save now. #Masterpiece #SWISH #LNGSHOT #MOREV...",
      "url": "https://x.com/LNGSHOT4sho/status/2111019315780538856",
      "when": "2026-10-16T09:00:00Z"
-    },
-    {
-     "title": "The first piece of #SWISH. Soon. EP [S.W.I.S.H.] 11/10 6PM KST Pre-order & pre-save now. #LNGSHOT #MOREVISION",
-     "url": "https://x.com/LNGSHOT4sho/status/2110747529771880705",
-     "when": "2026-10-15T15:00:01Z"
     }
    ],
    "members": {
@@ -1964,6 +1964,11 @@
    ],
    "instagram": [
     {
+     "title": "따따리따~ #JAY #JAKE #SUNGHOON #ENHYPEN",
+     "url": "https://www.instagram.com/p/Del5YWXJpjz/",
+     "when": "2026-10-17T10:30:18Z"
+    },
+    {
      "title": "😚 #JAKE #ENHYPEN",
      "url": "https://www.instagram.com/p/DelbHjaJ9ty/",
      "when": "2026-10-17T06:06:26Z"
@@ -1982,11 +1987,6 @@
      "title": "슥~ 피하기 #SUNGHOON #SUNOO #ENHYPEN",
      "url": "https://www.instagram.com/p/DejUT3xSrVL/",
      "when": "2026-10-16T10:28:08Z"
-    },
-    {
-     "title": "When ENHYPEN JUNGWON, JAKE, SUNGHOON meet vivo V80 Starwish Purple, magic happens. Step into the starry realm, and let’s shine together✨ #vivoV80 #S...",
-     "url": "https://www.instagram.com/p/DeioFJuAsOU/",
-     "when": "2026-10-16T04:01:24Z"
     }
    ]
   },
@@ -2082,6 +2082,11 @@
   "cortis": {
    "x": [
     {
+     "title": "#가져와_new_pic 📸 261017 NOL FESTIVAL #CORTIS #코르티스",
+     "url": "https://x.com/cortis_bighit/status/2111439836120793256",
+     "when": "2026-10-17T12:51:00Z"
+    },
+    {
      "title": "when my friend tries to pay 🔗 #CORTIS #코르티스",
      "url": "https://x.com/cortis_bighit/status/2111337812872290420",
      "when": "2026-10-17T06:05:36Z"
@@ -2100,11 +2105,6 @@
      "title": "하모니카 한 모금 SIP 🔗 #CORTIS #코르티스",
      "url": "https://x.com/cortis_bighit/status/2110944312976699458",
      "when": "2026-10-16T04:01:58Z"
-    },
-    {
-     "title": "[Vote] MMA2026 TOP10 투표 안내 🗳️ Melon ( 📆 ~ 2026.10.29 23:59 (KST) �...",
-     "url": "https://x.com/cortis_bighit/status/2110687951344877640",
-     "when": "2026-10-15T11:03:16Z"
     }
    ],
    "members": {
@@ -2263,5 +2263,6 @@
    ]
   }
  },
- "ig_cursor": 40
+ "ig_cursor": 48,
+ "ig_pause_until": "2026-10-17T19:30:48Z"
 }
