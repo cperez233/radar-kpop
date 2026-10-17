@@ -15,7 +15,7 @@ sys.path.insert(0, str(ROOT / "alerts"))
 sys.path.insert(0, str(ROOT / "tools"))
 import status  # noqa: E402
 
-LABELS = {"ticketmaster": "Ticketmaster (fechas)", "itunes": "Apple Music (estrenos)", "youtube": "YouTube (videos)",
+LABELS = {"ticketmaster": "Ticketmaster (fechas)", "itunes": "Apple Music (estrenos)", "spotify": "Spotify (enlaces directos)", "youtube": "YouTube (videos)",
           "kworb": "kworb (números de Spotify)", "rsshub": "RSSHub (cuentas oficiales de X)", "discord": "Discord (tu canal)", "discord_foro": "Discord (foro de los fans)", "ntfy": "ntfy",
           "tiktok": "TikTok (vía RSSHub)", "instagram": "Instagram (vía RSSHub)", "autodates": "Fechas automáticas por anuncios",
           "rosterwatch": "Integrantes (servicio militar y regresos)"}
