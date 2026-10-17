@@ -171,9 +171,14 @@ def search_ytm(item: dict, channel: str) -> str:
     body = json.loads(get(f"https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=15&q={q}&key={key}"))
     found = [x for x in body.get("items", []) if x.get("id", {}).get("videoId")]
     want = {base_title(item["title"])} | {base_title(t.get("n", "")) for t in (item.get("tracks") or [])[:1]}
+    def same(title: str) -> bool:
+        # "11월 11일 (November 11th)": el nombre en inglés a veces va entre paréntesis detrás del coreano
+        t = html.unescape(title)
+        names = {base_title(t)} | {p.strip().lower() for p in re.findall(r"[\(\[]([^\)\]]+)[\)\]]", t)}
+        return bool(names & want)
     for x in found:  # el audio oficial (canal Topic del artista)
         sn = x["snippet"]
-        if sn.get("channelTitle", "").lower() == f"{artist} - topic".lower() and base_title(html.unescape(sn.get("title", ""))) in want:
+        if sn.get("channelTitle", "").lower() == f"{artist} - topic".lower() and same(sn.get("title", "")):
             return f"https://music.youtube.com/watch?v={x['id']['videoId']}"
     vids = [{"group": item["group"], "title": html.unescape(x["snippet"]["title"]), "url": f"https://www.youtube.com/watch?v={x['id']['videoId']}"}
             for x in found if x["snippet"].get("channelId") == channel]
@@ -218,9 +223,11 @@ def main() -> int:
     sp_cache, n_sp, n_search, n_tr, sp_blocked = {}, 0, 0, 0, False
     for it in (x for x in items if x["type"] == "music"):
         before = prev.get(it["url"], {})
-        if before and before.get("ytm_v") != 3:  # YouTube Music ahora busca el audio oficial (Topic): se vuelve a buscar una vez
+        if before and before.get("ytm_v") not in (3, 4):  # YouTube Music ahora busca el audio oficial (Topic): se vuelve a buscar una vez
             before = {k: v for k, v in before.items() if k not in ("ytm", "ytm_try")}
-        it["ytm_v"] = 3
+        elif before and before.get("ytm_v") == 3 and not before.get("ytm"):  # títulos en coreano con el inglés entre paréntesis: los que fallaron, otra vez
+            before = {k: v for k, v in before.items() if k != "ytm_try"}
+        it["ytm_v"] = 4
         for k in ("spotify", "ytm", "tracks"):
             if before.get(k):
                 it[k] = before[k]
