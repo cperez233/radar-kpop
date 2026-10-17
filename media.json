@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T15:30:31Z",
+ "updated_at": "2026-10-17T17:15:32Z",
  "sample": false,
  "items": [
   {
@@ -252,7 +252,8 @@
    "kind": "Album",
    "date": "2026-09-10",
    "url": "https://music.apple.com/us/album/november-11th-single/6804531602",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/18/f4/f018f433-2128-676d-0d47-9f8f613369eb/8809928956763_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/18/f4/f018f433-2128-676d-0d47-9f8f613369eb/8809928956763_Cover.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -306,7 +307,8 @@
    "kind": "Album",
    "date": "2026-08-08",
    "url": "https://music.apple.com/us/album/this-that-cool-edition/6798751931",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/af/6b/f2af6b59-fbd0-60d7-0855-883cda56bf5f/8809928956862_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/af/6b/f2af6b59-fbd0-60d7-0855-883cda56bf5f/8809928956862_Cover.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "video",
@@ -324,7 +326,8 @@
    "kind": "Album",
    "date": "2026-07-31",
    "url": "https://music.apple.com/us/album/skz-replay-2026-pt-1/6790903804",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/70/ea/2270ea94-60f0-94a6-bce2-99fafaa8a057/8809928957340_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/70/ea/2270ea94-60f0-94a6-bce2-99fafaa8a057/8809928957340_Cover.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -351,7 +354,9 @@
    "kind": "Album",
    "date": "2026-07-24",
    "url": "https://music.apple.com/us/album/normal-mv-still-alternate-cover-rm-version-single/6789390916",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/92/12/639212c1-b9ce-d2dd-16aa-e2d0011d9269/823375303022_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/92/12/639212c1-b9ce-d2dd-16aa-e2d0011d9269/823375303022_Cover.jpg/300x300bb.jpg",
+   "ytm": "https://music.youtube.com/watch?v=NySBAMooqOc",
+   "ytm_try": 1
   },
   {
    "type": "video",
@@ -405,7 +410,8 @@
    "kind": "Album",
    "date": "2026-06-12",
    "url": "https://music.apple.com/us/album/come-over-single/6777857411",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/a3/50/b4a350d5-4197-6928-eebf-e7e53ae4c2b6/823375205715_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/a3/50/b4a350d5-4197-6928-eebf-e7e53ae4c2b6/823375205715_Cover.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -423,7 +429,8 @@
    "kind": "Album",
    "date": "2026-04-17",
    "url": "https://music.apple.com/us/album/swim-spring-waves-remix-single/1893586398",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2a/71/1e/2a711ec5-5468-855e-76c8-61a1ba0b3f13/823375122449_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2a/71/1e/2a711ec5-5468-855e-76c8-61a1ba0b3f13/823375122449_Cover.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "music",
