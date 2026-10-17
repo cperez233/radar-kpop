@@ -146,7 +146,10 @@
   "news:a2dcb2f9a07781e6|foro": "2026-10-17T17:01:02Z",
   "live:lng-20261017-milan|ntfy": "2026-10-17T17:16:02Z",
   "live:lng-20261017-milan|pub:radarkpop-lngshot-shows": "2026-10-17T17:16:02Z",
-  "live:lng-20261017-milan|foro": "2026-10-17T17:16:02Z"
+  "live:lng-20261017-milan|foro": "2026-10-17T17:16:02Z",
+  "news:95ad53bdf8443f4b|ntfy": "2026-10-17T21:16:20Z",
+  "news:95ad53bdf8443f4b|pub:radarkpop-skz-news": "2026-10-17T21:16:20Z",
+  "news:95ad53bdf8443f4b|foro": "2026-10-17T21:16:20Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1122,6 +1125,7 @@
   "926c29d76532b8f2",
   "944b488f7104c4b8",
   "95022b324a91dfd9",
+  "95ad53bdf8443f4b",
   "95ec9a3fe851e137",
   "962bbb958d390b1a",
   "96f19efa67fdae83",
@@ -1566,6 +1570,17 @@
     "vestuarios"
    ],
    "t": "2026-10-17T17:00:54Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "2026",
+    "live",
+    "tour",
+    "viewing",
+    "world"
+   ],
+   "t": "2026-10-17T21:16:13Z"
   }
  ],
  "discord_threads": {
