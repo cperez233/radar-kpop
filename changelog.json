@@ -1,5 +1,23 @@
 [
  {
+  "version": "4.13",
+  "date": "2026-10-17",
+  "title_es": "Todo se mueve con cariño",
+  "title_en": "Everything moves with care",
+  "es": [
+   "Elige dónde escuchas (Spotify, Apple Music o YouTube Music): los enlaces de música se abren ahí. Se elige solo según tu teléfono y se recuerda.",
+   "Instagram y TikTok de cada grupo, a un toque en su tarjeta.",
+   "Animaciones al abrir y cerrar la trivia, los números y la gira; al abrir y cerrar la página del grupo y al cambiar de pestaña; al llegar a una sección desde el menú.",
+   "El cambio a modo concierto es más lento y suave, con un aro de luz pastel y destellos al terminar. El cambio de idioma recupera su fundido."
+  ],
+  "en": [
+   "Pick where you listen (Spotify, Apple Music or YouTube Music): music links open there. It picks itself from your phone and is remembered.",
+   "Each group's Instagram and TikTok, one tap away on its card.",
+   "Animations when opening and closing trivia, numbers and tour; opening and closing the group page and switching tabs; arriving at a section from the menu.",
+   "Switching to concert mode is slower and softer, with a pastel ring of light and sparkles at the end. Switching language gets its fade back."
+  ]
+ },
+ {
   "version": "4.12",
   "date": "2026-10-17",
   "title_es": "Lightsticks vivos y noche pastel",
