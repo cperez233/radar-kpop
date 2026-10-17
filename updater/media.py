@@ -206,7 +206,7 @@ def main() -> int:
         token = spotify_token()
     except Exception as exc:  # noqa: BLE001
         token = ""; failed.append(f"spotify token: {exc}")
-    sp_cache, n_sp, n_search, n_tr = {}, 0, 0, 0
+    sp_cache, n_sp, n_search, n_tr, sp_blocked = {}, 0, 0, 0, False
     for it in (x for x in items if x["type"] == "music"):
         before = prev.get(it["url"], {})
         if before and before.get("ytm_v") != 2:  # la búsqueda del MV mejoró: se vuelve a buscar una vez
@@ -234,7 +234,11 @@ def main() -> int:
         elif before.get("ytm_try"):
             it["ytm_try"] = 1
         sid = feeds.get("spotify", {}).get(it["group"])
-        if token and sid and not it.get("spotify"):
+        # Spotify da un cupo diario chico: lo que no se encontró se reintenta una vez al día, no en cada corrida
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        if before.get("sp_try") and not it.get("spotify"):
+            it["sp_try"] = before["sp_try"]
+        if token and sid and not it.get("spotify") and it.get("sp_try") != today and not sp_blocked:
             # primero el catálogo del artista (una consulta por grupo); si no aparece o falla, una búsqueda por nombre
             try:
                 if sid not in sp_cache:
@@ -242,25 +246,32 @@ def main() -> int:
                 it["spotify"] = match_spotify(it, sp_cache[sid]) or None
             except Exception as exc:  # noqa: BLE001
                 sp_cache[sid] = []; failed.append(f"spotify {it['group']}: {exc}")
-            if not it.get("spotify") and n_sp < 12:
+                sp_blocked = "429" in str(exc)  # cupo agotado: no se insiste en esta corrida
+            if not it.get("spotify") and n_sp < 4 and not sp_blocked:
                 n_sp += 1
                 try:
                     it["spotify"] = match_spotify(it, spotify_search(token, it, GROUP_NAMES.get(it["group"], ""))) or None
                 except Exception as exc:  # noqa: BLE001
-                    failed.append(f"spotify search {it['group']}: {exc}")
+                    failed.append(f"spotify search {it['group']}: {exc}"); sp_blocked = "429" in str(exc)
+            if not it.get("spotify") and not sp_blocked:
+                it["sp_try"] = today
         for k in ("spotify", "ytm", "tracks"):
             if not it.get(k):
                 it.pop(k, None)
+        if it.get("spotify"):
+            it.pop("sp_try", None)
     if token:
         n_links = sum(1 for x in items if x.get("spotify"))
         sp_err = next((f for f in failed if f.startswith("spotify")), "")
         report("spotify", n_links > 0 or not sp_err, "" if n_links else sp_err)
+        if sp_blocked:
+            print("Spotify: cupo diario agotado, se sigue mañana", file=sys.stderr)
     report("itunes", n_it > 0, "" if n_it else "el catálogo de Apple Music no respondió")
     yt_err = next((f for f in failed if f.startswith("youtube")), "")
     report("youtube", n_yt > 0, "" if n_yt else ("la key fue rechazada (revisa YT_API_KEY)" if " 400" in yt_err or " 403" in yt_err else yt_err or "no respondió"))
     items.sort(key=lambda x: x["date"], reverse=True)
     doc = {"updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "sample": False, "items": items}
-    sig = lambda xs: [(x["url"], x.get("spotify"), x.get("ytm"), x.get("ytm_try"), x.get("ytm_v"), len(x.get("tracks") or [])) for x in xs]  # noqa: E731
+    sig = lambda xs: [(x["url"], x.get("spotify"), x.get("ytm"), x.get("ytm_try"), x.get("ytm_v"), x.get("sp_try"), len(x.get("tracks") or [])) for x in xs]  # noqa: E731
     if sig(items) == sig(old.get("items", [])):
         print(f"Sin cambios ({ok} fuentes bien)")
     else:
