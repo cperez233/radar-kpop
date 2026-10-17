@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T17:45:34Z",
+ "updated_at": "2026-10-17T17:48:33Z",
  "sample": false,
  "items": [
   {
@@ -74,7 +74,8 @@
    "date": "2026-10-16",
    "url": "https://music.apple.com/us/album/this-is-for-world-tour-finale-in-seoul-live/6812503580",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/23/27/0a/23270ab6-7191-9864-0228-0413879f45a4/8809928956664_Cover.jpg/300x300bb.jpg",
-   "ytm_try": 1
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/3HSgUtzlySkMA6JP288qO2"
   },
   {
    "type": "video",
@@ -245,7 +246,9 @@
    "kind": "Album",
    "date": "2026-09-29",
    "url": "https://music.apple.com/us/album/bloody-paradise-x-velocidade-peterblue-remix-single/6815890816",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/3d/d6/273dd626-a877-b44e-e454-21ff656d8110/823375474234_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/3d/d6/273dd626-a877-b44e-e454-21ff656d8110/823375474234_Cover.jpg/300x300bb.jpg",
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/2zImnNLEHn96NQPh5cc7FZ"
   },
   {
    "type": "music",
@@ -255,7 +258,15 @@
    "date": "2026-09-10",
    "url": "https://music.apple.com/us/album/november-11th-single/6804531602",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/18/f4/f018f433-2128-676d-0d47-9f8f613369eb/8809928956763_Cover.jpg/300x300bb.jpg",
-   "ytm_try": 1
+   "tracks": [
+    {
+     "n": "November 11th",
+     "ms": 186000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/74/ff/8e74ff42-2824-cac0-4fef-de66a5de1b71/mzaf_16205168558300290664.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/3iFOSc0upPZ5vf90vQziw6"
   },
   {
    "type": "music",
@@ -264,7 +275,10 @@
    "kind": "Album",
    "date": "2026-08-26",
    "url": "https://music.apple.com/us/album/bloody-paradise-english-ver-single/6804583619",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/61/48/5f614875-a66d-c4c2-1737-cd6ce42654ee/823375394006_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/61/48/5f614875-a66d-c4c2-1737-cd6ce42654ee/823375394006_Cover.jpg/300x300bb.jpg",
+   "ytm": "https://music.youtube.com/watch?v=dbz1KSUJ9dc",
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/0pmGnlSL15kAFrftVmfPsx"
   },
   {
    "type": "music",
@@ -283,7 +297,9 @@
    "kind": "Album",
    "date": "2026-08-24",
    "url": "https://music.apple.com/us/album/the-sin-bliss-sunghoon-ver/6803801121",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/c8/6f/21c86f53-8d07-7841-7403-82c1c7f60550/823375387930_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/c8/6f/21c86f53-8d07-7841-7403-82c1c7f60550/823375387930_Cover.jpg/300x300bb.jpg",
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/6nvN59P9vZ3XBtv7eWN70w"
   },
   {
    "type": "music",
@@ -292,7 +308,8 @@
    "kind": "Album",
    "date": "2026-08-23",
    "url": "https://music.apple.com/us/album/greengreen-playextended/6801189433",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/db/df/99dbdf86-b7f8-86ce-e8da-4ddd845f1bdc/823375359456_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/db/df/99dbdf86-b7f8-86ce-e8da-4ddd845f1bdc/823375359456_Cover.jpg/300x300bb.jpg",
+   "spotify": "https://open.spotify.com/album/26w4RoexAyiXRogASNJDZj"
   },
   {
    "type": "video",
@@ -311,7 +328,65 @@
    "date": "2026-08-08",
    "url": "https://music.apple.com/us/album/this-that-cool-edition/6798751931",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/af/6b/f2af6b59-fbd0-60d7-0855-883cda56bf5f/8809928956862_Cover.jpg/300x300bb.jpg",
-   "ytm_try": 1
+   "tracks": [
+    {
+     "n": "RUN IT",
+     "ms": 209000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dc/33/f1/dc33f188-ab89-7c69-2437-5c71c653816b/mzaf_11934182596393887958.plus.aac.p.m4a"
+    },
+    {
+     "n": "This & That",
+     "ms": 185000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c2/09/92/c2099226-c4ea-4053-ef4e-be837b51aa8d/mzaf_14673732276245679222.plus.aac.p.m4a"
+    },
+    {
+     "n": "After You",
+     "ms": 172000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/93/de/5993debe-2fff-6a48-b5d2-22547af4d4cc/mzaf_15627982315485300752.plus.aac.p.m4a"
+    },
+    {
+     "n": "FARMING",
+     "ms": 151000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/31/f9/90/31f99065-2aab-d787-52bb-8da12f8d8fb8/mzaf_12946595193662261865.plus.aac.p.m4a"
+    },
+    {
+     "n": "I Do",
+     "ms": 173000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/2b/2b/d32b2be2-7c7b-1409-d571-3e8e77e670d8/mzaf_16191487713227929623.plus.aac.p.m4a"
+    },
+    {
+     "n": "Way Out",
+     "ms": 174000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8d/0e/d2/8d0ed2bd-30e5-2b2a-0716-2129f1767734/mzaf_9518530407190634876.plus.aac.p.m4a"
+    },
+    {
+     "n": "Back Then",
+     "ms": 225000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/13/a4/5513a4ad-67ea-39ff-b8a7-3d234ca73c64/mzaf_18219416302189077089.plus.aac.p.m4a"
+    },
+    {
+     "n": "This & That (Festival Version)",
+     "ms": 222000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/28/92/f52892df-3465-d06e-f64a-265970d621b7/mzaf_654085591295568034.plus.aac.p.m4a"
+    },
+    {
+     "n": "This & That (Cool Version)",
+     "ms": 153635,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/94/19/789419d9-9132-b7a9-09e5-286afb50b239/mzaf_4857456517269391676.plus.aac.p.m4a"
+    },
+    {
+     "n": "This & That (Instrumental)",
+     "ms": 185000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a7/ca/9f/a7ca9fb3-35ef-d94e-984c-6870f020887b/mzaf_565158353347639386.plus.aac.p.m4a"
+    },
+    {
+     "n": "This & That (Cool Edition Voice Memo)",
+     "ms": 103855,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/bd/c4/b1bdc434-07d5-1da0-bbe1-b5b585aa230c/mzaf_39664860882368930.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/46TYlDjLrEsOLFgxfxNiUy"
   },
   {
    "type": "video",
@@ -330,7 +405,80 @@
    "date": "2026-07-31",
    "url": "https://music.apple.com/us/album/skz-replay-2026-pt-1/6790903804",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/70/ea/2270ea94-60f0-94a6-bce2-99fafaa8a057/8809928957340_Cover.jpg/300x300bb.jpg",
-   "ytm_try": 1
+   "tracks": [
+    {
+     "n": "Battle Ground (Korean Version)",
+     "ms": 211000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/6f/33/9f6f3361-3534-c755-45dc-903d25ff316b/mzaf_1731032329166234454.plus.aac.p.m4a"
+    },
+    {
+     "n": "Roman Empire",
+     "ms": 167000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/69/97/9169973e-7701-0aff-60e6-cf8dcf19c467/mzaf_180656481726933540.plus.aac.p.m4a"
+    },
+    {
+     "n": "LOVER",
+     "ms": 183000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/e4/20/d1e42065-bc11-7cc9-e241-0191674a8b7b/mzaf_10998409344296161675.plus.aac.p.m4a"
+    },
+    {
+     "n": "Raining stars",
+     "ms": 218000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/9a/cf/fd9acf7d-28d1-c397-cb03-13eca69e4bc0/mzaf_1957281231149852243.plus.aac.p.m4a"
+    },
+    {
+     "n": "The Little Things",
+     "ms": 172000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/44/f4/2244f426-f8b9-c01e-df19-88bb07812410/mzaf_6881537929703826834.plus.aac.p.m4a"
+    },
+    {
+     "n": "Goodbye",
+     "ms": 217000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/a9/55/49a95582-06ac-75b2-96a3-1197a017ba2a/mzaf_1335340798956482882.plus.aac.p.m4a"
+    },
+    {
+     "n": "Still here",
+     "ms": 183000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/5c/43/7a5c4381-d021-0155-b194-6d6fa6014d2c/mzaf_6638510757466803380.plus.aac.p.m4a"
+    },
+    {
+     "n": "Into The Current",
+     "ms": 268000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/61/cf/4361cf2c-ff73-0a16-dc04-ba78c1ae8821/mzaf_8015541017660332433.plus.aac.p.m4a"
+    },
+    {
+     "n": "MIC&BRUSH",
+     "ms": 127000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/cd/46/d5cd465c-85cf-9e49-682c-a0eb6cf4ce37/mzaf_14653547432876982546.plus.aac.p.m4a"
+    },
+    {
+     "n": "PERFUME",
+     "ms": 123400,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7e/8a/09/7e8a0917-536f-1d3c-0977-743a22aecae6/mzaf_4157426095753020346.plus.aac.p.m4a"
+    },
+    {
+     "n": "BABY",
+     "ms": 120000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/48/b8/4248b8bb-c3ac-c75d-5a74-0ec5fcc7c834/mzaf_5732396609934755526.plus.aac.p.m4a"
+    },
+    {
+     "n": "Don’t Say",
+     "ms": 120000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/98/66/10/9866105a-6768-6c46-b0cb-968d20061308/mzaf_1518125846953031582.plus.aac.p.m4a"
+    },
+    {
+     "n": "My Name",
+     "ms": 95000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/95/6a/59956a71-f238-fac0-19ad-9941564c104c/mzaf_14745899098179121741.plus.aac.p.m4a"
+    },
+    {
+     "n": "REV IT UP",
+     "ms": 113000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/cf/aa/fdcfaa60-ccb4-ea4c-20f1-7fd39e443148/mzaf_13212625031362410386.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/6xS6wVbYu6DtNh6J1KZ1Gp"
   },
   {
    "type": "music",
@@ -339,7 +487,8 @@
    "kind": "Album",
    "date": "2026-07-31",
    "url": "https://music.apple.com/us/album/motion-feat-juicy-j-single/6793946474",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/f9/a9/82f9a9b8-db69-6fec-3816-54a403297436/823375327356_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/f9/a9/82f9a9b8-db69-6fec-3816-54a403297436/823375327356_Cover.jpg/300x300bb.jpg",
+   "spotify": "https://open.spotify.com/album/7hkn5DHPOpLwrlUpxAbbnp"
   },
   {
    "type": "music",
@@ -348,7 +497,8 @@
    "kind": "Album",
    "date": "2026-07-29",
    "url": "https://music.apple.com/us/album/bad-japanese-ver-ep/6788966715",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9c/ee/35/9cee35fd-5d10-67a8-3243-c3cbbf828601/26UMGIM71709.rgb.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9c/ee/35/9cee35fd-5d10-67a8-3243-c3cbbf828601/26UMGIM71709.rgb.jpg/300x300bb.jpg",
+   "spotify": "https://open.spotify.com/album/3FVjSZcB5DqJ2TC5VGPgEu"
   },
   {
    "type": "music",
@@ -359,7 +509,15 @@
    "url": "https://music.apple.com/us/album/normal-mv-still-alternate-cover-rm-version-single/6789390916",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/92/12/639212c1-b9ce-d2dd-16aa-e2d0011d9269/823375303022_Cover.jpg/300x300bb.jpg",
    "ytm": "https://music.youtube.com/watch?v=NySBAMooqOc",
-   "ytm_try": 1
+   "tracks": [
+    {
+     "n": "NORMAL (MV Still Alternate Cover RM Version)",
+     "ms": 181649,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/86/d2/4286d2f8-9116-5b18-1ede-0f8a608bc59a/mzaf_17827249742621956391.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/41K5jLsbiHSIneJHTkcaar"
   },
   {
    "type": "video",
@@ -395,7 +553,8 @@
    "kind": "Album",
    "date": "2026-06-26",
    "url": "https://music.apple.com/us/album/golden-hour-part-5-ep/6770401924",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/5e/a0/155ea070-3f0d-84ae-7883-128ecd9ed5bf/196874257944.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/5e/a0/155ea070-3f0d-84ae-7883-128ecd9ed5bf/196874257944.jpg/300x300bb.jpg",
+   "spotify": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV"
   },
   {
    "type": "music",
@@ -405,7 +564,8 @@
    "date": "2026-06-19",
    "url": "https://music.apple.com/us/album/fire-with-fire-inspired-by-the-original-motion-picture/6781115620",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/e1/af/86e1af0c-918b-5717-9688-85829a858f43/26UMGIM22394.rgb.jpg/300x300bb.jpg",
-   "ytm_try": 1
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/5Wea9EBLVR2zPbVp4u0M1b"
   },
   {
    "type": "music",
@@ -415,7 +575,15 @@
    "date": "2026-06-12",
    "url": "https://music.apple.com/us/album/come-over-single/6777857411",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/a3/50/b4a350d5-4197-6928-eebf-e7e53ae4c2b6/823375205715_Cover.jpg/300x300bb.jpg",
-   "ytm_try": 1
+   "tracks": [
+    {
+     "n": "Come Over",
+     "ms": 178604,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/e7/52/68e752e5-9ab7-3a4a-e52f-a88f4ef05b69/mzaf_3088915963673716546.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/2xXG0abKT34biU7L9siPde"
   },
   {
    "type": "music",
@@ -424,7 +592,8 @@
    "kind": "Album",
    "date": "2026-05-04",
    "url": "https://music.apple.com/us/album/greengreen-ep/1887671065",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/5f/47/9b5f4711-dc78-2dea-6721-d06709ea5121/198704992810_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/5f/47/9b5f4711-dc78-2dea-6721-d06709ea5121/198704992810_Cover.jpg/300x300bb.jpg",
+   "spotify": "https://open.spotify.com/album/2zEdi42kfgLEySoikGJMFT"
   },
   {
    "type": "music",
@@ -434,7 +603,8 @@
    "date": "2026-04-17",
    "url": "https://music.apple.com/us/album/swim-spring-waves-remix-single/1893586398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2a/71/1e/2a711ec5-5468-855e-76c8-61a1ba0b3f13/823375122449_Cover.jpg/300x300bb.jpg",
-   "ytm_try": 1
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/38kbL8yJY3FgCobipweY90"
   },
   {
    "type": "music",
@@ -444,7 +614,8 @@
    "date": "2026-03-23",
    "url": "https://music.apple.com/us/album/training-day-ep/1885487042",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/a8/de/cfa8dee7-da1a-eb20-6074-741a4af1a1f6/cover_KM0024394_1.jpg/300x300bb.jpg",
-   "ytm_try": 1
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/7z5ZIN7o44Tk8EUkm7AVar"
   },
   {
    "type": "video",
@@ -463,7 +634,8 @@
    "date": "2026-02-27",
    "url": "https://music.apple.com/us/album/tiny-light-single/1877599751",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/ec/96/f4ec9661-c3bf-d38e-2e57-9e63e3d86870/26UMGIM16378.rgb.jpg/300x300bb.jpg",
-   "ytm_try": 1
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/29itUVO9h0qMhglTVctEQD"
   },
   {
    "type": "music",
@@ -473,7 +645,8 @@
    "date": "2026-02-22",
    "url": "https://music.apple.com/us/album/deadline-lisa-ver-ep/1880328950",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f6/32/ce/f632ce4c-647b-1fb5-dddb-03ce77535665/8809519881221.jpg/300x300bb.jpg",
-   "ytm_try": 1
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/0al74j1n8XIEkZMMFRfsbx"
   },
   {
    "type": "music",
@@ -482,7 +655,8 @@
    "kind": "Album",
    "date": "2026-02-09",
    "url": "https://music.apple.com/us/album/adrenaline-remix-single/1873859999",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/19/e5/d719e542-1441-17d3-0ce1-30f618074972/196874068489.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/19/e5/d719e542-1441-17d3-0ce1-30f618074972/196874068489.jpg/300x300bb.jpg",
+   "spotify": "https://open.spotify.com/album/1lSvq3SLvzcu61cr77Qz0i"
   },
   {
    "type": "music",
@@ -492,7 +666,8 @@
    "date": "2025-10-10",
    "url": "https://music.apple.com/us/album/ten-the-story-goes-on/1840284138",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d3/28/8fd328df-89b2-3460-d743-84c5d3921753/8809928954325_Cover.jpg/300x300bb.jpg",
-   "ytm_try": 1
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/7zyibWit2LeHvy5h9utbfg"
   },
   {
    "type": "music",
@@ -513,7 +688,8 @@
    "url": "https://music.apple.com/us/album/jump-single/1824672650",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/5e/74/ee5e747e-52e5-458c-e850-0ed3d703b184/8809519880736.jpg/300x300bb.jpg",
    "ytm": "https://music.youtube.com/watch?v=CgCVZdcKcqY",
-   "ytm_try": 1
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/3hzoZlx2KwtvJEUl9piPWr"
   },
   {
    "type": "music",
@@ -523,7 +699,8 @@
    "date": "2025-05-26",
    "url": "https://music.apple.com/us/album/happy-burstday/1846801259",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/64/e0/bc64e097-7ab4-5650-ed66-61a6b836370c/198704749377_Cover.jpg/300x300bb.jpg",
-   "ytm_try": 1
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/6160Q4MxABBaeqMW5AZss4"
   },
   {
    "type": "music",
@@ -532,7 +709,9 @@
    "kind": "Album",
    "date": "2024-06-21",
    "url": "https://music.apple.com/us/album/supernatural-single/1750576829",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/ce/d6/abced6f6-2b90-c230-eb4b-e146734a3a22/196922907821_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/ce/d6/abced6f6-2b90-c230-eb4b-e146734a3a22/196922907821_Cover.jpg/300x300bb.jpg",
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/1FVw30SoC91lq1UZ6N9rwN"
   },
   {
    "type": "music",
@@ -541,7 +720,9 @@
    "kind": "Album",
    "date": "2024-05-24",
    "url": "https://music.apple.com/us/album/how-sweet-ep/1744448415",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/68/ca/bf68ca64-4acd-543f-bc78-455f11f06105/196922889738_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/68/ca/bf68ca64-4acd-543f-bc78-455f11f06105/196922889738_Cover.jpg/300x300bb.jpg",
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/0EhZEM4RRz0yioTgucDhJq"
   },
   {
    "type": "music",
@@ -550,7 +731,9 @@
    "kind": "Album",
    "date": "2023-12-19",
    "url": "https://music.apple.com/us/album/njwmx/1719868691",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cf/9a/07/cf9a07bb-2411-8c49-412a-ec21bb516e28/196922750618_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cf/9a/07/cf9a07bb-2411-8c49-412a-ec21bb516e28/196922750618_Cover.jpg/300x300bb.jpg",
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/6XRGc3GNodkhSrPwHnx1KX"
   },
   {
    "type": "music",
@@ -561,7 +744,8 @@
    "url": "https://music.apple.com/us/album/the-girls-blackpink-the-game-ost-single/1703682152",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/56/62/63566266-fc17-677a-d1a7-92509c7f636d/23UMGIM96676.rgb.jpg/300x300bb.jpg",
    "ytm": "https://music.youtube.com/watch?v=cSqOY5nktfg",
-   "ytm_try": 1
+   "ytm_try": 1,
+   "spotify": "https://open.spotify.com/album/01K5Mr0IkO7GQrvoUEsWfS"
   }
  ]
 }
