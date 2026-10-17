@@ -54,6 +54,12 @@
    "ok": true,
    "since": "2026-10-16T07:42:15Z"
   },
+  "spotify": {
+   "msg": "spotify bts: HTTP Error 400: Bad Request",
+   "notified": true,
+   "ok": false,
+   "since": "2026-10-17T17:30:36Z"
+  },
   "ticketmaster": {
    "msg": "",
    "notified": false,

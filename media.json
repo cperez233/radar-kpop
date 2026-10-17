@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T17:15:32Z",
+ "updated_at": "2026-10-17T17:30:36Z",
  "sample": false,
  "items": [
   {
@@ -72,7 +72,8 @@
    "kind": "Album",
    "date": "2026-10-16",
    "url": "https://music.apple.com/us/album/this-is-for-world-tour-finale-in-seoul-live/6812503580",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/23/27/0a/23270ab6-7191-9864-0228-0413879f45a4/8809928956664_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/23/27/0a/23270ab6-7191-9864-0228-0413879f45a4/8809928956664_Cover.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "video",
@@ -271,7 +272,8 @@
    "kind": "Album",
    "date": "2026-08-25",
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -466,7 +468,8 @@
    "kind": "Album",
    "date": "2026-02-22",
    "url": "https://music.apple.com/us/album/deadline-lisa-ver-ep/1880328950",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f6/32/ce/f632ce4c-647b-1fb5-dddb-03ce77535665/8809519881221.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f6/32/ce/f632ce4c-647b-1fb5-dddb-03ce77535665/8809519881221.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -484,7 +487,8 @@
    "kind": "Album",
    "date": "2025-10-10",
    "url": "https://music.apple.com/us/album/ten-the-story-goes-on/1840284138",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d3/28/8fd328df-89b2-3460-d743-84c5d3921753/8809928954325_Cover.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d3/28/8fd328df-89b2-3460-d743-84c5d3921753/8809928954325_Cover.jpg/300x300bb.jpg",
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -502,7 +506,9 @@
    "kind": "Album",
    "date": "2025-07-11",
    "url": "https://music.apple.com/us/album/jump-single/1824672650",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/5e/74/ee5e747e-52e5-458c-e850-0ed3d703b184/8809519880736.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/5e/74/ee5e747e-52e5-458c-e850-0ed3d703b184/8809519880736.jpg/300x300bb.jpg",
+   "ytm": "https://music.youtube.com/watch?v=CgCVZdcKcqY",
+   "ytm_try": 1
   },
   {
    "type": "music",
@@ -547,7 +553,9 @@
    "kind": "Album",
    "date": "2023-08-25",
    "url": "https://music.apple.com/us/album/the-girls-blackpink-the-game-ost-single/1703682152",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/56/62/63566266-fc17-677a-d1a7-92509c7f636d/23UMGIM96676.rgb.jpg/300x300bb.jpg"
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/56/62/63566266-fc17-677a-d1a7-92509c7f636d/23UMGIM96676.rgb.jpg/300x300bb.jpg",
+   "ytm": "https://music.youtube.com/watch?v=cSqOY5nktfg",
+   "ytm_try": 1
   }
  ]
 }
