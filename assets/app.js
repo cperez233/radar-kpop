@@ -88,17 +88,22 @@
      El amarillo de NewJeans o el verde de CORTIS se veían lindos pero no se leían en letra chica. */
   var textCache = {};
   function lum(h) { var c = [1, 3, 5].map(function (i) { var v = parseInt(h.substr(i, 2), 16) / 255; return v <= .03928 ? v / 12.92 : Math.pow((v + .055) / 1.055, 2.4); }); return .2126 * c[0] + .7152 * c[1] + .0722 * c[2]; }
-  function gText(id) {
-    if (textCache[id]) return textCache[id];
-    var c = gColor(id); if (!/^#[0-9a-f]{6}$/i.test(c)) return (textCache[id] = c);
-    var ink = [0x2E, 0x21, 0x50], rgb = [1, 3, 5].map(function (i) { return parseInt(c.substr(i, 2), 16); }), out = c;
+  // color de texto del grupo con contraste AA: de día se oscurece hacia la tinta; de noche se aclara hacia la luz
+  function towards(c, to, bg) {
+    var rgb = [1, 3, 5].map(function (i) { return parseInt(c.substr(i, 2), 16); }), out = c, lb = lum(bg);
     for (var k = 0; k <= 1.0001; k += .05) {
-      out = '#' + rgb.map(function (v, i) { return ('0' + Math.round(v + (ink[i] - v) * k).toString(16)).slice(-2); }).join('');
-      if (1.05 / (lum(out) + .05) >= 4.5) break;
+      out = '#' + rgb.map(function (v, i) { return ('0' + Math.round(v + (to[i] - v) * k).toString(16)).slice(-2); }).join('');
+      var lo = lum(out); if ((Math.max(lo, lb) + .05) / (Math.min(lo, lb) + .05) >= 4.5) break;
     }
-    return (textCache[id] = out);
+    return out;
   }
-  function gStyle(id) { return '--gc:' + gColor(id) + ';--gt:' + gText(id); }
+  function gText(id, dark) {
+    var key = id + (dark ? ':d' : '');
+    if (textCache[key]) return textCache[key];
+    var c = gColor(id); if (!/^#[0-9a-f]{6}$/i.test(c)) return (textCache[key] = c);
+    return (textCache[key] = dark ? towards(c, [0xEE, 0xE7, 0xFF], '#221A3A') : towards(c, [0x2E, 0x21, 0x50], '#FFFFFF'));
+  }
+  function gStyle(id) { return '--gc:' + gColor(id) + ';--gt:' + gText(id) + ';--gt-d:' + gText(id, true); }
   /* avatar pequeño = el grupo completo en chibi (se ve entero, sin recortes) */
   // los chibis van en WebP (tools/chibis_webp.js): pesan menos y el navegador no redibuja un SVG cada vez que uno se mueve
   // big = la versión grande (modo video, tarjeta para compartir); el resto usa la chica (-s.webp), que es la que se ve en pantalla
@@ -179,7 +184,7 @@
       sightSample: 'Datos de ejemplo: todavía no hay conexión con las cuentas oficiales.', sightAway: 'a {km} km de ti', sightNew: '¡{n} avistamientos nuevos!', sightNew1: '¡Un avistamiento nuevo!', sightSee: 'Ver post oficial',
       sightEmpty: 'Todavía no hay avistamientos. Aparecen cuando una cuenta oficial menciona una ciudad.', tickerK: 'AVISTAMIENTOS CERCANOS', sightSource: 'Fuente: cuentas oficiales en X',
       squad: 'Toca a cada miembro', notOnTour: 'no va en esta gira', photoAlt: 'Foto oficial de {g}', withUnit: 'con {names}',
-      gpOpen: 'Ver todo', swipeHint: 'Desliza para ver los demás grupos', feedMore: 'Ver {n} más', groupsPick: 'Grupos', gpHome: 'Inicio', gpMembers: 'Miembros', gpTour: 'Gira', gpMusic: 'Música', gpSocial: 'Redes', gpSeeTour: 'Ver la gira', gpTapMember: 'Toca a un miembro para ver su perfil, su cumpleaños y sus redes.', gpAllMembers: 'Todos los miembros', gpNoPersonal: 'No tiene cuentas personales públicas; sigue al grupo en Redes.', gpLatestPosts: 'Lo último que publicaron', gpPlayHere: 'Ver aquí', gpOpenPost: 'Abrir el post', gpPhoto: 'Foto nueva', myBias: 'Mi bias', makeBias: 'Hacerle mi bias', biasSet: '{name} es tu bias 💜', nearCity: '¡Vienen a tu ciudad!', nearYou: '¡Vienen cerca de ti!', nearCountry: '¡Vienen a {country}!', srcLang: 'Idioma original de la noticia', autoTr: 'Traducción automática · ver original', fromYou: 'de ti', countdownTo: 'Cuenta regresiva para {city}', nearNow: 'Ahora van por {city}, a {km} km de ti', nearNowThere: 'Es su próxima parada', gpSource: 'fuente', gpUpcoming: 'Próximas fechas ({n} ciudades)', gpPast: 'Últimas paradas ({n})', gpNoDates: 'Sin fechas anunciadas por ahora.', gpNoPosts: 'Todavía no hay posts guardados; el robot los trae solo.', gpMemberAccounts: 'Cuentas de los miembros', bdayToday: 'Hoy cumple {name}', bdayIsToday: '¡cumple hoy!', bdayIn: 'cumple en {n} días', bdayTurnsToday: '¡hoy cumple {n}!', bdayAgeIn: '{age} años · cumple en {n} días', regCo: 'Colombia', regLatam: 'Latinoamérica y el Caribe', regNa: 'Estados Unidos y Canadá', regEu: 'Europa', regAsia: 'Asia, Oceanía y Medio Oriente', listen: 'Escúchalos en', nextRelease: 'Próximo estreno', relToday: '¡Sale hoy!', relNew: 'Nuevo', relAnn: 'anuncio oficial', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
+      gpOpen: 'Ver todo', swipeHint: 'Desliza para ver los demás grupos', feedMore: 'Ver {n} más', groupsPick: 'Grupos', gpHome: 'Inicio', gpMembers: 'Miembros', gpTour: 'Gira', gpMusic: 'Música', gpSocial: 'Redes', gpSeeTour: 'Ver la gira', gpTapMember: 'Toca a un miembro para ver su perfil, su cumpleaños y sus redes.', gpAllMembers: 'Todos los miembros', gpNoPersonal: 'No tiene cuentas personales públicas; sigue al grupo en Redes.', gpLatestPosts: 'Lo último que publicaron', gpPlayHere: 'Ver aquí', gpOpenPost: 'Abrir el post', gpPhoto: 'Foto nueva', themeDark: 'Modo concierto (oscuro)', themeLight: 'Modo día (claro)', lsTitle: 'Lightstick', lsSince: 'desde {y}', lsTap: 'tócalo para encenderlo', lsLit: '¡encendido!', lsOn: 'Encender el {name}', lsOff: 'Apagar el {name}', lsNone: 'Todavía no tienen lightstick oficial. Cuando salga, aparece aquí.', myBias: 'Mi bias', makeBias: 'Hacerle mi bias', biasSet: '{name} es tu bias 💜', nearCity: '¡Vienen a tu ciudad!', nearYou: '¡Vienen cerca de ti!', nearCountry: '¡Vienen a {country}!', srcLang: 'Idioma original de la noticia', autoTr: 'Traducción automática · ver original', fromYou: 'de ti', countdownTo: 'Cuenta regresiva para {city}', nearNow: 'Ahora van por {city}, a {km} km de ti', nearNowThere: 'Es su próxima parada', gpSource: 'fuente', gpUpcoming: 'Próximas fechas ({n} ciudades)', gpPast: 'Últimas paradas ({n})', gpNoDates: 'Sin fechas anunciadas por ahora.', gpNoPosts: 'Todavía no hay posts guardados; el robot los trae solo.', gpMemberAccounts: 'Cuentas de los miembros', bdayToday: 'Hoy cumple {name}', bdayIsToday: '¡cumple hoy!', bdayIn: 'cumple en {n} días', bdayTurnsToday: '¡hoy cumple {n}!', bdayAgeIn: '{age} años · cumple en {n} días', regCo: 'Colombia', regLatam: 'Latinoamérica y el Caribe', regNa: 'Estados Unidos y Canadá', regEu: 'Europa', regAsia: 'Asia, Oceanía y Medio Oriente', listen: 'Escúchalos en', nextRelease: 'Próximo estreno', relToday: '¡Sale hoy!', relNew: 'Nuevo', relAnn: 'anuncio oficial', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
       stMembers: 'miembros', stDebutK: 'debut', stListeners: 'oyentes mensuales en Spotify', stPeak: 'récord de oyentes mensuales', stStreams: 'reproducciones en Spotify',
       stTopSong: 'su canción más escuchada · {n} reproducciones', stTopSongK: 'su canción más escuchada', stSubs: 'suscriptores en YouTube', stAgency: 'Agencia',
       stSource: 'Números de Spotify vía kworb.net, se actualizan solos una vez al día.',
@@ -248,7 +253,7 @@
       sightSample: 'Sample data: not connected to the official accounts yet.', sightAway: '{km} km from you', sightNew: '{n} new sightings!', sightNew1: 'A new sighting!', sightSee: 'See official post',
       sightEmpty: 'No sightings yet. They show up when an official account mentions a city.', tickerK: 'NEARBY SIGHTINGS', sightSource: 'Source: official accounts on X',
       squad: 'Tap each member', notOnTour: 'not on this tour', photoAlt: 'Official photo of {g}', withUnit: 'with {names}',
-      gpOpen: 'See all', swipeHint: 'Swipe to see the other groups', feedMore: 'See {n} more', groupsPick: 'Groups', gpHome: 'Home', gpMembers: 'Members', gpTour: 'Tour', gpMusic: 'Music', gpSocial: 'Social', gpSeeTour: 'See the tour', gpTapMember: 'Tap a member to see their profile, birthday and accounts.', gpAllMembers: 'All members', gpNoPersonal: 'No public personal accounts; follow the group under Social.', gpLatestPosts: 'Latest posts', gpPlayHere: 'Watch here', gpOpenPost: 'Open the post', gpPhoto: 'New photo', myBias: 'My bias', makeBias: 'Make them my bias', biasSet: '{name} is your bias 💜', nearCity: 'Coming to your city!', nearYou: 'Coming near you!', nearCountry: 'Coming to {country}!', srcLang: 'Language of the original news', autoTr: 'Auto-translated · see original', fromYou: 'from you', countdownTo: 'Countdown to {city}', nearNow: 'Right now they are in {city}, {km} km from you', nearNowThere: 'It is their next stop', gpSource: 'source', gpUpcoming: 'Upcoming dates ({n} cities)', gpPast: 'Last stops ({n})', gpNoDates: 'No dates announced for now.', gpNoPosts: 'No posts saved yet; the robot brings them on its own.', gpMemberAccounts: 'Members\' accounts', bdayToday: "It's {name}'s birthday", bdayIsToday: 'birthday today!', bdayIn: 'birthday in {n} days', bdayTurnsToday: 'turns {n} today!', bdayAgeIn: '{age} years old · birthday in {n} days', regCo: 'Colombia', regLatam: 'Latin America and the Caribbean', regNa: 'United States and Canada', regEu: 'Europe', regAsia: 'Asia, Oceania and Middle East', listen: 'Listen on', nextRelease: 'Next release', relToday: 'Out today!', relNew: 'New', relAnn: 'official announcement', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
+      gpOpen: 'See all', swipeHint: 'Swipe to see the other groups', feedMore: 'See {n} more', groupsPick: 'Groups', gpHome: 'Home', gpMembers: 'Members', gpTour: 'Tour', gpMusic: 'Music', gpSocial: 'Social', gpSeeTour: 'See the tour', gpTapMember: 'Tap a member to see their profile, birthday and accounts.', gpAllMembers: 'All members', gpNoPersonal: 'No public personal accounts; follow the group under Social.', gpLatestPosts: 'Latest posts', gpPlayHere: 'Watch here', gpOpenPost: 'Open the post', gpPhoto: 'New photo', themeDark: 'Concert mode (dark)', themeLight: 'Day mode (light)', lsTitle: 'Lightstick', lsSince: 'since {y}', lsTap: 'tap to light it up', lsLit: 'lit up!', lsOn: 'Light up the {name}', lsOff: 'Turn off the {name}', lsNone: 'No official lightstick yet. It will show up here when it comes out.', myBias: 'My bias', makeBias: 'Make them my bias', biasSet: '{name} is your bias 💜', nearCity: 'Coming to your city!', nearYou: 'Coming near you!', nearCountry: 'Coming to {country}!', srcLang: 'Language of the original news', autoTr: 'Auto-translated · see original', fromYou: 'from you', countdownTo: 'Countdown to {city}', nearNow: 'Right now they are in {city}, {km} km from you', nearNowThere: 'It is their next stop', gpSource: 'source', gpUpcoming: 'Upcoming dates ({n} cities)', gpPast: 'Last stops ({n})', gpNoDates: 'No dates announced for now.', gpNoPosts: 'No posts saved yet; the robot brings them on its own.', gpMemberAccounts: 'Members\' accounts', bdayToday: "It's {name}'s birthday", bdayIsToday: 'birthday today!', bdayIn: 'birthday in {n} days', bdayTurnsToday: 'turns {n} today!', bdayAgeIn: '{age} years old · birthday in {n} days', regCo: 'Colombia', regLatam: 'Latin America and the Caribbean', regNa: 'United States and Canada', regEu: 'Europe', regAsia: 'Asia, Oceania and Middle East', listen: 'Listen on', nextRelease: 'Next release', relToday: 'Out today!', relNew: 'New', relAnn: 'official announcement', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
       stMembers: 'members', stDebutK: 'debut', stListeners: 'Spotify monthly listeners', stPeak: 'monthly listeners record', stStreams: 'Spotify streams',
       stTopSong: 'their most streamed song · {n} streams', stTopSongK: 'their most streamed song', stSubs: 'YouTube subscribers', stAgency: 'Agency',
       stSource: 'Spotify numbers via kworb.net, updated automatically once a day.',
@@ -294,6 +299,8 @@
   // idioma: el que elegiste con el botón ES/EN; si nunca lo tocaste, el de tu navegador (español si lo tienes en español, si no inglés)
   var navLang = ((navigator.languages && navigator.languages[0]) || navigator.language || 'en').toLowerCase();
   var lang = store('radar-lang') || (navLang.indexOf('es') === 0 ? 'es' : 'en');
+  // tema: lo deja puesto el script del <head> (sin destello); "dark" es el modo concierto
+  var theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
   if (params.get('lang') === 'en' || params.get('lang') === 'es') lang = params.get('lang');
   function L() { return I18N[lang]; }
   function t(k, vars) {
@@ -613,6 +620,11 @@
 
   var CLOUDS = [[-40, 18, 1], [20, -8, .8], [95, 30, 1.1], [150, -20, .9], [-110, 40, .85], [60, 55, .7], [-75, -35, 1], [175, 15, .75], [-150, -5, .9], [10, 45, .8]];
 
+  /* paletas del globo: de día (papel pastel) y de noche, el modo concierto (océano azul noche y las ciudades encendidas) */
+  var GPAL = {
+    light: { land: '#C6F3DA', dot: 'rgba(46,33,80,.13)', landShade: 'rgba(123,93,206,.38)', coast: '#fff', grat: 'rgba(255,255,255,.6)', cloud: '#fff', cloudShade: 'rgba(185,164,238,.55)', ink: '#2E2150', halo: '#fff', pin: '#fff' },
+    dark: { land: '#24524E', dot: 'rgba(255,214,120,.62)', landShade: 'rgba(0,0,0,.38)', coast: 'rgba(214,226,255,.85)', grat: 'rgba(150,180,255,.2)', cloud: 'rgba(214,206,255,.26)', cloudShade: 'rgba(0,0,0,.18)', ink: '#EEE7FF', halo: '#140E22', pin: '#221A3A' }
+  };
   function Globe(canvas, pinsEl, opt) {
     this.c = canvas; this.ctx = canvas.getContext('2d'); this.pinsEl = pinsEl; this.opt = opt || {};
     this.lon = this.opt.lon != null ? this.opt.lon : -60; this.lat = this.opt.lat != null ? this.opt.lat : 6; this.zoom = 1;
@@ -658,11 +670,14 @@
   Globe.prototype.buildStatic = function () {
     var s, x;
     // trama de puntitos para la tierra (como sticker impreso)
+    var P = this.pal();
     s = document.createElement('canvas'); s.width = s.height = 8; x = s.getContext('2d');
-    x.fillStyle = '#C6F3DA'; x.fillRect(0, 0, 8, 8);  // el verde de la tierra va dentro de la trama: una pasada de pintura menos por cuadro
-    x.fillStyle = 'rgba(46,33,80,.13)'; x.beginPath(); x.arc(2, 2, 1, 0, Math.PI * 2); x.fill(); x.beginPath(); x.arc(6, 6, 1, 0, Math.PI * 2); x.fill();
+    x.fillStyle = P.land; x.fillRect(0, 0, 8, 8);  // el verde de la tierra va dentro de la trama: una pasada de pintura menos por cuadro
+    x.fillStyle = P.dot; x.beginPath(); x.arc(2, 2, 1, 0, Math.PI * 2); x.fill(); x.beginPath(); x.arc(6, 6, 1, 0, Math.PI * 2); x.fill();
     this.dots = this.ctx.createPattern(s, 'repeat');
+    this.palKey = theme;
   };
+  Globe.prototype.pal = function () { return GPAL[this.opt.light ? 'light' : theme] || GPAL.light; };
   Globe.prototype.project = function (lon, lat, alt) {
     var l0 = this.lon * K, p0 = this.lat * K, l = lon * K, p = lat * K, cp = Math.cos(p), dl = l - l0;
     var x = cp * Math.sin(dl), y = Math.cos(p0) * Math.sin(p) - Math.sin(p0) * cp * Math.cos(dl), z = Math.sin(p0) * Math.sin(p) + Math.cos(p0) * cp * Math.cos(dl);
@@ -885,6 +900,8 @@
   };
   Globe.prototype.draw = function () {
     var ctx = this.ctx, d = this.dpr, R = this.R0 * this.zoom, cx = this.cx, cy = this.cy, TAU = Math.PI * 2, self = this;
+    if (this.palKey !== (this.opt.light ? 'light' : theme)) this.buildStatic();
+    var P = this.pal();
     ctx.setTransform(d, 0, 0, d, 0, 0);
     ctx.clearRect(0, 0, this.w, this.h);
     if (this._z !== this.zoom) {
@@ -904,13 +921,13 @@
       if (landFeature) { this.landPath = new Path2D(); this.path.context(this.landPath)(landFeature); }
       this.path.context(null);
     }
-    ctx.setLineDash([2, 6]); ctx.lineWidth = 1.2; ctx.strokeStyle = 'rgba(255,255,255,.6)';
+    ctx.setLineDash([2, 6]); ctx.lineWidth = 1.2; ctx.strokeStyle = P.grat;
     ctx.stroke(this.gratPath); ctx.setLineDash([]);
     if (this.landPath) {
       var lp = this.landPath;
-      ctx.save(); ctx.translate(R * .006, R * .022); ctx.fillStyle = 'rgba(123,93,206,.38)'; ctx.fill(lp); ctx.restore();
+      ctx.save(); ctx.translate(R * .006, R * .022); ctx.fillStyle = P.landShade; ctx.fill(lp); ctx.restore();
       ctx.fillStyle = this.dots; ctx.fill(lp);
-      ctx.lineJoin = 'round'; ctx.lineWidth = Math.max(1.6, R * .009); ctx.strokeStyle = '#fff'; ctx.stroke(lp);
+      ctx.lineJoin = 'round'; ctx.lineWidth = Math.max(1.6, R * .009); ctx.strokeStyle = P.coast; ctx.stroke(lp);
     }
     ctx.restore();
     // nubes de algodón
@@ -933,8 +950,8 @@
       ctx.globalAlpha = Math.min(1, p.z * 3);
       ctx.fillStyle = 'rgba(46,33,80,.22)'; ctx.beginPath(); ctx.ellipse(p.x + ox, p.y + 1 + oy, 15 * (.7 + .3 * p.z), 5, 0, 0, TAU); ctx.fill();
       if (!own) { p = self.project(m.lon, m.lat, 0); if (p.z <= .05) { ctx.globalAlpha = 1; return; } }
-      ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(p.x, p.y, 5.5, 0, TAU); ctx.fill();
-      ctx.lineWidth = 2; ctx.strokeStyle = '#2E2150'; ctx.stroke();
+      ctx.fillStyle = P.pin; ctx.beginPath(); ctx.arc(p.x, p.y, 5.5, 0, TAU); ctx.fill();
+      ctx.lineWidth = 2; ctx.strokeStyle = P.ink; ctx.stroke();
       ctx.fillStyle = m.color; ctx.beginPath(); ctx.arc(p.x, p.y, 3, 0, TAU); ctx.fill();
       ctx.globalAlpha = 1;
     });
@@ -945,26 +962,26 @@
         ctx.globalAlpha = Math.min(1, mp.z * 3);
         var pr = reduce ? 0 : (this.time % 2.2) / 2.2;
         ctx.strokeStyle = 'rgba(255,95,168,' + (1 - pr).toFixed(2) + ')'; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.arc(mp.x, mp.y, 6 + pr * 22, 0, TAU); ctx.stroke();
-        ctx.fillStyle = '#FF5FA8'; ctx.strokeStyle = '#2E2150'; ctx.lineWidth = 2;
+        ctx.fillStyle = '#FF5FA8'; ctx.strokeStyle = P.ink; ctx.lineWidth = 2;
         var hs = 7; ctx.beginPath(); ctx.moveTo(mp.x, mp.y + hs * .9);
         ctx.bezierCurveTo(mp.x - hs * 1.5, mp.y - hs * .1, mp.x - hs * .8, mp.y - hs * 1.2, mp.x, mp.y - hs * .4);
         ctx.bezierCurveTo(mp.x + hs * .8, mp.y - hs * 1.2, mp.x + hs * 1.5, mp.y - hs * .1, mp.x, mp.y + hs * .9); ctx.fill(); ctx.stroke();
         ctx.font = '400 13px Jua, "Baloo 2", sans-serif'; ctx.textAlign = 'center';
-        ctx.lineWidth = 4; ctx.strokeStyle = '#fff'; ctx.strokeText(this.me.label, mp.x, mp.y + 22); ctx.fillStyle = '#2E2150'; ctx.fillText(this.me.label, mp.x, mp.y + 22);
+        ctx.lineWidth = 4; ctx.strokeStyle = P.halo; ctx.strokeText(this.me.label, mp.x, mp.y + 22); ctx.fillStyle = P.ink; ctx.fillText(this.me.label, mp.x, mp.y + 22);
         ctx.globalAlpha = 1;
       }
     }
     this.placePins();
   };
   Globe.prototype.cloud = function (x, y, s) {
-    var ctx = this.ctx, TAU = Math.PI * 2, blobs = [[0, 0, 1], [-.95, .3, .68], [.95, .32, .62], [.4, -.42, .72], [-.4, -.3, .6]];
-    ctx.fillStyle = 'rgba(185,164,238,.55)';
+    var ctx = this.ctx, TAU = Math.PI * 2, blobs = [[0, 0, 1], [-.95, .3, .68], [.95, .32, .62], [.4, -.42, .72], [-.4, -.3, .6]], P = this.pal();
+    ctx.fillStyle = P.cloudShade;
     ctx.beginPath(); blobs.forEach(function (b) { ctx.moveTo(x + b[0] * s + b[2] * s, y + b[1] * s + s * .3); ctx.arc(x + b[0] * s, y + b[1] * s + s * .3, b[2] * s, 0, TAU); }); ctx.fill();
-    ctx.fillStyle = '#fff';
+    ctx.fillStyle = P.cloud;
     ctx.beginPath(); blobs.forEach(function (b) { ctx.moveTo(x + b[0] * s + b[2] * s, y + b[1] * s); ctx.arc(x + b[0] * s, y + b[1] * s, b[2] * s, 0, TAU); }); ctx.fill();
   };
   Globe.prototype.drawRoute = function (rt) {
-    var ctx = this.ctx, self = this, sel = this.sel === rt.id, faded = this.sel && !sel;
+    var ctx = this.ctx, self = this, sel = this.sel === rt.id, faded = this.sel && !sel, P = this.pal();
     if (faded && !rt.lead) return;
     var pts = rt.samples.map(function (s) { return self.project(s[0], s[1], s[2]); });
     var path = new Path2D(), on = false;
@@ -972,7 +989,7 @@
     ctx.lineCap = 'round'; ctx.lineJoin = 'round';
     var a = rt.past ? .45 : 1;
     ctx.globalAlpha = (faded ? .25 : sel ? 1 : .7) * a;
-    ctx.lineWidth = sel ? 8 : 6; ctx.strokeStyle = '#fff'; ctx.stroke(path);
+    ctx.lineWidth = sel ? 8 : 6; ctx.strokeStyle = P.halo; ctx.stroke(path);
     ctx.lineWidth = sel ? 3.6 : 2.6; ctx.strokeStyle = rt.color;
     ctx.setLineDash(sel ? [9, 8] : [.1, 7]); ctx.lineDashOffset = reduce ? 0 : -this.time * (sel ? 26 : 14);
     ctx.stroke(path); ctx.setLineDash([]);
@@ -1001,13 +1018,13 @@
         var tw = ctx.measureText(st.label).width, box = [p.x - tw / 2 - 3, p.y + 8, p.x + tw / 2 + 3, p.y + 25];
         st.hideLabel = boxes.some(function (q) { return box[0] < q[2] && box[2] > q[0] && box[1] < q[3] && box[3] > q[1]; });
         if (!st.hideLabel) boxes.push(box);
-        ctx.fillStyle = '#fff'; ctx.strokeStyle = '#2E2150'; ctx.lineWidth = 2;
+        ctx.fillStyle = P.pin; ctx.strokeStyle = P.ink; ctx.lineWidth = 2;
         ctx.beginPath(); ctx.arc(p.x, p.y, 6, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
         ctx.fillStyle = rt.color; ctx.beginPath(); ctx.arc(p.x, p.y, 3.4, 0, Math.PI * 2); ctx.fill();
         if (st.first || st.hideLabel) return;
         ctx.textAlign = 'center';
-        ctx.lineWidth = 4; ctx.strokeStyle = '#fff'; ctx.strokeText(st.label, p.x, p.y + 20);
-        ctx.fillStyle = '#2E2150'; ctx.fillText(st.label, p.x, p.y + 20);
+        ctx.lineWidth = 4; ctx.strokeStyle = P.halo; ctx.strokeText(st.label, p.x, p.y + 20);
+        ctx.fillStyle = P.ink; ctx.fillText(st.label, p.x, p.y + 20);
       });
     }
   };
@@ -1125,17 +1142,18 @@
   function renderSonar() {
     sizeSonar();
     var o = origin(), s = '<svg viewBox="0 0 200 200" aria-hidden="true">';
-    s += '<circle cx="102" cy="104" r="92" fill="#B9A4EE"/><circle cx="100" cy="100" r="92" fill="#fff" stroke="#2E2150" stroke-width="1.6"/>';
-    s += '<circle cx="100" cy="100" r="88" fill="#E6F8EF"/>';
-    for (var a = 0; a < 360; a += 30) s += '<line x1="100" y1="100" x2="' + (100 + 88 * Math.sin(a * K)).toFixed(1) + '" y2="' + (100 - 88 * Math.cos(a * K)).toFixed(1) + '" stroke="#B5E6CF" stroke-width=".7"/>';
+    var SP = theme === 'dark' ? { sh: '#3E2E78', rim: '#221A3A', ink: '#EEE7FF', plate: '#102A24', line: '#1F4A3D', txt: '#BCAFE3' } : { sh: '#B9A4EE', rim: '#fff', ink: '#2E2150', plate: '#E6F8EF', line: '#B5E6CF', txt: '#5A4B82' };
+    s += '<circle cx="102" cy="104" r="92" fill="' + SP.sh + '"/><circle cx="100" cy="100" r="92" fill="' + SP.rim + '" stroke="' + SP.ink + '" stroke-width="1.6"/>';
+    s += '<circle cx="100" cy="100" r="88" fill="' + SP.plate + '"/>';
+    for (var a = 0; a < 360; a += 30) s += '<line x1="100" y1="100" x2="' + (100 + 88 * Math.sin(a * K)).toFixed(1) + '" y2="' + (100 - 88 * Math.cos(a * K)).toFixed(1) + '" stroke="' + SP.line + '" stroke-width=".7"/>';
     [2500, 5000, 10000, 15000].forEach(function (km, i) {
       var r = sonarR(km);
       s += '<circle cx="100" cy="100" r="' + r.toFixed(1) + '" fill="none" stroke="' + (i % 2 ? '#FFB3D4' : '#9FD8F0') + '" stroke-width="1.3" stroke-dasharray="1.5 3" stroke-linecap="round"/>';
-      s += '<text x="101.5" y="' + (100 - r - 1.5).toFixed(1) + '" font-family="Baloo 2, sans-serif" font-weight="700" font-size="5" fill="#5A4B82">' + fmtKm(km) + ' km</text>';
+      s += '<text x="101.5" y="' + (100 - r - 1.5).toFixed(1) + '" font-family="Baloo 2, sans-serif" font-weight="700" font-size="5" fill="' + SP.txt + '">' + fmtKm(km) + ' km</text>';
     });
     var C = L().cardinal;
     [[100, 4.5, C[0]], [197, 101.8, C[1]], [100, 199, C[2]], [3, 101.8, C[3]]].forEach(function (c) {
-      s += '<text x="' + c[0] + '" y="' + c[1] + '" text-anchor="middle" font-family="Jua, sans-serif" font-size="7" fill="#2E2150">' + c[2] + '</text>';
+      s += '<text x="' + c[0] + '" y="' + c[1] + '" text-anchor="middle" font-family="Jua, sans-serif" font-size="7" fill="' + SP.ink + '">' + c[2] + '</text>';
     });
     $('#sonarPlate').innerHTML = s + '</svg>';
     $('#sonarMe').innerHTML = esc(t('you')) + (o.geo ? '' : ' · ' + esc(place(o.name)));
@@ -1285,6 +1303,67 @@
   };
   function platIcon(k) { return '<svg class="ln-ico" viewBox="0 0 36 36" aria-hidden="true">' + PLAT[k] + '</svg>'; }
   /* dónde escucharlos: enlaces a perfiles oficiales */
+  /* ================= lightsticks oficiales =================
+     Nombre, año y forma según las tiendas oficiales y las listas de fans (lightstick.shop, Koreaboo, Kpopbeen, 2026).
+     Los colores de luz son los oficiales cuando el sello los publicó (TWICE: Apricot y Neon Magenta; SEVENTEEN: Rose Quartz y
+     Serenity) y, si no, los del lightstick (rojo y plata de la brújula de Stray Kids, rosa y negro de BLACKPINK...).
+     LNGSHOT todavía no tiene lightstick: no se inventa uno. */
+  var LIGHTSTICKS = {
+    bts: { name: 'ARMY Bomb', year: 2015, shape: 'bomb', c: ['#B98CFF', '#7B3FE4'], note: { en: 'A glowing globe on a stick; in concerts the app syncs every ARMY Bomb to the stage.', es: 'Una esfera de luz con mango; en los conciertos la app sincroniza todos los ARMY Bomb con el escenario.' } },
+    skz: { name: 'Nachimbong', year: 2019, shape: 'compass', c: ['#FF4D5E', '#C9D0DD'], note: { en: 'A red compass needle inside a clear globe: "You make Stray Kids stay".', es: 'Una aguja de brújula roja dentro de una esfera transparente: "You make Stray Kids stay".' } },
+    twice: { name: 'Candy Bong', year: 2016, shape: 'candy', c: ['#FCC89B', '#FF5FA2'], note: { en: 'A candy you can hold, in TWICE\'s official apricot and neon magenta.', es: 'Un caramelo que se levanta, en el apricot y neon magenta oficiales de TWICE.' } },
+    blackpink: { name: 'Bi-Ping-Bong', year: 2018, shape: 'hammer', c: ['#FF6FB3', '#2B2633'], note: { en: 'A hammer with a heart for a head, in black and pink.', es: 'Un martillo con un corazón por cabeza, en negro y rosa.' } },
+    seventeen: { name: 'Carat Bong', year: 2017, shape: 'diamond', c: ['#F7CAC9', '#92A8D1'], note: { en: 'A diamond for CARAT, in rose quartz and serenity, their official colors.', es: 'Un diamante para CARAT, en rose quartz y serenity, sus colores oficiales.' } },
+    enhypen: { name: 'ENGENE Bong', year: 2020, shape: 'hyphen', c: ['#FF8A3D', '#FFD2A8'], note: { en: 'Sold without a name; ENGENEs call it the ENGENE Bong. The hyphen of their name, lit.', es: 'Se vende sin nombre; las ENGENE le dicen ENGENE Bong. El guion de su nombre, encendido.' } },
+    newjeans: { name: 'Binky Bong', year: 2023, shape: 'bunny', c: ['#8CC4FF', '#FFFFFF'], note: { en: 'The Bunnies\' lightstick, their only version so far.', es: 'El lightstick de las Bunnies, su única versión hasta ahora.' } },
+    ateez: { name: 'Lightiny', year: 2020, shape: 'hourglass', c: ['#FF9A3C', '#3C7BFF'], note: { en: 'An hourglass for ATINY, glowing orange and blue.', es: 'Un reloj de arena para ATINY, en naranja y azul.' } },
+    cortis: { name: 'CORTIS light stick', year: 2026, shape: 'candle', c: ['#FFE3A3', '#B9A4EE'], note: { en: 'Their first one, out in July 2026; COER call it "the candle".', es: 'El primero, salió en julio de 2026; las COER le dicen "la vela".' } }
+  };
+  var LS_HEAD = {
+    bomb: function (a, b) { return '<circle cx="32" cy="32" r="25" fill="' + a + '"/><circle cx="32" cy="32" r="15" fill="#fff" opacity=".45"/><ellipse cx="23" cy="21" rx="8" ry="5" fill="#fff" opacity=".85" transform="rotate(-30 23 21)"/><rect x="21" y="54" width="22" height="7" rx="3" fill="' + b + '"/>'; },
+    compass: function (a, b) { return '<circle cx="32" cy="32" r="25" fill="#F4F7FF" opacity=".9"/><circle cx="32" cy="32" r="25" fill="none" stroke="' + b + '" stroke-width="3.5"/><g transform="rotate(28 32 32)"><path d="M32 11 37 32H27z" fill="' + a + '"/><path d="M32 53 37 32H27z" fill="' + b + '"/></g><circle cx="32" cy="32" r="3" fill="#2E2150"/><ellipse cx="22" cy="20" rx="6" ry="3.5" fill="#fff" transform="rotate(-30 22 20)"/>'; },
+    candy: function (a, b) { return '<path d="M15 32 3 21v22z M49 32l12-11v22z" fill="' + b + '"/><circle cx="32" cy="32" r="18" fill="' + a + '"/><path d="M20 22c8 4 16 4 24 0M17 33c10 5 20 5 30 0M20 43c8-4 16-4 24 0" stroke="' + b + '" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/><ellipse cx="25" cy="24" rx="5" ry="3" fill="#fff" opacity=".8"/>'; },
+    hammer: function (a, b) { return '<rect x="5" y="16" width="54" height="32" rx="10" fill="' + b + '"/><path d="M32 43c-9-6-13-10-13-15a6.5 6.5 0 0 1 13-2 6.5 6.5 0 0 1 13 2c0 5-4 9-13 15z" fill="' + a + '"/><rect x="9" y="20" width="10" height="5" rx="2.5" fill="#fff" opacity=".35"/>'; },
+    diamond: function (a, b) { return '<path d="M32 4 57 26 32 60 7 26z" fill="' + a + '"/><path d="M7 26h50L32 60z" fill="' + b + '" opacity=".75"/><path d="M7 26h50M20 26 32 4l12 22M20 26l12 34 12-34" stroke="#fff" stroke-width="1.6" fill="none" opacity=".7"/>'; },
+    hyphen: function (a, b) { return '<rect x="10" y="8" width="44" height="52" rx="15" fill="' + b + '" opacity=".9"/><rect x="10" y="8" width="44" height="52" rx="15" fill="none" stroke="' + a + '" stroke-width="3.5"/><rect x="18" y="29" width="28" height="9" rx="4.5" fill="' + a + '"/><ellipse cx="22" cy="17" rx="6" ry="3" fill="#fff" opacity=".8"/>'; },
+    bunny: function (a, b) { return '<ellipse cx="21" cy="17" rx="6.5" ry="14" fill="' + a + '"/><ellipse cx="43" cy="17" rx="6.5" ry="14" fill="' + a + '"/><ellipse cx="21" cy="18" rx="2.6" ry="9" fill="' + b + '" opacity=".75"/><ellipse cx="43" cy="18" rx="2.6" ry="9" fill="' + b + '" opacity=".75"/><circle cx="32" cy="40" r="20" fill="' + a + '"/><circle cx="25" cy="40" r="2.2" fill="#2E2150"/><circle cx="39" cy="40" r="2.2" fill="#2E2150"/><path d="M29 46q3 2.5 6 0" stroke="#2E2150" stroke-width="1.8" fill="none" stroke-linecap="round"/>'; },
+    hourglass: function (a, b) { return '<rect x="11" y="4" width="42" height="6" rx="3" fill="#2E2150"/><rect x="11" y="54" width="42" height="6" rx="3" fill="#2E2150"/><path d="M16 10h32L34 32h-4z" fill="' + a + '"/><path d="M30 32h4l14 22H16z" fill="' + b + '"/><path d="M16 10h32L34 32l14 22H16l14-22z" fill="none" stroke="#fff" stroke-width="1.6" opacity=".7"/>'; },
+    candle: function (a, b) { return '<path d="M32 3c5 7 8 11 8 15a8 8 0 0 1-16 0c0-4 3-8 8-15z" fill="' + a + '"/><path d="M32 10c2 4 4 6 4 9a4 4 0 0 1-8 0c0-3 2-5 4-9z" fill="#fff" opacity=".8"/><rect x="17" y="27" width="30" height="34" rx="8" fill="#F4F7FF" opacity=".9"/><rect x="17" y="27" width="30" height="34" rx="8" fill="none" stroke="' + b + '" stroke-width="3"/><rect x="23" y="34" width="18" height="4" rx="2" fill="' + b + '"/>'; }
+  };
+  function lightstickSvg(id) {
+    var L = LIGHTSTICKS[id]; if (!L) return '';
+    return '<svg class="ls-svg" viewBox="0 0 64 128" aria-hidden="true"><rect x="26" y="66" width="12" height="58" rx="6" class="ls-h"/><rect x="23" y="61" width="18" height="9" rx="3" class="ls-g"/>' +
+      '<g class="ls-head">' + LS_HEAD[L.shape](L.c[0], L.c[1]) + '</g></svg>';
+  }
+  var lit = store('radar-lit') || '';  // el lightstick que tienes encendido (uno a la vez, como en un concierto)
+  function lightstickHtml(id, big) {
+    var L = LIGHTSTICKS[id];
+    if (!L) return big ? '<section class="gp-sec ls-none"><p class="gp-k">' + esc(t('lsTitle')) + '</p><p class="gp-muted">' + esc(t('lsNone')) + '</p></section>' : '';
+    var on = lit === id;
+    return '<div class="ls-row' + (big ? ' big' : '') + (on ? ' is-lit' : '') + '" style="--lc:' + L.c[0] + ';--lc2:' + L.c[1] + '">' +
+      '<button type="button" class="ls-btn" data-light="' + esc(id) + '" aria-pressed="' + on + '" aria-label="' + esc(t(on ? 'lsOff' : 'lsOn', { name: L.name })) + '"><span class="ls-glow" aria-hidden="true"></span><span class="ls-wave">' + lightstickSvg(id) + '</span></button>' +
+      '<div class="ls-txt"><p class="squad-k">' + esc(t('lsTitle')) + ' <span class="ko" lang="ko">응원봉</span></p><b>' + esc(L.name) + '</b><small>' + esc(t('lsSince', { y: L.year })) + ' · ' + esc(on ? t('lsLit') : t('lsTap')) + '</small>' +
+      (big ? '<p class="ls-note">' + esc(L.note[lang] || L.note.en) + '</p>' : '') + '</div></div>';
+  }
+  /* el mar de lightsticks (solo de noche, abajo del globo): el color del que tienes encendido, si no el de tu grupo favorito */
+  function renderOcean() {
+    var el = $('#ocean'); if (!el) return;
+    var id = lit || favs[0] || '', L = LIGHTSTICKS[id];
+    var a = L ? L.c[0] : '#C9A8FF', b = L ? L.c[1] : '#FF8CC6';
+    el.style.setProperty('--oc1', a); el.style.setProperty('--oc2', b === '#2B2633' || b === '#FFFFFF' ? a : b);
+  }
+  function toggleLight(id, el) {
+    var on = lit !== id; lit = on ? id : ''; store('radar-lit', lit || null);
+    Sound.play(on ? 'heart' : 'toggle');
+    if (on) buzz(12);
+    $$('.ls-row').forEach(function (r) {
+      var b = r.querySelector('[data-light]'), me = b && b.getAttribute('data-light') === lit;
+      r.classList.toggle('is-lit', !!me); if (b) { b.setAttribute('aria-pressed', String(!!me)); var L = LIGHTSTICKS[b.getAttribute('data-light')]; b.setAttribute('aria-label', t(me ? 'lsOff' : 'lsOn', { name: L.name })); }
+      var sm = r.querySelector('.ls-txt small'); if (sm && b) sm.textContent = t('lsSince', { y: LIGHTSTICKS[b.getAttribute('data-light')].year }) + ' · ' + (me ? t('lsLit') : t('lsTap'));
+    });
+    renderOcean();
+    if (on && !reduce && el) { var r = el.getBoundingClientRect(), L = LIGHTSTICKS[id]; confettiBurst(r.left + r.width / 2, r.top + 10, 16, [L.c[0], L.c[1], '#FFD84D', '#fff'], 6, null, Math.PI * 2); }
+  }
   function listenHtml(g) {
     var p = PROFILE[g.id]; if (!p) return '';
     var q = encodeURIComponent(g.name), links = [];
@@ -1461,7 +1540,7 @@
     var ph = photoOf(g.id);
     if (ph) h += '<figure class="polaroid"><span class="ph"><i class="ph-bg" aria-hidden="true" style="--ph:url(\'../' + esc(ph.blur || ph.src) + '\')"></i><img src="' + esc(ph.src) + '"' +
       (ph.small && ph.w > 640 ? ' srcset="' + esc(ph.small) + ' 640w, ' + esc(ph.src) + ' ' + ph.w + 'w" sizes="(max-width: 699px) 86vw, 420px"' : '') + (ph.w ? ' width="' + ph.w + '" height="' + ph.h + '"' : '') + ' alt="' + esc(t('photoAlt', { g: g.name })) + '" loading="lazy" decoding="async"></span><figcaption>' + esc(g.name) + (m.fan ? ' · ' + esc(m.fan) : '') + '</figcaption></figure>';
-    h += listenHtml(g);
+    h += listenHtml(g) + lightstickHtml(g.id);
     h += statsHtml(g);
     h += triviaHtml(g.id);
     var rows = st.upStops;
@@ -1639,6 +1718,7 @@
     opts = opts || {};
     var st = stOf(id); if (!st) return;
     if (sel === id && !opts.force) { unselect(); return; }
+    if (!opts.silent && !opts.force) buzz(8);
     sel = id;
     Sound.play('select');
     renderRail(); renderFocus(); renderSonarLine();
@@ -1672,6 +1752,8 @@
   function hideHint() { if (hintGone) return; hintGone = true; var h = $('#dragHint'); if (h) h.classList.add('gone'); }
 
   /* ================= tarjeta para compartir (PNG 1080x1920) ================= */
+  /* un toquecito en Android al elegir algo (iPhone no deja; el navegador lo ignora) */
+  function buzz(ms) { if (navigator.vibrate && !reduce) { try { navigator.vibrate(ms || 8); } catch (e) { /* nada */ } } }
   function loadImg(src) { return new Promise(function (res, rej) { var im = new Image(); im.onload = function () { res(im); }; im.onerror = rej; im.src = src; }); }
   function roundRect(x, X, y, w, h, r) { x.beginPath(); x.moveTo(X + r, y); x.arcTo(X + w, y, X + w, y + h, r); x.arcTo(X + w, y + h, X, y + h, r); x.arcTo(X, y + h, X, y, r); x.arcTo(X, y, X + w, y, r); x.closePath(); }
   function fitFont(x, text, weight, family, max, width) { var s = max; do { x.font = weight + ' ' + s + 'px ' + family; s -= 4; } while (x.measureText(text).width > width && s > 20); return s + 4; }
@@ -1687,9 +1769,10 @@
     return Promise.all(fonts).catch(function () { }).then(function () {
       var bm = biasMem[id] && members(id).filter(function (x) { return x.id === biasMem[id]; })[0];
       return Promise.all([loadImg(face(id, true).src), ph ? loadImg(ph.src).catch(function () { return null; }) : null,
-        bm ? loadImg(memberSrc(id, bm.id, true)).then(function (b) { return { img: b, name: bm.name }; }).catch(function () { return null; }) : null]);
+        bm ? loadImg(memberSrc(id, bm.id, true)).then(function (b) { return { img: b, name: bm.name }; }).catch(function () { return null; }) : null,
+        lit === id && LIGHTSTICKS[id] ? loadImg('data:image/svg+xml;charset=utf-8,' + encodeURIComponent(lightstickSvg(id).replace('<svg ', '<svg xmlns="http://www.w3.org/2000/svg" width="128" height="256" ').replace('class="ls-h"', 'fill="#2E2150"').replace('class="ls-g"', 'fill="#5A4B82"'))).catch(function () { return null; }) : null]);
     }).then(function (ims) {
-      var im = ims[0], pim = ims[1], bim = ims[2];
+      var im = ims[0], pim = ims[1], bim = ims[2], lim = ims[3];
       var c = document.createElement('canvas'); c.width = W; c.height = H; var x = c.getContext('2d');
       x.fillStyle = '#F4EEFF'; x.fillRect(0, 0, W, H);
       x.strokeStyle = '#E7DDFB'; x.lineWidth = 2;
@@ -1721,6 +1804,12 @@
         var cr2 = contain(im, 170, 260, 740, 560); x.drawImage(im, cr2[0], cr2[1], cr2[2], cr2[3]);
       }
       star4(x, 210, 340, 46, '#FFD84D'); star4(x, 880, 300, 34, '#FFB3D4'); star4(x, 900, 690, 28, '#FFD84D'); star4(x, 170, 720, 24, '#B9E8FF');
+      // su lightstick encendido, a la izquierda, con su luz detrás
+      if (lim) {
+        var Lc = LIGHTSTICKS[id].c[0], gl = x.createRadialGradient(205, 640, 10, 205, 640, 190);
+        gl.addColorStop(0, Lc + 'b0'); gl.addColorStop(1, Lc + '00'); x.fillStyle = gl; x.fillRect(15, 450, 380, 380);
+        x.save(); x.translate(190, 900); x.rotate(-.2); x.drawImage(lim, -80, -320, 160, 320); x.restore();
+      }
       // el bias de la fan, grande en la esquina, con su etiqueta: es lo que hace suya la tarjeta
       if (bim) {
         var br = contain(bim.img, 770, 560, 230, 300);
@@ -1958,7 +2047,7 @@
     } else if (st.last) {
       h += '<section class="gp-sec gp-next"><p class="gp-k">' + esc(t('rest')) + '</p><p class="gp-big">' + esc(t('lastStop')) + ': ' + esc(place(st.last.city)) + '</p><p class="gp-muted">' + esc(fmtDate(st.last.local_date, true)) + '</p></section>';
     }
-    h += nextReleaseHtml(id);
+    h += nextReleaseHtml(id) + lightstickHtml(id, true);
     var p = PEOPLE[id] || {};
     h += listenHtml(st.g).replace('</ul></div>', (okHandle(p.tiktok) ? '<li><a class="ln ln-tt" href="https://www.tiktok.com/@' + esc(p.tiktok) + '" target="_blank" rel="noopener noreferrer">' + SOC_ICON.tt + '<span>TikTok</span></a></li>' : '') +
       (okHandle(p.instagram) ? '<li><a class="ln ln-ig" href="https://www.instagram.com/' + esc(p.instagram) + '/" target="_blank" rel="noopener noreferrer">' + SOC_ICON.ig + '<span>Instagram</span></a></li>' : '') + '</ul></div>');
@@ -2406,8 +2495,12 @@
     return City.lib;
   }
   function kawaiiStyle(style) {
-    var K = { bg: '#F7F2FF', water: '#A8DDF2', park: '#C6F3DA', grass: '#DDF7E8', home: '#F1E9FF', bldg: '#FFDDEA', bldgLine: '#EBB7CC', road: '#FFFFFF', casing: '#D6C8F4',
-      major: '#FFF0B3', majorCasing: '#F2C766', rail: '#C9B6F0', label: '#5A4B82' };
+    var K = theme === 'dark'
+      // de noche: la ciudad con las avenidas encendidas, como se ve desde el avión antes del concierto
+      ? { bg: '#1B1530', water: '#1D3A63', park: '#1E453B', grass: '#213D37', home: '#231B3C', bldg: '#33284F', bldgLine: '#4A3B6E', road: '#3B3163', casing: '#2A2148',
+        major: '#E8B85A', majorCasing: '#8A6A2E', rail: '#4B3D7E', label: '#D9CFFF', halo: '#140E22', ext: '#3A2C5C', sand: '#2A2244', border: '#5B4A8E', parkLine: '#2F6B57' }
+      : { bg: '#F7F2FF', water: '#A8DDF2', park: '#C6F3DA', grass: '#DDF7E8', home: '#F1E9FF', bldg: '#FFDDEA', bldgLine: '#EBB7CC', road: '#FFFFFF', casing: '#D6C8F4',
+        major: '#FFF0B3', majorCasing: '#F2C766', rail: '#C9B6F0', label: '#5A4B82', halo: '#FFFFFF', ext: '#FFE6F1', sand: '#EFE7FB', border: '#C9B6F0', parkLine: '#9EDDB9' };
     style.layers = style.layers.filter(function (l) { return l.id !== 'natural_earth' && !/shield|one_way|poi_r7|poi_r1$/.test(l.id); });
     style.layers.forEach(function (l) {
       var p = l.paint = l.paint || {}, id = l.id;
@@ -2418,18 +2511,18 @@
         else if (/grass|pitch|track|cemetery|wetland/.test(id)) p['fill-color'] = K.grass;
         else if (/residential|school|hospital/.test(id)) p['fill-color'] = K.home;
         else if (/building/.test(id)) { p['fill-color'] = K.bldg; p['fill-outline-color'] = K.bldgLine; }
-        else if (/aeroway|sand/.test(id)) p['fill-color'] = '#EFE7FB';
-      } else if (l.type === 'fill-extrusion') { p['fill-extrusion-color'] = '#FFE6F1'; p['fill-extrusion-opacity'] = .92; }
+        else if (/aeroway|sand/.test(id)) p['fill-color'] = K.sand;
+      } else if (l.type === 'fill-extrusion') { p['fill-extrusion-color'] = K.ext; p['fill-extrusion-opacity'] = .92; }
       else if (l.type === 'line') {
         if (/waterway/.test(id)) p['line-color'] = K.water;
         else if (/rail/.test(id)) p['line-color'] = K.rail;
-        else if (/boundary/.test(id)) p['line-color'] = '#C9B6F0';
-        else if (/park_outline/.test(id)) p['line-color'] = '#9EDDB9';
+        else if (/boundary/.test(id)) p['line-color'] = K.border;
+        else if (/park_outline/.test(id)) p['line-color'] = K.parkLine;
         else if (/casing/.test(id)) p['line-color'] = /motorway|trunk|primary/.test(id) ? K.majorCasing : K.casing;
         else if (/motorway|trunk|primary/.test(id)) p['line-color'] = K.major;
         else if (/road|bridge|tunnel|path/.test(id)) p['line-color'] = K.road;
       } else if (l.type === 'symbol') {
-        p['text-color'] = K.label; p['text-halo-color'] = '#FFFFFF'; p['text-halo-width'] = 1.8;
+        p['text-color'] = K.label; p['text-halo-color'] = K.halo; p['text-halo-width'] = 1.8;
         // nombres en el idioma de la página cuando OpenStreetMap los tiene
         if (l.layout && l.layout['text-field'] && /name/.test(JSON.stringify(l.layout['text-field'])) && !/shield|ref/.test(id))
           l.layout['text-field'] = ['coalesce', ['get', 'name:' + lang], ['get', 'name:en'], ['get', 'name:latin'], ['get', 'name']];
@@ -2451,9 +2544,9 @@
     box.hidden = false; document.documentElement.style.overflow = 'hidden';
     Sound.play('open'); $('[data-city-close]').focus({ preventScroll: true });
     loadMapLib().then(function () {
-      if (City.style && City.styleLang === lang) return City.style;
+      if (City.style && City.styleLang === lang + theme) return City.style;
       return (City.raw ? Promise.resolve(City.raw) : fetch(STYLE_URL).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }))
-        .then(function (j) { City.raw = j; City.styleLang = lang; City.style = kawaiiStyle(JSON.parse(JSON.stringify(j))); if (City.map) City.map.setStyle(City.style); return City.style; });
+        .then(function (j) { City.raw = j; City.styleLang = lang + theme; City.style = kawaiiStyle(JSON.parse(JSON.stringify(j))); if (City.map) City.map.setStyle(City.style); return City.style; });
     }).then(function (style) {
       var view = { center: [e.lon, e.lat], zoom: 15.2, pitch: City.tilt ? 52 : 0, bearing: -18 };
       if (!City.map) {
@@ -2505,7 +2598,7 @@
   function openVideo() {
     var v = $('#video'); v.hidden = false; document.documentElement.style.overflow = 'hidden';
     if (v.requestFullscreen && !finePointer) v.requestFullscreen().catch(function () { });
-    if (!Video.globe) Video.globe = new Globe($('#vglobe'), $('#vpins'), { passive: true, fit: .42, hfit: .4, cy: .54, spin: 9, lon: -70, lat: 10 });
+    if (!Video.globe) Video.globe = new Globe($('#vglobe'), $('#vpins'), { passive: true, light: true, fit: .42, hfit: .4, cy: .54, spin: 9, lon: -70, lat: 10 });
     else Video.globe.resize();
     Video.globe.pinTarget = Math.max(84, Math.min(130, $('#vzone').clientWidth * .3));
     Video.globe.inView = true; Video.globe.autoSpin = true;
@@ -2603,7 +2696,7 @@
   window.addEventListener('pointerdown', function () { lastKeyboard = false; }, true);
 
   document.addEventListener('click', function (ev) {
-    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-biasmem],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-geo-help],[data-geo-later],[data-zoom],[data-spin],[data-center-me],[data-city],[data-city-close],[data-cmap],[data-mfilter],[data-ssort],[data-gpick],[data-feedall],[data-copy],[data-topic],[data-gp-close],[data-gp-tab],[data-gp-mem],[data-gp-hop],[data-yt],[data-tt],[data-gp-open],#sightBubble,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,.topnav a') : null;
+    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-biasmem],[data-light],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-geo-help],[data-geo-later],[data-zoom],[data-spin],[data-center-me],[data-city],[data-city-close],[data-cmap],[data-mfilter],[data-ssort],[data-gpick],[data-feedall],[data-copy],[data-topic],[data-gp-close],[data-gp-tab],[data-gp-mem],[data-gp-hop],[data-yt],[data-tt],[data-gp-open],#sightBubble,#themeBtn,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,.topnav a') : null;
     if (!el) { if (ev.target === $('#party')) closeParty(); return; }
     if (el.hasAttribute('data-pick')) { if (view !== 'globe' && el.hasAttribute('data-top')) setView('globe'); pick(el.getAttribute('data-pick'), { top: el.hasAttribute('data-top') }); return; }
     if (el.hasAttribute('data-unsel')) { unselect(); return; }
@@ -2634,6 +2727,7 @@
     if (el.hasAttribute('data-share')) { doShare(el.getAttribute('data-share')); return; }
     if (el.hasAttribute('data-ics')) { doIcs(el.getAttribute('data-ics')); return; }
     if (el.hasAttribute('data-goto')) { ev.preventDefault(); var c = document.getElementById('card-' + el.getAttribute('data-goto')); if (c) { c.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); setTimeout(function () { flash(c); }, reduce ? 0 : 450); } Sound.play('tap'); return; }
+    if (el.hasAttribute('data-light')) { toggleLight(el.getAttribute('data-light'), el); return; }
     if (el.hasAttribute('data-biasmem')) {
       var bm = el.getAttribute('data-biasmem').split(':'), was = biasMem[bm[0]] === bm[1];
       if (was) delete biasMem[bm[0]]; else biasMem[bm[0]] = bm[1];
@@ -2647,7 +2741,7 @@
       var id = el.getAttribute('data-bias'), on = !isFav(id);
       if (on) favs.push(id); else favs.splice(favs.indexOf(id), 1);
       bias = favs[0] || ''; store('radar-bias', favs.join(',') || null);
-      Sound.play(on ? 'heart' : 'toggle'); renderAll();
+      Sound.play(on ? 'heart' : 'toggle'); if (on) buzz(10); renderAll();
       var nc = document.getElementById('card-' + id); if (on && nc) { nc.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'nearest', inline: 'start' }); flash(nc); }
       return;
     }
@@ -2666,6 +2760,7 @@
       Sound.play('tap'); return;
     }
     switch (el.id) {
+      case 'themeBtn': toggleTheme(el); break;
       case 'muteBtn':
         Sound.muted = !Sound.muted; store('radar-muted', Sound.muted ? '1' : '0'); el.setAttribute('aria-pressed', String(Sound.muted));
         el.setAttribute('aria-label', Sound.muted ? t('unmute') : t('mute')); toast(Sound.muted ? t('mute') : t('unmute')); if (!Sound.muted) { Sound.unlock(); setTimeout(function () { Sound.play('heart'); }, 30); }
@@ -2811,9 +2906,35 @@
   $('#zw').textContent = zw('Cristian Pérez · https://cristianperez.me');
   console.info('%cRadar K-pop%c · made with fan love · design and code: Cristian Pérez · https://cristianperez.me', 'font-weight:700;color:#FF5FA8', '');
 
+  /* ================= modo concierto (tema oscuro) =================
+     Sigue al sistema hasta que eliges con el botón; el cambio se abre como un círculo de luz desde el botón
+     (View Transitions) y todo cambia en ese mismo paso: página, globo, sonar y la barra del navegador. */
+  var mqDark = window.matchMedia('(prefers-color-scheme: dark)');
+  function applyTheme(next) {
+    theme = next;
+    if (next === 'dark') document.documentElement.setAttribute('data-theme', 'dark'); else document.documentElement.removeAttribute('data-theme');
+    var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = next === 'dark' ? '#140E22' : '#F4EEFF';
+    var b = $('#themeBtn'); if (b) { b.setAttribute('aria-pressed', String(next === 'dark')); b.setAttribute('aria-label', t(next === 'dark' ? 'themeLight' : 'themeDark')); }
+    if (globe) globe.kick();
+    if (view === 'sonar') renderSonar();
+    if (City.map && City.raw) { City.styleLang = lang + theme; City.style = kawaiiStyle(JSON.parse(JSON.stringify(City.raw))); City.map.setStyle(City.style); }
+    renderOcean();
+  }
+  function toggleTheme(el) {
+    var next = theme === 'dark' ? 'light' : 'dark';
+    store('radar-theme', next);
+    Sound.play(next === 'dark' ? 'heart' : 'toggle');
+    if (reduce || !document.startViewTransition) { applyTheme(next); return; }
+    var r = el.getBoundingClientRect(), root = document.documentElement;
+    root.style.setProperty('--vt-x', (r.left + r.width / 2) + 'px'); root.style.setProperty('--vt-y', (r.top + r.height / 2) + 'px');
+    document.startViewTransition(function () { applyTheme(next); });
+  }
+  if (mqDark.addEventListener) mqDark.addEventListener('change', function (e) { if (!store('radar-theme')) applyTheme(e.matches ? 'dark' : 'light'); });
+
   /* ================= arranque ================= */
   function startState() { return states.filter(function (s) { return isFav(s.id) && s.pos; })[0] || (states[0] && states[0].pos ? states[0] : null); }
   $('#muteBtn').setAttribute('aria-pressed', String(Sound.muted));
+  applyTheme(theme);
   computeStates();
   globe = new Globe($('#globe'), $('#pins'), {
     fit: .4, cy: .47, spin: 5,
