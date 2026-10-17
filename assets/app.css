@@ -1025,7 +1025,7 @@ input[type="range"] { width: 100%; accent-color: var(--bubble); min-height: 32px
 .gp-tabs button .ko { font-size: 10px; color: var(--gc); font-weight: 900; }
 .gp-tabs button[aria-selected="true"] { background: var(--gc); color: #fff; transform: translateY(-2px) rotate(-1.5deg); box-shadow: 0 3px 0 var(--ink); }
 .gp-tabs button[aria-selected="true"] .ko { color: #fff; }
-.gp-body { overflow-y: auto; padding: 16px 16px calc(28px + env(safe-area-inset-bottom, 0px)); display: grid; align-content: start; gap: 14px; overscroll-behavior: contain; }
+.gp-body { overflow-y: auto; padding: 16px 16px calc(28px + env(safe-area-inset-bottom, 0px)); display: grid; align-content: start; grid-auto-rows: max-content; gap: 14px; overscroll-behavior: contain; }
 .gp-sec { display: grid; gap: 6px; padding: 14px; border-radius: 20px; background: var(--white); border: 2px solid var(--ink); box-shadow: 0 4px 0 var(--gc); }
 .gp-sec h4 { margin: 0 0 4px; font: 400 18px/1.2 var(--f-display); }
 .gp-sec p { margin: 0; }

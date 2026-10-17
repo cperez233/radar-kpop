@@ -27,7 +27,7 @@ Si un servicio se cae, ese paso sale con advertencia y el resto sigue igual.
 | `DISCORD_WEBHOOK_URL` | Alertas en tu canal de Discord | Gratis | Funciona: el primer run mandó 26 alertas |
 | `NTFY_TOPIC` | Todas las alertas a tu celular (tu tema privado en ntfy) | Gratis | Funciona: llegó la prueba |
 | (sin clave) | Alertas para los fans en temas públicos de ntfy por grupo y tipo (`ntfyTopicPrefix` en `config.js`) | Gratis | Activo desde la 4.8 |
-| `DISCORD_FORUM_WEBHOOK_URL` | Foro de Discord para los fans: una publicación por grupo, cada quien sigue las suyas | Gratis | Falta crearlo (pasos abajo) |
+| `DISCORD_FORUM_WEBHOOK_URL` | Foro de Discord para los fans: una publicación por grupo, cada quien sigue las suyas | Gratis | Funciona: ya creó las publicaciones de BTS, Stray Kids, TWICE y LNGSHOT (las demás salen con su primera alerta) |
 | `X_BEARER_TOKEN` | Respaldo de X, solo si RSSHub falla entero | De pago (~0,005 USD por post) | Guardado, sin saldo. No hace falta cargarle |
 | `VAPID_PRIVATE_KEY` + `VAPID_SUBJECT` | Push del navegador con el servidor de `backend/` | Gratis (con el worker de Cloudflare) | Ya no hace falta: la web usa ntfy |
 | `WHATSAPP_TOKEN` + `WHATSAPP_PHONE_ID` | Avisos por WhatsApp | De pago y pide verificar un negocio | Descartado por ahora (no hay opción gratis y estable) |
