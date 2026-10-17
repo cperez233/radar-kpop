@@ -73,11 +73,12 @@ jobs:
         continue-on-error: true
         run: python updater/auto_dates.py
 
-      - name: Redes de grupos y miembros (TikTok vía RSSHub, posts de X)
+      - name: Redes de grupos y miembros (TikTok e Instagram vía RSSHub, posts de X)
         if: ${{ !inputs.prueba }}
         continue-on-error: true
         env:
           RSSHUB_URL: ${{ secrets.RSSHUB_URL }}
+          INSTAGRAM_ROUTES: ${{ secrets.INSTAGRAM_ROUTES }}
         run: python updater/social_feeds.py
 
       - name: Próximos estrenos anunciados en posts oficiales
