@@ -1,5 +1,23 @@
 [
  {
+  "version": "4.12",
+  "date": "2026-10-17",
+  "title_es": "Lightsticks vivos y noche pastel",
+  "title_en": "Living lightsticks and a pastel night",
+  "es": [
+   "Los lightsticks se encienden con salto, destello y onda de luz, se mecen con su brillo y parpadean al apagarse, dentro de un escenario tipo sticker.",
+   "El modo concierto conserva los pasteles: noche lavanda, stickers pastel con tinta oscura, bordes de colores y estrellitas.",
+   "En computador, botones, tarjetas y chips responden al pasar el mouse: se despegan como stickers, los íconos se mueven y el botón rosa brilla.",
+   "BTS abre la lista de grupos (después de tus favoritos)."
+  ],
+  "en": [
+   "Lightsticks light up with a hop, a flash and a ring of light, sway with their glow and flicker when switched off, inside a sticker-style stage.",
+   "Concert mode keeps the pastels: lavender night, pastel stickers with dark ink, colored borders and little stars.",
+   "On desktop, buttons, cards and chips react to the mouse: they peel up like stickers, icons wiggle and the pink button shines.",
+   "BTS opens the group list (after your favorites)."
+  ]
+ },
+ {
   "version": "4.11",
   "date": "2026-10-17",
   "title_es": "Modo concierto y lightsticks",
