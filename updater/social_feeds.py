@@ -37,9 +37,15 @@ IG_PER_RUN = 10
 IG_BACKOFF = timedelta(hours=6)
 
 
+IG_AUTO = re.compile(r"^(?:Photo|Video|Reel)s?(?: shared)? by .*? on [A-Z][a-z]+ \d{1,2}, \d{4}(?: tagging [^.]*)?\.\s*")
+IG_ALT = re.compile(r"(?:^|\s+)May be (?:an? )?[\w -]*?(?:image|video|graphic|illustration|meme|photo|cartoon|text)\b[^.]*\.?\s*$", re.I)
+
+
 def clean(s: str) -> str:
     s = html.unescape(re.sub(r"<[^>]+>", " ", s or ""))
-    return " ".join(re.sub(r"https?://\S+", " ", s).split())[:220]
+    s = " ".join(re.sub(r"https?://\S+", " ", s).split())
+    # Instagram pone su texto automático ("Photo by X on October 12, 2026. May be an image of..."): no es lo que escribió el idol
+    return IG_ALT.sub("", IG_AUTO.sub("", s)).strip()[:220]
 
 
 def feed(url: str) -> list[dict]:

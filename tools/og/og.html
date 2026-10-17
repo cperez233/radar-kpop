@@ -1,0 +1,44 @@
+<!doctype html>
+<!-- Imagen para compartir el link (assets/icons/og.png, 1200x630). Se renderiza con tools/og/render.mjs. -->
+<html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Gaegu:wght@700&family=Jua&display=block">
+<style>
+  html, body { margin: 0; }
+  body { width: 1200px; height: 630px; overflow: hidden; position: relative; font-family: 'Baloo 2', sans-serif; color: #2E2150;
+    background: #F4EEFF; background-image: linear-gradient(#E6DCFF 1.5px, transparent 1.5px), linear-gradient(90deg, #E6DCFF 1.5px, transparent 1.5px); background-size: 44px 44px; }
+  .halo { position: absolute; left: 600px; top: 250px; width: 980px; height: 980px; border-radius: 50%; background: radial-gradient(circle, #FFD6EA 0, #EFE3FF 45%, rgba(244,238,255,0) 70%); }
+  .globe { position: absolute; left: 610px; top: 330px; width: 860px; height: 860px; border-radius: 50%; background: radial-gradient(circle at 38% 30%, #D8F1FF, #9FD8F0 70%); border: 7px solid #2E2150; box-shadow: 0 14px 0 #B9A4EE; overflow: hidden; }
+  .land { position: absolute; background: #C6F3DA; border: 5px solid #fff; border-radius: 46% 54% 40% 60%; }
+  .copy { position: absolute; left: 64px; top: 78px; width: 540px; }
+  .ko { font-family: 'Gaegu', cursive; font-weight: 700; font-size: 40px; color: #FF5FA8; margin: 0; }
+  h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 100px; white-space: nowrap; line-height: .95; margin: 6px 0 22px; letter-spacing: -1px; }
+  h1 span { color: #FF5FA8; }
+  p.tag { font-size: 34px; line-height: 1.22; font-weight: 700; margin: 0; color: #4A3B78; }
+  .chips { margin-top: 26px; display: flex; flex-wrap: wrap; gap: 10px; }
+  .chip { font-family: 'Jua', sans-serif; font-size: 25px; padding: 5px 16px 2px; border: 3px solid #2E2150; border-radius: 999px; background: #fff; box-shadow: 0 4px 0 #B9A4EE; }
+  .chip b { color: #FF5FA8; font-weight: 400; }
+  .crew { position: absolute; }
+  .crew img { display: block; filter: drop-shadow(0 6px 0 rgba(46,33,80,.12)); }
+  .crew i { position: absolute; left: 50%; bottom: -14px; transform: translateX(-50%) rotate(-3deg); font: 400 19px 'Jua', sans-serif; font-style: normal; background: #fff; border: 2.5px solid #2E2150; border-radius: 999px; padding: 1px 10px 0; white-space: nowrap; box-shadow: 0 3px 0 var(--c); }
+</style></head><body>
+<div class="halo"></div>
+<div class="globe"><div class="land" style="left:120px;top:90px;width:260px;height:190px"></div><div class="land" style="left:470px;top:60px;width:230px;height:260px"></div><div class="land" style="left:330px;top:330px;width:170px;height:120px"></div></div>
+<div class="copy">
+  <p class="ko">케이팝 레이더</p>
+  <h1>Radar <span>K-pop</span></h1>
+  <p class="tag">Where is your group next?<br>Spin the world, count the days.</p>
+  <div class="chips"><span class="chip"><b>D-7</b> countdowns</span><span class="chip">nearby sightings</span></div>
+</div>
+<script>
+  // los stickers reales de cada grupo, parados sobre el borde del globo
+  var crew = [['bts', '#7B4FE0', 640, 96, 176], ['skz', '#E5323B', 820, 70, 176], ['twice', '#FF8A2B', 1000, 96, 176],
+    ['seventeen', '#6C7BE8', 610, 268, 226], ['enhypen', '#22A36A', 850, 252, 136], ['ateez', '#C08A1E', 1000, 262, 160],
+    ['cortis', '#7CB518', 640, 448, 150], ['blackpink', '#F2559A', 800, 430, 140], ['newjeans', '#E0A800', 945, 440, 120], ['lngshot', '#0FA3B1', 1070, 430, 112]];
+  var names = { bts: 'BTS', skz: 'Stray Kids', twice: 'TWICE', seventeen: 'SEVENTEEN', enhypen: 'ENHYPEN', ateez: 'ATEEZ', blackpink: 'BLACKPINK', newjeans: 'NewJeans', lngshot: 'LNGSHOT', cortis: 'CORTIS' };
+  crew.forEach(function (c) {
+    var d = document.createElement('div'); d.className = 'crew'; d.style.cssText = 'left:' + c[2] + 'px;top:' + c[3] + 'px;width:' + c[4] + 'px;--c:' + c[1];
+    d.innerHTML = '<img src="../../assets/chibis/' + c[0] + '.webp" width="' + c[4] + '"><i>' + names[c[0]] + '</i>';
+    document.body.appendChild(d);
+  });
+</script>
+</body></html>

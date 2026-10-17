@@ -1,6 +1,6 @@
 # Radar K-pop
 
-![Radar K-pop](assets/icons/og.png)
+![Radar K-pop](assets/icons/og-2026.jpg)
 
 A fan site that shows where ten K-pop groups play next. Each group stands on its next tour stop on a small 3D globe, drawn as chibis, with a countdown, the distance to you and a pastel map of the venue's neighbourhood.
 
@@ -41,7 +41,9 @@ The radar only uses public, official schedules and posts. It shows the next conf
   - Birthdays get a banner, a cake on the chibi and confetti.
 - **Members who are away or left.** Members in military service are shown in grey with a helmet, their enlistment date and their return date, and they come back in colour on their own on that date. Former members appear in grey with the reason (left the group, went solo, contract ended). A watcher reads official posts and the news: an official notice updates the page by itself; news alone only adds a "there is news" link.
 - **On phones.** Group cards are a swipeable carousel with a strip of group chibis on top; each card keeps the essentials and folds the photo, music, facts and trivia under one button.
-- **Sightings near you.** Official posts that mention a city, newest first (or nearest first), skipping vlogs, videos and merch, with a news ticker and a heads-up when new ones arrive.
+- **Nearby sightings.** Official posts that mention a city, newest first (or nearest first), skipping vlogs, videos and merch, with a news ticker and a heads-up when new ones arrive.
+- **Your bias and your groups.** Heart every group you follow; they go first and the globe opens on them. Pick a bias on each member's profile: they get a heart in the group and a big spot on your story card.
+- **Coming to your city.** When a tour stop is within 600 km of you, the group card says so, with the date and the days left.
 - **Releases and videos.** The latest music and official YouTube uploads of each group. Upcoming releases are read from official posts before Apple Music lists them; the card says "Out today!" on the day and "New" for ten days after.
 - **Alerts.** A new alert triggers a confetti celebration. Fans pick groups and alert types and subscribe for free with the ntfy app (public topics per group and type, plus one per country) or follow their groups' posts in the Discord forum. No account and no personal data.
 - **Video mode.** A clean 9:16 tour of about 15 seconds, made for screen recording.
@@ -49,7 +51,7 @@ The radar only uses public, official schedules and posts. It shows the next conf
   - A top menu that follows the section you are in.
   - A sonar view of all groups around you.
   - Shareable PNG story cards.
-  - Spanish and English, with an animated switch.
+  - English interface, with an optional Spanish switch.
   - An installable PWA.
   - Small sounds: muted until your first tap, with a mute button.
   - Respects `prefers-reduced-motion`.

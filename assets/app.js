@@ -84,7 +84,21 @@
     if (!v) { var h = 0; for (var i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) >>> 0; v = FALLBACK_COLORS[h % FALLBACK_COLORS.length]; }
     return (colorCache[id] = v);
   }
-  function gStyle(id) { return '--gc:' + gColor(id); }
+  /* color de texto del grupo: el mismo tono, oscurecido hacia la tinta solo lo justo para leerse sobre blanco (4.5:1).
+     El amarillo de NewJeans o el verde de CORTIS se veían lindos pero no se leían en letra chica. */
+  var textCache = {};
+  function lum(h) { var c = [1, 3, 5].map(function (i) { var v = parseInt(h.substr(i, 2), 16) / 255; return v <= .03928 ? v / 12.92 : Math.pow((v + .055) / 1.055, 2.4); }); return .2126 * c[0] + .7152 * c[1] + .0722 * c[2]; }
+  function gText(id) {
+    if (textCache[id]) return textCache[id];
+    var c = gColor(id); if (!/^#[0-9a-f]{6}$/i.test(c)) return (textCache[id] = c);
+    var ink = [0x2E, 0x21, 0x50], rgb = [1, 3, 5].map(function (i) { return parseInt(c.substr(i, 2), 16); }), out = c;
+    for (var k = 0; k <= 1.0001; k += .05) {
+      out = '#' + rgb.map(function (v, i) { return ('0' + Math.round(v + (ink[i] - v) * k).toString(16)).slice(-2); }).join('');
+      if (1.05 / (lum(out) + .05) >= 4.5) break;
+    }
+    return (textCache[id] = out);
+  }
+  function gStyle(id) { return '--gc:' + gColor(id) + ';--gt:' + gText(id); }
   /* avatar pequeño = el grupo completo en chibi (se ve entero, sin recortes) */
   // los chibis van en WebP (tools/chibis_webp.js): pesan menos y el navegador no redibuja un SVG cada vez que uno se mueve
   // big = la versión grande (modo video, tarjeta para compartir); el resto usa la chica (-s.webp), que es la que se ve en pantalla
@@ -96,7 +110,9 @@
   function memberSrc(gid, mid, big) { return 'assets/chibis/' + gid + '/' + mid + (big ? '.webp' : '-s.webp'); }
   function photoOf(id) {
     var p = PHOTOS[id]; if (!p) return null;
-    return typeof p === 'string' ? { src: 'assets/photos/' + p } : { src: 'assets/photos/' + p.file, w: p.w, h: p.h };
+    if (typeof p === 'string') return { src: 'assets/photos/' + p };
+    // s: versión de 640 px para el celular; b: miniatura de 48 px para el fondo desenfocado (tools/photos_small.py)
+    return { src: 'assets/photos/' + p.file, w: p.w, h: p.h, small: p.s ? 'assets/photos/s/' + id + '.webp' : '', blur: p.b ? 'assets/photos/b/' + id + '.webp' : '' };
   }
   /* quién sale en la próxima parada: si el evento trae lineup (una unidad), solo esos */
   function lineupOf(st) {
@@ -136,7 +152,7 @@
       preview: 'Así te llegaría',
       privacy: 'No guardamos nada tuyo: tus elecciones quedan solo en este navegador y la suscripción vive en tu app.',
       privacyLink: 'Cómo usamos tus datos', privacyTitle: 'Privacidad',
-      privacy1: 'El radar no tiene cuentas, ni cookies de rastreo, ni analítica. En tu navegador (localStorage) se guardan tu ciudad, tu idioma, si silenciaste los sonidos, tu grupo favorito, qué alertas ya viste y lo que elegiste en "Recibir alertas" (grupos, tipos y país). Nada de eso sale de tu equipo.',
+      privacy1: 'El radar no tiene cuentas, ni cookies de rastreo, ni analítica. En tu navegador (localStorage) se guardan tu ciudad, tu idioma, si silenciaste los sonidos, tus grupos favoritos y tu bias, qué alertas ya viste y lo que elegiste en "Recibir alertas" (grupos, tipos y país). Nada de eso sale de tu equipo.',
       privacy2: 'Al entrar, el radar le pide tu ubicación al navegador. Si aceptas, la posición se redondea (unos 1 km) y se guarda solo en tu equipo para medir distancias; si no, usamos Bucaramanga o la ciudad que elijas. Tu ubicación nunca sale de tu equipo.',
       privacy3: 'Las fuentes se cargan desde Google Fonts. Las portadas de los estrenos vienen de Apple Music y YouTube, y el mapa de ciudad (solo si lo abres) de OpenFreeMap. Cada uno de esos servicios ve tu dirección IP, como en cualquier sitio que los use. Para borrar todo, usa "Borrar mis datos" o limpia los datos del sitio en tu navegador.',
       subDelete: 'Borrar mis elecciones', bye: 'Nos vemos en la próxima parada', footLead: 'El robot revisa giras, estrenos, avisos y redes cada 15 minutos. Tú solo vuelve cuando quieras.', howTitle: 'Cómo funciona',
@@ -163,7 +179,7 @@
       sightSample: 'Datos de ejemplo: todavía no hay conexión con las cuentas oficiales.', sightAway: 'a {km} km de ti', sightNew: '¡{n} avistamientos nuevos!', sightNew1: '¡Un avistamiento nuevo!', sightSee: 'Ver post oficial',
       sightEmpty: 'Todavía no hay avistamientos. Aparecen cuando una cuenta oficial menciona una ciudad.', tickerK: 'AVISTAMIENTOS CERCANOS', sightSource: 'Fuente: cuentas oficiales en X',
       squad: 'Toca a cada miembro', notOnTour: 'no va en esta gira', photoAlt: 'Foto oficial de {g}', withUnit: 'con {names}',
-      gpOpen: 'Ver todo', swipeHint: 'Desliza para ver los demás grupos', feedMore: 'Ver {n} más', groupsPick: 'Grupos', gpHome: 'Inicio', gpMembers: 'Miembros', gpTour: 'Gira', gpMusic: 'Música', gpSocial: 'Redes', gpSeeTour: 'Ver la gira', gpTapMember: 'Toca a un miembro para ver su perfil, su cumpleaños y sus redes.', gpAllMembers: 'Todos los miembros', gpNoPersonal: 'No tiene cuentas personales públicas; sigue al grupo en Redes.', gpLatestPosts: 'Lo último que publicaron', gpPlayHere: 'Ver aquí', gpOpenPost: 'Abrir el post', gpSource: 'fuente', gpUpcoming: 'Próximas fechas ({n} ciudades)', gpPast: 'Últimas paradas ({n})', gpNoDates: 'Sin fechas anunciadas por ahora.', gpNoPosts: 'Todavía no hay posts guardados; el robot los trae solo.', gpMemberAccounts: 'Cuentas de los miembros', bdayToday: 'Hoy cumple {name}', bdayIsToday: '¡cumple hoy!', bdayIn: 'cumple en {n} días', bdayTurnsToday: '¡hoy cumple {n}!', bdayAgeIn: '{age} años · cumple en {n} días', regCo: 'Colombia', regLatam: 'Latinoamérica y el Caribe', regNa: 'Estados Unidos y Canadá', regEu: 'Europa', regAsia: 'Asia, Oceanía y Medio Oriente', listen: 'Escúchalos en', nextRelease: 'Próximo estreno', relToday: '¡Sale hoy!', relNew: 'Nuevo', relAnn: 'anuncio oficial', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
+      gpOpen: 'Ver todo', swipeHint: 'Desliza para ver los demás grupos', feedMore: 'Ver {n} más', groupsPick: 'Grupos', gpHome: 'Inicio', gpMembers: 'Miembros', gpTour: 'Gira', gpMusic: 'Música', gpSocial: 'Redes', gpSeeTour: 'Ver la gira', gpTapMember: 'Toca a un miembro para ver su perfil, su cumpleaños y sus redes.', gpAllMembers: 'Todos los miembros', gpNoPersonal: 'No tiene cuentas personales públicas; sigue al grupo en Redes.', gpLatestPosts: 'Lo último que publicaron', gpPlayHere: 'Ver aquí', gpOpenPost: 'Abrir el post', gpPhoto: 'Foto nueva', myBias: 'Mi bias', makeBias: 'Hacerle mi bias', biasSet: '{name} es tu bias 💜', nearCity: '¡Vienen a tu ciudad!', nearYou: '¡Vienen cerca de ti!', gpSource: 'fuente', gpUpcoming: 'Próximas fechas ({n} ciudades)', gpPast: 'Últimas paradas ({n})', gpNoDates: 'Sin fechas anunciadas por ahora.', gpNoPosts: 'Todavía no hay posts guardados; el robot los trae solo.', gpMemberAccounts: 'Cuentas de los miembros', bdayToday: 'Hoy cumple {name}', bdayIsToday: '¡cumple hoy!', bdayIn: 'cumple en {n} días', bdayTurnsToday: '¡hoy cumple {n}!', bdayAgeIn: '{age} años · cumple en {n} días', regCo: 'Colombia', regLatam: 'Latinoamérica y el Caribe', regNa: 'Estados Unidos y Canadá', regEu: 'Europa', regAsia: 'Asia, Oceanía y Medio Oriente', listen: 'Escúchalos en', nextRelease: 'Próximo estreno', relToday: '¡Sale hoy!', relNew: 'Nuevo', relAnn: 'anuncio oficial', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
       stMembers: 'miembros', stDebutK: 'debut', stListeners: 'oyentes mensuales en Spotify', stPeak: 'récord de oyentes mensuales', stStreams: 'reproducciones en Spotify',
       stTopSong: 'su canción más escuchada · {n} reproducciones', stTopSongK: 'su canción más escuchada', stSubs: 'suscriptores en YouTube', stAgency: 'Agencia',
       stSource: 'Números de Spotify vía kworb.net, se actualizan solos una vez al día.',
@@ -205,7 +221,7 @@
       preview: 'This is how it arrives',
       privacy: 'We keep nothing of yours: your choices stay in this browser and the subscription lives in your app.',
       privacyLink: 'How we use your data', privacyTitle: 'Privacy',
-      privacy1: 'The radar has no accounts, no tracking cookies and no analytics. Your browser (localStorage) keeps your city, your language, whether you muted sounds, your favorite group, which alerts you already saw and what you picked in "Get alerts" (groups, types and country). None of it leaves your device.',
+      privacy1: 'The radar has no accounts, no tracking cookies and no analytics. Your browser (localStorage) keeps your city, your language, whether you muted sounds, your favorite groups and your bias, which alerts you already saw and what you picked in "Get alerts" (groups, types and country). None of it leaves your device.',
       privacy2: 'When you open it, the radar asks your browser for your location. If you allow it, the position is rounded (about 1 km) and stored only on your device to measure distances; if not, we use Bucaramanga or the city you choose. Your location never leaves your device.',
       privacy3: 'Fonts load from Google Fonts. Release covers come from Apple Music and YouTube, and the city map (only if you open it) from OpenFreeMap. Each of those services sees your IP address, like on any site that uses them. To erase everything, use "Delete my data" or clear this site\'s data in your browser.',
       subDelete: 'Delete my choices', bye: 'See you at the next stop', footLead: 'The robot checks tours, releases, notices and socials every 15 minutes. Just come back whenever you like.', howTitle: 'How it works',
@@ -228,11 +244,11 @@
       installed: 'Radar installed', tapToStart: 'Tap to start',
       zoomIn: 'Zoom in', zoomOut: 'Zoom out', centerMe: 'Center on me', geoLooking: 'Finding you...', geoDenied: 'We could not read your location. Using Bucaramanga, you can change it in "Your city".',
       geoOk: 'Using your location, near {city}', geoNear: 'near {city}', geoNote: 'No location permission: measuring from Bucaramanga.', retry: 'Try again', youRef: 'you',
-      sightTitle: 'Sightings near you', sightRecent: 'Newest', sightNear: 'Nearest to me', sightLead: 'Official group posts that mention a city: newest first (or nearest, if you prefer). City level only, never hotels, airports or exact places.',
+      sightTitle: 'Nearby sightings', sightRecent: 'Newest', sightNear: 'Nearest to me', sightLead: 'Official group posts that mention a city: newest first (or nearest, if you prefer). City level only, never hotels, airports or exact places.',
       sightSample: 'Sample data: not connected to the official accounts yet.', sightAway: '{km} km from you', sightNew: '{n} new sightings!', sightNew1: 'A new sighting!', sightSee: 'See official post',
-      sightEmpty: 'No sightings yet. They show up when an official account mentions a city.', tickerK: 'SIGHTINGS NEAR YOU', sightSource: 'Source: official accounts on X',
+      sightEmpty: 'No sightings yet. They show up when an official account mentions a city.', tickerK: 'NEARBY SIGHTINGS', sightSource: 'Source: official accounts on X',
       squad: 'Tap each member', notOnTour: 'not on this tour', photoAlt: 'Official photo of {g}', withUnit: 'with {names}',
-      gpOpen: 'See all', swipeHint: 'Swipe to see the other groups', feedMore: 'See {n} more', groupsPick: 'Groups', gpHome: 'Home', gpMembers: 'Members', gpTour: 'Tour', gpMusic: 'Music', gpSocial: 'Social', gpSeeTour: 'See the tour', gpTapMember: 'Tap a member to see their profile, birthday and accounts.', gpAllMembers: 'All members', gpNoPersonal: 'No public personal accounts; follow the group under Social.', gpLatestPosts: 'Latest posts', gpPlayHere: 'Watch here', gpOpenPost: 'Open the post', gpSource: 'source', gpUpcoming: 'Upcoming dates ({n} cities)', gpPast: 'Last stops ({n})', gpNoDates: 'No dates announced for now.', gpNoPosts: 'No posts saved yet; the robot brings them on its own.', gpMemberAccounts: 'Members\' accounts', bdayToday: "It's {name}'s birthday", bdayIsToday: 'birthday today!', bdayIn: 'birthday in {n} days', bdayTurnsToday: 'turns {n} today!', bdayAgeIn: '{age} years old · birthday in {n} days', regCo: 'Colombia', regLatam: 'Latin America and the Caribbean', regNa: 'United States and Canada', regEu: 'Europe', regAsia: 'Asia, Oceania and Middle East', listen: 'Listen on', nextRelease: 'Next release', relToday: 'Out today!', relNew: 'New', relAnn: 'official announcement', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
+      gpOpen: 'See all', swipeHint: 'Swipe to see the other groups', feedMore: 'See {n} more', groupsPick: 'Groups', gpHome: 'Home', gpMembers: 'Members', gpTour: 'Tour', gpMusic: 'Music', gpSocial: 'Social', gpSeeTour: 'See the tour', gpTapMember: 'Tap a member to see their profile, birthday and accounts.', gpAllMembers: 'All members', gpNoPersonal: 'No public personal accounts; follow the group under Social.', gpLatestPosts: 'Latest posts', gpPlayHere: 'Watch here', gpOpenPost: 'Open the post', gpPhoto: 'New photo', myBias: 'My bias', makeBias: 'Make them my bias', biasSet: '{name} is your bias 💜', nearCity: 'Coming to your city!', nearYou: 'Coming near you!', gpSource: 'source', gpUpcoming: 'Upcoming dates ({n} cities)', gpPast: 'Last stops ({n})', gpNoDates: 'No dates announced for now.', gpNoPosts: 'No posts saved yet; the robot brings them on its own.', gpMemberAccounts: 'Members\' accounts', bdayToday: "It's {name}'s birthday", bdayIsToday: 'birthday today!', bdayIn: 'birthday in {n} days', bdayTurnsToday: 'turns {n} today!', bdayAgeIn: '{age} years old · birthday in {n} days', regCo: 'Colombia', regLatam: 'Latin America and the Caribbean', regNa: 'United States and Canada', regEu: 'Europe', regAsia: 'Asia, Oceania and Middle East', listen: 'Listen on', nextRelease: 'Next release', relToday: 'Out today!', relNew: 'New', relAnn: 'official announcement', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
       stMembers: 'members', stDebutK: 'debut', stListeners: 'Spotify monthly listeners', stPeak: 'monthly listeners record', stStreams: 'Spotify streams',
       stTopSong: 'their most streamed song · {n} streams', stTopSongK: 'their most streamed song', stSubs: 'YouTube subscribers', stAgency: 'Agency',
       stSource: 'Spotify numbers via kworb.net, updated automatically once a day.',
@@ -275,7 +291,7 @@
     'Bogotá': 'Bogota', 'Medellín': 'Medellin', 'São Paulo': 'São Paulo', 'Macao': 'Macau', 'Milán': 'Milan', 'Ámsterdam': 'Amsterdam', 'Berlín': 'Berlin', 'Países Bajos': 'Netherlands', 'Alemania': 'Germany', 'Indonesia': 'Indonesia'
   };
   Object.keys(window.RADAR_PLACES || {}).forEach(function (k) { EN_PLACES[k] = window.RADAR_PLACES[k]; });
-  var lang = store('radar-lang') || ((navigator.language || 'es').toLowerCase().indexOf('en') === 0 ? 'en' : 'es');
+  var lang = store('radar-lang') || 'en';  // la interfaz es en inglés; español solo si la fan lo elige con el botón ES
   if (params.get('lang') === 'en' || params.get('lang') === 'es') lang = params.get('lang');
   function L() { return I18N[lang]; }
   function t(k, vars) {
@@ -413,9 +429,11 @@
   var UA = navigator.userAgent || '', IS_IOS = /iphone|ipad|ipod/i.test(UA) || (/Macintosh/.test(UA) && navigator.maxTouchPoints > 1), IS_ANDROID = /android/i.test(UA);
   function geoBlocker() { if (!window.isSecureContext) return 'insecure'; if (!navigator.geolocation) return 'unsupported'; return ''; }
   function setGeo(state, manual) {
+    var before = JSON.stringify(origin());
     geoState = state;
     if (state !== 'ok' && state !== 'asking' && originIdx === -1 && !(savedOrigin === 'geo' && geoOrigin)) originIdx = 0;
-    renderAll();
+    // si la ciudad desde donde se mide no cambió (lo normal al entrar: "falta tu permiso"), basta con el cuadro de ubicación
+    if (JSON.stringify(origin()) === before && !allT) renderLoc(); else renderSoon();
     if (manual && state !== 'ok' && state !== 'asking') toast(t('locDefault') + ' · ' + t('locWhy', { why: t(WHY[state] || 'whyUnavailable') }));
   }
   var WHY = { denied: 'whyDenied', timeout: 'whyTimeout', unavailable: 'whyUnavailable', insecure: 'whyInsecure', unsupported: 'whyUnsupported', pending: 'whyPending' };
@@ -486,14 +504,19 @@
     st.pos = st.cur ? { lat: st.cur.lat, lon: st.cur.lon, city: st.cur.city } : { lat: SEOUL.lat, lon: SEOUL.lon, city: 'Seúl', rest: true };
     return st;
   }
-  var bias = store('radar-bias') || '';
+  // grupos favoritos (pueden ser varios: una fan de BTS y de Stray Kids marca los dos) y el bias de cada grupo
+  var favs = (store('radar-bias') || '').split(',').filter(Boolean), bias = favs[0] || '';
+  function isFav(id) { return favs.indexOf(id) >= 0; }
+  var biasMem = {};
+  try { biasMem = JSON.parse(store('radar-biasmem') || '{}') || {}; } catch (e) { biasMem = {}; }
   var states = [];
   function computeStates() {
     var ms = now();
     states = data.groups.map(function (g) { return stateOf(g, ms); });
     var rank = { live: 0, next: 1, rest: 2 };
     states.sort(function (a, b) {
-      if (bias && (a.id === bias) !== (b.id === bias)) return a.id === bias ? -1 : 1;
+      if (isFav(a.id) !== isFav(b.id)) return isFav(a.id) ? -1 : 1;
+      if (isFav(a.id) && favs.indexOf(a.id) !== favs.indexOf(b.id)) return favs.indexOf(a.id) - favs.indexOf(b.id);
       if (rank[a.mode] !== rank[b.mode]) return rank[a.mode] - rank[b.mode];
       if (a.cur && b.cur) return a.cur.t - b.cur.t;
       return 0;
@@ -781,8 +804,10 @@
       } else { m.pw = el._pw; m.ph = el._ph; }
       el.style.cssText = gStyle(m.id) + ';width:' + m.pw.toFixed(1) + 'px;--bd:' + (1.9 + (i % 5) * .23).toFixed(2) + 's;--bdl:-' + (i * .37).toFixed(2) + 's';
       el._t = '';
-      el.classList.toggle('live', m.mode === 'live'); el.classList.toggle('rest', m.mode === 'rest'); el.classList.toggle('low', !!m.low);
-      el.querySelector('.pin-tag').innerHTML = esc(m.name) + (m.label ? ' <i>' + esc(m.label) + '</i>' : '');
+      el.classList.toggle('live', m.mode === 'live'); el.classList.toggle('rest', m.mode === 'rest'); el.classList.toggle('low', !!m.low); el.classList.toggle('stag', !!m.stag);
+      var tag = el.querySelector('.pin-tag');
+      tag.innerHTML = esc(m.name) + (m.label && m.mode !== 'rest' ? ' <i>' + esc(m.label) + '</i>' : '');
+      el._tw = tag.offsetWidth || m.pw;  // ancho de la etiqueta: el grupo de fotos se corre entero para que ninguna se salga
       el.setAttribute('aria-label', m.aria || m.name);
     });
     Object.keys(this.pinEls).forEach(function (id) { if (!keep[id]) { self.pinEls[id].remove(); delete self.pinEls[id]; } });
@@ -984,12 +1009,24 @@
     }
   };
   Globe.prototype.placePins = function () {
-    var self = this, zs = clamp(.85 + (self.zoom - 1) * .3, .85, 1.25);
+    var self = this, zs = clamp(.85 + (self.zoom - 1) * .3, .85, 1.25), box = {};
+    function scale(m) { return (.74 + .26 * Math.max(0, m.screen.z)) * zs * (self.starId === m.id ? 1.3 : 1) * (m.mode === 'rest' && m.alat != null && self.sel !== m.id ? .84 : 1); }
+    function inPhoto(m) { return m.alat != null && self.sel !== m.id; }
+    // nunca fuera de la pantalla: si una foto grupal queda en el borde del globo, se corre entera hacia adentro (no cada grupo por su lado)
+    this.markers.forEach(function (m) {
+      var el = self.pinEls[m.id]; if (!el || !m.screen || !m.screen.front || !inPhoto(m)) return;
+      var k = m.alat + ',' + m.alon, half = Math.max(m.pw, el._tw || 0) * scale(m) / 2, b = box[k] || (box[k] = { l: 1e9, r: -1e9 });
+      b.l = Math.min(b.l, m.screen.x - half); b.r = Math.max(b.r, m.screen.x + half);
+    });
+    Object.keys(box).forEach(function (k) {
+      var b = box[k], w = self.w - 8;
+      b.dx = b.r - b.l > w ? self.w / 2 - (b.l + b.r) / 2 : b.l < 4 ? 4 - b.l : b.r > self.w - 4 ? self.w - 4 - b.r : 0;
+    });
     this.markers.forEach(function (m) {
       var el = self.pinEls[m.id]; if (!el || !m.screen) return;
-      var s = m.screen, front = s.front, sc = (.74 + .26 * Math.max(0, s.z)) * zs * (self.starId === m.id ? 1.3 : 1);
-      // nunca fuera de la pantalla: si el grupo está en el borde del globo, la foto grupal se corre hacia adentro
-      var half = m.pw * sc / 2, cx = clamp(s.x, half + 4, Math.max(half + 4, self.w - half - 4));
+      var s = m.screen, front = s.front, sc = scale(m);
+      var half = Math.max(m.pw, el._tw || 0) * sc / 2, b = inPhoto(m) ? box[m.alat + ',' + m.alon] : null;
+      var cx = b ? s.x + (b.dx || 0) : clamp(s.x, half + 4, Math.max(half + 4, self.w - half - 4));
       var x = cx - m.pw / 2, y = s.y - m.ph * .95;
       var key = front ? (x.toFixed(1) + ',' + y.toFixed(1) + ',' + sc.toFixed(3)) : 'away';
       if (key === el._t) return;
@@ -1024,7 +1061,7 @@
       markers.push({
         id: st.id, name: st.g.name, lat: st.pos.lat, lon: st.pos.lon, color: color, mode: st.mode, label: label, list: list,
         cw: crowdLayout(Math.max(1, list.length), pinWidth()).w,
-        aria: st.g.name + ', ' + (st.mode === 'rest' ? t('rest') : city + ', ' + fmtKm(hav(o.lat, o.lon, st.pos.lat, st.pos.lon)) + ' km')
+        aria: st.g.name + (label && st.mode !== 'rest' ? ' ' + label : '') + ', ' + (st.mode === 'rest' ? t('rest') : city + ', ' + fmtKm(hav(o.lat, o.lon, st.pos.lat, st.pos.lon)) + ' km')
       });
       // ruta: de la última parada pasada a la actual, y de ahí todas las que vienen
       var ss = st.upStops.map(function (s) { return { lat: s[0].lat, lon: s[0].lon, label: place(s[0].city).split(' (')[0] }; });
@@ -1054,6 +1091,8 @@
     // grupos en la misma zona: en filas de hasta 3 (la de atrás un poco más arriba) para que nadie tape a nadie
     groups.forEach(function (gr) {
       if (gr.length === 1) return;
+      // los que descansan (zZ) van en la fila de adelante, más chicos; los que tienen show quedan atrás, con su etiqueta arriba
+      gr.sort(function (a, b) { return (a.mode === 'rest' ? 0 : 1) - (b.mode === 'rest' ? 0 : 1); });
       // centro de la región: la foto grupal se arma ahí; al elegir un grupo, vuelve a su ciudad exacta
       var cl = gr.reduce(function (a, m) { return [a[0] + m.lat / gr.length, a[1] + m.lon / gr.length]; }, [0, 0]);
       gr.forEach(function (m) { m.alat = cl[0]; m.alon = cl[1]; });
@@ -1065,6 +1104,7 @@
           m.dx = x + m.cw * .43; x += m.cw * .86;
           m.dy = -r * maxH * .62;
           m.low = gr.length > cols ? r === 0 : i % 2 === 1;
+          m.stag = row.length > 2 && i % 2 === 1;  // etiquetas en dos alturas: con 3 o más en fila no se pisan
         });
       }
     });
@@ -1211,8 +1251,8 @@
     var all = members(st.id); if (!all.length) return '';
     var on = lineupOf(st).map(function (m) { return m.id; }), unit = on.length < all.length;
     return '<div class="squad-wrap"><p class="squad-k">' + esc(t('squad')) + (unit ? ' · <b>' + esc(t('withUnit', { names: lineupOf(st).map(function (m) { return m.name; }).join(' & ') })) + '</b>' : '') + '</p><ul class="squad" data-n="' + all.length + '">' + all.map(function (m, i) {
-      var off = unit && on.indexOf(m.id) < 0, ms = memStatus(st.id, m.id), away = ms && ms.k === 'mil';
-      return '<li><button type="button" class="mem' + (off && !away ? ' off' : '') + (away ? ' away' : '') + (ms ? ' st-' + ms.k : '') + '" data-mem="' + esc(st.id + ':' + m.id) + '" data-i="' + i + '" aria-label="' + esc(m.name + (ms ? ', ' + msShort(ms) : off ? ', ' + t('notOnTour') : '')) + '" style="--dl:-' + (i * .37 % 2.6).toFixed(2) + 's">' + msBadge(ms) +
+      var off = unit && on.indexOf(m.id) < 0, ms = memStatus(st.id, m.id), away = ms && ms.k === 'mil', isB = biasMem[st.id] === m.id;
+      return '<li><button type="button" class="mem' + (off && !away ? ' off' : '') + (away ? ' away' : '') + (ms ? ' st-' + ms.k : '') + (isB ? ' is-bias' : '') + '" data-mem="' + esc(st.id + ':' + m.id) + '" data-i="' + i + '" aria-label="' + esc(m.name + (isB ? ', ' + t('myBias') : '') + (ms ? ', ' + msShort(ms) : off ? ', ' + t('notOnTour') : '')) + '" style="--dl:-' + (i * .37 % 2.6).toFixed(2) + 's">' + msBadge(ms) + (isB ? '<span class="bias-badge" aria-hidden="true">' + ICON.heart + '</span>' : '') +
         (function () { var b = bdayInfo(person(st.id, m.id)); return b && b.today ? '<span class="gp-hat" aria-hidden="true">🎂</span>' : ''; })() + '<span class="mem-say" lang="ko" aria-hidden="true">' + esc(m.ko) + '!</span><img src="' + esc(memberSrc(st.id, m.id)) + '" alt="" loading="lazy" decoding="async" draggable="false"><span class="mem-n">' + esc(m.name) + '</span></button></li>';
     }).join('') + formerList(st.id).map(function (x) {
       var back = x.ret && x.ret.official;  // si un aviso oficial dice que volvió, sale a color
@@ -1256,7 +1296,7 @@
     }).join('') + '</ul></div>';
   }
   /* datos y números: perfil + lo que sale de events.json + stats.json (iTunes y YouTube, si el robot los trajo) */
-  var groupStats = {};
+  var groupStats = ((window.RADAR_EXTRA || {}).stats || {}).groups || {};
   function fmtBig(n) {
     var en = lang === 'en', f = function (x) { return x.toLocaleString(L().locale, { maximumFractionDigits: 1 }); };
     if (n >= 1e9) return f(n / 1e9) + (en ? ' B' : ' mil M');
@@ -1284,7 +1324,7 @@
       '<ul class="st-grid">' + tiles.join('') + '</ul><p class="st-src">' + esc(t('stSource')) + '</p></details>';
   }
   /* avisos oficiales (notices.json): posts [NOTICE]/[공지] de las cuentas oficiales, casi siempre con enlace a Weverse */
-  var notices = {};
+  var notices = ((window.RADAR_EXTRA || {}).notices || {}).groups || {};
   function noticesHtml(gid) {
     var list = (notices[gid] || []).filter(function (n) { return /^https:\/\/(weverse\.io|x\.com|twitter\.com)\//.test(n.url || ''); }).slice(0, 4);
     if (!list.length) return '';
@@ -1292,13 +1332,19 @@
       return '<li><a href="' + esc(n.url) + '" target="_blank" rel="noopener noreferrer"><span class="nt-src">' + (n.weverse ? 'Weverse' : 'X') + '</span>' + esc(n.title) + '</a><small>' + esc(t('ago', { n: agoTxt(now() - Date.parse(n.when)) })) + '</small></li>';
     }).join('') + '</ul></details>';
   }
+  /* rendimiento: al cargar llegan 6 archivos de datos casi juntos; cada uno redibujaba las 10 tarjetas (~8 veces en total,
+     segundos de bloqueo en un celular de gama media). Ahora se juntan en un solo redibujo, y si el archivo no cambió no se toca nada. */
+  var cardsT = 0, allT = 0, lastJson = {}, EXTRA = window.RADAR_EXTRA || {};
+  function changed(key, j) { var s = JSON.stringify(j); if (lastJson[key] === s) return false; lastJson[key] = s; return true; }
+  function cardsSoon() { if (cardsT || allT || !(data && data.groups)) return; cardsT = setTimeout(function () { cardsT = 0; renderCards(); }, 40); }
+  function renderSoon() { if (allT) return; allT = setTimeout(function () { allT = 0; renderAll(); }, 40); }
   function pollNotices() {
     return fetch('notices.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (j) { if (j && j.groups) { notices = j.groups; if (data && data.groups) renderCards(); } }).catch(function () { /* sin avisos */ });
+      .then(function (j) { if (j && j.groups && changed('notices', j)) { notices = j.groups; cardsSoon(); } }).catch(function () { /* sin avisos */ });
   }
   function pollStats() {
     return fetch('stats.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (j) { if (j && j.groups) { groupStats = j.groups; if (data && data.groups) renderCards(); } }).catch(function () { /* sin stats: solo los datos locales */ });
+      .then(function (j) { if (j && j.groups && changed('stats', j)) { groupStats = j.groups; cardsSoon(); } }).catch(function () { /* sin stats: solo los datos locales */ });
   }
   function optTxt(o) { var p = o.split('|'); return p.length > 1 && lang === 'en' ? p[1] : p[0]; }
   function triviaHtml(gid) {
@@ -1310,6 +1356,16 @@
     }).join('') + '</ol><p class="tq-score" aria-live="polite"></p></details>';
   }
   /* venta de boletas: sticker cuando la venta está a 14 días o menos (campo opcional onsale del evento) */
+  /* el momento que más importa: una parada de la gira cerca de ti (hasta 600 km de tu ciudad) */
+  var NEAR_KM = 600;
+  function nearMeHtml(st) {
+    var o = origin(), best = null;
+    st.upStops.forEach(function (s) { var e = s[0], km = hav(o.lat, o.lon, e.lat, e.lon); if (km <= NEAR_KM && (!best || e.t < best.e.t)) best = { e: e, km: km }; });
+    if (!best) return '';
+    var d = Math.max(0, Math.ceil((best.e.t - now()) / 864e5));
+    return '<p class="near-me"><span class="ko" lang="ko">우리 도시!</span> ' + esc(t(best.km < 60 ? 'nearCity' : 'nearYou')) +
+      '<b>' + esc(place(best.e.city).split(' (')[0]) + '</b><small>' + esc(fmtDate(best.e.local_date)) + ' · ' + (d ? 'D-' + d : 'D-DAY') + (best.km >= 60 ? ' · ' + fmtKm(best.km) + ' km' : '') + '</small></p>';
+  }
   function onsaleHtml(st) {
     var ms = now(), best = null;
     st.up.forEach(function (e) { if (!e.onsale) return; var t0 = Date.parse(e.onsale); if (isNaN(t0) || t0 + 864e5 < ms || t0 - ms > 14 * 864e5) return; if (!best || t0 < best.t) best = { t: t0, e: e }; });
@@ -1322,10 +1378,10 @@
   /* próximo estreno: sale solo del catálogo de Apple Music (media.json trae los lanzamientos con fecha futura) */
   /* próximo estreno: Apple Music (media.json) o, antes de que salga ahí, el anuncio oficial (releases.json). Cambia solo con la fecha:
      antes "Próximo estreno · D-n", el día "¡Sale hoy!", y hasta 10 días después "Nuevo"; luego desaparece. */
-  var announced = [];
+  var announced = ((window.RADAR_EXTRA || {}).releases || {}).items || [];
   function pollReleases() {
     return fetch('releases.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (j) { if (j && Array.isArray(j.items)) { announced = j.items; if (data && data.groups) renderCards(); } }).catch(function () { /* sin anuncios */ });
+      .then(function (j) { if (j && Array.isArray(j.items) && changed('releases', j)) { announced = j.items; cardsSoon(); } }).catch(function () { /* sin anuncios */ });
   }
   var NEW_DAYS = 10;
   function releaseOf(gid) {
@@ -1353,7 +1409,7 @@
     h += '<div class="c-top"><div class="c-face">' + faceImg(g.id, '', '') + '</div><div class="c-id">' +
       (m.ko ? '<p class="c-ko" lang="ko">' + esc(m.ko) + '</p>' : '') + '<h3 class="c-name' + (g.name.length >= 9 && /^\S+$/.test(g.name) ? ' xlong' : g.name.length >= 7 ? ' long' : '') + '">' + esc(g.name) + '</h3>' +
       '<p class="c-tour">' + esc(tourName(g)) + '</p></div>' +
-      '<button type="button" class="bias" data-bias="' + esc(g.id) + '" aria-pressed="' + (bias === g.id) + '" aria-label="' + esc(t('bias')) + ': ' + esc(g.name) + '">' + ICON.heart + '</button></div>';
+      '<button type="button" class="bias" data-bias="' + esc(g.id) + '" aria-pressed="' + isFav(g.id) + '" aria-label="' + esc(t('bias')) + ': ' + esc(g.name) + '">' + ICON.heart + '</button></div>';
     if (st.mode === 'rest') {
       h += '<span class="c-state rest"><span class="ko" lang="ko">' + t('restKo') + '</span> ' + esc(t('rest')) + '</span>';
       if (st.last) h += '<p class="c-when">' + esc(t('lastStop')) + ': <b>' + esc(place(st.last.city)) + ', ' + esc(place(st.last.country)) + '</b> · ' + esc(fmtDate(st.last.local_date, true)) + (st.last.venue ? ' · ' + esc(st.last.venue) : '') + '</p>';
@@ -1369,7 +1425,7 @@
         (e.source === 'auto' ? ' <span class="tag">' + esc(t('toConfirm')) + '</span>' : e.status === 'anunciado' ? ' <span class="tag">' + esc(t('announced')) + '</span>' : '') +
         (e.time_tbd ? '' : '<br>' + esc(t('yourTime')) + ': ' + esc(myTime(e.t))) +
         (srcOk ? '<br><a class="src-link" href="' + esc(e.src) + '" target="_blank" rel="noopener noreferrer">' + esc(t(e.src_kind === 'news' ? 'seeNews' : 'seeNotice')) + '</a>' : '') + '</p>';
-      h += onsaleHtml(st);
+      h += onsaleHtml(st) + nearMeHtml(st);
       h += live ? '<div class="cd-live"><span class="ko" lang="ko">지금 무대 위!</span>' + esc(lang === 'en' ? 'On stage right now' : 'En el escenario ahora mismo') + '</div>' : cdTiles(e.start);
       h += '<div class="facts"><span class="km">' + fmtKm(km) + ' <small>' + esc(t('kmFrom', { city: originRef() })) + '</small></span><span class="fly">' + esc(t('flight', { h: flightH(km) })) + '</span><span class="dday">' + esc(live ? 'LIVE' : dday(e)) + '</span></div>';
     }
@@ -1386,7 +1442,8 @@
     // abajo, alineado entre tarjetas: la foto, dónde escucharlos y lo plegable (avisos, números, trivia, gira)
     h += '<div class="c-foot">';
     var ph = photoOf(g.id);
-    if (ph) h += '<figure class="polaroid"><span class="ph"><i class="ph-bg" aria-hidden="true" style="background-image:url(\'' + esc(ph.src) + '\')"></i><img src="' + esc(ph.src) + '"' + (ph.w ? ' width="' + ph.w + '" height="' + ph.h + '"' : '') + ' alt="' + esc(t('photoAlt', { g: g.name })) + '" loading="lazy" decoding="async"></span><figcaption>' + esc(g.name) + (m.fan ? ' · ' + esc(m.fan) : '') + '</figcaption></figure>';
+    if (ph) h += '<figure class="polaroid"><span class="ph"><i class="ph-bg" aria-hidden="true" style="--ph:url(\'../' + esc(ph.blur || ph.src) + '\')"></i><img src="' + esc(ph.src) + '"' +
+      (ph.small && ph.w > 640 ? ' srcset="' + esc(ph.small) + ' 640w, ' + esc(ph.src) + ' ' + ph.w + 'w" sizes="(max-width: 699px) 86vw, 420px"' : '') + (ph.w ? ' width="' + ph.w + '" height="' + ph.h + '"' : '') + ' alt="' + esc(t('photoAlt', { g: g.name })) + '" loading="lazy" decoding="async"></span><figcaption>' + esc(g.name) + (m.fan ? ' · ' + esc(m.fan) : '') + '</figcaption></figure>';
     h += listenHtml(g);
     h += statsHtml(g);
     h += triviaHtml(g.id);
@@ -1404,6 +1461,7 @@
     return h + '</div></article>';
   }
   function renderCards() {
+    if (cardsT) { clearTimeout(cardsT); cardsT = 0; }
     var open = {};
     $$('#cards details[open]').forEach(function (d) { open[d.closest('.card').getAttribute('data-g')] = 1; });
     var box = $('#cards'), sx = box.scrollLeft;
@@ -1507,6 +1565,7 @@
   }
   var sigNow = '';
   function renderAll() {
+    if (allT) { clearTimeout(allT); allT = 0; }
     computeStates();
     sigNow = modeSig();
     applyStatic();
@@ -1603,9 +1662,11 @@
     var fonts = ['400 120px Jua', '700 60px Gaegu', '700 50px "Baloo 2"', '600 40px "Baloo 2"'].map(function (f) { return document.fonts ? document.fonts.load(f) : null; });
     var ph = photoOf(id);
     return Promise.all(fonts).catch(function () { }).then(function () {
-      return Promise.all([loadImg(face(id, true).src), ph ? loadImg(ph.src).catch(function () { return null; }) : null]);
+      var bm = biasMem[id] && members(id).filter(function (x) { return x.id === biasMem[id]; })[0];
+      return Promise.all([loadImg(face(id, true).src), ph ? loadImg(ph.src).catch(function () { return null; }) : null,
+        bm ? loadImg(memberSrc(id, bm.id, true)).then(function (b) { return { img: b, name: bm.name }; }).catch(function () { return null; }) : null]);
     }).then(function (ims) {
-      var im = ims[0], pim = ims[1];
+      var im = ims[0], pim = ims[1], bim = ims[2];
       var c = document.createElement('canvas'); c.width = W; c.height = H; var x = c.getContext('2d');
       x.fillStyle = '#F4EEFF'; x.fillRect(0, 0, W, H);
       x.strokeStyle = '#E7DDFB'; x.lineWidth = 2;
@@ -1637,6 +1698,14 @@
         var cr2 = contain(im, 170, 260, 740, 560); x.drawImage(im, cr2[0], cr2[1], cr2[2], cr2[3]);
       }
       star4(x, 210, 340, 46, '#FFD84D'); star4(x, 880, 300, 34, '#FFB3D4'); star4(x, 900, 690, 28, '#FFD84D'); star4(x, 170, 720, 24, '#B9E8FF');
+      // el bias de la fan, grande en la esquina, con su etiqueta: es lo que hace suya la tarjeta
+      if (bim) {
+        var br = contain(bim.img, 770, 560, 230, 300);
+        x.save(); x.translate(br[0] + br[2] / 2, br[1] + br[3] / 2); x.rotate(.06); x.drawImage(bim.img, -br[2] / 2, -br[3] / 2, br[2], br[3]); x.restore();
+        var bt = 'my bias \u2665 ' + bim.name; x.font = '400 38px Jua, "Baloo 2"'; var bw = x.measureText(bt).width + 44;
+        x.save(); x.translate(Math.min(885, 1040 - bw / 2), 875); x.rotate(-.05); roundRect(x, -bw / 2, -30, bw, 60, 30); x.fillStyle = '#FF5FA8'; x.fill(); x.lineWidth = 5; x.strokeStyle = '#2E2150'; x.stroke();
+        x.fillStyle = '#fff'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(bt, 0, 3); x.restore();
+      }
       // textos
       x.textAlign = 'center'; x.textBaseline = 'alphabetic';
       if (m.ko) { x.font = '700 52px Gaegu'; x.fillStyle = col; x.fillText(m.ko, W / 2, 880); }
@@ -1713,11 +1782,11 @@
   function person(gid, mid) { var g = PEOPLE[gid]; return (g && g.members && g.members[mid]) || {}; }
   /* estado de cada miembro: servicio militar, regreso, contrato pendiente (assets/people.json) + lo que el robot vio en avisos y noticias (rosterwatch.json).
      Todo se calcula con la fecha de hoy: nadie tiene que editar nada el día que alguien se enlista o vuelve. */
-  var rosterWatch = [];
+  var rosterWatch = ((window.RADAR_EXTRA || {}).roster || {}).items || [];
   var BACK_DAYS = 45;
   function pollRoster() {
     return fetch('rosterwatch.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (j) { if (j && Array.isArray(j.items)) { rosterWatch = j.items; if (data && data.groups) renderCards(); if (GP.id) renderGP(); } }).catch(function () { /* sin vigilancia todavía */ });
+      .then(function (j) { if (j && Array.isArray(j.items) && changed('roster', j)) { rosterWatch = j.items; cardsSoon(); if (GP.id) renderGP(); } }).catch(function () { /* sin vigilancia todavía */ });
   }
   function isoDay(ms) { return new Date(ms + 9 * 36e5).toISOString().slice(0, 10); }
   function daysBetween(a, b) { return Math.round((Date.parse(b + 'T00:00:00Z') - Date.parse(a + 'T00:00:00Z')) / 864e5); }
@@ -1881,7 +1950,8 @@
     var id = st.id, list = members(id);
     return '<p class="gp-hint">' + esc(t('gpTapMember')) + '</p><ul class="gp-mems">' + list.map(function (mm, i) {
       var b = bdayInfo(person(id, mm.id)), ms = memStatus(id, mm.id);
-      return '<li><button type="button" class="' + (ms ? 'st-' + ms.k + (ms.k === 'mil' ? ' away' : '') : '') + '" data-gp-mem="' + esc(mm.id) + '" style="--dl:-' + (i * .41 % 2.6).toFixed(2) + 's">' + (b && b.today ? '<span class="gp-hat" aria-hidden="true">🎂</span>' : '') + msBadge(ms) +
+      var isB = biasMem[id] === mm.id;
+      return '<li><button type="button" class="' + (ms ? 'st-' + ms.k + (ms.k === 'mil' ? ' away' : '') : '') + (isB ? ' is-bias' : '') + '" data-gp-mem="' + esc(mm.id) + '"' + (isB ? ' aria-label="' + esc(mm.name + ', ' + t('myBias')) + '"' : '') + ' style="--dl:-' + (i * .41 % 2.6).toFixed(2) + 's">' + (b && b.today ? '<span class="gp-hat" aria-hidden="true">🎂</span>' : '') + msBadge(ms) + (isB ? '<span class="bias-badge" aria-hidden="true">' + ICON.heart + '</span>' : '') +
         '<img src="' + esc(memberSrc(id, mm.id)) + '" alt="" loading="lazy" decoding="async"><b>' + esc(mm.name) + '</b><span lang="ko">' + esc(mm.ko || '') + '</span>' +
         (ms ? '<small class="ms-s">' + esc(msShort(ms)) + '</small>' : b ? '<small>' + esc(b.today ? t('bdayIsToday') : t('bdayIn', { n: b.days })) + '</small>' : '') + '</button></li>';
     }).join('') + '</ul>' + milHtml(id) + formerHtml(id);
@@ -1894,7 +1964,8 @@
       '<div><h3>' + esc(mm.name) + ' <span lang="ko">' + esc(mm.ko || '') + '</span></h3>' +
       (b ? '<p class="gp-bd' + (b.today ? ' today' : '') + '">🎂 ' + esc(fmtDate(b.date.replace(/^\d{4}/, String(new Date(now()).getFullYear())), false).replace(/,? \d{4}$/, '')) + ' · ' +
         esc(b.today ? t('bdayTurnsToday', { n: b.turning }) : t('bdayAgeIn', { age: b.age, n: b.days })) + '</p>' : '') +
-      msLong(id, mid) + '<div class="soc-row">' + (socialLinks(p) || '<p class="gp-muted">' + esc(t('gpNoPersonal')) + '</p>') + '</div></div></section>';
+      msLong(id, mid) + '<button type="button" class="chip-btn bias-mem" data-biasmem="' + esc(id + ':' + mid) + '" aria-pressed="' + (biasMem[id] === mid) + '">' + ICON.heart + '<span>' + esc(biasMem[id] === mid ? t('myBias') : t('makeBias')) + '</span></button>' +
+      '<div class="soc-row">' + (socialLinks(p) || '<p class="gp-muted">' + esc(t('gpNoPersonal')) + '</p>') + '</div></div></section>';
     var posts = [].concat((feed.tiktok || []).map(function (x) { return Object.assign({ k: 'tt' }, x); }), (feed.instagram || []).map(function (x) { return Object.assign({ k: 'ig' }, x); }))
       .sort(function (a, c) { return a.when < c.when ? 1 : -1; }).slice(0, 6);
     if (posts.length) h += '<section class="gp-sec"><h4>' + esc(t('gpLatestPosts')) + '</h4>' + postList(posts) + '</section>';
@@ -1902,13 +1973,19 @@
     h += '<div class="gp-others">' + others.map(function (x) { return '<button type="button" data-gp-mem="' + esc(x.id) + '" aria-label="' + esc(x.name) + '"><img src="' + esc(memberSrc(id, x.id)) + '" alt="" loading="lazy"></button>'; }).join('') + '</div>';
     return h;
   }
+  /* Instagram manda como título su texto automático ("Photo by Jin of BTS on October 12, 2026. May be an image of...");
+     eso no es lo que el integrante escribió, así que se quita y queda solo su texto (o "New photo" si no escribió nada) */
+  function postText(x) {
+    return String(x.title || '').replace(/^(?:Photo|Video|Reel)s?(?: shared)? by .*? on [A-Z][a-z]+ \d{1,2}, \d{4}(?: tagging [^.]*)?\.\s*/, '')
+      .replace(/(?:^|\s+)May be (?:an? )?[\w -]*?(?:image|video|graphic|illustration|meme|photo|cartoon|text)\b[^.]*\.?\s*$/i, '').trim();
+  }
   function postList(posts) {
     return '<ul class="gp-posts">' + posts.map(function (x) {
       var vid = x.k === 'tt' && /\/video\/(\d+)/.exec(x.url || '');
       var ok = /^https:\/\/(www\.)?(tiktok\.com|instagram\.com|x\.com|twitter\.com)\//.test(x.url || '');
       if (!ok) return '';
       return '<li class="gp-post p-' + x.k + '"><div class="gp-post-h"><span class="soc-mini soc-' + x.k + '">' + SOC_ICON[x.k] + '</span><time>' + esc(t('ago', { n: agoTxt(now() - Date.parse(x.when)) })) + '</time></div>' +
-        '<p>' + esc(x.title || '') + '</p>' + (vid ? '<button type="button" class="chip-btn" data-tt="' + esc(vid[1]) + '">▶ ' + esc(t('gpPlayHere')) + '</button> ' : '') +
+        '<p>' + esc(postText(x) || (x.k === 'ig' ? '📷 ' + t('gpPhoto') : '')) + '</p>' + (vid ? '<button type="button" class="chip-btn" data-tt="' + esc(vid[1]) + '">▶ ' + esc(t('gpPlayHere')) + '</button> ' : '') +
         '<a class="src-link" href="' + esc(x.url) + '" target="_blank" rel="noopener noreferrer">' + esc(t('gpOpenPost')) + '</a></li>';
     }).join('') + '</ul>';
   }
@@ -2011,7 +2088,7 @@
     var saved = loadForm() || {};
     if (renderForm.done) saved = { groups: $$('#fGroups input:checked').map(function (i) { return i.value; }), cats: $$('#fTypes input:checked').map(function (i) { return i.value; }),
       countryOn: $('#fCountryOn').checked, country: $('#fCountry').value, weekly: $('#fWeekly').checked, ch: form.ch };
-    var gs = saved.groups || (bias ? [bias] : []);
+    var gs = saved.groups || favs.slice();
     $('#fGroups').innerHTML = data.groups.map(function (g) {
       return '<label class="chip" style="' + gStyle(g.id) + '"><input type="checkbox" name="g" value="' + esc(g.id) + '"' + (gs.indexOf(g.id) >= 0 ? ' checked' : '') + '><span>' + esc(g.name) + '</span></label>';
     }).join('');
@@ -2155,7 +2232,7 @@
     return fetch('events.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (j) {
       if (!j || !Array.isArray(j.groups)) throw new Error('formato');
       feedOk = true; lastCheck = Date.now();
-      if (JSON.stringify(j) !== JSON.stringify(data)) { data = j; renderAll(); } else renderMeta();
+      if (JSON.stringify(j) !== JSON.stringify(data)) { data = j; renderSoon(); } else renderMeta();
     }).catch(function () { feedOk = false; renderMeta(); });
   }
   var seenRaw = store('radar-seen-alerts'), seen = {};
@@ -2253,7 +2330,7 @@
 
 
   /* ================= estrenos y videos (media.json: iTunes + YouTube RSS) ================= */
-  var media = [], mediaType = store('radar-media') || 'music';
+  var media = ((window.RADAR_EXTRA || {}).media || {}).items || [], mediaType = store('radar-media') || 'music';
   if (['music', 'video', 'all'].indexOf(mediaType) < 0) mediaType = 'music';
   /* qué tipo de video es, por el título: un MV va con la música; vlogs, teasers y shorts van en Videos */
   function vkind(title) {
@@ -2271,7 +2348,7 @@
   function okLink(u) { return /^https:\/\/(music\.apple\.com|www\.youtube\.com)\//.test(u || '') ? u : ''; }
   function pollMedia() {
     return fetch('media.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (j) { if (j && Array.isArray(j.items)) { media = j.items; renderMedia(); if (data && data.groups) renderCards(); } }).catch(function () { renderMedia(); });
+      .then(function (j) { if (j && Array.isArray(j.items) && changed('media', j)) { media = j.items; renderMedia(); cardsSoon(); } }).catch(function () { renderMedia(); });
   }
   function renderMedia() {
     var el = $('#media'); if (!el) return;
@@ -2485,7 +2562,7 @@
 
   /* ================= PWA ================= */
   var deferredInstall = null;
-  var isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent) && !window.MSStream;
+  var isIOS = IS_IOS;
   var standalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
   window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); deferredInstall = e; $('#installBtn').hidden = false; });
   window.addEventListener('appinstalled', function () { $('#installBtn').hidden = true; toast(t('installed')); });
@@ -2503,7 +2580,7 @@
   window.addEventListener('pointerdown', function () { lastKeyboard = false; }, true);
 
   document.addEventListener('click', function (ev) {
-    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-geo-help],[data-geo-later],[data-zoom],[data-spin],[data-center-me],[data-city],[data-city-close],[data-cmap],[data-mfilter],[data-ssort],[data-gpick],[data-feedall],[data-copy],[data-topic],[data-gp-close],[data-gp-tab],[data-gp-mem],[data-gp-hop],[data-yt],[data-tt],[data-gp-open],#sightBubble,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,.topnav a') : null;
+    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-biasmem],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-geo-help],[data-geo-later],[data-zoom],[data-spin],[data-center-me],[data-city],[data-city-close],[data-cmap],[data-mfilter],[data-ssort],[data-gpick],[data-feedall],[data-copy],[data-topic],[data-gp-close],[data-gp-tab],[data-gp-mem],[data-gp-hop],[data-yt],[data-tt],[data-gp-open],#sightBubble,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,.topnav a') : null;
     if (!el) { if (ev.target === $('#party')) closeParty(); return; }
     if (el.hasAttribute('data-pick')) { if (view !== 'globe' && el.hasAttribute('data-top')) setView('globe'); pick(el.getAttribute('data-pick'), { top: el.hasAttribute('data-top') }); return; }
     if (el.hasAttribute('data-unsel')) { unselect(); return; }
@@ -2534,10 +2611,21 @@
     if (el.hasAttribute('data-share')) { doShare(el.getAttribute('data-share')); return; }
     if (el.hasAttribute('data-ics')) { doIcs(el.getAttribute('data-ics')); return; }
     if (el.hasAttribute('data-goto')) { ev.preventDefault(); var c = document.getElementById('card-' + el.getAttribute('data-goto')); if (c) { c.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); setTimeout(function () { flash(c); }, reduce ? 0 : 450); } Sound.play('tap'); return; }
+    if (el.hasAttribute('data-biasmem')) {
+      var bm = el.getAttribute('data-biasmem').split(':'), was = biasMem[bm[0]] === bm[1];
+      if (was) delete biasMem[bm[0]]; else biasMem[bm[0]] = bm[1];
+      store('radar-biasmem', JSON.stringify(biasMem));
+      Sound.play(was ? 'toggle' : 'heart');
+      renderGP(); cardsSoon();
+      if (!was) { var nb = $('.bias-mem'); if (nb) { flash(nb); if (lastKeyboard) nb.focus({ preventScroll: true }); } toast(t('biasSet', { name: (members(bm[0]).filter(function (x) { return x.id === bm[1]; })[0] || {}).name || '' })); }
+      return;
+    }
     if (el.hasAttribute('data-bias')) {
-      var id = el.getAttribute('data-bias'); bias = bias === id ? '' : id; store('radar-bias', bias || null);
-      Sound.play(bias ? 'heart' : 'toggle'); renderAll();
-      var nc = document.getElementById('card-' + id); if (bias && nc) { nc.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'nearest' }); flash(nc); }
+      var id = el.getAttribute('data-bias'), on = !isFav(id);
+      if (on) favs.push(id); else favs.splice(favs.indexOf(id), 1);
+      bias = favs[0] || ''; store('radar-bias', favs.join(',') || null);
+      Sound.play(on ? 'heart' : 'toggle'); renderAll();
+      var nc = document.getElementById('card-' + id); if (on && nc) { nc.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'nearest', inline: 'start' }); flash(nc); }
       return;
     }
     if (el.hasAttribute('data-video')) { Sound.play('pop'); openVideo(); return; }
@@ -2548,7 +2636,7 @@
     if (el.hasAttribute('data-party-close')) { closeParty(); return; }
     if (el.hasAttribute('data-vreplay')) { $('#video').classList.remove('show-ui'); runVideo(); return; }
     if (el.hasAttribute('data-vclose')) { closeVideo(); return; }
-    if (el.hasAttribute('data-close-sheet')) { $('#iosSheet').hidden = true; return; }
+    if (el.hasAttribute('data-close-sheet')) { $('#iosSheet').hidden = true; if (lastKeyboard) $('#installBtn').focus({ preventScroll: true }); return; }
     if (el.closest('.topnav')) {
       var target = document.getElementById((el.getAttribute('href') || '').slice(1));
       if (target) { ev.preventDefault(); navLock = Date.now() + 900; navSet(target.id); target.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); }
@@ -2561,7 +2649,7 @@
         break;
       case 'installBtn':
         if (deferredInstall) { deferredInstall.prompt(); deferredInstall.userChoice.then(function () { deferredInstall = null; }); }
-        else if (isIOS) $('#iosSheet').hidden = false;
+        else if (isIOS) { $('#iosSheet').hidden = false; $('#iosSheet [data-close-sheet]').focus({ preventScroll: true }); }
         break;
       case 'geoBtn': locate(true); break;
       case 'refresh': Sound.play('tap'); poll(); pollFeed(); break;
@@ -2689,7 +2777,8 @@
       evenCards();
     }, 120);
   });
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { evenCards(); });
+  // con la fuente real los textos cambian de ancho: se vuelven a medir las tarjetas y la píldora del menú (antes quedaba "Worl")
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { evenCards(); if (navCur) navSet(navCur, true); });
   function pinWidth() { return innerWidth < 600 ? 80 : innerWidth < 1024 ? 96 : 112; }
 
   /* ================= firma ================= */
@@ -2700,11 +2789,13 @@
   console.info('%cRadar K-pop%c · made with fan love · design and code: Cristian Pérez · https://cristianperez.me', 'font-weight:700;color:#FF5FA8', '');
 
   /* ================= arranque ================= */
+  function startState() { return states.filter(function (s) { return isFav(s.id) && s.pos; })[0] || (states[0] && states[0].pos ? states[0] : null); }
   $('#muteBtn').setAttribute('aria-pressed', String(Sound.muted));
   computeStates();
   globe = new Globe($('#globe'), $('#pins'), {
     fit: .4, cy: .47, spin: 5,
-    lon: (states[0] && states[0].pos ? states[0].pos.lon : -60) + 25, lat: 8,
+    // arranca mirando al grupo favorito (o al primero de la lista), con su latitud un poco abajo del centro para que su foto grupal quepa
+    lon: (startState() ? startState().pos.lon : -60) + 25, lat: startState() ? clamp(startState().pos.lat + 8, -25, 42) : 8,
     onPick: function (id) { pick(id); },
     onSight: function (sid) { showSight(sid); },
     onZoom: function (z) {
@@ -2724,16 +2815,20 @@
   observe();
   var cardsBox = $('#cards'); if (cardsBox) cardsBox.addEventListener('scroll', onCardsScroll, { passive: true });
   setInterval(function () { tick(false); }, 1000);
+  // lo que ya vino dentro de la página no se vuelve a dibujar si el archivo llega igual
+  ['stats', 'notices', 'releases', 'roster', 'media'].forEach(function (k) { if (EXTRA[k]) lastJson[k] = JSON.stringify(EXTRA[k]); });
   poll(); pollFeed(); pollSights(); pollMedia(); pollStats(); pollNotices(); pollSocial(); pollRoster(); pollReleases();
-  setInterval(poll, 60000);
-  setInterval(pollFeed, 60000);
-  setInterval(pollSights, 60000);
-  setInterval(pollMedia, 15 * 60000);
-  setInterval(pollStats, 60 * 60000);
-  setInterval(pollNotices, 15 * 60000);
-  setInterval(pollSocial, 30 * 60000);
-  setInterval(pollRoster, 60 * 60000);
-  setInterval(pollReleases, 30 * 60000);
+  // con la pestaña escondida no se pide nada (batería y datos); al volver, visibilitychange pide lo del minuto una vez
+  function whenSeen(fn) { return function () { if (!document.hidden) fn(); }; }
+  setInterval(whenSeen(poll), 60000);
+  setInterval(whenSeen(pollFeed), 60000);
+  setInterval(whenSeen(pollSights), 60000);
+  setInterval(whenSeen(pollMedia), 15 * 60000);
+  setInterval(whenSeen(pollStats), 60 * 60000);
+  setInterval(whenSeen(pollNotices), 15 * 60000);
+  setInterval(whenSeen(pollSocial), 30 * 60000);
+  setInterval(whenSeen(pollRoster), 60 * 60000);
+  setInterval(whenSeen(pollReleases), 30 * 60000);
   // ubicación real: se pide al entrar, salvo que hayas elegido una ciudad a mano
   startGeo();
   if (params.get('demo') === 'alert') setTimeout(function () { $('#testParty').click(); }, 1200);
