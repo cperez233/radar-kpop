@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-16T21:48:00Z",
+ "updated_at": "2026-10-17T07:45:50Z",
  "alerts": [
   {
    "type": "latam",
@@ -311,11 +311,14 @@
    "group": "ateez",
    "group_name": "ATEEZ",
    "title": "Anuncio oficial de ATEEZ: comeback",
-   "body": "«[📷] ATEEZ(에이티즈) GOLDEN HOUR : Part.6 Concept Photo 1 2026. 11. 13 2PM RELEASE 📎Pre-save/add: https://ateez.sng.to/golden-hour-part-6 #ATEEZ ...» (ATEEZ en X).",
+   "body": "«[📷] ATEEZ Golden Hour: Part.6 Concept Photo 1 2026. 11. 13 2pm release Pre-save📎/add: https://ateez.sng.to/golden-hour-part-6 # ATEEZ...» (ATEEZ en X).",
    "title_en": "Official ATEEZ news: comeback",
-   "body_en": "\"[📷] ATEEZ(에이티즈) GOLDEN HOUR : Part.6 Concept Photo 1 2026. 11. 13 2PM RELEASE 📎Pre-save/add: https://ateez.sng.to/golden-hour-part-6 #ATEEZ ...\" (ATEEZ en X).",
+   "body_en": "«[📷] ATEEZ golden hour: Part.6 Concept Photo 1 2026. 11. 13 2pm release Pre-save📎/add: https://ateez.sng.to/golden-hour-part-6 # ATEEZ...» (ATEEZ en X).",
    "when": "2026-10-16T08:48:52Z",
-   "url": "https://x.com/ATEEZofficial/status/2110747526156485085"
+   "url": "https://x.com/ATEEZofficial/status/2110747526156485085",
+   "src_lang": "ko",
+   "body_orig": "«[📷] ATEEZ(에이티즈) GOLDEN HOUR : Part.6 Concept Photo 1 2026. 11. 13 2PM RELEASE 📎Pre-save/add: https://ateez.sng.to/golden-hour-part-6 #ATEEZ ...» (ATEEZ en X).",
+   "auto": true
   },
   {
    "type": "new_date",
@@ -372,11 +375,14 @@
    "group": "twice",
    "group_name": "TWICE",
    "title": "Anuncio oficial de TWICE: comeback",
-   "body": "«TWICE Special Vinyl <THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE OUT NOW! Released 🎧 Melon https://kko.to/vSrXWfugKb FLO https://www.music-flo.c...» (TWICE en X).",
+   "body": "«TWICE Special Vinyl <THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE OUT NOW! Lanzado 🎧 Melon https://kko.to/vSrXWfugKb FLO https://www.music-flo.c...» (DOS VECES en X).",
    "title_en": "Official TWICE news: comeback",
-   "body_en": "\"TWICE Special Vinyl <THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE OUT NOW! Released 🎧 Melon https://kko.to/vSrXWfugKb FLO https://www.music-flo.c...\" (TWICE en X).",
+   "body_en": "«TWICE Special Vinyl <THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE OUT NOW! Released 🎧 Melon https://kko.to/vSrXWfugKb FLO https://www.music-flo.c...» (TWICE en X).",
    "when": "2026-10-16T07:28:52Z",
-   "url": "https://x.com/JYPETWICE/status/2110951048559104010"
+   "url": "https://x.com/JYPETWICE/status/2110951048559104010",
+   "src_lang": "en",
+   "body_orig": "«TWICE Special Vinyl <THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE OUT NOW! Released 🎧 Melon https://kko.to/vSrXWfugKb FLO https://www.music-flo.c...» (TWICE en X).",
+   "auto": true
   },
   {
    "type": "official",
