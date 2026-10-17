@@ -1,5 +1,21 @@
 [
  {
+  "version": "4.17",
+  "date": "2026-10-17",
+  "title_es": "Cada lanzamiento, con la cara de tu app",
+  "title_en": "Each release, with your app's look",
+  "es": [
+   "En la pestaña Música de cada grupo, cada lanzamiento se carga con la interfaz de tu app: Spotify y Apple Music con su reproductor, YouTube Music con el MV.",
+   "Si tu app aún no lo tiene (o todavía no sale), aparece su tarjeta con portada, fecha y las canciones con avances de 30 segundos para escuchar ahí mismo.",
+   "Spotify: arreglado el enlace directo (Spotify bajó el límite de su API este año)."
+  ],
+  "en": [
+   "In each group's Music tab, every release loads with your app's look: Spotify and Apple Music with their player, YouTube Music with the MV.",
+   "If your app doesn't have it yet (or it isn't out), you get its card with cover, date and the songs with 30-second previews to play right there.",
+   "Spotify: direct links fixed (Spotify lowered its API limit this year)."
+  ]
+ },
+ {
   "version": "4.16",
   "date": "2026-10-17",
   "title_es": "Escucha sin salir del radar",

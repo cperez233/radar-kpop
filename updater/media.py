@@ -17,6 +17,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
@@ -30,6 +31,8 @@ from status import report  # noqa: E402
 OUT = ROOT / "media.json"
 UA = {"User-Agent": "radar-kpop (+https://radar-kpop.vercel.app)"}
 PER_GROUP = 3
+GROUP_NAMES = {"bts": "BTS", "skz": "Stray Kids", "twice": "TWICE", "blackpink": "BLACKPINK", "seventeen": "SEVENTEEN", "enhypen": "ENHYPEN",
+               "newjeans": "NewJeans", "ateez": "ATEEZ", "cortis": "CORTIS", "lngshot": "LNGSHOT"}
 
 
 def get(url: str) -> bytes:
@@ -64,6 +67,21 @@ def music(gid: str, artist_id: int) -> list[dict]:
     return out[:PER_GROUP]
 
 
+def tracks(item: dict) -> list[dict]:
+    """The release's songs with their free 30-second previews (iTunes), for the page's own player."""
+    cid = re.search(r"/(\d+)$", item["url"])
+    if not cid:
+        return []
+    body = json.loads(get(f"https://itunes.apple.com/lookup?id={cid.group(1)}&entity=song&country=us&limit=20"))
+    out = []
+    for r in body.get("results", []):
+        if r.get("wrapperType") == "track" and r.get("kind") == "song":
+            p = r.get("previewUrl", "")
+            out.append({"n": r.get("trackName", ""), "ms": r.get("trackTimeMillis", 0),
+                        "p": p if p.startswith("https://audio-ssl.itunes.apple.com/") else ""})
+    return out[:14]
+
+
 def spotify_token() -> str:
     cid, sec = os.environ.get("SPOTIFY_CLIENT_ID", "").strip(), os.environ.get("SPOTIFY_CLIENT_SECRET", "").strip()
     if not (cid and sec):
@@ -74,13 +92,36 @@ def spotify_token() -> str:
         return json.loads(r.read())["access_token"]
 
 
-def spotify_albums(token: str, artist_id: str) -> list[dict]:
-    url = f"https://api.spotify.com/v1/artists/{artist_id}/albums?include_groups=album,single&market=US&limit=50"
+def spotify_get(token: str, url: str) -> dict:
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}", **UA})
-    with urllib.request.urlopen(req, timeout=20) as r:
-        body = json.loads(r.read())
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return json.loads(r.read())
+    except urllib.error.HTTPError as exc:
+        # Spotify explica el error en el cuerpo: se guarda para el vigilante en vez de un "400" a secas
+        raise RuntimeError(f"HTTP {exc.code}: {exc.read()[:200].decode('utf-8', 'replace')}") from None
+
+
+def spotify_albums(token: str, artist_id: str) -> list[dict]:
+    """Albums and singles of the artist, newest first. Pages of 10 (the 2026 limit for apps in development mode)."""
+    out, url = [], f"https://api.spotify.com/v1/artists/{artist_id}/albums?include_groups=album,single&limit=10"
+    for _ in range(3):
+        body = spotify_get(token, url)
+        out += [{"key": base_title(a.get("name", "")), "date": a.get("release_date", ""), "url": (a.get("external_urls") or {}).get("spotify", "")}
+                for a in body.get("items", []) if (a.get("external_urls") or {}).get("spotify", "").startswith("https://open.spotify.com/")]
+        url = body.get("next")
+        if not url:
+            break
+        time.sleep(.2)
+    return out
+
+
+def spotify_search(token: str, item: dict, artist: str) -> list[dict]:
+    """Fallback: search the release by name and artist."""
+    q = urllib.parse.quote(f'album:{item["title"]} artist:{artist}')
+    body = spotify_get(token, f"https://api.spotify.com/v1/search?type=album&limit=5&q={q}")
     return [{"key": base_title(a.get("name", "")), "date": a.get("release_date", ""), "url": (a.get("external_urls") or {}).get("spotify", "")}
-            for a in body.get("items", []) if (a.get("external_urls") or {}).get("spotify", "").startswith("https://open.spotify.com/")]
+            for a in (body.get("albums") or {}).get("items", []) if any(x.get("name", "").lower() == artist.lower() for x in a.get("artists", []))]
 
 
 def days_apart(a: str, b: str) -> int:
@@ -163,12 +204,19 @@ def main() -> int:
         token = spotify_token()
     except Exception as exc:  # noqa: BLE001
         token = ""; failed.append(f"spotify token: {exc}")
-    sp_cache, n_sp, n_search = {}, 0, 0
+    sp_cache, n_sp, n_search, n_tr = {}, 0, 0, 0
     for it in (x for x in items if x["type"] == "music"):
         before = prev.get(it["url"], {})
-        for k in ("spotify", "ytm"):
+        for k in ("spotify", "ytm", "tracks"):
             if before.get(k):
                 it[k] = before[k]
+        # canciones y avances: una consulta por lanzamiento nuevo (hasta 6 por corrida, el catálogo pide calma)
+        if not it.get("tracks") and n_tr < 6:
+            n_tr += 1
+            try:
+                it["tracks"] = tracks(it) or None; time.sleep(1.2)
+            except Exception as exc:  # noqa: BLE001
+                failed.append(f"itunes tracks {it['group']}: {exc}")
         if not it.get("ytm"):
             it["ytm"] = match_mv(it, vids) or None
         # búsqueda de un MV que ya no está entre las últimas subidas: una sola vez por lanzamiento (queda marcado)
@@ -182,23 +230,32 @@ def main() -> int:
             it["ytm_try"] = 1
         sid = feeds.get("spotify", {}).get(it["group"])
         if token and sid and not it.get("spotify"):
+            # primero el catálogo del artista (una consulta por grupo); si no aparece o falla, una búsqueda por nombre
             try:
                 if sid not in sp_cache:
                     sp_cache[sid] = spotify_albums(token, sid); time.sleep(.3)
-                it["spotify"] = match_spotify(it, sp_cache[sid]) or None; n_sp += 1
+                it["spotify"] = match_spotify(it, sp_cache[sid]) or None
             except Exception as exc:  # noqa: BLE001
-                failed.append(f"spotify {it['group']}: {exc}")
-        for k in ("spotify", "ytm"):
+                sp_cache[sid] = []; failed.append(f"spotify {it['group']}: {exc}")
+            if not it.get("spotify") and n_sp < 12:
+                n_sp += 1
+                try:
+                    it["spotify"] = match_spotify(it, spotify_search(token, it, GROUP_NAMES.get(it["group"], ""))) or None
+                except Exception as exc:  # noqa: BLE001
+                    failed.append(f"spotify search {it['group']}: {exc}")
+        for k in ("spotify", "ytm", "tracks"):
             if not it.get(k):
                 it.pop(k, None)
     if token:
-        report("spotify", not any(f.startswith("spotify") for f in failed), next((f for f in failed if f.startswith("spotify")), ""))
+        n_links = sum(1 for x in items if x.get("spotify"))
+        sp_err = next((f for f in failed if f.startswith("spotify")), "")
+        report("spotify", n_links > 0 or not sp_err, "" if n_links else sp_err)
     report("itunes", n_it > 0, "" if n_it else "el catálogo de Apple Music no respondió")
     yt_err = next((f for f in failed if f.startswith("youtube")), "")
     report("youtube", n_yt > 0, "" if n_yt else ("la key fue rechazada (revisa YT_API_KEY)" if " 400" in yt_err or " 403" in yt_err else yt_err or "no respondió"))
     items.sort(key=lambda x: x["date"], reverse=True)
     doc = {"updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "sample": False, "items": items}
-    sig = lambda xs: [(x["url"], x.get("spotify"), x.get("ytm"), x.get("ytm_try")) for x in xs]  # noqa: E731
+    sig = lambda xs: [(x["url"], x.get("spotify"), x.get("ytm"), x.get("ytm_try"), len(x.get("tracks") or [])) for x in xs]  # noqa: E731
     if sig(items) == sig(old.get("items", [])):
         print(f"Sin cambios ({ok} fuentes bien)")
     else:

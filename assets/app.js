@@ -198,7 +198,7 @@
       globeAria: 'Globo con la próxima parada de cada grupo', autoSpin: 'Girar solo', channelAria: 'Canal', sortAria: 'Orden', filterAria: 'Filtrar',
       mediaTitle: 'Estrenos y videos', mediaLead: 'Primero la música: canciones, álbumes y MV. Los vlogs, teasers y shorts están en Videos.', mediaAll: 'Todo', mediaMusic: 'Música y MV', mediaVideo: 'Videos', vkMv: 'MV', vkTeaser: 'Teaser', vkShort: 'Short', vkVlog: 'Vlog', vkBehind: 'Detrás de cámaras', vkShow: 'Programa',
       mediaSrc: 'Fuentes: catálogo de Apple Music (iTunes Search API) y canales oficiales de YouTube. Se actualiza solo.', mediaEmpty: 'Todavía no hay estrenos guardados.',
-      plArtist: 'Spotify aún no tiene el enlace de este lanzamiento: aquí está su perfil.', plNoEmbed: '{app} no deja reproducir este lanzamiento aquí. Ábrelo en la app.', plOpenIn: 'Abrir en {app}', appPick: '¿Dónde escuchas?', appSet: 'Los enlaces de música abren en {app}', mediaListen: 'Escuchar', mediaWatch: 'Ver video', mediaSample: 'Datos de ejemplo', released: 'salió {when}',
+      relSoon: 'Sale en {n} días', relNotYet: 'Todavía no sale: las canciones aparecen el día del estreno.', relPreview: 'Escuchar un avance de {song}', relNoPreview: 'No se pudo reproducir el avance', plNoEmbed: '{app} no deja reproducir este lanzamiento aquí. Ábrelo en la app.', plOpenIn: 'Abrir en {app}', appPick: '¿Dónde escuchas?', appSet: 'Los enlaces de música abren en {app}', mediaListen: 'Escuchar', mediaWatch: 'Ver video', mediaSample: 'Datos de ejemplo', released: 'salió {when}',
       cityOpen: 'Mapa de la ciudad', cityShort: 'Mapa', restShows: 'shows en {n} ciudades', cityLoading: 'Dibujando la ciudad...', cityTilt: 'Vista 3D', cityVenue: 'Volver al recinto', cityFail: 'No pudimos cargar el mapa. Revisa tu conexión.',
       cityK: 'Próxima parada', cityLast: 'Última parada', cityYou: 'Tú', cityAttr: 'Mapa: OpenFreeMap · datos © OpenStreetMap',
       locReal: 'Ubicación real', locNear: 'cerca de {city}', locAcc: '±{km} km', locDefault: 'Ciudad por defecto: Bucaramanga', locChosen: 'Ciudad elegida por ti',
@@ -267,7 +267,7 @@
       globeAria: 'Globe with each group\'s next stop', autoSpin: 'Auto-rotate', channelAria: 'Channel', sortAria: 'Order', filterAria: 'Filter',
       mediaTitle: 'Releases and videos', mediaLead: 'Music first: songs, albums and MVs. Vlogs, teasers and shorts are under Videos.', mediaAll: 'All', mediaMusic: 'Music & MVs', mediaVideo: 'Videos', vkMv: 'MV', vkTeaser: 'Teaser', vkShort: 'Short', vkVlog: 'Vlog', vkBehind: 'Behind the scenes', vkShow: 'Show',
       mediaSrc: 'Sources: Apple Music catalog (iTunes Search API) and official YouTube channels. Updates on its own.', mediaEmpty: 'No releases saved yet.',
-      plArtist: 'Spotify does not have this release linked yet: here is their profile.', plNoEmbed: '{app} cannot play this release here. Open it in the app.', plOpenIn: 'Open in {app}', appPick: 'Where do you listen?', appSet: 'Music links now open in {app}', mediaListen: 'Listen', mediaWatch: 'Watch video', mediaSample: 'Sample data', released: 'out {when}',
+      relSoon: 'Out in {n} days', relNotYet: 'Not out yet: the songs show up on release day.', relPreview: 'Play a preview of {song}', relNoPreview: 'The preview could not play', plNoEmbed: '{app} cannot play this release here. Open it in the app.', plOpenIn: 'Open in {app}', appPick: 'Where do you listen?', appSet: 'Music links now open in {app}', mediaListen: 'Listen', mediaWatch: 'Watch video', mediaSample: 'Sample data', released: 'out {when}',
       cityOpen: 'City map', cityShort: 'Map', restShows: 'shows in {n} cities', cityLoading: 'Drawing the city...', cityTilt: '3D view', cityVenue: 'Back to the venue', cityFail: 'We could not load the map. Check your connection.',
       cityK: 'Next stop', cityLast: 'Last stop', cityYou: 'You', cityAttr: 'Map: OpenFreeMap · data © OpenStreetMap',
       locReal: 'Real location', locNear: 'near {city}', locAcc: '±{km} km', locDefault: 'Default city: Bucaramanga', locChosen: 'City you picked',
@@ -2023,6 +2023,7 @@
     if (GP.mem) celebrateIfBday();
   }
   function closeGP(fromPop) {
+    stopPreview();
     var box = $('#gp'); if (box.hidden || box.classList.contains('gp-closing')) return;
     var done = function () { box.classList.remove('gp-closing'); box.hidden = true; box.innerHTML = ''; GP.id = null; document.documentElement.style.overflow = ''; };
     if (reduce) done(); else { box.classList.add('gp-closing'); Sound.play('toggle'); setTimeout(done, 260); }
@@ -2031,7 +2032,7 @@
   function gpSet(tab, mem) {
     var idx = function (k) { for (var i = 0; i < GP_TABS.length; i++) if (GP_TABS[i][0] === k) return i; return 0; };
     var dir = idx(tab) - idx(GP.tab) || (mem ? 1 : GP.mem ? -1 : 0), box = $('#gp');
-    GP.tab = tab; GP.mem = mem || null; renderGP();
+    stopPreview(); GP.tab = tab; GP.mem = mem || null; renderGP();
     if (!reduce && box) { box.style.setProperty('--dx', (dir < 0 ? -36 : 36) + 'px'); box.classList.remove('gp-tabbing'); void box.offsetWidth; box.classList.add('gp-tabbing'); clearTimeout(gpSet.t); gpSet.t = setTimeout(function () { box.classList.remove('gp-tabbing'); }, 700); }
     try { history.replaceState({ gp: GP.id }, '', '#g=' + GP.id + (tab !== 'home' ? '&t=' + tab : '') + (GP.mem ? '&m=' + GP.mem : '')); } catch (e) { /* nada */ }
     var body = $('#gp .gp-body'); if (body) body.scrollTop = 0;
@@ -2144,7 +2145,8 @@
     if (!list.length) return '<p class="gp-muted">' + esc(t('mediaEmpty')) + '</p>';
     // primero la música (canciones, álbumes y MV); los vlogs, teasers y shorts van aparte, abajo
     var mus = list.filter(inMusic), vids = list.filter(function (m) { return !inMusic(m); });
-    return (mus.length ? '<section class="gp-sec"><h4>' + esc(t('mediaMusic')) + '</h4><p class="gp-muted app-k">' + esc(t('appPick')) + '</p>' + appSwitchHtml() + gpMediaList(id, mus) + '</section>' : '') +
+    return (mus.length ? '<section class="gp-sec"><h4>' + esc(t('mediaMusic')) + '</h4><p class="gp-muted app-k">' + esc(t('appPick')) + '</p>' + appSwitchHtml() +
+      '<div class="rel-list">' + mus.map(function (m) { return '<div data-relview="' + media.indexOf(m) + '">' + relView(m, true) + '</div>'; }).join('') + '</div></section>' : '') +
       (vids.length ? '<section class="gp-sec"><h4>' + esc(t('mediaVideo')) + '</h4>' + gpMediaList(id, vids) + '</section>' : '');
   }
   function gpMediaList(id, list) {
@@ -2504,30 +2506,63 @@
     var i = 0; MUSIC_APPS.forEach(function (x, k) { if (x[0] === a) i = k; });
     $$('.app-sw').forEach(function (sw) { sw.style.setProperty('--i', i); sw.querySelectorAll('[data-app]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-app') === a)); }); });
     $$('a[data-music]').forEach(function (l) { var m = media[+l.getAttribute('data-music')]; if (m) l.href = musicUrl(m); });
-    if (!$('#player').hidden) playerFrame(); else toast(t('appSet', { app: MUSIC_APPS[i][1] }));
+    if (!$('#player').hidden) playerFrame();
+    else if (!$('#gp').hidden && GP.tab === 'music') { stopPreview(); $$('#gp [data-relview]').forEach(function (el) { var m = media[+el.getAttribute('data-relview')]; if (m) el.innerHTML = relView(m, true); }); }
+    else toast(t('appSet', { app: MUSIC_APPS[i][1] }));
   }
   /* el reproductor: al tocar "Escuchar" se abre una hoja con el reproductor de tu app (el mismo lanzamiento en las tres) */
   var PL = { m: null };
   function embedOf(m) {
-    if (musicApp === 'apple') { var u = okLink(m.url); return u ? { src: u.replace('https://music.apple.com/', 'https://embed.music.apple.com/'), h: 450 } : null; }
+    var today = new Date(now()).toISOString().slice(0, 10);
+    if (m.date && m.date > today) return null;  // aún no sale: las apps no lo pueden reproducir, va la tarjeta con la fecha
+    if (musicApp === 'apple') { var u = okLink(m.url); return u ? { src: u.replace('https://music.apple.com/', 'https://embed.music.apple.com/'), h: (m.tracks || []).length > 1 ? 450 : 175 } : null; }
     if (musicApp === 'spotify') {
       var sp = /^https:\/\/open\.spotify\.com\/(album|track)\/(\w+)$/.exec(m.spotify || '');
-      if (sp) return { src: 'https://open.spotify.com/embed/' + sp[1] + '/' + sp[2] + '?utm_source=generator', h: 452 };
-      var aid = (PROFILE[m.group] || {}).spotify;
-      return aid ? { src: 'https://open.spotify.com/embed/artist/' + aid + '?utm_source=generator', h: 452, note: t('plArtist') } : null;
+      return sp ? { src: 'https://open.spotify.com/embed/' + sp[1] + '/' + sp[2] + '?utm_source=generator', h: (m.tracks || []).length > 1 ? 352 : 152 } : null;
     }
     var yv = /[?&]v=([\w-]{6,})$/.exec(m.ytm || '');
     return yv ? { src: 'https://www.youtube-nocookie.com/embed/' + yv[1] + '?rel=0', h: 0, video: true } : null;
   }
+  /* un lanzamiento en la interfaz de tu app: el reproductor de Spotify o Apple Music, o el MV en YouTube Music.
+     Si esa app no puede (aún no sale, o el robot no lo ha enlazado), una tarjeta propia: portada, fecha y las canciones
+     con sus avances de 30 s (del catálogo de Apple, gratis). */
+  function relView(m, lazy) {
+    var app = MUSIC_APPS.filter(function (a) { return a[0] === musicApp; })[0], e = embedOf(m), idx = media.indexOf(m);
+    var today = new Date(now()).toISOString().slice(0, 10), soon = m.date && m.date > today;
+    var h = '<div class="rel' + (e ? ' has-embed' : '') + '" style="' + gStyle(m.group) + '">';
+    if (e) h += '<div class="rel-embed' + (e.video ? ' video' : '') + '"><iframe src="' + esc(e.src) + '" title="' + esc(app[1] + ': ' + m.title) + '"' + (e.h ? ' style="height:' + e.h + 'px"' : '') +
+      ' allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"' + (lazy ? ' loading="lazy"' : '') + '></iframe></div>';
+    if (!e || e.video) {
+      if (!e) h += '<div class="rel-card"><img class="rel-art" src="' + esc(okImg(m.image) || face(m.group).src) + '" alt="" loading="lazy"><div class="rel-info"><b>' + esc(m.title) + '</b><small>' +
+        esc([m.kind, m.date ? fmtDate(m.date, true) : ''].filter(Boolean).join(' · ')) + '</small>' +
+        (soon ? '<span class="rel-soon">' + esc(t('relSoon', { n: daysBetween(today, m.date) })) + '</span>' : '') + '</div></div>';
+      var tr = (m.tracks || []).filter(function (x) { return x.n; });
+      if (tr.length) h += '<ol class="rel-tracks">' + tr.map(function (x, k) {
+        return '<li>' + (x.p ? '<button type="button" class="rel-play" data-prev="' + idx + ':' + k + '" aria-label="' + esc(t('relPreview', { song: x.n })) + '"><i aria-hidden="true"></i></button>' : '<span class="rel-play off" aria-hidden="true"></span>') +
+          '<span class="rel-n">' + esc(x.n) + '</span><span class="rel-d">' + (x.ms ? Math.floor(x.ms / 60000) + ':' + ('0' + Math.round(x.ms / 1000) % 60).slice(-2) : '') + '</span></li>';
+      }).join('') + '</ol>';
+      if (!e && !tr.length) h += '<p class="pl-note">' + esc(soon ? t('relNotYet') : t('plNoEmbed', { app: app[1] })) + '</p>';
+    }
+    return h + '<a class="rel-open" href="' + esc(musicUrl(m)) + '" target="_blank" rel="noopener noreferrer">' + esc(t('plOpenIn', { app: app[1] })) + ' ↗</a></div>';
+  }
+  // los avances: un solo audio para toda la página; la fila que suena muestra su progreso
+  var PREV = { a: null, btn: null };
+  function stopPreview() { if (PREV.a) { PREV.a.pause(); } if (PREV.btn) { PREV.btn.classList.remove('on'); PREV.btn.closest('li').style.removeProperty('--p'); } PREV.btn = null; }
+  function togglePreview(btn) {
+    var k = btn.getAttribute('data-prev').split(':'), m = media[+k[0]], x = m && (m.tracks || [])[+k[1]];
+    if (!x || !x.p) return;
+    if (PREV.btn === btn) { stopPreview(); return; }
+    stopPreview();
+    if (!PREV.a) { PREV.a = new Audio(); PREV.a.preload = 'none';
+      PREV.a.addEventListener('timeupdate', function () { if (PREV.btn && PREV.a.duration) PREV.btn.closest('li').style.setProperty('--p', (PREV.a.currentTime / PREV.a.duration * 100).toFixed(1) + '%'); });
+      PREV.a.addEventListener('ended', stopPreview); }
+    PREV.a.src = x.p; PREV.btn = btn; btn.classList.add('on');
+    PREV.a.play().catch(function () { stopPreview(); toast(t('relNoPreview')); });
+  }
   function playerFrame() {
     var m = PL.m; if (!m) return;
-    var app = MUSIC_APPS.filter(function (a) { return a[0] === musicApp; })[0], e = embedOf(m), box = $('#plFrame');
     if (!$('#plSwitch .app-sw')) $('#plSwitch').innerHTML = appSwitchHtml();
-    box.className = 'pl-frame' + (e && e.video ? ' video' : '') + (e ? '' : ' none');
-    box.innerHTML = e ? (e.note ? '<p class="pl-note">' + esc(e.note) + '</p>' : '') + '<iframe src="' + esc(e.src) + '" title="' + esc(app[1] + ': ' + m.title) + '"' + (e.h ? ' style="height:' + e.h + 'px"' : '') +
-      ' allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
-      : '<p class="pl-note">' + esc(t('plNoEmbed', { app: app[1] })) + '</p>';
-    var o = $('#plOpen'); o.href = musicUrl(m); o.textContent = t('plOpenIn', { app: app[1] });
+    stopPreview(); $('#plFrame').innerHTML = relView(m, false);
   }
   function openPlayer(m) {
     PL.m = m; var box = $('#player');
@@ -2539,6 +2574,7 @@
   }
   function closePlayer() {
     var box = $('#player'); if (box.hidden) return;
+    stopPreview();
     var done = function () { box.classList.remove('pl-closing'); box.hidden = true; $('#plFrame').innerHTML = ''; PL.m = null; if ($('#gp').hidden) document.documentElement.style.overflow = ''; };
     if (reduce) done(); else { box.classList.add('pl-closing'); setTimeout(done, 240); }
   }
@@ -2781,7 +2817,7 @@
   window.addEventListener('pointerdown', function () { lastKeyboard = false; }, true);
 
   document.addEventListener('click', function (ev) {
-    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-biasmem],[data-light],[data-app],[data-music],[data-pl-close],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-geo-help],[data-geo-later],[data-zoom],[data-spin],[data-center-me],[data-city],[data-city-close],[data-cmap],[data-mfilter],[data-ssort],[data-gpick],[data-feedall],[data-copy],[data-topic],[data-gp-close],[data-gp-tab],[data-gp-mem],[data-gp-hop],[data-yt],[data-tt],[data-gp-open],#sightBubble,#themeBtn,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,.topnav a') : null;
+    var el = ev.target.closest ? ev.target.closest('[data-pick],[data-unsel],[data-share],[data-ics],[data-goto],[data-bias],[data-biasmem],[data-light],[data-app],[data-music],[data-pl-close],[data-prev],[data-video],[data-view],[data-lang],[data-ch],[data-party-see],[data-party-close],[data-vreplay],[data-vclose],[data-close-sheet],[data-open-privacy],[data-mem],[data-trivia],[data-geo-retry],[data-geo-help],[data-geo-later],[data-zoom],[data-spin],[data-center-me],[data-city],[data-city-close],[data-cmap],[data-mfilter],[data-ssort],[data-gpick],[data-feedall],[data-copy],[data-topic],[data-gp-close],[data-gp-tab],[data-gp-mem],[data-gp-hop],[data-yt],[data-tt],[data-gp-open],#sightBubble,#themeBtn,#muteBtn,#installBtn,#geoBtn,#refresh,#testParty,#subDelete,.topnav a') : null;
     if (!el) { if (ev.target === $('#party')) closeParty(); return; }
     if (el.hasAttribute('data-pick')) { if (view !== 'globe' && el.hasAttribute('data-top')) setView('globe'); pick(el.getAttribute('data-pick'), { top: el.hasAttribute('data-top') }); return; }
     if (el.hasAttribute('data-unsel')) { unselect(); return; }
@@ -2801,6 +2837,7 @@
     if (el.hasAttribute('data-ssort')) { sightSort = el.getAttribute('data-ssort'); store('radar-sight-sort', sightSort); renderSights(); Sound.play('toggle'); return; }
     if (el.hasAttribute('data-app')) { setMusicApp(el.getAttribute('data-app')); return; }
     if (el.hasAttribute('data-pl-close')) { closePlayer(); return; }
+    if (el.hasAttribute('data-prev')) { togglePreview(el); return; }
     if (el.hasAttribute('data-music') && !(ev.ctrlKey || ev.metaKey || ev.shiftKey)) { var mm = media[+el.getAttribute('data-music')]; if (mm) { ev.preventDefault(); openPlayer(mm); return; } }
     if (el.hasAttribute('data-mfilter')) { mediaType = el.getAttribute('data-mfilter'); store('radar-media', mediaType); renderMedia(); Sound.play('toggle'); return; }
     if (el.hasAttribute('data-trivia')) { triviaTap(el); return; }
