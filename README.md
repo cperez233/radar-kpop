@@ -43,7 +43,7 @@ The radar only uses public, official schedules and posts. It shows the next conf
 - **On phones.** Group cards are a swipeable carousel with a strip of group chibis on top; each card keeps the essentials and folds the photo, music, facts and trivia under one button.
 - **Nearby sightings.** Official posts that mention a city, newest first (or nearest first), skipping vlogs, videos and merch, with a news ticker and a heads-up when new ones arrive.
 - **Your bias and your groups.** Heart every group you follow; they go first and the globe opens on them. Pick a bias on each member's profile: they get a heart in the group and a big spot on your story card.
-- **Coming to your city.** When a tour stop is within 600 km of you, the group card says so, with the date and the days left.
+- **Coming to your country.** When the tour stops in your country (or within 600 km), the group card says so, with a live countdown to that show and how far the group is right now.
 - **Releases and videos.** The latest music and official YouTube uploads of each group. Upcoming releases are read from official posts before Apple Music lists them; the card says "Out today!" on the day and "New" for ten days after.
 - **Alerts.** A new alert triggers a confetti celebration. Fans pick groups and alert types and subscribe for free with the ntfy app (public topics per group and type, plus one per country) or follow their groups' posts in the Discord forum. No account and no personal data.
 - **Video mode.** A clean 9:16 tour of about 15 seconds, made for screen recording.
@@ -51,7 +51,8 @@ The radar only uses public, official schedules and posts. It shows the next conf
   - A top menu that follows the section you are in.
   - A sonar view of all groups around you.
   - Shareable PNG story cards.
-  - English interface, with an optional Spanish switch.
+  - English or Spanish, picked from your browser, with a switch.
+  - News tagged with their original language and auto-translated (alerts/translate.py), original one tap away.
   - An installable PWA.
   - Small sounds: muted until your first tap, with a mute button.
   - Respects `prefers-reduced-motion`.
