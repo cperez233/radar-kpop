@@ -17,7 +17,7 @@ import status  # noqa: E402
 
 LABELS = {"ticketmaster": "Ticketmaster (fechas)", "itunes": "Apple Music (estrenos)", "youtube": "YouTube (videos)",
           "kworb": "kworb (números de Spotify)", "rsshub": "RSSHub (cuentas oficiales de X)", "discord": "Discord", "ntfy": "ntfy",
-          "tiktok": "TikTok (vía RSSHub)", "autodates": "Fechas automáticas por anuncios",
+          "tiktok": "TikTok (vía RSSHub)", "instagram": "Instagram (vía RSSHub)", "autodates": "Fechas automáticas por anuncios",
           "rosterwatch": "Integrantes (servicio militar y regresos)"}
 KEYS = [
     ("TM_API_KEY", "Fechas nuevas de Ticketmaster"),

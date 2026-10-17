@@ -118,8 +118,10 @@ leer Instagram. Hoy responde 503 y pide la variable `INSTAGRAM_COOKIE`. Es grati
 4. En Vercel, abre tu proyecto de RSSHub → **Settings → Environment Variables** → nombre `INSTAGRAM_COOKIE`, valor el texto del paso 3.
 5. **Deployments → Redeploy**. Prueba abriendo `TU_RSSHUB/instagram/user/newjeans_official`: debe salir una lista de posts.
 
-El robot lo detecta solo en la siguiente hora; no hay que tocar el código ni GitHub. La cookie dura meses; si un día deja
-de funcionar, el vigilante del robot no se cae (Instagram es opcional) y basta repetir los pasos 1 a 5.
+El robot lo detecta solo en la siguiente hora; no hay que tocar el código ni GitHub. Para que Instagram no tome la cuenta
+por un bot, el robot lee solo 10 cuentas por hora, en turno (cada perfil se renueva cada ~5 horas), con pausas al azar.
+Si Instagram falla (por ejemplo, te pidió cambiar la contraseña y la cookie se perdió), no insiste: espera 6 horas antes
+de volver a probar y te avisa por Discord/ntfy. El resto del robot sigue normal; basta repetir los pasos 1 a 5.
 
 ## Más adelante
 
