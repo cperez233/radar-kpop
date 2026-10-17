@@ -1313,30 +1313,82 @@
      LNGSHOT todavía no tiene lightstick: no se inventa uno. */
   var LIGHTSTICKS = {
     bts: { name: 'ARMY Bomb', year: 2015, shape: 'bomb', c: ['#B98CFF', '#7B3FE4'], note: { en: 'A glowing globe on a stick; in concerts the app syncs every ARMY Bomb to the stage.', es: 'Una esfera de luz con mango; en los conciertos la app sincroniza todos los ARMY Bomb con el escenario.' } },
-    skz: { name: 'Nachimbong', year: 2019, shape: 'compass', c: ['#FF4D5E', '#C9D0DD'], note: { en: 'A red compass needle inside a clear globe: "You make Stray Kids stay".', es: 'Una aguja de brújula roja dentro de una esfera transparente: "You make Stray Kids stay".' } },
-    twice: { name: 'Candy Bong', year: 2016, shape: 'candy', c: ['#FCC89B', '#FF5FA2'], note: { en: 'A candy you can hold, in TWICE\'s official apricot and neon magenta.', es: 'Un caramelo que se levanta, en el apricot y neon magenta oficiales de TWICE.' } },
-    blackpink: { name: 'Bi-Ping-Bong', year: 2018, shape: 'hammer', c: ['#FF6FB3', '#2B2633'], note: { en: 'A hammer with a heart for a head, in black and pink.', es: 'Un martillo con un corazón por cabeza, en negro y rosa.' } },
+    skz: { name: 'Nachimbong', year: 2019, shape: 'compass', c: ['#FF4D5E', '#C9D0DD'], note: { en: 'A red and silver compass inside a clear globe: "You make Stray Kids stay".', es: 'Una brújula roja y plateada dentro de una esfera transparente: "You make Stray Kids stay".' } },
+    twice: { name: 'Candy Bong', year: 2016, shape: 'candy', c: ['#FCC89B', '#FF5FA2'], note: { en: 'Now the Candy Bong ∞: a ring of light in TWICE\'s official apricot and neon magenta around an infinity mirror.', es: 'Ahora el Candy Bong ∞: un aro de luz en el apricot y neon magenta oficiales de TWICE alrededor de un espejo infinito.' } },
+    blackpink: { name: 'Bi-Ping-Bong', year: 2018, shape: 'hammer', c: ['#FF6FB3', '#2B2633'], note: { en: 'A black squeaky hammer with pink heads, like the toy hammers of Weekly Idol.', es: 'Un martillo negro de juguete con las puntas rosadas, como los de Weekly Idol.' } },
     seventeen: { name: 'Carat Bong', year: 2017, shape: 'diamond', c: ['#F7CAC9', '#92A8D1'], note: { en: 'A diamond for CARAT, in rose quartz and serenity, their official colors.', es: 'Un diamante para CARAT, en rose quartz y serenity, sus colores oficiales.' } },
     enhypen: { name: 'ENGENE Bong', year: 2020, shape: 'hyphen', c: ['#FF8A3D', '#FFD2A8'], note: { en: 'Sold without a name; ENGENEs call it the ENGENE Bong. The hyphen of their name, lit.', es: 'Se vende sin nombre; las ENGENE le dicen ENGENE Bong. El guion de su nombre, encendido.' } },
     newjeans: { name: 'Binky Bong', year: 2023, shape: 'bunny', c: ['#8CC4FF', '#FFFFFF'], note: { en: 'The Bunnies\' lightstick, their only version so far.', es: 'El lightstick de las Bunnies, su única versión hasta ahora.' } },
     ateez: { name: 'Lightiny', year: 2020, shape: 'hourglass', c: ['#FF9A3C', '#3C7BFF'], note: { en: 'An hourglass for ATINY, glowing orange and blue.', es: 'Un reloj de arena para ATINY, en naranja y azul.' } },
     cortis: { name: 'CORTIS light stick', year: 2026, shape: 'candle', c: ['#FFE3A3', '#B9A4EE'], note: { en: 'Their first one, out in July 2026; COER call it "the candle".', es: 'El primero, salió en julio de 2026; las COER le dicen "la vela".' } }
   };
-  var LS_HEAD = {
-    bomb: function (a, b) { return '<circle cx="32" cy="32" r="25" fill="' + a + '"/><circle cx="32" cy="32" r="15" fill="#fff" opacity=".45"/><ellipse cx="23" cy="21" rx="8" ry="5" fill="#fff" opacity=".85" transform="rotate(-30 23 21)"/><rect x="21" y="54" width="22" height="7" rx="3" fill="' + b + '"/>'; },
-    compass: function (a, b) { return '<circle cx="32" cy="32" r="25" fill="#F4F7FF" opacity=".9"/><circle cx="32" cy="32" r="25" fill="none" stroke="' + b + '" stroke-width="3.5"/><g transform="rotate(28 32 32)"><path d="M32 11 37 32H27z" fill="' + a + '"/><path d="M32 53 37 32H27z" fill="' + b + '"/></g><circle cx="32" cy="32" r="3" fill="#2E2150"/><ellipse cx="22" cy="20" rx="6" ry="3.5" fill="#fff" transform="rotate(-30 22 20)"/>'; },
-    candy: function (a, b) { return '<path d="M15 32 3 21v22z M49 32l12-11v22z" fill="' + b + '"/><circle cx="32" cy="32" r="18" fill="' + a + '"/><path d="M20 22c8 4 16 4 24 0M17 33c10 5 20 5 30 0M20 43c8-4 16-4 24 0" stroke="' + b + '" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/><ellipse cx="25" cy="24" rx="5" ry="3" fill="#fff" opacity=".8"/>'; },
-    hammer: function (a, b) { return '<rect x="5" y="16" width="54" height="32" rx="10" fill="' + b + '"/><path d="M32 43c-9-6-13-10-13-15a6.5 6.5 0 0 1 13-2 6.5 6.5 0 0 1 13 2c0 5-4 9-13 15z" fill="' + a + '"/><rect x="9" y="20" width="10" height="5" rx="2.5" fill="#fff" opacity=".35"/>'; },
-    diamond: function (a, b) { return '<path d="M32 4 57 26 32 60 7 26z" fill="' + a + '"/><path d="M7 26h50L32 60z" fill="' + b + '" opacity=".75"/><path d="M7 26h50M20 26 32 4l12 22M20 26l12 34 12-34" stroke="#fff" stroke-width="1.6" fill="none" opacity=".7"/>'; },
-    hyphen: function (a, b) { return '<rect x="10" y="8" width="44" height="52" rx="15" fill="' + b + '" opacity=".9"/><rect x="10" y="8" width="44" height="52" rx="15" fill="none" stroke="' + a + '" stroke-width="3.5"/><rect x="18" y="29" width="28" height="9" rx="4.5" fill="' + a + '"/><ellipse cx="22" cy="17" rx="6" ry="3" fill="#fff" opacity=".8"/>'; },
-    bunny: function (a, b) { return '<ellipse cx="21" cy="17" rx="6.5" ry="14" fill="' + a + '"/><ellipse cx="43" cy="17" rx="6.5" ry="14" fill="' + a + '"/><ellipse cx="21" cy="18" rx="2.6" ry="9" fill="' + b + '" opacity=".75"/><ellipse cx="43" cy="18" rx="2.6" ry="9" fill="' + b + '" opacity=".75"/><circle cx="32" cy="40" r="20" fill="' + a + '"/><circle cx="25" cy="40" r="2.2" fill="#2E2150"/><circle cx="39" cy="40" r="2.2" fill="#2E2150"/><path d="M29 46q3 2.5 6 0" stroke="#2E2150" stroke-width="1.8" fill="none" stroke-linecap="round"/>'; },
-    hourglass: function (a, b) { return '<rect x="11" y="4" width="42" height="6" rx="3" fill="#2E2150"/><rect x="11" y="54" width="42" height="6" rx="3" fill="#2E2150"/><path d="M16 10h32L34 32h-4z" fill="' + a + '"/><path d="M30 32h4l14 22H16z" fill="' + b + '"/><path d="M16 10h32L34 32l14 22H16l14-22z" fill="none" stroke="#fff" stroke-width="1.6" opacity=".7"/>'; },
-    candle: function (a, b) { return '<path d="M32 3c5 7 8 11 8 15a8 8 0 0 1-16 0c0-4 3-8 8-15z" fill="' + a + '"/><path d="M32 10c2 4 4 6 4 9a4 4 0 0 1-8 0c0-3 2-5 4-9z" fill="#fff" opacity=".8"/><rect x="17" y="27" width="30" height="34" rx="8" fill="#F4F7FF" opacity=".9"/><rect x="17" y="27" width="30" height="34" rx="8" fill="none" stroke="' + b + '" stroke-width="3"/><rect x="23" y="34" width="18" height="4" rx="2" fill="' + b + '"/>'; }
+  /* cada lightstick completo (cabeza y mango) en 64 x 128, dibujado sobre fotos oficiales de cada uno; la luz queda
+     a la misma altura en todos (y = 32) para que el brillo de atrás calce. a y b son los colores de luz */
+  var INK = '#2E2150', EDGE = '#B9B0CC';
+  function glass(cx, cy, r, a) {  // esfera transparente con un poco de la luz adentro y su reflejo
+    return '<circle cx="' + cx + '" cy="' + cy + '" r="' + r + '" fill="' + a + '" fill-opacity=".28" stroke="#8E86A3" stroke-width="1.6"/>' +
+      '<path d="M' + (cx - r * .72) + ' ' + (cy - r * .2) + 'a' + r * .78 + ' ' + r * .78 + ' 0 0 1 ' + r * .5 + '-' + r * .5 + '" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>';
+  }
+  var LS_DRAW = {
+    // ARMY Bomb ver.4: esfera transparente con el logo de puertas adentro, tapita negra con punto rojo arriba, collar y mango negros
+    bomb: function (a) { return '<rect x="25" y="66" width="14" height="58" rx="4.5" fill="#25212E"/><path d="M29.5 84l2 1.2v7.6l-2 1.2zM34.5 84l-2 1.2v7.6l2 1.2z" fill="none" stroke="#8F8A9C" stroke-width=".9"/>' +
+      '<rect x="18" y="58" width="28" height="10" rx="3" fill="#25212E"/><rect x="18" y="61" width="28" height="1.4" fill="#4A4458"/>' + glass(32, 32, 27, a) +
+      '<ellipse cx="32" cy="52" rx="16" ry="3.2" fill="#5A5468" opacity=".6"/><path d="M17.5 15.5 30 22v24l-12.5 4.5zM46.5 15.5 34 22v24l12.5 4.5z" fill="#fff" stroke="' + a + '" stroke-width="1.8" stroke-linejoin="round"/>' +
+      '<g transform="rotate(42 48.5 9)"><rect x="42" y="5" width="13" height="8" rx="2.5" fill="#25212E"/><circle cx="48.5" cy="9" r="1.9" fill="#FF4B4B"/></g>'; },
+    // Nachimbong ver.2: brújula roja con estrella plateada en una esfera transparente, plato blanco y mango blanco firmado
+    compass: function (a) { return '<path d="M22.5 62h19l-2 6.5-1.8 53.5a3 3 0 0 1-3 3h-5.4a3 3 0 0 1-3-3l-1.8-53.5z" fill="#fff" stroke="' + EDGE + '" stroke-width="1.4" stroke-linejoin="round"/><path d="M28 98c2-3 3 2 5-1s2 3 4 0" fill="none" stroke="#7A7290" stroke-width="1" stroke-linecap="round"/>' +
+      '<path d="M7 57.5a25 5.5 0 0 0 50 0v3a25 6 0 0 1-50 0z" fill="#fff" stroke="' + EDGE + '" stroke-width="1.3"/><ellipse cx="32" cy="57.5" rx="25" ry="5.5" fill="#fff" stroke="' + EDGE + '" stroke-width="1.3"/>' + glass(32, 31, 26, '#fff') +
+      '<circle cx="32" cy="31" r="19" fill="' + a + '"/><circle cx="32" cy="31" r="12.5" fill="#26222E"/>' +
+      '<path d="M32 14.5l2.4 12.2 9.8-7.4-7.4 9.8L49 31.5l-12.2 2.4 7.4 9.8-9.8-7.4L32 48.5l-2.4-12.2-9.8 7.4 7.4-9.8L15 31.5l12.2-2.4-7.4-9.8 9.8 7.4z" fill="#E6E9F0" stroke="#9AA0AE" stroke-width=".8" stroke-linejoin="round"/>' +
+      '<path d="M32 14.5l2.4 12.2L32 31zM49 31.5l-12.2 2.4L32 31zM32 48.5l-2.4-12.2L32 31zM15 31.5l12.2-2.4L32 31z" fill="#B8BDC9"/>'; },
+    // Candy Bong ∞: aro de luz apricot a neon magenta, espejo infinito oscuro con el logo, cuello blanco con botón y mango blanco
+    candy: function (a, b) { return '<defs><linearGradient id="lsTw" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="' + a + '"/><stop offset="1" stop-color="' + b + '"/></linearGradient></defs>' +
+      '<path d="M22.5 70h19v51a3.5 3.5 0 0 1-3.5 3.5h-12a3.5 3.5 0 0 1-3.5-3.5z" fill="#fff" stroke="' + EDGE + '" stroke-width="1.4"/><rect x="22.5" y="104" width="19" height="1.4" fill="' + EDGE + '"/>' +
+      '<path d="M15 52q17 6 34 0l-7 20h-20z" fill="#fff" stroke="' + EDGE + '" stroke-width="1.4" stroke-linejoin="round"/><circle cx="32" cy="64" r="3" fill="none" stroke="' + EDGE + '" stroke-width="1.2"/>' +
+      '<circle cx="32" cy="31" r="29" fill="#fff" stroke="' + EDGE + '" stroke-width="1.4"/><circle cx="32" cy="31" r="21" fill="none" stroke="url(#lsTw)" stroke-width="11"/>' +
+      '<circle cx="32" cy="31" r="14.5" fill="#2A2533"/><circle cx="32" cy="31" r="11.5" fill="none" stroke="' + b + '" stroke-width="1" opacity=".55"/><circle cx="32" cy="31" r="8" fill="none" stroke="' + a + '" stroke-width="1" opacity=".45"/>' +
+      '<path d="M24.5 27.5c3-1.5 7-1.8 10.5-.8M29 27l-2.4 9.6M30.5 31.5c1 3.4 3.4 3.6 4.4 0 1 3.6 3.4 3.4 4.6-1.4" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>'; },
+    // BI-PING-BONG: martillo negro con extremos rosa acanalados, banda rosa en el cuello y mango negro que se afina
+    hammer: function (a) { return '<path d="M24 66h16l-2.5 55a3 3 0 0 1-3 3h-5a3 3 0 0 1-3-3z" fill="#25212E"/><path d="M27 80v34M32 80v34M37 80v34" stroke="#3B3546" stroke-width="1.2"/>' +
+      '<rect x="23.5" y="60" width="17" height="6" rx="1.5" fill="' + a + '"/><path d="M22 46h20l-1.5 14h-17z" fill="#25212E"/>' +
+      '<rect x="15" y="21" width="34" height="22" rx="4" fill="#25212E"/><path d="M19 22a13 11 0 0 1 26 0z" fill="#25212E"/>' +
+      [2, 46].map(function (x) { return '<rect x="' + x + '" y="12" width="16" height="39" rx="6" fill="' + a + '"/><path d="M' + (x + 4.5) + ' 14.5v34M' + (x + 8) + ' 13.5v36M' + (x + 11.5) + ' 14.5v34" stroke="#fff" stroke-opacity=".55" stroke-width="1.6"/>'; }).join('') +
+      '<ellipse cx="27" cy="23" rx="4" ry="2" fill="#fff" opacity=".25"/>'; },
+    // CARAT BONG ver.3: diamante transparente bajo una cúpula, banda negra con el nombre y mango negro con textura
+    diamond: function (a, b) { return '<path d="M24 66h16v54a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z" fill="#1F2A2E"/><path d="M24 76l16 10M24 86l16 10M24 96l16 10M24 106l16 10M40 76 24 86M40 86 24 96M40 96 24 106M40 106 24 116" stroke="#3E5257" stroke-width="1"/><rect x="24" y="118" width="16" height="2" fill="#3E5257"/>' +
+      '<rect x="20" y="59" width="24" height="8" rx="2" fill="#3A3F47"/>' +
+      '<path d="M9 50a25.5 25.5 0 1 1 46 0z" fill="' + a + '" fill-opacity=".22" stroke="#8E86A3" stroke-width="1.6"/><path d="M12.5 30a20 20 0 0 1 10-14" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" opacity=".9"/>' +
+      '<path d="M20.5 23h23l7.5 9.5L32 50 13 32.5z" fill="#fff" stroke="' + b + '" stroke-width="1.2" stroke-linejoin="round"/><path d="M13 32.5h38M20.5 23l6 9.5 5.5-9.5 5.5 9.5 6-9.5M26.5 32.5 32 50l5.5-17.5M13 32.5 32 50" fill="none" stroke="' + b + '" stroke-width="1" stroke-linejoin="round"/><path d="M26.5 32.5 32 23l5.5 9.5z" fill="' + a + '" opacity=".55"/><path d="M37.5 32.5h13.5L32 50z" fill="' + b + '" opacity=".3"/>' +
+      '<rect x="5" y="49" width="54" height="10" rx="2.5" fill="#1E1B24"/><text x="32" y="56.3" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="5.6" letter-spacing=".6" fill="#fff">SEVENTEEN</text>'; },
+    // ENHYPEN: esfera transparente con la barra del guion de pie adentro, collar y mango gris metálico con botones
+    hyphen: function (a) { return '<path d="M25 68h14v52a4 4 0 0 1-4 4h-6a4 4 0 0 1-4-4z" fill="#8C9199"/><rect x="25" y="114" width="14" height="5" fill="#6E737B"/><rect x="29" y="76" width="6" height="12" rx="1.5" fill="#6E737B"/><rect x="29" y="82" width="6" height=".9" fill="#8C9199"/>' +
+      '<rect x="27" y="68" width="1.6" height="44" fill="#fff" opacity=".22"/>' + glass(32, 31, 26, '#fff') +
+      '<rect x="26.5" y="8" width="11" height="45" rx="3" fill="' + a + '"/><rect x="28.5" y="10" width="3" height="40" rx="1.5" fill="#fff" opacity=".7"/><rect x="26" y="3.5" width="12" height="5" rx="1.5" fill="#8C9199"/>' +
+      '<rect x="17" y="54" width="30" height="14" rx="2.5" fill="#7B8088"/><rect x="17" y="54" width="30" height="2" rx="1" fill="#A3A8AF"/><text x="32" y="63.6" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="4.6" letter-spacing=".3" fill="#2F3238">ENHYPEN</text>'; },
+    // Binky Bong: cabeza de conejo en U (dos orejas), con una estrella azul y un corazón rosa, mango blanco delgado
+    bunny: function (a) { return '<path d="M25.5 52h13l-1.5 69a3 3 0 0 1-3 3h-4a3 3 0 0 1-3-3z" fill="#fff" stroke="' + EDGE + '" stroke-width="1.4"/>' +
+      '<path d="M6 17a9.5 9.5 0 0 1 19 0v7a7 6.5 0 0 0 14 0v-7a9.5 9.5 0 0 1 19 0v20c0 12-11.5 19-26 19S6 49 6 37z" fill="' + a + '" stroke="#fff" stroke-width="2.4" stroke-linejoin="round"/>' +
+      '<path d="M9.5 30V18a6 6 0 0 1 4-5.6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>' +
+      '<path d="M18.5 34l2.1 4.3 4.7.7-3.4 3.3.8 4.7-4.2-2.2-4.2 2.2.8-4.7-3.4-3.3 4.7-.7z" fill="#3BA0FF" stroke="' + INK + '" stroke-width=".9" stroke-linejoin="round"/>' +
+      '<path d="M45.5 47c-5.8-3.6-8.4-6.2-8.4-9.3a3.9 3.9 0 0 1 8.4-1.6 3.9 3.9 0 0 1 8.4 1.6c0 3.1-2.6 5.7-8.4 9.3z" fill="#F03CB4" stroke="' + INK + '" stroke-width=".9" stroke-linejoin="round"/>'; },
+    // LIGHTINY ver.2: reloj de arena con aro dorado dentro de una esfera transparente, mango bronce que se afina con cerradura
+    hourglass: function (a, b) { return '<path d="M21 58h22l-4.5 61h-13z" fill="#A88B68"/><rect x="26" y="117" width="12" height="7" rx="1.5" fill="#8C7354"/><path d="M24 60l3.5 56" stroke="#C9AE89" stroke-width="1.6"/>' +
+      '<circle cx="32" cy="74" r="2.2" fill="#2A2420"/><path d="M31 75.5h2l.6 5h-3.2z" fill="#2A2420"/>' + glass(32, 31, 26, '#fff') +
+      '<ellipse cx="32" cy="31" rx="16" ry="23" fill="none" stroke="#C9A36A" stroke-width="1.8" transform="rotate(-12 32 31)"/>' +
+      '<path d="M25 15h14c0 8-5.5 11-5.5 16S39 39 39 47H25c0-8 5.5-11 5.5-16S25 23 25 15z" fill="#fff" fill-opacity=".85" stroke="#C9A36A" stroke-width="1.2" stroke-linejoin="round"/>' +
+      '<path d="M27.5 19h9c-.5 4-4.5 6.5-4.5 9 0-2.5-4-5-4.5-9zM26.5 46c1-4 3.5-6 5.5-6s4.5 2 5.5 6z" fill="' + a + '"/>' +
+      '<rect x="23.5" y="12.5" width="17" height="3" rx="1.2" fill="#C9A36A"/><rect x="23.5" y="46.5" width="17" height="3" rx="1.2" fill="#C9A36A"/><circle cx="32" cy="5.5" r="2.4" fill="#C9A36A"/>'; },
+    // CORTIS: tubo transparente alto con el nombre en relieve, entre dos piezas color piedra con el borde roto (la "vela")
+    candle: function (a) { var dots = ''; [[26, 6], [35, 10], [30, 15], [38, 4], [27, 84], [36, 88], [31, 95], [26, 108], [37, 114], [33, 104], [28, 120]].forEach(function (d) { dots += '<circle cx="' + d[0] + '" cy="' + d[1] + '" r=".7" fill="#A89F8C"/>'; });
+      return '<path d="M22 72l3 2.5 3-2 4 2.5 3.5-2.5 3 2 3.5-2V121a3 3 0 0 1-3 3H25a3 3 0 0 1-3-3z" fill="#EDE7D8" stroke="#C9BFAA" stroke-width="1.3" stroke-linejoin="round"/>' +
+      '<path d="M27 82c1.5-2 3.5-1 3 1s2 2.5 3 0M30 87c2 0 3 1.5 2.5 3" fill="none" stroke="#B5AB95" stroke-width="1" stroke-linecap="round"/><rect x="22" y="96" width="20" height="1.2" fill="#C9BFAA"/>' +
+      '<rect x="23.5" y="14" width="17" height="62" fill="' + a + '" fill-opacity=".5" stroke="#B5AFC0" stroke-width="1.2"/><rect x="25.5" y="16" width="2.4" height="56" rx="1.2" fill="#fff" opacity=".85"/>' +
+      '<text x="0" y="0" transform="translate(28 19) rotate(90)" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="10.5" letter-spacing=".2" textLength="54" lengthAdjust="spacingAndGlyphs" fill="#fff" stroke="' + a + '" stroke-width=".5">CORTIS</text>' +
+      '<path d="M22 4a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v14l-3.5-2-3 2.5-4-2-3.5 2.5-3-2.5L22 18z" fill="#EDE7D8" stroke="#C9BFAA" stroke-width="1.3" stroke-linejoin="round"/>' + dots; }
   };
   function lightstickSvg(id) {
     var L = LIGHTSTICKS[id]; if (!L) return '';
-    return '<svg class="ls-svg" viewBox="0 0 64 128" aria-hidden="true"><rect x="26" y="66" width="12" height="58" rx="6" class="ls-h"/><rect x="23" y="61" width="18" height="9" rx="3" class="ls-g"/>' +
-      '<g class="ls-head">' + LS_HEAD[L.shape](L.c[0], L.c[1]) + '</g></svg>';
+    return '<svg class="ls-svg" viewBox="0 0 64 128" aria-hidden="true"><g class="ls-head">' + LS_DRAW[L.shape](L.c[0], L.c[1]) + '</g></svg>';
   }
   var lit = store('radar-lit') || '';  // el lightstick que tienes encendido (uno a la vez, como en un concierto)
   function lightstickHtml(id, big) {
@@ -1359,21 +1411,31 @@
     var a = L ? L.c[0] : '#C9A8FF', b = L ? L.c[1] : '#FF8CC6';
     el.style.setProperty('--oc1', a); el.style.setProperty('--oc2', b === '#2B2633' || b === '#FFFFFF' ? a : b);
   }
+  var lsBurst = 0;  // confeti como mucho cada 0,4 s aunque lo enciendas y apagues muy rápido
   function toggleLight(id, el) {
     var on = lit !== id; lit = on ? id : ''; store('radar-lit', lit || null);
     Sound.play(on ? 'heart' : 'toggle');
     if (on) buzz(12);
     $$('.ls-row').forEach(function (r) {
       var b = r.querySelector('button[data-light]'), rid = b && b.getAttribute('data-light'), me = rid === lit, was = r.classList.contains('is-lit');
-      r.classList.toggle('is-lit', !!me); if (!b) return;
+      // al apagar a mitad del vaivén vuelve suave desde donde iba, no de golpe a 0°
+      var w = r.querySelector('.ls-wave'), from = was && !me && w && !reduce ? getComputedStyle(w).transform : '';
+      if (w && w._back) { w._back.cancel(); w._back = null; }
+      r.classList.toggle('is-lit', !!me);
+      if (from && from !== 'none' && w.animate) w._back = w.animate([{ transform: from }, { transform: 'none' }], { duration: 420, easing: 'cubic-bezier(.2,.8,.3,1)' });
+      if (!b) return;
       b.setAttribute('aria-pressed', String(!!me)); b.setAttribute('aria-label', t(me ? 'lsOff' : 'lsOn', { name: LIGHTSTICKS[rid].name }));
       var ch = r.querySelector('.ls-chip'); if (ch) ch.textContent = me ? t('lsLit') : t('lsTap');
       // un destello al encender y un parpadeo al apagar (se quitan solos)
-      if (me !== was && !reduce) { r.classList.remove('ls-just-on', 'ls-just-off'); void r.offsetWidth; r.classList.add(me ? 'ls-just-on' : 'ls-just-off');
-        setTimeout(function () { r.classList.remove('ls-just-on', 'ls-just-off'); }, 900); }
+      // un solo temporizador por fila: si tocas rápido, el de antes no corta la animación nueva
+      if (me !== was && !reduce) { var po = r.querySelector('.ls-pop'), mid = po && /ls-just-(on|off)/.test(r.className) ? getComputedStyle(po).transform : '';
+        if (po) { if (mid && mid !== 'none') po.style.setProperty('--ls-from', mid); else po.style.removeProperty('--ls-from'); }  // sigue desde donde iba
+        var gl = r.querySelector('.ls-glow'); if (gl) { if (mid) gl.style.setProperty('--ls-g0', getComputedStyle(gl).opacity); else gl.style.removeProperty('--ls-g0'); }
+        r.classList.remove('ls-just-on', 'ls-just-off'); void r.offsetWidth; r.classList.add(me ? 'ls-just-on' : 'ls-just-off');
+        clearTimeout(r._lsT); r._lsT = setTimeout(function () { r.classList.remove('ls-just-on', 'ls-just-off'); }, 900); }
     });
     renderOcean();
-    if (on && !reduce && el) { var r = (el.querySelector('.ls-stage') || el).getBoundingClientRect(), L = LIGHTSTICKS[id]; confettiBurst(r.left + r.width / 2, r.top + 10, 16, [L.c[0], L.c[1], '#FFD84D', '#fff'], 6, null, Math.PI * 2); }
+    if (on && !reduce && el && Date.now() - lsBurst > 400) { lsBurst = Date.now(); var r = (el.querySelector('.ls-stage') || el).getBoundingClientRect(), L = LIGHTSTICKS[id]; confettiBurst(r.left + r.width / 2, r.top + 10, 16, [L.c[0], L.c[1], '#FFD84D', '#fff'], 6, null, Math.PI * 2); }
   }
   function listenHtml(g) {
     var p = PROFILE[g.id]; if (!p) return '';
@@ -1781,7 +1843,7 @@
       var bm = biasMem[id] && members(id).filter(function (x) { return x.id === biasMem[id]; })[0];
       return Promise.all([loadImg(face(id, true).src), ph ? loadImg(ph.src).catch(function () { return null; }) : null,
         bm ? loadImg(memberSrc(id, bm.id, true)).then(function (b) { return { img: b, name: bm.name }; }).catch(function () { return null; }) : null,
-        lit === id && LIGHTSTICKS[id] ? loadImg('data:image/svg+xml;charset=utf-8,' + encodeURIComponent(lightstickSvg(id).replace('<svg ', '<svg xmlns="http://www.w3.org/2000/svg" width="128" height="256" ').replace('class="ls-h"', 'fill="#2E2150"').replace('class="ls-g"', 'fill="#5A4B82"'))).catch(function () { return null; }) : null]);
+        lit === id && LIGHTSTICKS[id] ? loadImg('data:image/svg+xml;charset=utf-8,' + encodeURIComponent(lightstickSvg(id).replace('<svg ', '<svg xmlns="http://www.w3.org/2000/svg" width="128" height="256" '))).catch(function () { return null; }) : null]);
     }).then(function (ims) {
       var im = ims[0], pim = ims[1], bim = ims[2], lim = ims[3];
       var c = document.createElement('canvas'); c.width = W; c.height = H; var x = c.getContext('2d');

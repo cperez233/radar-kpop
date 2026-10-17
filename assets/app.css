@@ -1345,11 +1345,11 @@ html.vt-theme::view-transition-group(theme-ring) { animation: none; }
 .ls-just-off .ls-glow { animation: lsFlicker .55s linear; }
 @keyframes lsWave { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-13deg); } 75% { transform: rotate(13deg); } }
 @keyframes lsBreathe { 0%, 100% { opacity: 1; transform: translate(-50%, -50%) scale(1); } 50% { opacity: .72; transform: translate(-50%, -50%) scale(.88); } }
-@keyframes lsPop { 0% { transform: scale(.82); } 40% { transform: scale(1.18) rotate(-7deg); } 70% { transform: scale(.96) rotate(4deg); } 100% { transform: none; } }
-@keyframes lsFlash { 0% { opacity: 0; transform: translate(-50%, -50%) scale(.3); } 35% { opacity: 1; transform: translate(-50%, -50%) scale(1.45); } 100% { opacity: 1; transform: translate(-50%, -50%) scale(1); } }
+@keyframes lsPop { 0% { transform: var(--ls-from, scale(.82)); } 40% { transform: scale(1.18) rotate(-7deg); } 70% { transform: scale(.96) rotate(4deg); } 100% { transform: none; } }
+@keyframes lsFlash { 0% { opacity: var(--ls-g0, 0); transform: translate(-50%, -50%) scale(.3); } 35% { opacity: 1; transform: translate(-50%, -50%) scale(1.45); } 100% { opacity: 1; transform: translate(-50%, -50%) scale(1); } }
 @keyframes lsRing { 0% { opacity: .95; transform: translate(-50%, -50%) scale(.3); } 100% { opacity: 0; transform: translate(-50%, -50%) scale(2.6); } }
 @keyframes lsFlicker { 0% { opacity: 1; transform: translate(-50%, -50%) scale(1); } 18% { opacity: .15; } 32% { opacity: .8; } 50% { opacity: .1; } 64% { opacity: .45; } 100% { opacity: 0; transform: translate(-50%, -50%) scale(.5); } }
-@keyframes lsDroop { 0% { transform: none; } 35% { transform: rotate(-9deg) scale(.95); } 65% { transform: rotate(4deg); } 100% { transform: none; } }
+@keyframes lsDroop { 0% { transform: var(--ls-from, none); } 35% { transform: rotate(-9deg) scale(.95); } 65% { transform: rotate(4deg); } 100% { transform: none; } }
 @keyframes lsTwinkle { 0%, 100% { opacity: 1; transform: scale(1) rotate(0); } 50% { opacity: .35; transform: scale(.6) rotate(45deg); } }
 @keyframes lsChip { 0% { transform: scale(.7) rotate(-6deg); } 60% { transform: scale(1.12) rotate(3deg); } 100% { transform: rotate(-2deg); } }
 .ls-txt { min-width: 0; display: grid; gap: 3px; }
