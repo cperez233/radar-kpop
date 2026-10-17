@@ -179,7 +179,7 @@
       sightSample: 'Datos de ejemplo: todavía no hay conexión con las cuentas oficiales.', sightAway: 'a {km} km de ti', sightNew: '¡{n} avistamientos nuevos!', sightNew1: '¡Un avistamiento nuevo!', sightSee: 'Ver post oficial',
       sightEmpty: 'Todavía no hay avistamientos. Aparecen cuando una cuenta oficial menciona una ciudad.', tickerK: 'AVISTAMIENTOS CERCANOS', sightSource: 'Fuente: cuentas oficiales en X',
       squad: 'Toca a cada miembro', notOnTour: 'no va en esta gira', photoAlt: 'Foto oficial de {g}', withUnit: 'con {names}',
-      gpOpen: 'Ver todo', swipeHint: 'Desliza para ver los demás grupos', feedMore: 'Ver {n} más', groupsPick: 'Grupos', gpHome: 'Inicio', gpMembers: 'Miembros', gpTour: 'Gira', gpMusic: 'Música', gpSocial: 'Redes', gpSeeTour: 'Ver la gira', gpTapMember: 'Toca a un miembro para ver su perfil, su cumpleaños y sus redes.', gpAllMembers: 'Todos los miembros', gpNoPersonal: 'No tiene cuentas personales públicas; sigue al grupo en Redes.', gpLatestPosts: 'Lo último que publicaron', gpPlayHere: 'Ver aquí', gpOpenPost: 'Abrir el post', gpPhoto: 'Foto nueva', myBias: 'Mi bias', makeBias: 'Hacerle mi bias', biasSet: '{name} es tu bias 💜', nearCity: '¡Vienen a tu ciudad!', nearYou: '¡Vienen cerca de ti!', gpSource: 'fuente', gpUpcoming: 'Próximas fechas ({n} ciudades)', gpPast: 'Últimas paradas ({n})', gpNoDates: 'Sin fechas anunciadas por ahora.', gpNoPosts: 'Todavía no hay posts guardados; el robot los trae solo.', gpMemberAccounts: 'Cuentas de los miembros', bdayToday: 'Hoy cumple {name}', bdayIsToday: '¡cumple hoy!', bdayIn: 'cumple en {n} días', bdayTurnsToday: '¡hoy cumple {n}!', bdayAgeIn: '{age} años · cumple en {n} días', regCo: 'Colombia', regLatam: 'Latinoamérica y el Caribe', regNa: 'Estados Unidos y Canadá', regEu: 'Europa', regAsia: 'Asia, Oceanía y Medio Oriente', listen: 'Escúchalos en', nextRelease: 'Próximo estreno', relToday: '¡Sale hoy!', relNew: 'Nuevo', relAnn: 'anuncio oficial', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
+      gpOpen: 'Ver todo', swipeHint: 'Desliza para ver los demás grupos', feedMore: 'Ver {n} más', groupsPick: 'Grupos', gpHome: 'Inicio', gpMembers: 'Miembros', gpTour: 'Gira', gpMusic: 'Música', gpSocial: 'Redes', gpSeeTour: 'Ver la gira', gpTapMember: 'Toca a un miembro para ver su perfil, su cumpleaños y sus redes.', gpAllMembers: 'Todos los miembros', gpNoPersonal: 'No tiene cuentas personales públicas; sigue al grupo en Redes.', gpLatestPosts: 'Lo último que publicaron', gpPlayHere: 'Ver aquí', gpOpenPost: 'Abrir el post', gpPhoto: 'Foto nueva', myBias: 'Mi bias', makeBias: 'Hacerle mi bias', biasSet: '{name} es tu bias 💜', nearCity: '¡Vienen a tu ciudad!', nearYou: '¡Vienen cerca de ti!', nearCountry: '¡Vienen a {country}!', srcLang: 'Idioma original de la noticia', autoTr: 'Traducción automática · ver original', fromYou: 'de ti', countdownTo: 'Cuenta regresiva para {city}', nearNow: 'Ahora van por {city}, a {km} km de ti', nearNowThere: 'Es su próxima parada', gpSource: 'fuente', gpUpcoming: 'Próximas fechas ({n} ciudades)', gpPast: 'Últimas paradas ({n})', gpNoDates: 'Sin fechas anunciadas por ahora.', gpNoPosts: 'Todavía no hay posts guardados; el robot los trae solo.', gpMemberAccounts: 'Cuentas de los miembros', bdayToday: 'Hoy cumple {name}', bdayIsToday: '¡cumple hoy!', bdayIn: 'cumple en {n} días', bdayTurnsToday: '¡hoy cumple {n}!', bdayAgeIn: '{age} años · cumple en {n} días', regCo: 'Colombia', regLatam: 'Latinoamérica y el Caribe', regNa: 'Estados Unidos y Canadá', regEu: 'Europa', regAsia: 'Asia, Oceanía y Medio Oriente', listen: 'Escúchalos en', nextRelease: 'Próximo estreno', relToday: '¡Sale hoy!', relNew: 'Nuevo', relAnn: 'anuncio oficial', noticesTitle: 'Avisos oficiales', statsTitle: 'Datos y números', stDebut: 'debut · {d}', stYears: '{n} años', stYear: '1 año', stRookie: 'novatos', stCareer: 'de carrera',
       stMembers: 'miembros', stDebutK: 'debut', stListeners: 'oyentes mensuales en Spotify', stPeak: 'récord de oyentes mensuales', stStreams: 'reproducciones en Spotify',
       stTopSong: 'su canción más escuchada · {n} reproducciones', stTopSongK: 'su canción más escuchada', stSubs: 'suscriptores en YouTube', stAgency: 'Agencia',
       stSource: 'Números de Spotify vía kworb.net, se actualizan solos una vez al día.',
@@ -248,7 +248,7 @@
       sightSample: 'Sample data: not connected to the official accounts yet.', sightAway: '{km} km from you', sightNew: '{n} new sightings!', sightNew1: 'A new sighting!', sightSee: 'See official post',
       sightEmpty: 'No sightings yet. They show up when an official account mentions a city.', tickerK: 'NEARBY SIGHTINGS', sightSource: 'Source: official accounts on X',
       squad: 'Tap each member', notOnTour: 'not on this tour', photoAlt: 'Official photo of {g}', withUnit: 'with {names}',
-      gpOpen: 'See all', swipeHint: 'Swipe to see the other groups', feedMore: 'See {n} more', groupsPick: 'Groups', gpHome: 'Home', gpMembers: 'Members', gpTour: 'Tour', gpMusic: 'Music', gpSocial: 'Social', gpSeeTour: 'See the tour', gpTapMember: 'Tap a member to see their profile, birthday and accounts.', gpAllMembers: 'All members', gpNoPersonal: 'No public personal accounts; follow the group under Social.', gpLatestPosts: 'Latest posts', gpPlayHere: 'Watch here', gpOpenPost: 'Open the post', gpPhoto: 'New photo', myBias: 'My bias', makeBias: 'Make them my bias', biasSet: '{name} is your bias 💜', nearCity: 'Coming to your city!', nearYou: 'Coming near you!', gpSource: 'source', gpUpcoming: 'Upcoming dates ({n} cities)', gpPast: 'Last stops ({n})', gpNoDates: 'No dates announced for now.', gpNoPosts: 'No posts saved yet; the robot brings them on its own.', gpMemberAccounts: 'Members\' accounts', bdayToday: "It's {name}'s birthday", bdayIsToday: 'birthday today!', bdayIn: 'birthday in {n} days', bdayTurnsToday: 'turns {n} today!', bdayAgeIn: '{age} years old · birthday in {n} days', regCo: 'Colombia', regLatam: 'Latin America and the Caribbean', regNa: 'United States and Canada', regEu: 'Europe', regAsia: 'Asia, Oceania and Middle East', listen: 'Listen on', nextRelease: 'Next release', relToday: 'Out today!', relNew: 'New', relAnn: 'official announcement', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
+      gpOpen: 'See all', swipeHint: 'Swipe to see the other groups', feedMore: 'See {n} more', groupsPick: 'Groups', gpHome: 'Home', gpMembers: 'Members', gpTour: 'Tour', gpMusic: 'Music', gpSocial: 'Social', gpSeeTour: 'See the tour', gpTapMember: 'Tap a member to see their profile, birthday and accounts.', gpAllMembers: 'All members', gpNoPersonal: 'No public personal accounts; follow the group under Social.', gpLatestPosts: 'Latest posts', gpPlayHere: 'Watch here', gpOpenPost: 'Open the post', gpPhoto: 'New photo', myBias: 'My bias', makeBias: 'Make them my bias', biasSet: '{name} is your bias 💜', nearCity: 'Coming to your city!', nearYou: 'Coming near you!', nearCountry: 'Coming to {country}!', srcLang: 'Language of the original news', autoTr: 'Auto-translated · see original', fromYou: 'from you', countdownTo: 'Countdown to {city}', nearNow: 'Right now they are in {city}, {km} km from you', nearNowThere: 'It is their next stop', gpSource: 'source', gpUpcoming: 'Upcoming dates ({n} cities)', gpPast: 'Last stops ({n})', gpNoDates: 'No dates announced for now.', gpNoPosts: 'No posts saved yet; the robot brings them on its own.', gpMemberAccounts: 'Members\' accounts', bdayToday: "It's {name}'s birthday", bdayIsToday: 'birthday today!', bdayIn: 'birthday in {n} days', bdayTurnsToday: 'turns {n} today!', bdayAgeIn: '{age} years old · birthday in {n} days', regCo: 'Colombia', regLatam: 'Latin America and the Caribbean', regNa: 'United States and Canada', regEu: 'Europe', regAsia: 'Asia, Oceania and Middle East', listen: 'Listen on', nextRelease: 'Next release', relToday: 'Out today!', relNew: 'New', relAnn: 'official announcement', noticesTitle: 'Official notices', statsTitle: 'Facts and numbers', stDebut: 'debut · {d}', stYears: '{n} years', stYear: '1 year', stRookie: 'rookies', stCareer: 'since debut',
       stMembers: 'members', stDebutK: 'debut', stListeners: 'Spotify monthly listeners', stPeak: 'monthly listeners record', stStreams: 'Spotify streams',
       stTopSong: 'their most streamed song · {n} streams', stTopSongK: 'their most streamed song', stSubs: 'YouTube subscribers', stAgency: 'Agency',
       stSource: 'Spotify numbers via kworb.net, updated automatically once a day.',
@@ -291,7 +291,9 @@
     'Bogotá': 'Bogota', 'Medellín': 'Medellin', 'São Paulo': 'São Paulo', 'Macao': 'Macau', 'Milán': 'Milan', 'Ámsterdam': 'Amsterdam', 'Berlín': 'Berlin', 'Países Bajos': 'Netherlands', 'Alemania': 'Germany', 'Indonesia': 'Indonesia'
   };
   Object.keys(window.RADAR_PLACES || {}).forEach(function (k) { EN_PLACES[k] = window.RADAR_PLACES[k]; });
-  var lang = store('radar-lang') || 'en';  // la interfaz es en inglés; español solo si la fan lo elige con el botón ES
+  // idioma: el que elegiste con el botón ES/EN; si nunca lo tocaste, el de tu navegador (español si lo tienes en español, si no inglés)
+  var navLang = ((navigator.languages && navigator.languages[0]) || navigator.language || 'en').toLowerCase();
+  var lang = store('radar-lang') || (navLang.indexOf('es') === 0 ? 'es' : 'en');
   if (params.get('lang') === 'en' || params.get('lang') === 'es') lang = params.get('lang');
   function L() { return I18N[lang]; }
   function t(k, vars) {
@@ -1357,15 +1359,29 @@
     }).join('') + '</ol><p class="tq-score" aria-live="polite"></p></details>';
   }
   /* venta de boletas: sticker cuando la venta está a 14 días o menos (campo opcional onsale del evento) */
-  /* el momento que más importa: una parada de la gira cerca de ti (hasta 600 km de tu ciudad) */
+  /* el momento que más importa: la gira pasa por tu país (o a menos de 600 km, aunque sea en el país vecino).
+     La tarjeta lo dice con cuenta regresiva hasta ese show y a cuántos km está el grupo ahora mismo. */
   var NEAR_KM = 600;
+  function originCountry() {
+    var o = origin(); if (o.country) return o.country;
+    var best = null;  // ubicación real: el país de la ciudad conocida más cercana (hasta 400 km)
+    ORIGINS.forEach(function (c) { var d = hav(o.lat, o.lon, c[2], c[3]); if (!best || d < best.d) best = { d: d, c: c[1] }; });
+    return best && best.d < 400 ? best.c : '';
+  }
   function nearMeHtml(st) {
-    var o = origin(), best = null;
-    st.upStops.forEach(function (s) { var e = s[0], km = hav(o.lat, o.lon, e.lat, e.lon); if (km <= NEAR_KM && (!best || e.t < best.e.t)) best = { e: e, km: km }; });
-    if (!best) return '';
-    var d = Math.max(0, Math.ceil((best.e.t - now()) / 864e5));
-    return '<p class="near-me"><span class="ko" lang="ko">우리 도시!</span> ' + esc(t(best.km < 60 ? 'nearCity' : 'nearYou')) +
-      '<b>' + esc(place(best.e.city).split(' (')[0]) + '</b><small>' + esc(fmtDate(best.e.local_date)) + ' · ' + (d ? 'D-' + d : 'D-DAY') + (best.km >= 60 ? ' · ' + fmtKm(best.km) + ' km' : '') + '</small></p>';
+    var o = origin(), home = originCountry(), best = null;
+    st.upStops.forEach(function (s) {
+      var e = s[0], km = hav(o.lat, o.lon, e.lat, e.lon);
+      if ((km <= NEAR_KM || (home && e.country === home)) && (!best || e.t < best.e.t)) best = { e: e, km: km };
+    });
+    if (!best || !st.cur) return '';
+    var e = best.e, nowKm = hav(o.lat, o.lon, st.cur.lat, st.cur.lon);
+    var head = best.km < 60 ? t('nearCity') : home && e.country === home ? t('nearCountry', { country: place(home) }) : t('nearYou');
+    var cd = ['d', 'h', 'm', 's'].map(function (u) { return '<span class="cd-t"><span class="cd-n"><span>00</span></span>' + u + '</span>'; }).join('');
+    return '<div class="near-me"><p class="nm-k"><span class="ko" lang="ko">' + (best.km < 60 ? '우리 도시!' : home && e.country === home ? '우리 나라!' : '가까이!') + '</span> ' + esc(head) + '</p>' +
+      '<b>' + esc(place(e.city).split(' (')[0]) + '</b><small>' + esc(fmtDate(e.local_date)) + (best.km >= 60 ? ' · ' + fmtKm(best.km) + ' km ' + esc(t('fromYou')) : '') + '</small>' +
+      '<span class="cd mini" data-cd="' + esc(e.start) + '" aria-label="' + esc(t('countdownTo', { city: place(e.city) })) + '">' + cd + '</span>' +
+      '<small class="nm-now">' + esc(st.cur === e ? t('nearNowThere') : t('nearNow', { city: place(st.cur.city).split(' (')[0], km: fmtKm(nowKm) })) + '</small></div>';
   }
   function onsaleHtml(st) {
     var ms = now(), best = null;
@@ -1518,6 +1534,12 @@
   var pickT = 0;
   function onCardsScroll() { cancelAnimationFrame(pickT); pickT = requestAnimationFrame(syncPick); }
   function feedKey(a) { return [a.type, a.group, a.title, a.when].join('|'); }
+  /* noticias: idioma del medio (ES, EN, KO...) y, si lo que ves es traducción automática, el texto original a un toque */
+  function langTag(a) { return a.src_lang && a.src_lang !== '?' ? '<span class="lang-tag" title="' + esc(t('srcLang')) + '">' + esc(a.src_lang.toUpperCase()) + '</span>' : ''; }
+  function origHtml(a) {
+    if (!a.auto || !a.body_orig || a.src_lang === lang) return '';
+    return '<details class="orig"><summary>' + esc(t('autoTr')) + '</summary><p lang="' + esc(a.src_lang) + '">' + esc(a.body_orig) + '</p></details>';
+  }
   function renderFeed() {
     var el = $('#feed');
     if (!feed.length) {
@@ -1529,8 +1551,8 @@
       var title = esc(lang === 'en' && a.title_en ? a.title_en : a.title);
       if (a.url && /^https?:\/\//.test(a.url)) title = '<a href="' + esc(a.url) + '" target="_blank" rel="noopener noreferrer">' + title + '</a>';
       return '<li class="bub" style="' + gStyle(a.group || 'default') + '"><span class="bub-face">' + faceImg(a.group) + '</span><div class="bub-body">' +
-        '<div class="bub-h"><span class="typ">' + esc((L().T[a.type]) || 'Info') + '</span><span>' + esc(a.group_name || '') + '</span><time datetime="' + esc(a.when) + '">' + esc(t('ago', { n: agoTxt(now() - Date.parse(a.when)) })) + '</time></div>' +
-        '<p class="bub-t">' + title + '</p><p class="bub-b">' + esc((lang === 'en' && a.body_en) || a.body || '') + '</p></div></li>';
+        '<div class="bub-h"><span class="typ">' + esc((L().T[a.type]) || 'Info') + '</span><span>' + esc(a.group_name || '') + '</span>' + langTag(a) + '<time datetime="' + esc(a.when) + '">' + esc(t('ago', { n: agoTxt(now() - Date.parse(a.when)) })) + '</time></div>' +
+        '<p class="bub-t">' + title + '</p><p class="bub-b">' + esc((lang === 'en' && a.body_en) || a.body || '') + '</p>' + origHtml(a) + '</div></li>';
     }).join('') + (feed.length > lim ? '<li class="feed-more"><button type="button" class="btn" data-feedall>' + esc(t('feedMore', { n: Math.min(12, feed.length) - lim })) + '</button></li>' : '');
   }
   var feedAll = false;

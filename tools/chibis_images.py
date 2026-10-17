@@ -125,6 +125,15 @@ SHEETS = {
 }
 GROUPS = set(SHEETS)
 
+# las láminas no tienen todas las cabezas del mismo tamaño: un sticker ancho (j-hope con Mang y su sol, RM con sus plantas)
+# queda chico al encajarlo en la caja, y uno alto (SUGA sentado con su café) queda enorme. Factor por integrante, medido a ojo
+# sobre una hoja con todos a la misma escala, para que las cabezas queden parejas (~73 px de cabeza en una caja de 155 px).
+# Si un factor > 1 lo saca de la caja, lo que sobra a los lados (adornos) se recorta.
+SIZE = {
+    "bts/jhope": 1.15, "bts/rm": 1.13, "bts/suga": .86, "bts/jin": .92, "bts/jimin": .94,
+    "skz/bangchan": .94, "twice/nayeon": .95,
+}
+
 # former members that still have a sticker on their group's sheet: they get their own SVG (the web shows them
 # greyed out with a note, see assets/people.json "former"), but they are left out of the group sprite
 FORMER = {
@@ -153,7 +162,7 @@ def cutout(sheet: Image.Image) -> np.ndarray:
     return np.dstack([rgb, np.where(bg, 0, 255).astype(np.uint8)])
 
 
-def sticker(rgba: np.ndarray, box, scale: float = SCALE) -> tuple[str, float, float, float, float]:
+def sticker(rgba: np.ndarray, box, scale: float = SCALE, size: float = 1.0) -> tuple[str, float, float, float, float]:
     """Trims one sticker, fits it in BOX (bottom-aligned, centred) and returns (data uri, x, y, w, h)."""
     x0, y0, x1, y1 = box
     a = rgba[y0:y1, x0:x1, 3]
@@ -171,7 +180,7 @@ def sticker(rgba: np.ndarray, box, scale: float = SCALE) -> tuple[str, float, fl
     full.alpha_composite(shade, (dx, dy))
     full.alpha_composite(crop, (0, 0))
     crop = full
-    s = min(bw / crop.width, (bottom - by) / crop.height)
+    s = min(bw / crop.width, (bottom - by) / crop.height) * size
     w, h = crop.width * s, crop.height * s
     scale = min(scale, 1 / s)  # never blow the sticker up past the sheet's own pixels
     px = (round(w * scale), round(h * scale))
@@ -208,11 +217,12 @@ def main() -> None:
             if file not in sheets:
                 sheets[file] = cutout(Image.open(ART / file))
             rgba = sheets[file]
-            tags[mid] = image_tag(sticker(rgba, box, GROUP_SCALE))
+            size = SIZE.get(f"{gid}/{mid}", 1.0)
+            tags[mid] = image_tag(sticker(rgba, box, GROUP_SCALE, size))
             title = f"{name} ({gname}), chibi"
             (d / f"{mid}.svg").write_text(
                 f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -10 {W + 12} {H + 14}" width="{W + 12}" height="{H + 14}" role="img" aria-label="{title}">'
-                f'<title>{title}</title>{image_tag(sticker(rgba, box))}</svg>\n', encoding="utf-8")
+                f'<title>{title}</title>{image_tag(sticker(rgba, box, SCALE, size))}</svg>\n', encoding="utf-8")
         for mid, (name, box, *sheet) in FORMER.get(gid, {}).items():
             rgba = sheets.setdefault(sheet[0] if sheet else f"{gid}-stickers.webp", cutout(Image.open(ART / (sheet[0] if sheet else f"{gid}-stickers.webp"))))
             title = f"{name} ({gname}), chibi"

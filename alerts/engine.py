@@ -37,6 +37,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import channels  # noqa: E402
+import translate  # noqa: E402
 import news  # noqa: E402
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 from status import report  # noqa: E402
@@ -716,9 +717,12 @@ def main() -> int:
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     fresh = [a for a in alerts if not a.get("sub") and f"{a['key']}|canal" in state["sent"] and f"{a['key']}|canal" not in sent_before]
-    if fresh or not FEED_OUT.exists():
-        feed = load_json(FEED_OUT, {"alerts": []})["alerts"]
+    feed = load_json(FEED_OUT, {"alerts": []})["alerts"]
+    # noticias: etiqueta de idioma y traducción automática para la web (también las que ya estaban, de a poco)
+    pending = [a for a in feed if a.get("type") in translate.NEWS_TYPES and not a.get("src_lang")]
+    if fresh or pending or not FEED_OUT.exists():
         public = [{k: a.get(k) for k in ("type", "group", "group_name", "title", "body", "title_en", "body_en", "when", "url")} for a in fresh]
+        translate.localize_all(public + feed)
         FEED_OUT.write_text(json.dumps({"updated_at": iso(now), "alerts": sorted(public + feed, key=lambda a: a["when"], reverse=True)[:FEED_MAX]}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return 0
 

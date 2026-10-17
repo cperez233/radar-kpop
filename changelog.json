@@ -1,5 +1,25 @@
 [
  {
+  "version": "4.10",
+  "date": "2026-10-17",
+  "title_es": "Noticias en tu idioma y chibis parejos",
+  "title_en": "News in your language and even chibis",
+  "es": [
+   "El idioma se elige solo según tu navegador (español o inglés), y el botón ES/EN sigue ahí para cambiarlo.",
+   "Noticias con la etiqueta de su idioma original (ES, EN, KO) y traducidas automáticamente al tuyo; el texto original queda a un toque.",
+   "¡Vienen a tu país!: si la gira pasa por tu país (o a menos de 600 km), la tarjeta muestra la cuenta regresiva hasta ese show y a cuántos km está el grupo ahora.",
+   "Chibis parejos: SUGA, Jin, j-hope, RM, Jimin, Bang Chan y Nayeon tenían la cabeza más grande o más chica que el resto; ahora todos se ven del mismo tamaño.",
+   "El menú de arriba ya no deja ver el texto que pasa por debajo."
+  ],
+  "en": [
+   "The language now follows your browser (Spanish or English), and the ES/EN button is still there to switch.",
+   "News show their original language (ES, EN, KO) and are auto-translated into yours; the original text is one tap away.",
+   "Coming to your country!: when the tour stops in your country (or within 600 km), the card shows a countdown to that show and how far the group is right now.",
+   "Even chibis: SUGA, Jin, j-hope, RM, Jimin, Bang Chan and Nayeon had bigger or smaller heads than the rest; now they all look the same size.",
+   "The top menu no longer lets the text scrolling underneath show through."
+  ]
+ },
+ {
   "version": "4.9",
   "date": "2026-10-17",
   "title_es": "Tu bias, tus grupos y un globo que se lee",
