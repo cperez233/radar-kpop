@@ -119,7 +119,12 @@ leer Instagram. Hoy responde 503 y pide la variable `INSTAGRAM_COOKIE`. Es grati
 5. **Deployments → Redeploy**. Prueba abriendo `TU_RSSHUB/instagram/user/newjeans_official`: debe salir una lista de posts.
 
 El robot lo detecta solo en la siguiente hora; no hay que tocar el código ni GitHub. La cookie dura meses; si un día deja
-de funcionar, el vigilante del robot no se cae (Instagram es opcional) y basta repetir los pasos 1 a 5.
+de funcionar, el vigilante del robot no se cae (Instagram es opcional) y basta repetir los pasos 1 a 5. Desde que Instagram
+funcione la primera vez, el vigilante te avisa por Discord y ntfy si deja de responder (antes no, para no molestar sin cookie).
+
+Si la ruta principal falla, el robot prueba solo `TU_RSSHUB/instagram/2/user/cuenta` y `TU_RSSHUB/picnob/user/cuenta`, y
+recuerda la que funcionó. Si quieres otras, crea el secreto `INSTAGRAM_ROUTES` con las rutas separadas por comas, con `{h}`
+donde va la cuenta (por ejemplo `/instagram/user/{h},/picnob/user/{h}`). Sin ese secreto se usan las tres de arriba.
 
 ## Más adelante
 
