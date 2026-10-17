@@ -128,7 +128,8 @@
   }
   /* multitud de chibis: misma geometría que tools/chibis.py */
   function crowdLayout(n, target) {
-    var rows = n <= 5 ? [n] : [Math.ceil(n / 2), Math.floor(n / 2)];
+    // hasta 4 en una fila; de 5 en adelante, dos filas: así un grupo de 5 no queda como una tira de chibis diminutos
+    var rows = n <= 4 ? [n] : [Math.ceil(n / 2), Math.floor(n / 2)];
     // sprites de 132 x 174 (con el borde de sticker); paso y fila iguales a tools/chibis.py
     var k = rows[0], mw = Math.min(target * .66, target / (1 + (k - 1) * .545)), mh = mw * 174 / 132, step = mw * .545, row = mw * .5;
     var width = mw + (k - 1) * step, out = [];
@@ -149,7 +150,7 @@
   /* ================= idioma ================= */
   var I18N = {
     es: {
-      skip: 'Saltar a los grupos', install: 'Instalar', globe: 'Globo', sonar: 'Sonar', videoMode: 'Modo video', dragHint: 'arrástrame', you: 'Tú',
+      skip: 'Saltar a los grupos', install: 'Instalar', globe: 'Globo', sonar: 'Sonar', videoMode: 'Modo story', dragHint: 'arrástrame', you: 'Tú',
       sonarNote: 'Distancia en escala de raíz: lo cercano se ve más separado.', myCity: 'Tu ubicación', useLocation: 'Usar mi ubicación', checkNow: 'Revisar ahora',
       groupsTitle: '¿Cuándo y dónde?', feedTitle: 'Últimas alertas', testParty: 'Probar la celebración', subTitle: 'Recibir alertas', dcUseNtfy: 'Usar el celular (ntfy)', dcSoon: 'Mientras tanto, las alertas al celular con ntfy ya funcionan y te dejan elegir grupo y tipo.', dcSoonT: 'El servidor de Discord viene pronto.', dcNote: 'Para elegir también el tipo de alerta (solo estrenos, solo fechas...), usa el celular con ntfy.', dcYours: 'tus grupos', dcFollow: 'Entra a la publicación de {g} y toca "Seguir". Discord te avisará solo de esas.', dcForum: 'Abre el canal #alertas: es un foro con una publicación por grupo.', dcJoin: 'Entrar al servidor de Discord', ntfyMany: 'Son {n} temas: si te parecen muchos, quita tipos o grupos.', ntfyCopyAll: 'Copiar los {n} temas', ntfyOpen: 'Abrir en ntfy', ntfyHowIos: 'En la app toca "+", pega el nombre del tema y toca Subscribe. Repite con cada uno (el botón Copiar te lo deja listo).', ntfyHow: 'Toca "Abrir en ntfy" en cada uno y confirma en la app. Cada tema es un tipo de alerta de un grupo.', ntfyPick: 'Elige al menos un grupo y un tipo de alerta, o tu país.', ntfyOff: 'Las alertas por ntfy están apagadas en este radar.', topicWeekly: 'Resumen de los lunes', topicCountry: '{c}: fechas nuevas y día del show', catMembers: 'Integrantes y cumpleaños', catNews: 'Noticias de prensa', catMusic: 'Estrenos', catShows: 'Fechas y conciertos', ntfySubTitle: 'Suscríbete a tus temas', ntfyWhy: 'Es gratis y no pide cuenta, número ni correo. Te llegan notificaciones aunque la web esté cerrada.', storeAndroid: 'Disponible en', storeIos: 'Descárgala en', ntfyInstall: 'Instala ntfy, la app que recibe las alertas', fWeekly: 'El resumen de los lunes: shows, estrenos y cumpleaños de la semana', fCountryAria: 'País', fCountry: 'Fechas nuevas de cualquier grupo en',
       subLead: 'Elige tus grupos y qué quieres saber. Gratis, sin cuenta y sin darnos tu número ni tu correo.',
@@ -163,7 +164,7 @@
       subDelete: 'Borrar mis elecciones', bye: 'Nos vemos en la próxima parada', footLead: 'El robot revisa giras, estrenos, avisos y redes cada 15 minutos. Tú solo vuelve cuando quieras.', howTitle: 'Cómo funciona',
       disclaimer1: 'Esto muestra la agenda oficial y pública de cada grupo. No rastrea a nadie en tiempo real: el chibi está en la próxima fecha confirmada, no donde están en este momento.',
       disclaimer2: 'Las horas son aproximadas (20:00 hora local cuando la fuente no la trae) y las coordenadas de los recintos también. Las fechas marcadas como anunciadas vienen de un solo anuncio y pueden cambiar.',
-      sources: 'Fuentes', credit: 'Hecho con amor de fan por', dockWorld: 'Mundo', dockGroups: 'Grupos', dockFeed: 'Avisos', dockAlerts: 'Alertas', dockVideo: 'Video',
+      sources: 'Fuentes', credit: 'Hecho con amor de fan por', dockWorld: 'Mundo', dockGroups: 'Grupos', dockFeed: 'Avisos', dockAlerts: 'Alertas', dockVideo: 'Story',
       iosTitle: 'Instálala en tu iPhone', ios1: 'Toca el botón Compartir de Safari.', ios2: 'Elige "Añadir a pantalla de inicio".', ios3: 'Abre Radar K-pop desde tu pantalla, como una app.', gotIt: 'Listo',
       live: 'En vivo ahora', liveKo: '공연 중', next: 'Próxima parada', nextKo: '다음 공연', rest: 'Sin fechas anunciadas', restKo: '쉬는 중',
       restWhere: 'En pausa', lastStop: 'Última parada', kmFrom: 'km de {city}', flight: '~{h} h de vuelo directo', localTime: 'hora local', yourTime: 'en tu hora',
@@ -218,7 +219,7 @@
       cardinal: ['N', 'E', 'S', 'O'], locale: 'es-CO'
     },
     en: {
-      skip: 'Skip to the groups', install: 'Install', globe: 'Globe', sonar: 'Sonar', videoMode: 'Video mode', dragHint: 'drag me', you: 'You',
+      skip: 'Skip to the groups', install: 'Install', globe: 'Globe', sonar: 'Sonar', videoMode: 'Story mode', dragHint: 'drag me', you: 'You',
       sonarNote: 'Square-root distance scale: nearby stops look more spread out.', myCity: 'Your location', useLocation: 'Use my location', checkNow: 'Check now',
       groupsTitle: 'When and where?', feedTitle: 'Latest alerts', testParty: 'Try the celebration', subTitle: 'Get alerts', dcUseNtfy: 'Use the phone (ntfy)', dcSoon: 'Meanwhile, phone alerts with ntfy already work and let you pick group and type.', dcSoonT: 'The Discord server is coming soon.', dcNote: 'To also pick the alert type (only releases, only dates...), use the phone tab with ntfy.', dcYours: 'your groups', dcFollow: 'Open the post for {g} and tap "Follow". Discord will only ping you about those.', dcForum: 'Open the #alertas channel: it is a forum with one post per group.', dcJoin: 'Join the Discord server', ntfyMany: 'That is {n} topics: if it feels like a lot, remove some types or groups.', ntfyCopyAll: 'Copy all {n} topics', ntfyOpen: 'Open in ntfy', ntfyHowIos: 'In the app tap "+", paste the topic name and tap Subscribe. Repeat for each one (the Copy button gets it ready).', ntfyHow: 'Tap "Open in ntfy" on each one and confirm in the app. Each topic is one alert type from one group.', ntfyPick: 'Pick at least one group and one alert type, or your country.', ntfyOff: 'ntfy alerts are turned off on this radar.', topicWeekly: 'Monday recap', topicCountry: '{c}: new dates and show day', catMembers: 'Members and birthdays', catNews: 'Press news', catMusic: 'Releases', catShows: 'Dates and concerts', ntfySubTitle: 'Subscribe to your topics', ntfyWhy: 'It is free and asks for no account, number or email. Notifications arrive even when the site is closed.', storeAndroid: 'Get it on', storeIos: 'Download on the', ntfyInstall: 'Install ntfy, the app that gets the alerts', fWeekly: 'The Monday recap: shows, releases and birthdays of the week', fCountryAria: 'Country', fCountry: 'New dates from any group in',
       subLead: 'Pick your groups and what you want to know. Free, no account, and no phone number or email.',
@@ -232,7 +233,7 @@
       subDelete: 'Delete my choices', bye: 'See you at the next stop', footLead: 'The robot checks tours, releases, notices and socials every 15 minutes. Just come back whenever you like.', howTitle: 'How it works',
       disclaimer1: 'This shows each group\'s official, public schedule. It does not track anyone in real time: the chibi stands on the next confirmed date, not where they are right now.',
       disclaimer2: 'Times are approximate (8 pm local time when the source has none) and so are venue coordinates. Dates marked as announced come from a single announcement and may change.',
-      sources: 'Sources', credit: 'Made with fan love by', dockWorld: 'World', dockGroups: 'Groups', dockFeed: 'News', dockAlerts: 'Alerts', dockVideo: 'Video',
+      sources: 'Sources', credit: 'Made with fan love by', dockWorld: 'World', dockGroups: 'Groups', dockFeed: 'News', dockAlerts: 'Alerts', dockVideo: 'Story',
       iosTitle: 'Install it on your iPhone', ios1: 'Tap Safari\'s Share button.', ios2: 'Choose "Add to Home Screen".', ios3: 'Open Radar K-pop from your home screen, like an app.', gotIt: 'Got it',
       live: 'Live now', liveKo: '공연 중', next: 'Next stop', nextKo: '다음 공연', rest: 'No dates announced', restKo: '쉬는 중',
       restWhere: 'On a break', lastStop: 'Last stop', kmFrom: 'km from {city}', flight: '~{h} h direct flight', localTime: 'local time', yourTime: 'your time',
@@ -1032,7 +1033,7 @@
   };
   Globe.prototype.placePins = function () {
     var self = this, zs = clamp(.85 + (self.zoom - 1) * .3, .85, 1.25), box = {};
-    function scale(m) { return (.74 + .26 * Math.max(0, m.screen.z)) * zs * (self.starId === m.id ? 1.3 : 1) * (m.mode === 'rest' && m.alat != null && self.sel !== m.id ? .84 : 1); }
+    function scale(m) { return (.74 + .26 * Math.max(0, m.screen.z)) * zs * (self.starId === m.id ? 1.3 : 1); }
     function inPhoto(m) { return m.alat != null && self.sel !== m.id; }
     // nunca fuera de la pantalla: si una foto grupal queda en el borde del globo, se corre entera hacia adentro (no cada grupo por su lado)
     this.markers.forEach(function (m) {
@@ -2719,7 +2720,7 @@
   function openVideo() {
     var v = $('#video'); v.hidden = false; document.documentElement.style.overflow = 'hidden';
     if (v.requestFullscreen && !finePointer) v.requestFullscreen().catch(function () { });
-    if (!Video.globe) Video.globe = new Globe($('#vglobe'), $('#vpins'), { passive: true, light: true, fit: .42, hfit: .4, cy: .54, spin: 9, lon: -70, lat: 10 });
+    if (!Video.globe) Video.globe = new Globe($('#vglobe'), $('#vpins'), { passive: true, fit: .42, hfit: .4, cy: .54, spin: 9, lon: -70, lat: 10 });
     else Video.globe.resize();
     Video.globe.pinTarget = Math.max(84, Math.min(130, $('#vzone').clientWidth * .3));
     Video.globe.inView = true; Video.globe.autoSpin = true;

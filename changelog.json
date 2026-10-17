@@ -1,5 +1,23 @@
 [
  {
+  "version": "4.18",
+  "date": "2026-10-17",
+  "title_es": "Story de noche y chibis parejos en el globo",
+  "title_en": "Night story mode and even chibis on the globe",
+  "es": [
+   "El modo Video ahora se llama Story y respeta el modo concierto: si la página está de noche, tu story también.",
+   "En el globo, los grupos que descansan ya no se ven chiquitos al lado de los que tienen show; desde 5 miembros van en dos filas.",
+   "En computador los lanzamientos se ven más grandes y el MV de YouTube Music se ve completo (antes quedaba aplastado).",
+   "El robot ya no confunde un detrás de cámaras o un teaser con el MV oficial."
+  ],
+  "en": [
+   "Video mode is now called Story and follows concert mode: if the page is in night mode, your story is too.",
+   "On the globe, resting groups no longer look tiny next to the ones with shows; from 5 members they go in two rows.",
+   "On desktop, releases are bigger and the YouTube Music MV shows in full (it was squashed).",
+   "The robot no longer mistakes a behind-the-scenes or a teaser for the official MV."
+  ]
+ },
+ {
   "version": "4.17",
   "date": "2026-10-17",
   "title_es": "Cada lanzamiento, con la cara de tu app",
