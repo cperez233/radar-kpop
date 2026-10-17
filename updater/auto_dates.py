@@ -10,7 +10,8 @@ Si un texto anuncia una gira o concierto (no un comeback), trae una fecha futura
   status "anunciado" (la web la marca "por confirmar"), source "auto", src (enlace al anuncio) y time_tbd (hora sin confirmar).
 Nunca duplica un show que ya está (mismo día y misma ciudad) y nunca borra nada. Si una fecha automática sale mal, se
 agrega su id a "ignore_auto" en updater/overrides.json y no vuelve a entrar.
-Muchos anuncios son solo una imagen (el póster); esos no se pueden leer y siguen llegando como alerta "Anuncio oficial".
+Muchos anuncios son solo una imagen (el póster): si el post es de gira y trae fotos, Tesseract las lee (updater/posters.py)
+y su texto se suma al del post. Esas fechas quedan con "poster": true. Sin Tesseract, se lee solo el texto del post.
 """
 from __future__ import annotations
 
@@ -30,6 +31,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "alerts"))
 sys.path.insert(0, str(ROOT / "tools"))
 import news  # noqa: E402
+import posters  # noqa: E402
 from status import report  # noqa: E402
 
 EVENTS = ROOT / "events.json"
@@ -174,10 +176,22 @@ def main() -> int:
     today = now.date()
     social = json.loads(SOCIAL.read_text(encoding="utf-8")).get("items", []) if SOCIAL.exists() else []
     texts: dict[str, list[tuple[str, str, str]]] = {}  # grupo -> [(texto, enlace, fuente)]
+    reader, read = posters.Reader(), 0
     for p in social:
         if p["title"].startswith("RT "):
             continue
-        texts.setdefault(p["group"], []).append((p["title"] + "\n" + p.get("summary", ""), p["link"], "official"))
+        text = p["title"] + "\n" + p.get("summary", "")
+        texts.setdefault(p["group"], []).append((text, p["link"], "official"))
+        if p.get("images") and news.official_kind(p["title"]) in ("tour", "latam"):
+            ocr = "\n".join(t for t in (reader.read(u) for u in p["images"]) if t)
+            if ocr:  # el póster va como un texto aparte, con el título del post adelante para que se clasifique igual
+                read += 1
+                texts[p["group"]].append((p["title"] + "\n" + ocr, p["link"], "poster"))
+    reader.save()
+    if reader.ok:
+        print(f"Pósters: {read} leídos ({reader.new} nuevos con Tesseract, {reader.failed} fallaron)")
+    else:
+        print("Pósters: Tesseract no está instalado, se leen solo los textos de los posts")
     news_ok = 0
     for g in data["groups"]:
         try:
@@ -196,7 +210,7 @@ def main() -> int:
     for g in data["groups"]:
         for text, link, src in texts.get(g["id"], []):
             first = text.split("\n")[0]
-            kind = news.official_kind(first) if src == "official" else news.classify(first)
+            kind = news.classify(first) if src == "news" else news.official_kind(first)
             if kind not in ("tour", "latam"):
                 continue  # solo anuncios de shows; un comeback trae fechas de lanzamiento, no de concierto
             for d, p in extract(text, today, gaz):
@@ -211,8 +225,10 @@ def main() -> int:
                 e.update({
                     "id": eid, "start": datetime(d.year, d.month, d.day, 18, 0, tzinfo=tz).isoformat(),
                     "city": p["city"], "country": p["country"], "venue": p.get("venue"),
-                    "status": "anunciado", "source": "auto", "src": link, "src_kind": src, "time_tbd": True,
+                    "status": "anunciado", "source": "auto", "src": link, "src_kind": "news" if src == "news" else "official", "time_tbd": True,
                 })
+                if src == "poster":
+                    e["poster"] = True
                 g["events"].append(e)
                 added.append(f"{g['id']} {d} {p['city']} ({src})")
         g["events"].sort(key=lambda x: x["start"])

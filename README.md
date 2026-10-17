@@ -65,6 +65,7 @@ The radar only uses public, official schedules and posts. It shows the next conf
 | Upcoming releases (`releases.json`) | Official posts on X and TikTok ("EP [S.W.I.S.H.] 11/10", "2026. 11. 13 RELEASE") | No key |
 | Member status (`rosterwatch.json`) | Official posts + Google News (enlistment, discharge, return, departure) | No key; official notices update the page, news only adds a link |
 | News | Soompi and Koreaboo RSS, Google News RSS | No key |
+| Poster-only tour announcements | Tesseract OCR (English, Korean, Japanese) on the images of official tour posts, read once and cached in `state/posters.json` | No key; ticket-sale lines are ignored, dates enter as "to be confirmed" |
 | Official posts: sightings, arrivals, announcements | X through a self-hosted RSSHub (`RSSHUB_URL`); paid X API as a fallback | Works with RSSHub |
 | City maps | OpenFreeMap vector tiles | No key |
 | Alert delivery | ntfy (private topic + public topics per group, type and country), Discord webhook and forum | Free; see CLAVES.md and ALERTAS.md |
