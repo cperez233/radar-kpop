@@ -160,6 +160,9 @@ def match_mv(item: dict, vids: list[dict]) -> str:
     return ""
 
 
+INST = re.compile(r"\b(instrumental|inst\.?|mr)\b", re.I)  # la pista sin voz no es la canción
+
+
 def norm(t: str) -> str:
     return re.sub(r"\s+-\s+(single|ep)$", "", html.unescape(t).strip().lower())
 
@@ -187,7 +190,7 @@ def match_topic(item: dict, uploads: list[dict]) -> str:
         # "11월 11일 (November 11th)": el nombre en inglés a veces va entre paréntesis detrás del coreano
         n = norm(t)
         return {n} | {p.strip() for p in re.findall(r"[\(\[]([^\)\]]+)[\)\]]", n)}
-    up = [(names(u["title"]), u["id"]) for u in uploads]
+    up = [(names(u["title"]), u["id"]) for u in uploads if not INST.search(u["title"])]
     for want in [norm(t.get("n", "")) for t in item.get("tracks") or []] + [norm(item["title"])]:
         for got, vid in up:
             if want and want in got:
@@ -233,9 +236,12 @@ def main() -> int:
     sp_cache, topic_cache, n_sp, n_tr, sp_blocked = {}, {}, 0, 0, False
     for it in (x for x in items if x["type"] == "music"):
         before = prev.get(it["url"], {})
-        if before and before.get("ytm_v") != 5 and not before.get("ytm"):  # ahora se busca en el canal Topic: los que faltan, otra vez
+        redo = ""
+        if before and before.get("ytm_v") == 5:  # la versión instrumental contaba: se revisan todos una vez (sin perder el enlace que había)
+            redo = before.get("ytm", ""); before = {k: v for k, v in before.items() if k not in ("ytm", "ytm_try")}
+        elif before and before.get("ytm_v") != 6 and not before.get("ytm"):  # ahora se busca en el canal Topic: los que faltan, otra vez
             before = {k: v for k, v in before.items() if k != "ytm_try"}
-        it["ytm_v"] = 5
+        it["ytm_v"] = 6
         for k in ("spotify", "ytm", "tracks"):
             if before.get(k):
                 it[k] = before[k]
@@ -256,9 +262,11 @@ def main() -> int:
             try:
                 if gid not in topic_cache:
                     topic_cache[gid] = topic_uploads(feeds.get("ytm_topic", {}).get(gid, ""))
-                it["ytm"] = match_topic(it, topic_cache[gid]) or match_mv(it, vids) or None
+                if redo and any(redo.endswith(u["id"]) and INST.search(u["title"]) for u in topic_cache[gid]):
+                    redo = ""  # el enlace de antes era la pista instrumental
+                it["ytm"] = match_topic(it, topic_cache[gid]) or match_mv(it, vids) or redo or None
             except Exception as exc:  # noqa: BLE001
-                topic_cache[gid] = []; failed.append(f"youtube music {gid}: {exc}")
+                topic_cache[gid] = []; failed.append(f"youtube music {gid}: {exc}"); it["ytm"] = redo or None
         elif before.get("ytm_try"):
             it["ytm_try"] = before["ytm_try"]
         sid = feeds.get("spotify", {}).get(it["group"])
