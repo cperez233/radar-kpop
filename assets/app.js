@@ -855,6 +855,7 @@
   };
   Globe.prototype.frame = function (ts) {
     if (!this.inView || document.hidden) { this.running = false; return; }
+    if (this.hold) { this.draw(); this.running = false; return; }  // al cargar: un cuadro quieto, la animación espera a las fuentes
     // girando solo (sin que lo toques) basta con ~30 cuadros por segundo: se ve igual de suave y gasta la mitad
     var busy = this.tween || this.drag || Math.abs(this.vlon) + Math.abs(this.vlat) > .0004;
     if (!busy && this.last && ts - this.last < 30) { requestAnimationFrame(this.frameFn); return; }
@@ -2811,6 +2812,14 @@
   // solo para pruebas automáticas (?debug): lectura del estado del globo, sin efectos
   if (params.has('debug')) window.__radarDebug = function () { return { lon: globe.lon, lat: globe.lat, zoom: globe.zoom, origin: origin(), geoState: geoState }; };
   globe.idleUntil = performance.now() + (reduce ? 0 : 400);
+  // el globo pinta un cuadro y empieza a moverse cuando las fuentes ya llegaron (máx. 1,5 s): mientras carga, el celular
+  // queda libre para pintar los textos con la fuente real en vez de redibujar el globo 30 veces por segundo
+  globe.hold = true;
+  (function () {
+    var go = function () { if (!globe.hold) return; globe.hold = false; globe.kick(); };
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { setTimeout(go, 120); });
+    setTimeout(go, 1500);
+  })();
   renderAll();
   observe();
   var cardsBox = $('#cards'); if (cardsBox) cardsBox.addEventListener('scroll', onCardsScroll, { passive: true });
