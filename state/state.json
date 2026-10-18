@@ -221,7 +221,10 @@
   "official:ateez:comeback:2026-10-18|foro": "2026-10-18T15:01:16Z",
   "news:5ae1cecc40f0b22a|ntfy": "2026-10-18T16:16:30Z",
   "news:5ae1cecc40f0b22a|pub:radarkpop-bts-news": "2026-10-18T16:16:30Z",
-  "news:5ae1cecc40f0b22a|foro": "2026-10-18T16:16:30Z"
+  "news:5ae1cecc40f0b22a|foro": "2026-10-18T16:16:30Z",
+  "news:bd00707e69ee4ce4|ntfy": "2026-10-18T17:32:47Z",
+  "news:bd00707e69ee4ce4|pub:radarkpop-bts-news": "2026-10-18T17:32:47Z",
+  "news:bd00707e69ee4ce4|foro": "2026-10-18T17:32:47Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1277,6 +1280,7 @@
   "baffdb70106f1b7b",
   "bb28959efdf88008",
   "bb434866016962a9",
+  "bd00707e69ee4ce4",
   "bebc7fab28da52a5",
   "bec8f1410bd57979",
   "bef904cd8ebab63d",
@@ -1827,6 +1831,20 @@
     "pide"
    ],
    "t": "2026-10-18T16:16:21Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "concierto",
+    "dallas",
+    "esto",
+    "hacian",
+    "hope",
+    "jimin",
+    "karol",
+    "paso"
+   ],
+   "t": "2026-10-18T17:32:36Z"
   }
  ],
  "discord_threads": {
