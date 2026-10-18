@@ -161,7 +161,25 @@
   "news:286eb00d5b68855f|foro": "2026-10-17T23:01:12Z",
   "news:bb434866016962a9|ntfy": "2026-10-17T23:01:12Z",
   "news:bb434866016962a9|pub:radarkpop-bts-news": "2026-10-17T23:01:12Z",
-  "news:bb434866016962a9|foro": "2026-10-17T23:01:12Z"
+  "news:bb434866016962a9|foro": "2026-10-17T23:01:12Z",
+  "news:52024feef47445d0|ntfy": "2026-10-18T00:01:09Z",
+  "news:52024feef47445d0|pub:radarkpop-bts-news": "2026-10-18T00:01:09Z",
+  "news:52024feef47445d0|foro": "2026-10-18T00:01:09Z",
+  "news:8f1e13f22609875c|ntfy": "2026-10-18T00:01:09Z",
+  "news:8f1e13f22609875c|pub:radarkpop-bts-news": "2026-10-18T00:01:09Z",
+  "news:8f1e13f22609875c|foro": "2026-10-18T00:01:09Z",
+  "news:a8d34f7a2a8aa074|ntfy": "2026-10-18T00:01:09Z",
+  "news:a8d34f7a2a8aa074|pub:radarkpop-bts-news": "2026-10-18T00:01:09Z",
+  "news:a8d34f7a2a8aa074|foro": "2026-10-18T00:01:09Z",
+  "news:710fe2ae1798bc9f|ntfy": "2026-10-18T00:01:09Z",
+  "news:710fe2ae1798bc9f|pub:radarkpop-bts-news": "2026-10-18T00:01:09Z",
+  "news:710fe2ae1798bc9f|foro": "2026-10-18T00:01:09Z",
+  "news:0e3cd0c34d2eddc9|ntfy": "2026-10-18T00:01:09Z",
+  "news:0e3cd0c34d2eddc9|pub:radarkpop-bts-news": "2026-10-18T00:01:09Z",
+  "news:0e3cd0c34d2eddc9|foro": "2026-10-18T00:01:09Z",
+  "news:713d954eb3dad94e|ntfy": "2026-10-18T00:01:09Z",
+  "news:713d954eb3dad94e|pub:radarkpop-bts-news": "2026-10-18T00:01:09Z",
+  "news:713d954eb3dad94e|foro": "2026-10-18T00:01:09Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -997,6 +1015,7 @@
   "0d36563c517bd3a7",
   "0de7b77acfdf0eef",
   "0dfdd6e27b87bab9",
+  "0e3cd0c34d2eddc9",
   "0fbf25e3f87492ea",
   "11acf55ff2fd475e",
   "11d3d2e8027fbb9a",
@@ -1044,6 +1063,7 @@
   "3e20e3701b9164cb",
   "3e299e947064ff9b",
   "40b3be2a59d68a7f",
+  "41709f7c83200e24",
   "4397eca529ab51a6",
   "43f2e4e2c2f92fab",
   "448221c8ae0f8f1b",
@@ -1062,6 +1082,7 @@
   "4ed6072038194971",
   "50505e7e6902081d",
   "51b5c0cd1bf99863",
+  "52024feef47445d0",
   "532fe2fe08c34b59",
   "536884143bdd3388",
   "5489c03820db5b7f",
@@ -1090,6 +1111,8 @@
   "6f208339857eba05",
   "704d819cfc319fa6",
   "70f9091478744a16",
+  "710fe2ae1798bc9f",
+  "713d954eb3dad94e",
   "721b64b16310b5eb",
   "72be67d66498858d",
   "735bb156e119bf52",
@@ -1129,6 +1152,7 @@
   "8d5013b8a186306f",
   "8dcc8d1ad364fdf2",
   "8eb88ae1e9e9d5c5",
+  "8f1e13f22609875c",
   "8f4ff4263eb8af45",
   "90066f2d0e34a7f8",
   "9055debbc701bc82",
@@ -1161,6 +1185,7 @@
   "a6aca9d79fc7ba8a",
   "a880fa2c23d52329",
   "a89c1f791d473b61",
+  "a8d34f7a2a8aa074",
   "aa43f8e08837f26d",
   "ab11224b98b43419",
   "ab2fbcb45155586b",
@@ -1181,6 +1206,8 @@
   "b6791db3d42048b5",
   "b79d006590806ea6",
   "b7d7cf59af0f01aa",
+  "b81687ac8f169694",
+  "b944d67a91068117",
   "baffdb70106f1b7b",
   "bb28959efdf88008",
   "bb434866016962a9",
@@ -1232,6 +1259,8 @@
   "f46d5fbeafb14247",
   "f6bfdc7acd7cf89f",
   "fa9f82f465a290fe",
+  "faa7af492a043829",
+  "fb4e97b6e2db366c",
   "fb8056f4c7959797",
   "fcc5d1953a5f1c97",
   "fd75ddc4959ac608",
@@ -1628,6 +1657,94 @@
     "tras"
    ],
    "t": "2026-10-17T23:01:04Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "asistir",
+    "black",
+    "carvalho",
+    "concierto",
+    "cumple",
+    "este",
+    "fue",
+    "look",
+    "michelle",
+    "sueno",
+    "total"
+   ],
+   "t": "2026-10-18T00:01:01Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "2026",
+    "chile",
+    "conciertos",
+    "estadio",
+    "extendera",
+    "horario",
+    "metro",
+    "nacional"
+   ],
+   "t": "2026-10-18T00:01:01Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "carabineros",
+    "caso",
+    "conciertos",
+    "detuvo",
+    "durante",
+    "estafa",
+    "informa",
+    "personas",
+    "uno"
+   ],
+   "t": "2026-10-18T00:01:01Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "americo",
+    "chile",
+    "concierto",
+    "cumbia",
+    "dijo",
+    "pop",
+    "presente"
+   ],
+   "t": "2026-10-18T00:01:01Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "carabineros",
+    "chile",
+    "conciertos",
+    "conducta",
+    "detenidos",
+    "elogian",
+    "fanaticos",
+    "fraudes"
+   ],
+   "t": "2026-10-18T00:01:01Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "chilenas",
+    "conciertos",
+    "entradas",
+    "fanaticas",
+    "fotografos",
+    "gastan",
+    "hasta",
+    "merchandising",
+    "millon"
+   ],
+   "t": "2026-10-18T00:01:01Z"
   }
  ],
  "discord_threads": {
