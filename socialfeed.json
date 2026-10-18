@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-18T03:30:51Z",
+ "updated_at": "2026-10-18T04:30:50Z",
  "groups": {
   "bts": {
    "x": [
@@ -1937,6 +1937,11 @@
    },
    "tiktok": [
     {
+     "title": "黄昏晓 (Dusk dawn) #SUNGHOON ver #ENHYPEN",
+     "url": "https://www.tiktok.com/@enhypen/video/7697839081241529621",
+     "when": "2026-10-18T03:07:08Z"
+    },
+    {
      "title": "checkmatе, checkmate #BLOODSAGA_IN_MACAU #EN_WORLDTOUR_BLOODSAGA #ENHYPEN",
      "url": "https://www.tiktok.com/@enhypen/video/7697654904785243413",
      "when": "2026-10-17T15:12:26Z"
@@ -1955,14 +1960,14 @@
      "title": "😚 #JAKE #ENHYPEN",
      "url": "https://www.tiktok.com/@enhypen/video/7697512932325870868",
      "when": "2026-10-17T06:01:30Z"
-    },
-    {
-     "title": "#BLOODSAGA_IN_MACAU DAY1✨ #EN_WORLDTOUR_BLOODSAGA #ENHYPEN",
-     "url": "https://www.tiktok.com/@enhypen/video/7697300011859709204",
-     "when": "2026-10-16T16:15:16Z"
     }
    ],
    "instagram": [
+    {
+     "title": "黄昏晓 (Dusk dawn) #SUNGHOON ver #ENHYPEN",
+     "url": "https://www.instagram.com/p/Denx37Mp_Da/",
+     "when": "2026-10-18T04:05:17Z"
+    },
     {
      "title": "checkmatе, checkmate #BLOODSAGA_IN_MACAU #EN_WORLDTOUR_BLOODSAGA #ENHYPEN",
      "url": "https://www.instagram.com/p/DemaZZYpWYT/",
@@ -1982,11 +1987,6 @@
      "title": "😚 #JAKE #ENHYPEN",
      "url": "https://www.instagram.com/p/DelbHjaJ9ty/",
      "when": "2026-10-17T06:06:26Z"
-    },
-    {
-     "title": "#BLOODSAGA_IN_MACAU DAY1✨ #EN_WORLDTOUR_BLOODSAGA #ENHYPEN",
-     "url": "https://www.instagram.com/p/Dej8N4npCKH/",
-     "when": "2026-10-16T16:17:09Z"
     }
    ]
   },
@@ -2263,5 +2263,5 @@
    ]
   }
  },
- "ig_cursor": 38
+ "ig_cursor": 48
 }
