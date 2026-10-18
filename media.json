@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-18T07:00:40Z",
+ "updated_at": "2026-10-18T09:15:35Z",
  "sample": false,
  "items": [
   {
@@ -47,6 +47,15 @@
    "published": "2026-10-18T06:11:23Z",
    "url": "https://www.youtube.com/watch?v=mupxsbsqC-c",
    "image": "https://i.ytimg.com/vi/mupxsbsqC-c/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "더기 마스터 #CORTIS #코르티스",
+   "date": "2026-10-18",
+   "published": "2026-10-18T09:00:30Z",
+   "url": "https://www.youtube.com/watch?v=P5WY5vyGvEQ",
+   "image": "https://i.ytimg.com/vi/P5WY5vyGvEQ/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -213,15 +222,6 @@
    "published": "2026-10-16T12:00:01Z",
    "url": "https://www.youtube.com/watch?v=ISkAWt8_aqI",
    "image": "https://i.ytimg.com/vi/ISkAWt8_aqI/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "하모니카 한 모금 SIP #CORTIS #코르티스",
-   "date": "2026-10-16",
-   "published": "2026-10-16T04:00:39Z",
-   "url": "https://www.youtube.com/watch?v=lYs8zReUz5E",
-   "image": "https://i.ytimg.com/vi/lYs8zReUz5E/hqdefault.jpg"
   },
   {
    "type": "video",
