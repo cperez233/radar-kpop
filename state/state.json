@@ -197,7 +197,10 @@
   "news:4ef89c16361406fc|foro": "2026-10-18T06:01:09Z",
   "live:enh-20261018-macao|ntfy": "2026-10-18T09:46:01Z",
   "live:enh-20261018-macao|pub:radarkpop-enhypen-shows": "2026-10-18T09:46:01Z",
-  "live:enh-20261018-macao|foro": "2026-10-18T09:46:01Z"
+  "live:enh-20261018-macao|foro": "2026-10-18T09:46:01Z",
+  "next:enhypen:enh-20261018-macao|ntfy": "2026-10-18T14:33:17Z",
+  "next:enhypen:enh-20261018-macao|pub:radarkpop-enhypen-shows": "2026-10-18T14:33:17Z",
+  "next:enhypen:enh-20261018-macao|foro": "2026-10-18T14:33:17Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1023,6 +1026,7 @@
  "news_seen": [
   "00b83fa9dfff42f4",
   "0173b695d33ab742",
+  "025ec2ef42837f29",
   "02f07286dbd321e1",
   "0344ef47cbcf6892",
   "03468a6950358870",
