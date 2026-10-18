@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-18T11:00:40Z",
+ "updated_at": "2026-10-18T13:15:39Z",
  "sample": false,
  "items": [
   {
@@ -38,6 +38,15 @@
      "p": ""
     }
    ]
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "[DK TIME] 오늘도겸 #1 | 입대 전 일상 모음.zip ⚾🫡",
+   "date": "2026-10-18",
+   "published": "2026-10-18T12:59:59Z",
+   "url": "https://www.youtube.com/watch?v=O-brsZFz6fc",
+   "image": "https://i.ytimg.com/vi/O-brsZFz6fc/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -213,15 +222,6 @@
    "published": "2026-10-16T12:59:59Z",
    "url": "https://www.youtube.com/watch?v=nIRQaYMlADQ",
    "image": "https://i.ytimg.com/vi/nIRQaYMlADQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "꿈이 시작된 순간을 기억하나요? #아이유 #이별로부터_Challenge #JxJ #정한X조슈아 #DREAMSCAPE",
-   "date": "2026-10-16",
-   "published": "2026-10-16T12:00:20Z",
-   "url": "https://www.youtube.com/watch?v=x4n42iX_ywE",
-   "image": "https://i.ytimg.com/vi/x4n42iX_ywE/hqdefault.jpg"
   },
   {
    "type": "video",
