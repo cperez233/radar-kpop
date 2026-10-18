@@ -185,7 +185,10 @@
   "news:c2ac9d79a3700193|foro": "2026-10-18T02:33:57Z",
   "next:bts:bts-20261017-santiago|ntfy": "2026-10-18T03:01:04Z",
   "next:bts:bts-20261017-santiago|pub:radarkpop-bts-shows": "2026-10-18T03:01:04Z",
-  "next:bts:bts-20261017-santiago|foro": "2026-10-18T03:01:04Z"
+  "next:bts:bts-20261017-santiago|foro": "2026-10-18T03:01:04Z",
+  "news:bef904cd8ebab63d|ntfy": "2026-10-18T04:45:59Z",
+  "news:bef904cd8ebab63d|pub:radarkpop-bts-news": "2026-10-18T04:45:59Z",
+  "news:bef904cd8ebab63d|foro": "2026-10-18T04:45:59Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1026,6 +1029,7 @@
   "11acf55ff2fd475e",
   "11d3d2e8027fbb9a",
   "12b4a3f7f902c68a",
+  "12fc798bb4302192",
   "16bdeddaa9651e21",
   "16fc7055c04918d7",
   "18924fd1bb0ebd19",
@@ -1070,6 +1074,7 @@
   "3e20e3701b9164cb",
   "3e299e947064ff9b",
   "40b3be2a59d68a7f",
+  "40d48fbfd357ca86",
   "41709f7c83200e24",
   "4397eca529ab51a6",
   "43f2e4e2c2f92fab",
@@ -1221,6 +1226,7 @@
   "bb434866016962a9",
   "bebc7fab28da52a5",
   "bec8f1410bd57979",
+  "bef904cd8ebab63d",
   "bf8f8400bbecc192",
   "c05c9ba06305e7b0",
   "c0900a8bc123825c",
@@ -1772,6 +1778,22 @@
     "vestimentas"
    ],
    "t": "2026-10-18T02:33:50Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "150",
+    "cobraban",
+    "concierto",
+    "detenidos",
+    "entrada",
+    "falsas",
+    "mil",
+    "pulseras",
+    "tres",
+    "vender"
+   ],
+   "t": "2026-10-18T04:45:52Z"
   }
  ],
  "discord_threads": {
