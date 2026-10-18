@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-18T07:30:51Z",
+ "updated_at": "2026-10-18T08:30:50Z",
  "groups": {
   "bts": {
    "x": [
@@ -1873,6 +1873,11 @@
    ],
    "instagram": [
     {
+     "title": "Dream Record 📸",
+     "url": "https://www.instagram.com/p/DeoGNaPkdBl/",
+     "when": "2026-10-18T07:00:07Z"
+    },
+    {
      "title": "정한X조슈아 (SEVENTEEN) ‘12 o’clock’ Official Teaser 1 2026.10.19 6PM (KST) / 5AM (ET) #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
      "url": "https://www.instagram.com/p/DelvG5KNYW0/",
      "when": "2026-10-17T09:00:07Z"
@@ -1891,11 +1896,6 @@
      "title": "so, who’s the one? #JxJ #정한X조슈아 #SEUNGKWAN #승관 #DREAMSCAPE",
      "url": "https://www.instagram.com/p/DegzROutOrK/",
      "when": "2026-10-15T11:00:05Z"
-    },
-    {
-     "title": "ohh~ ahh~🕺",
-     "url": "https://www.instagram.com/p/DeeHrZ-tKf3/",
-     "when": "2026-10-14T10:00:05Z"
     }
    ]
   },
@@ -2263,5 +2263,5 @@
    ]
   }
  },
- "ig_cursor": 28
+ "ig_cursor": 38
 }
