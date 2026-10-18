@@ -230,7 +230,10 @@
   "news:d4e3dab0279b83d7|foro": "2026-10-18T20:16:38Z",
   "news:79569b17c64f4cfd|ntfy": "2026-10-18T21:55:58Z",
   "news:79569b17c64f4cfd|pub:radarkpop-bts-news": "2026-10-18T21:55:58Z",
-  "news:79569b17c64f4cfd|foro": "2026-10-18T21:55:58Z"
+  "news:79569b17c64f4cfd|foro": "2026-10-18T21:55:58Z",
+  "news:0901a917ef136e80|ntfy": "2026-10-18T23:01:07Z",
+  "news:0901a917ef136e80|pub:radarkpop-bts-news": "2026-10-18T23:01:07Z",
+  "news:0901a917ef136e80|foro": "2026-10-18T23:01:07Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1063,6 +1066,7 @@
   "03ae1c65fce023b6",
   "03d00656bf285ce7",
   "0635a9a85274493c",
+  "0901a917ef136e80",
   "0bb6ec7c557e4511",
   "0ce8c9dcdb689998",
   "0d36563c517bd3a7",
@@ -1841,6 +1845,20 @@
     "rostro"
    ],
    "t": "2026-10-18T21:55:52Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "broche",
+    "chile",
+    "cierra",
+    "gira",
+    "huaso",
+    "oro",
+    "tikitikiti",
+    "vestidos"
+   ],
+   "t": "2026-10-18T23:01:00Z"
   }
  ],
  "discord_threads": {
