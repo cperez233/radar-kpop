@@ -42,6 +42,12 @@
    "ok": true,
    "since": "2026-10-17T19:58:25Z"
   },
+  "lightstickwatch": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-18T01:45:49Z"
+  },
   "ntfy": {
    "msg": "",
    "notified": false,
