@@ -218,7 +218,10 @@
   "official:lngshot:comeback:2026-10-18|foro": "2026-10-18T15:01:16Z",
   "official:ateez:comeback:2026-10-18|ntfy": "2026-10-18T15:01:16Z",
   "official:ateez:comeback:2026-10-18|pub:radarkpop-ateez-music": "2026-10-18T15:01:16Z",
-  "official:ateez:comeback:2026-10-18|foro": "2026-10-18T15:01:16Z"
+  "official:ateez:comeback:2026-10-18|foro": "2026-10-18T15:01:16Z",
+  "news:5ae1cecc40f0b22a|ntfy": "2026-10-18T16:16:30Z",
+  "news:5ae1cecc40f0b22a|pub:radarkpop-bts-news": "2026-10-18T16:16:30Z",
+  "news:5ae1cecc40f0b22a|foro": "2026-10-18T16:16:30Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1142,6 +1145,7 @@
   "562513c3000bea59",
   "5a476ecfa13cca44",
   "5a769e67c4024311",
+  "5ae1cecc40f0b22a",
   "5e72890187c14f26",
   "5ee334653ac920dd",
   "61148face18541a3",
@@ -1808,6 +1812,21 @@
     "world"
    ],
    "t": "2026-10-18T15:01:08Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "antes",
+    "argentina",
+    "army",
+    "banarse",
+    "conciertos",
+    "fans",
+    "grupo",
+    "pais",
+    "pide"
+   ],
+   "t": "2026-10-18T16:16:21Z"
   }
  ],
  "discord_threads": {
