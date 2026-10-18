@@ -179,7 +179,10 @@
   "news:0e3cd0c34d2eddc9|foro": "2026-10-18T00:01:09Z",
   "news:713d954eb3dad94e|ntfy": "2026-10-18T00:01:09Z",
   "news:713d954eb3dad94e|pub:radarkpop-bts-news": "2026-10-18T00:01:09Z",
-  "news:713d954eb3dad94e|foro": "2026-10-18T00:01:09Z"
+  "news:713d954eb3dad94e|foro": "2026-10-18T00:01:09Z",
+  "news:c2ac9d79a3700193|ntfy": "2026-10-18T02:33:57Z",
+  "news:c2ac9d79a3700193|pub:radarkpop-bts-news": "2026-10-18T02:33:57Z",
+  "news:c2ac9d79a3700193|foro": "2026-10-18T02:33:57Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1217,6 +1220,7 @@
   "c05c9ba06305e7b0",
   "c0900a8bc123825c",
   "c0c589f7ef316fb2",
+  "c2ac9d79a3700193",
   "c2c6828f0e1b7d73",
   "c643b56965722404",
   "c666c81e6c71d851",
@@ -1745,6 +1749,23 @@
     "millon"
    ],
    "t": "2026-10-18T00:01:01Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "adios",
+    "banda",
+    "chile",
+    "concierto",
+    "durante",
+    "emotivo",
+    "fans",
+    "huaso",
+    "sorprende",
+    "ultimo",
+    "vestimentas"
+   ],
+   "t": "2026-10-18T02:33:50Z"
   }
  ],
  "discord_threads": {
