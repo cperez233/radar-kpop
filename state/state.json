@@ -224,7 +224,10 @@
   "news:5ae1cecc40f0b22a|foro": "2026-10-18T16:16:30Z",
   "news:bd00707e69ee4ce4|ntfy": "2026-10-18T17:35:32Z",
   "news:bd00707e69ee4ce4|pub:radarkpop-bts-news": "2026-10-18T17:35:32Z",
-  "news:bd00707e69ee4ce4|foro": "2026-10-18T17:35:32Z"
+  "news:bd00707e69ee4ce4|foro": "2026-10-18T17:35:32Z",
+  "news:d4e3dab0279b83d7|ntfy": "2026-10-18T20:16:38Z",
+  "news:d4e3dab0279b83d7|pub:radarkpop-bts-news": "2026-10-18T20:16:38Z",
+  "news:d4e3dab0279b83d7|foro": "2026-10-18T20:16:38Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1307,6 +1310,7 @@
   "d319e8cbb03d8058",
   "d369c8ed35a62fb8",
   "d4c9df50f3292907",
+  "d4e3dab0279b83d7",
   "d5410b976ca14f0d",
   "d5a96446e327f726",
   "d5e9f8e16ae44802",
@@ -1845,6 +1849,23 @@
     "paso"
    ],
    "t": "2026-10-18T17:35:25Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "chile",
+    "concierto",
+    "decision",
+    "drastica",
+    "error",
+    "fans",
+    "sorprendio",
+    "sufrir",
+    "tecnico",
+    "tomaron",
+    "tras"
+   ],
+   "t": "2026-10-18T20:16:30Z"
   }
  ],
  "discord_threads": {
