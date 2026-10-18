@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-18T03:00:36Z",
+ "updated_at": "2026-10-18T06:15:33Z",
  "sample": false,
  "items": [
   {
@@ -41,6 +41,15 @@
   },
   {
    "type": "video",
+   "group": "enhypen",
+   "title": "come back #JUNGWON #ENHYPEN",
+   "date": "2026-10-18",
+   "published": "2026-10-18T06:11:23Z",
+   "url": "https://www.youtube.com/watch?v=mupxsbsqC-c",
+   "image": "https://i.ytimg.com/vi/mupxsbsqC-c/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "twice",
    "title": "TWICE 11th ANNIVERSARY YouTube Live🎡",
    "date": "2026-10-17",
@@ -74,15 +83,6 @@
    "published": "2026-10-17T15:22:52Z",
    "url": "https://www.youtube.com/watch?v=X2iCThB34yA",
    "image": "https://i.ytimg.com/vi/X2iCThB34yA/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "따따리따~ #JAY #JAKE #SUNGHOON #ENHYPEN",
-   "date": "2026-10-17",
-   "published": "2026-10-17T10:32:38Z",
-   "url": "https://www.youtube.com/watch?v=YCyWmepwef0",
-   "image": "https://i.ytimg.com/vi/YCyWmepwef0/hqdefault.jpg"
   },
   {
    "type": "video",
