@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-18T17:33:46Z",
+ "updated_at": "2026-10-18T18:30:48Z",
  "groups": {
   "bts": {
    "x": [
@@ -1439,6 +1439,11 @@
    ],
    "instagram": [
     {
+     "title": "‘Masterpiece’ 10/21 6PM KST EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. Link in bio. #Masterpiece #LNGSHOT #MOREVISION",
+     "url": "https://www.instagram.com/p/Deo9H4slNo6/",
+     "when": "2026-10-18T15:00:02Z"
+    },
+    {
      "title": "Ti amo Milan! 🍷 @moresojuplease #JayPark #2026JayParkWorldTour #SerenadesAndBodyRolls #WithSpecialGuestLNGSHOT #MOREVISION",
      "url": "https://www.instagram.com/p/Dem-N7VDcu_/",
      "when": "2026-10-17T20:31:19Z"
@@ -1457,11 +1462,6 @@
      "title": "What it fondue Zurich?! @moresojuplease #JayPark #2026JayParkWorldTour #SerenadesAndBodyRolls #WithSpecialGuestLNGSHOT #MOREVISION",
      "url": "https://www.instagram.com/p/Deh-ZD8jfUe/",
      "when": "2026-10-15T21:56:39Z"
-    },
-    {
-     "title": "The first piece of #SWISH. Soon. EP [S.W.I.S.H.] 11/10 6PM KST Pre-order & pre-save now. #LNGSHOT #MOREVISION",
-     "url": "https://www.instagram.com/p/DehO0jGFBOy/",
-     "when": "2026-10-15T15:00:32Z"
     }
    ]
   },
@@ -2263,5 +2263,5 @@
    ]
   }
  },
- "ig_cursor": 28
+ "ig_cursor": 38
 }
