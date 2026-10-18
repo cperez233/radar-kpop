@@ -188,7 +188,10 @@
   "next:bts:bts-20261017-santiago|foro": "2026-10-18T03:01:04Z",
   "news:bef904cd8ebab63d|ntfy": "2026-10-18T04:45:59Z",
   "news:bef904cd8ebab63d|pub:radarkpop-bts-news": "2026-10-18T04:45:59Z",
-  "news:bef904cd8ebab63d|foro": "2026-10-18T04:45:59Z"
+  "news:bef904cd8ebab63d|foro": "2026-10-18T04:45:59Z",
+  "news:b41944d96bc69ad2|ntfy": "2026-10-18T05:45:57Z",
+  "news:b41944d96bc69ad2|pub:radarkpop-bts-news": "2026-10-18T05:45:57Z",
+  "news:b41944d96bc69ad2|foro": "2026-10-18T05:45:57Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1212,6 +1215,7 @@
   "b1e5e0c20b1f4131",
   "b238ab022b56a96c",
   "b36782312fba7bfa",
+  "b41944d96bc69ad2",
   "b455626a2377fc14",
   "b4712ba551623d0a",
   "b4a5ca75ee1ecb75",
@@ -1794,6 +1798,19 @@
     "vender"
    ],
    "t": "2026-10-18T04:45:52Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "cautivadora",
+    "concierto",
+    "durante",
+    "escenica",
+    "kim",
+    "presencia",
+    "taehyung"
+   ],
+   "t": "2026-10-18T05:45:50Z"
   }
  ],
  "discord_threads": {
