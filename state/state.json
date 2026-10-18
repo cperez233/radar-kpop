@@ -191,7 +191,10 @@
   "news:bef904cd8ebab63d|foro": "2026-10-18T04:45:59Z",
   "news:b41944d96bc69ad2|ntfy": "2026-10-18T05:45:57Z",
   "news:b41944d96bc69ad2|pub:radarkpop-bts-news": "2026-10-18T05:45:57Z",
-  "news:b41944d96bc69ad2|foro": "2026-10-18T05:45:57Z"
+  "news:b41944d96bc69ad2|foro": "2026-10-18T05:45:57Z",
+  "news:4ef89c16361406fc|ntfy": "2026-10-18T06:01:09Z",
+  "news:4ef89c16361406fc|pub:radarkpop-bts-news": "2026-10-18T06:01:09Z",
+  "news:4ef89c16361406fc|foro": "2026-10-18T06:01:09Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1095,6 +1098,7 @@
   "4e2e730cc7d75410",
   "4e4857307992ed2a",
   "4ed6072038194971",
+  "4ef89c16361406fc",
   "50505e7e6902081d",
   "51b5c0cd1bf99863",
   "52024feef47445d0",
@@ -1811,6 +1815,23 @@
     "taehyung"
    ],
    "t": "2026-10-18T05:45:50Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "chilenos",
+    "concierto",
+    "fue",
+    "lucio",
+    "peru",
+    "plato",
+    "ponchos",
+    "primero",
+    "repitio",
+    "santiago",
+    "ultimo"
+   ],
+   "t": "2026-10-18T06:01:00Z"
   }
  ],
  "discord_threads": {
