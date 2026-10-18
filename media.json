@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-18T09:15:35Z",
+ "updated_at": "2026-10-18T10:00:38Z",
  "sample": false,
  "items": [
   {
@@ -56,6 +56,15 @@
    "published": "2026-10-18T09:00:30Z",
    "url": "https://www.youtube.com/watch?v=P5WY5vyGvEQ",
    "image": "https://i.ytimg.com/vi/P5WY5vyGvEQ/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) 홍중 -  NO1 EDC KOREA LIVESHOW FULLSET",
+   "date": "2026-10-18",
+   "published": "2026-10-18T10:00:01Z",
+   "url": "https://www.youtube.com/watch?v=V81ykFddv3o",
+   "image": "https://i.ytimg.com/vi/V81ykFddv3o/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -312,15 +321,6 @@
    "published": "2026-10-12T11:00:01Z",
    "url": "https://www.youtube.com/watch?v=WpTB5HHeUnQ",
    "image": "https://i.ytimg.com/vi/WpTB5HHeUnQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) 종호 | 최종호 왕자님 생일 파티🤴🎂",
-   "date": "2026-10-12",
-   "published": "2026-10-12T10:25:08Z",
-   "url": "https://www.youtube.com/watch?v=NApodp8KKYg",
-   "image": "https://i.ytimg.com/vi/NApodp8KKYg/hqdefault.jpg"
   },
   {
    "type": "video",
