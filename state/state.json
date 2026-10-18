@@ -200,7 +200,25 @@
   "live:enh-20261018-macao|foro": "2026-10-18T09:46:01Z",
   "next:enhypen:enh-20261018-macao|ntfy": "2026-10-18T14:33:17Z",
   "next:enhypen:enh-20261018-macao|pub:radarkpop-enhypen-shows": "2026-10-18T14:33:17Z",
-  "next:enhypen:enh-20261018-macao|foro": "2026-10-18T14:33:17Z"
+  "next:enhypen:enh-20261018-macao|foro": "2026-10-18T14:33:17Z",
+  "rel:seventeen:2026-10-19|ntfy": "2026-10-18T15:01:16Z",
+  "rel:seventeen:2026-10-19|pub:radarkpop-seventeen-music": "2026-10-18T15:01:16Z",
+  "rel:seventeen:2026-10-19|foro": "2026-10-18T15:01:16Z",
+  "news:d731a77b46af8754|ntfy": "2026-10-18T15:01:16Z",
+  "news:d731a77b46af8754|pub:radarkpop-bts-news": "2026-10-18T15:01:16Z",
+  "news:d731a77b46af8754|foro": "2026-10-18T15:01:16Z",
+  "news:1e94fd76841e3838|ntfy": "2026-10-18T15:01:16Z",
+  "news:1e94fd76841e3838|pub:radarkpop-bts-news": "2026-10-18T15:01:16Z",
+  "news:1e94fd76841e3838|foro": "2026-10-18T15:01:16Z",
+  "news:aa98cec9e853de04|ntfy": "2026-10-18T15:01:16Z",
+  "news:aa98cec9e853de04|pub:radarkpop-seventeen-news": "2026-10-18T15:01:16Z",
+  "news:aa98cec9e853de04|foro": "2026-10-18T15:01:16Z",
+  "official:lngshot:comeback:2026-10-18|ntfy": "2026-10-18T15:01:16Z",
+  "official:lngshot:comeback:2026-10-18|pub:radarkpop-lngshot-music": "2026-10-18T15:01:16Z",
+  "official:lngshot:comeback:2026-10-18|foro": "2026-10-18T15:01:16Z",
+  "official:ateez:comeback:2026-10-18|ntfy": "2026-10-18T15:01:16Z",
+  "official:ateez:comeback:2026-10-18|pub:radarkpop-ateez-music": "2026-10-18T15:01:16Z",
+  "official:ateez:comeback:2026-10-18|foro": "2026-10-18T15:01:16Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1052,6 +1070,7 @@
   "1d9a22b374ee3ba3",
   "1d9e3375416431bc",
   "1e36796fa8465346",
+  "1e94fd76841e3838",
   "1fdcfdfc76d2c945",
   "20660513ec01ecdb",
   "21b109f093ee5e38",
@@ -1156,6 +1175,7 @@
   "76eb8c9b9a8c7b89",
   "778de05dcc384f27",
   "77f0106177ac9323",
+  "7b9a451843796f45",
   "7bb94153c05ac4e2",
   "7c9e9c0539f01758",
   "7cdeb99755e9553d",
@@ -1217,6 +1237,7 @@
   "a3395a5672762573",
   "a42212d3597c2d3a",
   "a48a22654f1ccfaa",
+  "a48b20e121850e41",
   "a4a6317a2074cad2",
   "a512c541fd566a4c",
   "a5b18da4e90b1f3c",
@@ -1225,6 +1246,7 @@
   "a89c1f791d473b61",
   "a8d34f7a2a8aa074",
   "aa43f8e08837f26d",
+  "aa98cec9e853de04",
   "ab11224b98b43419",
   "ab2fbcb45155586b",
   "ab4a9fbee2c772ac",
@@ -1279,6 +1301,7 @@
   "d5410b976ca14f0d",
   "d5a96446e327f726",
   "d5e9f8e16ae44802",
+  "d731a77b46af8754",
   "dd144002a3d61960",
   "dd323a64c13793af",
   "defb1ef553b2225b",
@@ -1313,109 +1336,6 @@
   "fe0c742a7bb314e3"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "aires",
-    "buenos",
-    "conciertos",
-    "oficial",
-    "paulo",
-    "presento",
-    "sao",
-    "trailer"
-   ],
-   "t": "2026-10-16T14:55:07Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "army",
-    "banda",
-    "carabineros",
-    "comportamiento",
-    "concierto",
-    "elogia",
-    "hicieron",
-    "reconocimiento",
-    "surcoreana"
-   ],
-   "t": "2026-10-16T14:55:07Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "acciones",
-    "ante",
-    "detras",
-    "dispararon",
-    "empresa",
-    "giras",
-    "hybe",
-    "proyecciones",
-    "record",
-    "resultados"
-   ],
-   "t": "2026-10-16T14:55:07Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "autorizado",
-    "chile",
-    "concierto",
-    "fue",
-    "intensas",
-    "lluvias",
-    "pesar"
-   ],
-   "t": "2026-10-16T14:55:07Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "asi",
-    "calor",
-    "chile",
-    "concierto",
-    "estara",
-    "este",
-    "lluvia",
-    "octubre",
-    "tiempo",
-    "viernes"
-   ],
-   "t": "2026-10-16T14:55:07Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "banda",
-    "chile",
-    "concierto",
-    "fanaticos",
-    "mil",
-    "primer",
-    "reunio",
-    "surcoreana"
-   ],
-   "t": "2026-10-16T14:55:07Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "abrieron",
-    "concierto",
-    "estadio",
-    "filas",
-    "largas",
-    "nacional",
-    "puertas",
-    "reportan",
-    "segundo"
-   ],
-   "t": "2026-10-16T14:55:07Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -1839,6 +1759,54 @@
     "ultimo"
    ],
    "t": "2026-10-18T06:01:00Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "chile",
+    "impacta",
+    "mayor",
+    "mundial",
+    "show",
+    "sorpresa",
+    "todo",
+    "tour",
+    "ultimo",
+    "viral"
+   ],
+   "t": "2026-10-18T15:01:08Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "army",
+    "chilena",
+    "concierto",
+    "cuando",
+    "dijo",
+    "durante",
+    "elogia",
+    "fans",
+    "hope",
+    "lima",
+    "mismo",
+    "pero",
+    "peruanas",
+    "recuerdan"
+   ],
+   "t": "2026-10-18T15:01:08Z"
+  },
+  {
+   "g": "seventeen",
+   "w": [
+    "2026",
+    "cast",
+    "date",
+    "release",
+    "tour",
+    "world"
+   ],
+   "t": "2026-10-18T15:01:08Z"
   }
  ],
  "discord_threads": {
@@ -1846,6 +1814,8 @@
   "skz": "1560811126709559389",
   "twice": "1560816133915803742",
   "lngshot": "1560853868294971504",
-  "enhypen": "1560967098178605127"
+  "enhypen": "1560967098178605127",
+  "seventeen": "1561393749081464854",
+  "ateez": "1561393791389409313"
  }
 }
