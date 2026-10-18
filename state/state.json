@@ -227,7 +227,10 @@
   "news:bd00707e69ee4ce4|foro": "2026-10-18T17:35:32Z",
   "news:d4e3dab0279b83d7|ntfy": "2026-10-18T20:16:38Z",
   "news:d4e3dab0279b83d7|pub:radarkpop-bts-news": "2026-10-18T20:16:38Z",
-  "news:d4e3dab0279b83d7|foro": "2026-10-18T20:16:38Z"
+  "news:d4e3dab0279b83d7|foro": "2026-10-18T20:16:38Z",
+  "news:79569b17c64f4cfd|ntfy": "2026-10-18T21:55:58Z",
+  "news:79569b17c64f4cfd|pub:radarkpop-bts-news": "2026-10-18T21:55:58Z",
+  "news:79569b17c64f4cfd|foro": "2026-10-18T21:55:58Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1186,6 +1189,7 @@
   "76eb8c9b9a8c7b89",
   "778de05dcc384f27",
   "77f0106177ac9323",
+  "79569b17c64f4cfd",
   "7b9a451843796f45",
   "7bb94153c05ac4e2",
   "7c9e9c0539f01758",
@@ -1349,52 +1353,6 @@
   "fe0c742a7bb314e3"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "aires",
-    "arirang",
-    "buenos",
-    "conecta",
-    "galaxy",
-    "gira",
-    "publico",
-    "s26",
-    "samsung",
-    "serie",
-    "tour",
-    "traves",
-    "world"
-   ],
-   "t": "2026-10-16T21:48:00Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "argentina",
-    "arirang",
-    "gira",
-    "saber",
-    "shows",
-    "sobre",
-    "tenes",
-    "todo"
-   ],
-   "t": "2026-10-16T21:48:00Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "antes",
-    "argentina",
-    "concierto",
-    "higiene",
-    "pedido",
-    "viral",
-    "volvio"
-   ],
-   "t": "2026-10-16T21:48:00Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -1866,6 +1824,23 @@
     "tras"
    ],
    "t": "2026-10-18T20:16:30Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "asi",
+    "aspecto",
+    "cam",
+    "chile",
+    "concierto",
+    "crear",
+    "eyes",
+    "fan",
+    "irreal",
+    "podria",
+    "rostro"
+   ],
+   "t": "2026-10-18T21:55:52Z"
   }
  ],
  "discord_threads": {
