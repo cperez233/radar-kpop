@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-18T09:30:50Z",
+ "updated_at": "2026-10-18T10:31:05Z",
  "groups": {
   "bts": {
    "x": [
@@ -2143,6 +2143,11 @@
    ],
    "instagram": [
     {
+     "title": "더기 마스터 #CORTIS #코르티스",
+     "url": "https://www.instagram.com/p/DeoT7tpA9RJ/",
+     "when": "2026-10-18T09:00:38Z"
+    },
+    {
      "title": "📸",
      "url": "https://www.instagram.com/p/Den2QARGqKb/",
      "when": "2026-10-18T04:40:57Z"
@@ -2161,16 +2166,16 @@
      "title": "하모니카 한 모금 SIP #CORTIS #코르티스",
      "url": "https://www.instagram.com/p/DeioBimBZwe/",
      "when": "2026-10-16T04:00:08Z"
-    },
-    {
-     "title": "10/10 view 😍 #CORTIS #코르티스",
-     "url": "https://www.instagram.com/p/DegX4u2gR4M/",
-     "when": "2026-10-15T07:01:17Z"
     }
    ]
   },
   "ateez": {
    "x": [
+    {
+     "title": "[🎬] ATEEZ(에이티즈) 홍중 - NO1 EDC KOREA LIVESHOW FULLSET #ATEEZ #에이티즈 #홍중 #HONGJOONG",
+     "url": "https://x.com/ATEEZofficial/status/2111759470196130265",
+     "when": "2026-10-18T10:01:06Z"
+    },
     {
      "title": "[📢] ATEEZ(에이티즈) - ‘BAD’ Official MV 100,000,000 Views ⠀ ATINY의 뜨거운 사랑에 힘입어 ‘BAD’ 뮤직비디오 1억 뷰 달성! ATEEZ에게 꾸준한 관심과...",
      "url": "https://x.com/ATEEZofficial/status/2111661160038891675",
@@ -2190,11 +2195,6 @@
      "title": "[📷] ATEEZ(에이티즈) GOLDEN HOUR : Part.6 Concept Photo 1 2026. 11. 13 2PM RELEASE 📎Pre-save/add: #ATEEZ ...",
      "url": "https://x.com/ATEEZofficial/status/2110747526156485085",
      "when": "2026-10-15T15:00:00Z"
-    },
-    {
-     "title": "[🔔] 82WORLD: LA ‘ATINY ZONE’ 운영 공지 수정 안내 * 수정 사항이 반영된 최종 공지문 기준으로 내용 확인 부탁드립니다.",
-     "url": "https://x.com/ATEEZofficial/status/2110569411702817205",
-     "when": "2026-10-15T03:12:14Z"
     }
    ],
    "members": {
@@ -2263,5 +2263,5 @@
    ]
   }
  },
- "ig_cursor": 48
+ "ig_cursor": 8
 }
