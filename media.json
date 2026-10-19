@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-19T07:00:41Z",
+ "updated_at": "2026-10-19T10:30:34Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-10-19"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "Now it’s twelve 🕛 #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
+   "date": "2026-10-19",
+   "published": "2026-10-19T10:30:18Z",
+   "url": "https://www.youtube.com/watch?v=5JxlyzwSaFQ",
+   "image": "https://i.ytimg.com/vi/5JxlyzwSaFQ/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -214,15 +223,6 @@
    "published": "2026-10-16T09:00:11Z",
    "url": "https://www.youtube.com/watch?v=qcTMapoI-OM",
    "image": "https://i.ytimg.com/vi/qcTMapoI-OM/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[INSIDE SEVENTEEN] 조슈아 'Baby Come Home' Live Clip 촬영 비하인드 (JOSHUA \"Baby Come Home\" Live Clip Sketch)",
-   "date": "2026-10-16",
-   "published": "2026-10-16T12:59:59Z",
-   "url": "https://www.youtube.com/watch?v=nIRQaYMlADQ",
-   "image": "https://i.ytimg.com/vi/nIRQaYMlADQ/hqdefault.jpg"
   },
   {
    "type": "video",
