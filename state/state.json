@@ -266,7 +266,10 @@
   "news:8b905058820569af|foro": "2026-10-19T16:01:09Z",
   "news:f460d4c1210d2e15|ntfy": "2026-10-19T17:01:12Z",
   "news:f460d4c1210d2e15|pub:radarkpop-bts-news": "2026-10-19T17:01:12Z",
-  "news:f460d4c1210d2e15|foro": "2026-10-19T17:01:12Z"
+  "news:f460d4c1210d2e15|foro": "2026-10-19T17:01:12Z",
+  "news:0a02b51225b6bfe6|ntfy": "2026-10-19T21:16:28Z",
+  "news:0a02b51225b6bfe6|pub:radarkpop-bts-news": "2026-10-19T21:16:28Z",
+  "news:0a02b51225b6bfe6|foro": "2026-10-19T21:16:28Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1102,6 +1105,7 @@
   "0635a9a85274493c",
   "06c044c57450a104",
   "0901a917ef136e80",
+  "0a02b51225b6bfe6",
   "0bb6ec7c557e4511",
   "0ce8c9dcdb689998",
   "0d36563c517bd3a7",
@@ -1856,6 +1860,25 @@
     "tras"
    ],
    "t": "2026-10-19T17:01:02Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "130",
+    "asia",
+    "entran",
+    "gira",
+    "jackpot",
+    "mil",
+    "millones",
+    "resumen",
+    "seventeen",
+    "top",
+    "twice",
+    "ventas",
+    "wones"
+   ],
+   "t": "2026-10-19T21:16:11Z"
   }
  ],
  "discord_threads": {
