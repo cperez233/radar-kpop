@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-19T05:30:53Z",
+ "updated_at": "2026-10-19T06:30:51Z",
  "groups": {
   "bts": {
    "x": [
@@ -1379,6 +1379,11 @@
   "lngshot": {
    "x": [
     {
+     "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (위드뮤) #LNGSHOT #SWISH #MOREVISION",
+     "url": "https://x.com/LNGSHOT4sho/status/2112061527788503521",
+     "when": "2026-10-19T06:01:23Z"
+    },
+    {
      "title": "‘Masterpiece’ 10/21 6PM KST EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. #Masterpiece #LNGSHOT #MOREV...",
      "url": "https://x.com/LNGSHOT4sho/status/2111834706245566559",
      "when": "2026-10-18T15:00:04Z"
@@ -1397,11 +1402,6 @@
      "title": "261016 #댐뷸런스 #DAMN_BULANCE 📸🤞 #LNGSHOT #MOREVISION",
      "url": "https://x.com/LNGSHOT4sho/status/2111072166146187647",
      "when": "2026-10-16T12:30:00Z"
-    },
-    {
-     "title": "[#댐뷸런스] 친구 여친이 내게 한 충격 고백 | EP.2 #LNGSHOT #DAMN_BULANCE",
-     "url": "https://x.com/LNGSHOT4sho/status/2111036374623322315",
-     "when": "2026-10-16T10:07:47Z"
     }
    ],
    "members": {
@@ -2263,5 +2263,5 @@
    ]
   }
  },
- "ig_cursor": 48
+ "ig_cursor": 8
 }
