@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-19T15:00:40Z",
+ "updated_at": "2026-10-19T15:16:07Z",
  "sample": false,
  "items": [
   {
@@ -48,6 +48,15 @@
    "published": "2026-10-19T11:00:09Z",
    "url": "https://www.youtube.com/watch?v=qDFiqYi0sXA",
    "image": "https://i.ytimg.com/vi/qDFiqYi0sXA/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "TWICE 11TH ANNIVERSARY🍭❤️ #ONCE #원스 #TWICE #트와이스  #TWICE_11th_Anniversary",
+   "date": "2026-10-19",
+   "published": "2026-10-19T15:00:13Z",
+   "url": "https://www.youtube.com/watch?v=FqLWN-GWtC0",
+   "image": "https://i.ytimg.com/vi/FqLWN-GWtC0/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -268,15 +277,6 @@
    "published": "2026-10-15T10:41:20Z",
    "url": "https://www.youtube.com/watch?v=BDY7GUM-4TE",
    "image": "https://i.ytimg.com/vi/BDY7GUM-4TE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "TWICE Special Vinyl ＜THIS IS FOR＞  WORLD TOUR FINALE in SEOUL - LIVE : D-1",
-   "date": "2026-10-15",
-   "published": "2026-10-15T09:00:07Z",
-   "url": "https://www.youtube.com/watch?v=mD3oHeiWtVc",
-   "image": "https://i.ytimg.com/vi/mD3oHeiWtVc/hqdefault.jpg"
   },
   {
    "type": "video",
