@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-19T11:00:39Z",
+ "updated_at": "2026-10-19T12:15:40Z",
  "sample": false,
  "items": [
   {
@@ -48,6 +48,15 @@
    "published": "2026-10-19T11:00:09Z",
    "url": "https://www.youtube.com/watch?v=qDFiqYi0sXA",
    "image": "https://i.ytimg.com/vi/qDFiqYi0sXA/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "I forgot my earphones ◠‿◠ #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
+   "date": "2026-10-19",
+   "published": "2026-10-19T12:00:27Z",
+   "url": "https://www.youtube.com/watch?v=cBLqTPR70HM",
+   "image": "https://i.ytimg.com/vi/cBLqTPR70HM/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -102,15 +111,6 @@
    "published": "2026-10-17T11:33:11Z",
    "url": "https://www.youtube.com/watch?v=jcmVRR_BnZU",
    "image": "https://i.ytimg.com/vi/jcmVRR_BnZU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[EVERY WONWOO] 제 카메라들을 소개합니다",
-   "date": "2026-10-17",
-   "published": "2026-10-17T10:16:57Z",
-   "url": "https://www.youtube.com/watch?v=YW3BxZZSbJc",
-   "image": "https://i.ytimg.com/vi/YW3BxZZSbJc/hqdefault.jpg"
   },
   {
    "type": "video",
