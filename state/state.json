@@ -245,7 +245,10 @@
   "news:9e201d9a840c2fea|foro": "2026-10-19T03:33:42Z",
   "news:5f3f9c3a68de1aa2|ntfy": "2026-10-19T03:33:42Z",
   "news:5f3f9c3a68de1aa2|pub:radarkpop-bts-news": "2026-10-19T03:33:42Z",
-  "news:5f3f9c3a68de1aa2|foro": "2026-10-19T03:33:42Z"
+  "news:5f3f9c3a68de1aa2|foro": "2026-10-19T03:33:42Z",
+  "news:7cdd1f92b2d74a40|ntfy": "2026-10-19T05:16:27Z",
+  "news:7cdd1f92b2d74a40|pub:radarkpop-seventeen-news": "2026-10-19T05:16:27Z",
+  "news:7cdd1f92b2d74a40|foro": "2026-10-19T05:16:27Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1214,6 +1217,7 @@
   "7b9a451843796f45",
   "7bb94153c05ac4e2",
   "7c9e9c0539f01758",
+  "7cdd1f92b2d74a40",
   "7cdeb99755e9553d",
   "7eac8580136709cb",
   "7ebbb187fd0730fc",
@@ -1811,6 +1815,22 @@
     "ustedes"
    ],
    "t": "2026-10-19T03:33:34Z"
+  },
+  {
+   "g": "seventeen",
+   "w": [
+    "asia",
+    "chart",
+    "focus",
+    "gira",
+    "ingresos",
+    "mil",
+    "millones",
+    "numero",
+    "oficial",
+    "wones"
+   ],
+   "t": "2026-10-19T05:16:18Z"
   }
  ],
  "discord_threads": {
