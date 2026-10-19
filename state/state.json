@@ -254,7 +254,10 @@
   "official:lngshot:comeback:2026-10-19|foro": "2026-10-19T06:16:37Z",
   "official:seventeen:comeback:2026-10-19|ntfy": "2026-10-19T08:01:18Z",
   "official:seventeen:comeback:2026-10-19|pub:radarkpop-seventeen-music": "2026-10-19T08:01:18Z",
-  "official:seventeen:comeback:2026-10-19|foro": "2026-10-19T08:01:18Z"
+  "official:seventeen:comeback:2026-10-19|foro": "2026-10-19T08:01:18Z",
+  "official:ateez:comeback:2026-10-19|ntfy": "2026-10-19T10:46:03Z",
+  "official:ateez:comeback:2026-10-19|pub:radarkpop-ateez-music": "2026-10-19T10:46:03Z",
+  "official:ateez:comeback:2026-10-19|foro": "2026-10-19T10:46:03Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1172,6 +1175,7 @@
   "4e2a31c39658b777",
   "4e2e730cc7d75410",
   "4e4857307992ed2a",
+  "4e9a7837d11eb3a0",
   "4ed6072038194971",
   "4ef89c16361406fc",
   "50505e7e6902081d",
