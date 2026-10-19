@@ -281,7 +281,13 @@
   "news:75d20a0688a1db62|foro": "2026-10-19T22:01:29Z",
   "news:b93fa8117cc10d17|ntfy": "2026-10-19T22:16:24Z",
   "news:b93fa8117cc10d17|pub:radarkpop-bts-news": "2026-10-19T22:16:24Z",
-  "news:b93fa8117cc10d17|foro": "2026-10-19T22:16:24Z"
+  "news:b93fa8117cc10d17|foro": "2026-10-19T22:16:24Z",
+  "news:3d4674e9aa875640|ntfy": "2026-10-19T23:16:45Z",
+  "news:3d4674e9aa875640|pub:radarkpop-bts-news": "2026-10-19T23:16:45Z",
+  "news:3d4674e9aa875640|foro": "2026-10-19T23:16:45Z",
+  "news:69920cf4419778b9|ntfy": "2026-10-19T23:16:45Z",
+  "news:69920cf4419778b9|pub:radarkpop-bts-news": "2026-10-19T23:16:45Z",
+  "news:69920cf4419778b9|foro": "2026-10-19T23:16:45Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1182,6 +1188,7 @@
   "3b2d73c034e4e4d2",
   "3b5d4a40f7b689df",
   "3c764024703b3435",
+  "3d4674e9aa875640",
   "3d560db24dbf00fa",
   "3db2c05664bc123b",
   "3e20e3701b9164cb",
@@ -1235,6 +1242,7 @@
   "67c32e301ed9349e",
   "6898b544ad664ce0",
   "693284d097c750f7",
+  "69920cf4419778b9",
   "69d31ebfd2c34c79",
   "6b9de9f9739b2949",
   "6bbcfae7a465dc47",
@@ -1424,6 +1432,7 @@
   "df508a80852ccfa0",
   "df91eb9facff7351",
   "df9f99baee686f44",
+  "e0a35b48a10bf225",
   "e20959cc2895af1d",
   "e23d52033c88fcf1",
   "e2d1897da009f191",
@@ -1454,39 +1463,6 @@
   "fe0c742a7bb314e3"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "000",
-    "900",
-    "aclaro",
-    "cobrados",
-    "concierto",
-    "contrato",
-    "dolares",
-    "grama",
-    "mantenimiento",
-    "sencia"
-   ],
-   "t": "2026-10-17T23:01:04Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "bogota",
-    "campin",
-    "concierto",
-    "control",
-    "generan",
-    "investigacion",
-    "manejo",
-    "mantenimiento",
-    "pagos",
-    "politico",
-    "tras"
-   ],
-   "t": "2026-10-17T23:01:04Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -1938,6 +1914,30 @@
     "primeras"
    ],
    "t": "2026-10-19T22:16:16Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "banda",
+    "esta",
+    "furor",
+    "pais",
+    "surcoreana"
+   ],
+   "t": "2026-10-19T23:16:36Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "brindar",
+    "conciertos",
+    "historicos",
+    "llego",
+    "plata",
+    "tres"
+   ],
+   "t": "2026-10-19T23:16:36Z"
   }
  ],
  "discord_threads": {
