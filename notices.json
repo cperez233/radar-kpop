@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-19T09:15:41Z",
+ "updated_at": "2026-10-19T10:38:07Z",
  "groups": {
   "lngshot": [
    {
@@ -95,6 +95,15 @@
     "url": "https://weverse.io/enhypen/notice/39886",
     "post": "https://x.com/ENHYPEN/status/2109509368777707719",
     "when": "2026-10-12T05:00:00Z",
+    "weverse": true
+   }
+  ],
+  "cortis": [
+   {
+    "title": "[Notice] CORTIS 2026 MAMA AWARDS 투표 인증 온라인 이벤트 안내",
+    "url": "https://weverse.io/cortis/notice/40215",
+    "post": "https://x.com/cortis_bighit/status/2112129352808996908",
+    "when": "2026-10-19T10:30:53Z",
     "weverse": true
    }
   ]
