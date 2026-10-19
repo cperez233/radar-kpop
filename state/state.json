@@ -278,7 +278,10 @@
   "news:4c66adbc58a5030b|foro": "2026-10-19T22:01:29Z",
   "news:75d20a0688a1db62|ntfy": "2026-10-19T22:01:29Z",
   "news:75d20a0688a1db62|pub:radarkpop-bts-news": "2026-10-19T22:01:29Z",
-  "news:75d20a0688a1db62|foro": "2026-10-19T22:01:29Z"
+  "news:75d20a0688a1db62|foro": "2026-10-19T22:01:29Z",
+  "news:b93fa8117cc10d17|ntfy": "2026-10-19T22:16:24Z",
+  "news:b93fa8117cc10d17|pub:radarkpop-bts-news": "2026-10-19T22:16:24Z",
+  "news:b93fa8117cc10d17|foro": "2026-10-19T22:16:24Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1368,6 +1371,7 @@
   "b79d006590806ea6",
   "b7d7cf59af0f01aa",
   "b81687ac8f169694",
+  "b93fa8117cc10d17",
   "b944d67a91068117",
   "baffdb70106f1b7b",
   "bb28959efdf88008",
@@ -1918,6 +1922,20 @@
     "siete"
    ],
    "t": "2026-10-19T22:01:19Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "desato",
+    "expectativa",
+    "ezeiza",
+    "fans",
+    "imagenes",
+    "llego",
+    "primeras"
+   ],
+   "t": "2026-10-19T22:16:16Z"
   }
  ],
  "discord_threads": {
