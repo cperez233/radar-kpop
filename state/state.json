@@ -263,7 +263,10 @@
   "weekly:2026-43|foro": "2026-10-19T13:01:14Z",
   "news:8b905058820569af|ntfy": "2026-10-19T16:01:09Z",
   "news:8b905058820569af|pub:radarkpop-bts-news": "2026-10-19T16:01:09Z",
-  "news:8b905058820569af|foro": "2026-10-19T16:01:09Z"
+  "news:8b905058820569af|foro": "2026-10-19T16:01:09Z",
+  "news:f460d4c1210d2e15|ntfy": "2026-10-19T17:01:12Z",
+  "news:f460d4c1210d2e15|pub:radarkpop-bts-news": "2026-10-19T17:01:12Z",
+  "news:f460d4c1210d2e15|foro": "2026-10-19T17:01:12Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1414,6 +1417,7 @@
   "f2ecbe4a9a3ce990",
   "f3acd7d6afac73f8",
   "f450cd410a9c2689",
+  "f460d4c1210d2e15",
   "f46d5fbeafb14247",
   "f6bfdc7acd7cf89f",
   "fa9f82f465a290fe",
@@ -1426,21 +1430,6 @@
   "fe0c742a7bb314e3"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "cada",
-    "canciones",
-    "ciudad",
-    "gira",
-    "guinos",
-    "locales",
-    "reinventa",
-    "sorpresa",
-    "vestuarios"
-   ],
-   "t": "2026-10-17T17:00:54Z"
-  },
   {
    "g": "skz",
    "w": [
@@ -1850,6 +1839,22 @@
     "tras"
    ],
    "t": "2026-10-19T16:01:01Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "chile",
+    "concierto",
+    "depresion",
+    "emocional",
+    "explica",
+    "fenomeno",
+    "paso",
+    "post",
+    "psicologa",
+    "tras"
+   ],
+   "t": "2026-10-19T17:01:02Z"
   }
  ],
  "discord_threads": {
