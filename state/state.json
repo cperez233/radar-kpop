@@ -260,7 +260,10 @@
   "official:ateez:comeback:2026-10-19|foro": "2026-10-19T10:46:03Z",
   "weekly:2026-43|ntfy": "2026-10-19T13:01:14Z",
   "weekly:2026-43|pub:radarkpop-semana": "2026-10-19T13:01:14Z",
-  "weekly:2026-43|foro": "2026-10-19T13:01:14Z"
+  "weekly:2026-43|foro": "2026-10-19T13:01:14Z",
+  "news:8b905058820569af|ntfy": "2026-10-19T16:01:09Z",
+  "news:8b905058820569af|pub:radarkpop-bts-news": "2026-10-19T16:01:09Z",
+  "news:8b905058820569af|foro": "2026-10-19T16:01:09Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1267,6 +1270,7 @@
   "8a96d25f7b7fac4d",
   "8ab7b643978f419d",
   "8ad15c2ec3cf151e",
+  "8b905058820569af",
   "8cbd2b6b30216cf7",
   "8cc811a5f123bad9",
   "8d5013b8a186306f",
@@ -1830,6 +1834,22 @@
     "wones"
    ],
    "t": "2026-10-19T05:16:18Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "asi",
+    "cancha",
+    "color",
+    "conciertos",
+    "estadio",
+    "humedad",
+    "nacional",
+    "nivelacion",
+    "quedo",
+    "tras"
+   ],
+   "t": "2026-10-19T16:01:01Z"
   }
  ],
  "discord_threads": {
