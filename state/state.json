@@ -233,7 +233,19 @@
   "news:79569b17c64f4cfd|foro": "2026-10-18T21:55:58Z",
   "news:0901a917ef136e80|ntfy": "2026-10-18T23:01:07Z",
   "news:0901a917ef136e80|pub:radarkpop-bts-news": "2026-10-18T23:01:07Z",
-  "news:0901a917ef136e80|foro": "2026-10-18T23:01:07Z"
+  "news:0901a917ef136e80|foro": "2026-10-18T23:01:07Z",
+  "news:d3622ad6a723820b|ntfy": "2026-10-19T03:33:42Z",
+  "news:d3622ad6a723820b|pub:radarkpop-bts-news": "2026-10-19T03:33:42Z",
+  "news:d3622ad6a723820b|foro": "2026-10-19T03:33:42Z",
+  "news:aa252b6cb401facd|ntfy": "2026-10-19T03:33:42Z",
+  "news:aa252b6cb401facd|pub:radarkpop-bts-news": "2026-10-19T03:33:42Z",
+  "news:aa252b6cb401facd|foro": "2026-10-19T03:33:42Z",
+  "news:9e201d9a840c2fea|ntfy": "2026-10-19T03:33:42Z",
+  "news:9e201d9a840c2fea|pub:radarkpop-bts-news": "2026-10-19T03:33:42Z",
+  "news:9e201d9a840c2fea|foro": "2026-10-19T03:33:42Z",
+  "news:5f3f9c3a68de1aa2|ntfy": "2026-10-19T03:33:42Z",
+  "news:5f3f9c3a68de1aa2|pub:radarkpop-bts-news": "2026-10-19T03:33:42Z",
+  "news:5f3f9c3a68de1aa2|foro": "2026-10-19T03:33:42Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1088,6 +1100,7 @@
   "1d9e3375416431bc",
   "1e36796fa8465346",
   "1e94fd76841e3838",
+  "1ea2177ac846c823",
   "1fdcfdfc76d2c945",
   "20660513ec01ecdb",
   "21b109f093ee5e38",
@@ -1139,6 +1152,7 @@
   "45c872ad6207466f",
   "486cfbfa1836a7f0",
   "48e69a540f086961",
+  "4963fbdd8eb6b3b5",
   "49ae9537dd2a4281",
   "4b7a46f9539f8195",
   "4d478540b34de366",
@@ -1162,6 +1176,7 @@
   "5ae1cecc40f0b22a",
   "5e72890187c14f26",
   "5ee334653ac920dd",
+  "5f3f9c3a68de1aa2",
   "61148face18541a3",
   "61c437627c8e53ad",
   "647fbfe504b1c95e",
@@ -1250,6 +1265,7 @@
   "9a80c3652095c287",
   "9d0eb49e37175554",
   "9e0aece9e2c8cda0",
+  "9e201d9a840c2fea",
   "9eeb1f42eb447f73",
   "9fb001d5ac0ffae2",
   "a208891472485ef0",
@@ -1266,6 +1282,7 @@
   "a880fa2c23d52329",
   "a89c1f791d473b61",
   "a8d34f7a2a8aa074",
+  "aa252b6cb401facd",
   "aa43f8e08837f26d",
   "aa98cec9e853de04",
   "ab11224b98b43419",
@@ -1320,6 +1337,7 @@
   "d0cc514f1ef6d062",
   "d1f05823aca4b327",
   "d319e8cbb03d8058",
+  "d3622ad6a723820b",
   "d369c8ed35a62fb8",
   "d4c9df50f3292907",
   "d4e3dab0279b83d7",
@@ -1735,6 +1753,64 @@
     "vestidos"
    ],
    "t": "2026-10-18T23:01:00Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "chile",
+    "concierto",
+    "crearon",
+    "nubes",
+    "santiago",
+    "unica",
+    "vista",
+    "viste"
+   ],
+   "t": "2026-10-19T03:33:34Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "afirman",
+    "chile",
+    "despide",
+    "gira",
+    "huasos",
+    "mejor",
+    "pais",
+    "sido",
+    "vestidos"
+   ],
+   "t": "2026-10-19T03:33:34Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "chile",
+    "chileno",
+    "cierre",
+    "conciertos",
+    "fans",
+    "huaso",
+    "impacto",
+    "vestidos"
+   ],
+   "t": "2026-10-19T03:33:34Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "chile",
+    "cierre",
+    "han",
+    "inolvidable",
+    "mejores",
+    "prometio",
+    "regreso",
+    "sido",
+    "ustedes"
+   ],
+   "t": "2026-10-19T03:33:34Z"
   }
  ],
  "discord_threads": {
