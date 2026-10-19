@@ -257,7 +257,10 @@
   "official:seventeen:comeback:2026-10-19|foro": "2026-10-19T08:01:18Z",
   "official:ateez:comeback:2026-10-19|ntfy": "2026-10-19T10:46:03Z",
   "official:ateez:comeback:2026-10-19|pub:radarkpop-ateez-music": "2026-10-19T10:46:03Z",
-  "official:ateez:comeback:2026-10-19|foro": "2026-10-19T10:46:03Z"
+  "official:ateez:comeback:2026-10-19|foro": "2026-10-19T10:46:03Z",
+  "weekly:2026-43|ntfy": "2026-10-19T13:01:14Z",
+  "weekly:2026-43|pub:radarkpop-semana": "2026-10-19T13:01:14Z",
+  "weekly:2026-43|foro": "2026-10-19T13:01:14Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1146,6 +1149,7 @@
   "35c71d8e85df1647",
   "36c356fad60fc859",
   "389d9accd3cc4922",
+  "38a7308810f867f5",
   "390aa0433fba6998",
   "390ee90c1bd5eabd",
   "39c26763054ebfe8",
@@ -1303,6 +1307,7 @@
   "a48b20e121850e41",
   "a4a6317a2074cad2",
   "a512c541fd566a4c",
+  "a547f3c441a21655",
   "a5b18da4e90b1f3c",
   "a6aca9d79fc7ba8a",
   "a7e663f3005db419",
@@ -1859,6 +1864,7 @@
   "lngshot": "1560853868294971504",
   "enhypen": "1560967098178605127",
   "seventeen": "1561393749081464854",
-  "ateez": "1561393791389409313"
+  "ateez": "1561393791389409313",
+  "radar": "1561725925404704909"
  }
 }
