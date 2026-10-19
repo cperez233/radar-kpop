@@ -272,7 +272,13 @@
   "news:0a02b51225b6bfe6|foro": "2026-10-19T21:16:28Z",
   "news:3831a5e2191de54d|ntfy": "2026-10-19T21:46:06Z",
   "news:3831a5e2191de54d|pub:radarkpop-bts-news": "2026-10-19T21:46:06Z",
-  "news:3831a5e2191de54d|foro": "2026-10-19T21:46:06Z"
+  "news:3831a5e2191de54d|foro": "2026-10-19T21:46:06Z",
+  "news:4c66adbc58a5030b|ntfy": "2026-10-19T22:01:29Z",
+  "news:4c66adbc58a5030b|pub:radarkpop-bts-news": "2026-10-19T22:01:29Z",
+  "news:4c66adbc58a5030b|foro": "2026-10-19T22:01:29Z",
+  "news:75d20a0688a1db62|ntfy": "2026-10-19T22:01:29Z",
+  "news:75d20a0688a1db62|pub:radarkpop-bts-news": "2026-10-19T22:01:29Z",
+  "news:75d20a0688a1db62|foro": "2026-10-19T22:01:29Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1192,6 +1198,7 @@
   "4963fbdd8eb6b3b5",
   "49ae9537dd2a4281",
   "4b7a46f9539f8195",
+  "4c66adbc58a5030b",
   "4d478540b34de366",
   "4e2a31c39658b777",
   "4e2e730cc7d75410",
@@ -1247,6 +1254,7 @@
   "74582231ea978fdc",
   "74b41e68178cb619",
   "74bf3ce2479745b7",
+  "75d20a0688a1db62",
   "75e89e2eef9699bd",
   "76a39e4e78214fd8",
   "76eb8c9b9a8c7b89",
@@ -1882,6 +1890,34 @@
     "llegaron"
    ],
    "t": "2026-10-19T21:45:58Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "banda",
+    "fotos",
+    "furor",
+    "llego",
+    "mundo",
+    "pop",
+    "primeras"
+   ],
+   "t": "2026-10-19T22:01:19Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "conciertos",
+    "estan",
+    "historicos",
+    "integrantes",
+    "pais",
+    "semana",
+    "siete"
+   ],
+   "t": "2026-10-19T22:01:19Z"
   }
  ],
  "discord_threads": {
