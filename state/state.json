@@ -336,7 +336,10 @@
   "news:b0bea9e7f5f79574|foro": "2026-10-20T11:46:05Z",
   "news:e4b9a4b815d44b14|ntfy": "2026-10-20T12:01:13Z",
   "news:e4b9a4b815d44b14|pub:radarkpop-bts-news": "2026-10-20T12:01:13Z",
-  "news:e4b9a4b815d44b14|foro": "2026-10-20T12:01:13Z"
+  "news:e4b9a4b815d44b14|foro": "2026-10-20T12:01:13Z",
+  "news:0e8ae0cc68e39e8f|ntfy": "2026-10-20T13:46:21Z",
+  "news:0e8ae0cc68e39e8f|pub:radarkpop-bts-news": "2026-10-20T13:46:21Z",
+  "news:0e8ae0cc68e39e8f|foro": "2026-10-20T13:46:21Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1187,7 +1190,9 @@
   "0de7b77acfdf0eef",
   "0dfdd6e27b87bab9",
   "0e3cd0c34d2eddc9",
+  "0e8ae0cc68e39e8f",
   "0fbf25e3f87492ea",
+  "0fd3478e61a5d579",
   "11acf55ff2fd475e",
   "11d3d2e8027fbb9a",
   "12b4a3f7f902c68a",
@@ -1391,6 +1396,7 @@
   "8ab7b643978f419d",
   "8ad15c2ec3cf151e",
   "8b905058820569af",
+  "8c42476febb08ead",
   "8cbd2b6b30216cf7",
   "8cc811a5f123bad9",
   "8d5013b8a186306f",
@@ -1514,6 +1520,7 @@
   "c8a5b7edba2ce17f",
   "c8c7e5d61ca24a51",
   "c8efc95d0789bdf1",
+  "c9a081307f21a439",
   "cc37a3501c42ea08",
   "cc3f0b8e5a87d903",
   "cca49e5f4017ea46",
@@ -2102,6 +2109,18 @@
     "operativo"
    ],
    "t": "2026-10-20T12:01:05Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentino",
+    "army",
+    "esta",
+    "pais",
+    "prepara",
+    "reencontrarse"
+   ],
+   "t": "2026-10-20T13:46:12Z"
   }
  ],
  "discord_threads": {
