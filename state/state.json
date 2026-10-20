@@ -375,7 +375,10 @@
   "news:54030e68e8bdb670|foro": "2026-10-20T19:46:05Z",
   "news:a4964ea533083526|ntfy": "2026-10-20T19:46:05Z",
   "news:a4964ea533083526|pub:radarkpop-bts-news": "2026-10-20T19:46:05Z",
-  "news:a4964ea533083526|foro": "2026-10-20T19:46:05Z"
+  "news:a4964ea533083526|foro": "2026-10-20T19:46:05Z",
+  "news:7e0322db7b70439a|ntfy": "2026-10-20T20:46:07Z",
+  "news:7e0322db7b70439a|pub:radarkpop-bts-news": "2026-10-20T20:46:07Z",
+  "news:7e0322db7b70439a|foro": "2026-10-20T20:46:07Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1282,6 +1285,7 @@
   "33ce7fcc82e89b3d",
   "33dda7e6ed211b58",
   "34de096ff87fab5f",
+  "353524d201d12891",
   "3549801f34468dea",
   "35c71d8e85df1647",
   "36c356fad60fc859",
@@ -1415,6 +1419,7 @@
   "7cdd1f92b2d74a40",
   "7cdeb99755e9553d",
   "7d320530a3e3907c",
+  "7e0322db7b70439a",
   "7eac8580136709cb",
   "7ebbb187fd0730fc",
   "7fab5ac364031e2e",
@@ -2239,6 +2244,17 @@
     "todo"
    ],
    "t": "2026-10-20T19:45:57Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "concierto",
+    "despliega",
+    "megadispositivo",
+    "plata",
+    "seguridad"
+   ],
+   "t": "2026-10-20T20:45:59Z"
   }
  ],
  "discord_threads": {
