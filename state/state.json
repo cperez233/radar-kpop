@@ -296,7 +296,10 @@
   "news:c24bc299f41ceb9a|foro": "2026-10-20T00:16:29Z",
   "news:a78a9de10042d21d|ntfy": "2026-10-20T00:31:31Z",
   "news:a78a9de10042d21d|pub:radarkpop-bts-news": "2026-10-20T00:31:31Z",
-  "news:a78a9de10042d21d|foro": "2026-10-20T00:31:31Z"
+  "news:a78a9de10042d21d|foro": "2026-10-20T00:31:31Z",
+  "news:8326a53b817f1aa1|ntfy": "2026-10-20T00:43:04Z",
+  "news:8326a53b817f1aa1|pub:radarkpop-bts-news": "2026-10-20T00:43:04Z",
+  "news:8326a53b817f1aa1|foro": "2026-10-20T00:43:04Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1296,6 +1299,7 @@
   "81984c7796be273c",
   "82457908a84a4ac1",
   "82bc97bed18bd8fc",
+  "8326a53b817f1aa1",
   "835d2af67d55829b",
   "837212f9ee6475ab",
   "84038b786c539d8d",
@@ -1453,6 +1457,7 @@
   "e3e5fc804ec1b725",
   "e4a94de0a8275670",
   "e89f63b4fc4534fa",
+  "eaacbbf21eb48d17",
   "eb114ff53d81c04a",
   "eb9db11242eda275",
   "ec325e1df85ea8ee",
@@ -1904,6 +1909,18 @@
     "shows"
    ],
    "t": "2026-10-20T00:31:24Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "conocieron",
+    "esta",
+    "imagenes",
+    "llegada",
+    "primeras"
+   ],
+   "t": "2026-10-20T00:42:55Z"
   }
  ],
  "discord_threads": {
