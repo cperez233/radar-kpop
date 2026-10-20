@@ -363,7 +363,10 @@
   "live:lng-20261020-paris|foro": "2026-10-20T17:16:27Z",
   "news:80a3836bf4693a1b|ntfy": "2026-10-20T18:16:32Z",
   "news:80a3836bf4693a1b|pub:radarkpop-bts-news": "2026-10-20T18:16:32Z",
-  "news:80a3836bf4693a1b|foro": "2026-10-20T18:16:32Z"
+  "news:80a3836bf4693a1b|foro": "2026-10-20T18:16:32Z",
+  "news:5b7d5b3f3eb26b60|ntfy": "2026-10-20T19:31:47Z",
+  "news:5b7d5b3f3eb26b60|pub:radarkpop-bts-news": "2026-10-20T19:31:47Z",
+  "news:5b7d5b3f3eb26b60|foro": "2026-10-20T19:31:47Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1326,6 +1329,7 @@
   "52024feef47445d0",
   "532fe2fe08c34b59",
   "536884143bdd3388",
+  "545eecae9727e1be",
   "5489c03820db5b7f",
   "55326539450ba7de",
   "55b71c6f7ac07d5a",
@@ -1338,10 +1342,12 @@
   "5a769e67c4024311",
   "5ad55f5911e881b4",
   "5ae1cecc40f0b22a",
+  "5b7d5b3f3eb26b60",
   "5b9c94f8a59f5c00",
   "5cfa32cf0c0b3e21",
   "5de54a1167b39800",
   "5e72890187c14f26",
+  "5eaf70d50bc18268",
   "5ee334653ac920dd",
   "5f3f9c3a68de1aa2",
   "60aac56e8fe4852f",
@@ -2170,6 +2176,22 @@
     "viven"
    ],
    "t": "2026-10-20T18:16:24Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "2026",
+    "army",
+    "llego",
+    "octubre",
+    "pais",
+    "pedido",
+    "plata",
+    "recitales",
+    "redes",
+    "tres"
+   ],
+   "t": "2026-10-20T19:31:38Z"
   }
  ],
  "discord_threads": {
