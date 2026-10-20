@@ -360,7 +360,10 @@
   "news:7d320530a3e3907c|foro": "2026-10-20T17:01:26Z",
   "live:lng-20261020-paris|ntfy": "2026-10-20T17:16:27Z",
   "live:lng-20261020-paris|pub:radarkpop-lngshot-shows": "2026-10-20T17:16:27Z",
-  "live:lng-20261020-paris|foro": "2026-10-20T17:16:27Z"
+  "live:lng-20261020-paris|foro": "2026-10-20T17:16:27Z",
+  "news:80a3836bf4693a1b|ntfy": "2026-10-20T18:16:32Z",
+  "news:80a3836bf4693a1b|pub:radarkpop-bts-news": "2026-10-20T18:16:32Z",
+  "news:80a3836bf4693a1b|foro": "2026-10-20T18:16:32Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1399,6 +1402,7 @@
   "7fc2b7e1731190ea",
   "801dd41f9ee44208",
   "806ca7372474e08f",
+  "80a3836bf4693a1b",
   "81984c7796be273c",
   "82457908a84a4ac1",
   "82bc97bed18bd8fc",
@@ -2152,6 +2156,20 @@
     "visita"
    ],
    "t": "2026-10-20T17:01:17Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "asi",
+    "entre",
+    "esta",
+    "fans",
+    "fenomeno",
+    "nosotros",
+    "viven"
+   ],
+   "t": "2026-10-20T18:16:24Z"
   }
  ],
  "discord_threads": {
