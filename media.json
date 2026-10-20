@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20T12:00:41Z",
+ "updated_at": "2026-10-20T12:15:37Z",
  "sample": false,
  "items": [
   {
@@ -79,6 +79,15 @@
   {
    "type": "video",
    "group": "seventeen",
+   "title": "in a dreamscape 12PM ---〉 12AM #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
+   "date": "2026-10-20",
+   "published": "2026-10-20T12:00:34Z",
+   "url": "https://www.youtube.com/watch?v=8kxFTWT8R6c",
+   "image": "https://i.ytimg.com/vi/8kxFTWT8R6c/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
    "title": "I want it 계속 널 찾게 돼 #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
    "date": "2026-10-20",
    "published": "2026-10-20T09:00:35Z",
@@ -138,15 +147,6 @@
    "published": "2026-10-19T11:00:09Z",
    "url": "https://www.youtube.com/watch?v=qDFiqYi0sXA",
    "image": "https://i.ytimg.com/vi/qDFiqYi0sXA/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "I forgot my earphones ◠‿◠ #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
-   "date": "2026-10-19",
-   "published": "2026-10-19T12:00:27Z",
-   "url": "https://www.youtube.com/watch?v=cBLqTPR70HM",
-   "image": "https://i.ytimg.com/vi/cBLqTPR70HM/hqdefault.jpg"
   },
   {
    "type": "video",
