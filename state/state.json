@@ -308,7 +308,16 @@
   "official:ateez:comeback:2026-10-20|foro": "2026-10-20T01:01:11Z",
   "news:45bb6f90663a989a|ntfy": "2026-10-20T04:16:22Z",
   "news:45bb6f90663a989a|pub:radarkpop-bts-news": "2026-10-20T04:16:22Z",
-  "news:45bb6f90663a989a|foro": "2026-10-20T04:16:22Z"
+  "news:45bb6f90663a989a|foro": "2026-10-20T04:16:22Z",
+  "news:5cfa32cf0c0b3e21|ntfy": "2026-10-20T05:24:38Z",
+  "news:5cfa32cf0c0b3e21|pub:radarkpop-bts-news": "2026-10-20T05:24:38Z",
+  "news:5cfa32cf0c0b3e21|foro": "2026-10-20T05:24:38Z",
+  "news:9a00cb36937ebeff|ntfy": "2026-10-20T05:24:38Z",
+  "news:9a00cb36937ebeff|pub:radarkpop-bts-news": "2026-10-20T05:24:38Z",
+  "news:9a00cb36937ebeff|foro": "2026-10-20T05:24:38Z",
+  "news:7fab5ac364031e2e|ntfy": "2026-10-20T05:24:38Z",
+  "news:7fab5ac364031e2e|pub:radarkpop-bts-news": "2026-10-20T05:24:38Z",
+  "news:7fab5ac364031e2e|foro": "2026-10-20T05:24:38Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1171,6 +1180,7 @@
   "1c3290f578567187",
   "1d9a22b374ee3ba3",
   "1d9e3375416431bc",
+  "1dd07b698ad98b76",
   "1e36796fa8465346",
   "1e94fd76841e3838",
   "1ea2177ac846c823",
@@ -1264,6 +1274,7 @@
   "5a769e67c4024311",
   "5ad55f5911e881b4",
   "5ae1cecc40f0b22a",
+  "5cfa32cf0c0b3e21",
   "5e72890187c14f26",
   "5ee334653ac920dd",
   "5f3f9c3a68de1aa2",
@@ -1315,6 +1326,7 @@
   "7cdeb99755e9553d",
   "7eac8580136709cb",
   "7ebbb187fd0730fc",
+  "7fab5ac364031e2e",
   "7fc2b7e1731190ea",
   "801dd41f9ee44208",
   "806ca7372474e08f",
@@ -1365,6 +1377,7 @@
   "9812990bb2d60696",
   "9872c57103ee373f",
   "99bb7b56f0e52584",
+  "9a00cb36937ebeff",
   "9a80c3652095c287",
   "9d0eb49e37175554",
   "9e0aece9e2c8cda0",
@@ -1949,6 +1962,53 @@
     "pop"
    ],
    "t": "2026-10-20T04:16:14Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "150",
+    "acceso",
+    "cobraban",
+    "concierto",
+    "detienen",
+    "falsas",
+    "mil",
+    "personas",
+    "pulseras",
+    "tres",
+    "vender"
+   ],
+   "t": "2026-10-20T05:24:32Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "anuncian",
+    "apertura",
+    "conciertos",
+    "horarios",
+    "inicio",
+    "plata",
+    "puertas",
+    "show",
+    "telonera"
+   ],
+   "t": "2026-10-20T05:24:32Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "carabineros",
+    "chile",
+    "conciertos",
+    "conducta",
+    "dejan",
+    "destaca",
+    "detenidos",
+    "estafas",
+    "fans"
+   ],
+   "t": "2026-10-20T05:24:32Z"
   }
  ],
  "discord_threads": {
