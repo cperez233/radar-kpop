@@ -305,7 +305,10 @@
   "news:d37093894fad9faa|foro": "2026-10-20T00:46:08Z",
   "official:ateez:comeback:2026-10-20|ntfy": "2026-10-20T01:01:11Z",
   "official:ateez:comeback:2026-10-20|pub:radarkpop-ateez-music": "2026-10-20T01:01:11Z",
-  "official:ateez:comeback:2026-10-20|foro": "2026-10-20T01:01:11Z"
+  "official:ateez:comeback:2026-10-20|foro": "2026-10-20T01:01:11Z",
+  "news:45bb6f90663a989a|ntfy": "2026-10-20T04:16:22Z",
+  "news:45bb6f90663a989a|pub:radarkpop-bts-news": "2026-10-20T04:16:22Z",
+  "news:45bb6f90663a989a|foro": "2026-10-20T04:16:22Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1227,6 +1230,7 @@
   "44b6b5dd518ffcb0",
   "451b754633e40597",
   "4549b9cdf22c491a",
+  "45bb6f90663a989a",
   "45c872ad6207466f",
   "4780b604b2cacab2",
   "486cfbfa1836a7f0",
@@ -1381,6 +1385,7 @@
   "a5b18da4e90b1f3c",
   "a6aca9d79fc7ba8a",
   "a78a9de10042d21d",
+  "a794ae4c64fd2d6f",
   "a7e663f3005db419",
   "a880fa2c23d52329",
   "a89c1f791d473b61",
@@ -1392,6 +1397,7 @@
   "ab11224b98b43419",
   "ab2fbcb45155586b",
   "ab4a9fbee2c772ac",
+  "ab75bc8b945a1300",
   "ac396c6a08b27779",
   "ad862756c22719dc",
   "ad88bd4f980b0e45",
@@ -1491,6 +1497,7 @@
   "eff6ab4f2e056ba2",
   "f19c71e43b0811ba",
   "f2ecbe4a9a3ce990",
+  "f2f080fbd61c201f",
   "f3acd7d6afac73f8",
   "f450cd410a9c2689",
   "f460d4c1210d2e15",
@@ -1941,6 +1948,18 @@
     "videos"
    ],
    "t": "2026-10-20T00:46:00Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "fenomeno",
+    "fotos",
+    "llegada",
+    "mundial",
+    "pop"
+   ],
+   "t": "2026-10-20T04:16:14Z"
   }
  ],
  "discord_threads": {

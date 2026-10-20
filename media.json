@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20T03:15:36Z",
+ "updated_at": "2026-10-20T04:15:31Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-10-20"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "Bo Peep Bo Peep 🐾🩷 #ONCE #원스 #TWICE #트와이스 #TWICE_11th_Anniversary",
+   "date": "2026-10-20",
+   "published": "2026-10-20T04:00:29Z",
+   "url": "https://www.youtube.com/watch?v=VUHTHzgrAqA",
+   "image": "https://i.ytimg.com/vi/VUHTHzgrAqA/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -120,15 +129,6 @@
    "published": "2026-10-18T10:00:01Z",
    "url": "https://www.youtube.com/watch?v=V81ykFddv3o",
    "image": "https://i.ytimg.com/vi/V81ykFddv3o/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "TWICE 11th ANNIVERSARY YouTube Live🎡",
-   "date": "2026-10-17",
-   "published": "2026-10-17T11:33:11Z",
-   "url": "https://www.youtube.com/watch?v=jcmVRR_BnZU",
-   "image": "https://i.ytimg.com/vi/jcmVRR_BnZU/hqdefault.jpg"
   },
   {
    "type": "video",
