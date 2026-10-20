@@ -317,7 +317,14 @@
   "news:9a00cb36937ebeff|foro": "2026-10-20T05:24:38Z",
   "news:7fab5ac364031e2e|ntfy": "2026-10-20T05:24:38Z",
   "news:7fab5ac364031e2e|pub:radarkpop-bts-news": "2026-10-20T05:24:38Z",
-  "news:7fab5ac364031e2e|foro": "2026-10-20T05:24:38Z"
+  "news:7fab5ac364031e2e|foro": "2026-10-20T05:24:38Z",
+  "today:lngshot:lng-20261020-paris|ntfy": "2026-10-20T06:01:06Z",
+  "today:lngshot:lng-20261020-paris|pub:radarkpop-lngshot-shows": "2026-10-20T06:01:06Z",
+  "today:lngshot:lng-20261020-paris|pub:radarkpop-pais-francia": "2026-10-20T06:01:06Z",
+  "today:lngshot:lng-20261020-paris|foro": "2026-10-20T06:01:06Z",
+  "news:cc37a3501c42ea08|ntfy": "2026-10-20T06:01:06Z",
+  "news:cc37a3501c42ea08|pub:radarkpop-bts-news": "2026-10-20T06:01:06Z",
+  "news:cc37a3501c42ea08|foro": "2026-10-20T06:01:06Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1467,6 +1474,7 @@
   "c8a5b7edba2ce17f",
   "c8c7e5d61ca24a51",
   "c8efc95d0789bdf1",
+  "cc37a3501c42ea08",
   "cc3f0b8e5a87d903",
   "cca49e5f4017ea46",
   "cdcffd89759f760b",
@@ -1996,6 +2004,17 @@
     "fans"
    ],
    "t": "2026-10-20T05:24:32Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "delegacion",
+    "llego",
+    "papa",
+    "vaticano",
+    "visita"
+   ],
+   "t": "2026-10-20T06:00:58Z"
   }
  ],
  "discord_threads": {
