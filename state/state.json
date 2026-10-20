@@ -339,7 +339,13 @@
   "news:e4b9a4b815d44b14|foro": "2026-10-20T12:01:13Z",
   "news:0e8ae0cc68e39e8f|ntfy": "2026-10-20T13:46:21Z",
   "news:0e8ae0cc68e39e8f|pub:radarkpop-bts-news": "2026-10-20T13:46:21Z",
-  "news:0e8ae0cc68e39e8f|foro": "2026-10-20T13:46:21Z"
+  "news:0e8ae0cc68e39e8f|foro": "2026-10-20T13:46:21Z",
+  "rel:lngshot:2026-10-21|ntfy": "2026-10-20T15:01:15Z",
+  "rel:lngshot:2026-10-21|pub:radarkpop-lngshot-music": "2026-10-20T15:01:15Z",
+  "rel:lngshot:2026-10-21|foro": "2026-10-20T15:01:15Z",
+  "news:ac8cf14c82a94d2a|ntfy": "2026-10-20T15:01:15Z",
+  "news:ac8cf14c82a94d2a|pub:radarkpop-bts-news": "2026-10-20T15:01:15Z",
+  "news:ac8cf14c82a94d2a|foro": "2026-10-20T15:01:15Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1268,6 +1274,7 @@
   "40d48fbfd357ca86",
   "41709f7c83200e24",
   "41969fc24b2b87fa",
+  "419bdf40ec7f81fd",
   "42a0b55e56421958",
   "4397eca529ab51a6",
   "43f2e4e2c2f92fab",
@@ -1465,6 +1472,7 @@
   "ab4a9fbee2c772ac",
   "ab75bc8b945a1300",
   "ac396c6a08b27779",
+  "ac8cf14c82a94d2a",
   "ad862756c22719dc",
   "ad88bd4f980b0e45",
   "addf3fc11728cc28",
@@ -2123,6 +2131,19 @@
     "reencontrarse"
    ],
    "t": "2026-10-20T13:46:12Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "llego",
+    "plata",
+    "preparan",
+    "privado",
+    "show",
+    "vuelo"
+   ],
+   "t": "2026-10-20T15:01:08Z"
   }
  ],
  "discord_threads": {
