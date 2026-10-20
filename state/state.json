@@ -351,7 +351,10 @@
   "news:d49f1592d287c649|foro": "2026-10-20T15:16:27Z",
   "news:cac9e2c2834d016f|ntfy": "2026-10-20T15:32:08Z",
   "news:cac9e2c2834d016f|pub:radarkpop-skz-news": "2026-10-20T15:32:08Z",
-  "news:cac9e2c2834d016f|foro": "2026-10-20T15:32:08Z"
+  "news:cac9e2c2834d016f|foro": "2026-10-20T15:32:08Z",
+  "news:728d621e4b1def68|ntfy": "2026-10-20T16:31:32Z",
+  "news:728d621e4b1def68|pub:radarkpop-bts-news": "2026-10-20T16:31:32Z",
+  "news:728d621e4b1def68|foro": "2026-10-20T16:31:32Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1359,6 +1362,7 @@
   "710fe2ae1798bc9f",
   "713d954eb3dad94e",
   "721b64b16310b5eb",
+  "728d621e4b1def68",
   "72be67d66498858d",
   "73554b62574f9213",
   "735bb156e119bf52",
@@ -1542,6 +1546,7 @@
   "cc37a3501c42ea08",
   "cc3f0b8e5a87d903",
   "cca49e5f4017ea46",
+  "cd9feb3367855fbf",
   "cdcffd89759f760b",
   "ce322fa6405e1bba",
   "ce89f92eed1ef948",
@@ -2124,6 +2129,22 @@
     "world"
    ],
    "t": "2026-10-20T15:32:00Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "360o",
+    "asi",
+    "cruzadas",
+    "flotantes",
+    "llega",
+    "pantalla",
+    "pantallas",
+    "pasarelas",
+    "plata",
+    "show"
+   ],
+   "t": "2026-10-20T16:31:25Z"
   }
  ],
  "discord_threads": {
