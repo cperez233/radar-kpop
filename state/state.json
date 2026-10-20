@@ -345,7 +345,10 @@
   "rel:lngshot:2026-10-21|foro": "2026-10-20T15:01:15Z",
   "news:ac8cf14c82a94d2a|ntfy": "2026-10-20T15:01:15Z",
   "news:ac8cf14c82a94d2a|pub:radarkpop-bts-news": "2026-10-20T15:01:15Z",
-  "news:ac8cf14c82a94d2a|foro": "2026-10-20T15:01:15Z"
+  "news:ac8cf14c82a94d2a|foro": "2026-10-20T15:01:15Z",
+  "news:d49f1592d287c649|ntfy": "2026-10-20T15:16:27Z",
+  "news:d49f1592d287c649|pub:radarkpop-bts-news": "2026-10-20T15:16:27Z",
+  "news:d49f1592d287c649|foro": "2026-10-20T15:16:27Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1238,6 +1241,7 @@
   "2a07ca8abaea37eb",
   "2a925be968cfd66a",
   "2a9270ed5d51d1ba",
+  "2b802b765819a625",
   "2b9d1260e8038831",
   "2bcc4044ae89a743",
   "2c483480cb3d0715",
@@ -1545,6 +1549,7 @@
   "d3622ad6a723820b",
   "d369c8ed35a62fb8",
   "d37093894fad9faa",
+  "d49f1592d287c649",
   "d4c9df50f3292907",
   "d4e3dab0279b83d7",
   "d5410b976ca14f0d",
@@ -1604,54 +1609,6 @@
   "fe0c742a7bb314e3"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "chile",
-    "impacta",
-    "mayor",
-    "mundial",
-    "show",
-    "sorpresa",
-    "todo",
-    "tour",
-    "ultimo",
-    "viral"
-   ],
-   "t": "2026-10-18T15:01:08Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "army",
-    "chilena",
-    "concierto",
-    "cuando",
-    "dijo",
-    "durante",
-    "elogia",
-    "fans",
-    "hope",
-    "lima",
-    "mismo",
-    "pero",
-    "peruanas",
-    "recuerdan"
-   ],
-   "t": "2026-10-18T15:01:08Z"
-  },
-  {
-   "g": "seventeen",
-   "w": [
-    "2026",
-    "cast",
-    "date",
-    "release",
-    "tour",
-    "world"
-   ],
-   "t": "2026-10-18T15:01:08Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -2144,6 +2101,20 @@
     "vuelo"
    ],
    "t": "2026-10-20T15:01:08Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "armys",
+    "asi",
+    "chilenas",
+    "conquista",
+    "tour",
+    "vivio",
+    "world"
+   ],
+   "t": "2026-10-20T15:16:19Z"
   }
  ],
  "discord_threads": {
