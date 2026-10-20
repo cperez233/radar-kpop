@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20T10:00:34Z",
+ "updated_at": "2026-10-20T10:15:35Z",
  "sample": false,
  "items": [
   {
@@ -88,6 +88,15 @@
   {
    "type": "video",
    "group": "enhypen",
+   "title": "아! 내 어깨... #JUNGWON #SUNGHOON #ENHYPEN",
+   "date": "2026-10-20",
+   "published": "2026-10-20T10:05:39Z",
+   "url": "https://www.youtube.com/watch?v=SVplxAobkSM",
+   "image": "https://i.ytimg.com/vi/SVplxAobkSM/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
    "title": "#BLOODSAGA_IN_MACAU DAY3💖#EN_WORLDTOUR_BLOODSAGA #ENHYPEN",
    "date": "2026-10-20",
    "published": "2026-10-20T07:28:07Z",
@@ -147,15 +156,6 @@
    "published": "2026-10-18T10:00:01Z",
    "url": "https://www.youtube.com/watch?v=V81ykFddv3o",
    "image": "https://i.ytimg.com/vi/V81ykFddv3o/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "checkmatе, checkmate #BLOODSAGA_IN_MACAU #EN_WORLDTOUR_BLOODSAGA #ENHYPEN",
-   "date": "2026-10-17",
-   "published": "2026-10-17T15:25:24Z",
-   "url": "https://www.youtube.com/watch?v=OwJjFocYOFU",
-   "image": "https://i.ytimg.com/vi/OwJjFocYOFU/hqdefault.jpg"
   },
   {
    "type": "video",

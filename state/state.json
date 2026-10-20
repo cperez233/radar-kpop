@@ -327,7 +327,10 @@
   "news:cc37a3501c42ea08|foro": "2026-10-20T06:01:06Z",
   "news:00dc9164c8cd6c44|ntfy": "2026-10-20T07:01:13Z",
   "news:00dc9164c8cd6c44|pub:radarkpop-bts-news": "2026-10-20T07:01:13Z",
-  "news:00dc9164c8cd6c44|foro": "2026-10-20T07:01:13Z"
+  "news:00dc9164c8cd6c44|foro": "2026-10-20T07:01:13Z",
+  "news:6878484edabcd248|ntfy": "2026-10-20T10:16:25Z",
+  "news:6878484edabcd248|pub:radarkpop-bts-news": "2026-10-20T10:16:25Z",
+  "news:6878484edabcd248|foro": "2026-10-20T10:16:25Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1288,6 +1291,7 @@
   "562513c3000bea59",
   "57fad7356860bea9",
   "584ac3d5d10b613f",
+  "58a3ce5288ee6029",
   "5a476ecfa13cca44",
   "5a769e67c4024311",
   "5ad55f5911e881b4",
@@ -1304,6 +1308,7 @@
   "6613df77f6d2c2c1",
   "679ac96bd183b1b7",
   "67c32e301ed9349e",
+  "6878484edabcd248",
   "6898b544ad664ce0",
   "693284d097c750f7",
   "69920cf4419778b9",
@@ -2030,6 +2035,21 @@
     "viejo"
    ],
    "t": "2026-10-20T07:01:05Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "bajo",
+    "fuerte",
+    "llego",
+    "operativo",
+    "plata",
+    "prepara",
+    "seguridad",
+    "shows"
+   ],
+   "t": "2026-10-20T10:16:18Z"
   }
  ],
  "discord_threads": {
