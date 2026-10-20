@@ -366,7 +366,16 @@
   "news:80a3836bf4693a1b|foro": "2026-10-20T18:16:32Z",
   "news:5b7d5b3f3eb26b60|ntfy": "2026-10-20T19:32:52Z",
   "news:5b7d5b3f3eb26b60|pub:radarkpop-bts-news": "2026-10-20T19:32:52Z",
-  "news:5b7d5b3f3eb26b60|foro": "2026-10-20T19:32:52Z"
+  "news:5b7d5b3f3eb26b60|foro": "2026-10-20T19:32:52Z",
+  "news:8d9e84be204de8d5|ntfy": "2026-10-20T19:46:05Z",
+  "news:8d9e84be204de8d5|pub:radarkpop-bts-news": "2026-10-20T19:46:05Z",
+  "news:8d9e84be204de8d5|foro": "2026-10-20T19:46:05Z",
+  "news:54030e68e8bdb670|ntfy": "2026-10-20T19:46:05Z",
+  "news:54030e68e8bdb670|pub:radarkpop-bts-news": "2026-10-20T19:46:05Z",
+  "news:54030e68e8bdb670|foro": "2026-10-20T19:46:05Z",
+  "news:a4964ea533083526|ntfy": "2026-10-20T19:46:05Z",
+  "news:a4964ea533083526|pub:radarkpop-bts-news": "2026-10-20T19:46:05Z",
+  "news:a4964ea533083526|foro": "2026-10-20T19:46:05Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1253,6 +1262,7 @@
   "27483291ba1cfe9a",
   "275afe85688bcdce",
   "279cd74c3b8d0092",
+  "28144c1da5df33e2",
   "2848387294dd91d0",
   "286eb00d5b68855f",
   "287f9571c64e20a0",
@@ -1267,6 +1277,7 @@
   "2e190e633d3c05a5",
   "2eac635281919fb3",
   "2eee342e72d4b1e7",
+  "309f31ccc3f5538d",
   "317b82dacc069601",
   "33ce7fcc82e89b3d",
   "33dda7e6ed211b58",
@@ -1329,6 +1340,7 @@
   "52024feef47445d0",
   "532fe2fe08c34b59",
   "536884143bdd3388",
+  "54030e68e8bdb670",
   "545eecae9727e1be",
   "5489c03820db5b7f",
   "55326539450ba7de",
@@ -1437,6 +1449,7 @@
   "8cbd2b6b30216cf7",
   "8cc811a5f123bad9",
   "8d5013b8a186306f",
+  "8d9e84be204de8d5",
   "8dcc8d1ad364fdf2",
   "8eb88ae1e9e9d5c5",
   "8f1e13f22609875c",
@@ -1479,6 +1492,7 @@
   "a42212d3597c2d3a",
   "a48a22654f1ccfaa",
   "a48b20e121850e41",
+  "a4964ea533083526",
   "a4a6317a2074cad2",
   "a512c541fd566a4c",
   "a547f3c441a21655",
@@ -2192,6 +2206,55 @@
     "tres"
    ],
    "t": "2026-10-20T19:32:45Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "agotados",
+    "argentina",
+    "asi",
+    "conciertos",
+    "esta",
+    "fue",
+    "grupo",
+    "llegada",
+    "surcoreano",
+    "tres"
+   ],
+   "t": "2026-10-20T19:45:57Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "cines",
+    "conciertos",
+    "estas",
+    "fechas",
+    "ganas",
+    "proximas",
+    "quedaste",
+    "son",
+    "tour",
+    "world"
+   ],
+   "t": "2026-10-20T19:45:57Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "hay",
+    "light",
+    "llega",
+    "merchandising",
+    "plata",
+    "saber",
+    "shows",
+    "sobre",
+    "stick",
+    "todo"
+   ],
+   "t": "2026-10-20T19:45:57Z"
   }
  ],
  "discord_threads": {
