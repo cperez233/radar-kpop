@@ -290,7 +290,10 @@
   "news:69920cf4419778b9|foro": "2026-10-19T23:16:45Z",
   "news:f91fa7623939ac18|ntfy": "2026-10-20T00:01:15Z",
   "news:f91fa7623939ac18|pub:radarkpop-bts-news": "2026-10-20T00:01:15Z",
-  "news:f91fa7623939ac18|foro": "2026-10-20T00:01:15Z"
+  "news:f91fa7623939ac18|foro": "2026-10-20T00:01:15Z",
+  "news:c24bc299f41ceb9a|ntfy": "2026-10-20T00:16:29Z",
+  "news:c24bc299f41ceb9a|pub:radarkpop-bts-news": "2026-10-20T00:16:29Z",
+  "news:c24bc299f41ceb9a|foro": "2026-10-20T00:16:29Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1119,6 +1122,7 @@
   "0173b695d33ab742",
   "025ec2ef42837f29",
   "02f07286dbd321e1",
+  "02f506f4ab3cfdb5",
   "0344ef47cbcf6892",
   "03468a6950358870",
   "03ae1c65fce023b6",
@@ -1399,6 +1403,7 @@
   "c0900a8bc123825c",
   "c0c589f7ef316fb2",
   "c10c12dc97364372",
+  "c24bc299f41ceb9a",
   "c2ac9d79a3700193",
   "c2c6828f0e1b7d73",
   "c5c49059d0432e67",
@@ -1868,6 +1873,19 @@
     "plata"
    ],
    "t": "2026-10-20T00:01:07Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "aterrizo",
+    "estadio",
+    "plata",
+    "recitales",
+    "tres",
+    "unico"
+   ],
+   "t": "2026-10-20T00:16:21Z"
   }
  ],
  "discord_threads": {
