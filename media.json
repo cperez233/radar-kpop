@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20T07:15:32Z",
+ "updated_at": "2026-10-20T07:30:39Z",
  "sample": false,
  "items": [
   {
@@ -78,6 +78,15 @@
   },
   {
    "type": "video",
+   "group": "enhypen",
+   "title": "#BLOODSAGA_IN_MACAU DAY3💖#EN_WORLDTOUR_BLOODSAGA #ENHYPEN",
+   "date": "2026-10-20",
+   "published": "2026-10-20T07:28:07Z",
+   "url": "https://www.youtube.com/watch?v=Dxyb9SbBIVw",
+   "image": "https://i.ytimg.com/vi/Dxyb9SbBIVw/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "skz",
    "title": "Cool (^._.^)ﾉ #StrayKids #스트레이키즈 #한 #HAN #필릭스 #Felix #YouMakeStrayKidsStay",
    "date": "2026-10-19",
@@ -138,15 +147,6 @@
    "published": "2026-10-17T15:25:24Z",
    "url": "https://www.youtube.com/watch?v=OwJjFocYOFU",
    "image": "https://i.ytimg.com/vi/OwJjFocYOFU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "Check, check, check, check Check, check, check, check #BLOODSAGA_IN_MACAU #EN_WORLDTOUR_BLOODSAGA",
-   "date": "2026-10-17",
-   "published": "2026-10-17T15:22:52Z",
-   "url": "https://www.youtube.com/watch?v=X2iCThB34yA",
-   "image": "https://i.ytimg.com/vi/X2iCThB34yA/hqdefault.jpg"
   },
   {
    "type": "video",
