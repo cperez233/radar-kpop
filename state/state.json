@@ -330,7 +330,10 @@
   "news:00dc9164c8cd6c44|foro": "2026-10-20T07:01:13Z",
   "news:6878484edabcd248|ntfy": "2026-10-20T10:16:25Z",
   "news:6878484edabcd248|pub:radarkpop-bts-news": "2026-10-20T10:16:25Z",
-  "news:6878484edabcd248|foro": "2026-10-20T10:16:25Z"
+  "news:6878484edabcd248|foro": "2026-10-20T10:16:25Z",
+  "news:b0bea9e7f5f79574|ntfy": "2026-10-20T11:46:05Z",
+  "news:b0bea9e7f5f79574|pub:radarkpop-bts-news": "2026-10-20T11:46:05Z",
+  "news:b0bea9e7f5f79574|foro": "2026-10-20T11:46:05Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1449,6 +1452,7 @@
   "ad88bd4f980b0e45",
   "addf3fc11728cc28",
   "ae89e2ade18e0672",
+  "b0bea9e7f5f79574",
   "b0ff906f396a27d4",
   "b1413ae9d08af5c8",
   "b1e5e0c20b1f4131",
@@ -2053,6 +2057,21 @@
     "shows"
    ],
    "t": "2026-10-20T10:16:18Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "antes",
+    "argentina",
+    "diario",
+    "esta",
+    "fans",
+    "norte",
+    "plata",
+    "revoluciono",
+    "shows"
+   ],
+   "t": "2026-10-20T11:45:57Z"
   }
  ],
  "discord_threads": {
