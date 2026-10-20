@@ -324,7 +324,10 @@
   "today:lngshot:lng-20261020-paris|foro": "2026-10-20T06:01:06Z",
   "news:cc37a3501c42ea08|ntfy": "2026-10-20T06:01:06Z",
   "news:cc37a3501c42ea08|pub:radarkpop-bts-news": "2026-10-20T06:01:06Z",
-  "news:cc37a3501c42ea08|foro": "2026-10-20T06:01:06Z"
+  "news:cc37a3501c42ea08|foro": "2026-10-20T06:01:06Z",
+  "news:00dc9164c8cd6c44|ntfy": "2026-10-20T07:01:13Z",
+  "news:00dc9164c8cd6c44|pub:radarkpop-bts-news": "2026-10-20T07:01:13Z",
+  "news:00dc9164c8cd6c44|foro": "2026-10-20T07:01:13Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1149,6 +1152,7 @@
  },
  "news_seen": [
   "00b83fa9dfff42f4",
+  "00dc9164c8cd6c44",
   "015c52afab438b43",
   "0173b695d33ab742",
   "025ec2ef42837f29",
@@ -1356,6 +1360,7 @@
   "883a15fa5402ae75",
   "88dd608ac4d8cbec",
   "89143d1d0f7b9b5d",
+  "89578b544a26b544",
   "8a5f2926673fba9c",
   "8a7f47febe546fce",
   "8a96d25f7b7fac4d",
@@ -2000,6 +2005,20 @@
     "visita"
    ],
    "t": "2026-10-20T06:00:58Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "assarabia",
+    "chiste",
+    "colombia",
+    "convirtio",
+    "llegada",
+    "pais",
+    "simbolo",
+    "viejo"
+   ],
+   "t": "2026-10-20T07:01:05Z"
   }
  ],
  "discord_threads": {
