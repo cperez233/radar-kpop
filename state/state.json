@@ -293,7 +293,10 @@
   "news:f91fa7623939ac18|foro": "2026-10-20T00:01:15Z",
   "news:c24bc299f41ceb9a|ntfy": "2026-10-20T00:16:29Z",
   "news:c24bc299f41ceb9a|pub:radarkpop-bts-news": "2026-10-20T00:16:29Z",
-  "news:c24bc299f41ceb9a|foro": "2026-10-20T00:16:29Z"
+  "news:c24bc299f41ceb9a|foro": "2026-10-20T00:16:29Z",
+  "news:a78a9de10042d21d|ntfy": "2026-10-20T00:31:31Z",
+  "news:a78a9de10042d21d|pub:radarkpop-bts-news": "2026-10-20T00:31:31Z",
+  "news:a78a9de10042d21d|foro": "2026-10-20T00:31:31Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1356,6 +1359,7 @@
   "a58710bfac28ada5",
   "a5b18da4e90b1f3c",
   "a6aca9d79fc7ba8a",
+  "a78a9de10042d21d",
   "a7e663f3005db419",
   "a880fa2c23d52329",
   "a89c1f791d473b61",
@@ -1886,6 +1890,20 @@
     "unico"
    ],
    "t": "2026-10-20T00:16:21Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "avion",
+    "bordo",
+    "chile",
+    "desde",
+    "llego",
+    "privado",
+    "shows"
+   ],
+   "t": "2026-10-20T00:31:24Z"
   }
  ],
  "discord_threads": {
