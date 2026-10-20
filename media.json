@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20T03:00:36Z",
+ "updated_at": "2026-10-20T03:15:36Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-10-20"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "When TWICE is ALL TOGETHER! 🍭 #ONCE #원스 #TWICE #트와이스 #TWICE_11th_Anniversary",
+   "date": "2026-10-20",
+   "published": "2026-10-20T03:00:21Z",
+   "url": "https://www.youtube.com/watch?v=ZJsLly1SlVM",
+   "image": "https://i.ytimg.com/vi/ZJsLly1SlVM/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -232,15 +241,6 @@
     }
    ],
    "ytm_try": "2026-10-17T19"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "TWICE 11th Anniversary MD Shoot Behind Teaser",
-   "date": "2026-10-16",
-   "published": "2026-10-16T09:00:11Z",
-   "url": "https://www.youtube.com/watch?v=qcTMapoI-OM",
-   "image": "https://i.ytimg.com/vi/qcTMapoI-OM/hqdefault.jpg"
   },
   {
    "type": "video",
