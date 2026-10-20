@@ -348,7 +348,10 @@
   "news:ac8cf14c82a94d2a|foro": "2026-10-20T15:01:15Z",
   "news:d49f1592d287c649|ntfy": "2026-10-20T15:16:27Z",
   "news:d49f1592d287c649|pub:radarkpop-bts-news": "2026-10-20T15:16:27Z",
-  "news:d49f1592d287c649|foro": "2026-10-20T15:16:27Z"
+  "news:d49f1592d287c649|foro": "2026-10-20T15:16:27Z",
+  "news:cac9e2c2834d016f|ntfy": "2026-10-20T15:32:08Z",
+  "news:cac9e2c2834d016f|pub:radarkpop-skz-news": "2026-10-20T15:32:08Z",
+  "news:cac9e2c2834d016f|foro": "2026-10-20T15:32:08Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1534,6 +1537,7 @@
   "c8c7e5d61ca24a51",
   "c8efc95d0789bdf1",
   "c9a081307f21a439",
+  "cac9e2c2834d016f",
   "cc37a3501c42ea08",
   "cc3f0b8e5a87d903",
   "cca49e5f4017ea46",
@@ -2115,6 +2119,25 @@
     "world"
    ],
    "t": "2026-10-20T15:16:19Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "bang",
+    "chan",
+    "changbin",
+    "felix",
+    "foto",
+    "hyunjin",
+    "know",
+    "lee",
+    "live",
+    "seungmin",
+    "tour",
+    "viewing",
+    "world"
+   ],
+   "t": "2026-10-20T15:32:00Z"
   }
  ],
  "discord_threads": {
