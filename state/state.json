@@ -354,7 +354,10 @@
   "news:cac9e2c2834d016f|foro": "2026-10-20T15:32:08Z",
   "news:728d621e4b1def68|ntfy": "2026-10-20T16:31:32Z",
   "news:728d621e4b1def68|pub:radarkpop-bts-news": "2026-10-20T16:31:32Z",
-  "news:728d621e4b1def68|foro": "2026-10-20T16:31:32Z"
+  "news:728d621e4b1def68|foro": "2026-10-20T16:31:32Z",
+  "news:7d320530a3e3907c|ntfy": "2026-10-20T17:01:26Z",
+  "news:7d320530a3e3907c|pub:radarkpop-bts-news": "2026-10-20T17:01:26Z",
+  "news:7d320530a3e3907c|foro": "2026-10-20T17:01:26Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1386,6 +1389,7 @@
   "7c9e9c0539f01758",
   "7cdd1f92b2d74a40",
   "7cdeb99755e9553d",
+  "7d320530a3e3907c",
   "7eac8580136709cb",
   "7ebbb187fd0730fc",
   "7fab5ac364031e2e",
@@ -2145,6 +2149,19 @@
     "show"
    ],
    "t": "2026-10-20T16:31:25Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "detalles",
+    "llego",
+    "shows",
+    "todos",
+    "tres",
+    "visita"
+   ],
+   "t": "2026-10-20T17:01:17Z"
   }
  ],
  "discord_threads": {
