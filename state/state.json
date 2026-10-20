@@ -287,7 +287,10 @@
   "news:3d4674e9aa875640|foro": "2026-10-19T23:16:45Z",
   "news:69920cf4419778b9|ntfy": "2026-10-19T23:16:45Z",
   "news:69920cf4419778b9|pub:radarkpop-bts-news": "2026-10-19T23:16:45Z",
-  "news:69920cf4419778b9|foro": "2026-10-19T23:16:45Z"
+  "news:69920cf4419778b9|foro": "2026-10-19T23:16:45Z",
+  "news:f91fa7623939ac18|ntfy": "2026-10-20T00:01:15Z",
+  "news:f91fa7623939ac18|pub:radarkpop-bts-news": "2026-10-20T00:01:15Z",
+  "news:f91fa7623939ac18|foro": "2026-10-20T00:01:15Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1448,6 +1451,7 @@
   "eeb02a951a080561",
   "ef5b4ad702a7ab39",
   "eff6ab4f2e056ba2",
+  "f19c71e43b0811ba",
   "f2ecbe4a9a3ce990",
   "f3acd7d6afac73f8",
   "f450cd410a9c2689",
@@ -1455,6 +1459,7 @@
   "f46d5fbeafb14247",
   "f532b649eeb3f9ab",
   "f6bfdc7acd7cf89f",
+  "f91fa7623939ac18",
   "fa9f82f465a290fe",
   "faa7af492a043829",
   "fb4e97b6e2db366c",
@@ -1465,94 +1470,6 @@
   "fe0c742a7bb314e3"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "asistir",
-    "black",
-    "carvalho",
-    "concierto",
-    "cumple",
-    "este",
-    "fue",
-    "look",
-    "michelle",
-    "sueno",
-    "total"
-   ],
-   "t": "2026-10-18T00:01:01Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "2026",
-    "chile",
-    "conciertos",
-    "estadio",
-    "extendera",
-    "horario",
-    "metro",
-    "nacional"
-   ],
-   "t": "2026-10-18T00:01:01Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "carabineros",
-    "caso",
-    "conciertos",
-    "detuvo",
-    "durante",
-    "estafa",
-    "informa",
-    "personas",
-    "uno"
-   ],
-   "t": "2026-10-18T00:01:01Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "americo",
-    "chile",
-    "concierto",
-    "cumbia",
-    "dijo",
-    "pop",
-    "presente"
-   ],
-   "t": "2026-10-18T00:01:01Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "carabineros",
-    "chile",
-    "conciertos",
-    "conducta",
-    "detenidos",
-    "elogian",
-    "fanaticos",
-    "fraudes"
-   ],
-   "t": "2026-10-18T00:01:01Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "chilenas",
-    "conciertos",
-    "entradas",
-    "fanaticas",
-    "fotografos",
-    "gastan",
-    "hasta",
-    "merchandising",
-    "millon"
-   ],
-   "t": "2026-10-18T00:01:01Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -1940,6 +1857,17 @@
     "tres"
    ],
    "t": "2026-10-19T23:16:36Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "furor",
+    "genera",
+    "llego",
+    "plata"
+   ],
+   "t": "2026-10-20T00:01:07Z"
   }
  ],
  "discord_threads": {
