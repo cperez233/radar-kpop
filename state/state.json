@@ -333,7 +333,10 @@
   "news:6878484edabcd248|foro": "2026-10-20T10:16:25Z",
   "news:b0bea9e7f5f79574|ntfy": "2026-10-20T11:46:05Z",
   "news:b0bea9e7f5f79574|pub:radarkpop-bts-news": "2026-10-20T11:46:05Z",
-  "news:b0bea9e7f5f79574|foro": "2026-10-20T11:46:05Z"
+  "news:b0bea9e7f5f79574|foro": "2026-10-20T11:46:05Z",
+  "news:e4b9a4b815d44b14|ntfy": "2026-10-20T12:01:13Z",
+  "news:e4b9a4b815d44b14|pub:radarkpop-bts-news": "2026-10-20T12:01:13Z",
+  "news:e4b9a4b815d44b14|foro": "2026-10-20T12:01:13Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1345,6 +1348,7 @@
   "75e89e2eef9699bd",
   "76a39e4e78214fd8",
   "76eb8c9b9a8c7b89",
+  "772a7078076cccb8",
   "778de05dcc384f27",
   "77f0106177ac9323",
   "79569b17c64f4cfd",
@@ -1397,6 +1401,7 @@
   "9216ba88243d23ea",
   "9246f4a875746349",
   "926c29d76532b8f2",
+  "92b1b5013f4bd083",
   "93ee5f868d145778",
   "944b488f7104c4b8",
   "95022b324a91dfd9",
@@ -1435,6 +1440,7 @@
   "a6aca9d79fc7ba8a",
   "a78a9de10042d21d",
   "a794ae4c64fd2d6f",
+  "a7cb8b43fec1871e",
   "a7e663f3005db419",
   "a880fa2c23d52329",
   "a89c1f791d473b61",
@@ -1540,6 +1546,7 @@
   "e3a39d2d8541709d",
   "e3e5fc804ec1b725",
   "e4a94de0a8275670",
+  "e4b9a4b815d44b14",
   "e89f63b4fc4534fa",
   "e924263197407fb9",
   "eaacbbf21eb48d17",
@@ -2072,6 +2079,20 @@
     "shows"
    ],
    "t": "2026-10-20T11:45:57Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "acompano",
+    "argentina",
+    "arribo",
+    "banda",
+    "detalles",
+    "ezeiza",
+    "llego",
+    "operativo"
+   ],
+   "t": "2026-10-20T12:01:05Z"
   }
  ],
  "discord_threads": {

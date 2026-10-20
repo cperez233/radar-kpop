@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20T11:00:39Z",
+ "updated_at": "2026-10-20T12:00:41Z",
  "sample": false,
  "items": [
   {
@@ -111,6 +111,15 @@
    "published": "2026-10-20T07:28:07Z",
    "url": "https://www.youtube.com/watch?v=Dxyb9SbBIVw",
    "image": "https://i.ytimg.com/vi/Dxyb9SbBIVw/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "morning samgyeopsal",
+   "date": "2026-10-20",
+   "published": "2026-10-20T12:00:00Z",
+   "url": "https://www.youtube.com/watch?v=t90kL72BjfY",
+   "image": "https://i.ytimg.com/vi/t90kL72BjfY/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -259,15 +268,6 @@
     }
    ],
    "ytm_try": "2026-10-17T19"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "relay cam LA",
-   "date": "2026-10-16",
-   "published": "2026-10-16T12:00:01Z",
-   "url": "https://www.youtube.com/watch?v=ISkAWt8_aqI",
-   "image": "https://i.ytimg.com/vi/ISkAWt8_aqI/hqdefault.jpg"
   },
   {
    "type": "video",
