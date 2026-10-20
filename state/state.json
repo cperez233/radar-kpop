@@ -378,7 +378,10 @@
   "news:a4964ea533083526|foro": "2026-10-20T19:46:05Z",
   "news:7e0322db7b70439a|ntfy": "2026-10-20T20:46:07Z",
   "news:7e0322db7b70439a|pub:radarkpop-bts-news": "2026-10-20T20:46:07Z",
-  "news:7e0322db7b70439a|foro": "2026-10-20T20:46:07Z"
+  "news:7e0322db7b70439a|foro": "2026-10-20T20:46:07Z",
+  "next:lngshot:lng-20261020-paris|ntfy": "2026-10-20T22:01:11Z",
+  "next:lngshot:lng-20261020-paris|pub:radarkpop-lngshot-shows": "2026-10-20T22:01:11Z",
+  "next:lngshot:lng-20261020-paris|foro": "2026-10-20T22:01:11Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1657,23 +1660,6 @@
   "fe0c742a7bb314e3"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "asi",
-    "aspecto",
-    "cam",
-    "chile",
-    "concierto",
-    "crear",
-    "eyes",
-    "fan",
-    "irreal",
-    "podria",
-    "rostro"
-   ],
-   "t": "2026-10-18T21:55:52Z"
-  },
   {
    "g": "bts",
    "w": [
