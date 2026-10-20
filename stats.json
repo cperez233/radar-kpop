@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-20T11:30:52Z",
+  "updated_at": "2026-10-20T23:45:50Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
       "listeners": 30873449,
       "listeners_peak": 46724346,
-      "streams": 50639228733,
+      "streams": 50666813964,
       "top_song": {
         "title": "Dynamite",
-        "streams": 2368859219,
+        "streams": 2369437204,
         "url": "https://open.spotify.com/track/5QDLhrAOJJdNAmCTJ8xMyW"
       },
       "yt_subs": 86200000
@@ -99,7 +99,7 @@
         "streams": 257824429,
         "url": "https://open.spotify.com/track/6OWWZtNQORY1McaZmOrwhc"
       },
-      "yt_subs": 7430000
+      "yt_subs": 7440000
     },
     "ateez": {
       "listeners": 7261024,
