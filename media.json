@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20T04:15:31Z",
+ "updated_at": "2026-10-20T05:00:38Z",
  "sample": false,
  "items": [
   {
@@ -43,6 +43,15 @@
   {
    "type": "video",
    "group": "twice",
+   "title": "같이 파라파라나 추자 ✌🏻🎀 #ONCE #원스 #TWICE #트와이스 #TWICE_11th_Anniversary",
+   "date": "2026-10-20",
+   "published": "2026-10-20T05:00:09Z",
+   "url": "https://www.youtube.com/watch?v=tUzogPLeNwY",
+   "image": "https://i.ytimg.com/vi/tUzogPLeNwY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
    "title": "Bo Peep Bo Peep 🐾🩷 #ONCE #원스 #TWICE #트와이스 #TWICE_11th_Anniversary",
    "date": "2026-10-20",
    "published": "2026-10-20T04:00:29Z",
@@ -60,21 +69,21 @@
   },
   {
    "type": "video",
+   "group": "seventeen",
+   "title": "정한X조슈아 1st Mini Album ‘DREAMSCAPE' COUNTDOWN LIVE",
+   "date": "2026-10-20",
+   "published": "2026-10-20T05:00:10Z",
+   "url": "https://www.youtube.com/watch?v=mzrHXP6vAZA",
+   "image": "https://i.ytimg.com/vi/mzrHXP6vAZA/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "skz",
    "title": "Cool (^._.^)ﾉ #StrayKids #스트레이키즈 #한 #HAN #필릭스 #Felix #YouMakeStrayKidsStay",
    "date": "2026-10-19",
    "published": "2026-10-19T11:00:09Z",
    "url": "https://www.youtube.com/watch?v=qDFiqYi0sXA",
    "image": "https://i.ytimg.com/vi/qDFiqYi0sXA/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "TWICE 11TH ANNIVERSARY🍭❤️ #ONCE #원스 #TWICE #트와이스  #TWICE_11th_Anniversary",
-   "date": "2026-10-19",
-   "published": "2026-10-19T15:00:13Z",
-   "url": "https://www.youtube.com/watch?v=FqLWN-GWtC0",
-   "image": "https://i.ytimg.com/vi/FqLWN-GWtC0/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -93,15 +102,6 @@
    "published": "2026-10-19T10:30:18Z",
    "url": "https://www.youtube.com/watch?v=5JxlyzwSaFQ",
    "image": "https://i.ytimg.com/vi/5JxlyzwSaFQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[DK TIME] 오늘도겸 #1 | 입대 전 일상 모음.zip ⚾🫡",
-   "date": "2026-10-18",
-   "published": "2026-10-18T12:59:59Z",
-   "url": "https://www.youtube.com/watch?v=O-brsZFz6fc",
-   "image": "https://i.ytimg.com/vi/O-brsZFz6fc/hqdefault.jpg"
   },
   {
    "type": "video",
