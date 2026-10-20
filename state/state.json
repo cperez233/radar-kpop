@@ -299,7 +299,10 @@
   "news:a78a9de10042d21d|foro": "2026-10-20T00:31:31Z",
   "news:8326a53b817f1aa1|ntfy": "2026-10-20T00:43:04Z",
   "news:8326a53b817f1aa1|pub:radarkpop-bts-news": "2026-10-20T00:43:04Z",
-  "news:8326a53b817f1aa1|foro": "2026-10-20T00:43:04Z"
+  "news:8326a53b817f1aa1|foro": "2026-10-20T00:43:04Z",
+  "news:d37093894fad9faa|ntfy": "2026-10-20T00:46:08Z",
+  "news:d37093894fad9faa|pub:radarkpop-seventeen-news": "2026-10-20T00:46:08Z",
+  "news:d37093894fad9faa|foro": "2026-10-20T00:46:08Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1434,6 +1437,7 @@
   "d319e8cbb03d8058",
   "d3622ad6a723820b",
   "d369c8ed35a62fb8",
+  "d37093894fad9faa",
   "d4c9df50f3292907",
   "d4e3dab0279b83d7",
   "d5410b976ca14f0d",
@@ -1921,6 +1925,19 @@
     "primeras"
    ],
    "t": "2026-10-20T00:42:55Z"
+  },
+  {
+   "g": "seventeen",
+   "w": [
+    "2024",
+    "again",
+    "cinemas",
+    "follow",
+    "tour",
+    "trailer",
+    "videos"
+   ],
+   "t": "2026-10-20T00:46:00Z"
   }
  ],
  "discord_threads": {
