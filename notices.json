@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-19T10:38:07Z",
+ "updated_at": "2026-10-21T05:00:50Z",
  "groups": {
   "lngshot": [
    {
@@ -33,6 +33,13 @@
   ],
   "seventeen": [
    {
+    "title": "[NEWS] CARATs, JxJ's 'DREAMSCAPE' Stationhead listening party is coming up tomorrow! Don't forget to join! 10/22 2PM KST (10/21 10PM PT / 10",
+    "url": "https://x.com/pledis_17/status/2112770859601387837",
+    "post": "https://x.com/pledis_17/status/2112770859601387837",
+    "when": "2026-10-21T05:00:00Z",
+    "weverse": false
+   },
+   {
     "title": "[NOTICE] 정한X조슈아 미니 1집 ‘DREAMSCAPE’ Daydreamers Ver. 포토북 내지 정정 안내 (+ENG/JPN/CHN)",
     "url": "https://weverse.io/seventeen/notice/40198",
     "post": "https://x.com/pledis_17/status/2112108100006314126",
@@ -65,13 +72,6 @@
     "url": "https://weverse.io/seventeen/...",
     "post": "https://x.com/pledis_17/status/2110958921888477270",
     "when": "2026-10-16T05:00:01Z",
-    "weverse": true
-   },
-   {
-    "title": "[NOTICE] 정한X조슈아 1st Mini Album ‘DREAMSCAPE' COUNTDOWN LIVE 진행 안내 (+ENG/JPN/CHN)",
-    "url": "https://weverse.io/seventeen/notice/40081",
-    "post": "https://x.com/pledis_17/status/2110898526482034919",
-    "when": "2026-10-16T01:00:01Z",
     "weverse": true
    }
   ],
