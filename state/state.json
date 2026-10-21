@@ -409,7 +409,10 @@
   "today:bts:bts-20261021-laplata|ntfy": "2026-10-21T11:01:06Z",
   "today:bts:bts-20261021-laplata|pub:radarkpop-bts-shows": "2026-10-21T11:01:06Z",
   "today:bts:bts-20261021-laplata|pub:radarkpop-pais-argentina": "2026-10-21T11:01:06Z",
-  "today:bts:bts-20261021-laplata|foro": "2026-10-21T11:01:06Z"
+  "today:bts:bts-20261021-laplata|foro": "2026-10-21T11:01:06Z",
+  "news:6a689b26ae14861c|ntfy": "2026-10-21T14:46:08Z",
+  "news:6a689b26ae14861c|pub:radarkpop-bts-news": "2026-10-21T14:46:08Z",
+  "news:6a689b26ae14861c|foro": "2026-10-21T14:46:08Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1429,6 +1432,7 @@
   "693284d097c750f7",
   "69920cf4419778b9",
   "69d31ebfd2c34c79",
+  "6a689b26ae14861c",
   "6b818324c4336d57",
   "6b99ab1221ac9031",
   "6b9de9f9739b2949",
@@ -2334,6 +2338,23 @@
     "twices"
    ],
    "t": "2026-10-21T09:45:55Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "aires",
+    "banda",
+    "buenos",
+    "concierto",
+    "detalles",
+    "podra",
+    "transmitira",
+    "ultimo",
+    "uruguay",
+    "ver",
+    "vivo"
+   ],
+   "t": "2026-10-21T14:46:00Z"
   }
  ],
  "discord_threads": {
