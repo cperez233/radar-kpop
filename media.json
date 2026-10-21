@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-21T12:00:37Z",
+ "updated_at": "2026-10-21T13:00:42Z",
  "sample": false,
  "items": [
   {
@@ -52,6 +52,15 @@
   {
    "type": "video",
    "group": "lngshot",
+   "title": "𝑺𝒘𝒊 𝒔𝒘𝒊 𝒔𝒘𝒊 𝒔𝒘𝒊𝒔𝒉. Watch #Masterpiece come to life. Performance video out tomorrow. #LNGSHOT",
+   "date": "2026-10-21",
+   "published": "2026-10-21T13:00:23Z",
+   "url": "https://www.youtube.com/watch?v=4MzrsWVUJfA",
+   "image": "https://i.ytimg.com/vi/4MzrsWVUJfA/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
    "title": "The canvas before the Masterpiece ⬜️ #LNGSHOT #Masterpiece",
    "date": "2026-10-21",
    "published": "2026-10-21T10:00:07Z",
@@ -75,6 +84,15 @@
    "published": "2026-10-21T11:00:36Z",
    "url": "https://www.youtube.com/watch?v=CyiVd1y3rVY",
    "image": "https://i.ytimg.com/vi/CyiVd1y3rVY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "new style testing #CORTIS #코르티스",
+   "date": "2026-10-21",
+   "published": "2026-10-21T13:00:04Z",
+   "url": "https://www.youtube.com/watch?v=ZtwsaNsHQ_E",
+   "image": "https://i.ytimg.com/vi/ZtwsaNsHQ_E/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -192,15 +210,6 @@
    "published": "2026-10-18T10:00:01Z",
    "url": "https://www.youtube.com/watch?v=V81ykFddv3o",
    "image": "https://i.ytimg.com/vi/V81ykFddv3o/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "when my friend tries to pay #CORTIS #코르티스",
-   "date": "2026-10-17",
-   "published": "2026-10-17T06:00:31Z",
-   "url": "https://www.youtube.com/watch?v=LwdPpP3EYBU",
-   "image": "https://i.ytimg.com/vi/LwdPpP3EYBU/hqdefault.jpg"
   },
   {
    "type": "music",
@@ -322,15 +331,6 @@
    "published": "2026-10-14T13:00:06Z",
    "url": "https://www.youtube.com/watch?v=EvKMPk3ArNQ",
    "image": "https://i.ytimg.com/vi/EvKMPk3ArNQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "comeback to me. 11/10 new ep loading.🤞 #LNGSHOT",
-   "date": "2026-10-14",
-   "published": "2026-10-14T09:00:17Z",
-   "url": "https://www.youtube.com/watch?v=fn8hoXbFAp8",
-   "image": "https://i.ytimg.com/vi/fn8hoXbFAp8/hqdefault.jpg"
   },
   {
    "type": "video",
