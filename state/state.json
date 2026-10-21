@@ -381,7 +381,16 @@
   "news:7e0322db7b70439a|foro": "2026-10-20T20:46:07Z",
   "next:lngshot:lng-20261020-paris|ntfy": "2026-10-20T22:01:11Z",
   "next:lngshot:lng-20261020-paris|pub:radarkpop-lngshot-shows": "2026-10-20T22:01:11Z",
-  "next:lngshot:lng-20261020-paris|foro": "2026-10-20T22:01:11Z"
+  "next:lngshot:lng-20261020-paris|foro": "2026-10-20T22:01:11Z",
+  "news:e0188d1ce76adebb|ntfy": "2026-10-21T01:46:12Z",
+  "news:e0188d1ce76adebb|pub:radarkpop-bts-news": "2026-10-21T01:46:12Z",
+  "news:e0188d1ce76adebb|foro": "2026-10-21T01:46:12Z",
+  "news:a8296edbdf91be24|ntfy": "2026-10-21T01:46:12Z",
+  "news:a8296edbdf91be24|pub:radarkpop-bts-news": "2026-10-21T01:46:12Z",
+  "news:a8296edbdf91be24|foro": "2026-10-21T01:46:12Z",
+  "news:71d97b6777e8bb42|ntfy": "2026-10-21T01:46:12Z",
+  "news:71d97b6777e8bb42|pub:radarkpop-bts-news": "2026-10-21T01:46:12Z",
+  "news:71d97b6777e8bb42|foro": "2026-10-21T01:46:12Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1335,6 +1344,7 @@
   "4b7a46f9539f8195",
   "4c0426c5280f2f76",
   "4c66adbc58a5030b",
+  "4d05fc490195765a",
   "4d478540b34de366",
   "4e2a31c39658b777",
   "4e2e730cc7d75410",
@@ -1398,6 +1408,7 @@
   "70f9091478744a16",
   "710fe2ae1798bc9f",
   "713d954eb3dad94e",
+  "71d97b6777e8bb42",
   "721b64b16310b5eb",
   "728d621e4b1def68",
   "72be67d66498858d",
@@ -1514,6 +1525,7 @@
   "a794ae4c64fd2d6f",
   "a7cb8b43fec1871e",
   "a7e663f3005db419",
+  "a8296edbdf91be24",
   "a880fa2c23d52329",
   "a89c1f791d473b61",
   "a8d34f7a2a8aa074",
@@ -1588,6 +1600,7 @@
   "cc37a3501c42ea08",
   "cc3f0b8e5a87d903",
   "cca49e5f4017ea46",
+  "ccdd371d9c717f42",
   "cd9feb3367855fbf",
   "cdcffd89759f760b",
   "ce322fa6405e1bba",
@@ -1618,6 +1631,7 @@
   "df508a80852ccfa0",
   "df91eb9facff7351",
   "df9f99baee686f44",
+  "e0188d1ce76adebb",
   "e0a35b48a10bf225",
   "e20959cc2895af1d",
   "e23d52033c88fcf1",
@@ -2230,6 +2244,44 @@
     "seguridad"
    ],
    "t": "2026-10-20T20:45:59Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "americo",
+    "concierto",
+    "foto",
+    "guagua",
+    "revelan",
+    "trasfondo",
+    "tuto",
+    "viral"
+   ],
+   "t": "2026-10-21T01:46:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "callejero",
+    "corea",
+    "festival",
+    "furor",
+    "visita"
+   ],
+   "t": "2026-10-21T01:46:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "esta",
+    "historicas",
+    "noches",
+    "plata",
+    "prepara",
+    "tres"
+   ],
+   "t": "2026-10-21T01:46:03Z"
   }
  ],
  "discord_threads": {
