@@ -405,7 +405,11 @@
   "news:cc0d1c687b9a1288|foro": "2026-10-21T09:31:45Z",
   "news:9cab47c0a6485c2f|ntfy": "2026-10-21T09:46:01Z",
   "news:9cab47c0a6485c2f|pub:radarkpop-twice-news": "2026-10-21T09:46:01Z",
-  "news:9cab47c0a6485c2f|foro": "2026-10-21T09:46:01Z"
+  "news:9cab47c0a6485c2f|foro": "2026-10-21T09:46:01Z",
+  "today:bts:bts-20261021-laplata|ntfy": "2026-10-21T11:01:06Z",
+  "today:bts:bts-20261021-laplata|pub:radarkpop-bts-shows": "2026-10-21T11:01:06Z",
+  "today:bts:bts-20261021-laplata|pub:radarkpop-pais-argentina": "2026-10-21T11:01:06Z",
+  "today:bts:bts-20261021-laplata|foro": "2026-10-21T11:01:06Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1534,6 +1538,7 @@
   "9eeb1f42eb447f73",
   "9fb001d5ac0ffae2",
   "a0577af5d8af0b7b",
+  "a057da7d239699e0",
   "a0db86e005ac4f3f",
   "a137b2f88f307926",
   "a18f987dc32a5a96",
@@ -1670,6 +1675,7 @@
   "dd144002a3d61960",
   "dd323a64c13793af",
   "dd35af846a6ac10d",
+  "de5be50aeee3978e",
   "deb871d83eaff2cc",
   "defb1ef553b2225b",
   "df039864311dc247",
