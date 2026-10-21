@@ -418,7 +418,10 @@
   "news:a67dac0fda656f02|foro": "2026-10-21T16:01:18Z",
   "news:fc10f93377600adf|ntfy": "2026-10-21T16:01:18Z",
   "news:fc10f93377600adf|pub:radarkpop-bts-news": "2026-10-21T16:01:18Z",
-  "news:fc10f93377600adf|foro": "2026-10-21T16:01:18Z"
+  "news:fc10f93377600adf|foro": "2026-10-21T16:01:18Z",
+  "news:00f28efe33262e67|ntfy": "2026-10-21T16:16:29Z",
+  "news:00f28efe33262e67|pub:radarkpop-twice-news": "2026-10-21T16:16:29Z",
+  "news:00f28efe33262e67|foro": "2026-10-21T16:16:29Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1245,6 +1248,7 @@
   "0098ec601dff6231",
   "00b83fa9dfff42f4",
   "00dc9164c8cd6c44",
+  "00f28efe33262e67",
   "015c52afab438b43",
   "0173b695d33ab742",
   "025ec2ef42837f29",
@@ -2377,6 +2381,19 @@
     "vez"
    ],
    "t": "2026-10-21T16:01:08Z"
+  },
+  {
+   "g": "twice",
+   "w": [
+    "comeback",
+    "nayeon",
+    "noviembre",
+    "prepara",
+    "semana",
+    "solitario",
+    "tercera"
+   ],
+   "t": "2026-10-21T16:16:21Z"
   }
  ],
  "discord_threads": {
