@@ -439,7 +439,10 @@
   "news:794bbdd53faccccf|foro": "2026-10-21T20:01:12Z",
   "news:a2df1bcd2a4d87fa|ntfy": "2026-10-21T20:31:40Z",
   "news:a2df1bcd2a4d87fa|pub:radarkpop-bts-news": "2026-10-21T20:31:40Z",
-  "news:a2df1bcd2a4d87fa|foro": "2026-10-21T20:31:40Z"
+  "news:a2df1bcd2a4d87fa|foro": "2026-10-21T20:31:40Z",
+  "live:bts-20261021-laplata|ntfy": "2026-10-21T22:16:25Z",
+  "live:bts-20261021-laplata|pub:radarkpop-bts-shows": "2026-10-21T22:16:25Z",
+  "live:bts-20261021-laplata|foro": "2026-10-21T22:16:25Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1729,6 +1732,7 @@
   "d731a77b46af8754",
   "dcba8a19263dceb4",
   "dd144002a3d61960",
+  "dd1e6fc7495ab248",
   "dd323a64c13793af",
   "dd35af846a6ac10d",
   "de5be50aeee3978e",
@@ -1791,48 +1795,6 @@
   "fe382faa86082acd"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "argentina",
-    "banda",
-    "fotos",
-    "furor",
-    "llego",
-    "mundo",
-    "pop",
-    "primeras"
-   ],
-   "t": "2026-10-19T22:01:19Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "argentina",
-    "conciertos",
-    "estan",
-    "historicos",
-    "integrantes",
-    "pais",
-    "semana",
-    "siete"
-   ],
-   "t": "2026-10-19T22:01:19Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "argentina",
-    "desato",
-    "expectativa",
-    "ezeiza",
-    "fans",
-    "imagenes",
-    "llego",
-    "primeras"
-   ],
-   "t": "2026-10-19T22:16:16Z"
-  },
   {
    "g": "bts",
    "w": [
