@@ -399,7 +399,10 @@
   "official:ateez:comeback:2026-10-21|foro": "2026-10-21T04:01:07Z",
   "official:lngshot:comeback:2026-10-21|ntfy": "2026-10-21T05:16:29Z",
   "official:lngshot:comeback:2026-10-21|pub:radarkpop-lngshot-music": "2026-10-21T05:16:29Z",
-  "official:lngshot:comeback:2026-10-21|foro": "2026-10-21T05:16:29Z"
+  "official:lngshot:comeback:2026-10-21|foro": "2026-10-21T05:16:29Z",
+  "news:cc0d1c687b9a1288|ntfy": "2026-10-21T09:31:45Z",
+  "news:cc0d1c687b9a1288|pub:radarkpop-bts-news": "2026-10-21T09:31:45Z",
+  "news:cc0d1c687b9a1288|foro": "2026-10-21T09:31:45Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1244,6 +1247,7 @@
   "0901a917ef136e80",
   "090adf0f97c29998",
   "0a02b51225b6bfe6",
+  "0b4aac6e46abdf78",
   "0b847ab2fad2cb99",
   "0bb6ec7c557e4511",
   "0c52c030ebbcee12",
@@ -1276,6 +1280,7 @@
   "1c3290f578567187",
   "1d9a22b374ee3ba3",
   "1d9e3375416431bc",
+  "1dca7483ba02c925",
   "1dd07b698ad98b76",
   "1e36796fa8465346",
   "1e94fd76841e3838",
@@ -1471,12 +1476,14 @@
   "84038b786c539d8d",
   "846d27ce45d4480b",
   "84df9a5990e09fa1",
+  "8544b2b03882d292",
   "858f28353c3cd9fe",
   "865b2422c08fb395",
   "86940eccbd4fa982",
   "87dfec5aed77d0e2",
   "880b48dda87dbd6d",
   "883a15fa5402ae75",
+  "886c351d707fcf72",
   "88dd608ac4d8cbec",
   "89143d1d0f7b9b5d",
   "89578b544a26b544",
@@ -1626,6 +1633,7 @@
   "c9ac1dab8bda2302",
   "ca3c4512d3a6caec",
   "cac9e2c2834d016f",
+  "cc0d1c687b9a1288",
   "cc37a3501c42ea08",
   "cc3f0b8e5a87d903",
   "cca49e5f4017ea46",
@@ -2269,6 +2277,21 @@
     "viven"
    ],
    "t": "2026-10-21T04:00:58Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "amid",
+    "concerts",
+    "controversy",
+    "criticism",
+    "instagram",
+    "jungkooks",
+    "targeted",
+    "upcoming",
+    "wave"
+   ],
+   "t": "2026-10-21T09:31:37Z"
   }
  ],
  "discord_threads": {
