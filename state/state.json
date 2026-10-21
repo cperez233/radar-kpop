@@ -421,7 +421,13 @@
   "news:fc10f93377600adf|foro": "2026-10-21T16:01:18Z",
   "news:00f28efe33262e67|ntfy": "2026-10-21T16:16:29Z",
   "news:00f28efe33262e67|pub:radarkpop-twice-news": "2026-10-21T16:16:29Z",
-  "news:00f28efe33262e67|foro": "2026-10-21T16:16:29Z"
+  "news:00f28efe33262e67|foro": "2026-10-21T16:16:29Z",
+  "news:24a617be9bc8f7e0|ntfy": "2026-10-21T18:01:11Z",
+  "news:24a617be9bc8f7e0|pub:radarkpop-bts-news": "2026-10-21T18:01:11Z",
+  "news:24a617be9bc8f7e0|foro": "2026-10-21T18:01:11Z",
+  "news:140cb713e3bbb792|ntfy": "2026-10-21T18:01:11Z",
+  "news:140cb713e3bbb792|pub:radarkpop-bts-news": "2026-10-21T18:01:11Z",
+  "news:140cb713e3bbb792|foro": "2026-10-21T18:01:11Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1286,6 +1292,7 @@
   "12d672496c9bb37c",
   "12fc798bb4302192",
   "1362bf55a73b5c44",
+  "140cb713e3bbb792",
   "15942858e60e739c",
   "163b59606967fc3d",
   "16bdeddaa9651e21",
@@ -1312,6 +1319,7 @@
   "21e07935168f73ff",
   "23493908e30eb222",
   "2382cccc0d27d138",
+  "24a617be9bc8f7e0",
   "254ac6a33319392a",
   "26bb92a87718a3d7",
   "27216f3cf16a5869",
@@ -1573,6 +1581,7 @@
   "a32c521e21e1635c",
   "a3395a5672762573",
   "a3f9e54ed3654523",
+  "a40a0e5f21456b2f",
   "a40c6e9ee2212d77",
   "a42212d3597c2d3a",
   "a48a22654f1ccfaa",
@@ -2378,6 +2387,36 @@
     "tercera"
    ],
    "t": "2026-10-21T16:16:21Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "asi",
+    "banda",
+    "concierto",
+    "cortes",
+    "mapa",
+    "operativo",
+    "plata",
+    "pop",
+    "sera"
+   ],
+   "t": "2026-10-21T18:01:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "americo",
+    "concierto",
+    "difunden",
+    "durante",
+    "estado",
+    "imagen",
+    "llamativo",
+    "m360"
+   ],
+   "t": "2026-10-21T18:01:03Z"
   }
  ],
  "discord_threads": {
