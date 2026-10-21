@@ -396,7 +396,10 @@
   "news:7477017d035659d2|foro": "2026-10-21T04:01:07Z",
   "official:ateez:comeback:2026-10-21|ntfy": "2026-10-21T04:01:07Z",
   "official:ateez:comeback:2026-10-21|pub:radarkpop-ateez-music": "2026-10-21T04:01:07Z",
-  "official:ateez:comeback:2026-10-21|foro": "2026-10-21T04:01:07Z"
+  "official:ateez:comeback:2026-10-21|foro": "2026-10-21T04:01:07Z",
+  "official:lngshot:comeback:2026-10-21|ntfy": "2026-10-21T05:16:29Z",
+  "official:lngshot:comeback:2026-10-21|pub:radarkpop-lngshot-music": "2026-10-21T05:16:29Z",
+  "official:lngshot:comeback:2026-10-21|foro": "2026-10-21T05:16:29Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1262,6 +1265,7 @@
   "163b59606967fc3d",
   "16bdeddaa9651e21",
   "16fc7055c04918d7",
+  "174ba1d1238d2e81",
   "18924fd1bb0ebd19",
   "18af36418b60a1da",
   "1993b89af2edcef1",
@@ -1402,6 +1406,7 @@
   "693284d097c750f7",
   "69920cf4419778b9",
   "69d31ebfd2c34c79",
+  "6b818324c4336d57",
   "6b99ab1221ac9031",
   "6b9de9f9739b2949",
   "6bbcfae7a465dc47",
@@ -1518,6 +1523,7 @@
   "a208891472485ef0",
   "a2153cb309fc9198",
   "a2dcb2f9a07781e6",
+  "a32c521e21e1635c",
   "a3395a5672762573",
   "a40c6e9ee2212d77",
   "a42212d3597c2d3a",
@@ -1688,22 +1694,6 @@
   "fe0c742a7bb314e3"
  ],
  "news_topics": [
-  {
-   "g": "seventeen",
-   "w": [
-    "asia",
-    "chart",
-    "focus",
-    "gira",
-    "ingresos",
-    "mil",
-    "millones",
-    "numero",
-    "oficial",
-    "wones"
-   ],
-   "t": "2026-10-19T05:16:18Z"
-  },
   {
    "g": "bts",
    "w": [
