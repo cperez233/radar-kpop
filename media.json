@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-21T11:15:37Z",
+ "updated_at": "2026-10-21T12:00:37Z",
  "sample": false,
  "items": [
   {
@@ -61,6 +61,15 @@
   {
    "type": "video",
    "group": "seventeen",
+   "title": "[GOING JxJ SPECIAL] THE DREAM GAME SHOW #2",
+   "date": "2026-10-21",
+   "published": "2026-10-21T11:59:54Z",
+   "url": "https://www.youtube.com/watch?v=5L150Opr6VY",
+   "image": "https://i.ytimg.com/vi/5L150Opr6VY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
    "title": "12 o'clock fit check #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
    "date": "2026-10-21",
    "published": "2026-10-21T11:00:36Z",
@@ -111,15 +120,6 @@
    "published": "2026-10-20T13:30:39Z",
    "url": "https://www.youtube.com/watch?v=hKqXF4gUjqI",
    "image": "https://i.ytimg.com/vi/hKqXF4gUjqI/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "JEONGHAN X JOSHUA (SEVENTEEN) 'DREAMSCAPE' Jacket BEHIND THE SCENES",
-   "date": "2026-10-20",
-   "published": "2026-10-20T12:59:59Z",
-   "url": "https://www.youtube.com/watch?v=VI5n9Tn-tKk",
-   "image": "https://i.ytimg.com/vi/VI5n9Tn-tKk/hqdefault.jpg"
   },
   {
    "type": "video",
