@@ -1,8 +1,23 @@
 {
-  "updated_at": "2026-10-18T14:15:35Z",
+  "updated_at": "2026-10-21T15:00:44Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "fan-newjeans-melbourne-20261021",
+      "group": "newjeans",
+      "group_name": "NewJeans",
+      "city": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8136,
+      "lon": 144.9631,
+      "fan": true,
+      "fans": 2,
+      "text": "",
+      "url": "",
+      "account": "",
+      "when": "2026-10-21T08:51:30Z"
+    },
     {
       "id": "x-2111821623900983748",
       "group": "enhypen",
