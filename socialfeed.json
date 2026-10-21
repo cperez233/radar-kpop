@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-21T05:30:56Z",
+ "updated_at": "2026-10-21T06:30:51Z",
  "groups": {
   "bts": {
    "x": [
@@ -1379,6 +1379,16 @@
   "lngshot": {
    "x": [
     {
+     "title": "[NOTICE] LNGSHOT [Masterpiece] 발매 기념 음원 다운로드 이벤트 안내 #LNGSHOT #SWISH #Masterpiece #MOREVISION",
+     "url": "https://x.com/LNGSHOT4sho/status/2112786077996187708",
+     "when": "2026-10-21T06:00:29Z"
+    },
+    {
+     "title": "[NOTICE] LNGSHOT [Masterpiece] 발매 기념 음원 스트리밍 이벤트 안내 #LNGSHOT #SWISH #Masterpiece #MOREVISION",
+     "url": "https://x.com/LNGSHOT4sho/status/2112785987369930840",
+     "when": "2026-10-21T06:00:07Z"
+    },
+    {
      "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (케이타운포유) #LNGSHOT #SWISH #MOREVISION",
      "url": "https://x.com/LNGSHOT4sho/status/2112771343649525941",
      "when": "2026-10-21T05:01:56Z"
@@ -1392,16 +1402,6 @@
      "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (위드뮤) #LNGSHOT #SWISH #MOREVISION",
      "url": "https://x.com/LNGSHOT4sho/status/2112061527788503521",
      "when": "2026-10-19T06:01:23Z"
-    },
-    {
-     "title": "‘Masterpiece’ 10/21 6PM KST EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. #Masterpiece #LNGSHOT #MOREV...",
-     "url": "https://x.com/LNGSHOT4sho/status/2111834706245566559",
-     "when": "2026-10-18T15:00:04Z"
-    },
-    {
-     "title": "A peek at Masterpiece dance practice 👀 #Masterpiece #SWISH #LNGSHOT #SHOTTIES #MOREVISION",
-     "url": "https://x.com/LNGSHOT4sho/status/2111447428717310173",
-     "when": "2026-10-17T13:21:10Z"
     }
    ],
    "members": {
@@ -1468,6 +1468,11 @@
   "seventeen": {
    "x": [
     {
+     "title": "[NEWS] Step inside JEONGHAN & JOSHUA's \"DREAMSCAPE\" in #SpatialAudio with @Dolby Atmos on @AppleMusic. #JxJ #정한X조슈...",
+     "url": "https://x.com/pledis_17/status/2112786534521061510",
+     "when": "2026-10-21T06:02:18Z"
+    },
+    {
      "title": "[NEWS] CARATs, JxJ's 'DREAMSCAPE' Stationhead listening party is coming up tomorrow! Don't forget to join! 10/22 2PM KST (10/21 10PM PT / 10/22 1AM ET...",
      "url": "https://x.com/pledis_17/status/2112770859601387837",
      "when": "2026-10-21T05:00:00Z"
@@ -1486,11 +1491,6 @@
      "title": "JEONGHAN X JOSHUA (SEVENTEEN) 'DREAMSCAPE' Jacket BEHIND THE SCENES ▶️ #JxJ #정한X조슈아 #DREAMSCAPE",
      "url": "https://x.com/pledis_17/status/2112529356413448456",
      "when": "2026-10-20T13:00:22Z"
-    },
-    {
-     "title": "in a dreamscape 12PM ---> 12AM ▶️ ▶️ ▶️",
-     "url": "https://x.com/pledis_17/status/2112514534900748480",
-     "when": "2026-10-20T12:01:28Z"
     }
    ],
    "members": {
@@ -2264,5 +2264,5 @@
   }
  },
  "ig_cursor": 2,
- "ig_pause_until": "2026-10-21T05:31:05Z"
+ "ig_pause_until": "2026-10-21T12:30:51Z"
 }
