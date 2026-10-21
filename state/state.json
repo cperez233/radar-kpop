@@ -436,7 +436,10 @@
   "news:3982cc02e9014d6a|foro": "2026-10-21T20:01:12Z",
   "news:794bbdd53faccccf|ntfy": "2026-10-21T20:01:12Z",
   "news:794bbdd53faccccf|pub:radarkpop-seventeen-news": "2026-10-21T20:01:12Z",
-  "news:794bbdd53faccccf|foro": "2026-10-21T20:01:12Z"
+  "news:794bbdd53faccccf|foro": "2026-10-21T20:01:12Z",
+  "news:a2df1bcd2a4d87fa|ntfy": "2026-10-21T20:31:40Z",
+  "news:a2df1bcd2a4d87fa|pub:radarkpop-bts-news": "2026-10-21T20:31:40Z",
+  "news:a2df1bcd2a4d87fa|foro": "2026-10-21T20:31:40Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1589,6 +1592,7 @@
   "a208891472485ef0",
   "a2153cb309fc9198",
   "a2dcb2f9a07781e6",
+  "a2df1bcd2a4d87fa",
   "a32c521e21e1635c",
   "a3395a5672762573",
   "a3f9e54ed3654523",
@@ -2473,6 +2477,26 @@
     "verlo"
    ],
    "t": "2026-10-21T20:01:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "anos",
+    "banda",
+    "catron",
+    "chile",
+    "concierto",
+    "estaban",
+    "huaso",
+    "lleva",
+    "matta",
+    "negocio",
+    "sabian",
+    "ultimo",
+    "vendiendo",
+    "vistio"
+   ],
+   "t": "2026-10-21T20:31:30Z"
   }
  ],
  "discord_threads": {
