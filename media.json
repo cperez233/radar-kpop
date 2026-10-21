@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-21T11:00:39Z",
+ "updated_at": "2026-10-21T11:15:37Z",
  "sample": false,
  "items": [
   {
@@ -60,6 +60,15 @@
   },
   {
    "type": "video",
+   "group": "seventeen",
+   "title": "12 o'clock fit check #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
+   "date": "2026-10-21",
+   "published": "2026-10-21T11:00:36Z",
+   "url": "https://www.youtube.com/watch?v=CyiVd1y3rVY",
+   "image": "https://i.ytimg.com/vi/CyiVd1y3rVY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "skz",
    "title": "𝗜𝗻𝘀𝗶𝗱𝗲 𝗢𝘂𝘁 #StrayKids #스트레이키즈 #리노 #LeeKnow #현진 #Hyunjin #YouMakeStrayKidsStay",
    "date": "2026-10-20",
@@ -111,15 +120,6 @@
    "published": "2026-10-20T12:59:59Z",
    "url": "https://www.youtube.com/watch?v=VI5n9Tn-tKk",
    "image": "https://i.ytimg.com/vi/VI5n9Tn-tKk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "in a dreamscape 12PM ---〉 12AM #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
-   "date": "2026-10-20",
-   "published": "2026-10-20T12:00:34Z",
-   "url": "https://www.youtube.com/watch?v=8kxFTWT8R6c",
-   "image": "https://i.ytimg.com/vi/8kxFTWT8R6c/hqdefault.jpg"
   },
   {
    "type": "video",
