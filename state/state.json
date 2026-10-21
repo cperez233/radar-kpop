@@ -442,7 +442,10 @@
   "news:a2df1bcd2a4d87fa|foro": "2026-10-21T20:31:40Z",
   "live:bts-20261021-laplata|ntfy": "2026-10-21T22:16:25Z",
   "live:bts-20261021-laplata|pub:radarkpop-bts-shows": "2026-10-21T22:16:25Z",
-  "live:bts-20261021-laplata|foro": "2026-10-21T22:16:25Z"
+  "live:bts-20261021-laplata|foro": "2026-10-21T22:16:25Z",
+  "news:5968f756f0223837|ntfy": "2026-10-21T22:46:12Z",
+  "news:5968f756f0223837|pub:radarkpop-bts-news": "2026-10-21T22:46:12Z",
+  "news:5968f756f0223837|foro": "2026-10-21T22:46:12Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1442,6 +1445,7 @@
   "57fad7356860bea9",
   "584ac3d5d10b613f",
   "58a3ce5288ee6029",
+  "5968f756f0223837",
   "5a476ecfa13cca44",
   "5a769e67c4024311",
   "5ad55f5911e881b4",
@@ -1649,6 +1653,7 @@
   "b41944d96bc69ad2",
   "b455626a2377fc14",
   "b4712ba551623d0a",
+  "b48b0379352bb7f7",
   "b4a5ca75ee1ecb75",
   "b4fb12f36eb374d5",
   "b65806ce2ae1449f",
@@ -2431,6 +2436,22 @@
     "vistio"
    ],
    "t": "2026-10-21T20:31:30Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "americo",
+    "concierto",
+    "durmiendo",
+    "foto",
+    "pleno",
+    "rompe",
+    "silencio",
+    "suya",
+    "tras",
+    "viralizarse"
+   ],
+   "t": "2026-10-21T22:46:03Z"
   }
  ],
  "discord_threads": {
