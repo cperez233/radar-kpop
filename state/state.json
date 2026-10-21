@@ -412,7 +412,13 @@
   "today:bts:bts-20261021-laplata|foro": "2026-10-21T11:01:06Z",
   "news:6a689b26ae14861c|ntfy": "2026-10-21T14:46:08Z",
   "news:6a689b26ae14861c|pub:radarkpop-bts-news": "2026-10-21T14:46:08Z",
-  "news:6a689b26ae14861c|foro": "2026-10-21T14:46:08Z"
+  "news:6a689b26ae14861c|foro": "2026-10-21T14:46:08Z",
+  "news:a67dac0fda656f02|ntfy": "2026-10-21T16:01:18Z",
+  "news:a67dac0fda656f02|pub:radarkpop-bts-news": "2026-10-21T16:01:18Z",
+  "news:a67dac0fda656f02|foro": "2026-10-21T16:01:18Z",
+  "news:fc10f93377600adf|ntfy": "2026-10-21T16:01:18Z",
+  "news:fc10f93377600adf|pub:radarkpop-bts-news": "2026-10-21T16:01:18Z",
+  "news:fc10f93377600adf|foro": "2026-10-21T16:01:18Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1574,6 +1580,7 @@
   "a56873bf20152cf2",
   "a58710bfac28ada5",
   "a5b18da4e90b1f3c",
+  "a67dac0fda656f02",
   "a6aca9d79fc7ba8a",
   "a78a9de10042d21d",
   "a794ae4c64fd2d6f",
@@ -1743,6 +1750,7 @@
   "faa7af492a043829",
   "fb4e97b6e2db366c",
   "fb8056f4c7959797",
+  "fc10f93377600adf",
   "fc45b7f1996e18de",
   "fcc5d1953a5f1c97",
   "fd3cfa7463cf7b3c",
@@ -1753,22 +1761,6 @@
   "fe382faa86082acd"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "asi",
-    "cancha",
-    "color",
-    "conciertos",
-    "estadio",
-    "humedad",
-    "nacional",
-    "nivelacion",
-    "quedo",
-    "tras"
-   ],
-   "t": "2026-10-19T16:01:01Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -2355,6 +2347,36 @@
     "vivo"
    ],
    "t": "2026-10-21T14:46:00Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "bogota",
+    "concierto",
+    "cop",
+    "generara",
+    "ingresos",
+    "mil",
+    "millones"
+   ],
+   "t": "2026-10-21T16:01:08Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "arirang",
+    "army",
+    "buen",
+    "fanatico",
+    "fiebre",
+    "gira",
+    "llega",
+    "manual",
+    "primera",
+    "vez"
+   ],
+   "t": "2026-10-21T16:01:08Z"
   }
  ],
  "discord_threads": {
