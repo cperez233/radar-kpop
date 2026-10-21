@@ -402,7 +402,10 @@
   "official:lngshot:comeback:2026-10-21|foro": "2026-10-21T05:16:29Z",
   "news:cc0d1c687b9a1288|ntfy": "2026-10-21T09:31:45Z",
   "news:cc0d1c687b9a1288|pub:radarkpop-bts-news": "2026-10-21T09:31:45Z",
-  "news:cc0d1c687b9a1288|foro": "2026-10-21T09:31:45Z"
+  "news:cc0d1c687b9a1288|foro": "2026-10-21T09:31:45Z",
+  "news:9cab47c0a6485c2f|ntfy": "2026-10-21T09:46:01Z",
+  "news:9cab47c0a6485c2f|pub:radarkpop-twice-news": "2026-10-21T09:46:01Z",
+  "news:9cab47c0a6485c2f|foro": "2026-10-21T09:46:01Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1522,6 +1525,7 @@
   "99bb7b56f0e52584",
   "9a00cb36937ebeff",
   "9a80c3652095c287",
+  "9cab47c0a6485c2f",
   "9d0eb49e37175554",
   "9e0aece9e2c8cda0",
   "9e201d9a840c2fea",
@@ -2292,6 +2296,18 @@
     "wave"
    ],
    "t": "2026-10-21T09:31:37Z"
+  },
+  {
+   "g": "twice",
+   "w": [
+    "comeback",
+    "confirmed",
+    "gearing",
+    "nayeon",
+    "solo",
+    "twices"
+   ],
+   "t": "2026-10-21T09:45:55Z"
   }
  ],
  "discord_threads": {
