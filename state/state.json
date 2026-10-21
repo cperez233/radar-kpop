@@ -427,7 +427,16 @@
   "news:24a617be9bc8f7e0|foro": "2026-10-21T18:01:11Z",
   "news:140cb713e3bbb792|ntfy": "2026-10-21T18:01:11Z",
   "news:140cb713e3bbb792|pub:radarkpop-bts-news": "2026-10-21T18:01:11Z",
-  "news:140cb713e3bbb792|foro": "2026-10-21T18:01:11Z"
+  "news:140cb713e3bbb792|foro": "2026-10-21T18:01:11Z",
+  "news:c71700221c950814|ntfy": "2026-10-21T20:01:12Z",
+  "news:c71700221c950814|pub:radarkpop-bts-news": "2026-10-21T20:01:12Z",
+  "news:c71700221c950814|foro": "2026-10-21T20:01:12Z",
+  "news:3982cc02e9014d6a|ntfy": "2026-10-21T20:01:12Z",
+  "news:3982cc02e9014d6a|pub:radarkpop-bts-news": "2026-10-21T20:01:12Z",
+  "news:3982cc02e9014d6a|foro": "2026-10-21T20:01:12Z",
+  "news:794bbdd53faccccf|ntfy": "2026-10-21T20:01:12Z",
+  "news:794bbdd53faccccf|pub:radarkpop-seventeen-news": "2026-10-21T20:01:12Z",
+  "news:794bbdd53faccccf|foro": "2026-10-21T20:01:12Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1361,6 +1370,7 @@
   "38a7308810f867f5",
   "390aa0433fba6998",
   "390ee90c1bd5eabd",
+  "3982cc02e9014d6a",
   "39c26763054ebfe8",
   "39f76f66cbf0a9cd",
   "3b07e31e83d55bd1",
@@ -1489,6 +1499,7 @@
   "772a7078076cccb8",
   "778de05dcc384f27",
   "77f0106177ac9323",
+  "794bbdd53faccccf",
   "79569b17c64f4cfd",
   "7b9a451843796f45",
   "7bb94153c05ac4e2",
@@ -1672,6 +1683,7 @@
   "c64d81c5f87c5a28",
   "c666c81e6c71d851",
   "c68e7c87af1ebd44",
+  "c71700221c950814",
   "c75541069d2a12e5",
   "c762b25ee784d8d7",
   "c83c3e3cdebe8430",
@@ -2417,6 +2429,49 @@
     "m360"
    ],
    "t": "2026-10-21T18:01:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "entre",
+    "expectativa",
+    "fanaticos",
+    "genera",
+    "gran",
+    "llega"
+   ],
+   "t": "2026-10-21T20:01:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "americo",
+    "bien",
+    "concierto",
+    "fui",
+    "genera",
+    "mantita",
+    "momento",
+    "preparado",
+    "reaparece",
+    "viral"
+   ],
+   "t": "2026-10-21T20:01:03Z"
+  },
+  {
+   "g": "seventeen",
+   "w": [
+    "cines",
+    "concierto",
+    "cuando",
+    "jeonghan",
+    "joshua",
+    "mexico",
+    "transmitiran",
+    "verlo"
+   ],
+   "t": "2026-10-21T20:01:03Z"
   }
  ],
  "discord_threads": {
