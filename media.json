@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-21T07:00:39Z",
+ "updated_at": "2026-10-21T10:00:39Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-10-21"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "The canvas before the Masterpiece ⬜️ #LNGSHOT #Masterpiece",
+   "date": "2026-10-21",
+   "published": "2026-10-21T10:00:07Z",
+   "url": "https://www.youtube.com/watch?v=ICUPqtwp5KE",
+   "image": "https://i.ytimg.com/vi/ICUPqtwp5KE/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -331,15 +340,6 @@
    "published": "2026-10-11T11:01:17Z",
    "url": "https://www.youtube.com/watch?v=rGb4rH-P8eE",
    "image": "https://i.ytimg.com/vi/rGb4rH-P8eE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "LNGSHOT EP [S.W.I.S.H.] Trailer",
-   "date": "2026-10-11",
-   "published": "2026-10-11T15:00:10Z",
-   "url": "https://www.youtube.com/watch?v=b_hgDjQrVOE",
-   "image": "https://i.ytimg.com/vi/b_hgDjQrVOE/hqdefault.jpg"
   },
   {
    "type": "music",
