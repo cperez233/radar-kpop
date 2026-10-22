@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-22T12:30:42Z",
+ "updated_at": "2026-10-22T13:00:40Z",
  "sample": false,
  "items": [
   {
@@ -97,6 +97,15 @@
   {
    "type": "video",
    "group": "seventeen",
+   "title": "[SVT Record] 🍊뿌이로그🍊 | 투어스 동생들 콘서트 관람 | 형들도 사이할래💙 (Edited by TWS 영재)",
+   "date": "2026-10-22",
+   "published": "2026-10-22T12:59:57Z",
+   "url": "https://www.youtube.com/watch?v=WnisqqWz_hI",
+   "image": "https://i.ytimg.com/vi/WnisqqWz_hI/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
    "title": "넌 아찔하게 나를 이끌어 #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
    "date": "2026-10-22",
    "published": "2026-10-22T12:30:03Z",
@@ -111,15 +120,6 @@
    "published": "2026-10-22T12:05:06Z",
    "url": "https://www.youtube.com/watch?v=6tsJM98ymu4",
    "image": "https://i.ytimg.com/vi/6tsJM98ymu4/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "예지몽 #1 💭 사진 촬영 #JXJ #정한X조슈아 #DREAMSCAPE #12oclock",
-   "date": "2026-10-22",
-   "published": "2026-10-22T11:30:03Z",
-   "url": "https://www.youtube.com/watch?v=xdu5DZ-vmac",
-   "image": "https://i.ytimg.com/vi/xdu5DZ-vmac/hqdefault.jpg"
   },
   {
    "type": "video",
