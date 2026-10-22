@@ -445,7 +445,10 @@
   "live:bts-20261021-laplata|foro": "2026-10-21T22:16:25Z",
   "news:5968f756f0223837|ntfy": "2026-10-21T22:46:12Z",
   "news:5968f756f0223837|pub:radarkpop-bts-news": "2026-10-21T22:46:12Z",
-  "news:5968f756f0223837|foro": "2026-10-21T22:46:12Z"
+  "news:5968f756f0223837|foro": "2026-10-21T22:46:12Z",
+  "news:a8cc82c0ccbdff91|ntfy": "2026-10-22T00:01:44Z",
+  "news:a8cc82c0ccbdff91|pub:radarkpop-bts-news": "2026-10-22T00:01:44Z",
+  "news:a8cc82c0ccbdff91|foro": "2026-10-22T00:01:44Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1625,6 +1628,7 @@
   "a8296edbdf91be24",
   "a880fa2c23d52329",
   "a89c1f791d473b61",
+  "a8cc82c0ccbdff91",
   "a8d34f7a2a8aa074",
   "a9212f4983ee92b9",
   "aa252b6cb401facd",
@@ -1800,17 +1804,6 @@
   "fe382faa86082acd"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "argentina",
-    "furor",
-    "genera",
-    "llego",
-    "plata"
-   ],
-   "t": "2026-10-20T00:01:07Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -2428,6 +2421,18 @@
     "viralizarse"
    ],
    "t": "2026-10-21T22:46:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "album",
+    "arirang",
+    "gira",
+    "mantiene",
+    "mundial",
+    "popularidad"
+   ],
+   "t": "2026-10-22T00:01:34Z"
   }
  ],
  "discord_threads": {

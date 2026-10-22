@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T11:55:06Z",
+  "updated_at": "2026-10-22T00:01:09Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
@@ -55,7 +55,7 @@
       },
       "listeners": 3726701,
       "listeners_peak": 6085028,
-      "yt_subs": 2090000
+      "yt_subs": 2100000
     },
     "seventeen": {
       "streams": 8415375530,
