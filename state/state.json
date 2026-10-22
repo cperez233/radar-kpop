@@ -451,7 +451,10 @@
   "news:a8cc82c0ccbdff91|foro": "2026-10-22T00:01:44Z",
   "news:8ecb84c60e098f4a|ntfy": "2026-10-22T01:31:36Z",
   "news:8ecb84c60e098f4a|pub:radarkpop-bts-news": "2026-10-22T01:31:36Z",
-  "news:8ecb84c60e098f4a|foro": "2026-10-22T01:31:36Z"
+  "news:8ecb84c60e098f4a|foro": "2026-10-22T01:31:36Z",
+  "news:80368606f7c7d64e|ntfy": "2026-10-22T01:46:12Z",
+  "news:80368606f7c7d64e|pub:radarkpop-bts-news": "2026-10-22T01:46:12Z",
+  "news:80368606f7c7d64e|foro": "2026-10-22T01:46:12Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1532,6 +1535,7 @@
   "7fab5ac364031e2e",
   "7fc2b7e1731190ea",
   "801dd41f9ee44208",
+  "80368606f7c7d64e",
   "806ca7372474e08f",
   "80a3836bf4693a1b",
   "81984c7796be273c",
@@ -2405,6 +2409,20 @@
     "primer"
    ],
    "t": "2026-10-22T01:31:29Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "conciertos",
+    "detras",
+    "fenomeno",
+    "furor",
+    "pop",
+    "primera",
+    "vez"
+   ],
+   "t": "2026-10-22T01:46:01Z"
   }
  ],
  "discord_threads": {
