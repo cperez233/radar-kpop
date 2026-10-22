@@ -491,7 +491,10 @@
   "news:650abcc0128ba861|foro": "2026-10-22T14:01:15Z",
   "rel:ateez:2026-10-23|ntfy": "2026-10-22T15:01:18Z",
   "rel:ateez:2026-10-23|pub:radarkpop-ateez-music": "2026-10-22T15:01:18Z",
-  "rel:ateez:2026-10-23|foro": "2026-10-22T15:01:18Z"
+  "rel:ateez:2026-10-23|foro": "2026-10-22T15:01:18Z",
+  "live:lng-20261022-esch|ntfy": "2026-10-22T17:16:31Z",
+  "live:lng-20261022-esch|pub:radarkpop-lngshot-shows": "2026-10-22T17:16:31Z",
+  "live:lng-20261022-esch|foro": "2026-10-22T17:16:31Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1913,19 +1916,6 @@
   "fe382faa86082acd"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "argentina",
-    "detalles",
-    "llego",
-    "shows",
-    "todos",
-    "tres",
-    "visita"
-   ],
-   "t": "2026-10-20T17:01:17Z"
-  },
   {
    "g": "bts",
    "w": [
