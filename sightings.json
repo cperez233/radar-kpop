@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-10-21T15:00:44Z",
+  "updated_at": "2026-10-22T03:00:43Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "x-2113103051016011996",
+      "group": "seventeen",
+      "group_name": "SEVENTEEN",
+      "city": "Seúl",
+      "country": "Corea del Sur",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "text": "our 𝗗𝗥𝗘𝗔𝗠𝗦𝗖𝗔𝗣𝗘, landed in Seoul 📍Location 서울역, 서울 용산구 한강대로 405 #JxJ #정한X조슈아 #DREAMSCAPE",
+      "url": "https://x.com/pledis_17/status/2113103051016011996",
+      "account": "pledis_17",
+      "when": "2026-10-22T03:00:01Z"
+    },
     {
       "id": "fan-newjeans-melbourne-20261021",
       "group": "newjeans",
