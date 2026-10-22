@@ -460,7 +460,10 @@
   "news:19a1d6148db400ca|foro": "2026-10-22T01:57:25Z",
   "news:ab624af630b4206d|ntfy": "2026-10-22T03:31:39Z",
   "news:ab624af630b4206d|pub:radarkpop-bts-news": "2026-10-22T03:31:39Z",
-  "news:ab624af630b4206d|foro": "2026-10-22T03:31:39Z"
+  "news:ab624af630b4206d|foro": "2026-10-22T03:31:39Z",
+  "news:f58973149f33e36c|ntfy": "2026-10-22T05:01:43Z",
+  "news:f58973149f33e36c|pub:radarkpop-bts-news": "2026-10-22T05:01:43Z",
+  "news:f58973149f33e36c|foro": "2026-10-22T05:01:43Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1365,6 +1368,7 @@
   "28144c1da5df33e2",
   "2848387294dd91d0",
   "286eb00d5b68855f",
+  "287c319b25cc5c4f",
   "287f9571c64e20a0",
   "2a07ca8abaea37eb",
   "2a925be968cfd66a",
@@ -1810,6 +1814,7 @@
   "f46d5fbeafb14247",
   "f532b649eeb3f9ab",
   "f56ff3297e766d73",
+  "f58973149f33e36c",
   "f5b794cd30a8ec4e",
   "f6bfdc7acd7cf89f",
   "f91fa7623939ac18",
@@ -2454,6 +2459,20 @@
     "shows"
    ],
    "t": "2026-10-22T03:31:30Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "aclara",
+    "americo",
+    "concierto",
+    "dormido",
+    "estado",
+    "explico",
+    "foto",
+    "quede"
+   ],
+   "t": "2026-10-22T05:01:36Z"
   }
  ],
  "discord_threads": {
