@@ -448,7 +448,10 @@
   "news:5968f756f0223837|foro": "2026-10-21T22:46:12Z",
   "news:a8cc82c0ccbdff91|ntfy": "2026-10-22T00:01:44Z",
   "news:a8cc82c0ccbdff91|pub:radarkpop-bts-news": "2026-10-22T00:01:44Z",
-  "news:a8cc82c0ccbdff91|foro": "2026-10-22T00:01:44Z"
+  "news:a8cc82c0ccbdff91|foro": "2026-10-22T00:01:44Z",
+  "news:8ecb84c60e098f4a|ntfy": "2026-10-22T01:31:36Z",
+  "news:8ecb84c60e098f4a|pub:radarkpop-bts-news": "2026-10-22T01:31:36Z",
+  "news:8ecb84c60e098f4a|foro": "2026-10-22T01:31:36Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1293,6 +1296,7 @@
   "0716e48eda0d00a5",
   "0901a917ef136e80",
   "090adf0f97c29998",
+  "09eafb6dc72ed4dd",
   "0a02b51225b6bfe6",
   "0b4aac6e46abdf78",
   "0b847ab2fad2cb99",
@@ -1441,6 +1445,7 @@
   "54030e68e8bdb670",
   "545eecae9727e1be",
   "5489c03820db5b7f",
+  "54d6bea2d7fc3cc7",
   "55326539450ba7de",
   "55b71c6f7ac07d5a",
   "55f5b132d9cb7673",
@@ -1563,6 +1568,7 @@
   "8d9e84be204de8d5",
   "8dcc8d1ad364fdf2",
   "8eb88ae1e9e9d5c5",
+  "8ecb84c60e098f4a",
   "8f1e13f22609875c",
   "8f4ff4263eb8af45",
   "90066f2d0e34a7f8",
@@ -1584,6 +1590,7 @@
   "9812990bb2d60696",
   "9872c57103ee373f",
   "98eb32cebaa7d848",
+  "9977aa67f3d10e0b",
   "99bb7b56f0e52584",
   "9a00cb36937ebeff",
   "9a80c3652095c287",
@@ -2382,6 +2389,22 @@
     "popularidad"
    ],
    "t": "2026-10-22T00:01:34Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "antes",
+    "argentina",
+    "concierto",
+    "emocion",
+    "filas",
+    "hoteles",
+    "largas",
+    "llenos",
+    "mucha",
+    "primer"
+   ],
+   "t": "2026-10-22T01:31:29Z"
   }
  ],
  "discord_threads": {
