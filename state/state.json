@@ -500,7 +500,16 @@
   "news:67421ba23c098381|foro": "2026-10-22T19:46:06Z",
   "news:88cc362a13a3b0ea|ntfy": "2026-10-22T20:01:23Z",
   "news:88cc362a13a3b0ea|pub:radarkpop-bts-news": "2026-10-22T20:01:23Z",
-  "news:88cc362a13a3b0ea|foro": "2026-10-22T20:01:23Z"
+  "news:88cc362a13a3b0ea|foro": "2026-10-22T20:01:23Z",
+  "news:62bad61a1974336a|ntfy": "2026-10-22T20:46:12Z",
+  "news:62bad61a1974336a|pub:radarkpop-bts-news": "2026-10-22T20:46:12Z",
+  "news:62bad61a1974336a|foro": "2026-10-22T20:46:12Z",
+  "news:8c8d324a31d34f38|ntfy": "2026-10-22T20:46:12Z",
+  "news:8c8d324a31d34f38|pub:radarkpop-bts-news": "2026-10-22T20:46:12Z",
+  "news:8c8d324a31d34f38|foro": "2026-10-22T20:46:12Z",
+  "news:986ff5f0fbfba97e|ntfy": "2026-10-22T20:46:12Z",
+  "news:986ff5f0fbfba97e|pub:radarkpop-bts-news": "2026-10-22T20:46:12Z",
+  "news:986ff5f0fbfba97e|foro": "2026-10-22T20:46:12Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1546,6 +1555,7 @@
   "61148face18541a3",
   "61c19b7acb10c610",
   "61c437627c8e53ad",
+  "62bad61a1974336a",
   "636fe402fd6f0233",
   "647fbfe504b1c95e",
   "64ccfda43a854b8e",
@@ -1653,6 +1663,7 @@
   "8b905058820569af",
   "8c42476febb08ead",
   "8c6ddb1aeccb397b",
+  "8c8d324a31d34f38",
   "8cbd2b6b30216cf7",
   "8cc811a5f123bad9",
   "8d5013b8a186306f",
@@ -1683,6 +1694,7 @@
   "962bbb958d390b1a",
   "96f19efa67fdae83",
   "9812990bb2d60696",
+  "986ff5f0fbfba97e",
   "9872c57103ee373f",
   "98eb32cebaa7d848",
   "9977aa67f3d10e0b",
@@ -1690,6 +1702,7 @@
   "9a00cb36937ebeff",
   "9a80c3652095c287",
   "9cab47c0a6485c2f",
+  "9cbe02d9d0600c9d",
   "9d0eb49e37175554",
   "9e0aece9e2c8cda0",
   "9e201d9a840c2fea",
@@ -1926,17 +1939,6 @@
   "fe382faa86082acd"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "concierto",
-    "despliega",
-    "megadispositivo",
-    "plata",
-    "seguridad"
-   ],
-   "t": "2026-10-20T20:45:59Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -2386,6 +2388,48 @@
     "tour"
    ],
    "t": "2026-10-22T20:01:15Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "concierto",
+    "festejo",
+    "leo",
+    "messi",
+    "pleno",
+    "recrean",
+    "sorprendente",
+    "video"
+   ],
+   "t": "2026-10-22T20:46:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "armys",
+    "atencion",
+    "cines",
+    "concierto",
+    "este",
+    "podra",
+    "rosario",
+    "sabado",
+    "ver"
+   ],
+   "t": "2026-10-22T20:46:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentino",
+    "beethoven",
+    "concierto",
+    "grieg",
+    "kalinnikov",
+    "nuevo"
+   ],
+   "t": "2026-10-22T20:46:03Z"
   }
  ],
  "discord_threads": {
