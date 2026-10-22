@@ -497,7 +497,10 @@
   "live:lng-20261022-esch|foro": "2026-10-22T17:16:31Z",
   "news:67421ba23c098381|ntfy": "2026-10-22T19:46:06Z",
   "news:67421ba23c098381|pub:radarkpop-bts-news": "2026-10-22T19:46:06Z",
-  "news:67421ba23c098381|foro": "2026-10-22T19:46:06Z"
+  "news:67421ba23c098381|foro": "2026-10-22T19:46:06Z",
+  "news:88cc362a13a3b0ea|ntfy": "2026-10-22T20:01:23Z",
+  "news:88cc362a13a3b0ea|pub:radarkpop-bts-news": "2026-10-22T20:01:23Z",
+  "news:88cc362a13a3b0ea|foro": "2026-10-22T20:01:23Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1637,6 +1640,7 @@
   "880b48dda87dbd6d",
   "883a15fa5402ae75",
   "886c351d707fcf72",
+  "88cc362a13a3b0ea",
   "88dd608ac4d8cbec",
   "89143d1d0f7b9b5d",
   "89578b544a26b544",
@@ -2370,6 +2374,18 @@
     "video"
    ],
    "t": "2026-10-22T19:45:58Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "500",
+    "arirang",
+    "dolares",
+    "millones",
+    "supera",
+    "tour"
+   ],
+   "t": "2026-10-22T20:01:15Z"
   }
  ],
  "discord_threads": {
