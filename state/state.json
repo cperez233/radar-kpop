@@ -476,7 +476,10 @@
   "news:f4c8a2d71f1935ca|foro": "2026-10-22T09:31:41Z",
   "news:30f70de44d96a3a7|ntfy": "2026-10-22T09:46:09Z",
   "news:30f70de44d96a3a7|pub:radarkpop-bts-news": "2026-10-22T09:46:09Z",
-  "news:30f70de44d96a3a7|foro": "2026-10-22T09:46:09Z"
+  "news:30f70de44d96a3a7|foro": "2026-10-22T09:46:09Z",
+  "news:3b73485cffa081f6|ntfy": "2026-10-22T10:46:03Z",
+  "news:3b73485cffa081f6|pub:radarkpop-bts-news": "2026-10-22T10:46:03Z",
+  "news:3b73485cffa081f6|foro": "2026-10-22T10:46:03Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1404,6 +1407,7 @@
   "309f31ccc3f5538d",
   "30f70de44d96a3a7",
   "317b82dacc069601",
+  "32c050ddf51191a3",
   "33ce7fcc82e89b3d",
   "33dda7e6ed211b58",
   "341610a91c11c334",
@@ -1428,6 +1432,7 @@
   "3b07e31e83d55bd1",
   "3b2d73c034e4e4d2",
   "3b5d4a40f7b689df",
+  "3b73485cffa081f6",
   "3c764024703b3435",
   "3d4674e9aa875640",
   "3d560db24dbf00fa",
@@ -2449,6 +2454,20 @@
     "shamed"
    ],
    "t": "2026-10-22T09:46:02Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "aires",
+    "argentina",
+    "banda",
+    "buenos",
+    "esta",
+    "imagenes",
+    "paseo",
+    "primeras"
+   ],
+   "t": "2026-10-22T10:45:55Z"
   }
  ],
  "discord_threads": {
