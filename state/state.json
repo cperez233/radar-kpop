@@ -494,7 +494,10 @@
   "rel:ateez:2026-10-23|foro": "2026-10-22T15:01:18Z",
   "live:lng-20261022-esch|ntfy": "2026-10-22T17:16:31Z",
   "live:lng-20261022-esch|pub:radarkpop-lngshot-shows": "2026-10-22T17:16:31Z",
-  "live:lng-20261022-esch|foro": "2026-10-22T17:16:31Z"
+  "live:lng-20261022-esch|foro": "2026-10-22T17:16:31Z",
+  "news:67421ba23c098381|ntfy": "2026-10-22T19:46:06Z",
+  "news:67421ba23c098381|pub:radarkpop-bts-news": "2026-10-22T19:46:06Z",
+  "news:67421ba23c098381|foro": "2026-10-22T19:46:06Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1546,6 +1549,7 @@
   "650abcc0128ba861",
   "6613df77f6d2c2c1",
   "66b984ce0420cabc",
+  "67421ba23c098381",
   "679ac96bd183b1b7",
   "67c32e301ed9349e",
   "686e79928f8b2598",
@@ -1918,71 +1922,6 @@
   "fe382faa86082acd"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "2026",
-    "army",
-    "llego",
-    "octubre",
-    "pais",
-    "pedido",
-    "plata",
-    "recitales",
-    "redes",
-    "tres"
-   ],
-   "t": "2026-10-20T19:32:45Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "agotados",
-    "argentina",
-    "asi",
-    "conciertos",
-    "esta",
-    "fue",
-    "grupo",
-    "llegada",
-    "surcoreano",
-    "tres"
-   ],
-   "t": "2026-10-20T19:45:57Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "arirang",
-    "cines",
-    "conciertos",
-    "estas",
-    "fechas",
-    "ganas",
-    "proximas",
-    "quedaste",
-    "son",
-    "tour",
-    "world"
-   ],
-   "t": "2026-10-20T19:45:57Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "hay",
-    "light",
-    "llega",
-    "merchandising",
-    "plata",
-    "saber",
-    "shows",
-    "sobre",
-    "stick",
-    "todo"
-   ],
-   "t": "2026-10-20T19:45:57Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -2415,6 +2354,22 @@
     "uno"
    ],
    "t": "2026-10-22T14:01:07Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "concierto",
+    "durante",
+    "emotivo",
+    "homenaje",
+    "lionel",
+    "messi",
+    "primer",
+    "rinde",
+    "video"
+   ],
+   "t": "2026-10-22T19:45:58Z"
   }
  ],
  "discord_threads": {
