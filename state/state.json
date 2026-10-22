@@ -470,7 +470,10 @@
   "today:lngshot:lng-20261022-esch|foro": "2026-10-22T06:01:19Z",
   "official:lngshot:comeback:2026-10-22|ntfy": "2026-10-22T09:01:13Z",
   "official:lngshot:comeback:2026-10-22|pub:radarkpop-lngshot-music": "2026-10-22T09:01:13Z",
-  "official:lngshot:comeback:2026-10-22|foro": "2026-10-22T09:01:13Z"
+  "official:lngshot:comeback:2026-10-22|foro": "2026-10-22T09:01:13Z",
+  "news:f4c8a2d71f1935ca|ntfy": "2026-10-22T09:31:41Z",
+  "news:f4c8a2d71f1935ca|pub:radarkpop-bts-news": "2026-10-22T09:31:41Z",
+  "news:f4c8a2d71f1935ca|foro": "2026-10-22T09:31:41Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1352,6 +1355,7 @@
   "1a003286b58d6018",
   "1a400f8dbfc2b6a0",
   "1c3290f578567187",
+  "1d117584f72f61a3",
   "1d9a22b374ee3ba3",
   "1d9e3375416431bc",
   "1dca7483ba02c925",
@@ -1838,6 +1842,7 @@
   "f450cd410a9c2689",
   "f460d4c1210d2e15",
   "f46d5fbeafb14247",
+  "f4c8a2d71f1935ca",
   "f532b649eeb3f9ab",
   "f56ff3297e766d73",
   "f58973149f33e36c",
@@ -2427,6 +2432,20 @@
     "quede"
    ],
    "t": "2026-10-22T05:01:36Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "banda",
+    "fotos",
+    "furor",
+    "llego",
+    "mundo",
+    "pop",
+    "primeras"
+   ],
+   "t": "2026-10-22T09:31:33Z"
   }
  ],
  "discord_threads": {
