@@ -473,7 +473,10 @@
   "official:lngshot:comeback:2026-10-22|foro": "2026-10-22T09:01:13Z",
   "news:f4c8a2d71f1935ca|ntfy": "2026-10-22T09:31:41Z",
   "news:f4c8a2d71f1935ca|pub:radarkpop-bts-news": "2026-10-22T09:31:41Z",
-  "news:f4c8a2d71f1935ca|foro": "2026-10-22T09:31:41Z"
+  "news:f4c8a2d71f1935ca|foro": "2026-10-22T09:31:41Z",
+  "news:30f70de44d96a3a7|ntfy": "2026-10-22T09:46:09Z",
+  "news:30f70de44d96a3a7|pub:radarkpop-bts-news": "2026-10-22T09:46:09Z",
+  "news:30f70de44d96a3a7|foro": "2026-10-22T09:46:09Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1398,6 +1401,7 @@
   "2eee342e72d4b1e7",
   "302a2f3e351c65ac",
   "309f31ccc3f5538d",
+  "30f70de44d96a3a7",
   "317b82dacc069601",
   "33ce7fcc82e89b3d",
   "33dda7e6ed211b58",
@@ -2446,6 +2450,18 @@
     "primeras"
    ],
    "t": "2026-10-22T09:31:33Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "btss",
+    "concert",
+    "fury",
+    "inciting",
+    "recent",
+    "shamed"
+   ],
+   "t": "2026-10-22T09:46:02Z"
   }
  ],
  "discord_threads": {
