@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-22T15:00:47Z",
+ "updated_at": "2026-10-22T15:15:38Z",
  "sample": false,
  "items": [
   {
@@ -138,6 +138,26 @@
    "published": "2026-10-22T09:00:20Z",
    "url": "https://www.youtube.com/watch?v=TcLqVKpkB8c",
    "image": "https://i.ytimg.com/vi/TcLqVKpkB8c/hqdefault.jpg"
+  },
+  {
+   "type": "music",
+   "group": "lngshot",
+   "title": "Masterpiece",
+   "kind": "Album",
+   "date": "2026-10-21",
+   "url": "https://music.apple.com/us/album/masterpiece-single/6825448333",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5c/6c/7f/5c6c7fd4-72ed-0132-d510-5fbc9d74fc27/075679549723.jpg/300x300bb.jpg",
+   "ytm_v": 6,
+   "tracks": [
+    {
+     "n": "Masterpiece",
+     "ms": 169714,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e5/77/34/e5773462-00b4-38e6-31e9-20c075bd454a/mzaf_6666534142296934104.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": "2026-10-22T15",
+   "ytm": "https://music.youtube.com/watch?v=kYVHk1yIxHs",
+   "spotify": "https://open.spotify.com/album/4wKPeePl9o838f30TCt8uG"
   },
   {
    "type": "video",
@@ -943,46 +963,6 @@
    "spotify": "https://open.spotify.com/album/38kbL8yJY3FgCobipweY90",
    "ytm": "https://music.youtube.com/watch?v=0XhuQwJotdA",
    "ytm_try": "2026-10-17T19"
-  },
-  {
-   "type": "music",
-   "group": "lngshot",
-   "title": "Training Day",
-   "kind": "Album",
-   "date": "2026-03-23",
-   "url": "https://music.apple.com/us/album/training-day-ep/1885487042",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/a8/de/cfa8dee7-da1a-eb20-6074-741a4af1a1f6/cover_KM0024394_1.jpg/300x300bb.jpg",
-   "ytm_v": 6,
-   "tracks": [
-    {
-     "n": "Good Girls",
-     "ms": 165246,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/33/9a/a2339a64-6135-ed2f-076d-aee32a65596a/mzaf_5884822538582229763.plus.aac.p.m4a"
-    },
-    {
-     "n": "Boo Thang",
-     "ms": 182410,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/0d/ca/010dca43-5c99-3236-2dfe-f954462c2e3e/mzaf_7177787208548750436.plus.aac.p.m4a"
-    },
-    {
-     "n": "Summer Eyes",
-     "ms": 200174,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/77/b2/97/77b297fb-782a-5fcf-3a39-9cdbee95dd89/mzaf_1546966803969116241.plus.aac.p.m4a"
-    },
-    {
-     "n": "For Us",
-     "ms": 105454,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/2e/16/5f2e1600-1629-be39-a784-e0a4b8e30674/mzaf_3709386990029330403.plus.aac.p.m4a"
-    },
-    {
-     "n": "Vanilla Days",
-     "ms": 170695,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/c2/9f/30c29f0b-bed7-d993-6909-0392418d4dcc/mzaf_15564917017364106254.plus.aac.p.m4a"
-    }
-   ],
-   "ytm_try": "2026-10-22T15",
-   "ytm": "https://music.youtube.com/watch?v=was7cPFLhuQ",
-   "spotify": "https://open.spotify.com/album/7z5ZIN7o44Tk8EUkm7AVar"
   },
   {
    "type": "video",
