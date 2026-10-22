@@ -457,7 +457,10 @@
   "news:80368606f7c7d64e|foro": "2026-10-22T01:46:12Z",
   "news:19a1d6148db400ca|ntfy": "2026-10-22T01:57:25Z",
   "news:19a1d6148db400ca|pub:radarkpop-bts-news": "2026-10-22T01:57:25Z",
-  "news:19a1d6148db400ca|foro": "2026-10-22T01:57:25Z"
+  "news:19a1d6148db400ca|foro": "2026-10-22T01:57:25Z",
+  "news:ab624af630b4206d|ntfy": "2026-10-22T03:31:39Z",
+  "news:ab624af630b4206d|pub:radarkpop-bts-news": "2026-10-22T03:31:39Z",
+  "news:ab624af630b4206d|foro": "2026-10-22T03:31:39Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1474,6 +1477,7 @@
   "5eaf70d50bc18268",
   "5ee334653ac920dd",
   "5f3f9c3a68de1aa2",
+  "5f5d8980a4bcca14",
   "60aac56e8fe4852f",
   "61148face18541a3",
   "61c437627c8e53ad",
@@ -1656,6 +1660,7 @@
   "ab11224b98b43419",
   "ab2fbcb45155586b",
   "ab4a9fbee2c772ac",
+  "ab624af630b4206d",
   "ab75bc8b945a1300",
   "ac24c66799df7986",
   "ac396c6a08b27779",
@@ -2447,6 +2452,20 @@
     "rio"
    ],
    "t": "2026-10-22T01:57:17Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "cargado",
+    "coreana",
+    "cultura",
+    "disco",
+    "llega",
+    "multitudinarios",
+    "plata",
+    "shows"
+   ],
+   "t": "2026-10-22T03:31:30Z"
   }
  ],
  "discord_threads": {
