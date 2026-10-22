@@ -482,7 +482,10 @@
   "news:3b73485cffa081f6|foro": "2026-10-22T10:46:03Z",
   "official:seventeen:tour:2026-10-22|ntfy": "2026-10-22T13:01:13Z",
   "official:seventeen:tour:2026-10-22|pub:radarkpop-seventeen-shows": "2026-10-22T13:01:13Z",
-  "official:seventeen:tour:2026-10-22|foro": "2026-10-22T13:01:13Z"
+  "official:seventeen:tour:2026-10-22|foro": "2026-10-22T13:01:13Z",
+  "news:059eb8da25233e90|ntfy": "2026-10-22T13:46:15Z",
+  "news:059eb8da25233e90|pub:radarkpop-bts-news": "2026-10-22T13:46:15Z",
+  "news:059eb8da25233e90|foro": "2026-10-22T13:46:15Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1323,6 +1326,7 @@
   "03ae1c65fce023b6",
   "03d00656bf285ce7",
   "04239522bb8dbb7a",
+  "059eb8da25233e90",
   "0635a9a85274493c",
   "06c044c57450a104",
   "06e7751e875fc4e0",
@@ -1745,6 +1749,7 @@
   "b65806ce2ae1449f",
   "b6791db3d42048b5",
   "b6b0b9884e3a5de9",
+  "b6bdfe4d1191ec5f",
   "b79d006590806ea6",
   "b7d7cf59af0f01aa",
   "b81687ac8f169694",
@@ -2461,6 +2466,22 @@
     "primeras"
    ],
    "t": "2026-10-22T10:45:55Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "conciertos",
+    "fans",
+    "gestos",
+    "hacia",
+    "inesperados",
+    "inicio",
+    "inolvidable",
+    "serie",
+    "show"
+   ],
+   "t": "2026-10-22T13:46:06Z"
   }
  ],
  "discord_threads": {
