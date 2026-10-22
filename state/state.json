@@ -454,7 +454,10 @@
   "news:8ecb84c60e098f4a|foro": "2026-10-22T01:31:36Z",
   "news:80368606f7c7d64e|ntfy": "2026-10-22T01:46:12Z",
   "news:80368606f7c7d64e|pub:radarkpop-bts-news": "2026-10-22T01:46:12Z",
-  "news:80368606f7c7d64e|foro": "2026-10-22T01:46:12Z"
+  "news:80368606f7c7d64e|foro": "2026-10-22T01:46:12Z",
+  "news:19a1d6148db400ca|ntfy": "2026-10-22T01:57:25Z",
+  "news:19a1d6148db400ca|pub:radarkpop-bts-news": "2026-10-22T01:57:25Z",
+  "news:19a1d6148db400ca|foro": "2026-10-22T01:57:25Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1330,6 +1333,7 @@
   "18924fd1bb0ebd19",
   "18af36418b60a1da",
   "1993b89af2edcef1",
+  "19a1d6148db400ca",
   "1a003286b58d6018",
   "1a400f8dbfc2b6a0",
   "1c3290f578567187",
@@ -2423,6 +2427,23 @@
     "vez"
    ],
    "t": "2026-10-22T01:46:01Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "ante",
+    "boleto",
+    "busca",
+    "copa",
+    "estudiantes",
+    "final",
+    "flamengo",
+    "janeiro",
+    "libertadores",
+    "llego",
+    "rio"
+   ],
+   "t": "2026-10-22T01:57:17Z"
   }
  ],
  "discord_threads": {
