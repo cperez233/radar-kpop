@@ -485,7 +485,10 @@
   "official:seventeen:tour:2026-10-22|foro": "2026-10-22T13:01:13Z",
   "news:059eb8da25233e90|ntfy": "2026-10-22T13:46:15Z",
   "news:059eb8da25233e90|pub:radarkpop-bts-news": "2026-10-22T13:46:15Z",
-  "news:059eb8da25233e90|foro": "2026-10-22T13:46:15Z"
+  "news:059eb8da25233e90|foro": "2026-10-22T13:46:15Z",
+  "news:650abcc0128ba861|ntfy": "2026-10-22T14:01:15Z",
+  "news:650abcc0128ba861|pub:radarkpop-bts-news": "2026-10-22T14:01:15Z",
+  "news:650abcc0128ba861|foro": "2026-10-22T14:01:15Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1532,6 +1535,7 @@
   "636fe402fd6f0233",
   "647fbfe504b1c95e",
   "64ccfda43a854b8e",
+  "650abcc0128ba861",
   "6613df77f6d2c2c1",
   "66b984ce0420cabc",
   "679ac96bd183b1b7",
@@ -1902,18 +1906,6 @@
   "fe382faa86082acd"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "argentino",
-    "army",
-    "esta",
-    "pais",
-    "prepara",
-    "reencontrarse"
-   ],
-   "t": "2026-10-20T13:46:12Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -2482,6 +2474,24 @@
     "show"
    ],
    "t": "2026-10-22T13:46:06Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "floreria",
+    "idea",
+    "integrante",
+    "llego",
+    "mut",
+    "pedido",
+    "quien",
+    "ramos",
+    "revela",
+    "seria",
+    "teniamos",
+    "uno"
+   ],
+   "t": "2026-10-22T14:01:07Z"
   }
  ],
  "discord_threads": {
