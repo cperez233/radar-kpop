@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-22T05:30:35Z",
+ "updated_at": "2026-10-22T06:00:40Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-10-22"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "Which one are you? 👀 #TWICE #트와이스 #TWICEREALITY #TIMETOTWICE #TTT",
+   "date": "2026-10-22",
+   "published": "2026-10-22T06:00:18Z",
+   "url": "https://www.youtube.com/watch?v=Ms1C_36Vols",
+   "image": "https://i.ytimg.com/vi/Ms1C_36Vols/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -138,15 +147,6 @@
    "published": "2026-10-20T07:00:36Z",
    "url": "https://www.youtube.com/watch?v=hPlsArMWYx4",
    "image": "https://i.ytimg.com/vi/hPlsArMWYx4/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "Catch Catch! 😘💞 #ONCE #원스 #TWICE #트와이스 #TWICE_11th_Anniversary",
-   "date": "2026-10-20",
-   "published": "2026-10-20T06:00:34Z",
-   "url": "https://www.youtube.com/watch?v=rIH5vuXA3T8",
-   "image": "https://i.ytimg.com/vi/rIH5vuXA3T8/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -953,6 +953,8 @@
    "url": "https://music.apple.com/us/album/training-day-ep/1885487042",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/a8/de/cfa8dee7-da1a-eb20-6074-741a4af1a1f6/cover_KM0024394_1.jpg/300x300bb.jpg",
    "ytm_v": 6,
+   "spotify": "https://open.spotify.com/album/7z5ZIN7o44Tk8EUkm7AVar",
+   "ytm": "https://music.youtube.com/watch?v=was7cPFLhuQ",
    "tracks": [
     {
      "n": "Good Girls",
@@ -980,9 +982,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/c2/9f/30c29f0b-bed7-d993-6909-0392418d4dcc/mzaf_15564917017364106254.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-22T05",
-   "ytm": "https://music.youtube.com/watch?v=was7cPFLhuQ",
-   "spotify": "https://open.spotify.com/album/7z5ZIN7o44Tk8EUkm7AVar"
+   "ytm_try": "2026-10-22T05"
   },
   {
    "type": "video",

@@ -463,7 +463,11 @@
   "news:ab624af630b4206d|foro": "2026-10-22T03:31:39Z",
   "news:f58973149f33e36c|ntfy": "2026-10-22T05:01:43Z",
   "news:f58973149f33e36c|pub:radarkpop-bts-news": "2026-10-22T05:01:43Z",
-  "news:f58973149f33e36c|foro": "2026-10-22T05:01:43Z"
+  "news:f58973149f33e36c|foro": "2026-10-22T05:01:43Z",
+  "today:lngshot:lng-20261022-esch|ntfy": "2026-10-22T06:01:19Z",
+  "today:lngshot:lng-20261022-esch|pub:radarkpop-lngshot-shows": "2026-10-22T06:01:19Z",
+  "today:lngshot:lng-20261022-esch|pub:radarkpop-pais-luxemburgo": "2026-10-22T06:01:19Z",
+  "today:lngshot:lng-20261022-esch|foro": "2026-10-22T06:01:19Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1403,6 +1407,7 @@
   "3982cc02e9014d6a",
   "39c26763054ebfe8",
   "39f76f66cbf0a9cd",
+  "3a938266a8376791",
   "3b07e31e83d55bd1",
   "3b2d73c034e4e4d2",
   "3b5d4a40f7b689df",
@@ -1653,6 +1658,7 @@
   "a7b638c367aedcd0",
   "a7cb8b43fec1871e",
   "a7e663f3005db419",
+  "a8071902feca34d1",
   "a8296edbdf91be24",
   "a880fa2c23d52329",
   "a89c1f791d473b61",
@@ -1835,17 +1841,6 @@
   "fe382faa86082acd"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "delegacion",
-    "llego",
-    "papa",
-    "vaticano",
-    "visita"
-   ],
-   "t": "2026-10-20T06:00:58Z"
-  },
   {
    "g": "bts",
    "w": [
