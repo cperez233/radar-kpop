@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-23T12:15:35Z",
+ "updated_at": "2026-10-23T13:00:36Z",
  "sample": false,
  "items": [
   {
@@ -43,6 +43,24 @@
   {
    "type": "video",
    "group": "twice",
+   "title": "NAYEON SINGLE “NA-sty” CAPTIVATED MODE: ON",
+   "date": "2026-10-23",
+   "published": "2026-10-23T13:00:04Z",
+   "url": "https://www.youtube.com/watch?v=z7afHJ5I0Ws",
+   "image": "https://i.ytimg.com/vi/z7afHJ5I0Ws/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "NAYEON SINGLE “NA-sty” CAPTIVATED MODE: ON #TWICE #트와이스 #NAYEON #나연 #NA_sty",
+   "date": "2026-10-23",
+   "published": "2026-10-23T13:00:02Z",
+   "url": "https://www.youtube.com/watch?v=hwr7DS_mHwY",
+   "image": "https://i.ytimg.com/vi/hwr7DS_mHwY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
    "title": "트둥의 숲 TDOONG's Crossing EP.01 Highlight #2 #TWICE #트와이스 #TWICEREALITY #TIMETOTWICE #TTT",
    "date": "2026-10-23",
    "published": "2026-10-23T04:01:28Z",
@@ -51,12 +69,12 @@
   },
   {
    "type": "video",
-   "group": "twice",
-   "title": "트둥의 숲 TDOONG's Crossing EP.01 Highlight #1 #TWICE #트와이스 #TWICEREALITY #TIMETOTWICE #TTT",
+   "group": "lngshot",
+   "title": "겉은 이래도 안 무서워~🌹 #LNGSHOT #RYUL #WOOJIN",
    "date": "2026-10-23",
-   "published": "2026-10-23T04:00:30Z",
-   "url": "https://www.youtube.com/watch?v=sAuOClNi58g",
-   "image": "https://i.ytimg.com/vi/sAuOClNi58g/hqdefault.jpg"
+   "published": "2026-10-23T13:00:01Z",
+   "url": "https://www.youtube.com/watch?v=ImwEA2GHFTY",
+   "image": "https://i.ytimg.com/vi/ImwEA2GHFTY/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -115,6 +133,15 @@
   {
    "type": "video",
    "group": "ateez",
+   "title": "이 세계에선 내가 커뮤니티 매니저?! 🎮 #Shorts",
+   "date": "2026-10-23",
+   "published": "2026-10-23T13:00:07Z",
+   "url": "https://www.youtube.com/watch?v=uCq-MJNXi90",
+   "image": "https://i.ytimg.com/vi/uCq-MJNXi90/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
    "title": "Pull up, I’m ownin’ #Shorts",
    "date": "2026-10-23",
    "published": "2026-10-23T11:00:10Z",
@@ -132,15 +159,6 @@
   },
   {
    "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) - 'Drip' Official MV CLIP #Shorts",
-   "date": "2026-10-23",
-   "published": "2026-10-23T04:30:25Z",
-   "url": "https://www.youtube.com/watch?v=6xn7WF6gQWQ",
-   "image": "https://i.ytimg.com/vi/6xn7WF6gQWQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "skz",
    "title": "🦊감기조심🐶 #StrayKids #스트레이키즈 #승민 #Seungmin #아이엔 #I_N #YouMakeStrayKidsStay",
    "date": "2026-10-22",
@@ -150,30 +168,12 @@
   },
   {
    "type": "video",
-   "group": "twice",
-   "title": "TWICE 11th Anniversary MD Shoot Behind",
-   "date": "2026-10-22",
-   "published": "2026-10-22T09:00:06Z",
-   "url": "https://www.youtube.com/watch?v=pUoEgXuIc4k",
-   "image": "https://i.ytimg.com/vi/pUoEgXuIc4k/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "lngshot",
    "title": "Paint strokes create the #Masterpiece. 🖌️ #LNGSHOT",
    "date": "2026-10-22",
    "published": "2026-10-22T10:00:04Z",
    "url": "https://www.youtube.com/watch?v=qKl0ENQ1ya8",
    "image": "https://i.ytimg.com/vi/qKl0ENQ1ya8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "LNGSHOT - 'Masterpiece' Performance Video",
-   "date": "2026-10-22",
-   "published": "2026-10-22T09:00:04Z",
-   "url": "https://www.youtube.com/watch?v=fNQMQjDkoFk",
-   "image": "https://i.ytimg.com/vi/fNQMQjDkoFk/hqdefault.jpg"
   },
   {
    "type": "video",
