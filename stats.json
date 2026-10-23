@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-22T12:15:56Z",
+  "updated_at": "2026-10-23T00:31:04Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
-      "listeners": 30758388,
+      "listeners": 30742527,
       "listeners_peak": 46724346,
       "streams": 50694431729,
       "top_song": {
@@ -25,7 +25,7 @@
       "yt_subs": 25500000
     },
     "twice": {
-      "listeners": 14867835,
+      "listeners": 14871326,
       "listeners_peak": 27003979,
       "streams": 12983698611,
       "top_song": {
@@ -36,7 +36,7 @@
       "yt_subs": 19500000
     },
     "blackpink": {
-      "listeners": 18718427,
+      "listeners": 18707400,
       "listeners_peak": 35310315,
       "streams": 16713935916,
       "top_song": {
@@ -55,7 +55,7 @@
       },
       "listeners": 3717861,
       "listeners_peak": 6085028,
-      "yt_subs": 2100000
+      "yt_subs": 2110000
     },
     "seventeen": {
       "streams": 8415375530,
@@ -69,7 +69,7 @@
       "yt_subs": 18100000
     },
     "enhypen": {
-      "listeners": 10016551,
+      "listeners": 10019162,
       "listeners_peak": 11080262,
       "streams": 7993818712,
       "top_song": {
@@ -77,7 +77,7 @@
         "streams": 543315872,
         "url": "https://open.spotify.com/track/7mpdNiaQvygj2rHoxkzMfa"
       },
-      "yt_subs": 14600000
+      "yt_subs": 14700000
     },
     "newjeans": {
       "listeners": 13463351,
@@ -88,7 +88,7 @@
         "streams": 987550503,
         "url": "https://open.spotify.com/track/65FftemJ1DbbZ45DUfHJXE"
       },
-      "yt_subs": 8700000
+      "yt_subs": 8710000
     },
     "cortis": {
       "listeners": 11219461,
