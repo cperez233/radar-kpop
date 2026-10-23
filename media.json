@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-23T11:00:41Z",
+ "updated_at": "2026-10-23T11:15:34Z",
  "sample": false,
  "items": [
   {
@@ -66,6 +66,15 @@
    "published": "2026-10-23T03:00:19Z",
    "url": "https://www.youtube.com/watch?v=xft3f4UBTu4",
    "image": "https://i.ytimg.com/vi/xft3f4UBTu4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "Day by day 너에게 #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
+   "date": "2026-10-23",
+   "published": "2026-10-23T11:00:28Z",
+   "url": "https://www.youtube.com/watch?v=vg9fYjdyTzc",
+   "image": "https://i.ytimg.com/vi/vg9fYjdyTzc/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -147,15 +156,6 @@
    "published": "2026-10-22T09:00:04Z",
    "url": "https://www.youtube.com/watch?v=fNQMQjDkoFk",
    "image": "https://i.ytimg.com/vi/fNQMQjDkoFk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "꿈에서 봤던 너는 mystery #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
-   "date": "2026-10-22",
-   "published": "2026-10-22T14:00:36Z",
-   "url": "https://www.youtube.com/watch?v=SybQV1mYCvI",
-   "image": "https://i.ytimg.com/vi/SybQV1mYCvI/hqdefault.jpg"
   },
   {
    "type": "video",
