@@ -527,7 +527,10 @@
   "news:dad4fd2478aa9ffd|foro": "2026-10-23T07:46:07Z",
   "news:9562b339e95a7b6f|ntfy": "2026-10-23T10:01:18Z",
   "news:9562b339e95a7b6f|pub:radarkpop-bts-news": "2026-10-23T10:01:18Z",
-  "news:9562b339e95a7b6f|foro": "2026-10-23T10:01:18Z"
+  "news:9562b339e95a7b6f|foro": "2026-10-23T10:01:18Z",
+  "news:1e3752bc1b61a080|ntfy": "2026-10-23T10:31:48Z",
+  "news:1e3752bc1b61a080|pub:radarkpop-bts-news": "2026-10-23T10:31:48Z",
+  "news:1e3752bc1b61a080|foro": "2026-10-23T10:31:48Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1427,6 +1430,7 @@
   "1dd07b698ad98b76",
   "1e1f0c8a84b1e64a",
   "1e36796fa8465346",
+  "1e3752bc1b61a080",
   "1e94fd76841e3838",
   "1ea2177ac846c823",
   "1fcaff10541f1744",
@@ -2433,6 +2437,20 @@
     "seguridad"
    ],
    "t": "2026-10-23T10:01:11Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "army",
+    "debut",
+    "espera",
+    "historico",
+    "llego",
+    "shows",
+    "tres"
+   ],
+   "t": "2026-10-23T10:31:40Z"
   }
  ],
  "discord_threads": {
