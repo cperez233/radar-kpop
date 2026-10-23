@@ -542,7 +542,10 @@
   "news:c5afc1f1fb804aa0|foro": "2026-10-23T15:01:14Z",
   "news:47c0f5a79d91c449|ntfy": "2026-10-23T15:46:06Z",
   "news:47c0f5a79d91c449|pub:radarkpop-twice-news": "2026-10-23T15:46:06Z",
-  "news:47c0f5a79d91c449|foro": "2026-10-23T15:46:06Z"
+  "news:47c0f5a79d91c449|foro": "2026-10-23T15:46:06Z",
+  "news:763df933e3b1bfe8|ntfy": "2026-10-23T16:01:19Z",
+  "news:763df933e3b1bfe8|pub:radarkpop-twice-news": "2026-10-23T16:01:19Z",
+  "news:763df933e3b1bfe8|foro": "2026-10-23T16:01:19Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1668,6 +1671,7 @@
   "7522e6d34d2a5828",
   "75d20a0688a1db62",
   "75e89e2eef9699bd",
+  "763df933e3b1bfe8",
   "768de5c0eaa19919",
   "76a39e4e78214fd8",
   "76eb8c9b9a8c7b89",
@@ -2032,36 +2036,6 @@
   "fe382faa86082acd"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "bogota",
-    "concierto",
-    "cop",
-    "generara",
-    "ingresos",
-    "mil",
-    "millones"
-   ],
-   "t": "2026-10-21T16:01:08Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "argentina",
-    "arirang",
-    "army",
-    "buen",
-    "fanatico",
-    "fiebre",
-    "gira",
-    "llega",
-    "manual",
-    "primera",
-    "vez"
-   ],
-   "t": "2026-10-21T16:01:08Z"
-  },
   {
    "g": "twice",
    "w": [
@@ -2511,6 +2485,21 @@
     "sty"
    ],
    "t": "2026-10-23T15:45:59Z"
+  },
+  {
+   "g": "twice",
+   "w": [
+    "comeback",
+    "gears",
+    "nayeon",
+    "single",
+    "solo",
+    "sty",
+    "teaser",
+    "twices",
+    "watch"
+   ],
+   "t": "2026-10-23T16:01:10Z"
   }
  ],
  "discord_threads": {
