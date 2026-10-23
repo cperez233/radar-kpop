@@ -1,5 +1,5 @@
 {
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':(exclude)state' ':(exclude)CHANGELOG.md' ':(exclude)*.md' ':(exclude).github' ':(exclude)alerts' ':(exclude)backend' ':(exclude)sightings' ':(exclude)src' ':(exclude)tools' ':(exclude)updater' ':(exclude)build.py' ':(exclude).vercelignore'",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':!state' ':!*.md' ':!tools' ':!updater' ':!alerts' ':!sightings' ':!backend' ':!src' ':!build.py' ':!.github' ':!.vercelignore'",
   "headers": [
     {
       "source": "/(.*)",
