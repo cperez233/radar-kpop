@@ -9,7 +9,7 @@ async function archivos() {
     return execSync('git diff --name-only HEAD^ HEAD', { stdio: ['ignore', 'pipe', 'ignore'] }).toString().split('\n').filter(Boolean);
   } catch (e) { /* sin .git: API de GitHub */ }
   const { VERCEL_GIT_REPO_OWNER: o, VERCEL_GIT_REPO_SLUG: r, VERCEL_GIT_COMMIT_SHA: s } = process.env;
-  const res = await fetch(`https://api.github.com/repos/${o}/${r}/commits/${s}`, { headers: { 'User-Agent': 'vercel-ignore' } });
+  const res = await fetch(`https://api.github.com/repos/${o}/${r}/commits/${s}`, { headers: { 'User-Agent': 'vercel-ignore', ...(process.env.GITHUB_TOKEN ? { Authorization: 'Bearer ' + process.env.GITHUB_TOKEN } : {}) } });
   if (!res.ok) throw new Error('GitHub ' + res.status);
   const j = await res.json();
   if (!j.files || j.files.length >= 300) throw new Error('lista incompleta');
