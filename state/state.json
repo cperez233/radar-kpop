@@ -536,7 +536,10 @@
   "official:twice:comeback:2026-10-23|foro": "2026-10-23T13:01:05Z",
   "news:1a3d0cbd1fc6606a|ntfy": "2026-10-23T14:55:16Z",
   "news:1a3d0cbd1fc6606a|pub:radarkpop-blackpink-news": "2026-10-23T14:55:16Z",
-  "news:1a3d0cbd1fc6606a|foro": "2026-10-23T14:55:16Z"
+  "news:1a3d0cbd1fc6606a|foro": "2026-10-23T14:55:16Z",
+  "news:c5afc1f1fb804aa0|ntfy": "2026-10-23T15:01:14Z",
+  "news:c5afc1f1fb804aa0|pub:radarkpop-bts-news": "2026-10-23T15:01:14Z",
+  "news:c5afc1f1fb804aa0|foro": "2026-10-23T15:01:14Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1891,6 +1894,7 @@
   "c32ce9cd472e2adc",
   "c425d34757e7c990",
   "c518ed269b32bdd1",
+  "c5afc1f1fb804aa0",
   "c5c49059d0432e67",
   "c643b56965722404",
   "c64d81c5f87c5a28",
@@ -1968,6 +1972,7 @@
   "e2d1897da009f191",
   "e2fa53d11bc26fa7",
   "e3a39d2d8541709d",
+  "e3c8ffdfdd5eb953",
   "e3e5fc804ec1b725",
   "e4a94de0a8275670",
   "e4b9a4b815d44b14",
@@ -2475,6 +2480,21 @@
     "superara"
    ],
    "t": "2026-10-23T14:55:07Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "boletos",
+    "brasil",
+    "cines",
+    "conciertos",
+    "fechas",
+    "horarios",
+    "mexico",
+    "ver"
+   ],
+   "t": "2026-10-23T15:01:04Z"
   }
  ],
  "discord_threads": {
