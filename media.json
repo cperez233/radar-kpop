@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-23T12:00:39Z",
+ "updated_at": "2026-10-23T12:15:35Z",
  "sample": false,
  "items": [
   {
@@ -70,6 +70,15 @@
   {
    "type": "video",
    "group": "seventeen",
+   "title": "자꾸 보게 돼 You’re like a daydream #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
+   "date": "2026-10-23",
+   "published": "2026-10-23T12:00:15Z",
+   "url": "https://www.youtube.com/watch?v=ZqajBTN2F1E",
+   "image": "https://i.ytimg.com/vi/ZqajBTN2F1E/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
    "title": "Day by day 너에게 #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
    "date": "2026-10-23",
    "published": "2026-10-23T11:00:28Z",
@@ -87,12 +96,12 @@
   },
   {
    "type": "video",
-   "group": "seventeen",
-   "title": "예지몽 #2 💭 음료수 선물 #JXJ #정한X조슈아 #DREAMSCAPE #12oclock",
+   "group": "enhypen",
+   "title": "김민우+김선우=?",
    "date": "2026-10-23",
-   "published": "2026-10-23T09:45:12Z",
-   "url": "https://www.youtube.com/watch?v=AaObH0iW5UU",
-   "image": "https://i.ytimg.com/vi/AaObH0iW5UU/hqdefault.jpg"
+   "published": "2026-10-23T12:01:31Z",
+   "url": "https://www.youtube.com/watch?v=vRU9l_HRBDk",
+   "image": "https://i.ytimg.com/vi/vRU9l_HRBDk/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -230,15 +239,6 @@
    "published": "2026-10-20T11:00:15Z",
    "url": "https://www.youtube.com/watch?v=vkShP2XlP0w",
    "image": "https://i.ytimg.com/vi/vkShP2XlP0w/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "아! 내 어깨... #JUNGWON #SUNGHOON #ENHYPEN",
-   "date": "2026-10-20",
-   "published": "2026-10-20T10:05:39Z",
-   "url": "https://www.youtube.com/watch?v=SVplxAobkSM",
-   "image": "https://i.ytimg.com/vi/SVplxAobkSM/hqdefault.jpg"
   },
   {
    "type": "video",
