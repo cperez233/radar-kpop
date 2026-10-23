@@ -548,7 +548,10 @@
   "news:763df933e3b1bfe8|foro": "2026-10-23T16:01:19Z",
   "news:fea57120d0712dc9|ntfy": "2026-10-23T16:31:53Z",
   "news:fea57120d0712dc9|pub:radarkpop-bts-news": "2026-10-23T16:31:53Z",
-  "news:fea57120d0712dc9|foro": "2026-10-23T16:31:53Z"
+  "news:fea57120d0712dc9|foro": "2026-10-23T16:31:53Z",
+  "news:bd93e4e8ea8dd312|ntfy": "2026-10-23T20:31:41Z",
+  "news:bd93e4e8ea8dd312|pub:radarkpop-bts-news": "2026-10-23T20:31:41Z",
+  "news:bd93e4e8ea8dd312|foro": "2026-10-23T20:31:41Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1887,6 +1890,7 @@
   "bcfea4aa85be7a4d",
   "bd00707e69ee4ce4",
   "bd7b5ac71ebe4599",
+  "bd93e4e8ea8dd312",
   "bdd07c39e4bcc2f7",
   "be49ee0653695c60",
   "bebc7fab28da52a5",
@@ -2041,26 +2045,6 @@
   "fea57120d0712dc9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "anos",
-    "banda",
-    "catron",
-    "chile",
-    "concierto",
-    "estaban",
-    "huaso",
-    "lleva",
-    "matta",
-    "negocio",
-    "sabian",
-    "ultimo",
-    "vendiendo",
-    "vistio"
-   ],
-   "t": "2026-10-21T20:31:30Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -2434,6 +2418,19 @@
     "peru"
    ],
    "t": "2026-10-23T16:31:41Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "cine",
+    "conciertos",
+    "fest",
+    "hybe",
+    "seventeen",
+    "sseraphin",
+    "tendra"
+   ],
+   "t": "2026-10-23T20:31:31Z"
   }
  ],
  "discord_threads": {
