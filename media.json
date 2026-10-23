@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-23T10:00:48Z",
+ "updated_at": "2026-10-23T10:15:34Z",
  "sample": false,
  "items": [
   {
@@ -66,6 +66,15 @@
    "published": "2026-10-23T03:00:19Z",
    "url": "https://www.youtube.com/watch?v=xft3f4UBTu4",
    "image": "https://i.ytimg.com/vi/xft3f4UBTu4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "I forgot my earphones too 😇 #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
+   "date": "2026-10-23",
+   "published": "2026-10-23T10:00:30Z",
+   "url": "https://www.youtube.com/watch?v=Fha2EISFR4g",
+   "image": "https://i.ytimg.com/vi/Fha2EISFR4g/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -138,15 +147,6 @@
    "published": "2026-10-22T14:00:36Z",
    "url": "https://www.youtube.com/watch?v=SybQV1mYCvI",
    "image": "https://i.ytimg.com/vi/SybQV1mYCvI/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[SVT Record] 🍊뿌이로그🍊 | 투어스 동생들 콘서트 관람 | 형들도 사이할래💙 (Edited by TWS 영재)",
-   "date": "2026-10-22",
-   "published": "2026-10-22T12:59:57Z",
-   "url": "https://www.youtube.com/watch?v=WnisqqWz_hI",
-   "image": "https://i.ytimg.com/vi/WnisqqWz_hI/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -1042,8 +1042,8 @@
    "url": "https://music.apple.com/us/album/adrenaline-remix-single/1873859999",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/19/e5/d719e542-1441-17d3-0ce1-30f618074972/196874068489.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-10-23T10",
-   "spotify": "https://open.spotify.com/album/1lSvq3SLvzcu61cr77Qz0i"
+   "spotify": "https://open.spotify.com/album/1lSvq3SLvzcu61cr77Qz0i",
+   "ytm_try": "2026-10-23T10"
   },
   {
    "type": "music",
