@@ -1,0 +1,12 @@
+# Lo que el sitio no necesita: son scripts y datos internos del robot, no se suben a Vercel.
+.git
+.github
+alerts
+backend
+sightings
+src
+state
+tools
+updater
+build.py
+*.md
