@@ -554,7 +554,10 @@
   "news:bd93e4e8ea8dd312|foro": "2026-10-23T20:31:41Z",
   "live:bts-20261023-laplata|ntfy": "2026-10-23T22:19:43Z",
   "live:bts-20261023-laplata|pub:radarkpop-bts-shows": "2026-10-23T22:19:43Z",
-  "live:bts-20261023-laplata|foro": "2026-10-23T22:19:43Z"
+  "live:bts-20261023-laplata|foro": "2026-10-23T22:19:43Z",
+  "news:1b6a6d6017c1cad9|ntfy": "2026-10-23T22:31:29Z",
+  "news:1b6a6d6017c1cad9|pub:radarkpop-bts-news": "2026-10-23T22:31:29Z",
+  "news:1b6a6d6017c1cad9|foro": "2026-10-23T22:31:29Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1447,6 +1450,7 @@
   "1a3d0cbd1fc6606a",
   "1a400f8dbfc2b6a0",
   "1adf2869ec66ad85",
+  "1b6a6d6017c1cad9",
   "1c3290f578567187",
   "1cbf54592b0499b5",
   "1d117584f72f61a3",
@@ -2434,6 +2438,22 @@
     "tendra"
    ],
    "t": "2026-10-23T20:31:31Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "asegurar",
+    "chile",
+    "cines",
+    "entrada",
+    "festival",
+    "inmersivo",
+    "llega",
+    "mega",
+    "pop",
+    "seventeen"
+   ],
+   "t": "2026-10-23T22:31:20Z"
   }
  ],
  "discord_threads": {
