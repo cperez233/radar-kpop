@@ -521,7 +521,10 @@
   "official:ateez:comeback:2026-10-23|foro": "2026-10-23T03:01:12Z",
   "official:lngshot:comeback:2026-10-23|ntfy": "2026-10-23T06:16:26Z",
   "official:lngshot:comeback:2026-10-23|pub:radarkpop-lngshot-music": "2026-10-23T06:16:26Z",
-  "official:lngshot:comeback:2026-10-23|foro": "2026-10-23T06:16:26Z"
+  "official:lngshot:comeback:2026-10-23|foro": "2026-10-23T06:16:26Z",
+  "news:dad4fd2478aa9ffd|ntfy": "2026-10-23T07:46:07Z",
+  "news:dad4fd2478aa9ffd|pub:radarkpop-bts-news": "2026-10-23T07:46:07Z",
+  "news:dad4fd2478aa9ffd|foro": "2026-10-23T07:46:07Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1368,6 +1371,7 @@
   "06c044c57450a104",
   "06e7751e875fc4e0",
   "0716e48eda0d00a5",
+  "086fd459fde32231",
   "0901a917ef136e80",
   "090adf0f97c29998",
   "09eafb6dc72ed4dd",
@@ -1896,6 +1900,7 @@
   "d6fcff5a9f2d03ce",
   "d731a77b46af8754",
   "d9371f711cd1f7f3",
+  "dad4fd2478aa9ffd",
   "dbfb9967e0b1f352",
   "dcba8a19263dceb4",
   "dd144002a3d61960",
@@ -2416,6 +2421,20 @@
     "volvera"
    ],
    "t": "2026-10-23T00:12:47Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "bogota",
+    "campin",
+    "conciertos",
+    "economico",
+    "gira",
+    "impacto",
+    "inicia",
+    "turistico"
+   ],
+   "t": "2026-10-23T07:45:59Z"
   }
  ],
  "discord_threads": {
