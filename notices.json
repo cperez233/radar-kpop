@@ -1,7 +1,14 @@
 {
- "updated_at": "2026-10-22T08:45:45Z",
+ "updated_at": "2026-10-23T06:15:46Z",
  "groups": {
   "lngshot": [
+   {
+    "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (뮤직플랜트)",
+    "url": "https://weverse.io/lngshot/notice/40356",
+    "post": "https://x.com/LNGSHOT4sho/status/2113511268422467628",
+    "when": "2026-10-23T06:02:08Z",
+    "weverse": true
+   },
    {
     "title": "[NOTICE] LNGSHOT [Masterpiece] 발매 기념 음원 다운로드 이벤트 안내",
     "url": "https://weverse.io/lngshot/notice/40288",
@@ -35,13 +42,6 @@
     "url": "https://weverse.io/lngshot/notice/40153",
     "post": "https://x.com/LNGSHOT4sho/status/2111291823335604689",
     "when": "2026-10-17T03:02:51Z",
-    "weverse": true
-   },
-   {
-    "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (사운드웨이브)",
-    "url": "https://weverse.io/lngshot/notice/40089",
-    "post": "https://x.com/LNGSHOT4sho/status/2110657940306927787",
-    "when": "2026-10-15T09:04:01Z",
     "weverse": true
    }
   ],
