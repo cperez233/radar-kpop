@@ -561,7 +561,10 @@
   "today:skz:skz-20261024-fukuoka|ntfy": "2026-10-23T23:01:12Z",
   "today:skz:skz-20261024-fukuoka|pub:radarkpop-skz-shows": "2026-10-23T23:01:12Z",
   "today:skz:skz-20261024-fukuoka|pub:radarkpop-pais-japon": "2026-10-23T23:01:12Z",
-  "today:skz:skz-20261024-fukuoka|foro": "2026-10-23T23:01:12Z"
+  "today:skz:skz-20261024-fukuoka|foro": "2026-10-23T23:01:12Z",
+  "news:7b2f87ff39161527|ntfy": "2026-10-23T23:46:07Z",
+  "news:7b2f87ff39161527|pub:radarkpop-bts-news": "2026-10-23T23:46:07Z",
+  "news:7b2f87ff39161527|foro": "2026-10-23T23:46:07Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1699,6 +1702,7 @@
   "7810593a0f554722",
   "794bbdd53faccccf",
   "79569b17c64f4cfd",
+  "7b2f87ff39161527",
   "7b9a451843796f45",
   "7bb94153c05ac4e2",
   "7c9e9c0539f01758",
@@ -2442,6 +2446,19 @@
     "seventeen"
    ],
    "t": "2026-10-23T22:31:20Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "acusado",
+    "concierto",
+    "detenido",
+    "fue",
+    "hombre",
+    "homicidio",
+    "termino"
+   ],
+   "t": "2026-10-23T23:45:59Z"
   }
  ],
  "discord_threads": {
