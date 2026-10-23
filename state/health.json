@@ -55,10 +55,10 @@
    "since": "2026-10-16T08:05:47Z"
   },
   "rosterwatch": {
-   "msg": "",
-   "notified": false,
-   "ok": true,
-   "since": "2026-10-18T02:01:07Z"
+   "msg": "Google News no respondió",
+   "notified": true,
+   "ok": false,
+   "since": "2026-10-23T21:03:20Z"
   },
   "rsshub": {
    "msg": "",
