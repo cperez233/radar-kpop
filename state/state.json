@@ -524,7 +524,10 @@
   "official:lngshot:comeback:2026-10-23|foro": "2026-10-23T06:16:26Z",
   "news:dad4fd2478aa9ffd|ntfy": "2026-10-23T07:46:07Z",
   "news:dad4fd2478aa9ffd|pub:radarkpop-bts-news": "2026-10-23T07:46:07Z",
-  "news:dad4fd2478aa9ffd|foro": "2026-10-23T07:46:07Z"
+  "news:dad4fd2478aa9ffd|foro": "2026-10-23T07:46:07Z",
+  "news:9562b339e95a7b6f|ntfy": "2026-10-23T10:01:18Z",
+  "news:9562b339e95a7b6f|pub:radarkpop-bts-news": "2026-10-23T10:01:18Z",
+  "news:9562b339e95a7b6f|foro": "2026-10-23T10:01:18Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1722,6 +1725,7 @@
   "93ee5f868d145778",
   "944b488f7104c4b8",
   "95022b324a91dfd9",
+  "9562b339e95a7b6f",
   "95ad53bdf8443f4b",
   "95ec9a3fe851e137",
   "962bbb958d390b1a",
@@ -1897,6 +1901,7 @@
   "d3622ad6a723820b",
   "d369c8ed35a62fb8",
   "d37093894fad9faa",
+  "d373338547f5f5a3",
   "d49f1592d287c649",
   "d4c9df50f3292907",
   "d4e3dab0279b83d7",
@@ -2414,6 +2419,18 @@
     "turistico"
    ],
    "t": "2026-10-23T07:45:59Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "bajo",
+    "fuerte",
+    "llego",
+    "operativo",
+    "seguridad"
+   ],
+   "t": "2026-10-23T10:01:11Z"
   }
  ],
  "discord_threads": {
