@@ -539,7 +539,10 @@
   "news:1a3d0cbd1fc6606a|foro": "2026-10-23T14:55:16Z",
   "news:c5afc1f1fb804aa0|ntfy": "2026-10-23T15:01:14Z",
   "news:c5afc1f1fb804aa0|pub:radarkpop-bts-news": "2026-10-23T15:01:14Z",
-  "news:c5afc1f1fb804aa0|foro": "2026-10-23T15:01:14Z"
+  "news:c5afc1f1fb804aa0|foro": "2026-10-23T15:01:14Z",
+  "news:47c0f5a79d91c449|ntfy": "2026-10-23T15:46:06Z",
+  "news:47c0f5a79d91c449|pub:radarkpop-twice-news": "2026-10-23T15:46:06Z",
+  "news:47c0f5a79d91c449|foro": "2026-10-23T15:46:06Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1539,6 +1542,7 @@
   "45c872ad6207466f",
   "47506d34af0a9571",
   "4780b604b2cacab2",
+  "47c0f5a79d91c449",
   "47fc66639f402987",
   "486cfbfa1836a7f0",
   "48e69a540f086961",
@@ -2495,6 +2499,18 @@
     "ver"
    ],
    "t": "2026-10-23T15:01:04Z"
+  },
+  {
+   "g": "twice",
+   "w": [
+    "anuncia",
+    "comeback",
+    "nayeon",
+    "sencillo",
+    "solista",
+    "sty"
+   ],
+   "t": "2026-10-23T15:45:59Z"
   }
  ],
  "discord_threads": {
