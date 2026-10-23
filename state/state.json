@@ -545,7 +545,10 @@
   "news:47c0f5a79d91c449|foro": "2026-10-23T15:46:06Z",
   "news:763df933e3b1bfe8|ntfy": "2026-10-23T16:01:19Z",
   "news:763df933e3b1bfe8|pub:radarkpop-twice-news": "2026-10-23T16:01:19Z",
-  "news:763df933e3b1bfe8|foro": "2026-10-23T16:01:19Z"
+  "news:763df933e3b1bfe8|foro": "2026-10-23T16:01:19Z",
+  "news:fea57120d0712dc9|ntfy": "2026-10-23T16:31:53Z",
+  "news:fea57120d0712dc9|pub:radarkpop-bts-news": "2026-10-23T16:31:53Z",
+  "news:fea57120d0712dc9|foro": "2026-10-23T16:31:53Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2033,7 +2036,8 @@
   "fddcc05c1a36b5c4",
   "fded445d7afc4a94",
   "fe0c742a7bb314e3",
-  "fe382faa86082acd"
+  "fe382faa86082acd",
+  "fea57120d0712dc9"
  ],
  "news_topics": [
   {
@@ -2487,6 +2491,21 @@
     "watch"
    ],
    "t": "2026-10-23T16:01:10Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "army",
+    "brinda",
+    "cines",
+    "disfrutar",
+    "idols",
+    "llega",
+    "nueva",
+    "oportunidad",
+    "peru"
+   ],
+   "t": "2026-10-23T16:31:41Z"
   }
  ],
  "discord_threads": {
