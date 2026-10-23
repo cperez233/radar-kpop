@@ -1,5 +1,5 @@
 {
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':!state' ':!*.md' ':!tools' ':!updater' ':!alerts' ':!sightings' ':!backend' ':!src' ':!build.py' ':!.github' ':!.vercelignore'",
+  "ignoreCommand": "node vercel-ignore.js",
   "headers": [
     {
       "source": "/(.*)",

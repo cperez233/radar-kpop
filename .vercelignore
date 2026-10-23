@@ -10,3 +10,4 @@ tools
 updater
 build.py
 *.md
+vercel-ignore.js
