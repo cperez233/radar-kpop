@@ -533,7 +533,10 @@
   "news:1e3752bc1b61a080|foro": "2026-10-23T10:31:48Z",
   "official:twice:comeback:2026-10-23|ntfy": "2026-10-23T13:01:05Z",
   "official:twice:comeback:2026-10-23|pub:radarkpop-twice-music": "2026-10-23T13:01:05Z",
-  "official:twice:comeback:2026-10-23|foro": "2026-10-23T13:01:05Z"
+  "official:twice:comeback:2026-10-23|foro": "2026-10-23T13:01:05Z",
+  "news:1a3d0cbd1fc6606a|ntfy": "2026-10-23T14:55:16Z",
+  "news:1a3d0cbd1fc6606a|pub:radarkpop-blackpink-news": "2026-10-23T14:55:16Z",
+  "news:1a3d0cbd1fc6606a|foro": "2026-10-23T14:55:16Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1423,6 +1426,7 @@
   "1993b89af2edcef1",
   "19a1d6148db400ca",
   "1a003286b58d6018",
+  "1a3d0cbd1fc6606a",
   "1a400f8dbfc2b6a0",
   "1adf2869ec66ad85",
   "1c3290f578567187",
@@ -2455,6 +2459,22 @@
     "tres"
    ],
    "t": "2026-10-23T10:31:40Z"
+  },
+  {
+   "g": "blackpink",
+   "w": [
+    "bigbang",
+    "cantico",
+    "concierto",
+    "fans",
+    "fire",
+    "jisoo",
+    "prediccion",
+    "revenge",
+    "sobre",
+    "superara"
+   ],
+   "t": "2026-10-23T14:55:07Z"
   }
  ],
  "discord_threads": {
@@ -2465,6 +2485,7 @@
   "enhypen": "1560967098178605127",
   "seventeen": "1561393749081464854",
   "ateez": "1561393791389409313",
-  "radar": "1561725925404704909"
+  "radar": "1561725925404704909",
+  "blackpink": "1563204173426860063"
  }
 }
