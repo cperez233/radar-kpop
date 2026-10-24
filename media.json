@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T08:45:34Z",
+ "updated_at": "2026-10-24T09:00:40Z",
  "sample": false,
  "items": [
   {
@@ -48,6 +48,15 @@
    "published": "2026-10-24T03:00:07Z",
    "url": "https://www.youtube.com/watch?v=NmsEsWfTEh0",
    "image": "https://i.ytimg.com/vi/NmsEsWfTEh0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "𝑵𝒐𝒘 𝒊𝒕'𝒔 𝒕𝒘𝒆𝒍𝒗𝒆⚡️ #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
+   "date": "2026-10-24",
+   "published": "2026-10-24T09:00:13Z",
+   "url": "https://www.youtube.com/watch?v=B6l9uSkiqNQ",
+   "image": "https://i.ytimg.com/vi/B6l9uSkiqNQ/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -167,15 +176,6 @@
    "published": "2026-10-23T12:00:15Z",
    "url": "https://www.youtube.com/watch?v=ZqajBTN2F1E",
    "image": "https://i.ytimg.com/vi/ZqajBTN2F1E/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "Day by day 너에게 #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
-   "date": "2026-10-23",
-   "published": "2026-10-23T11:00:28Z",
-   "url": "https://www.youtube.com/watch?v=vg9fYjdyTzc",
-   "image": "https://i.ytimg.com/vi/vg9fYjdyTzc/hqdefault.jpg"
   },
   {
    "type": "video",
