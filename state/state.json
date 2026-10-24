@@ -567,7 +567,10 @@
   "news:7b2f87ff39161527|foro": "2026-10-23T23:46:07Z",
   "news:f25e10bb1d46dbbe|ntfy": "2026-10-24T02:31:33Z",
   "news:f25e10bb1d46dbbe|pub:radarkpop-enhypen-news": "2026-10-24T02:31:33Z",
-  "news:f25e10bb1d46dbbe|foro": "2026-10-24T02:31:33Z"
+  "news:f25e10bb1d46dbbe|foro": "2026-10-24T02:31:33Z",
+  "news:363eb89e6846c9e0|ntfy": "2026-10-24T05:08:03Z",
+  "news:363eb89e6846c9e0|pub:radarkpop-blackpink-news": "2026-10-24T05:08:03Z",
+  "news:363eb89e6846c9e0|foro": "2026-10-24T05:08:03Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1528,8 +1531,10 @@
   "3549801f34468dea",
   "35c71d8e85df1647",
   "35f0b0d21745cfb3",
+  "363eb89e6846c9e0",
   "36c356fad60fc859",
   "36e6053a79d30b2f",
+  "376e349defb96745",
   "378cafeb1c434fbb",
   "37a8e24848106f84",
   "3831a5e2191de54d",
@@ -2080,20 +2085,6 @@
   {
    "g": "bts",
    "w": [
-    "aclara",
-    "americo",
-    "concierto",
-    "dormido",
-    "estado",
-    "explico",
-    "foto",
-    "quede"
-   ],
-   "t": "2026-10-22T05:01:36Z"
-  },
-  {
-   "g": "bts",
-   "w": [
     "argentina",
     "banda",
     "fotos",
@@ -2417,6 +2408,19 @@
     "pop"
    ],
    "t": "2026-10-24T02:31:26Z"
+  },
+  {
+   "g": "blackpink",
+   "w": [
+    "addicted",
+    "blackpinks",
+    "drops",
+    "jisoo",
+    "single",
+    "teasers",
+    "watch"
+   ],
+   "t": "2026-10-24T05:07:57Z"
   }
  ],
  "discord_threads": {
