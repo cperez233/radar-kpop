@@ -564,7 +564,10 @@
   "today:skz:skz-20261024-fukuoka|foro": "2026-10-23T23:01:12Z",
   "news:7b2f87ff39161527|ntfy": "2026-10-23T23:46:07Z",
   "news:7b2f87ff39161527|pub:radarkpop-bts-news": "2026-10-23T23:46:07Z",
-  "news:7b2f87ff39161527|foro": "2026-10-23T23:46:07Z"
+  "news:7b2f87ff39161527|foro": "2026-10-23T23:46:07Z",
+  "news:f25e10bb1d46dbbe|ntfy": "2026-10-24T02:31:33Z",
+  "news:f25e10bb1d46dbbe|pub:radarkpop-enhypen-news": "2026-10-24T02:31:33Z",
+  "news:f25e10bb1d46dbbe|foro": "2026-10-24T02:31:33Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1912,6 +1915,7 @@
   "bebc7fab28da52a5",
   "bec8f1410bd57979",
   "bef904cd8ebab63d",
+  "bf726cced51058a2",
   "bf87370d48aa70d5",
   "bf8f8400bbecc192",
   "c05c9ba06305e7b0",
@@ -2028,6 +2032,7 @@
   "f0f047606daeb731",
   "f19c71e43b0811ba",
   "f1c96f2b12246041",
+  "f25e10bb1d46dbbe",
   "f2ecbe4a9a3ce990",
   "f2f080fbd61c201f",
   "f3acd7d6afac73f8",
@@ -2401,6 +2406,20 @@
     "termino"
    ],
    "t": "2026-10-23T23:45:59Z"
+  },
+  {
+   "g": "enhypen",
+   "w": [
+    "2026",
+    "cine",
+    "cines",
+    "fest",
+    "festival",
+    "hybe",
+    "mundial",
+    "pop"
+   ],
+   "t": "2026-10-24T02:31:26Z"
   }
  ],
  "discord_threads": {
