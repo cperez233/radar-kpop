@@ -588,7 +588,10 @@
   "bday:skz:leeknow:2026|foro": "2026-10-24T15:01:15Z",
   "news:abefc6be303eac9d|ntfy": "2026-10-24T16:31:35Z",
   "news:abefc6be303eac9d|pub:radarkpop-bts-news": "2026-10-24T16:31:35Z",
-  "news:abefc6be303eac9d|foro": "2026-10-24T16:31:35Z"
+  "news:abefc6be303eac9d|foro": "2026-10-24T16:31:35Z",
+  "news:3307060a4adc9378|ntfy": "2026-10-24T16:46:07Z",
+  "news:3307060a4adc9378|pub:radarkpop-seventeen-news": "2026-10-24T16:46:07Z",
+  "news:3307060a4adc9378|foro": "2026-10-24T16:46:07Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1545,6 +1548,7 @@
   "30f70de44d96a3a7",
   "317b82dacc069601",
   "32c050ddf51191a3",
+  "3307060a4adc9378",
   "33ce7fcc82e89b3d",
   "33dda7e6ed211b58",
   "341610a91c11c334",
@@ -2441,6 +2445,23 @@
     "vivo"
    ],
    "t": "2026-10-24T16:31:26Z"
+  },
+  {
+   "g": "seventeen",
+   "w": [
+    "2026",
+    "bts",
+    "chile",
+    "cine",
+    "fest",
+    "grande",
+    "hybe",
+    "llega",
+    "pantalla",
+    "pop",
+    "toma"
+   ],
+   "t": "2026-10-24T16:45:58Z"
   }
  ],
  "discord_threads": {
