@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T02:45:34Z",
+ "updated_at": "2026-10-24T03:00:40Z",
  "sample": false,
  "items": [
   {
@@ -41,6 +41,24 @@
    "sp_try": "2026-10-23"
   },
   {
+   "type": "video",
+   "group": "lngshot",
+   "title": "Every shade of #Masterpiece #LNGSHOT",
+   "date": "2026-10-24",
+   "published": "2026-10-24T03:00:07Z",
+   "url": "https://www.youtube.com/watch?v=NmsEsWfTEh0",
+   "image": "https://i.ytimg.com/vi/NmsEsWfTEh0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) 8th Anniversary Interview",
+   "date": "2026-10-24",
+   "published": "2026-10-24T03:00:08Z",
+   "url": "https://www.youtube.com/watch?v=v0i8nlxJm9w",
+   "image": "https://i.ytimg.com/vi/v0i8nlxJm9w/hqdefault.jpg"
+  },
+  {
    "type": "music",
    "group": "ateez",
    "title": "Drip",
@@ -49,6 +67,7 @@
    "url": "https://music.apple.com/us/album/drip-single/6819587309",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c3/c5/84/c3c5844d-602e-e7b7-1efa-2b6bdddc9141/196874851814.jpg/300x300bb.jpg",
    "ytm_v": 6,
+   "ytm": "https://music.youtube.com/watch?v=J-_f87dJvB0",
    "tracks": [
     {
      "n": "Drip",
@@ -56,8 +75,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/b4/25/eab425c4-eb7d-2a93-060c-658546351088/mzaf_14094138891772943357.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-24T02",
-   "ytm": "https://music.youtube.com/watch?v=J-_f87dJvB0"
+   "ytm_try": "2026-10-24T02"
   },
   {
    "type": "video",
@@ -169,30 +187,12 @@
   },
   {
    "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) - 'Drip' 응원법",
-   "date": "2026-10-23",
-   "published": "2026-10-23T05:00:12Z",
-   "url": "https://www.youtube.com/watch?v=Ji2bTtVdSEw",
-   "image": "https://i.ytimg.com/vi/Ji2bTtVdSEw/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "skz",
    "title": "🦊감기조심🐶 #StrayKids #스트레이키즈 #승민 #Seungmin #아이엔 #I_N #YouMakeStrayKidsStay",
    "date": "2026-10-22",
    "published": "2026-10-22T11:00:11Z",
    "url": "https://www.youtube.com/watch?v=k8tfXGZJAPw",
    "image": "https://i.ytimg.com/vi/k8tfXGZJAPw/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "Paint strokes create the #Masterpiece. 🖌️ #LNGSHOT",
-   "date": "2026-10-22",
-   "published": "2026-10-22T10:00:04Z",
-   "url": "https://www.youtube.com/watch?v=qKl0ENQ1ya8",
-   "image": "https://i.ytimg.com/vi/qKl0ENQ1ya8/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -454,7 +454,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-10-23T23",
+   "ytm_try": "2026-10-24T03",
    "sp_try": "2026-10-23"
   },
   {
@@ -1384,7 +1384,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-23T23"
+   "ytm_try": "2026-10-24T03"
   },
   {
    "type": "music",
