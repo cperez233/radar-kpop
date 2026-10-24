@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-23T12:45:53Z",
+  "updated_at": "2026-10-24T00:46:34Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
-      "listeners": 30742527,
+      "listeners": 30692882,
       "listeners_peak": 46724346,
       "streams": 50722445599,
       "top_song": {
@@ -25,7 +25,7 @@
       "yt_subs": 25500000
     },
     "twice": {
-      "listeners": 14871326,
+      "listeners": 14876068,
       "listeners_peak": 27003979,
       "streams": 12987455226,
       "top_song": {
@@ -36,7 +36,7 @@
       "yt_subs": 19500000
     },
     "blackpink": {
-      "listeners": 18707400,
+      "listeners": 18710428,
       "listeners_peak": 35310315,
       "streams": 16717850297,
       "top_song": {
@@ -47,10 +47,10 @@
       "yt_subs": 101000000
     },
     "lngshot": {
-      "streams": 361784096,
+      "streams": 367908896,
       "top_song": {
         "title": "Moonwalkin'",
-        "streams": 115071898,
+        "streams": 116883104,
         "url": "https://open.spotify.com/track/46V2ciN6F5bxjQWityNhkY"
       },
       "listeners": 3712055,
@@ -69,7 +69,7 @@
       "yt_subs": 18100000
     },
     "enhypen": {
-      "listeners": 10019162,
+      "listeners": 10020904,
       "listeners_peak": 11080262,
       "streams": 7998859996,
       "top_song": {
@@ -99,7 +99,7 @@
         "streams": 258696376,
         "url": "https://open.spotify.com/track/6OWWZtNQORY1McaZmOrwhc"
       },
-      "yt_subs": 7470000
+      "yt_subs": 7480000
     },
     "ateez": {
       "listeners": 7226038,
