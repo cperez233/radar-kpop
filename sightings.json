@@ -1,8 +1,23 @@
 {
-  "updated_at": "2026-10-22T03:00:43Z",
+  "updated_at": "2026-10-24T02:15:31Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "fan-lngshot-londres-20261023",
+      "group": "lngshot",
+      "group_name": "LNGSHOT",
+      "city": "Londres",
+      "country": "Reino Unido",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "fan": true,
+      "fans": 2,
+      "text": "",
+      "url": "",
+      "account": "",
+      "when": "2026-10-23T20:01:39Z"
+    },
     {
       "id": "x-2113103051016011996",
       "group": "seventeen",
