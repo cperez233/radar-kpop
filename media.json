@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T11:00:37Z",
+ "updated_at": "2026-10-24T12:00:46Z",
  "sample": false,
  "items": [
   {
@@ -97,6 +97,15 @@
   {
    "type": "video",
    "group": "ateez",
+   "title": "ATEEZ(에이티즈) 티즈는 80살",
+   "date": "2026-10-24",
+   "published": "2026-10-24T12:00:07Z",
+   "url": "https://www.youtube.com/watch?v=PyHdGqbaUTs",
+   "image": "https://i.ytimg.com/vi/PyHdGqbaUTs/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
    "title": "ATEEZ(에이티즈) 티즈는 8살",
    "date": "2026-10-24",
    "published": "2026-10-24T10:00:02Z",
@@ -111,15 +120,6 @@
    "published": "2026-10-24T09:47:21Z",
    "url": "https://www.youtube.com/watch?v=0UetHsVCeWA",
    "image": "https://i.ytimg.com/vi/0UetHsVCeWA/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ 8th Anniversary 🫶 #Shorts",
-   "date": "2026-10-24",
-   "published": "2026-10-24T05:00:26Z",
-   "url": "https://www.youtube.com/watch?v=m_W-AsVCs0A",
-   "image": "https://i.ytimg.com/vi/m_W-AsVCs0A/hqdefault.jpg"
   },
   {
    "type": "music",
