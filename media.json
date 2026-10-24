@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T09:00:40Z",
+ "updated_at": "2026-10-24T09:30:36Z",
  "sample": false,
  "items": [
   {
@@ -48,6 +48,15 @@
    "published": "2026-10-24T03:00:07Z",
    "url": "https://www.youtube.com/watch?v=NmsEsWfTEh0",
    "image": "https://i.ytimg.com/vi/NmsEsWfTEh0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "ɴᴏᴡ ɪᴛ's ᴛᴡᴇʟᴠᴇ💫 #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
+   "date": "2026-10-24",
+   "published": "2026-10-24T09:15:33Z",
+   "url": "https://www.youtube.com/watch?v=-4SAMNIeh6o",
+   "image": "https://i.ytimg.com/vi/-4SAMNIeh6o/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -167,15 +176,6 @@
    "published": "2026-10-23T03:00:19Z",
    "url": "https://www.youtube.com/watch?v=xft3f4UBTu4",
    "image": "https://i.ytimg.com/vi/xft3f4UBTu4/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "자꾸 보게 돼 You’re like a daydream #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
-   "date": "2026-10-23",
-   "published": "2026-10-23T12:00:15Z",
-   "url": "https://www.youtube.com/watch?v=ZqajBTN2F1E",
-   "image": "https://i.ytimg.com/vi/ZqajBTN2F1E/hqdefault.jpg"
   },
   {
    "type": "video",
