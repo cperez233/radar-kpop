@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T09:35:16Z",
+ "updated_at": "2026-10-24T10:00:35Z",
  "sample": false,
  "items": [
   {
@@ -88,9 +88,18 @@
   {
    "type": "video",
    "group": "ateez",
+   "title": "ATEEZ(에이티즈) 티즈는 8살",
+   "date": "2026-10-24",
+   "published": "2026-10-24T10:00:02Z",
+   "url": "https://www.youtube.com/watch?v=tzDmwEyCfZA",
+   "image": "https://i.ytimg.com/vi/tzDmwEyCfZA/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
    "title": "가끔은 전남친이 그립다...",
    "date": "2026-10-24",
-   "published": "2026-10-24T08:31:07Z",
+   "published": "2026-10-24T09:47:21Z",
    "url": "https://www.youtube.com/watch?v=0UetHsVCeWA",
    "image": "https://i.ytimg.com/vi/0UetHsVCeWA/hqdefault.jpg"
   },
@@ -102,15 +111,6 @@
    "published": "2026-10-24T05:00:26Z",
    "url": "https://www.youtube.com/watch?v=m_W-AsVCs0A",
    "image": "https://i.ytimg.com/vi/m_W-AsVCs0A/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) 8th Anniversary Interview",
-   "date": "2026-10-24",
-   "published": "2026-10-24T03:00:08Z",
-   "url": "https://www.youtube.com/watch?v=v0i8nlxJm9w",
-   "image": "https://i.ytimg.com/vi/v0i8nlxJm9w/hqdefault.jpg"
   },
   {
    "type": "music",
