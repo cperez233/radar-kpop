@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T13:00:41Z",
+ "updated_at": "2026-10-24T15:00:42Z",
  "sample": false,
  "items": [
   {
@@ -455,7 +455,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-10-24T11",
+   "ytm_try": "2026-10-24T15",
    "sp_try": "2026-10-24"
   },
   {
@@ -1385,7 +1385,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-24T11"
+   "ytm_try": "2026-10-24T15"
   },
   {
    "type": "music",
