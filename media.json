@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T12:00:46Z",
+ "updated_at": "2026-10-24T12:15:32Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-10-24"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "Wait til the end to see the real #Masterpiece #LNGSHOT #MVP #HolyBang",
+   "date": "2026-10-24",
+   "published": "2026-10-24T12:00:35Z",
+   "url": "https://www.youtube.com/watch?v=TnJJo4LwSXk",
+   "image": "https://i.ytimg.com/vi/TnJJo4LwSXk/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -167,15 +176,6 @@
    "published": "2026-10-23T04:01:28Z",
    "url": "https://www.youtube.com/watch?v=Llxr_FUhbqU",
    "image": "https://i.ytimg.com/vi/Llxr_FUhbqU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "겉은 이래도 안 무서워~🌹 #LNGSHOT #RYUL #WOOJIN",
-   "date": "2026-10-23",
-   "published": "2026-10-23T13:00:01Z",
-   "url": "https://www.youtube.com/watch?v=ImwEA2GHFTY",
-   "image": "https://i.ytimg.com/vi/ImwEA2GHFTY/hqdefault.jpg"
   },
   {
    "type": "video",
