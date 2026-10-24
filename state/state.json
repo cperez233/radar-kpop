@@ -576,7 +576,10 @@
   "live:skz-20261024-fukuoka|foro": "2026-10-24T08:16:30Z",
   "news:b74ffaca5fee5b69|ntfy": "2026-10-24T09:46:01Z",
   "news:b74ffaca5fee5b69|pub:radarkpop-bts-news": "2026-10-24T09:46:01Z",
-  "news:b74ffaca5fee5b69|foro": "2026-10-24T09:46:01Z"
+  "news:b74ffaca5fee5b69|foro": "2026-10-24T09:46:01Z",
+  "news:c900372433f3974c|ntfy": "2026-10-24T10:46:04Z",
+  "news:c900372433f3974c|pub:radarkpop-blackpink-news": "2026-10-24T10:46:04Z",
+  "news:c900372433f3974c|foro": "2026-10-24T10:46:04Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1979,6 +1982,7 @@
   "c8a5b7edba2ce17f",
   "c8c7e5d61ca24a51",
   "c8efc95d0789bdf1",
+  "c900372433f3974c",
   "c917979fed8e5d11",
   "c9447a791ca6069a",
   "c9a081307f21a439",
@@ -2108,20 +2112,6 @@
   "fea57120d0712dc9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "aires",
-    "argentina",
-    "banda",
-    "buenos",
-    "esta",
-    "imagenes",
-    "paseo",
-    "primeras"
-   ],
-   "t": "2026-10-22T10:45:55Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -2433,6 +2423,18 @@
     "tras"
    ],
    "t": "2026-10-24T09:45:54Z"
+  },
+  {
+   "g": "blackpink",
+   "w": [
+    "accusations",
+    "backlash",
+    "lisas",
+    "scathing",
+    "single",
+    "sparks"
+   ],
+   "t": "2026-10-24T10:45:56Z"
   }
  ],
  "discord_threads": {
