@@ -573,7 +573,10 @@
   "news:363eb89e6846c9e0|foro": "2026-10-24T05:08:03Z",
   "live:skz-20261024-fukuoka|ntfy": "2026-10-24T08:16:30Z",
   "live:skz-20261024-fukuoka|pub:radarkpop-skz-shows": "2026-10-24T08:16:30Z",
-  "live:skz-20261024-fukuoka|foro": "2026-10-24T08:16:30Z"
+  "live:skz-20261024-fukuoka|foro": "2026-10-24T08:16:30Z",
+  "news:b74ffaca5fee5b69|ntfy": "2026-10-24T09:46:01Z",
+  "news:b74ffaca5fee5b69|pub:radarkpop-bts-news": "2026-10-24T09:46:01Z",
+  "news:b74ffaca5fee5b69|foro": "2026-10-24T09:46:01Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1859,6 +1862,7 @@
   "a56873bf20152cf2",
   "a58710bfac28ada5",
   "a5b18da4e90b1f3c",
+  "a60832e6a32cfe5d",
   "a6668d53224ee200",
   "a67dac0fda656f02",
   "a6aca9d79fc7ba8a",
@@ -1916,6 +1920,7 @@
   "b6791db3d42048b5",
   "b6b0b9884e3a5de9",
   "b6bdfe4d1191ec5f",
+  "b74ffaca5fee5b69",
   "b79d006590806ea6",
   "b7d7cf59af0f01aa",
   "b81687ac8f169694",
@@ -2426,6 +2431,18 @@
     "watch"
    ],
    "t": "2026-10-24T05:07:57Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "concierto",
+    "despiden",
+    "explosivo",
+    "otro",
+    "plata",
+    "tras"
+   ],
+   "t": "2026-10-24T09:45:54Z"
   }
  ],
  "discord_threads": {
