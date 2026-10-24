@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T07:00:41Z",
+ "updated_at": "2026-10-24T08:45:34Z",
  "sample": false,
  "items": [
   {
@@ -66,6 +66,15 @@
    "published": "2026-10-24T04:00:27Z",
    "url": "https://www.youtube.com/watch?v=XfnIz4oKl48",
    "image": "https://i.ytimg.com/vi/XfnIz4oKl48/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "가끔은 전남친이 그립다...",
+   "date": "2026-10-24",
+   "published": "2026-10-24T08:31:07Z",
+   "url": "https://www.youtube.com/watch?v=0UetHsVCeWA",
+   "image": "https://i.ytimg.com/vi/0UetHsVCeWA/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -185,15 +194,6 @@
    "published": "2026-10-23T12:00:00Z",
    "url": "https://www.youtube.com/watch?v=aI08Oi5YAcQ",
    "image": "https://i.ytimg.com/vi/aI08Oi5YAcQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "이 세계에선 내가 커뮤니티 매니저?! 🎮 #Shorts",
-   "date": "2026-10-23",
-   "published": "2026-10-23T13:00:07Z",
-   "url": "https://www.youtube.com/watch?v=uCq-MJNXi90",
-   "image": "https://i.ytimg.com/vi/uCq-MJNXi90/hqdefault.jpg"
   },
   {
    "type": "video",
