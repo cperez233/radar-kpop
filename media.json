@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T11:00:47Z",
+ "updated_at": "2026-10-25T11:15:34Z",
  "sample": false,
  "items": [
   {
@@ -88,6 +88,15 @@
   {
    "type": "video",
    "group": "seventeen",
+   "title": "[Choreography Video] JEONGHAN X JOSHUA (SEVENTEEN) - 12 o'clock",
+   "date": "2026-10-25",
+   "published": "2026-10-25T11:09:04Z",
+   "url": "https://www.youtube.com/watch?v=BY4QOKe9Gi4",
+   "image": "https://i.ytimg.com/vi/BY4QOKe9Gi4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
    "title": "POV: you're just daydreaming then realise your crush is staring at you #JxJ #정한X조슈아#DREAMSCAPE",
    "date": "2026-10-25",
    "published": "2026-10-25T10:00:24Z",
@@ -102,15 +111,6 @@
    "published": "2026-10-25T09:00:14Z",
    "url": "https://www.youtube.com/watch?v=ZVMdCvk4jxU",
    "image": "https://i.ytimg.com/vi/ZVMdCvk4jxU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "예지몽 #4 💭 대기실 #JXJ #정한X조슈아 #DREAMSCAPE #12oclock",
-   "date": "2026-10-25",
-   "published": "2026-10-25T08:30:00Z",
-   "url": "https://www.youtube.com/watch?v=8-UE_pCc8ns",
-   "image": "https://i.ytimg.com/vi/8-UE_pCc8ns/hqdefault.jpg"
   },
   {
    "type": "video",
