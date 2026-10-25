@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T10:15:33Z",
+ "updated_at": "2026-10-25T10:30:36Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-10-25"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "🐰's birthday🍮 #StrayKids #스트레이키즈 #리노 #LeeKnow #HappyLeeKnowDay #YouMakeStrayKidsStay",
+   "date": "2026-10-25",
+   "published": "2026-10-25T10:21:14Z",
+   "url": "https://www.youtube.com/watch?v=ayY8LdHyZJ4",
+   "image": "https://i.ytimg.com/vi/ayY8LdHyZJ4/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -212,15 +221,6 @@
    "published": "2026-10-23T12:00:00Z",
    "url": "https://www.youtube.com/watch?v=aI08Oi5YAcQ",
    "image": "https://i.ytimg.com/vi/aI08Oi5YAcQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "🦊감기조심🐶 #StrayKids #스트레이키즈 #승민 #Seungmin #아이엔 #I_N #YouMakeStrayKidsStay",
-   "date": "2026-10-22",
-   "published": "2026-10-22T11:00:11Z",
-   "url": "https://www.youtube.com/watch?v=k8tfXGZJAPw",
-   "image": "https://i.ytimg.com/vi/k8tfXGZJAPw/hqdefault.jpg"
   },
   {
    "type": "video",
