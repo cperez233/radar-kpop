@@ -633,7 +633,10 @@
   "news:5c4fe69876cd4953|foro": "2026-10-25T17:46:03Z",
   "news:b16b50f8b503a02f|ntfy": "2026-10-25T20:46:11Z",
   "news:b16b50f8b503a02f|pub:radarkpop-bts-news": "2026-10-25T20:46:11Z",
-  "news:b16b50f8b503a02f|foro": "2026-10-25T20:46:11Z"
+  "news:b16b50f8b503a02f|foro": "2026-10-25T20:46:11Z",
+  "news:265c313926279f56|ntfy": "2026-10-25T23:46:06Z",
+  "news:265c313926279f56|pub:radarkpop-bts-news": "2026-10-25T23:46:06Z",
+  "news:265c313926279f56|foro": "2026-10-25T23:46:06Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1568,6 +1571,7 @@
   "23be18cb0189ce18",
   "24a617be9bc8f7e0",
   "254ac6a33319392a",
+  "265c313926279f56",
   "26bb92a87718a3d7",
   "270e3e9ac9decc20",
   "27216f3cf16a5869",
@@ -2419,6 +2423,18 @@
     "vive"
    ],
    "t": "2026-10-25T20:46:02Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "conciertos",
+    "dejaron",
+    "historicos",
+    "plata",
+    "tres"
+   ],
+   "t": "2026-10-25T23:45:56Z"
   }
  ],
  "discord_threads": {
