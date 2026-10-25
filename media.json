@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T09:00:37Z",
+ "updated_at": "2026-10-25T09:15:31Z",
  "sample": false,
  "items": [
   {
@@ -61,11 +61,29 @@
   {
    "type": "video",
    "group": "lngshot",
+   "title": "제1회 정우진 그리기 대회…🎨 #Masterpiece #LNGSHOT",
+   "date": "2026-10-25",
+   "published": "2026-10-25T09:00:35Z",
+   "url": "https://www.youtube.com/watch?v=6Jcx6KAy-Gc",
+   "image": "https://i.ytimg.com/vi/6Jcx6KAy-Gc/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
    "title": "#Masterpiece w/ #JayPark @JayPark0425 #LNGSHOT",
    "date": "2026-10-25",
    "published": "2026-10-25T03:00:36Z",
    "url": "https://www.youtube.com/watch?v=Lo3UNIUT5l8",
    "image": "https://i.ytimg.com/vi/Lo3UNIUT5l8/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "어지러워 내 꿈이 현실인지 아닌지 #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
+   "date": "2026-10-25",
+   "published": "2026-10-25T09:00:14Z",
+   "url": "https://www.youtube.com/watch?v=ZVMdCvk4jxU",
+   "image": "https://i.ytimg.com/vi/ZVMdCvk4jxU/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -96,30 +114,12 @@
   },
   {
    "type": "video",
-   "group": "lngshot",
-   "title": "Wait til the end to see the real #Masterpiece #LNGSHOT #MVP #HolyBang",
-   "date": "2026-10-24",
-   "published": "2026-10-24T12:00:35Z",
-   "url": "https://www.youtube.com/watch?v=TnJJo4LwSXk",
-   "image": "https://i.ytimg.com/vi/TnJJo4LwSXk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "seventeen",
    "title": "JEONGHAN X JOSHUA (SEVENTEEN) DREAMSCAPE : BETWEEN TWELVES BEHIND THE SCENES",
    "date": "2026-10-24",
    "published": "2026-10-24T13:00:04Z",
    "url": "https://www.youtube.com/watch?v=iiIaPzdqCqk",
    "image": "https://i.ytimg.com/vi/iiIaPzdqCqk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "예지몽 #3 💭 아.메.추 #JXJ #정한X조슈아 #DREAMSCAPE #12oclock",
-   "date": "2026-10-24",
-   "published": "2026-10-24T09:30:37Z",
-   "url": "https://www.youtube.com/watch?v=SfPJ5Du187Q",
-   "image": "https://i.ytimg.com/vi/SfPJ5Du187Q/hqdefault.jpg"
   },
   {
    "type": "video",
