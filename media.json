@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T07:00:36Z",
+ "updated_at": "2026-10-25T08:30:40Z",
  "sample": false,
  "items": [
   {
@@ -69,6 +69,15 @@
   },
   {
    "type": "video",
+   "group": "seventeen",
+   "title": "예지몽 #4 💭 대기실 #JXJ #정한X조슈아 #DREAMSCAPE #12oclock",
+   "date": "2026-10-25",
+   "published": "2026-10-25T08:30:00Z",
+   "url": "https://www.youtube.com/watch?v=8-UE_pCc8ns",
+   "image": "https://i.ytimg.com/vi/8-UE_pCc8ns/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "lngshot",
    "title": "#Masterpiece w/ #MONA #LNGSHOT",
    "date": "2026-10-24",
@@ -102,15 +111,6 @@
    "published": "2026-10-24T09:30:37Z",
    "url": "https://www.youtube.com/watch?v=SfPJ5Du187Q",
    "image": "https://i.ytimg.com/vi/SfPJ5Du187Q/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "ɴᴏᴡ ɪᴛ's ᴛᴡᴇʟᴠᴇ💫 #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
-   "date": "2026-10-24",
-   "published": "2026-10-24T09:15:33Z",
-   "url": "https://www.youtube.com/watch?v=-4SAMNIeh6o",
-   "image": "https://i.ytimg.com/vi/-4SAMNIeh6o/hqdefault.jpg"
   },
   {
    "type": "video",
