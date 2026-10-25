@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T11:15:34Z",
+ "updated_at": "2026-10-25T12:00:40Z",
  "sample": false,
  "items": [
   {
@@ -111,6 +111,15 @@
    "published": "2026-10-25T09:00:14Z",
    "url": "https://www.youtube.com/watch?v=ZVMdCvk4jxU",
    "image": "https://i.ytimg.com/vi/ZVMdCvk4jxU/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "new sofa",
+   "date": "2026-10-25",
+   "published": "2026-10-25T11:59:58Z",
+   "url": "https://www.youtube.com/watch?v=XWZ3eOGsvBA",
+   "image": "https://i.ytimg.com/vi/XWZ3eOGsvBA/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -259,15 +268,6 @@
     }
    ],
    "ytm_try": "2026-10-22T15"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "new style testing #CORTIS #코르티스",
-   "date": "2026-10-21",
-   "published": "2026-10-21T13:00:04Z",
-   "url": "https://www.youtube.com/watch?v=ZtwsaNsHQ_E",
-   "image": "https://i.ytimg.com/vi/ZtwsaNsHQ_E/hqdefault.jpg"
   },
   {
    "type": "music",
