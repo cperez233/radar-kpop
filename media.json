@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T03:00:42Z",
+ "updated_at": "2026-10-25T03:15:32Z",
  "sample": false,
  "items": [
   {
@@ -52,6 +52,15 @@
   {
    "type": "video",
    "group": "lngshot",
+   "title": "#Masterpiece w/ #JayPark @JayPark0425 #LNGSHOT",
+   "date": "2026-10-25",
+   "published": "2026-10-25T03:00:36Z",
+   "url": "https://www.youtube.com/watch?v=Lo3UNIUT5l8",
+   "image": "https://i.ytimg.com/vi/Lo3UNIUT5l8/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
    "title": "#Masterpiece w/ #MONA #LNGSHOT",
    "date": "2026-10-24",
    "published": "2026-10-24T13:00:03Z",
@@ -66,15 +75,6 @@
    "published": "2026-10-24T12:00:35Z",
    "url": "https://www.youtube.com/watch?v=TnJJo4LwSXk",
    "image": "https://i.ytimg.com/vi/TnJJo4LwSXk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "LNGSHOT - 'Masterpiece' MV Behind the Scenes",
-   "date": "2026-10-24",
-   "published": "2026-10-24T11:00:04Z",
-   "url": "https://www.youtube.com/watch?v=GlDXs9ntNo8",
-   "image": "https://i.ytimg.com/vi/GlDXs9ntNo8/hqdefault.jpg"
   },
   {
    "type": "video",
