@@ -627,7 +627,10 @@
   "official:enhypen:comeback:2026-10-25|foro": "2026-10-25T15:01:11Z",
   "news:d872ffa2183b9e41|ntfy": "2026-10-25T15:31:26Z",
   "news:d872ffa2183b9e41|pub:radarkpop-enhypen-news": "2026-10-25T15:31:26Z",
-  "news:d872ffa2183b9e41|foro": "2026-10-25T15:31:26Z"
+  "news:d872ffa2183b9e41|foro": "2026-10-25T15:31:26Z",
+  "news:5c4fe69876cd4953|ntfy": "2026-10-25T17:46:03Z",
+  "news:5c4fe69876cd4953|pub:radarkpop-bts-news": "2026-10-25T17:46:03Z",
+  "news:5c4fe69876cd4953|foro": "2026-10-25T17:46:03Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1720,6 +1723,7 @@
   "5ae1cecc40f0b22a",
   "5b7d5b3f3eb26b60",
   "5b9c94f8a59f5c00",
+  "5c4fe69876cd4953",
   "5cfa32cf0c0b3e21",
   "5d774eb5a23be0ea",
   "5de54a1167b39800",
@@ -2411,6 +2415,22 @@
     "world"
    ],
    "t": "2026-10-25T15:31:19Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "000",
+    "ante",
+    "argentina",
+    "cerro",
+    "diario",
+    "fanaticos",
+    "gira",
+    "historica",
+    "norte",
+    "plata"
+   ],
+   "t": "2026-10-25T17:45:55Z"
   }
  ],
  "discord_threads": {
