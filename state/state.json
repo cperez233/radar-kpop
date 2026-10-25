@@ -609,7 +609,10 @@
   "official:ateez:comeback:2026-10-25|foro": "2026-10-25T03:01:11Z",
   "official:lngshot:comeback:2026-10-25|ntfy": "2026-10-25T06:16:28Z",
   "official:lngshot:comeback:2026-10-25|pub:radarkpop-lngshot-music": "2026-10-25T06:16:28Z",
-  "official:lngshot:comeback:2026-10-25|foro": "2026-10-25T06:16:28Z"
+  "official:lngshot:comeback:2026-10-25|foro": "2026-10-25T06:16:28Z",
+  "news:c42a326748bc0ee7|ntfy": "2026-10-25T06:31:29Z",
+  "news:c42a326748bc0ee7|pub:radarkpop-bts-news": "2026-10-25T06:31:29Z",
+  "news:c42a326748bc0ee7|foro": "2026-10-25T06:31:29Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2025,6 +2028,7 @@
   "c32ce9cd472e2adc",
   "c369457d8aeb3cd9",
   "c425d34757e7c990",
+  "c42a326748bc0ee7",
   "c49be527ac62c7d5",
   "c518ed269b32bdd1",
   "c5afc1f1fb804aa0",
@@ -2443,6 +2447,19 @@
     "traslada"
    ],
    "t": "2026-10-25T00:45:55Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "agravado",
+    "concierto",
+    "detienen",
+    "durante",
+    "encuentran",
+    "homicidio",
+    "profugo"
+   ],
+   "t": "2026-10-25T06:31:22Z"
   }
  ],
  "discord_threads": {
