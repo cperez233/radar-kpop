@@ -594,7 +594,13 @@
   "news:3307060a4adc9378|foro": "2026-10-24T16:46:07Z",
   "live:bts-20261024-laplata|ntfy": "2026-10-24T22:16:40Z",
   "live:bts-20261024-laplata|pub:radarkpop-bts-shows": "2026-10-24T22:16:40Z",
-  "live:bts-20261024-laplata|foro": "2026-10-24T22:16:40Z"
+  "live:bts-20261024-laplata|foro": "2026-10-24T22:16:40Z",
+  "news:11b96b01ecfe7382|ntfy": "2026-10-25T00:46:01Z",
+  "news:11b96b01ecfe7382|pub:radarkpop-bts-news": "2026-10-25T00:46:01Z",
+  "news:11b96b01ecfe7382|foro": "2026-10-25T00:46:01Z",
+  "news:6d4dfe3fb74c5823|ntfy": "2026-10-25T00:46:01Z",
+  "news:6d4dfe3fb74c5823|pub:radarkpop-bts-news": "2026-10-25T00:46:01Z",
+  "news:6d4dfe3fb74c5823|foro": "2026-10-25T00:46:01Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1467,6 +1473,7 @@
   "0fd3478e61a5d579",
   "11a038a7e12a23d4",
   "11acf55ff2fd475e",
+  "11b96b01ecfe7382",
   "11d3d2e8027fbb9a",
   "12b4a3f7f902c68a",
   "12b87f573baf02c0",
@@ -1711,6 +1718,7 @@
   "6bbcfae7a465dc47",
   "6ca044fd3f407569",
   "6d31b59d502cb9a9",
+  "6d4dfe3fb74c5823",
   "6dc712b6f140af9c",
   "6deadc0790723ad5",
   "6e2862e1f21a8920",
@@ -2382,6 +2390,35 @@
     "toma"
    ],
    "t": "2026-10-24T16:45:58Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "aeropuerto",
+    "aterrizo",
+    "avion",
+    "detras",
+    "inesperado",
+    "llegada",
+    "motivo",
+    "rosario"
+   ],
+   "t": "2026-10-25T00:45:55Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "777",
+    "aterrizo",
+    "avion",
+    "banda",
+    "boeing",
+    "colosal",
+    "detalles",
+    "rosario",
+    "traslada"
+   ],
+   "t": "2026-10-25T00:45:55Z"
   }
  ],
  "discord_threads": {
