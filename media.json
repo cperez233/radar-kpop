@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T08:30:40Z",
+ "updated_at": "2026-10-25T09:00:37Z",
  "sample": false,
  "items": [
   {
@@ -78,6 +78,15 @@
   },
   {
    "type": "video",
+   "group": "ateez",
+   "title": "They drown in the Drip #Shorts",
+   "date": "2026-10-25",
+   "published": "2026-10-25T09:00:01Z",
+   "url": "https://www.youtube.com/watch?v=thxwLAMYotI",
+   "image": "https://i.ytimg.com/vi/thxwLAMYotI/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "lngshot",
    "title": "#Masterpiece w/ #MONA #LNGSHOT",
    "date": "2026-10-24",
@@ -138,15 +147,6 @@
    "published": "2026-10-24T10:00:02Z",
    "url": "https://www.youtube.com/watch?v=tzDmwEyCfZA",
    "image": "https://i.ytimg.com/vi/tzDmwEyCfZA/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "가끔은 전남친이 그립다...",
-   "date": "2026-10-24",
-   "published": "2026-10-24T09:47:21Z",
-   "url": "https://www.youtube.com/watch?v=0UetHsVCeWA",
-   "image": "https://i.ytimg.com/vi/0UetHsVCeWA/hqdefault.jpg"
   },
   {
    "type": "music",
