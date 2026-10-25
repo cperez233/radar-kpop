@@ -612,7 +612,19 @@
   "official:lngshot:comeback:2026-10-25|foro": "2026-10-25T06:16:28Z",
   "news:c42a326748bc0ee7|ntfy": "2026-10-25T06:31:29Z",
   "news:c42a326748bc0ee7|pub:radarkpop-bts-news": "2026-10-25T06:31:29Z",
-  "news:c42a326748bc0ee7|foro": "2026-10-25T06:31:29Z"
+  "news:c42a326748bc0ee7|foro": "2026-10-25T06:31:29Z",
+  "mil:seventeen:seungkwan:2026-10-26|ntfy": "2026-10-25T15:01:11Z",
+  "mil:seventeen:seungkwan:2026-10-26|pub:radarkpop-seventeen-members": "2026-10-25T15:01:11Z",
+  "mil:seventeen:seungkwan:2026-10-26|foro": "2026-10-25T15:01:11Z",
+  "mil:seventeen:dino:2026-10-26|ntfy": "2026-10-25T15:01:11Z",
+  "mil:seventeen:dino:2026-10-26|pub:radarkpop-seventeen-members": "2026-10-25T15:01:11Z",
+  "mil:seventeen:dino:2026-10-26|foro": "2026-10-25T15:01:11Z",
+  "rel:ateez:2026-10-26|ntfy": "2026-10-25T15:01:11Z",
+  "rel:ateez:2026-10-26|pub:radarkpop-ateez-music": "2026-10-25T15:01:11Z",
+  "rel:ateez:2026-10-26|foro": "2026-10-25T15:01:11Z",
+  "official:enhypen:comeback:2026-10-25|ntfy": "2026-10-25T15:01:11Z",
+  "official:enhypen:comeback:2026-10-25|pub:radarkpop-enhypen-music": "2026-10-25T15:01:11Z",
+  "official:enhypen:comeback:2026-10-25|foro": "2026-10-25T15:01:11Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1635,6 +1647,7 @@
   "42a0b55e56421958",
   "435404125afc5a1d",
   "4397eca529ab51a6",
+  "43bef3577f5dcb7a",
   "43f2e4e2c2f92fab",
   "448221c8ae0f8f1b",
   "44b6b5dd518ffcb0",
@@ -1739,6 +1752,7 @@
   "686e79928f8b2598",
   "6878484edabcd248",
   "6898b544ad664ce0",
+  "692137c86fdad263",
   "693284d097c750f7",
   "69920cf4419778b9",
   "69aae99a7c445ce1",
@@ -1827,6 +1841,7 @@
   "8326a53b817f1aa1",
   "835d2af67d55829b",
   "837212f9ee6475ab",
+  "83fa80f4d865067d",
   "84038b786c539d8d",
   "846d27ce45d4480b",
   "84df9a5990e09fa1",
@@ -2060,6 +2075,7 @@
   "c5c49059d0432e67",
   "c643b56965722404",
   "c64d81c5f87c5a28",
+  "c654671faaad0cd8",
   "c666c81e6c71d851",
   "c68e7c87af1ebd44",
   "c6bb4877da0a26e3",
@@ -2115,6 +2131,7 @@
   "da7eb585e645e348",
   "dad4fd2478aa9ffd",
   "db205e8ab3c06062",
+  "db3a428f77212c92",
   "dbfb9967e0b1f352",
   "dcba8a19263dceb4",
   "dd144002a3d61960",
@@ -2211,22 +2228,6 @@
   "ff7e28fe717a4438"
  ],
  "news_topics": [
-  {
-   "g": "blackpink",
-   "w": [
-    "bigbang",
-    "cantico",
-    "concierto",
-    "fans",
-    "fire",
-    "jisoo",
-    "prediccion",
-    "revenge",
-    "sobre",
-    "superara"
-   ],
-   "t": "2026-10-23T14:55:07Z"
-  },
   {
    "g": "bts",
    "w": [
