@@ -624,7 +624,10 @@
   "rel:ateez:2026-10-26|foro": "2026-10-25T15:01:11Z",
   "official:enhypen:comeback:2026-10-25|ntfy": "2026-10-25T15:01:11Z",
   "official:enhypen:comeback:2026-10-25|pub:radarkpop-enhypen-music": "2026-10-25T15:01:11Z",
-  "official:enhypen:comeback:2026-10-25|foro": "2026-10-25T15:01:11Z"
+  "official:enhypen:comeback:2026-10-25|foro": "2026-10-25T15:01:11Z",
+  "news:d872ffa2183b9e41|ntfy": "2026-10-25T15:31:26Z",
+  "news:d872ffa2183b9e41|pub:radarkpop-enhypen-news": "2026-10-25T15:31:26Z",
+  "news:d872ffa2183b9e41|foro": "2026-10-25T15:31:26Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2127,6 +2130,7 @@
   "d5e9f8e16ae44802",
   "d6fcff5a9f2d03ce",
   "d731a77b46af8754",
+  "d872ffa2183b9e41",
   "d9371f711cd1f7f3",
   "da7eb585e645e348",
   "dad4fd2478aa9ffd",
@@ -2435,6 +2439,20 @@
     "profugo"
    ],
    "t": "2026-10-25T06:31:22Z"
+  },
+  {
+   "g": "enhypen",
+   "w": [
+    "announces",
+    "comeback",
+    "november",
+    "parallel",
+    "sin",
+    "single",
+    "spinoff",
+    "world"
+   ],
+   "t": "2026-10-25T15:31:19Z"
   }
  ],
  "discord_threads": {
