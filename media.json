@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T03:15:32Z",
+ "updated_at": "2026-10-25T05:30:37Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-10-25"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "생일 라방",
+   "date": "2026-10-25",
+   "published": "2026-10-25T05:29:57Z",
+   "url": "https://www.youtube.com/watch?v=jz7noDYUPbk",
+   "image": "https://i.ytimg.com/vi/jz7noDYUPbk/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -250,15 +259,6 @@
     }
    ],
    "ytm_try": "2026-10-22T15"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "Peekaboo! #StrayKids #스트레이키즈 #방찬 #BangChan #창빈 #Changbin #YouMakeStrayKidsStay",
-   "date": "2026-10-21",
-   "published": "2026-10-21T11:00:01Z",
-   "url": "https://www.youtube.com/watch?v=ozPMUapJ8d0",
-   "image": "https://i.ytimg.com/vi/ozPMUapJ8d0/hqdefault.jpg"
   },
   {
    "type": "video",
