@@ -630,7 +630,10 @@
   "news:d872ffa2183b9e41|foro": "2026-10-25T15:31:26Z",
   "news:5c4fe69876cd4953|ntfy": "2026-10-25T17:46:03Z",
   "news:5c4fe69876cd4953|pub:radarkpop-bts-news": "2026-10-25T17:46:03Z",
-  "news:5c4fe69876cd4953|foro": "2026-10-25T17:46:03Z"
+  "news:5c4fe69876cd4953|foro": "2026-10-25T17:46:03Z",
+  "news:b16b50f8b503a02f|ntfy": "2026-10-25T20:46:11Z",
+  "news:b16b50f8b503a02f|pub:radarkpop-bts-news": "2026-10-25T20:46:11Z",
+  "news:b16b50f8b503a02f|foro": "2026-10-25T20:46:11Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2010,6 +2013,7 @@
   "b0bea9e7f5f79574",
   "b0ff906f396a27d4",
   "b1413ae9d08af5c8",
+  "b16b50f8b503a02f",
   "b1e5e0c20b1f4131",
   "b238ab022b56a96c",
   "b2414ab488544187",
@@ -2418,6 +2422,19 @@
     "plata"
    ],
    "t": "2026-10-25T17:45:55Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "choque",
+    "concierto",
+    "cultural",
+    "pogo",
+    "primer",
+    "vive"
+   ],
+   "t": "2026-10-25T20:46:02Z"
   }
  ],
  "discord_threads": {
