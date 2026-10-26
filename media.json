@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T09:15:33Z",
+ "updated_at": "2026-10-26T11:00:38Z",
  "sample": false,
  "items": [
   {
@@ -43,6 +43,15 @@
   {
    "type": "video",
    "group": "skz",
+   "title": "낮에 쓰는 밤편지💌 #StrayKids #스트레이키즈 #방찬 #BangChan #한 #Han #YouMakeStrayKidsStay",
+   "date": "2026-10-26",
+   "published": "2026-10-26T11:00:09Z",
+   "url": "https://www.youtube.com/watch?v=10rApTYO5E4",
+   "image": "https://i.ytimg.com/vi/10rApTYO5E4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "skz",
    "title": "햅삐 버rrr스데이 to Lee Know~🎹🎉 #StrayKids #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay",
    "date": "2026-10-26",
    "published": "2026-10-26T05:00:05Z",
@@ -66,6 +75,15 @@
    "published": "2026-10-26T03:00:04Z",
    "url": "https://www.youtube.com/watch?v=gELf5NOiCZk",
    "image": "https://i.ytimg.com/vi/gELf5NOiCZk/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "[Choreography Video] JEONGHAN X JOSHUA (SEVENTEEN) - 12 o'clock (Moving ver.)",
+   "date": "2026-10-26",
+   "published": "2026-10-26T10:59:59Z",
+   "url": "https://www.youtube.com/watch?v=D5Op5mAGUak",
+   "image": "https://i.ytimg.com/vi/D5Op5mAGUak/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -96,15 +114,6 @@
   },
   {
    "type": "video",
-   "group": "skz",
-   "title": "생일 라방",
-   "date": "2026-10-25",
-   "published": "2026-10-25T06:25:19Z",
-   "url": "https://www.youtube.com/watch?v=jz7noDYUPbk",
-   "image": "https://i.ytimg.com/vi/jz7noDYUPbk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "lngshot",
    "title": "제1회 정우진 그리기 대회…🎨 #Masterpiece #LNGSHOT",
    "date": "2026-10-25",
@@ -129,15 +138,6 @@
    "published": "2026-10-25T11:09:04Z",
    "url": "https://www.youtube.com/watch?v=BY4QOKe9Gi4",
    "image": "https://i.ytimg.com/vi/BY4QOKe9Gi4/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "POV: you're just daydreaming then realise your crush is staring at you #JxJ #정한X조슈아#DREAMSCAPE",
-   "date": "2026-10-25",
-   "published": "2026-10-25T10:00:24Z",
-   "url": "https://www.youtube.com/watch?v=ElzaXkKouP8",
-   "image": "https://i.ytimg.com/vi/ElzaXkKouP8/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -455,7 +455,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-10-26T07",
+   "ytm_try": "2026-10-26T11",
    "sp_try": "2026-10-26"
   },
   {
@@ -1385,7 +1385,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-26T07"
+   "ytm_try": "2026-10-26T11"
   },
   {
    "type": "music",
