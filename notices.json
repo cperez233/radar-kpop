@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T02:30:47Z",
+ "updated_at": "2026-10-26T02:45:51Z",
  "groups": {
   "lngshot": [
    {
@@ -91,6 +91,13 @@
   ],
   "enhypen": [
    {
+    "title": "[공지] ENHYPEN ‘THE SIN : PARALLEL WORLD (Weverse Albums ver.)’ 예약 구매 링크 안내 위버스샵",
+    "url": "https://x.com/ENHYPEN/status/2114546183737888821",
+    "post": "https://x.com/ENHYPEN/status/2114546183737888821",
+    "when": "2026-10-26T02:34:31Z",
+    "weverse": false
+   },
+   {
     "title": "[공지] ENHYPEN ‘THE SIN : PARALLEL WORLD (ENGENE ver.)’ 예약 구매 링크 안내 위버스샵 Random :",
     "url": "https://x.com/ENHYPEN/status/2114545125548539997",
     "post": "https://x.com/ENHYPEN/status/2114545125548539997",
@@ -123,13 +130,6 @@
     "url": "https://weverse.io/enhypen/notice/40379",
     "post": "https://x.com/ENHYPEN/status/2114522476059468257",
     "when": "2026-10-26T01:00:18Z",
-    "weverse": true
-   },
-   {
-    "title": "[공지] ENHYPEN ‘THE SIN : PARALLEL WORLD’ 예약 구매 (+ENG/JPN/CHN)",
-    "url": "https://weverse.io/enhypen/notice/40378",
-    "post": "https://x.com/ENHYPEN/status/2114522425513939076",
-    "when": "2026-10-26T01:00:06Z",
     "weverse": true
    }
   ],
