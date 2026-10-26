@@ -680,7 +680,10 @@
   "news:46d64969d2219228|foro": "2026-10-26T16:16:24Z",
   "live:lng-20261026-london|ntfy": "2026-10-26T18:46:06Z",
   "live:lng-20261026-london|pub:radarkpop-lngshot-shows": "2026-10-26T18:46:06Z",
-  "live:lng-20261026-london|foro": "2026-10-26T18:46:06Z"
+  "live:lng-20261026-london|foro": "2026-10-26T18:46:06Z",
+  "news:5822b8530c72723b|ntfy": "2026-10-26T20:31:32Z",
+  "news:5822b8530c72723b|pub:radarkpop-bts-news": "2026-10-26T20:31:32Z",
+  "news:5822b8530c72723b|foro": "2026-10-26T20:31:32Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1511,8 +1514,6 @@
   }
  },
  "news_seen": [
-  "0de7b77acfdf0eef",
-  "0dfdd6e27b87bab9",
   "0e3cd0c34d2eddc9",
   "0e577e46f77f245e",
   "0e8ae0cc68e39e8f",
@@ -1755,6 +1756,7 @@
   "56b05841c1f154d9",
   "5733c2356dceff0f",
   "57fad7356860bea9",
+  "5822b8530c72723b",
   "584ac3d5d10b613f",
   "58a3ce5288ee6029",
   "592ad5a8ede4b148",
@@ -1968,6 +1970,7 @@
   "944b488f7104c4b8",
   "95022b324a91dfd9",
   "9562b339e95a7b6f",
+  "95755695e2b5a341",
   "95ad53bdf8443f4b",
   "95ec9a3fe851e137",
   "962bbb958d390b1a",
@@ -2470,6 +2473,21 @@
     "world"
    ],
    "t": "2026-10-26T16:16:16Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "brasil",
+    "desata",
+    "escenarios",
+    "gira",
+    "numero",
+    "pantallas",
+    "polemica",
+    "reducir",
+    "sudamericana"
+   ],
+   "t": "2026-10-26T20:31:24Z"
   }
  ],
  "discord_threads": {
