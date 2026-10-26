@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T01:00:47Z",
+ "updated_at": "2026-10-26T02:00:52Z",
  "groups": {
   "lngshot": [
    {
@@ -91,6 +91,13 @@
   ],
   "enhypen": [
    {
+    "title": "[공지] ENHYPEN 스핀오프 싱글 THE SIN : PARALLEL WORLD 예약 구매자 대상 영상통화 팬사인회 안내 (+ENG/JPN/CHN)",
+    "url": "https://weverse.io/enhypen/notice/39978",
+    "post": "https://x.com/ENHYPEN/status/2114537500253323687",
+    "when": "2026-10-26T02:00:00Z",
+    "weverse": true
+   },
+   {
     "title": "[공지] ENHYPEN ‘THE SIN : PARALLEL WORLD (Weverse Albums ver.)’ 예약 구매 (+ENG/JPN/CHN)",
     "url": "https://weverse.io/enhypen/notice/40380",
     "post": "https://x.com/ENHYPEN/status/2114522529385812215",
@@ -124,13 +131,6 @@
     "post": "https://x.com/ENHYPEN/status/2113133300189725038",
     "when": "2026-10-22T05:00:13Z",
     "weverse": false
-   },
-   {
-    "title": "[공지] ENHYPEN ‘THE SIN : BLISS’ 발매 기념 COUNTDOWN / 음원 다운로드 / MV스트리밍 이벤트 당첨자 안내 (+ENG/JPN/CHN)",
-    "url": "https://weverse.io/enhypen/notic...",
-    "post": "https://x.com/ENHYPEN/status/2110235545326751909",
-    "when": "2026-10-14T05:05:34Z",
-    "weverse": true
    }
   ],
   "cortis": [
