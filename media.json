@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T03:00:42Z",
+ "updated_at": "2026-10-26T05:00:41Z",
  "sample": false,
  "items": [
   {
@@ -42,6 +42,15 @@
   },
   {
    "type": "video",
+   "group": "skz",
+   "title": "햅삐 버rrr스데이 to Lee Know~🎹🎉 #StrayKids #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay",
+   "date": "2026-10-26",
+   "published": "2026-10-26T05:00:05Z",
+   "url": "https://www.youtube.com/watch?v=h2GZzh5iRiY",
+   "image": "https://i.ytimg.com/vi/h2GZzh5iRiY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "lngshot",
    "title": "#Masterpiece zu Lëtzebuerg 🇱🇺 #LNGSHOT",
    "date": "2026-10-26",
@@ -66,15 +75,6 @@
    "published": "2026-10-25T06:25:19Z",
    "url": "https://www.youtube.com/watch?v=jz7noDYUPbk",
    "image": "https://i.ytimg.com/vi/jz7noDYUPbk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "[kNOw맘대로(The kNOw Way)] Ep.10",
-   "date": "2026-10-25",
-   "published": "2026-10-25T02:59:56Z",
-   "url": "https://www.youtube.com/watch?v=dtqYHT6P8gQ",
-   "image": "https://i.ytimg.com/vi/dtqYHT6P8gQ/hqdefault.jpg"
   },
   {
    "type": "video",
