@@ -1493,7 +1493,6 @@
   }
  },
  "news_seen": [
-  "04239522bb8dbb7a",
   "04a00490ffe88793",
   "059eb8da25233e90",
   "0635a9a85274493c",
@@ -2182,6 +2181,7 @@
   "d4c9df50f3292907",
   "d4e3dab0279b83d7",
   "d5410b976ca14f0d",
+  "d568689090239a09",
   "d5a96446e327f726",
   "d5e9f8e16ae44802",
   "d6fcff5a9f2d03ce",
@@ -2295,18 +2295,6 @@
   "ff7e28fe717a4438"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "concierto",
-    "despiden",
-    "explosivo",
-    "otro",
-    "plata",
-    "tras"
-   ],
-   "t": "2026-10-24T09:45:54Z"
-  },
   {
    "g": "blackpink",
    "w": [
