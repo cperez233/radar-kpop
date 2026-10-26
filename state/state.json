@@ -659,7 +659,10 @@
   "today:lngshot:lng-20261026-london|ntfy": "2026-10-26T08:01:10Z",
   "today:lngshot:lng-20261026-london|pub:radarkpop-lngshot-shows": "2026-10-26T08:01:10Z",
   "today:lngshot:lng-20261026-london|pub:radarkpop-pais-reinounido": "2026-10-26T08:01:10Z",
-  "today:lngshot:lng-20261026-london|foro": "2026-10-26T08:01:10Z"
+  "today:lngshot:lng-20261026-london|foro": "2026-10-26T08:01:10Z",
+  "news:abdeb0f301c8f868|ntfy": "2026-10-26T09:31:44Z",
+  "news:abdeb0f301c8f868|pub:radarkpop-bts-news": "2026-10-26T09:31:44Z",
+  "news:abdeb0f301c8f868|foro": "2026-10-26T09:31:44Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1490,7 +1493,6 @@
   }
  },
  "news_seen": [
-  "03d00656bf285ce7",
   "04239522bb8dbb7a",
   "04a00490ffe88793",
   "059eb8da25233e90",
@@ -2043,6 +2045,7 @@
   "ab4a9fbee2c772ac",
   "ab624af630b4206d",
   "ab75bc8b945a1300",
+  "abdeb0f301c8f868",
   "abefc6be303eac9d",
   "ac24c66799df7986",
   "ac396c6a08b27779",
@@ -2443,6 +2446,19 @@
     "tres"
    ],
    "t": "2026-10-25T23:45:56Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "celebra",
+    "concierto",
+    "coreana",
+    "cultura",
+    "festival",
+    "motivo"
+   ],
+   "t": "2026-10-26T09:31:37Z"
   }
  ],
  "discord_threads": {
