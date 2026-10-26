@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T06:16:01Z",
+  "updated_at": "2026-10-26T06:30:14Z",
   "sources": [
     {
       "name": "Live Nation (BTS)",
@@ -588,11 +588,8 @@
     {
       "id": "twice",
       "name": "TWICE",
-      "tour": "This Is For World Tour (terminada)",
-      "watch": [
-        "La gira This Is For cerró el 12 de julio de 2026 y no encontré fechas nuevas confirmadas.",
-        "Jihyo contó en un vlog (30 jul 2026) que quieren hacer gira por Sudamérica más adelante, sin fechas."
-      ],
+      "tour": "This Is For World Tour",
+      "watch": [],
       "events": [
         {
           "local_date": "2026-11-21",
@@ -610,11 +607,8 @@
           "time_tbd": true
         }
       ],
-      "watch_en": [
-        "The This Is For tour ended on July 12, 2026 and there are no confirmed new dates.",
-        "Jihyo said in a vlog (Jul 30, 2026) that they want to tour South America later, no dates yet."
-      ],
-      "tour_en": "This Is For World Tour (ended)"
+      "watch_en": [],
+      "tour_en": "This Is For World Tour"
     },
     {
       "id": "blackpink",
