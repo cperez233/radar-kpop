@@ -1466,8 +1466,6 @@
   }
  },
  "news_seen": [
-  "01b6072486b3ab2a",
-  "0206dd15667285f9",
   "025ec2ef42837f29",
   "0287f29eca0f1afd",
   "02f07286dbd321e1",
@@ -1637,6 +1635,7 @@
   "395c5c235c4737ff",
   "3982cc02e9014d6a",
   "39c26763054ebfe8",
+  "39e98348ccfb916a",
   "39f76f66cbf0a9cd",
   "3a938266a8376791",
   "3b07e31e83d55bd1",
@@ -2210,6 +2209,7 @@
   "e924263197407fb9",
   "e99ac58337c231b1",
   "e9d302cd6f93ce78",
+  "e9f3fa36fb1c8914",
   "eaacbbf21eb48d17",
   "eb114ff53d81c04a",
   "eb28bba42f57cdd4",
@@ -2268,19 +2268,6 @@
   "ff7e28fe717a4438"
  ],
  "news_topics": [
-  {
-   "g": "blackpink",
-   "w": [
-    "addicted",
-    "blackpinks",
-    "drops",
-    "jisoo",
-    "single",
-    "teasers",
-    "watch"
-   ],
-   "t": "2026-10-24T05:07:57Z"
-  },
   {
    "g": "bts",
    "w": [
