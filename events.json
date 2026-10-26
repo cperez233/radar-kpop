@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T08:34:48Z",
+  "updated_at": "2026-10-26T06:16:01Z",
   "sources": [
     {
       "name": "Live Nation (BTS)",
@@ -593,7 +593,23 @@
         "La gira This Is For cerró el 12 de julio de 2026 y no encontré fechas nuevas confirmadas.",
         "Jihyo contó en un vlog (30 jul 2026) que quieren hacer gira por Sudamérica más adelante, sin fechas."
       ],
-      "events": [],
+      "events": [
+        {
+          "local_date": "2026-11-21",
+          "lat": 37.5665,
+          "lon": 126.978,
+          "id": "twice-auto-20261121-seul",
+          "start": "2026-11-21T18:00:00+09:00",
+          "city": "Seúl",
+          "country": "Corea del Sur",
+          "venue": null,
+          "status": "anunciado",
+          "source": "auto",
+          "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSmNBUHlCNFQ2NGhMOUwzVzM1c0V3R1hYMVQxcDhlbnU4WG15d1pmYmpGUV9yRkZiVVVYcWFENk41dk1hbWE5c1dZZWhvaWFERkx5eE15bmJEQ2xQYThrLXhLelpOWkJyMG8xeDYwZjhWNjJnVktYTFZvUDNaY1dKSDU4bXJHNTdVWVJOcWd3?oc=5",
+          "src_kind": "news",
+          "time_tbd": true
+        }
+      ],
       "watch_en": [
         "The This Is For tour ended on July 12, 2026 and there are no confirmed new dates.",
         "Jihyo said in a vlog (Jul 30, 2026) that they want to tour South America later, no dates yet."

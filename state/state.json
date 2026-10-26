@@ -651,7 +651,11 @@
   "news:2cfa0a8b8ac64284|foro": "2026-10-26T06:01:09Z",
   "news:56b05841c1f154d9|ntfy": "2026-10-26T06:01:09Z",
   "news:56b05841c1f154d9|pub:radarkpop-seventeen-shows": "2026-10-26T06:01:09Z",
-  "news:56b05841c1f154d9|foro": "2026-10-26T06:01:09Z"
+  "news:56b05841c1f154d9|foro": "2026-10-26T06:01:09Z",
+  "new:twice:twice-auto-20261121-seul|ntfy": "2026-10-26T06:16:19Z",
+  "new:twice:twice-auto-20261121-seul|pub:radarkpop-twice-shows": "2026-10-26T06:16:19Z",
+  "new:twice:twice-auto-20261121-seul|pub:radarkpop-pais-coreadelsur": "2026-10-26T06:16:19Z",
+  "new:twice:twice-auto-20261121-seul|foro": "2026-10-26T06:16:19Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -939,6 +943,13 @@
    "d": "2027-03-07",
    "s": "2027-03-07T19:00:00+08:00",
    "c": "Singapur",
+   "v": null
+  },
+  "twice-auto-20261121-seul": {
+   "g": "twice",
+   "d": "2026-11-21",
+   "s": "2026-11-21T18:00:00+09:00",
+   "c": "Seúl",
    "v": null
   },
   "bp-20260116-tokyo": {
