@@ -662,7 +662,10 @@
   "today:lngshot:lng-20261026-london|foro": "2026-10-26T08:01:10Z",
   "news:abdeb0f301c8f868|ntfy": "2026-10-26T09:31:44Z",
   "news:abdeb0f301c8f868|pub:radarkpop-bts-news": "2026-10-26T09:31:44Z",
-  "news:abdeb0f301c8f868|foro": "2026-10-26T09:31:44Z"
+  "news:abdeb0f301c8f868|foro": "2026-10-26T09:31:44Z",
+  "news:762adbbad78b09a5|ntfy": "2026-10-26T10:16:22Z",
+  "news:762adbbad78b09a5|pub:radarkpop-bts-news": "2026-10-26T10:16:22Z",
+  "news:762adbbad78b09a5|foro": "2026-10-26T10:16:22Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1493,7 +1496,6 @@
   }
  },
  "news_seen": [
-  "04a00490ffe88793",
   "059eb8da25233e90",
   "0635a9a85274493c",
   "06c044c57450a104",
@@ -1850,6 +1852,7 @@
   "7522e6d34d2a5828",
   "75d20a0688a1db62",
   "75e89e2eef9699bd",
+  "762adbbad78b09a5",
   "763df933e3b1bfe8",
   "768de5c0eaa19919",
   "76a39e4e78214fd8",
@@ -2447,6 +2450,22 @@
     "motivo"
    ],
    "t": "2026-10-26T09:31:37Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "2026",
+    "cine",
+    "cines",
+    "fest",
+    "festival",
+    "global",
+    "hybe",
+    "llega",
+    "mundo",
+    "pop"
+   ],
+   "t": "2026-10-26T10:16:15Z"
   }
  ],
  "discord_threads": {
