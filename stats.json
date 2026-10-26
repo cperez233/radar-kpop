@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-25T13:30:51Z",
+  "updated_at": "2026-10-26T01:45:55Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
-      "listeners": 30624863,
+      "listeners": 30581731,
       "listeners_peak": 46724346,
-      "streams": 50777521020,
+      "streams": 50802638015,
       "top_song": {
         "title": "Dynamite",
-        "streams": 2371786122,
+        "streams": 2372357473,
         "url": "https://open.spotify.com/track/5QDLhrAOJJdNAmCTJ8xMyW"
       },
       "yt_subs": 86300000
@@ -16,32 +16,32 @@
     "skz": {
       "listeners": 9893280,
       "listeners_peak": 14253317,
-      "streams": 15703158625,
+      "streams": 15710837626,
       "top_song": {
         "title": "God’s Menu",
-        "streams": 554398068,
+        "streams": 554584692,
         "url": "https://open.spotify.com/track/4XPXrcpyNr30Km6aPiflJy"
       },
       "yt_subs": 25500000
     },
     "twice": {
-      "listeners": 14889877,
+      "listeners": 14871255,
       "listeners_peak": 27003979,
-      "streams": 12994851581,
+      "streams": 12998432966,
       "top_song": {
         "title": "What is Love?",
-        "streams": 710902572,
+        "streams": 711240301,
         "url": "https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y"
       },
       "yt_subs": 19500000
     },
     "blackpink": {
-      "listeners": 18712274,
+      "listeners": 18686005,
       "listeners_peak": 35310315,
-      "streams": 16725660779,
+      "streams": 16729489679,
       "top_song": {
         "title": "How You Like That",
-        "streams": 1301260377,
+        "streams": 1301473124,
         "url": "https://open.spotify.com/track/4SFknyjLcyTLJFPKD2m96o"
       },
       "yt_subs": 101000000
@@ -69,12 +69,12 @@
       "yt_subs": 18100000
     },
     "enhypen": {
-      "listeners": 10010947,
+      "listeners": 10007092,
       "listeners_peak": 11080262,
-      "streams": 8008704161,
+      "streams": 8013443410,
       "top_song": {
         "title": "Bite Me",
-        "streams": 544146897,
+        "streams": 544415830,
         "url": "https://open.spotify.com/track/7mpdNiaQvygj2rHoxkzMfa"
       },
       "yt_subs": 14700000
@@ -93,13 +93,13 @@
     "cortis": {
       "listeners": 11119198,
       "listeners_peak": 12947465,
-      "streams": 1429660389,
+      "streams": 1437453193,
       "top_song": {
         "title": "REDRED",
-        "streams": 260518662,
+        "streams": 262336939,
         "url": "https://open.spotify.com/track/34YVCoqIm08nbsxFSPL0Uh"
       },
-      "yt_subs": 7500000
+      "yt_subs": 7510000
     },
     "ateez": {
       "listeners": 7261592,
@@ -110,7 +110,7 @@
         "streams": 200146067,
         "url": "https://open.spotify.com/track/5VGdz8LeTx2M8LHe9iUSQU"
       },
-      "yt_subs": 5770000
+      "yt_subs": 5780000
     }
   }
 }

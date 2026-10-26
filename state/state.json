@@ -636,7 +636,10 @@
   "news:b16b50f8b503a02f|foro": "2026-10-25T20:46:11Z",
   "news:265c313926279f56|ntfy": "2026-10-25T23:46:06Z",
   "news:265c313926279f56|pub:radarkpop-bts-news": "2026-10-25T23:46:06Z",
-  "news:265c313926279f56|foro": "2026-10-25T23:46:06Z"
+  "news:265c313926279f56|foro": "2026-10-25T23:46:06Z",
+  "official:twice:comeback:2026-10-26|ntfy": "2026-10-26T01:46:28Z",
+  "official:twice:comeback:2026-10-26|pub:radarkpop-twice-music": "2026-10-26T01:46:28Z",
+  "official:twice:comeback:2026-10-26|foro": "2026-10-26T01:46:28Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1677,6 +1680,7 @@
   "47c0f5a79d91c449",
   "47fc66639f402987",
   "486cfbfa1836a7f0",
+  "487c14c9b39b9249",
   "48e69a540f086961",
   "494c2142ae1bf27c",
   "4963fbdd8eb6b3b5",
