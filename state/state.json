@@ -645,7 +645,13 @@
   "official:enhypen:comeback:2026-10-26|foro": "2026-10-26T02:01:12Z",
   "official:lngshot:comeback:2026-10-26|ntfy": "2026-10-26T05:24:11Z",
   "official:lngshot:comeback:2026-10-26|pub:radarkpop-lngshot-music": "2026-10-26T05:24:11Z",
-  "official:lngshot:comeback:2026-10-26|foro": "2026-10-26T05:24:11Z"
+  "official:lngshot:comeback:2026-10-26|foro": "2026-10-26T05:24:11Z",
+  "news:2cfa0a8b8ac64284|ntfy": "2026-10-26T06:01:09Z",
+  "news:2cfa0a8b8ac64284|pub:radarkpop-seventeen-shows": "2026-10-26T06:01:09Z",
+  "news:2cfa0a8b8ac64284|foro": "2026-10-26T06:01:09Z",
+  "news:56b05841c1f154d9|ntfy": "2026-10-26T06:01:09Z",
+  "news:56b05841c1f154d9|pub:radarkpop-seventeen-shows": "2026-10-26T06:01:09Z",
+  "news:56b05841c1f154d9|foro": "2026-10-26T06:01:09Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1469,8 +1475,6 @@
   }
  },
  "news_seen": [
-  "0287f29eca0f1afd",
-  "02f07286dbd321e1",
   "02f506f4ab3cfdb5",
   "02ffbc9fe619370b",
   "0344ef47cbcf6892",
@@ -1599,6 +1603,7 @@
   "2bcc4044ae89a743",
   "2c483480cb3d0715",
   "2cf605f125d39e69",
+  "2cfa0a8b8ac64284",
   "2d1815e8d0da986e",
   "2e190e633d3c05a5",
   "2eac635281919fb3",
@@ -1730,6 +1735,7 @@
   "562513c3000bea59",
   "56685cdf4165dbb7",
   "56a5fca7fb113cb5",
+  "56b05841c1f154d9",
   "5733c2356dceff0f",
   "57fad7356860bea9",
   "584ac3d5d10b613f",
