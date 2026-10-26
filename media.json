@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T11:00:38Z",
+ "updated_at": "2026-10-26T13:00:47Z",
  "sample": false,
  "items": [
   {
@@ -88,11 +88,29 @@
   {
    "type": "video",
    "group": "enhypen",
-   "title": "😚 #SUNOO #ENHYPEN",
+   "title": "농구하고 🏀  탁구하는 🏓  니키 그리고 선우 | 마카오에서의 #엔하이픈 #3",
    "date": "2026-10-26",
-   "published": "2026-10-26T09:05:24Z",
-   "url": "https://www.youtube.com/watch?v=IiD7Yc3gxgc",
-   "image": "https://i.ytimg.com/vi/IiD7Yc3gxgc/hqdefault.jpg"
+   "published": "2026-10-26T12:59:56Z",
+   "url": "https://www.youtube.com/watch?v=XzbmAlmA6_U",
+   "image": "https://i.ytimg.com/vi/XzbmAlmA6_U/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "정원과 성훈의 숏폼 비하인드 🕺 | 마카오에서의 #엔하이픈 #2",
+   "date": "2026-10-26",
+   "published": "2026-10-26T12:59:41Z",
+   "url": "https://www.youtube.com/watch?v=rbD5C9npvXQ",
+   "image": "https://i.ytimg.com/vi/rbD5C9npvXQ/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "박박심이 숏폼을 찍을 때 😁 | 마카오에서의 #엔하이픈 #1",
+   "date": "2026-10-26",
+   "published": "2026-10-26T12:59:23Z",
+   "url": "https://www.youtube.com/watch?v=akXYoO5CCMQ",
+   "image": "https://i.ytimg.com/vi/akXYoO5CCMQ/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -102,6 +120,15 @@
    "published": "2026-10-26T09:00:13Z",
    "url": "https://www.youtube.com/watch?v=A1-51XmiU5w",
    "image": "https://i.ytimg.com/vi/A1-51XmiU5w/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "박혀 있지 저 높은 곳에 이름이 #Shorts",
+   "date": "2026-10-26",
+   "published": "2026-10-26T13:00:15Z",
+   "url": "https://www.youtube.com/watch?v=XBxP3YI45dw",
+   "image": "https://i.ytimg.com/vi/XBxP3YI45dw/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -176,15 +203,6 @@
    "image": "https://i.ytimg.com/vi/XfnIz4oKl48/hqdefault.jpg"
   },
   {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) 티즈는 80살",
-   "date": "2026-10-24",
-   "published": "2026-10-24T12:00:07Z",
-   "url": "https://www.youtube.com/watch?v=PyHdGqbaUTs",
-   "image": "https://i.ytimg.com/vi/PyHdGqbaUTs/hqdefault.jpg"
-  },
-  {
    "type": "music",
    "group": "ateez",
    "title": "Drip",
@@ -230,24 +248,6 @@
    "published": "2026-10-23T04:01:28Z",
    "url": "https://www.youtube.com/watch?v=Llxr_FUhbqU",
    "image": "https://i.ytimg.com/vi/Llxr_FUhbqU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "김민우+김선우=?",
-   "date": "2026-10-23",
-   "published": "2026-10-23T12:01:31Z",
-   "url": "https://www.youtube.com/watch?v=vRU9l_HRBDk",
-   "image": "https://i.ytimg.com/vi/vRU9l_HRBDk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "??: 넘어갈게요",
-   "date": "2026-10-23",
-   "published": "2026-10-23T12:00:00Z",
-   "url": "https://www.youtube.com/watch?v=aI08Oi5YAcQ",
-   "image": "https://i.ytimg.com/vi/aI08Oi5YAcQ/hqdefault.jpg"
   },
   {
    "type": "music",
