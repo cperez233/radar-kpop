@@ -683,7 +683,10 @@
   "live:lng-20261026-london|foro": "2026-10-26T18:46:06Z",
   "news:5822b8530c72723b|ntfy": "2026-10-26T20:31:32Z",
   "news:5822b8530c72723b|pub:radarkpop-bts-news": "2026-10-26T20:31:32Z",
-  "news:5822b8530c72723b|foro": "2026-10-26T20:31:32Z"
+  "news:5822b8530c72723b|foro": "2026-10-26T20:31:32Z",
+  "news:5ee1e8ac47f778f6|ntfy": "2026-10-26T21:01:09Z",
+  "news:5ee1e8ac47f778f6|pub:radarkpop-seventeen-news": "2026-10-26T21:01:09Z",
+  "news:5ee1e8ac47f778f6|foro": "2026-10-26T21:01:09Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1514,7 +1517,6 @@
   }
  },
  "news_seen": [
-  "0e3cd0c34d2eddc9",
   "0e577e46f77f245e",
   "0e8ae0cc68e39e8f",
   "0f659cfdd6c7546c",
@@ -1775,6 +1777,7 @@
   "5de54a1167b39800",
   "5e72890187c14f26",
   "5eaf70d50bc18268",
+  "5ee1e8ac47f778f6",
   "5ee334653ac920dd",
   "5f2d116cbe754bf5",
   "5f3f9c3a68de1aa2",
@@ -2488,6 +2491,24 @@
     "sudamericana"
    ],
    "t": "2026-10-26T20:31:24Z"
+  },
+  {
+   "g": "seventeen",
+   "w": [
+    "2026",
+    "bts",
+    "chile",
+    "cine",
+    "cinepolis",
+    "enhypen",
+    "especiales",
+    "fest",
+    "funciones",
+    "hybe",
+    "llega",
+    "tendran"
+   ],
+   "t": "2026-10-26T21:01:00Z"
   }
  ],
  "discord_threads": {
