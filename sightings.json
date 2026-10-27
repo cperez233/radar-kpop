@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-10-26T06:00:39Z",
+  "updated_at": "2026-10-27T08:30:38Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "x-2114994940346511501",
+      "group": "lngshot",
+      "group_name": "LNGSHOT",
+      "city": "Londres",
+      "country": "Reino Unido",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "text": "London SHOTTIES, y’all are a #Masterpiece 🇬🇧 Dance practice video drops today at 6PM KST! #SWISH #LNGSHOT",
+      "url": "https://x.com/LNGSHOT4sho/status/2114994940346511501",
+      "account": "LNGSHOT4sho",
+      "when": "2026-10-27T08:17:43Z"
+    },
     {
       "id": "x-2114597966254358699",
       "group": "seventeen",
@@ -15,21 +28,6 @@
       "url": "https://x.com/pledis_17/status/2114597966254358699",
       "account": "pledis_17",
       "when": "2026-10-26T06:00:17Z"
-    },
-    {
-      "id": "fan-lngshot-londres-20261023",
-      "group": "lngshot",
-      "group_name": "LNGSHOT",
-      "city": "Londres",
-      "country": "Reino Unido",
-      "lat": 51.5074,
-      "lon": -0.1278,
-      "fan": true,
-      "fans": 2,
-      "text": "",
-      "url": "",
-      "account": "",
-      "when": "2026-10-23T20:01:39Z"
     },
     {
       "id": "x-2113103051016011996",

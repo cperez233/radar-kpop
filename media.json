@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-27T07:00:41Z",
+ "updated_at": "2026-10-27T08:30:38Z",
  "sample": false,
  "items": [
   {
@@ -43,6 +43,15 @@
   {
    "type": "video",
    "group": "lngshot",
+   "title": "London SHOTTIES, y’all are a #Masterpiece 🇬🇧 Dance practice video drops today at 6PM KST! #LNGSHOT",
+   "date": "2026-10-27",
+   "published": "2026-10-27T08:17:47Z",
+   "url": "https://www.youtube.com/watch?v=Yh_1NKptEFw",
+   "image": "https://i.ytimg.com/vi/Yh_1NKptEFw/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
    "title": "#Masterpiece from every angle.Drop a comment if you want the dance practice video! #LNGSHOT",
    "date": "2026-10-27",
    "published": "2026-10-27T03:00:15Z",
@@ -75,15 +84,6 @@
    "published": "2026-10-26T09:00:08Z",
    "url": "https://www.youtube.com/watch?v=dFL1kG9WUxs",
    "image": "https://i.ytimg.com/vi/dFL1kG9WUxs/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "#Masterpiece zu Lëtzebuerg 🇱🇺 #LNGSHOT",
-   "date": "2026-10-26",
-   "published": "2026-10-26T03:00:04Z",
-   "url": "https://www.youtube.com/watch?v=gELf5NOiCZk",
-   "image": "https://i.ytimg.com/vi/gELf5NOiCZk/hqdefault.jpg"
   },
   {
    "type": "video",
