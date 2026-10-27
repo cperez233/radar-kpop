@@ -1543,7 +1543,6 @@
   }
  },
  "news_seen": [
-  "1d9a22b374ee3ba3",
   "1d9e3375416431bc",
   "1dca7483ba02c925",
   "1dd07b698ad98b76",
@@ -2126,6 +2125,7 @@
   "bb434866016962a9",
   "bb733867f3b997d0",
   "bb7472fdd8aa1d36",
+  "bbb5614540a93720",
   "bc342efa08e83a5e",
   "bc43c90e9b43db6b",
   "bc4a313367136af1",
@@ -2345,20 +2345,6 @@
   "ffda53b7817ff28f"
  ],
  "news_topics": [
-  {
-   "g": "enhypen",
-   "w": [
-    "announces",
-    "comeback",
-    "november",
-    "parallel",
-    "sin",
-    "single",
-    "spinoff",
-    "world"
-   ],
-   "t": "2026-10-25T15:31:19Z"
-  },
   {
    "g": "bts",
    "w": [
