@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-27T11:30:51Z",
+ "updated_at": "2026-10-27T12:30:56Z",
  "groups": {
   "bts": {
    "x": [
@@ -2082,6 +2082,11 @@
   "cortis": {
    "x": [
     {
+     "title": "-1900000 aura 🔗 #CORTIS #코르티스",
+     "url": "https://x.com/cortis_bighit/status/2115051822700486930",
+     "when": "2026-10-27T12:03:44Z"
+    },
+    {
      "title": "GREENGREEN 'BRIDGE' 비하인드 필름 #CORTIS #코르티스 #COER #코어 #COER_Membership",
      "url": "https://x.com/cortis_bighit/status/2114677922728698028",
      "when": "2026-10-26T11:18:00Z"
@@ -2100,11 +2105,6 @@
      "title": "new sofa 🛋️ ( #CORTIS #코르티스",
      "url": "https://x.com/cortis_bighit/status/2114326105117381088",
      "when": "2026-10-25T12:00:00Z"
-    },
-    {
-     "title": "that awkward half way jog 🔗 #CORTIS #코르티스",
-     "url": "https://x.com/cortis_bighit/status/2113843572420268339",
-     "when": "2026-10-24T04:02:35Z"
     }
    ],
    "members": {
@@ -2115,6 +2115,11 @@
     "keonho": {}
    },
    "tiktok": [
+    {
+     "title": "-1900000 aura #CORTIS #코르티스",
+     "url": "https://www.tiktok.com/@cortis_bighit/video/7701268518423022868",
+     "when": "2026-10-27T08:55:06Z"
+    },
     {
      "title": "못 본 척 해주세요 #CORTIS #코르티스",
      "url": "https://www.tiktok.com/@cortis_bighit/video/7700898783059561748",
@@ -2134,11 +2139,6 @@
      "title": "new style testing #CORTIS #코르티스",
      "url": "https://www.tiktok.com/@cortis_bighit/video/7699104741124672789",
      "when": "2026-10-21T12:58:32Z"
-    },
-    {
-     "title": "더기 마스터 #CORTIS #코르티스",
-     "url": "https://www.tiktok.com/@cortis_bighit/video/7697929870436879636",
-     "when": "2026-10-18T08:59:26Z"
     }
    ],
    "instagram": [
@@ -2264,5 +2264,5 @@
   }
  },
  "ig_cursor": 2,
- "ig_pause_until": "2026-10-27T11:30:55Z"
+ "ig_pause_until": "2026-10-27T18:30:56Z"
 }
