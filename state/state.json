@@ -705,7 +705,10 @@
   "news:3a90e4d719be2566|foro": "2026-10-27T14:32:24Z",
   "official:ateez:comeback:2026-10-27|ntfy": "2026-10-27T15:01:12Z",
   "official:ateez:comeback:2026-10-27|pub:radarkpop-ateez-music": "2026-10-27T15:01:12Z",
-  "official:ateez:comeback:2026-10-27|foro": "2026-10-27T15:01:12Z"
+  "official:ateez:comeback:2026-10-27|foro": "2026-10-27T15:01:12Z",
+  "news:4c16f0bdeb793c8d|ntfy": "2026-10-27T17:01:17Z",
+  "news:4c16f0bdeb793c8d|pub:radarkpop-bts-news": "2026-10-27T17:01:17Z",
+  "news:4c16f0bdeb793c8d|foro": "2026-10-27T17:01:17Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1543,7 +1546,6 @@
   }
  },
  "news_seen": [
-  "1d9e3375416431bc",
   "1dca7483ba02c925",
   "1dd07b698ad98b76",
   "1e1f0c8a84b1e64a",
@@ -1710,6 +1712,7 @@
   "4b7a46f9539f8195",
   "4c0426c5280f2f76",
   "4c0ef0412505a658",
+  "4c16f0bdeb793c8d",
   "4c646d85070da1ab",
   "4c66adbc58a5030b",
   "4ce0918af7bb5358",
@@ -2517,6 +2520,18 @@
     "usuarias"
    ],
    "t": "2026-10-27T14:32:15Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "autoridades",
+    "conciertos",
+    "investigan",
+    "live",
+    "nation",
+    "sudamerica"
+   ],
+   "t": "2026-10-27T17:01:08Z"
   }
  ],
  "discord_threads": {
