@@ -696,7 +696,10 @@
   "new:enhypen:enhypen-auto-20261129-manila|ntfy": "2026-10-27T04:31:29Z",
   "new:enhypen:enhypen-auto-20261129-manila|pub:radarkpop-enhypen-shows": "2026-10-27T04:31:29Z",
   "new:enhypen:enhypen-auto-20261129-manila|pub:radarkpop-pais-filipinas": "2026-10-27T04:31:29Z",
-  "new:enhypen:enhypen-auto-20261129-manila|foro": "2026-10-27T04:31:29Z"
+  "new:enhypen:enhypen-auto-20261129-manila|foro": "2026-10-27T04:31:29Z",
+  "official:seventeen:tour:2026-10-27|ntfy": "2026-10-27T06:01:09Z",
+  "official:seventeen:tour:2026-10-27|pub:radarkpop-seventeen-shows": "2026-10-27T06:01:09Z",
+  "official:seventeen:tour:2026-10-27|foro": "2026-10-27T06:01:09Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1534,9 +1537,6 @@
   }
  },
  "news_seen": [
-  "10c02874a71da281",
-  "1137ef61d8c83494",
-  "113ce56df0399c83",
   "11a038a7e12a23d4",
   "11acf55ff2fd475e",
   "11b96b01ecfe7382",
@@ -1912,6 +1912,7 @@
   "806ca7372474e08f",
   "80a3836bf4693a1b",
   "80fd4ba30d8ee089",
+  "815e2457a7e3e7d2",
   "81984c7796be273c",
   "819c5f856b9b7729",
   "82457908a84a4ac1",
@@ -2019,6 +2020,7 @@
   "9eb78cb4a1e8ed1a",
   "9eeb1f42eb447f73",
   "9efe1c9d3e512918",
+  "9f9083a84db2f067",
   "9fb001d5ac0ffae2",
   "a0577af5d8af0b7b",
   "a057da7d239699e0",
@@ -2274,6 +2276,7 @@
   "e708b146e58d1fd0",
   "e7b44a3b30266ad4",
   "e89f63b4fc4534fa",
+  "e92311b9b33e2f70",
   "e924263197407fb9",
   "e99ac58337c231b1",
   "e9d302cd6f93ce78",

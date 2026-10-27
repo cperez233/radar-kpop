@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T10:00:54Z",
+ "updated_at": "2026-10-27T06:00:53Z",
  "groups": {
   "lngshot": [
    {
@@ -47,6 +47,13 @@
   ],
   "seventeen": [
    {
+    "title": "[NOTICE] JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - MACAU 공연 예매 안내 (+ENG/JPN/CHN)",
+    "url": "https://weverse.io/seventeen/notice/40391",
+    "post": "https://x.com/pledis_17/status/2114960284204851323",
+    "when": "2026-10-27T06:00:00Z",
+    "weverse": true
+   },
+   {
     "title": "[NEWS] 잠시 후 9시 10분! MBC <신인감독 김연경2>에 이 출연합니다.",
     "url": "https://x.com/pledis_17/status/2114323587813298373",
     "post": "https://x.com/pledis_17/status/2114323587813298373",
@@ -79,13 +86,6 @@
     "url": "https://x.com/pledis_17/status/2113188609230815483",
     "post": "https://x.com/pledis_17/status/2113188609230815483",
     "when": "2026-10-22T08:40:00Z",
-    "weverse": false
-   },
-   {
-    "title": "[NEWS] JxJ is featuring the cover of @SpotifyKR's K-Pop Dance Party playlist! Click the link below to listen to '12 o'clock' on @Spotify! ht",
-    "url": "https://x.com/pledis_17/status/2112823705696903223",
-    "post": "https://x.com/pledis_17/status/2112823705696903223",
-    "when": "2026-10-21T08:30:00Z",
     "weverse": false
    }
   ],
