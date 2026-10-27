@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-27T12:15:34Z",
+ "updated_at": "2026-10-27T13:00:41Z",
  "sample": false,
  "items": [
   {
@@ -102,6 +102,15 @@
    "published": "2026-10-27T03:00:15Z",
    "url": "https://www.youtube.com/watch?v=ZgHNYECfbjU",
    "image": "https://i.ytimg.com/vi/ZgHNYECfbjU/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "JEONGHAN X JOSHUA (SEVENTEEN) 12 o'clock M/V BEHIND THE SCENES",
+   "date": "2026-10-27",
+   "published": "2026-10-27T12:59:56Z",
+   "url": "https://www.youtube.com/watch?v=DRzc0Ncwmuo",
+   "image": "https://i.ytimg.com/vi/DRzc0Ncwmuo/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -210,15 +219,6 @@
    "published": "2026-10-26T13:00:15Z",
    "url": "https://www.youtube.com/watch?v=XBxP3YI45dw",
    "image": "https://i.ytimg.com/vi/XBxP3YI45dw/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "도겸과 정한 〈정답 없는 여행〉 Coming Soon! 🌴",
-   "date": "2026-10-25",
-   "published": "2026-10-25T15:00:02Z",
-   "url": "https://www.youtube.com/watch?v=qKCQm7gcuhs",
-   "image": "https://i.ytimg.com/vi/qKCQm7gcuhs/hqdefault.jpg"
   },
   {
    "type": "video",
