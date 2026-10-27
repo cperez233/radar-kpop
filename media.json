@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-27T09:30:35Z",
+ "updated_at": "2026-10-27T09:45:34Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-10-27"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "트둥의 숲 TDOONG's crossing EP.02 Highlight #2 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
+   "date": "2026-10-27",
+   "published": "2026-10-27T09:31:27Z",
+   "url": "https://www.youtube.com/watch?v=k6WpDXC5T-I",
+   "image": "https://i.ytimg.com/vi/k6WpDXC5T-I/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -239,15 +248,6 @@
     }
    ],
    "ytm_try": "2026-10-24T02"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "NAYEON SINGLE “NA-sty” CAPTIVATED MODE: ON",
-   "date": "2026-10-23",
-   "published": "2026-10-23T13:00:04Z",
-   "url": "https://www.youtube.com/watch?v=z7afHJ5I0Ws",
-   "image": "https://i.ytimg.com/vi/z7afHJ5I0Ws/hqdefault.jpg"
   },
   {
    "type": "music",
