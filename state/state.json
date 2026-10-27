@@ -692,7 +692,11 @@
   "next:lngshot:lng-20261026-london|foro": "2026-10-26T23:31:54Z",
   "official:lngshot:comeback:2026-10-27|ntfy": "2026-10-27T00:01:25Z",
   "official:lngshot:comeback:2026-10-27|pub:radarkpop-lngshot-music": "2026-10-27T00:01:25Z",
-  "official:lngshot:comeback:2026-10-27|foro": "2026-10-27T00:01:25Z"
+  "official:lngshot:comeback:2026-10-27|foro": "2026-10-27T00:01:25Z",
+  "new:enhypen:enhypen-auto-20261129-manila|ntfy": "2026-10-27T04:31:29Z",
+  "new:enhypen:enhypen-auto-20261129-manila|pub:radarkpop-enhypen-shows": "2026-10-27T04:31:29Z",
+  "new:enhypen:enhypen-auto-20261129-manila|pub:radarkpop-pais-filipinas": "2026-10-27T04:31:29Z",
+  "new:enhypen:enhypen-auto-20261129-manila|foro": "2026-10-27T04:31:29Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1212,6 +1216,13 @@
    "s": "2026-10-18T18:30:00+08:00",
    "c": "Macao",
    "v": "Galaxy Arena"
+  },
+  "enhypen-auto-20261129-manila": {
+   "g": "enhypen",
+   "d": "2026-11-29",
+   "s": "2026-11-29T18:00:00+08:00",
+   "c": "Manila",
+   "v": null
   },
   "enh-20261201-tokio": {
    "g": "enhypen",

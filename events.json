@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T06:30:14Z",
+  "updated_at": "2026-10-27T04:30:50Z",
   "sources": [
     {
       "name": "Live Nation (BTS)",
@@ -1059,6 +1059,21 @@
           "lat": 22.149,
           "lon": 113.556,
           "status": "confirmado"
+        },
+        {
+          "local_date": "2026-11-29",
+          "lat": 14.5995,
+          "lon": 120.9842,
+          "id": "enhypen-auto-20261129-manila",
+          "start": "2026-11-29T18:00:00+08:00",
+          "city": "Manila",
+          "country": "Filipinas",
+          "venue": null,
+          "status": "anunciado",
+          "source": "auto",
+          "src": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVm5kbFpRbHhoalU2MTFTNUtWb0dOYU9jM3hLVGdhYU8ySDhpRmtXWWFmdk83UnNvVml5ZFB3NnJ0MHpjb0VfdHlRei00OURmaWNRb1ktT0NrZGNkeHlCcXRvQTNUUUNYX3ZwaktnNU9wZFJrT3dpNWZoTF9RdkRWcVlEdjFyLThhei1YM0VZVWVRdHJCQ1JLS2YwSExaY3pubDhOaXU3VHlRRGttMEJxQjQzMlJfajZicmg4bWlidzBfWmZNSFFGcVh2Y0lsN2RRb2NwRldtNA?oc=5",
+          "src_kind": "news",
+          "time_tbd": true
         },
         {
           "id": "enh-20261201-tokio",
