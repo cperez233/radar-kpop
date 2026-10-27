@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-27T11:15:37Z",
+ "updated_at": "2026-10-27T12:15:34Z",
  "sample": false,
  "items": [
   {
@@ -114,6 +114,15 @@
   },
   {
    "type": "video",
+   "group": "cortis",
+   "title": "-1900000 aura #CORTIS #코르티스",
+   "date": "2026-10-27",
+   "published": "2026-10-27T12:00:28Z",
+   "url": "https://www.youtube.com/watch?v=8aX96gMmWXI",
+   "image": "https://i.ytimg.com/vi/8aX96gMmWXI/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "ateez",
    "title": "Show your 'Drip' #Shorts",
    "date": "2026-10-27",
@@ -219,15 +228,6 @@
    "published": "2026-10-25T11:59:58Z",
    "url": "https://www.youtube.com/watch?v=XWZ3eOGsvBA",
    "image": "https://i.ytimg.com/vi/XWZ3eOGsvBA/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "that awkward half way jog #CORTIS #코르티스",
-   "date": "2026-10-24",
-   "published": "2026-10-24T04:00:27Z",
-   "url": "https://www.youtube.com/watch?v=XfnIz4oKl48",
-   "image": "https://i.ytimg.com/vi/XfnIz4oKl48/hqdefault.jpg"
   },
   {
    "type": "music",
