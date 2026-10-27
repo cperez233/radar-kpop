@@ -34,24 +34,13 @@ Live at [radar-kpop.vercel.app](https://radar-kpop.vercel.app).
 - **Made for phones.** Swipeable group cards, an installable PWA, English and Spanish, small sounds you can mute, and `prefers-reduced-motion` respected.
 - **Video mode.** A clean 9:16 tour of about 15 seconds, made for screen recording.
 
-## The look
+## Try it in 30 seconds
 
-Pastel lilac paper, thick ink outlines and sticker shadows that sit a few pixels off the edge. Rounded type (Jua and Baloo 2, with Gaegu for handwritten notes), bouncy animations, and one color per group.
-
-![Palette](assets/readme-palette.svg)
-
-| Group | Color |
-|---|---|
-| BTS | `#7B3FE4` |
-| Stray Kids | `#E5323B` |
-| TWICE | `#FF8A2B` |
-| BLACKPINK | `#F2559A` |
-| LNGSHOT | `#0FA3B1` |
-| SEVENTEEN | `#6C7BE8` |
-| ENHYPEN | `#22A36A` |
-| NewJeans | `#F2B705` |
-| CORTIS | `#7CB518` |
-| ATEEZ | `#C08A1E` |
+- [Open the radar](https://radar-kpop.vercel.app/) and tap **Use my location** to see who is closest to you.
+- Jump straight to a group: [BTS](https://radar-kpop.vercel.app/?pick=bts), [Stray Kids](https://radar-kpop.vercel.app/?pick=skz), [TWICE](https://radar-kpop.vercel.app/?pick=twice).
+- See the [sonar view](https://radar-kpop.vercel.app/?view=sonar) of every group around you.
+- Watch the [video mode](https://radar-kpop.vercel.app/?demo=video), a 15-second tour made for screen recording.
+- Switch language with `?lang=en` or `?lang=es`.
 
 ## Why it exists
 
@@ -59,11 +48,15 @@ Tour dates are scattered across label posts, ticket sites and fan accounts. I wa
 
 It only uses public, official schedules and posts. It shows the next confirmed show, not where anyone is right now. Everything is at city level: no airport sightings, no tracking of people.
 
-## Under the hood
+## Stack
 
-The data comes from a curated tour file plus Ticketmaster, iTunes, YouTube, kworb.net, official posts on X and TikTok, news RSS feeds and OpenFreeMap tiles. A GitHub Action runs every 15 minutes, refreshes everything, sends alerts and rebuilds the page. Each step fails softly. Key setup is in [CLAVES.md](CLAVES.md) (Spanish) and alert channels in [ALERTAS.md](ALERTAS.md).
+Plain HTML, CSS and JavaScript, with no framework and no npm install. The globe is a canvas drawn with d3-geo, the chibis are SVG and WebP stickers in the DOM, and the city maps use MapLibre with OpenFreeMap tiles. Python scripts fetch and merge the data, and a Python build step bakes it into a single `index.html`. It deploys on Vercel, runs as an installable PWA with a service worker, and keeps alert subscriptions in a tiny Cloudflare Worker.
 
-There's no framework and no npm install:
+A bit more detail:
+
+- **Data.** A curated tour file plus Ticketmaster, iTunes, YouTube, kworb.net, official posts on X and TikTok, and news RSS feeds.
+- **Updates.** A GitHub Action runs every 15 minutes, refreshes everything, sends alerts (ntfy, Discord) and rebuilds the page. Each step fails softly.
+- **Keys.** Setup is in [CLAVES.md](CLAVES.md) (Spanish); alert channels are in [ALERTAS.md](ALERTAS.md).
 
 ```bash
 python build.py               # builds index.html

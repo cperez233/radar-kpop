@@ -34,24 +34,13 @@ En vivo en [radar-kpop.vercel.app](https://radar-kpop.vercel.app).
 - **Hecho para el celular.** Tarjetas de grupo deslizables, PWA instalable, inglés y español, sonidos suaves que puedes silenciar, y respeta `prefers-reduced-motion`.
 - **Modo video.** Un recorrido limpio en 9:16 de unos 15 segundos, pensado para grabar la pantalla.
 
-## El look
+## Pruébalo en 30 segundos
 
-Papel lila pastel, contornos gruesos de tinta y sombras de sticker que se salen unos píxeles del borde. Tipografía redondeada (Jua y Baloo 2, con Gaegu para las notas a mano), animaciones con rebote y un color por grupo.
-
-![Paleta](assets/readme-palette.svg)
-
-| Grupo | Color |
-|---|---|
-| BTS | `#7B3FE4` |
-| Stray Kids | `#E5323B` |
-| TWICE | `#FF8A2B` |
-| BLACKPINK | `#F2559A` |
-| LNGSHOT | `#0FA3B1` |
-| SEVENTEEN | `#6C7BE8` |
-| ENHYPEN | `#22A36A` |
-| NewJeans | `#F2B705` |
-| CORTIS | `#7CB518` |
-| ATEEZ | `#C08A1E` |
+- [Abre el radar](https://radar-kpop.vercel.app/) y toca **Usar mi ubicación** para ver quién te queda más cerca.
+- Salta directo a un grupo: [BTS](https://radar-kpop.vercel.app/?pick=bts), [Stray Kids](https://radar-kpop.vercel.app/?pick=skz), [TWICE](https://radar-kpop.vercel.app/?pick=twice).
+- Mira la [vista sonar](https://radar-kpop.vercel.app/?view=sonar) con todos los grupos a tu alrededor.
+- Prueba el [modo video](https://radar-kpop.vercel.app/?demo=video), un recorrido de 15 segundos pensado para grabar la pantalla.
+- Cambia el idioma con `?lang=en` o `?lang=es`.
 
 ## Por qué existe
 
@@ -59,11 +48,15 @@ Las fechas de gira están regadas entre posts de las agencias, sitios de boletas
 
 Solo usa calendarios y posts públicos y oficiales. Muestra el próximo show confirmado, no dónde está alguien ahora mismo. Todo es a nivel de ciudad: sin avistamientos en aeropuertos y sin rastrear personas.
 
-## Por dentro
+## Stack
 
-Los datos vienen de un archivo curado de giras más Ticketmaster, iTunes, YouTube, kworb.net, posts oficiales en X y TikTok, feeds de noticias y teselas de OpenFreeMap. Una GitHub Action corre cada 15 minutos, actualiza todo, envía alertas y reconstruye la página. Cada paso falla con suavidad. La configuración de claves está en [CLAVES.md](CLAVES.md) y los canales de alerta en [ALERTAS.md](ALERTAS.md).
+HTML, CSS y JavaScript puros, sin framework y sin `npm install`. El globo es un canvas dibujado con d3-geo, los chibis son stickers SVG y WebP en el DOM, y los mapas de ciudad usan MapLibre con teselas de OpenFreeMap. Scripts en Python traen y combinan los datos, y un paso de build en Python los mete en un solo `index.html`. Se despliega en Vercel, funciona como PWA instalable con service worker y guarda las suscripciones a alertas en un Cloudflare Worker pequeño.
 
-No hay framework ni `npm install`:
+Un poco más de detalle:
+
+- **Datos.** Un archivo curado de giras más Ticketmaster, iTunes, YouTube, kworb.net, posts oficiales en X y TikTok, y feeds RSS de noticias.
+- **Actualizaciones.** Una GitHub Action corre cada 15 minutos, actualiza todo, envía alertas (ntfy, Discord) y reconstruye la página. Cada paso falla con suavidad.
+- **Claves.** La configuración está en [CLAVES.md](CLAVES.md); los canales de alerta en [ALERTAS.md](ALERTAS.md).
 
 ```bash
 python build.py               # genera index.html
