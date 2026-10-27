@@ -1,5 +1,7 @@
 # Radar K-pop
 
+**English** · [Español](README.es.md)
+
 ![Radar K-pop](assets/icons/og-2026.jpg)
 
 **Where are your favorite groups playing next, and how far is it from you?**
