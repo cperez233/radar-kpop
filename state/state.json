@@ -699,7 +699,10 @@
   "new:enhypen:enhypen-auto-20261129-manila|foro": "2026-10-27T04:31:29Z",
   "official:seventeen:tour:2026-10-27|ntfy": "2026-10-27T06:01:09Z",
   "official:seventeen:tour:2026-10-27|pub:radarkpop-seventeen-shows": "2026-10-27T06:01:09Z",
-  "official:seventeen:tour:2026-10-27|foro": "2026-10-27T06:01:09Z"
+  "official:seventeen:tour:2026-10-27|foro": "2026-10-27T06:01:09Z",
+  "news:3a90e4d719be2566|ntfy": "2026-10-27T14:32:24Z",
+  "news:3a90e4d719be2566|pub:radarkpop-bts-news": "2026-10-27T14:32:24Z",
+  "news:3a90e4d719be2566|foro": "2026-10-27T14:32:24Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1537,7 +1540,6 @@
   }
  },
  "news_seen": [
-  "1ab855a98b911db1",
   "1adf2869ec66ad85",
   "1b6a6d6017c1cad9",
   "1c3290f578567187",
@@ -1645,6 +1647,7 @@
   "39e98348ccfb916a",
   "39f76f66cbf0a9cd",
   "3a89eee3403c181f",
+  "3a90e4d719be2566",
   "3a938266a8376791",
   "3b07e31e83d55bd1",
   "3b2d73c034e4e4d2",
@@ -2501,6 +2504,30 @@
     "rosario"
    ],
    "t": "2026-10-27T07:01:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "acuerdo",
+    "asistentes",
+    "audio",
+    "cinepolis",
+    "concierto",
+    "constantes",
+    "era",
+    "fallas",
+    "imagen",
+    "inexistente",
+    "milenio",
+    "practicamente",
+    "presento",
+    "reportan",
+    "testimonio",
+    "trababa",
+    "transmision",
+    "usuarias"
+   ],
+   "t": "2026-10-27T14:32:15Z"
   }
  ],
  "discord_threads": {

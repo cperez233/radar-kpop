@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T02:15:56Z",
+  "updated_at": "2026-10-27T14:30:59Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
@@ -27,10 +27,10 @@
     "twice": {
       "listeners": 14864610,
       "listeners_peak": 27003979,
-      "streams": 12998432966,
+      "streams": 13001909238,
       "top_song": {
         "title": "What is Love?",
-        "streams": 711240301,
+        "streams": 711571704,
         "url": "https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y"
       },
       "yt_subs": 19500000
@@ -38,10 +38,10 @@
     "blackpink": {
       "listeners": 18665251,
       "listeners_peak": 35310315,
-      "streams": 16729489679,
+      "streams": 16733191084,
       "top_song": {
         "title": "How You Like That",
-        "streams": 1301473124,
+        "streams": 1301675969,
         "url": "https://open.spotify.com/track/4SFknyjLcyTLJFPKD2m96o"
       },
       "yt_subs": 101000000
@@ -53,9 +53,9 @@
         "streams": 116883104,
         "url": "https://open.spotify.com/track/46V2ciN6F5bxjQWityNhkY"
       },
-      "listeners": 3763737,
+      "listeners": 3825581,
       "listeners_peak": 6085028,
-      "yt_subs": 2120000
+      "yt_subs": 2130000
     },
     "seventeen": {
       "streams": 8423055108,
@@ -82,10 +82,10 @@
     "newjeans": {
       "listeners": 13652076,
       "listeners_peak": 26786050,
-      "streams": 7946351260,
+      "streams": 7952997385,
       "top_song": {
         "title": "OMG",
-        "streams": 988718700,
+        "streams": 989277477,
         "url": "https://open.spotify.com/track/65FftemJ1DbbZ45DUfHJXE"
       },
       "yt_subs": 8710000
@@ -99,18 +99,18 @@
         "streams": 262336939,
         "url": "https://open.spotify.com/track/34YVCoqIm08nbsxFSPL0Uh"
       },
-      "yt_subs": 7520000
+      "yt_subs": 7530000
     },
     "ateez": {
-      "listeners": 7304783,
+      "listeners": 7325586,
       "listeners_peak": 7413955,
-      "streams": 4258291727,
+      "streams": 4268073769,
       "top_song": {
         "title": "BOUNCY - K-HOT CHILLI PEPPERS",
-        "streams": 200146067,
+        "streams": 200378654,
         "url": "https://open.spotify.com/track/5VGdz8LeTx2M8LHe9iUSQU"
       },
-      "yt_subs": 5780000
+      "yt_subs": 5790000
     }
   }
 }
