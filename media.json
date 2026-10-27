@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-27T09:45:34Z",
+ "updated_at": "2026-10-27T10:15:36Z",
  "sample": false,
  "items": [
   {
@@ -43,6 +43,15 @@
   {
    "type": "video",
    "group": "twice",
+   "title": "👯‍♀️👯‍♀️🪩 #TWICE #트와이스 #TWICEREALITY #TIMETOTWICE #TTT",
+   "date": "2026-10-27",
+   "published": "2026-10-27T10:00:27Z",
+   "url": "https://www.youtube.com/watch?v=654NjPbfHbM",
+   "image": "https://i.ytimg.com/vi/654NjPbfHbM/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
    "title": "트둥의 숲 TDOONG's crossing EP.02 Highlight #2 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
    "date": "2026-10-27",
    "published": "2026-10-27T09:31:27Z",
@@ -57,15 +66,6 @@
    "published": "2026-10-27T09:30:12Z",
    "url": "https://www.youtube.com/watch?v=C1Ei0KlI5vs",
    "image": "https://i.ytimg.com/vi/C1Ei0KlI5vs/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "[TIME TO TWICE] 트둥의 숲 TDOONG's Crossing EP.02",
-   "date": "2026-10-27",
-   "published": "2026-10-27T09:00:02Z",
-   "url": "https://www.youtube.com/watch?v=Zb4TqCg65ZM",
-   "image": "https://i.ytimg.com/vi/Zb4TqCg65ZM/hqdefault.jpg"
   },
   {
    "type": "video",
