@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T02:45:55Z",
+  "updated_at": "2026-10-28T15:01:08Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
@@ -27,10 +27,10 @@
     "twice": {
       "listeners": 14857214,
       "listeners_peak": 27003979,
-      "streams": 13001909238,
+      "streams": 13005524996,
       "top_song": {
         "title": "What is Love?",
-        "streams": 711571704,
+        "streams": 711911197,
         "url": "https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y"
       },
       "yt_subs": 19500000
@@ -53,15 +53,15 @@
         "streams": 116883104,
         "url": "https://open.spotify.com/track/46V2ciN6F5bxjQWityNhkY"
       },
-      "listeners": 3825581,
+      "listeners": 3837608,
       "listeners_peak": 6085028,
       "yt_subs": 2130000
     },
     "seventeen": {
-      "streams": 8423055108,
+      "streams": 8430070868,
       "top_song": {
         "title": "Super",
-        "streams": 328396159,
+        "streams": 328746459,
         "url": "https://open.spotify.com/track/3ZpfXyQgcqdSA1TGNc7Ret"
       },
       "listeners": 4523521,
@@ -99,7 +99,7 @@
         "streams": 264108883,
         "url": "https://open.spotify.com/track/34YVCoqIm08nbsxFSPL0Uh"
       },
-      "yt_subs": 7530000
+      "yt_subs": 7540000
     },
     "ateez": {
       "listeners": 7359442,
