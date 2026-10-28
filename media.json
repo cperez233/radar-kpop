@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T09:00:40Z",
+ "updated_at": "2026-10-28T10:00:44Z",
  "sample": false,
  "items": [
   {
@@ -66,6 +66,15 @@
    "published": "2026-10-28T04:00:08Z",
    "url": "https://www.youtube.com/watch?v=ZRKcdIwSzqM",
    "image": "https://i.ytimg.com/vi/ZRKcdIwSzqM/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) log_logbook#238",
+   "date": "2026-10-28",
+   "published": "2026-10-28T10:00:04Z",
+   "url": "https://www.youtube.com/watch?v=cHbde8psf3E",
+   "image": "https://i.ytimg.com/vi/cHbde8psf3E/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -219,15 +228,6 @@
    "published": "2026-10-26T09:00:13Z",
    "url": "https://www.youtube.com/watch?v=A1-51XmiU5w",
    "image": "https://i.ytimg.com/vi/A1-51XmiU5w/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "박혀 있지 저 높은 곳에 이름이 #Shorts",
-   "date": "2026-10-26",
-   "published": "2026-10-26T13:00:15Z",
-   "url": "https://www.youtube.com/watch?v=XBxP3YI45dw",
-   "image": "https://i.ytimg.com/vi/XBxP3YI45dw/hqdefault.jpg"
   },
   {
    "type": "music",
