@@ -11,5 +11,10 @@ window.RADAR_CONFIG = {
 
   // URL pública de la web, por ejemplo "https://cperez233.github.io/radar-kpop". La usan la tarjeta para compartir,
   // el modo video y build.py (imagen para redes con URL completa). Vacío = la dirección actual.
-  siteUrl: "https://radar-kpop.vercel.app"
+  siteUrl: "https://radar-kpop.vercel.app",
+
+  // De dónde lee la página los datos en vivo (events.json, alerts.json, etc.): la rama "data" del repo servida por GitHub Pages.
+  // El robot actualiza esa rama cada 15 minutos sin tocar main, así los datos frescos no gastan deploys de Vercel.
+  // Si falla o está vacío, la página usa la copia que trae el propio sitio.
+  dataUrl: "https://cperez233.github.io/radar-kpop/"
 };

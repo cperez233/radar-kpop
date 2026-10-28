@@ -55,7 +55,8 @@ Plain HTML, CSS and JavaScript, with no framework and no npm install. The globe 
 A bit more detail:
 
 - **Data.** A curated tour file plus Ticketmaster, iTunes, YouTube, kworb.net, official posts on X and TikTok, and news RSS feeds.
-- **Updates.** A GitHub Action runs every 15 minutes, refreshes everything, sends alerts (ntfy, Discord) and rebuilds the page. Each step fails softly.
+- **Updates.** A GitHub Action runs every 15 minutes, refreshes everything and sends alerts (ntfy, Discord). Each step fails softly.
+- **Live data.** The bot stores the data on the `data` branch (never on `main`), which GitHub Pages serves at `cperez233.github.io/radar-kpop`; the page reads it from there (`dataUrl` in `config.js`). Fresh data costs no Vercel deploys: the site only deploys when the code changes. `index.html` carries a fallback copy; to refresh it before pushing code: `git fetch origin data && git checkout FETCH_HEAD -- . ':!vercel.json' ':!.nojekyll' ':!.gitignore' && python build.py`.
 - **Keys.** Setup is in [CLAVES.md](CLAVES.md) (Spanish); alert channels are in [ALERTAS.md](ALERTAS.md).
 
 ```bash

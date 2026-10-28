@@ -55,7 +55,8 @@ HTML, CSS y JavaScript puros, sin framework y sin `npm install`. El globo es un 
 Un poco más de detalle:
 
 - **Datos.** Un archivo curado de giras más Ticketmaster, iTunes, YouTube, kworb.net, posts oficiales en X y TikTok, y feeds RSS de noticias.
-- **Actualizaciones.** Una GitHub Action corre cada 15 minutos, actualiza todo, envía alertas (ntfy, Discord) y reconstruye la página. Cada paso falla con suavidad.
+- **Actualizaciones.** Una GitHub Action corre cada 15 minutos, actualiza todo y envía alertas (ntfy, Discord). Cada paso falla con suavidad.
+- **Datos en vivo.** El robot guarda los datos en la rama `data` (nunca en `main`), que GitHub Pages sirve en `cperez233.github.io/radar-kpop`; la página los lee de ahí (`dataUrl` en `config.js`). Así los datos frescos no gastan deploys de Vercel: solo se despliega cuando cambia el código. `index.html` trae una copia de respaldo; para refrescarla antes de subir código: `git fetch origin data && git checkout FETCH_HEAD -- . ':!vercel.json' ':!.nojekyll' ':!.gitignore' && python build.py`.
 - **Claves.** La configuración está en [CLAVES.md](CLAVES.md); los canales de alerta en [ALERTAS.md](ALERTAS.md).
 
 ```bash

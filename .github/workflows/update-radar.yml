@@ -1,8 +1,8 @@
 name: Actualizar radar y mandar alertas
 
 # Corre solo cada 15 minutos (GitHub puede retrasarlo) y también a mano desde Actions > Run workflow.
-# Cada paso de datos falla suave (continue-on-error): si un servicio se cae, los demás siguen, la página se
-# reconstruye igual y el resumen del run dice qué funcionó. Las claves están en Settings > Secrets (ver CLAVES.md).
+# Cada paso de datos falla suave (continue-on-error): si un servicio se cae, los demás siguen, los datos se
+# guardan igual en la rama data y el resumen del run dice qué funcionó. Las claves están en Settings > Secrets (ver CLAVES.md).
 
 on:
   schedule:
@@ -31,6 +31,17 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+
+      # Los datos y el estado del robot viven en la rama "data", no en main: cada push a main crea un deploy en Vercel (aunque
+      # vercel-ignore.js lo cancele, cuenta para el límite de 100 al día de la cuenta). GitHub Pages sirve la rama data y la
+      # página la lee en vivo (config.js > dataUrl). Si la rama todavía no existe, se parte de los datos que hay en main.
+      - name: Traer datos y estado de la rama data
+        run: |
+          if git fetch --depth=1 origin data; then
+            git checkout FETCH_HEAD -- $(git ls-tree -r --name-only FETCH_HEAD | grep -Ev '^(vercel\.json|\.nojekyll|\.gitignore)$')
+          else
+            echo "La rama data todavía no existe: se parte de los datos de main"
+          fi
 
       - name: Alerta de prueba
         if: ${{ inputs.prueba }}
@@ -124,10 +135,6 @@ jobs:
           VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
         run: python alerts/engine.py
 
-      - name: Reconstruir index.html
-        if: ${{ !inputs.prueba }}
-        run: python build.py
-
       - name: Resumen del run y vigilante (avisa si una fuente empieza a fallar)
         if: ${{ always() && !inputs.prueba }}
         env:
@@ -152,14 +159,23 @@ jobs:
         run: |
           if [ "$(date -u +%H%M)" -lt 0015 ]; then gh api -X PUT "repos/${{ github.repository }}/actions/workflows/update-radar.yml/enable" && echo "keepalive ok"; fi
 
-      - name: Commit si hubo cambios
+      # Solo a la rama data: main (y por tanto Vercel) no se toca. index.html ya no se reconstruye aquí; la copia de datos que
+      # trae el sitio se refresca cuando se sube código (ver README.es.md, "Datos en vivo").
+      - name: Guardar datos en la rama data
         if: ${{ !inputs.prueba }}
         run: |
-          git config user.name "radar-bot"
-          git config user.email "radar-bot@users.noreply.github.com"
-          git add events.json alerts.json sightings.json media.json stats.json notices.json socialfeed.json rosterwatch.json lightsticks.json releases.json index.html sw.js state/ CHANGELOG.md
-          if [ -f sightings/user_ids.json ]; then git add sightings/user_ids.json; fi
+          git config --global user.name "radar-bot"
+          git config --global user.email "radar-bot@users.noreply.github.com"
+          DATOS="events.json alerts.json sightings.json media.json stats.json notices.json socialfeed.json rosterwatch.json lightsticks.json releases.json state"
+          if [ -f sightings/user_ids.json ]; then DATOS="$DATOS sightings/user_ids.json"; fi
+          DIR="$RUNNER_TEMP/data"
+          if git fetch --depth=1 origin data; then git worktree add -q "$DIR" FETCH_HEAD; else git worktree add -q --orphan -b data "$DIR"; fi
+          cp -r --parents $DATOS "$DIR/"
+          cp .gitignore "$DIR/.gitignore"  # mismas exclusiones que main (state/social.json no se publica)
+          touch "$DIR/.nojekyll"           # GitHub Pages sirve los archivos tal cual
+          echo '{"git":{"deploymentEnabled":false}}' > "$DIR/vercel.json"  # y Vercel no despliega esta rama
+          cd "$DIR"
+          git add -A
           git diff --cached --quiet && exit 0
-          git commit -m "Actualiza radar y alertas"
-          # si alguien subió cambios mientras corría: se trae main (gana el dato nuevo del robot), se reconstruye y se reintenta
-          git push || { git pull --rebase -X theirs origin main && python build.py && git add index.html sw.js && git commit --amend --no-edit && git push; }
+          git commit -q -m "Actualiza datos del radar"
+          git push origin HEAD:data || { sleep 5; git push origin HEAD:data; }

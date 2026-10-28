@@ -10,6 +10,14 @@
   var ROSTER = window.RADAR_ROSTER || {};
   var CHANGES = window.RADAR_CHANGES || [];
   var data = window.RADAR_DATA0 || { groups: [], sources: [] };
+  /* datos en vivo: se piden a CFG.dataUrl (rama data del repo en GitHub Pages, que el robot actualiza sin deploy);
+     si ese servidor falla antes de haber respondido alguna vez, a la copia que trae el propio sitio (después ya no: sería más vieja) */
+  var DATA_URL = CFG.dataUrl ? String(CFG.dataUrl).replace(/\/*$/, '/') : '', dataLive = false;
+  function getJSON(u) { return fetch(u, { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+  function getData(name) {
+    if (!DATA_URL) return getJSON(name);
+    return getJSON(DATA_URL + name).then(function (j) { dataLive = true; return j; }, function (e) { if (dataLive) throw e; return getJSON(name); });
+  }
   var K = Math.PI / 180;
   var SHOW_MS = 4 * 3600e3;
   var SEOUL = { lat: 37.5665, lon: 126.978 };
@@ -1510,11 +1518,11 @@
   function cardsSoon() { if (cardsT || allT || !(data && data.groups)) return; cardsT = setTimeout(function () { cardsT = 0; renderCards(); }, 40); }
   function renderSoon() { if (allT) return; allT = setTimeout(function () { allT = 0; renderAll(); }, 40); }
   function pollNotices() {
-    return fetch('notices.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    return getData('notices.json')
       .then(function (j) { if (j && j.groups && changed('notices', j)) { notices = j.groups; cardsSoon(); } }).catch(function () { /* sin avisos */ });
   }
   function pollStats() {
-    return fetch('stats.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    return getData('stats.json')
       .then(function (j) { if (j && j.groups && changed('stats', j)) { groupStats = j.groups; cardsSoon(); } }).catch(function () { /* sin stats: solo los datos locales */ });
   }
   function optTxt(o) { var p = o.split('|'); return p.length > 1 && lang === 'en' ? p[1] : p[0]; }
@@ -1565,7 +1573,7 @@
      antes "Próximo estreno · D-n", el día "¡Sale hoy!", y hasta 10 días después "Nuevo"; luego desaparece. */
   var announced = ((window.RADAR_EXTRA || {}).releases || {}).items || [];
   function pollReleases() {
-    return fetch('releases.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    return getData('releases.json')
       .then(function (j) { if (j && Array.isArray(j.items) && changed('releases', j)) { announced = j.items; cardsSoon(); } }).catch(function () { /* sin anuncios */ });
   }
   var NEW_DAYS = 10;
@@ -1977,7 +1985,7 @@
   var GP = { id: null, tab: 'home', mem: null };
   var GP_TABS = [['home', 'gpHome', '홈'], ['members', 'gpMembers', '멤버'], ['tour', 'gpTour', '투어'], ['music', 'gpMusic', '음악'], ['social', 'gpSocial', 'SNS']];
   function pollSocial() {
-    return fetch('socialfeed.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    return getData('socialfeed.json')
       .then(function (j) { if (j && j.groups) { socialFeed = j.groups; if (GP.id) renderGP(); } }).catch(function () { /* sin redes todavía */ });
   }
   function person(gid, mid) { var g = PEOPLE[gid]; return (g && g.members && g.members[mid]) || {}; }
@@ -1986,7 +1994,7 @@
   var rosterWatch = ((window.RADAR_EXTRA || {}).roster || {}).items || [];
   var BACK_DAYS = 45;
   function pollRoster() {
-    return fetch('rosterwatch.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    return getData('rosterwatch.json')
       .then(function (j) { if (j && Array.isArray(j.items) && changed('roster', j)) { rosterWatch = j.items; cardsSoon(); if (GP.id) renderGP(); } }).catch(function () { /* sin vigilancia todavía */ });
   }
   function isoDay(ms) { return new Date(ms + 9 * 36e5).toISOString().slice(0, 10); }
@@ -2444,7 +2452,7 @@
 
   /* ================= datos: sondeo cada minuto ================= */
   function poll() {
-    return fetch('events.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (j) {
+    return getData('events.json').then(function (j) {
       if (!j || !Array.isArray(j.groups)) throw new Error('formato');
       feedOk = true; lastCheck = Date.now();
       if (JSON.stringify(j) !== JSON.stringify(data)) { data = j; renderSoon(); } else renderMeta();
@@ -2454,7 +2462,7 @@
   try { (JSON.parse(seenRaw || '[]') || []).forEach(function (k) { seen[k] = 1; }); } catch (e) { seen = {}; }
   var firstFeed = seenRaw == null;
   function pollFeed() {
-    return fetch('alerts.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (j) {
+    return getData('alerts.json').then(function (j) {
       if (!j || !Array.isArray(j.alerts)) return;
       feed = j.alerts.slice().sort(function (a, b) { return Date.parse(b.when) - Date.parse(a.when); });
       var fresh = feed.filter(function (a) { return !seen[feedKey(a)] && now() - Date.parse(a.when) < 36 * 3600e3; });
@@ -2474,7 +2482,7 @@
   function sightKey(a) { return String(a.id || [a.group, a.city, a.when].join('|')); }
   function okUrl(u) { return /^https:\/\/(x|twitter)\.com\//.test(u || '') ? u : ''; }
   function pollSights() {
-    return fetch('sightings.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (j) {
+    return getData('sightings.json').then(function (j) {
       if (!j || !Array.isArray(j.items)) return;
       sightsMeta = { sample: !!j.sample, updated: j.updated_at };
       sights = j.items.filter(function (a) { return a && isFinite(a.lat) && isFinite(a.lon) && a.city && a.group; });
@@ -2660,7 +2668,7 @@
     if (reduce) done(); else { box.classList.add('pl-closing'); setTimeout(done, 240); }
   }
   function pollMedia() {
-    return fetch('media.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    return getData('media.json')
       .then(function (j) { if (j && Array.isArray(j.items) && changed('media', j)) { media = j.items; renderMedia(); cardsSoon(); } }).catch(function () { renderMedia(); });
   }
   function renderMedia() {

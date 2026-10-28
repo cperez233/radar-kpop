@@ -1,5 +1,11 @@
 {
   "ignoreCommand": "node vercel-ignore.js",
+  "git": {
+    "deploymentEnabled": {
+      "data": false,
+      "claude/*": false
+    }
+  },
   "headers": [
     {
       "source": "/(.*)",

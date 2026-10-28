@@ -1,11 +1,12 @@
 /* Radar K-pop service worker.
    - The page, scripts, styles and data (events, alerts, sightings, media): network first, so a new deploy shows up
-     on the very next visit. The saved copy is only used offline.
+     on the very next visit. The saved copy is only used offline. Same for the live data on GitHub Pages (config.js > dataUrl).
    - Images, chibis, map data and fonts: served from the cache right away and refreshed in the background.
    - Push notifications: shows the alert and opens the radar when tapped.
    build.py writes VERSION on every build, so the browser always notices a new worker. */
-var VERSION = '586a308453';
+var VERSION = 'c9bca3bba8';
 var CACHE = 'radar-kpop-' + VERSION;
+var DATA_HOST = /\.github\.io$/;
 var SHELL = ['./', 'index.html', 'config.js', 'manifest.webmanifest', 'assets/app.css', 'assets/app.js', 'assets/land-110m.json',
   'assets/vendor/d3-array.min.js', 'assets/vendor/d3-geo.min.js', 'assets/vendor/topojson-client.min.js',
   'assets/icons/icon-192.png', 'assets/icons/favicon.svg'];
@@ -36,6 +37,8 @@ self.addEventListener('fetch', function (e) {
   if (req.method !== 'GET') return;
   var url = new URL(req.url), same = url.origin === self.location.origin;
   var fonts = /fonts\.(googleapis|gstatic)\.com$/.test(url.hostname);
+  // datos en vivo (config.js > dataUrl, en GitHub Pages): red primero y la última copia guardada sin conexión
+  if (DATA_HOST.test(url.hostname) && /\.json$/.test(url.pathname)) { e.respondWith(networkFirst(req, url.origin + url.pathname)); return; }
   if (!same && !fonts) return;  // mapas, portadas y demás terceros: directo a la red
   var shell = same && (req.mode === 'navigate' || /\.(js|css|json|webmanifest|html)$/.test(url.pathname) || url.pathname.endsWith('/'));
   if (shell && !/land-110m\.json$/.test(url.pathname)) {
