@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T11:30:35Z",
+ "updated_at": "2026-10-28T12:00:48Z",
  "sample": false,
  "items": [
   {
@@ -72,7 +72,7 @@
    "group": "seventeen",
    "title": "[GOING SEVENTEEN] EP.164 WHO ARE YOU? #1",
    "date": "2026-10-28",
-   "published": "2026-10-28T05:25:32Z",
+   "published": "2026-10-28T11:58:11Z",
    "url": "https://www.youtube.com/watch?v=S08KzAC4vDY",
    "image": "https://i.ytimg.com/vi/S08KzAC4vDY/hqdefault.jpg"
   },
@@ -84,6 +84,15 @@
    "published": "2026-10-28T04:00:08Z",
    "url": "https://www.youtube.com/watch?v=ZRKcdIwSzqM",
    "image": "https://i.ytimg.com/vi/ZRKcdIwSzqM/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) - 'Drip' Visualizer",
+   "date": "2026-10-28",
+   "published": "2026-10-28T12:00:02Z",
+   "url": "https://www.youtube.com/watch?v=xFPjJVY72y8",
+   "image": "https://i.ytimg.com/vi/xFPjJVY72y8/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -183,15 +192,6 @@
    "published": "2026-10-27T12:00:28Z",
    "url": "https://www.youtube.com/watch?v=8aX96gMmWXI",
    "image": "https://i.ytimg.com/vi/8aX96gMmWXI/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "Show your 'Drip' #Shorts",
-   "date": "2026-10-27",
-   "published": "2026-10-27T11:00:18Z",
-   "url": "https://www.youtube.com/watch?v=VWkNhFekwCU",
-   "image": "https://i.ytimg.com/vi/VWkNhFekwCU/hqdefault.jpg"
   },
   {
    "type": "video",
