@@ -721,7 +721,10 @@
   "today:lngshot:lng-20261028-edinburgh|ntfy": "2026-10-28T08:01:04Z",
   "today:lngshot:lng-20261028-edinburgh|pub:radarkpop-lngshot-shows": "2026-10-28T08:01:04Z",
   "today:lngshot:lng-20261028-edinburgh|pub:radarkpop-pais-reinounido": "2026-10-28T08:01:04Z",
-  "today:lngshot:lng-20261028-edinburgh|foro": "2026-10-28T08:01:04Z"
+  "today:lngshot:lng-20261028-edinburgh|foro": "2026-10-28T08:01:04Z",
+  "official:seventeen:comeback:2026-10-28|ntfy": "2026-10-28T09:01:09Z",
+  "official:seventeen:comeback:2026-10-28|pub:radarkpop-seventeen-music": "2026-10-28T09:01:09Z",
+  "official:seventeen:comeback:2026-10-28|foro": "2026-10-28T09:01:09Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1559,10 +1562,6 @@
   }
  },
  "news_seen": [
-  "21b109f093ee5e38",
-  "21e07935168f73ff",
-  "224cb7293c310b76",
-  "228f21ad68355146",
   "22f2acb35bca50fe",
   "2308d4b1cdc4f506",
   "23493908e30eb222",
@@ -1602,6 +1601,7 @@
   "2cf605f125d39e69",
   "2cfa0a8b8ac64284",
   "2d1815e8d0da986e",
+  "2d955e58e697ff56",
   "2e190e633d3c05a5",
   "2eac635281919fb3",
   "2eec72ac200e61ec",
@@ -2101,6 +2101,7 @@
   "b238ab022b56a96c",
   "b2414ab488544187",
   "b2914fac67768499",
+  "b297d212058d310d",
   "b31196d76f3368b6",
   "b36782312fba7bfa",
   "b3cbf79d69e4f719",
@@ -2186,6 +2187,7 @@
   "c6bb4877da0a26e3",
   "c6f3c7ff3704ec72",
   "c71700221c950814",
+  "c7426ccde3567ce2",
   "c75541069d2a12e5",
   "c762b25ee784d8d7",
   "c83c3e3cdebe8430",
@@ -2305,6 +2307,7 @@
   "eb9db11242eda275",
   "ec325e1df85ea8ee",
   "ec6ec336427e3264",
+  "ecc149d792eb1718",
   "ed3ab22a21249dfc",
   "ee16ed74a93dfbcf",
   "ee2addd6800696d7",

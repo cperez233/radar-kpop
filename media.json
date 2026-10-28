@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T07:00:40Z",
+ "updated_at": "2026-10-28T09:00:40Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-10-28"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "Love Me Like I Do...♥ #StrayKids #스트레이키즈 #창빈 #Changbin #YouMakeStrayKidsStay",
+   "date": "2026-10-28",
+   "published": "2026-10-28T09:00:06Z",
+   "url": "https://www.youtube.com/watch?v=-ehbW2WIOBw",
+   "image": "https://i.ytimg.com/vi/-ehbW2WIOBw/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -165,15 +174,6 @@
    "published": "2026-10-26T11:00:09Z",
    "url": "https://www.youtube.com/watch?v=10rApTYO5E4",
    "image": "https://i.ytimg.com/vi/10rApTYO5E4/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "햅삐 버rrr스데이 to Lee Know~🎹🎉 #StrayKids #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay",
-   "date": "2026-10-26",
-   "published": "2026-10-26T05:00:05Z",
-   "url": "https://www.youtube.com/watch?v=h2GZzh5iRiY",
-   "image": "https://i.ytimg.com/vi/h2GZzh5iRiY/hqdefault.jpg"
   },
   {
    "type": "video",
