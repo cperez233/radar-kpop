@@ -728,7 +728,10 @@
   "today:bts:bts-20261028-saopaulo|ntfy": "2026-10-28T11:01:10Z",
   "today:bts:bts-20261028-saopaulo|pub:radarkpop-bts-shows": "2026-10-28T11:01:10Z",
   "today:bts:bts-20261028-saopaulo|pub:radarkpop-pais-brasil": "2026-10-28T11:01:10Z",
-  "today:bts:bts-20261028-saopaulo|foro": "2026-10-28T11:01:10Z"
+  "today:bts:bts-20261028-saopaulo|foro": "2026-10-28T11:01:10Z",
+  "official:skz:tour:2026-10-28|ntfy": "2026-10-28T14:01:13Z",
+  "official:skz:tour:2026-10-28|pub:radarkpop-skz-shows": "2026-10-28T14:01:13Z",
+  "official:skz:tour:2026-10-28|foro": "2026-10-28T14:01:13Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1566,7 +1569,6 @@
   }
  },
  "news_seen": [
-  "275afe85688bcdce",
   "279cd74c3b8d0092",
   "28144c1da5df33e2",
   "2848387294dd91d0",
@@ -1861,6 +1863,7 @@
   "74bf08df8b15d60b",
   "74bf3ce2479745b7",
   "7522e6d34d2a5828",
+  "75af10c2436953ab",
   "75d20a0688a1db62",
   "75e89e2eef9699bd",
   "762adbbad78b09a5",
