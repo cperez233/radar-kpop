@@ -746,7 +746,10 @@
   "live:lng-20261028-edinburgh|foro": "2026-10-28T18:46:49Z",
   "news:1c23bb64229573b1|ntfy": "2026-10-28T19:31:14Z",
   "news:1c23bb64229573b1|pub:radarkpop-bts-news": "2026-10-28T19:31:14Z",
-  "news:1c23bb64229573b1|foro": "2026-10-28T19:31:14Z"
+  "news:1c23bb64229573b1|foro": "2026-10-28T19:31:14Z",
+  "live:bts-20261028-saopaulo|ntfy": "2026-10-28T22:16:28Z",
+  "live:bts-20261028-saopaulo|pub:radarkpop-bts-shows": "2026-10-28T22:16:28Z",
+  "live:bts-20261028-saopaulo|foro": "2026-10-28T22:16:28Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
