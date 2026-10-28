@@ -1552,8 +1552,6 @@
   }
  },
  "news_seen": [
-  "1ed86a2b635db8af",
-  "1fcaff10541f1744",
   "1fdcfdfc76d2c945",
   "1ffcba48e01a4f7c",
   "2057f93f72a98e16",
@@ -1576,6 +1574,7 @@
   "25707cb48d1b6ce2",
   "265c313926279f56",
   "26bb92a87718a3d7",
+  "26d5a3cd968b2f13",
   "270e3e9ac9decc20",
   "27216f3cf16a5869",
   "27305dd99f2739e8",
@@ -1610,6 +1609,7 @@
   "309f31ccc3f5538d",
   "30f70de44d96a3a7",
   "317b82dacc069601",
+  "31bdd2d236d13aa0",
   "32c050ddf51191a3",
   "3307060a4adc9378",
   "33ce7fcc82e89b3d",
@@ -2514,6 +2514,20 @@
     "vitores"
    ],
    "t": "2026-10-27T23:45:59Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "army",
+    "debut",
+    "espera",
+    "historico",
+    "llego",
+    "shows",
+    "tres"
+   ],
+   "t": "2026-10-28T03:16:16Z"
   }
  ],
  "discord_threads": {
