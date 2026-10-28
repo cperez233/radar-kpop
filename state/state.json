@@ -731,7 +731,10 @@
   "today:bts:bts-20261028-saopaulo|foro": "2026-10-28T11:01:10Z",
   "official:skz:tour:2026-10-28|ntfy": "2026-10-28T14:01:13Z",
   "official:skz:tour:2026-10-28|pub:radarkpop-skz-shows": "2026-10-28T14:01:13Z",
-  "official:skz:tour:2026-10-28|foro": "2026-10-28T14:01:13Z"
+  "official:skz:tour:2026-10-28|foro": "2026-10-28T14:01:13Z",
+  "news:8a65451cbc2763a5|ntfy": "2026-10-28T14:46:38Z",
+  "news:8a65451cbc2763a5|pub:radarkpop-bts-news": "2026-10-28T14:46:38Z",
+  "news:8a65451cbc2763a5|foro": "2026-10-28T14:46:38Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1569,7 +1572,6 @@
   }
  },
  "news_seen": [
-  "28144c1da5df33e2",
   "2848387294dd91d0",
   "286eb00d5b68855f",
   "287c319b25cc5c4f",
@@ -1942,6 +1944,7 @@
   "8a32c9267aa10c4e",
   "8a3993c2e0cafa12",
   "8a5f2926673fba9c",
+  "8a65451cbc2763a5",
   "8a7f47febe546fce",
   "8a8b8181b78387d4",
   "8a96d25f7b7fac4d",
@@ -2538,6 +2541,21 @@
     "tres"
    ],
    "t": "2026-10-28T11:30:55Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "concierto",
+    "conquista",
+    "desde",
+    "espectadores",
+    "mil",
+    "peru",
+    "reune",
+    "taquilla"
+   ],
+   "t": "2026-10-28T14:46:30Z"
   }
  ],
  "discord_threads": {
