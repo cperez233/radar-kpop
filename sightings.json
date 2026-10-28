@@ -1,0 +1,87 @@
+{
+  "updated_at": "2026-10-27T08:30:38Z",
+  "source": "rsshub",
+  "sample": false,
+  "items": [
+    {
+      "id": "x-2114994940346511501",
+      "group": "lngshot",
+      "group_name": "LNGSHOT",
+      "city": "Londres",
+      "country": "Reino Unido",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "text": "London SHOTTIES, y’all are a #Masterpiece 🇬🇧 Dance practice video drops today at 6PM KST! #SWISH #LNGSHOT",
+      "url": "https://x.com/LNGSHOT4sho/status/2114994940346511501",
+      "account": "LNGSHOT4sho",
+      "when": "2026-10-27T08:17:43Z"
+    },
+    {
+      "id": "x-2114597966254358699",
+      "group": "seventeen",
+      "group_name": "SEVENTEEN",
+      "city": "Incheon",
+      "country": "Corea del Sur",
+      "lat": 37.4563,
+      "lon": 126.7052,
+      "text": "𝗝𝗘𝗢𝗡𝗚𝗛𝗔𝗡 𝗫 𝗝𝗢𝗦𝗛𝗨𝗔 𝗝𝗢𝗨𝗥𝗡𝗘𝗬 𝗜𝗡𝗧𝗢 [𝗗𝗥𝗘𝗔𝗠𝗜𝗡𝗚] - 𝗜𝗡𝗖𝗛𝗘𝗢𝗡 𝗢𝗡𝗟𝗜𝗡𝗘 𝗚𝗨𝗜𝗗𝗘✅ 2026.10.30 7PM (KST) 2026.10.31 6PM (KST) 2026.11.1 5PM (KST) #JxJ #정한X조슈아 #JOURNEY_INTO_DREAMING_INCHEON",
+      "url": "https://x.com/pledis_17/status/2114597966254358699",
+      "account": "pledis_17",
+      "when": "2026-10-26T06:00:17Z"
+    },
+    {
+      "id": "x-2113103051016011996",
+      "group": "seventeen",
+      "group_name": "SEVENTEEN",
+      "city": "Seúl",
+      "country": "Corea del Sur",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "text": "our 𝗗𝗥𝗘𝗔𝗠𝗦𝗖𝗔𝗣𝗘, landed in Seoul 📍Location 서울역, 서울 용산구 한강대로 405 #JxJ #정한X조슈아 #DREAMSCAPE",
+      "url": "https://x.com/pledis_17/status/2113103051016011996",
+      "account": "pledis_17",
+      "when": "2026-10-22T03:00:01Z"
+    },
+    {
+      "id": "fan-newjeans-melbourne-20261021",
+      "group": "newjeans",
+      "group_name": "NewJeans",
+      "city": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8136,
+      "lon": 144.9631,
+      "fan": true,
+      "fans": 2,
+      "text": "",
+      "url": "",
+      "account": "",
+      "when": "2026-10-21T08:51:30Z"
+    },
+    {
+      "id": "x-2111821623900983748",
+      "group": "enhypen",
+      "group_name": "ENHYPEN",
+      "city": "Macao",
+      "country": "China",
+      "lat": 22.1987,
+      "lon": 113.5439,
+      "text": "[#오늘의ENHYPEN] 지난 3일을 사랑과 행복으로 가득 채워준 우리 엔진! 고맙고 사랑합니다💖 엔진이 최고야! 🫶 # 261018 @ BLOOD SAGA IN MACAU",
+      "url": "https://x.com/ENHYPEN/status/2111821623900983748",
+      "account": "ENHYPEN",
+      "when": "2026-10-18T14:08:05Z"
+    },
+    {
+      "id": "x-2108740853376360542",
+      "group": "cortis",
+      "group_name": "CORTIS",
+      "city": "Singapur",
+      "country": "Singapur",
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "text": "Singapore GP was unforgettable 🏎️ thx for vibing with us 🔗 #CORTIS #코르티스 #CORTIS_REDRED #GREENGREEN",
+      "url": "https://x.com/cortis_bighit/status/2108740853376360542",
+      "account": "cortis_bighit",
+      "when": "2026-10-10T02:06:12Z"
+    }
+  ]
+}

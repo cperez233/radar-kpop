@@ -1,0 +1,1622 @@
+{
+  "updated_at": "2026-10-27T04:30:50Z",
+  "sources": [
+    {
+      "name": "Live Nation (BTS)",
+      "url": "https://www.livenation.com/artist/K8vZ917KpXV/bts-events"
+    },
+    {
+      "name": "Wikipedia, Arirang World Tour",
+      "url": "https://en.wikipedia.org/wiki/Arirang_World_Tour"
+    },
+    {
+      "name": "Wikipedia, Run It World Tour",
+      "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
+    },
+    {
+      "name": "KpopOfficial (Stray Kids)",
+      "url": "https://kpopofficial.com/schedule/stray-kids/"
+    },
+    {
+      "name": "JamBase (Stray Kids)",
+      "url": "https://www.jambase.com/band/stray-kids"
+    },
+    {
+      "name": "Wikipedia, This Is For World Tour",
+      "url": "https://en.wikipedia.org/wiki/This_Is_For_World_Tour"
+    },
+    {
+      "name": "Wikipedia, Deadline World Tour (BLACKPINK)",
+      "url": "https://en.wikipedia.org/wiki/Deadline_World_Tour"
+    },
+    {
+      "name": "Soompi (LNGSHOT con Jay Park)",
+      "url": "https://www.soompi.com/article/1847441wpp/jay-park-announces-2026-world-tour-stops-with-lngshot",
+      "name_en": "Soompi (LNGSHOT with Jay Park)"
+    },
+    {
+      "name": "Setlist.fm (LNGSHOT)",
+      "url": "https://www.setlist.fm/setlists/lngshot-1b9d5104.html"
+    },
+    {
+      "name": "allkpop (comeback de LNGSHOT)",
+      "url": "https://www.allkpop.com/article/2026/09/lngshot-eye-a-late-october-or-early-november-return-with-new-music",
+      "name_en": "allkpop (LNGSHOT comeback)"
+    },
+    {
+      "name": "Wikipedia, NEW_ World Tour (SEVENTEEN)",
+      "url": "https://en.wikipedia.org/wiki/New_World_Tour"
+    },
+    {
+      "name": "Soompi (gira de JxJ)",
+      "url": "https://www.soompi.com/article/1873646wpp/seventeen-unit-jxj-jeonghan-x-joshua-announces-stops-for-tour-journey-into-dreaming",
+      "name_en": "Soompi (JxJ tour)"
+    },
+    {
+      "name": "NME (Blood Saga de ENHYPEN)",
+      "url": "https://www.nme.com/news/music/enhypen-announce-details-of-blood-saga-world-tour-for-2026-and-2027-3940808",
+      "name_en": "NME (ENHYPEN Blood Saga)"
+    },
+    {
+      "name": "PR Times (ENHYPEN en Japón)",
+      "url": "https://prtimes.jp/main/html/rd/p/000000684.000045862.html",
+      "name_en": "PR Times (ENHYPEN in Japan)"
+    },
+    {
+      "name": "Wikipedia, presentaciones de NewJeans",
+      "url": "https://en.wikipedia.org/wiki/List_of_NewJeans_live_performances",
+      "name_en": "Wikipedia, NewJeans live performances"
+    },
+    {
+      "name": "Star News (NewJeans en 2026)",
+      "url": "https://starnewskorea.com/en/music/2026/10/14/2026101410031571957",
+      "name_en": "Star News (NewJeans in 2026)"
+    },
+    {
+      "name": "Consequence (gira de CORTIS)",
+      "url": "https://consequence.net/2026/06/cortis-2026-north-american-put-your-phone-down-tour/",
+      "name_en": "Consequence (CORTIS tour)"
+    },
+    {
+      "name": "KpopOfficial (CORTIS)",
+      "url": "https://kpopofficial.com/schedule/cortis/"
+    },
+    {
+      "name": "Namane (fechas de Seúl y Japón de CORTIS)",
+      "url": "https://blog.namanecard.com/en/cortis-put-your-phone-down-tour-2026-dates/",
+      "name_en": "Namane (CORTIS Seoul and Japan dates)"
+    },
+    {
+      "name": "JoongAng Daily (gira ZERO TO ALL de ATEEZ)",
+      "name_en": "JoongAng Daily (ATEEZ ZERO TO ALL tour)",
+      "url": "https://www.koreajoongangdaily.com/entertainment/ateez-to-open-2027-zero-to-all-world-tour-in-incheonnbsp/12913665"
+    },
+    {
+      "name": "Wikipedia, giras de ATEEZ",
+      "name_en": "Wikipedia, ATEEZ concert tours",
+      "url": "https://en.wikipedia.org/wiki/List_of_Ateez_concert_tours"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bts",
+      "name": "BTS",
+      "tour": "Arirang World Tour",
+      "watch": [],
+      "events": [
+        {
+          "id": "bts-20261009-lima",
+          "local_date": "2026-10-09",
+          "start": "2026-10-09T20:00:00-05:00",
+          "city": "Lima",
+          "country": "Perú",
+          "venue": "Estadio Nacional",
+          "lat": -12.0672,
+          "lon": -77.0333,
+          "status": "anunciado"
+        },
+        {
+          "id": "bts-20261016-santiago",
+          "local_date": "2026-10-16",
+          "start": "2026-10-16T20:00:00-03:00",
+          "city": "Santiago",
+          "country": "Chile",
+          "venue": "Estadio Nacional Julio Martínez Prádanos",
+          "lat": -33.4645,
+          "lon": -70.6107,
+          "status": "confirmado",
+          "onsale": "2026-03-27T16:00:00Z"
+        },
+        {
+          "id": "bts-20261017-santiago",
+          "local_date": "2026-10-17",
+          "start": "2026-10-17T20:00:00-03:00",
+          "city": "Santiago",
+          "country": "Chile",
+          "venue": "Estadio Nacional Julio Martínez Prádanos",
+          "lat": -33.4645,
+          "lon": -70.6107,
+          "status": "confirmado",
+          "onsale": "2026-03-27T16:00:00Z"
+        },
+        {
+          "id": "bts-20261021-laplata",
+          "local_date": "2026-10-21",
+          "start": "2026-10-21T20:00:00-03:00",
+          "city": "La Plata",
+          "country": "Argentina",
+          "venue": "Estadio Único Diego Armando Maradona",
+          "lat": -34.9138,
+          "lon": -57.9893,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261023-laplata",
+          "local_date": "2026-10-23",
+          "start": "2026-10-23T20:00:00-03:00",
+          "city": "La Plata",
+          "country": "Argentina",
+          "venue": "Estadio Único Diego Armando Maradona",
+          "lat": -34.9138,
+          "lon": -57.9893,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261024-laplata",
+          "local_date": "2026-10-24",
+          "start": "2026-10-24T20:00:00-03:00",
+          "city": "La Plata",
+          "country": "Argentina",
+          "venue": "Estadio Único Diego Armando Maradona",
+          "lat": -34.9138,
+          "lon": -57.9893,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261028-saopaulo",
+          "local_date": "2026-10-28",
+          "start": "2026-10-28T20:00:00-03:00",
+          "city": "São Paulo",
+          "country": "Brasil",
+          "venue": "Estádio MorumBIS",
+          "lat": -23.6,
+          "lon": -46.72,
+          "status": "confirmado",
+          "onsale": "2026-04-16T23:21:00Z"
+        },
+        {
+          "id": "bts-20261030-saopaulo",
+          "local_date": "2026-10-30",
+          "start": "2026-10-30T20:00:00-03:00",
+          "city": "São Paulo",
+          "country": "Brasil",
+          "venue": "Estádio MorumBIS",
+          "lat": -23.6,
+          "lon": -46.72,
+          "status": "confirmado",
+          "onsale": "2026-04-16T23:22:00Z"
+        },
+        {
+          "id": "bts-20261031-saopaulo",
+          "local_date": "2026-10-31",
+          "start": "2026-10-31T20:00:00-03:00",
+          "city": "São Paulo",
+          "country": "Brasil",
+          "venue": "Estádio MorumBIS",
+          "lat": -23.6,
+          "lon": -46.72,
+          "status": "confirmado",
+          "onsale": "2026-04-16T23:23:00Z"
+        },
+        {
+          "id": "bts-20261119-kaohsiung",
+          "local_date": "2026-11-19",
+          "start": "2026-11-19T20:00:00+08:00",
+          "city": "Kaohsiung",
+          "country": "Taiwán",
+          "venue": "Kaohsiung National Stadium",
+          "lat": 22.701,
+          "lon": 120.294,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261121-kaohsiung",
+          "local_date": "2026-11-21",
+          "start": "2026-11-21T20:00:00+08:00",
+          "city": "Kaohsiung",
+          "country": "Taiwán",
+          "venue": "Kaohsiung National Stadium",
+          "lat": 22.701,
+          "lon": 120.294,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261122-kaohsiung",
+          "local_date": "2026-11-22",
+          "start": "2026-11-22T20:00:00+08:00",
+          "city": "Kaohsiung",
+          "country": "Taiwán",
+          "venue": "Kaohsiung National Stadium",
+          "lat": 22.701,
+          "lon": 120.294,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261203-bangkok",
+          "local_date": "2026-12-03",
+          "start": "2026-12-03T20:00:00+07:00",
+          "city": "Bangkok",
+          "country": "Tailandia",
+          "venue": "Rajamangala National Stadium",
+          "lat": 13.7558,
+          "lon": 100.6217,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261205-bangkok",
+          "local_date": "2026-12-05",
+          "start": "2026-12-05T20:00:00+07:00",
+          "city": "Bangkok",
+          "country": "Tailandia",
+          "venue": "Rajamangala National Stadium",
+          "lat": 13.7558,
+          "lon": 100.6217,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261206-bangkok",
+          "local_date": "2026-12-06",
+          "start": "2026-12-06T20:00:00+07:00",
+          "city": "Bangkok",
+          "country": "Tailandia",
+          "venue": "Rajamangala National Stadium",
+          "lat": 13.7558,
+          "lon": 100.6217,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261212-kualalumpur",
+          "local_date": "2026-12-12",
+          "start": "2026-12-12T20:00:00+08:00",
+          "city": "Kuala Lumpur",
+          "country": "Malasia",
+          "venue": "Bukit Jalil National Stadium",
+          "lat": 3.0546,
+          "lon": 101.6919,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261213-kualalumpur",
+          "local_date": "2026-12-13",
+          "start": "2026-12-13T20:00:00+08:00",
+          "city": "Kuala Lumpur",
+          "country": "Malasia",
+          "venue": "Bukit Jalil National Stadium",
+          "lat": 3.0546,
+          "lon": 101.6919,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261217-singapore",
+          "local_date": "2026-12-17",
+          "start": "2026-12-17T20:00:00+08:00",
+          "city": "Singapur",
+          "country": "Singapur",
+          "venue": "National Stadium",
+          "lat": 1.3047,
+          "lon": 103.8747,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261219-singapore",
+          "local_date": "2026-12-19",
+          "start": "2026-12-19T20:00:00+08:00",
+          "city": "Singapur",
+          "country": "Singapur",
+          "venue": "National Stadium",
+          "lat": 1.3047,
+          "lon": 103.8747,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261220-singapore",
+          "local_date": "2026-12-20",
+          "start": "2026-12-20T20:00:00+08:00",
+          "city": "Singapur",
+          "country": "Singapur",
+          "venue": "National Stadium",
+          "lat": 1.3047,
+          "lon": 103.8747,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261222-singapore",
+          "local_date": "2026-12-22",
+          "start": "2026-12-22T20:00:00+08:00",
+          "city": "Singapur",
+          "country": "Singapur",
+          "venue": "National Stadium",
+          "lat": 1.3047,
+          "lon": 103.8747,
+          "status": "confirmado"
+        },
+        {
+          "id": "bts-20261226-jakarta",
+          "local_date": "2026-12-26",
+          "start": "2026-12-26T20:00:00+07:00",
+          "city": "Yakarta",
+          "country": "Indonesia",
+          "venue": null,
+          "lat": -6.2088,
+          "lon": 106.8456,
+          "status": "anunciado"
+        },
+        {
+          "id": "bts-20261227-jakarta",
+          "local_date": "2026-12-27",
+          "start": "2026-12-27T20:00:00+07:00",
+          "city": "Yakarta",
+          "country": "Indonesia",
+          "venue": null,
+          "lat": -6.2088,
+          "lon": 106.8456,
+          "status": "anunciado"
+        },
+        {
+          "id": "bts-tm-17a8v0G65R_Eq8g",
+          "local_date": "2027-02-10",
+          "start": "2027-02-10T17:00:00+11:00",
+          "city": "Melbourne",
+          "country": "Australia",
+          "venue": "Marvel Stadium",
+          "lat": -37.8165,
+          "lon": 144.9455,
+          "status": "confirmado",
+          "source": "tm",
+          "tm_name": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
+          "onsale": "2026-06-04T00:00:00Z"
+        },
+        {
+          "id": "bts-20270212-melbourne",
+          "local_date": "2027-02-12",
+          "start": "2027-02-12T20:00:00+11:00",
+          "city": "Melbourne",
+          "country": "Australia",
+          "venue": null,
+          "lat": -37.8136,
+          "lon": 144.9631,
+          "status": "anunciado",
+          "onsale": "2026-06-04T00:00:00Z"
+        },
+        {
+          "id": "bts-20270213-melbourne",
+          "local_date": "2027-02-13",
+          "start": "2027-02-13T20:00:00+11:00",
+          "city": "Melbourne",
+          "country": "Australia",
+          "venue": null,
+          "lat": -37.8136,
+          "lon": 144.9631,
+          "status": "anunciado",
+          "onsale": "2026-06-04T00:00:00Z"
+        },
+        {
+          "id": "bts-20270220-sydney",
+          "local_date": "2027-02-20",
+          "start": "2027-02-20T20:00:00+11:00",
+          "city": "Sídney",
+          "country": "Australia",
+          "venue": null,
+          "lat": -33.8688,
+          "lon": 151.2093,
+          "status": "anunciado",
+          "onsale": "2026-06-04T03:00:00Z"
+        },
+        {
+          "id": "bts-20270221-sydney",
+          "local_date": "2027-02-21",
+          "start": "2027-02-21T20:00:00+11:00",
+          "city": "Sídney",
+          "country": "Australia",
+          "venue": null,
+          "lat": -33.8688,
+          "lon": 151.2093,
+          "status": "anunciado",
+          "onsale": "2026-06-04T03:00:00Z"
+        },
+        {
+          "id": "bts-20270304-hongkong",
+          "local_date": "2027-03-04",
+          "start": "2027-03-04T20:00:00+08:00",
+          "city": "Hong Kong",
+          "country": "China",
+          "venue": null,
+          "lat": 22.3193,
+          "lon": 114.1694,
+          "status": "anunciado"
+        },
+        {
+          "id": "bts-20270306-hongkong",
+          "local_date": "2027-03-06",
+          "start": "2027-03-06T20:00:00+08:00",
+          "city": "Hong Kong",
+          "country": "China",
+          "venue": null,
+          "lat": 22.3193,
+          "lon": 114.1694,
+          "status": "anunciado"
+        },
+        {
+          "id": "bts-20270307-hongkong",
+          "local_date": "2027-03-07",
+          "start": "2027-03-07T20:00:00+08:00",
+          "city": "Hong Kong",
+          "country": "China",
+          "venue": null,
+          "lat": 22.3193,
+          "lon": 114.1694,
+          "status": "anunciado"
+        },
+        {
+          "id": "bts-20270313-manila",
+          "local_date": "2027-03-13",
+          "start": "2027-03-13T20:00:00+08:00",
+          "city": "Manila",
+          "country": "Filipinas",
+          "venue": null,
+          "lat": 14.5995,
+          "lon": 120.9842,
+          "status": "anunciado"
+        },
+        {
+          "id": "bts-20270314-manila",
+          "local_date": "2027-03-14",
+          "start": "2027-03-14T20:00:00+08:00",
+          "city": "Manila",
+          "country": "Filipinas",
+          "venue": null,
+          "lat": 14.5995,
+          "lon": 120.9842,
+          "status": "anunciado"
+        }
+      ],
+      "watch_en": [],
+      "tour_en": "Arirang World Tour"
+    },
+    {
+      "id": "skz",
+      "name": "Stray Kids",
+      "tour": "Run It World Tour",
+      "watch": [
+        "Tokyo Dome aparece en la gira, pero las fechas exactas no salen claras en las fuentes."
+      ],
+      "events": [
+        {
+          "id": "skz-20260919-osaka",
+          "local_date": "2026-09-19",
+          "start": "2026-09-19T18:00:00+09:00",
+          "city": "Osaka",
+          "country": "Japón",
+          "venue": "Kyocera Dome Osaka",
+          "lat": 34.6695,
+          "lon": 135.4762,
+          "status": "confirmado"
+        },
+        {
+          "id": "skz-20260920-osaka",
+          "local_date": "2026-09-20",
+          "start": "2026-09-20T18:00:00+09:00",
+          "city": "Osaka",
+          "country": "Japón",
+          "venue": "Kyocera Dome Osaka",
+          "lat": 34.6695,
+          "lon": 135.4762,
+          "status": "confirmado"
+        },
+        {
+          "id": "skz-20261024-fukuoka",
+          "local_date": "2026-10-24",
+          "start": "2026-10-24T18:00:00+09:00",
+          "city": "Fukuoka",
+          "country": "Japón",
+          "venue": "Mizuho PayPay Dome Fukuoka",
+          "lat": 33.5953,
+          "lon": 130.3622,
+          "status": "confirmado"
+        },
+        {
+          "id": "skz-20261205-hongkong",
+          "local_date": "2026-12-05",
+          "start": "2026-12-05T20:00:00+08:00",
+          "city": "Hong Kong",
+          "country": "China",
+          "venue": "Kai Tak Stadium",
+          "lat": 22.3047,
+          "lon": 114.194,
+          "status": "confirmado"
+        },
+        {
+          "id": "skz-20261212-taipei",
+          "local_date": "2026-12-12",
+          "start": "2026-12-12T19:00:00+08:00",
+          "city": "Taipéi",
+          "country": "Taiwán",
+          "venue": "Taipei Dome",
+          "lat": 25.0437,
+          "lon": 121.56,
+          "status": "confirmado"
+        },
+        {
+          "id": "skz-20270116-bangkok",
+          "local_date": "2027-01-16",
+          "start": "2027-01-16T19:00:00+07:00",
+          "city": "Nonthaburi (Bangkok)",
+          "country": "Tailandia",
+          "venue": "IMPACT Arena",
+          "lat": 13.913,
+          "lon": 100.546,
+          "status": "anunciado"
+        },
+        {
+          "id": "skz-20270117-bangkok",
+          "local_date": "2027-01-17",
+          "start": "2027-01-17T19:00:00+07:00",
+          "city": "Nonthaburi (Bangkok)",
+          "country": "Tailandia",
+          "venue": "IMPACT Arena",
+          "lat": 13.913,
+          "lon": 100.546,
+          "status": "anunciado"
+        },
+        {
+          "id": "skz-20270307-singapore",
+          "local_date": "2027-03-07",
+          "start": "2027-03-07T19:00:00+08:00",
+          "city": "Singapur",
+          "country": "Singapur",
+          "venue": null,
+          "lat": 1.3521,
+          "lon": 103.8198,
+          "status": "anunciado"
+        }
+      ],
+      "watch_en": [
+        "Tokyo Dome is on the tour, but the exact dates are not clear in the sources."
+      ],
+      "tour_en": "Run It World Tour"
+    },
+    {
+      "id": "twice",
+      "name": "TWICE",
+      "tour": "This Is For World Tour",
+      "watch": [],
+      "events": [
+        {
+          "local_date": "2026-11-21",
+          "lat": 37.5665,
+          "lon": 126.978,
+          "id": "twice-auto-20261121-seul",
+          "start": "2026-11-21T18:00:00+09:00",
+          "city": "Seúl",
+          "country": "Corea del Sur",
+          "venue": null,
+          "status": "anunciado",
+          "source": "auto",
+          "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSmNBUHlCNFQ2NGhMOUwzVzM1c0V3R1hYMVQxcDhlbnU4WG15d1pmYmpGUV9yRkZiVVVYcWFENk41dk1hbWE5c1dZZWhvaWFERkx5eE15bmJEQ2xQYThrLXhLelpOWkJyMG8xeDYwZjhWNjJnVktYTFZvUDNaY1dKSDU4bXJHNTdVWVJOcWd3?oc=5",
+          "src_kind": "news",
+          "time_tbd": true
+        }
+      ],
+      "watch_en": [],
+      "tour_en": "This Is For World Tour"
+    },
+    {
+      "id": "blackpink",
+      "name": "BLACKPINK",
+      "tour": "Deadline World Tour (terminada)",
+      "watch": [
+        "La gira Deadline cerró el 26 de enero de 2026 en el Kai Tak Stadium de Hong Kong y no hay fechas nuevas anunciadas."
+      ],
+      "events": [
+        {
+          "id": "bp-20260116-tokyo",
+          "local_date": "2026-01-16",
+          "start": "2026-01-16T20:00:00+09:00",
+          "city": "Tokio",
+          "country": "Japón",
+          "venue": "Tokyo Dome",
+          "lat": 35.7056,
+          "lon": 139.7519,
+          "status": "confirmado"
+        },
+        {
+          "id": "bp-20260117-tokyo",
+          "local_date": "2026-01-17",
+          "start": "2026-01-17T20:00:00+09:00",
+          "city": "Tokio",
+          "country": "Japón",
+          "venue": "Tokyo Dome",
+          "lat": 35.7056,
+          "lon": 139.7519,
+          "status": "confirmado"
+        },
+        {
+          "id": "bp-20260118-tokyo",
+          "local_date": "2026-01-18",
+          "start": "2026-01-18T20:00:00+09:00",
+          "city": "Tokio",
+          "country": "Japón",
+          "venue": "Tokyo Dome",
+          "lat": 35.7056,
+          "lon": 139.7519,
+          "status": "confirmado"
+        },
+        {
+          "id": "bp-20260124-hongkong",
+          "local_date": "2026-01-24",
+          "start": "2026-01-24T20:00:00+08:00",
+          "city": "Hong Kong",
+          "country": "China",
+          "venue": "Kai Tak Stadium",
+          "lat": 22.3047,
+          "lon": 114.194,
+          "status": "confirmado"
+        },
+        {
+          "id": "bp-20260125-hongkong",
+          "local_date": "2026-01-25",
+          "start": "2026-01-25T20:00:00+08:00",
+          "city": "Hong Kong",
+          "country": "China",
+          "venue": "Kai Tak Stadium",
+          "lat": 22.3047,
+          "lon": 114.194,
+          "status": "confirmado"
+        },
+        {
+          "id": "bp-20260126-hongkong",
+          "local_date": "2026-01-26",
+          "start": "2026-01-26T20:00:00+08:00",
+          "city": "Hong Kong",
+          "country": "China",
+          "venue": "Kai Tak Stadium",
+          "lat": 22.3047,
+          "lon": 114.194,
+          "status": "confirmado"
+        }
+      ],
+      "watch_en": [
+        "The Deadline tour ended on January 26, 2026 at Kai Tak Stadium, Hong Kong, with no new dates announced."
+      ],
+      "tour_en": "Deadline World Tour (ended)"
+    },
+    {
+      "id": "lngshot",
+      "name": "LNGSHOT",
+      "tour": "Con Jay Park, Serenades & Body Rolls",
+      "watch": [],
+      "events": [
+        {
+          "id": "lng-20261013-vienna",
+          "local_date": "2026-10-13",
+          "start": "2026-10-13T20:00:00+02:00",
+          "city": "Viena",
+          "country": "Austria",
+          "venue": "Gasometer",
+          "lat": 48.187,
+          "lon": 16.42,
+          "status": "confirmado"
+        },
+        {
+          "id": "lng-20261015-zurich",
+          "local_date": "2026-10-15",
+          "start": "2026-10-15T20:00:00+02:00",
+          "city": "Zúrich (Dübendorf)",
+          "country": "Suiza",
+          "venue": "The Hall",
+          "lat": 47.3995,
+          "lon": 8.619,
+          "status": "confirmado"
+        },
+        {
+          "id": "lng-20261017-milan",
+          "local_date": "2026-10-17",
+          "start": "2026-10-17T20:00:00+02:00",
+          "city": "Milán",
+          "country": "Italia",
+          "venue": "Fabrique",
+          "lat": 45.4381,
+          "lon": 9.2415,
+          "status": "confirmado"
+        },
+        {
+          "id": "lng-20261020-paris",
+          "local_date": "2026-10-20",
+          "start": "2026-10-20T20:00:00+02:00",
+          "city": "París",
+          "country": "Francia",
+          "venue": "Zénith",
+          "lat": 48.894,
+          "lon": 2.393,
+          "status": "confirmado"
+        },
+        {
+          "id": "lng-20261022-esch",
+          "local_date": "2026-10-22",
+          "start": "2026-10-22T20:00:00+02:00",
+          "city": "Esch-sur-Alzette",
+          "country": "Luxemburgo",
+          "venue": "Rockhal",
+          "lat": 49.503,
+          "lon": 5.946,
+          "status": "confirmado"
+        },
+        {
+          "id": "lng-20261026-london",
+          "local_date": "2026-10-26",
+          "start": "2026-10-26T19:30:00+00:00",
+          "city": "Londres (Wembley)",
+          "country": "Reino Unido",
+          "venue": "OVO Arena Wembley",
+          "lat": 51.556,
+          "lon": -0.2796,
+          "status": "confirmado",
+          "onsale": "2026-06-12T09:00:00Z"
+        },
+        {
+          "id": "lng-20261028-edinburgh",
+          "local_date": "2026-10-28",
+          "start": "2026-10-28T19:30:00+00:00",
+          "city": "Edimburgo",
+          "country": "Reino Unido",
+          "venue": "Corn Exchange",
+          "lat": 55.936,
+          "lon": -3.243,
+          "status": "confirmado"
+        }
+      ],
+      "watch_en": [],
+      "tour_en": "With Jay Park, Serenades & Body Rolls"
+    },
+    {
+      "id": "seventeen",
+      "name": "SEVENTEEN",
+      "tour": "JEONGHAN X JOSHUA, Journey Into [Dreaming] (unidad JxJ)",
+      "watch": [
+        "La gira completa NEW_ cerró el 5 de abril de 2026 en Incheon. Ahora sale de gira la unidad JxJ (Jeonghan y Joshua) mientras varios miembros hacen el servicio militar (en Miembros ves cuándo vuelve cada uno)."
+      ],
+      "watch_en": [
+        "The full NEW_ tour ended on April 5, 2026 in Incheon. Now the JxJ unit (Jeonghan and Joshua) is touring while several members do military service (Members shows when each one returns)."
+      ],
+      "events": [
+        {
+          "id": "svt-20260307-singapur-new",
+          "local_date": "2026-03-07",
+          "start": "2026-03-07T19:00:00+08:00",
+          "city": "Singapur",
+          "country": "Singapur",
+          "venue": "National Stadium",
+          "lat": 1.3044,
+          "lon": 103.8746,
+          "status": "confirmado"
+        },
+        {
+          "id": "svt-20260314-bangkok-new",
+          "local_date": "2026-03-14",
+          "start": "2026-03-14T19:00:00+07:00",
+          "city": "Bangkok",
+          "country": "Tailandia",
+          "venue": "Suphachalasai Stadium",
+          "lat": 13.7466,
+          "lon": 100.5293,
+          "status": "confirmado"
+        },
+        {
+          "id": "svt-20260321-bulacan-new",
+          "local_date": "2026-03-21",
+          "start": "2026-03-21T19:00:00+08:00",
+          "city": "Bulacan",
+          "country": "Filipinas",
+          "venue": "Philippine Sports Stadium",
+          "lat": 14.7955,
+          "lon": 120.9478,
+          "status": "confirmado"
+        },
+        {
+          "id": "svt-20260405-incheon-new",
+          "local_date": "2026-04-05",
+          "start": "2026-04-05T18:30:00+09:00",
+          "city": "Incheon",
+          "country": "Corea del Sur",
+          "venue": "Incheon Asiad Main Stadium",
+          "lat": 37.5521,
+          "lon": 126.6765,
+          "status": "confirmado"
+        },
+        {
+          "id": "svt-20261030-incheon",
+          "local_date": "2026-10-30",
+          "start": "2026-10-30T20:00:00+09:00",
+          "city": "Incheon",
+          "country": "Corea del Sur",
+          "venue": "Inspire Arena",
+          "lat": 37.4637,
+          "lon": 126.3897,
+          "status": "confirmado",
+          "lineup": [
+            "jeonghan",
+            "joshua"
+          ]
+        },
+        {
+          "id": "svt-20261101-incheon",
+          "local_date": "2026-11-01",
+          "start": "2026-11-01T20:00:00+09:00",
+          "city": "Incheon",
+          "country": "Corea del Sur",
+          "venue": "Inspire Arena",
+          "lat": 37.4637,
+          "lon": 126.3897,
+          "status": "confirmado",
+          "lineup": [
+            "jeonghan",
+            "joshua"
+          ]
+        },
+        {
+          "id": "svt-20261121-saitama",
+          "local_date": "2026-11-21",
+          "start": "2026-11-21T17:00:00+09:00",
+          "city": "Saitama",
+          "country": "Japón",
+          "venue": "Belluna Dome",
+          "lat": 35.7686,
+          "lon": 139.4204,
+          "status": "confirmado",
+          "lineup": [
+            "jeonghan",
+            "joshua"
+          ]
+        },
+        {
+          "id": "svt-20261122-saitama",
+          "local_date": "2026-11-22",
+          "start": "2026-11-22T17:00:00+09:00",
+          "city": "Saitama",
+          "country": "Japón",
+          "venue": "Belluna Dome",
+          "lat": 35.7686,
+          "lon": 139.4204,
+          "status": "confirmado",
+          "lineup": [
+            "jeonghan",
+            "joshua"
+          ]
+        },
+        {
+          "id": "svt-20261211-macao",
+          "local_date": "2026-12-11",
+          "start": "2026-12-11T20:00:00+08:00",
+          "city": "Macao",
+          "country": "China",
+          "venue": "Galaxy Arena",
+          "lat": 22.149,
+          "lon": 113.556,
+          "status": "confirmado",
+          "lineup": [
+            "jeonghan",
+            "joshua"
+          ]
+        },
+        {
+          "id": "svt-20261212-macao",
+          "local_date": "2026-12-12",
+          "start": "2026-12-12T20:00:00+08:00",
+          "city": "Macao",
+          "country": "China",
+          "venue": "Galaxy Arena",
+          "lat": 22.149,
+          "lon": 113.556,
+          "status": "confirmado",
+          "lineup": [
+            "jeonghan",
+            "joshua"
+          ]
+        },
+        {
+          "id": "svt-20270109-taipéi",
+          "local_date": "2027-01-09",
+          "start": "2027-01-09T20:00:00+08:00",
+          "city": "Taipéi",
+          "country": "Taiwán",
+          "venue": "Taipei Arena",
+          "lat": 25.0516,
+          "lon": 121.5497,
+          "status": "confirmado",
+          "lineup": [
+            "jeonghan",
+            "joshua"
+          ]
+        },
+        {
+          "id": "svt-20270110-taipéi",
+          "local_date": "2027-01-10",
+          "start": "2027-01-10T20:00:00+08:00",
+          "city": "Taipéi",
+          "country": "Taiwán",
+          "venue": "Taipei Arena",
+          "lat": 25.0516,
+          "lon": 121.5497,
+          "status": "confirmado",
+          "lineup": [
+            "jeonghan",
+            "joshua"
+          ]
+        },
+        {
+          "id": "svt-20270130-busan",
+          "local_date": "2027-01-30",
+          "start": "2027-01-30T20:00:00+09:00",
+          "city": "Busan",
+          "country": "Corea del Sur",
+          "venue": "BEXCO",
+          "lat": 35.1691,
+          "lon": 129.1361,
+          "status": "confirmado",
+          "lineup": [
+            "jeonghan",
+            "joshua"
+          ]
+        },
+        {
+          "id": "svt-20270131-busan",
+          "local_date": "2027-01-31",
+          "start": "2027-01-31T20:00:00+09:00",
+          "city": "Busan",
+          "country": "Corea del Sur",
+          "venue": "BEXCO",
+          "lat": 35.1691,
+          "lon": 129.1361,
+          "status": "confirmado",
+          "lineup": [
+            "jeonghan",
+            "joshua"
+          ]
+        },
+        {
+          "id": "svt-20270220-hong",
+          "local_date": "2027-02-20",
+          "start": "2027-02-20T20:00:00+08:00",
+          "city": "Hong Kong",
+          "country": "China",
+          "venue": "AsiaWorld-Arena",
+          "lat": 22.3219,
+          "lon": 113.9431,
+          "status": "confirmado",
+          "lineup": [
+            "jeonghan",
+            "joshua"
+          ]
+        },
+        {
+          "id": "svt-20270221-hong",
+          "local_date": "2027-02-21",
+          "start": "2027-02-21T20:00:00+08:00",
+          "city": "Hong Kong",
+          "country": "China",
+          "venue": "AsiaWorld-Arena",
+          "lat": 22.3219,
+          "lon": 113.9431,
+          "status": "confirmado",
+          "lineup": [
+            "jeonghan",
+            "joshua"
+          ]
+        }
+      ],
+      "tour_en": "JEONGHAN X JOSHUA, Journey Into [Dreaming] (JxJ unit)"
+    },
+    {
+      "id": "enhypen",
+      "name": "ENHYPEN",
+      "tour": "Blood Saga World Tour",
+      "watch": [
+        "Las horas de Europa y Yakarta todavía no son oficiales."
+      ],
+      "watch_en": [
+        "Show times for Europe and Jakarta are not official yet."
+      ],
+      "events": [
+        {
+          "id": "enh-20261016-macao",
+          "local_date": "2026-10-16",
+          "start": "2026-10-16T20:00:00+08:00",
+          "city": "Macao",
+          "country": "China",
+          "venue": "Galaxy Arena",
+          "lat": 22.149,
+          "lon": 113.556,
+          "status": "confirmado"
+        },
+        {
+          "id": "enh-20261017-macao",
+          "local_date": "2026-10-17",
+          "start": "2026-10-17T19:30:00+08:00",
+          "city": "Macao",
+          "country": "China",
+          "venue": "Galaxy Arena",
+          "lat": 22.149,
+          "lon": 113.556,
+          "status": "confirmado"
+        },
+        {
+          "id": "enh-20261018-macao",
+          "local_date": "2026-10-18",
+          "start": "2026-10-18T18:30:00+08:00",
+          "city": "Macao",
+          "country": "China",
+          "venue": "Galaxy Arena",
+          "lat": 22.149,
+          "lon": 113.556,
+          "status": "confirmado"
+        },
+        {
+          "local_date": "2026-11-29",
+          "lat": 14.5995,
+          "lon": 120.9842,
+          "id": "enhypen-auto-20261129-manila",
+          "start": "2026-11-29T18:00:00+08:00",
+          "city": "Manila",
+          "country": "Filipinas",
+          "venue": null,
+          "status": "anunciado",
+          "source": "auto",
+          "src": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVm5kbFpRbHhoalU2MTFTNUtWb0dOYU9jM3hLVGdhYU8ySDhpRmtXWWFmdk83UnNvVml5ZFB3NnJ0MHpjb0VfdHlRei00OURmaWNRb1ktT0NrZGNkeHlCcXRvQTNUUUNYX3ZwaktnNU9wZFJrT3dpNWZoTF9RdkRWcVlEdjFyLThhei1YM0VZVWVRdHJCQ1JLS2YwSExaY3pubDhOaXU3VHlRRGttMEJxQjQzMlJfajZicmg4bWlidzBfWmZNSFFGcVh2Y0lsN2RRb2NwRldtNA?oc=5",
+          "src_kind": "news",
+          "time_tbd": true
+        },
+        {
+          "id": "enh-20261201-tokio",
+          "local_date": "2026-12-01",
+          "start": "2026-12-01T18:30:00+09:00",
+          "city": "Tokio",
+          "country": "Japón",
+          "venue": "Tokyo Dome",
+          "lat": 35.7056,
+          "lon": 139.7519,
+          "status": "confirmado"
+        },
+        {
+          "id": "enh-20261202-tokio",
+          "local_date": "2026-12-02",
+          "start": "2026-12-02T16:00:00+09:00",
+          "city": "Tokio",
+          "country": "Japón",
+          "venue": "Tokyo Dome",
+          "lat": 35.7056,
+          "lon": 139.7519,
+          "status": "confirmado"
+        },
+        {
+          "id": "enh-20261226-nagoya",
+          "local_date": "2026-12-26",
+          "start": "2026-12-26T17:00:00+09:00",
+          "city": "Nagoya",
+          "country": "Japón",
+          "venue": "Vantelin Dome Nagoya",
+          "lat": 35.1859,
+          "lon": 136.9474,
+          "status": "confirmado"
+        },
+        {
+          "id": "enh-20261227-nagoya",
+          "local_date": "2026-12-27",
+          "start": "2026-12-27T16:00:00+09:00",
+          "city": "Nagoya",
+          "country": "Japón",
+          "venue": "Vantelin Dome Nagoya",
+          "lat": 35.1859,
+          "lon": 136.9474,
+          "status": "confirmado"
+        },
+        {
+          "id": "enh-20270123-yakarta",
+          "local_date": "2027-01-23",
+          "start": "2027-01-23T20:00:00+07:00",
+          "city": "Yakarta",
+          "country": "Indonesia",
+          "venue": "Jakarta International Stadium",
+          "lat": -6.1245,
+          "lon": 106.8085,
+          "status": "confirmado"
+        },
+        {
+          "id": "enh-20270206-fukuoka",
+          "local_date": "2027-02-06",
+          "start": "2027-02-06T17:00:00+09:00",
+          "city": "Fukuoka",
+          "country": "Japón",
+          "venue": "Mizuho PayPay Dome Fukuoka",
+          "lat": 33.5954,
+          "lon": 130.3621,
+          "status": "confirmado"
+        },
+        {
+          "id": "enh-20270207-fukuoka",
+          "local_date": "2027-02-07",
+          "start": "2027-02-07T16:00:00+09:00",
+          "city": "Fukuoka",
+          "country": "Japón",
+          "venue": "Mizuho PayPay Dome Fukuoka",
+          "lat": 33.5954,
+          "lon": 130.3621,
+          "status": "confirmado"
+        },
+        {
+          "id": "enh-20270219-osaka",
+          "local_date": "2027-02-19",
+          "start": "2027-02-19T18:00:00+09:00",
+          "city": "Osaka",
+          "country": "Japón",
+          "venue": "Kyocera Dome Osaka",
+          "lat": 34.6693,
+          "lon": 135.476,
+          "status": "confirmado"
+        },
+        {
+          "id": "enh-20270220-osaka",
+          "local_date": "2027-02-20",
+          "start": "2027-02-20T16:00:00+09:00",
+          "city": "Osaka",
+          "country": "Japón",
+          "venue": "Kyocera Dome Osaka",
+          "lat": 34.6693,
+          "lon": 135.476,
+          "status": "confirmado"
+        },
+        {
+          "id": "enh-20270224-milán",
+          "local_date": "2027-02-24",
+          "start": "2027-02-24T20:00:00+01:00",
+          "city": "Milán",
+          "country": "Italia",
+          "venue": "Unipol Dome",
+          "lat": 45.439,
+          "lon": 9.24,
+          "status": "confirmado"
+        },
+        {
+          "id": "enh-20270227-parís",
+          "local_date": "2027-02-27",
+          "start": "2027-02-27T20:00:00+01:00",
+          "city": "París",
+          "country": "Francia",
+          "venue": "Paris La Défense Arena",
+          "lat": 48.8958,
+          "lon": 2.2288,
+          "status": "confirmado"
+        },
+        {
+          "id": "enh-20270302-ámsterdam",
+          "local_date": "2027-03-02",
+          "start": "2027-03-02T20:00:00+01:00",
+          "city": "Ámsterdam",
+          "country": "Países Bajos",
+          "venue": "Ziggo Dome",
+          "lat": 52.3134,
+          "lon": 4.9373,
+          "status": "confirmado",
+          "onsale": "2026-04-24T08:00:00Z"
+        },
+        {
+          "id": "enh-20270305-berlín",
+          "local_date": "2027-03-05",
+          "start": "2027-03-05T20:00:00+01:00",
+          "city": "Berlín",
+          "country": "Alemania",
+          "venue": "Uber Arena",
+          "lat": 52.5052,
+          "lon": 13.4434,
+          "status": "confirmado",
+          "onsale": "2026-08-06T15:28:00Z"
+        },
+        {
+          "id": "enhypen-tm-1AgZk3fGkd9ddBf",
+          "local_date": "2027-03-08",
+          "start": "2027-03-08T17:30:00+00:00",
+          "city": "Londres",
+          "country": "Reino Unido",
+          "venue": "The O2",
+          "lat": 51.5016,
+          "lon": 0.0055,
+          "status": "confirmado",
+          "source": "tm",
+          "tm_name": "ENHYPEN: WORLD TOUR 'BLOOD SAGA'",
+          "onsale": "2026-09-18T09:00:00Z"
+        },
+        {
+          "id": "enh-20270309-londres",
+          "local_date": "2027-03-09",
+          "start": "2027-03-09T20:00:00+00:00",
+          "city": "Londres",
+          "country": "Reino Unido",
+          "venue": "The O2",
+          "lat": 51.503,
+          "lon": 0.0032,
+          "status": "confirmado",
+          "onsale": "2026-04-24T09:00:00Z"
+        },
+        {
+          "id": "enh-20270314-singapur",
+          "local_date": "2027-03-14",
+          "start": "2027-03-14T19:00:00+08:00",
+          "city": "Singapur",
+          "country": "Singapur",
+          "venue": "National Stadium",
+          "lat": 1.3044,
+          "lon": 103.8746,
+          "status": "confirmado"
+        }
+      ],
+      "tour_en": "Blood Saga World Tour"
+    },
+    {
+      "id": "newjeans",
+      "name": "NewJeans",
+      "tour": "Bunnies Camp 2024, fan meeting (terminada)",
+      "watch": [
+        "No hay shows anunciados en 2026. ADOR dice que el grupo prepara su regreso como cuarteto, sin fecha.",
+        "La última vez que llenaron un estadio fue el Bunnies Camp en el Tokyo Dome, en junio de 2024."
+      ],
+      "watch_en": [
+        "No shows announced in 2026. ADOR says the group is preparing a comeback as a four-piece, no date yet.",
+        "Their last stadium event was Bunnies Camp at Tokyo Dome, June 2024."
+      ],
+      "events": [
+        {
+          "id": "nj-20240626-tokio",
+          "local_date": "2024-06-26",
+          "start": "2024-06-26T19:00:00+09:00",
+          "city": "Tokio",
+          "country": "Japón",
+          "venue": "Tokyo Dome",
+          "lat": 35.7056,
+          "lon": 139.7519,
+          "status": "confirmado"
+        },
+        {
+          "id": "nj-20240627-tokio",
+          "local_date": "2024-06-27",
+          "start": "2024-06-27T19:00:00+09:00",
+          "city": "Tokio",
+          "country": "Japón",
+          "venue": "Tokyo Dome",
+          "lat": 35.7056,
+          "lon": 139.7519,
+          "status": "confirmado"
+        }
+      ],
+      "tour_en": "Bunnies Camp 2024, fan meeting (ended)"
+    },
+    {
+      "id": "cortis",
+      "name": "CORTIS",
+      "tour": "Put Your Phone Down (terminada)",
+      "watch": [
+        "La gira Put Your Phone Down cerró el 6 de septiembre de 2026 en Yokohama y su última presentación fue en el Gran Premio de F1 de Singapur (9 de octubre). No hay fechas nuevas confirmadas."
+      ],
+      "watch_en": [
+        "The Put Your Phone Down tour ended on September 6, 2026 in Yokohama and their last show was at the Singapore F1 Grand Prix (October 9). No new dates are confirmed."
+      ],
+      "events": [
+        {
+          "id": "cortis-20260718-incheon",
+          "local_date": "2026-07-18",
+          "start": "2026-07-18T18:00:00+09:00",
+          "city": "Incheon",
+          "country": "Corea del Sur",
+          "venue": "INSPIRE Arena",
+          "lat": 37.4637,
+          "lon": 126.3897,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260719-incheon",
+          "local_date": "2026-07-19",
+          "start": "2026-07-19T17:00:00+09:00",
+          "city": "Incheon",
+          "country": "Corea del Sur",
+          "venue": "INSPIRE Arena",
+          "lat": 37.4637,
+          "lon": 126.3897,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260801-chicago",
+          "local_date": "2026-08-01",
+          "start": "2026-08-01T18:00:00-05:00",
+          "city": "Chicago",
+          "country": "EE. UU.",
+          "venue": "Lollapalooza (Grant Park)",
+          "lat": 41.8758,
+          "lon": -87.6189,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260804-toronto",
+          "local_date": "2026-08-04",
+          "start": "2026-08-04T20:00:00-04:00",
+          "city": "Toronto",
+          "country": "Canadá",
+          "venue": "The Theatre at Great Canadian Toronto",
+          "lat": 43.7166,
+          "lon": -79.604,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260806-nueva-york",
+          "local_date": "2026-08-06",
+          "start": "2026-08-06T20:00:00-04:00",
+          "city": "Nueva York",
+          "country": "EE. UU.",
+          "venue": "Infosys Theater at Madison Square Garden",
+          "lat": 40.7505,
+          "lon": -73.9934,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260808-atlanta",
+          "local_date": "2026-08-08",
+          "start": "2026-08-08T20:00:00-04:00",
+          "city": "Atlanta",
+          "country": "EE. UU.",
+          "venue": "Fox Theatre",
+          "lat": 33.7725,
+          "lon": -84.3857,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260811-irving",
+          "local_date": "2026-08-11",
+          "start": "2026-08-11T20:00:00-05:00",
+          "city": "Irving",
+          "country": "EE. UU.",
+          "venue": "The Pavilion at Toyota Music Factory",
+          "lat": 32.8781,
+          "lon": -96.9375,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260813-inglewood",
+          "local_date": "2026-08-13",
+          "start": "2026-08-13T20:00:00-07:00",
+          "city": "Inglewood (Los Ángeles)",
+          "country": "EE. UU.",
+          "venue": "YouTube Theater",
+          "lat": 33.9519,
+          "lon": -118.339,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260815-san-francisco",
+          "local_date": "2026-08-15",
+          "start": "2026-08-15T20:00:00-07:00",
+          "city": "San Francisco",
+          "country": "EE. UU.",
+          "venue": "The Theater at Bill Graham Civic Auditorium",
+          "lat": 37.7785,
+          "lon": -122.4176,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260822-seul",
+          "local_date": "2026-08-22",
+          "start": "2026-08-22T18:00:00+09:00",
+          "city": "Seúl",
+          "country": "Corea del Sur",
+          "venue": "Hwajeong Tiger Dome (Universidad de Corea)",
+          "lat": 37.5866,
+          "lon": 127.0293,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260823-seul",
+          "local_date": "2026-08-23",
+          "start": "2026-08-23T17:00:00+09:00",
+          "city": "Seúl",
+          "country": "Corea del Sur",
+          "venue": "Hwajeong Tiger Dome (Universidad de Corea)",
+          "lat": 37.5866,
+          "lon": 127.0293,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260904-yokohama",
+          "local_date": "2026-09-04",
+          "start": "2026-09-04T19:00:00+09:00",
+          "city": "Yokohama",
+          "country": "Japón",
+          "venue": "PIA ARENA MM",
+          "lat": 35.456,
+          "lon": 139.6282,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260905-yokohama",
+          "local_date": "2026-09-05",
+          "start": "2026-09-05T17:00:00+09:00",
+          "city": "Yokohama",
+          "country": "Japón",
+          "venue": "PIA ARENA MM",
+          "lat": 35.456,
+          "lon": 139.6282,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20260906-yokohama",
+          "local_date": "2026-09-06",
+          "start": "2026-09-06T15:00:00+09:00",
+          "city": "Yokohama",
+          "country": "Japón",
+          "venue": "PIA ARENA MM",
+          "lat": 35.456,
+          "lon": 139.6282,
+          "status": "confirmado"
+        },
+        {
+          "id": "cortis-20261009-singapur",
+          "local_date": "2026-10-09",
+          "start": "2026-10-09T20:00:00+08:00",
+          "city": "Singapur",
+          "country": "Singapur",
+          "venue": "Padang Stage, Gran Premio de F1 de Singapur",
+          "lat": 1.2903,
+          "lon": 103.852,
+          "status": "confirmado"
+        }
+      ],
+      "tour_en": "Put Your Phone Down (ended)"
+    },
+    {
+      "id": "ateez",
+      "name": "ATEEZ",
+      "tour": "ZERO TO ALL World Tour",
+      "watch": [
+        "KQ anunció la gira ZERO TO ALL (10 de octubre de 2026): Incheon, Tokio y Kobe primero; Europa en abril, Norteamérica en julio y agosto y Sudamérica en septiembre de 2027. Los recintos y las horas todavía no son oficiales."
+      ],
+      "watch_en": [
+        "KQ announced the ZERO TO ALL tour (October 10, 2026): Incheon, Tokyo and Kobe first; Europe in April, North America in July and August and South America in September 2027. Venues and times are not official yet."
+      ],
+      "events": [
+        {
+          "id": "ateez-20260314-manila",
+          "local_date": "2026-03-14",
+          "start": "2026-03-14T19:00:00+08:00",
+          "city": "Manila",
+          "country": "Filipinas",
+          "venue": "Araneta Coliseum",
+          "lat": 14.6206,
+          "lon": 121.0527,
+          "status": "confirmado"
+        },
+        {
+          "id": "ateez-20260322-kualalumpur",
+          "local_date": "2026-03-22",
+          "start": "2026-03-22T19:00:00+08:00",
+          "city": "Kuala Lumpur",
+          "country": "Malasia",
+          "venue": "Axiata Arena",
+          "lat": 3.0546,
+          "lon": 101.6919,
+          "status": "confirmado"
+        },
+        {
+          "id": "ateez-20260328-macao",
+          "local_date": "2026-03-28",
+          "start": "2026-03-28T19:00:00+08:00",
+          "city": "Macao",
+          "country": "Macao",
+          "venue": "The Venetian Arena",
+          "lat": 22.1476,
+          "lon": 113.5605,
+          "status": "confirmado"
+        },
+        {
+          "id": "ateez-20260404-bangkok",
+          "local_date": "2026-04-04",
+          "start": "2026-04-04T19:00:00+07:00",
+          "city": "Bangkok",
+          "country": "Tailandia",
+          "venue": "IMPACT Exhibition Hall 5-6",
+          "lat": 13.9116,
+          "lon": 100.5469,
+          "status": "confirmado"
+        },
+        {
+          "id": "ateez-20270122-incheon",
+          "local_date": "2027-01-22",
+          "start": "2027-01-22T19:00:00+09:00",
+          "city": "Incheon",
+          "country": "Corea del Sur",
+          "venue": "",
+          "lat": 37.4563,
+          "lon": 126.7052,
+          "status": "anunciado",
+          "time_tbd": true
+        },
+        {
+          "id": "ateez-20270123-incheon",
+          "local_date": "2027-01-23",
+          "start": "2027-01-23T19:00:00+09:00",
+          "city": "Incheon",
+          "country": "Corea del Sur",
+          "venue": "",
+          "lat": 37.4563,
+          "lon": 126.7052,
+          "status": "anunciado",
+          "time_tbd": true
+        },
+        {
+          "id": "ateez-20270125-incheon",
+          "local_date": "2027-01-25",
+          "start": "2027-01-25T19:00:00+09:00",
+          "city": "Incheon",
+          "country": "Corea del Sur",
+          "venue": "",
+          "lat": 37.4563,
+          "lon": 126.7052,
+          "status": "anunciado",
+          "time_tbd": true
+        },
+        {
+          "id": "ateez-20270202-tokio",
+          "local_date": "2027-02-02",
+          "start": "2027-02-02T19:00:00+09:00",
+          "city": "Tokio",
+          "country": "Japón",
+          "venue": "",
+          "lat": 35.6812,
+          "lon": 139.7671,
+          "status": "anunciado",
+          "time_tbd": true
+        },
+        {
+          "id": "ateez-20270203-tokio",
+          "local_date": "2027-02-03",
+          "start": "2027-02-03T19:00:00+09:00",
+          "city": "Tokio",
+          "country": "Japón",
+          "venue": "",
+          "lat": 35.6812,
+          "lon": 139.7671,
+          "status": "anunciado",
+          "time_tbd": true
+        },
+        {
+          "id": "ateez-20270213-kobe",
+          "local_date": "2027-02-13",
+          "start": "2027-02-13T19:00:00+09:00",
+          "city": "Kobe",
+          "country": "Japón",
+          "venue": "",
+          "lat": 34.6901,
+          "lon": 135.1955,
+          "status": "anunciado",
+          "time_tbd": true
+        },
+        {
+          "id": "ateez-20270214-kobe",
+          "local_date": "2027-02-14",
+          "start": "2027-02-14T19:00:00+09:00",
+          "city": "Kobe",
+          "country": "Japón",
+          "venue": "",
+          "lat": 34.6901,
+          "lon": 135.1955,
+          "status": "anunciado",
+          "time_tbd": true
+        }
+      ]
+    }
+  ]
+}

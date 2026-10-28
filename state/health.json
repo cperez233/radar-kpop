@@ -1,0 +1,94 @@
+{
+ "sources": {
+  "autodates": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-16T07:55:55Z"
+  },
+  "discord": {
+   "msg": "fallaron los 3 envíos: puede que el webhook se haya borrado (crea otro y actualiza DISCORD_WEBHOOK_URL)",
+   "notified": true,
+   "ok": false,
+   "since": "2026-10-17T06:01:07Z"
+  },
+  "discord_foro": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-17T06:01:07Z"
+  },
+  "instagram": {
+   "msg": "Instagram no respondió en RSSHub: puede que haya vencido INSTAGRAM_COOKIE en Vercel",
+   "notified": true,
+   "ok": false,
+   "since": "2026-10-19T21:32:11Z"
+  },
+  "itunes": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-16T08:05:06Z"
+  },
+  "kworb": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-16T21:46:39Z"
+  },
+  "lightstick": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-17T19:58:25Z"
+  },
+  "lightstickwatch": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-18T01:45:49Z"
+  },
+  "ntfy": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-16T08:05:47Z"
+  },
+  "rosterwatch": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-24T00:16:19Z"
+  },
+  "rsshub": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-16T07:42:15Z"
+  },
+  "spotify": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-17T17:48:33Z"
+  },
+  "ticketmaster": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-16T08:04:51Z"
+  },
+  "tiktok": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-16T08:01:53Z"
+  },
+  "youtube": {
+   "msg": "",
+   "notified": false,
+   "ok": true,
+   "since": "2026-10-16T08:05:06Z"
+  }
+ }
+}
