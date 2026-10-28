@@ -743,7 +743,10 @@
   "news:81435792d8d2217e|foro": "2026-10-28T17:16:33Z",
   "live:lng-20261028-edinburgh|ntfy": "2026-10-28T18:46:49Z",
   "live:lng-20261028-edinburgh|pub:radarkpop-lngshot-shows": "2026-10-28T18:46:49Z",
-  "live:lng-20261028-edinburgh|foro": "2026-10-28T18:46:49Z"
+  "live:lng-20261028-edinburgh|foro": "2026-10-28T18:46:49Z",
+  "news:1c23bb64229573b1|ntfy": "2026-10-28T19:31:14Z",
+  "news:1c23bb64229573b1|pub:radarkpop-bts-news": "2026-10-28T19:31:14Z",
+  "news:1c23bb64229573b1|foro": "2026-10-28T19:31:14Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2552,6 +2555,19 @@
     "video"
    ],
    "t": "2026-10-28T17:16:24Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "bastante",
+    "maradona",
+    "minutos",
+    "punk",
+    "tour",
+    "turistico"
+   ],
+   "t": "2026-10-28T19:31:06Z"
   }
  ],
  "discord_threads": {
