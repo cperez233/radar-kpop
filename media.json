@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T11:15:37Z",
+ "updated_at": "2026-10-28T11:30:35Z",
  "sample": false,
  "items": [
   {
@@ -66,6 +66,15 @@
    "published": "2026-10-28T03:00:25Z",
    "url": "https://www.youtube.com/watch?v=EFMIC-TG_5o",
    "image": "https://i.ytimg.com/vi/EFMIC-TG_5o/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "[GOING SEVENTEEN] EP.164 WHO ARE YOU? #1",
+   "date": "2026-10-28",
+   "published": "2026-10-28T05:25:32Z",
+   "url": "https://www.youtube.com/watch?v=S08KzAC4vDY",
+   "image": "https://i.ytimg.com/vi/S08KzAC4vDY/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -183,15 +192,6 @@
    "published": "2026-10-27T11:00:18Z",
    "url": "https://www.youtube.com/watch?v=VWkNhFekwCU",
    "image": "https://i.ytimg.com/vi/VWkNhFekwCU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[Choreography Video] JEONGHAN X JOSHUA (SEVENTEEN) - 12 o'clock (Moving ver.)",
-   "date": "2026-10-26",
-   "published": "2026-10-26T10:59:59Z",
-   "url": "https://www.youtube.com/watch?v=D5Op5mAGUak",
-   "image": "https://i.ytimg.com/vi/D5Op5mAGUak/hqdefault.jpg"
   },
   {
    "type": "video",
