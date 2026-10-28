@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T03:00:41Z",
+ "updated_at": "2026-10-28T04:00:41Z",
  "sample": false,
  "items": [
   {
@@ -48,6 +48,15 @@
    "published": "2026-10-28T03:00:25Z",
    "url": "https://www.youtube.com/watch?v=EFMIC-TG_5o",
    "image": "https://i.ytimg.com/vi/EFMIC-TG_5o/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "좀 자연스러웠나요 #CORTIS #코르티스",
+   "date": "2026-10-28",
+   "published": "2026-10-28T04:00:08Z",
+   "url": "https://www.youtube.com/watch?v=ZRKcdIwSzqM",
+   "image": "https://i.ytimg.com/vi/ZRKcdIwSzqM/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -219,15 +228,6 @@
    "published": "2026-10-26T13:00:15Z",
    "url": "https://www.youtube.com/watch?v=XBxP3YI45dw",
    "image": "https://i.ytimg.com/vi/XBxP3YI45dw/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "new sofa",
-   "date": "2026-10-25",
-   "published": "2026-10-25T11:59:58Z",
-   "url": "https://www.youtube.com/watch?v=XWZ3eOGsvBA",
-   "image": "https://i.ytimg.com/vi/XWZ3eOGsvBA/hqdefault.jpg"
   },
   {
    "type": "music",
