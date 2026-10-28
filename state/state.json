@@ -724,7 +724,11 @@
   "today:lngshot:lng-20261028-edinburgh|foro": "2026-10-28T08:01:04Z",
   "official:seventeen:comeback:2026-10-28|ntfy": "2026-10-28T09:01:09Z",
   "official:seventeen:comeback:2026-10-28|pub:radarkpop-seventeen-music": "2026-10-28T09:01:09Z",
-  "official:seventeen:comeback:2026-10-28|foro": "2026-10-28T09:01:09Z"
+  "official:seventeen:comeback:2026-10-28|foro": "2026-10-28T09:01:09Z",
+  "today:bts:bts-20261028-saopaulo|ntfy": "2026-10-28T11:01:10Z",
+  "today:bts:bts-20261028-saopaulo|pub:radarkpop-bts-shows": "2026-10-28T11:01:10Z",
+  "today:bts:bts-20261028-saopaulo|pub:radarkpop-pais-brasil": "2026-10-28T11:01:10Z",
+  "today:bts:bts-20261028-saopaulo|foro": "2026-10-28T11:01:10Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1562,7 +1566,6 @@
   }
  },
  "news_seen": [
-  "24a617be9bc8f7e0",
   "254ac6a33319392a",
   "25707cb48d1b6ce2",
   "265c313926279f56",
@@ -1809,6 +1812,7 @@
   "67c32e301ed9349e",
   "686e79928f8b2598",
   "6878484edabcd248",
+  "6885f724f3620bb3",
   "6898b544ad664ce0",
   "692137c86fdad263",
   "693284d097c750f7",
