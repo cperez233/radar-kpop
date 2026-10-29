@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29T12:15:35Z",
+ "updated_at": "2026-10-29T13:00:39Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-10-29"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "[MIN9YU:ON] 한 그릇 툭 | 스니커 토스트 | 직접 만들어보자",
+   "date": "2026-10-29",
+   "published": "2026-10-29T12:46:04Z",
+   "url": "https://www.youtube.com/watch?v=rXafHjh25NQ",
+   "image": "https://i.ytimg.com/vi/rXafHjh25NQ/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -201,15 +210,6 @@
    "published": "2026-10-27T15:00:14Z",
    "url": "https://www.youtube.com/watch?v=dU-o_ALskWk",
    "image": "https://i.ytimg.com/vi/dU-o_ALskWk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "JEONGHAN X JOSHUA (SEVENTEEN) 12 o'clock M/V BEHIND THE SCENES",
-   "date": "2026-10-27",
-   "published": "2026-10-27T12:59:56Z",
-   "url": "https://www.youtube.com/watch?v=DRzc0Ncwmuo",
-   "image": "https://i.ytimg.com/vi/DRzc0Ncwmuo/hqdefault.jpg"
   },
   {
    "type": "video",
