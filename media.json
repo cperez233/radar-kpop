@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29T07:00:42Z",
+ "updated_at": "2026-10-29T09:15:34Z",
  "sample": false,
  "items": [
   {
@@ -57,6 +57,15 @@
    "published": "2026-10-29T04:00:25Z",
    "url": "https://www.youtube.com/watch?v=76JUzpVwkSw",
    "image": "https://i.ytimg.com/vi/76JUzpVwkSw/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "'Drip' dance got you hooked yet? #Shorts",
+   "date": "2026-10-29",
+   "published": "2026-10-29T09:00:39Z",
+   "url": "https://www.youtube.com/watch?v=4ZwuDFwCxhQ",
+   "image": "https://i.ytimg.com/vi/4ZwuDFwCxhQ/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -129,15 +138,6 @@
    "published": "2026-10-28T11:00:22Z",
    "url": "https://www.youtube.com/watch?v=b-DS3LhgJFk",
    "image": "https://i.ytimg.com/vi/b-DS3LhgJFk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) log_logbook#238",
-   "date": "2026-10-28",
-   "published": "2026-10-28T10:00:04Z",
-   "url": "https://www.youtube.com/watch?v=cHbde8psf3E",
-   "image": "https://i.ytimg.com/vi/cHbde8psf3E/hqdefault.jpg"
   },
   {
    "type": "video",
