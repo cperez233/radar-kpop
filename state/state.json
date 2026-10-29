@@ -762,7 +762,10 @@
   "official:cortis:tour:2026-10-29|foro": "2026-10-29T12:04:35Z",
   "official:ateez:comeback:2026-10-29|ntfy": "2026-10-29T15:01:28Z",
   "official:ateez:comeback:2026-10-29|pub:radarkpop-ateez-music": "2026-10-29T15:01:28Z",
-  "official:ateez:comeback:2026-10-29|foro": "2026-10-29T15:01:28Z"
+  "official:ateez:comeback:2026-10-29|foro": "2026-10-29T15:01:28Z",
+  "news:0220870fb15af8d6|ntfy": "2026-10-29T17:16:23Z",
+  "news:0220870fb15af8d6|pub:radarkpop-ateez-news": "2026-10-29T17:16:23Z",
+  "news:0220870fb15af8d6|foro": "2026-10-29T17:16:23Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2508,6 +2511,21 @@
     "turistico"
    ],
    "t": "2026-10-28T19:31:06Z"
+  },
+  {
+   "g": "ateez",
+   "w": [
+    "2027",
+    "consolida",
+    "ellos",
+    "espera",
+    "esto",
+    "gira",
+    "lugar",
+    "mundial",
+    "pop"
+   ],
+   "t": "2026-10-29T17:16:16Z"
   }
  ],
  "discord_threads": {
