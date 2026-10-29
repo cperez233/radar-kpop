@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T19:30:17Z",
+  "updated_at": "2026-10-29T08:00:50Z",
   "sources": [
     {
       "name": "Live Nation (BTS)",
@@ -591,6 +591,21 @@
       "tour": "This Is For World Tour",
       "watch": [],
       "events": [
+        {
+          "local_date": "2026-11-14",
+          "lat": 14.5995,
+          "lon": 120.9842,
+          "id": "twice-auto-20261114-manila",
+          "start": "2026-11-14T18:00:00+08:00",
+          "city": "Manila",
+          "country": "Filipinas",
+          "venue": null,
+          "status": "anunciado",
+          "source": "auto",
+          "src": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRFZ5Z3E3OENKeUNWb2RXai0xbmlxVUh4X3VSOHl5MGQtQ3NSamtwbGR1UDQxQUJ4WmJMMkpxWXJ1c3oyY1FZTjRIcll2NC15Qmt6cGtmQlZnQzR1a0xWZDFVbmc1cHRFeHFsZWRmWE5vclJOb3RrckExLXdXXzJULTIwN0lkSFZwYk5VUFdLVEFfSldnMDFISnkwVEtQX21MWDAwRWxXdjY5VU9SV3ZRTTZXbHYtQlMtVVpSMXZIc3pRX2RxMC1ER2pvSUNxMmFQR015c0NRRQ?oc=5",
+          "src_kind": "news",
+          "time_tbd": true
+        },
         {
           "local_date": "2026-11-21",
           "lat": 37.5665,

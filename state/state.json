@@ -752,7 +752,11 @@
   "live:bts-20261028-saopaulo|foro": "2026-10-28T22:16:28Z",
   "official:lngshot:comeback:2026-10-29|ntfy": "2026-10-29T02:01:11Z",
   "official:lngshot:comeback:2026-10-29|pub:radarkpop-lngshot-music": "2026-10-29T02:01:11Z",
-  "official:lngshot:comeback:2026-10-29|foro": "2026-10-29T02:01:11Z"
+  "official:lngshot:comeback:2026-10-29|foro": "2026-10-29T02:01:11Z",
+  "new:twice:twice-auto-20261114-manila|ntfy": "2026-10-29T08:01:08Z",
+  "new:twice:twice-auto-20261114-manila|pub:radarkpop-twice-shows": "2026-10-29T08:01:08Z",
+  "new:twice:twice-auto-20261114-manila|pub:radarkpop-pais-filipinas": "2026-10-29T08:01:08Z",
+  "new:twice:twice-auto-20261114-manila|foro": "2026-10-29T08:01:08Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1040,6 +1044,13 @@
    "d": "2027-03-07",
    "s": "2027-03-07T19:00:00+08:00",
    "c": "Singapur",
+   "v": null
+  },
+  "twice-auto-20261114-manila": {
+   "g": "twice",
+   "d": "2026-11-14",
+   "s": "2026-11-14T18:00:00+08:00",
+   "c": "Manila",
    "v": null
   },
   "twice-auto-20261121-seul": {
@@ -1590,7 +1601,6 @@
   }
  },
  "news_seen": [
-  "2d955e58e697ff56",
   "2e190e633d3c05a5",
   "2eac635281919fb3",
   "2eec72ac200e61ec",
@@ -1955,6 +1965,7 @@
   "8a8b8181b78387d4",
   "8a96d25f7b7fac4d",
   "8ab7b643978f419d",
+  "8ac06c80718679df",
   "8ad15c2ec3cf151e",
   "8b7c363de74a6502",
   "8b905058820569af",
