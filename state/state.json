@@ -749,7 +749,10 @@
   "news:1c23bb64229573b1|foro": "2026-10-28T19:31:14Z",
   "live:bts-20261028-saopaulo|ntfy": "2026-10-28T22:16:28Z",
   "live:bts-20261028-saopaulo|pub:radarkpop-bts-shows": "2026-10-28T22:16:28Z",
-  "live:bts-20261028-saopaulo|foro": "2026-10-28T22:16:28Z"
+  "live:bts-20261028-saopaulo|foro": "2026-10-28T22:16:28Z",
+  "official:lngshot:comeback:2026-10-29|ntfy": "2026-10-29T02:01:11Z",
+  "official:lngshot:comeback:2026-10-29|pub:radarkpop-lngshot-music": "2026-10-29T02:01:11Z",
+  "official:lngshot:comeback:2026-10-29|foro": "2026-10-29T02:01:11Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1587,8 +1590,6 @@
   }
  },
  "news_seen": [
-  "2a9270ed5d51d1ba",
-  "2b802b765819a625",
   "2b9d1260e8038831",
   "2bcc4044ae89a743",
   "2c483480cb3d0715",
@@ -1970,6 +1971,7 @@
   "8c8d324a31d34f38",
   "8cbd2b6b30216cf7",
   "8cc811a5f123bad9",
+  "8d0a7a5dacf8a39d",
   "8d5013b8a186306f",
   "8d9e84be204de8d5",
   "8dcc8d1ad364fdf2",
@@ -2220,6 +2222,7 @@
   "c9ac1dab8bda2302",
   "ca3c4512d3a6caec",
   "cac9e2c2834d016f",
+  "cadd9a30442e962e",
   "cb0f18c18551703f",
   "cc0d1c687b9a1288",
   "cc37a3501c42ea08",
