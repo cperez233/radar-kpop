@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T03:15:50Z",
+  "updated_at": "2026-10-29T15:30:59Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
@@ -27,10 +27,10 @@
     "twice": {
       "listeners": 14877267,
       "listeners_peak": 27003979,
-      "streams": 13005524996,
+      "streams": 13009250900,
       "top_song": {
         "title": "What is Love?",
-        "streams": 711911197,
+        "streams": 712275510,
         "url": "https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y"
       },
       "yt_subs": 19500000
@@ -38,10 +38,10 @@
     "blackpink": {
       "listeners": 18657196,
       "listeners_peak": 35310315,
-      "streams": 16736941736,
+      "streams": 16740787882,
       "top_song": {
         "title": "How You Like That",
-        "streams": 1301878929,
+        "streams": 1302085751,
         "url": "https://open.spotify.com/track/4SFknyjLcyTLJFPKD2m96o"
       },
       "yt_subs": 101000000
@@ -53,7 +53,7 @@
         "streams": 116883104,
         "url": "https://open.spotify.com/track/46V2ciN6F5bxjQWityNhkY"
       },
-      "listeners": 3837608,
+      "listeners": 3881898,
       "listeners_peak": 6085028,
       "yt_subs": 2130000
     },
@@ -82,10 +82,10 @@
     "newjeans": {
       "listeners": 13719467,
       "listeners_peak": 26786050,
-      "streams": 7952997385,
+      "streams": 7959928853,
       "top_song": {
         "title": "OMG",
-        "streams": 989277477,
+        "streams": 989877215,
         "url": "https://open.spotify.com/track/65FftemJ1DbbZ45DUfHJXE"
       },
       "yt_subs": 8710000
