@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T23:00:45Z",
+ "updated_at": "2026-10-29T00:00:44Z",
  "sample": false,
  "items": [
   {
@@ -38,7 +38,7 @@
      "p": ""
     }
    ],
-   "sp_try": "2026-10-28"
+   "sp_try": "2026-10-29"
   },
   {
    "type": "video",
@@ -456,7 +456,7 @@
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
    "ytm_try": "2026-10-28T23",
-   "sp_try": "2026-10-28"
+   "sp_try": "2026-10-29"
   },
   {
    "type": "music",
@@ -1136,7 +1136,7 @@
     }
    ],
    "ytm_try": "2026-10-17T19",
-   "sp_try": "2026-10-28"
+   "sp_try": "2026-10-29"
   },
   {
    "type": "music",
