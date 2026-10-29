@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29T09:15:34Z",
+ "updated_at": "2026-10-29T10:00:43Z",
  "sample": false,
  "items": [
   {
@@ -57,6 +57,15 @@
    "published": "2026-10-29T04:00:25Z",
    "url": "https://www.youtube.com/watch?v=76JUzpVwkSw",
    "image": "https://i.ytimg.com/vi/76JUzpVwkSw/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) - 'Drip' MV Reaction",
+   "date": "2026-10-29",
+   "published": "2026-10-29T10:00:02Z",
+   "url": "https://www.youtube.com/watch?v=JTm_EEsH9AA",
+   "image": "https://i.ytimg.com/vi/JTm_EEsH9AA/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -129,15 +138,6 @@
    "published": "2026-10-28T12:00:02Z",
    "url": "https://www.youtube.com/watch?v=xFPjJVY72y8",
    "image": "https://i.ytimg.com/vi/xFPjJVY72y8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "There’s my 'Drip' #Shorts",
-   "date": "2026-10-28",
-   "published": "2026-10-28T11:00:22Z",
-   "url": "https://www.youtube.com/watch?v=b-DS3LhgJFk",
-   "image": "https://i.ytimg.com/vi/b-DS3LhgJFk/hqdefault.jpg"
   },
   {
    "type": "video",
