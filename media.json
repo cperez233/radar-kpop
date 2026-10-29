@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29T14:15:37Z",
+ "updated_at": "2026-10-29T14:45:35Z",
  "sample": false,
  "items": [
   {
@@ -61,6 +61,15 @@
   {
    "type": "video",
    "group": "enhypen",
+   "title": "pop pop #NI_KI #IROHA #ENHYPEN #ILLIT @ILLIT_official",
+   "date": "2026-10-29",
+   "published": "2026-10-29T14:38:25Z",
+   "url": "https://www.youtube.com/watch?v=jrdans_ucwE",
+   "image": "https://i.ytimg.com/vi/jrdans_ucwE/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
    "title": "눈치싸움 #JUNGWON #JAY #ENHYPEN",
    "date": "2026-10-29",
    "published": "2026-10-29T14:04:03Z",
@@ -75,15 +84,6 @@
    "published": "2026-10-29T13:57:49Z",
    "url": "https://www.youtube.com/watch?v=c7VmbyyGUc0",
    "image": "https://i.ytimg.com/vi/c7VmbyyGUc0/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "오늘 처음 만났는데 별걸 다 했네 | 내 이름은 김선우 EP.2 | ENHYPEN SUNOO",
-   "date": "2026-10-29",
-   "published": "2026-10-29T11:59:52Z",
-   "url": "https://www.youtube.com/watch?v=AMcjVRuvNMQ",
-   "image": "https://i.ytimg.com/vi/AMcjVRuvNMQ/hqdefault.jpg"
   },
   {
    "type": "video",

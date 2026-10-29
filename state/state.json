@@ -1604,7 +1604,6 @@
   }
  },
  "news_seen": [
-  "346bd7912f63f369",
   "349d533e4336eab7",
   "34de096ff87fab5f",
   "353524d201d12891",
@@ -1990,6 +1989,7 @@
   "911c2d9a565ebf7b",
   "913f5285bf0cd9a3",
   "9154e7f01b69e131",
+  "9157e09cc9b4e43d",
   "9170093e16ec3123",
   "91beb3751a63fc83",
   "9216ba88243d23ea",
@@ -2406,30 +2406,6 @@
   "ffda53b7817ff28f"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "acuerdo",
-    "asistentes",
-    "audio",
-    "cinepolis",
-    "concierto",
-    "constantes",
-    "era",
-    "fallas",
-    "imagen",
-    "inexistente",
-    "milenio",
-    "practicamente",
-    "presento",
-    "reportan",
-    "testimonio",
-    "trababa",
-    "transmision",
-    "usuarias"
-   ],
-   "t": "2026-10-27T14:32:15Z"
-  },
   {
    "g": "bts",
    "w": [
