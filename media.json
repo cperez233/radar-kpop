@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29T03:00:40Z",
+ "updated_at": "2026-10-29T04:00:39Z",
  "sample": false,
  "items": [
   {
@@ -48,6 +48,15 @@
    "published": "2026-10-29T03:00:22Z",
    "url": "https://www.youtube.com/watch?v=NRbA6pSuZV0",
    "image": "https://i.ytimg.com/vi/NRbA6pSuZV0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "this song got me dramatic #CORTIS #코르티스",
+   "date": "2026-10-29",
+   "published": "2026-10-29T04:00:25Z",
+   "url": "https://www.youtube.com/watch?v=76JUzpVwkSw",
+   "image": "https://i.ytimg.com/vi/76JUzpVwkSw/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -228,15 +237,6 @@
    "published": "2026-10-26T12:59:23Z",
    "url": "https://www.youtube.com/watch?v=akXYoO5CCMQ",
    "image": "https://i.ytimg.com/vi/akXYoO5CCMQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "못 본 척 해주세요 #CORTIS #코르티스",
-   "date": "2026-10-26",
-   "published": "2026-10-26T09:00:13Z",
-   "url": "https://www.youtube.com/watch?v=A1-51XmiU5w",
-   "image": "https://i.ytimg.com/vi/A1-51XmiU5w/hqdefault.jpg"
   },
   {
    "type": "music",
