@@ -756,7 +756,10 @@
   "new:twice:twice-auto-20261114-manila|ntfy": "2026-10-29T08:01:08Z",
   "new:twice:twice-auto-20261114-manila|pub:radarkpop-twice-shows": "2026-10-29T08:01:08Z",
   "new:twice:twice-auto-20261114-manila|pub:radarkpop-pais-filipinas": "2026-10-29T08:01:08Z",
-  "new:twice:twice-auto-20261114-manila|foro": "2026-10-29T08:01:08Z"
+  "new:twice:twice-auto-20261114-manila|foro": "2026-10-29T08:01:08Z",
+  "official:cortis:tour:2026-10-29|ntfy": "2026-10-29T12:04:35Z",
+  "official:cortis:tour:2026-10-29|pub:radarkpop-cortis-shows": "2026-10-29T12:04:35Z",
+  "official:cortis:tour:2026-10-29|foro": "2026-10-29T12:04:35Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1601,7 +1604,6 @@
   }
  },
  "news_seen": [
-  "3307060a4adc9378",
   "33ce7fcc82e89b3d",
   "33dda7e6ed211b58",
   "341610a91c11c334",
@@ -1764,6 +1766,7 @@
   "58a3ce5288ee6029",
   "592ad5a8ede4b148",
   "5968f756f0223837",
+  "59e6997f9940a9b7",
   "59ee3b9fd8312542",
   "5a476ecfa13cca44",
   "5a769e67c4024311",
@@ -2549,6 +2552,7 @@
   "seventeen": "1561393749081464854",
   "ateez": "1561393791389409313",
   "radar": "1561725925404704909",
-  "blackpink": "1563204173426860063"
+  "blackpink": "1563204173426860063",
+  "cortis": "1565335546723569819"
  }
 }

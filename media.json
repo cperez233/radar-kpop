@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29T11:00:39Z",
+ "updated_at": "2026-10-29T12:00:38Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-10-29"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "오늘 처음 만났는데 별걸 다 했네 | 내 이름은 김선우 EP.2 | ENHYPEN SUNOO",
+   "date": "2026-10-29",
+   "published": "2026-10-29T11:59:52Z",
+   "url": "https://www.youtube.com/watch?v=AMcjVRuvNMQ",
+   "image": "https://i.ytimg.com/vi/AMcjVRuvNMQ/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -228,15 +237,6 @@
    "published": "2026-10-26T12:59:41Z",
    "url": "https://www.youtube.com/watch?v=rbD5C9npvXQ",
    "image": "https://i.ytimg.com/vi/rbD5C9npvXQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "박박심이 숏폼을 찍을 때 😁 | 마카오에서의 #엔하이픈 #1",
-   "date": "2026-10-26",
-   "published": "2026-10-26T12:59:23Z",
-   "url": "https://www.youtube.com/watch?v=akXYoO5CCMQ",
-   "image": "https://i.ytimg.com/vi/akXYoO5CCMQ/hqdefault.jpg"
   },
   {
    "type": "music",
