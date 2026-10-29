@@ -765,7 +765,10 @@
   "official:ateez:comeback:2026-10-29|foro": "2026-10-29T15:01:28Z",
   "news:0220870fb15af8d6|ntfy": "2026-10-29T17:16:23Z",
   "news:0220870fb15af8d6|pub:radarkpop-ateez-news": "2026-10-29T17:16:23Z",
-  "news:0220870fb15af8d6|foro": "2026-10-29T17:16:23Z"
+  "news:0220870fb15af8d6|foro": "2026-10-29T17:16:23Z",
+  "roster:https://news.google.com/rss/articles/CBMic0FVX3lxTE5PY3hYajdwcDBmUVFXVVFyb0VaTW1aUElKZ2NaZVJWMGdIUi1oUXJWbkJVV3g4ZnJLd2NXS2M1XzhENUJNUTBLNzlmUXlKY2EwR3RlMzNpNnVOTGhBOXU3Nko2ZG5BN1A2NDFkNUlGMzU3RzA?oc=5|ntfy": "2026-10-29T21:46:54Z",
+  "roster:https://news.google.com/rss/articles/CBMic0FVX3lxTE5PY3hYajdwcDBmUVFXVVFyb0VaTW1aUElKZ2NaZVJWMGdIUi1oUXJWbkJVV3g4ZnJLd2NXS2M1XzhENUJNUTBLNzlmUXlKY2EwR3RlMzNpNnVOTGhBOXU3Nko2ZG5BN1A2NDFkNUlGMzU3RzA?oc=5|pub:radarkpop-newjeans-members": "2026-10-29T21:46:54Z",
+  "roster:https://news.google.com/rss/articles/CBMic0FVX3lxTE5PY3hYajdwcDBmUVFXVVFyb0VaTW1aUElKZ2NaZVJWMGdIUi1oUXJWbkJVV3g4ZnJLd2NXS2M1XzhENUJNUTBLNzlmUXlKY2EwR3RlMzNpNnVOTGhBOXU3Nko2ZG5BN1A2NDFkNUlGMzU3RzA?oc=5|foro": "2026-10-29T21:46:54Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2538,6 +2541,7 @@
   "ateez": "1561393791389409313",
   "radar": "1561725925404704909",
   "blackpink": "1563204173426860063",
-  "cortis": "1565335546723569819"
+  "cortis": "1565335546723569819",
+  "newjeans": "1565482094099046452"
  }
 }
