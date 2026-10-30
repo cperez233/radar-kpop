@@ -780,7 +780,10 @@
   "live:svt-20261030-incheon|foro": "2026-10-30T10:16:45Z",
   "official:lngshot:comeback:2026-10-30|ntfy": "2026-10-30T10:31:08Z",
   "official:lngshot:comeback:2026-10-30|pub:radarkpop-lngshot-music": "2026-10-30T10:31:08Z",
-  "official:lngshot:comeback:2026-10-30|foro": "2026-10-30T10:31:08Z"
+  "official:lngshot:comeback:2026-10-30|foro": "2026-10-30T10:31:08Z",
+  "official:twice:comeback:2026-10-30|ntfy": "2026-10-30T13:01:14Z",
+  "official:twice:comeback:2026-10-30|pub:radarkpop-twice-music": "2026-10-30T13:01:14Z",
+  "official:twice:comeback:2026-10-30|foro": "2026-10-30T13:01:14Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1625,7 +1628,6 @@
   }
  },
  "news_seen": [
-  "3a89eee3403c181f",
   "3a90e4d719be2566",
   "3a938266a8376791",
   "3ac94a8f62a67141",
@@ -2195,6 +2197,7 @@
   "bf87370d48aa70d5",
   "bf8f8400bbecc192",
   "bfcbfb22226d055b",
+  "c055698f5210c199",
   "c05c9ba06305e7b0",
   "c0900a8bc123825c",
   "c0a5e5015f1d2280",
