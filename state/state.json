@@ -1625,7 +1625,6 @@
   }
  },
  "news_seen": [
-  "39e98348ccfb916a",
   "39f76f66cbf0a9cd",
   "3a89eee3403c181f",
   "3a90e4d719be2566",
@@ -1710,6 +1709,7 @@
   "4ce0918af7bb5358",
   "4d05fc490195765a",
   "4d478540b34de366",
+  "4d81609a860595de",
   "4e2a31c39658b777",
   "4e2e730cc7d75410",
   "4e4857307992ed2a",
@@ -2427,18 +2427,6 @@
   "ffda53b7817ff28f"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "argentina",
-    "conciertos",
-    "dejaron",
-    "historicos",
-    "plata",
-    "tres"
-   ],
-   "t": "2026-10-28T11:30:55Z"
-  },
   {
    "g": "bts",
    "w": [
