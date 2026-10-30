@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-30T09:00:39Z",
+ "updated_at": "2026-10-30T10:00:39Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-10-30"
+  },
+  {
+   "type": "video",
+   "group": "bts",
+   "title": "BTS 'iHeartRadio Music Festival 2026' Sketch",
+   "date": "2026-10-30",
+   "published": "2026-10-30T09:59:59Z",
+   "url": "https://www.youtube.com/watch?v=Z4hrFgiZHVo",
+   "image": "https://i.ytimg.com/vi/Z4hrFgiZHVo/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -380,15 +389,6 @@
    "published": "2026-10-14T13:00:06Z",
    "url": "https://www.youtube.com/watch?v=EvKMPk3ArNQ",
    "image": "https://i.ytimg.com/vi/EvKMPk3ArNQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "bts",
-   "title": "오케이! 이해했다 #BTS #방탄소년단 #RunBTS #달려라방탄 #달방",
-   "date": "2026-10-11",
-   "published": "2026-10-11T11:01:17Z",
-   "url": "https://www.youtube.com/watch?v=rGb4rH-P8eE",
-   "image": "https://i.ytimg.com/vi/rGb4rH-P8eE/hqdefault.jpg"
   },
   {
    "type": "music",
