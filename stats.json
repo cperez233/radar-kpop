@@ -1,31 +1,31 @@
 {
-  "updated_at": "2026-10-29T15:30:59Z",
+  "updated_at": "2026-10-30T03:46:07Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
-      "listeners": 30437800,
+      "listeners": 30394117,
       "listeners_peak": 46724346,
-      "streams": 50882554945,
+      "streams": 50910678397,
       "top_song": {
         "title": "Dynamite",
-        "streams": 2374009993,
+        "streams": 2374597540,
         "url": "https://open.spotify.com/track/5QDLhrAOJJdNAmCTJ8xMyW"
       },
       "yt_subs": 86300000
     },
     "skz": {
-      "listeners": 9827210,
+      "listeners": 9803652,
       "listeners_peak": 14253317,
-      "streams": 15733959601,
+      "streams": 15741921325,
       "top_song": {
         "title": "God’s Menu",
-        "streams": 555189011,
+        "streams": 555392262,
         "url": "https://open.spotify.com/track/4XPXrcpyNr30Km6aPiflJy"
       },
       "yt_subs": 25500000
     },
     "twice": {
-      "listeners": 14877267,
+      "listeners": 14903153,
       "listeners_peak": 27003979,
       "streams": 13009250900,
       "top_song": {
@@ -36,15 +36,15 @@
       "yt_subs": 19500000
     },
     "blackpink": {
-      "listeners": 18657196,
+      "listeners": 18617096,
       "listeners_peak": 35310315,
-      "streams": 16740787882,
+      "streams": 16744701323,
       "top_song": {
         "title": "How You Like That",
-        "streams": 1302085751,
+        "streams": 1302307921,
         "url": "https://open.spotify.com/track/4SFknyjLcyTLJFPKD2m96o"
       },
-      "yt_subs": 101000000
+      "yt_subs": 102000000
     },
     "lngshot": {
       "streams": 367908896,
@@ -53,9 +53,9 @@
         "streams": 116883104,
         "url": "https://open.spotify.com/track/46V2ciN6F5bxjQWityNhkY"
       },
-      "listeners": 3881898,
+      "listeners": 3945923,
       "listeners_peak": 6085028,
-      "yt_subs": 2130000
+      "yt_subs": 2140000
     },
     "seventeen": {
       "streams": 8430070868,
@@ -64,23 +64,23 @@
         "streams": 328746459,
         "url": "https://open.spotify.com/track/3ZpfXyQgcqdSA1TGNc7Ret"
       },
-      "listeners": 4519517,
+      "listeners": 4504859,
       "listeners_peak": 9240435,
       "yt_subs": 18100000
     },
     "enhypen": {
-      "listeners": 9982165,
+      "listeners": 9973777,
       "listeners_peak": 11080262,
-      "streams": 8027968025,
+      "streams": 8032938751,
       "top_song": {
         "title": "Bite Me",
-        "streams": 545211991,
+        "streams": 545476190,
         "url": "https://open.spotify.com/track/7mpdNiaQvygj2rHoxkzMfa"
       },
       "yt_subs": 14700000
     },
     "newjeans": {
-      "listeners": 13719467,
+      "listeners": 13735891,
       "listeners_peak": 26786050,
       "streams": 7959928853,
       "top_song": {
@@ -91,15 +91,15 @@
       "yt_subs": 8710000
     },
     "cortis": {
-      "listeners": 10996135,
+      "listeners": 10964000,
       "listeners_peak": 12947465,
-      "streams": 1445179582,
+      "streams": 1452922939,
       "top_song": {
         "title": "REDRED",
-        "streams": 264108883,
+        "streams": 265911942,
         "url": "https://open.spotify.com/track/34YVCoqIm08nbsxFSPL0Uh"
       },
-      "yt_subs": 7550000
+      "yt_subs": 7560000
     },
     "ateez": {
       "listeners": 7409764,
