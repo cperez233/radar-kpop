@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29T06:15:46Z",
+ "updated_at": "2026-10-30T07:00:50Z",
  "groups": {
   "lngshot": [
    {
@@ -134,6 +134,13 @@
    }
   ],
   "cortis": [
+   {
+    "title": "[Notice] CORTIS MMA2026 부문별 투표 인증 온라인 이벤트 안내 (+ENG/JPN)",
+    "url": "https://weverse.io/cortis/notice/40456",
+    "post": "https://x.com/cortis_bighit/status/2116062548881449231",
+    "when": "2026-10-30T07:00:00Z",
+    "weverse": true
+   },
    {
     "title": "[Vote] MMA2026 TOP10 투표 마감 D-3 💚 📆 ~ 2026.10.29 23:59 (KST) 🗳️ Melon (",
     "url": "https://weverse.io/cortis/notice/40216",
