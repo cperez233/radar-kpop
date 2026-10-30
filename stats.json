@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T03:46:07Z",
+  "updated_at": "2026-10-30T16:01:25Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
@@ -27,10 +27,10 @@
     "twice": {
       "listeners": 14903153,
       "listeners_peak": 27003979,
-      "streams": 13009250900,
+      "streams": 13013067481,
       "top_song": {
         "title": "What is Love?",
-        "streams": 712275510,
+        "streams": 712639367,
         "url": "https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y"
       },
       "yt_subs": 19500000
@@ -47,10 +47,10 @@
       "yt_subs": 102000000
     },
     "lngshot": {
-      "streams": 367908896,
+      "streams": 378367458,
       "top_song": {
         "title": "Moonwalkin'",
-        "streams": 116883104,
+        "streams": 118691076,
         "url": "https://open.spotify.com/track/46V2ciN6F5bxjQWityNhkY"
       },
       "listeners": 3945923,
@@ -110,7 +110,7 @@
         "streams": 200378654,
         "url": "https://open.spotify.com/track/5VGdz8LeTx2M8LHe9iUSQU"
       },
-      "yt_subs": 5800000
+      "yt_subs": 5810000
     }
   }
 }
