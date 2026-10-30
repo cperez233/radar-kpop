@@ -771,7 +771,10 @@
   "roster:https://news.google.com/rss/articles/CBMic0FVX3lxTE5PY3hYajdwcDBmUVFXVVFyb0VaTW1aUElKZ2NaZVJWMGdIUi1oUXJWbkJVV3g4ZnJLd2NXS2M1XzhENUJNUTBLNzlmUXlKY2EwR3RlMzNpNnVOTGhBOXU3Nko2ZG5BN1A2NDFkNUlGMzU3RzA?oc=5|foro": "2026-10-29T21:46:54Z",
   "official:ateez:comeback:2026-10-30|ntfy": "2026-10-30T07:46:40Z",
   "official:ateez:comeback:2026-10-30|pub:radarkpop-ateez-music": "2026-10-30T07:46:40Z",
-  "official:ateez:comeback:2026-10-30|foro": "2026-10-30T07:46:40Z"
+  "official:ateez:comeback:2026-10-30|foro": "2026-10-30T07:46:40Z",
+  "news:a66ab1334967daf9|ntfy": "2026-10-30T09:16:18Z",
+  "news:a66ab1334967daf9|pub:radarkpop-bts-news": "2026-10-30T09:16:18Z",
+  "news:a66ab1334967daf9|foro": "2026-10-30T09:16:18Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1616,7 +1619,6 @@
   }
  },
  "news_seen": [
-  "38a7308810f867f5",
   "38ae10782037a861",
   "38f0d422568b9915",
   "390aa0433fba6998",
@@ -2077,6 +2079,7 @@
   "a5b18da4e90b1f3c",
   "a60832e6a32cfe5d",
   "a6668d53224ee200",
+  "a66ab1334967daf9",
   "a67dac0fda656f02",
   "a6aca9d79fc7ba8a",
   "a6ca41df68cba93a",
@@ -2515,6 +2518,27 @@
     "world"
    ],
    "t": "2026-10-30T07:16:26Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "000",
+    "anos",
+    "arirang",
+    "baja",
+    "brasil",
+    "cantan",
+    "concierto",
+    "coro",
+    "eyes",
+    "microfonos",
+    "paulo",
+    "personas",
+    "primer",
+    "sao",
+    "siete"
+   ],
+   "t": "2026-10-30T09:16:12Z"
   }
  ],
  "discord_threads": {
