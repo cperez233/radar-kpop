@@ -774,7 +774,10 @@
   "official:ateez:comeback:2026-10-30|foro": "2026-10-30T07:46:40Z",
   "news:a66ab1334967daf9|ntfy": "2026-10-30T09:16:18Z",
   "news:a66ab1334967daf9|pub:radarkpop-bts-news": "2026-10-30T09:16:18Z",
-  "news:a66ab1334967daf9|foro": "2026-10-30T09:16:18Z"
+  "news:a66ab1334967daf9|foro": "2026-10-30T09:16:18Z",
+  "live:svt-20261030-incheon|ntfy": "2026-10-30T10:16:45Z",
+  "live:svt-20261030-incheon|pub:radarkpop-seventeen-shows": "2026-10-30T10:16:45Z",
+  "live:svt-20261030-incheon|foro": "2026-10-30T10:16:45Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1619,7 +1622,6 @@
   }
  },
  "news_seen": [
-  "390aa0433fba6998",
   "390ee90c1bd5eabd",
   "391ea429c9b598a7",
   "395c5c235c4737ff",
@@ -1931,6 +1933,7 @@
   "8326a53b817f1aa1",
   "835d2af67d55829b",
   "837212f9ee6475ab",
+  "83eed69ed0bc9585",
   "83fa80f4d865067d",
   "84038b786c539d8d",
   "846d27ce45d4480b",
