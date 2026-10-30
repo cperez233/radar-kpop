@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-30T07:00:40Z",
+ "updated_at": "2026-10-30T09:00:39Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-10-30"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) - 'Drip' Official MV Making Film",
+   "date": "2026-10-30",
+   "published": "2026-10-30T09:00:02Z",
+   "url": "https://www.youtube.com/watch?v=38guecDYruc",
+   "image": "https://i.ytimg.com/vi/38guecDYruc/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -174,15 +183,6 @@
    "published": "2026-10-28T04:00:08Z",
    "url": "https://www.youtube.com/watch?v=ZRKcdIwSzqM",
    "image": "https://i.ytimg.com/vi/ZRKcdIwSzqM/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) - 'Drip' Visualizer",
-   "date": "2026-10-28",
-   "published": "2026-10-28T12:00:02Z",
-   "url": "https://www.youtube.com/watch?v=xFPjJVY72y8",
-   "image": "https://i.ytimg.com/vi/xFPjJVY72y8/hqdefault.jpg"
   },
   {
    "type": "video",
