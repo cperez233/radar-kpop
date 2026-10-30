@@ -1613,7 +1613,6 @@
   }
  },
  "news_seen": [
-  "363eb89e6846c9e0",
   "36c356fad60fc859",
   "36e6053a79d30b2f",
   "3725f8311a96aac1",
@@ -2197,6 +2196,7 @@
   "c0900a8bc123825c",
   "c0a5e5015f1d2280",
   "c0c589f7ef316fb2",
+  "c0e6a0a404b4032c",
   "c10c12dc97364372",
   "c127aba58cbbb6f3",
   "c233f103b025ddd3",
@@ -2416,20 +2416,6 @@
  ],
  "news_topics": [
   {
-   "g": "bts",
-   "w": [
-    "argentina",
-    "army",
-    "debut",
-    "espera",
-    "historico",
-    "llego",
-    "shows",
-    "tres"
-   ],
-   "t": "2026-10-28T03:16:16Z"
-  },
-  {
    "g": "skz",
    "w": [
     "live",
@@ -2512,6 +2498,20 @@
     "pop"
    ],
    "t": "2026-10-29T17:16:16Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "argentina",
+    "army",
+    "debut",
+    "espera",
+    "historico",
+    "llego",
+    "shows",
+    "tres"
+   ],
+   "t": "2026-10-30T03:30:57Z"
   }
  ],
  "discord_threads": {
