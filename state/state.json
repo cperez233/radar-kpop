@@ -768,7 +768,10 @@
   "news:0220870fb15af8d6|foro": "2026-10-29T17:16:23Z",
   "roster:https://news.google.com/rss/articles/CBMic0FVX3lxTE5PY3hYajdwcDBmUVFXVVFyb0VaTW1aUElKZ2NaZVJWMGdIUi1oUXJWbkJVV3g4ZnJLd2NXS2M1XzhENUJNUTBLNzlmUXlKY2EwR3RlMzNpNnVOTGhBOXU3Nko2ZG5BN1A2NDFkNUlGMzU3RzA?oc=5|ntfy": "2026-10-29T21:46:54Z",
   "roster:https://news.google.com/rss/articles/CBMic0FVX3lxTE5PY3hYajdwcDBmUVFXVVFyb0VaTW1aUElKZ2NaZVJWMGdIUi1oUXJWbkJVV3g4ZnJLd2NXS2M1XzhENUJNUTBLNzlmUXlKY2EwR3RlMzNpNnVOTGhBOXU3Nko2ZG5BN1A2NDFkNUlGMzU3RzA?oc=5|pub:radarkpop-newjeans-members": "2026-10-29T21:46:54Z",
-  "roster:https://news.google.com/rss/articles/CBMic0FVX3lxTE5PY3hYajdwcDBmUVFXVVFyb0VaTW1aUElKZ2NaZVJWMGdIUi1oUXJWbkJVV3g4ZnJLd2NXS2M1XzhENUJNUTBLNzlmUXlKY2EwR3RlMzNpNnVOTGhBOXU3Nko2ZG5BN1A2NDFkNUlGMzU3RzA?oc=5|foro": "2026-10-29T21:46:54Z"
+  "roster:https://news.google.com/rss/articles/CBMic0FVX3lxTE5PY3hYajdwcDBmUVFXVVFyb0VaTW1aUElKZ2NaZVJWMGdIUi1oUXJWbkJVV3g4ZnJLd2NXS2M1XzhENUJNUTBLNzlmUXlKY2EwR3RlMzNpNnVOTGhBOXU3Nko2ZG5BN1A2NDFkNUlGMzU3RzA?oc=5|foro": "2026-10-29T21:46:54Z",
+  "official:ateez:comeback:2026-10-30|ntfy": "2026-10-30T07:46:40Z",
+  "official:ateez:comeback:2026-10-30|pub:radarkpop-ateez-music": "2026-10-30T07:46:40Z",
+  "official:ateez:comeback:2026-10-30|foro": "2026-10-30T07:46:40Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1613,7 +1616,6 @@
   }
  },
  "news_seen": [
-  "37ef0518f8263cf4",
   "3831a5e2191de54d",
   "387188e9be0a3b14",
   "389d9accd3cc4922",
@@ -1853,6 +1855,7 @@
   "713d954eb3dad94e",
   "7173c20c98412021",
   "71d97b6777e8bb42",
+  "71e16bffec9be3c1",
   "721b64b16310b5eb",
   "725f136b39c51e27",
   "7279678afb1a1c5c",
