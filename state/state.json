@@ -1628,8 +1628,6 @@
   }
  },
  "news_seen": [
-  "3caa15bc8a036d3f",
-  "3cdeb624eb896871",
   "3cfc4556bd635d0f",
   "3d3e0fdc078ce284",
   "3d4674e9aa875640",
@@ -2128,6 +2126,7 @@
   "b0ff906f396a27d4",
   "b1413ae9d08af5c8",
   "b16b50f8b503a02f",
+  "b1a10bc4e504ab13",
   "b1e5e0c20b1f4131",
   "b238ab022b56a96c",
   "b2414ab488544187",
@@ -2427,7 +2426,8 @@
   "fe382faa86082acd",
   "fea57120d0712dc9",
   "ff7e28fe717a4438",
-  "ffda53b7817ff28f"
+  "ffda53b7817ff28f",
+  "ffff12b083c9a4d9"
  ],
  "news_topics": [
   {
