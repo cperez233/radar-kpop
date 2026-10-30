@@ -783,7 +783,10 @@
   "official:lngshot:comeback:2026-10-30|foro": "2026-10-30T10:31:08Z",
   "official:twice:comeback:2026-10-30|ntfy": "2026-10-30T13:01:14Z",
   "official:twice:comeback:2026-10-30|pub:radarkpop-twice-music": "2026-10-30T13:01:14Z",
-  "official:twice:comeback:2026-10-30|foro": "2026-10-30T13:01:14Z"
+  "official:twice:comeback:2026-10-30|foro": "2026-10-30T13:01:14Z",
+  "news:f7756ab99bb704fe|ntfy": "2026-10-30T21:46:33Z",
+  "news:f7756ab99bb704fe|pub:radarkpop-bts-news": "2026-10-30T21:46:33Z",
+  "news:f7756ab99bb704fe|foro": "2026-10-30T21:46:33Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1628,8 +1631,6 @@
   }
  },
  "news_seen": [
-  "3eb7b362469ab8c8",
-  "3f6e00f66af52019",
   "4018587464ae7bff",
   "404b8ba62a8434b8",
   "407d9925476c1bcb",
@@ -1945,6 +1946,7 @@
   "88cc362a13a3b0ea",
   "88dd608ac4d8cbec",
   "89143d1d0f7b9b5d",
+  "89528470a5a63805",
   "89578b544a26b544",
   "896964a9ed03b3e3",
   "8a07b7745f8c5468",
@@ -2400,6 +2402,7 @@
   "f5b794cd30a8ec4e",
   "f6bfdc7acd7cf89f",
   "f6fc08a530724648",
+  "f7756ab99bb704fe",
   "f7db80c43d325e3b",
   "f91fa7623939ac18",
   "f92981330ec59318",
@@ -2489,6 +2492,20 @@
     "siete"
    ],
    "t": "2026-10-30T09:16:12Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "city",
+    "comparini",
+    "divertido",
+    "fans",
+    "federico",
+    "momento",
+    "protagonizan",
+    "tour"
+   ],
+   "t": "2026-10-30T21:46:26Z"
   }
  ],
  "discord_threads": {
