@@ -804,7 +804,10 @@
   "bday:twice:jeongyeon:2026|foro": "2026-10-31T15:01:08Z",
   "news:ed14d590283a4d80|ntfy": "2026-10-31T16:31:47Z",
   "news:ed14d590283a4d80|pub:radarkpop-bts-news": "2026-10-31T16:31:47Z",
-  "news:ed14d590283a4d80|foro": "2026-10-31T16:31:47Z"
+  "news:ed14d590283a4d80|foro": "2026-10-31T16:31:47Z",
+  "news:d8c023dde86752c2|ntfy": "2026-10-31T21:01:08Z",
+  "news:d8c023dde86752c2|pub:radarkpop-bts-news": "2026-10-31T21:01:08Z",
+  "news:d8c023dde86752c2|foro": "2026-10-31T21:01:08Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1649,7 +1652,6 @@
   }
  },
  "news_seen": [
-  "45c872ad6207466f",
   "46d64969d2219228",
   "47068c17e41ee7ef",
   "47311a95a59e721b",
@@ -2305,6 +2307,7 @@
   "d84faca8e271b611",
   "d872ffa2183b9e41",
   "d896370ba78c5d6e",
+  "d8c023dde86752c2",
   "d8f5c6dcbac8f6e7",
   "d9371f711cd1f7f3",
   "d9cc98a52c2527d1",
@@ -2535,6 +2538,16 @@
     "pop"
    ],
    "t": "2026-10-31T17:31:14Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "concierto",
+    "llego",
+    "neymar",
+    "pequenos"
+   ],
+   "t": "2026-10-31T21:01:01Z"
   }
  ],
  "discord_threads": {
