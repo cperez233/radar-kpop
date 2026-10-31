@@ -813,7 +813,10 @@
   "news:1c457795cdea6fe7|foro": "2026-10-31T22:01:10Z",
   "live:bts-20261031-saopaulo|ntfy": "2026-10-31T22:16:21Z",
   "live:bts-20261031-saopaulo|pub:radarkpop-bts-shows": "2026-10-31T22:16:21Z",
-  "live:bts-20261031-saopaulo|foro": "2026-10-31T22:16:21Z"
+  "live:bts-20261031-saopaulo|foro": "2026-10-31T22:16:21Z",
+  "news:45c9d5c6544c7f3a|ntfy": "2026-10-31T22:31:06Z",
+  "news:45c9d5c6544c7f3a|pub:radarkpop-bts-news": "2026-10-31T22:31:06Z",
+  "news:45c9d5c6544c7f3a|foro": "2026-10-31T22:31:06Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2566,6 +2569,19 @@
     "vivo"
    ],
    "t": "2026-10-31T22:01:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "army",
+    "brasil",
+    "concierto",
+    "hijas",
+    "lleva",
+    "neymar",
+    "suma"
+   ],
+   "t": "2026-10-31T22:31:00Z"
   }
  ],
  "discord_threads": {
