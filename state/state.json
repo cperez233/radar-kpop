@@ -2452,21 +2452,6 @@
  ],
  "news_topics": [
   {
-   "g": "ateez",
-   "w": [
-    "2027",
-    "consolida",
-    "ellos",
-    "espera",
-    "esto",
-    "gira",
-    "lugar",
-    "mundial",
-    "pop"
-   ],
-   "t": "2026-10-29T17:16:16Z"
-  },
-  {
    "g": "bts",
    "w": [
     "argentina",
@@ -2535,6 +2520,21 @@
     "sao"
    ],
    "t": "2026-10-31T16:31:38Z"
+  },
+  {
+   "g": "ateez",
+   "w": [
+    "2027",
+    "consolida",
+    "ellos",
+    "espera",
+    "esto",
+    "gira",
+    "lugar",
+    "mundial",
+    "pop"
+   ],
+   "t": "2026-10-31T17:31:14Z"
   }
  ],
  "discord_threads": {
