@@ -1,18 +1,7 @@
 {
- "updated_at": "2026-10-31T00:15:37Z",
+ "updated_at": "2026-10-31T00:30:42Z",
  "sample": false,
  "items": [
-  {
-   "type": "music",
-   "group": "enhypen",
-   "title": "THE SIN : PARALLEL WORLD",
-   "kind": "Album",
-   "date": "2026-11-20",
-   "url": "https://music.apple.com/us/album/the-sin-parallel-world-single/6824959794",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/a1/48/53a148f3-361e-9022-fd1e-f91322dd945f/823375532705_Cover.jpg/300x300bb.jpg",
-   "ytm_v": 6,
-   "sp_try": "2026-10-31"
-  },
   {
    "type": "music",
    "group": "lngshot",
@@ -477,6 +466,86 @@
    "ytm_v": 6,
    "ytm_try": "2026-10-30T23",
    "sp_try": "2026-10-31"
+  },
+  {
+   "type": "music",
+   "group": "enhypen",
+   "title": "THE SIN : BLISS (SUNGHOON Ver.)",
+   "kind": "Album",
+   "date": "2026-08-24",
+   "url": "https://music.apple.com/us/album/the-sin-bliss-sunghoon-ver/6803801121",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/c8/6f/21c86f53-8d07-7841-7403-82c1c7f60550/823375387930_Cover.jpg/300x300bb.jpg",
+   "ytm_v": 6,
+   "tracks": [
+    {
+     "n": "Bloody Paradise (SUNGHOON Ver.)",
+     "ms": 121000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/88/f0/0588f08b-3754-8ee5-24fc-0a18d8e70f3e/mzaf_17104037333259704550.plus.aac.p.m4a"
+    },
+    {
+     "n": "Voice Note (SUNGHOON Ver.)",
+     "ms": 38000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/e3/8c/78e38cff-1996-8de3-3053-00220403e92a/mzaf_13928654760695378442.plus.aac.p.m4a"
+    },
+    {
+     "n": "Bloody Paradise (English Ver.)",
+     "ms": 131200,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1d/92/fc/1d92fc31-ada3-5d39-6cd8-c99c19f7a260/mzaf_15809950397822092049.plus.aac.p.m4a"
+    },
+    {
+     "n": "Two Fools",
+     "ms": 142267,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/86/51/d0865190-a317-b758-e094-4c669791db68/mzaf_3028803704396562016.plus.aac.p.m4a"
+    },
+    {
+     "n": "Breaking News",
+     "ms": 49467,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/23/27/6a23278b-7fc8-cb41-0843-9b42867b3e81/mzaf_16788075567145576934.plus.aac.p.m4a"
+    },
+    {
+     "n": "Stuck",
+     "ms": 152867,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e9/72/1b/e9721b20-985a-6775-8184-d20624d671a5/mzaf_14938702825346553873.plus.aac.p.m4a"
+    },
+    {
+     "n": "Bad For You",
+     "ms": 195200,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/7c/c0/937cc01c-c193-903c-4528-4052545662d0/mzaf_6221418413439170035.plus.aac.p.m4a"
+    },
+    {
+     "n": "Remnants of Love",
+     "ms": 87733,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/4b/af/0e4bafc2-6424-d7b5-5c45-229eea40d9e8/mzaf_16904722887733502227.plus.aac.p.m4a"
+    },
+    {
+     "n": "Bloody Paradise",
+     "ms": 131200,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/85/92/8685922a-45fb-6a95-13db-96c98484679a/mzaf_3762949686221492928.plus.aac.p.m4a"
+    },
+    {
+     "n": "The Final Moment",
+     "ms": 78600,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/a4/de/f8a4de1e-0ea1-e029-c3d0-b1690fbb7288/mzaf_17441268096341680968.plus.aac.p.m4a"
+    },
+    {
+     "n": "Checkmate",
+     "ms": 143000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/ec/2e/17ec2e47-90b2-a4ee-f2bc-d9ad036a7286/mzaf_5573885058225722149.plus.aac.p.m4a"
+    },
+    {
+     "n": "Highlight",
+     "ms": 193733,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/d1/e2/fdd1e2e4-6320-d07d-db38-b2cb026f640a/mzaf_5985959269801770460.plus.aac.p.m4a"
+    },
+    {
+     "n": "The Veiled Truth",
+     "ms": 95867,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/32/04/043204bd-07a8-5682-b7ab-180564f0c5c7/mzaf_15028971748120058438.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": "2026-10-31T00",
+   "ytm": "https://music.youtube.com/watch?v=pnQ7xS6S7co",
+   "spotify": "https://open.spotify.com/album/6nvN59P9vZ3XBtv7eWN70w"
   },
   {
    "type": "music",
