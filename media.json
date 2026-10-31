@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-31T11:00:40Z",
+ "updated_at": "2026-10-31T12:00:40Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,24 @@
     }
    ],
    "sp_try": "2026-10-31"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "PYPD NA tour 1",
+   "date": "2026-10-31",
+   "published": "2026-10-31T11:59:57Z",
+   "url": "https://www.youtube.com/watch?v=oaoa1noQzBw",
+   "image": "https://i.ytimg.com/vi/oaoa1noQzBw/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "JAYN 님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-10-31",
+   "published": "2026-10-31T12:00:00Z",
+   "url": "https://www.youtube.com/watch?v=0TKRwJ9C-u4",
+   "image": "https://i.ytimg.com/vi/0TKRwJ9C-u4/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -102,15 +120,6 @@
    "published": "2026-10-30T13:00:33Z",
    "url": "https://www.youtube.com/watch?v=m-lQDBQtIFs",
    "image": "https://i.ytimg.com/vi/m-lQDBQtIFs/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "#BAD with 스파이크 ❤️🌵 #Shorts",
-   "date": "2026-10-30",
-   "published": "2026-10-30T11:00:14Z",
-   "url": "https://www.youtube.com/watch?v=h85SwBopqdE",
-   "image": "https://i.ytimg.com/vi/h85SwBopqdE/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -192,15 +201,6 @@
    "published": "2026-10-28T03:00:25Z",
    "url": "https://www.youtube.com/watch?v=EFMIC-TG_5o",
    "image": "https://i.ytimg.com/vi/EFMIC-TG_5o/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "좀 자연스러웠나요 #CORTIS #코르티스",
-   "date": "2026-10-28",
-   "published": "2026-10-28T04:00:08Z",
-   "url": "https://www.youtube.com/watch?v=ZRKcdIwSzqM",
-   "image": "https://i.ytimg.com/vi/ZRKcdIwSzqM/hqdefault.jpg"
   },
   {
    "type": "video",

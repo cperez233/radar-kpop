@@ -795,7 +795,10 @@
   "official:ateez:comeback:2026-10-31|foro": "2026-10-31T00:01:17Z",
   "official:lngshot:comeback:2026-10-31|ntfy": "2026-10-31T06:16:23Z",
   "official:lngshot:comeback:2026-10-31|pub:radarkpop-lngshot-music": "2026-10-31T06:16:23Z",
-  "official:lngshot:comeback:2026-10-31|foro": "2026-10-31T06:16:23Z"
+  "official:lngshot:comeback:2026-10-31|foro": "2026-10-31T06:16:23Z",
+  "official:cortis:tour:2026-10-31|ntfy": "2026-10-31T12:01:07Z",
+  "official:cortis:tour:2026-10-31|pub:radarkpop-cortis-shows": "2026-10-31T12:01:07Z",
+  "official:cortis:tour:2026-10-31|foro": "2026-10-31T12:01:07Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1640,9 +1643,6 @@
   }
  },
  "news_seen": [
-  "435404125afc5a1d",
-  "4397eca529ab51a6",
-  "43bef3577f5dcb7a",
   "43f2e4e2c2f92fab",
   "448221c8ae0f8f1b",
   "44b6b5dd518ffcb0",
@@ -1759,6 +1759,7 @@
   "5eaf70d50bc18268",
   "5ee1e8ac47f778f6",
   "5ee334653ac920dd",
+  "5eec1cdfbba776ee",
   "5ef6dfc0a94753e0",
   "5f02937bf4cfe2e5",
   "5f2d116cbe754bf5",
@@ -2038,6 +2039,7 @@
   "9d500e6fb01a28fd",
   "9d80bf24746209a2",
   "9dd728c57b70f78b",
+  "9dff3341d89d6416",
   "9dffb2e5ccab431c",
   "9e0aece9e2c8cda0",
   "9e201d9a840c2fea",
@@ -2363,6 +2365,7 @@
   "ea6abf6c33343bfe",
   "eaacbbf21eb48d17",
   "eafb4e1fc39a05c0",
+  "eb07b529389a57db",
   "eb114ff53d81c04a",
   "eb28bba42f57cdd4",
   "eb669ec7e31c809e",
