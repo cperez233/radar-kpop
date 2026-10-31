@@ -798,7 +798,10 @@
   "official:lngshot:comeback:2026-10-31|foro": "2026-10-31T06:16:23Z",
   "official:cortis:tour:2026-10-31|ntfy": "2026-10-31T12:01:07Z",
   "official:cortis:tour:2026-10-31|pub:radarkpop-cortis-shows": "2026-10-31T12:01:07Z",
-  "official:cortis:tour:2026-10-31|foro": "2026-10-31T12:01:07Z"
+  "official:cortis:tour:2026-10-31|foro": "2026-10-31T12:01:07Z",
+  "bday:twice:jeongyeon:2026|ntfy": "2026-10-31T15:01:08Z",
+  "bday:twice:jeongyeon:2026|pub:radarkpop-twice-members": "2026-10-31T15:01:08Z",
+  "bday:twice:jeongyeon:2026|foro": "2026-10-31T15:01:08Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1643,7 +1646,6 @@
   }
  },
  "news_seen": [
-  "4549b9cdf22c491a",
   "45bb6f90663a989a",
   "45c872ad6207466f",
   "46d64969d2219228",
@@ -2350,6 +2352,7 @@
   "e54b82dbd77b53aa",
   "e614778ee510832b",
   "e677467f806e9c1f",
+  "e699a2562a60b4b4",
   "e6fe469faa63dc1e",
   "e708b146e58d1fd0",
   "e7b44a3b30266ad4",
