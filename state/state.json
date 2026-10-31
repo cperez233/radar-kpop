@@ -801,7 +801,10 @@
   "official:cortis:tour:2026-10-31|foro": "2026-10-31T12:01:07Z",
   "bday:twice:jeongyeon:2026|ntfy": "2026-10-31T15:01:08Z",
   "bday:twice:jeongyeon:2026|pub:radarkpop-twice-members": "2026-10-31T15:01:08Z",
-  "bday:twice:jeongyeon:2026|foro": "2026-10-31T15:01:08Z"
+  "bday:twice:jeongyeon:2026|foro": "2026-10-31T15:01:08Z",
+  "news:ed14d590283a4d80|ntfy": "2026-10-31T16:31:47Z",
+  "news:ed14d590283a4d80|pub:radarkpop-bts-news": "2026-10-31T16:31:47Z",
+  "news:ed14d590283a4d80|foro": "2026-10-31T16:31:47Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1646,7 +1649,6 @@
   }
  },
  "news_seen": [
-  "45bb6f90663a989a",
   "45c872ad6207466f",
   "46d64969d2219228",
   "47068c17e41ee7ef",
@@ -2378,6 +2380,7 @@
   "ec325e1df85ea8ee",
   "ec6ec336427e3264",
   "ecc149d792eb1718",
+  "ed14d590283a4d80",
   "ed3ab22a21249dfc",
   "ee16ed74a93dfbcf",
   "ee2addd6800696d7",
@@ -2521,6 +2524,17 @@
     "tour"
    ],
    "t": "2026-10-30T21:46:26Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "concierto",
+    "neymar",
+    "paulo",
+    "presente",
+    "sao"
+   ],
+   "t": "2026-10-31T16:31:38Z"
   }
  ],
  "discord_threads": {

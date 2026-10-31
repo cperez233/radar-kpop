@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T04:16:25Z",
+  "updated_at": "2026-10-31T16:31:17Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
@@ -27,10 +27,10 @@
     "twice": {
       "listeners": 14948692,
       "listeners_peak": 27003979,
-      "streams": 13013067481,
+      "streams": 13016945950,
       "top_song": {
         "title": "What is Love?",
-        "streams": 712639367,
+        "streams": 713013921,
         "url": "https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y"
       },
       "yt_subs": 19500000
@@ -82,13 +82,13 @@
     "newjeans": {
       "listeners": 13738217,
       "listeners_peak": 26786050,
-      "streams": 7959928853,
+      "streams": 7966695352,
       "top_song": {
         "title": "OMG",
-        "streams": 989877215,
+        "streams": 990502804,
         "url": "https://open.spotify.com/track/65FftemJ1DbbZ45DUfHJXE"
       },
-      "yt_subs": 8710000
+      "yt_subs": 8720000
     },
     "cortis": {
       "listeners": 10943485,
@@ -99,15 +99,15 @@
         "streams": 265911942,
         "url": "https://open.spotify.com/track/34YVCoqIm08nbsxFSPL0Uh"
       },
-      "yt_subs": 7570000
+      "yt_subs": 7580000
     },
     "ateez": {
       "listeners": 7409764,
       "listeners_peak": 7413955,
-      "streams": 4268073769,
+      "streams": 4284882204,
       "top_song": {
         "title": "BOUNCY - K-HOT CHILLI PEPPERS",
-        "streams": 200378654,
+        "streams": 200883430,
         "url": "https://open.spotify.com/track/5VGdz8LeTx2M8LHe9iUSQU"
       },
       "yt_subs": 5810000
