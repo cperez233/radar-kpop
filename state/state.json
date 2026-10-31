@@ -807,7 +807,10 @@
   "news:ed14d590283a4d80|foro": "2026-10-31T16:31:47Z",
   "news:d8c023dde86752c2|ntfy": "2026-10-31T21:01:08Z",
   "news:d8c023dde86752c2|pub:radarkpop-bts-news": "2026-10-31T21:01:08Z",
-  "news:d8c023dde86752c2|foro": "2026-10-31T21:01:08Z"
+  "news:d8c023dde86752c2|foro": "2026-10-31T21:01:08Z",
+  "news:1c457795cdea6fe7|ntfy": "2026-10-31T22:01:10Z",
+  "news:1c457795cdea6fe7|pub:radarkpop-bts-news": "2026-10-31T22:01:10Z",
+  "news:1c457795cdea6fe7|foro": "2026-10-31T22:01:10Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2548,6 +2551,18 @@
     "pequenos"
    ],
    "t": "2026-10-31T21:01:01Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "asi",
+    "brasil",
+    "concierto",
+    "fue",
+    "streaming",
+    "vivo"
+   ],
+   "t": "2026-10-31T22:01:03Z"
   }
  ],
  "discord_threads": {
