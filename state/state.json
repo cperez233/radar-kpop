@@ -828,7 +828,10 @@
   "next:bts:bts-20261031-saopaulo|foro": "2026-11-01T03:01:12Z",
   "news:5585855e8aa1a6bd|ntfy": "2026-11-01T09:46:21Z",
   "news:5585855e8aa1a6bd|pub:radarkpop-bts-news": "2026-11-01T09:46:21Z",
-  "news:5585855e8aa1a6bd|foro": "2026-11-01T09:46:21Z"
+  "news:5585855e8aa1a6bd|foro": "2026-11-01T09:46:21Z",
+  "live:svt-20261101-incheon|ntfy": "2026-11-01T10:16:19Z",
+  "live:svt-20261101-incheon|pub:radarkpop-seventeen-shows": "2026-11-01T10:16:19Z",
+  "live:svt-20261101-incheon|foro": "2026-11-01T10:16:19Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1673,7 +1676,6 @@
   }
  },
  "news_seen": [
-  "481f81a9704d58b9",
   "486cfbfa1836a7f0",
   "487c14c9b39b9249",
   "48e69a540f086961",
@@ -1804,6 +1806,7 @@
   "65f69cef496041c8",
   "660f13151aeeef63",
   "6613df77f6d2c2c1",
+  "66560bf7e14c1b39",
   "66b984ce0420cabc",
   "66c3232359bc80e5",
   "66ddc78992bfec68",
