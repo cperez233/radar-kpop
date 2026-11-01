@@ -840,7 +840,10 @@
   "next:seventeen:svt-20261101-incheon|foro": "2026-11-01T15:01:18Z",
   "rel:seventeen:2026-11-02|ntfy": "2026-11-01T15:01:18Z",
   "rel:seventeen:2026-11-02|pub:radarkpop-seventeen-music": "2026-11-01T15:01:18Z",
-  "rel:seventeen:2026-11-02|foro": "2026-11-01T15:01:18Z"
+  "rel:seventeen:2026-11-02|foro": "2026-11-01T15:01:18Z",
+  "news:86e549a1192892cc|ntfy": "2026-11-01T19:31:11Z",
+  "news:86e549a1192892cc|pub:radarkpop-bts-news": "2026-11-01T19:31:11Z",
+  "news:86e549a1192892cc|foro": "2026-11-01T19:31:11Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1685,7 +1688,6 @@
   }
  },
  "news_seen": [
-  "4ad6afc9d252a54d",
   "4b5311910a38b3b3",
   "4b7a46f9539f8195",
   "4b9fcfd7a2c7d727",
@@ -1960,6 +1962,7 @@
   "865b2422c08fb395",
   "86940eccbd4fa982",
   "86d68584245b1303",
+  "86e549a1192892cc",
   "86f7edb40ea87da6",
   "87dfec5aed77d0e2",
   "880b48dda87dbd6d",
@@ -2589,6 +2592,20 @@
     "world"
    ],
    "t": "2026-11-01T14:46:37Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "aires",
+    "arirang",
+    "buenos",
+    "dawool",
+    "llega",
+    "park",
+    "sonido",
+    "tour"
+   ],
+   "t": "2026-11-01T19:31:04Z"
   }
  ],
  "discord_threads": {
