@@ -825,7 +825,10 @@
   "official:ateez:comeback:2026-11-01|foro": "2026-11-01T00:01:12Z",
   "next:bts:bts-20261031-saopaulo|ntfy": "2026-11-01T03:01:12Z",
   "next:bts:bts-20261031-saopaulo|pub:radarkpop-bts-shows": "2026-11-01T03:01:12Z",
-  "next:bts:bts-20261031-saopaulo|foro": "2026-11-01T03:01:12Z"
+  "next:bts:bts-20261031-saopaulo|foro": "2026-11-01T03:01:12Z",
+  "news:5585855e8aa1a6bd|ntfy": "2026-11-01T09:46:21Z",
+  "news:5585855e8aa1a6bd|pub:radarkpop-bts-news": "2026-11-01T09:46:21Z",
+  "news:5585855e8aa1a6bd|foro": "2026-11-01T09:46:21Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1670,7 +1673,6 @@
   }
  },
  "news_seen": [
-  "47fc66639f402987",
   "481f81a9704d58b9",
   "486cfbfa1836a7f0",
   "487c14c9b39b9249",
@@ -1731,6 +1733,7 @@
   "54d6bea2d7fc3cc7",
   "55326539450ba7de",
   "556d2f3108bba61b",
+  "5585855e8aa1a6bd",
   "5585d026b4b696e9",
   "55b71c6f7ac07d5a",
   "55e138b3888b0916",
@@ -2546,6 +2549,22 @@
     "suma"
    ],
    "t": "2026-10-31T22:31:00Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "asistio",
+    "brasil",
+    "concierto",
+    "familia",
+    "iban",
+    "neymar",
+    "ocasion",
+    "pequenos",
+    "totalmente",
+    "vestidos"
+   ],
+   "t": "2026-11-01T09:46:14Z"
   }
  ],
  "discord_threads": {
