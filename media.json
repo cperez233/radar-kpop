@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T11:00:41Z",
+ "updated_at": "2026-11-01T13:00:37Z",
  "sample": false,
  "items": [
   {
@@ -61,6 +61,15 @@
   {
    "type": "video",
    "group": "ateez",
+   "title": "I’m rising up Can’t stop me now 🔄 #Shorts",
+   "date": "2026-11-01",
+   "published": "2026-11-01T13:00:16Z",
+   "url": "https://www.youtube.com/watch?v=yyi9iTY9B6c",
+   "image": "https://i.ytimg.com/vi/yyi9iTY9B6c/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
    "title": "문정현 님과 해, 쩌는 짓 😎 #Shorts",
    "date": "2026-11-01",
    "published": "2026-11-01T10:00:24Z",
@@ -102,15 +111,6 @@
    "published": "2026-10-31T11:59:57Z",
    "url": "https://www.youtube.com/watch?v=oaoa1noQzBw",
    "image": "https://i.ytimg.com/vi/oaoa1noQzBw/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "JAYN 님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-10-31",
-   "published": "2026-10-31T12:00:00Z",
-   "url": "https://www.youtube.com/watch?v=0TKRwJ9C-u4",
-   "image": "https://i.ytimg.com/vi/0TKRwJ9C-u4/hqdefault.jpg"
   },
   {
    "type": "video",
