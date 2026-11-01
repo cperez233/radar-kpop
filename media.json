@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T13:00:37Z",
+ "updated_at": "2026-11-01T13:15:37Z",
  "sample": false,
  "items": [
   {
@@ -57,6 +57,15 @@
    "published": "2026-11-01T05:00:02Z",
    "url": "https://www.youtube.com/watch?v=t0nH8YKg-Dw",
    "image": "https://i.ytimg.com/vi/t0nH8YKg-Dw/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "전하지 못한 말 I love you🎶 #JxJ #정한X조슈아 #JOURNEY_INTO_DREAMING",
+   "date": "2026-11-01",
+   "published": "2026-11-01T13:10:12Z",
+   "url": "https://www.youtube.com/watch?v=NQkB7yrecDY",
+   "image": "https://i.ytimg.com/vi/NQkB7yrecDY/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -156,15 +165,6 @@
    "published": "2026-10-30T14:00:35Z",
    "url": "https://www.youtube.com/watch?v=SgzqrLGHK5Q",
    "image": "https://i.ytimg.com/vi/SgzqrLGHK5Q/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[MIN9YU:ON] 한 그릇 툭 | 스니커 토스트 | 직접 만들어보자",
-   "date": "2026-10-29",
-   "published": "2026-10-29T12:46:04Z",
-   "url": "https://www.youtube.com/watch?v=rXafHjh25NQ",
-   "image": "https://i.ytimg.com/vi/rXafHjh25NQ/hqdefault.jpg"
   },
   {
    "type": "video",
