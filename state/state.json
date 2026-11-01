@@ -834,7 +834,13 @@
   "live:svt-20261101-incheon|foro": "2026-11-01T10:16:19Z",
   "news:1410caf7f5c0838d|ntfy": "2026-11-01T14:46:44Z",
   "news:1410caf7f5c0838d|pub:radarkpop-skz-news": "2026-11-01T14:46:44Z",
-  "news:1410caf7f5c0838d|foro": "2026-11-01T14:46:44Z"
+  "news:1410caf7f5c0838d|foro": "2026-11-01T14:46:44Z",
+  "next:seventeen:svt-20261101-incheon|ntfy": "2026-11-01T15:01:18Z",
+  "next:seventeen:svt-20261101-incheon|pub:radarkpop-seventeen-shows": "2026-11-01T15:01:18Z",
+  "next:seventeen:svt-20261101-incheon|foro": "2026-11-01T15:01:18Z",
+  "rel:seventeen:2026-11-02|ntfy": "2026-11-01T15:01:18Z",
+  "rel:seventeen:2026-11-02|pub:radarkpop-seventeen-music": "2026-11-01T15:01:18Z",
+  "rel:seventeen:2026-11-02|foro": "2026-11-01T15:01:18Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1679,7 +1685,6 @@
   }
  },
  "news_seen": [
-  "4a9e0893b919a342",
   "4a9e26fe9141daa0",
   "4ac7489f94c3a773",
   "4ad6afc9d252a54d",
@@ -2196,6 +2201,7 @@
   "b9a6ad5240339721",
   "ba1bb1493872f211",
   "ba36e88456e5fdd0",
+  "baab2ae5143b7e41",
   "baffdb70106f1b7b",
   "bb28959efdf88008",
   "bb434866016962a9",
