@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T04:46:18Z",
+  "updated_at": "2026-11-01T17:01:20Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
@@ -58,10 +58,10 @@
       "yt_subs": 2140000
     },
     "seventeen": {
-      "streams": 8430070868,
+      "streams": 8437450888,
       "top_song": {
         "title": "Super",
-        "streams": 328746459,
+        "streams": 329079774,
         "url": "https://open.spotify.com/track/3ZpfXyQgcqdSA1TGNc7Ret"
       },
       "listeners": 4482469,
@@ -99,7 +99,7 @@
         "streams": 267683745,
         "url": "https://open.spotify.com/track/34YVCoqIm08nbsxFSPL0Uh"
       },
-      "yt_subs": 7590000
+      "yt_subs": 7600000
     },
     "ateez": {
       "listeners": 7409764,
