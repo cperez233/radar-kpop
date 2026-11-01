@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T07:00:38Z",
+ "updated_at": "2026-11-01T09:15:34Z",
  "sample": false,
  "items": [
   {
@@ -57,6 +57,15 @@
    "published": "2026-11-01T05:00:02Z",
    "url": "https://www.youtube.com/watch?v=t0nH8YKg-Dw",
    "image": "https://i.ytimg.com/vi/t0nH8YKg-Dw/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "We're obsessed with this part #Shorts",
+   "date": "2026-11-01",
+   "published": "2026-11-01T09:00:36Z",
+   "url": "https://www.youtube.com/watch?v=t2V2Ji_c3jU",
+   "image": "https://i.ytimg.com/vi/t2V2Ji_c3jU/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -147,15 +156,6 @@
    "published": "2026-10-30T14:00:35Z",
    "url": "https://www.youtube.com/watch?v=SgzqrLGHK5Q",
    "image": "https://i.ytimg.com/vi/SgzqrLGHK5Q/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "미나미, 제나 님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-10-30",
-   "published": "2026-10-30T13:00:33Z",
-   "url": "https://www.youtube.com/watch?v=m-lQDBQtIFs",
-   "image": "https://i.ytimg.com/vi/m-lQDBQtIFs/hqdefault.jpg"
   },
   {
    "type": "video",

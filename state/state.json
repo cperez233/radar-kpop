@@ -1670,7 +1670,6 @@
   }
  },
  "news_seen": [
-  "47c0f5a79d91c449",
   "47fc66639f402987",
   "481f81a9704d58b9",
   "486cfbfa1836a7f0",
@@ -1846,6 +1845,7 @@
   "6ed2c3ae08c9d483",
   "6f208339857eba05",
   "6f4f4471a58c2848",
+  "6f6f3acf633db5b1",
   "6fafa146434a6d09",
   "704d819cfc319fa6",
   "707064956392e585",
@@ -2472,27 +2472,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "000",
-    "anos",
-    "arirang",
-    "baja",
-    "brasil",
-    "cantan",
-    "concierto",
-    "coro",
-    "eyes",
-    "microfonos",
-    "paulo",
-    "personas",
-    "primer",
-    "sao",
-    "siete"
-   ],
-   "t": "2026-10-30T09:16:12Z"
-  },
   {
    "g": "bts",
    "w": [
