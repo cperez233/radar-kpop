@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T03:00:40Z",
+ "updated_at": "2026-11-01T05:00:36Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,24 @@
     }
    ],
    "sp_try": "2026-11-01"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "사랑이라는 이유로 아파할 수 없어 난  | 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지 Cover by #승민 #한로로 #StrayKids #SONGby #송바이",
+   "date": "2026-11-01",
+   "published": "2026-11-01T05:00:05Z",
+   "url": "https://www.youtube.com/watch?v=CReJVnojbtQ",
+   "image": "https://i.ytimg.com/vi/CReJVnojbtQ/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "아무도 모를 추억 틈에 너와 나 | 시간을 달리네 Cover by #승민 #Seungmin #한로로 #HARORO #StrayKids #스트레이키즈 #SONGby #송바이",
+   "date": "2026-11-01",
+   "published": "2026-11-01T05:00:02Z",
+   "url": "https://www.youtube.com/watch?v=t0nH8YKg-Dw",
+   "image": "https://i.ytimg.com/vi/t0nH8YKg-Dw/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -174,24 +192,6 @@
    "published": "2026-10-29T04:00:25Z",
    "url": "https://www.youtube.com/watch?v=76JUzpVwkSw",
    "image": "https://i.ytimg.com/vi/76JUzpVwkSw/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "[Stray Kids  SKZ-TALKER GO! Season 6] Ep.03 BOGOTÁ",
-   "date": "2026-10-28",
-   "published": "2026-10-28T11:01:02Z",
-   "url": "https://www.youtube.com/watch?v=iDbB16wFG98",
-   "image": "https://i.ytimg.com/vi/iDbB16wFG98/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "Love Me Like I Do...♥ #StrayKids #스트레이키즈 #창빈 #Changbin #YouMakeStrayKidsStay",
-   "date": "2026-10-28",
-   "published": "2026-10-28T09:00:06Z",
-   "url": "https://www.youtube.com/watch?v=-ehbW2WIOBw",
-   "image": "https://i.ytimg.com/vi/-ehbW2WIOBw/hqdefault.jpg"
   },
   {
    "type": "video",
