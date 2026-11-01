@@ -831,7 +831,10 @@
   "news:5585855e8aa1a6bd|foro": "2026-11-01T09:46:21Z",
   "live:svt-20261101-incheon|ntfy": "2026-11-01T10:16:19Z",
   "live:svt-20261101-incheon|pub:radarkpop-seventeen-shows": "2026-11-01T10:16:19Z",
-  "live:svt-20261101-incheon|foro": "2026-11-01T10:16:19Z"
+  "live:svt-20261101-incheon|foro": "2026-11-01T10:16:19Z",
+  "news:1410caf7f5c0838d|ntfy": "2026-11-01T14:46:44Z",
+  "news:1410caf7f5c0838d|pub:radarkpop-skz-news": "2026-11-01T14:46:44Z",
+  "news:1410caf7f5c0838d|foro": "2026-11-01T14:46:44Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2568,6 +2571,18 @@
     "vestidos"
    ],
    "t": "2026-11-01T09:46:14Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "bolivia",
+    "diario",
+    "live",
+    "tour",
+    "viewing",
+    "world"
+   ],
+   "t": "2026-11-01T14:46:37Z"
   }
  ],
  "discord_threads": {
