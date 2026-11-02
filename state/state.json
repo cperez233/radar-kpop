@@ -891,7 +891,10 @@
   "news:14bd89d46fcb73ba|foro": "2026-11-02T19:16:27Z",
   "news:fca102204bef1f4e|ntfy": "2026-11-02T20:01:18Z",
   "news:fca102204bef1f4e|pub:radarkpop-bts-news": "2026-11-02T20:01:18Z",
-  "news:fca102204bef1f4e|foro": "2026-11-02T20:01:18Z"
+  "news:fca102204bef1f4e|foro": "2026-11-02T20:01:18Z",
+  "news:d5a0f89445b7e0a9|ntfy": "2026-11-02T22:01:17Z",
+  "news:d5a0f89445b7e0a9|pub:radarkpop-bts-news": "2026-11-02T22:01:17Z",
+  "news:d5a0f89445b7e0a9|foro": "2026-11-02T22:01:17Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1736,7 +1739,6 @@
   }
  },
  "news_seen": [
-  "5585855e8aa1a6bd",
   "5585d026b4b696e9",
   "55b71c6f7ac07d5a",
   "55e138b3888b0916",
@@ -2364,6 +2366,7 @@
   "d4e3dab0279b83d7",
   "d5410b976ca14f0d",
   "d568689090239a09",
+  "d5a0f89445b7e0a9",
   "d5a96446e327f726",
   "d5e9f8e16ae44802",
   "d6fcff5a9f2d03ce",
@@ -2541,18 +2544,6 @@
   {
    "g": "bts",
    "w": [
-    "asi",
-    "brasil",
-    "concierto",
-    "fue",
-    "streaming",
-    "vivo"
-   ],
-   "t": "2026-10-31T22:01:03Z"
-  },
-  {
-   "g": "bts",
-   "w": [
     "army",
     "brasil",
     "concierto",
@@ -2721,6 +2712,30 @@
     "proyeccion"
    ],
    "t": "2026-11-02T20:01:10Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "asi",
+    "brasil",
+    "concierto",
+    "fue",
+    "streaming",
+    "vivo"
+   ],
+   "t": "2026-11-02T22:01:08Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "2026",
+    "cine",
+    "conciertos",
+    "dos",
+    "fines",
+    "transmitira"
+   ],
+   "t": "2026-11-02T22:01:08Z"
   }
  ],
  "discord_threads": {
