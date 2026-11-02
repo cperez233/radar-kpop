@@ -888,7 +888,10 @@
   "news:f7c4a0da1b3ba2bc|foro": "2026-11-02T18:46:27Z",
   "news:14bd89d46fcb73ba|ntfy": "2026-11-02T19:16:27Z",
   "news:14bd89d46fcb73ba|pub:radarkpop-bts-news": "2026-11-02T19:16:27Z",
-  "news:14bd89d46fcb73ba|foro": "2026-11-02T19:16:27Z"
+  "news:14bd89d46fcb73ba|foro": "2026-11-02T19:16:27Z",
+  "news:fca102204bef1f4e|ntfy": "2026-11-02T20:01:18Z",
+  "news:fca102204bef1f4e|pub:radarkpop-bts-news": "2026-11-02T20:01:18Z",
+  "news:fca102204bef1f4e|foro": "2026-11-02T20:01:18Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1733,7 +1736,6 @@
   }
  },
  "news_seen": [
-  "55326539450ba7de",
   "556d2f3108bba61b",
   "5585855e8aa1a6bd",
   "5585d026b4b696e9",
@@ -2519,6 +2521,7 @@
   "fc30b7b702637731",
   "fc45b7f1996e18de",
   "fc7bb4b7f2fa90f9",
+  "fca102204bef1f4e",
   "fcc5d1953a5f1c97",
   "fcec910969990478",
   "fd13b425de1c0aff",
@@ -2715,6 +2718,19 @@
     "mexico"
    ],
    "t": "2026-11-02T19:16:19Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "anuncian",
+    "cines",
+    "conciertos",
+    "dos",
+    "euphoria",
+    "presentaciones",
+    "proyeccion"
+   ],
+   "t": "2026-11-02T20:01:10Z"
   }
  ],
  "discord_threads": {
