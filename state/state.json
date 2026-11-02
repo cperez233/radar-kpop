@@ -879,7 +879,10 @@
   "rel:seventeen:2026-11-03|foro": "2026-11-02T15:01:16Z",
   "news:9c294fdfc8dcf2f8|ntfy": "2026-11-02T16:16:50Z",
   "news:9c294fdfc8dcf2f8|pub:radarkpop-bts-news": "2026-11-02T16:16:50Z",
-  "news:9c294fdfc8dcf2f8|foro": "2026-11-02T16:16:50Z"
+  "news:9c294fdfc8dcf2f8|foro": "2026-11-02T16:16:50Z",
+  "news:b50ae40864f184e3|ntfy": "2026-11-02T16:31:19Z",
+  "news:b50ae40864f184e3|pub:radarkpop-bts-news": "2026-11-02T16:31:19Z",
+  "news:b50ae40864f184e3|foro": "2026-11-02T16:31:19Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1724,7 +1727,6 @@
   }
  },
  "news_seen": [
-  "545eecae9727e1be",
   "5489c03820db5b7f",
   "54d6bea2d7fc3cc7",
   "55326539450ba7de",
@@ -2199,6 +2201,7 @@
   "b4fb12f36eb374d5",
   "b4fc937e56f49b83",
   "b50a025d618094cd",
+  "b50ae40864f184e3",
   "b51a4fb3ccd0695e",
   "b541ca3e0692d9ee",
   "b5e9b97b52840f6f",
@@ -2693,6 +2696,19 @@
     "world"
    ],
    "t": "2026-11-02T16:16:42Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "2026",
+    "anuncia",
+    "cerrar",
+    "conciertos",
+    "dos",
+    "grande",
+    "pantalla"
+   ],
+   "t": "2026-11-02T16:31:10Z"
   }
  ],
  "discord_threads": {
