@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T04:00:53Z",
+ "updated_at": "2026-11-02T06:00:47Z",
  "groups": {
   "lngshot": [
    {
@@ -47,6 +47,13 @@
   ],
   "seventeen": [
    {
+    "title": "[NOTICE] 아티스트 권익 침해 관련 법적 대응 상황 안내 (11.02.) (+ENG)",
+    "url": "https://weverse.io/seventeen/notice/40619",
+    "post": "https://x.com/pledis_17/status/2117134652762903021",
+    "when": "2026-11-02T06:00:10Z",
+    "weverse": true
+   },
+   {
     "title": "[NOTICE] 도겸과 정한 <정답 없는 여행> 판매 상품별 통합 안내 (+VOD, PHOTOBOOK, MD) 🎬 VOD ✔️ PRE-ORDER : 2...",
     "url": "https://x.com/pledis_17/status/2117104414892728770",
     "post": "https://x.com/pledis_17/status/2117104414892728770",
@@ -79,13 +86,6 @@
     "url": "https://x.com/pledis_17/status/2114232990658343113",
     "post": "https://x.com/pledis_17/status/2114232990658343113",
     "when": "2026-10-25T05:50:00Z",
-    "weverse": false
-   },
-   {
-    "title": "[NEWS] 잠시 후 3시 20분! MBC <쇼! 음악중심>에 가 출연합니다.",
-    "url": "https://x.com/pledis_17/status/2113873126140588199",
-    "post": "https://x.com/pledis_17/status/2113873126140588199",
-    "when": "2026-10-24T06:00:01Z",
     "weverse": false
    }
   ],
