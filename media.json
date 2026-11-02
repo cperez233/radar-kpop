@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T11:30:47Z",
+ "updated_at": "2026-11-02T12:15:33Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-11-02"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "best friend forever :) #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou",
+   "date": "2026-11-02",
+   "published": "2026-11-02T12:00:37Z",
+   "url": "https://www.youtube.com/watch?v=zMhyVV314-Q",
+   "image": "https://i.ytimg.com/vi/zMhyVV314-Q/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -84,15 +93,6 @@
    "published": "2026-11-01T13:19:28Z",
    "url": "https://www.youtube.com/watch?v=dDtGa0HN0AY",
    "image": "https://i.ytimg.com/vi/dDtGa0HN0AY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "전하지 못한 말 I love you🎶 #JxJ #정한X조슈아 #JOURNEY_INTO_DREAMING",
-   "date": "2026-11-01",
-   "published": "2026-11-01T13:10:12Z",
-   "url": "https://www.youtube.com/watch?v=NQkB7yrecDY",
-   "image": "https://i.ytimg.com/vi/NQkB7yrecDY/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -476,6 +476,7 @@
    "url": "https://music.apple.com/us/album/the-sin-bliss-sunghoon-ver/6803801121",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/c8/6f/21c86f53-8d07-7841-7403-82c1c7f60550/823375387930_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
+   "spotify": "https://open.spotify.com/album/6nvN59P9vZ3XBtv7eWN70w",
    "tracks": [
     {
      "n": "Bloody Paradise (SUNGHOON Ver.)",
@@ -543,8 +544,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/32/04/043204bd-07a8-5682-b7ab-180564f0c5c7/mzaf_15028971748120058438.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-02T11",
-   "spotify": "https://open.spotify.com/album/6nvN59P9vZ3XBtv7eWN70w"
+   "ytm_try": "2026-11-02T11"
   },
   {
    "type": "music",
