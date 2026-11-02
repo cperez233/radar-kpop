@@ -2547,19 +2547,6 @@
   {
    "g": "bts",
    "w": [
-    "army",
-    "brasil",
-    "concierto",
-    "hijas",
-    "lleva",
-    "neymar",
-    "suma"
-   ],
-   "t": "2026-10-31T22:31:00Z"
-  },
-  {
-   "g": "bts",
-   "w": [
     "asistio",
     "brasil",
     "concierto",
@@ -2754,6 +2741,19 @@
     "yakarta"
    ],
    "t": "2026-11-02T22:16:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "army",
+    "brasil",
+    "concierto",
+    "hijas",
+    "lleva",
+    "neymar",
+    "suma"
+   ],
+   "t": "2026-11-02T22:31:17Z"
   }
  ],
  "discord_threads": {
