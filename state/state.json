@@ -855,7 +855,10 @@
   "official:ateez:comeback:2026-11-02|foro": "2026-11-02T00:01:21Z",
   "official:seventeen:comeback:2026-11-02|ntfy": "2026-11-02T04:01:13Z",
   "official:seventeen:comeback:2026-11-02|pub:radarkpop-seventeen-music": "2026-11-02T04:01:13Z",
-  "official:seventeen:comeback:2026-11-02|foro": "2026-11-02T04:01:13Z"
+  "official:seventeen:comeback:2026-11-02|foro": "2026-11-02T04:01:13Z",
+  "news:ca44a3a51355801d|ntfy": "2026-11-02T05:01:04Z",
+  "news:ca44a3a51355801d|pub:radarkpop-bts-news": "2026-11-02T05:01:04Z",
+  "news:ca44a3a51355801d|foro": "2026-11-02T05:01:04Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1700,7 +1703,6 @@
   }
  },
  "news_seen": [
-  "4c16f0bdeb793c8d",
   "4c646d85070da1ab",
   "4c66adbc58a5030b",
   "4ce0918af7bb5358",
@@ -2291,6 +2293,7 @@
   "c9a081307f21a439",
   "c9ac1dab8bda2302",
   "ca3c4512d3a6caec",
+  "ca44a3a51355801d",
   "ca5e5d8c1eb6eee7",
   "cac9e2c2834d016f",
   "cadd9a30442e962e",
@@ -2622,6 +2625,20 @@
     "todas"
    ],
    "t": "2026-11-01T22:16:17Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "000",
+    "853",
+    "agotadas",
+    "atrae",
+    "entradas",
+    "espectadores",
+    "gira",
+    "latinoamericana"
+   ],
+   "t": "2026-11-02T05:00:58Z"
   }
  ],
  "discord_threads": {
