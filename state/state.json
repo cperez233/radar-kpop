@@ -876,7 +876,10 @@
   "official:twice:comeback:2026-11-02|foro": "2026-11-02T13:01:08Z",
   "rel:seventeen:2026-11-03|ntfy": "2026-11-02T15:01:16Z",
   "rel:seventeen:2026-11-03|pub:radarkpop-seventeen-music": "2026-11-02T15:01:16Z",
-  "rel:seventeen:2026-11-03|foro": "2026-11-02T15:01:16Z"
+  "rel:seventeen:2026-11-03|foro": "2026-11-02T15:01:16Z",
+  "news:9c294fdfc8dcf2f8|ntfy": "2026-11-02T16:16:50Z",
+  "news:9c294fdfc8dcf2f8|pub:radarkpop-bts-news": "2026-11-02T16:16:50Z",
+  "news:9c294fdfc8dcf2f8|foro": "2026-11-02T16:16:50Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1721,7 +1724,6 @@
   }
  },
  "news_seen": [
-  "541fb645f60778ca",
   "545eecae9727e1be",
   "5489c03820db5b7f",
   "54d6bea2d7fc3cc7",
@@ -2067,6 +2069,7 @@
   "9a80c3652095c287",
   "9aac6983dea99c49",
   "9b226d5cc2eb861f",
+  "9c294fdfc8dcf2f8",
   "9c3912794ef934dd",
   "9cab47c0a6485c2f",
   "9cbe02d9d0600c9d",
@@ -2679,6 +2682,17 @@
     "tokyo"
    ],
    "t": "2026-11-02T10:16:30Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "cinepolis",
+    "tour",
+    "transmitira",
+    "world"
+   ],
+   "t": "2026-11-02T16:16:42Z"
   }
  ],
  "discord_threads": {
