@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T09:00:39Z",
+ "updated_at": "2026-11-02T10:15:35Z",
  "sample": false,
  "items": [
   {
@@ -48,6 +48,15 @@
    "published": "2026-11-02T09:00:01Z",
    "url": "https://www.youtube.com/watch?v=j3ZOrctKziE",
    "image": "https://i.ytimg.com/vi/j3ZOrctKziE/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "성한빈 님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-02",
+   "published": "2026-11-02T10:00:39Z",
+   "url": "https://www.youtube.com/watch?v=u92UxsQg4Tc",
+   "image": "https://i.ytimg.com/vi/u92UxsQg4Tc/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -102,15 +111,6 @@
    "published": "2026-11-01T10:00:24Z",
    "url": "https://www.youtube.com/watch?v=meJjNcJe4Dk",
    "image": "https://i.ytimg.com/vi/meJjNcJe4Dk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "We're obsessed with this part #Shorts",
-   "date": "2026-11-01",
-   "published": "2026-11-01T09:00:36Z",
-   "url": "https://www.youtube.com/watch?v=t2V2Ji_c3jU",
-   "image": "https://i.ytimg.com/vi/t2V2Ji_c3jU/hqdefault.jpg"
   },
   {
    "type": "video",

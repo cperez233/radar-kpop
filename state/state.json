@@ -858,7 +858,13 @@
   "official:seventeen:comeback:2026-11-02|foro": "2026-11-02T04:01:13Z",
   "news:ca44a3a51355801d|ntfy": "2026-11-02T05:01:04Z",
   "news:ca44a3a51355801d|pub:radarkpop-bts-news": "2026-11-02T05:01:04Z",
-  "news:ca44a3a51355801d|foro": "2026-11-02T05:01:04Z"
+  "news:ca44a3a51355801d|foro": "2026-11-02T05:01:04Z",
+  "news:6672f2b2e6bd08fa|ntfy": "2026-11-02T10:16:37Z",
+  "news:6672f2b2e6bd08fa|pub:radarkpop-skz-news": "2026-11-02T10:16:37Z",
+  "news:6672f2b2e6bd08fa|foro": "2026-11-02T10:16:37Z",
+  "news:91259e7d06cb30ad|ntfy": "2026-11-02T10:16:37Z",
+  "news:91259e7d06cb30ad|pub:radarkpop-skz-news": "2026-11-02T10:16:37Z",
+  "news:91259e7d06cb30ad|foro": "2026-11-02T10:16:37Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1703,11 +1709,6 @@
   }
  },
  "news_seen": [
-  "4e9a7837d11eb3a0",
-  "4ec08213f9221521",
-  "4ed6072038194971",
-  "4ef89c16361406fc",
-  "4f44cc308ff203f7",
   "4fae6803de322f10",
   "4fe90c2601ba76f0",
   "500b2dfd0eeb63de",
@@ -1805,6 +1806,7 @@
   "660f13151aeeef63",
   "6613df77f6d2c2c1",
   "66560bf7e14c1b39",
+  "6672f2b2e6bd08fa",
   "66b984ce0420cabc",
   "66c3232359bc80e5",
   "66ddc78992bfec68",
@@ -1829,6 +1831,7 @@
   "6a689b26ae14861c",
   "6aa078bd31f72861",
   "6ae412a3ebbc6500",
+  "6b0435b249cbca92",
   "6b1b05e4611cd133",
   "6b818324c4336d57",
   "6b99ab1221ac9031",
@@ -2014,6 +2017,7 @@
   "9055debbc701bc82",
   "905967327b8daa46",
   "911c2d9a565ebf7b",
+  "91259e7d06cb30ad",
   "913f5285bf0cd9a3",
   "9154e7f01b69e131",
   "9157e09cc9b4e43d",
@@ -2050,6 +2054,7 @@
   "97a1a4aaa91d9993",
   "97ad1d110aabb962",
   "9812990bb2d60696",
+  "982c31c34a432fd7",
   "986ff5f0fbfba97e",
   "9872c57103ee373f",
   "98eb32cebaa7d848",
@@ -2156,6 +2161,7 @@
   "ad862756c22719dc",
   "ad88bd4f980b0e45",
   "addf3fc11728cc28",
+  "ade28e0044631cff",
   "ae264e2f188bf195",
   "ae89e2ade18e0672",
   "aeb66ecc8e274245",
@@ -2639,6 +2645,28 @@
     "latinoamericana"
    ],
    "t": "2026-11-02T05:00:58Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "animo",
+    "concierto",
+    "dome",
+    "tokyo",
+    "video"
+   ],
+   "t": "2026-11-02T10:16:30Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "concierto",
+    "dome",
+    "fotos",
+    "partida",
+    "tokyo"
+   ],
+   "t": "2026-11-02T10:16:30Z"
   }
  ],
  "discord_threads": {
