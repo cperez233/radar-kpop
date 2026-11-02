@@ -873,7 +873,10 @@
   "weekly:2026-45|foro": "2026-11-02T13:01:08Z",
   "official:twice:comeback:2026-11-02|ntfy": "2026-11-02T13:01:08Z",
   "official:twice:comeback:2026-11-02|pub:radarkpop-twice-music": "2026-11-02T13:01:08Z",
-  "official:twice:comeback:2026-11-02|foro": "2026-11-02T13:01:08Z"
+  "official:twice:comeback:2026-11-02|foro": "2026-11-02T13:01:08Z",
+  "rel:seventeen:2026-11-03|ntfy": "2026-11-02T15:01:16Z",
+  "rel:seventeen:2026-11-03|pub:radarkpop-seventeen-music": "2026-11-02T15:01:16Z",
+  "rel:seventeen:2026-11-03|foro": "2026-11-02T15:01:16Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1718,12 +1721,6 @@
   }
  },
  "news_seen": [
-  "529bb75794150795",
-  "52e4a20998792345",
-  "532fe2fe08c34b59",
-  "536884143bdd3388",
-  "538c27aa0d08debb",
-  "53ccfdaacf56b7e5",
   "54030e68e8bdb670",
   "541fb645f60778ca",
   "545eecae9727e1be",
@@ -1789,6 +1786,7 @@
   "60fc2ad2bdd7ba39",
   "61148face18541a3",
   "61415e298d0f1f8e",
+  "616deb277712c7da",
   "61c19b7acb10c610",
   "61c437627c8e53ad",
   "623f76f6103bb544",
@@ -1801,6 +1799,7 @@
   "64ccfda43a854b8e",
   "64ddec2cebff4681",
   "650abcc0128ba861",
+  "652ae4ea76000261",
   "65f69cef496041c8",
   "660f13151aeeef63",
   "6613df77f6d2c2c1",
@@ -2062,6 +2061,7 @@
   "98eb32cebaa7d848",
   "990fa86ad78d7a6f",
   "9977aa67f3d10e0b",
+  "997e6409d34b9e8f",
   "99bb7b56f0e52584",
   "9a00cb36937ebeff",
   "9a80c3652095c287",
@@ -2240,6 +2240,7 @@
   "bda252b7fd72ccc0",
   "bda79a4a0fd61667",
   "bdd07c39e4bcc2f7",
+  "bdf60c790602e015",
   "be208bd06f5b3b25",
   "be49ee0653695c60",
   "be7782d1f887eba9",
@@ -2323,6 +2324,7 @@
   "ce9c3ac13d8187be",
   "ceaf8d6c18527052",
   "cf04c799cc483e4b",
+  "cf15d6237e44be59",
   "cf54b8082791e2d2",
   "cfa384031ef9ad58",
   "d0008a3380403320",
@@ -2490,6 +2492,7 @@
   "f7756ab99bb704fe",
   "f7db80c43d325e3b",
   "f80e981218c68d6c",
+  "f8fcb9da9d31d52e",
   "f91fa7623939ac18",
   "f92981330ec59318",
   "f957e9a1cb7c71cd",

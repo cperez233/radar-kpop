@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T13:45:39Z",
+ "updated_at": "2026-11-02T15:00:44Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-11-02"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "원스, 11살 축하해!🍭♥️ HAPPY 11th BIRTHDAY ONCE!🍭♥️ #ONCE #원스 #TWICE #트와이스 #HappyONCEday",
+   "date": "2026-11-02",
+   "published": "2026-11-02T15:00:09Z",
+   "url": "https://www.youtube.com/watch?v=8sw_KVuDafs",
+   "image": "https://i.ytimg.com/vi/8sw_KVuDafs/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -228,15 +237,6 @@
    "published": "2026-10-27T10:00:27Z",
    "url": "https://www.youtube.com/watch?v=654NjPbfHbM",
    "image": "https://i.ytimg.com/vi/654NjPbfHbM/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "트둥의 숲 TDOONG's crossing EP.02 Highlight #2 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
-   "date": "2026-10-27",
-   "published": "2026-10-27T09:31:27Z",
-   "url": "https://www.youtube.com/watch?v=k6WpDXC5T-I",
-   "image": "https://i.ytimg.com/vi/k6WpDXC5T-I/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -464,7 +464,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-02T11",
+   "ytm_try": "2026-11-02T15",
    "sp_try": "2026-11-02"
   },
   {
@@ -476,6 +476,7 @@
    "url": "https://music.apple.com/us/album/the-sin-bliss-sunghoon-ver/6803801121",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/c8/6f/21c86f53-8d07-7841-7403-82c1c7f60550/823375387930_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
+   "spotify": "https://open.spotify.com/album/6nvN59P9vZ3XBtv7eWN70w",
    "tracks": [
     {
      "n": "Bloody Paradise (SUNGHOON Ver.)",
@@ -543,8 +544,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/32/04/043204bd-07a8-5682-b7ab-180564f0c5c7/mzaf_15028971748120058438.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-02T13",
-   "spotify": "https://open.spotify.com/album/6nvN59P9vZ3XBtv7eWN70w"
+   "ytm_try": "2026-11-02T13"
   },
   {
    "type": "music",
@@ -1384,7 +1384,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-02T11"
+   "ytm_try": "2026-11-02T15"
   },
   {
    "type": "music",
