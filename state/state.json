@@ -897,7 +897,10 @@
   "news:d5a0f89445b7e0a9|foro": "2026-11-02T22:01:17Z",
   "news:58fe34385b96a895|ntfy": "2026-11-02T22:16:12Z",
   "news:58fe34385b96a895|pub:radarkpop-bts-news": "2026-11-02T22:16:12Z",
-  "news:58fe34385b96a895|foro": "2026-11-02T22:16:12Z"
+  "news:58fe34385b96a895|foro": "2026-11-02T22:16:12Z",
+  "news:2aa08a7fe54e2d1f|ntfy": "2026-11-02T23:47:05Z",
+  "news:2aa08a7fe54e2d1f|pub:radarkpop-cortis-news": "2026-11-02T23:47:05Z",
+  "news:2aa08a7fe54e2d1f|foro": "2026-11-02T23:47:05Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2754,6 +2757,30 @@
     "suma"
    ],
    "t": "2026-11-02T22:31:17Z"
+  },
+  {
+   "g": "cortis",
+   "w": [
+    "ano",
+    "antes",
+    "brillara",
+    "debut",
+    "especial",
+    "festival",
+    "fin",
+    "fns",
+    "japon",
+    "koyukai",
+    "local",
+    "mercado",
+    "musica",
+    "oficial",
+    "participacion",
+    "pop",
+    "principal",
+    "programa"
+   ],
+   "t": "2026-11-02T23:46:58Z"
   }
  ],
  "discord_threads": {
