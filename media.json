@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T07:00:41Z",
+ "updated_at": "2026-11-02T09:00:39Z",
  "sample": false,
  "items": [
   {
@@ -39,6 +39,15 @@
     }
    ],
    "sp_try": "2026-11-02"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "도겸과 정한  〈정답 없는 여행〉 Mood Teaser",
+   "date": "2026-11-02",
+   "published": "2026-11-02T09:00:01Z",
+   "url": "https://www.youtube.com/watch?v=j3ZOrctKziE",
+   "image": "https://i.ytimg.com/vi/j3ZOrctKziE/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -111,15 +120,6 @@
    "published": "2026-10-31T13:00:05Z",
    "url": "https://www.youtube.com/watch?v=dlhI9UxRjvA",
    "image": "https://i.ytimg.com/vi/dlhI9UxRjvA/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "우리 둘이라 괜찮아 Crazy in love crazy in love 🩵🩷 #JxJ #정한X조슈아 #JOURNEY_INTO_DREAMING",
-   "date": "2026-10-31",
-   "published": "2026-10-31T13:23:21Z",
-   "url": "https://www.youtube.com/watch?v=9Ype--bZJ1I",
-   "image": "https://i.ytimg.com/vi/9Ype--bZJ1I/hqdefault.jpg"
   },
   {
    "type": "video",
