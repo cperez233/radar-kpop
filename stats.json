@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T05:16:38Z",
+  "updated_at": "2026-11-02T17:31:27Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
@@ -11,7 +11,7 @@
         "streams": 2376404159,
         "url": "https://open.spotify.com/track/5QDLhrAOJJdNAmCTJ8xMyW"
       },
-      "yt_subs": 86300000
+      "yt_subs": 86400000
     },
     "skz": {
       "listeners": 9757961,
@@ -55,7 +55,7 @@
       },
       "listeners": 4100277,
       "listeners_peak": 6085028,
-      "yt_subs": 2140000
+      "yt_subs": 2150000
     },
     "seventeen": {
       "streams": 8437450888,
@@ -99,18 +99,18 @@
         "streams": 267683745,
         "url": "https://open.spotify.com/track/34YVCoqIm08nbsxFSPL0Uh"
       },
-      "yt_subs": 7600000
+      "yt_subs": 7610000
     },
     "ateez": {
       "listeners": 7409764,
       "listeners_peak": 7413955,
-      "streams": 4284882204,
+      "streams": 4292480841,
       "top_song": {
         "title": "BOUNCY - K-HOT CHILLI PEPPERS",
-        "streams": 200883430,
+        "streams": 201108330,
         "url": "https://open.spotify.com/track/5VGdz8LeTx2M8LHe9iUSQU"
       },
-      "yt_subs": 5820000
+      "yt_subs": 5830000
     }
   }
 }
