@@ -894,7 +894,10 @@
   "news:fca102204bef1f4e|foro": "2026-11-02T20:01:18Z",
   "news:d5a0f89445b7e0a9|ntfy": "2026-11-02T22:01:17Z",
   "news:d5a0f89445b7e0a9|pub:radarkpop-bts-news": "2026-11-02T22:01:17Z",
-  "news:d5a0f89445b7e0a9|foro": "2026-11-02T22:01:17Z"
+  "news:d5a0f89445b7e0a9|foro": "2026-11-02T22:01:17Z",
+  "news:58fe34385b96a895|ntfy": "2026-11-02T22:16:12Z",
+  "news:58fe34385b96a895|pub:radarkpop-bts-news": "2026-11-02T22:16:12Z",
+  "news:58fe34385b96a895|foro": "2026-11-02T22:16:12Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1739,7 +1742,6 @@
   }
  },
  "news_seen": [
-  "5585d026b4b696e9",
   "55b71c6f7ac07d5a",
   "55e138b3888b0916",
   "55f5b132d9cb7673",
@@ -1755,6 +1757,7 @@
   "5822c2ead51dd6fd",
   "584ac3d5d10b613f",
   "58a3ce5288ee6029",
+  "58fe34385b96a895",
   "592ad5a8ede4b148",
   "5968f756f0223837",
   "59e6997f9940a9b7",
@@ -2736,6 +2739,21 @@
     "transmitira"
    ],
    "t": "2026-11-02T22:01:08Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "cines",
+    "concierto",
+    "confirmada",
+    "kaohsiung",
+    "mundo",
+    "proyeccion",
+    "todo",
+    "vivo",
+    "yakarta"
+   ],
+   "t": "2026-11-02T22:16:03Z"
   }
  ],
  "discord_threads": {
