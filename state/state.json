@@ -882,7 +882,10 @@
   "news:9c294fdfc8dcf2f8|foro": "2026-11-02T16:16:50Z",
   "news:b50ae40864f184e3|ntfy": "2026-11-02T16:31:19Z",
   "news:b50ae40864f184e3|pub:radarkpop-bts-news": "2026-11-02T16:31:19Z",
-  "news:b50ae40864f184e3|foro": "2026-11-02T16:31:19Z"
+  "news:b50ae40864f184e3|foro": "2026-11-02T16:31:19Z",
+  "news:f7c4a0da1b3ba2bc|ntfy": "2026-11-02T18:46:27Z",
+  "news:f7c4a0da1b3ba2bc|pub:radarkpop-bts-news": "2026-11-02T18:46:27Z",
+  "news:f7c4a0da1b3ba2bc|foro": "2026-11-02T18:46:27Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1727,7 +1730,6 @@
   }
  },
  "news_seen": [
-  "5489c03820db5b7f",
   "54d6bea2d7fc3cc7",
   "55326539450ba7de",
   "556d2f3108bba61b",
@@ -2496,6 +2498,7 @@
   "f6bfdc7acd7cf89f",
   "f6fc08a530724648",
   "f7756ab99bb704fe",
+  "f7c4a0da1b3ba2bc",
   "f7db80c43d325e3b",
   "f80e981218c68d6c",
   "f8fcb9da9d31d52e",
@@ -2683,6 +2686,18 @@
     "pantalla"
    ],
    "t": "2026-11-02T16:31:10Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "cines",
+    "conciertos",
+    "gira",
+    "horas",
+    "llegara"
+   ],
+   "t": "2026-11-02T18:46:20Z"
   }
  ],
  "discord_threads": {
