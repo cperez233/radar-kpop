@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T11:00:39Z",
+ "updated_at": "2026-11-03T11:15:36Z",
  "sample": false,
  "items": [
   {
@@ -116,6 +116,15 @@
   {
    "type": "video",
    "group": "ateez",
+   "title": "ARNO, XINLONG 님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-03",
+   "published": "2026-11-03T11:00:31Z",
+   "url": "https://www.youtube.com/watch?v=tcCCE65-5XU",
+   "image": "https://i.ytimg.com/vi/tcCCE65-5XU/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
    "title": "이오, 코타로 님과 해, 쩌는 짓 😎 #Shorts",
    "date": "2026-11-03",
    "published": "2026-11-03T10:00:31Z",
@@ -148,15 +157,6 @@
    "published": "2026-11-02T13:00:33Z",
    "url": "https://www.youtube.com/watch?v=fPRxGTEZkBs",
    "image": "https://i.ytimg.com/vi/fPRxGTEZkBs/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "성한빈 님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-02",
-   "published": "2026-11-02T10:00:39Z",
-   "url": "https://www.youtube.com/watch?v=u92UxsQg4Tc",
-   "image": "https://i.ytimg.com/vi/u92UxsQg4Tc/hqdefault.jpg"
   },
   {
    "type": "video",
