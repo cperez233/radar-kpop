@@ -912,7 +912,16 @@
   "official:seventeen:comeback:2026-11-03|foro": "2026-11-03T00:01:16Z",
   "official:ateez:comeback:2026-11-03|ntfy": "2026-11-03T00:01:16Z",
   "official:ateez:comeback:2026-11-03|pub:radarkpop-ateez-music": "2026-11-03T00:01:16Z",
-  "official:ateez:comeback:2026-11-03|foro": "2026-11-03T00:01:16Z"
+  "official:ateez:comeback:2026-11-03|foro": "2026-11-03T00:01:16Z",
+  "news:ed865c1b58456054|ntfy": "2026-11-03T02:46:50Z",
+  "news:ed865c1b58456054|pub:radarkpop-bts-news": "2026-11-03T02:46:50Z",
+  "news:ed865c1b58456054|foro": "2026-11-03T02:46:50Z",
+  "news:320c70351f2d0401|ntfy": "2026-11-03T02:46:50Z",
+  "news:320c70351f2d0401|pub:radarkpop-bts-news": "2026-11-03T02:46:50Z",
+  "news:320c70351f2d0401|foro": "2026-11-03T02:46:50Z",
+  "news:e8f10e5fd3502615|ntfy": "2026-11-03T02:46:50Z",
+  "news:e8f10e5fd3502615|pub:radarkpop-bts-news": "2026-11-03T02:46:50Z",
+  "news:e8f10e5fd3502615|foro": "2026-11-03T02:46:50Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1757,9 +1766,6 @@
   }
  },
  "news_seen": [
-  "56685cdf4165dbb7",
-  "567f4cdf67670e4d",
-  "56a5fca7fb113cb5",
   "56b05841c1f154d9",
   "5733c2356dceff0f",
   "578807b2ccdf38cd",
@@ -1974,6 +1980,7 @@
   "82457908a84a4ac1",
   "82bc97bed18bd8fc",
   "82cb379fe0eddecb",
+  "82d277feeae647b6",
   "82e8b4f51d356f8a",
   "8326a53b817f1aa1",
   "835d2af67d55829b",
@@ -2459,6 +2466,7 @@
   "e89f63b4fc4534fa",
   "e8be078e06af49dc",
   "e8cd6c36895bfd68",
+  "e8f10e5fd3502615",
   "e92311b9b33e2f70",
   "e924263197407fb9",
   "e99ac58337c231b1",
@@ -2481,6 +2489,7 @@
   "ed14d590283a4d80",
   "ed3ab22a21249dfc",
   "ed8176c84b63d146",
+  "ed865c1b58456054",
   "ee16ed74a93dfbcf",
   "ee2addd6800696d7",
   "ee4c1f34cf41aa7c",
@@ -2793,6 +2802,42 @@
     "programa"
    ],
    "t": "2026-11-02T23:46:58Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "asia",
+    "cines",
+    "gira",
+    "transmision",
+    "vivo"
+   ],
+   "t": "2026-11-03T02:46:43Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "concluye",
+    "gira",
+    "grupo",
+    "latinoamerica",
+    "surcoreano"
+   ],
+   "t": "2026-11-03T02:46:43Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "boletos",
+    "cines",
+    "fechas",
+    "gira",
+    "len",
+    "transmitira"
+   ],
+   "t": "2026-11-03T02:46:43Z"
   }
  ],
  "discord_threads": {
