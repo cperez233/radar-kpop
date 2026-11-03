@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T09:15:37Z",
+ "updated_at": "2026-11-03T09:30:38Z",
  "sample": false,
  "items": [
   {
@@ -71,6 +71,15 @@
   {
    "type": "video",
    "group": "twice",
+   "title": "트둥의 숲 TDOONG's crossing EP.03 Highlight #1 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
+   "date": "2026-11-03",
+   "published": "2026-11-03T09:30:00Z",
+   "url": "https://www.youtube.com/watch?v=kss7EqN58Dg",
+   "image": "https://i.ytimg.com/vi/kss7EqN58Dg/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
    "title": "[TIME TO TWICE] 트둥의 숲 TDOONG's Crossing EP.03",
    "date": "2026-11-03",
    "published": "2026-11-03T09:00:07Z",
@@ -103,15 +112,6 @@
    "published": "2026-11-03T04:00:33Z",
    "url": "https://www.youtube.com/watch?v=E29S1T2ev5o",
    "image": "https://i.ytimg.com/vi/E29S1T2ev5o/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "원스, 11살 축하해!🍭♥️ HAPPY 11th BIRTHDAY ONCE!🍭♥️ #ONCE #원스 #TWICE #트와이스 #HappyONCEday",
-   "date": "2026-11-02",
-   "published": "2026-11-02T15:00:09Z",
-   "url": "https://www.youtube.com/watch?v=8sw_KVuDafs",
-   "image": "https://i.ytimg.com/vi/8sw_KVuDafs/hqdefault.jpg"
   },
   {
    "type": "video",
