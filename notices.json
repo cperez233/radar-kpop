@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T02:00:50Z",
+ "updated_at": "2026-11-03T03:30:59Z",
  "groups": {
   "lngshot": [
    {
@@ -91,6 +91,13 @@
   ],
   "enhypen": [
    {
+    "title": "[공지] 아티스트 개인정보 유출 및 스토킹 행위에 대한 강경 대응 안내 (+ENG/JPN/CHN)",
+    "url": "https://weverse.io/enhypen/notice/40665",
+    "post": "https://x.com/ENHYPEN/status/2117459261932659104",
+    "when": "2026-11-03T03:30:03Z",
+    "weverse": true
+   },
+   {
     "title": "[안내] 2026 MAMA AWARDS 2nd VOTE 📅 투표 기간 - 10/28 18:00 ~ 11/8 23:59 (KST) 🗳️ 투표 부문 - 팬스 초이스 2차 투표 & VISA 올해의 팬스 초이스 투...",
     "url": "https://x.com/ENHYPEN/status/2115385909055242684",
     "post": "https://x.com/ENHYPEN/status/2115385909055242684",
@@ -123,13 +130,6 @@
     "url": "https://weverse.io/enhypen/notice/39978",
     "post": "https://x.com/ENHYPEN/status/2114537500253323687",
     "when": "2026-10-26T02:00:00Z",
-    "weverse": true
-   },
-   {
-    "title": "[공지] ENHYPEN ‘THE SIN : PARALLEL WORLD (Weverse Albums ver.)’ 예약 구매 (+ENG/JPN/CHN)",
-    "url": "https://weverse.io/enhypen/notice/40380",
-    "post": "https://x.com/ENHYPEN/status/2114522529385812215",
-    "when": "2026-10-26T01:00:31Z",
     "weverse": true
    }
   ],
