@@ -4,7 +4,7 @@
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-03T19:15:48Z",
- "last_run": "2026-11-03T19:15:48Z",
+ "last_run": "2026-11-03T21:30:40Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-03T19:15:48Z",
@@ -493,6 +493,7 @@
    "title": "Run It World Tour"
   }
  },
+ "pending": {},
  "rejected": {
   "5-Star Dome Tour": "2026-11-03T19:15:48Z",
   "Blackpink Arena Tour 2018": "2026-11-03T19:15:48Z",
