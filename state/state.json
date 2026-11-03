@@ -983,7 +983,11 @@
   "news:4cd09e9aaa45771e|feed": "2026-11-03T20:17:14Z",
   "news:4cd09e9aaa45771e|ntfy": "2026-11-03T20:17:14Z",
   "news:4cd09e9aaa45771e|pub:radarkpop-bts-news": "2026-11-03T20:17:14Z",
-  "news:4cd09e9aaa45771e|foro": "2026-11-03T20:17:14Z"
+  "news:4cd09e9aaa45771e|foro": "2026-11-03T20:17:14Z",
+  "news:2de012a7b8e05375|feed": "2026-11-03T20:31:44Z",
+  "news:2de012a7b8e05375|ntfy": "2026-11-03T20:31:44Z",
+  "news:2de012a7b8e05375|pub:radarkpop-bts-news": "2026-11-03T20:31:44Z",
+  "news:2de012a7b8e05375|foro": "2026-11-03T20:31:44Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3004,6 +3008,16 @@
     "tour"
    ],
    "t": "2026-11-03T20:17:06Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "banda",
+    "brasil",
+    "conciertos",
+    "jin"
+   ],
+   "t": "2026-11-03T20:31:37Z"
   }
  ],
  "discord_threads": {
