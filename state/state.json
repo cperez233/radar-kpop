@@ -975,7 +975,11 @@
   "news:541fb645f60778ca|feed": "2026-11-03T19:31:46Z",
   "news:541fb645f60778ca|ntfy": "2026-11-03T19:31:46Z",
   "news:541fb645f60778ca|pub:radarkpop-bts-news": "2026-11-03T19:31:46Z",
-  "news:541fb645f60778ca|foro": "2026-11-03T19:31:46Z"
+  "news:541fb645f60778ca|foro": "2026-11-03T19:31:46Z",
+  "news:deb880ca0d14f4dc|feed": "2026-11-03T20:01:42Z",
+  "news:deb880ca0d14f4dc|ntfy": "2026-11-03T20:01:42Z",
+  "news:deb880ca0d14f4dc|pub:radarkpop-bts-news": "2026-11-03T20:01:42Z",
+  "news:deb880ca0d14f4dc|foro": "2026-11-03T20:01:42Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1862,7 +1866,6 @@
   }
  },
  "news_seen": [
-  "60593fbacff254a2",
   "607cfa33b82783a1",
   "6086e0888090ec43",
   "60aac56e8fe4852f",
@@ -2514,6 +2517,7 @@
   "de5be50aeee3978e",
   "de84b9dba50e60a1",
   "deb871d83eaff2cc",
+  "deb880ca0d14f4dc",
   "defb1ef553b2225b",
   "df039864311dc247",
   "df27aaea3fe1a414",
@@ -2975,6 +2979,16 @@
     "world"
    ],
    "t": "2026-11-03T19:31:37Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "acaba",
+    "conciertos",
+    "medellin",
+    "residencia"
+   ],
+   "t": "2026-11-03T20:01:34Z"
   }
  ],
  "discord_threads": {

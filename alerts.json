@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-03T19:31:37Z",
+ "updated_at": "2026-11-03T20:01:34Z",
  "alerts": [
+  {
+   "type": "latam",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Latinoamérica: BTS",
+   "body": "BTS acaba su residencia e conciertos en Medellín - Diario del Cauca (Google Noticias)",
+   "title_en": "Latin America: BTS",
+   "body_en": "BTS finishes its residency and concerts in Medellín - Diario del Cauca (Google News)",
+   "when": "2026-11-03T19:53:48Z",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM1J3b1pxQ0xKSmNIdFduOTNneXVjUzZ6VDhRd2ZTU2Fad256NnRnZE9sdkUyUUtJNW9JNUlMd0tfRGVQaC11YmdqdGp0SjAwOUhsZnBmcHIwbUpyNW1vZnhDWlpxU1BkWVBpeVBpSHJLWEhWSl80M0p1aEdiT282YUlYVWNqV1pReGdRY2FsTQ?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS acaba su residencia e conciertos en Medellín - Diario del Cauca (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "new_date",
    "group": "bts",
@@ -715,17 +729,6 @@
    "body_en": "찹쌀떡을 만들어보겠습니다 (YouTube)",
    "when": "2026-10-15T10:41:20Z",
    "url": "https://www.youtube.com/watch?v=BDY7GUM-4TE"
-  },
-  {
-   "type": "video",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Nuevo video: BTS",
-   "body": "3 DAYS IN LA l V’s VLOG (YouTube)",
-   "title_en": "New video: BTS",
-   "body_en": "3 DAYS IN LA l V’s VLOG (YouTube)",
-   "when": "2026-10-15T10:00:07Z",
-   "url": "https://www.youtube.com/watch?v=1qOJvWakMz0"
   }
  ]
 }
