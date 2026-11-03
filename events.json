@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T19:15:48Z",
+  "updated_at": "2026-11-03T19:30:53Z",
   "sources": [
     {
       "name": "Live Nation (BTS)",
@@ -418,9 +418,7 @@
           "status": "confirmado",
           "source": "tm",
           "tm_name": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
-          "onsale": "2026-06-04T00:00:00Z",
-          "verified_by": "wiki",
-          "verified_at": "2026-11-03T19:15:48Z"
+          "onsale": "2026-06-04T00:00:00Z"
         },
         {
           "id": "bts-20270212-melbourne",

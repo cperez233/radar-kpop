@@ -971,7 +971,11 @@
   "news:32508be58db76b1e|feed": "2026-11-03T19:17:33Z",
   "news:104798d8296e9499|feed": "2026-11-03T19:17:33Z",
   "news:17d38f17d213dea0|feed": "2026-11-03T19:17:33Z",
-  "news:3822862bfce33565|feed": "2026-11-03T19:17:33Z"
+  "news:3822862bfce33565|feed": "2026-11-03T19:17:33Z",
+  "news:541fb645f60778ca|feed": "2026-11-03T19:31:46Z",
+  "news:541fb645f60778ca|ntfy": "2026-11-03T19:31:46Z",
+  "news:541fb645f60778ca|pub:radarkpop-bts-news": "2026-11-03T19:31:46Z",
+  "news:541fb645f60778ca|foro": "2026-11-03T19:31:46Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2663,20 +2667,6 @@
   {
    "g": "bts",
    "w": [
-    "aires",
-    "arirang",
-    "buenos",
-    "dawool",
-    "llega",
-    "park",
-    "sonido",
-    "tour"
-   ],
-   "t": "2026-11-01T19:31:04Z"
-  },
-  {
-   "g": "bts",
-   "w": [
     "000",
     "850",
     "agota",
@@ -2970,6 +2960,21 @@
     "solitario"
    ],
    "t": "2026-11-03T18:16:56Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "aires",
+    "arirang",
+    "buenos",
+    "live",
+    "paulo",
+    "sao",
+    "tour",
+    "viewing",
+    "world"
+   ],
+   "t": "2026-11-03T19:31:37Z"
   }
  ],
  "discord_threads": {

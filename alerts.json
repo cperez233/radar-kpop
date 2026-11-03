@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T19:17:26Z",
+ "updated_at": "2026-11-03T19:31:37Z",
  "alerts": [
   {
    "type": "new_date",
@@ -105,6 +105,20 @@
    "body_en": "for what it is #CORTIS #코르티스 (YouTube)",
    "when": "2026-11-03T04:00:33Z",
    "url": "https://www.youtube.com/watch?v=E29S1T2ev5o"
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "BTS World Tour 'Arirang' en Buenos Aires y São Paulo: Visualización en vivo - Cines Argentinos (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS World Tour 'Arirang' in Buenos Aires & in São Paulo: Live Viewing - Cines Argentinos (Google Noticias)",
+   "when": "2026-11-02T16:39:05Z",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSnQ1bTFVZmZtS3d2bGtZZTJNb1hpZ0UyMXN4c05KVDJabVhUdkVJbHJ3LVVoR2pGZE55NnROWUFPUVF6RUpIVUNuZGdBU1lhcXZBX0phNUIwZl96eTJMaW5BWEhxOUNndnBlYVFXTWtrY0YzYzNVOFZlZjJZbTZoa3R0Mk42alZmWldQQnI1alRHS0E3a3RPQXNOU1AwSzBzUDhqZnQydXpwZzNHWTNlNEN4aw?oc=5",
+   "src_lang": "pt",
+   "body_orig": "BTS World Tour 'Arirang' in Buenos Aires & in São Paulo: Live Viewing - Cines Argentinos (Google Noticias)",
+   "auto": true
   },
   {
    "type": "official",
@@ -712,17 +726,6 @@
    "body_en": "3 DAYS IN LA l V’s VLOG (YouTube)",
    "when": "2026-10-15T10:00:07Z",
    "url": "https://www.youtube.com/watch?v=1qOJvWakMz0"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Nuevo video: TWICE",
-   "body": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE : D-1 (YouTube)",
-   "title_en": "New video: TWICE",
-   "body_en": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE : D-1 (YouTube)",
-   "when": "2026-10-15T09:00:07Z",
-   "url": "https://www.youtube.com/watch?v=mD3oHeiWtVc"
   }
  ]
 }
