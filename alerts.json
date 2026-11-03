@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-03T20:01:34Z",
+ "updated_at": "2026-11-03T20:17:06Z",
  "alerts": [
+  {
+   "type": "latam",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Latinoamérica: BTS",
+   "body": "BTS culmina todos los shows de su tour en Sudamérica - Diario del Cauca (Google Noticias)",
+   "title_en": "Latin America: BTS",
+   "body_en": "BTS completes all the shows of its tour in South America - Diario del Cauca (Google News)",
+   "when": "2026-11-03T19:59:18Z",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOXhJVThKME9VaTNPNERDWG9qTXpsaUhHM04wVlc0a0hsWldMVEpUcDZVWHE5U0ZhY0NVTUlCTE5ENXpSdDJxVWFLWEMwUUpCaGJtSVQ1enY2TTRXNjFNeG9oLVFRa2NnZmsxeXFCLXBHdXVUS1FlaVR6RjNPT0JvUEZsZnJZUEw0UUpYbm1OcXBUNEkx?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS culmina todos los shows de su tour en Sudamérica - Diario del Cauca (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "latam",
    "group": "bts",
@@ -718,17 +732,6 @@
    "body_en": "‘S.W.I.S.H.’ EPISODE 1 (YouTube)",
    "when": "2026-10-15T11:00:05Z",
    "url": "https://www.youtube.com/watch?v=6yxjpm8L4DI"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "찹쌀떡을 만들어보겠습니다 (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "찹쌀떡을 만들어보겠습니다 (YouTube)",
-   "when": "2026-10-15T10:41:20Z",
-   "url": "https://www.youtube.com/watch?v=BDY7GUM-4TE"
   }
  ]
 }

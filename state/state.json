@@ -979,7 +979,11 @@
   "news:deb880ca0d14f4dc|feed": "2026-11-03T20:01:42Z",
   "news:deb880ca0d14f4dc|ntfy": "2026-11-03T20:01:42Z",
   "news:deb880ca0d14f4dc|pub:radarkpop-bts-news": "2026-11-03T20:01:42Z",
-  "news:deb880ca0d14f4dc|foro": "2026-11-03T20:01:42Z"
+  "news:deb880ca0d14f4dc|foro": "2026-11-03T20:01:42Z",
+  "news:4cd09e9aaa45771e|feed": "2026-11-03T20:17:14Z",
+  "news:4cd09e9aaa45771e|ntfy": "2026-11-03T20:17:14Z",
+  "news:4cd09e9aaa45771e|pub:radarkpop-bts-news": "2026-11-03T20:17:14Z",
+  "news:4cd09e9aaa45771e|foro": "2026-11-03T20:17:14Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2989,6 +2993,17 @@
     "residencia"
    ],
    "t": "2026-11-03T20:01:34Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "culmina",
+    "shows",
+    "sudamerica",
+    "todos",
+    "tour"
+   ],
+   "t": "2026-11-03T20:17:06Z"
   }
  ],
  "discord_threads": {
