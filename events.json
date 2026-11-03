@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T08:00:50Z",
+  "updated_at": "2026-11-03T19:15:48Z",
   "sources": [
     {
       "name": "Live Nation (BTS)",
@@ -217,7 +217,9 @@
           "venue": "Kaohsiung National Stadium",
           "lat": 22.701,
           "lon": 120.294,
-          "status": "confirmado"
+          "status": "confirmado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20261121-kaohsiung",
@@ -228,7 +230,9 @@
           "venue": "Kaohsiung National Stadium",
           "lat": 22.701,
           "lon": 120.294,
-          "status": "confirmado"
+          "status": "confirmado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20261122-kaohsiung",
@@ -239,7 +243,9 @@
           "venue": "Kaohsiung National Stadium",
           "lat": 22.701,
           "lon": 120.294,
-          "status": "confirmado"
+          "status": "confirmado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20261203-bangkok",
@@ -250,7 +256,9 @@
           "venue": "Rajamangala National Stadium",
           "lat": 13.7558,
           "lon": 100.6217,
-          "status": "confirmado"
+          "status": "confirmado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20261205-bangkok",
@@ -261,7 +269,9 @@
           "venue": "Rajamangala National Stadium",
           "lat": 13.7558,
           "lon": 100.6217,
-          "status": "confirmado"
+          "status": "confirmado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20261206-bangkok",
@@ -272,7 +282,9 @@
           "venue": "Rajamangala National Stadium",
           "lat": 13.7558,
           "lon": 100.6217,
-          "status": "confirmado"
+          "status": "confirmado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20261212-kualalumpur",
@@ -283,7 +295,9 @@
           "venue": "Bukit Jalil National Stadium",
           "lat": 3.0546,
           "lon": 101.6919,
-          "status": "confirmado"
+          "status": "confirmado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20261213-kualalumpur",
@@ -294,7 +308,9 @@
           "venue": "Bukit Jalil National Stadium",
           "lat": 3.0546,
           "lon": 101.6919,
-          "status": "confirmado"
+          "status": "confirmado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20261217-singapore",
@@ -305,7 +321,9 @@
           "venue": "National Stadium",
           "lat": 1.3047,
           "lon": 103.8747,
-          "status": "confirmado"
+          "status": "confirmado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20261219-singapore",
@@ -316,7 +334,9 @@
           "venue": "National Stadium",
           "lat": 1.3047,
           "lon": 103.8747,
-          "status": "confirmado"
+          "status": "confirmado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20261220-singapore",
@@ -327,7 +347,9 @@
           "venue": "National Stadium",
           "lat": 1.3047,
           "lon": 103.8747,
-          "status": "confirmado"
+          "status": "confirmado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20261222-singapore",
@@ -338,7 +360,9 @@
           "venue": "National Stadium",
           "lat": 1.3047,
           "lon": 103.8747,
-          "status": "confirmado"
+          "status": "confirmado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20261226-jakarta",
@@ -349,7 +373,9 @@
           "venue": null,
           "lat": -6.2088,
           "lon": 106.8456,
-          "status": "anunciado"
+          "status": "anunciado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20261227-jakarta",
@@ -360,7 +386,25 @@
           "venue": null,
           "lat": -6.2088,
           "lon": 106.8456,
-          "status": "anunciado"
+          "status": "anunciado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
+        },
+        {
+          "id": "bts-wiki-20261229-yakarta",
+          "local_date": "2026-12-29",
+          "start": "2026-12-29T18:00:00+07:00",
+          "city": "Yakarta",
+          "country": "Indonesia",
+          "venue": "Gelora Bung Karno Stadium",
+          "lat": -6.2088,
+          "lon": 106.8456,
+          "status": "anunciado",
+          "source": "wiki",
+          "src": "https://en.wikipedia.org/wiki/Arirang_World_Tour",
+          "src_kind": "wiki",
+          "time_tbd": true,
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-tm-17a8v0G65R_Eq8g",
@@ -374,7 +418,9 @@
           "status": "confirmado",
           "source": "tm",
           "tm_name": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
-          "onsale": "2026-06-04T00:00:00Z"
+          "onsale": "2026-06-04T00:00:00Z",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20270212-melbourne",
@@ -386,7 +432,9 @@
           "lat": -37.8136,
           "lon": 144.9631,
           "status": "anunciado",
-          "onsale": "2026-06-04T00:00:00Z"
+          "onsale": "2026-06-04T00:00:00Z",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20270213-melbourne",
@@ -398,7 +446,9 @@
           "lat": -37.8136,
           "lon": 144.9631,
           "status": "anunciado",
-          "onsale": "2026-06-04T00:00:00Z"
+          "onsale": "2026-06-04T00:00:00Z",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20270220-sydney",
@@ -410,7 +460,9 @@
           "lat": -33.8688,
           "lon": 151.2093,
           "status": "anunciado",
-          "onsale": "2026-06-04T03:00:00Z"
+          "onsale": "2026-06-04T03:00:00Z",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20270221-sydney",
@@ -422,7 +474,9 @@
           "lat": -33.8688,
           "lon": 151.2093,
           "status": "anunciado",
-          "onsale": "2026-06-04T03:00:00Z"
+          "onsale": "2026-06-04T03:00:00Z",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20270304-hongkong",
@@ -433,7 +487,9 @@
           "venue": null,
           "lat": 22.3193,
           "lon": 114.1694,
-          "status": "anunciado"
+          "status": "anunciado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20270306-hongkong",
@@ -444,7 +500,9 @@
           "venue": null,
           "lat": 22.3193,
           "lon": 114.1694,
-          "status": "anunciado"
+          "status": "anunciado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20270307-hongkong",
@@ -455,7 +513,9 @@
           "venue": null,
           "lat": 22.3193,
           "lon": 114.1694,
-          "status": "anunciado"
+          "status": "anunciado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20270313-manila",
@@ -466,7 +526,9 @@
           "venue": null,
           "lat": 14.5995,
           "lon": 120.9842,
-          "status": "anunciado"
+          "status": "anunciado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "bts-20270314-manila",
@@ -477,7 +539,25 @@
           "venue": null,
           "lat": 14.5995,
           "lon": 120.9842,
-          "status": "anunciado"
+          "status": "anunciado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
+        },
+        {
+          "id": "bts-wiki-20270316-manila",
+          "local_date": "2027-03-16",
+          "start": "2027-03-16T18:00:00+08:00",
+          "city": "Manila",
+          "country": "Filipinas",
+          "venue": "Philippine Sports Stadium",
+          "lat": 14.5995,
+          "lon": 120.9842,
+          "status": "anunciado",
+          "source": "wiki",
+          "src": "https://en.wikipedia.org/wiki/Arirang_World_Tour",
+          "src_kind": "wiki",
+          "time_tbd": true,
+          "verified_at": "2026-11-03T19:15:48Z"
         }
       ],
       "watch_en": [],
@@ -525,6 +605,54 @@
           "status": "confirmado"
         },
         {
+          "id": "skz-wiki-20261106-tokio",
+          "local_date": "2026-11-06",
+          "start": "2026-11-06T18:00:00+09:00",
+          "city": "Tokio",
+          "country": "Japón",
+          "venue": "Tokyo Dome",
+          "lat": 35.7056,
+          "lon": 139.7519,
+          "status": "anunciado",
+          "source": "wiki",
+          "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
+          "src_kind": "wiki",
+          "time_tbd": true,
+          "verified_at": "2026-11-03T19:15:48Z"
+        },
+        {
+          "id": "skz-wiki-20261107-tokio",
+          "local_date": "2026-11-07",
+          "start": "2026-11-07T18:00:00+09:00",
+          "city": "Tokio",
+          "country": "Japón",
+          "venue": "Tokyo Dome",
+          "lat": 35.7056,
+          "lon": 139.7519,
+          "status": "anunciado",
+          "source": "wiki",
+          "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
+          "src_kind": "wiki",
+          "time_tbd": true,
+          "verified_at": "2026-11-03T19:15:48Z"
+        },
+        {
+          "id": "skz-wiki-20261108-tokio",
+          "local_date": "2026-11-08",
+          "start": "2026-11-08T18:00:00+09:00",
+          "city": "Tokio",
+          "country": "Japón",
+          "venue": "Tokyo Dome",
+          "lat": 35.7056,
+          "lon": 139.7519,
+          "status": "anunciado",
+          "source": "wiki",
+          "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
+          "src_kind": "wiki",
+          "time_tbd": true,
+          "verified_at": "2026-11-03T19:15:48Z"
+        },
+        {
           "id": "skz-20261205-hongkong",
           "local_date": "2026-12-05",
           "start": "2026-12-05T20:00:00+08:00",
@@ -533,7 +661,9 @@
           "venue": "Kai Tak Stadium",
           "lat": 22.3047,
           "lon": 114.194,
-          "status": "confirmado"
+          "status": "confirmado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "skz-20261212-taipei",
@@ -544,7 +674,9 @@
           "venue": "Taipei Dome",
           "lat": 25.0437,
           "lon": 121.56,
-          "status": "confirmado"
+          "status": "confirmado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "skz-20270116-bangkok",
@@ -555,7 +687,9 @@
           "venue": "IMPACT Arena",
           "lat": 13.913,
           "lon": 100.546,
-          "status": "anunciado"
+          "status": "anunciado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "skz-20270117-bangkok",
@@ -566,7 +700,25 @@
           "venue": "IMPACT Arena",
           "lat": 13.913,
           "lon": 100.546,
-          "status": "anunciado"
+          "status": "anunciado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
+        },
+        {
+          "id": "skz-wiki-20270306-singapur",
+          "local_date": "2027-03-06",
+          "start": "2027-03-06T18:00:00+08:00",
+          "city": "Singapur",
+          "country": "Singapur",
+          "venue": "Singapore Indoor Stadium",
+          "lat": 1.3521,
+          "lon": 103.8198,
+          "status": "anunciado",
+          "source": "wiki",
+          "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
+          "src_kind": "wiki",
+          "time_tbd": true,
+          "verified_at": "2026-11-03T19:15:48Z"
         },
         {
           "id": "skz-20270307-singapore",
@@ -577,7 +729,9 @@
           "venue": null,
           "lat": 1.3521,
           "lon": 103.8198,
-          "status": "anunciado"
+          "status": "anunciado",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-03T19:15:48Z"
         }
       ],
       "watch_en": [

@@ -942,7 +942,36 @@
   "news:3056d348582c6b34|foro": "2026-11-03T15:31:09Z",
   "news:488cf825a374b797|ntfy": "2026-11-03T18:17:05Z",
   "news:488cf825a374b797|pub:radarkpop-bts-news": "2026-11-03T18:17:05Z",
-  "news:488cf825a374b797|foro": "2026-11-03T18:17:05Z"
+  "news:488cf825a374b797|foro": "2026-11-03T18:17:05Z",
+  "new:bts:bts-wiki-20261229-yakarta|feed": "2026-11-03T19:17:33Z",
+  "new:bts:bts-wiki-20261229-yakarta|ntfy": "2026-11-03T19:17:33Z",
+  "new:bts:bts-wiki-20261229-yakarta|pub:radarkpop-bts-shows": "2026-11-03T19:17:33Z",
+  "new:bts:bts-wiki-20261229-yakarta|pub:radarkpop-pais-indonesia": "2026-11-03T19:17:33Z",
+  "new:bts:bts-wiki-20261229-yakarta|foro": "2026-11-03T19:17:33Z",
+  "new:bts:bts-wiki-20270316-manila|feed": "2026-11-03T19:17:33Z",
+  "new:bts:bts-wiki-20270316-manila|ntfy": "2026-11-03T19:17:33Z",
+  "new:bts:bts-wiki-20270316-manila|pub:radarkpop-bts-shows": "2026-11-03T19:17:33Z",
+  "new:bts:bts-wiki-20270316-manila|pub:radarkpop-pais-filipinas": "2026-11-03T19:17:33Z",
+  "new:bts:bts-wiki-20270316-manila|foro": "2026-11-03T19:17:33Z",
+  "new:skz:skz-wiki-20261106-tokio|feed": "2026-11-03T19:17:33Z",
+  "new:skz:skz-wiki-20261106-tokio|ntfy": "2026-11-03T19:17:33Z",
+  "new:skz:skz-wiki-20261106-tokio|pub:radarkpop-skz-shows": "2026-11-03T19:17:33Z",
+  "new:skz:skz-wiki-20261106-tokio|pub:radarkpop-pais-japon": "2026-11-03T19:17:33Z",
+  "new:skz:skz-wiki-20261106-tokio|foro": "2026-11-03T19:17:33Z",
+  "new:skz:skz-wiki-20270306-singapur|feed": "2026-11-03T19:17:33Z",
+  "new:skz:skz-wiki-20270306-singapur|ntfy": "2026-11-03T19:17:33Z",
+  "new:skz:skz-wiki-20270306-singapur|pub:radarkpop-skz-shows": "2026-11-03T19:17:33Z",
+  "new:skz:skz-wiki-20270306-singapur|pub:radarkpop-pais-singapur": "2026-11-03T19:17:33Z",
+  "new:skz:skz-wiki-20270306-singapur|foro": "2026-11-03T19:17:33Z",
+  "official:twice:comeback:2026-11-03|feed": "2026-11-03T19:17:33Z",
+  "official:lngshot:comeback:2026-11-03|feed": "2026-11-03T19:17:33Z",
+  "official:seventeen:comeback:2026-11-03|feed": "2026-11-03T19:17:33Z",
+  "official:ateez:comeback:2026-11-03|feed": "2026-11-03T19:17:33Z",
+  "news:084c91c14ea1c76a|feed": "2026-11-03T19:17:33Z",
+  "news:32508be58db76b1e|feed": "2026-11-03T19:17:33Z",
+  "news:104798d8296e9499|feed": "2026-11-03T19:17:33Z",
+  "news:17d38f17d213dea0|feed": "2026-11-03T19:17:33Z",
+  "news:3822862bfce33565|feed": "2026-11-03T19:17:33Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1106,6 +1135,13 @@
    "c": "Yakarta",
    "v": null
   },
+  "bts-wiki-20261229-yakarta": {
+   "g": "bts",
+   "d": "2026-12-29",
+   "s": "2026-12-29T18:00:00+07:00",
+   "c": "Yakarta",
+   "v": "Gelora Bung Karno Stadium"
+  },
   "bts-tm-17a8v0G65R_Eq8g": {
    "g": "bts",
    "d": "2027-02-10",
@@ -1176,6 +1212,13 @@
    "c": "Manila",
    "v": null
   },
+  "bts-wiki-20270316-manila": {
+   "g": "bts",
+   "d": "2027-03-16",
+   "s": "2027-03-16T18:00:00+08:00",
+   "c": "Manila",
+   "v": "Philippine Sports Stadium"
+  },
   "skz-20260919-osaka": {
    "g": "skz",
    "d": "2026-09-19",
@@ -1196,6 +1239,27 @@
    "s": "2026-10-24T18:00:00+09:00",
    "c": "Fukuoka",
    "v": "Mizuho PayPay Dome Fukuoka"
+  },
+  "skz-wiki-20261106-tokio": {
+   "g": "skz",
+   "d": "2026-11-06",
+   "s": "2026-11-06T18:00:00+09:00",
+   "c": "Tokio",
+   "v": "Tokyo Dome"
+  },
+  "skz-wiki-20261107-tokio": {
+   "g": "skz",
+   "d": "2026-11-07",
+   "s": "2026-11-07T18:00:00+09:00",
+   "c": "Tokio",
+   "v": "Tokyo Dome"
+  },
+  "skz-wiki-20261108-tokio": {
+   "g": "skz",
+   "d": "2026-11-08",
+   "s": "2026-11-08T18:00:00+09:00",
+   "c": "Tokio",
+   "v": "Tokyo Dome"
   },
   "skz-20261205-hongkong": {
    "g": "skz",
@@ -1224,6 +1288,13 @@
    "s": "2027-01-17T19:00:00+07:00",
    "c": "Nonthaburi (Bangkok)",
    "v": "IMPACT Arena"
+  },
+  "skz-wiki-20270306-singapur": {
+   "g": "skz",
+   "d": "2027-03-06",
+   "s": "2027-03-06T18:00:00+08:00",
+   "c": "Singapur",
+   "v": "Singapore Indoor Stadium"
   },
   "skz-20270307-singapore": {
    "g": "skz",

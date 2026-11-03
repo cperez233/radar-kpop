@@ -1,8 +1,23 @@
 {
-  "updated_at": "2026-11-03T09:00:40Z",
+  "updated_at": "2026-11-03T19:16:43Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "fan-newjeans-nuevayork-20261103",
+      "group": "newjeans",
+      "group_name": "NewJeans",
+      "city": "Nueva York",
+      "country": "EE. UU.",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "fan": true,
+      "fans": 2,
+      "text": "",
+      "url": "",
+      "account": "",
+      "when": "2026-11-03T13:09:56Z"
+    },
     {
       "id": "x-2117542317183635475",
       "group": "ateez",
