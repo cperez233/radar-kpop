@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T19:30:53Z",
+  "updated_at": "2026-11-03T19:45:46Z",
   "sources": [
     {
       "name": "Live Nation (BTS)",
@@ -565,9 +565,7 @@
       "id": "skz",
       "name": "Stray Kids",
       "tour": "Run It World Tour",
-      "watch": [
-        "Tokyo Dome aparece en la gira, pero las fechas exactas no salen claras en las fuentes."
-      ],
+      "watch": [],
       "events": [
         {
           "id": "skz-20260919-osaka",
@@ -732,9 +730,7 @@
           "verified_at": "2026-11-03T19:15:48Z"
         }
       ],
-      "watch_en": [
-        "Tokyo Dome is on the tour, but the exact dates are not clear in the sources."
-      ],
+      "watch_en": [],
       "tour_en": "Run It World Tour"
     },
     {
