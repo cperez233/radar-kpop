@@ -4,7 +4,7 @@
    - Images, chibis, map data and fonts: served from the cache right away and refreshed in the background.
    - Push notifications: shows the alert and opens the radar when tapped.
    build.py writes VERSION on every build, so the browser always notices a new worker. */
-var VERSION = '2c3ed1e969';
+var VERSION = '34042157fe';
 var CACHE = 'radar-kpop-' + VERSION;
 var DATA_HOST = /\.github\.io$/;
 var SHELL = ['./', 'index.html', 'config.js', 'manifest.webmanifest', 'assets/app.css', 'assets/app.js', 'assets/land-110m.json',

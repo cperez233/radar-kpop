@@ -139,6 +139,28 @@ concierto o gira (no un comeback), trae una fecha futura y una ciudad o recinto 
 sale la alerta de fecha nueva. Nunca duplica ni borra. Si una sale mal, su id va en `ignore_auto` de `updater/overrides.json`.
 Muchos anuncios son solo un póster (imagen): esos no se pueden leer y siguen llegando como "Anuncio oficial".
 
+## 6a. Fechas desde Wikipedia (Asia y lo que Ticketmaster no trae)
+
+`updater/wiki_tours.py` lee las tablas de fechas de las giras en Wikipedia (inglés) y es la fuente principal para Asia.
+Las páginas de cada grupo están en `updater/wiki_tours.json`; una vez por semana el robot revisa la página índice del grupo
+("List of X live performances") y **descubre solo las giras nuevas** (una página de gira nueva que hable del grupo y traiga
+fechas futuras entra sola). Consulta como máximo cada 2 horas y solo baja el texto de las páginas que cambiaron (Wikipedia
+limita a quien pide mucho). Si no responde, se conserva todo y se avisa tras 3 corridas seguidas con error.
+
+- **Fecha que la web no tiene:** se agrega "por confirmar", sin hora, con el enlace "Ver en Wikipedia" (`source: "wiki"`).
+  Si la ciudad ya existe en el grupo, usa el mismo nombre para que la web la agrupe como la misma parada.
+- **Fecha que ya vino de Wikipedia y desaparece o se marca cancelada:** se quita (con una guarda: si de golpe faltara más de la
+  mitad, no se quita ninguna y se avisa).
+- **Fecha cargada a mano, de Ticketmaster o de un anuncio:** nunca se borra ni se cambia. Si Wikipedia coincide, se le anota
+  `verified_at`. Si Wikipedia dice otra cosa (otra ciudad ese día, cancelada, otras fechas en esa ciudad y esta no, o una fecha
+  dentro de la gira que no aparece), queda en `state/wiki.json` (`drift`) y el vigilante avisa por Discord y ntfy como
+  "Fechas cargadas a mano vs. Wikipedia". Wikipedia puede ir un día o dos atrás de un anuncio: una fecha manual **más allá** de la
+  última de Wikipedia no cuenta como diferencia.
+- **Ciudad que no se puede ubicar** (no está en `sightings/cities.json` y Wikipedia no da coordenadas): no se agrega y se avisa.
+  Para esa ciudad agrega su fila a `sightings/cities.json`.
+- Si una fecha de Wikipedia está mal, su id (`<grupo>-wiki-AAAAMMDD-<ciudad>`) va en `ignore_auto` de `updater/overrides.json`.
+- Pruebas sin red: `python tools/test_wiki_tours.py`.
+
 ## 6b. Redes de grupos y miembros
 
 `updater/social_feeds.py` escribe `socialfeed.json` con los últimos TikToks de cada grupo y de los miembros que tienen

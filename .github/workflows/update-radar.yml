@@ -59,6 +59,14 @@ jobs:
           TM_API_KEY: ${{ secrets.TM_API_KEY }}
         run: python updater/update_events.py
 
+      # Asia y otras fechas que Ticketmaster no trae: tablas de giras de Wikipedia. Agrega y mueve lo suyo; lo cargado a mano nunca se
+      # borra, solo se avisa si Wikipedia lo contradice ("Fechas cargadas a mano vs. Wikipedia" en el resumen). Consulta como máximo cada 2 h.
+      - name: Fechas de gira desde Wikipedia (agrega, verifica y avisa de diferencias)
+        if: ${{ !inputs.prueba }}
+        continue-on-error: true
+        timeout-minutes: 4
+        run: python updater/wiki_tours.py
+
       - name: Estrenos y videos (Apple Music + YouTube)
         if: ${{ !inputs.prueba }}
         continue-on-error: true

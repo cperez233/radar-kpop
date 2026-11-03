@@ -1,0 +1,15 @@
+{
+  "_doc": "Páginas de Wikipedia en inglés que updater/wiki_tours.py lee para las fechas de gira. 'names' = cómo se escribe el grupo en Wikipedia (se usa para comprobar que una página de gira es del grupo); 'pages' = giras que ya se conocen; 'index' = la página 'List of ... live performances/concert tours' del grupo, de donde el robot descubre solo las giras nuevas (una vez por semana). Si una gira sale mal, agrega el id del show a 'ignore_auto' en updater/overrides.json.",
+  "groups": {
+    "bts": {"names": ["BTS"], "pages": ["Arirang World Tour"], "index": ["List of BTS live performances"]},
+    "skz": {"names": ["Stray Kids"], "pages": ["Run It World Tour"], "index": ["List of Stray Kids live performances"]},
+    "twice": {"names": ["Twice"], "pages": [], "index": ["List of Twice concert tours"]},
+    "blackpink": {"names": ["Blackpink"], "pages": ["Deadline World Tour"], "index": ["List of Blackpink live performances"]},
+    "lngshot": {"names": ["Lngshot"], "pages": ["Lngshot"], "index": []},
+    "seventeen": {"names": ["Seventeen"], "pages": ["New World Tour"], "index": ["List of Seventeen live performances"]},
+    "enhypen": {"names": ["Enhypen"], "pages": [], "index": ["List of Enhypen live performances"]},
+    "newjeans": {"names": ["NewJeans"], "pages": ["List of NewJeans live performances"], "index": []},
+    "cortis": {"names": ["Cortis"], "pages": ["Cortis"], "index": []},
+    "ateez": {"names": ["Ateez"], "pages": [], "index": ["List of Ateez concert tours"]}
+  }
+}

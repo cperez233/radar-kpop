@@ -177,7 +177,7 @@
       live: 'En vivo ahora', liveKo: '공연 중', next: 'Próxima parada', nextKo: '다음 공연', rest: 'Sin fechas anunciadas', restKo: '쉬는 중',
       restWhere: 'En pausa', lastStop: 'Última parada', kmFrom: 'km de {city}', flight: '~{h} h de vuelo directo', localTime: 'hora local', yourTime: 'en tu hora',
       days: 'días', hours: 'horas', mins: 'min', secs: 'seg', share: 'Compartir', calendar: 'Agregar al calendario', calShort: 'Agendar', seeCard: 'Ver ficha', seeGlobe: 'Ver en el globo',
-      tour: 'Ver gira ({n} ciudades)', pastTour: 'Última gira ({n} ciudades)', tour1: 'Ver gira (1 ciudad)', pastTour1: 'Última gira (1 ciudad)', restShows1: 'shows en 1 ciudad', announced: 'anunciado', toConfirm: 'por confirmar', timeTbd: 'hora por confirmar', seeNotice: 'Ver el anuncio oficial', seeNews: 'Ver la noticia', bias: 'Mi grupo favorito', nearest: 'Lo más cerca de ti', nothingNear: 'Ningún grupo tiene fechas por ahora.',
+      tour: 'Ver gira ({n} ciudades)', pastTour: 'Última gira ({n} ciudades)', tour1: 'Ver gira (1 ciudad)', pastTour1: 'Última gira (1 ciudad)', restShows1: 'shows en 1 ciudad', announced: 'anunciado', toConfirm: 'por confirmar', timeTbd: 'hora por confirmar', seeNotice: 'Ver el anuncio oficial', seeNews: 'Ver la noticia', seeWiki: 'Ver en Wikipedia', bias: 'Mi grupo favorito', nearest: 'Lo más cerca de ti', nothingNear: 'Ningún grupo tiene fechas por ahora.',
       agendaOf: 'Agenda del {when}', checkedAgo: 'revisada hace {ago}', offline: 'Sin conexión con la agenda, mostrando la última copia ({when})', loading: 'Cargando agenda',
       emptyFeed: 'Todavía no hay alertas. Aparecen aquí cuando cambia la agenda, un grupo pasa a la siguiente ciudad, hay un show por empezar o sale una noticia de gira o comeback.',
       ago: 'hace {n}', newAlert: '¡Alerta nueva!', moreAlerts: 'y {n} alertas más en el feed', close: 'Cerrar', closeVideo: 'Salir', replay: 'Repetir', see: 'Ver',
@@ -246,7 +246,7 @@
       live: 'Live now', liveKo: '공연 중', next: 'Next stop', nextKo: '다음 공연', rest: 'No dates announced', restKo: '쉬는 중',
       restWhere: 'On a break', lastStop: 'Last stop', kmFrom: 'km from {city}', flight: '~{h} h direct flight', localTime: 'local time', yourTime: 'your time',
       days: 'days', hours: 'hours', mins: 'min', secs: 'sec', share: 'Share', calendar: 'Add to calendar', calShort: 'Save date', seeCard: 'Details', seeGlobe: 'See on the globe',
-      tour: 'See tour ({n} cities)', pastTour: 'Last tour ({n} cities)', tour1: 'See tour (1 city)', pastTour1: 'Last tour (1 city)', restShows1: 'shows in 1 city', announced: 'announced', toConfirm: 'to be confirmed', timeTbd: 'time to be confirmed', seeNotice: 'See the official announcement', seeNews: 'See the news', bias: 'My favorite group', nearest: 'Closest to you', nothingNear: 'No group has dates right now.',
+      tour: 'See tour ({n} cities)', pastTour: 'Last tour ({n} cities)', tour1: 'See tour (1 city)', pastTour1: 'Last tour (1 city)', restShows1: 'shows in 1 city', announced: 'announced', toConfirm: 'to be confirmed', timeTbd: 'time to be confirmed', seeNotice: 'See the official announcement', seeNews: 'See the news', seeWiki: 'See on Wikipedia', bias: 'My favorite group', nearest: 'Closest to you', nothingNear: 'No group has dates right now.',
       agendaOf: 'Schedule from {when}', checkedAgo: 'checked {ago} ago', offline: 'Can\'t reach the schedule, showing the last copy ({when})', loading: 'Loading schedule',
       emptyFeed: 'No alerts yet. They show up here when the schedule changes, a group moves to the next city, a show is about to start or there is tour or comeback news.',
       ago: '{n} ago', newAlert: 'New alert!', moreAlerts: 'and {n} more alerts in the feed', close: 'Close', closeVideo: 'Exit', replay: 'Replay', see: 'See',
@@ -1650,9 +1650,9 @@
       h += '<p class="c-where">' + esc(place(e.city)) + '<small>' + esc(place(e.country)) + (e.venue ? ' · ' + esc(e.venue) : '') + '</small></p>';
       var srcOk = e.src && /^https:\/\//.test(e.src);
       h += '<p class="c-when"><b>' + esc(fmtDate(e.local_date)) + (e.time_tbd ? '' : ', ' + esc(e.start.slice(11, 16))) + '</b> ' + esc(e.time_tbd ? t('timeTbd') : t('localTime')) +
-        (e.source === 'auto' ? ' <span class="tag">' + esc(t('toConfirm')) + '</span>' : e.status === 'anunciado' ? ' <span class="tag">' + esc(t('announced')) + '</span>' : '') +
+        ((e.source === 'auto' || e.source === 'wiki') ? ' <span class="tag">' + esc(t('toConfirm')) + '</span>' : e.status === 'anunciado' ? ' <span class="tag">' + esc(t('announced')) + '</span>' : '') +
         (e.time_tbd ? '' : '<br>' + esc(t('yourTime')) + ': ' + esc(myTime(e.t))) +
-        (srcOk ? '<br><a class="src-link" href="' + esc(e.src) + '" target="_blank" rel="noopener noreferrer">' + esc(t(e.src_kind === 'news' ? 'seeNews' : 'seeNotice')) + '</a>' : '') + '</p>';
+        (srcOk ? '<br><a class="src-link" href="' + esc(e.src) + '" target="_blank" rel="noopener noreferrer">' + esc(t(e.src_kind === 'news' ? 'seeNews' : e.src_kind === 'wiki' ? 'seeWiki' : 'seeNotice')) + '</a>' : '') + '</p>';
       h += onsaleHtml(st) + nearMeHtml(st);
       h += live ? '<div class="cd-live"><span class="ko" lang="ko">지금 무대 위!</span>' + esc(lang === 'en' ? 'On stage right now' : 'En el escenario ahora mismo') + '</div>' : cdTiles(e.start);
       h += '<div class="facts"><span class="km">' + fmtKm(km) + ' <small>' + esc(t('kmFrom', { city: originRef() })) + '</small></span><span class="fly">' + esc(t('flight', { h: flightH(km) })) + '</span><span class="dday">' + esc(live ? 'LIVE' : dday(e)) + '</span></div>';
@@ -2253,7 +2253,7 @@
       var dates = r.map(function (x) { return parts(x.local_date).d; }).join(' · ') + ' ' + L().months[parts(e0.local_date).m - 1] + ' ' + parts(e0.local_date).y;
       var src = e0.src && /^https:\/\//.test(e0.src) ? ' <a class="src-link" href="' + esc(e0.src) + '" target="_blank" rel="noopener noreferrer">' + esc(t('gpSource')) + '</a>' : '';
       return '<li class="stub' + (isPast ? ' past' : '') + '"><span class="s-d">' + esc(dates) + '</span><span class="s-c">' + esc(place(e0.city)) + ', ' + esc(place(e0.country)) +
-        (e0.venue ? '<span>' + esc(e0.venue) + '</span>' : '') + (e0.source === 'auto' ? '<span class="tag">' + esc(t('toConfirm')) + '</span>' + src : '') + '</span><span class="s-k">' + fmtKm(d) + ' km</span></li>';
+        (e0.venue ? '<span>' + esc(e0.venue) + '</span>' : '') + ((e0.source === 'auto' || e0.source === 'wiki') ? '<span class="tag">' + esc(t('toConfirm')) + '</span>' + src : '') + '</span><span class="s-k">' + fmtKm(d) + ' km</span></li>';
     }
     h += '<p class="gp-tourname">' + esc(tourName(st.g)) + '</p>';
     if (up.length) h += '<section class="gp-sec"><h4>' + esc(t('gpUpcoming', { n: up.length })) + '</h4><ul class="stubs">' + up.map(function (r) { return row(r, false); }).join('') + '</ul></section>';

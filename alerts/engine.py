@@ -157,11 +157,11 @@ def diff_events(old: dict, data: dict, now: datetime) -> list[dict]:
                     ))
         for city, es in new_by_city.items():
             alerts.append(mk(
-                "new_date", f"new:{g['id']}:{es[0]['id']}", g, f"{g['name']} agregó fechas en {city}" + (" (por confirmar)" if es[0].get("source") == "auto" else ""),
+                "new_date", f"new:{g['id']}:{es[0]['id']}", g, f"{g['name']} agregó fechas en {city}" + (" (por confirmar)" if es[0].get("source") in ("auto", "wiki") else ""),
                 f"{dates_label(es)}" + (f" en {es[0]['venue']}" if es[0]["venue"] else "") + f", {es[0]['country']}." +
-                (" Salió de un anuncio; la hora y los detalles están por confirmar." if es[0].get("source") == "auto" else ""),
+                (" Salió de un anuncio; la hora y los detalles están por confirmar." if es[0].get("source") in ("auto", "wiki") else ""),
                 now, places=[{"lat": es[0]["lat"], "lon": es[0]["lon"], "city": city}], url=es[0].get("src") or None, country=es[0]["country"],
-                title_en=f"{g['name']} added dates in {en(city)}" + (" (to be confirmed)" if es[0].get("source") == "auto" else ""),
+                title_en=f"{g['name']} added dates in {en(city)}" + (" (to be confirmed)" if es[0].get("source") in ("auto", "wiki") else ""),
                 body_en=f"{dates_label(es, 'en')}" + (f" at {es[0]['venue']}" if es[0]["venue"] else "") + f", {en(es[0]['country'])}.",
             ))
     current = {e["id"] for g in data["groups"] for e in g["events"]}
