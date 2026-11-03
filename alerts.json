@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-03T20:31:37Z",
+ "updated_at": "2026-11-03T21:16:45Z",
  "alerts": [
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "BTS hace billonario a HYBE: tour ARIRANG impulsa ganancias récord que superarían los 4 billones - TNT Sports (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS makes HYBE a billionaire: ARIRANG tour drives record profits that would exceed 4 billion - TNT Sports (Google News)",
+   "when": "2026-11-03T21:02:00Z",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUzkyZmltWk1RVGJVTW9ZT0ZESkNfQ0p0bFlZNTJyVkQ5d2VNZS1MZXRDS2NSTHpsS3JRZFpWVnk5Uk5LdE5DZUtveXZfQ0dDMDd4Y3puWlZlOXJyQzF5bVc3Yy12UjVQeExBdXV3NzJoa2FYTlRuQWw0enR5b05KTHZYSkpvbGxKb1FtMWhOOFpqSzhpdGI1cEotV2IxalVaaE9peUk0b1FwR1QtcXRUQlZmLVBLVDVPSm4tU2U1dmxZUWtNOG9SNW5oWTk2c2VGdWVYTGNHMHdSSkk4TnfSAeMBQVVfeXFMTzhqQTFDVDFBVk8zd2xCNjVxVWJ2STRkZ1FTTllmWEo1c2xkZlNrTjBoTExKbE9vOThkaVZkUk1qc01uTnM3bW1RcUowUDVqaDNSSjlGQ3dJanc5ckZ2bjR5QjZBZ05FZzB6RXd0WTB0TE1Oc2R2R3daYmJTWEZOdkFOamlScGxuZjZDMGpDRUVuWHozaElZMm9HdzNQN01OME03bnNrdHRWcGJtaUY0YzhzRkhlS0VRajhBNjUtTjVrZDJwRnlkRkNwOG9uOWE4dllZNDFXNlAwWExxWkJWVlhsTzA?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS hace billonario a HYBE: tour ARIRANG impulsa ganancias récord que superarían los 4 billones - TNT Sports (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "latam",
    "group": "bts",
@@ -724,17 +738,6 @@
    "src_lang": "es",
    "body_orig": "¿Lluvia o calor? Así estará el tiempo para el concierto de BTS en Chile este viernes 16 de octubre - LOS40 (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "이름 하나로 친구가 될 수 있을까? | 내 이름은 김선우 예고편 | ENHYPEN SUNOO (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "이름 하나로 친구가 될 수 있을까? | 내 이름은 김선우 예고편 | ENHYPEN SUNOO (YouTube)",
-   "when": "2026-10-15T11:59:28Z",
-   "url": "https://www.youtube.com/watch?v=gRpG3a7i97Q"
   }
  ]
 }

@@ -987,7 +987,11 @@
   "news:2de012a7b8e05375|feed": "2026-11-03T20:31:44Z",
   "news:2de012a7b8e05375|ntfy": "2026-11-03T20:31:44Z",
   "news:2de012a7b8e05375|pub:radarkpop-bts-news": "2026-11-03T20:31:44Z",
-  "news:2de012a7b8e05375|foro": "2026-11-03T20:31:44Z"
+  "news:2de012a7b8e05375|foro": "2026-11-03T20:31:44Z",
+  "news:b4abf168efb586f7|feed": "2026-11-03T21:16:52Z",
+  "news:b4abf168efb586f7|ntfy": "2026-11-03T21:16:52Z",
+  "news:b4abf168efb586f7|pub:radarkpop-bts-news": "2026-11-03T21:16:52Z",
+  "news:b4abf168efb586f7|foro": "2026-11-03T21:16:52Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1874,7 +1878,6 @@
   }
  },
  "news_seen": [
-  "6086e0888090ec43",
   "60aac56e8fe4852f",
   "60fc2ad2bdd7ba39",
   "61148face18541a3",
@@ -2315,6 +2318,7 @@
   "b4712ba551623d0a",
   "b48b0379352bb7f7",
   "b4a5ca75ee1ecb75",
+  "b4abf168efb586f7",
   "b4fb12f36eb374d5",
   "b4fc937e56f49b83",
   "b50a025d618094cd",
@@ -3018,6 +3022,22 @@
     "jin"
    ],
    "t": "2026-11-03T20:31:37Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "billonario",
+    "billones",
+    "ganancias",
+    "hace",
+    "hybe",
+    "impulsa",
+    "record",
+    "superarian",
+    "tour"
+   ],
+   "t": "2026-11-03T21:16:45Z"
   }
  ],
  "discord_threads": {
