@@ -921,7 +921,10 @@
   "news:320c70351f2d0401|foro": "2026-11-03T02:46:50Z",
   "news:e8f10e5fd3502615|ntfy": "2026-11-03T02:46:50Z",
   "news:e8f10e5fd3502615|pub:radarkpop-bts-news": "2026-11-03T02:46:50Z",
-  "news:e8f10e5fd3502615|foro": "2026-11-03T02:46:50Z"
+  "news:e8f10e5fd3502615|foro": "2026-11-03T02:46:50Z",
+  "news:acc4375ec5a04c05|ntfy": "2026-11-03T04:46:43Z",
+  "news:acc4375ec5a04c05|pub:radarkpop-bts-news": "2026-11-03T04:46:43Z",
+  "news:acc4375ec5a04c05|foro": "2026-11-03T04:46:43Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1766,7 +1769,6 @@
   }
  },
  "news_seen": [
-  "584ac3d5d10b613f",
   "58a3ce5288ee6029",
   "58d1c9f7a3208c81",
   "58fe34385b96a895",
@@ -2193,6 +2195,7 @@
   "ac24c66799df7986",
   "ac396c6a08b27779",
   "ac8cf14c82a94d2a",
+  "acc4375ec5a04c05",
   "ad158f42ac67aa20",
   "ad862756c22719dc",
   "ad88bd4f980b0e45",
@@ -2838,6 +2841,19 @@
     "transmitira"
    ],
    "t": "2026-11-03T02:46:43Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "cines",
+    "conciertos",
+    "indonesia",
+    "paises",
+    "proyectaran",
+    "taiwan",
+    "unos"
+   ],
+   "t": "2026-11-03T04:46:38Z"
   }
  ],
  "discord_threads": {
