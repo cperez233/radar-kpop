@@ -933,7 +933,10 @@
   "official:cortis:tour:2026-11-03|foro": "2026-11-03T12:01:12Z",
   "official:skz:tour:2026-11-03|ntfy": "2026-11-03T14:01:22Z",
   "official:skz:tour:2026-11-03|pub:radarkpop-skz-shows": "2026-11-03T14:01:22Z",
-  "official:skz:tour:2026-11-03|foro": "2026-11-03T14:01:22Z"
+  "official:skz:tour:2026-11-03|foro": "2026-11-03T14:01:22Z",
+  "news:0d14b551da073dec|ntfy": "2026-11-03T15:01:25Z",
+  "news:0d14b551da073dec|pub:radarkpop-skz-news": "2026-11-03T15:01:25Z",
+  "news:0d14b551da073dec|foro": "2026-11-03T15:01:25Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1778,7 +1781,6 @@
   }
  },
  "news_seen": [
-  "5f3f9c3a68de1aa2",
   "5f5d8980a4bcca14",
   "5fb5422f78d58f64",
   "6011ffbdc2893a7b",
@@ -2348,6 +2350,7 @@
   "cc764d8b16698912",
   "cc904933bc0e393a",
   "cc906e958aa0327d",
+  "cc9b2cc0fb5f4190",
   "cca49e5f4017ea46",
   "ccdd371d9c717f42",
   "ccf2d75968967576",
@@ -2580,18 +2583,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "skz",
-   "w": [
-    "bolivia",
-    "diario",
-    "live",
-    "tour",
-    "viewing",
-    "world"
-   ],
-   "t": "2026-11-01T14:46:37Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -2863,6 +2854,19 @@
     "vestidos"
    ],
    "t": "2026-11-03T09:46:15Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "2026",
+    "live",
+    "run",
+    "tour",
+    "videos",
+    "viewing",
+    "world"
+   ],
+   "t": "2026-11-03T15:01:16Z"
   }
  ],
  "discord_threads": {
