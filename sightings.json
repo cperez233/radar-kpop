@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-10-29T02:00:36Z",
+  "updated_at": "2026-11-03T09:00:40Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "x-2117542317183635475",
+      "group": "ateez",
+      "group_name": "ATEEZ",
+      "city": "Incheon",
+      "country": "Corea del Sur",
+      "lat": 37.4563,
+      "lon": 126.7052,
+      "text": "[📢] 2027 ATEEZ WORLD TOUR [ZERO TO ALL] IN INCHEON 오픈 안내 자세한 내용은 TOKTOQ을 통해 확인하실 수 있습니다❗ 🔗 오픈 안내 🔗 NOL #ATEEZ #에이티즈 #Zero_To_All",
+      "url": "https://x.com/ATEEZofficial/status/2117542317183635475",
+      "account": "ATEEZofficial",
+      "when": "2026-11-03T09:00:05Z"
+    },
     {
       "id": "x-2115624667054784957",
       "group": "ateez",
