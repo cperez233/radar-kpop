@@ -936,7 +936,10 @@
   "official:skz:tour:2026-11-03|foro": "2026-11-03T14:01:22Z",
   "news:0d14b551da073dec|ntfy": "2026-11-03T15:01:25Z",
   "news:0d14b551da073dec|pub:radarkpop-skz-news": "2026-11-03T15:01:25Z",
-  "news:0d14b551da073dec|foro": "2026-11-03T15:01:25Z"
+  "news:0d14b551da073dec|foro": "2026-11-03T15:01:25Z",
+  "news:3056d348582c6b34|ntfy": "2026-11-03T15:31:09Z",
+  "news:3056d348582c6b34|pub:radarkpop-bts-news": "2026-11-03T15:31:09Z",
+  "news:3056d348582c6b34|foro": "2026-11-03T15:31:09Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2867,6 +2870,18 @@
     "world"
    ],
    "t": "2026-11-03T15:01:16Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "dinero",
+    "ganando",
+    "giras",
+    "hybe",
+    "mucho",
+    "sigue"
+   ],
+   "t": "2026-11-03T15:31:03Z"
   }
  ],
  "discord_threads": {
