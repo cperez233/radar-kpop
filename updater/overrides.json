@@ -40,18 +40,8 @@
     ]
   },
   "skz": {
-    "watch": [
-      {
-        "text": "Tokyo Dome aparece en la gira, pero las fechas exactas no salen claras en las fuentes.",
-        "until": "2027-03-07"
-      }
-    ],
-    "watch_en": [
-      {
-        "text": "Tokyo Dome is on the tour, but the exact dates are not clear in the sources.",
-        "until": "2027-03-07"
-      }
-    ],
+    "watch": [],
+    "watch_en": [],
     "watch_always": true,
     "watch_until": "2027-03-07"
   },
