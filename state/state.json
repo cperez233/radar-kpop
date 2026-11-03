@@ -993,7 +993,11 @@
   "news:b4abf168efb586f7|pub:radarkpop-bts-news": "2026-11-03T21:16:52Z",
   "news:b4abf168efb586f7|foro": "2026-11-03T21:16:52Z",
   "news:581f071e170d6c3d|feed": "2026-11-03T22:01:19Z",
-  "news:581f071e170d6c3d|foro": "2026-11-03T22:01:19Z"
+  "news:581f071e170d6c3d|foro": "2026-11-03T22:01:19Z",
+  "news:0f6d07645cb9074c|feed": "2026-11-03T22:23:52Z",
+  "news:0f6d07645cb9074c|ntfy": "2026-11-03T22:23:52Z",
+  "news:0f6d07645cb9074c|pub:radarkpop-bts-news": "2026-11-03T22:23:52Z",
+  "news:0f6d07645cb9074c|foro": "2026-11-03T22:23:52Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3032,6 +3036,27 @@
     "paises"
    ],
    "t": "2026-11-03T22:01:11Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "ahorrando",
+    "anos",
+    "autobus",
+    "cruzando",
+    "cultural",
+    "extranjeros",
+    "eyes",
+    "frontera",
+    "gira",
+    "horas",
+    "medios",
+    "peregrinacion",
+    "ruta",
+    "segun",
+    "seis"
+   ],
+   "t": "2026-11-03T22:23:45Z"
   }
  ],
  "discord_threads": {
