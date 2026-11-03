@@ -345,35 +345,50 @@ def run(now: datetime, wiki: Wiki, force: bool = False, write: bool = True) -> i
         return True
 
     ok = True
-    # 1) giras nuevas: una vez por semana, desde la página índice de cada grupo
+    # 1) giras nuevas. Una vez por semana se leen las páginas índice de cada grupo y los enlaces a giras que aún no se evaluaron pasan a
+    #    una cola ("pending"); en cada corrida se evalúan unas pocas de esa cola (una sola petición), así las giras actuales aparecen
+    #    en horas y no en semanas, sin pedirle mucho a Wikipedia de golpe.
+    pending: dict = state.setdefault("pending", {})
     last_disc = state.get("last_discovery")
     if force or not last_disc or now - parse_ts(last_disc) >= timedelta(days=DISCOVER_DAYS):
         known = {norm(t) for r in registry.values() for t in r.get("pages", [])} | {norm(t) for v in discovered.values() for t in v}
+        scanned = True
         for gid, reg in registry.items():
             if not reg.get("index"):
                 continue
             idx = wiki.revisions(reg["index"], content=True)
             if not idx:
-                ok = False
+                ok = scanned = False
                 continue
             cands = []
             for info in idx.values():
                 cands += candidate_titles(info.get("text", ""), known)
-            fresh = [t for t in cands if not rejected.get(t) or now - parse_ts(rejected[t]) >= timedelta(days=RECHECK_DAYS)][:MAX_CANDIDATES]
-            got = wiki.revisions(fresh, content=True) if fresh else {}
-            for t in fresh:
+            pending[gid] = [t for t in cands if not rejected.get(t) or now - parse_ts(rejected[t]) >= timedelta(days=RECHECK_DAYS)]
+        if scanned:
+            state["last_discovery"] = iso(now)
+    batch: list[tuple[str, str]] = []
+    while len(batch) < MAX_CANDIDATES and any(pending.values()):  # por turnos entre grupos
+        for gid in list(pending):
+            if pending[gid] and len(batch) < MAX_CANDIDATES:
+                batch.append((gid, pending[gid].pop(0)))
+    if batch:
+        got = wiki.revisions([t for _, t in batch], content=True)
+        if not got and wiki.errors:  # Wikipedia no respondió: se vuelven a poner en la cola
+            for gid, t in reversed(batch):
+                pending.setdefault(gid, []).insert(0, t)
+            ok = False
+        else:
+            for gid, t in batch:
                 info = got.get(t)
-                rows = [r for r in wikitable.parse_tables(info["text"])] if info else []
-                if info and about_group(info["text"], reg.get("names", [])) and any(r["date"] >= today.isoformat() for r in rows):
+                rows = wikitable.parse_tables(info["text"]) if info else []
+                if info and about_group(info["text"], registry[gid].get("names", [])) and any(r["date"] >= today.isoformat() for r in rows):
                     discovered.setdefault(gid, []).append(info["title"])
-                    known.add(norm(info["title"]))
                     pages[info["title"]] = {"title": info["title"], "revid": info["revid"], "fetched": iso(now), "rows": [r for r in rows if r["date"] >= keep_from]}
                     print(f"  gira nueva de {gid}: {info['title']}")
                     rejected.pop(t, None)
                 else:
                     rejected[t] = iso(now)
-        if ok:
-            state["last_discovery"] = iso(now)
+    state["pending"] = {g: v for g, v in pending.items() if v}
 
     # 2) páginas de cada grupo: las conocidas y las descubiertas
     wanted = {gid: list(dict.fromkeys(reg.get("pages", []) + discovered.get(gid, []))) for gid, reg in registry.items()}

@@ -224,6 +224,23 @@ class EndToEnd(unittest.TestCase):
         self.assertEqual(sorted(e["local_date"] for e in wiki), ["2026-11-19", "2026-11-21", "2026-12-17"])
         self.assertTrue(any("Arirang" in s["name"] for s in data["sources"]))
 
+    def test_queue_evaluates_a_few_candidates_per_run(self):
+        names = [f"Old {i} World Tour" for i in range(6)]
+        pages = {"List of BTS live performances": " ".join(f"[[{n}]]" for n in names)}
+        pages.update({n: "A tour by BTS.\n" + TABLE.replace("Kaohsiung", "Taipei") if n == names[0] else "A tour by BTS in the past." for n in names})
+        calls = []
+        fw = FakeWiki(pages)
+        orig = fw.revisions
+        fw.revisions = lambda titles, content: calls.append(len(titles)) or orig(titles, content)
+        W.run(NOW, fw, force=True)
+        st = json.loads((self.dir / "wiki.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(st["rejected"]) + len(st.get("discovered", {}).get("bts", [])), W.MAX_CANDIDATES)
+        self.assertEqual(sum(len(v) for v in st["pending"].values()), 2)
+        W.run(NOW.replace(hour=15), fw)  # sin forzar: la cola sigue sola, el índice no se vuelve a leer
+        st = json.loads((self.dir / "wiki.json").read_text(encoding="utf-8"))
+        self.assertEqual(st["pending"], {})
+        self.assertEqual(len(st["rejected"]) + len(st["discovered"]["bts"]), 6)
+
     def test_is_throttled(self):
         pages = {"List of BTS live performances": "x"}
         W.run(NOW, FakeWiki(pages), force=True)
