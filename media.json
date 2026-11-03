@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T09:30:38Z",
+ "updated_at": "2026-11-03T09:45:32Z",
  "sample": false,
  "items": [
   {
@@ -71,6 +71,15 @@
   {
    "type": "video",
    "group": "twice",
+   "title": "트둥의 숲 TDOONG's crossing EP.03 Highlight #2 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
+   "date": "2026-11-03",
+   "published": "2026-11-03T09:31:38Z",
+   "url": "https://www.youtube.com/watch?v=zMPXdQkzEcY",
+   "image": "https://i.ytimg.com/vi/zMPXdQkzEcY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
    "title": "트둥의 숲 TDOONG's crossing EP.03 Highlight #1 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
    "date": "2026-11-03",
    "published": "2026-11-03T09:30:00Z",
@@ -85,15 +94,6 @@
    "published": "2026-11-03T09:00:07Z",
    "url": "https://www.youtube.com/watch?v=7R2QUwCk-Js",
    "image": "https://i.ytimg.com/vi/7R2QUwCk-Js/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "HAPPY ONCE, HAPPY TWICE #ONCE #원스 #TWICE #트와이스#HappyONCEday",
-   "date": "2026-11-03",
-   "published": "2026-11-03T04:00:14Z",
-   "url": "https://www.youtube.com/watch?v=mH4xcn1K_iE",
-   "image": "https://i.ytimg.com/vi/mH4xcn1K_iE/hqdefault.jpg"
   },
   {
    "type": "video",

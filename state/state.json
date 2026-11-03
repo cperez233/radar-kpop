@@ -1772,7 +1772,6 @@
   }
  },
  "news_seen": [
-  "5ddbee49c7aff2ee",
   "5de54a1167b39800",
   "5e57d69428ce4b1f",
   "5e5fb852b0194f24",
@@ -2514,6 +2513,7 @@
   "f1c96f2b12246041",
   "f23a66c2dbb86fcf",
   "f25e10bb1d46dbbe",
+  "f2a43ad1ae955d37",
   "f2ecbe4a9a3ce990",
   "f2f080fbd61c201f",
   "f3274a02a84e5647",
@@ -2574,22 +2574,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "asistio",
-    "brasil",
-    "concierto",
-    "familia",
-    "iban",
-    "neymar",
-    "ocasion",
-    "pequenos",
-    "totalmente",
-    "vestidos"
-   ],
-   "t": "2026-11-01T09:46:14Z"
-  },
   {
    "g": "skz",
    "w": [
@@ -2857,6 +2841,22 @@
     "unos"
    ],
    "t": "2026-11-03T04:46:38Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "asistio",
+    "brasil",
+    "concierto",
+    "familia",
+    "iban",
+    "neymar",
+    "ocasion",
+    "pequenos",
+    "totalmente",
+    "vestidos"
+   ],
+   "t": "2026-11-03T09:46:15Z"
   }
  ],
  "discord_threads": {
