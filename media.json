@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T09:45:32Z",
+ "updated_at": "2026-11-03T10:00:46Z",
  "sample": false,
  "items": [
   {
@@ -115,6 +115,15 @@
   },
   {
    "type": "video",
+   "group": "ateez",
+   "title": "이오, 코타로 님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-03",
+   "published": "2026-11-03T10:00:31Z",
+   "url": "https://www.youtube.com/watch?v=LqdkGvhJLwE",
+   "image": "https://i.ytimg.com/vi/LqdkGvhJLwE/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "seventeen",
    "title": "best friend forever :) #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou",
    "date": "2026-11-02",
@@ -166,15 +175,6 @@
    "published": "2026-11-01T05:00:02Z",
    "url": "https://www.youtube.com/watch?v=t0nH8YKg-Dw",
    "image": "https://i.ytimg.com/vi/t0nH8YKg-Dw/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "I’m rising up Can’t stop me now 🔄 #Shorts",
-   "date": "2026-11-01",
-   "published": "2026-11-01T13:00:16Z",
-   "url": "https://www.youtube.com/watch?v=yyi9iTY9B6c",
-   "image": "https://i.ytimg.com/vi/yyi9iTY9B6c/hqdefault.jpg"
   },
   {
    "type": "video",
