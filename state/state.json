@@ -939,7 +939,10 @@
   "news:0d14b551da073dec|foro": "2026-11-03T15:01:25Z",
   "news:3056d348582c6b34|ntfy": "2026-11-03T15:31:09Z",
   "news:3056d348582c6b34|pub:radarkpop-bts-news": "2026-11-03T15:31:09Z",
-  "news:3056d348582c6b34|foro": "2026-11-03T15:31:09Z"
+  "news:3056d348582c6b34|foro": "2026-11-03T15:31:09Z",
+  "news:488cf825a374b797|ntfy": "2026-11-03T18:17:05Z",
+  "news:488cf825a374b797|pub:radarkpop-bts-news": "2026-11-03T18:17:05Z",
+  "news:488cf825a374b797|foro": "2026-11-03T18:17:05Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2882,6 +2885,20 @@
     "sigue"
    ],
    "t": "2026-11-03T15:31:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "2027",
+    "conciertos",
+    "grupo",
+    "hybe",
+    "musica",
+    "planes",
+    "revela",
+    "solitario"
+   ],
+   "t": "2026-11-03T18:16:56Z"
   }
  ],
  "discord_threads": {
