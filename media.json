@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T12:00:41Z",
+ "updated_at": "2026-11-03T12:15:36Z",
  "sample": false,
  "items": [
   {
@@ -125,6 +125,15 @@
   {
    "type": "video",
    "group": "ateez",
+   "title": "리즈 님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-03",
+   "published": "2026-11-03T12:00:38Z",
+   "url": "https://www.youtube.com/watch?v=AkwiVZ5cZNY",
+   "image": "https://i.ytimg.com/vi/AkwiVZ5cZNY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
    "title": "ARNO, XINLONG 님과 해, 쩌는 짓 😎 #Shorts",
    "date": "2026-11-03",
    "published": "2026-11-03T11:00:31Z",
@@ -157,15 +166,6 @@
    "published": "2026-11-02T09:00:01Z",
    "url": "https://www.youtube.com/watch?v=j3ZOrctKziE",
    "image": "https://i.ytimg.com/vi/j3ZOrctKziE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "I’m rising up 🕺🐥🕺 #Shorts",
-   "date": "2026-11-02",
-   "published": "2026-11-02T13:00:33Z",
-   "url": "https://www.youtube.com/watch?v=fPRxGTEZkBs",
-   "image": "https://i.ytimg.com/vi/fPRxGTEZkBs/hqdefault.jpg"
   },
   {
    "type": "video",
