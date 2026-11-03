@@ -247,6 +247,15 @@ a { color: inherit; }
 .pin.hop .cm { animation: memHop .75s var(--boing) calc(var(--hi, 0) * 55ms) 1 both; }
 @keyframes breathe { 0%, 100% { transform: scale(1, 1); } 50% { transform: scale(.985, 1.035); } }
 @keyframes memHop { 0% { transform: translateY(0) scale(1, 1); } 25% { transform: translateY(2px) scale(1.08, .9); } 55% { transform: translateY(-38%) scale(.94, 1.08) rotate(-6deg); } 80% { transform: translateY(0) scale(1.06, .94); } 100% { transform: none; } }
+/* pin compacto (muchos grupos en la misma zona): el grupo entero en una sola imagen, sin la multitud de chibis (ver Globe.pinMode) */
+.pin-face { display: none; }
+.pin.mini .crowd { display: none; }
+.pin.mini .pin-face { display: block; height: var(--mh, 36px); }
+.pin-face img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: 50% 100%; pointer-events: none; -webkit-user-drag: none; user-select: none; }
+.pin.mini .pin-tag { font-size: 11px; padding: 0 6px; border-width: 1.5px; box-shadow: 0 1.5px 0 var(--gc); }
+.pin.mini.rest .pin-tag { font-size: 10.5px; }
+.pin.mini.stag .pin-tag { top: -34px; }
+.pin.mini.low.stag .pin-tag { top: auto; bottom: -36px; }
 .pin-tag {
   position: absolute; left: 50%; top: -14px; transform: translateX(-50%) rotate(-3deg);
   padding: 1px 9px 0; border-radius: 999px; background: var(--white); border: 2px solid var(--ink);
@@ -264,7 +273,7 @@ a { color: inherit; }
 .pin.rest .pin-tag::after { content: " zZ"; color: var(--gt, var(--gc)); }
 .pin.stag .pin-tag { top: -50px; }
 .pin.low.stag .pin-tag { top: auto; bottom: -50px; }
-.pin.sel { z-index: 50 !important; }
+.pin.sel { z-index: 400 !important; }  /* el elegido siempre encima de los demás pins (que llegan a ~140 por su profundidad) */
 .pin.sel .pin-tag { box-shadow: 0 3px 0 var(--gc), 0 0 0 3px var(--gc); }
 .pin.dim { opacity: .35; }
 .pin.cheer .pin-bob { animation: cheer .9s var(--boing) 2; }

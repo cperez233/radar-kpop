@@ -570,6 +570,9 @@ def deliver(alerts: list[dict], subs: list[dict], state: dict, dry: bool) -> int
 
     for a in alerts:
         if not a.get("sub"):
+            # el feed público de la web (alerts.json) no depende de que Discord responda: si el webhook se borra, el feed sigue
+            if not dry:
+                sent.setdefault(f"{a['key']}|feed", stamp)
             once(f"{a['key']}|canal", lambda a=a: track("discord", channels.send_discord_webhook(webhook, a, dry)) if webhook and not dry
                  else channels.send_discord_webhook(webhook, a, dry))
             if ntfy_topic and a["type"] not in NTFY_SKIP:
@@ -716,7 +719,8 @@ def main() -> int:
     STATE.parent.mkdir(parents=True, exist_ok=True)
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
-    fresh = [a for a in alerts if not a.get("sub") and f"{a['key']}|canal" in state["sent"] and f"{a['key']}|canal" not in sent_before]
+    # entran al feed las alertas nuevas (antes solo si Discord las aceptaba: con el webhook roto el feed se congeló); las que ya salieron por Discord antes de esto ya están
+    fresh = [a for a in alerts if not a.get("sub") and f"{a['key']}|feed" in state["sent"] and f"{a['key']}|feed" not in sent_before and f"{a['key']}|canal" not in sent_before]
     feed = load_json(FEED_OUT, {"alerts": []})["alerts"]
     # noticias: etiqueta de idioma y traducción automática para la web (también las que ya estaban, de a poco)
     pending = [a for a in feed if a.get("type") in translate.NEWS_TYPES and not a.get("src_lang")]

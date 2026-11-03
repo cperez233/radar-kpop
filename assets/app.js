@@ -818,28 +818,50 @@
       var el = self.pinEls[m.id];
       if (!el) {
         el = document.createElement('button'); el.type = 'button'; el.className = 'pin away'; el.setAttribute('data-id', m.id);
-        el.innerHTML = '<span class="pin-bob"><span class="pin-glow"></span><span class="crowd"></span><span class="pin-tag"></span></span>';
+        el.innerHTML = '<span class="pin-bob"><span class="pin-glow"></span><span class="crowd"></span><span class="pin-face"><img alt="" decoding="async" draggable="false"></span><span class="pin-tag"></span></span>';
         // el clic con mouse o dedo lo resuelve el gesto del globo; este solo atiende teclado (Enter / Espacio)
         el.addEventListener('click', function (e) { if (e.detail === 0 && self.opt.onPick) self.opt.onPick(m.id); });
         if (self.opt.passive) { el.tabIndex = -1; el.style.pointerEvents = 'none'; }
         self.pinsEl.appendChild(el); self.pinEls[m.id] = el; el._t = ''; el._ck = '';
       }
-      var ck = m.list.map(function (x) { return x.id; }).join(',') + '|' + Math.round(self.pinTarget || 90);
-      if (el._ck !== ck) {
-        var cr = crowdHtml(m.id, m.list, self.pinTarget || 90), box = el.querySelector('.crowd');
-        box.style.width = cr.w.toFixed(1) + 'px'; box.style.height = cr.h.toFixed(1) + 'px'; box.innerHTML = cr.html;
-        m.pw = cr.w; m.ph = cr.h; el._pw = cr.w; el._ph = cr.h; el._ck = ck;
-      } else { m.pw = el._pw; m.ph = el._ph; }
-      el.style.cssText = gStyle(m.id) + ';width:' + m.pw.toFixed(1) + 'px;--bd:' + (1.9 + (i % 5) * .23).toFixed(2) + 's;--bdl:-' + (i * .37).toFixed(2) + 's';
+      var full = crowdLayout(Math.max(1, m.list.length), self.pinTarget || 90);
+      m.fpw = full.w; m.fph = full.h;
+      el.style.cssText = gStyle(m.id) + ';--bd:' + (1.9 + (i % 5) * .23).toFixed(2) + 's;--bdl:-' + (i * .37).toFixed(2) + 's';
       el._t = '';
       el.classList.toggle('live', m.mode === 'live'); el.classList.toggle('rest', m.mode === 'rest'); el.classList.toggle('low', !!m.low); el.classList.toggle('stag', !!m.stag);
       var tag = el.querySelector('.pin-tag');
       tag.innerHTML = esc(m.name) + (m.label && m.mode !== 'rest' ? ' <i>' + esc(m.label) + '</i>' : '');
-      el._tw = tag.offsetWidth || m.pw;  // ancho de la etiqueta: el grupo de fotos se corre entero para que ninguna se salga
+      el._mini = null; self.pinMode(m, el);  // tamaño y contenido del pin (compacto o multitud) y ancho de su etiqueta
       el.setAttribute('aria-label', m.aria || m.name);
     });
     Object.keys(this.pinEls).forEach(function (id) { if (!keep[id]) { self.pinEls[id].remove(); delete self.pinEls[id]; } });
     this.kick();
+  };
+  /* Un pin es la multitud de chibis del grupo, o (m.mini) un sticker compacto con el grupo entero en una sola imagen. Compacto cuando hay
+     muchos grupos en la misma zona (p. ej. todos de gira por Asia): diez multitudes juntas tapaban el globo y trababan el celular (cada
+     chibi es una imagen en movimiento). El grupo elegido siempre se ve con su multitud completa; esa se arma solo cuando se necesita. */
+  Globe.prototype.pinMode = function (m, el) {
+    var mini = !!m.mini && this.sel !== m.id;
+    if (el._mini === mini) return;
+    el._mini = mini; el._t = '';
+    el.classList.toggle('mini', mini);
+    m.pw = mini ? m.mcw : m.fpw; m.ph = mini ? m.mch : m.fph;
+    el.style.width = m.pw.toFixed(1) + 'px';
+    var box = el.querySelector('.crowd');
+    if (mini) {
+      el.style.setProperty('--mh', m.mch.toFixed(1) + 'px');
+      var im = el.querySelector('.pin-face img'), src = face(m.id).src;
+      if (im.getAttribute('src') !== src) im.src = src;
+      if (el._ck) { box.innerHTML = ''; el._ck = ''; }  // la multitud no se ve: no se queda en el DOM
+    } else {
+      var ck = m.list.map(function (x) { return x.id; }).join(',') + '|' + Math.round(this.pinTarget || 90);
+      if (el._ck !== ck) {
+        var cr = crowdHtml(m.id, m.list, this.pinTarget || 90);
+        box.style.width = cr.w.toFixed(1) + 'px'; box.style.height = cr.h.toFixed(1) + 'px'; box.innerHTML = cr.html; el._ck = ck;
+      }
+    }
+    var tag = el.querySelector('.pin-tag');
+    el._tw = tag.offsetWidth || m.pw;  // ancho de la etiqueta: el grupo de fotos se corre entero para que ninguna se salga
   };
   /* avistamientos: insignias redondas sobre la ciudad (nivel ciudad, nunca más fino) */
   Globe.prototype.setSights = function (list) {
@@ -867,6 +889,7 @@
     this.sel = id;
     var self = this;
     Object.keys(this.pinEls).forEach(function (k) { self.pinEls[k].classList.toggle('sel', k === id); self.pinEls[k].classList.toggle('dim', !!id && k !== id); });
+    this.markers.forEach(function (m) { var el = self.pinEls[m.id]; if (el) self.pinMode(m, el); });
     this.kick();
   };
   Globe.prototype.flyTo = function (lon, lat, zoom, dur, noDip) {
@@ -959,7 +982,7 @@
       m.screen = { x: p.x + ox, y: p.y + oy, z: p.z, front: p.z > .12 };
       if (p.z <= .05) return;
       ctx.globalAlpha = Math.min(1, p.z * 3);
-      ctx.fillStyle = 'rgba(46,33,80,.22)'; ctx.beginPath(); ctx.ellipse(p.x + ox, p.y + 1 + oy, 15 * (.7 + .3 * p.z), 5, 0, 0, TAU); ctx.fill();
+      ctx.fillStyle = 'rgba(46,33,80,.22)'; ctx.beginPath(); ctx.ellipse(p.x + ox, p.y + 1 + oy, (m.pw ? Math.min(15, m.pw * .32) : 15) * (.7 + .3 * p.z), 5, 0, 0, TAU); ctx.fill();
       if (!own) { p = self.project(m.lon, m.lat, 0); if (p.z <= .05) { ctx.globalAlpha = 1; return; } }
       ctx.fillStyle = P.pin; ctx.beginPath(); ctx.arc(p.x, p.y, 5.5, 0, TAU); ctx.fill();
       ctx.lineWidth = 2; ctx.strokeStyle = P.ink; ctx.stroke();
@@ -1065,7 +1088,7 @@
       if (!front) { el.classList.add('away'); return; }
       el.classList.remove('away');
       el.style.transform = 'translate3d(' + x.toFixed(1) + 'px,' + y.toFixed(1) + 'px,0) scale(' + sc.toFixed(3) + ')';
-      el.style.zIndex = String(Math.round(s.z * 100) + 10);
+      el.style.zIndex = String(Math.round(s.z * 100) + 10 + (m.zi || 0));
     });
     this.sights.forEach(function (sg) {
       var el = self.sightEls[sg.sid]; if (!el) return;
@@ -1080,6 +1103,8 @@
     });
   };
 
+  var MINI_FROM = 5;  // grupos en la misma zona a partir de los cuales cada uno se dibuja compacto
+
   /* marcadores y rutas a partir de los estados */
   function buildGeo() {
     var o = origin(), markers = [], routes = [];
@@ -1091,7 +1116,7 @@
       var list = lineupOf(st);
       markers.push({
         id: st.id, name: st.g.name, lat: st.pos.lat, lon: st.pos.lon, color: color, mode: st.mode, label: label, list: list,
-        cw: crowdLayout(Math.max(1, list.length), pinWidth()).w,
+        cw: crowdLayout(Math.max(1, list.length), pinWidth()).w, mcw: miniW(), mch: Math.round(miniW() * .72),
         aria: st.g.name + (label && st.mode !== 'rest' ? ' ' + label : '') + ', ' + (st.mode === 'rest' ? t('rest') : city + ', ' + fmtKm(hav(o.lat, o.lon, st.pos.lat, st.pos.lon)) + ' km')
       });
       // ruta: de la última parada pasada a la actual, y de ahí todas las que vienen
@@ -1115,25 +1140,35 @@
     });
     // separa chibis que caen en la misma ciudad
     var groups = [];
+    // un grupo se une a todos los clusters que tenga a menos de 2300 km, y esos se fusionan en uno: antes se unía solo al primero, y quien
+    // quedaba entre dos clusters (SEVENTEEN en Saitama, entre Taiwán/Filipinas y Seúl) se quedaba suelto, grande y encima de todos
     markers.forEach(function (m) {
-      var g = groups.filter(function (gr) { return gr.some(function (o) { return hav(o.lat, o.lon, m.lat, m.lon) < 2300; }); })[0];
-      if (g) g.push(m); else groups.push([m]);
+      var near = groups.filter(function (gr) { return gr.some(function (o) { return hav(o.lat, o.lon, m.lat, m.lon) < 2300; }); });
+      if (!near.length) { groups.push([m]); return; }
+      var base = near[0]; base.push(m);
+      near.slice(1).forEach(function (gr) { gr.forEach(function (x) { base.push(x); }); groups.splice(groups.indexOf(gr), 1); });
+      base.sort(function (a, b) { return markers.indexOf(a) - markers.indexOf(b); });  // el orden de la lista (quién toca primero) se conserva
     });
     // grupos en la misma zona: en filas de hasta 3 (la de atrás un poco más arriba) para que nadie tape a nadie
     groups.forEach(function (gr) {
       if (gr.length === 1) return;
+      // con muchos grupos en la zona, cada uno es un sticker compacto (ver Globe.pinMode)
+      var mini = gr.length >= MINI_FROM;
+      gr.forEach(function (m) { m.mini = mini; m.lw = mini ? m.mcw : m.cw; });
       // los que descansan (zZ) van en la fila de adelante, más chicos; los que tienen show quedan atrás, con su etiqueta arriba
       gr.sort(function (a, b) { return (a.mode === 'rest' ? 0 : 1) - (b.mode === 'rest' ? 0 : 1); });
       // centro de la región: la foto grupal se arma ahí; al elegir un grupo, vuelve a su ciudad exacta
       var cl = gr.reduce(function (a, m) { return [a[0] + m.lat / gr.length, a[1] + m.lon / gr.length]; }, [0, 0]);
       gr.forEach(function (m) { m.alat = cl[0]; m.alon = cl[1]; });
       var cols = gr.length <= 3 ? gr.length : Math.ceil(gr.length / 2), maxH = 0;
-      gr.forEach(function (m) { maxH = Math.max(maxH, crowdLayout(Math.max(1, m.list.length), pinWidth()).h); });
+      gr.forEach(function (m) { maxH = Math.max(maxH, m.mini ? m.mch : crowdLayout(Math.max(1, m.list.length), pinWidth()).h); });
       for (var r = 0; r * cols < gr.length; r++) {
-        var row = gr.slice(r * cols, r * cols + cols), total = row.reduce(function (a, m) { return a + m.cw * .86; }, 0), x = -total / 2;
+        var row = gr.slice(r * cols, r * cols + cols), total = row.reduce(function (a, m) { return a + m.lw * .86; }, 0), x = -total / 2;
         row.forEach(function (m, i) {
-          m.dx = x + m.cw * .43; x += m.cw * .86;
+          m.dx = x + m.lw * .43; x += m.lw * .86;
           m.dy = -r * maxH * .62;
+          // apilado: la fila de adelante tapa a la de atrás y, en cada fila, el que toca primero (orden de la lista) queda encima
+          m.zi = (r === 0 ? 20 : 0) + (markers.length - markers.indexOf(m));
           m.low = gr.length > cols ? r === 0 : i % 2 === 1;
           m.stag = row.length > 2 && i % 2 === 1;  // etiquetas en dos alturas: con 3 o más en fila no se pisan
         });
@@ -2818,7 +2853,7 @@
   function vShow(list, routes, star) {
     var vg = Video.globe, gd = buildGeo();
     var ms = gd.markers.filter(function (m) { return list.indexOf(m.id) >= 0; });
-    ms.forEach(function (m) { m.dx = m.dy = 0; m.alat = m.alon = null; m.low = false; });
+    ms.forEach(function (m) { m.dx = m.dy = 0; m.alat = m.alon = null; m.low = false; m.mini = false; m.zi = 0; });
     if (ms.length > 1) { var tot = ms.length; ms.forEach(function (m, i) { m.alat = ms[0].lat; m.alon = ms[0].lon; m.dx = (i - (tot - 1) / 2) * m.cw * .8; }); }
     vg.setData(ms, routes ? gd.routes.filter(function (r) { return list.indexOf(r.id) >= 0; }) : []);
     vg.starId = star || null; vg.setSel(star || null);
@@ -3142,6 +3177,7 @@
   // con la fuente real los textos cambian de ancho: se vuelven a medir las tarjetas y la píldora del menú (antes quedaba "Worl")
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { evenCards(); if (navCur) navSet(navCur, true); });
   function pinWidth() { return innerWidth < 600 ? 80 : innerWidth < 1024 ? 96 : 112; }
+  function miniW() { return Math.round(pinWidth() * .62); }
 
   /* ================= firma ================= */
   function zw(s) {
