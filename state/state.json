@@ -927,7 +927,10 @@
   "news:acc4375ec5a04c05|foro": "2026-11-03T04:46:43Z",
   "official:ateez:tour:2026-11-03|ntfy": "2026-11-03T09:01:11Z",
   "official:ateez:tour:2026-11-03|pub:radarkpop-ateez-shows": "2026-11-03T09:01:11Z",
-  "official:ateez:tour:2026-11-03|foro": "2026-11-03T09:01:11Z"
+  "official:ateez:tour:2026-11-03|foro": "2026-11-03T09:01:11Z",
+  "official:cortis:tour:2026-11-03|ntfy": "2026-11-03T12:01:12Z",
+  "official:cortis:tour:2026-11-03|pub:radarkpop-cortis-shows": "2026-11-03T12:01:12Z",
+  "official:cortis:tour:2026-11-03|foro": "2026-11-03T12:01:12Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1772,7 +1775,6 @@
   }
  },
  "news_seen": [
-  "5eec1cdfbba776ee",
   "5ef6dfc0a94753e0",
   "5f02937bf4cfe2e5",
   "5f2d116cbe754bf5",
@@ -1912,6 +1914,7 @@
   "77de826064a11c55",
   "77f0106177ac9323",
   "7810593a0f554722",
+  "787f0927ac4b3755",
   "791e13cb90c767eb",
   "79408c286fe51b12",
   "794bbdd53faccccf",

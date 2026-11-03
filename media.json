@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T11:15:36Z",
+ "updated_at": "2026-11-03T12:00:41Z",
  "sample": false,
  "items": [
   {
@@ -103,6 +103,15 @@
    "published": "2026-11-03T01:59:59Z",
    "url": "https://www.youtube.com/watch?v=RSCFHi4UJj0",
    "image": "https://i.ytimg.com/vi/RSCFHi4UJj0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "PYPD NA tour 2",
+   "date": "2026-11-03",
+   "published": "2026-11-03T11:59:58Z",
+   "url": "https://www.youtube.com/watch?v=ODo-pDMzm1Q",
+   "image": "https://i.ytimg.com/vi/ODo-pDMzm1Q/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -220,15 +229,6 @@
    "published": "2026-10-30T12:00:18Z",
    "url": "https://www.youtube.com/watch?v=JTsIwXebsYE",
    "image": "https://i.ytimg.com/vi/JTsIwXebsYE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "😉 #CORTIS #코르티스",
-   "date": "2026-10-30",
-   "published": "2026-10-30T14:00:35Z",
-   "url": "https://www.youtube.com/watch?v=SgzqrLGHK5Q",
-   "image": "https://i.ytimg.com/vi/SgzqrLGHK5Q/hqdefault.jpg"
   },
   {
    "type": "video",
