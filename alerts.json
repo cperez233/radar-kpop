@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T21:16:45Z",
+ "updated_at": "2026-11-03T22:01:11Z",
  "alerts": [
   {
    "type": "tour",
@@ -55,6 +55,20 @@
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM1J3b1pxQ0xKSmNIdFduOTNneXVjUzZ6VDhRd2ZTU2Fad256NnRnZE9sdkUyUUtJNW9JNUlMd0tfRGVQaC11YmdqdGp0SjAwOUhsZnBmcHIwbUpyNW1vZnhDWlpxU1BkWVBpeVBpSHJLWEhWSl80M0p1aEdiT282YUlYVWNqV1pReGdRY2FsTQ?oc=5",
    "src_lang": "es",
    "body_orig": "BTS acaba su residencia e conciertos en Medellín - Diario del Cauca (Google Noticias)",
+   "auto": true
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "BTS y Su forma de llevar su concierto a más de 88 países - Diario del Cauca (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS and Their way of taking their concert to more than 88 countries - Diario del Cauca (Google News)",
+   "when": "2026-11-03T19:42:29Z",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYXJxakNBMUowbWNuT0dXbVNRQmVDdUZrZzBKQmFoWkQ3VHBxSGV1VDlncFc2OTVkaEt0SkZQM05abGhMZDdkUi1jdUE0QjVyUXBQNkhwZmZOdVNPTmlacFVpaXAtWnVYMmpudWFDcGt1TW9wWTRaaGdRTzlsd3dTTEZMTzl0UUxtQ1RoaTFzR1ZpT2Q3UldWVjZR?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS y Su forma de llevar su concierto a más de 88 países - Diario del Cauca (Google Noticias)",
    "auto": true
   },
   {
@@ -724,20 +738,6 @@
    "body_en": "하모니카 한 모금 SIP #CORTIS #코르티스 (YouTube)",
    "when": "2026-10-16T04:00:39Z",
    "url": "https://www.youtube.com/watch?v=lYs8zReUz5E"
-  },
-  {
-   "type": "latam",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Latinoamérica: BTS",
-   "body": "¿Lluvia o calor? Así estará el tiempo para el concierto de BTS en Chile este viernes 16 de octubre - LOS40 (Google Noticias)",
-   "title_en": "Latin America: BTS",
-   "body_en": "Rain or heat? This is how the time will be for the BTS concert in Chile this Friday, October 16 - LOS40 (Google News)",
-   "when": "2026-10-15T21:21:28Z",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSjh2UndWckE3NVJHdzlydmpNU2xvTTFqaW1HcHpLNEl0ZHItSHpPUkJfNEROUUxWcTVvVk5lSG1SdjVOd3lpdktaaE95WndCS1BJdmN1NkkzZmpPelJMMG5qckxCdEVwWm9Pb0RfOWYtOXhjd0RTZTFoRlU0ZFFFSjByVUhRcTFDb0xYbTMzcVVDT1VJVlp4TEZOd2pCdzJWM3l6WnRlRV9zdXRWaG1xdjBZamZSYXFld2VCMktSQThSZjjSAdcBQVVfeXFMTXI3Q2Z4STBXS3E3Wk9qOS1BeTdKbHRPQUhzaUpxY1pURE9TMGtrRGlrdGhhUTVzVUstNWZuREdUdk9MOGtQOWRBZEtLbGlsV2NIRG1yalBwVFBRQlZENlVsUU1wcl96alhFTzdFQWxOZ25SNVlGdS1VVzJ0cnl5WWJCZFhGdEtMUGRsY2VQTzFjZmphaEM5NWg0TnM5Y1J1XzZtbjRnOXpCWnBlN0k0M0FhOXV3MktOcVFsekphaHhzb3FGT0ZreWlQbkdlRUFHUTBBNFNrMWM?oc=5",
-   "src_lang": "es",
-   "body_orig": "¿Lluvia o calor? Así estará el tiempo para el concierto de BTS en Chile este viernes 16 de octubre - LOS40 (Google Noticias)",
-   "auto": true
   }
  ]
 }

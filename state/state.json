@@ -991,7 +991,9 @@
   "news:b4abf168efb586f7|feed": "2026-11-03T21:16:52Z",
   "news:b4abf168efb586f7|ntfy": "2026-11-03T21:16:52Z",
   "news:b4abf168efb586f7|pub:radarkpop-bts-news": "2026-11-03T21:16:52Z",
-  "news:b4abf168efb586f7|foro": "2026-11-03T21:16:52Z"
+  "news:b4abf168efb586f7|foro": "2026-11-03T21:16:52Z",
+  "news:581f071e170d6c3d|feed": "2026-11-03T22:01:19Z",
+  "news:581f071e170d6c3d|foro": "2026-11-03T22:01:19Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3038,6 +3040,16 @@
     "tour"
    ],
    "t": "2026-11-03T21:16:45Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "concierto",
+    "forma",
+    "llevar",
+    "paises"
+   ],
+   "t": "2026-11-03T22:01:11Z"
   }
  ],
  "discord_threads": {
