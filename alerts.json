@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-04T12:01:03Z",
+ "updated_at": "2026-11-04T12:16:06Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "이현 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "이현 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "when": "2026-11-04T12:00:29Z",
+   "url": "https://www.youtube.com/watch?v=wUVKMUt0JIc"
+  },
   {
    "type": "video",
    "group": "cortis",
@@ -733,17 +744,6 @@
    "src_lang": "ko",
    "body_orig": "«[📷] ATEEZ(에이티즈) GOLDEN HOUR : Part.6 Concept Photo 1 2026. 11. 13 2PM RELEASE 📎Pre-save/add: https://ateez.sng.to/golden-hour-part-6 #ATEEZ ...» (ATEEZ en X).",
    "auto": true
-  },
-  {
-   "type": "new_date",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "BTS agregó fechas en Melbourne",
-   "body": "10 feb 2027 en Marvel Stadium, Australia.",
-   "title_en": "BTS added dates in Melbourne",
-   "body_en": "Feb 10, 2027 at Marvel Stadium, Australia.",
-   "when": "2026-10-16T07:28:52Z",
-   "url": null
   }
  ]
 }

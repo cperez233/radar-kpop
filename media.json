@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T12:00:40Z",
+ "updated_at": "2026-11-04T12:15:33Z",
  "sample": false,
  "items": [
   {
@@ -116,6 +116,15 @@
   {
    "type": "video",
    "group": "ateez",
+   "title": "이현 님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-04",
+   "published": "2026-11-04T12:00:29Z",
+   "url": "https://www.youtube.com/watch?v=wUVKMUt0JIc",
+   "image": "https://i.ytimg.com/vi/wUVKMUt0JIc/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
    "title": "계현 님과 해, 쩌는 짓 😎 #Shorts",
    "date": "2026-11-04",
    "published": "2026-11-04T11:00:03Z",
@@ -184,15 +193,6 @@
    "published": "2026-11-03T04:00:33Z",
    "url": "https://www.youtube.com/watch?v=E29S1T2ev5o",
    "image": "https://i.ytimg.com/vi/E29S1T2ev5o/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "리즈 님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-03",
-   "published": "2026-11-03T12:00:38Z",
-   "url": "https://www.youtube.com/watch?v=AkwiVZ5cZNY",
-   "image": "https://i.ytimg.com/vi/AkwiVZ5cZNY/hqdefault.jpg"
   },
   {
    "type": "video",
