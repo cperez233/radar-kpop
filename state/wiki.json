@@ -4,7 +4,7 @@
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-03T19:15:48Z",
- "last_run": "2026-11-04T19:00:21Z",
+ "last_run": "2026-11-04T21:00:25Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-04T12:30:21Z",
@@ -372,14 +372,14 @@
    "title": "Cortis"
   },
   "Deadline World Tour": {
-   "fetched": "2026-11-03T19:15:48Z",
-   "revid": 1381358821,
+   "fetched": "2026-11-04T21:00:25Z",
+   "revid": 1383775867,
    "rows": [],
    "title": "Deadline World Tour"
   },
   "List of NewJeans live performances": {
-   "fetched": "2026-11-03T19:15:48Z",
-   "revid": 1382834369,
+   "fetched": "2026-11-04T21:00:25Z",
+   "revid": 1383768488,
    "rows": [],
    "title": "List of NewJeans live performances"
   },
