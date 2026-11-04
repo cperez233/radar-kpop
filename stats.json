@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T06:16:22Z",
+  "updated_at": "2026-11-04T18:31:17Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
@@ -99,7 +99,7 @@
         "streams": 269209083,
         "url": "https://open.spotify.com/track/34YVCoqIm08nbsxFSPL0Uh"
       },
-      "yt_subs": 7630000
+      "yt_subs": 7640000
     },
     "ateez": {
       "listeners": 7409764,
@@ -110,7 +110,7 @@
         "streams": 201316037,
         "url": "https://open.spotify.com/track/5VGdz8LeTx2M8LHe9iUSQU"
       },
-      "yt_subs": 5830000
+      "yt_subs": 5840000
     }
   }
 }
