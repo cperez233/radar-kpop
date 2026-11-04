@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-04T19:32:11Z",
+ "updated_at": "2026-11-04T22:32:11Z",
  "alerts": [
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "BTS en cines: dos conciertos de ARIRANG en 2026 - Gritaradio.com (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS in theaters: two ARIRANG concerts in 2026 - Gritaradio.com (Google News)",
+   "when": "2026-11-04T22:20:06Z",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNU1mVEFVTC1NODU4Zi1tMWc3RW1xNmtFQWNlR0NGaF8xeW1GaUZRanlNSG8yWWFJVF8tdmNyOG56UDN4NkVCaENQWjJaMi1OQlJ4cS1WTlN4bVc5NTBKVVhPMnMxS09WX042WHVTWVhQWHV6RF9ja0NwalVPNmVEdDZQZjFFRk1hdXItN09oSjg4T0lUbzNlVXdlWG9hdHM?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS en cines: dos conciertos de ARIRANG en 2026 - Gritaradio.com (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "latam",
    "group": "bts",
@@ -360,6 +374,20 @@
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xUTBqNmp3VmU0Yk5lNTBGWU5ZdDBsYnZzbHVyQUJ2MjNyRTFEY0Vab3IyRkVjT3hQcFFLdFZGUnp0T095QmFTWjVJRWFyZVVhUl9CX2IyOTJ3UEU?oc=5",
    "src_lang": "es",
    "body_orig": "La gira mundial «ARIRANG» de BTS agota 850.000 entradas y llegará a cines de 80 países - 씨네플레이 (Google Noticias)",
+   "auto": true
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "BTS: confirmada la proyección en cines de todo el mundo del concierto en vivo en Kaohsiung y Yakarta - 스타뉴스 (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS: live concert in Kaohsiung and Jakarta confirmed for screening in cinemas around the world - 스타뉴스 (Google News)",
+   "when": "2026-11-02T22:05:59Z",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtamUzeksySGxrTjNURG55RklDQUtYLXZieG5MejVHbnFYbHBWM200bG5xTUl6UEd2REZtdWhueTNHOVF4VEc2ZUYwRVZWeGRkQWNMWDVYUHZ2WWR5TU1TaFp1eFp3MDNkOXhqZ3ZpWjFUYnd4WkNhOQ?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS: confirmada la proyección en cines de todo el mundo del concierto en vivo en Kaohsiung y Yakarta - 스타뉴스 (Google Noticias)",
    "auto": true
   },
   {
@@ -728,28 +756,6 @@
    "body_en": "ATEEZ(에이티즈) log_logbook#236 (YouTube)",
    "when": "2026-10-16T10:00:04Z",
    "url": "https://www.youtube.com/watch?v=mpbuz7kFg0k"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Nuevo video: TWICE",
-   "body": "TWICE 11th Anniversary MD Shoot Behind Teaser (YouTube)",
-   "title_en": "New video: TWICE",
-   "body_en": "TWICE 11th Anniversary MD Shoot Behind Teaser (YouTube)",
-   "when": "2026-10-16T09:00:11Z",
-   "url": "https://www.youtube.com/watch?v=qcTMapoI-OM"
-  },
-  {
-   "type": "new_date",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "ATEEZ agregó fechas en Incheon",
-   "body": "22 ene 2027, 23 ene 2027, 25 ene 2027, Corea del Sur.",
-   "title_en": "ATEEZ added dates in Incheon",
-   "body_en": "Jan 22, 2027, Jan 23, 2027, Jan 25, 2027, South Korea.",
-   "when": "2026-10-16T08:48:52Z",
-   "url": null
   }
  ]
 }

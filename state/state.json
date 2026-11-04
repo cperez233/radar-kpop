@@ -1045,7 +1045,12 @@
   "news:1d7a35cf05f8ca50|feed": "2026-11-04T19:32:18Z",
   "news:1d7a35cf05f8ca50|ntfy": "2026-11-04T19:32:18Z",
   "news:1d7a35cf05f8ca50|pub:radarkpop-bts-news": "2026-11-04T19:32:18Z",
-  "news:1d7a35cf05f8ca50|foro": "2026-11-04T19:32:18Z"
+  "news:1d7a35cf05f8ca50|foro": "2026-11-04T19:32:18Z",
+  "news:76cafef18bc6c21a|feed": "2026-11-04T22:32:17Z",
+  "news:76cafef18bc6c21a|ntfy": "2026-11-04T22:32:17Z",
+  "news:76cafef18bc6c21a|pub:radarkpop-bts-news": "2026-11-04T22:32:17Z",
+  "news:76cafef18bc6c21a|foro": "2026-11-04T22:32:17Z",
+  "news:58fe34385b96a895|feed": "2026-11-04T22:32:17Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1932,8 +1937,6 @@
   }
  },
  "news_seen": [
-  "6672f2b2e6bd08fa",
-  "668b4113afb278ab",
   "66b984ce0420cabc",
   "66c3232359bc80e5",
   "66ddc78992bfec68",
@@ -2029,6 +2032,7 @@
   "768de5c0eaa19919",
   "76a39e4e78214fd8",
   "76b91f26e3cea3a0",
+  "76cafef18bc6c21a",
   "76eb8c9b9a8c7b89",
   "772a7078076cccb8",
   "776190e4e72f40a6",
@@ -2703,6 +2707,7 @@
   "f92981330ec59318",
   "f957e9a1cb7c71cd",
   "f96db7323fe5eb4d",
+  "f9785eb4ab993a9c",
   "fa02958b0ab44634",
   "fa9f82f465a290fe",
   "faa7af492a043829",
@@ -2734,34 +2739,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "cines",
-    "concierto",
-    "confirmada",
-    "kaohsiung",
-    "mundo",
-    "proyeccion",
-    "todo",
-    "vivo",
-    "yakarta"
-   ],
-   "t": "2026-11-02T22:16:03Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "army",
-    "brasil",
-    "concierto",
-    "hijas",
-    "lleva",
-    "neymar",
-    "suma"
-   ],
-   "t": "2026-11-02T22:31:17Z"
-  },
   {
    "g": "cortis",
    "w": [
@@ -3072,6 +3049,32 @@
     "vivo"
    ],
    "t": "2026-11-04T19:32:11Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "2026",
+    "arirang",
+    "cines",
+    "conciertos",
+    "dos"
+   ],
+   "t": "2026-11-04T22:32:11Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "cines",
+    "concierto",
+    "confirmada",
+    "kaohsiung",
+    "mundo",
+    "proyeccion",
+    "todo",
+    "vivo",
+    "yakarta"
+   ],
+   "t": "2026-11-04T22:32:11Z"
   }
  ],
  "discord_threads": {
