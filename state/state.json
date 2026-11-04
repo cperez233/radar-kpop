@@ -1037,7 +1037,15 @@
   "news:3a1330bf5a3a4adb|feed": "2026-11-04T19:01:16Z",
   "news:3a1330bf5a3a4adb|ntfy": "2026-11-04T19:01:16Z",
   "news:3a1330bf5a3a4adb|pub:radarkpop-bts-news": "2026-11-04T19:01:16Z",
-  "news:3a1330bf5a3a4adb|foro": "2026-11-04T19:01:16Z"
+  "news:3a1330bf5a3a4adb|foro": "2026-11-04T19:01:16Z",
+  "news:2135cb6f851ab708|feed": "2026-11-04T19:32:18Z",
+  "news:2135cb6f851ab708|ntfy": "2026-11-04T19:32:18Z",
+  "news:2135cb6f851ab708|pub:radarkpop-bts-news": "2026-11-04T19:32:18Z",
+  "news:2135cb6f851ab708|foro": "2026-11-04T19:32:18Z",
+  "news:1d7a35cf05f8ca50|feed": "2026-11-04T19:32:18Z",
+  "news:1d7a35cf05f8ca50|ntfy": "2026-11-04T19:32:18Z",
+  "news:1d7a35cf05f8ca50|pub:radarkpop-bts-news": "2026-11-04T19:32:18Z",
+  "news:1d7a35cf05f8ca50|foro": "2026-11-04T19:32:18Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2729,20 +2737,6 @@
   {
    "g": "bts",
    "w": [
-    "arirang",
-    "boletos",
-    "cinepolis",
-    "comprar",
-    "conciertos",
-    "gira",
-    "llega",
-    "mexico"
-   ],
-   "t": "2026-11-02T19:16:19Z"
-  },
-  {
-   "g": "bts",
-   "w": [
     "anuncian",
     "cines",
     "conciertos",
@@ -3086,6 +3080,35 @@
     "paises"
    ],
    "t": "2026-11-04T19:01:10Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "2026",
+    "arirang",
+    "boletos",
+    "cinemex",
+    "cinepolis",
+    "comprar",
+    "cuando",
+    "donde",
+    "gira"
+   ],
+   "t": "2026-11-04T19:32:11Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "cine",
+    "conciertos",
+    "llega",
+    "mexico",
+    "salas",
+    "tour",
+    "vivo"
+   ],
+   "t": "2026-11-04T19:32:11Z"
   }
  ],
  "discord_threads": {
