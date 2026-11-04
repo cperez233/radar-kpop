@@ -1020,7 +1020,13 @@
   "official:skz:tour:2026-11-04|foro": "2026-11-04T04:31:07Z",
   "news:415aad538c852c89|feed": "2026-11-04T09:01:29Z",
   "news:13fdc7c3f1b85f77|feed": "2026-11-04T09:01:29Z",
-  "news:0227af52a60514a4|feed": "2026-11-04T09:01:29Z"
+  "news:0227af52a60514a4|feed": "2026-11-04T09:01:29Z",
+  "news:fc951866a6422435|feed": "2026-11-04T11:31:57Z",
+  "news:fc951866a6422435|ntfy": "2026-11-04T11:31:57Z",
+  "news:fc951866a6422435|pub:radarkpop-bts-news": "2026-11-04T11:31:57Z",
+  "news:fc951866a6422435|foro": "2026-11-04T11:31:57Z",
+  "news:f7bb6d63b372db6e|feed": "2026-11-04T11:31:57Z",
+  "news:78657b728ac8b4f1|feed": "2026-11-04T11:31:57Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1907,11 +1913,6 @@
   }
  },
  "news_seen": [
-  "63ef1cbb5890c674",
-  "647fbfe504b1c95e",
-  "64ccfda43a854b8e",
-  "64ddec2cebff4681",
-  "650abcc0128ba861",
   "650b2ce61772109a",
   "652ae4ea76000261",
   "65f69cef496041c8",
@@ -2021,6 +2022,7 @@
   "77de826064a11c55",
   "77f0106177ac9323",
   "7810593a0f554722",
+  "78657b728ac8b4f1",
   "787f0927ac4b3755",
   "791a4a2565365e89",
   "791e13cb90c767eb",
@@ -2033,6 +2035,7 @@
   "7a2856c148b357f9",
   "7a72d05b98efa235",
   "7a88dc701773baff",
+  "7a8f599c68d4459f",
   "7b2f87ff39161527",
   "7b5b4551ae189287",
   "7b6ff293b5a47af9",
@@ -2101,6 +2104,7 @@
   "883a15fa5402ae75",
   "8859481a83e5eb4b",
   "886c351d707fcf72",
+  "88b7140dbaff2be3",
   "88cc362a13a3b0ea",
   "88dd608ac4d8cbec",
   "89143d1d0f7b9b5d",
@@ -2670,6 +2674,7 @@
   "f6c687f5ef32b355",
   "f6fc08a530724648",
   "f7756ab99bb704fe",
+  "f7bb6d63b372db6e",
   "f7c4a0da1b3ba2bc",
   "f7db80c43d325e3b",
   "f80e981218c68d6c",
@@ -2691,6 +2696,7 @@
   "fc30b7b702637731",
   "fc45b7f1996e18de",
   "fc7bb4b7f2fa90f9",
+  "fc951866a6422435",
   "fca102204bef1f4e",
   "fcc5d1953a5f1c97",
   "fcec910969990478",
@@ -3044,6 +3050,33 @@
     "seis"
    ],
    "t": "2026-11-03T22:23:45Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "2027",
+    "aplazamientos",
+    "capitalinos",
+    "castro",
+    "clubes",
+    "concierto",
+    "conciertos",
+    "conflicto",
+    "entre",
+    "escenario",
+    "estado",
+    "febrero",
+    "grama",
+    "grupo",
+    "medio",
+    "mismo",
+    "movio",
+    "obligados",
+    "ryan",
+    "sencia",
+    "tras"
+   ],
+   "t": "2026-11-04T11:31:51Z"
   }
  ],
  "discord_threads": {

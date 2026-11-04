@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T09:00:42Z",
+ "updated_at": "2026-11-04T11:30:38Z",
  "sample": false,
  "items": [
   {
@@ -71,6 +71,15 @@
   {
    "type": "video",
    "group": "skz",
+   "title": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.04 Rock in Rio",
+   "date": "2026-11-04",
+   "published": "2026-11-04T11:00:04Z",
+   "url": "https://www.youtube.com/watch?v=cfxxSsojp6A",
+   "image": "https://i.ytimg.com/vi/cfxxSsojp6A/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "skz",
    "title": "𝙬𝙤𝙬 𝙨𝙤 𝙘𝙤𝙤𝙡 #StrayKids #스트레이키즈 #리노 #LeeKnow #아이엔 #I_N #YouMakeStrayKidsStay",
    "date": "2026-11-04",
    "published": "2026-11-04T09:00:12Z",
@@ -85,6 +94,15 @@
    "published": "2026-11-04T08:59:56Z",
    "url": "https://www.youtube.com/watch?v=LBtP_ObJI_o",
    "image": "https://i.ytimg.com/vi/LBtP_ObJI_o/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "계현 님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-04",
+   "published": "2026-11-04T11:00:03Z",
+   "url": "https://www.youtube.com/watch?v=lEO8yQUhrso",
+   "image": "https://i.ytimg.com/vi/lEO8yQUhrso/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -160,15 +178,6 @@
   },
   {
    "type": "video",
-   "group": "ateez",
-   "title": "ARNO, XINLONG 님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-03",
-   "published": "2026-11-03T11:00:31Z",
-   "url": "https://www.youtube.com/watch?v=tcCCE65-5XU",
-   "image": "https://i.ytimg.com/vi/tcCCE65-5XU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "seventeen",
    "title": "best friend forever :) #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou",
    "date": "2026-11-02",
@@ -184,15 +193,6 @@
    "published": "2026-11-01T05:00:05Z",
    "url": "https://www.youtube.com/watch?v=CReJVnojbtQ",
    "image": "https://i.ytimg.com/vi/CReJVnojbtQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "아무도 모를 추억 틈에 너와 나 | 시간을 달리네 Cover by #승민 #Seungmin #한로로 #HARORO #StrayKids #스트레이키즈 #SONGby #송바이",
-   "date": "2026-11-01",
-   "published": "2026-11-01T05:00:02Z",
-   "url": "https://www.youtube.com/watch?v=t0nH8YKg-Dw",
-   "image": "https://i.ytimg.com/vi/t0nH8YKg-Dw/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -492,7 +492,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-04T07",
+   "ytm_try": "2026-11-04T11",
    "sp_try": "2026-11-04"
   },
   {
@@ -1333,7 +1333,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-04T07"
+   "ytm_try": "2026-11-04T11"
   },
   {
    "type": "music",
