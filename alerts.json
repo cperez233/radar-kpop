@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T22:32:11Z",
+ "updated_at": "2026-11-04T22:45:56Z",
  "alerts": [
   {
    "type": "tour",
@@ -500,6 +500,20 @@
    "url": "https://www.youtube.com/watch?v=zMhyVV314-Q"
   },
   {
+   "type": "tour",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Gira: Stray Kids",
+   "body": "Stray Kids: \"¡Ánimo para el concierto en el Tokyo Dome!\" [★Video] - 스타뉴스 (Google Noticias)",
+   "title_en": "Tour: Stray Kids",
+   "body_en": "Stray Kids: \"Cheer up for the concert at the Tokyo Dome!\" [★Video] - 스타뉴스 (Google News)",
+   "when": "2026-11-02T09:57:18Z",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zUDFFMVpkZzhSVWFTMFVTd2tJX0E2M2pFenJoZjBBYmdkdlBzNGpKRy1CWGZIRlRrMFEwZnlXR0xqU3NZOXU1LUNDQUw3NnQ1S0JycEdzZ2RPMDkzTmplTkVoRkVXWk1OYjY0Vm14NEt6Tl9jdm1wbQ?oc=5",
+   "src_lang": "es",
+   "body_orig": "Stray Kids: \"¡Ánimo para el concierto en el Tokyo Dome!\" [★Video] - 스타뉴스 (Google Noticias)",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "skz",
    "group_name": "Stray Kids",
@@ -745,17 +759,6 @@
    "body_en": "[Choreography Video] 호시 (HOSHI) - ‘BOYFRIEND' (YouTube)",
    "when": "2026-10-16T10:09:25Z",
    "url": "https://www.youtube.com/watch?v=QYUArW-pGBI"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "ATEEZ(에이티즈) log_logbook#236 (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "ATEEZ(에이티즈) log_logbook#236 (YouTube)",
-   "when": "2026-10-16T10:00:04Z",
-   "url": "https://www.youtube.com/watch?v=mpbuz7kFg0k"
   }
  ]
 }

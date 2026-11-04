@@ -1050,7 +1050,8 @@
   "news:76cafef18bc6c21a|ntfy": "2026-11-04T22:32:17Z",
   "news:76cafef18bc6c21a|pub:radarkpop-bts-news": "2026-11-04T22:32:17Z",
   "news:76cafef18bc6c21a|foro": "2026-11-04T22:32:17Z",
-  "news:58fe34385b96a895|feed": "2026-11-04T22:32:17Z"
+  "news:58fe34385b96a895|feed": "2026-11-04T22:32:17Z",
+  "news:6672f2b2e6bd08fa|feed": "2026-11-04T22:46:02Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3075,6 +3076,17 @@
     "yakarta"
    ],
    "t": "2026-11-04T22:32:11Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "animo",
+    "concierto",
+    "dome",
+    "tokyo",
+    "video"
+   ],
+   "t": "2026-11-04T22:45:56Z"
   }
  ],
  "discord_threads": {
