@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T00:01:09Z",
+ "updated_at": "2026-11-04T04:30:58Z",
  "alerts": [
   {
    "type": "tour",
@@ -155,6 +155,20 @@
    "url": "https://x.com/LNGSHOT4sho/status/2117632904041726259",
    "src_lang": "en",
    "body_orig": "«D-6. Going #Bananas. EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. https://lngshot.lnk.to/SWISH #LNGSHOT #MOREVISION» (LNGSHOT en X).",
+   "auto": true
+  },
+  {
+   "type": "official",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Anuncio oficial de Stray Kids: gira",
+   "body": "«¡Lleva la emoción de Stray Kids World Tour <RUN IT> a la pantalla! ¡Nos vemos en el teatro este sábado!✨ Comparte la energía del Stray Kids World Tour <RUN IT> en el cine...» (Stray Kids en X).",
+   "title_en": "Official Stray Kids news: tour",
+   "body_en": "«Bring the excitement of Stray Kids World Tour <RUN IT> to the screen! See you at the theater this Saturday!✨ Share the energy of the Stray Kids World Tour <RUN IT> in cinema...» (Stray Kids en X).",
+   "when": "2026-11-03T14:00:01Z",
+   "url": "https://x.com/Stray_Kids/status/2117617800080765229",
+   "src_lang": "ko",
+   "body_orig": "«Stray Kids World Tour <RUN IT>의 열기를 스크린으로! 이번 주 토요일, 극장에서 만나요!✨ Share the energy of the Stray Kids World Tour <RUN IT> in cinem...» (Stray Kids en X).",
    "auto": true
   },
   {
@@ -742,17 +756,6 @@
    "body_en": "so, who’s the one? #JxJ #정한X조슈아 #SEUNGKWAN #승관 #DREAMSCAPE (YouTube)",
    "when": "2026-10-16T07:28:52Z",
    "url": "https://www.youtube.com/watch?v=liamVbPlQQo"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Nuevo video: CORTIS",
-   "body": "Thank you airbnb for the perfect place to unplug and lock in. More on the way 🎬 #광고 #airbnbpartner (YouTube)",
-   "title_en": "New video: CORTIS",
-   "body_en": "Thank you airbnb for the perfect place to unplug and lock in. More on the way 🎬 #광고 #airbnbpartner (YouTube)",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://www.youtube.com/watch?v=icA58QiIvpg"
   }
  ]
 }
