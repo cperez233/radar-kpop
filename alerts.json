@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T18:16:07Z",
+ "updated_at": "2026-11-04T19:01:10Z",
  "alerts": [
   {
    "type": "latam",
@@ -347,6 +347,20 @@
    "body_en": "for what it is #CORTIS #코르티스 (YouTube)",
    "when": "2026-11-03T04:00:33Z",
    "url": "https://www.youtube.com/watch?v=E29S1T2ev5o"
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "La gira mundial «ARIRANG» de BTS agota 850.000 entradas y llegará a cines de 80 países - 씨네플레이 (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS' \"ARIRANG\" world tour sells out 850,000 tickets and will hit theaters in 80 countries - 씨네플레이 (Google News)",
+   "when": "2026-11-03T00:24:29Z",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xUTBqNmp3VmU0Yk5lNTBGWU5ZdDBsYnZzbHVyQUJ2MjNyRTFEY0Vab3IyRkVjT3hQcFFLdFZGUnp0T095QmFTWjVJRWFyZVVhUl9CX2IyOTJ3UEU?oc=5",
+   "src_lang": "es",
+   "body_orig": "La gira mundial «ARIRANG» de BTS agota 850.000 entradas y llegará a cines de 80 países - 씨네플레이 (Google Noticias)",
+   "auto": true
   },
   {
    "type": "tour",
@@ -730,20 +744,6 @@
    "body_en": "Feb 13, 2027, Feb 14, 2027, Japan.",
    "when": "2026-10-16T08:48:52Z",
    "url": null
-  },
-  {
-   "type": "comeback",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "💿 Hoy sale «<THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE» de TWICE",
-   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
-   "title_en": "💿 TWICE's «<THIS IS FOR> WORLD TOUR FINALE in SEOUL - LIVE» is out today",
-   "body_en": "You can hear it now! (or in a few hours, depending on your time zone)",
-   "when": "2026-10-16T08:48:52Z",
-   "url": "https://music.apple.com/us/album/this-is-for-world-tour-finale-in-seoul-live/6812503580",
-   "src_lang": "es",
-   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
-   "auto": true
   }
  ]
 }

@@ -1033,7 +1033,11 @@
   "news:0aa812791c6c9fad|feed": "2026-11-04T18:16:23Z",
   "news:0aa812791c6c9fad|ntfy": "2026-11-04T18:16:23Z",
   "news:0aa812791c6c9fad|pub:radarkpop-bts-news": "2026-11-04T18:16:23Z",
-  "news:0aa812791c6c9fad|foro": "2026-11-04T18:16:23Z"
+  "news:0aa812791c6c9fad|foro": "2026-11-04T18:16:23Z",
+  "news:3a1330bf5a3a4adb|feed": "2026-11-04T19:01:16Z",
+  "news:3a1330bf5a3a4adb|ntfy": "2026-11-04T19:01:16Z",
+  "news:3a1330bf5a3a4adb|pub:radarkpop-bts-news": "2026-11-04T19:01:16Z",
+  "news:3a1330bf5a3a4adb|foro": "2026-11-04T19:01:16Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2726,18 +2730,6 @@
    "g": "bts",
    "w": [
     "arirang",
-    "cines",
-    "conciertos",
-    "gira",
-    "horas",
-    "llegara"
-   ],
-   "t": "2026-11-02T18:46:20Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "arirang",
     "boletos",
     "cinepolis",
     "comprar",
@@ -3078,6 +3070,22 @@
     "papa"
    ],
    "t": "2026-11-04T18:16:07Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "000",
+    "850",
+    "agota",
+    "arirang",
+    "cines",
+    "entradas",
+    "gira",
+    "llegara",
+    "mundial",
+    "paises"
+   ],
+   "t": "2026-11-04T19:01:10Z"
   }
  ],
  "discord_threads": {
