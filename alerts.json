@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T22:23:45Z",
+ "updated_at": "2026-11-04T00:01:09Z",
  "alerts": [
   {
    "type": "tour",
@@ -144,6 +144,20 @@
    "auto": true
   },
   {
+   "type": "official",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Anuncio oficial de LNGSHOT: comeback",
+   "body": "«D-6. Vamos #Plátanos. EP [S.W.I.S.H.] 10/11 6PM KST #SWISH reserva y reserva ahora. https://lngshot.lnk.to/SWISH #LNGSHOT #MOREVISION» (LNGSHOT en X).",
+   "title_en": "Official LNGSHOT news: comeback",
+   "body_en": "«D-6. Going #Bananas. EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. https://lngshot.lnk.to/SWISH #LNGSHOT #MOREVISION» (LNGSHOT en X).",
+   "when": "2026-11-03T15:00:02Z",
+   "url": "https://x.com/LNGSHOT4sho/status/2117632904041726259",
+   "src_lang": "en",
+   "body_orig": "«D-6. Going #Bananas. EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. https://lngshot.lnk.to/SWISH #LNGSHOT #MOREVISION» (LNGSHOT en X).",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "cortis",
    "group_name": "CORTIS",
@@ -164,6 +178,20 @@
    "body_en": "이오, 코타로 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
    "when": "2026-11-03T10:00:31Z",
    "url": "https://www.youtube.com/watch?v=LqdkGvhJLwE"
+  },
+  {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: comeback",
+   "body": "«[NOTICIA] Se ha estrenado ‘AUTOMATIC’ de Seventeen Dino. Les pedimos mucho cariño a Carats. Melón ▶️ https://www.melon.com/album/detail.htm?albumId=1511...» (SEVENTEEN en X).",
+   "title_en": "Official SEVENTEEN news: comeback",
+   "body_en": "«[NEWS] Seventeen Dino’s ‘AUTOMATIC’ has been released. We ask for lots of love from Carats. Melon ▶️ https://www.melon.com/album/detail.htm?albumId=1511...» (SEVENTEEN en X).",
+   "when": "2026-11-03T09:08:37Z",
+   "url": "https://x.com/pledis_17/status/2117544464407470314",
+   "src_lang": "ko",
+   "body_orig": "«[NEWS] 세븐틴 디노의 'AUTOMATIC'이 발매되었습니다. 캐럿 여러분의 많은 사랑 부탁드립니다. 멜론 ▶️ https://www.melon.com/album/detail.htm?albumId=1511...» (SEVENTEEN en X).",
+   "auto": true
   },
   {
    "type": "official",
@@ -216,6 +244,34 @@
    "url": "https://x.com/ATEEZofficial/status/2117270786562248854",
    "src_lang": "ko",
    "body_orig": "«[📷] ATEEZ(에이티즈) GOLDEN HOUR : Part.6 Concept Photo 4 #JONGHO #종호 2026. 11. 13 2PM RELEASE 📎Pre-save/add: https://ateez.sng.to/golden-hour-...» (ATEEZ en X).",
+   "auto": true
+  },
+  {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[📷] HORA DORADA DE ATEEZ: Parte.6 Foto conceptual 4 #JONGHO #Jongho 2026. 11. 13 2PM LANZAMIENTO 📎Pre-guardar/agregar: https://ateez.sng.to/golden-hour-...» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
+   "body_en": "«[📷] ATEEZ GOLDEN HOUR : Part.6 Concept Photo 4 #JONGHO #Jongho 2026. 11. 13 2PM RELEASE 📎Pre-save/add: https://ateez.sng.to/golden-hour-...» (ATEEZ en X).",
+   "when": "2026-11-02T15:01:07Z",
+   "url": "https://x.com/ATEEZofficial/status/2117270786562248854",
+   "src_lang": "ko",
+   "body_orig": "«[📷] ATEEZ(에이티즈) GOLDEN HOUR : Part.6 Concept Photo 4 #JONGHO #종호 2026. 11. 13 2PM RELEASE 📎Pre-save/add: https://ateez.sng.to/golden-hour-...» (ATEEZ en X).",
+   "auto": true
+  },
+  {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«CALENDARIO DEL TÍTULO DE LA PISTA TÍTULO \"BABY ANGEL\" DE NAYEON SINGLE “NA-sty” 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KS...» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«NAYEON SINGLE “NA-sty” TITLE TRACK \"BABY ANGEL\" TIMETABLE 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KS...» (TWICE en X).",
+   "when": "2026-11-02T13:00:02Z",
+   "url": "https://x.com/JYPETWICE/status/2117240316856295433",
+   "src_lang": "en",
+   "body_orig": "«NAYEON SINGLE “NA-sty” TITLE TRACK \"BABY ANGEL\" TIMETABLE 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KS...» (TWICE en X).",
    "auto": true
   },
   {
@@ -697,50 +753,6 @@
    "body_en": "Thank you airbnb for the perfect place to unplug and lock in. More on the way 🎬 #광고 #airbnbpartner (YouTube)",
    "when": "2026-10-16T07:28:52Z",
    "url": "https://www.youtube.com/watch?v=icA58QiIvpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Nuevo video: TWICE",
-   "body": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE : D-2 (YouTube)",
-   "title_en": "New video: TWICE",
-   "body_en": "TWICE Special Vinyl ＜THIS IS FOR＞ WORLD TOUR FINALE in SEOUL - LIVE : D-2 (YouTube)",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://www.youtube.com/watch?v=U7cZw1XoNtw"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "[GOING JxJ SPECIAL] THE DREAM GAME SHOW #1 (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "[GOING JxJ SPECIAL] THE DREAM GAME SHOW #1 (YouTube)",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://www.youtube.com/watch?v=fkjIvJAJcxo"
-  },
-  {
-   "type": "next_stop",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "LNGSHOT sigue a Milán",
-   "body": "Cerró en Zúrich (Dübendorf). Siguiente parada: Milán, Italia (17 oct), a unos 223 km.",
-   "title_en": "LNGSHOT moves on to Milan",
-   "body_en": "Wrapped up in Zurich (Dübendorf). Next stop: Milan, Italy (Oct 17), about 223 km away.",
-   "when": "2026-10-16T05:40:45Z",
-   "url": null
-  },
-  {
-   "type": "stop_today",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Hoy ENHYPEN abre en Macao",
-   "body": "Galaxy Arena, Macao. Hora aproximada, confirma en la boletería.",
-   "title_en": "Today ENHYPEN opens in Macau",
-   "body_en": "Galaxy Arena, Macau. Approximate time, check with the box office.",
-   "when": "2026-10-16T05:40:45Z",
-   "url": null
   }
  ]
 }
