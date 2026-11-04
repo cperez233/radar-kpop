@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T11:31:51Z",
+ "updated_at": "2026-11-04T11:45:59Z",
  "alerts": [
   {
    "type": "video",
@@ -69,6 +69,17 @@
    "src_lang": "es",
    "body_orig": "El concierto se movió para el 6 de febrero de 2027 en el mismo escenario, en medio del conflicto entre los clubes capitalinos y el Grupo Se… (Google Noticias)",
    "auto": true
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "[GOING SEVENTEEN] EP.165 WHO ARE YOU? #2 (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "[GOING SEVENTEEN] EP.165 WHO ARE YOU? #2 (YouTube)",
+   "when": "2026-11-04T02:48:19Z",
+   "url": "https://www.youtube.com/watch?v=Ibcb6Gl32qk"
   },
   {
    "type": "tour",
@@ -733,20 +744,6 @@
    "body_en": "Mar 8, 2027 at The O2, United Kingdom.",
    "when": "2026-10-16T07:28:52Z",
    "url": null
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "Reportan oleada de robos en el concierto de BTS: sujetos habrían ingresado a la fuerza para delinquir - La Hora (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "Wave of robberies reported at BTS concert: subjects allegedly entered the force to commit a crime - La Hora (Google News)",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUUU3ZUpfcGZfck1CdG9kaXNJT21SM1dFcGRxWjBUWTFQMnBoZFlxaWZObE9IeXBfVjlwdXV3MjlNOG11aDZqVDRjSi04RWlicE9zai1DbjQxRThLWVVialZKZkN1QW5ZVlFEWjg0V1RZc2xKX1JWSHNvWUI0cVpxZEU5eWVzU2ZPN0U4Sm4zUl9ibWMyclVmVkctTXAwSkhGR2tBcGdVck1VV29kSlNWRTVEVkxEZ1FaVjVzLUk3czBVQXdpSGJjUmpGY0IwTEs0elYybGJYTDNCcWM?oc=5",
-   "src_lang": "es",
-   "body_orig": "Reportan oleada de robos en el concierto de BTS: sujetos habrían ingresado a la fuerza para delinquir - La Hora (Google Noticias)",
-   "auto": true
   }
  ]
 }

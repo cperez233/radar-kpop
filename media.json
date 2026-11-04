@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T11:30:38Z",
+ "updated_at": "2026-11-04T11:45:37Z",
  "sample": false,
  "items": [
   {
@@ -97,6 +97,15 @@
   },
   {
    "type": "video",
+   "group": "seventeen",
+   "title": "[GOING SEVENTEEN] EP.165 WHO ARE YOU? #2",
+   "date": "2026-11-04",
+   "published": "2026-11-04T02:48:19Z",
+   "url": "https://www.youtube.com/watch?v=Ibcb6Gl32qk",
+   "image": "https://i.ytimg.com/vi/Ibcb6Gl32qk/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "ateez",
    "title": "계현 님과 해, 쩌는 짓 😎 #Shorts",
    "date": "2026-11-04",
@@ -175,15 +184,6 @@
    "published": "2026-11-03T12:00:38Z",
    "url": "https://www.youtube.com/watch?v=AkwiVZ5cZNY",
    "image": "https://i.ytimg.com/vi/AkwiVZ5cZNY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "best friend forever :) #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou",
-   "date": "2026-11-02",
-   "published": "2026-11-02T12:00:37Z",
-   "url": "https://www.youtube.com/watch?v=zMhyVV314-Q",
-   "image": "https://i.ytimg.com/vi/zMhyVV314-Q/hqdefault.jpg"
   },
   {
    "type": "video",
