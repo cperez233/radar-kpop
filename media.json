@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T07:00:41Z",
+ "updated_at": "2026-11-04T09:00:42Z",
  "sample": false,
  "items": [
   {
@@ -67,6 +67,33 @@
     }
    ],
    "sp_try": "2026-11-04"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "𝙬𝙤𝙬 𝙨𝙤 𝙘𝙤𝙤𝙡 #StrayKids #스트레이키즈 #리노 #LeeKnow #아이엔 #I_N #YouMakeStrayKidsStay",
+   "date": "2026-11-04",
+   "published": "2026-11-04T09:00:12Z",
+   "url": "https://www.youtube.com/watch?v=fs61GhQuuvM",
+   "image": "https://i.ytimg.com/vi/fs61GhQuuvM/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "[SEVENTEEN’s SNAPSHOOT] EP.90 베스트 프렌드 이름대기",
+   "date": "2026-11-04",
+   "published": "2026-11-04T08:59:56Z",
+   "url": "https://www.youtube.com/watch?v=LBtP_ObJI_o",
+   "image": "https://i.ytimg.com/vi/LBtP_ObJI_o/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "창조 선배님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-04",
+   "published": "2026-11-04T09:00:21Z",
+   "url": "https://www.youtube.com/watch?v=-MHIRA2J0ec",
+   "image": "https://i.ytimg.com/vi/-MHIRA2J0ec/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -142,30 +169,12 @@
   },
   {
    "type": "video",
-   "group": "ateez",
-   "title": "이오, 코타로 님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-03",
-   "published": "2026-11-03T10:00:31Z",
-   "url": "https://www.youtube.com/watch?v=LqdkGvhJLwE",
-   "image": "https://i.ytimg.com/vi/LqdkGvhJLwE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "seventeen",
    "title": "best friend forever :) #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou",
    "date": "2026-11-02",
    "published": "2026-11-02T12:00:37Z",
    "url": "https://www.youtube.com/watch?v=zMhyVV314-Q",
    "image": "https://i.ytimg.com/vi/zMhyVV314-Q/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "도겸과 정한  〈정답 없는 여행〉 Mood Teaser",
-   "date": "2026-11-02",
-   "published": "2026-11-02T09:00:01Z",
-   "url": "https://www.youtube.com/watch?v=j3ZOrctKziE",
-   "image": "https://i.ytimg.com/vi/j3ZOrctKziE/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -184,15 +193,6 @@
    "published": "2026-11-01T05:00:02Z",
    "url": "https://www.youtube.com/watch?v=t0nH8YKg-Dw",
    "image": "https://i.ytimg.com/vi/t0nH8YKg-Dw/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "Seungmin (with 한로로) - 시간을 달리네 (한로로 Cover) & 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지 (AKMU Cover) | [SONG by 2] S#2",
-   "date": "2026-10-31",
-   "published": "2026-10-31T13:00:05Z",
-   "url": "https://www.youtube.com/watch?v=dlhI9UxRjvA",
-   "image": "https://i.ytimg.com/vi/dlhI9UxRjvA/hqdefault.jpg"
   },
   {
    "type": "video",

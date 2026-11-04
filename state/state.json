@@ -1017,7 +1017,10 @@
   "official:skz:tour:2026-11-04|feed": "2026-11-04T04:31:07Z",
   "official:skz:tour:2026-11-04|ntfy": "2026-11-04T04:31:07Z",
   "official:skz:tour:2026-11-04|pub:radarkpop-skz-shows": "2026-11-04T04:31:07Z",
-  "official:skz:tour:2026-11-04|foro": "2026-11-04T04:31:07Z"
+  "official:skz:tour:2026-11-04|foro": "2026-11-04T04:31:07Z",
+  "news:415aad538c852c89|feed": "2026-11-04T09:01:29Z",
+  "news:13fdc7c3f1b85f77|feed": "2026-11-04T09:01:29Z",
+  "news:0227af52a60514a4|feed": "2026-11-04T09:01:29Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1904,7 +1907,6 @@
   }
  },
  "news_seen": [
-  "636fe402fd6f0233",
   "637a336d3858c2ca",
   "63e19f0008ad9a7b",
   "63ef1cbb5890c674",
@@ -2058,6 +2060,7 @@
   "806ca7372474e08f",
   "80a3836bf4693a1b",
   "80fd4ba30d8ee089",
+  "814318293fec097f",
   "81435792d8d2217e",
   "815e2457a7e3e7d2",
   "81984c7796be273c",

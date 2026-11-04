@@ -1,6 +1,39 @@
 {
- "updated_at": "2026-11-04T04:30:58Z",
+ "updated_at": "2026-11-04T09:01:21Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "창조 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "창조 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "when": "2026-11-04T09:00:21Z",
+   "url": "https://www.youtube.com/watch?v=-MHIRA2J0ec"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Nuevo video: Stray Kids",
+   "body": "𝙬𝙤𝙬 𝙨𝙤 𝙘𝙤𝙤𝙡 #StrayKids #스트레이키즈 #리노 #LeeKnow #아이엔 #I_N #YouMakeStrayKidsStay (YouTube)",
+   "title_en": "New video: Stray Kids",
+   "body_en": "𝙬𝙤𝙬 𝙨𝙤 𝙘𝙤𝙤𝙡 #StrayKids #스트레이키즈 #리노 #LeeKnow #아이엔 #I_N #YouMakeStrayKidsStay (YouTube)",
+   "when": "2026-11-04T09:00:12Z",
+   "url": "https://www.youtube.com/watch?v=fs61GhQuuvM"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "[SEVENTEEN’s SNAPSHOOT] EP.90 베스트 프렌드 이름대기 (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "[SEVENTEEN’s SNAPSHOOT] EP.90 베스트 프렌드 이름대기 (YouTube)",
+   "when": "2026-11-04T08:59:56Z",
+   "url": "https://www.youtube.com/watch?v=LBtP_ObJI_o"
+  },
   {
    "type": "tour",
    "group": "bts",
@@ -720,42 +753,6 @@
    "src_lang": "en",
    "body_orig": "«The first piece of #SWISH. Soon. EP [S.W.I.S.H.] 11/10 6PM KST Pre-order & pre-save now. https://lngshot.lnk.to/SWISH #LNGSHOT #MOREVISION» (LNGSHOT en X).",
    "auto": true
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«[Notice] Joshua 1st Mini Album ‘dreamscape' countdown live (+ Eng/JPN/CHN) https://weverse.io/seventeen/notice/40081 # ▶️ JxJ # Jung Han X...» (seventeen en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "«[Notice] Joshua 1st Mini Album ‘dreamscape' countdown live (+ Eng/JPN/CHN) https://weverse.io/seventeen/notice/40081 # ▶️ JxJ # Jung Han X...» (seventeen en X).",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://x.com/pledis_17/status/2110898526482034919",
-   "src_lang": "ko",
-   "body_orig": "«[NOTICE] 정한X조슈아 1st Mini Album ‘DREAMSCAPE' COUNTDOWN LIVE 진행 안내 (+ENG/JPN/CHN) ▶️ https://weverse.io/seventeen/notice/40081 #JxJ #정한X조...» (SEVENTEEN en X).",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "[MIN9YU:ON] 한 그릇 툭 | 마늘쫑 비빔밥 | 이게 얼마나 맛있을까요? (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "[MIN9YU:ON] 한 그릇 툭 | 마늘쫑 비빔밥 | 이게 얼마나 맛있을까요? (YouTube)",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://www.youtube.com/watch?v=Wr5EG0HUp-s"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "so, who’s the one? #JxJ #정한X조슈아 #SEUNGKWAN #승관 #DREAMSCAPE (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "so, who’s the one? #JxJ #정한X조슈아 #SEUNGKWAN #승관 #DREAMSCAPE (YouTube)",
-   "when": "2026-10-16T07:28:52Z",
-   "url": "https://www.youtube.com/watch?v=liamVbPlQQo"
   }
  ]
 }
