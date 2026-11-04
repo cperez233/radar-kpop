@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T11:45:37Z",
+ "updated_at": "2026-11-04T12:00:40Z",
  "sample": false,
  "items": [
   {
@@ -89,6 +89,15 @@
   {
    "type": "video",
    "group": "seventeen",
+   "title": "[GOING SEVENTEEN] EP.165 WHO ARE YOU? #2",
+   "date": "2026-11-04",
+   "published": "2026-11-04T11:58:08Z",
+   "url": "https://www.youtube.com/watch?v=Ibcb6Gl32qk",
+   "image": "https://i.ytimg.com/vi/Ibcb6Gl32qk/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
    "title": "[SEVENTEEN’s SNAPSHOOT] EP.90 베스트 프렌드 이름대기",
    "date": "2026-11-04",
    "published": "2026-11-04T08:59:56Z",
@@ -97,12 +106,12 @@
   },
   {
    "type": "video",
-   "group": "seventeen",
-   "title": "[GOING SEVENTEEN] EP.165 WHO ARE YOU? #2",
+   "group": "cortis",
+   "title": "1주년 티꾸",
    "date": "2026-11-04",
-   "published": "2026-11-04T02:48:19Z",
-   "url": "https://www.youtube.com/watch?v=Ibcb6Gl32qk",
-   "image": "https://i.ytimg.com/vi/Ibcb6Gl32qk/hqdefault.jpg"
+   "published": "2026-11-04T11:59:58Z",
+   "url": "https://www.youtube.com/watch?v=efGuRedKxmM",
+   "image": "https://i.ytimg.com/vi/efGuRedKxmM/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -193,15 +202,6 @@
    "published": "2026-11-01T05:00:05Z",
    "url": "https://www.youtube.com/watch?v=CReJVnojbtQ",
    "image": "https://i.ytimg.com/vi/CReJVnojbtQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "PYPD NA tour 1",
-   "date": "2026-10-31",
-   "published": "2026-10-31T11:59:57Z",
-   "url": "https://www.youtube.com/watch?v=oaoa1noQzBw",
-   "image": "https://i.ytimg.com/vi/oaoa1noQzBw/hqdefault.jpg"
   },
   {
    "type": "video",

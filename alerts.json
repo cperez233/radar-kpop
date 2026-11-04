@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-04T11:45:59Z",
+ "updated_at": "2026-11-04T12:01:03Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "1주년 티꾸 (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "1주년 티꾸 (YouTube)",
+   "when": "2026-11-04T11:59:58Z",
+   "url": "https://www.youtube.com/watch?v=efGuRedKxmM"
+  },
   {
    "type": "video",
    "group": "skz",
@@ -731,17 +742,6 @@
    "body": "10 feb 2027 en Marvel Stadium, Australia.",
    "title_en": "BTS added dates in Melbourne",
    "body_en": "Feb 10, 2027 at Marvel Stadium, Australia.",
-   "when": "2026-10-16T07:28:52Z",
-   "url": null
-  },
-  {
-   "type": "new_date",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "ENHYPEN agregó fechas en Londres",
-   "body": "8 mar 2027 en The O2, Reino Unido.",
-   "title_en": "ENHYPEN added dates in London",
-   "body_en": "Mar 8, 2027 at The O2, United Kingdom.",
    "when": "2026-10-16T07:28:52Z",
    "url": null
   }
