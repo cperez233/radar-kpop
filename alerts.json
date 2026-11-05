@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-05T10:00:58Z",
+ "updated_at": "2026-11-05T11:01:02Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "‘S.W.I.S.H.’ EPISODE 2 (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "‘S.W.I.S.H.’ EPISODE 2 (YouTube)",
+   "when": "2026-11-05T11:00:03Z",
+   "url": "https://www.youtube.com/watch?v=_7DCtMb8nY8"
+  },
   {
    "type": "video",
    "group": "ateez",
@@ -756,20 +767,6 @@
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPemhPM2JETmpzNmRqMjFkQzN2SWZ6M1hNMFh1eF95ekd0RWJ4ZWtXczdGZUEzMFFHSkx0S2x5ZkYyUTgtb0pBR2x3Snl0UDBjQUdvSE42cnZnQzRtUEtKazBJcHl1d1hOMzYyUWM2ZUs2ZkFYUnpTTEdUVm51SjZRM0pOUjVjeUo0eXBtazdkY1hxMmhHVmRieEVHRERLdllhSl9id2pIMVVpTXY1U2tYbS1Iaw?oc=5",
    "src_lang": "es",
    "body_orig": "Carabineros elogia el comportamiento de las ARMY's en concierto de BTS: hicieron un reconocimiento a la banda surcoreana - Canal 13 (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "latam",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Latinoamérica: BTS",
-   "body": "Primer concierto de la banda surcoreana BTS en Chile reunió a 70 mil fanáticos - El Aragueño (Google Noticias)",
-   "title_en": "Latin America: BTS",
-   "body_en": "First concert of the South Korean band BTS in Chile brought together 70 thousand fans - El Aragueño (Google News)",
-   "when": "2026-10-16T13:36:39Z",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdlNEWUs0NS1Nclh2VkU0ZVpqc0d6S0NHTHA3MWFMSGVoMTFLS3JKV2FVN3U2OENBU1FKUXlGY0lVUklJOF8yal9LUi1wdDVfdkJRYnpQcDBfSm9kRURnS0Z2UW5NQUNvM0tMUUIzQ194VFd3ZWRSM1laQmNEQWtkcTBpSXRYS3JKcDhwUURDSU1IazBJaVF1dVB3OFN1UDZqTkVLVmtrSFI?oc=5",
-   "src_lang": "es",
-   "body_orig": "Primer concierto de la banda surcoreana BTS en Chile reunió a 70 mil fanáticos - El Aragueño (Google Noticias)",
    "auto": true
   }
  ]
