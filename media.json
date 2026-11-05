@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T12:15:36Z",
+ "updated_at": "2026-11-05T13:00:40Z",
  "sample": false,
  "items": [
   {
@@ -67,6 +67,15 @@
     }
    ],
    "sp_try": "2026-11-05"
+  },
+  {
+   "type": "video",
+   "group": "bts",
+   "title": "BTS WORLD TOUR 'ARIRANG' LIVE VIEWING FROM KAOHSIUNG & JAKARTA - Official Trailer",
+   "date": "2026-11-05",
+   "published": "2026-11-05T13:00:01Z",
+   "url": "https://www.youtube.com/watch?v=xzTFYPnoum8",
+   "image": "https://i.ytimg.com/vi/xzTFYPnoum8/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -408,15 +417,6 @@
    "published": "2026-10-15T10:00:07Z",
    "url": "https://www.youtube.com/watch?v=1qOJvWakMz0",
    "image": "https://i.ytimg.com/vi/1qOJvWakMz0/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "bts",
-   "title": "BTS WORLD TOUR ‘ARIRANG’ IN BUENOS AIRES & SÃO PAULO: LIVE VIEWING - Special Trailer",
-   "date": "2026-10-14",
-   "published": "2026-10-14T13:00:06Z",
-   "url": "https://www.youtube.com/watch?v=EvKMPk3ArNQ",
-   "image": "https://i.ytimg.com/vi/EvKMPk3ArNQ/hqdefault.jpg"
   },
   {
    "type": "music",

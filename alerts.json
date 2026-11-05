@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-05T12:15:59Z",
+ "updated_at": "2026-11-05T13:01:02Z",
  "alerts": [
+  {
+   "type": "new_date",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "ATEEZ agregó fechas en Atlanta",
+   "body": "12 nov en The Masquerade - Hell, EE. UU..",
+   "title_en": "ATEEZ added dates in Atlanta",
+   "body_en": "Nov 12 at The Masquerade - Hell, USA.",
+   "when": "2026-11-05T13:01:02Z",
+   "url": null
+  },
+  {
+   "type": "video",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Nuevo video: BTS",
+   "body": "BTS WORLD TOUR 'ARIRANG' LIVE VIEWING FROM KAOHSIUNG & JAKARTA - Official Trailer (YouTube)",
+   "title_en": "New video: BTS",
+   "body_en": "BTS WORLD TOUR 'ARIRANG' LIVE VIEWING FROM KAOHSIUNG & JAKARTA - Official Trailer (YouTube)",
+   "when": "2026-11-05T13:00:01Z",
+   "url": "https://www.youtube.com/watch?v=xzTFYPnoum8"
+  },
   {
    "type": "video",
    "group": "ateez",
@@ -743,28 +765,6 @@
    "src_lang": "es",
    "body_orig": "Samsung conecta al público con la gira ‘BTS WORLD TOUR ‘ARIRANG’ EN BUENOS AIRES’ a través de la Serie Galaxy S26 - samsung.com (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "#BLOODSAGA_IN_MACAU DAY1✨#EN_WORLDTOUR_BLOODSAGA #ENHYPEN (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "#BLOODSAGA_IN_MACAU DAY1✨#EN_WORLDTOUR_BLOODSAGA #ENHYPEN (YouTube)",
-   "when": "2026-10-16T16:24:36Z",
-   "url": "https://www.youtube.com/watch?v=rdbG9d0Nzo4"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "#BLOODSAGA_IN_MACAU DAY1❤️‍🔥#EN_WORLDTOUR_BLOODSAGA #ENHYPEN (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "#BLOODSAGA_IN_MACAU DAY1❤️‍🔥#EN_WORLDTOUR_BLOODSAGA #ENHYPEN (YouTube)",
-   "when": "2026-10-16T16:22:33Z",
-   "url": "https://www.youtube.com/watch?v=qo-FyzXcD4g"
   }
  ]
 }

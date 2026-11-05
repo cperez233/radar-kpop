@@ -1086,7 +1086,13 @@
   "news:379caad24fe5c8c5|feed": "2026-11-05T11:01:08Z",
   "news:54ebed581a17161d|feed": "2026-11-05T12:01:12Z",
   "news:11785bdbbcb62d85|feed": "2026-11-05T12:01:12Z",
-  "news:9d3639a140b1fd72|feed": "2026-11-05T12:16:05Z"
+  "news:9d3639a140b1fd72|feed": "2026-11-05T12:16:05Z",
+  "new:ateez:ateez-tm-vvG1zZ_pKJ046f|feed": "2026-11-05T13:01:08Z",
+  "new:ateez:ateez-tm-vvG1zZ_pKJ046f|ntfy": "2026-11-05T13:01:08Z",
+  "new:ateez:ateez-tm-vvG1zZ_pKJ046f|pub:radarkpop-ateez-shows": "2026-11-05T13:01:08Z",
+  "new:ateez:ateez-tm-vvG1zZ_pKJ046f|pub:radarkpop-pais-eeuu": "2026-11-05T13:01:08Z",
+  "new:ateez:ateez-tm-vvG1zZ_pKJ046f|foro": "2026-11-05T13:01:08Z",
+  "news:b48a37129f83933f|feed": "2026-11-05T13:01:08Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1922,6 +1928,13 @@
    "c": "Bangkok",
    "v": "IMPACT Exhibition Hall 5-6"
   },
+  "ateez-tm-vvG1zZ_pKJ046f": {
+   "g": "ateez",
+   "d": "2026-11-12",
+   "s": "2026-11-12T22:00:00-05:00",
+   "c": "Atlanta",
+   "v": "The Masquerade - Hell"
+  },
   "ateez-20270122-incheon": {
    "g": "ateez",
    "d": "2027-01-22",
@@ -1973,9 +1986,6 @@
   }
  },
  "news_seen": [
-  "6a689b26ae14861c",
-  "6aa078bd31f72861",
-  "6ae412a3ebbc6500",
   "6b0435b249cbca92",
   "6b1b05e4611cd133",
   "6b818324c4336d57",
@@ -2177,6 +2187,7 @@
   "8e18cdc95723c6e8",
   "8e580d83e8c3078a",
   "8e5a6f1fbeb75668",
+  "8e96fec7c888ccee",
   "8e9e0d6d4448cd4f",
   "8eb88ae1e9e9d5c5",
   "8ecb84c60e098f4a",
@@ -2387,6 +2398,7 @@
   "b41944d96bc69ad2",
   "b455626a2377fc14",
   "b4712ba551623d0a",
+  "b48a37129f83933f",
   "b48b0379352bb7f7",
   "b4a5ca75ee1ecb75",
   "b4abf168efb586f7",
@@ -2499,6 +2511,7 @@
   "c7426ccde3567ce2",
   "c75541069d2a12e5",
   "c762b25ee784d8d7",
+  "c78ea0ce09af3c26",
   "c83c3e3cdebe8430",
   "c8a5b7edba2ce17f",
   "c8c7e5d61ca24a51",

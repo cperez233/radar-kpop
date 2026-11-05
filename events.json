@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T12:15:14Z",
+  "updated_at": "2026-11-05T13:00:18Z",
   "sources": [
     {
       "name": "Live Nation (BTS)",
@@ -1700,6 +1700,20 @@
           "lat": 13.9116,
           "lon": 100.5469,
           "status": "confirmado"
+        },
+        {
+          "id": "ateez-tm-vvG1zZ_pKJ046f",
+          "local_date": "2026-11-12",
+          "start": "2026-11-12T22:00:00-05:00",
+          "city": "Atlanta",
+          "country": "EE. UU.",
+          "venue": "The Masquerade - Hell",
+          "lat": 33.7518,
+          "lon": -84.3899,
+          "status": "confirmado",
+          "source": "tm",
+          "tm_name": "ATEEZ | GOLDEN HOUR : Part.6 OFFICIAL ALBUM LISTENING PARTY | 18+",
+          "onsale": "2026-11-05T13:00:00Z"
         },
         {
           "id": "ateez-20270122-incheon",
