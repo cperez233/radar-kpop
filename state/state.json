@@ -1093,7 +1093,11 @@
   "new:ateez:ateez-tm-vvG1zZ_pKJ046f|pub:radarkpop-pais-eeuu": "2026-11-05T13:01:08Z",
   "new:ateez:ateez-tm-vvG1zZ_pKJ046f|foro": "2026-11-05T13:01:08Z",
   "news:b48a37129f83933f|feed": "2026-11-05T13:01:08Z",
-  "news:bb17286b84c0b911|feed": "2026-11-05T14:01:15Z"
+  "news:bb17286b84c0b911|feed": "2026-11-05T14:01:15Z",
+  "gone:ateez-tm-vvG1zZ_pKJ046f|feed": "2026-11-05T14:46:06Z",
+  "gone:ateez-tm-vvG1zZ_pKJ046f|ntfy": "2026-11-05T14:46:06Z",
+  "gone:ateez-tm-vvG1zZ_pKJ046f|pub:radarkpop-ateez-shows": "2026-11-05T14:46:06Z",
+  "gone:ateez-tm-vvG1zZ_pKJ046f|foro": "2026-11-05T14:46:06Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1928,13 +1932,6 @@
    "s": "2026-04-04T19:00:00+07:00",
    "c": "Bangkok",
    "v": "IMPACT Exhibition Hall 5-6"
-  },
-  "ateez-tm-vvG1zZ_pKJ046f": {
-   "g": "ateez",
-   "d": "2026-11-12",
-   "s": "2026-11-12T22:00:00-05:00",
-   "c": "Atlanta",
-   "v": "The Masquerade - Hell"
   },
   "ateez-20270122-incheon": {
    "g": "ateez",

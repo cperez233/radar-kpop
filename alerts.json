@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-05T14:01:10Z",
+ "updated_at": "2026-11-05T14:45:59Z",
  "alerts": [
+  {
+   "type": "removed",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "ATEEZ quitó Atlanta de la agenda",
+   "body": "La fecha del 12 nov ya no aparece en las fuentes. Puede ser cancelación o cambio, confirma en la boletería.",
+   "title_en": "ATEEZ removed Atlanta from the schedule",
+   "body_en": "The Nov 12 date no longer shows up in the sources. It may be a cancellation or a change, check with the box office.",
+   "when": "2026-11-05T14:45:59Z",
+   "url": null
+  },
   {
    "type": "video",
    "group": "enhypen",
@@ -747,20 +758,6 @@
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQXE1V0prWmRmLXlPUjlQWVJ5Y1NoS0x0dmhDT3huQ0lwQXMtU0xfenVVYWhtdUNSd3ZELTY0WUxQTzNLanVKVWlScDJ5ODVDMGdYY3g0U1lDZS1aZ2NPckNEUi1Ea1NkZGRPc2Q0bFJ6R2xYaHJZLXdqTXR1SE1vc3BHUFJzVThxNkhtRGtCQjcxckQtcGhrMGJFM0FiWEI2b0MxUm82Q1RCWnNHbGVMYi1lVnnSAbQBQVVfeXFMUEFxNVdKa1pkZi15T1I5UFlSeWNTaEtMdHZoQ094bkNJcEFzLVNMX3p1VWFobXVDUnd2RC02NFlMUE8zS2p1SlVpUnAyeTg1QzBnWGN4NFNZQ2UtWmdjT3JDRFItRGtTZGRkT3NkNGxSekdsWGhyWS13ak10dUhNb3NwR1BSc1U4cTZIbURrQkI3MXJELXBoazBiRTNBYlhCNm9DMVJvNkNUQlpzR2xlTGItZVZ5?oc=5",
    "src_lang": "es",
    "body_orig": "BTS en Argentina: El pedido de higiene que se volvió viral antes del concierto - Indie Hoy (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "latam",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Latinoamérica: BTS",
-   "body": "BTS en Argentina: todo lo que tenés que saber sobre los shows de la gira ARIRANG - Rolling Stone en Español (Google Noticias)",
-   "title_en": "Latin America: BTS",
-   "body_en": "BTS in Argentina: everything you need to know about the shows on the ARIRANG - Rolling Stone tour in Spanish (Google News)",
-   "when": "2026-10-16T20:00:02Z",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPazFQX3VkY3ZEeV9XdVMzVEZGY3ZFNU1CMWViRmxwOXBYUVg0WkNoY3RhOVQtQkRyYW8xeUpJampqd1ZFNG5rdFRVaDZLTXZxSkttWmdscnJhcWsyazZORXNjZC1hUXUySFRYX0lpVUkwa21QNDhFTTFoQlk0blltaXE4cHR6cTlDa1JoWnlLRmtUQkZuREZMZElWbXgwcmd3b3hnVWEtckFJbnNaUDFWMlJB?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS en Argentina: todo lo que tenés que saber sobre los shows de la gira ARIRANG - Rolling Stone en Español (Google Noticias)",
    "auto": true
   }
  ]
