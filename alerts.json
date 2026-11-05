@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T12:01:06Z",
+ "updated_at": "2026-11-05T12:15:59Z",
  "alerts": [
   {
    "type": "video",
@@ -11,6 +11,17 @@
    "body_en": "ChoiChoiz drown in the Drip 👥 #Shorts (YouTube)",
    "when": "2026-11-05T12:00:21Z",
    "url": "https://www.youtube.com/watch?v=R5AZB8yMG1E"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "#꼬잉_픽📌 덕분에 언어 지식+1 중국어 폭주하는 조슈아 #SEVENTEEN #세븐틴 #GOING_SVT #고잉세븐틴 #shorts (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "#꼬잉_픽📌 덕분에 언어 지식+1 중국어 폭주하는 조슈아 #SEVENTEEN #세븐틴 #GOING_SVT #고잉세븐틴 #shorts (YouTube)",
+   "when": "2026-11-05T12:00:18Z",
+   "url": "https://www.youtube.com/watch?v=TUz4kBJpfJk"
   },
   {
    "type": "video",
@@ -754,17 +765,6 @@
    "body_en": "#BLOODSAGA_IN_MACAU DAY1❤️‍🔥#EN_WORLDTOUR_BLOODSAGA #ENHYPEN (YouTube)",
    "when": "2026-10-16T16:22:33Z",
    "url": "https://www.youtube.com/watch?v=qo-FyzXcD4g"
-  },
-  {
-   "type": "stop_today",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Hoy BTS abre en Santiago",
-   "body": "Estadio Nacional Julio Martínez Prádanos, Santiago. Hora aproximada, confirma en la boletería.",
-   "title_en": "Today BTS opens in Santiago",
-   "body_en": "Estadio Nacional Julio Martínez Prádanos, Santiago. Approximate time, check with the box office.",
-   "when": "2026-10-16T14:55:07Z",
-   "url": null
   }
  ]
 }
