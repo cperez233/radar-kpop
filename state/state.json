@@ -1107,7 +1107,9 @@
   "news:573d3846e64ff823|feed": "2026-11-05T19:32:32Z",
   "news:573d3846e64ff823|ntfy": "2026-11-05T19:32:32Z",
   "news:573d3846e64ff823|pub:radarkpop-bts-news": "2026-11-05T19:32:32Z",
-  "news:573d3846e64ff823|foro": "2026-11-05T19:32:32Z"
+  "news:573d3846e64ff823|foro": "2026-11-05T19:32:32Z",
+  "news:581f071e170d6c3d|ntfy": "2026-11-05T22:16:03Z",
+  "news:581f071e170d6c3d|pub:radarkpop-bts-news": "2026-11-05T22:16:03Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2799,16 +2801,6 @@
   {
    "g": "bts",
    "w": [
-    "concierto",
-    "forma",
-    "llevar",
-    "paises"
-   ],
-   "t": "2026-11-03T22:01:11Z"
-  },
-  {
-   "g": "bts",
-   "w": [
     "ahorrando",
     "anos",
     "autobus",
@@ -3068,6 +3060,16 @@
     "world"
    ],
    "t": "2026-11-05T19:32:26Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "concierto",
+    "forma",
+    "llevar",
+    "paises"
+   ],
+   "t": "2026-11-05T22:15:56Z"
   }
  ],
  "discord_threads": {
