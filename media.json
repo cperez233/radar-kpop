@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T13:00:40Z",
+ "updated_at": "2026-11-05T14:00:48Z",
  "sample": false,
  "items": [
   {
@@ -103,6 +103,15 @@
    "published": "2026-11-05T08:59:54Z",
    "url": "https://www.youtube.com/watch?v=o2Ds30GnMek",
    "image": "https://i.ytimg.com/vi/o2Ds30GnMek/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "To YOU, From JAKE",
+   "date": "2026-11-05",
+   "published": "2026-11-05T13:59:48Z",
+   "url": "https://www.youtube.com/watch?v=3GZc-9fqRLg",
+   "image": "https://i.ytimg.com/vi/3GZc-9fqRLg/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -247,15 +256,6 @@
    "published": "2026-10-30T12:00:52Z",
    "url": "https://www.youtube.com/watch?v=l_DBejkRi3E",
    "image": "https://i.ytimg.com/vi/l_DBejkRi3E/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "just 느껴져",
-   "date": "2026-10-30",
-   "published": "2026-10-30T12:00:18Z",
-   "url": "https://www.youtube.com/watch?v=JTsIwXebsYE",
-   "image": "https://i.ytimg.com/vi/JTsIwXebsYE/hqdefault.jpg"
   },
   {
    "type": "video",

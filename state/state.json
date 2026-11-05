@@ -1092,7 +1092,8 @@
   "new:ateez:ateez-tm-vvG1zZ_pKJ046f|pub:radarkpop-ateez-shows": "2026-11-05T13:01:08Z",
   "new:ateez:ateez-tm-vvG1zZ_pKJ046f|pub:radarkpop-pais-eeuu": "2026-11-05T13:01:08Z",
   "new:ateez:ateez-tm-vvG1zZ_pKJ046f|foro": "2026-11-05T13:01:08Z",
-  "news:b48a37129f83933f|feed": "2026-11-05T13:01:08Z"
+  "news:b48a37129f83933f|feed": "2026-11-05T13:01:08Z",
+  "news:bb17286b84c0b911|feed": "2026-11-05T14:01:15Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1986,9 +1987,6 @@
   }
  },
  "news_seen": [
-  "6b0435b249cbca92",
-  "6b1b05e4611cd133",
-  "6b818324c4336d57",
   "6b99ab1221ac9031",
   "6b9de9f9739b2949",
   "6babd42ae1957d5b",
@@ -2436,6 +2434,7 @@
   "baab2ae5143b7e41",
   "baffdb70106f1b7b",
   "bb0e8b50bba268c4",
+  "bb17286b84c0b911",
   "bb28959efdf88008",
   "bb434866016962a9",
   "bb57c4641a1ef5ac",
@@ -2540,6 +2539,7 @@
   "ccdd371d9c717f42",
   "ccf2d75968967576",
   "cd37756912cad8fe",
+  "cd57fd122d4e5e37",
   "cd9feb3367855fbf",
   "cdbedfea2414a66a",
   "cdcffd89759f760b",
@@ -2568,6 +2568,7 @@
   "d2d8c048e9cc8410",
   "d314e5864d108bb3",
   "d319e8cbb03d8058",
+  "d350b6943111e246",
   "d3622ad6a723820b",
   "d369c8ed35a62fb8",
   "d37093894fad9faa",
