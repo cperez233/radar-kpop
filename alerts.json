@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T01:01:13Z",
+ "updated_at": "2026-11-05T03:01:06Z",
  "alerts": [
   {
    "type": "latam",
@@ -461,6 +461,20 @@
    "auto": true
   },
   {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "El grupo surcoreano BTS concluye su gira en Latinoamérica - El Potosí (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "The South Korean group BTS concludes its tour in Latin America - El Potosí (Google News)",
+   "when": "2026-11-02T20:47:00Z",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2pEbFR0dEFfMG5fUXI1UEIxNV8xWmNXX2pidGxkeXhPdmw4MU1PaC1iOHl0dHc2UEV5bzNoUGNNbklvcE4yalNOLU4tUk8tUUxERFBmUk1WWHFvQ3d3cTVHSkNwa0lfYkxFVkNTaUJtOHhGUjFDeE5HcjI4TGY4UloweW13d3N1VEltWC1JYkd6MXFfVFdIQ1RWTkIwdnc?oc=5",
+   "src_lang": "es",
+   "body_orig": "El grupo surcoreano BTS concluye su gira en Latinoamérica - El Potosí (Google Noticias)",
+   "auto": true
+  },
+  {
    "type": "latam",
    "group": "bts",
    "group_name": "BTS",
@@ -754,20 +768,6 @@
    "body_en": "relay cam LA (YouTube)",
    "when": "2026-10-16T12:00:01Z",
    "url": "https://www.youtube.com/watch?v=ISkAWt8_aqI"
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "Ya abrieron las puertas: reportan largas filas para el segundo concierto de BTS en el Estadio Nacional - ADN Radio (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "The doors have already opened: long lines are reported for the second BTS concert at the National Stadium - ADN Radio (Google News)",
-   "when": "2026-10-16T11:56:17Z",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbmp4M1c0ZnJHX1VOeDZtXzhpRmRQMExoZ0pWcU9uZ1ZmYkFlcXlBbDJreWtZUW81TzZiMEFjY3BDV0V3bFRmWVdVaS1fcjFKSEN1N1JkVmotaXBGZzgyS0ZEdVhYaHhOcHVSc2F1STc4UHBMZTBxcVJyZU5fZG8wRVFMa2cycUNJMFVKdnJoQVV1Q0M1SWg4MDVrb3A3MnBZNTJfOTg2UWhEZmg1RFV4VlRIdG16eUJ2UWJyaU5TVUkyb2pWaU51ZWVEVXRsVk9wNXo00gHnAUFVX3lxTE5Yek1IMDZWS3lLdU1Lc3hlV2dwb1hCbjR6VEN2djNnUkEyOGRFTnpjeFdhdGlGQU5YRW5OUWNKU1NWd01hYnhxbE5CWDIxbjdDNWx2Mmp2OUxKZ3ctTmpNdF9UM0ZtY2EwSW56d2RWUXozQ0hsc2lFTDRzSzg3NVMzUkw0aTdzS2s1ZUFMNU1jQUpQd2dWVklvNkdBOVlZdVRXb1djOTRBTEI0R0lJQUpNTFF4ZER4S0Q3Z1F1RmlNSFpvNzRyV09xclRGRFVHZHFEOGtsbjBHOXNkc1NxLV9WNnhNcDBmNA?oc=5",
-   "src_lang": "es",
-   "body_orig": "Ya abrieron las puertas: reportan largas filas para el segundo concierto de BTS en el Estadio Nacional - ADN Radio (Google Noticias)",
-   "auto": true
   }
  ]
 }

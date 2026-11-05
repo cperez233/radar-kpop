@@ -1071,7 +1071,8 @@
   "news:da32d48f351ae28f|feed": "2026-11-05T01:01:19Z",
   "news:da32d48f351ae28f|ntfy": "2026-11-05T01:01:19Z",
   "news:da32d48f351ae28f|pub:radarkpop-skz-news": "2026-11-05T01:01:19Z",
-  "news:da32d48f351ae28f|foro": "2026-11-05T01:01:19Z"
+  "news:da32d48f351ae28f|foro": "2026-11-05T01:01:19Z",
+  "news:320c70351f2d0401|feed": "2026-11-05T03:01:13Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1958,7 +1959,6 @@
   }
  },
  "news_seen": [
-  "67421ba23c098381",
   "679ac96bd183b1b7",
   "67c32e301ed9349e",
   "680d222a32e7242b",
@@ -2258,6 +2258,7 @@
   "9dff3341d89d6416",
   "9dffb2e5ccab431c",
   "9e0aece9e2c8cda0",
+  "9e170c10b7afd2e9",
   "9e201d9a840c2fea",
   "9e29a32f4e813dfe",
   "9e746aa1bfabf741",
@@ -2763,42 +2764,6 @@
   {
    "g": "bts",
    "w": [
-    "arirang",
-    "asia",
-    "cines",
-    "gira",
-    "transmision",
-    "vivo"
-   ],
-   "t": "2026-11-03T02:46:43Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "concluye",
-    "gira",
-    "grupo",
-    "latinoamerica",
-    "surcoreano"
-   ],
-   "t": "2026-11-03T02:46:43Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "arirang",
-    "boletos",
-    "cines",
-    "fechas",
-    "gira",
-    "len",
-    "transmitira"
-   ],
-   "t": "2026-11-03T02:46:43Z"
-  },
-  {
-   "g": "bts",
-   "w": [
     "cines",
     "conciertos",
     "indonesia",
@@ -3099,6 +3064,17 @@
     "world"
    ],
    "t": "2026-11-05T01:01:13Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "concluye",
+    "gira",
+    "grupo",
+    "latinoamerica",
+    "surcoreano"
+   ],
+   "t": "2026-11-05T03:01:06Z"
   }
  ],
  "discord_threads": {
