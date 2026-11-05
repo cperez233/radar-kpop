@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-05T08:31:42Z",
+ "updated_at": "2026-11-05T09:01:04Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "도겸과 정한 〈정답 없는 여행〉 PHOTOBOOK Visualizer 🎁 (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "도겸과 정한 〈정답 없는 여행〉 PHOTOBOOK Visualizer 🎁 (YouTube)",
+   "when": "2026-11-05T08:59:54Z",
+   "url": "https://www.youtube.com/watch?v=o2Ds30GnMek"
+  },
   {
    "type": "tour",
    "group": "bts",
@@ -763,17 +774,6 @@
    "src_lang": "es",
    "body_orig": "BTS presentó el tráiler oficial de sus conciertos en Buenos Aires y Sao Paulo - El Comercio Perú (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "[INSIDE SEVENTEEN] 조슈아 'Baby Come Home' Live Clip 촬영 비하인드 (JOSHUA \"Baby Come Home\" Live Clip Sketch) (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "[INSIDE SEVENTEEN] 조슈아 'Baby Come Home' Live Clip 촬영 비하인드 (JOSHUA \"Baby Come Home\" Live Clip Sketch) (YouTube)",
-   "when": "2026-10-16T12:59:59Z",
-   "url": "https://www.youtube.com/watch?v=nIRQaYMlADQ"
   }
  ]
 }

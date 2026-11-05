@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T07:00:41Z",
+ "updated_at": "2026-11-05T09:00:44Z",
  "sample": false,
  "items": [
   {
@@ -67,6 +67,15 @@
     }
    ],
    "sp_try": "2026-11-05"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "도겸과 정한 〈정답 없는 여행〉 PHOTOBOOK Visualizer 🎁",
+   "date": "2026-11-05",
+   "published": "2026-11-05T08:59:54Z",
+   "url": "https://www.youtube.com/watch?v=o2Ds30GnMek",
+   "image": "https://i.ytimg.com/vi/o2Ds30GnMek/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -166,15 +175,6 @@
    "published": "2026-11-03T09:00:07Z",
    "url": "https://www.youtube.com/watch?v=7R2QUwCk-Js",
    "image": "https://i.ytimg.com/vi/7R2QUwCk-Js/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "도겸과 정한 〈정답 없는 여행〉 Message for CARAT💌",
-   "date": "2026-11-03",
-   "published": "2026-11-03T01:59:59Z",
-   "url": "https://www.youtube.com/watch?v=RSCFHi4UJj0",
-   "image": "https://i.ytimg.com/vi/RSCFHi4UJj0/hqdefault.jpg"
   },
   {
    "type": "video",
