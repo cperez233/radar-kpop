@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-05T11:01:02Z",
+ "updated_at": "2026-11-05T12:01:06Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ChoiChoiz drown in the Drip 👥 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ChoiChoiz drown in the Drip 👥 #Shorts (YouTube)",
+   "when": "2026-11-05T12:00:21Z",
+   "url": "https://www.youtube.com/watch?v=R5AZB8yMG1E"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "선우 한정 무한 수용 | 내 이름은 김선우 EP.3 | ENHYPEN SUNOO (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "선우 한정 무한 수용 | 내 이름은 김선우 EP.3 | ENHYPEN SUNOO (YouTube)",
+   "when": "2026-11-05T11:59:57Z",
+   "url": "https://www.youtube.com/watch?v=H_msEeZhETY"
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -743,31 +765,6 @@
    "body_en": "Estadio Nacional Julio Martínez Prádanos, Santiago. Approximate time, check with the box office.",
    "when": "2026-10-16T14:55:07Z",
    "url": null
-  },
-  {
-   "type": "live",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "ENHYPEN sube al escenario en Macao",
-   "body": "Galaxy Arena, Macao. Hora aproximada, el show puede arrancar un poco antes o después.",
-   "title_en": "ENHYPEN goes on stage in Macau",
-   "body_en": "Galaxy Arena, Macau. Approximate time, the show may start a little earlier or later.",
-   "when": "2026-10-16T14:55:07Z",
-   "url": null
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "Carabineros elogia el comportamiento de las ARMY's en concierto de BTS: hicieron un reconocimiento a la banda surcoreana - Canal 13 (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "Carabineros praises the behavior of the ARMY's in BTS concert: they recognized the South Korean band - Channel 13 (Google News)",
-   "when": "2026-10-16T14:50:12Z",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPemhPM2JETmpzNmRqMjFkQzN2SWZ6M1hNMFh1eF95ekd0RWJ4ZWtXczdGZUEzMFFHSkx0S2x5ZkYyUTgtb0pBR2x3Snl0UDBjQUdvSE42cnZnQzRtUEtKazBJcHl1d1hOMzYyUWM2ZUs2ZkFYUnpTTEdUVm51SjZRM0pOUjVjeUo0eXBtazdkY1hxMmhHVmRieEVHRERLdllhSl9id2pIMVVpTXY1U2tYbS1Iaw?oc=5",
-   "src_lang": "es",
-   "body_orig": "Carabineros elogia el comportamiento de las ARMY's en concierto de BTS: hicieron un reconocimiento a la banda surcoreana - Canal 13 (Google Noticias)",
-   "auto": true
   }
  ]
 }

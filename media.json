@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T11:00:41Z",
+ "updated_at": "2026-11-05T12:00:42Z",
  "sample": false,
  "items": [
   {
@@ -88,6 +88,24 @@
   },
   {
    "type": "video",
+   "group": "enhypen",
+   "title": "선우 한정 무한 수용 | 내 이름은 김선우 EP.3 | ENHYPEN SUNOO",
+   "date": "2026-11-05",
+   "published": "2026-11-05T11:59:57Z",
+   "url": "https://www.youtube.com/watch?v=H_msEeZhETY",
+   "image": "https://i.ytimg.com/vi/H_msEeZhETY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ChoiChoiz drown in the Drip 👥 #Shorts",
+   "date": "2026-11-05",
+   "published": "2026-11-05T12:00:21Z",
+   "url": "https://www.youtube.com/watch?v=R5AZB8yMG1E",
+   "image": "https://i.ytimg.com/vi/R5AZB8yMG1E/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "ateez",
    "title": "ATEEZ(에이티즈) 민기 - TINY ISLAND 82WORLD:LA LISTENING PARTY FULLSET",
    "date": "2026-11-05",
@@ -148,15 +166,6 @@
    "published": "2026-11-04T12:00:29Z",
    "url": "https://www.youtube.com/watch?v=wUVKMUt0JIc",
    "image": "https://i.ytimg.com/vi/wUVKMUt0JIc/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "계현 님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-04",
-   "published": "2026-11-04T11:00:03Z",
-   "url": "https://www.youtube.com/watch?v=lEO8yQUhrso",
-   "image": "https://i.ytimg.com/vi/lEO8yQUhrso/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -238,15 +247,6 @@
    "published": "2026-10-30T12:00:18Z",
    "url": "https://www.youtube.com/watch?v=JTsIwXebsYE",
    "image": "https://i.ytimg.com/vi/JTsIwXebsYE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "pop pop #NI_KI #IROHA #ENHYPEN #ILLIT @ILLIT_official",
-   "date": "2026-10-29",
-   "published": "2026-10-29T14:38:25Z",
-   "url": "https://www.youtube.com/watch?v=jrdans_ucwE",
-   "image": "https://i.ytimg.com/vi/jrdans_ucwE/hqdefault.jpg"
   },
   {
    "type": "video",
