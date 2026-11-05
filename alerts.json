@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-05T19:32:26Z",
+ "updated_at": "2026-11-05T23:01:01Z",
  "alerts": [
+  {
+   "type": "stop_today",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Hoy Stray Kids abre en Tokio",
+   "body": "Tokyo Dome, Tokio. Hora aproximada, confirma en la boletería.",
+   "title_en": "Today Stray Kids opens in Tokyo",
+   "body_en": "Tokyo Dome, Tokyo. Approximate time, check with the box office.",
+   "when": "2026-11-05T23:01:01Z",
+   "url": null
+  },
   {
    "type": "arrival",
    "group": "bts",
@@ -719,20 +730,6 @@
    "url": "https://x.com/ATEEZofficial/status/2117270786562248854",
    "src_lang": "ko",
    "body_orig": "«[📷] ATEEZ(에이티즈) GOLDEN HOUR : Part.6 Concept Photo 4 #JONGHO #종호 2026. 11. 13 2PM RELEASE 📎Pre-save/add: https://ateez.sng.to/golden-hour-...» (ATEEZ en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Anuncio oficial de TWICE: comeback",
-   "body": "«CALENDARIO DEL TÍTULO DE LA PISTA TÍTULO \"BABY ANGEL\" DE NAYEON SINGLE “NA-sty” 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KS...» (TWICE en X).",
-   "title_en": "Official TWICE news: comeback",
-   "body_en": "«NAYEON SINGLE “NA-sty” TITLE TRACK \"BABY ANGEL\" TIMETABLE 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KS...» (TWICE en X).",
-   "when": "2026-11-02T13:00:02Z",
-   "url": "https://x.com/JYPETWICE/status/2117240316856295433",
-   "src_lang": "en",
-   "body_orig": "«NAYEON SINGLE “NA-sty” TITLE TRACK \"BABY ANGEL\" TIMETABLE 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KS...» (TWICE en X).",
    "auto": true
   },
   {
