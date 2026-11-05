@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-05T08:15:56Z",
+ "updated_at": "2026-11-05T08:31:42Z",
  "alerts": [
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "Los precios de los billetes de avión a Malasia casi se triplicaron durante el concierto de BTS, lo que obligó a los viajeros a considerar r… (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "Airline ticket prices to Malaysia nearly tripled during the BTS concert, forcing travelers to consider r… (Google News)",
+   "when": "2026-11-05T08:05:29Z",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeWwxSTZIbVBxNkV5bWZuYVE5dGQ3U0tHY05qaFVyRGd2bG5tbmNDNGxiaEIwOENfajdiVDNkbXRKekJSUjBDNUxQMDRaTjZhR1FNY3ZkdlRfSjJvR3FJVk9URm9EeUl2bm8wUXFuUjJPY0ZDVXZLVXN2cTRSMkdkUklEWDRpNzZkQkxVOWY4M3A2OU5TcE44c1JKTk9fLWRMcHVveUtsTnpGUkRpanRJ?oc=5",
+   "src_lang": "es",
+   "body_orig": "Los precios de los billetes de avión a Malasia casi se triplicaron durante el concierto de BTS, lo que obligó a los viajeros a considerar r… (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "official",
    "group": "ateez",
@@ -760,17 +774,6 @@
    "body_en": "[INSIDE SEVENTEEN] 조슈아 'Baby Come Home' Live Clip 촬영 비하인드 (JOSHUA \"Baby Come Home\" Live Clip Sketch) (YouTube)",
    "when": "2026-10-16T12:59:59Z",
    "url": "https://www.youtube.com/watch?v=nIRQaYMlADQ"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "꿈이 시작된 순간을 기억하나요? #아이유 #이별로부터_Challenge #JxJ #정한X조슈아 #DREAMSCAPE (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "꿈이 시작된 순간을 기억하나요? #아이유 #이별로부터_Challenge #JxJ #정한X조슈아 #DREAMSCAPE (YouTube)",
-   "when": "2026-10-16T12:00:20Z",
-   "url": "https://www.youtube.com/watch?v=x4n42iX_ywE"
   }
  ]
 }

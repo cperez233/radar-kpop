@@ -1076,7 +1076,11 @@
   "official:ateez:comeback:2026-11-05|feed": "2026-11-05T08:16:02Z",
   "official:ateez:comeback:2026-11-05|ntfy": "2026-11-05T08:16:02Z",
   "official:ateez:comeback:2026-11-05|pub:radarkpop-ateez-music": "2026-11-05T08:16:02Z",
-  "official:ateez:comeback:2026-11-05|foro": "2026-11-05T08:16:02Z"
+  "official:ateez:comeback:2026-11-05|foro": "2026-11-05T08:16:02Z",
+  "news:03718deef5683813|feed": "2026-11-05T08:31:48Z",
+  "news:03718deef5683813|ntfy": "2026-11-05T08:31:48Z",
+  "news:03718deef5683813|pub:radarkpop-bts-news": "2026-11-05T08:31:48Z",
+  "news:03718deef5683813|foro": "2026-11-05T08:31:48Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3080,6 +3084,25 @@
     "world"
    ],
    "t": "2026-11-05T06:15:59Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "alternativas",
+    "avion",
+    "billetes",
+    "casi",
+    "concierto",
+    "considerar",
+    "durante",
+    "malasia",
+    "obligo",
+    "precios",
+    "rutas",
+    "triplicaron",
+    "viajeros"
+   ],
+   "t": "2026-11-05T08:31:42Z"
   }
  ],
  "discord_threads": {
