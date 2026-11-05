@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T17:32:36Z",
+ "updated_at": "2026-11-05T18:32:22Z",
  "alerts": [
   {
    "type": "arrival",
@@ -437,6 +437,20 @@
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   },
   {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "HYBE revela los planes de BTS para 2027: más conciertos y música en grupo y en solitario - Grupo Animal (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "HYBE reveals BTS plans for 2027: more group and solo concerts and music - Grupo Animal (Google News)",
+   "when": "2026-11-03T17:55:46Z",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOTNIVnNPT1dIQmZ6cDVSc2VWYnZmVGVod3pSSWRvR0UtQ2V4eW1CRFpXTlZOalhkdlpUYUYwR3RIekhjYjk1SXBnNWg0aDRuTXRhNjJIY3RlVnJkUTR2dmhpUHgxYmcxZU8yWFFMdHZSYU1KLVIxeUs0Vno1bElVN04wQQ?oc=5",
+   "src_lang": "es",
+   "body_orig": "HYBE revela los planes de BTS para 2027: más conciertos y música en grupo y en solitario - Grupo Animal (Google Noticias)",
+   "auto": true
+  },
+  {
    "type": "official",
    "group": "lngshot",
    "group_name": "LNGSHOT",
@@ -745,17 +759,6 @@
    "src_lang": "es",
    "body_orig": "Stray Kids: \"¡Ánimo para el concierto en el Tokyo Dome!\" [★Video] - 스타뉴스 (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "사랑이라는 이유로 아파할 수 없어 난 | 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지 Cover by #승민 #한로로 #StrayKids #SONGby #송바이 (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "사랑이라는 이유로 아파할 수 없어 난 | 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지 Cover by #승민 #한로로 #StrayKids #SONGby #송바이 (YouTube)",
-   "when": "2026-11-01T05:00:05Z",
-   "url": "https://www.youtube.com/watch?v=CReJVnojbtQ"
   }
  ]
 }
