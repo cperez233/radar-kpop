@@ -1103,7 +1103,11 @@
   "news:de54a24554f9039d|pub:radarkpop-bts-news": "2026-11-05T17:32:42Z",
   "news:de54a24554f9039d|foro": "2026-11-05T17:32:42Z",
   "news:488cf825a374b797|feed": "2026-11-05T18:32:28Z",
-  "news:3056d348582c6b34|feed": "2026-11-05T18:46:03Z"
+  "news:3056d348582c6b34|feed": "2026-11-05T18:46:03Z",
+  "news:573d3846e64ff823|feed": "2026-11-05T19:32:32Z",
+  "news:573d3846e64ff823|ntfy": "2026-11-05T19:32:32Z",
+  "news:573d3846e64ff823|pub:radarkpop-bts-news": "2026-11-05T19:32:32Z",
+  "news:573d3846e64ff823|foro": "2026-11-05T19:32:32Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2795,21 +2799,6 @@
   {
    "g": "bts",
    "w": [
-    "aires",
-    "arirang",
-    "buenos",
-    "live",
-    "paulo",
-    "sao",
-    "tour",
-    "viewing",
-    "world"
-   ],
-   "t": "2026-11-03T19:31:37Z"
-  },
-  {
-   "g": "bts",
-   "w": [
     "acaba",
     "conciertos",
     "medellin",
@@ -3114,6 +3103,18 @@
     "sigue"
    ],
    "t": "2026-11-05T18:45:57Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "kaohsiung",
+    "live",
+    "tour",
+    "viewing",
+    "world"
+   ],
+   "t": "2026-11-05T19:32:26Z"
   }
  ],
  "discord_threads": {

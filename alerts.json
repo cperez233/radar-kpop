@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T18:45:57Z",
+ "updated_at": "2026-11-05T19:32:26Z",
  "alerts": [
   {
    "type": "arrival",
@@ -282,6 +282,20 @@
    "body_en": "[SEVENTEEN’s SNAPSHOOT] EP.90 베스트 프렌드 이름대기 (YouTube)",
    "when": "2026-11-04T08:59:56Z",
    "url": "https://www.youtube.com/watch?v=LBtP_ObJI_o"
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "GIRA MUNDIAL DE BTS 'ARIRANG' EN KAOHSIUNG: VER EN VIVO - Cinemex (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING - Cinemex (Google Noticias)",
+   "when": "2026-11-04T07:04:45Z",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONy04TndtRzluZkZxbGxlR21LMElTN1BMM1ZuYzlnUHNDZ0F3a0ZNVGh4N1laM1dpM1RkRDdubExKRUxSZ1dUT0o4VlROZGs5TDF3WFVXTmJTVzVQdDVxUTJjOXZEQTJIRzAtMFNxVUFNZjNRQ3U5MGplYkdPRGhnVl9XR2ljcHVMOW5POTFGRQ?oc=5",
+   "src_lang": "en",
+   "body_orig": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING - Cinemex (Google Noticias)",
+   "auto": true
   },
   {
    "type": "tour",
@@ -748,17 +762,6 @@
    "src_lang": "en",
    "body_orig": "«NAYEON SINGLE “NA-sty” TITLE TRACK \"BABY ANGEL\" TIMETABLE 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KS...» (TWICE en X).",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "best friend forever :) #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "best friend forever :) #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou (YouTube)",
-   "when": "2026-11-02T12:00:37Z",
-   "url": "https://www.youtube.com/watch?v=zMhyVV314-Q"
   }
  ]
 }
