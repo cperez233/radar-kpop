@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T18:32:22Z",
+ "updated_at": "2026-11-05T18:45:57Z",
  "alerts": [
   {
    "type": "arrival",
@@ -451,6 +451,20 @@
    "auto": true
   },
   {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "Hybe sigue ganando mucho dinero con las giras de BTS. - Vietnam.vn (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "Hybe continues to make a lot of money from BTS tours. - Vietnam.vn (Google News)",
+   "when": "2026-11-03T15:18:00Z",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LdHBHU1J0cjI0NlFpYzhTT25RVVk2WlpFSktvZlVTYWQ0d3pTdHNzZ0pnd09vSm85QW94TFg2UVdmMlItcGRxZ2JtdUxEakFLd1UyczlHVkNxN0h3NFRCdXBVUG5EQXAtdW5GVnVQamZjU0pvb1NPSTVVZ3M?oc=5",
+   "src_lang": "es",
+   "body_orig": "Hybe sigue ganando mucho dinero con las giras de BTS. - Vietnam.vn (Google Noticias)",
+   "auto": true
+  },
+  {
    "type": "official",
    "group": "lngshot",
    "group_name": "LNGSHOT",
@@ -745,20 +759,6 @@
    "body_en": "best friend forever :) #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou (YouTube)",
    "when": "2026-11-02T12:00:37Z",
    "url": "https://www.youtube.com/watch?v=zMhyVV314-Q"
-  },
-  {
-   "type": "tour",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Gira: Stray Kids",
-   "body": "Stray Kids: \"¡Ánimo para el concierto en el Tokyo Dome!\" [★Video] - 스타뉴스 (Google Noticias)",
-   "title_en": "Tour: Stray Kids",
-   "body_en": "Stray Kids: \"Cheer up for the concert at the Tokyo Dome!\" [★Video] - 스타뉴스 (Google News)",
-   "when": "2026-11-02T09:57:18Z",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zUDFFMVpkZzhSVWFTMFVTd2tJX0E2M2pFenJoZjBBYmdkdlBzNGpKRy1CWGZIRlRrMFEwZnlXR0xqU3NZOXU1LUNDQUw3NnQ1S0JycEdzZ2RPMDkzTmplTkVoRkVXWk1OYjY0Vm14NEt6Tl9jdm1wbQ?oc=5",
-   "src_lang": "es",
-   "body_orig": "Stray Kids: \"¡Ánimo para el concierto en el Tokyo Dome!\" [★Video] - 스타뉴스 (Google Noticias)",
-   "auto": true
   }
  ]
 }

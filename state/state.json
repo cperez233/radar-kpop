@@ -1102,7 +1102,8 @@
   "news:de54a24554f9039d|ntfy": "2026-11-05T17:32:42Z",
   "news:de54a24554f9039d|pub:radarkpop-bts-news": "2026-11-05T17:32:42Z",
   "news:de54a24554f9039d|foro": "2026-11-05T17:32:42Z",
-  "news:488cf825a374b797|feed": "2026-11-05T18:32:28Z"
+  "news:488cf825a374b797|feed": "2026-11-05T18:32:28Z",
+  "news:3056d348582c6b34|feed": "2026-11-05T18:46:03Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3101,6 +3102,18 @@
     "solitario"
    ],
    "t": "2026-11-05T18:32:22Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "dinero",
+    "ganando",
+    "giras",
+    "hybe",
+    "mucho",
+    "sigue"
+   ],
+   "t": "2026-11-05T18:45:57Z"
   }
  ],
  "discord_threads": {
