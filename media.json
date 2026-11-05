@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T09:00:44Z",
+ "updated_at": "2026-11-05T10:00:37Z",
  "sample": false,
  "items": [
   {
@@ -79,6 +79,15 @@
   },
   {
    "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) 민기 - TINY ISLAND 82WORLD:LA LISTENING PARTY FULLSET",
+   "date": "2026-11-05",
+   "published": "2026-11-05T10:00:02Z",
+   "url": "https://www.youtube.com/watch?v=Mj3IO9ZCMpU",
+   "image": "https://i.ytimg.com/vi/Mj3IO9ZCMpU/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "skz",
    "title": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.04 Rock in Rio",
    "date": "2026-11-04",
@@ -139,15 +148,6 @@
    "published": "2026-11-04T11:00:03Z",
    "url": "https://www.youtube.com/watch?v=lEO8yQUhrso",
    "image": "https://i.ytimg.com/vi/lEO8yQUhrso/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "창조 선배님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-04",
-   "published": "2026-11-04T09:00:21Z",
-   "url": "https://www.youtube.com/watch?v=-MHIRA2J0ec",
-   "image": "https://i.ytimg.com/vi/-MHIRA2J0ec/hqdefault.jpg"
   },
   {
    "type": "video",

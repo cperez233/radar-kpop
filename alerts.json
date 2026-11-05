@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-05T09:01:04Z",
+ "updated_at": "2026-11-05T10:00:58Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) 민기 - TINY ISLAND 82WORLD:LA LISTENING PARTY FULLSET (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) 민기 - TINY ISLAND 82WORLD:LA LISTENING PARTY FULLSET (YouTube)",
+   "when": "2026-11-05T10:00:02Z",
+   "url": "https://www.youtube.com/watch?v=Mj3IO9ZCMpU"
+  },
   {
    "type": "video",
    "group": "seventeen",
@@ -759,20 +770,6 @@
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdlNEWUs0NS1Nclh2VkU0ZVpqc0d6S0NHTHA3MWFMSGVoMTFLS3JKV2FVN3U2OENBU1FKUXlGY0lVUklJOF8yal9LUi1wdDVfdkJRYnpQcDBfSm9kRURnS0Z2UW5NQUNvM0tMUUIzQ194VFd3ZWRSM1laQmNEQWtkcTBpSXRYS3JKcDhwUURDSU1IazBJaVF1dVB3OFN1UDZqTkVLVmtrSFI?oc=5",
    "src_lang": "es",
    "body_orig": "Primer concierto de la banda surcoreana BTS en Chile reunió a 70 mil fanáticos - El Aragueño (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "latam",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Latinoamérica: BTS",
-   "body": "BTS presentó el tráiler oficial de sus conciertos en Buenos Aires y Sao Paulo - El Comercio Perú (Google Noticias)",
-   "title_en": "Latin America: BTS",
-   "body_en": "BTS presented the official trailer of its concerts in Buenos Aires and Sao Paulo - El Comercio Peru (Google News)",
-   "when": "2026-10-16T13:20:33Z",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSm1xd0dXc19sMWtJdzJ2ZTNHcXZ1d0JiTTNQMkVjV09jZFR2LTNrcXVyaGFuN0pKYXpBSURhV2lIby1VNjVXdVVCNWJJSEhxbUdFNGhqXzRRUndkTmNwU0Z3cTZuVlI2VDY5WFU5bk9JeFVCaGR4UDJ4ZHFUbHBSWGwzcFMyV0l4YkRuSGY0a2Q2NFlrR1V3N01WVGUyejEwZm5pODRqMXZuX0lJZ3lKdEpQZ3dqOG42LTJKX2lNZFNkdHl6ZDFZYUlyX3BOd2pvU29Ud0VEdDVITXMwZWU0Z2l6WS1DZFNJOGfSAeoBQVVfeXFMTkptcXdHV3NfbDFrSXcydmUzR3F2dXdCYk0zUDJFY1dPY2RUdi0za3F1cmhhbjdKSmF6QUlEYVdpSG8tVTY1V3VVQjViSUhIcW1HRTRoal80UVJ3ZE5jcFNGd3E2blZSNlQ2OVhVOW5PSXhVQmhkeFAyeGRxVGxwUlhsM3BTMldJeGJEbkhmNGtkNjRZa0dVdzdNVlRlMnoxMGZuaTg0ajF2bl9JSWd5SnRKUGd3ajhuNi0ySl9pTWRTZHR5emQxWWFJcl9wTndqb1NvVHdFRHQ1SE1zMGVlNGdpelktQ2RTSThn?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS presentó el tráiler oficial de sus conciertos en Buenos Aires y Sao Paulo - El Comercio Perú (Google Noticias)",
    "auto": true
   }
  ]

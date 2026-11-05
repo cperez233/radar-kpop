@@ -1081,7 +1081,8 @@
   "news:03718deef5683813|ntfy": "2026-11-05T08:31:48Z",
   "news:03718deef5683813|pub:radarkpop-bts-news": "2026-11-05T08:31:48Z",
   "news:03718deef5683813|foro": "2026-11-05T08:31:48Z",
-  "news:d80e74e16f50f6fa|feed": "2026-11-05T09:01:09Z"
+  "news:d80e74e16f50f6fa|feed": "2026-11-05T09:01:09Z",
+  "news:b871e1efa582aeae|feed": "2026-11-05T10:01:04Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1968,9 +1969,6 @@
   }
  },
  "news_seen": [
-  "693284d097c750f7",
-  "695ae0f359776523",
-  "696faf6aaf894cd1",
   "698adc0a155742c7",
   "69920cf4419778b9",
   "69aae99a7c445ce1",
@@ -2335,6 +2333,7 @@
   "a9d9454ce93c6e21",
   "aa252b6cb401facd",
   "aa2e9b982ea9443b",
+  "aa3a90c3ee991629",
   "aa43f8e08837f26d",
   "aa98cec9e853de04",
   "ab11224b98b43419",
@@ -2412,6 +2411,7 @@
   "b7d7cf59af0f01aa",
   "b80d16c4c952e358",
   "b81687ac8f169694",
+  "b871e1efa582aeae",
   "b8b8bc3df5793fd2",
   "b93fa8117cc10d17",
   "b944d67a91068117",
@@ -2624,6 +2624,7 @@
   "dfbb17bf28defa09",
   "dfd57fd34c7c39b8",
   "e0188d1ce76adebb",
+  "e02a3496ca9f6d45",
   "e099f8c2b6b5b319",
   "e0a35b48a10bf225",
   "e16c2722db5e4c89",
@@ -2770,22 +2771,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "asistio",
-    "brasil",
-    "concierto",
-    "familia",
-    "iban",
-    "neymar",
-    "ocasion",
-    "pequenos",
-    "totalmente",
-    "vestidos"
-   ],
-   "t": "2026-11-03T09:46:15Z"
-  },
   {
    "g": "skz",
    "w": [
