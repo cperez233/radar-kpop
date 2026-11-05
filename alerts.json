@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-05T00:01:08Z",
+ "updated_at": "2026-11-05T01:01:13Z",
  "alerts": [
+  {
+   "type": "latam",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Latinoamérica: Stray Kids",
+   "body": "‘Stray Kids World Tour RUN IT’: Cómo ver desde México el concierto de la banda de K-pop en Japón - SensaCine.com.mx (Google Noticias)",
+   "title_en": "Latin America: Stray Kids",
+   "body_en": "'Stray Kids World Tour RUN IT': How to watch the K-pop band's concert in Japan from Mexico - SensaCine.com.mx (Google News)",
+   "when": "2026-11-04T23:15:00Z",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTX3J1WXpaR21IcTNGOEEyTVl3ODRHRk8zZmZPd0kwdlF4YjY0blBWZmVCdGNVRjhDOFA3WFdxaGdiWlFBQ194bUQ1T1ZmaXB2RHJDUWlTc2h0cjlLQTdhbWdxZ2pEOFBu?oc=5",
+   "src_lang": "es",
+   "body_orig": "‘Stray Kids World Tour RUN IT’: Cómo ver desde México el concierto de la banda de K-pop en Japón - SensaCine.com.mx (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "tour",
    "group": "bts",
@@ -753,20 +767,6 @@
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbmp4M1c0ZnJHX1VOeDZtXzhpRmRQMExoZ0pWcU9uZ1ZmYkFlcXlBbDJreWtZUW81TzZiMEFjY3BDV0V3bFRmWVdVaS1fcjFKSEN1N1JkVmotaXBGZzgyS0ZEdVhYaHhOcHVSc2F1STc4UHBMZTBxcVJyZU5fZG8wRVFMa2cycUNJMFVKdnJoQVV1Q0M1SWg4MDVrb3A3MnBZNTJfOTg2UWhEZmg1RFV4VlRIdG16eUJ2UWJyaU5TVUkyb2pWaU51ZWVEVXRsVk9wNXo00gHnAUFVX3lxTE5Yek1IMDZWS3lLdU1Lc3hlV2dwb1hCbjR6VEN2djNnUkEyOGRFTnpjeFdhdGlGQU5YRW5OUWNKU1NWd01hYnhxbE5CWDIxbjdDNWx2Mmp2OUxKZ3ctTmpNdF9UM0ZtY2EwSW56d2RWUXozQ0hsc2lFTDRzSzg3NVMzUkw0aTdzS2s1ZUFMNU1jQUpQd2dWVklvNkdBOVlZdVRXb1djOTRBTEI0R0lJQUpNTFF4ZER4S0Q3Z1F1RmlNSFpvNzRyV09xclRGRFVHZHFEOGtsbjBHOXNkc1NxLV9WNnhNcDBmNA?oc=5",
    "src_lang": "es",
    "body_orig": "Ya abrieron las puertas: reportan largas filas para el segundo concierto de BTS en el Estadio Nacional - ADN Radio (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "Acciones de Hybe, la empresa detrás de BTS, se dispararon 10% ante proyecciones de resultados récord por sus giras - La Tercera (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "Shares of Hybe, the company behind BTS, soared 10% on projections of record results from its tours - La Tercera (Google News)",
-   "when": "2026-10-16T11:22:20Z",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWEtiNjdaZ0lDNjEyVzZZcVJCRkN6djR6TkI5d2pOakM3MTY5aXZ0NzNpU1ZGMmRseHNjV0w5TVhVajZ6X2IwemxIbDhJSnNSYmtMZmdmN0pBNHhSVjJMbjBxeldQQmpfX1VTZEM1bU9UaWE1blctV294LTBUMHJ5V0UtUWY0enhIcnRpcm9lTmVPYlNSdkcxWUw3eFhKNV82aWlKNXNhenVRLXFWVTc4NTNPS1IwTTlTYU5qbmN5XzZONnpKTkdpSUhiQXFSX2UyM05JQUJfbndLQVJZYXRlenZtbGMycjDSAYgCQVVfeXFMTTU3T0xOYVgyencyc1d5R1d5RmJvakthdEdaTWtoR19zQzRkVUwtVFJBcjJEb04wQnJwWFBkV1ZZU1J1X3d5WFhHQ3NMSWpXNm1zWi1vN1hDbVNzb2RJV1JTNE9uTXp6aVo1VWh0alhsS25aS0pPRXVzNFlxN2dweUhBOGJfbnhRZ1d5bWNsY1Fva3lXVngwZWRJLUZmdFJKN1JqY0gtZWdhVnltSWxXVEFRSU80MGZyVjBRUjFvNGZEVnR2czBralh6X3JuT2RadS1KX0NDN3VvYUpqVmxPeFZ4SERFcm9XZ3k1UWlISTl4aUZzRG5mWjdWYkxPR2hyMVVsM3VTUFhQ?oc=5",
-   "src_lang": "es",
-   "body_orig": "Acciones de Hybe, la empresa detrás de BTS, se dispararon 10% ante proyecciones de resultados récord por sus giras - La Tercera (Google Noticias)",
    "auto": true
   }
  ]

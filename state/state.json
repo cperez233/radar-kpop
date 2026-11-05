@@ -1067,7 +1067,11 @@
   "official:seventeen:comeback:2026-11-05|feed": "2026-11-05T00:01:15Z",
   "official:seventeen:comeback:2026-11-05|ntfy": "2026-11-05T00:01:15Z",
   "official:seventeen:comeback:2026-11-05|pub:radarkpop-seventeen-music": "2026-11-05T00:01:15Z",
-  "official:seventeen:comeback:2026-11-05|foro": "2026-11-05T00:01:15Z"
+  "official:seventeen:comeback:2026-11-05|foro": "2026-11-05T00:01:15Z",
+  "news:da32d48f351ae28f|feed": "2026-11-05T01:01:19Z",
+  "news:da32d48f351ae28f|ntfy": "2026-11-05T01:01:19Z",
+  "news:da32d48f351ae28f|pub:radarkpop-skz-news": "2026-11-05T01:01:19Z",
+  "news:da32d48f351ae28f|foro": "2026-11-05T01:01:19Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1954,8 +1958,6 @@
   }
  },
  "news_seen": [
-  "66b984ce0420cabc",
-  "66c3232359bc80e5",
   "66ddc78992bfec68",
   "66f780f89226dbac",
   "67421ba23c098381",
@@ -2581,6 +2583,7 @@
   "d8f5c6dcbac8f6e7",
   "d9371f711cd1f7f3",
   "d9cc98a52c2527d1",
+  "da32d48f351ae28f",
   "da7eb585e645e348",
   "daa18ecec0501cb9",
   "daa7e901bae86639",
@@ -2632,6 +2635,7 @@
   "e4a94de0a8275670",
   "e4b9a4b815d44b14",
   "e54b82dbd77b53aa",
+  "e5ad2bda2a82e939",
   "e614778ee510832b",
   "e677467f806e9c1f",
   "e67bf55c74caadb2",
@@ -3079,6 +3083,22 @@
     "video"
    ],
    "t": "2026-11-04T22:45:56Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "banda",
+    "concierto",
+    "desde",
+    "japon",
+    "mexico",
+    "pop",
+    "run",
+    "tour",
+    "ver",
+    "world"
+   ],
+   "t": "2026-11-05T01:01:13Z"
   }
  ],
  "discord_threads": {
