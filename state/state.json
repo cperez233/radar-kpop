@@ -1051,7 +1051,23 @@
   "news:76cafef18bc6c21a|pub:radarkpop-bts-news": "2026-11-04T22:32:17Z",
   "news:76cafef18bc6c21a|foro": "2026-11-04T22:32:17Z",
   "news:58fe34385b96a895|feed": "2026-11-04T22:32:17Z",
-  "news:6672f2b2e6bd08fa|feed": "2026-11-04T22:46:02Z"
+  "news:6672f2b2e6bd08fa|feed": "2026-11-04T22:46:02Z",
+  "official:skz:tour:2026-11-05|feed": "2026-11-05T00:01:15Z",
+  "official:skz:tour:2026-11-05|ntfy": "2026-11-05T00:01:15Z",
+  "official:skz:tour:2026-11-05|pub:radarkpop-skz-shows": "2026-11-05T00:01:15Z",
+  "official:skz:tour:2026-11-05|foro": "2026-11-05T00:01:15Z",
+  "official:twice:comeback:2026-11-05|feed": "2026-11-05T00:01:15Z",
+  "official:twice:comeback:2026-11-05|ntfy": "2026-11-05T00:01:15Z",
+  "official:twice:comeback:2026-11-05|pub:radarkpop-twice-music": "2026-11-05T00:01:15Z",
+  "official:twice:comeback:2026-11-05|foro": "2026-11-05T00:01:15Z",
+  "official:lngshot:comeback:2026-11-05|feed": "2026-11-05T00:01:15Z",
+  "official:lngshot:comeback:2026-11-05|ntfy": "2026-11-05T00:01:15Z",
+  "official:lngshot:comeback:2026-11-05|pub:radarkpop-lngshot-music": "2026-11-05T00:01:15Z",
+  "official:lngshot:comeback:2026-11-05|foro": "2026-11-05T00:01:15Z",
+  "official:seventeen:comeback:2026-11-05|feed": "2026-11-05T00:01:15Z",
+  "official:seventeen:comeback:2026-11-05|ntfy": "2026-11-05T00:01:15Z",
+  "official:seventeen:comeback:2026-11-05|pub:radarkpop-seventeen-music": "2026-11-05T00:01:15Z",
+  "official:seventeen:comeback:2026-11-05|foro": "2026-11-05T00:01:15Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2740,30 +2756,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "cortis",
-   "w": [
-    "ano",
-    "antes",
-    "brillara",
-    "debut",
-    "especial",
-    "festival",
-    "fin",
-    "fns",
-    "japon",
-    "koyukai",
-    "local",
-    "mercado",
-    "musica",
-    "oficial",
-    "participacion",
-    "pop",
-    "principal",
-    "programa"
-   ],
-   "t": "2026-11-02T23:46:58Z"
-  },
   {
    "g": "bts",
    "w": [

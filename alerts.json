@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T22:45:56Z",
+ "updated_at": "2026-11-05T00:01:08Z",
  "alerts": [
   {
    "type": "tour",
@@ -94,6 +94,20 @@
    "body_en": "𝙬𝙤𝙬 𝙨𝙤 𝙘𝙤𝙤𝙡 #StrayKids #스트레이키즈 #리노 #LeeKnow #아이엔 #I_N #YouMakeStrayKidsStay (YouTube)",
    "when": "2026-11-04T09:00:12Z",
    "url": "https://www.youtube.com/watch?v=fs61GhQuuvM"
+  },
+  {
+   "type": "official",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Anuncio oficial de LNGSHOT: comeback",
+   "body": "«'Bananas' 10/11 6PM KST EP #SWISH reserva y reserva anticipada https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
+   "title_en": "Official LNGSHOT news: comeback",
+   "body_en": "«'Bananas' 11/10 6PM KST EP #SWISH pre-order & pre-save https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
+   "when": "2026-11-04T09:00:01Z",
+   "url": "https://x.com/LNGSHOT4sho/status/2117904688276537697",
+   "src_lang": "en",
+   "body_orig": "«'Bananas' 11/10 6PM KST EP #SWISH pre-order & pre-save https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
+   "auto": true
   },
   {
    "type": "video",
@@ -302,6 +316,20 @@
    "auto": true
   },
   {
+   "type": "official",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Anuncio oficial de Stray Kids: gira",
+   "body": "«¡Lleva la emoción de Stray Kids World Tour <RUN IT> a la pantalla! ¡Nos vemos en el teatro este sábado!✨ Comparte la energía del Stray Kids World Tour <RUN IT> en el cine...» (Stray Kids en X).",
+   "title_en": "Official Stray Kids news: tour",
+   "body_en": "«Bring the excitement of Stray Kids World Tour <RUN IT> to the screen! See you at the theater this Saturday!✨ Share the energy of the Stray Kids World Tour <RUN IT> in cinema...» (Stray Kids en X).",
+   "when": "2026-11-03T14:00:01Z",
+   "url": "https://x.com/Stray_Kids/status/2117617800080765229",
+   "src_lang": "ko",
+   "body_orig": "«Stray Kids World Tour <RUN IT>의 열기를 스크린으로! 이번 주 토요일, 극장에서 만나요!✨ Share the energy of the Stray Kids World Tour <RUN IT> in cinem...» (Stray Kids en X).",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "cortis",
    "group_name": "CORTIS",
@@ -322,6 +350,20 @@
    "body_en": "이오, 코타로 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
    "when": "2026-11-03T10:00:31Z",
    "url": "https://www.youtube.com/watch?v=LqdkGvhJLwE"
+  },
+  {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: comeback",
+   "body": "«[NOTICIA] Se ha estrenado ‘AUTOMATIC’ de Seventeen Dino. Les pedimos mucho cariño a Carats. Melón ▶️ https://www.melon.com/album/detail.htm?albumId=1511...» (SEVENTEEN en X).",
+   "title_en": "Official SEVENTEEN news: comeback",
+   "body_en": "«[NEWS] Seventeen Dino’s ‘AUTOMATIC’ has been released. We ask for lots of love from Carats. Melon ▶️ https://www.melon.com/album/detail.htm?albumId=1511...» (SEVENTEEN en X).",
+   "when": "2026-11-03T09:08:37Z",
+   "url": "https://x.com/pledis_17/status/2117544464407470314",
+   "src_lang": "ko",
+   "body_orig": "«[NEWS] 세븐틴 디노의 'AUTOMATIC'이 발매되었습니다. 캐럿 여러분의 많은 사랑 부탁드립니다. 멜론 ▶️ https://www.melon.com/album/detail.htm?albumId=1511...» (SEVENTEEN en X).",
+   "auto": true
   },
   {
    "type": "official",
@@ -458,6 +500,20 @@
    "url": "https://x.com/ATEEZofficial/status/2117270786562248854",
    "src_lang": "ko",
    "body_orig": "«[📷] ATEEZ(에이티즈) GOLDEN HOUR : Part.6 Concept Photo 4 #JONGHO #종호 2026. 11. 13 2PM RELEASE 📎Pre-save/add: https://ateez.sng.to/golden-hour-...» (ATEEZ en X).",
+   "auto": true
+  },
+  {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«CALENDARIO DEL TÍTULO DE LA PISTA TÍTULO \"BABY ANGEL\" DE NAYEON SINGLE “NA-sty” 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KS...» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«NAYEON SINGLE “NA-sty” TITLE TRACK \"BABY ANGEL\" TIMETABLE 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KS...» (TWICE en X).",
+   "when": "2026-11-02T13:00:02Z",
+   "url": "https://x.com/JYPETWICE/status/2117240316856295433",
+   "src_lang": "en",
+   "body_orig": "«NAYEON SINGLE “NA-sty” TITLE TRACK \"BABY ANGEL\" TIMETABLE 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KS...» (TWICE en X).",
    "auto": true
   },
   {
@@ -712,53 +768,6 @@
    "src_lang": "es",
    "body_orig": "Acciones de Hybe, la empresa detrás de BTS, se dispararon 10% ante proyecciones de resultados récord por sus giras - La Tercera (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "Try to beat JOSHUA 🎮 #JxJ #정한X조슈아 #DREAMSCAPE #Dream_w_JxJ #12oclock (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "Try to beat JOSHUA 🎮 #JxJ #정한X조슈아 #DREAMSCAPE #Dream_w_JxJ #12oclock (YouTube)",
-   "when": "2026-10-16T11:00:15Z",
-   "url": "https://www.youtube.com/watch?v=X-Irlu8_Cy4"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "슥~ 피하기 #SUNGHOON #SUNOO #ENHYPEN (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "슥~ 피하기 #SUNGHOON #SUNOO #ENHYPEN (YouTube)",
-   "when": "2026-10-16T10:29:12Z",
-   "url": "https://www.youtube.com/watch?v=D3mzJLtI878"
-  },
-  {
-   "type": "latam",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Latinoamérica: BTS",
-   "body": "Cansaron hasta a las ARMY: BTS arrasa en el primero de tres conciertos en Chile - BioBioChile (Google Noticias)",
-   "title_en": "Latin America: BTS",
-   "body_en": "They even tired the ARMY: BTS ravages the first of three concerts in Chile - BioBioChile (Google News)",
-   "when": "2026-10-16T10:09:25Z",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMEpCMVpmN1gxVmxQc1lJYy1OdlVvQy1IOGZQQUlNT0pWekxCYkJEUW9NT2pZQjFTeEJ5d1lOVF9OQ1d3c2ZYMi1YMUNTSjhtOXhKQVlkdWx3M2NRWU1taFk0dWtxOEc3UHcySV9IRnFfVzhSUGdMT1dYZDFVd3R3TEZBdVd6eFFVNkh4bjVVWEtrZEw1QXNyaGhSSFVFQ1kwY1hUMnNKN0tNelBWTzRsaUdIT09Ea0ZkNGU3elh0eFBEWUFKTDVJN3pVdTFTTVFNWHZfUDMwVno2c3RLakczMnB1MUJhdklBVEI2WHVGY2FlYmJybWVnVTdNSQ?oc=5",
-   "src_lang": "es",
-   "body_orig": "Cansaron hasta a las ARMY: BTS arrasa en el primero de tres conciertos en Chile - BioBioChile (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "[Choreography Video] 호시 (HOSHI) - ‘BOYFRIEND' (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "[Choreography Video] 호시 (HOSHI) - ‘BOYFRIEND' (YouTube)",
-   "when": "2026-10-16T10:09:25Z",
-   "url": "https://www.youtube.com/watch?v=QYUArW-pGBI"
   }
  ]
 }
