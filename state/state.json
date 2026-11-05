@@ -1097,7 +1097,11 @@
   "gone:ateez-tm-vvG1zZ_pKJ046f|feed": "2026-11-05T14:46:06Z",
   "gone:ateez-tm-vvG1zZ_pKJ046f|ntfy": "2026-11-05T14:46:06Z",
   "gone:ateez-tm-vvG1zZ_pKJ046f|pub:radarkpop-ateez-shows": "2026-11-05T14:46:06Z",
-  "gone:ateez-tm-vvG1zZ_pKJ046f|foro": "2026-11-05T14:46:06Z"
+  "gone:ateez-tm-vvG1zZ_pKJ046f|foro": "2026-11-05T14:46:06Z",
+  "news:de54a24554f9039d|feed": "2026-11-05T17:32:42Z",
+  "news:de54a24554f9039d|ntfy": "2026-11-05T17:32:42Z",
+  "news:de54a24554f9039d|pub:radarkpop-bts-news": "2026-11-05T17:32:42Z",
+  "news:de54a24554f9039d|foro": "2026-11-05T17:32:42Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1984,7 +1988,6 @@
   }
  },
  "news_seen": [
-  "6babd42ae1957d5b",
   "6bbcfae7a465dc47",
   "6c606ff373826a12",
   "6ca044fd3f407569",
@@ -2623,6 +2626,7 @@
   "dd67fee50bfd65ad",
   "dd738eb382ccf8ec",
   "ddcb9dee605c4307",
+  "de54a24554f9039d",
   "de5be50aeee3978e",
   "de84b9dba50e60a1",
   "deb871d83eaff2cc",
@@ -3079,6 +3083,23 @@
     "viajeros"
    ],
    "t": "2026-11-05T08:31:42Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "billboard",
+    "contra",
+    "demanda",
+    "exito",
+    "llego",
+    "numero",
+    "plagio",
+    "retiraron",
+    "supuesto",
+    "swim",
+    "uno"
+   ],
+   "t": "2026-11-05T17:32:36Z"
   }
  ],
  "discord_threads": {

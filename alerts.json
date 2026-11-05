@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-05T14:45:59Z",
+ "updated_at": "2026-11-05T17:32:36Z",
  "alerts": [
+  {
+   "type": "arrival",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Llegada reportada: BTS",
+   "body": "BTS: retiraron la demanda por supuesto plagio contra Swim, el éxito que llegó al número uno de Billboard - Aire de Santa Fe (Google Noticias). Lo reporta la prensa, no es confirmación oficial.",
+   "title_en": "Reported arrival: BTS",
+   "body_en": "BTS: retiraron la demanda por supuesto plagio contra Swim, el éxito que llegó al número uno de Billboard - Aire de Santa Fe (Google Noticias). Reported by the press, not an official confirmation.",
+   "when": "2026-11-05T17:18:00Z",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQMlZpdFhxX0Q4MjFDVzJtMTdsQm1udWpPdWx4cGNqX2pWblh0VzAyQl9jNF9FQUp2NUR2UzN1LUdFcWZ1YmM0Yl8tN3FnOFdUNnZoYm5RN1RNeEt5Tk5UTE5VZ3FTNXg1SGlQRUdWMXYyeDNOQV9tRWZwM3QxNHppcmNzcS1Genpfd1d1Nm9BaTZPY0tPWGt1aGozVml0d2FQVWNMQVNMNzBFMmdLcXc4aUduVTFqOGRqd2dVQVdoV1U2SlZhX0JhY2NSdGlVUWsyN25SZHdwUG41bV8xdzBwblAzMTFmQUVH?oc=5"
+  },
   {
    "type": "removed",
    "group": "ateez",
@@ -745,20 +756,6 @@
    "body_en": "사랑이라는 이유로 아파할 수 없어 난 | 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지 Cover by #승민 #한로로 #StrayKids #SONGby #송바이 (YouTube)",
    "when": "2026-11-01T05:00:05Z",
    "url": "https://www.youtube.com/watch?v=CReJVnojbtQ"
-  },
-  {
-   "type": "latam",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Latinoamérica: BTS",
-   "body": "BTS en Argentina: El pedido de higiene que se volvió viral antes del concierto - Indie Hoy (Google Noticias)",
-   "title_en": "Latin America: BTS",
-   "body_en": "BTS in Argentina: The hygiene order that went viral before the concert - Indie Hoy (Google News)",
-   "when": "2026-10-16T20:30:00Z",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQXE1V0prWmRmLXlPUjlQWVJ5Y1NoS0x0dmhDT3huQ0lwQXMtU0xfenVVYWhtdUNSd3ZELTY0WUxQTzNLanVKVWlScDJ5ODVDMGdYY3g0U1lDZS1aZ2NPckNEUi1Ea1NkZGRPc2Q0bFJ6R2xYaHJZLXdqTXR1SE1vc3BHUFJzVThxNkhtRGtCQjcxckQtcGhrMGJFM0FiWEI2b0MxUm82Q1RCWnNHbGVMYi1lVnnSAbQBQVVfeXFMUEFxNVdKa1pkZi15T1I5UFlSeWNTaEtMdHZoQ094bkNJcEFzLVNMX3p1VWFobXVDUnd2RC02NFlMUE8zS2p1SlVpUnAyeTg1QzBnWGN4NFNZQ2UtWmdjT3JDRFItRGtTZGRkT3NkNGxSekdsWGhyWS13ak10dUhNb3NwR1BSc1U4cTZIbURrQkI3MXJELXBoazBiRTNBYlhCNm9DMVJvNkNUQlpzR2xlTGItZVZ5?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS en Argentina: El pedido de higiene que se volvió viral antes del concierto - Indie Hoy (Google Noticias)",
-   "auto": true
   }
  ]
 }
