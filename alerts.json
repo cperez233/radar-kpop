@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-05T03:01:06Z",
+ "updated_at": "2026-11-05T08:15:56Z",
  "alerts": [
+  {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[📢] Calendario conmemorativo de lanzamiento por goteo de ATEEZ STATIONHEAD y verificación de asistencia Información de solicitud de participación en EVENTOS 🔗 https://bit.ly/3WKXqUA 📅 Fecha límite de solicitud: ~ 2026.11.12...» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
+   "body_en": "«[📢] ATEEZ Drip release commemorative STATIONHEAD scheduler and attendance check EVENT participation application information 🔗 https://bit.ly/3WKXqUA 📅 Application deadline: ~ 2026.11.12 ...» (ATEEZ en X).",
+   "when": "2026-11-05T08:05:12Z",
+   "url": "https://x.com/ATEEZofficial/status/2118253281902502316",
+   "src_lang": "ko",
+   "body_orig": "«[📢] ATEEZ(에이티즈) Drip 발매 기념 STATIONHEAD 스케줄러 및 출석 체크 EVENT 참여 응모 안내 🔗 https://bit.ly/3WKXqUA 📅 응모 기한: ~ 2026.11.12 ...» (ATEEZ en X).",
+   "auto": true
+  },
   {
    "type": "latam",
    "group": "skz",
@@ -757,17 +771,6 @@
    "body_en": "꿈이 시작된 순간을 기억하나요? #아이유 #이별로부터_Challenge #JxJ #정한X조슈아 #DREAMSCAPE (YouTube)",
    "when": "2026-10-16T12:00:20Z",
    "url": "https://www.youtube.com/watch?v=x4n42iX_ywE"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Nuevo video: CORTIS",
-   "body": "relay cam LA (YouTube)",
-   "title_en": "New video: CORTIS",
-   "body_en": "relay cam LA (YouTube)",
-   "when": "2026-10-16T12:00:01Z",
-   "url": "https://www.youtube.com/watch?v=ISkAWt8_aqI"
   }
  ]
 }

@@ -1072,7 +1072,11 @@
   "news:da32d48f351ae28f|ntfy": "2026-11-05T01:01:19Z",
   "news:da32d48f351ae28f|pub:radarkpop-skz-news": "2026-11-05T01:01:19Z",
   "news:da32d48f351ae28f|foro": "2026-11-05T01:01:19Z",
-  "news:320c70351f2d0401|feed": "2026-11-05T03:01:13Z"
+  "news:320c70351f2d0401|feed": "2026-11-05T03:01:13Z",
+  "official:ateez:comeback:2026-11-05|feed": "2026-11-05T08:16:02Z",
+  "official:ateez:comeback:2026-11-05|ntfy": "2026-11-05T08:16:02Z",
+  "official:ateez:comeback:2026-11-05|pub:radarkpop-ateez-music": "2026-11-05T08:16:02Z",
+  "official:ateez:comeback:2026-11-05|foro": "2026-11-05T08:16:02Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1959,7 +1963,6 @@
   }
  },
  "news_seen": [
-  "6878484edabcd248",
   "6885f724f3620bb3",
   "6898b544ad664ce0",
   "68fbd55d95a91b44",
@@ -2337,6 +2340,7 @@
   "ab4a9fbee2c772ac",
   "ab624af630b4206d",
   "ab75bc8b945a1300",
+  "ab8989d5f6c32ea4",
   "abdeb0f301c8f868",
   "abefc6be303eac9d",
   "ac24c66799df7986",
