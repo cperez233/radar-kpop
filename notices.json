@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T09:45:49Z",
+ "updated_at": "2026-11-06T04:00:52Z",
  "groups": {
   "lngshot": [
    {
@@ -135,6 +135,13 @@
   ],
   "cortis": [
    {
+    "title": "[Vote] MMA2026 부문별 투표 D-7 📲 Melon ( ❤️ 올해의 베스트송 → 'REDRED' 투표 🗳️ 올...",
+    "url": "https://weverse.io/cortis/notice/40456?hl=ko",
+    "post": "https://x.com/cortis_bighit/status/2118553964631433646",
+    "when": "2026-11-06T04:00:00Z",
+    "weverse": true
+   },
+   {
     "title": "[Vote] MMA2026 부문별 투표 진행 중 ~11/13 📲 Melon ( 💚 올해의 베스트송 → 'REDRED' 투...",
     "url": "https://weverse.io/cortis/notice/40456?hl=ko",
     "post": "https://x.com/cortis_bighit/status/2117914871937593563",
@@ -167,13 +174,6 @@
     "url": "https://weverse.io/cortis/notice/40216",
     "post": "https://x.com/cortis_bighit/status/2113160926258135262",
     "when": "2026-10-22T06:50:00Z",
-    "weverse": true
-   },
-   {
-    "title": "[Notice] CORTIS 2026 MAMA AWARDS 투표 인증 온라인 이벤트 안내",
-    "url": "https://weverse.io/cortis/notice/40215",
-    "post": "https://x.com/cortis_bighit/status/2112129352808996908",
-    "when": "2026-10-19T10:30:53Z",
     "weverse": true
    }
   ]
