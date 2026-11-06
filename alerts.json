@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-06T14:01:03Z",
+ "updated_at": "2026-11-06T15:01:11Z",
  "alerts": [
+  {
+   "type": "birthday",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "🎂 Hoy cumple Hongjoong (ATEEZ)",
+   "body": "Cumple 28 años. ¡생일 축하해, Hongjoong!",
+   "title_en": "🎂 It's Hongjoong's birthday (ATEEZ)",
+   "body_en": "Turning 28. Happy birthday, Hongjoong! 생일 축하해!",
+   "when": "2026-11-06T15:01:11Z",
+   "url": null
+  },
+  {
+   "type": "birthday",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "🎂 Hoy cumple THE 8 (SEVENTEEN)",
+   "body": "Cumple 29 años. ¡생일 축하해, THE 8!",
+   "title_en": "🎂 It's THE 8's birthday (SEVENTEEN)",
+   "body_en": "Turning 29. Happy birthday, THE 8! 생일 축하해!",
+   "when": "2026-11-06T15:01:11Z",
+   "url": null
+  },
   {
    "type": "video",
    "group": "enhypen",
@@ -706,34 +728,6 @@
    "url": "https://x.com/LNGSHOT4sho/status/2117632904041726259",
    "src_lang": "en",
    "body_orig": "«D-6. Going #Bananas. EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. https://lngshot.lnk.to/SWISH #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«D-6. Vamos #Plátanos. EP [S.W.I.S.H.] 10/11 6PM KST #SWISH reserva y reserva ahora. https://lngshot.lnk.to/SWISH #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "«D-6. Going #Bananas. EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. https://lngshot.lnk.to/SWISH #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "when": "2026-11-03T15:00:02Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2117632904041726259",
-   "src_lang": "en",
-   "body_orig": "«D-6. Going #Bananas. EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. https://lngshot.lnk.to/SWISH #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Anuncio oficial de Stray Kids: gira",
-   "body": "«¡Lleva la emoción de Stray Kids World Tour <RUN IT> a la pantalla! ¡Nos vemos en el teatro este sábado!✨ Comparte la energía del Stray Kids World Tour <RUN IT> en el cine...» (Stray Kids en X).",
-   "title_en": "Official Stray Kids news: tour",
-   "body_en": "«Bring the excitement of Stray Kids World Tour <RUN IT> to the screen! See you at the theater this Saturday!✨ Share the energy of the Stray Kids World Tour <RUN IT> in cinema...» (Stray Kids en X).",
-   "when": "2026-11-03T14:00:01Z",
-   "url": "https://x.com/Stray_Kids/status/2117617800080765229",
-   "src_lang": "ko",
-   "body_orig": "«Stray Kids World Tour <RUN IT>의 열기를 스크린으로! 이번 주 토요일, 극장에서 만나요!✨ Share the energy of the Stray Kids World Tour <RUN IT> in cinem...» (Stray Kids en X).",
    "auto": true
   }
  ]

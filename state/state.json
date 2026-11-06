@@ -1157,7 +1157,15 @@
   "news:1e1cf78f7a498705|feed": "2026-11-06T12:01:10Z",
   "news:cf2ea6bb4a5b4c4c|feed": "2026-11-06T12:01:10Z",
   "news:b34b484780bc10c8|feed": "2026-11-06T12:16:04Z",
-  "news:006781628e685b5f|feed": "2026-11-06T14:01:10Z"
+  "news:006781628e685b5f|feed": "2026-11-06T14:01:10Z",
+  "bday:ateez:hongjoong:2026|feed": "2026-11-06T15:01:18Z",
+  "bday:ateez:hongjoong:2026|ntfy": "2026-11-06T15:01:18Z",
+  "bday:ateez:hongjoong:2026|pub:radarkpop-ateez-members": "2026-11-06T15:01:18Z",
+  "bday:ateez:hongjoong:2026|foro": "2026-11-06T15:01:18Z",
+  "bday:seventeen:the8:2026|feed": "2026-11-06T15:01:18Z",
+  "bday:seventeen:the8:2026|ntfy": "2026-11-06T15:01:18Z",
+  "bday:seventeen:the8:2026|pub:radarkpop-seventeen-members": "2026-11-06T15:01:18Z",
+  "bday:seventeen:the8:2026|foro": "2026-11-06T15:01:18Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2044,7 +2052,6 @@
   }
  },
  "news_seen": [
-  "71e16bffec9be3c1",
   "721b64b16310b5eb",
   "725f136b39c51e27",
   "7279678afb1a1c5c",
@@ -2359,6 +2366,7 @@
   "a73aadf8e148129b",
   "a78a9de10042d21d",
   "a794ae4c64fd2d6f",
+  "a7b2c40dcbc8416b",
   "a7b638c367aedcd0",
   "a7b9098c7e2fd9f6",
   "a7cb8b43fec1871e",
