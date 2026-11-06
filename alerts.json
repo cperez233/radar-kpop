@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-06T10:32:34Z",
+ "updated_at": "2026-11-06T12:01:05Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "아이돌 필수 교양 과목 (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "아이돌 필수 교양 과목 (YouTube)",
+   "when": "2026-11-06T12:00:24Z",
+   "url": "https://www.youtube.com/watch?v=LelaHYkBebc"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "다영 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "다영 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "when": "2026-11-06T12:00:09Z",
+   "url": "https://www.youtube.com/watch?v=waDkNVkTkCU"
+  },
   {
    "type": "video",
    "group": "seventeen",
@@ -719,28 +741,6 @@
    "src_lang": "ko",
    "body_orig": "«Stray Kids World Tour <RUN IT>의 열기를 스크린으로! 이번 주 토요일, 극장에서 만나요!✨ Share the energy of the Stray Kids World Tour <RUN IT> in cinem...» (Stray Kids en X).",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Nuevo video: CORTIS",
-   "body": "PYPD NA tour 2 (YouTube)",
-   "title_en": "New video: CORTIS",
-   "body_en": "PYPD NA tour 2 (YouTube)",
-   "when": "2026-11-03T11:59:58Z",
-   "url": "https://www.youtube.com/watch?v=ODo-pDMzm1Q"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "이오, 코타로 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "이오, 코타로 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "when": "2026-11-03T10:00:31Z",
-   "url": "https://www.youtube.com/watch?v=LqdkGvhJLwE"
   }
  ]
 }

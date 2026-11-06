@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T11:00:41Z",
+ "updated_at": "2026-11-06T12:00:44Z",
  "sample": false,
  "items": [
   {
@@ -106,12 +106,30 @@
   },
   {
    "type": "video",
+   "group": "enhypen",
+   "title": "아이돌 필수 교양 과목",
+   "date": "2026-11-06",
+   "published": "2026-11-06T12:00:24Z",
+   "url": "https://www.youtube.com/watch?v=LelaHYkBebc",
+   "image": "https://i.ytimg.com/vi/LelaHYkBebc/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "cortis",
    "title": "xiao long bao 🤌 #CORTIS #코르티스",
    "date": "2026-11-06",
    "published": "2026-11-06T09:00:00Z",
    "url": "https://www.youtube.com/watch?v=quj-6rG3K_k",
    "image": "https://i.ytimg.com/vi/quj-6rG3K_k/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "다영 선배님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-06",
+   "published": "2026-11-06T12:00:09Z",
+   "url": "https://www.youtube.com/watch?v=waDkNVkTkCU",
+   "image": "https://i.ytimg.com/vi/waDkNVkTkCU/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -175,15 +193,6 @@
    "published": "2026-11-05T12:00:21Z",
    "url": "https://www.youtube.com/watch?v=R5AZB8yMG1E",
    "image": "https://i.ytimg.com/vi/R5AZB8yMG1E/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) 민기 - TINY ISLAND 82WORLD:LA LISTENING PARTY FULLSET",
-   "date": "2026-11-05",
-   "published": "2026-11-05T10:00:02Z",
-   "url": "https://www.youtube.com/watch?v=Mj3IO9ZCMpU",
-   "image": "https://i.ytimg.com/vi/Mj3IO9ZCMpU/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -265,15 +274,6 @@
    "published": "2026-10-30T09:59:59Z",
    "url": "https://www.youtube.com/watch?v=Z4hrFgiZHVo",
    "image": "https://i.ytimg.com/vi/Z4hrFgiZHVo/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "짝수년도 차례입니다",
-   "date": "2026-10-30",
-   "published": "2026-10-30T12:00:52Z",
-   "url": "https://www.youtube.com/watch?v=l_DBejkRi3E",
-   "image": "https://i.ytimg.com/vi/l_DBejkRi3E/hqdefault.jpg"
   },
   {
    "type": "video",
