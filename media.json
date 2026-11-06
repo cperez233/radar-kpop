@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T12:00:44Z",
+ "updated_at": "2026-11-06T12:15:35Z",
  "sample": false,
  "items": [
   {
@@ -107,6 +107,15 @@
   {
    "type": "video",
    "group": "enhypen",
+   "title": "민초: 갑자기 저요...?",
+   "date": "2026-11-06",
+   "published": "2026-11-06T12:01:29Z",
+   "url": "https://www.youtube.com/watch?v=yMjiPULU_gc",
+   "image": "https://i.ytimg.com/vi/yMjiPULU_gc/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
    "title": "아이돌 필수 교양 과목",
    "date": "2026-11-06",
    "published": "2026-11-06T12:00:24Z",
@@ -175,15 +184,6 @@
    "published": "2026-11-05T13:59:48Z",
    "url": "https://www.youtube.com/watch?v=3GZc-9fqRLg",
    "image": "https://i.ytimg.com/vi/3GZc-9fqRLg/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "선우 한정 무한 수용 | 내 이름은 김선우 EP.3 | ENHYPEN SUNOO",
-   "date": "2026-11-05",
-   "published": "2026-11-05T11:59:57Z",
-   "url": "https://www.youtube.com/watch?v=H_msEeZhETY",
-   "image": "https://i.ytimg.com/vi/H_msEeZhETY/hqdefault.jpg"
   },
   {
    "type": "video",
