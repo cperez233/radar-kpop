@@ -1170,7 +1170,11 @@
   "news:51c01ab8f49f6b74|ntfy": "2026-11-06T15:32:06Z",
   "news:51c01ab8f49f6b74|pub:radarkpop-bts-news": "2026-11-06T15:32:06Z",
   "news:51c01ab8f49f6b74|foro": "2026-11-06T15:32:06Z",
-  "news:105c57973c7b15da|feed": "2026-11-06T16:01:15Z"
+  "news:105c57973c7b15da|feed": "2026-11-06T16:01:15Z",
+  "news:53b9387c9e7087f9|feed": "2026-11-06T17:31:54Z",
+  "news:53b9387c9e7087f9|ntfy": "2026-11-06T17:31:54Z",
+  "news:53b9387c9e7087f9|pub:radarkpop-skz-news": "2026-11-06T17:31:54Z",
+  "news:53b9387c9e7087f9|foro": "2026-11-06T17:31:54Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3156,6 +3160,20 @@
     "suma"
    ],
    "t": "2026-11-06T15:32:00Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "cines",
+    "live",
+    "llega",
+    "mexicali",
+    "run",
+    "tour",
+    "viewing",
+    "world"
+   ],
+   "t": "2026-11-06T17:31:48Z"
   }
  ],
  "discord_threads": {
