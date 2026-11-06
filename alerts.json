@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-06T02:01:06Z",
+ "updated_at": "2026-11-06T03:32:44Z",
  "alerts": [
+  {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[📰] ATEEZ, cuenta regresiva para su regreso... Se revela la canción principal ‘Up’ https://naver.me/FNtUVmUZ #ATEEZ #ATEEZ #GOLDENHOUR #GOLDENHOUR_Part6» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
+   "body_en": "«[📰] ATEEZ, counting down to comeback... Title song ‘Up’ unveiled https://naver.me/FNtUVmUZ #ATEEZ #ATEEZ #GOLDENHOUR #GOLDENHOUR_Part6» (ATEEZ en X).",
+   "when": "2026-11-06T03:22:30Z",
+   "url": "https://x.com/ATEEZofficial/status/2118544524956045428",
+   "src_lang": "ko",
+   "body_orig": "«[📰] 에이티즈, 컴백 초읽기…타이틀곡 '업' 베일 벗었다 https://naver.me/FNtUVmUZ #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOUR_Part6» (ATEEZ en X).",
+   "auto": true
+  },
   {
    "type": "comeback",
    "group": "twice",
@@ -744,20 +758,6 @@
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcHIxTjVTU2JRMDE0ZTlJdmxGcGdqRjZEZzhUTWtaMHF2WERmY29vd25uSkpMc2JFWVcxSnZENm16VWY3T2wxWTM4QkdYaEFQUlpRSGthcWhrNWM5SkFBSEpCUURFSHYzVTJDU2JpTndQQ3laRVVNcEhMeW9CMGsxMENTMVlFUDlsdkk0TGI0czE?oc=5",
    "src_lang": "es",
    "body_orig": "BTS en Cinépolis y Cinemex 2026: Dónde y cuándo comprar boletos para la gira Arirang - Grupo Animal (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "El grupo surcoreano BTS concluye su gira en Latinoamérica - El Potosí (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "The South Korean group BTS concludes its tour in Latin America - El Potosí (Google News)",
-   "when": "2026-11-02T20:47:00Z",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2pEbFR0dEFfMG5fUXI1UEIxNV8xWmNXX2pidGxkeXhPdmw4MU1PaC1iOHl0dHc2UEV5bzNoUGNNbklvcE4yalNOLU4tUk8tUUxERFBmUk1WWHFvQ3d3cTVHSkNwa0lfYkxFVkNTaUJtOHhGUjFDeE5HcjI4TGY4UloweW13d3N1VEltWC1JYkd6MXFfVFdIQ1RWTkIwdnc?oc=5",
-   "src_lang": "es",
-   "body_orig": "El grupo surcoreano BTS concluye su gira en Latinoamérica - El Potosí (Google Noticias)",
    "auto": true
   }
  ]

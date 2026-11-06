@@ -1138,7 +1138,11 @@
   "rel:twice:2026-11-06|feed": "2026-11-06T02:01:11Z",
   "rel:twice:2026-11-06|ntfy": "2026-11-06T02:01:11Z",
   "rel:twice:2026-11-06|pub:radarkpop-twice-music": "2026-11-06T02:01:11Z",
-  "rel:twice:2026-11-06|foro": "2026-11-06T02:01:11Z"
+  "rel:twice:2026-11-06|foro": "2026-11-06T02:01:11Z",
+  "official:ateez:comeback:2026-11-06|feed": "2026-11-06T03:32:51Z",
+  "official:ateez:comeback:2026-11-06|ntfy": "2026-11-06T03:32:51Z",
+  "official:ateez:comeback:2026-11-06|pub:radarkpop-ateez-music": "2026-11-06T03:32:51Z",
+  "official:ateez:comeback:2026-11-06|foro": "2026-11-06T03:32:51Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2025,7 +2029,6 @@
   }
  },
  "news_seen": [
-  "6c606ff373826a12",
   "6ca044fd3f407569",
   "6cada0d38b8d8626",
   "6d31b59d502cb9a9",
@@ -2629,6 +2632,7 @@
   "d712a982ac98a8b0",
   "d731a77b46af8754",
   "d7327de7886578d2",
+  "d74be4079c7ff4f2",
   "d7b5b9ed9645a52c",
   "d7d675a5f3e67d14",
   "d7d7d39efa0051dc",
