@@ -2040,7 +2040,6 @@
   }
  },
  "news_seen": [
-  "707064956392e585",
   "70724f52b625a317",
   "70f9091478744a16",
   "710fe2ae1798bc9f",
@@ -2125,6 +2124,7 @@
   "7e0e1b6d2124d962",
   "7eac8580136709cb",
   "7ebbb187fd0730fc",
+  "7f8356c08cc07eff",
   "7f98c79271441a58",
   "7fa6451f2247d252",
   "7fab5ac364031e2e",
@@ -3118,6 +3118,27 @@
     "solo"
    ],
    "t": "2026-11-06T09:46:01Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "ahorrando",
+    "anos",
+    "autobus",
+    "cruzando",
+    "cultural",
+    "extranjeros",
+    "eyes",
+    "frontera",
+    "gira",
+    "horas",
+    "medios",
+    "peregrinacion",
+    "ruta",
+    "segun",
+    "seis"
+   ],
+   "t": "2026-11-06T10:45:58Z"
   }
  ],
  "discord_threads": {
