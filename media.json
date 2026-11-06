@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T08:00:39Z",
+ "updated_at": "2026-11-06T09:00:44Z",
  "sample": false,
  "items": [
   {
@@ -67,6 +67,33 @@
     }
    ],
    "sp_try": "2026-11-06"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "저기.. 내일 바나나 팔아요? Ok Ok👌 #LNGSHOT #Bananas #SWISH",
+   "date": "2026-11-06",
+   "published": "2026-11-06T09:00:16Z",
+   "url": "https://www.youtube.com/watch?v=oXEI_u8A3I8",
+   "image": "https://i.ytimg.com/vi/oXEI_u8A3I8/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "도겸과 정한 〈정답 없는 여행〉 Official Teaser",
+   "date": "2026-11-06",
+   "published": "2026-11-06T09:00:12Z",
+   "url": "https://www.youtube.com/watch?v=q01ZbhCX5IE",
+   "image": "https://i.ytimg.com/vi/q01ZbhCX5IE/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "xiao long bao 🤌 #CORTIS #코르티스",
+   "date": "2026-11-06",
+   "published": "2026-11-06T09:00:00Z",
+   "url": "https://www.youtube.com/watch?v=quj-6rG3K_k",
+   "image": "https://i.ytimg.com/vi/quj-6rG3K_k/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -169,15 +196,6 @@
   },
   {
    "type": "video",
-   "group": "seventeen",
-   "title": "[GOING SEVENTEEN] EP.165 WHO ARE YOU? #2",
-   "date": "2026-11-04",
-   "published": "2026-11-04T11:58:08Z",
-   "url": "https://www.youtube.com/watch?v=Ibcb6Gl32qk",
-   "image": "https://i.ytimg.com/vi/Ibcb6Gl32qk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "cortis",
    "title": "1주년 티꾸",
    "date": "2026-11-04",
@@ -223,15 +241,6 @@
   },
   {
    "type": "video",
-   "group": "cortis",
-   "title": "for what it is #CORTIS #코르티스",
-   "date": "2026-11-03",
-   "published": "2026-11-03T04:00:33Z",
-   "url": "https://www.youtube.com/watch?v=E29S1T2ev5o",
-   "image": "https://i.ytimg.com/vi/E29S1T2ev5o/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "skz",
    "title": "사랑이라는 이유로 아파할 수 없어 난  | 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지 Cover by #승민 #한로로 #StrayKids #SONGby #송바이",
    "date": "2026-11-01",
@@ -274,15 +283,6 @@
    "published": "2026-10-28T15:00:03Z",
    "url": "https://www.youtube.com/watch?v=7eWA-YKZoL8",
    "image": "https://i.ytimg.com/vi/7eWA-YKZoL8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "Wanna hear more from #SWISH? Stay up till midnight KST🤞 #LNGSHOT #Masterpiece",
-   "date": "2026-10-28",
-   "published": "2026-10-28T03:00:25Z",
-   "url": "https://www.youtube.com/watch?v=EFMIC-TG_5o",
-   "image": "https://i.ytimg.com/vi/EFMIC-TG_5o/hqdefault.jpg"
   },
   {
    "type": "music",
