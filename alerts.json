@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-06T01:01:06Z",
+ "updated_at": "2026-11-06T02:01:06Z",
  "alerts": [
+  {
+   "type": "comeback",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "💿 Hoy sale «NAYEON SINGLE “NA-sty” SINGLE» de TWICE",
+   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "title_en": "💿 TWICE's «NAYEON SINGLE “NA-sty” SINGLE» is out today",
+   "body_en": "You can now listen to it! (or in a few hours, depending on your time zone)",
+   "when": "2026-11-06T02:01:06Z",
+   "url": "https://x.com/JYPETWICE/status/2118523783954964571",
+   "src_lang": "es",
+   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "auto": true
+  },
   {
    "type": "latam",
    "group": "bts",
@@ -744,20 +758,6 @@
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2pEbFR0dEFfMG5fUXI1UEIxNV8xWmNXX2pidGxkeXhPdmw4MU1PaC1iOHl0dHc2UEV5bzNoUGNNbklvcE4yalNOLU4tUk8tUUxERFBmUk1WWHFvQ3d3cTVHSkNwa0lfYkxFVkNTaUJtOHhGUjFDeE5HcjI4TGY4UloweW13d3N1VEltWC1JYkd6MXFfVFdIQ1RWTkIwdnc?oc=5",
    "src_lang": "es",
    "body_orig": "El grupo surcoreano BTS concluye su gira en Latinoamérica - El Potosí (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "latam",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Latinoamérica: BTS",
-   "body": "Conciertos de BTS en el cine: llega el tour Arirang EN VIVO a salas de México - Almanaque Puebla (Google Noticias)",
-   "title_en": "Latin America: BTS",
-   "body_en": "BTS concerts at the cinema: the Arirang tour arrives LIVE in theaters in Mexico - Almanac Puebla (Google News)",
-   "when": "2026-11-02T20:18:26Z",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTQ0RmbWgxZHV2TklDb05hYU9nbjBMNTlnQ3h2Ty0yd25lUTlDekVUVjFFdC11Vmo3LUdXSkYweDUyTHN3SnhJWTJjQ1pFanJyNEtSOFM1bmNtaFdrNWM2Yk5VV0dUVFV2dWZlMTNKeGlSVmFKajF4SWo2SGRZdU0?oc=5",
-   "src_lang": "es",
-   "body_orig": "Conciertos de BTS en el cine: llega el tour Arirang EN VIVO a salas de México - Almanaque Puebla (Google Noticias)",
    "auto": true
   }
  ]
