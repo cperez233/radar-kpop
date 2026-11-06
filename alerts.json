@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T17:31:48Z",
+ "updated_at": "2026-11-06T19:45:59Z",
  "alerts": [
   {
    "type": "arrival",
@@ -411,6 +411,20 @@
    "url": "https://www.youtube.com/watch?v=ALGatlQaqSs"
   },
   {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "¡BTS llega al cine! Proyectarán dos conciertos de su gira ARIRANG - El Siglo de Torreón (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS comes to the cinema! They will screen two concerts from their ARIRANG tour - El Siglo de Torreón (Google News)",
+   "when": "2026-11-05T04:28:43Z",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVVBRUFluS3NrV2JiX0p1dGFoYnc4ejFwLWloRnpjNjZZR2JIZ3ZudDNDNklOQjdEWFpzTUVTYWprWktKV29GV2F3RUNYY1RoY0l4alBISzNlQnpYRGlHVzZKamU0Z0dCczd1Umx3azhoOV9PbHg3dzh0bkdiWnlveXhXSy1rRFdWbmZianN0b29DY1JIZGZCaHZQREpaLUVhNFRQbHJyS0Q5bGNiMlZQQTZhb2hndFox?oc=5",
+   "src_lang": "es",
+   "body_orig": "¡BTS llega al cine! Proyectarán dos conciertos de su gira ARIRANG - El Siglo de Torreón (Google Noticias)",
+   "auto": true
+  },
+  {
    "type": "latam",
    "group": "skz",
    "group_name": "Stray Kids",
@@ -710,17 +724,6 @@
    "body": "6 nov, 7 nov, 8 nov en Tokyo Dome, Japón. Salió de un anuncio; la hora y los detalles están por confirmar.",
    "title_en": "Stray Kids added dates in Tokyo (to be confirmed)",
    "body_en": "Nov 6, Nov 7, Nov 8 at Tokyo Dome, Japan.",
-   "when": "2026-11-03T19:17:26Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Singapur (por confirmar)",
-   "body": "6 mar 2027 en Singapore Indoor Stadium, Singapur. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Singapore (to be confirmed)",
-   "body_en": "Mar 6, 2027 at Singapore Indoor Stadium, Singapore.",
    "when": "2026-11-03T19:17:26Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   }
