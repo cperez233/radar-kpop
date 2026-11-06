@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T03:32:44Z",
+ "updated_at": "2026-11-06T08:01:03Z",
  "alerts": [
   {
    "type": "official",
@@ -216,6 +216,17 @@
    "src_lang": "ko",
    "body_orig": "«[📢] ATEEZ(에이티즈) Drip 발매 기념 STATIONHEAD 스케줄러 및 출석 체크 EVENT 참여 응모 안내 🔗 https://bit.ly/3WKXqUA 📅 응모 기한: ~ 2026.11.12 ...» (ATEEZ en X).",
    "auto": true
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) 홍중 | 김홍중 왕자님 생일 파티🤴🎂 (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) 홍중 | 김홍중 왕자님 생일 파티🤴🎂 (YouTube)",
+   "when": "2026-11-05T07:11:53Z",
+   "url": "https://www.youtube.com/watch?v=ALGatlQaqSs"
   },
   {
    "type": "latam",
@@ -744,20 +755,6 @@
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtamUzeksySGxrTjNURG55RklDQUtYLXZieG5MejVHbnFYbHBWM200bG5xTUl6UEd2REZtdWhueTNHOVF4VEc2ZUYwRVZWeGRkQWNMWDVYUHZ2WWR5TU1TaFp1eFp3MDNkOXhqZ3ZpWjFUYnd4WkNhOQ?oc=5",
    "src_lang": "es",
    "body_orig": "BTS: confirmada la proyección en cines de todo el mundo del concierto en vivo en Kaohsiung y Yakarta - 스타뉴스 (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS en Cinépolis y Cinemex 2026: Dónde y cuándo comprar boletos para la gira Arirang - Grupo Animal (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS at Cinépolis and Cinemex 2026: Where and when to buy tickets for the Arirang tour - Grupo Animal (Google News)",
-   "when": "2026-11-02T21:46:13Z",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcHIxTjVTU2JRMDE0ZTlJdmxGcGdqRjZEZzhUTWtaMHF2WERmY29vd25uSkpMc2JFWVcxSnZENm16VWY3T2wxWTM4QkdYaEFQUlpRSGthcWhrNWM5SkFBSEpCUURFSHYzVTJDU2JpTndQQ3laRVVNcEhMeW9CMGsxMENTMVlFUDlsdkk0TGI0czE?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS en Cinépolis y Cinemex 2026: Dónde y cuándo comprar boletos para la gira Arirang - Grupo Animal (Google Noticias)",
    "auto": true
   }
  ]
