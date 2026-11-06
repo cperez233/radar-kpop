@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T20:15:59Z",
+ "updated_at": "2026-11-06T21:31:50Z",
  "alerts": [
   {
    "type": "arrival",
@@ -135,6 +135,20 @@
    "body_en": "ATEEZ(에이티즈) log_logbook#239 (YouTube)",
    "when": "2026-11-06T10:00:03Z",
    "url": "https://www.youtube.com/watch?v=pSweeAAQqDU"
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "HYBE confirma nuevos proyectos de BTS tras el cierre del tour ARIRANG - Foro3D (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "HYBE confirms new BTS projects after the closing of the ARIRANG tour - Foro3D (Google News)",
+   "when": "2026-11-06T10:00:00Z",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOVZFcTFsRHJfMVFpcTZLSEQ0bEFlMGxjQ01sejVHZ1ZhRDBhOUdjNW1MRExCa212akFKcDh0Ry13V3dmLWJIWTFxbE1CTzFZVlJwUmlUVE9GbDN1akJBRVh5UVozVXpUWllkdDNkUldLWXNOeFdUTkh4eGtFRzU4YnhHSWdfLWhCYVF4MGcwWDdpVW5Sa3NoWUxmLUg0a2Jfd3FmZTZQRkJfcmpp?oc=5",
+   "src_lang": "es",
+   "body_orig": "HYBE confirma nuevos proyectos de BTS tras el cierre del tour ARIRANG - Foro3D (Google Noticias)",
+   "auto": true
   },
   {
    "type": "video",
@@ -713,17 +727,6 @@
    "body": "29 dic en Gelora Bung Karno Stadium, Indonesia. Salió de un anuncio; la hora y los detalles están por confirmar.",
    "title_en": "BTS added dates in Jakarta (to be confirmed)",
    "body_en": "Dec 29 at Gelora Bung Karno Stadium, Indonesia.",
-   "when": "2026-11-03T19:17:26Z",
-   "url": "https://en.wikipedia.org/wiki/Arirang_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "BTS agregó fechas en Manila (por confirmar)",
-   "body": "16 mar 2027 en Philippine Sports Stadium, Filipinas. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "BTS added dates in Manila (to be confirmed)",
-   "body_en": "Mar 16, 2027 at Philippine Sports Stadium, Philippines.",
    "when": "2026-11-03T19:17:26Z",
    "url": "https://en.wikipedia.org/wiki/Arirang_World_Tour"
   }

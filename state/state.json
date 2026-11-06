@@ -1182,7 +1182,11 @@
   "news:fed90aa3089d3c33|feed": "2026-11-06T20:16:07Z",
   "news:fed90aa3089d3c33|ntfy": "2026-11-06T20:16:07Z",
   "news:fed90aa3089d3c33|pub:radarkpop-enhypen-news": "2026-11-06T20:16:07Z",
-  "news:fed90aa3089d3c33|foro": "2026-11-06T20:16:07Z"
+  "news:fed90aa3089d3c33|foro": "2026-11-06T20:16:07Z",
+  "news:c4af2608ebd7f7ee|feed": "2026-11-06T21:31:55Z",
+  "news:c4af2608ebd7f7ee|ntfy": "2026-11-06T21:31:55Z",
+  "news:c4af2608ebd7f7ee|pub:radarkpop-bts-news": "2026-11-06T21:31:55Z",
+  "news:c4af2608ebd7f7ee|foro": "2026-11-06T21:31:55Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2069,7 +2073,6 @@
   }
  },
  "news_seen": [
-  "725f136b39c51e27",
   "7279678afb1a1c5c",
   "728d621e4b1def68",
   "729c0e1c331a94e3",
@@ -2558,6 +2561,7 @@
   "c45d6357ec9fa645",
   "c47b5098f6e91482",
   "c49be527ac62c7d5",
+  "c4af2608ebd7f7ee",
   "c518ed269b32bdd1",
   "c57c72fab3ba9938",
   "c5afc1f1fb804aa0",
@@ -3147,6 +3151,20 @@
     "sin"
    ],
    "t": "2026-11-06T20:15:59Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "cierre",
+    "confirma",
+    "hybe",
+    "nuevos",
+    "proyectos",
+    "tour",
+    "tras"
+   ],
+   "t": "2026-11-06T21:31:50Z"
   }
  ],
  "discord_threads": {
