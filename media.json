@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T10:00:42Z",
+ "updated_at": "2026-11-06T10:30:35Z",
  "sample": false,
  "items": [
   {
@@ -89,6 +89,15 @@
   {
    "type": "video",
    "group": "seventeen",
+   "title": "#12oclock with #TWS #YOUNGJAE 🕛 #투어스 #영재 #JxJ #정한X조슈아",
+   "date": "2026-11-06",
+   "published": "2026-11-06T10:30:19Z",
+   "url": "https://www.youtube.com/watch?v=vgtVLSnyJoo",
+   "image": "https://i.ytimg.com/vi/vgtVLSnyJoo/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
    "title": "도겸과 정한 〈정답 없는 여행〉 Official Teaser",
    "date": "2026-11-06",
    "published": "2026-11-06T09:00:12Z",
@@ -139,15 +148,6 @@
    "published": "2026-11-05T12:00:18Z",
    "url": "https://www.youtube.com/watch?v=TUz4kBJpfJk",
    "image": "https://i.ytimg.com/vi/TUz4kBJpfJk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "도겸과 정한 〈정답 없는 여행〉 PHOTOBOOK Visualizer 🎁",
-   "date": "2026-11-05",
-   "published": "2026-11-05T08:59:54Z",
-   "url": "https://www.youtube.com/watch?v=o2Ds30GnMek",
-   "image": "https://i.ytimg.com/vi/o2Ds30GnMek/hqdefault.jpg"
   },
   {
    "type": "video",

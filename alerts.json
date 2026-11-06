@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-06T10:01:04Z",
+ "updated_at": "2026-11-06T10:32:34Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "#12oclock with #TWS #YOUNGJAE 🕛 #투어스 #영재 #JxJ #정한X조슈아 (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "#12oclock with #TWS #YOUNGJAE 🕛 #투어스 #영재 #JxJ #정한X조슈아 (YouTube)",
+   "when": "2026-11-06T10:30:19Z",
+   "url": "https://www.youtube.com/watch?v=vgtVLSnyJoo"
+  },
   {
    "type": "video",
    "group": "ateez",
@@ -730,20 +741,6 @@
    "body_en": "이오, 코타로 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
    "when": "2026-11-03T10:00:31Z",
    "url": "https://www.youtube.com/watch?v=LqdkGvhJLwE"
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«[NOTICIA] Se ha estrenado ‘AUTOMATIC’ de Seventeen Dino. Les pedimos mucho cariño a Carats. Melón ▶️ https://www.melon.com/album/detail.htm?albumId=1511...» (SEVENTEEN en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "«[NEWS] Seventeen Dino’s ‘AUTOMATIC’ has been released. We ask for lots of love from Carats. Melon ▶️ https://www.melon.com/album/detail.htm?albumId=1511...» (SEVENTEEN en X).",
-   "when": "2026-11-03T09:08:37Z",
-   "url": "https://x.com/pledis_17/status/2117544464407470314",
-   "src_lang": "ko",
-   "body_orig": "«[NEWS] 세븐틴 디노의 'AUTOMATIC'이 발매되었습니다. 캐럿 여러분의 많은 사랑 부탁드립니다. 멜론 ▶️ https://www.melon.com/album/detail.htm?albumId=1511...» (SEVENTEEN en X).",
-   "auto": true
   }
  ]
 }
