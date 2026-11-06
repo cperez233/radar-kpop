@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T12:15:35Z",
+ "updated_at": "2026-11-06T14:00:41Z",
  "sample": false,
  "items": [
   {
@@ -107,6 +107,15 @@
   {
    "type": "video",
    "group": "enhypen",
+   "title": "To YOU, From SUNGHOON",
+   "date": "2026-11-06",
+   "published": "2026-11-06T14:00:01Z",
+   "url": "https://www.youtube.com/watch?v=s2r9Je7Nc_E",
+   "image": "https://i.ytimg.com/vi/s2r9Je7Nc_E/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
    "title": "민초: 갑자기 저요...?",
    "date": "2026-11-06",
    "published": "2026-11-06T12:01:29Z",
@@ -175,15 +184,6 @@
    "published": "2026-11-05T12:00:18Z",
    "url": "https://www.youtube.com/watch?v=TUz4kBJpfJk",
    "image": "https://i.ytimg.com/vi/TUz4kBJpfJk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "To YOU, From JAKE",
-   "date": "2026-11-05",
-   "published": "2026-11-05T13:59:48Z",
-   "url": "https://www.youtube.com/watch?v=3GZc-9fqRLg",
-   "image": "https://i.ytimg.com/vi/3GZc-9fqRLg/hqdefault.jpg"
   },
   {
    "type": "video",
