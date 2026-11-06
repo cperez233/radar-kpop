@@ -1150,7 +1150,9 @@
   "news:9ee6daa8194380d1|feed": "2026-11-06T09:46:06Z",
   "news:9ee6daa8194380d1|ntfy": "2026-11-06T09:46:06Z",
   "news:9ee6daa8194380d1|pub:radarkpop-twice-news": "2026-11-06T09:46:06Z",
-  "news:9ee6daa8194380d1|foro": "2026-11-06T09:46:06Z"
+  "news:9ee6daa8194380d1|foro": "2026-11-06T09:46:06Z",
+  "news:ddfc60117f951dd7|feed": "2026-11-06T10:01:11Z",
+  "news:cce71d1cce5aa77e|feed": "2026-11-06T10:01:11Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2037,9 +2039,6 @@
   }
  },
  "news_seen": [
-  "700bd31917ee8f17",
-  "7023c6417764bbc1",
-  "704d819cfc319fa6",
   "707064956392e585",
   "70724f52b625a317",
   "70f9091478744a16",
@@ -2122,6 +2121,7 @@
   "7d99d9aba3875d56",
   "7dfe8bdf89c58b99",
   "7e0322db7b70439a",
+  "7e0e1b6d2124d962",
   "7eac8580136709cb",
   "7ebbb187fd0730fc",
   "7f98c79271441a58",
@@ -2578,6 +2578,7 @@
   "cc9b2cc0fb5f4190",
   "cca49e5f4017ea46",
   "ccdd371d9c717f42",
+  "cce71d1cce5aa77e",
   "ccf2d75968967576",
   "cd37756912cad8fe",
   "cd57fd122d4e5e37",
@@ -2671,6 +2672,7 @@
   "dd67fee50bfd65ad",
   "dd738eb382ccf8ec",
   "ddcb9dee605c4307",
+  "ddfc60117f951dd7",
   "de54a24554f9039d",
   "de5be50aeee3978e",
   "de84b9dba50e60a1",

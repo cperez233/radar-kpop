@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T09:00:44Z",
+ "updated_at": "2026-11-06T10:00:42Z",
  "sample": false,
  "items": [
   {
@@ -70,6 +70,15 @@
   },
   {
    "type": "video",
+   "group": "bts",
+   "title": "BTS (방탄소년단) 'SWIM' Stage CAM @ iHeartRadio Music Festival 2026",
+   "date": "2026-11-06",
+   "published": "2026-11-06T10:00:00Z",
+   "url": "https://www.youtube.com/watch?v=D8MKy5Aax6U",
+   "image": "https://i.ytimg.com/vi/D8MKy5Aax6U/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "lngshot",
    "title": "저기.. 내일 바나나 팔아요? Ok Ok👌 #LNGSHOT #Bananas #SWISH",
    "date": "2026-11-06",
@@ -94,6 +103,15 @@
    "published": "2026-11-06T09:00:00Z",
    "url": "https://www.youtube.com/watch?v=quj-6rG3K_k",
    "image": "https://i.ytimg.com/vi/quj-6rG3K_k/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) log_logbook#239",
+   "date": "2026-11-06",
+   "published": "2026-11-06T10:00:03Z",
+   "url": "https://www.youtube.com/watch?v=pSweeAAQqDU",
+   "image": "https://i.ytimg.com/vi/pSweeAAQqDU/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -166,15 +184,6 @@
    "published": "2026-11-05T10:00:02Z",
    "url": "https://www.youtube.com/watch?v=Mj3IO9ZCMpU",
    "image": "https://i.ytimg.com/vi/Mj3IO9ZCMpU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) 홍중 | 김홍중 왕자님 생일 파티🤴🎂",
-   "date": "2026-11-05",
-   "published": "2026-11-05T07:11:53Z",
-   "url": "https://www.youtube.com/watch?v=ALGatlQaqSs",
-   "image": "https://i.ytimg.com/vi/ALGatlQaqSs/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -408,15 +417,6 @@
     }
    ],
    "ytm_try": "2026-10-17T19"
-  },
-  {
-   "type": "video",
-   "group": "bts",
-   "title": "3 DAYS IN LA l V’s VLOG",
-   "date": "2026-10-15",
-   "published": "2026-10-15T10:00:07Z",
-   "url": "https://www.youtube.com/watch?v=1qOJvWakMz0",
-   "image": "https://i.ytimg.com/vi/1qOJvWakMz0/hqdefault.jpg"
   },
   {
    "type": "music",
