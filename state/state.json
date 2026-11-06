@@ -1146,7 +1146,11 @@
   "news:4309e96aec170cf7|feed": "2026-11-06T08:01:09Z",
   "news:b0317da5f998f486|feed": "2026-11-06T09:01:11Z",
   "news:e410e76912425b5a|feed": "2026-11-06T09:01:11Z",
-  "news:6b65d679749e078e|feed": "2026-11-06T09:01:11Z"
+  "news:6b65d679749e078e|feed": "2026-11-06T09:01:11Z",
+  "news:9ee6daa8194380d1|feed": "2026-11-06T09:46:06Z",
+  "news:9ee6daa8194380d1|ntfy": "2026-11-06T09:46:06Z",
+  "news:9ee6daa8194380d1|pub:radarkpop-twice-news": "2026-11-06T09:46:06Z",
+  "news:9ee6daa8194380d1|foro": "2026-11-06T09:46:06Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2033,7 +2037,6 @@
   }
  },
  "news_seen": [
-  "6fafa146434a6d09",
   "700bd31917ee8f17",
   "7023c6417764bbc1",
   "704d819cfc319fa6",
@@ -2306,6 +2309,7 @@
   "9eb73cfb9d38035b",
   "9eb78cb4a1e8ed1a",
   "9ed7f13f0b1d512c",
+  "9ee6daa8194380d1",
   "9eeb1f42eb447f73",
   "9efe1c9d3e512918",
   "9f0eb99337be205c",
@@ -3100,6 +3104,17 @@
     "preventa"
    ],
    "t": "2026-11-06T01:01:06Z"
+  },
+  {
+   "g": "twice",
+   "w": [
+    "comeback",
+    "controversy",
+    "embroiled",
+    "nayeons",
+    "solo"
+   ],
+   "t": "2026-11-06T09:46:01Z"
   }
  ],
  "discord_threads": {

@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-06T09:01:05Z",
+ "updated_at": "2026-11-06T09:46:01Z",
  "alerts": [
+  {
+   "type": "comeback",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Comeback: TWICE",
+   "body": "El regreso en solitario de TWICE Nayeon está envuelto en controversia (Koreaboo)",
+   "title_en": "Comeback: TWICE",
+   "body_en": "TWICE Nayeon’s Solo Comeback Embroiled In Controversy (Koreaboo)",
+   "when": "2026-11-06T09:35:05Z",
+   "url": "https://www.koreaboo.com/news/twice-nayeon-comeback-controversy/",
+   "src_lang": "en",
+   "body_orig": "TWICE Nayeon’s Solo Comeback Embroiled In Controversy (Koreaboo)",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -694,20 +708,6 @@
    "body_en": "이오, 코타로 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
    "when": "2026-11-03T10:00:31Z",
    "url": "https://www.youtube.com/watch?v=LqdkGvhJLwE"
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«[NOTICIA] Se ha estrenado ‘AUTOMATIC’ de Seventeen Dino. Les pedimos mucho cariño a Carats. Melón ▶️ https://www.melon.com/album/detail.htm?albumId=1511...» (SEVENTEEN en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "«[NEWS] Seventeen Dino’s ‘AUTOMATIC’ has been released. We ask for lots of love from Carats. Melon ▶️ https://www.melon.com/album/detail.htm?albumId=1511...» (SEVENTEEN en X).",
-   "when": "2026-11-03T09:08:37Z",
-   "url": "https://x.com/pledis_17/status/2117544464407470314",
-   "src_lang": "ko",
-   "body_orig": "«[NEWS] 세븐틴 디노의 'AUTOMATIC'이 발매되었습니다. 캐럿 여러분의 많은 사랑 부탁드립니다. 멜론 ▶️ https://www.melon.com/album/detail.htm?albumId=1511...» (SEVENTEEN en X).",
-   "auto": true
   },
   {
    "type": "official",
