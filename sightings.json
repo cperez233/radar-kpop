@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T14:30:37Z",
+  "updated_at": "2026-11-06T23:15:39Z",
   "source": "rsshub",
   "sample": false,
   "items": [
@@ -19,20 +19,7 @@
       "when": "2026-11-06T08:26:07Z"
     },
     {
-      "id": "x-2118297293082317069",
-      "group": "ateez",
-      "group_name": "ATEEZ",
-      "city": "Copenhague",
-      "country": "Dinamarca",
-      "lat": 55.6761,
-      "lon": 12.5683,
-      "text": "[🗺️] A message for ATINY has washed ashore in Denmark. Lad skattejagten begynde! Gefion Fountain, Copenhagen 11.05 3PM CET Next - ??",
-      "url": "https://x.com/ATEEZofficial/status/2118297293082317069",
-      "account": "ATEEZofficial",
-      "when": "2026-11-05T11:00:05Z"
-    },
-    {
-      "id": "fan-newjeans-nuevayork-20261103",
+      "id": "fan-newjeans-nuevayork-20261105",
       "group": "newjeans",
       "group_name": "NewJeans",
       "city": "Nueva York",
@@ -44,7 +31,20 @@
       "text": "",
       "url": "",
       "account": "",
-      "when": "2026-11-03T13:09:56Z"
+      "when": "2026-11-05T11:22:36Z"
+    },
+    {
+      "id": "x-2118297293082317069",
+      "group": "ateez",
+      "group_name": "ATEEZ",
+      "city": "Copenhague",
+      "country": "Dinamarca",
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "text": "[🗺️] A message for ATINY has washed ashore in Denmark. Lad skattejagten begynde! Gefion Fountain, Copenhagen 11.05 3PM CET Next - ??",
+      "url": "https://x.com/ATEEZofficial/status/2118297293082317069",
+      "account": "ATEEZofficial",
+      "when": "2026-11-05T11:00:05Z"
     },
     {
       "id": "x-2117542317183635475",
