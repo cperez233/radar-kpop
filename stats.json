@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T07:14:57Z",
+  "updated_at": "2026-11-06T19:16:23Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
@@ -47,15 +47,15 @@
       "yt_subs": 102000000
     },
     "lngshot": {
-      "streams": 378367458,
+      "streams": 387045129,
       "top_song": {
         "title": "Moonwalkin'",
-        "streams": 118691076,
+        "streams": 120394004,
         "url": "https://open.spotify.com/track/46V2ciN6F5bxjQWityNhkY"
       },
       "listeners": 4216746,
       "listeners_peak": 6085028,
-      "yt_subs": 2150000
+      "yt_subs": 2160000
     },
     "seventeen": {
       "streams": 8443834460,
@@ -104,13 +104,13 @@
     "ateez": {
       "listeners": 7409764,
       "listeners_peak": 7413955,
-      "streams": 4299377743,
+      "streams": 4306873987,
       "top_song": {
         "title": "BOUNCY - K-HOT CHILLI PEPPERS",
-        "streams": 201316037,
+        "streams": 201555994,
         "url": "https://open.spotify.com/track/5VGdz8LeTx2M8LHe9iUSQU"
       },
-      "yt_subs": 5840000
+      "yt_subs": 5850000
     }
   }
 }
