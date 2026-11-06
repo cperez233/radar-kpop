@@ -1130,7 +1130,11 @@
   "official:seventeen:comeback:2026-11-06|feed": "2026-11-06T00:01:35Z",
   "official:seventeen:comeback:2026-11-06|ntfy": "2026-11-06T00:01:35Z",
   "official:seventeen:comeback:2026-11-06|pub:radarkpop-seventeen-music": "2026-11-06T00:01:35Z",
-  "official:seventeen:comeback:2026-11-06|foro": "2026-11-06T00:01:35Z"
+  "official:seventeen:comeback:2026-11-06|foro": "2026-11-06T00:01:35Z",
+  "news:501fea6559e56d2f|feed": "2026-11-06T01:01:12Z",
+  "news:501fea6559e56d2f|ntfy": "2026-11-06T01:01:12Z",
+  "news:501fea6559e56d2f|pub:radarkpop-bts-news": "2026-11-06T01:01:12Z",
+  "news:501fea6559e56d2f|foro": "2026-11-06T01:01:12Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3070,6 +3074,20 @@
     "paises"
    ],
    "t": "2026-11-05T22:15:56Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "asia",
+    "cierra",
+    "cines",
+    "fechas",
+    "gira",
+    "llegara",
+    "mexico",
+    "preventa"
+   ],
+   "t": "2026-11-06T01:01:06Z"
   }
  ],
  "discord_threads": {

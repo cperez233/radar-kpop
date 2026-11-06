@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-06T00:01:29Z",
+ "updated_at": "2026-11-06T01:01:06Z",
  "alerts": [
+  {
+   "type": "latam",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Latinoamérica: BTS",
+   "body": "BTS cierra su gira por Asia y llegará a cines de México: fechas y preventa - La Jornada (Google Noticias)",
+   "title_en": "Latin America: BTS",
+   "body_en": "BTS closes its tour of Asia and will arrive in theaters in Mexico: dates and pre-sales - La Jornada (Google News)",
+   "when": "2026-11-06T00:28:00Z",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS2xNLUw5WEY3VFZjeDFVcjdGWl9oaEFIN1h2TU9FWjhuSXQ3OS1WOHdkR1pvamZyMFgxVWx3R1g3SjJlcDV6TXpMcmdMWVFTOUYzenZzZm5PRzMxNzBEU1VGc1p4Z3FWYXBqN1c4OTlaM2p6LUxrSGRYYjIwRjNSM2VfX0dmWkNrU3o3c3YwUTlmWjVOb1hhd0RzcVRHYjJoN3lVa3NTZ3BPS1A1TElhbGJMOVpNdkdVbkZSMDhQQThYQlBlamRoRGdjbWs?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS cierra su gira por Asia y llegará a cines de México: fechas y preventa - La Jornada (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "stop_today",
    "group": "skz",
@@ -744,20 +758,6 @@
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTQ0RmbWgxZHV2TklDb05hYU9nbjBMNTlnQ3h2Ty0yd25lUTlDekVUVjFFdC11Vmo3LUdXSkYweDUyTHN3SnhJWTJjQ1pFanJyNEtSOFM1bmNtaFdrNWM2Yk5VV0dUVFV2dWZlMTNKeGlSVmFKajF4SWo2SGRZdU0?oc=5",
    "src_lang": "es",
    "body_orig": "Conciertos de BTS en el cine: llega el tour Arirang EN VIVO a salas de México - Almanaque Puebla (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS World Tour 'Arirang' en Buenos Aires y São Paulo: Visualización en vivo - Cines Argentinos (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS World Tour 'Arirang' in Buenos Aires & in São Paulo: Live Viewing - Cines Argentinos (Google Noticias)",
-   "when": "2026-11-02T16:39:05Z",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSnQ1bTFVZmZtS3d2bGtZZTJNb1hpZ0UyMXN4c05KVDJabVhUdkVJbHJ3LVVoR2pGZE55NnROWUFPUVF6RUpIVUNuZGdBU1lhcXZBX0phNUIwZl96eTJMaW5BWEhxOUNndnBlYVFXTWtrY0YzYzNVOFZlZjJZbTZoa3R0Mk42alZmWldQQnI1alRHS0E3a3RPQXNOU1AwSzBzUDhqZnQydXpwZzNHWTNlNEN4aw?oc=5",
-   "src_lang": "pt",
-   "body_orig": "BTS World Tour 'Arirang' in Buenos Aires & in São Paulo: Live Viewing - Cines Argentinos (Google Noticias)",
    "auto": true
   }
  ]
