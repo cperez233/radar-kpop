@@ -1165,7 +1165,11 @@
   "bday:seventeen:the8:2026|feed": "2026-11-06T15:01:18Z",
   "bday:seventeen:the8:2026|ntfy": "2026-11-06T15:01:18Z",
   "bday:seventeen:the8:2026|pub:radarkpop-seventeen-members": "2026-11-06T15:01:18Z",
-  "bday:seventeen:the8:2026|foro": "2026-11-06T15:01:18Z"
+  "bday:seventeen:the8:2026|foro": "2026-11-06T15:01:18Z",
+  "news:51c01ab8f49f6b74|feed": "2026-11-06T15:32:06Z",
+  "news:51c01ab8f49f6b74|ntfy": "2026-11-06T15:32:06Z",
+  "news:51c01ab8f49f6b74|pub:radarkpop-bts-news": "2026-11-06T15:32:06Z",
+  "news:51c01ab8f49f6b74|foro": "2026-11-06T15:32:06Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3135,6 +3139,22 @@
     "tour"
    ],
    "t": "2026-11-06T15:10:51Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "2027",
+    "arirang",
+    "conciertos",
+    "gira",
+    "grupales",
+    "lanzamientos",
+    "nuevos",
+    "prepara",
+    "solistas",
+    "suma"
+   ],
+   "t": "2026-11-06T15:32:00Z"
   }
  ],
  "discord_threads": {

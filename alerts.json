@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-06T15:01:11Z",
+ "updated_at": "2026-11-06T15:32:00Z",
  "alerts": [
+  {
+   "type": "comeback",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Comeback: BTS",
+   "body": "BTS suma conciertos a su gira “ARIRANG” y prepara nuevos lanzamientos grupales y solistas para 2027 - Infobae (Google Noticias)",
+   "title_en": "Comeback: BTS",
+   "body_en": "BTS adds concerts to its “ARIRANG” tour and prepares new group and solo releases for 2027 - Infobae (Google News)",
+   "when": "2026-11-06T15:15:00Z",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSWg5SW5fSXV4MmwzcHBlT1ZYNzgxaWxmSnRlbVg4eFQ0cG9CVVFFcmd6NXlZeVhiZnFoSmNWbDluNlI1NGxYOUdlcUtHTjVPNmx1UEUyb0xoMkh4YnJwc21DU05KYnVTM1J2NFFDUHQ4REljbEVoTjIzdjNIYjJuSHN5eDBibDJHbGJTeWt6TEF5ZW5Ockx0MEJucXVXWXdDQVFNYm1NRjFXSnpNZFBlRGtZN2hPY1BfSEI3eVE1VTRzOE1uYU5jMGt4Vk0tT3ZxdW1TblpjNnNzSC1lTFktWkxIdzBJUdIBgAJBVV95cUxPQm9lUkhmZjdJNVNLNmlXdklaemd2V0I4NXVfZmhvaEktcE40MlNpNFNic2pkUkJCNnNlYnRJN21YTTZIQXRiMGlKTU9lUkNVT0xNamgzVE1FMldVZWNNbGI0U25LYTA3UWVLdTd1ckRYZ0FGcEtzUWZ2ZVI4T3AyaWN5TkQxS2xMaHAxaVp6VHBHb0JnU2d3V3BWS1R1RVVNTnRWSkM1NXhJQVBlbE1abXN4Tk1wSHFjZFNLR2RlUVRQaXF3RUhXNVdOSnpTT05LeUlRWHpyd1NQUlJIOFdRcUEtUU1NZUhzdVhMdWNpNFFiaU03OHRaWFdEV0NUa0Rz?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS suma conciertos a su gira “ARIRANG” y prepara nuevos lanzamientos grupales y solistas para 2027 - Infobae (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "birthday",
    "group": "ateez",
@@ -714,20 +728,6 @@
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LdHBHU1J0cjI0NlFpYzhTT25RVVk2WlpFSktvZlVTYWQ0d3pTdHNzZ0pnd09vSm85QW94TFg2UVdmMlItcGRxZ2JtdUxEakFLd1UyczlHVkNxN0h3NFRCdXBVUG5EQXAtdW5GVnVQamZjU0pvb1NPSTVVZ3M?oc=5",
    "src_lang": "es",
    "body_orig": "Hybe sigue ganando mucho dinero con las giras de BTS. - Vietnam.vn (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«D-6. Vamos #Plátanos. EP [S.W.I.S.H.] 10/11 6PM KST #SWISH reserva y reserva ahora. https://lngshot.lnk.to/SWISH #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "«D-6. Going #Bananas. EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. https://lngshot.lnk.to/SWISH #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "when": "2026-11-03T15:00:02Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2117632904041726259",
-   "src_lang": "en",
-   "body_orig": "«D-6. Going #Bananas. EP [S.W.I.S.H.] 11/10 6PM KST #SWISH pre-order & pre-save now. https://lngshot.lnk.to/SWISH #LNGSHOT #MOREVISION» (LNGSHOT en X).",
    "auto": true
   }
  ]
