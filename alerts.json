@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-06T19:45:59Z",
+ "updated_at": "2026-11-06T20:15:59Z",
  "alerts": [
+  {
+   "type": "arrival",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Llegada reportada: ENHYPEN",
+   "body": "¡ENHYPEN anuncia un nuevo comeback! THE SIN llega a su capítulo final con un lanzamiento especial - El Grafico (Google Noticias). Lo reporta la prensa, no es confirmación oficial.",
+   "title_en": "Reported arrival: ENHYPEN",
+   "body_en": "¡ENHYPEN anuncia un nuevo comeback! THE SIN llega a su capítulo final con un lanzamiento especial - El Grafico (Google Noticias). Reported by the press, not an official confirmation.",
+   "when": "2026-11-06T20:00:00Z",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQlFucUFTWDRvUG9UVFFpRVlTYXVENFA3dExqdGkwWXU1S0oxQkk3eUFwZG96VjlLeHo0X0NpMjhsTDBDYVZXUVh6cVd2d01maVRsb29xa0d5QkJrR3Z2R2QwdWdaUkIwXzlqMjNtTm5zWXhnQUZHLUQyX3Nha0JqRkt3TnVibXZUelNlV1RRSi1RVUpLR0duS2hRUm9NVUhNX0RCdXRpdFZFMjRpcmRaRVYteXlqaHcxZ3dmNzR4c2hyeTBFM2FIQ0RuV3lTOHJjTTdMOXRubTUyaVppYnc?oc=5"
+  },
   {
    "type": "arrival",
    "group": "skz",
@@ -715,17 +726,6 @@
    "body_en": "Mar 16, 2027 at Philippine Sports Stadium, Philippines.",
    "when": "2026-11-03T19:17:26Z",
    "url": "https://en.wikipedia.org/wiki/Arirang_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Tokio (por confirmar)",
-   "body": "6 nov, 7 nov, 8 nov en Tokyo Dome, Japón. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Tokyo (to be confirmed)",
-   "body_en": "Nov 6, Nov 7, Nov 8 at Tokyo Dome, Japan.",
-   "when": "2026-11-03T19:17:26Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   }
  ]
 }

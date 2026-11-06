@@ -1178,7 +1178,11 @@
   "news:5049160e1ce83908|feed": "2026-11-06T19:46:06Z",
   "news:5049160e1ce83908|ntfy": "2026-11-06T19:46:06Z",
   "news:5049160e1ce83908|pub:radarkpop-bts-news": "2026-11-06T19:46:06Z",
-  "news:5049160e1ce83908|foro": "2026-11-06T19:46:06Z"
+  "news:5049160e1ce83908|foro": "2026-11-06T19:46:06Z",
+  "news:fed90aa3089d3c33|feed": "2026-11-06T20:16:07Z",
+  "news:fed90aa3089d3c33|ntfy": "2026-11-06T20:16:07Z",
+  "news:fed90aa3089d3c33|pub:radarkpop-enhypen-news": "2026-11-06T20:16:07Z",
+  "news:fed90aa3089d3c33|foro": "2026-11-06T20:16:07Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2065,7 +2069,6 @@
   }
  },
  "news_seen": [
-  "721b64b16310b5eb",
   "725f136b39c51e27",
   "7279678afb1a1c5c",
   "728d621e4b1def68",
@@ -2861,6 +2864,7 @@
   "fe0c742a7bb314e3",
   "fe382faa86082acd",
   "fea57120d0712dc9",
+  "fed90aa3089d3c33",
   "ff50509de7f407d1",
   "ff7e28fe717a4438",
   "ffda53b7817ff28f",
@@ -3128,6 +3132,21 @@
     "proyectaran"
    ],
    "t": "2026-11-06T19:45:59Z"
+  },
+  {
+   "g": "enhypen",
+   "w": [
+    "anuncia",
+    "capitulo",
+    "comeback",
+    "especial",
+    "final",
+    "lanzamiento",
+    "llega",
+    "nuevo",
+    "sin"
+   ],
+   "t": "2026-11-06T20:15:59Z"
   }
  ],
  "discord_threads": {
