@@ -1,8 +1,23 @@
 {
-  "updated_at": "2026-11-05T11:00:42Z",
+  "updated_at": "2026-11-06T14:30:37Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "fan-cortis-nuevayork-20261106",
+      "group": "cortis",
+      "group_name": "CORTIS",
+      "city": "Nueva York",
+      "country": "EE. UU.",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "fan": true,
+      "fans": 2,
+      "text": "",
+      "url": "",
+      "account": "",
+      "when": "2026-11-06T08:26:07Z"
+    },
     {
       "id": "x-2118297293082317069",
       "group": "ateez",
