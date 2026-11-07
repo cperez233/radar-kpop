@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-07T13:01:15Z",
+ "updated_at": "2026-11-07T14:01:00Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "To YOU, From JAY (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "To YOU, From JAY (YouTube)",
+   "when": "2026-11-07T14:00:03Z",
+   "url": "https://www.youtube.com/watch?v=08X4INdjc80"
+  },
   {
    "type": "video",
    "group": "bts",
@@ -681,20 +692,6 @@
    "body_en": "𝙬𝙤𝙬 𝙨𝙤 𝙘𝙤𝙤𝙡 #StrayKids #스트레이키즈 #리노 #LeeKnow #아이엔 #I_N #YouMakeStrayKidsStay (YouTube)",
    "when": "2026-11-04T09:00:12Z",
    "url": "https://www.youtube.com/watch?v=fs61GhQuuvM"
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«'Bananas' 10/11 6PM KST EP #SWISH reserva y reserva anticipada https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "«'Bananas' 11/10 6PM KST EP #SWISH pre-order & pre-save https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "when": "2026-11-04T09:00:01Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2117904688276537697",
-   "src_lang": "en",
-   "body_orig": "«'Bananas' 11/10 6PM KST EP #SWISH pre-order & pre-save https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "auto": true
   },
   {
    "type": "official",

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-07T13:00:42Z",
+ "updated_at": "2026-11-07T14:00:39Z",
  "sample": false,
  "items": [
   {
@@ -85,6 +85,15 @@
    "published": "2026-11-07T06:00:08Z",
    "url": "https://www.youtube.com/watch?v=vGg-TH2by2w",
    "image": "https://i.ytimg.com/vi/vGg-TH2by2w/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "To YOU, From JAY",
+   "date": "2026-11-07",
+   "published": "2026-11-07T14:00:03Z",
+   "url": "https://www.youtube.com/watch?v=08X4INdjc80",
+   "image": "https://i.ytimg.com/vi/08X4INdjc80/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -184,15 +193,6 @@
    "published": "2026-11-06T12:01:29Z",
    "url": "https://www.youtube.com/watch?v=yMjiPULU_gc",
    "image": "https://i.ytimg.com/vi/yMjiPULU_gc/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "아이돌 필수 교양 과목",
-   "date": "2026-11-06",
-   "published": "2026-11-06T12:00:24Z",
-   "url": "https://www.youtube.com/watch?v=LelaHYkBebc",
-   "image": "https://i.ytimg.com/vi/LelaHYkBebc/hqdefault.jpg"
   },
   {
    "type": "video",
