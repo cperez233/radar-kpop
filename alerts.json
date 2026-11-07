@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-07T12:01:00Z",
+ "updated_at": "2026-11-07T13:01:15Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Nuevo video: BTS",
+   "body": "[PREVIEW] BTS WORLD TOUR ‘ARIRANG’ IN LONDON SPOT (YouTube)",
+   "title_en": "New video: BTS",
+   "body_en": "[PREVIEW] BTS WORLD TOUR ‘ARIRANG’ IN LONDON SPOT (YouTube)",
+   "when": "2026-11-07T12:59:59Z",
+   "url": "https://www.youtube.com/watch?v=cS6F7PMKCO4"
+  },
   {
    "type": "video",
    "group": "cortis",
@@ -712,17 +723,6 @@
    "src_lang": "en",
    "body_orig": "«'Bananas' 11/10 6PM KST EP #SWISH pre-order & pre-save https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "[SEVENTEEN’s SNAPSHOOT] EP.90 베스트 프렌드 이름대기 (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "[SEVENTEEN’s SNAPSHOOT] EP.90 베스트 프렌드 이름대기 (YouTube)",
-   "when": "2026-11-04T08:59:56Z",
-   "url": "https://www.youtube.com/watch?v=LBtP_ObJI_o"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-07T12:00:39Z",
+ "updated_at": "2026-11-07T13:00:42Z",
  "sample": false,
  "items": [
   {
@@ -67,6 +67,15 @@
     }
    ],
    "sp_try": "2026-11-07"
+  },
+  {
+   "type": "video",
+   "group": "bts",
+   "title": "[PREVIEW] BTS WORLD TOUR ‘ARIRANG’ IN LONDON SPOT",
+   "date": "2026-11-07",
+   "published": "2026-11-07T12:59:59Z",
+   "url": "https://www.youtube.com/watch?v=cS6F7PMKCO4",
+   "image": "https://i.ytimg.com/vi/cS6F7PMKCO4/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -265,15 +274,6 @@
    "published": "2026-11-03T09:00:07Z",
    "url": "https://www.youtube.com/watch?v=7R2QUwCk-Js",
    "image": "https://i.ytimg.com/vi/7R2QUwCk-Js/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "bts",
-   "title": "BTS 'iHeartRadio Music Festival 2026' Sketch",
-   "date": "2026-10-30",
-   "published": "2026-10-30T09:59:59Z",
-   "url": "https://www.youtube.com/watch?v=Z4hrFgiZHVo",
-   "image": "https://i.ytimg.com/vi/Z4hrFgiZHVo/hqdefault.jpg"
   },
   {
    "type": "video",
