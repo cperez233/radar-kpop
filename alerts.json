@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T21:31:50Z",
+ "updated_at": "2026-11-07T00:01:26Z",
  "alerts": [
   {
    "type": "arrival",
@@ -176,6 +176,20 @@
    "auto": true
   },
   {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: comeback",
+   "body": "«Dokyeom y Jeonghan <Viaje sin respuesta correcta> Teaser oficial ▶️ https://youtu.be/q01ZbhCX5IE 🎬 VOD ✔️ LANZAMIENTO : 2026.11.19 8PM (KST) 👉 EN EL AIRE : Weverse, Hul...» (SEVENTEEN en X).",
+   "title_en": "Official SEVENTEEN news: comeback",
+   "body_en": "«Dokyeom and Jeonghan <Travel Without Correct Answer> Official Teaser ▶️ https://youtu.be/q01ZbhCX5IE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hul...» (SEVENTEEN en X).",
+   "when": "2026-11-06T09:00:24Z",
+   "url": "https://x.com/pledis_17/status/2118629563278544926",
+   "src_lang": "ko",
+   "body_orig": "«도겸과 정한 <정답 없는 여행> Official Teaser ▶️ https://youtu.be/q01ZbhCX5IE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hul...» (SEVENTEEN en X).",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "lngshot",
    "group_name": "LNGSHOT",
@@ -207,6 +221,20 @@
    "body_en": "xiao long bao 🤌 #CORTIS #코르티스 (YouTube)",
    "when": "2026-11-06T09:00:00Z",
    "url": "https://www.youtube.com/watch?v=quj-6rG3K_k"
+  },
+  {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[📰] ATEEZ, cuenta regresiva para su regreso... Se revela la canción principal ‘Up’ https://naver.me/FNtUVmUZ #ATEEZ #ATEEZ #GOLDENHOUR #GOLDENHOUR_Part6» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
+   "body_en": "«[📰] ATEEZ, counting down to comeback... Title song ‘Up’ unveiled https://naver.me/FNtUVmUZ #ATEEZ #ATEEZ #GOLDENHOUR #GOLDENHOUR_Part6» (ATEEZ en X).",
+   "when": "2026-11-06T03:22:30Z",
+   "url": "https://x.com/ATEEZofficial/status/2118544524956045428",
+   "src_lang": "ko",
+   "body_orig": "«[📰] 에이티즈, 컴백 초읽기…타이틀곡 '업' 베일 벗었다 https://naver.me/FNtUVmUZ #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOUR_Part6» (ATEEZ en X).",
+   "auto": true
   },
   {
    "type": "official",
@@ -304,6 +332,20 @@
    "body_en": "Nov 12 at The Masquerade - Hell, USA.",
    "when": "2026-11-05T13:01:02Z",
    "url": null
+  },
+  {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«NAYEON SINGLE “NA-sty” PELÍCULA INTRODUCCIÓN: EN TODAS PARTES PERO EN NINGUNA PARTE 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KS...» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«NAYEON SINGLE “NA-sty” INTRO FILM: EVERYWHERE BUT NOWHERE 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KS...» (TWICE en X).",
+   "when": "2026-11-05T13:00:02Z",
+   "url": "https://x.com/JYPETWICE/status/2118327481258430728",
+   "src_lang": "en",
+   "body_orig": "«NAYEON SINGLE “NA-sty” INTRO FILM: EVERYWHERE BUT NOWHERE 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KS...» (TWICE en X).",
+   "auto": true
   },
   {
    "type": "official",
@@ -586,6 +628,20 @@
    "auto": true
   },
   {
+   "type": "official",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Anuncio oficial de LNGSHOT: comeback",
+   "body": "«'Bananas' 10/11 6PM KST EP #SWISH reserva y reserva anticipada https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
+   "title_en": "Official LNGSHOT news: comeback",
+   "body_en": "«'Bananas' 11/10 6PM KST EP #SWISH pre-order & pre-save https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
+   "when": "2026-11-04T09:00:01Z",
+   "url": "https://x.com/LNGSHOT4sho/status/2117904688276537697",
+   "src_lang": "en",
+   "body_orig": "«'Bananas' 11/10 6PM KST EP #SWISH pre-order & pre-save https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "seventeen",
    "group_name": "SEVENTEEN",
@@ -676,59 +732,6 @@
    "src_lang": "es",
    "body_orig": "Jin y Sus conciertos en Brasil con su banda BTS - Diario del Cauca (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "latam",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Latinoamérica: BTS",
-   "body": "BTS culmina todos los shows de su tour en Sudamérica - Diario del Cauca (Google Noticias)",
-   "title_en": "Latin America: BTS",
-   "body_en": "BTS completes all the shows of its tour in South America - Diario del Cauca (Google News)",
-   "when": "2026-11-03T19:59:18Z",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOXhJVThKME9VaTNPNERDWG9qTXpsaUhHM04wVlc0a0hsWldMVEpUcDZVWHE5U0ZhY0NVTUlCTE5ENXpSdDJxVWFLWEMwUUpCaGJtSVQ1enY2TTRXNjFNeG9oLVFRa2NnZmsxeXFCLXBHdXVUS1FlaVR6RjNPT0JvUEZsZnJZUEw0UUpYbm1OcXBUNEkx?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS culmina todos los shows de su tour en Sudamérica - Diario del Cauca (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "latam",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Latinoamérica: BTS",
-   "body": "BTS acaba su residencia e conciertos en Medellín - Diario del Cauca (Google Noticias)",
-   "title_en": "Latin America: BTS",
-   "body_en": "BTS finishes its residency and concerts in Medellín - Diario del Cauca (Google News)",
-   "when": "2026-11-03T19:53:48Z",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM1J3b1pxQ0xKSmNIdFduOTNneXVjUzZ6VDhRd2ZTU2Fad256NnRnZE9sdkUyUUtJNW9JNUlMd0tfRGVQaC11YmdqdGp0SjAwOUhsZnBmcHIwbUpyNW1vZnhDWlpxU1BkWVBpeVBpSHJLWEhWSl80M0p1aEdiT282YUlYVWNqV1pReGdRY2FsTQ?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS acaba su residencia e conciertos en Medellín - Diario del Cauca (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS y Su forma de llevar su concierto a más de 88 países - Diario del Cauca (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS and Their way of taking their concert to more than 88 countries - Diario del Cauca (Google News)",
-   "when": "2026-11-03T19:42:29Z",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYXJxakNBMUowbWNuT0dXbVNRQmVDdUZrZzBKQmFoWkQ3VHBxSGV1VDlncFc2OTVkaEt0SkZQM05abGhMZDdkUi1jdUE0QjVyUXBQNkhwZmZOdVNPTmlacFVpaXAtWnVYMmpudWFDcGt1TW9wWTRaaGdRTzlsd3dTTEZMTzl0UUxtQ1RoaTFzR1ZpT2Q3UldWVjZR?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS y Su forma de llevar su concierto a más de 88 países - Diario del Cauca (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "new_date",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "BTS agregó fechas en Yakarta (por confirmar)",
-   "body": "29 dic en Gelora Bung Karno Stadium, Indonesia. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "BTS added dates in Jakarta (to be confirmed)",
-   "body_en": "Dec 29 at Gelora Bung Karno Stadium, Indonesia.",
-   "when": "2026-11-03T19:17:26Z",
-   "url": "https://en.wikipedia.org/wiki/Arirang_World_Tour"
   }
  ]
 }
