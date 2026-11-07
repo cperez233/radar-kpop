@@ -1216,7 +1216,11 @@
   "rel:ateez:2026-11-07|foro": "2026-11-07T09:31:46Z",
   "news:dcb3677f0dc21a32|feed": "2026-11-07T12:01:05Z",
   "news:0f0b9cba0ee3a53a|feed": "2026-11-07T13:01:20Z",
-  "news:f33a32af7da766a8|feed": "2026-11-07T14:01:07Z"
+  "news:f33a32af7da766a8|feed": "2026-11-07T14:01:07Z",
+  "news:72064c5537d8cf72|feed": "2026-11-07T18:46:07Z",
+  "news:72064c5537d8cf72|ntfy": "2026-11-07T18:46:07Z",
+  "news:72064c5537d8cf72|pub:radarkpop-bts-news": "2026-11-07T18:46:07Z",
+  "news:72064c5537d8cf72|foro": "2026-11-07T18:46:07Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2908,18 +2912,6 @@
   {
    "g": "bts",
    "w": [
-    "dinero",
-    "ganando",
-    "giras",
-    "hybe",
-    "mucho",
-    "sigue"
-   ],
-   "t": "2026-11-05T18:45:57Z"
-  },
-  {
-   "g": "bts",
-   "w": [
     "arirang",
     "kaohsiung",
     "live",
@@ -3067,6 +3059,21 @@
     "tras"
    ],
    "t": "2026-11-06T21:31:50Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "2027",
+    "arirang",
+    "gira",
+    "hybe",
+    "mundial",
+    "pasara",
+    "planes",
+    "revela",
+    "tras"
+   ],
+   "t": "2026-11-07T18:46:00Z"
   }
  ],
  "discord_threads": {

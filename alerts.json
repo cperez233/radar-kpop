@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-07T14:01:00Z",
+ "updated_at": "2026-11-07T18:46:00Z",
  "alerts": [
   {
    "type": "video",
@@ -586,6 +586,20 @@
    "auto": true
   },
   {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "¿Qué pasará con BTS en 2027? HYBE revela sus planes tras la gira mundial ARIRANG - Excélsior (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "What will happen to BTS in 2027? HYBE reveals its plans after the ARIRANG world tour - Excélsior (Google News)",
+   "when": "2026-11-04T23:46:45Z",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOejRrU2hMNG55TGNOazNFNXVleFFWZzY0czFKUXMzY04yTFZHODR5WkpncDNUNnNyd1VMcWtjcGJFZkFkbTJDYXJ5cE5remw4c3pyVURSempXbEdUQXc5bVlvdGxXcjNzbDBpREJSd3lFQ2F5YTJWZWM1Wmk2NnZCaDZLd25FWXY5dGs0YXlzSWMyTUQyWUlmVDB3TEFzTnM0bTBrTkZ4aGhsNDJNeGNZ0gG0AUFVX3lxTE1UdER0WlBIYnFqQXFZb3BCZ0g0enZnNEozLVFGSE42bVduYm8tVV9USzd5cFB2dWhCQzZONlRHeHZZTkVTZXdKUlVwa0ZWdW5kMktiOTV4Z3pmYzE1MnBaeUJYbjRjRThUUnptZ0NFcTFJYmc4R2ozd0JsZVZLYkM1d0h2bDBtNGpTM1hkcUM2TEh4ektjdEVqUW4xa2N2X1BUblZMMmZuRjl0LTg5a09mYlZPeA?oc=5",
+   "src_lang": "es",
+   "body_orig": "¿Qué pasará con BTS en 2027? HYBE revela sus planes tras la gira mundial ARIRANG - Excélsior (Google Noticias)",
+   "auto": true
+  },
+  {
    "type": "latam",
    "group": "skz",
    "group_name": "Stray Kids",
@@ -692,20 +706,6 @@
    "body_en": "𝙬𝙤𝙬 𝙨𝙤 𝙘𝙤𝙤𝙡 #StrayKids #스트레이키즈 #리노 #LeeKnow #아이엔 #I_N #YouMakeStrayKidsStay (YouTube)",
    "when": "2026-11-04T09:00:12Z",
    "url": "https://www.youtube.com/watch?v=fs61GhQuuvM"
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«'Bananas' 10/11 6PM KST EP #SWISH reserva y reserva anticipada https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "«'Bananas' 11/10 6PM KST EP #SWISH pre-order & pre-save https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "when": "2026-11-04T09:00:01Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2117904688276537697",
-   "src_lang": "en",
-   "body_orig": "«'Bananas' 11/10 6PM KST EP #SWISH pre-order & pre-save https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "auto": true
   },
   {
    "type": "official",
