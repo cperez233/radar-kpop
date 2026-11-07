@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-07T03:00:42Z",
+ "updated_at": "2026-11-07T06:00:36Z",
  "sample": false,
  "items": [
   {
@@ -67,6 +67,15 @@
     }
    ],
    "sp_try": "2026-11-07"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "타쿠타쿠 챠오 (՞• ̫ •՞) #StrayKids #스트레이키즈 #YouMakeStrayKidsStay",
+   "date": "2026-11-07",
+   "published": "2026-11-07T06:00:08Z",
+   "url": "https://www.youtube.com/watch?v=vGg-TH2by2w",
+   "image": "https://i.ytimg.com/vi/vGg-TH2by2w/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -256,15 +265,6 @@
    "published": "2026-11-03T11:59:58Z",
    "url": "https://www.youtube.com/watch?v=ODo-pDMzm1Q",
    "image": "https://i.ytimg.com/vi/ODo-pDMzm1Q/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "사랑이라는 이유로 아파할 수 없어 난  | 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지 Cover by #승민 #한로로 #StrayKids #SONGby #송바이",
-   "date": "2026-11-01",
-   "published": "2026-11-01T05:00:05Z",
-   "url": "https://www.youtube.com/watch?v=CReJVnojbtQ",
-   "image": "https://i.ytimg.com/vi/CReJVnojbtQ/hqdefault.jpg"
   },
   {
    "type": "video",
