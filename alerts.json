@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-07T00:01:26Z",
+ "updated_at": "2026-11-07T03:01:05Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "김홍중 님의 미니홈피 | ATEEZ(에이티즈) 홍중 (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "김홍중 님의 미니홈피 | ATEEZ(에이티즈) 홍중 (YouTube)",
+   "when": "2026-11-07T03:00:01Z",
+   "url": "https://www.youtube.com/watch?v=DEt7_EKDAx8"
+  },
   {
    "type": "arrival",
    "group": "enhypen",
@@ -717,20 +728,6 @@
    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUzkyZmltWk1RVGJVTW9ZT0ZESkNfQ0p0bFlZNTJyVkQ5d2VNZS1MZXRDS2NSTHpsS3JRZFpWVnk5Uk5LdE5DZUtveXZfQ0dDMDd4Y3puWlZlOXJyQzF5bVc3Yy12UjVQeExBdXV3NzJoa2FYTlRuQWw0enR5b05KTHZYSkpvbGxKb1FtMWhOOFpqSzhpdGI1cEotV2IxalVaaE9peUk0b1FwR1QtcXRUQlZmLVBLVDVPSm4tU2U1dmxZUWtNOG9SNW5oWTk2c2VGdWVYTGNHMHdSSkk4TnfSAeMBQVVfeXFMTzhqQTFDVDFBVk8zd2xCNjVxVWJ2STRkZ1FTTllmWEo1c2xkZlNrTjBoTExKbE9vOThkaVZkUk1qc01uTnM3bW1RcUowUDVqaDNSSjlGQ3dJanc5ckZ2bjR5QjZBZ05FZzB6RXd0WTB0TE1Oc2R2R3daYmJTWEZOdkFOamlScGxuZjZDMGpDRUVuWHozaElZMm9HdzNQN01OME03bnNrdHRWcGJtaUY0YzhzRkhlS0VRajhBNjUtTjVrZDJwRnlkRkNwOG9uOWE4dllZNDFXNlAwWExxWkJWVlhsTzA?oc=5",
    "src_lang": "es",
    "body_orig": "BTS hace billonario a HYBE: tour ARIRANG impulsa ganancias récord que superarían los 4 billones - TNT Sports (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "latam",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Latinoamérica: BTS",
-   "body": "Jin y Sus conciertos en Brasil con su banda BTS - Diario del Cauca (Google Noticias)",
-   "title_en": "Latin America: BTS",
-   "body_en": "Jin and his concerts in Brazil with his band BTS - Diario del Cauca (Google News)",
-   "when": "2026-11-03T20:18:45Z",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX1JybmpNSFZheDMzU0prSWN5S2JZLUJpVkdoU05PQlk5cDRLQWREMVhpY2xNUEN6dGl2TTR0amtwZW1jQzhNUFBXdUtMYkYwd0xnZkx5Z2U3U25tNUU2bjI4bGZDVGh3N0h0ZE14ekNjYTg1QjlOTncyc3JyZWhoVVYzN0RpZTRsamZtRTN3?oc=5",
-   "src_lang": "es",
-   "body_orig": "Jin y Sus conciertos en Brasil con su banda BTS - Diario del Cauca (Google Noticias)",
    "auto": true
   }
  ]
