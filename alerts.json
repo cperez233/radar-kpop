@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-07T03:01:05Z",
+ "updated_at": "2026-11-07T05:01:02Z",
  "alerts": [
+  {
+   "type": "official",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Anuncio oficial de Stray Kids: gira",
+   "body": "«Finalmente, hoy, Stray Kids World Tour <RUN IT> Live Viewing se mostrará en los cines 🎬 ¿Dónde nos acompañas? Hash la ubicación de visualización y las impresiones vívidas...» (Stray Kids en X).",
+   "title_en": "Official Stray Kids news: tour",
+   "body_en": "«Finally, today, Stray Kids World Tour <RUN IT> Live Viewing will be shown in theaters 🎬 Where are you joining us? Hash the viewing location and vivid impressions...» (Stray Kids en X).",
+   "when": "2026-11-07T05:00:02Z",
+   "url": "https://x.com/Stray_Kids/status/2118931459935522922",
+   "src_lang": "ko",
+   "body_orig": "«드디어 오늘, Stray Kids World Tour <RUN IT> 라이브 뷰잉이 극장에서 상영됩니다 🎬 여러분은 어디에서 함께하고 계시나요? 관람 장소와 생생한 감상을 해시...» (Stray Kids en X).",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "ateez",
@@ -714,20 +728,6 @@
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13ZzVyYS1LWThsUXBKMzZYR0dnY1kzdm5sTWp5X2lQeTBkWjBaaThOb2tPRmxNNHdzQm9OcFBkNmtyem53UjJIYTN2cGcxM3JfaVVjVHlzZTN3UGhkVUkwa0Iyb2k1c0tuempNYnRRU1kxVG5OUldBYQ?oc=5",
    "src_lang": "es",
    "body_orig": "Seis años ahorrando, 30 horas en autobús cruzando la frontera… La gira de BTS es una “ruta de peregrinación cultural” según medios extranje… (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS hace billonario a HYBE: tour ARIRANG impulsa ganancias récord que superarían los 4 billones - TNT Sports (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS makes HYBE a billionaire: ARIRANG tour drives record profits that would exceed 4 billion - TNT Sports (Google News)",
-   "when": "2026-11-03T21:02:00Z",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUzkyZmltWk1RVGJVTW9ZT0ZESkNfQ0p0bFlZNTJyVkQ5d2VNZS1MZXRDS2NSTHpsS3JRZFpWVnk5Uk5LdE5DZUtveXZfQ0dDMDd4Y3puWlZlOXJyQzF5bVc3Yy12UjVQeExBdXV3NzJoa2FYTlRuQWw0enR5b05KTHZYSkpvbGxKb1FtMWhOOFpqSzhpdGI1cEotV2IxalVaaE9peUk0b1FwR1QtcXRUQlZmLVBLVDVPSm4tU2U1dmxZUWtNOG9SNW5oWTk2c2VGdWVYTGNHMHdSSkk4TnfSAeMBQVVfeXFMTzhqQTFDVDFBVk8zd2xCNjVxVWJ2STRkZ1FTTllmWEo1c2xkZlNrTjBoTExKbE9vOThkaVZkUk1qc01uTnM3bW1RcUowUDVqaDNSSjlGQ3dJanc5ckZ2bjR5QjZBZ05FZzB6RXd0WTB0TE1Oc2R2R3daYmJTWEZOdkFOamlScGxuZjZDMGpDRUVuWHozaElZMm9HdzNQN01OME03bnNrdHRWcGJtaUY0YzhzRkhlS0VRajhBNjUtTjVrZDJwRnlkRkNwOG9uOWE4dllZNDFXNlAwWExxWkJWVlhsTzA?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS hace billonario a HYBE: tour ARIRANG impulsa ganancias récord que superarían los 4 billones - TNT Sports (Google Noticias)",
    "auto": true
   }
  ]
