@@ -1209,7 +1209,11 @@
   "official:skz:tour:2026-11-07|pub:radarkpop-skz-shows": "2026-11-07T05:01:07Z",
   "official:skz:tour:2026-11-07|foro": "2026-11-07T05:01:07Z",
   "news:a3a17ce2d5e1954f|feed": "2026-11-07T06:01:01Z",
-  "news:49b338be53f04dd7|feed": "2026-11-07T09:01:06Z"
+  "news:49b338be53f04dd7|feed": "2026-11-07T09:01:06Z",
+  "rel:ateez:2026-11-07|feed": "2026-11-07T09:31:46Z",
+  "rel:ateez:2026-11-07|ntfy": "2026-11-07T09:31:46Z",
+  "rel:ateez:2026-11-07|pub:radarkpop-ateez-music": "2026-11-07T09:31:46Z",
+  "rel:ateez:2026-11-07|foro": "2026-11-07T09:31:46Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2096,7 +2100,6 @@
   }
  },
  "news_seen": [
-  "73ceaf8898d135d6",
   "73f37d6c6237cd87",
   "7403439fa6521424",
   "74582231ea978fdc",
@@ -2498,6 +2501,7 @@
   "b6791db3d42048b5",
   "b6b0b9884e3a5de9",
   "b6bdfe4d1191ec5f",
+  "b717e25ea286d29f",
   "b74ffaca5fee5b69",
   "b795152b51293ce0",
   "b79d006590806ea6",

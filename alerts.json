@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-07T09:01:01Z",
+ "updated_at": "2026-11-07T09:31:41Z",
  "alerts": [
+  {
+   "type": "comeback",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "💿 Hoy sale «[GOLDEN HOUR : Part.6] 발매 기념 ‘Drip’ EVENT 2️⃣ 📅» de ATEEZ",
+   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "title_en": "💿 ATEEZ's «[GOLDEN HOUR : Part.6] 발매 기념 ‘Drip’ EVENT 2️⃣ 📅» is out today",
+   "body_en": "You can now listen to it! (or in a few hours, depending on your time zone)",
+   "when": "2026-11-07T09:31:41Z",
+   "url": "https://x.com/ATEEZofficial/status/2118999399829557413",
+   "src_lang": "es",
+   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "cortis",
@@ -711,20 +725,6 @@
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONy04TndtRzluZkZxbGxlR21LMElTN1BMM1ZuYzlnUHNDZ0F3a0ZNVGh4N1laM1dpM1RkRDdubExKRUxSZ1dUT0o4VlROZGs5TDF3WFVXTmJTVzVQdDVxUTJjOXZEQTJIRzAtMFNxVUFNZjNRQ3U5MGplYkdPRGhnVl9XR2ljcHVMOW5POTFGRQ?oc=5",
    "src_lang": "en",
    "body_orig": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING - Cinemex (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "El concierto se movió para el 6 de febrero de 2027 en el mismo escenario, en medio del conflicto entre los clubes capitalinos y el Grupo Se… (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "The concert was moved to the same stage on February 6, 2027, in the midst of the conflict between the capital's clubs and Grupo Se… (Google News)",
-   "when": "2026-11-04T04:55:45Z",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTUFia2ZUN1lvaTJhakZnbDhBZlh6RjIwS0pDSGFCU1J3R0tlam0zUzJaZEVlRzN4eDB6WGtyc2ZRMXBFVEZZREpwRXZ1MC1mSFQ3ZVVNUVZJTWZnLXBOV0I3TEFCSTVrbmJjYUFLZURnUS1IT18xSnlLZG51WmttY3YwZmFKbDVMMUdVeGVXRUdfMkZjWXFiSzRtWGZwcUVhLVB1c3RtNkpDQ3YzTFg2S1VYaFZWTGJ5VnloNWtBSGxUU2RHNnZ5RzFGV1hBSDF6dWJHSUxPMDJuQmYySkFhZzNtUU4?oc=5",
-   "src_lang": "es",
-   "body_orig": "El concierto se movió para el 6 de febrero de 2027 en el mismo escenario, en medio del conflicto entre los clubes capitalinos y el Grupo Se… (Google Noticias)",
    "auto": true
   }
  ]
