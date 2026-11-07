@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-07T09:31:41Z",
+ "updated_at": "2026-11-07T12:01:00Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "F1 Singapore lah (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "F1 Singapore lah (YouTube)",
+   "when": "2026-11-07T11:59:57Z",
+   "url": "https://www.youtube.com/watch?v=-l5Lr-oU0oc"
+  },
   {
    "type": "comeback",
    "group": "ateez",
@@ -712,20 +723,6 @@
    "body_en": "[SEVENTEEN’s SNAPSHOOT] EP.90 베스트 프렌드 이름대기 (YouTube)",
    "when": "2026-11-04T08:59:56Z",
    "url": "https://www.youtube.com/watch?v=LBtP_ObJI_o"
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "GIRA MUNDIAL DE BTS 'ARIRANG' EN KAOHSIUNG: VER EN VIVO - Cinemex (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING - Cinemex (Google Noticias)",
-   "when": "2026-11-04T07:04:45Z",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONy04TndtRzluZkZxbGxlR21LMElTN1BMM1ZuYzlnUHNDZ0F3a0ZNVGh4N1laM1dpM1RkRDdubExKRUxSZ1dUT0o4VlROZGs5TDF3WFVXTmJTVzVQdDVxUTJjOXZEQTJIRzAtMFNxVUFNZjNRQ3U5MGplYkdPRGhnVl9XR2ljcHVMOW5POTFGRQ?oc=5",
-   "src_lang": "en",
-   "body_orig": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING - Cinemex (Google Noticias)",
-   "auto": true
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-07T11:00:39Z",
+ "updated_at": "2026-11-07T12:00:39Z",
  "sample": false,
  "items": [
   {
@@ -76,6 +76,15 @@
    "published": "2026-11-07T06:00:08Z",
    "url": "https://www.youtube.com/watch?v=vGg-TH2by2w",
    "image": "https://i.ytimg.com/vi/vGg-TH2by2w/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "F1 Singapore lah",
+   "date": "2026-11-07",
+   "published": "2026-11-07T11:59:57Z",
+   "url": "https://www.youtube.com/watch?v=-l5Lr-oU0oc",
+   "image": "https://i.ytimg.com/vi/-l5Lr-oU0oc/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -229,15 +238,6 @@
    "published": "2026-11-04T09:00:12Z",
    "url": "https://www.youtube.com/watch?v=fs61GhQuuvM",
    "image": "https://i.ytimg.com/vi/fs61GhQuuvM/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "1주년 티꾸",
-   "date": "2026-11-04",
-   "published": "2026-11-04T11:59:58Z",
-   "url": "https://www.youtube.com/watch?v=efGuRedKxmM",
-   "image": "https://i.ytimg.com/vi/efGuRedKxmM/hqdefault.jpg"
   },
   {
    "type": "video",
