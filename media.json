@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-07T08:15:32Z",
+ "updated_at": "2026-11-07T09:00:39Z",
  "sample": false,
  "items": [
   {
@@ -76,6 +76,15 @@
    "published": "2026-11-07T06:00:08Z",
    "url": "https://www.youtube.com/watch?v=vGg-TH2by2w",
    "image": "https://i.ytimg.com/vi/vGg-TH2by2w/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "형이 이렇게 하면 된댔잖아 #CORTIS #코르티스",
+   "date": "2026-11-07",
+   "published": "2026-11-07T09:00:04Z",
+   "url": "https://www.youtube.com/watch?v=g4ssECRdmA4",
+   "image": "https://i.ytimg.com/vi/g4ssECRdmA4/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -256,15 +265,6 @@
    "published": "2026-11-03T09:00:07Z",
    "url": "https://www.youtube.com/watch?v=7R2QUwCk-Js",
    "image": "https://i.ytimg.com/vi/7R2QUwCk-Js/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "PYPD NA tour 2",
-   "date": "2026-11-03",
-   "published": "2026-11-03T11:59:58Z",
-   "url": "https://www.youtube.com/watch?v=ODo-pDMzm1Q",
-   "image": "https://i.ytimg.com/vi/ODo-pDMzm1Q/hqdefault.jpg"
   },
   {
    "type": "video",
