@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-07T07:00:38Z",
+ "updated_at": "2026-11-07T08:15:32Z",
  "sample": false,
  "items": [
   {
@@ -76,6 +76,15 @@
    "published": "2026-11-07T06:00:08Z",
    "url": "https://www.youtube.com/watch?v=vGg-TH2by2w",
    "image": "https://i.ytimg.com/vi/vGg-TH2by2w/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) 홍중 | 김홍중 왕자님 생일 파티🤴🎂",
+   "date": "2026-11-07",
+   "published": "2026-11-07T08:00:36Z",
+   "url": "https://www.youtube.com/watch?v=ALGatlQaqSs",
+   "image": "https://i.ytimg.com/vi/ALGatlQaqSs/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -175,15 +184,6 @@
    "published": "2026-11-06T12:00:09Z",
    "url": "https://www.youtube.com/watch?v=waDkNVkTkCU",
    "image": "https://i.ytimg.com/vi/waDkNVkTkCU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) log_logbook#239",
-   "date": "2026-11-06",
-   "published": "2026-11-06T10:00:03Z",
-   "url": "https://www.youtube.com/watch?v=pSweeAAQqDU",
-   "image": "https://i.ytimg.com/vi/pSweeAAQqDU/hqdefault.jpg"
   },
   {
    "type": "video",
