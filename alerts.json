@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-07T18:46:00Z",
+ "updated_at": "2026-11-07T21:45:55Z",
  "alerts": [
+  {
+   "type": "tour",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Gira: ENHYPEN",
+   "body": "Enhypen World Tour 'Blood Saga' (2026) - IMDb (Google Noticias)",
+   "title_en": "Tour: ENHYPEN",
+   "body_en": "Enhypen World Tour 'Blood Saga' (2026) - IMDb (Google Noticias)",
+   "when": "2026-11-07T14:17:45Z",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTWxITmtpNDRCbmVzTjdLNjA0OENNcXNVOVBKbml4dl9ZQjdIZk83UkV6RGV5LWtDS1pCZW1jdTdERDNud1gwWVg3MFY4Z21XZUVLbWwzWVdCcEJsLXRJdTR5MHBMNGJIX201aDV3Q0E3SlItSkR3TkN4RjkzM2RhV21GVXNOT0dwNnc?oc=5",
+   "src_lang": "en",
+   "body_orig": "Enhypen World Tour 'Blood Saga' (2026) - IMDb (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "enhypen",
@@ -706,20 +720,6 @@
    "body_en": "𝙬𝙤𝙬 𝙨𝙤 𝙘𝙤𝙤𝙡 #StrayKids #스트레이키즈 #리노 #LeeKnow #아이엔 #I_N #YouMakeStrayKidsStay (YouTube)",
    "when": "2026-11-04T09:00:12Z",
    "url": "https://www.youtube.com/watch?v=fs61GhQuuvM"
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«'Bananas' 10/11 6PM KST EP #SWISH reserva y reserva anticipada https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "«'Bananas' 11/10 6PM KST EP #SWISH pre-order & pre-save https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "when": "2026-11-04T09:00:01Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2117904688276537697",
-   "src_lang": "en",
-   "body_orig": "«'Bananas' 11/10 6PM KST EP #SWISH pre-order & pre-save https://lngshot.lnk.to/SWISH #Bananas #LNGSHOT #MOREVISION» (LNGSHOT en X).",
-   "auto": true
   }
  ]
 }
