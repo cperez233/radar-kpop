@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T10:00:44Z",
+ "updated_at": "2026-11-08T10:30:37Z",
  "sample": false,
  "items": [
   {
@@ -76,6 +76,15 @@
    "published": "2026-11-08T06:00:04Z",
    "url": "https://www.youtube.com/watch?v=TfixaYSUSNY",
    "image": "https://i.ytimg.com/vi/TfixaYSUSNY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "#12oclock with #CARAT 🩷🩵 #JxJ #정한X조슈아 #DREAMSCAPE",
+   "date": "2026-11-08",
+   "published": "2026-11-08T10:30:03Z",
+   "url": "https://www.youtube.com/watch?v=gTXqq68uJqo",
+   "image": "https://i.ytimg.com/vi/gTXqq68uJqo/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -202,15 +211,6 @@
    "published": "2026-11-06T10:30:19Z",
    "url": "https://www.youtube.com/watch?v=vgtVLSnyJoo",
    "image": "https://i.ytimg.com/vi/vgtVLSnyJoo/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "도겸과 정한 〈정답 없는 여행〉 Official Teaser",
-   "date": "2026-11-06",
-   "published": "2026-11-06T09:00:12Z",
-   "url": "https://www.youtube.com/watch?v=q01ZbhCX5IE",
-   "image": "https://i.ytimg.com/vi/q01ZbhCX5IE/hqdefault.jpg"
   },
   {
    "type": "video",

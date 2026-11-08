@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-08T10:02:17Z",
+ "updated_at": "2026-11-08T10:31:40Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "#12oclock with #CARAT 🩷🩵 #JxJ #정한X조슈아 #DREAMSCAPE (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "#12oclock with #CARAT 🩷🩵 #JxJ #정한X조슈아 #DREAMSCAPE (YouTube)",
+   "when": "2026-11-08T10:30:03Z",
+   "url": "https://www.youtube.com/watch?v=gTXqq68uJqo"
+  },
   {
    "type": "video",
    "group": "ateez",
@@ -711,20 +722,6 @@
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTX3J1WXpaR21IcTNGOEEyTVl3ODRHRk8zZmZPd0kwdlF4YjY0blBWZmVCdGNVRjhDOFA3WFdxaGdiWlFBQ194bUQ1T1ZmaXB2RHJDUWlTc2h0cjlLQTdhbWdxZ2pEOFBu?oc=5",
    "src_lang": "es",
    "body_orig": "‘Stray Kids World Tour RUN IT’: Cómo ver desde México el concierto de la banda de K-pop en Japón - SensaCine.com.mx (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS en cines: dos conciertos de ARIRANG en 2026 - Gritaradio.com (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS in theaters: two ARIRANG concerts in 2026 - Gritaradio.com (Google News)",
-   "when": "2026-11-04T22:20:06Z",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNU1mVEFVTC1NODU4Zi1tMWc3RW1xNmtFQWNlR0NGaF8xeW1GaUZRanlNSG8yWWFJVF8tdmNyOG56UDN4NkVCaENQWjJaMi1OQlJ4cS1WTlN4bVc5NTBKVVhPMnMxS09WX042WHVTWVhQWHV6RF9ja0NwalVPNmVEdDZQZjFFRk1hdXItN09oSjg4T0lUbzNlVXdlWG9hdHM?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS en cines: dos conciertos de ARIRANG en 2026 - Gritaradio.com (Google Noticias)",
    "auto": true
   }
  ]
