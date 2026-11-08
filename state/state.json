@@ -2940,20 +2940,6 @@
  ],
  "news_topics": [
   {
-   "g": "skz",
-   "w": [
-    "cines",
-    "live",
-    "llega",
-    "mexicali",
-    "run",
-    "tour",
-    "viewing",
-    "world"
-   ],
-   "t": "2026-11-06T17:31:48Z"
-  },
-  {
    "g": "bts",
    "w": [
     "arirang",
@@ -3050,6 +3036,22 @@
     "suma"
    ],
    "t": "2026-11-08T15:45:56Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "cines",
+    "frontera",
+    "live",
+    "llega",
+    "mexicali",
+    "run",
+    "tour",
+    "viewing",
+    "voz",
+    "world"
+   ],
+   "t": "2026-11-08T17:31:59Z"
   }
  ],
  "discord_threads": {
