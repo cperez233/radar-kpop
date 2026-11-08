@@ -2137,8 +2137,6 @@
   }
  },
  "news_seen": [
-  "772a7078076cccb8",
-  "776190e4e72f40a6",
   "778de05dcc384f27",
   "77d96fb7f015c7a7",
   "77de826064a11c55",
@@ -2442,6 +2440,7 @@
   "a9d9454ce93c6e21",
   "a9fe336bc33c5333",
   "aa252b6cb401facd",
+  "aa26268631739546",
   "aa2e9b982ea9443b",
   "aa3a90c3ee991629",
   "aa43f8e08837f26d",
@@ -2625,6 +2624,7 @@
   "c75541069d2a12e5",
   "c762b25ee784d8d7",
   "c78ea0ce09af3c26",
+  "c8153f655bd5e38c",
   "c83c3e3cdebe8430",
   "c8a5b7edba2ce17f",
   "c8c7e5d61ca24a51",
@@ -2939,17 +2939,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "culmina",
-    "shows",
-    "sudamerica",
-    "todos",
-    "tour"
-   ],
-   "t": "2026-11-06T15:10:51Z"
-  },
   {
    "g": "bts",
    "w": [
