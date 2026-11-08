@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-08T14:01:02Z",
+ "updated_at": "2026-11-08T15:00:59Z",
  "alerts": [
+  {
+   "type": "birthday",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "🎂 Hoy cumple Momo (TWICE)",
+   "body": "Cumple 30 años. ¡생일 축하해, Momo!",
+   "title_en": "🎂 It's Momo's birthday (TWICE)",
+   "body_en": "Turning 30. Happy birthday, Momo! 생일 축하해!",
+   "when": "2026-11-08T15:00:59Z",
+   "url": null
+  },
   {
    "type": "video",
    "group": "enhypen",
@@ -703,20 +714,6 @@
    "body_en": "ATEEZ(에이티즈) 홍중 | 김홍중 왕자님 생일 파티🤴🎂 (YouTube)",
    "when": "2026-11-05T07:11:53Z",
    "url": "https://www.youtube.com/watch?v=ALGatlQaqSs"
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "¡BTS llega al cine! Proyectarán dos conciertos de su gira ARIRANG - El Siglo de Torreón (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS comes to the cinema! They will screen two concerts from their ARIRANG tour - El Siglo de Torreón (Google News)",
-   "when": "2026-11-05T04:28:43Z",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVVBRUFluS3NrV2JiX0p1dGFoYnc4ejFwLWloRnpjNjZZR2JIZ3ZudDNDNklOQjdEWFpzTUVTYWprWktKV29GV2F3RUNYY1RoY0l4alBISzNlQnpYRGlHVzZKamU0Z0dCczd1Umx3azhoOV9PbHg3dzh0bkdiWnlveXhXSy1rRFdWbmZianN0b29DY1JIZGZCaHZQREpaLUVhNFRQbHJyS0Q5bGNiMlZQQTZhb2hndFox?oc=5",
-   "src_lang": "es",
-   "body_orig": "¡BTS llega al cine! Proyectarán dos conciertos de su gira ARIRANG - El Siglo de Torreón (Google Noticias)",
-   "auto": true
   }
  ]
 }
