@@ -1241,7 +1241,11 @@
   "roster:https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zeGFqX29YQWNNLS00eHRRNXEtMjlIYlM2dnNsc0J2c3d2TGR4TkliTHF4ZWRkTTVlV3J5R0VRUGt5a3daT2pMZHplbi1nWVVhQno5eg?oc=5|foro": "2026-11-08T08:02:00Z",
   "news:df100409eedaa607|feed": "2026-11-08T08:16:06Z",
   "news:5c6b38fd29daa2da|feed": "2026-11-08T10:04:20Z",
-  "news:1c46c73752ea6a32|feed": "2026-11-08T10:31:45Z"
+  "news:1c46c73752ea6a32|feed": "2026-11-08T10:31:45Z",
+  "next:skz:skz-wiki-20261108-tokio|feed": "2026-11-08T13:01:07Z",
+  "next:skz:skz-wiki-20261108-tokio|ntfy": "2026-11-08T13:01:07Z",
+  "next:skz:skz-wiki-20261108-tokio|pub:radarkpop-skz-shows": "2026-11-08T13:01:07Z",
+  "next:skz:skz-wiki-20261108-tokio|foro": "2026-11-08T13:01:07Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2128,7 +2132,6 @@
   }
  },
  "news_seen": [
-  "76a39e4e78214fd8",
   "76b91f26e3cea3a0",
   "76cafef18bc6c21a",
   "76eb8c9b9a8c7b89",
@@ -2769,6 +2772,7 @@
   "e0a35b48a10bf225",
   "e0c06417ac484c5c",
   "e16c2722db5e4c89",
+  "e1cf2c2bddd0ad7c",
   "e1f55ffc95fb516b",
   "e20959cc2895af1d",
   "e23d52033c88fcf1",
