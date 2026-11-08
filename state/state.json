@@ -2137,7 +2137,6 @@
   }
  },
  "news_seen": [
-  "778de05dcc384f27",
   "77d96fb7f015c7a7",
   "77de826064a11c55",
   "77f0106177ac9323",
@@ -2172,6 +2171,7 @@
   "7dfe8bdf89c58b99",
   "7e0322db7b70439a",
   "7e0e1b6d2124d962",
+  "7e6acd513e899bd8",
   "7eac8580136709cb",
   "7ebbb187fd0730fc",
   "7f8356c08cc07eff",
@@ -2940,22 +2940,6 @@
  ],
  "news_topics": [
   {
-   "g": "bts",
-   "w": [
-    "2027",
-    "arirang",
-    "conciertos",
-    "gira",
-    "grupales",
-    "lanzamientos",
-    "nuevos",
-    "prepara",
-    "solistas",
-    "suma"
-   ],
-   "t": "2026-11-06T15:32:00Z"
-  },
-  {
    "g": "skz",
    "w": [
     "cines",
@@ -3050,6 +3034,22 @@
     "preventa"
    ],
    "t": "2026-11-08T01:15:57Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "2027",
+    "arirang",
+    "conciertos",
+    "gira",
+    "grupales",
+    "lanzamientos",
+    "nuevos",
+    "prepara",
+    "solistas",
+    "suma"
+   ],
+   "t": "2026-11-08T15:45:56Z"
   }
  ],
  "discord_threads": {
