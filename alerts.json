@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T15:00:59Z",
+ "updated_at": "2026-11-08T19:54:11Z",
  "alerts": [
   {
    "type": "birthday",
@@ -503,6 +503,20 @@
    "auto": true
   },
   {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "BTS cerrará el año en cines de todo el mundo con dos conciertos de su gira ARIRANG - Revista Kuadro (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS will close the year in cinemas around the world with two concerts of their ARIRANG tour - Kuadro Magazine (Google News)",
+   "when": "2026-11-06T00:36:09Z",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY3FBOHhDMGduazBXX0JWcmRWc1dSWEh1b2p6bC1uR05WRHpyWVRxNFJib09tX2pNYnhaM3Zfa1hkVEhiXzhaQ3VicHFCRGZXVmVyVEdTcUNfTkhtcTY5WXJxT0p4dVRlc1c2UmRyVk5UTzcxcHVraUNjN1M4MmxDa1BzajBTdUJhUlNReEdlamllYi1uSHVMWXI2eHJBM19vWkZLQkxzN09tOXUzMlE?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS cerrará el año en cines de todo el mundo con dos conciertos de su gira ARIRANG - Revista Kuadro (Google Noticias)",
+   "auto": true
+  },
+  {
    "type": "latam",
    "group": "bts",
    "group_name": "BTS",
@@ -703,17 +717,6 @@
    "src_lang": "ko",
    "body_orig": "«[📢] ATEEZ(에이티즈) Drip 발매 기념 STATIONHEAD 스케줄러 및 출석 체크 EVENT 참여 응모 안내 🔗 https://bit.ly/3WKXqUA 📅 응모 기한: ~ 2026.11.12 ...» (ATEEZ en X).",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "ATEEZ(에이티즈) 홍중 | 김홍중 왕자님 생일 파티🤴🎂 (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "ATEEZ(에이티즈) 홍중 | 김홍중 왕자님 생일 파티🤴🎂 (YouTube)",
-   "when": "2026-11-05T07:11:53Z",
-   "url": "https://www.youtube.com/watch?v=ALGatlQaqSs"
   }
  ]
 }

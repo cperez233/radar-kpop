@@ -1250,7 +1250,11 @@
   "bday:twice:momo:2026|feed": "2026-11-08T15:01:04Z",
   "bday:twice:momo:2026|ntfy": "2026-11-08T15:01:04Z",
   "bday:twice:momo:2026|pub:radarkpop-twice-members": "2026-11-08T15:01:04Z",
-  "bday:twice:momo:2026|foro": "2026-11-08T15:01:04Z"
+  "bday:twice:momo:2026|foro": "2026-11-08T15:01:04Z",
+  "news:5240a739c6f505dc|feed": "2026-11-08T19:54:18Z",
+  "news:5240a739c6f505dc|ntfy": "2026-11-08T19:54:18Z",
+  "news:5240a739c6f505dc|pub:radarkpop-bts-news": "2026-11-08T19:54:18Z",
+  "news:5240a739c6f505dc|foro": "2026-11-08T19:54:18Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2940,19 +2944,6 @@
  ],
  "news_topics": [
   {
-   "g": "bts",
-   "w": [
-    "arirang",
-    "cine",
-    "conciertos",
-    "dos",
-    "gira",
-    "llega",
-    "proyectaran"
-   ],
-   "t": "2026-11-06T19:45:59Z"
-  },
-  {
    "g": "enhypen",
    "w": [
     "anuncia",
@@ -3052,6 +3043,21 @@
     "world"
    ],
    "t": "2026-11-08T17:31:59Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "ano",
+    "arirang",
+    "cerrara",
+    "cines",
+    "conciertos",
+    "dos",
+    "gira",
+    "mundo",
+    "todo"
+   ],
+   "t": "2026-11-08T19:54:11Z"
   }
  ],
  "discord_threads": {
