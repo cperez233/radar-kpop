@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T11:31:13Z",
+ "updated_at": "2026-11-08T12:31:15Z",
  "groups": {
   "bts": {
    "x": [
@@ -1468,6 +1468,11 @@
   "seventeen": {
    "x": [
     {
+     "title": "[NEWS] 잠시 후 9시 10분! MBC 에 #승관 이 출연합니다.",
+     "url": "https://x.com/pledis_17/status/2119397474070868234",
+     "when": "2026-11-08T11:51:48Z"
+    },
+    {
      "title": "#12oclock with #CARAT 🩷🩵 ▶️ ▶️ ▶️",
      "url": "https://x.com/pledis_17/status/2119377367978385753",
      "when": "2026-11-08T10:31:55Z"
@@ -1486,11 +1491,6 @@
      "title": "[VIDEO] #STAN_SEVENTEEN 정한X조슈아 \"걔랑 내가 유닛을 한다고?\" | #STAN_SEVENTEEN ▶️ #JxJ #정한X조슈아",
      "url": "https://x.com/pledis_17/status/2119022299299078644",
      "when": "2026-11-07T11:01:00Z"
-    },
-    {
-     "title": "THE 8 - 我啊 (WOA) ▶️ #THE8 #디에잇 #SEVENTEEN #세븐틴 #WOA #THE8_WOA",
-     "url": "https://x.com/pledis_17/status/2118735190654951545",
-     "when": "2026-11-06T16:00:08Z"
     }
    ],
    "members": {
@@ -2264,5 +2264,5 @@
   }
  },
  "ig_cursor": 2,
- "ig_pause_until": "2026-11-08T12:31:12Z"
+ "ig_pause_until": "2026-11-08T18:31:15Z"
 }
