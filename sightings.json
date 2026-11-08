@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-11-06T23:15:39Z",
+  "updated_at": "2026-11-08T09:00:45Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "x-2119354252254392349",
+      "group": "cortis",
+      "group_name": "CORTIS",
+      "city": "Singapur",
+      "country": "Singapur",
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "text": "CORTIS Formula 1 Singapore Grand Prix 2026 Photo Sketch #CORTIS #코르티스",
+      "url": "https://x.com/cortis_bighit/status/2119354252254392349",
+      "account": "cortis_bighit",
+      "when": "2026-11-08T09:00:04Z"
+    },
     {
       "id": "fan-cortis-nuevayork-20261106",
       "group": "cortis",
@@ -138,19 +151,6 @@
       "url": "https://x.com/ENHYPEN/status/2111821623900983748",
       "account": "ENHYPEN",
       "when": "2026-10-18T14:08:05Z"
-    },
-    {
-      "id": "x-2108740853376360542",
-      "group": "cortis",
-      "group_name": "CORTIS",
-      "city": "Singapur",
-      "country": "Singapur",
-      "lat": 1.3521,
-      "lon": 103.8198,
-      "text": "Singapore GP was unforgettable 🏎️ thx for vibing with us 🔗 #CORTIS #코르티스 #CORTIS_REDRED #GREENGREEN",
-      "url": "https://x.com/cortis_bighit/status/2108740853376360542",
-      "account": "cortis_bighit",
-      "when": "2026-10-10T02:06:12Z"
     }
   ]
 }
