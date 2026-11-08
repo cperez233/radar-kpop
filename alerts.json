@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-08T04:15:57Z",
+ "updated_at": "2026-11-08T06:00:59Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Nuevo video: Stray Kids",
+   "body": "꿀멍즈 코어 #StrayKids #스트레이키즈 #창빈 #Changbin #승민 #Seungmin #YouMakeStrayKidsStay (YouTube)",
+   "title_en": "New video: Stray Kids",
+   "body_en": "꿀멍즈 코어 #StrayKids #스트레이키즈 #창빈 #Changbin #승민 #Seungmin #YouMakeStrayKidsStay (YouTube)",
+   "when": "2026-11-08T06:00:04Z",
+   "url": "https://www.youtube.com/watch?v=TfixaYSUSNY"
+  },
   {
    "type": "video",
    "group": "cortis",
@@ -715,17 +726,6 @@
    "body_en": "1주년 티꾸 (YouTube)",
    "when": "2026-11-04T11:59:58Z",
    "url": "https://www.youtube.com/watch?v=efGuRedKxmM"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.04 Rock in Rio (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.04 Rock in Rio (YouTube)",
-   "when": "2026-11-04T11:00:04Z",
-   "url": "https://www.youtube.com/watch?v=cfxxSsojp6A"
   }
  ]
 }

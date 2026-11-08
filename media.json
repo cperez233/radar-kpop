@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T04:15:35Z",
+ "updated_at": "2026-11-08T06:00:38Z",
  "sample": false,
  "items": [
   {
@@ -67,6 +67,15 @@
     }
    ],
    "sp_try": "2026-11-08"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "꿀멍즈 코어 #StrayKids #스트레이키즈 #창빈 #Changbin #승민 #Seungmin #YouMakeStrayKidsStay",
+   "date": "2026-11-08",
+   "published": "2026-11-08T06:00:04Z",
+   "url": "https://www.youtube.com/watch?v=TfixaYSUSNY",
+   "image": "https://i.ytimg.com/vi/TfixaYSUSNY/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -238,15 +247,6 @@
    "published": "2026-11-04T11:00:04Z",
    "url": "https://www.youtube.com/watch?v=cfxxSsojp6A",
    "image": "https://i.ytimg.com/vi/cfxxSsojp6A/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "𝙬𝙤𝙬 𝙨𝙤 𝙘𝙤𝙤𝙡 #StrayKids #스트레이키즈 #리노 #LeeKnow #아이엔 #I_N #YouMakeStrayKidsStay",
-   "date": "2026-11-04",
-   "published": "2026-11-04T09:00:12Z",
-   "url": "https://www.youtube.com/watch?v=fs61GhQuuvM",
-   "image": "https://i.ytimg.com/vi/fs61GhQuuvM/hqdefault.jpg"
   },
   {
    "type": "video",
