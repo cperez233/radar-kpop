@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-08T00:01:16Z",
+ "updated_at": "2026-11-08T04:15:57Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "i'm all gone fr #CORTIS #코르티스 (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "i'm all gone fr #CORTIS #코르티스 (YouTube)",
+   "when": "2026-11-08T04:00:35Z",
+   "url": "https://www.youtube.com/watch?v=-4QnrDCxyZQ"
+  },
   {
    "type": "tour",
    "group": "enhypen",
@@ -715,17 +726,6 @@
    "body_en": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.04 Rock in Rio (YouTube)",
    "when": "2026-11-04T11:00:04Z",
    "url": "https://www.youtube.com/watch?v=cfxxSsojp6A"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "계현 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "계현 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "when": "2026-11-04T11:00:03Z",
-   "url": "https://www.youtube.com/watch?v=lEO8yQUhrso"
   }
  ]
 }

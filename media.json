@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T03:00:40Z",
+ "updated_at": "2026-11-08T04:15:35Z",
  "sample": false,
  "items": [
   {
@@ -67,6 +67,15 @@
     }
    ],
    "sp_try": "2026-11-08"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "i'm all gone fr #CORTIS #코르티스",
+   "date": "2026-11-08",
+   "published": "2026-11-08T04:00:35Z",
+   "url": "https://www.youtube.com/watch?v=-4QnrDCxyZQ",
+   "image": "https://i.ytimg.com/vi/-4QnrDCxyZQ/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -193,15 +202,6 @@
    "published": "2026-11-06T12:01:29Z",
    "url": "https://www.youtube.com/watch?v=yMjiPULU_gc",
    "image": "https://i.ytimg.com/vi/yMjiPULU_gc/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "xiao long bao 🤌 #CORTIS #코르티스",
-   "date": "2026-11-06",
-   "published": "2026-11-06T09:00:00Z",
-   "url": "https://www.youtube.com/watch?v=quj-6rG3K_k",
-   "image": "https://i.ytimg.com/vi/quj-6rG3K_k/hqdefault.jpg"
   },
   {
    "type": "video",

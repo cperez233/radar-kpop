@@ -1232,7 +1232,8 @@
   "official:seventeen:comeback:2026-11-08|feed": "2026-11-08T00:01:24Z",
   "official:seventeen:comeback:2026-11-08|ntfy": "2026-11-08T00:01:24Z",
   "official:seventeen:comeback:2026-11-08|pub:radarkpop-seventeen-music": "2026-11-08T00:01:24Z",
-  "official:seventeen:comeback:2026-11-08|foro": "2026-11-08T00:01:24Z"
+  "official:seventeen:comeback:2026-11-08|foro": "2026-11-08T00:01:24Z",
+  "news:e0c06417ac484c5c|feed": "2026-11-08T04:16:01Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2119,8 +2120,6 @@
   }
  },
  "news_seen": [
-  "74bf3ce2479745b7",
-  "751cf99278ff67e5",
   "7522e6d34d2a5828",
   "7592ebec79c7b4a7",
   "75af10c2436953ab",
@@ -2763,6 +2762,7 @@
   "e02a3496ca9f6d45",
   "e099f8c2b6b5b319",
   "e0a35b48a10bf225",
+  "e0c06417ac484c5c",
   "e16c2722db5e4c89",
   "e1f55ffc95fb516b",
   "e20959cc2895af1d",
@@ -2877,6 +2877,7 @@
   "f7c4a0da1b3ba2bc",
   "f7db80c43d325e3b",
   "f80e981218c68d6c",
+  "f8c22c8e360cd198",
   "f8fcb9da9d31d52e",
   "f90da27388d6f25e",
   "f91fa7623939ac18",
