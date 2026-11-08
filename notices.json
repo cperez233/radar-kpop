@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T06:15:45Z",
+ "updated_at": "2026-11-08T12:00:50Z",
  "groups": {
   "lngshot": [
    {
@@ -47,6 +47,13 @@
   ],
   "seventeen": [
    {
+    "title": "[NEWS] 잠시 후 9시 10분! MBC <신인감독 김연경2>에 이 출연합니다.",
+    "url": "https://x.com/pledis_17/status/2119397474070868234",
+    "post": "https://x.com/pledis_17/status/2119397474070868234",
+    "when": "2026-11-08T11:51:48Z",
+    "weverse": false
+   },
+   {
     "title": "[NEWS] 세븐틴 디노의 'AUTOMATIC'이 발매되었습니다. 캐럿 여러분의 많은 사랑 부탁드립니다. 멜론",
     "url": "https://x.com/pledis_17/status/2117544464407470314",
     "post": "https://x.com/pledis_17/status/2117544464407470314",
@@ -80,13 +87,6 @@
     "post": "https://x.com/pledis_17/status/2116860302851821975",
     "when": "2026-11-01T11:50:00Z",
     "weverse": false
-   },
-   {
-    "title": "[NOTICE] JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - MACAU 공연 예매 안내 (+ENG/JPN/CHN)",
-    "url": "https://weverse.io/seventeen/notice/40391",
-    "post": "https://x.com/pledis_17/status/2114960284204851323",
-    "when": "2026-10-27T06:00:00Z",
-    "weverse": true
    }
   ],
   "enhypen": [
