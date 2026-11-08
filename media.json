@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T11:00:40Z",
+ "updated_at": "2026-11-08T14:00:40Z",
  "sample": false,
  "items": [
   {
@@ -85,6 +85,15 @@
    "published": "2026-11-08T10:30:03Z",
    "url": "https://www.youtube.com/watch?v=gTXqq68uJqo",
    "image": "https://i.ytimg.com/vi/gTXqq68uJqo/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "To YOU, From JUNGWON",
+   "date": "2026-11-08",
+   "published": "2026-11-08T13:59:37Z",
+   "url": "https://www.youtube.com/watch?v=JmCV1K5YGfw",
+   "image": "https://i.ytimg.com/vi/JmCV1K5YGfw/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -211,15 +220,6 @@
    "published": "2026-11-06T10:30:19Z",
    "url": "https://www.youtube.com/watch?v=vgtVLSnyJoo",
    "image": "https://i.ytimg.com/vi/vgtVLSnyJoo/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "To YOU, From SUNGHOON",
-   "date": "2026-11-06",
-   "published": "2026-11-06T14:00:01Z",
-   "url": "https://www.youtube.com/watch?v=s2r9Je7Nc_E",
-   "image": "https://i.ytimg.com/vi/s2r9Je7Nc_E/hqdefault.jpg"
   },
   {
    "type": "video",

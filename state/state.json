@@ -1245,7 +1245,8 @@
   "next:skz:skz-wiki-20261108-tokio|feed": "2026-11-08T13:01:07Z",
   "next:skz:skz-wiki-20261108-tokio|ntfy": "2026-11-08T13:01:07Z",
   "next:skz:skz-wiki-20261108-tokio|pub:radarkpop-skz-shows": "2026-11-08T13:01:07Z",
-  "next:skz:skz-wiki-20261108-tokio|foro": "2026-11-08T13:01:07Z"
+  "next:skz:skz-wiki-20261108-tokio|foro": "2026-11-08T13:01:07Z",
+  "news:d2e0ad8b24758420|feed": "2026-11-08T14:01:08Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2132,8 +2133,6 @@
   }
  },
  "news_seen": [
-  "76cafef18bc6c21a",
-  "76eb8c9b9a8c7b89",
   "772a7078076cccb8",
   "776190e4e72f40a6",
   "778de05dcc384f27",
@@ -2225,6 +2224,7 @@
   "86d68584245b1303",
   "86e549a1192892cc",
   "86f7edb40ea87da6",
+  "87bd508d6e84ed2a",
   "87dfec5aed77d0e2",
   "880b48dda87dbd6d",
   "883a15fa5402ae75",
@@ -2681,6 +2681,7 @@
   "d22817df9588237f",
   "d2c8d20b2b33e909",
   "d2d8c048e9cc8410",
+  "d2e0ad8b24758420",
   "d314e5864d108bb3",
   "d319e8cbb03d8058",
   "d350b6943111e246",
