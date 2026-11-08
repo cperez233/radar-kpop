@@ -1238,7 +1238,8 @@
   "roster:https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zeGFqX29YQWNNLS00eHRRNXEtMjlIYlM2dnNsc0J2c3d2TGR4TkliTHF4ZWRkTTVlV3J5R0VRUGt5a3daT2pMZHplbi1nWVVhQno5eg?oc=5|feed": "2026-11-08T08:02:00Z",
   "roster:https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zeGFqX29YQWNNLS00eHRRNXEtMjlIYlM2dnNsc0J2c3d2TGR4TkliTHF4ZWRkTTVlV3J5R0VRUGt5a3daT2pMZHplbi1nWVVhQno5eg?oc=5|ntfy": "2026-11-08T08:02:00Z",
   "roster:https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zeGFqX29YQWNNLS00eHRRNXEtMjlIYlM2dnNsc0J2c3d2TGR4TkliTHF4ZWRkTTVlV3J5R0VRUGt5a3daT2pMZHplbi1nWVVhQno5eg?oc=5|pub:radarkpop-newjeans-members": "2026-11-08T08:02:00Z",
-  "roster:https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zeGFqX29YQWNNLS00eHRRNXEtMjlIYlM2dnNsc0J2c3d2TGR4TkliTHF4ZWRkTTVlV3J5R0VRUGt5a3daT2pMZHplbi1nWVVhQno5eg?oc=5|foro": "2026-11-08T08:02:00Z"
+  "roster:https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zeGFqX29YQWNNLS00eHRRNXEtMjlIYlM2dnNsc0J2c3d2TGR4TkliTHF4ZWRkTTVlV3J5R0VRUGt5a3daT2pMZHplbi1nWVVhQno5eg?oc=5|foro": "2026-11-08T08:02:00Z",
+  "news:df100409eedaa607|feed": "2026-11-08T08:16:06Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2125,7 +2126,6 @@
   }
  },
  "news_seen": [
-  "762adbbad78b09a5",
   "763df933e3b1bfe8",
   "7648545d5cc60af8",
   "768de5c0eaa19919",
@@ -2753,6 +2753,7 @@
   "deb880ca0d14f4dc",
   "defb1ef553b2225b",
   "df039864311dc247",
+  "df100409eedaa607",
   "df27aaea3fe1a414",
   "df508a80852ccfa0",
   "df6d838f909c8278",

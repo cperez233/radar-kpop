@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T07:00:40Z",
+ "updated_at": "2026-11-08T08:15:37Z",
  "sample": false,
  "items": [
   {
@@ -76,6 +76,15 @@
    "published": "2026-11-08T06:00:04Z",
    "url": "https://www.youtube.com/watch?v=TfixaYSUSNY",
    "image": "https://i.ytimg.com/vi/TfixaYSUSNY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "☂️☃️ #JUNGWON #ENHYPEN",
+   "date": "2026-11-08",
+   "published": "2026-11-08T08:02:49Z",
+   "url": "https://www.youtube.com/watch?v=ot-ayOG4oDc",
+   "image": "https://i.ytimg.com/vi/ot-ayOG4oDc/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -202,15 +211,6 @@
    "published": "2026-11-06T14:00:01Z",
    "url": "https://www.youtube.com/watch?v=s2r9Je7Nc_E",
    "image": "https://i.ytimg.com/vi/s2r9Je7Nc_E/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "민초: 갑자기 저요...?",
-   "date": "2026-11-06",
-   "published": "2026-11-06T12:01:29Z",
-   "url": "https://www.youtube.com/watch?v=yMjiPULU_gc",
-   "image": "https://i.ytimg.com/vi/yMjiPULU_gc/hqdefault.jpg"
   },
   {
    "type": "video",
