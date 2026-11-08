@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T06:00:59Z",
+ "updated_at": "2026-11-08T08:01:53Z",
  "alerts": [
   {
    "type": "video",
@@ -11,6 +11,20 @@
    "body_en": "꿀멍즈 코어 #StrayKids #스트레이키즈 #창빈 #Changbin #승민 #Seungmin #YouMakeStrayKidsStay (YouTube)",
    "when": "2026-11-08T06:00:04Z",
    "url": "https://www.youtube.com/watch?v=TfixaYSUSNY"
+  },
+  {
+   "type": "roster",
+   "group": "newjeans",
+   "group_name": "NewJeans",
+   "title": "📰 Danielle (NewJeans) vuelve al grupo",
+   "body": "Noticia (sin confirmar): «Torn New Jeans still strong… 'Expelled' Daniel · 'Returned', the current situation caught in Korea [Ex's issue] - Export News»",
+   "title_en": "📰 Danielle (NewJeans) is back in the group",
+   "body_en": "Noticia (sin confirmar): «Torn New Jeans still strong… 'Expelled' Daniel · 'Returned', the current situation caught in Korea [Ex's issue] - Export News»",
+   "when": "2026-11-08T05:51:14Z",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zeGFqX29YQWNNLS00eHRRNXEtMjlIYlM2dnNsc0J2c3d2TGR4TkliTHF4ZWRkTTVlV3J5R0VRUGt5a3daT2pMZHplbi1nWVVhQno5eg?oc=5",
+   "src_lang": "ko",
+   "body_orig": "Noticia (sin confirmar): «찢어진 뉴진스, 여전히 돈독하다…'퇴출' 다니엘·'복귀' 하니, 한국서 포착된 근황 [엑's 이슈] - 엑스포츠뉴스»",
+   "auto": true
   },
   {
    "type": "video",
@@ -715,17 +729,6 @@
    "body_en": "이현 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
    "when": "2026-11-04T12:00:29Z",
    "url": "https://www.youtube.com/watch?v=wUVKMUt0JIc"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Nuevo video: CORTIS",
-   "body": "1주년 티꾸 (YouTube)",
-   "title_en": "New video: CORTIS",
-   "body_en": "1주년 티꾸 (YouTube)",
-   "when": "2026-11-04T11:59:58Z",
-   "url": "https://www.youtube.com/watch?v=efGuRedKxmM"
   }
  ]
 }
