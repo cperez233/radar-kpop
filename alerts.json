@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-07T21:45:55Z",
+ "updated_at": "2026-11-08T00:01:16Z",
  "alerts": [
   {
    "type": "tour",
@@ -25,6 +25,20 @@
    "body_en": "To YOU, From JAY (YouTube)",
    "when": "2026-11-07T14:00:03Z",
    "url": "https://www.youtube.com/watch?v=08X4INdjc80"
+  },
+  {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«NAYEON ÚNICO SUJETO “NA-sty” NO ENCONTRADO. 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KST/0AM ET #TWICE...» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«NAYEON SINGLE “NA-sty” SUBJECT NOT FOUND. 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE ...» (TWICE en X).",
+   "when": "2026-11-07T13:00:07Z",
+   "url": "https://x.com/JYPETWICE/status/2119052275691962731",
+   "src_lang": "en",
+   "body_orig": "«NAYEON SINGLE “NA-sty” SUBJECT NOT FOUND. 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE ...» (TWICE en X).",
+   "auto": true
   },
   {
    "type": "video",
@@ -281,6 +295,20 @@
    "url": "https://www.koreaboo.com/news/twice-nayeon-comeback-controversy/",
    "src_lang": "en",
    "body_orig": "TWICE Nayeon’s Solo Comeback Embroiled In Controversy (Koreaboo)",
+   "auto": true
+  },
+  {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: comeback",
+   "body": "«Dokyeom y Jeonghan <Viaje sin respuesta correcta> Teaser oficial ▶️ https://youtu.be/q01ZbhCX5IE 🎬 VOD ✔️ LANZAMIENTO : 2026.11.19 8PM (KST) 👉 EN EL AIRE : Weverse, Hul...» (SEVENTEEN en X).",
+   "title_en": "Official SEVENTEEN news: comeback",
+   "body_en": "«Dokyeom and Jeonghan <Travel Without Correct Answer> Official Teaser ▶️ https://youtu.be/q01ZbhCX5IE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hul...» (SEVENTEEN en X).",
+   "when": "2026-11-06T09:00:24Z",
+   "url": "https://x.com/pledis_17/status/2118629563278544926",
+   "src_lang": "ko",
+   "body_orig": "«도겸과 정한 <정답 없는 여행> Official Teaser ▶️ https://youtu.be/q01ZbhCX5IE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hul...» (SEVENTEEN en X).",
    "auto": true
   },
   {
@@ -698,28 +726,6 @@
    "body_en": "계현 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
    "when": "2026-11-04T11:00:03Z",
    "url": "https://www.youtube.com/watch?v=lEO8yQUhrso"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "창조 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "창조 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "when": "2026-11-04T09:00:21Z",
-   "url": "https://www.youtube.com/watch?v=-MHIRA2J0ec"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "𝙬𝙤𝙬 𝙨𝙤 𝙘𝙤𝙤𝙡 #StrayKids #스트레이키즈 #리노 #LeeKnow #아이엔 #I_N #YouMakeStrayKidsStay (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "𝙬𝙤𝙬 𝙨𝙤 𝙘𝙤𝙤𝙡 #StrayKids #스트레이키즈 #리노 #LeeKnow #아이엔 #I_N #YouMakeStrayKidsStay (YouTube)",
-   "when": "2026-11-04T09:00:12Z",
-   "url": "https://www.youtube.com/watch?v=fs61GhQuuvM"
   }
  ]
 }
