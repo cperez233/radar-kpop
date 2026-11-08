@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T08:15:37Z",
+ "updated_at": "2026-11-08T10:00:44Z",
  "sample": false,
  "items": [
   {
@@ -94,6 +94,15 @@
    "published": "2026-11-08T04:00:35Z",
    "url": "https://www.youtube.com/watch?v=-4QnrDCxyZQ",
    "image": "https://i.ytimg.com/vi/-4QnrDCxyZQ/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) log_logbook#240",
+   "date": "2026-11-08",
+   "published": "2026-11-08T10:00:02Z",
+   "url": "https://www.youtube.com/watch?v=AxJ1xvdcrDg",
+   "image": "https://i.ytimg.com/vi/AxJ1xvdcrDg/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -211,15 +220,6 @@
    "published": "2026-11-06T14:00:01Z",
    "url": "https://www.youtube.com/watch?v=s2r9Je7Nc_E",
    "image": "https://i.ytimg.com/vi/s2r9Je7Nc_E/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "다영 선배님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-06",
-   "published": "2026-11-06T12:00:09Z",
-   "url": "https://www.youtube.com/watch?v=waDkNVkTkCU",
-   "image": "https://i.ytimg.com/vi/waDkNVkTkCU/hqdefault.jpg"
   },
   {
    "type": "video",

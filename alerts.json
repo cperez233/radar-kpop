@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-08T08:16:00Z",
+ "updated_at": "2026-11-08T10:02:17Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) log_logbook#240 (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) log_logbook#240 (YouTube)",
+   "when": "2026-11-08T10:00:02Z",
+   "url": "https://www.youtube.com/watch?v=AxJ1xvdcrDg"
+  },
   {
    "type": "video",
    "group": "enhypen",
@@ -714,20 +725,6 @@
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNU1mVEFVTC1NODU4Zi1tMWc3RW1xNmtFQWNlR0NGaF8xeW1GaUZRanlNSG8yWWFJVF8tdmNyOG56UDN4NkVCaENQWjJaMi1OQlJ4cS1WTlN4bVc5NTBKVVhPMnMxS09WX042WHVTWVhQWHV6RF9ja0NwalVPNmVEdDZQZjFFRk1hdXItN09oSjg4T0lUbzNlVXdlWG9hdHM?oc=5",
    "src_lang": "es",
    "body_orig": "BTS en cines: dos conciertos de ARIRANG en 2026 - Gritaradio.com (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "latam",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Latinoamérica: BTS",
-   "body": "'Mi hija está en el cielo y yo estoy aquí por ella': el conmovedor mensaje de un papá 'Army' en el concierto de BTS en Brasil - El Tiempo (Google Noticias)",
-   "title_en": "Latin America: BTS",
-   "body_en": "'My daughter is in heaven and I am here for her': the moving message of an 'Army' dad at the BTS concert in Brazil - El Tiempo (Google News)",
-   "when": "2026-11-04T17:50:47Z",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNalpNcVZ1T2FiMjVWT0Zkd2N6UHJsaVpodnVwVTNkNTM3SlFsYV92WnhSbjVaWDhtOFRIUzUyQU4taXVVNjEycnBYRW42SEhPeFF1YkVSRy1YV0ZZYUpuSGFpQjFQS0wxdDVJeW01cUxZbkZhYV81aHdzYjcySHJTS3FibHJ3bWJyZmkxbllrTUxtRUZMNi1QWUxSVXJKR1hYTWpfNmNucllOT01mQUNkaTR0VXFDQUo5VHRpc0lPaS1QbTc4WlJwM1FjT1YweEtpaXhZcEh5T040UEUyU2pRNFJ0N1p1WEtkR2VRYk9nVDhzM2VfeW44anh6WdIBgAJBVV95cUxOQmZJQ0dBRUxyNlNhb0VPdnF1c3lhZEhOQUVySlY2NmRtXzNpQmxGM2lDSnJZN3l3djBVYUc1eDUzTnJzTmJWMTRiUWFOVDhyNEhCcHVGbDZiSXpDZjdORG9VQy1pZEtSVWg5LWRKS2doVnpkSE9NN1gzcGhfN2ctNmVkT0VMd25mQmdqZTFxTmVodEtOM21Pd2ViX0VmVmxXZndhd0pMVDNja0t1amNSaTFVbmg1amp0T1F5WDN3cjNVYVMxN0lMREpRdHdKQlY1cUtWQlRoekVLYTBKb29wTGlWWHBfWkc4VWEwZ00tTmFhZ2dWblI4aFdQdWpUWHZw?oc=5",
-   "src_lang": "es",
-   "body_orig": "'Mi hija está en el cielo y yo estoy aquí por ella': el conmovedor mensaje de un papá 'Army' en el concierto de BTS en Brasil - El Tiempo (Google Noticias)",
    "auto": true
   }
  ]

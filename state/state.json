@@ -1239,7 +1239,8 @@
   "roster:https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zeGFqX29YQWNNLS00eHRRNXEtMjlIYlM2dnNsc0J2c3d2TGR4TkliTHF4ZWRkTTVlV3J5R0VRUGt5a3daT2pMZHplbi1nWVVhQno5eg?oc=5|ntfy": "2026-11-08T08:02:00Z",
   "roster:https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zeGFqX29YQWNNLS00eHRRNXEtMjlIYlM2dnNsc0J2c3d2TGR4TkliTHF4ZWRkTTVlV3J5R0VRUGt5a3daT2pMZHplbi1nWVVhQno5eg?oc=5|pub:radarkpop-newjeans-members": "2026-11-08T08:02:00Z",
   "roster:https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zeGFqX29YQWNNLS00eHRRNXEtMjlIYlM2dnNsc0J2c3d2TGR4TkliTHF4ZWRkTTVlV3J5R0VRUGt5a3daT2pMZHplbi1nWVVhQno5eg?oc=5|foro": "2026-11-08T08:02:00Z",
-  "news:df100409eedaa607|feed": "2026-11-08T08:16:06Z"
+  "news:df100409eedaa607|feed": "2026-11-08T08:16:06Z",
+  "news:5c6b38fd29daa2da|feed": "2026-11-08T10:04:20Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2126,7 +2127,6 @@
   }
  },
  "news_seen": [
-  "7648545d5cc60af8",
   "768de5c0eaa19919",
   "76a39e4e78214fd8",
   "76b91f26e3cea3a0",
@@ -2279,6 +2279,7 @@
   "902f3d0b9bb1578d",
   "9055debbc701bc82",
   "905967327b8daa46",
+  "90b00d8f73f4ccb2",
   "911c2d9a565ebf7b",
   "91259e7d06cb30ad",
   "913f5285bf0cd9a3",
@@ -2928,17 +2929,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "twice",
-   "w": [
-    "comeback",
-    "controversy",
-    "embroiled",
-    "nayeons",
-    "solo"
-   ],
-   "t": "2026-11-06T09:46:01Z"
-  },
   {
    "g": "bts",
    "w": [
