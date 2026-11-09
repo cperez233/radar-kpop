@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T02:45:39Z",
+  "updated_at": "2026-11-09T11:30:41Z",
   "source": "rsshub",
   "sample": false,
   "items": [
@@ -32,6 +32,21 @@
       "when": "2026-11-08T09:00:04Z"
     },
     {
+      "id": "fan-newjeans-nuevayork-20261106",
+      "group": "newjeans",
+      "group_name": "NewJeans",
+      "city": "Nueva York",
+      "country": "EE. UU.",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "fan": true,
+      "fans": 2,
+      "text": "",
+      "url": "",
+      "account": "",
+      "when": "2026-11-06T19:27:25Z"
+    },
+    {
       "id": "fan-cortis-nuevayork-20261106",
       "group": "cortis",
       "group_name": "CORTIS",
@@ -45,21 +60,6 @@
       "url": "",
       "account": "",
       "when": "2026-11-06T08:26:07Z"
-    },
-    {
-      "id": "fan-newjeans-nuevayork-20261105",
-      "group": "newjeans",
-      "group_name": "NewJeans",
-      "city": "Nueva York",
-      "country": "EE. UU.",
-      "lat": 40.7128,
-      "lon": -74.006,
-      "fan": true,
-      "fans": 2,
-      "text": "",
-      "url": "",
-      "account": "",
-      "when": "2026-11-05T21:30:24Z"
     },
     {
       "id": "x-2118297293082317069",
