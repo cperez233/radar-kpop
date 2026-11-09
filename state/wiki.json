@@ -20,6 +20,10 @@
    25.9581,
    -80.2389
   ],
+  "Inglewood, California": [
+   33.9575,
+   -118.3461
+  ],
   "M&T Bank Stadium": [
    39.2781,
    -76.6228
@@ -31,13 +35,17 @@
   "Miami Gardens, Florida": [
    25.9419,
    -80.2564
+  ],
+  "SoFi Stadium": [
+   33.953,
+   -118.339
   ]
  },
  "discovered": {},
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-03T19:15:48Z",
- "last_run": "2026-11-09T17:45:16Z",
+ "last_run": "2026-11-09T19:45:16Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-08T05:45:17Z",
@@ -420,8 +428,8 @@
    "title": "New World Tour"
   },
   "Run It World Tour": {
-   "fetched": "2026-11-09T17:45:16Z",
-   "revid": 1384693479,
+   "fetched": "2026-11-09T19:45:16Z",
+   "revid": 1384707751,
    "rows": [
     {
      "cancelled": false,
@@ -587,8 +595,8 @@
     },
     {
      "cancelled": false,
-     "city": "Los Angeles",
-     "city_link": "Los Angeles",
+     "city": "Inglewood",
+     "city_link": "Inglewood, California",
      "country": "United States",
      "date": "2027-05-29",
      "venue": "SoFi Stadium",
