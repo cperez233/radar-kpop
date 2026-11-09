@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-09T15:32:17Z",
+ "updated_at": "2026-11-09T15:45:57Z",
  "alerts": [
+  {
+   "type": "tour",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Gira: Stray Kids",
+   "body": "El grupo surcoreano Stray Kids anuncia concierto en el Estadi Olímpic de Barcelona - El Periódico (Google Noticias)",
+   "title_en": "Tour: Stray Kids",
+   "body_en": "The South Korean group Stray Kids announces a concert at the Olympic Stadium in Barcelona - El Periódico (Google News)",
+   "when": "2026-11-09T15:36:17Z",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNllnaG54RE1NUnlFSGRNRzNNaUJCQk9oQW5KRzROZU5DNC13UmVlSEZDakdoU3Q4M09nOTBlN3RvN3hKVXMxWGdOUkxHWkc2Z2ZkdzY2U0hqR21XeUkwRGxKQzV4X3N2R29wMk82aXVDR1FDVmxmd2lWZ1VyZWpoS3YxYWc2dE15ZW1sNmNSQjlIWXhLQ0Q4WVMxajRrQlNQREw4ZExzcmNIbGxyb1dBeUM2Ykl1S2o4Zm5NRlluNmFkdDjSAcMBQVVfeXFMTUk5NmkwN0pWaXBabGdnSU1NUXVaVWdvWXJRaldXVDBETzVHZTVlRDMxMDRmWVNKSERIcFU5cGtpN3lJM0lsdmhjTUFVN3JGbHAwaV9hcl9URXV1d2NiVjF5dkFKajY1YVFMakxnbVduSlRSRG9PRElFdWhMQXppTWFKeHMyRUxPcG5QTFRhUXZNTS1sRWFBcUdNSHVZT0VQWHlaZ2J6UTZRTEJ5cTdnRS1OaGNXV2JXWEpTN3Q4MFkwX3Mw?oc=5",
+   "src_lang": "es",
+   "body_orig": "El grupo surcoreano Stray Kids anuncia concierto en el Estadi Olímpic de Barcelona - El Periódico (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "new_date",
    "group": "skz",
@@ -22,6 +36,20 @@
    "body_en": "May 4, 2027 at Kyocera Dome Osaka, Japan.",
    "when": "2026-11-09T15:32:17Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
+  },
+  {
+   "type": "tour",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Gira: Stray Kids",
+   "body": "Stray Kids anuncian gira mundial ‘RUN IT’ en 2027 - Barnafotopress (Google Noticias)",
+   "title_en": "Tour: Stray Kids",
+   "body_en": "Stray Kids announce 'RUN IT' world tour in 2027 - Barnafotopress (Google News)",
+   "when": "2026-11-09T15:30:53Z",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVmc4cUJ1SzdjZ3dla1U2VXhGam5PTzdPd0xDUldHTk9UVG1OYnBac1V1UUp5Vy1HaElQdzFLcjlwaEw1SGJkU2h3TVBCbHp0dDlGTkdoQnRXV0RRTUhoQ0o4NkJrY0gzSGZUbTB6QVltMldGWXcwODBqVzRRU1AxYzhRNUFFNkpsOTAyLV9QWQ?oc=5",
+   "src_lang": "es",
+   "body_orig": "Stray Kids anuncian gira mundial ‘RUN IT’ en 2027 - Barnafotopress (Google Noticias)",
+   "auto": true
   },
   {
    "type": "tour",
@@ -706,34 +734,6 @@
    "url": "https://www.koreaboo.com/news/twice-nayeon-comeback-controversy/",
    "src_lang": "en",
    "body_orig": "TWICE Nayeon’s Solo Comeback Embroiled In Controversy (Koreaboo)",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«Dokyeom y Jeonghan <Viaje sin respuesta correcta> Teaser oficial ▶️ https://youtu.be/q01ZbhCX5IE 🎬 VOD ✔️ LANZAMIENTO : 2026.11.19 8PM (KST) 👉 EN EL AIRE : Weverse, Hul...» (SEVENTEEN en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "«Dokyeom and Jeonghan <Travel Without Correct Answer> Official Teaser ▶️ https://youtu.be/q01ZbhCX5IE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hul...» (SEVENTEEN en X).",
-   "when": "2026-11-06T09:00:24Z",
-   "url": "https://x.com/pledis_17/status/2118629563278544926",
-   "src_lang": "ko",
-   "body_orig": "«도겸과 정한 <정답 없는 여행> Official Teaser ▶️ https://youtu.be/q01ZbhCX5IE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hul...» (SEVENTEEN en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«Dokyeom y Jeonghan <Viaje sin respuesta correcta> Teaser oficial ▶️ https://youtu.be/q01ZbhCX5IE 🎬 VOD ✔️ LANZAMIENTO : 2026.11.19 8PM (KST) 👉 EN EL AIRE : Weverse, Hul...» (SEVENTEEN en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "«Dokyeom and Jeonghan <Travel Without Correct Answer> Official Teaser ▶️ https://youtu.be/q01ZbhCX5IE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hul...» (SEVENTEEN en X).",
-   "when": "2026-11-06T09:00:24Z",
-   "url": "https://x.com/pledis_17/status/2118629563278544926",
-   "src_lang": "ko",
-   "body_orig": "«도겸과 정한 <정답 없는 여행> Official Teaser ▶️ https://youtu.be/q01ZbhCX5IE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hul...» (SEVENTEEN en X).",
    "auto": true
   }
  ]

@@ -1338,7 +1338,15 @@
   "news:01c8b89c7e5db530|feed": "2026-11-09T15:32:24Z",
   "news:01c8b89c7e5db530|ntfy": "2026-11-09T15:32:24Z",
   "news:01c8b89c7e5db530|pub:radarkpop-skz-news": "2026-11-09T15:32:24Z",
-  "news:01c8b89c7e5db530|foro": "2026-11-09T15:32:24Z"
+  "news:01c8b89c7e5db530|foro": "2026-11-09T15:32:24Z",
+  "news:23e5ad8a2aa3e6cc|feed": "2026-11-09T15:46:03Z",
+  "news:23e5ad8a2aa3e6cc|ntfy": "2026-11-09T15:46:03Z",
+  "news:23e5ad8a2aa3e6cc|pub:radarkpop-skz-news": "2026-11-09T15:46:03Z",
+  "news:23e5ad8a2aa3e6cc|foro": "2026-11-09T15:46:03Z",
+  "news:16963b528ba2282b|feed": "2026-11-09T15:46:03Z",
+  "news:16963b528ba2282b|ntfy": "2026-11-09T15:46:03Z",
+  "news:16963b528ba2282b|pub:radarkpop-skz-news": "2026-11-09T15:46:03Z",
+  "news:16963b528ba2282b|foro": "2026-11-09T15:46:03Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3242,6 +3250,30 @@
     "venta"
    ],
    "t": "2026-11-09T15:32:17Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "2027",
+    "anuncian",
+    "gira",
+    "mundial",
+    "run"
+   ],
+   "t": "2026-11-09T15:45:57Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "anuncia",
+    "barcelona",
+    "concierto",
+    "estadi",
+    "grupo",
+    "olimpic",
+    "surcoreano"
+   ],
+   "t": "2026-11-09T15:45:57Z"
   }
  ],
  "discord_threads": {
