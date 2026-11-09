@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-11-09T12:16:08Z",
+ "updated_at": "2026-11-09T13:01:06Z",
  "alerts": [
+  {
+   "type": "weekly",
+   "group": "radar",
+   "group_name": "Radar K-pop",
+   "title": "📅 Tu semana K-pop",
+   "body": "🎤 TWICE en Manila (14 nov)\n💿 LNGSHOT: S.W.I.S.H. (10 nov)\n🎂 Momo (TWICE) cumple 30 el 9 nov\n🎂 Jake (ENHYPEN) cumple 24 el 15 nov",
+   "title_en": "📅 Your K-pop week",
+   "body_en": "🎤 TWICE in Manila (Nov 14)\n💿 LNGSHOT: S.W.I.S.H. (Nov 10)\n🎂 Momo (TWICE) turns 30 on Nov 9\n🎂 Jake (ENHYPEN) turns 24 on Nov 15",
+   "when": "2026-11-09T13:01:06Z",
+   "url": null
+  },
+  {
+   "type": "official",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Anuncio oficial de Stray Kids: gira",
+   "body": "«Stray Kids(스트레이 키즈) World Tour <RUN IT EUROPE & UK> Entradas abiertas (hora local) Preventa de membresía STAY | 2026.11.18 (MIÉ) 11AM - 2PM Presal Artista...» (Stray Kids en X).",
+   "title_en": "Official Stray Kids news: tour",
+   "body_en": "«Stray Kids(스트레이 키즈) World Tour <RUN IT EUROPE & UK> Ticket Open (Local Time) STAY Membership Presale | 2026.11.18 (WED) 11AM - 2PM Artist Presal...» (Stray Kids en X).",
+   "when": "2026-11-09T13:00:31Z",
+   "url": "https://x.com/Stray_Kids/status/2119777153013457104",
+   "src_lang": "en",
+   "body_orig": "«Stray Kids(스트레이 키즈) World Tour <RUN IT EUROPE & UK> Ticket Open (Local Time) STAY Membership Presale | 2026.11.18 (WED) 11AM - 2PM Artist Presal...» (Stray Kids en X).",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "ateez",
@@ -710,28 +735,6 @@
    "body_en": "BTS: retiraron la demanda por supuesto plagio contra Swim, el éxito que llegó al número uno de Billboard - Aire de Santa Fe (Google Noticias). Reported by the press, not an official confirmation.",
    "when": "2026-11-05T17:18:00Z",
    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQMlZpdFhxX0Q4MjFDVzJtMTdsQm1udWpPdWx4cGNqX2pWblh0VzAyQl9jNF9FQUp2NUR2UzN1LUdFcWZ1YmM0Yl8tN3FnOFdUNnZoYm5RN1RNeEt5Tk5UTE5VZ3FTNXg1SGlQRUdWMXYyeDNOQV9tRWZwM3QxNHppcmNzcS1Genpfd1d1Nm9BaTZPY0tPWGt1aGozVml0d2FQVWNMQVNMNzBFMmdLcXc4aUduVTFqOGRqd2dVQVdoV1U2SlZhX0JhY2NSdGlVUWsyN25SZHdwUG41bV8xdzBwblAzMTFmQUVH?oc=5"
-  },
-  {
-   "type": "removed",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "ATEEZ quitó Atlanta de la agenda",
-   "body": "La fecha del 12 nov ya no aparece en las fuentes. Puede ser cancelación o cambio, confirma en la boletería.",
-   "title_en": "ATEEZ removed Atlanta from the schedule",
-   "body_en": "The Nov 12 date no longer shows up in the sources. It may be a cancellation or a change, check with the box office.",
-   "when": "2026-11-05T14:45:59Z",
-   "url": null
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "To YOU, From JAKE (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "To YOU, From JAKE (YouTube)",
-   "when": "2026-11-05T13:59:48Z",
-   "url": "https://www.youtube.com/watch?v=3GZc-9fqRLg"
   }
  ]
 }
