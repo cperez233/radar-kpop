@@ -1262,7 +1262,19 @@
   "official:seventeen:comeback:2026-11-09|feed": "2026-11-09T00:01:18Z",
   "official:seventeen:comeback:2026-11-09|ntfy": "2026-11-09T00:01:18Z",
   "official:seventeen:comeback:2026-11-09|pub:radarkpop-seventeen-music": "2026-11-09T00:01:18Z",
-  "official:seventeen:comeback:2026-11-09|foro": "2026-11-09T00:01:18Z"
+  "official:seventeen:comeback:2026-11-09|foro": "2026-11-09T00:01:18Z",
+  "news:6b52b340d2223d08|feed": "2026-11-09T01:46:06Z",
+  "news:6b52b340d2223d08|ntfy": "2026-11-09T01:46:06Z",
+  "news:6b52b340d2223d08|pub:radarkpop-bts-news": "2026-11-09T01:46:06Z",
+  "news:6b52b340d2223d08|foro": "2026-11-09T01:46:06Z",
+  "news:cc65409e413479c1|feed": "2026-11-09T01:46:06Z",
+  "news:cc65409e413479c1|ntfy": "2026-11-09T01:46:06Z",
+  "news:cc65409e413479c1|pub:radarkpop-bts-news": "2026-11-09T01:46:06Z",
+  "news:cc65409e413479c1|foro": "2026-11-09T01:46:06Z",
+  "news:d09481e5df59702b|feed": "2026-11-09T01:46:06Z",
+  "news:d09481e5df59702b|ntfy": "2026-11-09T01:46:06Z",
+  "news:d09481e5df59702b|pub:radarkpop-bts-news": "2026-11-09T01:46:06Z",
+  "news:d09481e5df59702b|foro": "2026-11-09T01:46:06Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2149,8 +2161,6 @@
   }
  },
  "news_seen": [
-  "77f0106177ac9323",
-  "7810593a0f554722",
   "78657b728ac8b4f1",
   "787f0927ac4b3755",
   "791a4a2565365e89",
@@ -2656,6 +2666,7 @@
   "cc15a4364f5c37b0",
   "cc37a3501c42ea08",
   "cc3f0b8e5a87d903",
+  "cc65409e413479c1",
   "cc764d8b16698912",
   "cc904933bc0e393a",
   "cc906e958aa0327d",
@@ -2687,6 +2698,7 @@
   "d0008a3380403320",
   "d06b08d640ac9b8d",
   "d086a34d23f83ee6",
+  "d09481e5df59702b",
   "d0cc514f1ef6d062",
   "d140c77b9a9ca375",
   "d1667cc5b5878928",
@@ -3037,6 +3049,38 @@
     "todo"
    ],
    "t": "2026-11-08T19:54:11Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "anadir",
+    "fechas",
+    "podria",
+    "tour"
+   ],
+   "t": "2026-11-09T01:45:58Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "cines",
+    "conciertos",
+    "desde",
+    "tendra",
+    "ver",
+    "vivo"
+   ],
+   "t": "2026-11-09T01:45:58Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "colombia",
+    "haber",
+    "podria",
+    "regreso"
+   ],
+   "t": "2026-11-09T01:45:58Z"
   }
  ],
  "discord_threads": {
