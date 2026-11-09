@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-11-09T09:46:04Z",
+ "updated_at": "2026-11-09T10:01:04Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) - YUNHO in DIESEL SS27 FASHION SHOW (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) - YUNHO in DIESEL SS27 FASHION SHOW (YouTube)",
+   "when": "2026-11-09T10:00:04Z",
+   "url": "https://www.youtube.com/watch?v=aRxqWyAe9lA"
+  },
+  {
+   "type": "comeback",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Comeback: TWICE",
+   "body": "Se especula que el escritor del nuevo álbum de TWICE Nayeon será “Ex Situationship” de su compañero (Koreaboo)",
+   "title_en": "Comeback: TWICE",
+   "body_en": "Writer On TWICE Nayeon’s New Album Speculated To Be Fellow Member’s “Ex Situationship” (Koreaboo)",
+   "when": "2026-11-09T09:50:03Z",
+   "url": "https://www.koreaboo.com/news/twice-nayeons-new-album-features-artist-rumored-fellow-members-ex-situationship/",
+   "src_lang": "en",
+   "body_orig": "Writer On TWICE Nayeon’s New Album Speculated To Be Fellow Member’s “Ex Situationship” (Koreaboo)",
+   "auto": true
+  },
   {
    "type": "official",
    "group": "lngshot",
@@ -707,31 +732,6 @@
    "src_lang": "en",
    "body_orig": "«NAYEON SINGLE “NA-sty” INTRO FILM: EVERYWHERE BUT NOWHERE 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KS...» (TWICE en X).",
    "auto": true
-  },
-  {
-   "type": "official",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Anuncio oficial de TWICE: comeback",
-   "body": "«NAYEON SINGLE “NA-sty” PELÍCULA INTRODUCCIÓN: EN TODAS PARTES PERO EN NINGUNA PARTE 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KS...» (TWICE en X).",
-   "title_en": "Official TWICE news: comeback",
-   "body_en": "«NAYEON SINGLE “NA-sty” INTRO FILM: EVERYWHERE BUT NOWHERE 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KS...» (TWICE en X).",
-   "when": "2026-11-05T13:00:02Z",
-   "url": "https://x.com/JYPETWICE/status/2118327481258430728",
-   "src_lang": "en",
-   "body_orig": "«NAYEON SINGLE “NA-sty” INTRO FILM: EVERYWHERE BUT NOWHERE 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KS...» (TWICE en X).",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Nuevo video: BTS",
-   "body": "BTS WORLD TOUR 'ARIRANG' LIVE VIEWING FROM KAOHSIUNG & JAKARTA - Official Trailer (YouTube)",
-   "title_en": "New video: BTS",
-   "body_en": "BTS WORLD TOUR 'ARIRANG' LIVE VIEWING FROM KAOHSIUNG & JAKARTA - Official Trailer (YouTube)",
-   "when": "2026-11-05T13:00:01Z",
-   "url": "https://www.youtube.com/watch?v=xzTFYPnoum8"
   }
  ]
 }
