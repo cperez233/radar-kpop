@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09T03:00:19Z",
+ "updated_at": "2026-11-09T06:00:52Z",
  "groups": {
   "lngshot": [
    {
@@ -47,6 +47,13 @@
   ],
   "seventeen": [
    {
+    "title": "[NOTICE] JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - TAIPEI 공연 예매 안내 (+ENG/JPN/CHN)",
+    "url": "https://weverse.io/seventeen/notice/40396",
+    "post": "https://x.com/pledis_17/status/2119671334149984361",
+    "when": "2026-11-09T06:00:02Z",
+    "weverse": true
+   },
+   {
     "title": "[NEWS] 잠시 후 9시 10분! MBC <신인감독 김연경2>에 이 출연합니다.",
     "url": "https://x.com/pledis_17/status/2119397474070868234",
     "post": "https://x.com/pledis_17/status/2119397474070868234",
@@ -79,13 +86,6 @@
     "url": "https://x.com/pledis_17/status/2117104414892728770",
     "post": "https://x.com/pledis_17/status/2117104414892728770",
     "when": "2026-11-02T04:00:01Z",
-    "weverse": false
-   },
-   {
-    "title": "[NEWS] 잠시 후 9시 10분! MBC <신인감독 김연경2>에 이 출연합니다.",
-    "url": "https://x.com/pledis_17/status/2116860302851821975",
-    "post": "https://x.com/pledis_17/status/2116860302851821975",
-    "when": "2026-11-01T11:50:00Z",
     "weverse": false
    }
   ],

@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-09T05:01:04Z",
+ "updated_at": "2026-11-09T06:01:12Z",
  "alerts": [
+  {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: gira",
+   "body": "«[AVISO] JEONGHAN",
+   "title_en": "Official SEVENTEEN news: tour",
+   "body_en": "«[NOTICE] JEONGHAN",
+   "when": "2026-11-09T06:00:02Z",
+   "url": "https://x.com/pledis_17/status/2119671334149984361",
+   "src_lang": "ko",
+   "body_orig": "«[NOTICE] JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - TAIPEI 공연 예매 안내 (+ENG/JPN/CHN) ▶️ https://weverse.io/seventeen/notice/40396 #JxJ #정한X조...» (SEVENTEEN en X).",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "seventeen",
@@ -715,17 +729,6 @@
    "body_en": "ChoiChoiz drown in the Drip 👥 #Shorts (YouTube)",
    "when": "2026-11-05T12:00:21Z",
    "url": "https://www.youtube.com/watch?v=R5AZB8yMG1E"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "#꼬잉_픽📌 덕분에 언어 지식+1 중국어 폭주하는 조슈아 #SEVENTEEN #세븐틴 #GOING_SVT #고잉세븐틴 #shorts (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "#꼬잉_픽📌 덕분에 언어 지식+1 중국어 폭주하는 조슈아 #SEVENTEEN #세븐틴 #GOING_SVT #고잉세븐틴 #shorts (YouTube)",
-   "when": "2026-11-05T12:00:18Z",
-   "url": "https://www.youtube.com/watch?v=TUz4kBJpfJk"
   }
  ]
 }

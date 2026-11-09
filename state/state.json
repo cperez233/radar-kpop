@@ -1275,7 +1275,11 @@
   "news:d09481e5df59702b|ntfy": "2026-11-09T01:46:06Z",
   "news:d09481e5df59702b|pub:radarkpop-bts-news": "2026-11-09T01:46:06Z",
   "news:d09481e5df59702b|foro": "2026-11-09T01:46:06Z",
-  "news:dd1804d1321582aa|feed": "2026-11-09T05:01:09Z"
+  "news:dd1804d1321582aa|feed": "2026-11-09T05:01:09Z",
+  "official:seventeen:tour:2026-11-09|feed": "2026-11-09T06:01:19Z",
+  "official:seventeen:tour:2026-11-09|ntfy": "2026-11-09T06:01:19Z",
+  "official:seventeen:tour:2026-11-09|pub:radarkpop-seventeen-shows": "2026-11-09T06:01:19Z",
+  "official:seventeen:tour:2026-11-09|foro": "2026-11-09T06:01:19Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2162,7 +2166,6 @@
   }
  },
  "news_seen": [
-  "79569b17c64f4cfd",
   "796e24107fd97cbd",
   "79a7b3077f7b3f82",
   "79fb702543b9f1d9",
@@ -2682,6 +2685,7 @@
   "cdd4e838c093bb89",
   "ce022f285215ae61",
   "ce322fa6405e1bba",
+  "ce7e46d9557cd70d",
   "ce89f92eed1ef948",
   "ce9a57c96ef54d2b",
   "ce9c3ac13d8187be",
