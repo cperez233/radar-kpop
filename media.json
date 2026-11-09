@@ -1,55 +1,7 @@
 {
- "updated_at": "2026-11-09T02:00:47Z",
+ "updated_at": "2026-11-09T02:15:37Z",
  "sample": false,
  "items": [
-  {
-   "type": "music",
-   "group": "skz",
-   "title": "SUIATSU",
-   "kind": "Album",
-   "date": "2026-11-25",
-   "url": "https://music.apple.com/us/album/suiatsu/6829772542",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/ea/13/e9ea1310-a7c2-cc23-aa8a-7a9bfce24ee0/4547366864731.jpg/300x300bb.jpg",
-   "ytm_v": 6,
-   "tracks": [
-    {
-     "n": "SUIATSU",
-     "ms": 169360,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/85/f1/3b85f15c-921e-2cea-b250-01bf126a2e0e/mzaf_3951745618208177317.plus.aac.p.m4a"
-    },
-    {
-     "n": "TEMPLE",
-     "ms": 186000,
-     "p": ""
-    },
-    {
-     "n": "Lonely Night",
-     "ms": 192000,
-     "p": ""
-    },
-    {
-     "n": "LAST TAKE",
-     "ms": 186507,
-     "p": ""
-    },
-    {
-     "n": "Christmas Love (Party Version)",
-     "ms": 181000,
-     "p": ""
-    },
-    {
-     "n": "SUIATSU (Deep Version)",
-     "ms": 182493,
-     "p": ""
-    },
-    {
-     "n": "SUIATSU (Boost Version)",
-     "ms": 159013,
-     "p": ""
-    }
-   ],
-   "spotify": "https://open.spotify.com/album/6Sbe6k0GV26EDheUyoVGZ3"
-  },
   {
    "type": "music",
    "group": "enhypen",
@@ -685,6 +637,90 @@
    "published": "2026-08-08T02:59:56Z",
    "url": "https://www.youtube.com/watch?v=k--lCrP69hg",
    "image": "https://i.ytimg.com/vi/k--lCrP69hg/hqdefault.jpg"
+  },
+  {
+   "type": "music",
+   "group": "skz",
+   "title": "SKZ-REPLAY 2026 Pt.1",
+   "kind": "Album",
+   "date": "2026-07-31",
+   "url": "https://music.apple.com/us/album/skz-replay-2026-pt-1/6790903804",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/70/ea/2270ea94-60f0-94a6-bce2-99fafaa8a057/8809928957340_Cover.jpg/300x300bb.jpg",
+   "ytm_v": 6,
+   "tracks": [
+    {
+     "n": "Battle Ground (Korean Version)",
+     "ms": 211000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/6f/33/9f6f3361-3534-c755-45dc-903d25ff316b/mzaf_1731032329166234454.plus.aac.p.m4a"
+    },
+    {
+     "n": "Roman Empire",
+     "ms": 167000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/69/97/9169973e-7701-0aff-60e6-cf8dcf19c467/mzaf_180656481726933540.plus.aac.p.m4a"
+    },
+    {
+     "n": "LOVER",
+     "ms": 183000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/e4/20/d1e42065-bc11-7cc9-e241-0191674a8b7b/mzaf_10998409344296161675.plus.aac.p.m4a"
+    },
+    {
+     "n": "Raining stars",
+     "ms": 218000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/9a/cf/fd9acf7d-28d1-c397-cb03-13eca69e4bc0/mzaf_1957281231149852243.plus.aac.p.m4a"
+    },
+    {
+     "n": "The Little Things",
+     "ms": 172000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/44/f4/2244f426-f8b9-c01e-df19-88bb07812410/mzaf_6881537929703826834.plus.aac.p.m4a"
+    },
+    {
+     "n": "Goodbye",
+     "ms": 217000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/a9/55/49a95582-06ac-75b2-96a3-1197a017ba2a/mzaf_1335340798956482882.plus.aac.p.m4a"
+    },
+    {
+     "n": "Still here",
+     "ms": 183000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/5c/43/7a5c4381-d021-0155-b194-6d6fa6014d2c/mzaf_6638510757466803380.plus.aac.p.m4a"
+    },
+    {
+     "n": "Into The Current",
+     "ms": 268000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/61/cf/4361cf2c-ff73-0a16-dc04-ba78c1ae8821/mzaf_8015541017660332433.plus.aac.p.m4a"
+    },
+    {
+     "n": "MIC&BRUSH",
+     "ms": 127000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/cd/46/d5cd465c-85cf-9e49-682c-a0eb6cf4ce37/mzaf_14653547432876982546.plus.aac.p.m4a"
+    },
+    {
+     "n": "PERFUME",
+     "ms": 123400,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7e/8a/09/7e8a0917-536f-1d3c-0977-743a22aecae6/mzaf_4157426095753020346.plus.aac.p.m4a"
+    },
+    {
+     "n": "BABY",
+     "ms": 120000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/48/b8/4248b8bb-c3ac-c75d-5a74-0ec5fcc7c834/mzaf_5732396609934755526.plus.aac.p.m4a"
+    },
+    {
+     "n": "Don’t Say",
+     "ms": 120000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/98/66/10/9866105a-6768-6c46-b0cb-968d20061308/mzaf_1518125846953031582.plus.aac.p.m4a"
+    },
+    {
+     "n": "My Name",
+     "ms": 95000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/95/6a/59956a71-f238-fac0-19ad-9941564c104c/mzaf_14745899098179121741.plus.aac.p.m4a"
+    },
+    {
+     "n": "REV IT UP",
+     "ms": 113000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/cf/aa/fdcfaa60-ccb4-ea4c-20f1-7fd39e443148/mzaf_13212625031362410386.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": "2026-11-09T02",
+   "spotify": "https://open.spotify.com/album/6xS6wVbYu6DtNh6J1KZ1Gp"
   },
   {
    "type": "music",
