@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09T10:45:38Z",
+ "updated_at": "2026-11-09T11:00:46Z",
  "sample": false,
  "items": [
   {
@@ -492,7 +492,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-09T07",
+   "ytm_try": "2026-11-09T11",
    "sp_try": "2026-11-09"
   },
   {
@@ -647,6 +647,7 @@
    "url": "https://music.apple.com/us/album/skz-replay-2026-pt-1/6790903804",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/70/ea/2270ea94-60f0-94a6-bce2-99fafaa8a057/8809928957340_Cover.jpg/300x300bb.jpg",
    "ytm_v": 6,
+   "spotify": "https://open.spotify.com/album/6xS6wVbYu6DtNh6J1KZ1Gp",
    "tracks": [
     {
      "n": "Battle Ground (Korean Version)",
@@ -719,8 +720,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/cf/aa/fdcfaa60-ccb4-ea4c-20f1-7fd39e443148/mzaf_13212625031362410386.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-09T10",
-   "spotify": "https://open.spotify.com/album/6xS6wVbYu6DtNh6J1KZ1Gp"
+   "ytm_try": "2026-11-09T10"
   },
   {
    "type": "music",
@@ -1332,7 +1332,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-09T07"
+   "ytm_try": "2026-11-09T11"
   },
   {
    "type": "music",
