@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09T14:00:40Z",
+ "updated_at": "2026-11-09T14:15:34Z",
  "sample": false,
  "items": [
   {
@@ -146,6 +146,15 @@
   {
    "type": "video",
    "group": "ateez",
+   "title": "윤민 님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-09",
+   "published": "2026-11-09T14:00:35Z",
+   "url": "https://www.youtube.com/watch?v=MdI4oeU4Wvo",
+   "image": "https://i.ytimg.com/vi/MdI4oeU4Wvo/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
    "title": "조이현 선배님과 해, 쩌는 짓 😎 #Shorts",
    "date": "2026-11-09",
    "published": "2026-11-09T12:00:24Z",
@@ -205,15 +214,6 @@
    "published": "2026-11-08T04:00:35Z",
    "url": "https://www.youtube.com/watch?v=-4QnrDCxyZQ",
    "image": "https://i.ytimg.com/vi/-4QnrDCxyZQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) log_logbook#240",
-   "date": "2026-11-08",
-   "published": "2026-11-08T10:00:02Z",
-   "url": "https://www.youtube.com/watch?v=AxJ1xvdcrDg",
-   "image": "https://i.ytimg.com/vi/AxJ1xvdcrDg/hqdefault.jpg"
   },
   {
    "type": "video",

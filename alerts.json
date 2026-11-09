@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-11-09T14:01:02Z",
+ "updated_at": "2026-11-09T14:15:56Z",
  "alerts": [
+  {
+   "type": "tour",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Gira: Stray Kids",
+   "body": "Stray Kids concierto en Barcelona el 24 de julio de 2027 - Entradas Stray Kids - La Ganzua (Google Noticias)",
+   "title_en": "Tour: Stray Kids",
+   "body_en": "Stray Kids concert in Barcelona on July 24, 2027 - Stray Kids Tickets - La Ganzua (Google News)",
+   "when": "2026-11-09T14:13:37Z",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE52NEhycDFiNWtsNTVPdjdWWXNZNUhNU3Q5djV6YklQbDluU3JKNTdZZEZlb1IweGhCY2pfY0NJS3RHam1ZSzZaWUZaci04RjQ4RkhuSU4zNVltbDRoaEIwRHlTaHFGdXA0MzNSMC1ObVQ0Zw?oc=5",
+   "src_lang": "es",
+   "body_orig": "Stray Kids concierto en Barcelona el 24 de julio de 2027 - Entradas Stray Kids - La Ganzua (Google Noticias)",
+   "auto": true
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "윤민 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "윤민 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "when": "2026-11-09T14:00:35Z",
+   "url": "https://www.youtube.com/watch?v=MdI4oeU4Wvo"
+  },
   {
    "type": "video",
    "group": "enhypen",
@@ -11,6 +36,20 @@
    "body_en": "To YOU, From NI-KI (YouTube)",
    "when": "2026-11-09T13:59:30Z",
    "url": "https://www.youtube.com/watch?v=OIiKFF7Zaf8"
+  },
+  {
+   "type": "comeback",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Comeback: Stray Kids",
+   "body": "El grupo de K-pop Stray Kids anuncia su regreso a París en 2027 - Sortir à Paris (Google Noticias)",
+   "title_en": "Comeback: Stray Kids",
+   "body_en": "K-pop group Stray Kids announces their return to Paris in 2027 - Sortir à Paris (Google News)",
+   "when": "2026-11-09T13:48:52Z",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOU0M5M2lqaHdQOWRSVzRCWk04cW9CVFo3M1VMcS1ibkJiY2tsSFVJR0x2aXdDRG5zcktMcnRveXI3RnN4eGRNcmZyMUJRV2puUjJ3ZGZ0OUM3VWdONzZ5VFFpQ0cxRUg5ZlBiR19JSF9fb29LY19oM0hhTGlFQUVMb1Z4Si1CQ1dLM3FKOGdzVVNZSjF3b09YYloteGxmV3g1QVBwdUVodnZoeGpIMVJ6WnBhV1pBZG5hV3JoQTl6TkdfTE8yWDdmYXNwQjJVSWotU0pXV1dBTHNMQ1E2S0d6OUd0VHlKRlJfYWxvYU5Xcw?oc=5",
+   "src_lang": "es",
+   "body_orig": "El grupo de K-pop Stray Kids anuncia su regreso a París en 2027 - Sortir à Paris (Google Noticias)",
+   "auto": true
   },
   {
    "type": "tour",
@@ -692,48 +731,6 @@
    "url": "https://x.com/ATEEZofficial/status/2118544524956045428",
    "src_lang": "ko",
    "body_orig": "«[📰] 에이티즈, 컴백 초읽기…타이틀곡 '업' 베일 벗었다 https://naver.me/FNtUVmUZ #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOUR_Part6» (ATEEZ en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Anuncio oficial de ATEEZ: comeback",
-   "body": "«[📰] ATEEZ, cuenta regresiva para su regreso... Se revela la canción principal ‘Up’ https://naver.me/FNtUVmUZ #ATEEZ #ATEEZ #GOLDENHOUR #GOLDENHOUR_Part6» (ATEEZ en X).",
-   "title_en": "Official ATEEZ news: comeback",
-   "body_en": "«[📰] ATEEZ, counting down to comeback... Title song ‘Up’ unveiled https://naver.me/FNtUVmUZ #ATEEZ #ATEEZ #GOLDENHOUR #GOLDENHOUR_Part6» (ATEEZ en X).",
-   "when": "2026-11-06T03:22:30Z",
-   "url": "https://x.com/ATEEZofficial/status/2118544524956045428",
-   "src_lang": "ko",
-   "body_orig": "«[📰] 에이티즈, 컴백 초읽기…타이틀곡 '업' 베일 벗었다 https://naver.me/FNtUVmUZ #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOUR_Part6» (ATEEZ en X).",
-   "auto": true
-  },
-  {
-   "type": "comeback",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "💿 Hoy sale «NAYEON SINGLE “NA-sty” SINGLE» de TWICE",
-   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
-   "title_en": "💿 TWICE's «NAYEON SINGLE “NA-sty” SINGLE» is out today",
-   "body_en": "You can now listen to it! (or in a few hours, depending on your time zone)",
-   "when": "2026-11-06T02:01:06Z",
-   "url": "https://x.com/JYPETWICE/status/2118523783954964571",
-   "src_lang": "es",
-   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS cerrará el año en cines de todo el mundo con dos conciertos de su gira ARIRANG - Revista Kuadro (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS will close the year in cinemas around the world with two concerts of their ARIRANG tour - Kuadro Magazine (Google News)",
-   "when": "2026-11-06T00:36:09Z",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY3FBOHhDMGduazBXX0JWcmRWc1dSWEh1b2p6bC1uR05WRHpyWVRxNFJib09tX2pNYnhaM3Zfa1hkVEhiXzhaQ3VicHFCRGZXVmVyVEdTcUNfTkhtcTY5WXJxT0p4dVRlc1c2UmRyVk5UTzcxcHVraUNjN1M4MmxDa1BzajBTdUJhUlNReEdlamllYi1uSHVMWXI2eHJBM19vWkZLQkxzN09tOXUzMlE?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS cerrará el año en cines de todo el mundo con dos conciertos de su gira ARIRANG - Revista Kuadro (Google Noticias)",
    "auto": true
   }
  ]

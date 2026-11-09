@@ -1307,7 +1307,16 @@
   "news:7dc30a7bd908235e|pub:radarkpop-skz-news": "2026-11-09T13:31:53Z",
   "news:7dc30a7bd908235e|foro": "2026-11-09T13:31:53Z",
   "news:7c0f46dc04c2057f|feed": "2026-11-09T13:31:53Z",
-  "news:3585968ddcb40478|feed": "2026-11-09T14:01:08Z"
+  "news:3585968ddcb40478|feed": "2026-11-09T14:01:08Z",
+  "news:43705c2d5c4181ab|feed": "2026-11-09T14:16:03Z",
+  "news:43705c2d5c4181ab|ntfy": "2026-11-09T14:16:03Z",
+  "news:43705c2d5c4181ab|pub:radarkpop-skz-news": "2026-11-09T14:16:03Z",
+  "news:43705c2d5c4181ab|foro": "2026-11-09T14:16:03Z",
+  "news:2c27c8fcd4edba78|feed": "2026-11-09T14:16:03Z",
+  "news:2c27c8fcd4edba78|ntfy": "2026-11-09T14:16:03Z",
+  "news:2c27c8fcd4edba78|pub:radarkpop-skz-news": "2026-11-09T14:16:03Z",
+  "news:2c27c8fcd4edba78|foro": "2026-11-09T14:16:03Z",
+  "news:7f8a34368bedbe99|feed": "2026-11-09T14:16:03Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2194,7 +2203,6 @@
   }
  },
  "news_seen": [
-  "7c0f46dc04c2057f",
   "7c323b80035fa58c",
   "7c9e9c0539f01758",
   "7cdd1f92b2d74a40",
@@ -2211,6 +2219,7 @@
   "7eac8580136709cb",
   "7ebbb187fd0730fc",
   "7f8356c08cc07eff",
+  "7f8a34368bedbe99",
   "7f98c79271441a58",
   "7fa6451f2247d252",
   "7fab5ac364031e2e",
@@ -3147,6 +3156,29 @@
     "world"
    ],
    "t": "2026-11-09T13:31:47Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "2027",
+    "anuncia",
+    "grupo",
+    "paris",
+    "pop",
+    "regreso"
+   ],
+   "t": "2026-11-09T14:15:56Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "2027",
+    "barcelona",
+    "concierto",
+    "entradas",
+    "julio"
+   ],
+   "t": "2026-11-09T14:15:56Z"
   }
  ],
  "discord_threads": {
