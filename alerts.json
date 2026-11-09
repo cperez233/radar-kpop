@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-09T11:20:48Z",
+ "updated_at": "2026-11-09T12:16:08Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "조이현 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "조이현 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "when": "2026-11-09T12:00:24Z",
+   "url": "https://www.youtube.com/watch?v=Bg826nBD0JI"
+  },
   {
    "type": "tour",
    "group": "bts",
@@ -721,17 +732,6 @@
    "body_en": "To YOU, From JAKE (YouTube)",
    "when": "2026-11-05T13:59:48Z",
    "url": "https://www.youtube.com/watch?v=3GZc-9fqRLg"
-  },
-  {
-   "type": "new_date",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "ATEEZ agregó fechas en Atlanta",
-   "body": "12 nov en The Masquerade - Hell, EE. UU..",
-   "title_en": "ATEEZ added dates in Atlanta",
-   "body_en": "Nov 12 at The Masquerade - Hell, USA.",
-   "when": "2026-11-05T13:01:02Z",
-   "url": null
   }
  ]
 }
