@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T07:15:14Z",
+  "updated_at": "2026-11-09T09:00:21Z",
   "sources": [
     {
       "name": "Live Nation (BTS)",
@@ -404,7 +404,7 @@
           "src": "https://en.wikipedia.org/wiki/Arirang_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-09T07:00:21Z",
+          "verified_at": "2026-11-09T09:00:21Z",
           "verified_by": "wiki"
         },
         {
@@ -419,7 +419,9 @@
           "status": "confirmado",
           "source": "tm",
           "tm_name": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
-          "onsale": "2026-06-04T00:00:00Z"
+          "onsale": "2026-06-04T00:00:00Z",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-09T09:00:21Z"
         },
         {
           "id": "bts-20270212-melbourne",
@@ -556,7 +558,7 @@
           "src": "https://en.wikipedia.org/wiki/Arirang_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-09T07:00:21Z",
+          "verified_at": "2026-11-09T09:00:21Z",
           "verified_by": "wiki"
         }
       ],
@@ -719,7 +721,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-09T07:00:21Z",
+          "verified_at": "2026-11-09T09:00:21Z",
           "verified_by": "wiki"
         },
         {
