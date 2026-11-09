@@ -1254,7 +1254,15 @@
   "news:5240a739c6f505dc|feed": "2026-11-08T19:54:18Z",
   "news:5240a739c6f505dc|ntfy": "2026-11-08T19:54:18Z",
   "news:5240a739c6f505dc|pub:radarkpop-bts-news": "2026-11-08T19:54:18Z",
-  "news:5240a739c6f505dc|foro": "2026-11-08T19:54:18Z"
+  "news:5240a739c6f505dc|foro": "2026-11-08T19:54:18Z",
+  "official:twice:comeback:2026-11-09|feed": "2026-11-09T00:01:18Z",
+  "official:twice:comeback:2026-11-09|ntfy": "2026-11-09T00:01:18Z",
+  "official:twice:comeback:2026-11-09|pub:radarkpop-twice-music": "2026-11-09T00:01:18Z",
+  "official:twice:comeback:2026-11-09|foro": "2026-11-09T00:01:18Z",
+  "official:seventeen:comeback:2026-11-09|feed": "2026-11-09T00:01:18Z",
+  "official:seventeen:comeback:2026-11-09|ntfy": "2026-11-09T00:01:18Z",
+  "official:seventeen:comeback:2026-11-09|pub:radarkpop-seventeen-music": "2026-11-09T00:01:18Z",
+  "official:seventeen:comeback:2026-11-09|foro": "2026-11-09T00:01:18Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
