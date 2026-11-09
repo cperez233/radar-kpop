@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09T04:15:37Z",
+ "updated_at": "2026-11-09T05:00:41Z",
  "sample": false,
  "items": [
   {
@@ -11,6 +11,7 @@
    "url": "https://music.apple.com/us/album/suiatsu/6829772542",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/ea/13/e9ea1310-a7c2-cc23-aa8a-7a9bfce24ee0/4547366864731.jpg/300x300bb.jpg",
    "ytm_v": 6,
+   "spotify": "https://open.spotify.com/album/6Sbe6k0GV26EDheUyoVGZ3",
    "tracks": [
     {
      "n": "SUIATSU",
@@ -47,8 +48,7 @@
      "ms": 159013,
      "p": ""
     }
-   ],
-   "spotify": "https://open.spotify.com/album/6Sbe6k0GV26EDheUyoVGZ3"
+   ]
   },
   {
    "type": "music",
@@ -115,6 +115,15 @@
     }
    ],
    "sp_try": "2026-11-09"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "[MINITEEN] SNOW with MINITEEN | Ready for the Snow? ❄️",
+   "date": "2026-11-09",
+   "published": "2026-11-09T05:00:07Z",
+   "url": "https://www.youtube.com/watch?v=3P-rNhrrLLc",
+   "image": "https://i.ytimg.com/vi/3P-rNhrrLLc/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -259,15 +268,6 @@
    "published": "2026-11-06T15:59:59Z",
    "url": "https://www.youtube.com/watch?v=Ay76Ql-6oGM",
    "image": "https://i.ytimg.com/vi/Ay76Ql-6oGM/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "#12oclock with #TWS #YOUNGJAE 🕛 #투어스 #영재 #JxJ #정한X조슈아",
-   "date": "2026-11-06",
-   "published": "2026-11-06T10:30:19Z",
-   "url": "https://www.youtube.com/watch?v=vgtVLSnyJoo",
-   "image": "https://i.ytimg.com/vi/vgtVLSnyJoo/hqdefault.jpg"
   },
   {
    "type": "video",

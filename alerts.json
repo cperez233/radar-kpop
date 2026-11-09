@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-09T01:45:58Z",
+ "updated_at": "2026-11-09T05:01:04Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "[MINITEEN] SNOW with MINITEEN | Ready for the Snow? ❄️ (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "[MINITEEN] SNOW with MINITEEN | Ready for the Snow? ❄️ (YouTube)",
+   "when": "2026-11-09T05:00:07Z",
+   "url": "https://www.youtube.com/watch?v=3P-rNhrrLLc"
+  },
   {
    "type": "tour",
    "group": "bts",
@@ -715,17 +726,6 @@
    "body_en": "#꼬잉_픽📌 덕분에 언어 지식+1 중국어 폭주하는 조슈아 #SEVENTEEN #세븐틴 #GOING_SVT #고잉세븐틴 #shorts (YouTube)",
    "when": "2026-11-05T12:00:18Z",
    "url": "https://www.youtube.com/watch?v=TUz4kBJpfJk"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "선우 한정 무한 수용 | 내 이름은 김선우 EP.3 | ENHYPEN SUNOO (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "선우 한정 무한 수용 | 내 이름은 김선우 EP.3 | ENHYPEN SUNOO (YouTube)",
-   "when": "2026-11-05T11:59:57Z",
-   "url": "https://www.youtube.com/watch?v=H_msEeZhETY"
   }
  ]
 }
