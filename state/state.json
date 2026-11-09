@@ -1301,7 +1301,12 @@
   "official:skz:tour:2026-11-09|feed": "2026-11-09T13:01:13Z",
   "official:skz:tour:2026-11-09|ntfy": "2026-11-09T13:01:13Z",
   "official:skz:tour:2026-11-09|pub:radarkpop-skz-shows": "2026-11-09T13:01:13Z",
-  "official:skz:tour:2026-11-09|foro": "2026-11-09T13:01:13Z"
+  "official:skz:tour:2026-11-09|foro": "2026-11-09T13:01:13Z",
+  "news:7dc30a7bd908235e|feed": "2026-11-09T13:31:53Z",
+  "news:7dc30a7bd908235e|ntfy": "2026-11-09T13:31:53Z",
+  "news:7dc30a7bd908235e|pub:radarkpop-skz-news": "2026-11-09T13:31:53Z",
+  "news:7dc30a7bd908235e|foro": "2026-11-09T13:31:53Z",
+  "news:7c0f46dc04c2057f|feed": "2026-11-09T13:31:53Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2188,9 +2193,8 @@
   }
  },
  "news_seen": [
-  "7b6ff293b5a47af9",
-  "7b9a451843796f45",
   "7bb94153c05ac4e2",
+  "7c0f46dc04c2057f",
   "7c323b80035fa58c",
   "7c9e9c0539f01758",
   "7cdd1f92b2d74a40",
@@ -2199,6 +2203,7 @@
   "7d15e9f1f39db1a3",
   "7d320530a3e3907c",
   "7d99d9aba3875d56",
+  "7dc30a7bd908235e",
   "7dfe8bdf89c58b99",
   "7e0322db7b70439a",
   "7e0e1b6d2124d962",
@@ -3130,6 +3135,17 @@
     "gira"
    ],
    "t": "2026-11-09T11:20:48Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "espana",
+    "sobre",
+    "todo",
+    "tour",
+    "world"
+   ],
+   "t": "2026-11-09T13:31:47Z"
   }
  ],
  "discord_threads": {

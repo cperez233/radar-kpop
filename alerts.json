@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-11-09T13:01:06Z",
+ "updated_at": "2026-11-09T13:31:47Z",
  "alerts": [
+  {
+   "type": "tour",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Gira: Stray Kids",
+   "body": "Stray Kids en España: todo sobre «Stray Kids World Tour » - Ticketmaster España (Google Noticias)",
+   "title_en": "Tour: Stray Kids",
+   "body_en": "Stray Kids in Spain: all about «Stray Kids World Tour» - Ticketmaster Spain (Google News)",
+   "when": "2026-11-09T13:20:40Z",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLYXdUaGlocVhpb01PNnFvX29qVlJPVF9qZ2xpbmxxWFU5VVZLbmRRa01DVzdINDlpQ1Z4ZGJmSk96Wm5OVUMyS1ZDb0Q1UjdPU3pPekVPLWJSWUMxbnFHeA?oc=5",
+   "src_lang": "es",
+   "body_orig": "Stray Kids en España: todo sobre «Stray Kids World Tour » - Ticketmaster España (Google Noticias)",
+   "auto": true
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "BOO Right Back Coming Soon (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "BOO Right Back Coming Soon (YouTube)",
+   "when": "2026-11-09T13:16:12Z",
+   "url": "https://www.youtube.com/watch?v=v8IcFO44nAA"
+  },
   {
    "type": "weekly",
    "group": "radar",
@@ -713,28 +738,6 @@
    "src_lang": "es",
    "body_orig": "BTS cierra su gira por Asia y llegará a cines de México: fechas y preventa - La Jornada (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "stop_today",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Hoy Stray Kids abre en Tokio",
-   "body": "Tokyo Dome, Tokio. Hora aproximada, confirma en la boletería.",
-   "title_en": "Today Stray Kids opens in Tokyo",
-   "body_en": "Tokyo Dome, Tokyo. Approximate time, check with the box office.",
-   "when": "2026-11-05T23:01:01Z",
-   "url": null
-  },
-  {
-   "type": "arrival",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Llegada reportada: BTS",
-   "body": "BTS: retiraron la demanda por supuesto plagio contra Swim, el éxito que llegó al número uno de Billboard - Aire de Santa Fe (Google Noticias). Lo reporta la prensa, no es confirmación oficial.",
-   "title_en": "Reported arrival: BTS",
-   "body_en": "BTS: retiraron la demanda por supuesto plagio contra Swim, el éxito que llegó al número uno de Billboard - Aire de Santa Fe (Google Noticias). Reported by the press, not an official confirmation.",
-   "when": "2026-11-05T17:18:00Z",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQMlZpdFhxX0Q4MjFDVzJtMTdsQm1udWpPdWx4cGNqX2pWblh0VzAyQl9jNF9FQUp2NUR2UzN1LUdFcWZ1YmM0Yl8tN3FnOFdUNnZoYm5RN1RNeEt5Tk5UTE5VZ3FTNXg1SGlQRUdWMXYyeDNOQV9tRWZwM3QxNHppcmNzcS1Genpfd1d1Nm9BaTZPY0tPWGt1aGozVml0d2FQVWNMQVNMNzBFMmdLcXc4aUduVTFqOGRqd2dVQVdoV1U2SlZhX0JhY2NSdGlVUWsyN25SZHdwUG41bV8xdzBwblAzMTFmQUVH?oc=5"
   }
  ]
 }

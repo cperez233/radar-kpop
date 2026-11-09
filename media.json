@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09T12:15:34Z",
+ "updated_at": "2026-11-09T13:30:39Z",
  "sample": false,
  "items": [
   {
@@ -115,6 +115,15 @@
     }
    ],
    "sp_try": "2026-11-09"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "BOO Right Back Coming Soon",
+   "date": "2026-11-09",
+   "published": "2026-11-09T13:16:12Z",
+   "url": "https://www.youtube.com/watch?v=v8IcFO44nAA",
+   "image": "https://i.ytimg.com/vi/v8IcFO44nAA/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -259,15 +268,6 @@
    "published": "2026-11-06T09:00:16Z",
    "url": "https://www.youtube.com/watch?v=oXEI_u8A3I8",
    "image": "https://i.ytimg.com/vi/oXEI_u8A3I8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "THE 8 -  我啊 (WOA)",
-   "date": "2026-11-06",
-   "published": "2026-11-06T15:59:59Z",
-   "url": "https://www.youtube.com/watch?v=Ay76Ql-6oGM",
-   "image": "https://i.ytimg.com/vi/Ay76Ql-6oGM/hqdefault.jpg"
   },
   {
    "type": "video",
