@@ -3325,17 +3325,6 @@
  ],
  "news_topics": [
   {
-   "g": "enhypen",
-   "w": [
-    "2026",
-    "blood",
-    "saga",
-    "tour",
-    "world"
-   ],
-   "t": "2026-11-07T21:45:55Z"
-  },
-  {
    "g": "bts",
    "w": [
     "asia",
@@ -3534,6 +3523,17 @@
     "surcoreano"
    ],
    "t": "2026-11-09T15:45:57Z"
+  },
+  {
+   "g": "enhypen",
+   "w": [
+    "2026",
+    "blood",
+    "saga",
+    "tour",
+    "world"
+   ],
+   "t": "2026-11-09T21:45:56Z"
   }
  ],
  "discord_threads": {
