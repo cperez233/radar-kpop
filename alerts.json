@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-09T06:01:12Z",
+ "updated_at": "2026-11-09T09:46:04Z",
  "alerts": [
+  {
+   "type": "official",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Anuncio oficial de LNGSHOT: comeback",
+   "body": "«[AVISO] LNGSHOT EP [S.W.I.S.H.] Aviso integrado de transmisión pública https://weverse.io/lngshot/notice/40865 #LNGSHOT #SWISH #MOREVISION» (LNGSHOT en X).",
+   "title_en": "Official LNGSHOT news: comeback",
+   "body_en": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] Public broadcast integrated notice https://weverse.io/lngshot/notice/40865 #LNGSHOT #SWISH #MOREVISION» (LNGSHOT en X).",
+   "when": "2026-11-09T09:31:13Z",
+   "url": "https://x.com/LNGSHOT4sho/status/2119724480310423941",
+   "src_lang": "ko",
+   "body_orig": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] 공개방송 통합공지 안내 https://weverse.io/lngshot/notice/40865 #LNGSHOT #SWISH #MOREVISION» (LNGSHOT en X).",
+   "auto": true
+  },
   {
    "type": "official",
    "group": "seventeen",
@@ -718,17 +732,6 @@
    "body_en": "BTS WORLD TOUR 'ARIRANG' LIVE VIEWING FROM KAOHSIUNG & JAKARTA - Official Trailer (YouTube)",
    "when": "2026-11-05T13:00:01Z",
    "url": "https://www.youtube.com/watch?v=xzTFYPnoum8"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "ChoiChoiz drown in the Drip 👥 #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "ChoiChoiz drown in the Drip 👥 #Shorts (YouTube)",
-   "when": "2026-11-05T12:00:21Z",
-   "url": "https://www.youtube.com/watch?v=R5AZB8yMG1E"
   }
  ]
 }
