@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-09T14:15:56Z",
+ "updated_at": "2026-11-09T15:01:04Z",
  "alerts": [
+  {
+   "type": "comeback",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "💿 Hoy sale «S.W.I.S.H.» de LNGSHOT",
+   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "title_en": "💿 LNGSHOT's «S.W.I.S.H.» is out today",
+   "body_en": "You can now listen to it! (or in a few hours, depending on your time zone)",
+   "when": "2026-11-09T15:01:04Z",
+   "url": "https://music.apple.com/us/album/s-w-i-s-h-ep/6821155823",
+   "src_lang": "es",
+   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "auto": true
+  },
   {
    "type": "tour",
    "group": "skz",
@@ -718,20 +732,6 @@
    "body_en": "xiao long bao 🤌 #CORTIS #코르티스 (YouTube)",
    "when": "2026-11-06T09:00:00Z",
    "url": "https://www.youtube.com/watch?v=quj-6rG3K_k"
-  },
-  {
-   "type": "official",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Anuncio oficial de ATEEZ: comeback",
-   "body": "«[📰] ATEEZ, cuenta regresiva para su regreso... Se revela la canción principal ‘Up’ https://naver.me/FNtUVmUZ #ATEEZ #ATEEZ #GOLDENHOUR #GOLDENHOUR_Part6» (ATEEZ en X).",
-   "title_en": "Official ATEEZ news: comeback",
-   "body_en": "«[📰] ATEEZ, counting down to comeback... Title song ‘Up’ unveiled https://naver.me/FNtUVmUZ #ATEEZ #ATEEZ #GOLDENHOUR #GOLDENHOUR_Part6» (ATEEZ en X).",
-   "when": "2026-11-06T03:22:30Z",
-   "url": "https://x.com/ATEEZofficial/status/2118544524956045428",
-   "src_lang": "ko",
-   "body_orig": "«[📰] 에이티즈, 컴백 초읽기…타이틀곡 '업' 베일 벗었다 https://naver.me/FNtUVmUZ #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOUR_Part6» (ATEEZ en X).",
-   "auto": true
   }
  ]
 }

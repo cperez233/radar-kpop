@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-11-09T11:30:41Z",
+  "updated_at": "2026-11-09T15:00:41Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "x-2119807232162562362",
+      "group": "ateez",
+      "group_name": "ATEEZ",
+      "city": "Miami",
+      "country": "EE. UU.",
+      "lat": 25.7617,
+      "lon": -80.1918,
+      "text": "[🗺️] Treasure found in Florida! Rise to the challenge and claim the message, ATINY! David T. Kennedy Park, Miami 11.09 1PM EST Next - ??",
+      "url": "https://x.com/ATEEZofficial/status/2119807232162562362",
+      "account": "ATEEZofficial",
+      "when": "2026-11-09T15:00:02Z"
+    },
     {
       "id": "fan-newjeans-seul-20261108",
       "group": "newjeans",
