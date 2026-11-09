@@ -1,10 +1,43 @@
 {
- "coords": {},
+ "coords": {
+  "Arnhem": [
+   51.9833,
+   5.9167
+  ],
+  "Baltimore": [
+   39.2894,
+   -76.6153
+  ],
+  "East Rutherford, New Jersey": [
+   40.8171,
+   -74.085
+  ],
+  "GelreDome": [
+   51.9628,
+   5.8928
+  ],
+  "Hard Rock Stadium": [
+   25.9581,
+   -80.2389
+  ],
+  "M&T Bank Stadium": [
+   39.2781,
+   -76.6228
+  ],
+  "MetLife Stadium": [
+   40.8136,
+   -74.0744
+  ],
+  "Miami Gardens, Florida": [
+   25.9419,
+   -80.2564
+  ]
+ },
  "discovered": {},
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-03T19:15:48Z",
- "last_run": "2026-11-09T15:30:19Z",
+ "last_run": "2026-11-09T17:45:16Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-08T05:45:17Z",
@@ -375,8 +408,8 @@
    "title": "List of NewJeans live performances"
   },
   "Lngshot": {
-   "fetched": "2026-11-04T23:15:18Z",
-   "revid": 1383791795,
+   "fetched": "2026-11-09T17:45:16Z",
+   "revid": 1384694175,
    "rows": [],
    "title": "Lngshot"
   },
@@ -387,8 +420,8 @@
    "title": "New World Tour"
   },
   "Run It World Tour": {
-   "fetched": "2026-11-09T15:30:19Z",
-   "revid": 1384682073,
+   "fetched": "2026-11-09T17:45:16Z",
+   "revid": 1384693479,
    "rows": [
     {
      "cancelled": false,
@@ -486,17 +519,224 @@
      "city_link": "Yokohama",
      "country": "Japan",
      "date": "2027-04-24",
-     "venue": "Nissan stadium",
+     "venue": "Nissan Stadium",
+     "venue_link": "Nissan Stadium (Yokohama)"
+    },
+    {
+     "cancelled": false,
+     "city": "Yokohama",
+     "city_link": "Yokohama",
+     "country": "Japan",
+     "date": "2027-04-25",
+     "venue": "Nissan Stadium",
      "venue_link": "Nissan Stadium (Yokohama)"
     },
     {
      "cancelled": false,
      "city": "Osaka",
-     "city_link": "Osaka",
+     "city_link": null,
      "country": "Japan",
      "date": "2027-05-04",
-     "venue": "Yanmar stadium nagai",
-     "venue_link": "Nagai Stadium"
+     "venue": "Yanmar Stadium Nagai",
+     "venue_link": "Yanmar Stadium Nagai"
+    },
+    {
+     "cancelled": false,
+     "city": "Osaka",
+     "city_link": null,
+     "country": "Japan",
+     "date": "2027-05-05",
+     "venue": "Yanmar Stadium Nagai",
+     "venue_link": "Yanmar Stadium Nagai"
+    },
+    {
+     "cancelled": false,
+     "city": "Seattle",
+     "city_link": "Seattle",
+     "country": "United States",
+     "date": "2027-05-16",
+     "venue": "Lumen Field",
+     "venue_link": "Lumen Field"
+    },
+    {
+     "cancelled": false,
+     "city": "Vancouver",
+     "city_link": "Vancouver",
+     "country": "Canada",
+     "date": "2027-05-19",
+     "venue": "BC Place",
+     "venue_link": "BC Place"
+    },
+    {
+     "cancelled": false,
+     "city": "Santa Clara",
+     "city_link": "Santa Clara, California",
+     "country": "United States",
+     "date": "2027-05-22",
+     "venue": "Levi's Stadium",
+     "venue_link": "Levi's Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "San Diego",
+     "city_link": "San Diego",
+     "country": "United States",
+     "date": "2027-05-25",
+     "venue": "Petco Park",
+     "venue_link": "Petco Park"
+    },
+    {
+     "cancelled": false,
+     "city": "Los Angeles",
+     "city_link": "Los Angeles",
+     "country": "United States",
+     "date": "2027-05-29",
+     "venue": "SoFi Stadium",
+     "venue_link": "SoFi Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Arlington",
+     "city_link": "Arlington, Texas",
+     "country": "United States",
+     "date": "2027-06-03",
+     "venue": "AT&T Stadium",
+     "venue_link": "AT&T Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Houston",
+     "city_link": "Houston",
+     "country": "United States",
+     "date": "2027-06-05",
+     "venue": "Reliant Stadium",
+     "venue_link": "Reliant Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Atlanta",
+     "city_link": "Atlanta",
+     "country": "United States",
+     "date": "2027-06-08",
+     "venue": "Mercedes-Benz Stadium",
+     "venue_link": "Mercedes-Benz Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Miami Gardens",
+     "city_link": "Miami Gardens, Florida",
+     "country": "United States",
+     "date": "2027-06-11",
+     "venue": "Hard Rock Stadium",
+     "venue_link": "Hard Rock Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Orlando",
+     "city_link": "Orlando, Florida",
+     "country": "United States",
+     "date": "2027-06-14",
+     "venue": "Camping World Stadium",
+     "venue_link": "Camping World Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Chicago",
+     "city_link": "Chicago",
+     "country": "United States",
+     "date": "2027-06-18",
+     "venue": "Soldier Field",
+     "venue_link": "Soldier Field"
+    },
+    {
+     "cancelled": false,
+     "city": "Baltimore",
+     "city_link": "Baltimore",
+     "country": "United States",
+     "date": "2027-06-22",
+     "venue": "M&T Bank Stadium",
+     "venue_link": "M&T Bank Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Toronto",
+     "city_link": "Toronto",
+     "country": "Canada",
+     "date": "2027-06-25",
+     "venue": "Rogers Stadium",
+     "venue_link": "Rogers Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "East Rutherford",
+     "city_link": "East Rutherford, New Jersey",
+     "country": "United States",
+     "date": "2027-06-29",
+     "venue": "MetLife Stadium",
+     "venue_link": "MetLife Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Paris",
+     "city_link": "Paris",
+     "country": "France",
+     "date": "2027-07-09",
+     "venue": "Plenitude Arena",
+     "venue_link": "Plenitude Arena"
+    },
+    {
+     "cancelled": false,
+     "city": "London",
+     "city_link": "London",
+     "country": "England",
+     "date": "2027-07-13",
+     "venue": "Tottenham Hotspur Stadium",
+     "venue_link": "Tottenham Hotspur Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Munich",
+     "city_link": "Munich",
+     "country": "Germany",
+     "date": "2027-07-17",
+     "venue": "Allianz Arena",
+     "venue_link": "Allianz Arena"
+    },
+    {
+     "cancelled": false,
+     "city": "Vienna",
+     "city_link": "Vienna",
+     "country": "Austria",
+     "date": "2027-07-21",
+     "venue": "Ernst-Happel-Stadion",
+     "venue_link": "Ernst-Happel-Stadion"
+    },
+    {
+     "cancelled": false,
+     "city": "Barcelona",
+     "city_link": "Barcelona",
+     "country": "Spain",
+     "date": "2027-07-24",
+     "venue": "Estadi Olímpic Lluís Companys",
+     "venue_link": "Estadi Olímpic Lluís Companys"
+    },
+    {
+     "cancelled": false,
+     "city": "Arnhem",
+     "city_link": "Arnhem",
+     "country": "Netherlands",
+     "date": "2027-07-27",
+     "venue": "GelreDome",
+     "venue_link": "GelreDome"
+    },
+    {
+     "cancelled": false,
+     "city": "Milan",
+     "city_link": "Milan",
+     "country": "Italy",
+     "date": "2027-07-31",
+     "venue": "San Siro",
+     "venue_link": "San Siro"
     }
    ],
    "title": "Run It World Tour"
