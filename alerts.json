@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-09T10:01:04Z",
+ "updated_at": "2026-11-09T11:20:48Z",
  "alerts": [
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "Cierra BTS su gira en los cines - Tabasco HOY (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS closes its tour in theaters - Tabasco HOY (Google News)",
+   "when": "2026-11-09T11:16:23Z",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1PUkY4TS1vSFBha1Y2cmZ5eDBvQnNuSkJnaWdUU1FRUVZjOGNGZ3hLLXF0b0JaSHV0QlBod1EzOXNSNDhiX0xoMHluSWxZUm90a3ExVm5ONV82Mi1CcUw2WFA3VlEyVmhxb0JF?oc=5",
+   "src_lang": "es",
+   "body_orig": "Cierra BTS su gira en los cines - Tabasco HOY (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "ateez",
@@ -718,20 +732,6 @@
    "body_en": "Nov 12 at The Masquerade - Hell, USA.",
    "when": "2026-11-05T13:01:02Z",
    "url": null
-  },
-  {
-   "type": "official",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Anuncio oficial de TWICE: comeback",
-   "body": "«NAYEON SINGLE “NA-sty” PELÍCULA INTRODUCCIÓN: EN TODAS PARTES PERO EN NINGUNA PARTE 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KS...» (TWICE en X).",
-   "title_en": "Official TWICE news: comeback",
-   "body_en": "«NAYEON SINGLE “NA-sty” INTRO FILM: EVERYWHERE BUT NOWHERE 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KS...» (TWICE en X).",
-   "when": "2026-11-05T13:00:02Z",
-   "url": "https://x.com/JYPETWICE/status/2118327481258430728",
-   "src_lang": "en",
-   "body_orig": "«NAYEON SINGLE “NA-sty” INTRO FILM: EVERYWHERE BUT NOWHERE 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KS...» (TWICE en X).",
-   "auto": true
   }
  ]
 }

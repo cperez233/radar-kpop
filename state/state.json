@@ -1288,7 +1288,11 @@
   "news:9bca8df4942bc1c4|ntfy": "2026-11-09T10:01:10Z",
   "news:9bca8df4942bc1c4|pub:radarkpop-twice-news": "2026-11-09T10:01:10Z",
   "news:9bca8df4942bc1c4|foro": "2026-11-09T10:01:10Z",
-  "news:a6c1167c72bd461a|feed": "2026-11-09T10:01:10Z"
+  "news:a6c1167c72bd461a|feed": "2026-11-09T10:01:10Z",
+  "news:8397d4a956185eaf|feed": "2026-11-09T11:20:54Z",
+  "news:8397d4a956185eaf|ntfy": "2026-11-09T11:20:54Z",
+  "news:8397d4a956185eaf|pub:radarkpop-bts-news": "2026-11-09T11:20:54Z",
+  "news:8397d4a956185eaf|foro": "2026-11-09T11:20:54Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2175,7 +2179,6 @@
   }
  },
  "news_seen": [
-  "7b2f87ff39161527",
   "7b5b4551ae189287",
   "7b6219db10438f11",
   "7b6ff293b5a47af9",
@@ -2227,6 +2230,7 @@
   "835d2af67d55829b",
   "83646f8bf33619fe",
   "837212f9ee6475ab",
+  "8397d4a956185eaf",
   "83eed69ed0bc9585",
   "83fa80f4d865067d",
   "84038b786c539d8d",
@@ -3108,6 +3112,15 @@
     "writer"
    ],
    "t": "2026-11-09T10:01:04Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "cierra",
+    "cines",
+    "gira"
+   ],
+   "t": "2026-11-09T11:20:48Z"
   }
  ],
  "discord_threads": {
