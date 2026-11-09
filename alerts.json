@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-09T13:31:47Z",
+ "updated_at": "2026-11-09T14:01:02Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "To YOU, From NI-KI (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "To YOU, From NI-KI (YouTube)",
+   "when": "2026-11-09T13:59:30Z",
+   "url": "https://www.youtube.com/watch?v=OIiKFF7Zaf8"
+  },
   {
    "type": "tour",
    "group": "skz",
@@ -723,20 +734,6 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY3FBOHhDMGduazBXX0JWcmRWc1dSWEh1b2p6bC1uR05WRHpyWVRxNFJib09tX2pNYnhaM3Zfa1hkVEhiXzhaQ3VicHFCRGZXVmVyVEdTcUNfTkhtcTY5WXJxT0p4dVRlc1c2UmRyVk5UTzcxcHVraUNjN1M4MmxDa1BzajBTdUJhUlNReEdlamllYi1uSHVMWXI2eHJBM19vWkZLQkxzN09tOXUzMlE?oc=5",
    "src_lang": "es",
    "body_orig": "BTS cerrará el año en cines de todo el mundo con dos conciertos de su gira ARIRANG - Revista Kuadro (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "latam",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Latinoamérica: BTS",
-   "body": "BTS cierra su gira por Asia y llegará a cines de México: fechas y preventa - La Jornada (Google Noticias)",
-   "title_en": "Latin America: BTS",
-   "body_en": "BTS closes its tour of Asia and will arrive in theaters in Mexico: dates and pre-sales - La Jornada (Google News)",
-   "when": "2026-11-06T00:28:00Z",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS2xNLUw5WEY3VFZjeDFVcjdGWl9oaEFIN1h2TU9FWjhuSXQ3OS1WOHdkR1pvamZyMFgxVWx3R1g3SjJlcDV6TXpMcmdMWVFTOUYzenZzZm5PRzMxNzBEU1VGc1p4Z3FWYXBqN1c4OTlaM2p6LUxrSGRYYjIwRjNSM2VfX0dmWkNrU3o3c3YwUTlmWjVOb1hhd0RzcVRHYjJoN3lVa3NTZ3BPS1A1TElhbGJMOVpNdkdVbkZSMDhQQThYQlBlamRoRGdjbWs?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS cierra su gira por Asia y llegará a cines de México: fechas y preventa - La Jornada (Google Noticias)",
    "auto": true
   }
  ]

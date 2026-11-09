@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09T13:30:39Z",
+ "updated_at": "2026-11-09T14:00:40Z",
  "sample": false,
  "items": [
   {
@@ -136,6 +136,15 @@
   },
   {
    "type": "video",
+   "group": "enhypen",
+   "title": "To YOU, From NI-KI",
+   "date": "2026-11-09",
+   "published": "2026-11-09T13:59:30Z",
+   "url": "https://www.youtube.com/watch?v=OIiKFF7Zaf8",
+   "image": "https://i.ytimg.com/vi/OIiKFF7Zaf8/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "ateez",
    "title": "조이현 선배님과 해, 쩌는 짓 😎 #Shorts",
    "date": "2026-11-09",
@@ -223,15 +232,6 @@
    "published": "2026-11-07T06:00:08Z",
    "url": "https://www.youtube.com/watch?v=vGg-TH2by2w",
    "image": "https://i.ytimg.com/vi/vGg-TH2by2w/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "To YOU, From JAY",
-   "date": "2026-11-07",
-   "published": "2026-11-07T14:00:03Z",
-   "url": "https://www.youtube.com/watch?v=08X4INdjc80",
-   "image": "https://i.ytimg.com/vi/08X4INdjc80/hqdefault.jpg"
   },
   {
    "type": "video",
