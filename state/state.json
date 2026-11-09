@@ -1320,7 +1320,25 @@
   "rel:lngshot:2026-11-10|feed": "2026-11-09T15:01:11Z",
   "rel:lngshot:2026-11-10|ntfy": "2026-11-09T15:01:11Z",
   "rel:lngshot:2026-11-10|pub:radarkpop-lngshot-music": "2026-11-09T15:01:11Z",
-  "rel:lngshot:2026-11-10|foro": "2026-11-09T15:01:11Z"
+  "rel:lngshot:2026-11-10|foro": "2026-11-09T15:01:11Z",
+  "new:skz:skz-wiki-20270424-tokio|feed": "2026-11-09T15:32:24Z",
+  "new:skz:skz-wiki-20270424-tokio|ntfy": "2026-11-09T15:32:24Z",
+  "new:skz:skz-wiki-20270424-tokio|pub:radarkpop-skz-shows": "2026-11-09T15:32:24Z",
+  "new:skz:skz-wiki-20270424-tokio|pub:radarkpop-pais-japon": "2026-11-09T15:32:24Z",
+  "new:skz:skz-wiki-20270424-tokio|foro": "2026-11-09T15:32:24Z",
+  "new:skz:skz-wiki-20270504-osaka|feed": "2026-11-09T15:32:24Z",
+  "new:skz:skz-wiki-20270504-osaka|ntfy": "2026-11-09T15:32:24Z",
+  "new:skz:skz-wiki-20270504-osaka|pub:radarkpop-skz-shows": "2026-11-09T15:32:24Z",
+  "new:skz:skz-wiki-20270504-osaka|pub:radarkpop-pais-japon": "2026-11-09T15:32:24Z",
+  "new:skz:skz-wiki-20270504-osaka|foro": "2026-11-09T15:32:24Z",
+  "news:2a8af4202bb0e45f|feed": "2026-11-09T15:32:24Z",
+  "news:2a8af4202bb0e45f|ntfy": "2026-11-09T15:32:24Z",
+  "news:2a8af4202bb0e45f|pub:radarkpop-skz-news": "2026-11-09T15:32:24Z",
+  "news:2a8af4202bb0e45f|foro": "2026-11-09T15:32:24Z",
+  "news:01c8b89c7e5db530|feed": "2026-11-09T15:32:24Z",
+  "news:01c8b89c7e5db530|ntfy": "2026-11-09T15:32:24Z",
+  "news:01c8b89c7e5db530|pub:radarkpop-skz-news": "2026-11-09T15:32:24Z",
+  "news:01c8b89c7e5db530|foro": "2026-11-09T15:32:24Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -1651,6 +1669,20 @@
    "s": "2027-03-07T19:00:00+08:00",
    "c": "Singapur",
    "v": null
+  },
+  "skz-wiki-20270424-tokio": {
+   "g": "skz",
+   "d": "2027-04-24",
+   "s": "2027-04-24T18:00:00+09:00",
+   "c": "Tokio",
+   "v": "Tokyo Dome"
+  },
+  "skz-wiki-20270504-osaka": {
+   "g": "skz",
+   "d": "2027-05-04",
+   "s": "2027-05-04T18:00:00+09:00",
+   "c": "Osaka",
+   "v": "Kyocera Dome Osaka"
   },
   "twice-auto-20261114-manila": {
    "g": "twice",
@@ -3183,6 +3215,33 @@
     "julio"
    ],
    "t": "2026-11-09T14:15:56Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "2027",
+    "anuncian",
+    "barcelona",
+    "concierto",
+    "hits",
+    "kpop"
+   ],
+   "t": "2026-11-09T15:32:17Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "2027",
+    "apertura",
+    "concierto",
+    "entradas",
+    "informacion",
+    "paris",
+    "sobre",
+    "toda",
+    "venta"
+   ],
+   "t": "2026-11-09T15:32:17Z"
   }
  ],
  "discord_threads": {

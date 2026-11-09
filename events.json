@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T13:30:16Z",
+  "updated_at": "2026-11-09T15:30:19Z",
   "sources": [
     {
       "name": "Live Nation (BTS)",
@@ -404,7 +404,7 @@
           "src": "https://en.wikipedia.org/wiki/Arirang_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-09T13:15:17Z",
+          "verified_at": "2026-11-09T15:30:19Z",
           "verified_by": "wiki"
         },
         {
@@ -419,7 +419,9 @@
           "status": "confirmado",
           "source": "tm",
           "tm_name": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
-          "onsale": "2026-06-04T00:00:00Z"
+          "onsale": "2026-06-04T00:00:00Z",
+          "verified_by": "wiki",
+          "verified_at": "2026-11-09T15:30:19Z"
         },
         {
           "id": "bts-20270212-melbourne",
@@ -556,7 +558,7 @@
           "src": "https://en.wikipedia.org/wiki/Arirang_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-09T13:15:17Z",
+          "verified_at": "2026-11-09T15:30:19Z",
           "verified_by": "wiki"
         }
       ],
@@ -719,7 +721,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-09T13:15:17Z",
+          "verified_at": "2026-11-09T15:30:19Z",
           "verified_by": "wiki"
         },
         {
@@ -734,6 +736,38 @@
           "status": "anunciado",
           "verified_by": "wiki",
           "verified_at": "2026-11-03T19:15:48Z"
+        },
+        {
+          "id": "skz-wiki-20270424-tokio",
+          "local_date": "2027-04-24",
+          "start": "2027-04-24T18:00:00+09:00",
+          "city": "Tokio",
+          "country": "Japón",
+          "venue": "Tokyo Dome",
+          "lat": 35.7056,
+          "lon": 139.7519,
+          "status": "anunciado",
+          "source": "wiki",
+          "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
+          "src_kind": "wiki",
+          "time_tbd": true,
+          "verified_at": "2026-11-09T15:30:19Z"
+        },
+        {
+          "id": "skz-wiki-20270504-osaka",
+          "local_date": "2027-05-04",
+          "start": "2027-05-04T18:00:00+09:00",
+          "city": "Osaka",
+          "country": "Japón",
+          "venue": "Kyocera Dome Osaka",
+          "lat": 34.6695,
+          "lon": 135.4762,
+          "status": "anunciado",
+          "source": "wiki",
+          "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
+          "src_kind": "wiki",
+          "time_tbd": true,
+          "verified_at": "2026-11-09T15:30:19Z"
         }
       ],
       "watch_en": [],

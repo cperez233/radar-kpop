@@ -4,7 +4,7 @@
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-03T19:15:48Z",
- "last_run": "2026-11-09T13:15:17Z",
+ "last_run": "2026-11-09T15:30:19Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-08T05:45:17Z",
@@ -387,8 +387,8 @@
    "title": "New World Tour"
   },
   "Run It World Tour": {
-   "fetched": "2026-11-09T07:00:21Z",
-   "revid": 1384630821,
+   "fetched": "2026-11-09T15:30:19Z",
+   "revid": 1384682073,
    "rows": [
     {
      "cancelled": false,
@@ -479,6 +479,24 @@
      "date": "2027-03-07",
      "venue": "Singapore Indoor Stadium",
      "venue_link": "Singapore Indoor Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Yokohama",
+     "city_link": "Yokohama",
+     "country": "Japan",
+     "date": "2027-04-24",
+     "venue": "Nissan stadium",
+     "venue_link": "Nissan Stadium (Yokohama)"
+    },
+    {
+     "cancelled": false,
+     "city": "Osaka",
+     "city_link": "Osaka",
+     "country": "Japan",
+     "date": "2027-05-04",
+     "venue": "Yanmar stadium nagai",
+     "venue_link": "Nagai Stadium"
     }
    ],
    "title": "Run It World Tour"
