@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09T00:31:14Z",
+ "updated_at": "2026-11-09T01:31:16Z",
  "groups": {
   "bts": {
    "x": [
@@ -697,6 +697,11 @@
   "twice": {
    "x": [
     {
+     "title": "TWICE: THIS IS FOR… YOU! A spectacular concert film from TWICE, captured during their sold-out world tour, featuring exclusive behind-the-scenes foot...",
+     "url": "https://x.com/JYPETWICE/status/2119595843502366904",
+     "when": "2026-11-09T01:00:03Z"
+    },
+    {
      "title": "Happy Birthday MOMO #HappyMOMOday",
      "url": "https://x.com/JYPETWICE/status/2119444845232349295",
      "when": "2026-11-08T15:00:03Z"
@@ -715,11 +720,6 @@
      "title": "IM NAYEON 일하고 놀고 먹고 쉬던 8-9월이요~ Spent August and September working, having fun, eating, and relaxing~ 🩵 #TW...",
      "url": "https://x.com/JYPETWICE/status/2118614370221424983",
      "when": "2026-11-06T08:00:02Z"
-    },
-    {
-     "title": "NAYEON SINGLE “NA-sty” 🔔Physical Pre-Order (BABY ANGEL Ver./ NA-sty Ver.) 🔗FANS SHOP 🔗WITHMUU",
-     "url": "https://x.com/JYPETWICE/status/2118557469312270756",
-     "when": "2026-11-06T04:13:56Z"
     }
    ],
    "members": {
@@ -1902,6 +1902,11 @@
   "enhypen": {
    "x": [
     {
+     "title": "[공지] ENHYPEN ‘THE SIN : PARALLEL WORLD (LOCKET NECKLACE Ver.)’ 예약 구매 (+ENG/JPN/CHN)",
+     "url": "https://x.com/ENHYPEN/status/2119595829979992413",
+     "when": "2026-11-09T01:00:00Z"
+    },
+    {
      "title": "To YOU, From JUNGWON ( #ENHYPEN #JUNGWON",
      "url": "https://x.com/ENHYPEN/status/2119429759134527901",
      "when": "2026-11-08T14:00:06Z"
@@ -1920,11 +1925,6 @@
      "title": "To YOU, From SUNGHOON ( #ENHYPEN #SUNGHOON",
      "url": "https://x.com/ENHYPEN/status/2118704998704144684",
      "when": "2026-11-06T14:00:09Z"
-    },
-    {
-     "title": "To YOU, From JAKE ( #ENHYPEN #JAKE",
-     "url": "https://x.com/ENHYPEN/status/2118342592517788016",
-     "when": "2026-11-05T14:00:05Z"
     }
    ],
    "members": {
@@ -2264,5 +2264,5 @@
   }
  },
  "ig_cursor": 2,
- "ig_pause_until": "2026-11-09T00:31:17Z"
+ "ig_pause_until": "2026-11-09T07:31:16Z"
 }
