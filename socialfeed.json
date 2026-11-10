@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10T10:31:12Z",
+ "updated_at": "2026-11-10T11:31:15Z",
  "groups": {
   "bts": {
    "x": [
@@ -697,6 +697,11 @@
   "twice": {
    "x": [
     {
+     "title": "📺SBS 잠시 후 09:00PM #트와이스 #NAYEON 이 출연합니다! #TWICE #NAYEON will be on SBS at 09:00PM (KST)!",
+     "url": "https://x.com/JYPETWICE/status/2120109225565118644",
+     "when": "2026-11-10T11:00:03Z"
+    },
+    {
      "title": "TWICE: THIS IS FOR… YOU! A spectacular concert film from TWICE, captured during their sold-out world tour, featuring exclusive behind-the-scenes foot...",
      "url": "https://x.com/JYPETWICE/status/2119595843502366904",
      "when": "2026-11-09T01:00:03Z"
@@ -715,11 +720,6 @@
      "title": "NAYEON SINGLE “NA-sty” SUBJECT NOT FOUND. 🖥️[NA-sty] Pre-save🖥️ ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE ...",
      "url": "https://x.com/JYPETWICE/status/2119052275691962731",
      "when": "2026-11-07T13:00:07Z"
-    },
-    {
-     "title": "IM NAYEON 일하고 놀고 먹고 쉬던 8-9월이요~ Spent August and September working, having fun, eating, and relaxing~ 🩵 #TW...",
-     "url": "https://x.com/JYPETWICE/status/2118614370221424983",
-     "when": "2026-11-06T08:00:02Z"
     }
    ],
    "members": {
@@ -2264,5 +2264,5 @@
   }
  },
  "ig_cursor": 2,
- "ig_pause_until": "2026-11-10T10:31:20Z"
+ "ig_pause_until": "2026-11-10T17:31:15Z"
 }
