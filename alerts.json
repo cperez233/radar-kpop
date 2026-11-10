@@ -1,6 +1,34 @@
 {
- "updated_at": "2026-11-10T14:31:44Z",
+ "updated_at": "2026-11-10T19:01:03Z",
  "alerts": [
+  {
+   "type": "comeback",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Comeback: LNGSHOT",
+   "body": "LNGSHOT realiza su comeback: Todo sobre S.W.I.S.H y su canción principal “Bananas” - El Sol de México (Google Noticias)",
+   "title_en": "Comeback: LNGSHOT",
+   "body_en": "LNGSHOT makes its comeback: All about S.W.I.S.H and its main song “Bananas” - El Sol de México (Google News)",
+   "when": "2026-11-10T18:56:35Z",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYTgtTmM5ZjlNbGF5eEo2azN2MW5KcDYtb0ZFTVZmd0dsYzVXR21LVXpqX3dsYXBBWi1fQzYyV25sMXZRa3VaMnI3QzVFYVFySFo4VHhEYkpBSkNTVjBkdnBxRXdxOTlmSXdmS0N5ZHdYUWdQREZIbFNuTmZsOV8zMl9xdG8wNDNWdE5zcGVtNmhQZ0ROVUF2bjZoamRCMG9SSjdjSVpCRWY5bjkzRGpYMk9tazBkUjcyZlNFQVVrWnhNUG1EeXBhcTRZN2hIX0JRUUE?oc=5",
+   "src_lang": "es",
+   "body_orig": "LNGSHOT realiza su comeback: Todo sobre S.W.I.S.H y su canción principal “Bananas” - El Sol de México (Google Noticias)",
+   "auto": true
+  },
+  {
+   "type": "tour",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Gira: Stray Kids",
+   "body": "¿Stray Kids dará conciertos en Latinoamérica en 2027? Esto es lo que se sabe de su NUEVA gira par 2027 - TV Azteca (Google Noticias)",
+   "title_en": "Tour: Stray Kids",
+   "body_en": "Will Stray Kids give concerts in Latin America in 2027? This is what is known about their NEW tour for 2027 - TV Azteca (Google News)",
+   "when": "2026-11-10T18:41:17Z",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbzR6Ym5HcUg3aENSNVNGSzhOckhVbE1Ubl9oV0h6bER2MzA0Q3JrMUpoZkJ2aTFlTmVaQkx4M2UzUER3QmVacnpZX3hYUG1PUFl2T0NPVzlyN2VlMkx2M2g3dGlfYVRyOXpBOWFZWFdvRWpzc3FyVk05SEJiUGtLeXFqVk0yQkhFMG8tdVA0WGJabFYtQjNF?oc=5",
+   "src_lang": "es",
+   "body_orig": "¿Stray Kids dará conciertos en Latinoamérica en 2027? Esto es lo que se sabe de su NUEVA gira par 2027 - TV Azteca (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -692,31 +720,6 @@
    "src_lang": "en",
    "body_orig": "«Stray Kids(스트레이 키즈) World Tour <RUN IT EUROPE & UK> Ticket Open (Local Time) STAY Membership Presale | 2026.11.18 (WED) 11AM - 2PM Artist Presal...» (Stray Kids en X).",
    "auto": true
-  },
-  {
-   "type": "official",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Anuncio oficial de Stray Kids: gira",
-   "body": "«Stray Kids(스트레이 키즈) Gira mundial <RUN IT NORTH AMERICA> Boleto abierto (hora local) Preventa de membresía STAY | 2026.11.18 (MIÉ) 11AM - 2PM Artista Pres...» (Stray Kids en X).",
-   "title_en": "Official Stray Kids news: tour",
-   "body_en": "«Stray Kids(스트레이 키즈) World Tour <RUN IT NORTH AMERICA> Ticket Open (Local Time) STAY Membership Presale | 2026.11.18 (WED) 11AM - 2PM Artist Pres...» (Stray Kids en X).",
-   "when": "2026-11-09T13:00:21Z",
-   "url": "https://x.com/Stray_Kids/status/2119777110122512789",
-   "src_lang": "en",
-   "body_orig": "«Stray Kids(스트레이 키즈) World Tour <RUN IT NORTH AMERICA> Ticket Open (Local Time) STAY Membership Presale | 2026.11.18 (WED) 11AM - 2PM Artist Pres...» (Stray Kids en X).",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "조이현 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "조이현 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "when": "2026-11-09T12:00:24Z",
-   "url": "https://www.youtube.com/watch?v=Bg826nBD0JI"
   }
  ]
 }

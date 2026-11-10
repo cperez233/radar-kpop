@@ -1523,7 +1523,15 @@
   "news:b5bef38d5c3675fa|pub:radarkpop-skz-news": "2026-11-10T13:16:02Z",
   "news:b5bef38d5c3675fa|foro": "2026-11-10T13:16:02Z",
   "news:61c959ab245bbefc|feed": "2026-11-10T14:01:09Z",
-  "news:065d3b3a209ed2d4|feed": "2026-11-10T14:31:51Z"
+  "news:065d3b3a209ed2d4|feed": "2026-11-10T14:31:51Z",
+  "news:024c189f0da1628d|feed": "2026-11-10T19:01:10Z",
+  "news:024c189f0da1628d|ntfy": "2026-11-10T19:01:10Z",
+  "news:024c189f0da1628d|pub:radarkpop-skz-news": "2026-11-10T19:01:10Z",
+  "news:024c189f0da1628d|foro": "2026-11-10T19:01:10Z",
+  "news:ed5d4261b9b2393f|feed": "2026-11-10T19:01:10Z",
+  "news:ed5d4261b9b2393f|ntfy": "2026-11-10T19:01:10Z",
+  "news:ed5d4261b9b2393f|pub:radarkpop-lngshot-news": "2026-11-10T19:01:10Z",
+  "news:ed5d4261b9b2393f|foro": "2026-11-10T19:01:10Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2585,7 +2593,6 @@
   }
  },
  "news_seen": [
-  "806acdc684e80d7f",
   "806ca7372474e08f",
   "80a3836bf4693a1b",
   "80fa8817f1de28d4",
@@ -3278,6 +3285,7 @@
   "ed108b2379080406",
   "ed14d590283a4d80",
   "ed3ab22a21249dfc",
+  "ed5d4261b9b2393f",
   "ed8176c84b63d146",
   "ed865c1b58456054",
   "ee16ed74a93dfbcf",
@@ -3637,6 +3645,34 @@
     "world"
    ],
    "t": "2026-11-10T13:15:55Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "2027",
+    "conciertos",
+    "dara",
+    "esto",
+    "gira",
+    "latinoamerica",
+    "nueva",
+    "par",
+    "sabe"
+   ],
+   "t": "2026-11-10T19:01:03Z"
+  },
+  {
+   "g": "lngshot",
+   "w": [
+    "bananas",
+    "cancion",
+    "comeback",
+    "principal",
+    "realiza",
+    "sobre",
+    "todo"
+   ],
+   "t": "2026-11-10T19:01:03Z"
   }
  ],
  "discord_threads": {
