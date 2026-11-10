@@ -1,6 +1,34 @@
 {
- "updated_at": "2026-11-10T00:01:18Z",
+ "updated_at": "2026-11-10T01:01:04Z",
  "alerts": [
+  {
+   "type": "official",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Anuncio oficial de CORTIS: comeback",
+   "body": "«[Aviso] CORTIS El 2º EP 'GREENGREEN_playextended' (versión 'Blue Lips' Lip Mask) Información de reserva (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749...» (CORTIS en X).",
+   "title_en": "Official CORTIS news: comeback",
+   "body_en": "«[Notice] CORTIS The 2nd EP 'GREENGREEN_playextended' ('Blue Lips' Lip Mask ver.) Pre-order information (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749 ...» (CORTIS en X).",
+   "when": "2026-11-10T01:00:01Z",
+   "url": "https://x.com/cortis_bighit/status/2119958221460828434",
+   "src_lang": "ko",
+   "body_orig": "«[Notice] CORTIS The 2nd EP 'GREENGREEN_playextended' ('Blue Lips' Lip Mask ver.) 예약 구매 안내 (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749 ...» (CORTIS en X).",
+   "auto": true
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "BTS WORLD TOUR ‘ARIRANG’ en cines: Kaohsiung y Yakarta 2026 - Cine Cassette (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS WORLD TOUR ‘ARIRANG’ in cinemas: Kaohsiung and Jakarta 2026 - Cine Cassette (Google News)",
+   "when": "2026-11-10T00:47:47Z",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYkk5NmJ6bkpua1NuOERDY3VHVDZQQzh0YjdIcGpGQmIwd0t3aWZsYVBJR3Z5dkM1VjhuSFdlZFN4MUdxcW0wWkNEaW5lQ011NXlHMTdOQWQzVVV5SU90b2Rlc3N0RFNFUDdpVlA3RGJJNjNXcTNGZ2pScUR2Q2hlVTUySVVqc3lUSVdPUnByMXl4RzUxRXhVXw?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS WORLD TOUR ‘ARIRANG’ en cines: Kaohsiung y Yakarta 2026 - Cine Cassette (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "new_date",
    "group": "skz",
@@ -695,31 +723,6 @@
    "body_en": "꿀멍즈 코어 #StrayKids #스트레이키즈 #창빈 #Changbin #승민 #Seungmin #YouMakeStrayKidsStay (YouTube)",
    "when": "2026-11-08T06:00:04Z",
    "url": "https://www.youtube.com/watch?v=TfixaYSUSNY"
-  },
-  {
-   "type": "roster",
-   "group": "newjeans",
-   "group_name": "NewJeans",
-   "title": "📰 Danielle (NewJeans) vuelve al grupo",
-   "body": "Noticia (sin confirmar): «Torn New Jeans still strong… 'Expelled' Daniel · 'Returned', the current situation caught in Korea [Ex's issue] - Export News»",
-   "title_en": "📰 Danielle (NewJeans) is back in the group",
-   "body_en": "Noticia (sin confirmar): «Torn New Jeans still strong… 'Expelled' Daniel · 'Returned', the current situation caught in Korea [Ex's issue] - Export News»",
-   "when": "2026-11-08T05:51:14Z",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zeGFqX29YQWNNLS00eHRRNXEtMjlIYlM2dnNsc0J2c3d2TGR4TkliTHF4ZWRkTTVlV3J5R0VRUGt5a3daT2pMZHplbi1nWVVhQno5eg?oc=5",
-   "src_lang": "ko",
-   "body_orig": "Noticia (sin confirmar): «찢어진 뉴진스, 여전히 돈독하다…'퇴출' 다니엘·'복귀' 하니, 한국서 포착된 근황 [엑's 이슈] - 엑스포츠뉴스»",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Nuevo video: CORTIS",
-   "body": "i'm all gone fr #CORTIS #코르티스 (YouTube)",
-   "title_en": "New video: CORTIS",
-   "body_en": "i'm all gone fr #CORTIS #코르티스 (YouTube)",
-   "when": "2026-11-08T04:00:35Z",
-   "url": "https://www.youtube.com/watch?v=-4QnrDCxyZQ"
   }
  ]
 }

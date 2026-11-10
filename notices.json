@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09T09:45:54Z",
+ "updated_at": "2026-11-10T01:00:54Z",
  "groups": {
   "lngshot": [
    {
@@ -135,6 +135,13 @@
   ],
   "cortis": [
    {
+    "title": "[Notice] CORTIS The 2nd EP 'GREENGREEN_playextended' ('Blue Lips' Lip Mask ver.) 예약 구매 안내 (+ENG/JPN/CHN) ...",
+    "url": "https://weverse.io/cortis/notice/40749",
+    "post": "https://x.com/cortis_bighit/status/2119958221460828434",
+    "when": "2026-11-10T01:00:01Z",
+    "weverse": true
+   },
+   {
     "title": "[Vote] MMA2026 부문별 투표 🏆 🗳️ Melon ( 🌟 올해의 베스트송 → 'REDRED' 투표 ☑️ ...",
     "url": "https://weverse.io/cortis/notice/40456?hl=ko",
     "post": "https://x.com/cortis_bighit/status/2119626029564338328",
@@ -167,13 +174,6 @@
     "url": "https://weverse.io/cortis/notice/40456?hl=ko",
     "post": "https://x.com/cortis_bighit/status/2118553964631433646",
     "when": "2026-11-06T04:00:00Z",
-    "weverse": true
-   },
-   {
-    "title": "[Vote] MMA2026 부문별 투표 진행 중 ~11/13 📲 Melon ( 💚 올해의 베스트송 → 'REDRED' 투...",
-    "url": "https://weverse.io/cortis/notice/40456?hl=ko",
-    "post": "https://x.com/cortis_bighit/status/2117914871937593563",
-    "when": "2026-11-04T09:40:29Z",
     "weverse": true
    }
   ]
