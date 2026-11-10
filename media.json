@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10T04:00:41Z",
+ "updated_at": "2026-11-10T05:00:39Z",
  "sample": false,
  "items": [
   {
@@ -120,6 +120,15 @@
   {
    "type": "video",
    "group": "seventeen",
+   "title": "[MINITEEN] SNOW with MINITEEN | Little Snow Friend ❄️",
+   "date": "2026-11-10",
+   "published": "2026-11-10T05:00:02Z",
+   "url": "https://www.youtube.com/watch?v=dIolrmEUAKI",
+   "image": "https://i.ytimg.com/vi/dIolrmEUAKI/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
    "title": "BOO Right Back Coming Soon",
    "date": "2026-11-09",
    "published": "2026-11-09T13:16:12Z",
@@ -179,15 +188,6 @@
    "published": "2026-11-08T06:00:04Z",
    "url": "https://www.youtube.com/watch?v=TfixaYSUSNY",
    "image": "https://i.ytimg.com/vi/TfixaYSUSNY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "#12oclock with #CARAT 🩷🩵 #JxJ #정한X조슈아 #DREAMSCAPE",
-   "date": "2026-11-08",
-   "published": "2026-11-08T10:30:03Z",
-   "url": "https://www.youtube.com/watch?v=gTXqq68uJqo",
-   "image": "https://i.ytimg.com/vi/gTXqq68uJqo/hqdefault.jpg"
   },
   {
    "type": "video",

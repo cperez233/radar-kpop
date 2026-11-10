@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-11-10T02:46:01Z",
+ "updated_at": "2026-11-10T05:01:04Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "[MINITEEN] SNOW with MINITEEN | Little Snow Friend ❄️ (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "[MINITEEN] SNOW with MINITEEN | Little Snow Friend ❄️ (YouTube)",
+   "when": "2026-11-10T05:00:02Z",
+   "url": "https://www.youtube.com/watch?v=dIolrmEUAKI"
+  },
+  {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[🎬] ATEEZ - 'UP' Official MV Teaser 1 2026. 11. 13 2PM LANZAMIENTO DEL ÁLBUM https://youtu.be/lYH1OEsyhaQ #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
+   "body_en": "«[🎬] ATEEZ - 'UP' Official MV Teaser 1 2026. 11. 13 2PM ALBUM RELEASE https://youtu.be/lYH1OEsyhaQ #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
+   "when": "2026-11-10T05:00:01Z",
+   "url": "https://x.com/ATEEZofficial/status/2120018618914144499",
+   "src_lang": "ko",
+   "body_orig": "«[🎬] ATEEZ(에이티즈) - 'UP' Official MV Teaser 1 2026. 11. 13 2PM ALBUM RELEASE https://youtu.be/lYH1OEsyhaQ #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
+   "auto": true
+  },
   {
    "type": "tour",
    "group": "skz",
@@ -704,28 +729,6 @@
    "body_en": "#12oclock with #CARAT 🩷🩵 #JxJ #정한X조슈아 #DREAMSCAPE (YouTube)",
    "when": "2026-11-08T10:30:03Z",
    "url": "https://www.youtube.com/watch?v=gTXqq68uJqo"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "ATEEZ(에이티즈) log_logbook#240 (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "ATEEZ(에이티즈) log_logbook#240 (YouTube)",
-   "when": "2026-11-08T10:00:02Z",
-   "url": "https://www.youtube.com/watch?v=AxJ1xvdcrDg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "☂️☃️ #JUNGWON #ENHYPEN (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "☂️☃️ #JUNGWON #ENHYPEN (YouTube)",
-   "when": "2026-11-08T08:02:49Z",
-   "url": "https://www.youtube.com/watch?v=ot-ayOG4oDc"
   }
  ]
 }
