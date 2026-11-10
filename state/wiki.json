@@ -45,7 +45,7 @@
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-10T19:30:23Z",
- "last_run": "2026-11-10T19:30:23Z",
+ "last_run": "2026-11-10T21:45:19Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-10T11:00:21Z",
@@ -733,13 +733,7 @@
   }
  },
  "pending": {
-  "bts": [
-   "The Most Beautiful Moment in Life On Stage Tour",
-   "BTS World Tour: Love Yourself"
-  ],
   "seventeen": [
-   "Diamond Edge World Tour",
-   "Right Here World Tour",
    "Be The Sun World Tour",
    "Follow Tour"
   ]
@@ -747,8 +741,10 @@
  "rejected": {
   "2017 BTS Live Trilogy Episode III: The Wings Tour": "2026-11-10T19:30:23Z",
   "5-Star Dome Tour": "2026-11-03T19:15:48Z",
+  "BTS World Tour: Love Yourself": "2026-11-10T21:45:19Z",
   "Blackpink Arena Tour 2018": "2026-11-03T19:15:48Z",
   "Born Pink World Tour": "2026-11-03T19:15:48Z",
+  "Diamond Edge World Tour": "2026-11-10T21:45:19Z",
   "Dominate World Tour": "2026-11-03T19:15:48Z",
   "Haru Japan Tour": "2026-11-03T19:15:48Z",
   "Ideal Cut Tour": "2026-11-03T19:15:48Z",
@@ -760,7 +756,9 @@
   "New_ World Tour": "2026-11-10T19:30:23Z",
   "Ode to You World Tour": "2026-11-03T19:15:48Z",
   "Ready to Be World Tour": "2026-11-03T19:15:48Z",
+  "Right Here World Tour": "2026-11-10T21:45:19Z",
   "SVT Japan Arena Tour": "2026-11-10T19:30:23Z",
+  "The Most Beautiful Moment in Life On Stage Tour": "2026-11-10T21:45:19Z",
   "The Red Bullet Tour": "2026-11-03T19:15:48Z",
   "The Wings Tour": "2026-11-03T19:15:48Z",
   "This Is For World Tour": "2026-11-03T19:15:48Z",
