@@ -1517,7 +1517,11 @@
   "news:7989a5b3ec6c7867|ntfy": "2026-11-10T12:16:01Z",
   "news:7989a5b3ec6c7867|pub:radarkpop-bts-news": "2026-11-10T12:16:01Z",
   "news:7989a5b3ec6c7867|foro": "2026-11-10T12:16:01Z",
-  "news:581226f4c432fe95|feed": "2026-11-10T13:01:28Z"
+  "news:581226f4c432fe95|feed": "2026-11-10T13:01:28Z",
+  "news:b5bef38d5c3675fa|feed": "2026-11-10T13:16:02Z",
+  "news:b5bef38d5c3675fa|ntfy": "2026-11-10T13:16:02Z",
+  "news:b5bef38d5c3675fa|pub:radarkpop-skz-news": "2026-11-10T13:16:02Z",
+  "news:b5bef38d5c3675fa|foro": "2026-11-10T13:16:02Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2579,7 +2583,6 @@
   }
  },
  "news_seen": [
-  "801dd41f9ee44208",
   "80368606f7c7d64e",
   "8036ce556e3cca41",
   "806acdc684e80d7f",
@@ -2930,6 +2933,7 @@
   "b51a4fb3ccd0695e",
   "b52751578780e642",
   "b541ca3e0692d9ee",
+  "b5bef38d5c3675fa",
   "b5e9b97b52840f6f",
   "b61763651497c7f1",
   "b63dda6051f26b66",
@@ -3650,6 +3654,19 @@
     "viveiro"
    ],
    "t": "2026-11-10T12:15:56Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "2027",
+    "aterriza",
+    "barcelona",
+    "julio",
+    "run",
+    "tour",
+    "world"
+   ],
+   "t": "2026-11-10T13:15:55Z"
   }
  ],
  "discord_threads": {
