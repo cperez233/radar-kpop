@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-10T05:01:04Z",
+ "updated_at": "2026-11-10T09:01:44Z",
  "alerts": [
+  {
+   "type": "comeback",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Comeback: Stray Kids",
+   "body": "Aura aparentemente sexual del nuevo teaser de Stray Kids incita reacciones muy divididas (Koreaboo)",
+   "title_en": "Comeback: Stray Kids",
+   "body_en": "Seemingly Sexual Aura Of Stray Kids’ New Teaser Incites Hugely Divided Reactions (Koreaboo)",
+   "when": "2026-11-10T08:55:32Z",
+   "url": "https://www.koreaboo.com/news/sexual-nature-stray-kids-new-teaser-incites-hugely-divided-reactions/",
+   "src_lang": "en",
+   "body_orig": "Seemingly Sexual Aura Of Stray Kids’ New Teaser Incites Hugely Divided Reactions (Koreaboo)",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "seventeen",
@@ -718,17 +732,6 @@
    "body_en": "Wrapped up in Tokyo. Next stop: Hong Kong, China (Dec 5), about 2,884 km away.",
    "when": "2026-11-08T13:01:02Z",
    "url": null
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "#12oclock with #CARAT 🩷🩵 #JxJ #정한X조슈아 #DREAMSCAPE (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "#12oclock with #CARAT 🩷🩵 #JxJ #정한X조슈아 #DREAMSCAPE (YouTube)",
-   "when": "2026-11-08T10:30:03Z",
-   "url": "https://www.youtube.com/watch?v=gTXqq68uJqo"
   }
  ]
 }

@@ -1493,7 +1493,11 @@
   "official:ateez:comeback:2026-11-10|ntfy": "2026-11-10T05:01:10Z",
   "official:ateez:comeback:2026-11-10|pub:radarkpop-ateez-music": "2026-11-10T05:01:10Z",
   "official:ateez:comeback:2026-11-10|foro": "2026-11-10T05:01:10Z",
-  "news:a5bf2ac97b586268|feed": "2026-11-10T05:01:10Z"
+  "news:a5bf2ac97b586268|feed": "2026-11-10T05:01:10Z",
+  "news:77efffe853983dd6|feed": "2026-11-10T09:01:50Z",
+  "news:77efffe853983dd6|ntfy": "2026-11-10T09:01:50Z",
+  "news:77efffe853983dd6|pub:radarkpop-skz-news": "2026-11-10T09:01:50Z",
+  "news:77efffe853983dd6|foro": "2026-11-10T09:01:50Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2555,7 +2559,6 @@
   }
  },
  "news_seen": [
-  "7e6acd513e899bd8",
   "7eac8580136709cb",
   "7ebbb187fd0730fc",
   "7f8356c08cc07eff",
@@ -2875,6 +2878,7 @@
   "aef3b1482e3049fa",
   "af4be65657634118",
   "b0317da5f998f486",
+  "b0491437064d84f5",
   "b06571abd4342727",
   "b096109a7dda99a3",
   "b0bea9e7f5f79574",
@@ -3578,6 +3582,20 @@
     "otras"
    ],
    "t": "2026-11-10T02:46:01Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "aura",
+    "divided",
+    "hugely",
+    "incites",
+    "reactions",
+    "seemingly",
+    "sexual",
+    "teaser"
+   ],
+   "t": "2026-11-10T09:01:44Z"
   }
  ],
  "discord_threads": {
