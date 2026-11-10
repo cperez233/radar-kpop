@@ -1,7 +1,21 @@
 {
- "updated_at": "2026-11-10T01:00:54Z",
+ "updated_at": "2026-11-10T06:00:52Z",
  "groups": {
   "lngshot": [
+   {
+    "title": "[EVENT] LNGSHOT EP [S.W.I.S.H.] 발매 기념 음원 스트리밍 이벤트 안내",
+    "url": "https://weverse.io/lngshot/notice/40875",
+    "post": "https://x.com/LNGSHOT4sho/status/2120033721113784710",
+    "when": "2026-11-10T06:00:02Z",
+    "weverse": true
+   },
+   {
+    "title": "[EVENT] LNGSHOT EP [S.W.I.S.H.] 발매 기념 음원 다운로드 이벤트 안내",
+    "url": "https://weverse.io/lngshot/notice/40876",
+    "post": "https://x.com/LNGSHOT4sho/status/2120033718048075961",
+    "when": "2026-11-10T06:00:01Z",
+    "weverse": true
+   },
    {
     "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 공개방송 통합공지 안내",
     "url": "https://weverse.io/lngshot/notice/40865",
@@ -28,20 +42,6 @@
     "url": "https://weverse.io/lngshot/notice/40496",
     "post": "https://x.com/LNGSHOT4sho/status/2115686497877901522",
     "when": "2026-10-29T06:05:43Z",
-    "weverse": true
-   },
-   {
-    "title": "[NOTICE] LNGSHOT it's Live FANS PICK 참여 안내",
-    "url": "https://weverse.io/lngshot/notice/40478",
-    "post": "https://x.com/LNGSHOT4sho/status/2115383170564771974",
-    "when": "2026-10-28T10:00:24Z",
-    "weverse": true
-   },
-   {
-    "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (스타라이크뮤직)",
-    "url": "https://weverse.io/lngshot/notice/40432",
-    "post": "https://x.com/LNGSHOT4sho/status/2114961032410263845",
-    "when": "2026-10-27T06:02:58Z",
     "weverse": true
    }
   ],
