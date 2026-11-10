@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-10T09:15:55Z",
+ "updated_at": "2026-11-10T09:32:01Z",
  "alerts": [
+  {
+   "type": "tour",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Gira: Stray Kids",
+   "body": "El grupo de K-pop Stray Kids anuncia la gira mundial 'Run it' a Norteamérica y Europa - Infobae (Google Noticias)",
+   "title_en": "Tour: Stray Kids",
+   "body_en": "K-pop group Stray Kids announces 'Run it' world tour to North America and Europe - Infobae (Google News)",
+   "when": "2026-11-10T09:15:00Z",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdy13OFU2OERZQXpMMUQtLU1JSENXa2lTY2RTbzNQQlVjWHk4QmZIM2dPaVItZWtfVWZEdGplNURidFpBTml0OXlaRENsOHE3Uy0yaF9IUVBpZmZZWFRkbHRfT0FaT1dkMDkybzN2WndQOThXWE5iLU1rN2lOZzBuQnV6VnFESkZEY1FIaUFJMjNmMm4wSU9jdDBVdzFyVXdEMUEwekJJUldweDZYUjRSbUZnV0x1TG83cVprTHdrWTlXczlpUDVPeHlJZkhUWml6cWfSAewBQVVfeXFMUHNLdXFxcElsRFJ5Vk1DYWJFZGJJTW4yYXFJZG9xLXBVWWN4OWFaOGd2anhpNlVXY29BaDNDWTl0SnpucV91ZU12Q3FBWGxNMkFyeGdwV2RfNFdMckVYS1RDS28wbzNnVGdhdE9FTlhONEU0S1JNeDhUTTVjTDdjU3h4V3NnQkdtUlVRcGVIcHM4TkU4SzBXbzd3d2ozR3JCOWgzczNDWWRYcWxjRDRuUlNMRXNhTnhiMDI3V0Z0Nzk0aS1YTDRFYWZEWjJXdExFSG1qbV84dW9HOWE3RFFqWjRQdmFCaHFoVlU1Mkc?oc=5",
+   "src_lang": "es",
+   "body_orig": "El grupo de K-pop Stray Kids anuncia la gira mundial 'Run it' a Norteamérica y Europa - Infobae (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -717,20 +731,6 @@
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPY1pyRHhFSFdQemthdC1TUDFqaFNCZXVjQVg4bWpTMmtfdjdXYTBOcW9fUFVWbmhId09mdW5JYndVdnBCa1ZodHJueDZRZkoyRG5NTXZMOWQwdFRhZVNDemQxZDR1SFpBN0hiVnI5TE5wNEZZVWdEanV6dnUtbkF0Ylk3WkhEUQ?oc=5",
    "src_lang": "es",
    "body_orig": "¿Podría haber un regreso de BTS a Colombia? - Diario del Cauca (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS podría añadir más fechas a su tour - Diario del Cauca (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS could add more dates to their tour - Diario del Cauca (Google News)",
-   "when": "2026-11-09T01:31:21Z",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOa3BwMjA1LWNRVmxJeVNIYVhkTENKT19LdnU4cEh4Z2U5UW96X2tvenB6TUhzZUU4cjYwZmJEQzRwRGoycjZVVy1HY0FoVnI1dGlON1hLZXZ4NmVRM28zVURiZV9tTV9SaGdWNXV5MjFHZklwdWhHTlBKeXh5Z1dTTEd3?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS podría añadir más fechas a su tour - Diario del Cauca (Google Noticias)",
    "auto": true
   }
  ]

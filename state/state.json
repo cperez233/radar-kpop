@@ -1500,7 +1500,11 @@
   "news:77efffe853983dd6|foro": "2026-11-10T09:01:50Z",
   "news:6a317fb2371d1661|feed": "2026-11-10T09:16:02Z",
   "news:0e73f43d82b84bb0|feed": "2026-11-10T09:16:02Z",
-  "news:094f4439f53124bd|feed": "2026-11-10T09:16:02Z"
+  "news:094f4439f53124bd|feed": "2026-11-10T09:16:02Z",
+  "news:f80a7496563905ba|feed": "2026-11-10T09:32:08Z",
+  "news:f80a7496563905ba|ntfy": "2026-11-10T09:32:08Z",
+  "news:f80a7496563905ba|pub:radarkpop-skz-news": "2026-11-10T09:32:08Z",
+  "news:f80a7496563905ba|foro": "2026-11-10T09:32:08Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2562,9 +2566,6 @@
   }
  },
  "news_seen": [
-  "7eac8580136709cb",
-  "7ebbb187fd0730fc",
-  "7f8356c08cc07eff",
   "7f8a34368bedbe99",
   "7f98c79271441a58",
   "7fa6451f2247d252",
@@ -3001,6 +3002,7 @@
   "c233f103b025ddd3",
   "c24bc299f41ceb9a",
   "c26d7847cf4d0d71",
+  "c2904a3efd9b28e1",
   "c2929c5e60af67b9",
   "c2ac9d79a3700193",
   "c2c5383920338125",
@@ -3113,6 +3115,7 @@
   "d38bfa1099411072",
   "d3d9ec0cf5da388f",
   "d42bcf42d0e5fbd9",
+  "d436d7f53d04e7e6",
   "d49f1592d287c649",
   "d4c624b495b2ce9c",
   "d4c9df50f3292907",
@@ -3318,6 +3321,7 @@
   "f7bb6d63b372db6e",
   "f7c4a0da1b3ba2bc",
   "f7db80c43d325e3b",
+  "f80a7496563905ba",
   "f80e981218c68d6c",
   "f8c22c8e360cd198",
   "f8fcb9da9d31d52e",
@@ -3599,6 +3603,20 @@
     "teaser"
    ],
    "t": "2026-11-10T09:01:44Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "anuncia",
+    "europa",
+    "gira",
+    "grupo",
+    "mundial",
+    "norteamerica",
+    "pop",
+    "run"
+   ],
+   "t": "2026-11-10T09:32:01Z"
   }
  ],
  "discord_threads": {
