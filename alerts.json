@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-10T20:00:53Z",
+ "updated_at": "2026-11-10T23:16:09Z",
  "alerts": [
+  {
+   "type": "latam",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Latinoamérica: Stray Kids",
+   "body": "Stray Kids anuncia su World Tour “RUN IT”: ¿Vendrán a México? Esto sabemos - Grupo Animal (Google Noticias)",
+   "title_en": "Latin America: Stray Kids",
+   "body_en": "Stray Kids announces their “RUN IT” World Tour: Will they come to Mexico? This we know - Grupo Animal (Google News)",
+   "when": "2026-11-10T23:01:18Z",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYzUyREVPZ1ZJdlpzWkxFWVFLN29HWFN3MVRCWDNTdk9XcXdCRDFYSk5ERml0MkpNTS1WYkg2VFhNWFoxT3ByVFQtS01tenk5c2Z1czJ4NmVrdG1LUkE5c3YtQ1d3cnlJTXhOQ1otU0VEOFZWOHcwamdmREhmVUstd1lHdmRLMllMcjhHRHFvTC1wVVBDakFuenREUHV4U0p5Tk1JdjVsTFkyTGl2?oc=5",
+   "src_lang": "es",
+   "body_orig": "Stray Kids anuncia su World Tour “RUN IT”: ¿Vendrán a México? Esto sabemos - Grupo Animal (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "latam",
    "group": "skz",
@@ -709,17 +723,6 @@
    "body_en": "BOO Right Back Coming Soon (YouTube)",
    "when": "2026-11-09T13:16:12Z",
    "url": "https://www.youtube.com/watch?v=v8IcFO44nAA"
-  },
-  {
-   "type": "weekly",
-   "group": "radar",
-   "group_name": "Radar K-pop",
-   "title": "📅 Tu semana K-pop",
-   "body": "🎤 TWICE en Manila (14 nov)\n💿 LNGSHOT: S.W.I.S.H. (10 nov)\n🎂 Momo (TWICE) cumple 30 el 9 nov\n🎂 Jake (ENHYPEN) cumple 24 el 15 nov",
-   "title_en": "📅 Your K-pop week",
-   "body_en": "🎤 TWICE in Manila (Nov 14)\n💿 LNGSHOT: S.W.I.S.H. (Nov 10)\n🎂 Momo (TWICE) turns 30 on Nov 9\n🎂 Jake (ENHYPEN) turns 24 on Nov 15",
-   "when": "2026-11-09T13:01:06Z",
-   "url": null
   }
  ]
 }

@@ -1535,7 +1535,11 @@
   "news:87cecb1f3660c6bf|feed": "2026-11-10T20:01:01Z",
   "news:87cecb1f3660c6bf|ntfy": "2026-11-10T20:01:01Z",
   "news:87cecb1f3660c6bf|pub:radarkpop-skz-news": "2026-11-10T20:01:01Z",
-  "news:87cecb1f3660c6bf|foro": "2026-11-10T20:01:01Z"
+  "news:87cecb1f3660c6bf|foro": "2026-11-10T20:01:01Z",
+  "news:3d77c49066ce82bf|feed": "2026-11-10T23:16:16Z",
+  "news:3d77c49066ce82bf|ntfy": "2026-11-10T23:16:16Z",
+  "news:3d77c49066ce82bf|pub:radarkpop-skz-news": "2026-11-10T23:16:16Z",
+  "news:3d77c49066ce82bf|foro": "2026-11-10T23:16:16Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3678,6 +3682,20 @@
     "surcoreano"
    ],
    "t": "2026-11-10T20:00:53Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "anuncia",
+    "esto",
+    "mexico",
+    "run",
+    "sabemos",
+    "tour",
+    "vendran",
+    "world"
+   ],
+   "t": "2026-11-10T23:16:09Z"
   }
  ],
  "discord_threads": {
