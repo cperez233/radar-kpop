@@ -45,7 +45,7 @@
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-03T19:15:48Z",
- "last_run": "2026-11-10T13:00:25Z",
+ "last_run": "2026-11-10T15:15:17Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-10T11:00:21Z",
@@ -398,8 +398,8 @@
    "title": "List of NewJeans live performances"
   },
   "Lngshot": {
-   "fetched": "2026-11-10T11:00:21Z",
-   "revid": 1384842374,
+   "fetched": "2026-11-10T15:15:17Z",
+   "revid": 1384866880,
    "rows": [],
    "title": "Lngshot"
   },
