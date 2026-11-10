@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10T12:01:00Z",
+ "updated_at": "2026-11-10T12:15:56Z",
  "alerts": [
   {
    "type": "official",
@@ -25,6 +25,20 @@
    "body_en": "PYPD BIRTHDAY PARTY (YouTube)",
    "when": "2026-11-10T11:59:58Z",
    "url": "https://www.youtube.com/watch?v=tfbvbOThPMI"
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "Fans de BTS se mueven para lograr otra proyección en Cines Viveiro con motivo de otro concierto de los reyes de k-pop el próximo 29 de dici… (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS fans move to achieve another screening at Cines Viveiro on the occasion of another concert by the kings of k-pop on December 29… (Google News)",
+   "when": "2026-11-10T11:46:02Z",
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxObm4za0FOUHUyVzROSVpILVJHYk1mTmhXR0JNbldYc1hkSjBjamliTGM3UEREbnUtcUctcTliRU4wVGFsakZaM05mTmtvcVNaOGM4Z2JXck1HSmFTUkJrUjl2V0gxWTJ0dDhGSUpJV2J3QWhTekVHMUJFaDZnbGU0cjR6anJ2XzEwR2FGTVFoUU1tM1c1ZFlMTllXd1RZbVJOdjN4OTZ1dGE0R0hRYmg3azYxM0JnQXFybXEyMVRCWXk3NFhaRHlQWVFkNXFDeGI3clp5d0xINllSMlRQSTd4WGdOR0lYaWZUWnhrQjROUEwxMV96MzkyY0JGeWU0TXFD0gGcAkFVX3lxTE03NVpwVFZGYUptRl9LS196d2s4OGhMZnZHMXRVMGJ2b0RINXZLRWZpRVJnY0UwblBEenZvb1FvS3Zod1JEMW1NM1NJOXNOOXRrc1hmQmtWUVlaU3BHb0xvUUU3M2xpN0hQUTNZUGFYdlFVQUx0SEhsazdtblpjOG03SVlLQkMyeThsVWVSSG1xcVhNVzVSUjREWXZFVUZUUDhPMWxKWHhGajE1Qzc4aWs3NWg3Q3h5MGxrSVM1N3lIYlNpUDFqbno2czJBa295WnBIdkgxaHQwLURVc2ZaZWVyQXA3bDhkZTl3c24wSkVKNmcwclRUY0pTb0lUaGR0ZEIwQ0cybjVwV3EzSGZkOEVNMFN0YU4xUWtBVnhm?oc=5",
+   "src_lang": "es",
+   "body_orig": "Fans de BTS se mueven para lograr otra proyección en Cines Viveiro con motivo de otro concierto de los reyes de k-pop el próximo 29 de dici… (Google Noticias)",
+   "auto": true
   },
   {
    "type": "video",
@@ -694,20 +708,6 @@
    "url": "https://www.koreaboo.com/news/twice-nayeons-new-album-features-artist-rumored-fellow-members-ex-situationship/",
    "src_lang": "en",
    "body_orig": "Writer On TWICE Nayeon’s New Album Speculated To Be Fellow Member’s “Ex Situationship” (Koreaboo)",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«[AVISO] LNGSHOT EP [S.W.I.S.H.] Aviso integrado de transmisión pública https://weverse.io/lngshot/notice/40865 #LNGSHOT #SWISH #MOREVISION» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] Public broadcast integrated notice https://weverse.io/lngshot/notice/40865 #LNGSHOT #SWISH #MOREVISION» (LNGSHOT en X).",
-   "when": "2026-11-09T09:31:13Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2119724480310423941",
-   "src_lang": "ko",
-   "body_orig": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] 공개방송 통합공지 안내 https://weverse.io/lngshot/notice/40865 #LNGSHOT #SWISH #MOREVISION» (LNGSHOT en X).",
    "auto": true
   },
   {

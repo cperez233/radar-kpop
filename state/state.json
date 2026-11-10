@@ -1512,7 +1512,11 @@
   "official:cortis:tour:2026-11-10|ntfy": "2026-11-10T12:01:07Z",
   "official:cortis:tour:2026-11-10|pub:radarkpop-cortis-shows": "2026-11-10T12:01:07Z",
   "official:cortis:tour:2026-11-10|foro": "2026-11-10T12:01:07Z",
-  "news:3ded3b87867488df|feed": "2026-11-10T12:01:07Z"
+  "news:3ded3b87867488df|feed": "2026-11-10T12:01:07Z",
+  "news:7989a5b3ec6c7867|feed": "2026-11-10T12:16:01Z",
+  "news:7989a5b3ec6c7867|ntfy": "2026-11-10T12:16:01Z",
+  "news:7989a5b3ec6c7867|pub:radarkpop-bts-news": "2026-11-10T12:16:01Z",
+  "news:7989a5b3ec6c7867|foro": "2026-11-10T12:16:01Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2574,7 +2578,6 @@
   }
  },
  "news_seen": [
-  "7ff72ec82c601a06",
   "8015396f00b3218f",
   "801dd41f9ee44208",
   "80368606f7c7d64e",
@@ -3180,6 +3183,7 @@
   "dd35af846a6ac10d",
   "dd67fee50bfd65ad",
   "dd738eb382ccf8ec",
+  "dd9d352a2abd6ae9",
   "ddcb9dee605c4307",
   "ddfc60117f951dd7",
   "de54a24554f9039d",
@@ -3625,6 +3629,26 @@
     "run"
    ],
    "t": "2026-11-10T09:32:01Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "cines",
+    "concierto",
+    "diciembre",
+    "fans",
+    "lograr",
+    "motivo",
+    "mueven",
+    "otra",
+    "otro",
+    "pop",
+    "proximo",
+    "proyeccion",
+    "reyes",
+    "viveiro"
+   ],
+   "t": "2026-11-10T12:15:56Z"
   }
  ],
  "discord_threads": {
