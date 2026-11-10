@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-11-10T10:15:58Z",
+ "updated_at": "2026-11-10T12:01:00Z",
  "alerts": [
+  {
+   "type": "official",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Anuncio oficial de CORTIS: gira",
+   "body": "«FIESTA DE CUMPLEAÑOS PYPD 🎂 (https://youtu.be/tfbvbOThPMI) #CORTIS #코르티스 #CORTIS_TOUR #PUTYOURPHONEDOWN #PYPD_BIRTHDAY_PARTY» (CORTIS en X).",
+   "title_en": "Official CORTIS news: tour",
+   "body_en": "«PYPD BIRTHDAY PARTY 🎂 (https://youtu.be/tfbvbOThPMI) #CORTIS #코르티스 #CORTIS_TOUR #PUTYOURPHONEDOWN #PYPD_BIRTHDAY_PARTY» (CORTIS en X).",
+   "when": "2026-11-10T12:00:03Z",
+   "url": "https://x.com/cortis_bighit/status/2120124322664616065",
+   "src_lang": "en",
+   "body_orig": "«PYPD BIRTHDAY PARTY 🎂 (https://youtu.be/tfbvbOThPMI) #CORTIS #코르티스 #CORTIS_TOUR #PUTYOURPHONEDOWN #PYPD_BIRTHDAY_PARTY» (CORTIS en X).",
+   "auto": true
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "PYPD BIRTHDAY PARTY (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "PYPD BIRTHDAY PARTY (YouTube)",
+   "when": "2026-11-10T11:59:58Z",
+   "url": "https://www.youtube.com/watch?v=tfbvbOThPMI"
+  },
   {
    "type": "video",
    "group": "enhypen",
@@ -697,34 +722,6 @@
    "url": "https://x.com/LNGSHOT4sho/status/2119724480310423941",
    "src_lang": "ko",
    "body_orig": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] 공개방송 통합공지 안내 https://weverse.io/lngshot/notice/40865 #LNGSHOT #SWISH #MOREVISION» (LNGSHOT en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: gira",
-   "body": "«[AVISO] JEONGHAN",
-   "title_en": "Official SEVENTEEN news: tour",
-   "body_en": "«[NOTICE] JEONGHAN",
-   "when": "2026-11-09T06:00:02Z",
-   "url": "https://x.com/pledis_17/status/2119671334149984361",
-   "src_lang": "ko",
-   "body_orig": "«[NOTICE] JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - TAIPEI 공연 예매 안내 (+ENG/JPN/CHN) ▶️ https://weverse.io/seventeen/notice/40396 #JxJ #정한X조...» (SEVENTEEN en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«[MINITEEN] NIEVE con MINITEEN | ¿Listo para la nieve? ❄️ ▶️ ​​https://youtu.be/3P-rNhrrLLc #SEVENTEEN #세븐틴 #MINITEEN #미니틴» (SEVENTEEN en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "«[MINITEEN] SNOW with MINITEEN | Ready for the Snow? ❄️ ▶️ https://youtu.be/3P-rNhrrLLc #SEVENTEEN #세븐틴 #MINITEEN #미니틴» (SEVENTEEN en X).",
-   "when": "2026-11-09T05:00:14Z",
-   "url": "https://x.com/pledis_17/status/2119656285432062146",
-   "src_lang": "en",
-   "body_orig": "«[MINITEEN] SNOW with MINITEEN | Ready for the Snow? ❄️ ▶️ https://youtu.be/3P-rNhrrLLc #SEVENTEEN #세븐틴 #MINITEEN #미니틴» (SEVENTEEN en X).",
    "auto": true
   }
  ]

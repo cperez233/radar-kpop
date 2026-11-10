@@ -1507,7 +1507,12 @@
   "news:f80a7496563905ba|foro": "2026-11-10T09:32:08Z",
   "news:103b753c4a9edecd|feed": "2026-11-10T10:16:04Z",
   "news:aebcf501af3b550a|feed": "2026-11-10T10:16:04Z",
-  "news:2b8acdd46efd944b|feed": "2026-11-10T10:16:04Z"
+  "news:2b8acdd46efd944b|feed": "2026-11-10T10:16:04Z",
+  "official:cortis:tour:2026-11-10|feed": "2026-11-10T12:01:07Z",
+  "official:cortis:tour:2026-11-10|ntfy": "2026-11-10T12:01:07Z",
+  "official:cortis:tour:2026-11-10|pub:radarkpop-cortis-shows": "2026-11-10T12:01:07Z",
+  "official:cortis:tour:2026-11-10|foro": "2026-11-10T12:01:07Z",
+  "news:3ded3b87867488df|feed": "2026-11-10T12:01:07Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2569,7 +2574,6 @@
   }
  },
  "news_seen": [
-  "7fd963f65766d7d6",
   "7ff72ec82c601a06",
   "8015396f00b3218f",
   "801dd41f9ee44208",
@@ -2911,6 +2915,7 @@
   "b4712ba551623d0a",
   "b48a37129f83933f",
   "b48b0379352bb7f7",
+  "b490ee0192c3c009",
   "b4a5ca75ee1ecb75",
   "b4abf168efb586f7",
   "b4f37cf30188dacd",
