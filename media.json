@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10T09:15:33Z",
+ "updated_at": "2026-11-10T10:15:36Z",
  "sample": false,
  "items": [
   {
@@ -147,11 +147,38 @@
   {
    "type": "video",
    "group": "seventeen",
+   "title": "I need your love📱 #JxJ #정한X조슈아 #DREAMSCAPE #컬러링 #Coloring",
+   "date": "2026-11-10",
+   "published": "2026-11-10T10:00:17Z",
+   "url": "https://www.youtube.com/watch?v=LcqrMjIzUOs",
+   "image": "https://i.ytimg.com/vi/LcqrMjIzUOs/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
    "title": "[MINITEEN] SNOW with MINITEEN | Little Snow Friend ❄️",
    "date": "2026-11-10",
    "published": "2026-11-10T05:00:02Z",
    "url": "https://www.youtube.com/watch?v=dIolrmEUAKI",
    "image": "https://i.ytimg.com/vi/dIolrmEUAKI/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "느끼 쫑냥이😼 #JAY #ENHYPEN",
+   "date": "2026-11-10",
+   "published": "2026-11-10T10:15:11Z",
+   "url": "https://www.youtube.com/watch?v=MZBnpDr1Rvk",
+   "image": "https://i.ytimg.com/vi/MZBnpDr1Rvk/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "쇼타로 님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-10",
+   "published": "2026-11-10T10:00:30Z",
+   "url": "https://www.youtube.com/watch?v=GbxB01vJ3Ng",
+   "image": "https://i.ytimg.com/vi/GbxB01vJ3Ng/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -161,15 +188,6 @@
    "published": "2026-11-09T13:16:12Z",
    "url": "https://www.youtube.com/watch?v=v8IcFO44nAA",
    "image": "https://i.ytimg.com/vi/v8IcFO44nAA/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[MINITEEN] SNOW with MINITEEN | Ready for the Snow? ❄️",
-   "date": "2026-11-09",
-   "published": "2026-11-09T05:00:07Z",
-   "url": "https://www.youtube.com/watch?v=3P-rNhrrLLc",
-   "image": "https://i.ytimg.com/vi/3P-rNhrrLLc/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -200,15 +218,6 @@
   },
   {
    "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) - YUNHO in DIESEL SS27 FASHION SHOW",
-   "date": "2026-11-09",
-   "published": "2026-11-09T10:00:04Z",
-   "url": "https://www.youtube.com/watch?v=aRxqWyAe9lA",
-   "image": "https://i.ytimg.com/vi/aRxqWyAe9lA/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "skz",
    "title": "꿀멍즈 코어 #StrayKids #스트레이키즈 #창빈 #Changbin #승민 #Seungmin #YouMakeStrayKidsStay",
    "date": "2026-11-08",
@@ -224,15 +233,6 @@
    "published": "2026-11-08T13:59:37Z",
    "url": "https://www.youtube.com/watch?v=JmCV1K5YGfw",
    "image": "https://i.ytimg.com/vi/JmCV1K5YGfw/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "☂️☃️ #JUNGWON #ENHYPEN",
-   "date": "2026-11-08",
-   "published": "2026-11-08T08:02:49Z",
-   "url": "https://www.youtube.com/watch?v=ot-ayOG4oDc",
-   "image": "https://i.ytimg.com/vi/ot-ayOG4oDc/hqdefault.jpg"
   },
   {
    "type": "video",

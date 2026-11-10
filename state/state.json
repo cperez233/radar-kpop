@@ -1504,7 +1504,10 @@
   "news:f80a7496563905ba|feed": "2026-11-10T09:32:08Z",
   "news:f80a7496563905ba|ntfy": "2026-11-10T09:32:08Z",
   "news:f80a7496563905ba|pub:radarkpop-skz-news": "2026-11-10T09:32:08Z",
-  "news:f80a7496563905ba|foro": "2026-11-10T09:32:08Z"
+  "news:f80a7496563905ba|foro": "2026-11-10T09:32:08Z",
+  "news:103b753c4a9edecd|feed": "2026-11-10T10:16:04Z",
+  "news:aebcf501af3b550a|feed": "2026-11-10T10:16:04Z",
+  "news:2b8acdd46efd944b|feed": "2026-11-10T10:16:04Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2566,9 +2569,6 @@
   }
  },
  "news_seen": [
-  "7f98c79271441a58",
-  "7fa6451f2247d252",
-  "7fab5ac364031e2e",
   "7fc2b7e1731190ea",
   "7fd963f65766d7d6",
   "7ff72ec82c601a06",
@@ -2877,6 +2877,7 @@
   "ae73768e4428fcb9",
   "ae89e2ade18e0672",
   "aeb66ecc8e274245",
+  "aebcf501af3b550a",
   "aeca8fbcd3184748",
   "aef3b1482e3049fa",
   "af4be65657634118",
@@ -3018,6 +3019,7 @@
   "c49be527ac62c7d5",
   "c4af2608ebd7f7ee",
   "c518ed269b32bdd1",
+  "c52379ef582d92df",
   "c57c72fab3ba9938",
   "c5afc1f1fb804aa0",
   "c5c49059d0432e67",
@@ -3362,6 +3364,7 @@
   "fe382faa86082acd",
   "fea57120d0712dc9",
   "fed90aa3089d3c33",
+  "ff034b7ab6503a06",
   "ff50509de7f407d1",
   "ff7e28fe717a4438",
   "ffda53b7817ff28f",

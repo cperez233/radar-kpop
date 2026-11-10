@@ -1,6 +1,39 @@
 {
- "updated_at": "2026-11-10T09:32:01Z",
+ "updated_at": "2026-11-10T10:15:58Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "느끼 쫑냥이😼 #JAY #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "느끼 쫑냥이😼 #JAY #ENHYPEN (YouTube)",
+   "when": "2026-11-10T10:15:11Z",
+   "url": "https://www.youtube.com/watch?v=MZBnpDr1Rvk"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "쇼타로 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "쇼타로 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "when": "2026-11-10T10:00:30Z",
+   "url": "https://www.youtube.com/watch?v=GbxB01vJ3Ng"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "I need your love📱 #JxJ #정한X조슈아 #DREAMSCAPE #컬러링 #Coloring (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "I need your love📱 #JxJ #정한X조슈아 #DREAMSCAPE #컬러링 #Coloring (YouTube)",
+   "when": "2026-11-10T10:00:17Z",
+   "url": "https://www.youtube.com/watch?v=LcqrMjIzUOs"
+  },
   {
    "type": "tour",
    "group": "skz",
@@ -692,45 +725,6 @@
    "url": "https://x.com/pledis_17/status/2119656285432062146",
    "src_lang": "en",
    "body_orig": "«[MINITEEN] SNOW with MINITEEN | Ready for the Snow? ❄️ ▶️ https://youtu.be/3P-rNhrrLLc #SEVENTEEN #세븐틴 #MINITEEN #미니틴» (SEVENTEEN en X).",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "[MINITEEN] SNOW with MINITEEN | Ready for the Snow? ❄️ (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "[MINITEEN] SNOW with MINITEEN | Ready for the Snow? ❄️ (YouTube)",
-   "when": "2026-11-09T05:00:07Z",
-   "url": "https://www.youtube.com/watch?v=3P-rNhrrLLc"
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS tendrá más conciertos en vivo para ver desde los cines - Diario del Cauca (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS will have more live concerts to see from cinemas - Diario del Cauca (Google News)",
-   "when": "2026-11-09T01:35:00Z",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNWtndERaTFJnS2stb3daR2R2RUlleHNsb2Z0NmtGNkZxTDVuSnA4N2J6Z0ktWHh0UFdiX0hwSXFEQk5NdUdMU2J0VEpDd2lXNFZfUEJDQ08xaloxZFRMUHhfbkc4RTlteEdTd0YyWjM3YmV2bGFoQ1BOX0pBR2pzYnAyN09fNUI3ZTBnVmFZRnRFbDN2bjY5SWRUT3Y?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS tendrá más conciertos en vivo para ver desde los cines - Diario del Cauca (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "comeback",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Comeback: BTS",
-   "body": "¿Podría haber un regreso de BTS a Colombia? - Diario del Cauca (Google Noticias)",
-   "title_en": "Comeback: BTS",
-   "body_en": "Could there be a return of BTS to Colombia? - Diario del Cauca (Google News)",
-   "when": "2026-11-09T01:33:16Z",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPY1pyRHhFSFdQemthdC1TUDFqaFNCZXVjQVg4bWpTMmtfdjdXYTBOcW9fUFVWbmhId09mdW5JYndVdnBCa1ZodHJueDZRZkoyRG5NTXZMOWQwdFRhZVNDemQxZDR1SFpBN0hiVnI5TE5wNEZZVWdEanV6dnUtbkF0Ylk3WkhEUQ?oc=5",
-   "src_lang": "es",
-   "body_orig": "¿Podría haber un regreso de BTS a Colombia? - Diario del Cauca (Google Noticias)",
    "auto": true
   }
  ]
