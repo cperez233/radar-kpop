@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-11-09T15:00:41Z",
+  "updated_at": "2026-11-10T07:30:36Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "x-2120053846407774271",
+      "group": "lngshot",
+      "group_name": "LNGSHOT",
+      "city": "Nueva York",
+      "country": "EE. UU.",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "text": "LNGSHOT is in your RADAR 📍New York Times Square Pre-save our EP [S.W.I.S.H.] dropping today on @Spotify 💚 @spotifykr #LNGSHOT #SWISH",
+      "url": "https://x.com/LNGSHOT4sho/status/2120053846407774271",
+      "account": "LNGSHOT4sho",
+      "when": "2026-11-10T07:20:00Z"
+    },
     {
       "id": "x-2119807232162562362",
       "group": "ateez",
