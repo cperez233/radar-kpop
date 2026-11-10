@@ -44,8 +44,8 @@
  "discovered": {},
  "drift": [],
  "fails": 0,
- "last_discovery": "2026-11-03T19:15:48Z",
- "last_run": "2026-11-10T17:15:18Z",
+ "last_discovery": "2026-11-10T19:30:23Z",
+ "last_run": "2026-11-10T19:30:23Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-10T11:00:21Z",
@@ -410,8 +410,8 @@
    "title": "New World Tour"
   },
   "Run It World Tour": {
-   "fetched": "2026-11-10T06:30:20Z",
-   "revid": 1384820772,
+   "fetched": "2026-11-10T19:30:23Z",
+   "revid": 1384902108,
    "rows": [
     {
      "cancelled": false,
@@ -732,8 +732,20 @@
    "title": "Run It World Tour"
   }
  },
- "pending": {},
+ "pending": {
+  "bts": [
+   "The Most Beautiful Moment in Life On Stage Tour",
+   "BTS World Tour: Love Yourself"
+  ],
+  "seventeen": [
+   "Diamond Edge World Tour",
+   "Right Here World Tour",
+   "Be The Sun World Tour",
+   "Follow Tour"
+  ]
+ },
  "rejected": {
+  "2017 BTS Live Trilogy Episode III: The Wings Tour": "2026-11-10T19:30:23Z",
   "5-Star Dome Tour": "2026-11-03T19:15:48Z",
   "Blackpink Arena Tour 2018": "2026-11-03T19:15:48Z",
   "Born Pink World Tour": "2026-11-03T19:15:48Z",
@@ -741,11 +753,14 @@
   "Haru Japan Tour": "2026-11-03T19:15:48Z",
   "Ideal Cut Tour": "2026-11-03T19:15:48Z",
   "In Your Area World Tour": "2026-11-03T19:15:48Z",
+  "Love Yourself World Tour": "2026-11-10T19:30:23Z",
   "Maniac World Tour": "2026-11-03T19:15:48Z",
   "Map of the Soul Tour": "2026-11-03T19:15:48Z",
   "Music Bank World Tour": "2026-11-03T19:15:48Z",
+  "New_ World Tour": "2026-11-10T19:30:23Z",
   "Ode to You World Tour": "2026-11-03T19:15:48Z",
   "Ready to Be World Tour": "2026-11-03T19:15:48Z",
+  "SVT Japan Arena Tour": "2026-11-10T19:30:23Z",
   "The Red Bullet Tour": "2026-11-03T19:15:48Z",
   "The Wings Tour": "2026-11-03T19:15:48Z",
   "This Is For World Tour": "2026-11-03T19:15:48Z",
