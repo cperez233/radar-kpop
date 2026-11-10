@@ -1531,7 +1531,11 @@
   "news:ed5d4261b9b2393f|feed": "2026-11-10T19:01:10Z",
   "news:ed5d4261b9b2393f|ntfy": "2026-11-10T19:01:10Z",
   "news:ed5d4261b9b2393f|pub:radarkpop-lngshot-news": "2026-11-10T19:01:10Z",
-  "news:ed5d4261b9b2393f|foro": "2026-11-10T19:01:10Z"
+  "news:ed5d4261b9b2393f|foro": "2026-11-10T19:01:10Z",
+  "news:87cecb1f3660c6bf|feed": "2026-11-10T20:01:01Z",
+  "news:87cecb1f3660c6bf|ntfy": "2026-11-10T20:01:01Z",
+  "news:87cecb1f3660c6bf|pub:radarkpop-skz-news": "2026-11-10T20:01:01Z",
+  "news:87cecb1f3660c6bf|foro": "2026-11-10T20:01:01Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2593,7 +2597,6 @@
   }
  },
  "news_seen": [
-  "80a3836bf4693a1b",
   "80fa8817f1de28d4",
   "80fd4ba30d8ee089",
   "814318293fec097f",
@@ -2639,6 +2642,7 @@
   "86f7edb40ea87da6",
   "8792f6d142b73ffb",
   "87bd508d6e84ed2a",
+  "87cecb1f3660c6bf",
   "87dfec5aed77d0e2",
   "880b48dda87dbd6d",
   "883a15fa5402ae75",
@@ -3658,6 +3662,22 @@
     "todo"
    ],
    "t": "2026-11-10T19:01:03Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "abandona",
+    "banda",
+    "cantante",
+    "conciertos",
+    "estara",
+    "know",
+    "lee",
+    "pop",
+    "proximos",
+    "surcoreano"
+   ],
+   "t": "2026-11-10T20:00:53Z"
   }
  ],
  "discord_threads": {

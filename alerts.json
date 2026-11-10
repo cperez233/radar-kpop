@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-10T19:01:03Z",
+ "updated_at": "2026-11-10T20:00:53Z",
  "alerts": [
+  {
+   "type": "latam",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Latinoamérica: Stray Kids",
+   "body": "¿Lee Know abandona Stray Kids? El cantante surcoreano no estará en los próximos conciertos de la banda de K-Pop - El Sol de México (Google Noticias)",
+   "title_en": "Latin America: Stray Kids",
+   "body_en": "Is Lee Know leaving Stray Kids? The South Korean singer will not be in the upcoming concerts of the K-Pop band - El Sol de México (Google News)",
+   "when": "2026-11-10T19:57:44Z",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNREVBMW9fc19wRHNmOTlIQWV4aFBxQm5GSkpSTFJuOWJoZjltTC05VHhmbEpzMWpzU09WcHgyZnFVRUVkR3dZVlFWYzVoWldvcmp6SU5TdFNxRVlDV3dTM1VTM1BMMzQxYnZTMGptVlY1OGZnNEkzY1RISGV4Tm13YjJSTGluaVJ3MnZVMUJFLWYwVXYtcWN1U1FlcnUtb2t6M3EyajBBcHBMTG1tSHBWUWM5T0RzdXk5cGo1R0c2OFJWMnZuSzZwNTFtdXZlbGJGTWZFc3RxYUFOQUJqMGNRZTFtNjRaczBObzJOQkFnaw?oc=5",
+   "src_lang": "es",
+   "body_orig": "¿Lee Know abandona Stray Kids? El cantante surcoreano no estará en los próximos conciertos de la banda de K-Pop - El Sol de México (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "comeback",
    "group": "lngshot",
@@ -706,20 +720,6 @@
    "body_en": "🎤 TWICE in Manila (Nov 14)\n💿 LNGSHOT: S.W.I.S.H. (Nov 10)\n🎂 Momo (TWICE) turns 30 on Nov 9\n🎂 Jake (ENHYPEN) turns 24 on Nov 15",
    "when": "2026-11-09T13:01:06Z",
    "url": null
-  },
-  {
-   "type": "official",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Anuncio oficial de Stray Kids: gira",
-   "body": "«Stray Kids(스트레이 키즈) World Tour <RUN IT EUROPE & UK> Entradas abiertas (hora local) Preventa de membresía STAY | 2026.11.18 (MIÉ) 11AM - 2PM Presal Artista...» (Stray Kids en X).",
-   "title_en": "Official Stray Kids news: tour",
-   "body_en": "«Stray Kids(스트레이 키즈) World Tour <RUN IT EUROPE & UK> Ticket Open (Local Time) STAY Membership Presale | 2026.11.18 (WED) 11AM - 2PM Artist Presal...» (Stray Kids en X).",
-   "when": "2026-11-09T13:00:31Z",
-   "url": "https://x.com/Stray_Kids/status/2119777153013457104",
-   "src_lang": "en",
-   "body_orig": "«Stray Kids(스트레이 키즈) World Tour <RUN IT EUROPE & UK> Ticket Open (Local Time) STAY Membership Presale | 2026.11.18 (WED) 11AM - 2PM Artist Presal...» (Stray Kids en X).",
-   "auto": true
   }
  ]
 }
