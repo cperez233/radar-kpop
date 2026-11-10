@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10T08:00:39Z",
+ "updated_at": "2026-11-10T09:15:33Z",
  "sample": false,
  "items": [
   {
@@ -116,6 +116,33 @@
    ],
    "ytm_try": "2026-11-10T08",
    "sp_try": "2026-11-10"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "LNGSHOT - 'Beep Beep' Official Audio",
+   "date": "2026-11-10",
+   "published": "2026-11-10T09:02:02Z",
+   "url": "https://www.youtube.com/watch?v=cYMtrxN-BkM",
+   "image": "https://i.ytimg.com/vi/cYMtrxN-BkM/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "LNGSHOT - 'Up & Away' Official Audio",
+   "date": "2026-11-10",
+   "published": "2026-11-10T09:01:51Z",
+   "url": "https://www.youtube.com/watch?v=URN8b_uSNYU",
+   "image": "https://i.ytimg.com/vi/URN8b_uSNYU/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "LNGSHOT - 'Wanna Go' Official Audio",
+   "date": "2026-11-10",
+   "published": "2026-11-10T09:01:41Z",
+   "url": "https://www.youtube.com/watch?v=ongNmY8Wsz8",
+   "image": "https://i.ytimg.com/vi/ongNmY8Wsz8/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -263,30 +290,12 @@
   },
   {
    "type": "video",
-   "group": "lngshot",
-   "title": "저기.. 내일 바나나 팔아요? Ok Ok👌 #LNGSHOT #Bananas #SWISH",
-   "date": "2026-11-06",
-   "published": "2026-11-06T09:00:16Z",
-   "url": "https://www.youtube.com/watch?v=oXEI_u8A3I8",
-   "image": "https://i.ytimg.com/vi/oXEI_u8A3I8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "bts",
    "title": "BTS WORLD TOUR 'ARIRANG' LIVE VIEWING FROM KAOHSIUNG & JAKARTA - Official Trailer",
    "date": "2026-11-05",
    "published": "2026-11-05T13:00:01Z",
    "url": "https://www.youtube.com/watch?v=xzTFYPnoum8",
    "image": "https://i.ytimg.com/vi/xzTFYPnoum8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "‘S.W.I.S.H.’ EPISODE 2",
-   "date": "2026-11-05",
-   "published": "2026-11-05T11:00:03Z",
-   "url": "https://www.youtube.com/watch?v=_7DCtMb8nY8",
-   "image": "https://i.ytimg.com/vi/_7DCtMb8nY8/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -332,15 +341,6 @@
    "published": "2026-10-29T03:00:22Z",
    "url": "https://www.youtube.com/watch?v=NRbA6pSuZV0",
    "image": "https://i.ytimg.com/vi/NRbA6pSuZV0/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "LNGSHOT EP [S.W.I.S.H.] Highlight Medley",
-   "date": "2026-10-28",
-   "published": "2026-10-28T15:00:03Z",
-   "url": "https://www.youtube.com/watch?v=7eWA-YKZoL8",
-   "image": "https://i.ytimg.com/vi/7eWA-YKZoL8/hqdefault.jpg"
   },
   {
    "type": "music",

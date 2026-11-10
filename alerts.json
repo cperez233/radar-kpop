@@ -1,6 +1,39 @@
 {
- "updated_at": "2026-11-10T09:01:44Z",
+ "updated_at": "2026-11-10T09:15:55Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "LNGSHOT - 'Beep Beep' Official Audio (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "LNGSHOT - 'Beep Beep' Official Audio (YouTube)",
+   "when": "2026-11-10T09:02:02Z",
+   "url": "https://www.youtube.com/watch?v=cYMtrxN-BkM"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "LNGSHOT - 'Up & Away' Official Audio (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "LNGSHOT - 'Up & Away' Official Audio (YouTube)",
+   "when": "2026-11-10T09:01:51Z",
+   "url": "https://www.youtube.com/watch?v=URN8b_uSNYU"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "LNGSHOT - 'Wanna Go' Official Audio (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "LNGSHOT - 'Wanna Go' Official Audio (YouTube)",
+   "when": "2026-11-10T09:01:41Z",
+   "url": "https://www.youtube.com/watch?v=ongNmY8Wsz8"
+  },
   {
    "type": "comeback",
    "group": "skz",
@@ -699,39 +732,6 @@
    "src_lang": "es",
    "body_orig": "BTS podría añadir más fechas a su tour - Diario del Cauca (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "birthday",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "🎂 Hoy cumple Momo (TWICE)",
-   "body": "Cumple 30 años. ¡생일 축하해, Momo!",
-   "title_en": "🎂 It's Momo's birthday (TWICE)",
-   "body_en": "Turning 30. Happy birthday, Momo! 생일 축하해!",
-   "when": "2026-11-08T15:00:59Z",
-   "url": null
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "To YOU, From JUNGWON (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "To YOU, From JUNGWON (YouTube)",
-   "when": "2026-11-08T13:59:37Z",
-   "url": "https://www.youtube.com/watch?v=JmCV1K5YGfw"
-  },
-  {
-   "type": "next_stop",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids sigue a Hong Kong",
-   "body": "Cerró en Tokio. Siguiente parada: Hong Kong, China (5 dic), a unos 2.884 km.",
-   "title_en": "Stray Kids moves on to Hong Kong",
-   "body_en": "Wrapped up in Tokyo. Next stop: Hong Kong, China (Dec 5), about 2,884 km away.",
-   "when": "2026-11-08T13:01:02Z",
-   "url": null
   }
  ]
 }
