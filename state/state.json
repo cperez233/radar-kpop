@@ -1484,7 +1484,11 @@
   "official:cortis:comeback:2026-11-10|feed": "2026-11-10T01:01:13Z",
   "official:cortis:comeback:2026-11-10|ntfy": "2026-11-10T01:01:13Z",
   "official:cortis:comeback:2026-11-10|pub:radarkpop-cortis-music": "2026-11-10T01:01:13Z",
-  "official:cortis:comeback:2026-11-10|foro": "2026-11-10T01:01:13Z"
+  "official:cortis:comeback:2026-11-10|foro": "2026-11-10T01:01:13Z",
+  "news:77174eb9bc924048|feed": "2026-11-10T02:46:07Z",
+  "news:77174eb9bc924048|ntfy": "2026-11-10T02:46:07Z",
+  "news:77174eb9bc924048|pub:radarkpop-skz-news": "2026-11-10T02:46:07Z",
+  "news:77174eb9bc924048|foro": "2026-11-10T02:46:07Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3557,6 +3561,18 @@
     "yakarta"
    ],
    "t": "2026-11-10T01:01:04Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "actual",
+    "anade",
+    "fechas",
+    "gira",
+    "mundial",
+    "otras"
+   ],
+   "t": "2026-11-10T02:46:01Z"
   }
  ],
  "discord_threads": {

@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-10T01:01:04Z",
+ "updated_at": "2026-11-10T02:46:01Z",
  "alerts": [
+  {
+   "type": "tour",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Gira: Stray Kids",
+   "body": "Stray Kids añade otras 25 fechas a su gira mundial actual - Agencia de Noticias Yonhap (Google Noticias)",
+   "title_en": "Tour: Stray Kids",
+   "body_en": "Stray Kids add another 25 dates to current world tour - Yonhap News Agency (Google News)",
+   "when": "2026-11-10T02:26:50Z",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOREw4QXppTG1HSVd2MlBqdXN6ZjFHbUt0ZF8xamNtdGsxSU16bXE4WDIzaU1xeUJpTEtkakpCTkkyUWszMG9wLVJDQ2dmbjU1emlTaUpsdUVPdGJLZG1iNHhIMmRnV1d6NFFna3lzM3VRRzh5bkVLVDVkUVlTeUM0UA?oc=5",
+   "src_lang": "es",
+   "body_orig": "Stray Kids añade otras 25 fechas a su gira mundial actual - Agencia de Noticias Yonhap (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "official",
    "group": "cortis",
@@ -712,17 +726,6 @@
    "body_en": "☂️☃️ #JUNGWON #ENHYPEN (YouTube)",
    "when": "2026-11-08T08:02:49Z",
    "url": "https://www.youtube.com/watch?v=ot-ayOG4oDc"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "꿀멍즈 코어 #StrayKids #스트레이키즈 #창빈 #Changbin #승민 #Seungmin #YouMakeStrayKidsStay (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "꿀멍즈 코어 #StrayKids #스트레이키즈 #창빈 #Changbin #승민 #Seungmin #YouMakeStrayKidsStay (YouTube)",
-   "when": "2026-11-08T06:00:04Z",
-   "url": "https://www.youtube.com/watch?v=TfixaYSUSNY"
   }
  ]
 }
