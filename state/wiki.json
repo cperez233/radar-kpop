@@ -45,30 +45,12 @@
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-03T19:15:48Z",
- "last_run": "2026-11-10T08:45:18Z",
+ "last_run": "2026-11-10T11:00:21Z",
  "pages": {
   "Arirang World Tour": {
-   "fetched": "2026-11-08T05:45:17Z",
-   "revid": 1384418615,
+   "fetched": "2026-11-10T11:00:21Z",
+   "revid": 1384850844,
    "rows": [
-    {
-     "cancelled": false,
-     "city": "Lima",
-     "city_link": "Lima",
-     "country": "Peru",
-     "date": "2026-10-09",
-     "venue": "Estadio San Marcos",
-     "venue_link": "Estadio San Marcos"
-    },
-    {
-     "cancelled": false,
-     "city": "Lima",
-     "city_link": "Lima",
-     "country": "Peru",
-     "date": "2026-10-10",
-     "venue": "Estadio San Marcos",
-     "venue_link": "Estadio San Marcos"
-    },
     {
      "cancelled": false,
      "city": "Santiago",
@@ -416,8 +398,8 @@
    "title": "List of NewJeans live performances"
   },
   "Lngshot": {
-   "fetched": "2026-11-09T17:45:16Z",
-   "revid": 1384694175,
+   "fetched": "2026-11-10T11:00:21Z",
+   "revid": 1384842374,
    "rows": [],
    "title": "Lngshot"
   },
