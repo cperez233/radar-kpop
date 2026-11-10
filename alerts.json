@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09T17:46:04Z",
+ "updated_at": "2026-11-10T00:01:18Z",
  "alerts": [
   {
    "type": "new_date",
@@ -447,6 +447,20 @@
    "auto": true
   },
   {
+   "type": "official",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Anuncio oficial de Stray Kids: gira",
+   "body": "«Stray Kids(스트레이 키즈) Gira mundial <RUN IT NORTH AMERICA> Boleto abierto (hora local) Preventa de membresía STAY | 2026.11.18 (MIÉ) 11AM - 2PM Artista Pres...» (Stray Kids en X).",
+   "title_en": "Official Stray Kids news: tour",
+   "body_en": "«Stray Kids(스트레이 키즈) World Tour <RUN IT NORTH AMERICA> Ticket Open (Local Time) STAY Membership Presale | 2026.11.18 (WED) 11AM - 2PM Artist Pres...» (Stray Kids en X).",
+   "when": "2026-11-09T13:00:21Z",
+   "url": "https://x.com/Stray_Kids/status/2119777110122512789",
+   "src_lang": "en",
+   "body_orig": "«Stray Kids(스트레이 키즈) World Tour <RUN IT NORTH AMERICA> Ticket Open (Local Time) STAY Membership Presale | 2026.11.18 (WED) 11AM - 2PM Artist Pres...» (Stray Kids en X).",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "ateez",
    "group_name": "ATEEZ",
@@ -512,6 +526,20 @@
   },
   {
    "type": "official",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Anuncio oficial de LNGSHOT: comeback",
+   "body": "«[AVISO] LNGSHOT EP [S.W.I.S.H.] Aviso integrado de transmisión pública https://weverse.io/lngshot/notice/40865 #LNGSHOT #SWISH #MOREVISION» (LNGSHOT en X).",
+   "title_en": "Official LNGSHOT news: comeback",
+   "body_en": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] Public broadcast integrated notice https://weverse.io/lngshot/notice/40865 #LNGSHOT #SWISH #MOREVISION» (LNGSHOT en X).",
+   "when": "2026-11-09T09:31:13Z",
+   "url": "https://x.com/LNGSHOT4sho/status/2119724480310423941",
+   "src_lang": "ko",
+   "body_orig": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] 공개방송 통합공지 안내 https://weverse.io/lngshot/notice/40865 #LNGSHOT #SWISH #MOREVISION» (LNGSHOT en X).",
+   "auto": true
+  },
+  {
+   "type": "official",
    "group": "seventeen",
    "group_name": "SEVENTEEN",
    "title": "Anuncio oficial de SEVENTEEN: gira",
@@ -522,6 +550,20 @@
    "url": "https://x.com/pledis_17/status/2119671334149984361",
    "src_lang": "ko",
    "body_orig": "«[NOTICE] JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - TAIPEI 공연 예매 안내 (+ENG/JPN/CHN) ▶️ https://weverse.io/seventeen/notice/40396 #JxJ #정한X조...» (SEVENTEEN en X).",
+   "auto": true
+  },
+  {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: comeback",
+   "body": "«[MINITEEN] NIEVE con MINITEEN | ¿Listo para la nieve? ❄️ ▶️ ​​https://youtu.be/3P-rNhrrLLc #SEVENTEEN #세븐틴 #MINITEEN #미니틴» (SEVENTEEN en X).",
+   "title_en": "Official SEVENTEEN news: comeback",
+   "body_en": "«[MINITEEN] SNOW with MINITEEN | Ready for the Snow? ❄️ ▶️ https://youtu.be/3P-rNhrrLLc #SEVENTEEN #세븐틴 #MINITEEN #미니틴» (SEVENTEEN en X).",
+   "when": "2026-11-09T05:00:14Z",
+   "url": "https://x.com/pledis_17/status/2119656285432062146",
+   "src_lang": "en",
+   "body_orig": "«[MINITEEN] SNOW with MINITEEN | Ready for the Snow? ❄️ ▶️ https://youtu.be/3P-rNhrrLLc #SEVENTEEN #세븐틴 #MINITEEN #미니틴» (SEVENTEEN en X).",
    "auto": true
   },
   {
@@ -678,45 +720,6 @@
    "body_en": "i'm all gone fr #CORTIS #코르티스 (YouTube)",
    "when": "2026-11-08T04:00:35Z",
    "url": "https://www.youtube.com/watch?v=-4QnrDCxyZQ"
-  },
-  {
-   "type": "tour",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Gira: ENHYPEN",
-   "body": "Enhypen World Tour 'Blood Saga' (2026) - IMDb (Google Noticias)",
-   "title_en": "Tour: ENHYPEN",
-   "body_en": "Enhypen World Tour 'Blood Saga' (2026) - IMDb (Google Noticias)",
-   "when": "2026-11-07T14:17:45Z",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTWxITmtpNDRCbmVzTjdLNjA0OENNcXNVOVBKbml4dl9ZQjdIZk83UkV6RGV5LWtDS1pCZW1jdTdERDNud1gwWVg3MFY4Z21XZUVLbWwzWVdCcEJsLXRJdTR5MHBMNGJIX201aDV3Q0E3SlItSkR3TkN4RjkzM2RhV21GVXNOT0dwNnc?oc=5",
-   "src_lang": "en",
-   "body_orig": "Enhypen World Tour 'Blood Saga' (2026) - IMDb (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "To YOU, From JAY (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "To YOU, From JAY (YouTube)",
-   "when": "2026-11-07T14:00:03Z",
-   "url": "https://www.youtube.com/watch?v=08X4INdjc80"
-  },
-  {
-   "type": "official",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Anuncio oficial de TWICE: comeback",
-   "body": "«NAYEON ÚNICO SUJETO “NA-sty” NO ENCONTRADO. 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KST/0AM ET #TWICE...» (TWICE en X).",
-   "title_en": "Official TWICE news: comeback",
-   "body_en": "«NAYEON SINGLE “NA-sty” SUBJECT NOT FOUND. 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE ...» (TWICE en X).",
-   "when": "2026-11-07T13:00:07Z",
-   "url": "https://x.com/JYPETWICE/status/2119052275691962731",
-   "src_lang": "en",
-   "body_orig": "«NAYEON SINGLE “NA-sty” SUBJECT NOT FOUND. 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE ...» (TWICE en X).",
-   "auto": true
   }
  ]
 }
