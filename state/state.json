@@ -2546,7 +2546,6 @@
   }
  },
  "news_seen": [
-  "7cdd1f92b2d74a40",
   "7cdeb99755e9553d",
   "7d0ceec949afc7e8",
   "7d15e9f1f39db1a3",
@@ -3261,6 +3260,7 @@
   "ef5b4ad702a7ab39",
   "ef8a04922b8cb598",
   "eff6ab4f2e056ba2",
+  "eff7879ec26312c3",
   "f057dc4a6d9a8423",
   "f06245cea062042d",
   "f08bbb6cf41c9db0",
@@ -3348,20 +3348,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "asia",
-    "cierra",
-    "cines",
-    "fechas",
-    "gira",
-    "llegara",
-    "mexico",
-    "preventa"
-   ],
-   "t": "2026-11-08T01:15:57Z"
-  },
   {
    "g": "bts",
    "w": [
