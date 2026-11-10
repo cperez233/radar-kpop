@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10T14:00:38Z",
+ "updated_at": "2026-11-10T14:30:39Z",
  "sample": false,
  "items": [
   {
@@ -120,6 +120,15 @@
   {
    "type": "video",
    "group": "lngshot",
+   "title": "Ok @SpotifyKR  CLOSER, this my shhh👌☝️👇 #LNGSHOT #Bananas #SWISH",
+   "date": "2026-11-10",
+   "published": "2026-11-10T14:30:29Z",
+   "url": "https://www.youtube.com/watch?v=fgzsWCavfFY",
+   "image": "https://i.ytimg.com/vi/fgzsWCavfFY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
    "title": "LNGSHOT - 'Beep Beep' Official Audio",
    "date": "2026-11-10",
    "published": "2026-11-10T09:02:02Z",
@@ -134,15 +143,6 @@
    "published": "2026-11-10T09:01:51Z",
    "url": "https://www.youtube.com/watch?v=URN8b_uSNYU",
    "image": "https://i.ytimg.com/vi/URN8b_uSNYU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "LNGSHOT - 'Wanna Go' Official Audio",
-   "date": "2026-11-10",
-   "published": "2026-11-10T09:01:41Z",
-   "url": "https://www.youtube.com/watch?v=ongNmY8Wsz8",
-   "image": "https://i.ytimg.com/vi/ongNmY8Wsz8/hqdefault.jpg"
   },
   {
    "type": "video",
