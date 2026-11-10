@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10T13:00:48Z",
+ "updated_at": "2026-11-10T14:00:38Z",
  "sample": false,
  "items": [
   {
@@ -174,6 +174,15 @@
   {
    "type": "video",
    "group": "enhypen",
+   "title": "To YOU, From SUNOO",
+   "date": "2026-11-10",
+   "published": "2026-11-10T14:00:01Z",
+   "url": "https://www.youtube.com/watch?v=v7f2hO1Jo2U",
+   "image": "https://i.ytimg.com/vi/v7f2hO1Jo2U/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
    "title": "느끼 쫑냥이😼 #JAY #ENHYPEN",
    "date": "2026-11-10",
    "published": "2026-11-10T10:15:11Z",
@@ -233,15 +242,6 @@
    "published": "2026-11-08T06:00:04Z",
    "url": "https://www.youtube.com/watch?v=TfixaYSUSNY",
    "image": "https://i.ytimg.com/vi/TfixaYSUSNY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "To YOU, From JUNGWON",
-   "date": "2026-11-08",
-   "published": "2026-11-08T13:59:37Z",
-   "url": "https://www.youtube.com/watch?v=JmCV1K5YGfw",
-   "image": "https://i.ytimg.com/vi/JmCV1K5YGfw/hqdefault.jpg"
   },
   {
    "type": "video",

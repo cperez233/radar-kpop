@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-10T13:15:55Z",
+ "updated_at": "2026-11-10T14:01:02Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "To YOU, From SUNOO (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "To YOU, From SUNOO (YouTube)",
+   "when": "2026-11-10T14:00:01Z",
+   "url": "https://www.youtube.com/watch?v=v7f2hO1Jo2U"
+  },
   {
    "type": "video",
    "group": "seventeen",
@@ -709,17 +720,6 @@
    "src_lang": "es",
    "body_orig": "Cierra BTS su gira en los cines - Tabasco HOY (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "ATEEZ(에이티즈) - YUNHO in DIESEL SS27 FASHION SHOW (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "ATEEZ(에이티즈) - YUNHO in DIESEL SS27 FASHION SHOW (YouTube)",
-   "when": "2026-11-09T10:00:04Z",
-   "url": "https://www.youtube.com/watch?v=aRxqWyAe9lA"
   }
  ]
 }
