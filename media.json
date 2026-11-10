@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10T12:00:39Z",
+ "updated_at": "2026-11-10T13:00:48Z",
  "sample": false,
  "items": [
   {
@@ -147,6 +147,15 @@
   {
    "type": "video",
    "group": "seventeen",
+   "title": "[SVT Record] 과니차니 어디 가니 | 형들 와줘서 고마워🩷🩵 | 금방 다녀오겠습니다🫡 #31",
+   "date": "2026-11-10",
+   "published": "2026-11-10T13:00:05Z",
+   "url": "https://www.youtube.com/watch?v=sDyRCZnhDE8",
+   "image": "https://i.ytimg.com/vi/sDyRCZnhDE8/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
    "title": "I need your love📱 #JxJ #정한X조슈아 #DREAMSCAPE #컬러링 #Coloring",
    "date": "2026-11-10",
    "published": "2026-11-10T10:00:17Z",
@@ -188,15 +197,6 @@
    "published": "2026-11-10T10:00:30Z",
    "url": "https://www.youtube.com/watch?v=GbxB01vJ3Ng",
    "image": "https://i.ytimg.com/vi/GbxB01vJ3Ng/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "BOO Right Back Coming Soon",
-   "date": "2026-11-09",
-   "published": "2026-11-09T13:16:12Z",
-   "url": "https://www.youtube.com/watch?v=v8IcFO44nAA",
-   "image": "https://i.ytimg.com/vi/v8IcFO44nAA/hqdefault.jpg"
   },
   {
    "type": "video",

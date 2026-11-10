@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-10T12:15:56Z",
+ "updated_at": "2026-11-10T13:01:22Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "[SVT Record] 과니차니 어디 가니 | 형들 와줘서 고마워🩷🩵 | 금방 다녀오겠습니다🫡 #31 (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "[SVT Record] 과니차니 어디 가니 | 형들 와줘서 고마워🩷🩵 | 금방 다녀오겠습니다🫡 #31 (YouTube)",
+   "when": "2026-11-10T13:00:05Z",
+   "url": "https://www.youtube.com/watch?v=sDyRCZnhDE8"
+  },
   {
    "type": "official",
    "group": "cortis",
@@ -708,20 +719,6 @@
    "url": "https://www.koreaboo.com/news/twice-nayeons-new-album-features-artist-rumored-fellow-members-ex-situationship/",
    "src_lang": "en",
    "body_orig": "Writer On TWICE Nayeon’s New Album Speculated To Be Fellow Member’s “Ex Situationship” (Koreaboo)",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«[AVISO] LNGSHOT EP [S.W.I.S.H.] Aviso integrado de transmisión pública https://weverse.io/lngshot/notice/40865 #LNGSHOT #SWISH #MOREVISION» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] Public broadcast integrated notice https://weverse.io/lngshot/notice/40865 #LNGSHOT #SWISH #MOREVISION» (LNGSHOT en X).",
-   "when": "2026-11-09T09:31:13Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2119724480310423941",
-   "src_lang": "ko",
-   "body_orig": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] 공개방송 통합공지 안내 https://weverse.io/lngshot/notice/40865 #LNGSHOT #SWISH #MOREVISION» (LNGSHOT en X).",
    "auto": true
   }
  ]
