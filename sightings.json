@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-11-11T07:30:35Z",
+  "updated_at": "2026-11-11T14:00:40Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "x-2120516899251626442",
+      "group": "ateez",
+      "group_name": "ATEEZ",
+      "city": "Río de Janeiro",
+      "country": "Brasil",
+      "lat": -22.9068,
+      "lon": -43.1729,
+      "text": "[🗺️] ATEEZ’s message in bottle has washed ashore in Brazil! ATINYs do Brasil, deem o próximo passo e vão em busca do tesouro! Museu do Amanhã, Rio de Janeiro 11.11 às 14h Are you ready for UP?",
+      "url": "https://x.com/ATEEZofficial/status/2120516899251626442",
+      "account": "ATEEZofficial",
+      "when": "2026-11-11T14:00:00Z"
+    },
     {
       "id": "x-2120418750281212017",
       "group": "ateez",
