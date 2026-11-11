@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T10:15:35Z",
+ "updated_at": "2026-11-11T11:00:40Z",
  "sample": false,
  "items": [
   {
@@ -81,6 +81,15 @@
   {
    "type": "video",
    "group": "skz",
+   "title": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.05 BUENOS AIRES",
+   "date": "2026-11-11",
+   "published": "2026-11-11T10:59:56Z",
+   "url": "https://www.youtube.com/watch?v=xQsgLrkVpLE",
+   "image": "https://i.ytimg.com/vi/xQsgLrkVpLE/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "skz",
    "title": "형이 제 키 가져갔죠? #StrayKids #스트레이키즈 #창빈 #Changbin #현진 #Hyunjin #YouMakeStrayKidsStay",
    "date": "2026-11-11",
    "published": "2026-11-11T10:00:25Z",
@@ -113,6 +122,15 @@
    "published": "2026-11-11T05:30:21Z",
    "url": "https://www.youtube.com/watch?v=Tu4GGnAvQQs",
    "image": "https://i.ytimg.com/vi/Tu4GGnAvQQs/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "정한X조슈아 (SEVENTEEN) - One plus one @JOURNEY INTO [DREAMING] in INCHEON",
+   "date": "2026-11-11",
+   "published": "2026-11-11T10:59:56Z",
+   "url": "https://www.youtube.com/watch?v=ttCHjgJRAWY",
+   "image": "https://i.ytimg.com/vi/ttCHjgJRAWY/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -209,15 +227,6 @@
   },
   {
    "type": "video",
-   "group": "seventeen",
-   "title": "[MINITEEN] SNOW with MINITEEN | Little Snow Friend ❄️",
-   "date": "2026-11-10",
-   "published": "2026-11-10T05:00:02Z",
-   "url": "https://www.youtube.com/watch?v=dIolrmEUAKI",
-   "image": "https://i.ytimg.com/vi/dIolrmEUAKI/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "enhypen",
    "title": "To YOU, From SUNOO",
    "date": "2026-11-10",
@@ -305,15 +314,6 @@
    "published": "2026-11-07T12:59:59Z",
    "url": "https://www.youtube.com/watch?v=cS6F7PMKCO4",
    "image": "https://i.ytimg.com/vi/cS6F7PMKCO4/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "타쿠타쿠 챠오 (՞• ̫ •՞) #StrayKids #스트레이키즈 #YouMakeStrayKidsStay",
-   "date": "2026-11-07",
-   "published": "2026-11-07T06:00:08Z",
-   "url": "https://www.youtube.com/watch?v=vGg-TH2by2w",
-   "image": "https://i.ytimg.com/vi/vGg-TH2by2w/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -541,7 +541,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-11T07",
+   "ytm_try": "2026-11-11T11",
    "sp_try": "2026-11-11"
   },
   {
@@ -1297,7 +1297,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-11T07"
+   "ytm_try": "2026-11-11T11"
   },
   {
    "type": "music",
