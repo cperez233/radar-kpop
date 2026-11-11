@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-11T05:31:44Z",
+ "updated_at": "2026-11-11T06:01:03Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "Who can see the BABY ANGEL🙋‍♀️ #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "Who can see the BABY ANGEL🙋‍♀️ #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "when": "2026-11-11T06:00:19Z",
+   "url": "https://www.youtube.com/watch?v=oJrKKBG_H2U"
+  },
   {
    "type": "video",
    "group": "twice",
@@ -708,20 +719,6 @@
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVmc4cUJ1SzdjZ3dla1U2VXhGam5PTzdPd0xDUldHTk9UVG1OYnBac1V1UUp5Vy1HaElQdzFLcjlwaEw1SGJkU2h3TVBCbHp0dDlGTkdoQnRXV0RRTUhoQ0o4NkJrY0gzSGZUbTB6QVltMldGWXcwODBqVzRRU1AxYzhRNUFFNkpsOTAyLV9QWQ?oc=5",
    "src_lang": "es",
    "body_orig": "Stray Kids anuncian gira mundial ‘RUN IT’ en 2027 - Barnafotopress (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Gira: Stray Kids",
-   "body": "Stray Kids anuncian un concierto en Barcelona en 2027 con sus hits de Kpop - La Ganzua (Google Noticias)",
-   "title_en": "Tour: Stray Kids",
-   "body_en": "Stray Kids announce a concert in Barcelona in 2027 with their Kpop hits - La Ganzua (Google News)",
-   "when": "2026-11-09T15:14:00Z",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObmNPWVBUaGM2VVF1VHFoZ0ZiS2Q2ZmFNOVROcTJnMjA4a0FNeGZSekw5Y1IyNzNfUEJqRURlRUtzUnBsWG5FdkthQ3AxSDFIRVdDU0RKcGQ1V3V6ZlNsVmRwdE96YVJQVF8xWnlOcHpleEdib3Bib0t2V1hrUU83bFE3QlczREhKcU9WQUFVN2RwamxQV054aUp0QXVhMnJnMUlqS2NuQnhhZmFnaHJCcENYSjk?oc=5",
-   "src_lang": "es",
-   "body_orig": "Stray Kids anuncian un concierto en Barcelona en 2027 con sus hits de Kpop - La Ganzua (Google Noticias)",
    "auto": true
   }
  ]

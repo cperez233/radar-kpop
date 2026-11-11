@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T05:30:37Z",
+ "updated_at": "2026-11-11T06:00:39Z",
  "sample": false,
  "items": [
   {
@@ -77,6 +77,15 @@
     }
    ],
    "sp_try": "2026-11-11"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "Who can see the BABY ANGEL🙋‍♀️ #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-11",
+   "published": "2026-11-11T06:00:19Z",
+   "url": "https://www.youtube.com/watch?v=oJrKKBG_H2U",
+   "image": "https://i.ytimg.com/vi/oJrKKBG_H2U/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -323,15 +332,6 @@
    "published": "2026-11-04T11:00:04Z",
    "url": "https://www.youtube.com/watch?v=cfxxSsojp6A",
    "image": "https://i.ytimg.com/vi/cfxxSsojp6A/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "트둥의 숲 TDOONG's crossing EP.03 Highlight #2 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
-   "date": "2026-11-03",
-   "published": "2026-11-03T09:31:38Z",
-   "url": "https://www.youtube.com/watch?v=zMPXdQkzEcY",
-   "image": "https://i.ytimg.com/vi/zMPXdQkzEcY/hqdefault.jpg"
   },
   {
    "type": "video",
