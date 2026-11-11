@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T16:00:44Z",
+ "updated_at": "2026-11-11T16:15:37Z",
  "sample": false,
  "items": [
   {
@@ -126,6 +126,15 @@
   {
    "type": "video",
    "group": "lngshot",
+   "title": "LNGSHOT 'Bananas' 응원법",
+   "date": "2026-11-11",
+   "published": "2026-11-11T16:13:00Z",
+   "url": "https://www.youtube.com/watch?v=gfFuiaQjsYQ",
+   "image": "https://i.ytimg.com/vi/gfFuiaQjsYQ/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
    "title": "Go #Bananas 할 사람 구함👌☝️👇 #LNGSHOT #SWISH",
    "date": "2026-11-11",
    "published": "2026-11-11T13:00:02Z",
@@ -206,15 +215,6 @@
    "published": "2026-11-10T14:30:29Z",
    "url": "https://www.youtube.com/watch?v=fgzsWCavfFY",
    "image": "https://i.ytimg.com/vi/fgzsWCavfFY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "LNGSHOT - 'Beep Beep' Official Audio",
-   "date": "2026-11-10",
-   "published": "2026-11-10T09:02:02Z",
-   "url": "https://www.youtube.com/watch?v=cYMtrxN-BkM",
-   "image": "https://i.ytimg.com/vi/cYMtrxN-BkM/hqdefault.jpg"
   },
   {
    "type": "video",

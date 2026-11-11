@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-11T15:45:58Z",
+ "updated_at": "2026-11-11T16:16:04Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "LNGSHOT 'Bananas' 응원법 (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "LNGSHOT 'Bananas' 응원법 (YouTube)",
+   "when": "2026-11-11T16:13:00Z",
+   "url": "https://www.youtube.com/watch?v=gfFuiaQjsYQ"
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -704,17 +715,6 @@
    "body": "17 jul 2027 en Allianz Arena, Alemania. Salió de un anuncio; la hora y los detalles están por confirmar.",
    "title_en": "Stray Kids added dates in Munich (to be confirmed)",
    "body_en": "Jul 17, 2027 at Allianz Arena, Germany.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Viena (por confirmar)",
-   "body": "21 jul 2027 en Ernst-Happel-Stadion, Austria. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Vienna (to be confirmed)",
-   "body_en": "Jul 21, 2027 at Ernst-Happel-Stadion, Austria.",
    "when": "2026-11-09T17:46:04Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   }
