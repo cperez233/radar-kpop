@@ -1,7 +1,14 @@
 {
- "updated_at": "2026-11-11T05:15:49Z",
+ "updated_at": "2026-11-11T08:00:57Z",
  "groups": {
   "lngshot": [
+   {
+    "title": "[NOTICE] LNGSHOT 261113 KBS2 뮤직뱅크 참여 안내 (사전녹화)",
+    "url": "https://weverse.io/lngshot/notice/40931",
+    "post": "https://x.com/LNGSHOT4sho/status/2120426454869823756",
+    "when": "2026-11-11T08:00:37Z",
+    "weverse": true
+   },
    {
     "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (조은뮤직)",
     "url": "https://weverse.io/lngshot/notice/40919",
@@ -35,13 +42,6 @@
     "url": "https://weverse.io/lngshot/notice/40865",
     "post": "https://x.com/LNGSHOT4sho/status/2119724480310423941",
     "when": "2026-11-09T09:31:13Z",
-    "weverse": true
-   },
-   {
-    "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (미니레코드)",
-    "url": "https://weverse.io/lngshot/notice/40601",
-    "post": "https://x.com/LNGSHOT4sho/status/2117137620530860418",
-    "when": "2026-11-02T06:11:57Z",
     "weverse": true
    }
   ],
