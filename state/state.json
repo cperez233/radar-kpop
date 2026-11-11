@@ -1564,7 +1564,11 @@
   "news:5d648a0772145b0c|ntfy": "2026-11-11T03:16:11Z",
   "news:5d648a0772145b0c|pub:radarkpop-skz-news": "2026-11-11T03:16:11Z",
   "news:5d648a0772145b0c|foro": "2026-11-11T03:16:11Z",
-  "news:7cc3129c07a98acf|feed": "2026-11-11T04:01:19Z"
+  "news:7cc3129c07a98acf|feed": "2026-11-11T04:01:19Z",
+  "news:708746b885cf0547|feed": "2026-11-11T04:31:52Z",
+  "news:708746b885cf0547|ntfy": "2026-11-11T04:31:52Z",
+  "news:708746b885cf0547|pub:radarkpop-twice-news": "2026-11-11T04:31:52Z",
+  "news:708746b885cf0547|foro": "2026-11-11T04:31:52Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3715,6 +3719,20 @@
     "vendra"
    ],
    "t": "2026-11-11T03:16:05Z"
+  },
+  {
+   "g": "twice",
+   "w": [
+    "comeback",
+    "detalles",
+    "era",
+    "esperado",
+    "nayeon",
+    "nueva",
+    "pop",
+    "revela"
+   ],
+   "t": "2026-11-11T04:31:46Z"
   }
  ],
  "discord_threads": {
