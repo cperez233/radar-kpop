@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-11T11:31:46Z",
+ "updated_at": "2026-11-11T13:01:01Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "Go #Bananas 할 사람 구함👌☝️👇 #LNGSHOT #SWISH (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "Go #Bananas 할 사람 구함👌☝️👇 #LNGSHOT #SWISH (YouTube)",
+   "when": "2026-11-11T13:00:02Z",
+   "url": "https://www.youtube.com/watch?v=CnNArL_Of6c"
+  },
   {
    "type": "video",
    "group": "skz",
@@ -701,17 +712,6 @@
    "body": "24 jul 2027 en Estadi Olímpic Lluís Companys, España. Salió de un anuncio; la hora y los detalles están por confirmar.",
    "title_en": "Stray Kids added dates in Barcelona (to be confirmed)",
    "body_en": "Jul 24, 2027 at Estadi Olímpic Lluís Companys, Spain.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Arnhem (por confirmar)",
-   "body": "27 jul 2027 en GelreDome, Países Bajos. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Arnhem (to be confirmed)",
-   "body_en": "Jul 27, 2027 at GelreDome, Netherlands.",
    "when": "2026-11-09T17:46:04Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   }
