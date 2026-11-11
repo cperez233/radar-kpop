@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-11-10T07:30:36Z",
+  "updated_at": "2026-11-11T07:30:35Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "x-2120418750281212017",
+      "group": "ateez",
+      "group_name": "ATEEZ",
+      "city": "Bangkok",
+      "country": "Tailandia",
+      "lat": 13.7563,
+      "lon": 100.5018,
+      "text": "[🗺️] Carried to Thailand by the currents! ข้อความในขวดจาก ATEEZ ลอยขึ่นฝั่งมาถึง ATINY ไทยแล้ว Asiatique The Riverfront, Bangkok 11.11 6PM ICT Next - ??",
+      "url": "https://x.com/ATEEZofficial/status/2120418750281212017",
+      "account": "ATEEZofficial",
+      "when": "2026-11-11T07:30:00Z"
+    },
     {
       "id": "x-2120053846407774271",
       "group": "lngshot",
