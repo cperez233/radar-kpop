@@ -1582,7 +1582,11 @@
   "news:64c1fdd8775cd1e2|ntfy": "2026-11-11T15:46:04Z",
   "news:64c1fdd8775cd1e2|pub:radarkpop-skz-news": "2026-11-11T15:46:04Z",
   "news:64c1fdd8775cd1e2|foro": "2026-11-11T15:46:04Z",
-  "news:fce6a6e3e0113e5f|feed": "2026-11-11T16:16:11Z"
+  "news:fce6a6e3e0113e5f|feed": "2026-11-11T16:16:11Z",
+  "news:2382bbdbcd2146ca|feed": "2026-11-11T20:16:16Z",
+  "news:2382bbdbcd2146ca|ntfy": "2026-11-11T20:16:16Z",
+  "news:2382bbdbcd2146ca|pub:radarkpop-skz-news": "2026-11-11T20:16:16Z",
+  "news:2382bbdbcd2146ca|foro": "2026-11-11T20:16:16Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3723,6 +3727,19 @@
     "venta"
    ],
    "t": "2026-11-11T15:45:58Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "bien",
+    "concierto",
+    "dome",
+    "hemos",
+    "terminado",
+    "tokyo",
+    "video"
+   ],
+   "t": "2026-11-11T20:16:09Z"
   }
  ],
  "discord_threads": {
