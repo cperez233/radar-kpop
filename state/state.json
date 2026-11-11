@@ -3445,29 +3445,6 @@
    "g": "skz",
    "w": [
     "2027",
-    "anuncia",
-    "grupo",
-    "paris",
-    "pop",
-    "regreso"
-   ],
-   "t": "2026-11-09T14:15:56Z"
-  },
-  {
-   "g": "skz",
-   "w": [
-    "2027",
-    "barcelona",
-    "concierto",
-    "entradas",
-    "julio"
-   ],
-   "t": "2026-11-09T14:15:56Z"
-  },
-  {
-   "g": "skz",
-   "w": [
-    "2027",
     "anuncian",
     "barcelona",
     "concierto",
@@ -3729,6 +3706,18 @@
     "world"
    ],
    "t": "2026-11-11T13:31:52Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "2027",
+    "anuncia",
+    "grupo",
+    "paris",
+    "pop",
+    "regreso"
+   ],
+   "t": "2026-11-11T14:15:58Z"
   }
  ],
  "discord_threads": {
