@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T07:31:12Z",
+ "updated_at": "2026-11-11T08:31:18Z",
  "groups": {
   "bts": {
    "x": [
@@ -1379,6 +1379,11 @@
   "lngshot": {
    "x": [
     {
+     "title": "[NOTICE] LNGSHOT 261113 KBS2 뮤직뱅크 참여 안내 (사전녹화) #LNGSHOT #SWISH",
+     "url": "https://x.com/LNGSHOT4sho/status/2120426454869823756",
+     "when": "2026-11-11T08:00:37Z"
+    },
+    {
      "title": "𝓢𝓱𝓮 𝓼𝓪𝓲𝓭 🗣️ #LNGSHOT #Bananas #SWISH",
      "url": "https://x.com/LNGSHOT4sho/status/2120396753891717287",
      "when": "2026-11-11T06:02:35Z"
@@ -1397,11 +1402,6 @@
      "title": "[NOTICE] LNGSHOT 261114 MBC 쇼! 음악중심 참여 안내 (사전녹화) #LNGSHOT #SWISH",
      "url": "https://x.com/LNGSHOT4sho/status/2120174242868432911",
      "when": "2026-11-10T15:18:25Z"
-    },
-    {
-     "title": "Ok @SpotifyKR CLOSER, this my shhh👌☝️👇 #LNGSHOT #Bananas #SWISH",
-     "url": "https://x.com/LNGSHOT4sho/status/2120162060428308658",
-     "when": "2026-11-10T14:30:00Z"
     }
    ],
    "members": {
@@ -2264,5 +2264,5 @@
   }
  },
  "ig_cursor": 2,
- "ig_pause_until": "2026-11-11T07:31:20Z"
+ "ig_pause_until": "2026-11-11T14:31:18Z"
 }
