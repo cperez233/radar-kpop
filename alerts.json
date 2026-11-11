@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-11T04:31:46Z",
+ "updated_at": "2026-11-11T05:01:05Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "✌️She's BACK ✌️#TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "✌️She's BACK ✌️#TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "when": "2026-11-11T05:00:18Z",
+   "url": "https://www.youtube.com/watch?v=E0JUBvAzOVk"
+  },
   {
    "type": "video",
    "group": "cortis",
@@ -714,20 +725,6 @@
    "url": "https://music.apple.com/us/album/s-w-i-s-h-ep/6821155823",
    "src_lang": "es",
    "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Gira: Stray Kids",
-   "body": "Stray Kids en concierto en París en 2027: toda la información sobre la apertura de la venta de entradas - Sortir à Paris (Google Noticias)",
-   "title_en": "Tour: Stray Kids",
-   "body_en": "Stray Kids in concert in Paris in 2027: all the information on the opening of ticket sales - Sortir à Paris (Google News)",
-   "when": "2026-11-09T14:50:35Z",
-   "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPX0tVSHVyUHRManRzQzhLTURtbHQ2WnY5WUJuS3d3N2pHWjRSN3ZRVTlKRmJLWTNreURoMUdjMHp4N21KbmJQUG9hRURGaC1PUUMxSEpfMWNGdG83NEdzTXJfVDhWTnFFdWF4bGRYaFNiUHFSQ05JTk5SV1E3XzNTT3NFdi1veE9FakFnVnRiazMwVThsUWZrdnlfNFJpS2J2OXI1MzBRbUxoWXpWNngyTFhpeGYwZEpkaUVzVzF3YjNabmFmeWx3TWRrS3djdTlVYWNWQmotSFVTSHZwY0lDSVg1SzJNZ3FjbWFHckhOM09iSmNTemZWNFkzLUxaV2hOQ1hZdFJHTXoyM0gzb3hQaHhoS0ItNEs0VGc2UFFkRQ?oc=5",
-   "src_lang": "es",
-   "body_orig": "Stray Kids en concierto en París en 2027: toda la información sobre la apertura de la venta de entradas - Sortir à Paris (Google Noticias)",
    "auto": true
   }
  ]

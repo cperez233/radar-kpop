@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T04:00:43Z",
+ "updated_at": "2026-11-11T05:00:41Z",
  "sample": false,
  "items": [
   {
@@ -77,6 +77,15 @@
     }
    ],
    "sp_try": "2026-11-11"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "✌️She's BACK ✌️#TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-11",
+   "published": "2026-11-11T05:00:18Z",
+   "url": "https://www.youtube.com/watch?v=E0JUBvAzOVk",
+   "image": "https://i.ytimg.com/vi/E0JUBvAzOVk/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -323,15 +332,6 @@
    "published": "2026-11-03T09:30:00Z",
    "url": "https://www.youtube.com/watch?v=kss7EqN58Dg",
    "image": "https://i.ytimg.com/vi/kss7EqN58Dg/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "[TIME TO TWICE] 트둥의 숲 TDOONG's Crossing EP.03",
-   "date": "2026-11-03",
-   "published": "2026-11-03T09:00:07Z",
-   "url": "https://www.youtube.com/watch?v=7R2QUwCk-Js",
-   "image": "https://i.ytimg.com/vi/7R2QUwCk-Js/hqdefault.jpg"
   },
   {
    "type": "video",
