@@ -1575,7 +1575,8 @@
   "news:349614cf368dea1a|feed": "2026-11-11T09:01:06Z",
   "news:c3082bd6a7f34f5d|feed": "2026-11-11T10:16:01Z",
   "news:ab84f55ae658b9d1|feed": "2026-11-11T11:01:10Z",
-  "news:519e99f3702a1aea|feed": "2026-11-11T11:01:10Z"
+  "news:519e99f3702a1aea|feed": "2026-11-11T11:01:10Z",
+  "news:a2c3c8e486f5b0f7|feed": "2026-11-11T11:31:52Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2637,7 +2638,6 @@
   }
  },
  "news_seen": [
-  "837212f9ee6475ab",
   "838d781a8fecd8e5",
   "8397d4a956185eaf",
   "83eed69ed0bc9585",
@@ -2831,6 +2831,7 @@
   "a2153cb309fc9198",
   "a278298b2b1f78c1",
   "a283b56ec497ba1c",
+  "a2c3c8e486f5b0f7",
   "a2dcb2f9a07781e6",
   "a2df1bcd2a4d87fa",
   "a32c521e21e1635c",
@@ -3439,15 +3440,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "cierra",
-    "cines",
-    "gira"
-   ],
-   "t": "2026-11-09T11:20:48Z"
-  },
   {
    "g": "skz",
    "w": [
