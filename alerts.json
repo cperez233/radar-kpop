@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10T23:16:09Z",
+ "updated_at": "2026-11-11T00:01:22Z",
  "alerts": [
   {
    "type": "latam",
@@ -89,6 +89,20 @@
    "body_en": "[SVT Record] 과니차니 어디 가니 | 형들 와줘서 고마워🩷🩵 | 금방 다녀오겠습니다🫡 #31 (YouTube)",
    "when": "2026-11-10T13:00:05Z",
    "url": "https://www.youtube.com/watch?v=sDyRCZnhDE8"
+  },
+  {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«NAYEON SINGLE “NA-sty” NA-sty_PHOTO.exe 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KST/0AM ET #TWICE #...» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«NAYEON SINGLE “NA-sty” NA-sty_PHOTO.exe 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #...» (TWICE en X).",
+   "when": "2026-11-10T13:00:00Z",
+   "url": "https://x.com/JYPETWICE/status/2120139411669086634",
+   "src_lang": "en",
+   "body_orig": "«NAYEON SINGLE “NA-sty” NA-sty_PHOTO.exe 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #...» (TWICE en X).",
+   "auto": true
   },
   {
    "type": "tour",
@@ -224,6 +238,20 @@
    "url": "https://www.youtube.com/watch?v=ongNmY8Wsz8"
   },
   {
+   "type": "official",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Anuncio oficial de LNGSHOT: comeback",
+   "body": "«LNGSHOT EP [S.W.I.S.H.] y MV oficial de 'Bananas' YA DISPONIBLES EN TODAS PARTES. 🎧 https://lngshot.lnk.to/SWISH 🍌 https://youtu.be/xWNIrOTJ6VA #LNGSHOT #SW...» (LNGSHOT en X).",
+   "title_en": "Official LNGSHOT news: comeback",
+   "body_en": "«LNGSHOT EP [S.W.I.S.H.] & ‘Bananas’ Official MV OUT NOW EVERYWHERE. 🎧 https://lngshot.lnk.to/SWISH 🍌 https://youtu.be/xWNIrOTJ6VA #LNGSHOT #SW...» (LNGSHOT en X).",
+   "when": "2026-11-10T09:00:00Z",
+   "url": "https://x.com/LNGSHOT4sho/status/2120079011720184099",
+   "src_lang": "en",
+   "body_orig": "«LNGSHOT EP [S.W.I.S.H.] & ‘Bananas’ Official MV OUT NOW EVERYWHERE. 🎧 https://lngshot.lnk.to/SWISH 🍌 https://youtu.be/xWNIrOTJ6VA #LNGSHOT #SW...» (LNGSHOT en X).",
+   "auto": true
+  },
+  {
    "type": "comeback",
    "group": "skz",
    "group_name": "Stray Kids",
@@ -274,6 +302,20 @@
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOREw4QXppTG1HSVd2MlBqdXN6ZjFHbUt0ZF8xamNtdGsxSU16bXE4WDIzaU1xeUJpTEtkakpCTkkyUWszMG9wLVJDQ2dmbjU1emlTaUpsdUVPdGJLZG1iNHhIMmRnV1d6NFFna3lzM3VRRzh5bkVLVDVkUVlTeUM0UA?oc=5",
    "src_lang": "es",
    "body_orig": "Stray Kids añade otras 25 fechas a su gira mundial actual - Agencia de Noticias Yonhap (Google Noticias)",
+   "auto": true
+  },
+  {
+   "type": "official",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Anuncio oficial de CORTIS: comeback",
+   "body": "«[Aviso] CORTIS El 2do EP 'GREENGREEN_playextended' (versión 'Blue Lips' Lip Mask) Información de reserva (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749...» (CORTIS en X).",
+   "title_en": "Official CORTIS news: comeback",
+   "body_en": "«[Notice] CORTIS The 2nd EP 'GREENGREEN_playextended' ('Blue Lips' Lip Mask ver.) Pre-order information (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749 ...» (CORTIS en X).",
+   "when": "2026-11-10T01:00:01Z",
+   "url": "https://x.com/cortis_bighit/status/2119958221460828434",
+   "src_lang": "ko",
+   "body_orig": "«[Notice] CORTIS The 2nd EP 'GREENGREEN_playextended' ('Blue Lips' Lip Mask ver.) 예약 구매 안내 (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749 ...» (CORTIS en X).",
    "auto": true
   },
   {
@@ -684,45 +726,6 @@
    "body_en": "To YOU, From NI-KI (YouTube)",
    "when": "2026-11-09T13:59:30Z",
    "url": "https://www.youtube.com/watch?v=OIiKFF7Zaf8"
-  },
-  {
-   "type": "comeback",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Comeback: Stray Kids",
-   "body": "El grupo de K-pop Stray Kids anuncia su regreso a París en 2027 - Sortir à Paris (Google Noticias)",
-   "title_en": "Comeback: Stray Kids",
-   "body_en": "K-pop group Stray Kids announces their return to Paris in 2027 - Sortir à Paris (Google News)",
-   "when": "2026-11-09T13:48:52Z",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOU0M5M2lqaHdQOWRSVzRCWk04cW9CVFo3M1VMcS1ibkJiY2tsSFVJR0x2aXdDRG5zcktMcnRveXI3RnN4eGRNcmZyMUJRV2puUjJ3ZGZ0OUM3VWdONzZ5VFFpQ0cxRUg5ZlBiR19JSF9fb29LY19oM0hhTGlFQUVMb1Z4Si1CQ1dLM3FKOGdzVVNZSjF3b09YYloteGxmV3g1QVBwdUVodnZoeGpIMVJ6WnBhV1pBZG5hV3JoQTl6TkdfTE8yWDdmYXNwQjJVSWotU0pXV1dBTHNMQ1E2S0d6OUd0VHlKRlJfYWxvYU5Xcw?oc=5",
-   "src_lang": "es",
-   "body_orig": "El grupo de K-pop Stray Kids anuncia su regreso a París en 2027 - Sortir à Paris (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Gira: Stray Kids",
-   "body": "Stray Kids en España: todo sobre «Stray Kids World Tour » - Ticketmaster España (Google Noticias)",
-   "title_en": "Tour: Stray Kids",
-   "body_en": "Stray Kids in Spain: all about «Stray Kids World Tour» - Ticketmaster Spain (Google News)",
-   "when": "2026-11-09T13:20:40Z",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLYXdUaGlocVhpb01PNnFvX29qVlJPVF9qZ2xpbmxxWFU5VVZLbmRRa01DVzdINDlpQ1Z4ZGJmSk96Wm5OVUMyS1ZDb0Q1UjdPU3pPekVPLWJSWUMxbnFHeA?oc=5",
-   "src_lang": "es",
-   "body_orig": "Stray Kids en España: todo sobre «Stray Kids World Tour » - Ticketmaster España (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "BOO Right Back Coming Soon (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "BOO Right Back Coming Soon (YouTube)",
-   "when": "2026-11-09T13:16:12Z",
-   "url": "https://www.youtube.com/watch?v=v8IcFO44nAA"
   }
  ]
 }
