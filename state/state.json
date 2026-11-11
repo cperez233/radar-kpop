@@ -3444,17 +3444,6 @@
   {
    "g": "skz",
    "w": [
-    "espana",
-    "sobre",
-    "todo",
-    "tour",
-    "world"
-   ],
-   "t": "2026-11-09T13:31:47Z"
-  },
-  {
-   "g": "skz",
-   "w": [
     "2027",
     "anuncia",
     "grupo",
@@ -3729,6 +3718,17 @@
     "gira"
    ],
    "t": "2026-11-11T12:31:44Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "espana",
+    "sobre",
+    "todo",
+    "tour",
+    "world"
+   ],
+   "t": "2026-11-11T13:31:52Z"
   }
  ],
  "discord_threads": {
