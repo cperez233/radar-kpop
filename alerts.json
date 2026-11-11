@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-11T06:01:03Z",
+ "updated_at": "2026-11-11T09:01:00Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "TWICE 11th Anniversary ‘ONCE UPON A THRI11’ & ‘TWICE THE THRILL’ Behind (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "TWICE 11th Anniversary ‘ONCE UPON A THRI11’ & ‘TWICE THE THRILL’ Behind (YouTube)",
+   "when": "2026-11-11T09:00:05Z",
+   "url": "https://www.youtube.com/watch?v=wMuJyhxVM-0"
+  },
   {
    "type": "video",
    "group": "twice",
@@ -706,20 +717,6 @@
    "body_en": "May 4, 2027 at Kyocera Dome Osaka, Japan.",
    "when": "2026-11-09T15:32:17Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "tour",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Gira: Stray Kids",
-   "body": "Stray Kids anuncian gira mundial ‘RUN IT’ en 2027 - Barnafotopress (Google Noticias)",
-   "title_en": "Tour: Stray Kids",
-   "body_en": "Stray Kids announce 'RUN IT' world tour in 2027 - Barnafotopress (Google News)",
-   "when": "2026-11-09T15:30:53Z",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVmc4cUJ1SzdjZ3dla1U2VXhGam5PTzdPd0xDUldHTk9UVG1OYnBac1V1UUp5Vy1HaElQdzFLcjlwaEw1SGJkU2h3TVBCbHp0dDlGTkdoQnRXV0RRTUhoQ0o4NkJrY0gzSGZUbTB6QVltMldGWXcwODBqVzRRU1AxYzhRNUFFNkpsOTAyLV9QWQ?oc=5",
-   "src_lang": "es",
-   "body_orig": "Stray Kids anuncian gira mundial ‘RUN IT’ en 2027 - Barnafotopress (Google Noticias)",
-   "auto": true
   }
  ]
 }
