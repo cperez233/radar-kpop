@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-11T03:16:05Z",
+ "updated_at": "2026-11-11T04:01:13Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "happens sometimes #CORTIS #코르티스 (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "happens sometimes #CORTIS #코르티스 (YouTube)",
+   "when": "2026-11-11T04:00:16Z",
+   "url": "https://www.youtube.com/watch?v=JTOTISOnArU"
+  },
   {
    "type": "latam",
    "group": "skz",
@@ -718,17 +729,6 @@
    "src_lang": "es",
    "body_orig": "Stray Kids concierto en Barcelona el 24 de julio de 2027 - Entradas Stray Kids - La Ganzua (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "윤민 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "윤민 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "when": "2026-11-09T14:00:35Z",
-   "url": "https://www.youtube.com/watch?v=MdI4oeU4Wvo"
   }
  ]
 }

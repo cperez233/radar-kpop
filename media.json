@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T03:00:40Z",
+ "updated_at": "2026-11-11T04:00:43Z",
  "sample": false,
  "items": [
   {
@@ -79,6 +79,15 @@
    "sp_try": "2026-11-11"
   },
   {
+   "type": "video",
+   "group": "cortis",
+   "title": "happens sometimes #CORTIS #코르티스",
+   "date": "2026-11-11",
+   "published": "2026-11-11T04:00:16Z",
+   "url": "https://www.youtube.com/watch?v=JTOTISOnArU",
+   "image": "https://i.ytimg.com/vi/JTOTISOnArU/hqdefault.jpg"
+  },
+  {
    "type": "music",
    "group": "lngshot",
    "title": "S.W.I.S.H.",
@@ -115,7 +124,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-11T00"
+   "ytm_try": "2026-11-11T04"
   },
   {
    "type": "video",
@@ -269,15 +278,6 @@
    "published": "2026-11-07T06:00:08Z",
    "url": "https://www.youtube.com/watch?v=vGg-TH2by2w",
    "image": "https://i.ytimg.com/vi/vGg-TH2by2w/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "F1 Singapore lah",
-   "date": "2026-11-07",
-   "published": "2026-11-07T11:59:57Z",
-   "url": "https://www.youtube.com/watch?v=-l5Lr-oU0oc",
-   "image": "https://i.ytimg.com/vi/-l5Lr-oU0oc/hqdefault.jpg"
   },
   {
    "type": "video",
