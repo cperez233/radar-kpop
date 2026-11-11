@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T13:01:01Z",
+ "updated_at": "2026-11-11T15:45:58Z",
  "alerts": [
   {
    "type": "video",
@@ -485,6 +485,20 @@
    "auto": true
   },
   {
+   "type": "tour",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Gira: Stray Kids",
+   "body": "Stray Kids anuncian concierto en Barcelona en 2027: Entradas y Precios - Wake & Listen (Google Noticias)",
+   "title_en": "Tour: Stray Kids",
+   "body_en": "Stray Kids announce concert in Barcelona in 2027: Tickets and Prices - Wake & Listen (Google News)",
+   "when": "2026-11-09T21:44:16Z",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2T3Z2aTFac3BtMEtrLUVsNGhDUElZTVBhS2ZFeldRUGpUWE5pWVc4T1JIdzBDMnpuTnE1RERFSk1zWFVXQVRaejlrTnVUM2k0WU5lWk96cm8zWTE3SjU2RFY5UnhHU01qUEtNMUs0aWN2TVZsTFVjSVNB?oc=5",
+   "src_lang": "es",
+   "body_orig": "Stray Kids anuncian concierto en Barcelona en 2027: Entradas y Precios - Wake & Listen (Google Noticias)",
+   "auto": true
+  },
+  {
    "type": "new_date",
    "group": "skz",
    "group_name": "Stray Kids",
@@ -701,17 +715,6 @@
    "body": "21 jul 2027 en Ernst-Happel-Stadion, Austria. Salió de un anuncio; la hora y los detalles están por confirmar.",
    "title_en": "Stray Kids added dates in Vienna (to be confirmed)",
    "body_en": "Jul 21, 2027 at Ernst-Happel-Stadion, Austria.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Barcelona (por confirmar)",
-   "body": "24 jul 2027 en Estadi Olímpic Lluís Companys, España. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Barcelona (to be confirmed)",
-   "body_en": "Jul 24, 2027 at Estadi Olímpic Lluís Companys, Spain.",
    "when": "2026-11-09T17:46:04Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   }
