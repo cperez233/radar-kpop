@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T11:30:38Z",
+ "updated_at": "2026-11-11T12:00:39Z",
  "sample": false,
  "items": [
   {
@@ -126,20 +126,20 @@
   {
    "type": "video",
    "group": "seventeen",
+   "title": "[GOING SEVENTEEN] EP.166 도둑 #1 (THIEF #1)",
+   "date": "2026-11-11",
+   "published": "2026-11-11T11:58:06Z",
+   "url": "https://www.youtube.com/watch?v=qCzFO7JUMO4",
+   "image": "https://i.ytimg.com/vi/qCzFO7JUMO4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
    "title": "정한X조슈아 (SEVENTEEN) - One plus one @JOURNEY INTO [DREAMING] in INCHEON",
    "date": "2026-11-11",
    "published": "2026-11-11T10:59:56Z",
    "url": "https://www.youtube.com/watch?v=ttCHjgJRAWY",
    "image": "https://i.ytimg.com/vi/ttCHjgJRAWY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[GOING SEVENTEEN] EP.166 도둑 #1 (THIEF #1)",
-   "date": "2026-11-11",
-   "published": "2026-11-11T04:40:37Z",
-   "url": "https://www.youtube.com/watch?v=qCzFO7JUMO4",
-   "image": "https://i.ytimg.com/vi/qCzFO7JUMO4/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -187,7 +187,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-11T08"
+   "ytm_try": "2026-11-11T12"
   },
   {
    "type": "video",
