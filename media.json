@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T05:00:41Z",
+ "updated_at": "2026-11-11T05:30:37Z",
  "sample": false,
  "items": [
   {
@@ -77,6 +77,15 @@
     }
    ],
    "sp_try": "2026-11-11"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "I CAN'T STOP ME w.👼 선배님 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-11",
+   "published": "2026-11-11T05:30:21Z",
+   "url": "https://www.youtube.com/watch?v=Tu4GGnAvQQs",
+   "image": "https://i.ytimg.com/vi/Tu4GGnAvQQs/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -323,15 +332,6 @@
    "published": "2026-11-03T09:31:38Z",
    "url": "https://www.youtube.com/watch?v=zMPXdQkzEcY",
    "image": "https://i.ytimg.com/vi/zMPXdQkzEcY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "트둥의 숲 TDOONG's crossing EP.03 Highlight #1 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
-   "date": "2026-11-03",
-   "published": "2026-11-03T09:30:00Z",
-   "url": "https://www.youtube.com/watch?v=kss7EqN58Dg",
-   "image": "https://i.ytimg.com/vi/kss7EqN58Dg/hqdefault.jpg"
   },
   {
    "type": "video",
