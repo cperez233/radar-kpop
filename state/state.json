@@ -1572,7 +1572,8 @@
   "news:37a44dda629f121a|feed": "2026-11-11T05:01:11Z",
   "news:2e9380e9b612de3b|feed": "2026-11-11T05:31:51Z",
   "news:49151744bb806010|feed": "2026-11-11T06:01:12Z",
-  "news:349614cf368dea1a|feed": "2026-11-11T09:01:06Z"
+  "news:349614cf368dea1a|feed": "2026-11-11T09:01:06Z",
+  "news:c3082bd6a7f34f5d|feed": "2026-11-11T10:16:01Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2634,7 +2635,6 @@
   }
  },
  "news_seen": [
-  "835d2af67d55829b",
   "83646f8bf33619fe",
   "837212f9ee6475ab",
   "838d781a8fecd8e5",
@@ -3061,6 +3061,7 @@
   "c2c6828f0e1b7d73",
   "c2e6b8ccb6a86cec",
   "c2ffcbc28e54cc6c",
+  "c3082bd6a7f34f5d",
   "c32ce9cd472e2adc",
   "c369457d8aeb3cd9",
   "c386eea7c7324b32",
@@ -3436,19 +3437,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "twice",
-   "w": [
-    "album",
-    "fellow",
-    "members",
-    "nayeons",
-    "situationship",
-    "speculated",
-    "writer"
-   ],
-   "t": "2026-11-09T10:01:04Z"
-  },
   {
    "g": "bts",
    "w": [

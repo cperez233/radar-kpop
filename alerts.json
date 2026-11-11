@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-11T09:01:00Z",
+ "updated_at": "2026-11-11T10:15:56Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Nuevo video: Stray Kids",
+   "body": "형이 제 키 가져갔죠? #StrayKids #스트레이키즈 #창빈 #Changbin #현진 #Hyunjin #YouMakeStrayKidsStay (YouTube)",
+   "title_en": "New video: Stray Kids",
+   "body_en": "형이 제 키 가져갔죠? #StrayKids #스트레이키즈 #창빈 #Changbin #현진 #Hyunjin #YouMakeStrayKidsStay (YouTube)",
+   "when": "2026-11-11T10:00:25Z",
+   "url": "https://www.youtube.com/watch?v=3JHJYqsWAEg"
+  },
   {
    "type": "video",
    "group": "twice",
@@ -704,17 +715,6 @@
    "body": "24 abr 2027 en Tokyo Dome, Japón. Salió de un anuncio; la hora y los detalles están por confirmar.",
    "title_en": "Stray Kids added dates in Tokyo (to be confirmed)",
    "body_en": "Apr 24, 2027 at Tokyo Dome, Japan.",
-   "when": "2026-11-09T15:32:17Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Osaka (por confirmar)",
-   "body": "4 may 2027 en Kyocera Dome Osaka, Japón. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Osaka (to be confirmed)",
-   "body_en": "May 4, 2027 at Kyocera Dome Osaka, Japan.",
    "when": "2026-11-09T15:32:17Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   }

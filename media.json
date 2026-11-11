@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T09:00:39Z",
+ "updated_at": "2026-11-11T10:15:35Z",
  "sample": false,
  "items": [
   {
@@ -77,6 +77,15 @@
     }
    ],
    "sp_try": "2026-11-11"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "형이 제 키 가져갔죠? #StrayKids #스트레이키즈 #창빈 #Changbin #현진 #Hyunjin #YouMakeStrayKidsStay",
+   "date": "2026-11-11",
+   "published": "2026-11-11T10:00:25Z",
+   "url": "https://www.youtube.com/watch?v=3JHJYqsWAEg",
+   "image": "https://i.ytimg.com/vi/3JHJYqsWAEg/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -323,15 +332,6 @@
    "published": "2026-11-05T13:00:01Z",
    "url": "https://www.youtube.com/watch?v=xzTFYPnoum8",
    "image": "https://i.ytimg.com/vi/xzTFYPnoum8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.04 Rock in Rio",
-   "date": "2026-11-04",
-   "published": "2026-11-04T11:00:04Z",
-   "url": "https://www.youtube.com/watch?v=cfxxSsojp6A",
-   "image": "https://i.ytimg.com/vi/cfxxSsojp6A/hqdefault.jpg"
   },
   {
    "type": "video",
