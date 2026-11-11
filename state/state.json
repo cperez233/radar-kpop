@@ -1559,7 +1559,11 @@
   "official:cortis:comeback:2026-11-11|feed": "2026-11-11T00:01:29Z",
   "official:cortis:comeback:2026-11-11|ntfy": "2026-11-11T00:01:29Z",
   "official:cortis:comeback:2026-11-11|pub:radarkpop-cortis-music": "2026-11-11T00:01:29Z",
-  "official:cortis:comeback:2026-11-11|foro": "2026-11-11T00:01:29Z"
+  "official:cortis:comeback:2026-11-11|foro": "2026-11-11T00:01:29Z",
+  "news:5d648a0772145b0c|feed": "2026-11-11T03:16:11Z",
+  "news:5d648a0772145b0c|ntfy": "2026-11-11T03:16:11Z",
+  "news:5d648a0772145b0c|pub:radarkpop-skz-news": "2026-11-11T03:16:11Z",
+  "news:5d648a0772145b0c|foro": "2026-11-11T03:16:11Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2621,11 +2625,6 @@
   }
  },
  "news_seen": [
-  "81435792d8d2217e",
-  "815e2457a7e3e7d2",
-  "81984c7796be273c",
-  "819c5f856b9b7729",
-  "819ce4360d369b75",
   "819e4030e578766c",
   "81a79d6c92ba0680",
   "81e70fa5ccba6670",
@@ -3046,6 +3045,7 @@
   "c0e6a0a404b4032c",
   "c10c12dc97364372",
   "c127aba58cbbb6f3",
+  "c203f9eda8404a2c",
   "c233f103b025ddd3",
   "c24bc299f41ceb9a",
   "c26d7847cf4d0d71",
@@ -3117,6 +3117,7 @@
   "ccf2d75968967576",
   "cd37756912cad8fe",
   "cd57fd122d4e5e37",
+  "cd8e159ef6d6c810",
   "cd9feb3367855fbf",
   "cdbedfea2414a66a",
   "cdcffd89759f760b",
@@ -3183,6 +3184,7 @@
   "d712a982ac98a8b0",
   "d731a77b46af8754",
   "d7327de7886578d2",
+  "d736b30fbaba8bbd",
   "d74be4079c7ff4f2",
   "d7b5b9ed9645a52c",
   "d7d675a5f3e67d14",
@@ -3224,6 +3226,7 @@
   "dd67fee50bfd65ad",
   "dd738eb382ccf8ec",
   "dd9d352a2abd6ae9",
+  "ddb6cc03febd686f",
   "ddcb9dee605c4307",
   "ddfc60117f951dd7",
   "de54a24554f9039d",
@@ -3271,6 +3274,7 @@
   "e5185867176037ec",
   "e53d9a455b431e35",
   "e54b82dbd77b53aa",
+  "e563cb39a6876844",
   "e5ad2bda2a82e939",
   "e614778ee510832b",
   "e677467f806e9c1f",
@@ -3694,6 +3698,22 @@
     "tour"
    ],
    "t": "2026-11-11T01:46:02Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "esto",
+    "fechas",
+    "gira",
+    "mexico",
+    "mundial",
+    "nuevas",
+    "podria",
+    "sabemos",
+    "sumar",
+    "vendra"
+   ],
+   "t": "2026-11-11T03:16:05Z"
   }
  ],
  "discord_threads": {

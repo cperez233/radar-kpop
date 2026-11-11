@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-11T00:01:22Z",
+ "updated_at": "2026-11-11T03:16:05Z",
  "alerts": [
+  {
+   "type": "latam",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Latinoamérica: Stray Kids",
+   "body": "Stray Kids podría sumar nuevas fechas de su gira mundial; ¿vendrá a México? Esto sabemos - Azteca Bajío (Google Noticias)",
+   "title_en": "Latin America: Stray Kids",
+   "body_en": "Stray Kids could add new dates to their world tour; Will you come to Mexico? This we know - Azteca Bajío (Google News)",
+   "when": "2026-11-11T00:45:36Z",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcV80ck9aazktQnBQNTVaVlc0ODY5XzloSWdhb0o2WThvSkoycXhSd1dyYnUyeHgza2Q2d2JSbDh3MVZyMU95T2dHQ1RZcHlCNGo2dGZCSlFFUmZTMmRDTmNyODZ6RnYzbXdBbk1PbTNFdm81Wk1hUW5NY1BvVnAzZzg3U29HZ3NEWktwYmJRS21SRDNpNUswUENSbEhJd0k4LUd5ZXZKLWhWVnBMN2RvTU9wVWZId2hMMDRF?oc=5",
+   "src_lang": "es",
+   "body_orig": "Stray Kids podría sumar nuevas fechas de su gira mundial; ¿vendrá a México? Esto sabemos - Azteca Bajío (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "latam",
    "group": "skz",
@@ -715,17 +729,6 @@
    "body_en": "윤민 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
    "when": "2026-11-09T14:00:35Z",
    "url": "https://www.youtube.com/watch?v=MdI4oeU4Wvo"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "To YOU, From NI-KI (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "To YOU, From NI-KI (YouTube)",
-   "when": "2026-11-09T13:59:30Z",
-   "url": "https://www.youtube.com/watch?v=OIiKFF7Zaf8"
   }
  ]
 }
