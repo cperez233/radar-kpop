@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-12T14:01:46Z",
+ "updated_at": "2026-11-12T14:15:58Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "Unbox #SWISH with #LNGSHOT 📦 (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "Unbox #SWISH with #LNGSHOT 📦 (YouTube)",
+   "when": "2026-11-12T14:10:28Z",
+   "url": "https://www.youtube.com/watch?v=JQNMfxZahCc"
+  },
   {
    "type": "video",
    "group": "cortis",
@@ -708,20 +719,6 @@
    "url": "https://x.com/LNGSHOT4sho/status/2120079011720184099",
    "src_lang": "en",
    "body_orig": "«LNGSHOT EP [S.W.I.S.H.] & ‘Bananas’ Official MV OUT NOW EVERYWHERE. 🎧 https://lngshot.lnk.to/SWISH 🍌 https://youtu.be/xWNIrOTJ6VA #LNGSHOT #SW...» (LNGSHOT en X).",
-   "auto": true
-  },
-  {
-   "type": "comeback",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Comeback: Stray Kids",
-   "body": "Aura aparentemente sexual del nuevo teaser de Stray Kids incita reacciones muy divididas (Koreaboo)",
-   "title_en": "Comeback: Stray Kids",
-   "body_en": "Seemingly Sexual Aura Of Stray Kids’ New Teaser Incites Hugely Divided Reactions (Koreaboo)",
-   "when": "2026-11-10T08:55:32Z",
-   "url": "https://www.koreaboo.com/news/sexual-nature-stray-kids-new-teaser-incites-hugely-divided-reactions/",
-   "src_lang": "en",
-   "body_orig": "Seemingly Sexual Aura Of Stray Kids’ New Teaser Incites Hugely Divided Reactions (Koreaboo)",
    "auto": true
   }
  ]
