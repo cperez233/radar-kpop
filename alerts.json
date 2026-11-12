@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-12T14:15:58Z",
+ "updated_at": "2026-11-12T15:02:05Z",
  "alerts": [
+  {
+   "type": "comeback",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "💿 Hoy sale «'UP'» de ATEEZ",
+   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "title_en": "💿 ATEEZ's «'UP'» is out today",
+   "body_en": "You can listen to it now! (Or in a few hours, depending on your time zone.)",
+   "when": "2026-11-12T15:02:05Z",
+   "url": "https://x.com/ATEEZofficial/status/2120743389763457263",
+   "src_lang": "es",
+   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -706,20 +720,6 @@
    "body_en": "LNGSHOT - 'Wanna Go' Official Audio (YouTube)",
    "when": "2026-11-10T09:01:41Z",
    "url": "https://www.youtube.com/watch?v=ongNmY8Wsz8"
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«LNGSHOT EP [S.W.I.S.H.] y MV oficial de 'Bananas' YA DISPONIBLES EN TODAS PARTES. 🎧 https://lngshot.lnk.to/SWISH 🍌 https://youtu.be/xWNIrOTJ6VA #LNGSHOT #SW...» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "«LNGSHOT EP [S.W.I.S.H.] & ‘Bananas’ Official MV OUT NOW EVERYWHERE. 🎧 https://lngshot.lnk.to/SWISH 🍌 https://youtu.be/xWNIrOTJ6VA #LNGSHOT #SW...» (LNGSHOT en X).",
-   "when": "2026-11-10T09:00:00Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2120079011720184099",
-   "src_lang": "en",
-   "body_orig": "«LNGSHOT EP [S.W.I.S.H.] & ‘Bananas’ Official MV OUT NOW EVERYWHERE. 🎧 https://lngshot.lnk.to/SWISH 🍌 https://youtu.be/xWNIrOTJ6VA #LNGSHOT #SW...» (LNGSHOT en X).",
-   "auto": true
   }
  ]
 }

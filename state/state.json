@@ -1649,7 +1649,11 @@
   "news:0b1e7d462bff6605|pub:radarkpop-skz-news": "2026-11-12T13:16:03Z",
   "news:0b1e7d462bff6605|foro": "2026-11-12T13:16:03Z",
   "news:491f552b77a28530|feed": "2026-11-12T14:01:53Z",
-  "news:b0f48e43497afca6|feed": "2026-11-12T14:16:05Z"
+  "news:b0f48e43497afca6|feed": "2026-11-12T14:16:05Z",
+  "rel:ateez:2026-11-13|feed": "2026-11-12T15:02:12Z",
+  "rel:ateez:2026-11-13|ntfy": "2026-11-12T15:02:12Z",
+  "rel:ateez:2026-11-13|pub:radarkpop-ateez-music": "2026-11-12T15:02:12Z",
+  "rel:ateez:2026-11-13|foro": "2026-11-12T15:02:12Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
