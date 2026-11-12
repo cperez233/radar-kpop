@@ -45,11 +45,11 @@
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-10T19:30:23Z",
- "last_run": "2026-11-12T18:45:22Z",
+ "last_run": "2026-11-12T21:00:22Z",
  "pages": {
   "Arirang World Tour": {
-   "fetched": "2026-11-10T11:00:21Z",
-   "revid": 1384850844,
+   "fetched": "2026-11-12T21:00:22Z",
+   "revid": 1385324329,
    "rows": [
     {
      "cancelled": false,
