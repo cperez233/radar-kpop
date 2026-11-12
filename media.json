@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T05:45:34Z",
+ "updated_at": "2026-11-12T06:00:44Z",
  "sample": false,
  "items": [
   {
@@ -81,6 +81,15 @@
   {
    "type": "video",
    "group": "twice",
+   "title": "OH NO! Where did she go? #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-12",
+   "published": "2026-11-12T06:00:09Z",
+   "url": "https://www.youtube.com/watch?v=9kmlL58l4QM",
+   "image": "https://i.ytimg.com/vi/9kmlL58l4QM/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
    "title": ".........📷🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
    "date": "2026-11-12",
    "published": "2026-11-12T05:30:35Z",
@@ -122,15 +131,6 @@
    "published": "2026-11-11T10:00:25Z",
    "url": "https://www.youtube.com/watch?v=3JHJYqsWAEg",
    "image": "https://i.ytimg.com/vi/3JHJYqsWAEg/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "TWICE 11th Anniversary ‘ONCE UPON A THRI11’ & ‘TWICE THE THRILL’ Behind",
-   "date": "2026-11-11",
-   "published": "2026-11-11T09:00:05Z",
-   "url": "https://www.youtube.com/watch?v=wMuJyhxVM-0",
-   "image": "https://i.ytimg.com/vi/wMuJyhxVM-0/hqdefault.jpg"
   },
   {
    "type": "video",
