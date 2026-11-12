@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-11-12T04:02:06Z",
+ "updated_at": "2026-11-12T05:01:47Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "I'M HERE! #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "I'M HERE! #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "when": "2026-11-12T05:00:06Z",
+   "url": "https://www.youtube.com/watch?v=Mm-qZVRc-Bw"
+  },
+  {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[🎬] ATEEZ - 'UP' Official MV Teaser 2 2026. 11. 13 2PM LANZAMIENTO DEL ÁLBUM https://youtu.be/S1g5qrY5w3o #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
+   "body_en": "«[🎬] ATEEZ - 'UP' Official MV Teaser 2 2026. 11. 13 2PM ALBUM RELEASE https://youtu.be/S1g5qrY5w3o #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
+   "when": "2026-11-12T05:00:00Z",
+   "url": "https://x.com/ATEEZofficial/status/2120743389763457263",
+   "src_lang": "ko",
+   "body_orig": "«[🎬] ATEEZ(에이티즈) - 'UP' Official MV Teaser 2 2026. 11. 13 2PM ALBUM RELEASE https://youtu.be/S1g5qrY5w3o #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -708,28 +733,6 @@
    "body": "11 jun 2027 en Hard Rock Stadium, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
    "title_en": "Stray Kids added dates in Miami Gardens (to be confirmed)",
    "body_en": "Jun 11, 2027 at Hard Rock Stadium, USA.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Orlando (por confirmar)",
-   "body": "14 jun 2027 en Camping World Stadium, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Orlando (to be confirmed)",
-   "body_en": "Jun 14, 2027 at Camping World Stadium, USA.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Chicago (por confirmar)",
-   "body": "18 jun 2027 en Soldier Field, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Chicago (to be confirmed)",
-   "body_en": "Jun 18, 2027 at Soldier Field, USA.",
    "when": "2026-11-09T17:46:04Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   }
