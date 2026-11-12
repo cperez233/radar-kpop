@@ -3467,19 +3467,6 @@
  ],
  "news_topics": [
   {
-   "g": "bts",
-   "w": [
-    "2026",
-    "arirang",
-    "cines",
-    "kaohsiung",
-    "tour",
-    "world",
-    "yakarta"
-   ],
-   "t": "2026-11-10T01:01:04Z"
-  },
-  {
    "g": "skz",
    "w": [
     "actual",
@@ -3745,6 +3732,19 @@
     "video"
    ],
    "t": "2026-11-11T20:16:09Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "2026",
+    "arirang",
+    "cines",
+    "kaohsiung",
+    "tour",
+    "world",
+    "yakarta"
+   ],
+   "t": "2026-11-12T01:01:51Z"
   }
  ],
  "discord_threads": {
