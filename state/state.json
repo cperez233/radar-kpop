@@ -3520,34 +3520,6 @@
   {
    "g": "skz",
    "w": [
-    "2027",
-    "conciertos",
-    "dara",
-    "esto",
-    "gira",
-    "latinoamerica",
-    "nueva",
-    "par",
-    "sabe"
-   ],
-   "t": "2026-11-10T19:01:03Z"
-  },
-  {
-   "g": "lngshot",
-   "w": [
-    "bananas",
-    "cancion",
-    "comeback",
-    "principal",
-    "realiza",
-    "sobre",
-    "todo"
-   ],
-   "t": "2026-11-10T19:01:03Z"
-  },
-  {
-   "g": "skz",
-   "w": [
     "abandona",
     "banda",
     "cantante",
@@ -3782,6 +3754,21 @@
     "run"
    ],
    "t": "2026-11-12T13:15:56Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "2027",
+    "conciertos",
+    "dara",
+    "esto",
+    "gira",
+    "latinoamerica",
+    "nueva",
+    "par",
+    "sabe"
+   ],
+   "t": "2026-11-12T19:01:51Z"
   }
  ],
  "discord_threads": {
