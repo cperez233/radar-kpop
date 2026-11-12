@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-11-12T08:46:12Z",
+ "updated_at": "2026-11-12T09:01:38Z",
  "alerts": [
+  {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: comeback",
+   "body": "«Dokyeom y Jeonghan <Viajes sin respuesta correcta> Teaser destacado ▶️ https://youtu.be/FEyF183bBWc 🎬 VOD ✔️ LANZAMIENTO: 2026.11.19 8PM (KST) 👉 EN EL AIRE: Weverse, Hu...» (SEVENTEEN en X).",
+   "title_en": "Official SEVENTEEN news: comeback",
+   "body_en": "«Dokyeom and Jeonghan <Travel Without Correct Answer> Highlight Teaser ▶️ https://youtu.be/FEyF183bBWc 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hu...» (SEVENTEEN en X).",
+   "when": "2026-11-12T09:00:09Z",
+   "url": "https://x.com/pledis_17/status/2120803827071041544",
+   "src_lang": "ko",
+   "body_orig": "«도겸과 정한 <정답 없는 여행> Highlight Teaser ▶️ https://youtu.be/FEyF183bBWc 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hu...» (SEVENTEEN en X).",
+   "auto": true
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "도겸과 정한 〈정답 없는 여행〉 Highlight Teaser (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "도겸과 정한 〈정답 없는 여행〉 Highlight Teaser (YouTube)",
+   "when": "2026-11-12T09:00:02Z",
+   "url": "https://www.youtube.com/watch?v=FEyF183bBWc"
+  },
   {
    "type": "comeback",
    "group": "ateez",
@@ -714,28 +739,6 @@
    "body": "22 may 2027 en Levi's Stadium, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
    "title_en": "Stray Kids added dates in San Francisco (to be confirmed)",
    "body_en": "May 22, 2027 at Levi's Stadium, USA.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en San Diego (por confirmar)",
-   "body": "25 may 2027 en Petco Park, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in San Diego (to be confirmed)",
-   "body_en": "May 25, 2027 at Petco Park, USA.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Los Ángeles (por confirmar)",
-   "body": "29 may 2027 en SoFi Stadium, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Los Angeles (to be confirmed)",
-   "body_en": "May 29, 2027 at SoFi Stadium, USA.",
    "when": "2026-11-09T17:46:04Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   }

@@ -1623,7 +1623,12 @@
   "news:20398bc3fd8ffd8f|feed": "2026-11-12T08:46:19Z",
   "news:20398bc3fd8ffd8f|ntfy": "2026-11-12T08:46:19Z",
   "news:20398bc3fd8ffd8f|pub:radarkpop-ateez-news": "2026-11-12T08:46:19Z",
-  "news:20398bc3fd8ffd8f|foro": "2026-11-12T08:46:19Z"
+  "news:20398bc3fd8ffd8f|foro": "2026-11-12T08:46:19Z",
+  "official:seventeen:comeback:2026-11-12|feed": "2026-11-12T09:01:43Z",
+  "official:seventeen:comeback:2026-11-12|ntfy": "2026-11-12T09:01:43Z",
+  "official:seventeen:comeback:2026-11-12|pub:radarkpop-seventeen-music": "2026-11-12T09:01:43Z",
+  "official:seventeen:comeback:2026-11-12|foro": "2026-11-12T09:01:43Z",
+  "news:09dea6e9d4029786|feed": "2026-11-12T09:01:43Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2685,7 +2690,6 @@
   }
  },
  "news_seen": [
-  "8859481a83e5eb4b",
   "886c351d707fcf72",
   "88b7140dbaff2be3",
   "88cc362a13a3b0ea",
@@ -2962,6 +2966,7 @@
   "b096109a7dda99a3",
   "b0bea9e7f5f79574",
   "b0ff906f396a27d4",
+  "b1145b5b44fb7cea",
   "b1413ae9d08af5c8",
   "b16b50f8b503a02f",
   "b1a10bc4e504ab13",

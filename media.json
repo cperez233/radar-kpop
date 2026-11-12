@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T08:00:39Z",
+ "updated_at": "2026-11-12T09:00:36Z",
  "sample": false,
  "items": [
   {
@@ -116,6 +116,15 @@
   },
   {
    "type": "video",
+   "group": "seventeen",
+   "title": "도겸과 정한 〈정답 없는 여행〉 Highlight Teaser",
+   "date": "2026-11-12",
+   "published": "2026-11-12T09:00:02Z",
+   "url": "https://www.youtube.com/watch?v=FEyF183bBWc",
+   "image": "https://i.ytimg.com/vi/FEyF183bBWc/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "skz",
    "title": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.05 BUENOS AIRES",
    "date": "2026-11-11",
@@ -215,15 +224,6 @@
     }
    ],
    "ytm_try": "2026-11-12T08"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[SVT Record] 과니차니 어디 가니 | 형들 와줘서 고마워🩷🩵 | 금방 다녀오겠습니다🫡 #31",
-   "date": "2026-11-10",
-   "published": "2026-11-10T13:00:05Z",
-   "url": "https://www.youtube.com/watch?v=sDyRCZnhDE8",
-   "image": "https://i.ytimg.com/vi/sDyRCZnhDE8/hqdefault.jpg"
   },
   {
    "type": "video",
