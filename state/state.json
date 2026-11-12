@@ -1635,7 +1635,8 @@
   "official:cortis:tour:2026-11-12|foro": "2026-11-12T10:02:54Z",
   "news:b38fb1ebbcfdd59d|feed": "2026-11-12T10:02:54Z",
   "news:7a6b8b72b697c349|feed": "2026-11-12T10:02:54Z",
-  "news:0a733ba9f79371e1|feed": "2026-11-12T10:02:54Z"
+  "news:0a733ba9f79371e1|feed": "2026-11-12T10:02:54Z",
+  "news:35df6c0c908bd848|feed": "2026-11-12T11:01:57Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2697,7 +2698,6 @@
   }
  },
  "news_seen": [
-  "89578b544a26b544",
   "896964a9ed03b3e3",
   "8a07b7745f8c5468",
   "8a32c9267aa10c4e",
@@ -3117,6 +3117,7 @@
   "c4af2608ebd7f7ee",
   "c518ed269b32bdd1",
   "c52379ef582d92df",
+  "c5772a3681957e8f",
   "c57c72fab3ba9938",
   "c5afc1f1fb804aa0",
   "c5c49059d0432e67",

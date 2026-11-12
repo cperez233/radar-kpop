@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T10:00:43Z",
+ "updated_at": "2026-11-12T11:00:47Z",
  "sample": false,
  "items": [
   {
@@ -80,6 +80,15 @@
   },
   {
    "type": "video",
+   "group": "skz",
+   "title": "[SKZ VLOG] Seungmin : Mini's minilog 9",
+   "date": "2026-11-12",
+   "published": "2026-11-12T10:59:56Z",
+   "url": "https://www.youtube.com/watch?v=6gAzcj3zDi0",
+   "image": "https://i.ytimg.com/vi/6gAzcj3zDi0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "twice",
    "title": "WHERE IS NY? #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
    "date": "2026-11-12",
@@ -140,15 +149,6 @@
    "published": "2026-11-12T09:00:02Z",
    "url": "https://www.youtube.com/watch?v=FEyF183bBWc",
    "image": "https://i.ytimg.com/vi/FEyF183bBWc/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) - [GOLDEN HOUR : Part.6] JACKET Making Film",
-   "date": "2026-11-12",
-   "published": "2026-11-12T10:00:24Z",
-   "url": "https://www.youtube.com/watch?v=DJerdqraOdY",
-   "image": "https://i.ytimg.com/vi/DJerdqraOdY/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -290,12 +290,12 @@
   },
   {
    "type": "video",
-   "group": "skz",
-   "title": "꿀멍즈 코어 #StrayKids #스트레이키즈 #창빈 #Changbin #승민 #Seungmin #YouMakeStrayKidsStay",
-   "date": "2026-11-08",
-   "published": "2026-11-08T06:00:04Z",
-   "url": "https://www.youtube.com/watch?v=TfixaYSUSNY",
-   "image": "https://i.ytimg.com/vi/TfixaYSUSNY/hqdefault.jpg"
+   "group": "ateez",
+   "title": "조이현 선배님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-09",
+   "published": "2026-11-09T12:00:24Z",
+   "url": "https://www.youtube.com/watch?v=Bg826nBD0JI",
+   "image": "https://i.ytimg.com/vi/Bg826nBD0JI/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -541,7 +541,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-12T07",
+   "ytm_try": "2026-11-12T11",
    "sp_try": "2026-11-12"
   },
   {
@@ -1297,7 +1297,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-12T07"
+   "ytm_try": "2026-11-12T11"
   },
   {
    "type": "music",
