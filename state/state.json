@@ -1640,7 +1640,9 @@
   "news:317b739b1acc1387|feed": "2026-11-12T11:16:02Z",
   "news:8b1478561652b614|feed": "2026-11-12T11:31:05Z",
   "news:cf769c9ee378e456|feed": "2026-11-12T12:01:29Z",
-  "news:2ca4719a5c981b54|feed": "2026-11-12T12:01:29Z"
+  "news:2ca4719a5c981b54|feed": "2026-11-12T12:01:29Z",
+  "news:5794a943fa2cc1a3|feed": "2026-11-12T12:16:01Z",
+  "news:8c88a9915fef002f|feed": "2026-11-12T12:16:01Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2702,8 +2704,6 @@
   }
  },
  "news_seen": [
-  "8a32c9267aa10c4e",
-  "8a3993c2e0cafa12",
   "8a5f2926673fba9c",
   "8a60e15321cb4fca",
   "8a65451cbc2763a5",
@@ -2722,6 +2722,7 @@
   "8c42476febb08ead",
   "8c6ddb1aeccb397b",
   "8c7f71710a5bac80",
+  "8c88a9915fef002f",
   "8c8d324a31d34f38",
   "8cbd2b6b30216cf7",
   "8cc811a5f123bad9",
@@ -3388,6 +3389,7 @@
   "ed73f43d5d7d10d2",
   "ed8176c84b63d146",
   "ed865c1b58456054",
+  "edf778c0db632cbe",
   "ee16ed74a93dfbcf",
   "ee2addd6800696d7",
   "ee4c1f34cf41aa7c",
