@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T11:00:47Z",
+ "updated_at": "2026-11-12T11:15:34Z",
  "sample": false,
  "items": [
   {
@@ -152,6 +152,15 @@
   },
   {
    "type": "video",
+   "group": "ateez",
+   "title": "최희진 선배님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-12",
+   "published": "2026-11-12T11:00:26Z",
+   "url": "https://www.youtube.com/watch?v=FVHuXifGFR0",
+   "image": "https://i.ytimg.com/vi/FVHuXifGFR0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "skz",
    "title": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.05 BUENOS AIRES",
    "date": "2026-11-11",
@@ -287,15 +296,6 @@
    "published": "2026-11-09T14:00:35Z",
    "url": "https://www.youtube.com/watch?v=MdI4oeU4Wvo",
    "image": "https://i.ytimg.com/vi/MdI4oeU4Wvo/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "조이현 선배님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-09",
-   "published": "2026-11-09T12:00:24Z",
-   "url": "https://www.youtube.com/watch?v=Bg826nBD0JI",
-   "image": "https://i.ytimg.com/vi/Bg826nBD0JI/hqdefault.jpg"
   },
   {
    "type": "video",

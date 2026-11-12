@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-12T11:01:51Z",
+ "updated_at": "2026-11-12T11:15:55Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "최희진 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "최희진 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "when": "2026-11-12T11:00:26Z",
+   "url": "https://www.youtube.com/watch?v=FVHuXifGFR0"
+  },
   {
    "type": "video",
    "group": "skz",
@@ -729,20 +740,6 @@
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYkk5NmJ6bkpua1NuOERDY3VHVDZQQzh0YjdIcGpGQmIwd0t3aWZsYVBJR3Z5dkM1VjhuSFdlZFN4MUdxcW0wWkNEaW5lQ011NXlHMTdOQWQzVVV5SU90b2Rlc3N0RFNFUDdpVlA3RGJJNjNXcTNGZ2pScUR2Q2hlVTUySVVqc3lUSVdPUnByMXl4RzUxRXhVXw?oc=5",
    "src_lang": "es",
    "body_orig": "BTS WORLD TOUR ‘ARIRANG’ en cines: Kaohsiung y Yakarta 2026 - Cine Cassette (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Gira: Stray Kids",
-   "body": "Stray Kids anuncian concierto en Barcelona en 2027: Entradas y Precios - Wake & Listen (Google Noticias)",
-   "title_en": "Tour: Stray Kids",
-   "body_en": "Stray Kids announce concert in Barcelona in 2027: Tickets and Prices - Wake & Listen (Google News)",
-   "when": "2026-11-09T21:44:16Z",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2T3Z2aTFac3BtMEtrLUVsNGhDUElZTVBhS2ZFeldRUGpUWE5pWVc4T1JIdzBDMnpuTnE1RERFSk1zWFVXQVRaejlrTnVUM2k0WU5lWk96cm8zWTE3SjU2RFY5UnhHU01qUEtNMUs0aWN2TVZsTFVjSVNB?oc=5",
-   "src_lang": "es",
-   "body_orig": "Stray Kids anuncian concierto en Barcelona en 2027: Entradas y Precios - Wake & Listen (Google Noticias)",
    "auto": true
   }
  ]
