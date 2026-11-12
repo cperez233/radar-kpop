@@ -1606,7 +1606,11 @@
   "official:enhypen:comeback:2026-11-12|feed": "2026-11-12T02:16:04Z",
   "official:enhypen:comeback:2026-11-12|ntfy": "2026-11-12T02:16:04Z",
   "official:enhypen:comeback:2026-11-12|pub:radarkpop-enhypen-music": "2026-11-12T02:16:04Z",
-  "official:enhypen:comeback:2026-11-12|foro": "2026-11-12T02:16:04Z"
+  "official:enhypen:comeback:2026-11-12|foro": "2026-11-12T02:16:04Z",
+  "news:6438943b834c2ecb|feed": "2026-11-12T03:01:59Z",
+  "news:6438943b834c2ecb|ntfy": "2026-11-12T03:01:59Z",
+  "news:6438943b834c2ecb|pub:radarkpop-skz-news": "2026-11-12T03:01:59Z",
+  "news:6438943b834c2ecb|foro": "2026-11-12T03:01:59Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3473,18 +3477,6 @@
   {
    "g": "skz",
    "w": [
-    "actual",
-    "anade",
-    "fechas",
-    "gira",
-    "mundial",
-    "otras"
-   ],
-   "t": "2026-11-10T02:46:01Z"
-  },
-  {
-   "g": "skz",
-   "w": [
     "aura",
     "divided",
     "hugely",
@@ -3749,6 +3741,18 @@
     "yakarta"
    ],
    "t": "2026-11-12T01:01:51Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "actual",
+    "anade",
+    "fechas",
+    "gira",
+    "mundial",
+    "otras"
+   ],
+   "t": "2026-11-12T03:01:52Z"
   }
  ],
  "discord_threads": {
