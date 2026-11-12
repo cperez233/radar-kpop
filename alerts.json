@@ -1,6 +1,53 @@
 {
- "updated_at": "2026-11-12T09:01:38Z",
+ "updated_at": "2026-11-12T10:02:48Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) - [GOLDEN HOUR : Part.6] JACKET Making Film (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) - [GOLDEN HOUR : Part.6] JACKET Making Film (YouTube)",
+   "when": "2026-11-12T10:00:24Z",
+   "url": "https://www.youtube.com/watch?v=DJerdqraOdY"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "Lowkey thought we had more room😅👌☝️👇 #LNGSHOT #Bananas #SWISH (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "Lowkey thought we had more room😅👌☝️👇 #LNGSHOT #Bananas #SWISH (YouTube)",
+   "when": "2026-11-12T10:00:21Z",
+   "url": "https://www.youtube.com/watch?v=WkMFbowXWqE"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "like me like me 👉👈 #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "like me like me 👉👈 #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou (YouTube)",
+   "when": "2026-11-12T10:00:15Z",
+   "url": "https://www.youtube.com/watch?v=Tw21uQleyfk"
+  },
+  {
+   "type": "official",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Anuncio oficial de CORTIS: gira",
+   "body": "«2026 CORTIS TOUR <BAJA TU TELÉFONO> Boceto fotográfico de FIESTA DE CUMPLEAÑOS (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
+   "title_en": "Official CORTIS news: tour",
+   "body_en": "«2026 CORTIS TOUR <PUT YOUR PHONE DOWN> BIRTHDAY PARTY Photo Sketch (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
+   "when": "2026-11-12T10:00:03Z",
+   "url": "https://x.com/cortis_bighit/status/2120818898882977863",
+   "src_lang": "en",
+   "body_orig": "«2026 CORTIS TOUR <PUT YOUR PHONE DOWN> BIRTHDAY PARTY Photo Sketch (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
+   "auto": true
+  },
   {
    "type": "official",
    "group": "seventeen",
@@ -695,50 +742,6 @@
    "body": "25 abr 2027 en Tokyo Dome, Japón. Salió de un anuncio; la hora y los detalles están por confirmar.",
    "title_en": "Stray Kids added dates in Tokyo (to be confirmed)",
    "body_en": "Apr 25, 2027 at Tokyo Dome, Japan.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Osaka (por confirmar)",
-   "body": "5 may 2027 en Kyocera Dome Osaka, Japón. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Osaka (to be confirmed)",
-   "body_en": "May 5, 2027 at Kyocera Dome Osaka, Japan.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Seattle (por confirmar)",
-   "body": "16 may 2027 en Lumen Field, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Seattle (to be confirmed)",
-   "body_en": "May 16, 2027 at Lumen Field, USA.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Vancouver (por confirmar)",
-   "body": "19 may 2027 en BC Place, Canadá. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Vancouver (to be confirmed)",
-   "body_en": "May 19, 2027 at BC Place, Canada.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en San Francisco (por confirmar)",
-   "body": "22 may 2027 en Levi's Stadium, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in San Francisco (to be confirmed)",
-   "body_en": "May 22, 2027 at Levi's Stadium, USA.",
    "when": "2026-11-09T17:46:04Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   }
