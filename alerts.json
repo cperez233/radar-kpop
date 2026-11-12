@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-12T05:01:47Z",
+ "updated_at": "2026-11-12T05:45:53Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": ".........📷🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": ".........📷🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "when": "2026-11-12T05:30:35Z",
+   "url": "https://www.youtube.com/watch?v=zDpIVCu_2o4"
+  },
   {
    "type": "video",
    "group": "twice",
@@ -722,17 +733,6 @@
    "body": "8 jun 2027 en Mercedes-Benz Stadium, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
    "title_en": "Stray Kids added dates in Atlanta (to be confirmed)",
    "body_en": "Jun 8, 2027 at Mercedes-Benz Stadium, USA.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Miami Gardens (por confirmar)",
-   "body": "11 jun 2027 en Hard Rock Stadium, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Miami Gardens (to be confirmed)",
-   "body_en": "Jun 11, 2027 at Hard Rock Stadium, USA.",
    "when": "2026-11-09T17:46:04Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   }
