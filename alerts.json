@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-12T03:01:52Z",
+ "updated_at": "2026-11-12T04:02:06Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "Home Sweet #Bananas 🏠 #LNGSHOT #SWISH (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "Home Sweet #Bananas 🏠 #LNGSHOT #SWISH (YouTube)",
+   "when": "2026-11-12T04:00:25Z",
+   "url": "https://www.youtube.com/watch?v=OjHToSR4cYk"
+  },
   {
    "type": "official",
    "group": "enhypen",
@@ -719,17 +730,6 @@
    "body": "18 jun 2027 en Soldier Field, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
    "title_en": "Stray Kids added dates in Chicago (to be confirmed)",
    "body_en": "Jun 18, 2027 at Soldier Field, USA.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Baltimore (por confirmar)",
-   "body": "22 jun 2027 en M&T Bank Stadium, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Baltimore (to be confirmed)",
-   "body_en": "Jun 22, 2027 at M&T Bank Stadium, USA.",
    "when": "2026-11-09T17:46:04Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   }

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T03:00:39Z",
+ "updated_at": "2026-11-12T04:00:41Z",
  "sample": false,
  "items": [
   {
@@ -77,6 +77,15 @@
     }
    ],
    "sp_try": "2026-11-12"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "Home Sweet #Bananas 🏠 #LNGSHOT #SWISH",
+   "date": "2026-11-12",
+   "published": "2026-11-12T04:00:25Z",
+   "url": "https://www.youtube.com/watch?v=OjHToSR4cYk",
+   "image": "https://i.ytimg.com/vi/OjHToSR4cYk/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -205,16 +214,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-12T00"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "Ok @SpotifyKR  CLOSER, this my shhh👌☝️👇 #LNGSHOT #Bananas #SWISH",
-   "date": "2026-11-10",
-   "published": "2026-11-10T14:30:29Z",
-   "url": "https://www.youtube.com/watch?v=fgzsWCavfFY",
-   "image": "https://i.ytimg.com/vi/fgzsWCavfFY/hqdefault.jpg"
+   "ytm_try": "2026-11-12T04"
   },
   {
    "type": "video",
