@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T11:15:34Z",
+ "updated_at": "2026-11-12T11:30:39Z",
  "sample": false,
  "items": [
   {
@@ -135,6 +135,15 @@
   {
    "type": "video",
    "group": "seventeen",
+   "title": "[SEVENTEEN’s SNAPSHOOT] EP.91 말랑이들의 만남",
+   "date": "2026-11-12",
+   "published": "2026-11-12T11:29:55Z",
+   "url": "https://www.youtube.com/watch?v=5cl-XlV3ZfQ",
+   "image": "https://i.ytimg.com/vi/5cl-XlV3ZfQ/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
    "title": "like me like me 👉👈 #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou",
    "date": "2026-11-12",
    "published": "2026-11-12T10:00:15Z",
@@ -185,15 +194,6 @@
    "published": "2026-11-11T16:13:00Z",
    "url": "https://www.youtube.com/watch?v=gfFuiaQjsYQ",
    "image": "https://i.ytimg.com/vi/gfFuiaQjsYQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[GOING SEVENTEEN] EP.166 도둑 #1 (THIEF #1)",
-   "date": "2026-11-11",
-   "published": "2026-11-11T11:58:06Z",
-   "url": "https://www.youtube.com/watch?v=qCzFO7JUMO4",
-   "image": "https://i.ytimg.com/vi/qCzFO7JUMO4/hqdefault.jpg"
   },
   {
    "type": "video",
