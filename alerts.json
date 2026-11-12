@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T20:16:09Z",
+ "updated_at": "2026-11-12T00:02:00Z",
  "alerts": [
   {
    "type": "video",
@@ -11,6 +11,20 @@
    "body_en": "LNGSHOT 'Bananas' 응원법 (YouTube)",
    "when": "2026-11-11T16:13:00Z",
    "url": "https://www.youtube.com/watch?v=gfFuiaQjsYQ"
+  },
+  {
+   "type": "official",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Anuncio oficial de LNGSHOT: comeback",
+   "body": "«El día del lanzamiento con @SpotifyKR fue #Bananas 🤞 deja tu track favorito en los comentarios #LNGSHOT #SWISH» (LNGSHOT en X).",
+   "title_en": "Official LNGSHOT news: comeback",
+   "body_en": "«release day with @SpotifyKR went #Bananas 🤞 drop your fav track in the comments #LNGSHOT #SWISH» (LNGSHOT en X).",
+   "when": "2026-11-11T14:10:00Z",
+   "url": "https://x.com/LNGSHOT4sho/status/2120519413619368162",
+   "src_lang": "en",
+   "body_orig": "«release day with @SpotifyKR went #Bananas 🤞 drop your fav track in the comments #LNGSHOT #SWISH» (LNGSHOT en X).",
+   "auto": true
   },
   {
    "type": "video",
@@ -66,6 +80,20 @@
    "body_en": "TWICE 11th Anniversary ‘ONCE UPON A THRI11’ & ‘TWICE THE THRILL’ Behind (YouTube)",
    "when": "2026-11-11T09:00:05Z",
    "url": "https://www.youtube.com/watch?v=wMuJyhxVM-0"
+  },
+  {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«¿Quién puede ver el BABY ANGEL🙋‍♀️ 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«Who can see the BABY ANGEL🙋‍♀️ 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
+   "when": "2026-11-11T06:03:53Z",
+   "url": "https://x.com/JYPETWICE/status/2120397079734595811",
+   "src_lang": "en",
+   "body_orig": "«Who can see the BABY ANGEL🙋‍♀️ 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
+   "auto": true
   },
   {
    "type": "video",
@@ -458,6 +486,20 @@
    "group": "cortis",
    "group_name": "CORTIS",
    "title": "Anuncio oficial de CORTIS: comeback",
+   "body": "«[Aviso] CORTIS El 2º EP 'GREENGREEN_playextended' (versión 'Blue Lips' Lip Mask) Información de reserva (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749...» (CORTIS en X).",
+   "title_en": "Official CORTIS news: comeback",
+   "body_en": "«[Notice] CORTIS The 2nd EP 'GREENGREEN_playextended' ('Blue Lips' Lip Mask ver.) Pre-order information (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749 ...» (CORTIS en X).",
+   "when": "2026-11-10T01:00:01Z",
+   "url": "https://x.com/cortis_bighit/status/2119958221460828434",
+   "src_lang": "ko",
+   "body_orig": "«[Notice] CORTIS The 2nd EP 'GREENGREEN_playextended' ('Blue Lips' Lip Mask ver.) 예약 구매 안내 (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749 ...» (CORTIS en X).",
+   "auto": true
+  },
+  {
+   "type": "official",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Anuncio oficial de CORTIS: comeback",
    "body": "«[Aviso] CORTIS El 2do EP 'GREENGREEN_playextended' (versión 'Blue Lips' Lip Mask) Información de reserva (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749...» (CORTIS en X).",
    "title_en": "Official CORTIS news: comeback",
    "body_en": "«[Notice] CORTIS The 2nd EP 'GREENGREEN_playextended' ('Blue Lips' Lip Mask ver.) Pre-order information (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749 ...» (CORTIS en X).",
@@ -682,39 +724,6 @@
    "body": "29 jun 2027 en MetLife Stadium, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
    "title_en": "Stray Kids added dates in East Rutherford (to be confirmed)",
    "body_en": "Jun 29, 2027 at MetLife Stadium, USA.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en París (por confirmar)",
-   "body": "9 jul 2027 en Plenitude Arena, Francia. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Paris (to be confirmed)",
-   "body_en": "Jul 9, 2027 at Plenitude Arena, France.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Londres (por confirmar)",
-   "body": "13 jul 2027 en Tottenham Hotspur Stadium, Reino Unido. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in London (to be confirmed)",
-   "body_en": "Jul 13, 2027 at Tottenham Hotspur Stadium, United Kingdom.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Múnich (por confirmar)",
-   "body": "17 jul 2027 en Allianz Arena, Alemania. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Munich (to be confirmed)",
-   "body_en": "Jul 17, 2027 at Allianz Arena, Germany.",
    "when": "2026-11-09T17:46:04Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   }
