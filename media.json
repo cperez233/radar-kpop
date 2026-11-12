@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T11:30:39Z",
+ "updated_at": "2026-11-12T12:00:39Z",
  "sample": false,
  "items": [
   {
@@ -161,6 +161,24 @@
   },
   {
    "type": "video",
+   "group": "cortis",
+   "title": "이상한 소리 작작이야",
+   "date": "2026-11-12",
+   "published": "2026-11-12T11:59:57Z",
+   "url": "https://www.youtube.com/watch?v=f11c7oW8OpY",
+   "image": "https://i.ytimg.com/vi/f11c7oW8OpY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "유하 님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-12",
+   "published": "2026-11-12T12:00:17Z",
+   "url": "https://www.youtube.com/watch?v=xrj29IM3yjc",
+   "image": "https://i.ytimg.com/vi/xrj29IM3yjc/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "ateez",
    "title": "최희진 선배님과 해, 쩌는 짓 😎 #Shorts",
    "date": "2026-11-12",
@@ -241,7 +259,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-12T08"
+   "ytm_try": "2026-11-12T12"
   },
   {
    "type": "video",
@@ -287,24 +305,6 @@
    "published": "2026-11-09T13:59:30Z",
    "url": "https://www.youtube.com/watch?v=OIiKFF7Zaf8",
    "image": "https://i.ytimg.com/vi/OIiKFF7Zaf8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "윤민 님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-09",
-   "published": "2026-11-09T14:00:35Z",
-   "url": "https://www.youtube.com/watch?v=MdI4oeU4Wvo",
-   "image": "https://i.ytimg.com/vi/MdI4oeU4Wvo/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "i'm all gone fr #CORTIS #코르티스",
-   "date": "2026-11-08",
-   "published": "2026-11-08T04:00:35Z",
-   "url": "https://www.youtube.com/watch?v=-4QnrDCxyZQ",
-   "image": "https://i.ytimg.com/vi/-4QnrDCxyZQ/hqdefault.jpg"
   },
   {
    "type": "video",

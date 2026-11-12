@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-12T11:31:00Z",
+ "updated_at": "2026-11-12T12:01:24Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "유하 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "유하 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "when": "2026-11-12T12:00:17Z",
+   "url": "https://www.youtube.com/watch?v=xrj29IM3yjc"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "이상한 소리 작작이야 (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "이상한 소리 작작이야 (YouTube)",
+   "when": "2026-11-12T11:59:57Z",
+   "url": "https://www.youtube.com/watch?v=f11c7oW8OpY"
+  },
   {
    "type": "video",
    "group": "seventeen",
@@ -695,34 +717,6 @@
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOREw4QXppTG1HSVd2MlBqdXN6ZjFHbUt0ZF8xamNtdGsxSU16bXE4WDIzaU1xeUJpTEtkakpCTkkyUWszMG9wLVJDQ2dmbjU1emlTaUpsdUVPdGJLZG1iNHhIMmRnV1d6NFFna3lzM3VRRzh5bkVLVDVkUVlTeUM0UA?oc=5",
    "src_lang": "es",
    "body_orig": "Stray Kids añade otras 25 fechas a su gira mundial actual - Agencia de Noticias Yonhap (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Anuncio oficial de CORTIS: comeback",
-   "body": "«[Aviso] CORTIS El 2º EP 'GREENGREEN_playextended' (versión 'Blue Lips' Lip Mask) Información de reserva (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749...» (CORTIS en X).",
-   "title_en": "Official CORTIS news: comeback",
-   "body_en": "«[Notice] CORTIS The 2nd EP 'GREENGREEN_playextended' ('Blue Lips' Lip Mask ver.) Pre-order information (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749 ...» (CORTIS en X).",
-   "when": "2026-11-10T01:00:01Z",
-   "url": "https://x.com/cortis_bighit/status/2119958221460828434",
-   "src_lang": "ko",
-   "body_orig": "«[Notice] CORTIS The 2nd EP 'GREENGREEN_playextended' ('Blue Lips' Lip Mask ver.) 예약 구매 안내 (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749 ...» (CORTIS en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Anuncio oficial de CORTIS: comeback",
-   "body": "«[Aviso] CORTIS El 2do EP 'GREENGREEN_playextended' (versión 'Blue Lips' Lip Mask) Información de reserva (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749...» (CORTIS en X).",
-   "title_en": "Official CORTIS news: comeback",
-   "body_en": "«[Notice] CORTIS The 2nd EP 'GREENGREEN_playextended' ('Blue Lips' Lip Mask ver.) Pre-order information (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749 ...» (CORTIS en X).",
-   "when": "2026-11-10T01:00:01Z",
-   "url": "https://x.com/cortis_bighit/status/2119958221460828434",
-   "src_lang": "ko",
-   "body_orig": "«[Notice] CORTIS The 2nd EP 'GREENGREEN_playextended' ('Blue Lips' Lip Mask ver.) 예약 구매 안내 (+ENG/JPN/CHN) https://weverse.io/cortis/notice/40749 ...» (CORTIS en X).",
    "auto": true
   },
   {
