@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T13:00:41Z",
+ "updated_at": "2026-11-12T14:00:40Z",
  "sample": false,
  "items": [
   {
@@ -171,6 +171,15 @@
   {
    "type": "video",
    "group": "cortis",
+   "title": "all you need is a shutter sound #CORTIS #코르티스",
+   "date": "2026-11-12",
+   "published": "2026-11-12T14:00:15Z",
+   "url": "https://www.youtube.com/watch?v=W9oln2WOmMw",
+   "image": "https://i.ytimg.com/vi/W9oln2WOmMw/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
    "title": "이상한 소리 작작이야",
    "date": "2026-11-12",
    "published": "2026-11-12T11:59:57Z",
@@ -278,15 +287,6 @@
    "published": "2026-11-10T10:15:11Z",
    "url": "https://www.youtube.com/watch?v=MZBnpDr1Rvk",
    "image": "https://i.ytimg.com/vi/MZBnpDr1Rvk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "PYPD BIRTHDAY PARTY",
-   "date": "2026-11-10",
-   "published": "2026-11-10T11:59:58Z",
-   "url": "https://www.youtube.com/watch?v=tfbvbOThPMI",
-   "image": "https://i.ytimg.com/vi/tfbvbOThPMI/hqdefault.jpg"
   },
   {
    "type": "video",

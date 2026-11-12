@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-12T13:15:56Z",
+ "updated_at": "2026-11-12T14:01:46Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "all you need is a shutter sound #CORTIS #코르티스 (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "all you need is a shutter sound #CORTIS #코르티스 (YouTube)",
+   "when": "2026-11-12T14:00:15Z",
+   "url": "https://www.youtube.com/watch?v=W9oln2WOmMw"
+  },
   {
    "type": "video",
    "group": "seventeen",
@@ -712,17 +723,6 @@
    "src_lang": "en",
    "body_orig": "Seemingly Sexual Aura Of Stray Kids’ New Teaser Incites Hugely Divided Reactions (Koreaboo)",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "[MINITEEN] SNOW with MINITEEN | Little Snow Friend ❄️ (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "[MINITEEN] SNOW with MINITEEN | Little Snow Friend ❄️ (YouTube)",
-   "when": "2026-11-10T05:00:02Z",
-   "url": "https://www.youtube.com/watch?v=dIolrmEUAKI"
   }
  ]
 }
