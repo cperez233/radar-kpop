@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T12:15:35Z",
+ "updated_at": "2026-11-12T13:00:41Z",
  "sample": false,
  "items": [
   {
@@ -144,6 +144,15 @@
   {
    "type": "video",
    "group": "seventeen",
+   "title": "S.COUPS(에스쿱스) 쿡스쿱스 | 혼자서도 잘 빚어요 편",
+   "date": "2026-11-12",
+   "published": "2026-11-12T12:59:58Z",
+   "url": "https://www.youtube.com/watch?v=qiOh_IrZ2ug",
+   "image": "https://i.ytimg.com/vi/qiOh_IrZ2ug/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
    "title": "#꼬잉_픽📌 너는 최고의 도둑이 돼 돈은 나에게 줘 #SEVENTEEN #세븐틴 #GOING_SVT #고잉세븐틴 #shorts",
    "date": "2026-11-12",
    "published": "2026-11-12T12:00:22Z",
@@ -158,15 +167,6 @@
    "published": "2026-11-12T11:29:55Z",
    "url": "https://www.youtube.com/watch?v=5cl-XlV3ZfQ",
    "image": "https://i.ytimg.com/vi/5cl-XlV3ZfQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "like me like me 👉👈 #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou",
-   "date": "2026-11-12",
-   "published": "2026-11-12T10:00:15Z",
-   "url": "https://www.youtube.com/watch?v=Tw21uQleyfk",
-   "image": "https://i.ytimg.com/vi/Tw21uQleyfk/hqdefault.jpg"
   },
   {
    "type": "video",

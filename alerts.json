@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-12T12:15:55Z",
+ "updated_at": "2026-11-12T13:01:45Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "S.COUPS(에스쿱스) 쿡스쿱스 | 혼자서도 잘 빚어요 편 (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "S.COUPS(에스쿱스) 쿡스쿱스 | 혼자서도 잘 빚어요 편 (YouTube)",
+   "when": "2026-11-12T12:59:58Z",
+   "url": "https://www.youtube.com/watch?v=qiOh_IrZ2ug"
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -711,20 +722,6 @@
    "url": "https://x.com/ATEEZofficial/status/2120018618914144499",
    "src_lang": "ko",
    "body_orig": "«[🎬] ATEEZ(에이티즈) - 'UP' Official MV Teaser 1 2026. 11. 13 2PM ALBUM RELEASE https://youtu.be/lYH1OEsyhaQ #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Gira: Stray Kids",
-   "body": "Stray Kids añade otras 25 fechas a su gira mundial actual - Agencia de Noticias Yonhap (Google Noticias)",
-   "title_en": "Tour: Stray Kids",
-   "body_en": "Stray Kids add another 25 dates to current world tour - Yonhap News Agency (Google News)",
-   "when": "2026-11-10T02:26:50Z",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqOWlvZkhGOVN6WERqOXN5UXJZQzFSYlR4WDd0LWhiaDZ0RVd3blBYTW9pS0Zza05JSUNxcGpkRXRzN0RoTG9tMXNHTFdmdWdFSUlJVlAycmdrQQ?oc=5",
-   "src_lang": "es",
-   "body_orig": "Stray Kids añade otras 25 fechas a su gira mundial actual - Agencia de Noticias Yonhap (Google Noticias)",
    "auto": true
   }
  ]
