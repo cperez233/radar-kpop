@@ -1643,7 +1643,11 @@
   "news:2ca4719a5c981b54|feed": "2026-11-12T12:01:29Z",
   "news:5794a943fa2cc1a3|feed": "2026-11-12T12:16:01Z",
   "news:8c88a9915fef002f|feed": "2026-11-12T12:16:01Z",
-  "news:8e511594df466be8|feed": "2026-11-12T13:01:50Z"
+  "news:8e511594df466be8|feed": "2026-11-12T13:01:50Z",
+  "news:0b1e7d462bff6605|feed": "2026-11-12T13:16:03Z",
+  "news:0b1e7d462bff6605|ntfy": "2026-11-12T13:16:03Z",
+  "news:0b1e7d462bff6605|pub:radarkpop-skz-news": "2026-11-12T13:16:03Z",
+  "news:0b1e7d462bff6605|foro": "2026-11-12T13:16:03Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3511,19 +3515,6 @@
    "g": "skz",
    "w": [
     "2027",
-    "aterriza",
-    "barcelona",
-    "julio",
-    "run",
-    "tour",
-    "world"
-   ],
-   "t": "2026-11-10T13:15:55Z"
-  },
-  {
-   "g": "skz",
-   "w": [
-    "2027",
     "conciertos",
     "dara",
     "esto",
@@ -3773,6 +3764,18 @@
     "viveiro"
    ],
    "t": "2026-11-12T12:30:57Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "anuncia",
+    "europa",
+    "gira",
+    "mundial",
+    "norteamerica",
+    "run"
+   ],
+   "t": "2026-11-12T13:15:56Z"
   }
  ],
  "discord_threads": {

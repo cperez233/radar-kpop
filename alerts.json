@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T13:01:45Z",
+ "updated_at": "2026-11-12T13:15:56Z",
  "alerts": [
   {
    "type": "video",
@@ -492,6 +492,20 @@
    "auto": true
   },
   {
+   "type": "tour",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Gira: Stray Kids",
+   "body": "Stray Kids anuncia la gira mundial 'Run it' a Norteamérica y Europa - XEVA (Google Noticias)",
+   "title_en": "Tour: Stray Kids",
+   "body_en": "Stray Kids announces the 'Run it' world tour in North America and Europe - XEVA (Google News)",
+   "when": "2026-11-10T14:50:00Z",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUTY5UHBiYkEtT2dBeWtMTEZPVkxLNHlIVjJNY1VYTGI0Yno5VTNsRTdlU3I2bWNuN2s4d3dqdnQwRlU1cFp6bzYtaEZ0eFNKdF9jRkVyS2hOanlJTUMxQ0Y5M3hQRktwQ05ya3JwZDZBa2RiQmM3d291Mk9NSWozYUJiaGJLLU1Sa2pKZ0pnNXBhem9PME9zWXNldFNfTVh6cThKUHZyZlc?oc=5",
+   "src_lang": "es",
+   "body_orig": "Stray Kids anuncia la gira mundial 'Run it' a Norteamérica y Europa - XEVA (Google Noticias)",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "lngshot",
    "group_name": "LNGSHOT",
@@ -709,20 +723,6 @@
    "body_en": "[MINITEEN] SNOW with MINITEEN | Little Snow Friend ❄️ (YouTube)",
    "when": "2026-11-10T05:00:02Z",
    "url": "https://www.youtube.com/watch?v=dIolrmEUAKI"
-  },
-  {
-   "type": "official",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Anuncio oficial de ATEEZ: comeback",
-   "body": "«[🎬] ATEEZ - 'UP' Official MV Teaser 1 2026. 11. 13 2PM LANZAMIENTO DEL ÁLBUM https://youtu.be/lYH1OEsyhaQ #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
-   "title_en": "Official ATEEZ news: comeback",
-   "body_en": "«[🎬] ATEEZ - 'UP' Official MV Teaser 1 2026. 11. 13 2PM ALBUM RELEASE https://youtu.be/lYH1OEsyhaQ #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
-   "when": "2026-11-10T05:00:01Z",
-   "url": "https://x.com/ATEEZofficial/status/2120018618914144499",
-   "src_lang": "ko",
-   "body_orig": "«[🎬] ATEEZ(에이티즈) - 'UP' Official MV Teaser 1 2026. 11. 13 2PM ALBUM RELEASE https://youtu.be/lYH1OEsyhaQ #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
-   "auto": true
   }
  ]
 }
