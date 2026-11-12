@@ -1602,7 +1602,11 @@
   "official:cortis:comeback:2026-11-12|feed": "2026-11-12T00:02:07Z",
   "official:cortis:comeback:2026-11-12|ntfy": "2026-11-12T00:02:07Z",
   "official:cortis:comeback:2026-11-12|pub:radarkpop-cortis-music": "2026-11-12T00:02:07Z",
-  "official:cortis:comeback:2026-11-12|foro": "2026-11-12T00:02:07Z"
+  "official:cortis:comeback:2026-11-12|foro": "2026-11-12T00:02:07Z",
+  "official:enhypen:comeback:2026-11-12|feed": "2026-11-12T02:16:04Z",
+  "official:enhypen:comeback:2026-11-12|ntfy": "2026-11-12T02:16:04Z",
+  "official:enhypen:comeback:2026-11-12|pub:radarkpop-enhypen-music": "2026-11-12T02:16:04Z",
+  "official:enhypen:comeback:2026-11-12|foro": "2026-11-12T02:16:04Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2664,8 +2668,6 @@
   }
  },
  "news_seen": [
-  "85489152cfaa2422",
-  "8550e42a10a5122e",
   "856929748a34a2a5",
   "858f28353c3cd9fe",
   "85b02dd3aed05fe2",
@@ -2811,6 +2813,7 @@
   "9cbe02d9d0600c9d",
   "9d07b63c6416fe79",
   "9d0eb49e37175554",
+  "9d1a2d967fac0080",
   "9d3639a140b1fd72",
   "9d500e6fb01a28fd",
   "9d80bf24746209a2",
@@ -3342,6 +3345,7 @@
   "eb79e53ca7681de1",
   "eb82c6edfff459b7",
   "eb9db11242eda275",
+  "eba8c84e78ef9904",
   "ec325e1df85ea8ee",
   "ec6ec336427e3264",
   "ec96394f5f41c24a",

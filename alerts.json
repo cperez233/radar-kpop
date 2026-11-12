@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-12T00:02:00Z",
+ "updated_at": "2026-11-12T02:15:58Z",
  "alerts": [
+  {
+   "type": "official",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Anuncio oficial de ENHYPEN: comeback",
+   "body": "«Reserva #THE_SIN_PARALLEL_WORLD de #ENHYPEN https://enhypen.lnk.to/THESINPARALLELWORLD ¡Mira las exclusivas! [Target & EU] - Foto exclusiva del coche...» (ENHYPEN en X).",
+   "title_en": "Official ENHYPEN news: comeback",
+   "body_en": "«Pre-order #ENHYPEN 's #THE_SIN_PARALLEL_WORLD https://enhypen.lnk.to/THESINPARALLELWORLD Check out the Exclusives! [Target & EU] - Exclusive Photo car...» (ENHYPEN en X).",
+   "when": "2026-11-12T02:15:08Z",
+   "url": "https://x.com/ENHYPEN/status/2120701902556123556",
+   "src_lang": "en",
+   "body_orig": "«Pre-order #ENHYPEN 's #THE_SIN_PARALLEL_WORLD https://enhypen.lnk.to/THESINPARALLELWORLD Check out the Exclusives! [Target & EU] - Exclusive Photo car...» (ENHYPEN en X).",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -713,17 +727,6 @@
    "body": "25 jun 2027 en Rogers Stadium, Canadá. Salió de un anuncio; la hora y los detalles están por confirmar.",
    "title_en": "Stray Kids added dates in Toronto (to be confirmed)",
    "body_en": "Jun 25, 2027 at Rogers Stadium, Canada.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en East Rutherford (por confirmar)",
-   "body": "29 jun 2027 en MetLife Stadium, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in East Rutherford (to be confirmed)",
-   "body_en": "Jun 29, 2027 at MetLife Stadium, USA.",
    "when": "2026-11-09T17:46:04Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   }
