@@ -2690,7 +2690,6 @@
   }
  },
  "news_seen": [
-  "886c351d707fcf72",
   "88b7140dbaff2be3",
   "88cc362a13a3b0ea",
   "88dd608ac4d8cbec",
@@ -2845,6 +2844,7 @@
   "9efe1c9d3e512918",
   "9f0eb99337be205c",
   "9f1ac5471e236c8e",
+  "9f1e0f7fb31d6e8c",
   "9f9083a84db2f067",
   "9fa5e9de5ffd7535",
   "9fb001d5ac0ffae2",
@@ -3492,20 +3492,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "skz",
-   "w": [
-    "anuncia",
-    "europa",
-    "gira",
-    "grupo",
-    "mundial",
-    "norteamerica",
-    "pop",
-    "run"
-   ],
-   "t": "2026-11-10T09:32:01Z"
-  },
   {
    "g": "bts",
    "w": [
