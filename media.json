@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T06:00:44Z",
+ "updated_at": "2026-11-12T06:45:36Z",
  "sample": false,
  "items": [
   {
@@ -81,6 +81,15 @@
   {
    "type": "video",
    "group": "twice",
+   "title": "WHERE IS NY? #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-12",
+   "published": "2026-11-12T06:30:20Z",
+   "url": "https://www.youtube.com/watch?v=l0IOElkRH6I",
+   "image": "https://i.ytimg.com/vi/l0IOElkRH6I/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
    "title": "OH NO! Where did she go? #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
    "date": "2026-11-12",
    "published": "2026-11-12T06:00:09Z",
@@ -95,15 +104,6 @@
    "published": "2026-11-12T05:30:35Z",
    "url": "https://www.youtube.com/watch?v=zDpIVCu_2o4",
    "image": "https://i.ytimg.com/vi/zDpIVCu_2o4/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "I'M HERE! #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
-   "date": "2026-11-12",
-   "published": "2026-11-12T05:00:06Z",
-   "url": "https://www.youtube.com/watch?v=Mm-qZVRc-Bw",
-   "image": "https://i.ytimg.com/vi/Mm-qZVRc-Bw/hqdefault.jpg"
   },
   {
    "type": "video",

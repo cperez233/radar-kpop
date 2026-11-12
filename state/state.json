@@ -1618,7 +1618,8 @@
   "official:ateez:comeback:2026-11-12|foro": "2026-11-12T05:01:52Z",
   "news:ff8f526e9edce40d|feed": "2026-11-12T05:01:52Z",
   "news:5584eb71a17e232e|feed": "2026-11-12T05:46:00Z",
-  "news:7936f60fee1afa34|feed": "2026-11-12T06:01:59Z"
+  "news:7936f60fee1afa34|feed": "2026-11-12T06:01:59Z",
+  "news:c46a5ced8ef218b2|feed": "2026-11-12T06:46:00Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2680,7 +2681,6 @@
   }
  },
  "news_seen": [
-  "87dfec5aed77d0e2",
   "880b48dda87dbd6d",
   "883a15fa5402ae75",
   "8859481a83e5eb4b",
@@ -3097,6 +3097,7 @@
   "c425d34757e7c990",
   "c42a326748bc0ee7",
   "c45d6357ec9fa645",
+  "c46a5ced8ef218b2",
   "c47b5098f6e91482",
   "c49be527ac62c7d5",
   "c4af2608ebd7f7ee",
