@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-12T06:45:56Z",
+ "updated_at": "2026-11-12T08:46:12Z",
  "alerts": [
+  {
+   "type": "comeback",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Comeback: ATEEZ",
+   "body": "Exclusiva: ATEEZ reflexiona sobre el éxito de “BAD” y fija su mirada en “UP” en su conferencia de prensa de regreso (Soompi)",
+   "title_en": "Comeback: ATEEZ",
+   "body_en": "Exclusive: ATEEZ Reflects On “BAD” Success And Sets Their Sights On “UP” At Comeback Press Conference (Soompi)",
+   "when": "2026-11-12T08:31:35Z",
+   "url": "https://www.soompi.com/article/1886248wpp/exclusive-ateez-reflects-on-bad-success-and-sets-their-sights-on-up-at-comeback-press-conference",
+   "src_lang": "en",
+   "body_orig": "Exclusive: ATEEZ Reflects On “BAD” Success And Sets Their Sights On “UP” At Comeback Press Conference (Soompi)",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "twice",
@@ -722,17 +736,6 @@
    "body": "29 may 2027 en SoFi Stadium, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
    "title_en": "Stray Kids added dates in Los Angeles (to be confirmed)",
    "body_en": "May 29, 2027 at SoFi Stadium, USA.",
-   "when": "2026-11-09T17:46:04Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Dallas (por confirmar)",
-   "body": "3 jun 2027 en AT&T Stadium, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Dallas (to be confirmed)",
-   "body_en": "Jun 3, 2027 at AT&T Stadium, USA.",
    "when": "2026-11-09T17:46:04Z",
    "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
   }
