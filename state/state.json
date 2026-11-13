@@ -1677,7 +1677,11 @@
   "news:e033a5889e71c195|feed": "2026-11-13T05:31:05Z",
   "news:2f2af83c3a3b7420|feed": "2026-11-13T06:01:08Z",
   "news:ccf6010c6bd7c673|feed": "2026-11-13T07:31:08Z",
-  "news:cb2b13f0320e4669|feed": "2026-11-13T09:01:06Z"
+  "news:cb2b13f0320e4669|feed": "2026-11-13T09:01:06Z",
+  "news:bf9f4a625a7e5b1c|feed": "2026-11-13T10:16:50Z",
+  "news:bf9f4a625a7e5b1c|ntfy": "2026-11-13T10:16:50Z",
+  "news:bf9f4a625a7e5b1c|pub:radarkpop-skz-news": "2026-11-13T10:16:50Z",
+  "news:bf9f4a625a7e5b1c|foro": "2026-11-13T10:16:50Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2739,7 +2743,6 @@
   }
  },
  "news_seen": [
-  "8dcc8d1ad364fdf2",
   "8e12eee93add22d0",
   "8e18cdc95723c6e8",
   "8e511594df466be8",
@@ -3103,6 +3106,7 @@
   "bf726cced51058a2",
   "bf87370d48aa70d5",
   "bf8f8400bbecc192",
+  "bf9f4a625a7e5b1c",
   "bfc6d46ac7a075cb",
   "bfcbfb22226d055b",
   "c04fb5b2c3cca909",
@@ -3783,6 +3787,18 @@
     "revela"
    ],
    "t": "2026-11-13T04:45:50Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "argentina",
+    "detalles",
+    "gira",
+    "nuevo",
+    "revela",
+    "video"
+   ],
+   "t": "2026-11-13T10:16:44Z"
   }
  ],
  "discord_threads": {

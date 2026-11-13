@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13T09:00:59Z",
+ "updated_at": "2026-11-13T10:16:44Z",
  "alerts": [
   {
    "type": "video",
@@ -44,6 +44,20 @@
    "body_en": "ATEEZ(에이티즈) - 'UP' Official MV CLIP #Shorts (YouTube)",
    "when": "2026-11-13T05:30:19Z",
    "url": "https://www.youtube.com/watch?v=7Se3WIBeyUw"
+  },
+  {
+   "type": "latam",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Latinoamérica: Stray Kids",
+   "body": "Stray Kids revela detalles de su gira por Argentina en un nuevo vídeo - www.famtimes.co.kr (Google Noticias)",
+   "title_en": "Latin America: Stray Kids",
+   "body_en": "Stray Kids reveal details of their tour of Argentina in a new video - www.famtimes.co.kr (Google News)",
+   "when": "2026-11-13T02:02:58Z",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE12S3BIU2ZoSjBYZUZiMVZRMjBwNV9LVGNRaEVaRU9BRktIR2FyMGViQzBhZ2VfYTBFWUt1MTRSM0RCRktpSmVCYkpBbTFJLTVyd28xVkxfdWdZdERnYXdBcVJ6Sm16aUd0SUd2MS0tdFkzUQ?oc=5",
+   "src_lang": "es",
+   "body_orig": "Stray Kids revela detalles de su gira por Argentina en un nuevo vídeo - www.famtimes.co.kr (Google Noticias)",
+   "auto": true
   },
   {
    "type": "comeback",
@@ -715,17 +729,6 @@
    "src_lang": "en",
    "body_orig": "«PYPD BIRTHDAY PARTY 🎂 (https://youtu.be/tfbvbOThPMI) #CORTIS #코르티스 #CORTIS_TOUR #PUTYOURPHONEDOWN #PYPD_BIRTHDAY_PARTY» (CORTIS en X).",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Nuevo video: CORTIS",
-   "body": "PYPD BIRTHDAY PARTY (YouTube)",
-   "title_en": "New video: CORTIS",
-   "body_en": "PYPD BIRTHDAY PARTY (YouTube)",
-   "when": "2026-11-10T11:59:58Z",
-   "url": "https://www.youtube.com/watch?v=tfbvbOThPMI"
   }
  ]
 }
