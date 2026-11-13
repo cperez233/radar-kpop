@@ -1692,7 +1692,11 @@
   "news:3c6afa228908e675|feed": "2026-11-13T19:46:03Z",
   "news:3c6afa228908e675|ntfy": "2026-11-13T19:46:03Z",
   "news:3c6afa228908e675|pub:radarkpop-bts-news": "2026-11-13T19:46:03Z",
-  "news:3c6afa228908e675|foro": "2026-11-13T19:46:03Z"
+  "news:3c6afa228908e675|foro": "2026-11-13T19:46:03Z",
+  "news:82fd62147b966d0e|feed": "2026-11-13T23:46:07Z",
+  "news:82fd62147b966d0e|ntfy": "2026-11-13T23:46:07Z",
+  "news:82fd62147b966d0e|pub:radarkpop-lngshot-news": "2026-11-13T23:46:07Z",
+  "news:82fd62147b966d0e|foro": "2026-11-13T23:46:07Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3727,6 +3731,26 @@
     "uniforme"
    ],
    "t": "2026-11-13T19:45:57Z"
+  },
+  {
+   "g": "lngshot",
+   "w": [
+    "2027",
+    "anuncia",
+    "detalles",
+    "fecha",
+    "frontera",
+    "gira",
+    "mundial",
+    "noche",
+    "nuevo",
+    "precios",
+    "single",
+    "tour",
+    "voz",
+    "wonho"
+   ],
+   "t": "2026-11-13T23:46:01Z"
   }
  ],
  "discord_threads": {
