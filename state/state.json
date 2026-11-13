@@ -2735,7 +2735,6 @@
   }
  },
  "news_seen": [
-  "8ab7b643978f419d",
   "8ac06c80718679df",
   "8ad15c2ec3cf151e",
   "8aee2bd22e4f594f",
@@ -3224,6 +3223,7 @@
   "cf15d6237e44be59",
   "cf2ea6bb4a5b4c4c",
   "cf54b8082791e2d2",
+  "cf6c1e22c40c4cc1",
   "cf7221065f518d7b",
   "cf769c9ee378e456",
   "cf7a2c7c50c0bcc3",
@@ -3538,22 +3538,6 @@
  ],
  "news_topics": [
   {
-   "g": "skz",
-   "w": [
-    "esto",
-    "fechas",
-    "gira",
-    "mexico",
-    "mundial",
-    "nuevas",
-    "podria",
-    "sabemos",
-    "sumar",
-    "vendra"
-   ],
-   "t": "2026-11-11T03:16:05Z"
-  },
-  {
    "g": "twice",
    "w": [
     "comeback",
@@ -3779,6 +3763,22 @@
     "world"
    ],
    "t": "2026-11-12T23:31:01Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "esto",
+    "fechas",
+    "gira",
+    "mexico",
+    "mundial",
+    "nuevas",
+    "podria",
+    "sabemos",
+    "sumar",
+    "vendra"
+   ],
+   "t": "2026-11-13T03:16:53Z"
   }
  ],
  "discord_threads": {
