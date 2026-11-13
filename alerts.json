@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-13T12:01:07Z",
+ "updated_at": "2026-11-13T12:16:54Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "#Bananas kickin off on music shows ☑️ #LNGSHOT #SWISH (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "#Bananas kickin off on music shows ☑️ #LNGSHOT #SWISH (YouTube)",
+   "when": "2026-11-13T12:00:36Z",
+   "url": "https://www.youtube.com/watch?v=ixl20NW59Ao"
+  },
   {
    "type": "video",
    "group": "cortis",
@@ -709,20 +720,6 @@
    "body_en": "[SVT Record] 과니차니 어디 가니 | 형들 와줘서 고마워🩷🩵 | 금방 다녀오겠습니다🫡 #31 (YouTube)",
    "when": "2026-11-10T13:00:05Z",
    "url": "https://www.youtube.com/watch?v=sDyRCZnhDE8"
-  },
-  {
-   "type": "official",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Anuncio oficial de TWICE: comeback",
-   "body": "«NAYEON SINGLE “NA-sty” NA-sty_PHOTO.exe 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KST/0AM ET #TWICE #...» (TWICE en X).",
-   "title_en": "Official TWICE news: comeback",
-   "body_en": "«NAYEON SINGLE “NA-sty” NA-sty_PHOTO.exe 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #...» (TWICE en X).",
-   "when": "2026-11-10T13:00:00Z",
-   "url": "https://x.com/JYPETWICE/status/2120139411669086634",
-   "src_lang": "en",
-   "body_orig": "«NAYEON SINGLE “NA-sty” NA-sty_PHOTO.exe 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #...» (TWICE en X).",
-   "auto": true
   }
  ]
 }
