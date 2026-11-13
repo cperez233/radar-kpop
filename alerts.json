@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-13T13:46:00Z",
+ "updated_at": "2026-11-13T14:16:51Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "Unbox #SWISH with #LNGSHOT: Card Pack Edition 📦 (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "Unbox #SWISH with #LNGSHOT: Card Pack Edition 📦 (YouTube)",
+   "when": "2026-11-13T14:10:35Z",
+   "url": "https://www.youtube.com/watch?v=6TFHiSj1_Tc"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "소리 질러 My name #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "소리 질러 My name #Shorts (YouTube)",
+   "when": "2026-11-13T14:00:33Z",
+   "url": "https://www.youtube.com/watch?v=L3pUhm8cFG0"
+  },
   {
    "type": "video",
    "group": "ateez",
@@ -695,31 +717,6 @@
    "src_lang": "es",
    "body_orig": "¿Stray Kids dará conciertos en Latinoamérica en 2027? Esto es lo que se sabe de su NUEVA gira par 2027 - TV Azteca (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Gira: Stray Kids",
-   "body": "Stray Kids anuncia la gira mundial 'Run it' a Norteamérica y Europa - XEVA (Google Noticias)",
-   "title_en": "Tour: Stray Kids",
-   "body_en": "Stray Kids announces the 'Run it' world tour in North America and Europe - XEVA (Google News)",
-   "when": "2026-11-10T14:50:00Z",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUTY5UHBiYkEtT2dBeWtMTEZPVkxLNHlIVjJNY1VYTGI0Yno5VTNsRTdlU3I2bWNuN2s4d3dqdnQwRlU1cFp6bzYtaEZ0eFNKdF9jRkVyS2hOanlJTUMxQ0Y5M3hQRktwQ05ya3JwZDZBa2RiQmM3d291Mk9NSWozYUJiaGJLLU1Sa2pKZ0pnNXBhem9PME9zWXNldFNfTVh6cThKUHZyZlc?oc=5",
-   "src_lang": "es",
-   "body_orig": "Stray Kids anuncia la gira mundial 'Run it' a Norteamérica y Europa - XEVA (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "Ok @SpotifyKR CLOSER, this my shhh👌☝️👇 #LNGSHOT #Bananas #SWISH (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "Ok @SpotifyKR CLOSER, this my shhh👌☝️👇 #LNGSHOT #Bananas #SWISH (YouTube)",
-   "when": "2026-11-10T14:30:29Z",
-   "url": "https://www.youtube.com/watch?v=fgzsWCavfFY"
   }
  ]
 }
