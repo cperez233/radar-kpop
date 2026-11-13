@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13T14:30:38Z",
+ "updated_at": "2026-11-13T15:00:44Z",
  "sample": false,
  "items": [
   {
@@ -541,7 +541,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-13T11",
+   "ytm_try": "2026-11-13T15",
    "sp_try": "2026-11-13"
   },
   {
@@ -767,6 +767,7 @@
    "url": "https://music.apple.com/us/album/golden-hour-part-5-ep/6770401924",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/5e/a0/155ea070-3f0d-84ae-7883-128ecd9ed5bf/196874257944.jpg/300x300bb.jpg",
    "ytm_v": 6,
+   "spotify": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV",
    "tracks": [
     {
      "n": "BAD",
@@ -794,8 +795,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/b5/2b/24b52b73-dbe4-fcac-df46-a5f3a1ed655c/mzaf_1726586804421670850.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-13T14",
-   "spotify": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV"
+   "ytm_try": "2026-11-13T14"
   },
   {
    "type": "music",
@@ -1296,7 +1296,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-13T11"
+   "ytm_try": "2026-11-13T15"
   },
   {
    "type": "music",
