@@ -1673,7 +1673,8 @@
   "official:ateez:comeback:2026-11-13|feed": "2026-11-13T00:02:42Z",
   "official:ateez:comeback:2026-11-13|ntfy": "2026-11-13T00:02:42Z",
   "official:ateez:comeback:2026-11-13|pub:radarkpop-ateez-music": "2026-11-13T00:02:42Z",
-  "official:ateez:comeback:2026-11-13|foro": "2026-11-13T00:02:42Z"
+  "official:ateez:comeback:2026-11-13|foro": "2026-11-13T00:02:42Z",
+  "news:e033a5889e71c195|feed": "2026-11-13T05:31:05Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2735,7 +2736,6 @@
   }
  },
  "news_seen": [
-  "8ba83d5f51bfa075",
   "8bd7adc61c116516",
   "8c42476febb08ead",
   "8c6ddb1aeccb397b",
@@ -3340,6 +3340,7 @@
   "dfd57fd34c7c39b8",
   "e0188d1ce76adebb",
   "e02a3496ca9f6d45",
+  "e033a5889e71c195",
   "e03a7cebc3d3a825",
   "e099f8c2b6b5b319",
   "e0a35b48a10bf225",

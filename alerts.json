@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-13T00:02:35Z",
+ "updated_at": "2026-11-13T05:31:00Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) - 'UP' Official MV CLIP #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) - 'UP' Official MV CLIP #Shorts (YouTube)",
+   "when": "2026-11-13T05:30:19Z",
+   "url": "https://www.youtube.com/watch?v=7Se3WIBeyUw"
+  },
   {
    "type": "comeback",
    "group": "ateez",
@@ -718,17 +729,6 @@
    "body_en": "쇼타로 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
    "when": "2026-11-10T10:00:30Z",
    "url": "https://www.youtube.com/watch?v=GbxB01vJ3Ng"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "I need your love📱 #JxJ #정한X조슈아 #DREAMSCAPE #컬러링 #Coloring (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "I need your love📱 #JxJ #정한X조슈아 #DREAMSCAPE #컬러링 #Coloring (YouTube)",
-   "when": "2026-11-10T10:00:17Z",
-   "url": "https://www.youtube.com/watch?v=LcqrMjIzUOs"
   }
  ]
 }
