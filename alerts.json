@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-13T10:46:37Z",
+ "updated_at": "2026-11-13T12:01:07Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "무슨 생각하셨어요 #CORTIS #코르티스 (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "무슨 생각하셨어요 #CORTIS #코르티스 (YouTube)",
+   "when": "2026-11-13T12:00:33Z",
+   "url": "https://www.youtube.com/watch?v=LAUBwtYCpGo"
+  },
   {
    "type": "video",
    "group": "ateez",
@@ -711,20 +722,6 @@
    "url": "https://x.com/JYPETWICE/status/2120139411669086634",
    "src_lang": "en",
    "body_orig": "«NAYEON SINGLE “NA-sty” NA-sty_PHOTO.exe 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #...» (TWICE en X).",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Gira: Stray Kids",
-   "body": "Stray Kids World Tour ‘RUN IT’ aterriza en Barcelona en julio de 2027 - Forbes España (Google Noticias)",
-   "title_en": "Tour: Stray Kids",
-   "body_en": "Stray Kids World Tour ‘RUN IT’ lands in Barcelona in July 2027 - Forbes Spain (Google News)",
-   "when": "2026-11-10T12:42:36Z",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR205a3JUX2Z2NFg0VXZFVjNfNWNDUHQwbV92eG4tOXZjZV9INFBENzVUbTlELUxaUVZXWnFYcmJ3WmhvUzFkQTdTQllJanoycUxMSF9XRm5EbHgxMkpfRjE4TWtOM042b3JwMnU4WFRaVlBhT2pDdjFWWTBlX1hYejlXZmZ3OW9CMW5tdTNNWUFCNDBhQ2NHMG1jRGZFaG56dTY2MjRwVmJOeDVGV3hlcVRPMA?oc=5",
-   "src_lang": "es",
-   "body_orig": "Stray Kids World Tour ‘RUN IT’ aterriza en Barcelona en julio de 2027 - Forbes España (Google Noticias)",
    "auto": true
   }
  ]
