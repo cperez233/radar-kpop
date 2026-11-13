@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T15:02:05Z",
+ "updated_at": "2026-11-13T00:02:35Z",
  "alerts": [
   {
    "type": "comeback",
@@ -174,6 +174,20 @@
   },
   {
    "type": "official",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Anuncio oficial de CORTIS: gira",
+   "body": "«2026 CORTIS TOUR <BAJA TU TELÉFONO> Boceto fotográfico de FIESTA DE CUMPLEAÑOS (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
+   "title_en": "Official CORTIS news: tour",
+   "body_en": "«2026 CORTIS TOUR <PUT YOUR PHONE DOWN> BIRTHDAY PARTY Photo Sketch (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
+   "when": "2026-11-12T10:00:03Z",
+   "url": "https://x.com/cortis_bighit/status/2120818898882977863",
+   "src_lang": "en",
+   "body_orig": "«2026 CORTIS TOUR <PUT YOUR PHONE DOWN> BIRTHDAY PARTY Photo Sketch (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
+   "auto": true
+  },
+  {
+   "type": "official",
    "group": "seventeen",
    "group_name": "SEVENTEEN",
    "title": "Anuncio oficial de SEVENTEEN: comeback",
@@ -223,6 +237,20 @@
    "url": "https://www.youtube.com/watch?v=l0IOElkRH6I"
   },
   {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«¿DÓNDE ESTÁ NUEVA YORK? 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KST/0AM ET #TWICE #트와이스 #NAYEON #나연 #NA_sty...» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«WHERE IS NY? 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이스 #NAYEON #나연 #NA_sty...» (TWICE en X).",
+   "when": "2026-11-12T06:30:00Z",
+   "url": "https://x.com/JYPETWICE/status/2120766039399235695",
+   "src_lang": "ko",
+   "body_orig": "«WHERE IS NY? 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이스 #NAYEON #나연 #NA_sty...» (TWICE en X).",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "twice",
    "group_name": "TWICE",
@@ -254,6 +282,20 @@
    "body_en": "I'M HERE! #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
    "when": "2026-11-12T05:00:06Z",
    "url": "https://www.youtube.com/watch?v=Mm-qZVRc-Bw"
+  },
+  {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[🎬] ATEEZ - 'UP' Official MV Teaser 2 2026. 11. 13 2PM LANZAMIENTO DEL ÁLBUM https://youtu.be/S1g5qrY5w3o #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
+   "body_en": "«[🎬] ATEEZ - 'UP' Official MV Teaser 2 2026. 11. 13 2PM ALBUM RELEASE https://youtu.be/S1g5qrY5w3o #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
+   "when": "2026-11-12T05:00:00Z",
+   "url": "https://x.com/ATEEZofficial/status/2120743389763457263",
+   "src_lang": "ko",
+   "body_orig": "«[🎬] ATEEZ(에이티즈) - 'UP' Official MV Teaser 2 2026. 11. 13 2PM ALBUM RELEASE https://youtu.be/S1g5qrY5w3o #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
+   "auto": true
   },
   {
    "type": "official",
@@ -304,6 +346,20 @@
    "body_en": "LNGSHOT 'Bananas' 응원법 (YouTube)",
    "when": "2026-11-11T16:13:00Z",
    "url": "https://www.youtube.com/watch?v=gfFuiaQjsYQ"
+  },
+  {
+   "type": "official",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Anuncio oficial de LNGSHOT: comeback",
+   "body": "«El día del lanzamiento con @SpotifyKR fue #Bananas 🤞 deja tu track favorito en los comentarios #LNGSHOT #SWISH» (LNGSHOT en X).",
+   "title_en": "Official LNGSHOT news: comeback",
+   "body_en": "«release day with @SpotifyKR went #Bananas 🤞 drop your fav track in the comments #LNGSHOT #SWISH» (LNGSHOT en X).",
+   "when": "2026-11-11T14:10:00Z",
+   "url": "https://x.com/LNGSHOT4sho/status/2120519413619368162",
+   "src_lang": "en",
+   "body_orig": "«release day with @SpotifyKR went #Bananas 🤞 drop your fav track in the comments #LNGSHOT #SWISH» (LNGSHOT en X).",
+   "auto": true
   },
   {
    "type": "official",
@@ -673,53 +729,6 @@
    "body_en": "I need your love📱 #JxJ #정한X조슈아 #DREAMSCAPE #컬러링 #Coloring (YouTube)",
    "when": "2026-11-10T10:00:17Z",
    "url": "https://www.youtube.com/watch?v=LcqrMjIzUOs"
-  },
-  {
-   "type": "tour",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Gira: Stray Kids",
-   "body": "El grupo de K-pop Stray Kids anuncia la gira mundial 'Run it' a Norteamérica y Europa - Infobae (Google Noticias)",
-   "title_en": "Tour: Stray Kids",
-   "body_en": "K-pop group Stray Kids announces 'Run it' world tour to North America and Europe - Infobae (Google News)",
-   "when": "2026-11-10T09:15:00Z",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdy13OFU2OERZQXpMMUQtLU1JSENXa2lTY2RTbzNQQlVjWHk4QmZIM2dPaVItZWtfVWZEdGplNURidFpBTml0OXlaRENsOHE3Uy0yaF9IUVBpZmZZWFRkbHRfT0FaT1dkMDkybzN2WndQOThXWE5iLU1rN2lOZzBuQnV6VnFESkZEY1FIaUFJMjNmMm4wSU9jdDBVdzFyVXdEMUEwekJJUldweDZYUjRSbUZnV0x1TG83cVprTHdrWTlXczlpUDVPeHlJZkhUWml6cWfSAewBQVVfeXFMUHNLdXFxcElsRFJ5Vk1DYWJFZGJJTW4yYXFJZG9xLXBVWWN4OWFaOGd2anhpNlVXY29BaDNDWTl0SnpucV91ZU12Q3FBWGxNMkFyeGdwV2RfNFdMckVYS1RDS28wbzNnVGdhdE9FTlhONEU0S1JNeDhUTTVjTDdjU3h4V3NnQkdtUlVRcGVIcHM4TkU4SzBXbzd3d2ozR3JCOWgzczNDWWRYcWxjRDRuUlNMRXNhTnhiMDI3V0Z0Nzk0aS1YTDRFYWZEWjJXdExFSG1qbV84dW9HOWE3RFFqWjRQdmFCaHFoVlU1Mkc?oc=5",
-   "src_lang": "es",
-   "body_orig": "El grupo de K-pop Stray Kids anuncia la gira mundial 'Run it' a Norteamérica y Europa - Infobae (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "LNGSHOT - 'Beep Beep' Official Audio (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "LNGSHOT - 'Beep Beep' Official Audio (YouTube)",
-   "when": "2026-11-10T09:02:02Z",
-   "url": "https://www.youtube.com/watch?v=cYMtrxN-BkM"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "LNGSHOT - 'Up & Away' Official Audio (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "LNGSHOT - 'Up & Away' Official Audio (YouTube)",
-   "when": "2026-11-10T09:01:51Z",
-   "url": "https://www.youtube.com/watch?v=URN8b_uSNYU"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "LNGSHOT - 'Wanna Go' Official Audio (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "LNGSHOT - 'Wanna Go' Official Audio (YouTube)",
-   "when": "2026-11-10T09:01:41Z",
-   "url": "https://www.youtube.com/watch?v=ongNmY8Wsz8"
   }
  ]
 }
