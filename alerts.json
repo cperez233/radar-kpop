@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-13T13:01:23Z",
+ "updated_at": "2026-11-13T13:46:00Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "퍼져 온몸에 열기가 Burnin’ UP #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "퍼져 온몸에 열기가 Burnin’ UP #Shorts (YouTube)",
+   "when": "2026-11-13T13:30:33Z",
+   "url": "https://www.youtube.com/watch?v=hI2KZM-TjUM"
+  },
   {
    "type": "video",
    "group": "seventeen",
@@ -709,17 +720,6 @@
    "body_en": "Ok @SpotifyKR CLOSER, this my shhh👌☝️👇 #LNGSHOT #Bananas #SWISH (YouTube)",
    "when": "2026-11-10T14:30:29Z",
    "url": "https://www.youtube.com/watch?v=fgzsWCavfFY"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "To YOU, From SUNOO (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "To YOU, From SUNOO (YouTube)",
-   "when": "2026-11-10T14:00:01Z",
-   "url": "https://www.youtube.com/watch?v=v7f2hO1Jo2U"
   }
  ]
 }
