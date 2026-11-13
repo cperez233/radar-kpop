@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13T07:00:42Z",
+ "updated_at": "2026-11-13T07:30:39Z",
  "sample": false,
  "items": [
   {
@@ -77,6 +77,15 @@
     }
    ],
    "sp_try": "2026-11-13"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "터져 온몸에 진동이 Risin’ UP #Shorts",
+   "date": "2026-11-13",
+   "published": "2026-11-13T07:30:06Z",
+   "url": "https://www.youtube.com/watch?v=m2Rd9UjRI4g",
+   "image": "https://i.ytimg.com/vi/m2Rd9UjRI4g/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -203,15 +212,6 @@
    "published": "2026-11-12T11:59:57Z",
    "url": "https://www.youtube.com/watch?v=f11c7oW8OpY",
    "image": "https://i.ytimg.com/vi/f11c7oW8OpY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "유하 님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-12",
-   "published": "2026-11-12T12:00:17Z",
-   "url": "https://www.youtube.com/watch?v=xrj29IM3yjc",
-   "image": "https://i.ytimg.com/vi/xrj29IM3yjc/hqdefault.jpg"
   },
   {
    "type": "video",

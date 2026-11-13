@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-13T06:01:01Z",
+ "updated_at": "2026-11-13T07:31:01Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "터져 온몸에 진동이 Risin’ UP #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "터져 온몸에 진동이 Risin’ UP #Shorts (YouTube)",
+   "when": "2026-11-13T07:30:06Z",
+   "url": "https://www.youtube.com/watch?v=m2Rd9UjRI4g"
+  },
   {
    "type": "video",
    "group": "ateez",
@@ -718,17 +729,6 @@
    "src_lang": "es",
    "body_orig": "Fans de BTS se mueven para lograr otra proyección en Cines Viveiro con motivo de otro concierto de los reyes de k-pop el próximo 29 de dici… (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "느끼 쫑냥이😼 #JAY #ENHYPEN (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "느끼 쫑냥이😼 #JAY #ENHYPEN (YouTube)",
-   "when": "2026-11-10T10:15:11Z",
-   "url": "https://www.youtube.com/watch?v=MZBnpDr1Rvk"
   }
  ]
 }
