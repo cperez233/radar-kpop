@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-13T07:31:01Z",
+ "updated_at": "2026-11-13T09:00:59Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "LOUIS went #Bananas 🐺#LNGSHOT #SWISH (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "LOUIS went #Bananas 🐺#LNGSHOT #SWISH (YouTube)",
+   "when": "2026-11-13T09:00:18Z",
+   "url": "https://www.youtube.com/watch?v=Fdh5-vCYfj4"
+  },
   {
    "type": "video",
    "group": "ateez",
@@ -715,20 +726,6 @@
    "body_en": "PYPD BIRTHDAY PARTY (YouTube)",
    "when": "2026-11-10T11:59:58Z",
    "url": "https://www.youtube.com/watch?v=tfbvbOThPMI"
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "Fans de BTS se mueven para lograr otra proyección en Cines Viveiro con motivo de otro concierto de los reyes de k-pop el próximo 29 de dici… (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS fans move to achieve another screening at Cines Viveiro on the occasion of another concert by the kings of k-pop on December 29… (Google News)",
-   "when": "2026-11-10T11:46:02Z",
-   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxObm4za0FOUHUyVzROSVpILVJHYk1mTmhXR0JNbldYc1hkSjBjamliTGM3UEREbnUtcUctcTliRU4wVGFsakZaM05mTmtvcVNaOGM4Z2JXck1HSmFTUkJrUjl2V0gxWTJ0dDhGSUpJV2J3QWhTekVHMUJFaDZnbGU0cjR6anJ2XzEwR2FGTVFoUU1tM1c1ZFlMTllXd1RZbVJOdjN4OTZ1dGE0R0hRYmg3azYxM0JnQXFybXEyMVRCWXk3NFhaRHlQWVFkNXFDeGI3clp5d0xINllSMlRQSTd4WGdOR0lYaWZUWnhrQjROUEwxMV96MzkyY0JGeWU0TXFD0gGcAkFVX3lxTE03NVpwVFZGYUptRl9LS196d2s4OGhMZnZHMXRVMGJ2b0RINXZLRWZpRVJnY0UwblBEenZvb1FvS3Zod1JEMW1NM1NJOXNOOXRrc1hmQmtWUVlaU3BHb0xvUUU3M2xpN0hQUTNZUGFYdlFVQUx0SEhsazdtblpjOG03SVlLQkMyeThsVWVSSG1xcVhNVzVSUjREWXZFVUZUUDhPMWxKWHhGajE1Qzc4aWs3NWg3Q3h5MGxrSVM1N3lIYlNpUDFqbno2czJBa295WnBIdkgxaHQwLURVc2ZaZWVyQXA3bDhkZTl3c24wSkVKNmcwclRUY0pTb0lUaGR0ZEIwQ0cybjVwV3EzSGZkOEVNMFN0YU4xUWtBVnhm?oc=5",
-   "src_lang": "es",
-   "body_orig": "Fans de BTS se mueven para lograr otra proyección en Cines Viveiro con motivo de otro concierto de los reyes de k-pop el próximo 29 de dici… (Google Noticias)",
-   "auto": true
   }
  ]
 }

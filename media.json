@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13T08:45:40Z",
+ "updated_at": "2026-11-13T09:00:39Z",
  "sample": false,
  "items": [
   {
@@ -77,6 +77,15 @@
     }
    ],
    "sp_try": "2026-11-13"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "LOUIS went #Bananas 🐺#LNGSHOT #SWISH",
+   "date": "2026-11-13",
+   "published": "2026-11-13T09:00:18Z",
+   "url": "https://www.youtube.com/watch?v=Fdh5-vCYfj4",
+   "image": "https://i.ytimg.com/vi/Fdh5-vCYfj4/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -158,15 +167,6 @@
    "published": "2026-11-12T12:00:33Z",
    "url": "https://www.youtube.com/watch?v=930s9zc7-14",
    "image": "https://i.ytimg.com/vi/930s9zc7-14/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "Lowkey thought we had more room😅👌☝️👇 #LNGSHOT #Bananas #SWISH",
-   "date": "2026-11-12",
-   "published": "2026-11-12T10:00:21Z",
-   "url": "https://www.youtube.com/watch?v=WkMFbowXWqE",
-   "image": "https://i.ytimg.com/vi/WkMFbowXWqE/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -767,6 +767,7 @@
    "url": "https://music.apple.com/us/album/golden-hour-part-5-ep/6770401924",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/5e/a0/155ea070-3f0d-84ae-7883-128ecd9ed5bf/196874257944.jpg/300x300bb.jpg",
    "ytm_v": 6,
+   "spotify": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV",
    "tracks": [
     {
      "n": "BAD",
@@ -794,8 +795,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/b5/2b/24b52b73-dbe4-fcac-df46-a5f3a1ed655c/mzaf_1726586804421670850.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-13T08",
-   "spotify": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV"
+   "ytm_try": "2026-11-13T08"
   },
   {
    "type": "music",
