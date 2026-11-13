@@ -1688,7 +1688,11 @@
   "news:a8095bab91588aa2|feed": "2026-11-13T13:01:29Z",
   "news:5828a8cf4adfdff6|feed": "2026-11-13T13:46:07Z",
   "news:e678d3a794064f30|feed": "2026-11-13T14:16:57Z",
-  "news:385c10876f7a8d26|feed": "2026-11-13T14:16:57Z"
+  "news:385c10876f7a8d26|feed": "2026-11-13T14:16:57Z",
+  "news:3c6afa228908e675|feed": "2026-11-13T19:46:03Z",
+  "news:3c6afa228908e675|ntfy": "2026-11-13T19:46:03Z",
+  "news:3c6afa228908e675|pub:radarkpop-bts-news": "2026-11-13T19:46:03Z",
+  "news:3c6afa228908e675|foro": "2026-11-13T19:46:03Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3723,6 +3727,19 @@
     "video"
    ],
    "t": "2026-11-13T10:16:44Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "fotos",
+    "gira",
+    "militar",
+    "mundial",
+    "plena",
+    "sorprende",
+    "uniforme"
+   ],
+   "t": "2026-11-13T19:45:57Z"
   }
  ],
  "discord_threads": {

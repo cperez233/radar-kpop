@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-13T14:16:51Z",
+ "updated_at": "2026-11-13T19:45:57Z",
  "alerts": [
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "BTS sorprende con fotos en uniforme militar en plena gira mundial - www.laprensa.hn (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS surprises with photos in military uniform during world tour - www.laprensa.hn (Google News)",
+   "when": "2026-11-13T18:06:00Z",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVkdVS1B3Tm04aW42bk9HTlVKNEEwQktRV3RVTWJZcTR5VmF1SnE1c0ZsbHBYbkF0cWxTYThFdnhucV9Qa3VRa2VJajM4SXFrRDZoaHktSnZWZmRjakdFNnFaSnc2Y0w3dTFuNkdaeld2dnJRYnYteXZOVGFhWlZDbkNzREotNGlISEhjczhRN3ZEMWV0VTRLamFwX1RRbE1MTm84czF3?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS sorprende con fotos en uniforme militar en plena gira mundial - www.laprensa.hn (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -702,20 +716,6 @@
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYTgtTmM5ZjlNbGF5eEo2azN2MW5KcDYtb0ZFTVZmd0dsYzVXR21LVXpqX3dsYXBBWi1fQzYyV25sMXZRa3VaMnI3QzVFYVFySFo4VHhEYkpBSkNTVjBkdnBxRXdxOTlmSXdmS0N5ZHdYUWdQREZIbFNuTmZsOV8zMl9xdG8wNDNWdE5zcGVtNmhQZ0ROVUF2bjZoamRCMG9SSjdjSVpCRWY5bjkzRGpYMk9tazBkUjcyZlNFQVVrWnhNUG1EeXBhcTRZN2hIX0JRUUE?oc=5",
    "src_lang": "es",
    "body_orig": "LNGSHOT realiza su comeback: Todo sobre S.W.I.S.H y su canción principal “Bananas” - El Sol de México (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Gira: Stray Kids",
-   "body": "¿Stray Kids dará conciertos en Latinoamérica en 2027? Esto es lo que se sabe de su NUEVA gira par 2027 - TV Azteca (Google Noticias)",
-   "title_en": "Tour: Stray Kids",
-   "body_en": "Will Stray Kids give concerts in Latin America in 2027? This is what is known about their NEW tour for 2027 - TV Azteca (Google News)",
-   "when": "2026-11-10T18:41:17Z",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbzR6Ym5HcUg3aENSNVNGSzhOckhVbE1Ubl9oV0h6bER2MzA0Q3JrMUpoZkJ2aTFlTmVaQkx4M2UzUER3QmVacnpZX3hYUG1PUFl2T0NPVzlyN2VlMkx2M2g3dGlfYVRyOXpBOWFZWFdvRWpzc3FyVk05SEJiUGtLeXFqVk0yQkhFMG8tdVA0WGJabFYtQjNF?oc=5",
-   "src_lang": "es",
-   "body_orig": "¿Stray Kids dará conciertos en Latinoamérica en 2027? Esto es lo que se sabe de su NUEVA gira par 2027 - TV Azteca (Google Noticias)",
    "auto": true
   }
  ]
