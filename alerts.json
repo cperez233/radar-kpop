@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-13T05:31:00Z",
+ "updated_at": "2026-11-13T06:01:01Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) - 'UP' 응원법 (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) - 'UP' 응원법 (YouTube)",
+   "when": "2026-11-13T06:00:11Z",
+   "url": "https://www.youtube.com/watch?v=zWD7sADRN64"
+  },
   {
    "type": "video",
    "group": "ateez",
@@ -718,17 +729,6 @@
    "body_en": "느끼 쫑냥이😼 #JAY #ENHYPEN (YouTube)",
    "when": "2026-11-10T10:15:11Z",
    "url": "https://www.youtube.com/watch?v=MZBnpDr1Rvk"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "쇼타로 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "쇼타로 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "when": "2026-11-10T10:00:30Z",
-   "url": "https://www.youtube.com/watch?v=GbxB01vJ3Ng"
   }
  ]
 }

@@ -1674,7 +1674,8 @@
   "official:ateez:comeback:2026-11-13|ntfy": "2026-11-13T00:02:42Z",
   "official:ateez:comeback:2026-11-13|pub:radarkpop-ateez-music": "2026-11-13T00:02:42Z",
   "official:ateez:comeback:2026-11-13|foro": "2026-11-13T00:02:42Z",
-  "news:e033a5889e71c195|feed": "2026-11-13T05:31:05Z"
+  "news:e033a5889e71c195|feed": "2026-11-13T05:31:05Z",
+  "news:2f2af83c3a3b7420|feed": "2026-11-13T06:01:08Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2736,9 +2737,6 @@
   }
  },
  "news_seen": [
-  "8bd7adc61c116516",
-  "8c42476febb08ead",
-  "8c6ddb1aeccb397b",
   "8c7f71710a5bac80",
   "8c88a9915fef002f",
   "8c8d324a31d34f38",
@@ -3158,6 +3156,7 @@
   "c654671faaad0cd8",
   "c666c81e6c71d851",
   "c68e7c87af1ebd44",
+  "c6a4c0fa19db881e",
   "c6b4983b79cc14fe",
   "c6bb4877da0a26e3",
   "c6f3c7ff3704ec72",
@@ -3463,6 +3462,7 @@
   "f460d4c1210d2e15",
   "f46d5fbeafb14247",
   "f4c8a2d71f1935ca",
+  "f516162a14ddbb01",
   "f518b8fd89882af5",
   "f5253cc63b3471ba",
   "f532b649eeb3f9ab",
@@ -3531,6 +3531,7 @@
   "fea57120d0712dc9",
   "fed90aa3089d3c33",
   "ff034b7ab6503a06",
+  "ff08e8b6d1b62e15",
   "ff50509de7f407d1",
   "ff7e28fe717a4438",
   "ff8f526e9edce40d",

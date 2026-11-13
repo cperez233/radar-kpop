@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13T05:45:40Z",
+ "updated_at": "2026-11-13T06:00:39Z",
  "sample": false,
  "items": [
   {
@@ -77,6 +77,24 @@
     }
    ],
    "sp_try": "2026-11-13"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) - 'UP' 응원법",
+   "date": "2026-11-13",
+   "published": "2026-11-13T06:00:11Z",
+   "url": "https://www.youtube.com/watch?v=zWD7sADRN64",
+   "image": "https://i.ytimg.com/vi/zWD7sADRN64/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) - 'UP' Official MV CLIP #Shorts",
+   "date": "2026-11-13",
+   "published": "2026-11-13T05:30:19Z",
+   "url": "https://www.youtube.com/watch?v=7Se3WIBeyUw",
+   "image": "https://i.ytimg.com/vi/7Se3WIBeyUw/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -197,15 +215,6 @@
   },
   {
    "type": "video",
-   "group": "ateez",
-   "title": "최희진 선배님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-12",
-   "published": "2026-11-12T11:00:26Z",
-   "url": "https://www.youtube.com/watch?v=FVHuXifGFR0",
-   "image": "https://i.ytimg.com/vi/FVHuXifGFR0/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "skz",
    "title": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.05 BUENOS AIRES",
    "date": "2026-11-11",
@@ -287,15 +296,6 @@
    "published": "2026-11-10T10:15:11Z",
    "url": "https://www.youtube.com/watch?v=MZBnpDr1Rvk",
    "image": "https://i.ytimg.com/vi/MZBnpDr1Rvk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "쇼타로 님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-10",
-   "published": "2026-11-10T10:00:30Z",
-   "url": "https://www.youtube.com/watch?v=GbxB01vJ3Ng",
-   "image": "https://i.ytimg.com/vi/GbxB01vJ3Ng/hqdefault.jpg"
   },
   {
    "type": "video",
