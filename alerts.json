@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-13T12:16:54Z",
+ "updated_at": "2026-11-13T13:01:23Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "[INSIDE SEVENTEEN] 2026 디노X피철인 [吉BOARD SHOW] BEHIND #2 (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "[INSIDE SEVENTEEN] 2026 디노X피철인 [吉BOARD SHOW] BEHIND #2 (YouTube)",
+   "when": "2026-11-13T12:59:57Z",
+   "url": "https://www.youtube.com/watch?v=GDACogJ2iGE"
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -709,17 +720,6 @@
    "body_en": "To YOU, From SUNOO (YouTube)",
    "when": "2026-11-10T14:00:01Z",
    "url": "https://www.youtube.com/watch?v=v7f2hO1Jo2U"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "[SVT Record] 과니차니 어디 가니 | 형들 와줘서 고마워🩷🩵 | 금방 다녀오겠습니다🫡 #31 (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "[SVT Record] 과니차니 어디 가니 | 형들 와줘서 고마워🩷🩵 | 금방 다녀오겠습니다🫡 #31 (YouTube)",
-   "when": "2026-11-10T13:00:05Z",
-   "url": "https://www.youtube.com/watch?v=sDyRCZnhDE8"
   }
  ]
 }

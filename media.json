@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13T12:15:35Z",
+ "updated_at": "2026-11-13T13:00:50Z",
  "sample": false,
  "items": [
   {
@@ -87,6 +87,7 @@
    "url": "https://music.apple.com/us/album/golden-hour-part-6-ep/6819932396",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/4c/8e/1d4c8e84-ac53-90ed-1dbe-615fdef5b8f1/196874852668.jpg/300x300bb.jpg",
    "ytm_v": 6,
+   "spotify": "https://open.spotify.com/album/5UKj0Dge5ik5jw3JVjoxof",
    "tracks": [
     {
      "n": "ANEMIA",
@@ -114,8 +115,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-13T12",
-   "spotify": "https://open.spotify.com/album/5UKj0Dge5ik5jw3JVjoxof"
+   "ytm_try": "2026-11-13T12"
   },
   {
    "type": "video",
@@ -134,6 +134,15 @@
    "published": "2026-11-13T09:00:18Z",
    "url": "https://www.youtube.com/watch?v=Fdh5-vCYfj4",
    "image": "https://i.ytimg.com/vi/Fdh5-vCYfj4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "[INSIDE SEVENTEEN] 2026 디노X피철인 [吉BOARD SHOW] BEHIND #2",
+   "date": "2026-11-13",
+   "published": "2026-11-13T12:59:57Z",
+   "url": "https://www.youtube.com/watch?v=GDACogJ2iGE",
+   "image": "https://i.ytimg.com/vi/GDACogJ2iGE/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -233,15 +242,6 @@
    "published": "2026-11-12T12:00:22Z",
    "url": "https://www.youtube.com/watch?v=5-QbNoQx7mc",
    "image": "https://i.ytimg.com/vi/5-QbNoQx7mc/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[SEVENTEEN’s SNAPSHOOT] EP.91 말랑이들의 만남",
-   "date": "2026-11-12",
-   "published": "2026-11-12T11:29:55Z",
-   "url": "https://www.youtube.com/watch?v=5cl-XlV3ZfQ",
-   "image": "https://i.ytimg.com/vi/5cl-XlV3ZfQ/hqdefault.jpg"
   },
   {
    "type": "video",
