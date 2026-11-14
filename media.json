@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T12:00:37Z",
+ "updated_at": "2026-11-14T13:00:39Z",
  "sample": false,
  "items": [
   {
@@ -90,6 +90,15 @@
   {
    "type": "video",
    "group": "lngshot",
+   "title": "Everywhere we go, it's #Bananas 🍌 #LNGSHOT #SWISH",
+   "date": "2026-11-14",
+   "published": "2026-11-14T13:00:25Z",
+   "url": "https://www.youtube.com/watch?v=uPCYwEkvOG0",
+   "image": "https://i.ytimg.com/vi/uPCYwEkvOG0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
    "title": "S.W.I.S.H. Photoshoot Behind the Scenes",
    "date": "2026-11-14",
    "published": "2026-11-14T12:00:03Z",
@@ -104,6 +113,15 @@
    "published": "2026-11-14T08:15:33Z",
    "url": "https://www.youtube.com/watch?v=m7_9Dv-ZNuI",
    "image": "https://i.ytimg.com/vi/m7_9Dv-ZNuI/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "[하니랑 슈아랑] EP.1 DREAMSHAPE🍶 | 도예 (HANISHUA EP.1 DREAMSHAPE🍶 | Pottery)",
+   "date": "2026-11-14",
+   "published": "2026-11-14T13:00:08Z",
+   "url": "https://www.youtube.com/watch?v=RrvOS_0VfG4",
+   "image": "https://i.ytimg.com/vi/RrvOS_0VfG4/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -197,24 +215,6 @@
     }
    ],
    "ytm_try": "2026-11-14T12"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "Unbox #SWISH with #LNGSHOT: Card Pack Edition 📦",
-   "date": "2026-11-13",
-   "published": "2026-11-13T14:10:35Z",
-   "url": "https://www.youtube.com/watch?v=6TFHiSj1_Tc",
-   "image": "https://i.ytimg.com/vi/6TFHiSj1_Tc/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[INSIDE SEVENTEEN] 2026 디노X피철인 [吉BOARD SHOW] BEHIND #2",
-   "date": "2026-11-13",
-   "published": "2026-11-13T12:59:57Z",
-   "url": "https://www.youtube.com/watch?v=GDACogJ2iGE",
-   "image": "https://i.ytimg.com/vi/GDACogJ2iGE/hqdefault.jpg"
   },
   {
    "type": "video",

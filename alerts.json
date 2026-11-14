@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-14T12:00:59Z",
+ "updated_at": "2026-11-14T13:01:00Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "Everywhere we go, it's #Bananas 🍌 #LNGSHOT #SWISH (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "Everywhere we go, it's #Bananas 🍌 #LNGSHOT #SWISH (YouTube)",
+   "when": "2026-11-14T13:00:25Z",
+   "url": "https://www.youtube.com/watch?v=uPCYwEkvOG0"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "[하니랑 슈아랑] EP.1 DREAMSHAPE🍶 | 도예 (HANISHUA EP.1 DREAMSHAPE🍶 | Pottery) (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "[하니랑 슈아랑] EP.1 DREAMSHAPE🍶 | 도예 (HANISHUA EP.1 DREAMSHAPE🍶 | Pottery) (YouTube)",
+   "when": "2026-11-14T13:00:08Z",
+   "url": "https://www.youtube.com/watch?v=RrvOS_0VfG4"
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -680,34 +702,6 @@
    "body_en": "I'M HERE! #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
    "when": "2026-11-12T05:00:06Z",
    "url": "https://www.youtube.com/watch?v=Mm-qZVRc-Bw"
-  },
-  {
-   "type": "official",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Anuncio oficial de ATEEZ: comeback",
-   "body": "«[🎬] ATEEZ - 'UP' Official MV Teaser 2 2026. 11. 13 2PM LANZAMIENTO DEL ÁLBUM https://youtu.be/S1g5qrY5w3o #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
-   "title_en": "Official ATEEZ news: comeback",
-   "body_en": "«[🎬] ATEEZ - 'UP' Official MV Teaser 2 2026. 11. 13 2PM ALBUM RELEASE https://youtu.be/S1g5qrY5w3o #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
-   "when": "2026-11-12T05:00:00Z",
-   "url": "https://x.com/ATEEZofficial/status/2120743389763457263",
-   "src_lang": "ko",
-   "body_orig": "«[🎬] ATEEZ(에이티즈) - 'UP' Official MV Teaser 2 2026. 11. 13 2PM ALBUM RELEASE https://youtu.be/S1g5qrY5w3o #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Anuncio oficial de ATEEZ: comeback",
-   "body": "«[🎬] ATEEZ - 'UP' Official MV Teaser 2 2026. 11. 13 2PM LANZAMIENTO DEL ÁLBUM https://youtu.be/S1g5qrY5w3o #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
-   "title_en": "Official ATEEZ news: comeback",
-   "body_en": "«[🎬] ATEEZ - 'UP' Official MV Teaser 2 2026. 11. 13 2PM ALBUM RELEASE https://youtu.be/S1g5qrY5w3o #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
-   "when": "2026-11-12T05:00:00Z",
-   "url": "https://x.com/ATEEZofficial/status/2120743389763457263",
-   "src_lang": "ko",
-   "body_orig": "«[🎬] ATEEZ(에이티즈) - 'UP' Official MV Teaser 2 2026. 11. 13 2PM ALBUM RELEASE https://youtu.be/S1g5qrY5w3o #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
-   "auto": true
   }
  ]
 }
