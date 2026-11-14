@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-13T23:46:01Z",
+ "updated_at": "2026-11-14T00:01:04Z",
  "alerts": [
+  {
+   "type": "stop_today",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Hoy TWICE abre en Manila",
+   "body": "Manila. Hora aproximada, confirma en la boletería.",
+   "title_en": "Today TWICE opens in Manila",
+   "body_en": "Manila. Approximate time, check with the box office.",
+   "when": "2026-11-14T00:01:04Z",
+   "url": null
+  },
   {
    "type": "tour",
    "group": "bts",
@@ -63,6 +74,20 @@
    "url": "https://www.youtube.com/watch?v=hI2KZM-TjUM"
   },
   {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«NAYEON SINGLE “NA-sty” SNEAK PEEK 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«NAYEON SINGLE “NA-sty” SNEAK PEEK 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
+   "when": "2026-11-13T13:00:01Z",
+   "url": "https://x.com/JYPETWICE/status/2121226578214502839",
+   "src_lang": "en",
+   "body_orig": "«NAYEON SINGLE “NA-sty” SNEAK PEEK 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "seventeen",
    "group_name": "SEVENTEEN",
@@ -116,6 +141,20 @@
    "body_en": "LOUIS went #Bananas 🐺#LNGSHOT #SWISH (YouTube)",
    "when": "2026-11-13T09:00:18Z",
    "url": "https://www.youtube.com/watch?v=Fdh5-vCYfj4"
+  },
+  {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[📢] Información de aparición de KBS2 'Music Bank' ¡ATEEZ aparecerá en #MusicBank a las 5:10 PM (KST)! ¡El nuevo escenario de regreso de ATEEZ! Escenario ARRIBA, muchos pabellones...» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
+   "body_en": "«[📢] KBS2 'Music Bank' appearance information ATEEZ will appear on #MusicBank at 5:10 PM (KST)! ATEEZ’s new comeback stage! UP stage, many pavilions...» (ATEEZ en X).",
+   "when": "2026-11-13T07:40:00Z",
+   "url": "https://x.com/ATEEZofficial/status/2121146042704117875",
+   "src_lang": "ko",
+   "body_orig": "«[📢] KBS2 '뮤직뱅크' 출연 안내 잠시 후 오후 5시 10분 (KST), #뮤직뱅크 에 ATEEZ가 출연합니다! 새롭게 돌아온 에이티즈의 컴백 스테이지! UP 무대 많은 관...» (ATEEZ en X).",
+   "auto": true
   },
   {
    "type": "video",
@@ -320,6 +359,20 @@
    "body_en": "like me like me 👉👈 #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou (YouTube)",
    "when": "2026-11-12T10:00:15Z",
    "url": "https://www.youtube.com/watch?v=Tw21uQleyfk"
+  },
+  {
+   "type": "official",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Anuncio oficial de CORTIS: gira",
+   "body": "«2026 CORTIS TOUR <BAJA TU TELÉFONO> Boceto fotográfico de FIESTA DE CUMPLEAÑOS (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
+   "title_en": "Official CORTIS news: tour",
+   "body_en": "«2026 CORTIS TOUR <PUT YOUR PHONE DOWN> BIRTHDAY PARTY Photo Sketch (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
+   "when": "2026-11-12T10:00:03Z",
+   "url": "https://x.com/cortis_bighit/status/2120818898882977863",
+   "src_lang": "en",
+   "body_orig": "«2026 CORTIS TOUR <PUT YOUR PHONE DOWN> BIRTHDAY PARTY Photo Sketch (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
+   "auto": true
   },
   {
    "type": "official",
@@ -661,62 +714,6 @@
    "body_en": "happens sometimes #CORTIS #코르티스 (YouTube)",
    "when": "2026-11-11T04:00:16Z",
    "url": "https://www.youtube.com/watch?v=JTOTISOnArU"
-  },
-  {
-   "type": "latam",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Latinoamérica: Stray Kids",
-   "body": "Stray Kids podría sumar nuevas fechas de su gira mundial; ¿vendrá a México? Esto sabemos - Azteca Bajío (Google Noticias)",
-   "title_en": "Latin America: Stray Kids",
-   "body_en": "Stray Kids could add new dates to their world tour; Will you come to Mexico? This we know - Azteca Bajío (Google News)",
-   "when": "2026-11-11T00:45:36Z",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcV80ck9aazktQnBQNTVaVlc0ODY5XzloSWdhb0o2WThvSkoycXhSd1dyYnUyeHgza2Q2d2JSbDh3MVZyMU95T2dHQ1RZcHlCNGo2dGZCSlFFUmZTMmRDTmNyODZ6RnYzbXdBbk1PbTNFdm81Wk1hUW5NY1BvVnAzZzg3U29HZ3NEWktwYmJRS21SRDNpNUswUENSbEhJd0k4LUd5ZXZKLWhWVnBMN2RvTU9wVWZId2hMMDRF?oc=5",
-   "src_lang": "es",
-   "body_orig": "Stray Kids podría sumar nuevas fechas de su gira mundial; ¿vendrá a México? Esto sabemos - Azteca Bajío (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "latam",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Latinoamérica: Stray Kids",
-   "body": "Stray Kids anuncia su World Tour “RUN IT”: ¿Vendrán a México? Esto sabemos - Grupo Animal (Google Noticias)",
-   "title_en": "Latin America: Stray Kids",
-   "body_en": "Stray Kids announces their “RUN IT” World Tour: Will they come to Mexico? This we know - Grupo Animal (Google News)",
-   "when": "2026-11-10T23:01:18Z",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYzUyREVPZ1ZJdlpzWkxFWVFLN29HWFN3MVRCWDNTdk9XcXdCRDFYSk5ERml0MkpNTS1WYkg2VFhNWFoxT3ByVFQtS01tenk5c2Z1czJ4NmVrdG1LUkE5c3YtQ1d3cnlJTXhOQ1otU0VEOFZWOHcwamdmREhmVUstd1lHdmRLMllMcjhHRHFvTC1wVVBDakFuenREUHV4U0p5Tk1JdjVsTFkyTGl2?oc=5",
-   "src_lang": "es",
-   "body_orig": "Stray Kids anuncia su World Tour “RUN IT”: ¿Vendrán a México? Esto sabemos - Grupo Animal (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "latam",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Latinoamérica: Stray Kids",
-   "body": "¿Lee Know abandona Stray Kids? El cantante surcoreano no estará en los próximos conciertos de la banda de K-Pop - El Sol de México (Google Noticias)",
-   "title_en": "Latin America: Stray Kids",
-   "body_en": "Is Lee Know leaving Stray Kids? The South Korean singer will not be in the upcoming concerts of the K-Pop band - El Sol de México (Google News)",
-   "when": "2026-11-10T19:57:44Z",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNREVBMW9fc19wRHNmOTlIQWV4aFBxQm5GSkpSTFJuOWJoZjltTC05VHhmbEpzMWpzU09WcHgyZnFVRUVkR3dZVlFWYzVoWldvcmp6SU5TdFNxRVlDV3dTM1VTM1BMMzQxYnZTMGptVlY1OGZnNEkzY1RISGV4Tm13YjJSTGluaVJ3MnZVMUJFLWYwVXYtcWN1U1FlcnUtb2t6M3EyajBBcHBMTG1tSHBWUWM5T0RzdXk5cGo1R0c2OFJWMnZuSzZwNTFtdXZlbGJGTWZFc3RxYUFOQUJqMGNRZTFtNjRaczBObzJOQkFnaw?oc=5",
-   "src_lang": "es",
-   "body_orig": "¿Lee Know abandona Stray Kids? El cantante surcoreano no estará en los próximos conciertos de la banda de K-Pop - El Sol de México (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "comeback",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Comeback: TWICE",
-   "body": "De “POP!” a una nueva era: Nayeon de TWICE revela los detalles de su esperado comeback - LOS40 (Google Noticias)",
-   "title_en": "Comeback: TWICE",
-   "body_en": "From “POP!” to a new era: TWICE's Nayeon reveals the details of her long-awaited comeback - LOS40 (Google News)",
-   "when": "2026-11-10T19:06:48Z",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPODF3aWFzd0ktRk9WdTBVUG1JTFA2ZUwyRlI2OUtVS0ZVbnNyb3pDMlRFZi0xWDlZeXd6Q0JCaTdIWWZ6bXYtaDVwN0g4MW5vLWozc2NDWjJDMkhSVGw5OGN3YlF4QmRBN193MnBqNk9DTnF2NVpWZzRRTjIxUkROdW5yZTVSb0tXUGpkNjFhTHVhalBtV2p4eU54OXhCT0Y0SFBCbVFVOVZxbk1BZkpMd9IBxAFBVV95cUxPRkhFMUZURC0xMjBKNk5EMndZTkhDWlltNm1jeXFrN2xQcXc0QzFXcm41MWR6cUxnblppRWRZTmJJLXFWaGRoY2VYcnZEZ1g5THZmSjdZX2JHZVJuVW9fTmxub0lCTGRHNzFPY0ZPdjM4NHJjcDkzN0lUbTNsLTRKTjFFXzR5dy1jRmN2eUZUdFNZaGlvM0JBQWJlZF90dTlRLVBsTU9kWGxoNzJIWXVmSkZmdy1fanJYWFFkd3NlaGtrRHJa?oc=5",
-   "src_lang": "es",
-   "body_orig": "De “POP!” a una nueva era: Nayeon de TWICE revela los detalles de su esperado comeback - LOS40 (Google Noticias)",
-   "auto": true
   }
  ]
 }

@@ -1696,7 +1696,24 @@
   "news:82fd62147b966d0e|feed": "2026-11-13T23:46:07Z",
   "news:82fd62147b966d0e|ntfy": "2026-11-13T23:46:07Z",
   "news:82fd62147b966d0e|pub:radarkpop-lngshot-news": "2026-11-13T23:46:07Z",
-  "news:82fd62147b966d0e|foro": "2026-11-13T23:46:07Z"
+  "news:82fd62147b966d0e|foro": "2026-11-13T23:46:07Z",
+  "today:twice:twice-auto-20261114-manila|feed": "2026-11-14T00:01:11Z",
+  "today:twice:twice-auto-20261114-manila|ntfy": "2026-11-14T00:01:11Z",
+  "today:twice:twice-auto-20261114-manila|pub:radarkpop-twice-shows": "2026-11-14T00:01:11Z",
+  "today:twice:twice-auto-20261114-manila|pub:radarkpop-pais-filipinas": "2026-11-14T00:01:11Z",
+  "today:twice:twice-auto-20261114-manila|foro": "2026-11-14T00:01:11Z",
+  "official:twice:comeback:2026-11-14|feed": "2026-11-14T00:01:11Z",
+  "official:twice:comeback:2026-11-14|ntfy": "2026-11-14T00:01:11Z",
+  "official:twice:comeback:2026-11-14|pub:radarkpop-twice-music": "2026-11-14T00:01:11Z",
+  "official:twice:comeback:2026-11-14|foro": "2026-11-14T00:01:11Z",
+  "official:cortis:tour:2026-11-14|feed": "2026-11-14T00:01:11Z",
+  "official:cortis:tour:2026-11-14|ntfy": "2026-11-14T00:01:11Z",
+  "official:cortis:tour:2026-11-14|pub:radarkpop-cortis-shows": "2026-11-14T00:01:11Z",
+  "official:cortis:tour:2026-11-14|foro": "2026-11-14T00:01:11Z",
+  "official:ateez:comeback:2026-11-14|feed": "2026-11-14T00:01:11Z",
+  "official:ateez:comeback:2026-11-14|ntfy": "2026-11-14T00:01:11Z",
+  "official:ateez:comeback:2026-11-14|pub:radarkpop-ateez-music": "2026-11-14T00:01:11Z",
+  "official:ateez:comeback:2026-11-14|foro": "2026-11-14T00:01:11Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2758,7 +2775,6 @@
   }
  },
  "news_seen": [
-  "902f3d0b9bb1578d",
   "9055debbc701bc82",
   "905967327b8daa46",
   "90b00d8f73f4ccb2",
@@ -3234,6 +3250,7 @@
   "cf7221065f518d7b",
   "cf769c9ee378e456",
   "cf7a2c7c50c0bcc3",
+  "cf8004556f016740",
   "cf8b9f4730133ab8",
   "cfa384031ef9ad58",
   "d0008a3380403320",
