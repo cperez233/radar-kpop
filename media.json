@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T13:00:39Z",
+ "updated_at": "2026-11-14T14:00:40Z",
  "sample": false,
  "items": [
   {
@@ -170,6 +170,15 @@
   },
   {
    "type": "video",
+   "group": "cortis",
+   "title": "참 이상하다니까 #CORTIS #코르티스",
+   "date": "2026-11-14",
+   "published": "2026-11-14T14:00:08Z",
+   "url": "https://www.youtube.com/watch?v=_ymnLJ8yVSQ",
+   "image": "https://i.ytimg.com/vi/_ymnLJ8yVSQ/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "ateez",
    "title": "Yeah we go 🆙 w/ 민주 님 #Shorts",
    "date": "2026-11-14",
@@ -287,15 +296,6 @@
    "published": "2026-11-12T14:00:15Z",
    "url": "https://www.youtube.com/watch?v=W9oln2WOmMw",
    "image": "https://i.ytimg.com/vi/W9oln2WOmMw/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "이상한 소리 작작이야",
-   "date": "2026-11-12",
-   "published": "2026-11-12T11:59:57Z",
-   "url": "https://www.youtube.com/watch?v=f11c7oW8OpY",
-   "image": "https://i.ytimg.com/vi/f11c7oW8OpY/hqdefault.jpg"
   },
   {
    "type": "video",

@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-11-14T09:15:31Z",
+  "updated_at": "2026-11-14T14:00:40Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "x-2121603925724066260",
+      "group": "enhypen",
+      "group_name": "ENHYPEN",
+      "city": "Bangkok",
+      "country": "Tailandia",
+      "lat": 13.7563,
+      "lon": 100.5018,
+      "text": "[#오늘의ENHYPEN] 재밌는 게임도 하고 무대도 보여줄 수 있어서 오랜만에 온 방콕이 더 특별했어요 ♥️ 오늘도 함께 즐겨줘서 고마워요 รักนะครับ 🥰 #261114 @ 2026 안녕, BANGKOK MUSIC FESTIVAL",
+      "url": "https://x.com/ENHYPEN/status/2121603925724066260",
+      "account": "ENHYPEN",
+      "when": "2026-11-14T13:59:28Z"
+    },
     {
       "id": "x-2121529216038817814",
       "group": "ateez",

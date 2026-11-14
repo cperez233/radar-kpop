@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-14T13:17:01Z",
+ "updated_at": "2026-11-14T14:01:13Z",
  "alerts": [
+  {
+   "type": "next_stop",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "TWICE sigue a Seúl",
+   "body": "Cerró en Manila. Siguiente parada: Seúl, Corea del Sur (21 nov), a unos 2.621 km.",
+   "title_en": "TWICE moves on to Seoul",
+   "body_en": "Wrapped up in Manila. Next stop: Seoul, South Korea (Nov 21), about 2,621 km away.",
+   "when": "2026-11-14T14:01:13Z",
+   "url": null
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "참 이상하다니까 #CORTIS #코르티스 (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "참 이상하다니까 #CORTIS #코르티스 (YouTube)",
+   "when": "2026-11-14T14:00:08Z",
+   "url": "https://www.youtube.com/watch?v=_ymnLJ8yVSQ"
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -683,28 +705,6 @@
    "src_lang": "ko",
    "body_orig": "«WHERE IS NY? 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이스 #NAYEON #나연 #NA_sty...» (TWICE en X).",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Nuevo video: TWICE",
-   "body": "OH NO! Where did she go? #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "title_en": "New video: TWICE",
-   "body_en": "OH NO! Where did she go? #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "when": "2026-11-12T06:00:09Z",
-   "url": "https://www.youtube.com/watch?v=9kmlL58l4QM"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Nuevo video: TWICE",
-   "body": ".........📷🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "title_en": "New video: TWICE",
-   "body_en": ".........📷🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "when": "2026-11-12T05:30:35Z",
-   "url": "https://www.youtube.com/watch?v=zDpIVCu_2o4"
   }
  ]
 }

@@ -1741,7 +1741,12 @@
   "news:37b36ac259e581e4|feed": "2026-11-14T13:17:07Z",
   "news:37b36ac259e581e4|ntfy": "2026-11-14T13:17:07Z",
   "news:37b36ac259e581e4|pub:radarkpop-skz-news": "2026-11-14T13:17:07Z",
-  "news:37b36ac259e581e4|foro": "2026-11-14T13:17:07Z"
+  "news:37b36ac259e581e4|foro": "2026-11-14T13:17:07Z",
+  "next:twice:twice-auto-20261114-manila|feed": "2026-11-14T14:01:21Z",
+  "next:twice:twice-auto-20261114-manila|ntfy": "2026-11-14T14:01:21Z",
+  "next:twice:twice-auto-20261114-manila|pub:radarkpop-twice-shows": "2026-11-14T14:01:21Z",
+  "next:twice:twice-auto-20261114-manila|foro": "2026-11-14T14:01:21Z",
+  "news:992879b859ee1fbf|feed": "2026-11-14T14:01:21Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2803,7 +2808,6 @@
   }
  },
  "news_seen": [
-  "9383d4e9b2905280",
   "93e7d0d96975c577",
   "93ee5f868d145778",
   "9420a02cb027e462",
@@ -2839,6 +2843,7 @@
   "989cad427b5dce39",
   "98eb32cebaa7d848",
   "990fa86ad78d7a6f",
+  "992879b859ee1fbf",
   "99437ae4b197eb6c",
   "9977aa67f3d10e0b",
   "997e6409d34b9e8f",
