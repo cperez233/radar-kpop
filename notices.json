@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13T12:30:48Z",
+ "updated_at": "2026-11-14T01:00:55Z",
  "groups": {
   "lngshot": [
    {
@@ -91,6 +91,13 @@
   ],
   "enhypen": [
    {
+    "title": "[공지] 엔하이픈 'THE SIN : PARALLEL WORLD' 발매 기념 MV 스트리밍 이벤트 안내 (+ENG/JPN/CHN)",
+    "url": "https://weverse.io/enhypen/notice/40992",
+    "post": "https://x.com/ENHYPEN/status/2121407776513532150",
+    "when": "2026-11-14T01:00:02Z",
+    "weverse": true
+   },
+   {
     "title": "[공지] 261125 MBC 엔하이픈 특집 쇼 : 미드나잇 러브송 참여 신청 안내 (+ENG/JPN/CHN)",
     "url": "https://weverse.io/enhypen/notice/40900",
     "post": "https://x.com/ENHYPEN/status/2120365903921426706",
@@ -124,13 +131,6 @@
     "post": "https://x.com/ENHYPEN/status/2117459261932659104",
     "when": "2026-11-03T03:30:03Z",
     "weverse": true
-   },
-   {
-    "title": "[안내] 2026 MAMA AWARDS 2nd VOTE 📅 투표 기간 - 10/28 18:00 ~ 11/8 23:59 (KST) 🗳️ 투표 부문 - 팬스 초이스 2차 투표 & VISA 올해의 팬스 초이스 투...",
-    "url": "https://x.com/ENHYPEN/status/2115385909055242684",
-    "post": "https://x.com/ENHYPEN/status/2115385909055242684",
-    "when": "2026-10-28T10:11:17Z",
-    "weverse": false
    }
   ],
   "cortis": [

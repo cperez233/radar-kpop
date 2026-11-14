@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T00:45:40Z",
+ "updated_at": "2026-11-14T01:00:44Z",
  "sample": false,
  "items": [
   {
@@ -77,45 +77,6 @@
     }
    ],
    "sp_try": "2026-11-14"
-  },
-  {
-   "type": "music",
-   "group": "ateez",
-   "title": "GOLDEN HOUR : Part.6",
-   "kind": "Album",
-   "date": "2026-11-13",
-   "url": "https://music.apple.com/us/album/golden-hour-part-6-ep/6819932396",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/4c/8e/1d4c8e84-ac53-90ed-1dbe-615fdef5b8f1/196874852668.jpg/300x300bb.jpg",
-   "ytm_v": 6,
-   "tracks": [
-    {
-     "n": "ANEMIA",
-     "ms": 176308,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fa/80/ff/fa80ff4a-da92-c506-b3c4-79c57ee4fd39/mzaf_9671784306708532549.plus.aac.p.m4a"
-    },
-    {
-     "n": "Drip",
-     "ms": 181791,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/ed/7c/3ced7c5b-e640-5036-6aa9-32a6c91215e7/mzaf_3998516705617440073.plus.aac.p.m4a"
-    },
-    {
-     "n": "UP",
-     "ms": 206320,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/e8/d8/10e8d881-1b0b-e096-8d05-8796a3382164/mzaf_14090660317812497319.plus.aac.p.m4a"
-    },
-    {
-     "n": "FAITH",
-     "ms": 208614,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/df/cb/0adfcbea-1d22-8578-f3b4-e799d15b90b0/mzaf_5625868099998870025.plus.aac.p.m4a"
-    },
-    {
-     "n": "Hollow Victory",
-     "ms": 195028,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
-    }
-   ],
-   "ytm_try": "2026-11-14T00",
-   "spotify": "https://open.spotify.com/album/5UKj0Dge5ik5jw3JVjoxof"
   },
   {
    "type": "video",
@@ -796,6 +757,45 @@
    "published": "2026-07-24T06:00:02Z",
    "url": "https://www.youtube.com/watch?v=fYzUmTJXBQo",
    "image": "https://i.ytimg.com/vi/fYzUmTJXBQo/hqdefault.jpg"
+  },
+  {
+   "type": "music",
+   "group": "ateez",
+   "title": "GOLDEN HOUR : Part.5",
+   "kind": "Album",
+   "date": "2026-06-26",
+   "url": "https://music.apple.com/us/album/golden-hour-part-5-ep/6770401924",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/5e/a0/155ea070-3f0d-84ae-7883-128ecd9ed5bf/196874257944.jpg/300x300bb.jpg",
+   "ytm_v": 6,
+   "tracks": [
+    {
+     "n": "BAD",
+     "ms": 156035,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/1e/3e/ed1e3e69-c85a-eeda-fb06-bc0146d71aad/mzaf_15637797788600386546.plus.aac.p.m4a"
+    },
+    {
+     "n": "MAMACITA",
+     "ms": 189254,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/02/0b/89020b2c-49b7-77c1-d12e-5f9a7b1f77d3/mzaf_613921255709576704.plus.aac.p.m4a"
+    },
+    {
+     "n": "TOXIN",
+     "ms": 168254,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/8b/30/b68b3067-07c4-510f-090c-04e11cf69383/mzaf_10897791506687347183.plus.aac.p.m4a"
+    },
+    {
+     "n": "Fallin'",
+     "ms": 198294,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/67/37/bc67379a-890a-59a9-8895-11df8fa2c44a/mzaf_17584743032321544733.plus.aac.p.m4a"
+    },
+    {
+     "n": "Body",
+     "ms": 177254,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/b5/2b/24b52b73-dbe4-fcac-df46-a5f3a1ed655c/mzaf_1726586804421670850.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": "2026-11-14T01",
+   "spotify": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV"
   },
   {
    "type": "music",
