@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-14T07:45:52Z",
+ "updated_at": "2026-11-14T08:30:57Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "Yeah we go 🆙 w/ 민주 님 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "Yeah we go 🆙 w/ 민주 님 #Shorts (YouTube)",
+   "when": "2026-11-14T08:30:09Z",
+   "url": "https://www.youtube.com/watch?v=CdWLUeWv9y4"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "SHOTTIES🤞 Grab your copy of S.W.I.S.H. online in the US by NOV 16! 💿 (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "SHOTTIES🤞 Grab your copy of S.W.I.S.H. online in the US by NOV 16! 💿 (YouTube)",
+   "when": "2026-11-14T08:15:33Z",
+   "url": "https://www.youtube.com/watch?v=m7_9Dv-ZNuI"
+  },
   {
    "type": "video",
    "group": "enhypen",
@@ -695,28 +717,6 @@
    "body_en": "Go #Bananas 할 사람 구함👌☝️👇 #LNGSHOT #SWISH (YouTube)",
    "when": "2026-11-11T13:00:02Z",
    "url": "https://www.youtube.com/watch?v=CnNArL_Of6c"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.05 BUENOS AIRES (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.05 BUENOS AIRES (YouTube)",
-   "when": "2026-11-11T10:59:56Z",
-   "url": "https://www.youtube.com/watch?v=xQsgLrkVpLE"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "정한X조슈아 (SEVENTEEN) - One plus one @JOURNEY INTO [DREAMING] in INCHEON (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "정한X조슈아 (SEVENTEEN) - One plus one @JOURNEY INTO [DREAMING] in INCHEON (YouTube)",
-   "when": "2026-11-11T10:59:56Z",
-   "url": "https://www.youtube.com/watch?v=ttCHjgJRAWY"
   }
  ]
 }

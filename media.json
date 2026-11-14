@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T08:00:35Z",
+ "updated_at": "2026-11-14T08:30:37Z",
  "sample": false,
  "items": [
   {
@@ -89,6 +89,15 @@
   },
   {
    "type": "video",
+   "group": "lngshot",
+   "title": "SHOTTIES🤞 Grab your copy of S.W.I.S.H. online in the US by NOV 16! 💿",
+   "date": "2026-11-14",
+   "published": "2026-11-14T08:15:33Z",
+   "url": "https://www.youtube.com/watch?v=m7_9Dv-ZNuI",
+   "image": "https://i.ytimg.com/vi/m7_9Dv-ZNuI/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "seventeen",
    "title": "여행 좋지 좋은데 #정답행 #EP1",
    "date": "2026-11-14",
@@ -122,6 +131,15 @@
    "published": "2026-11-14T05:34:09Z",
    "url": "https://www.youtube.com/watch?v=Lc4dLo6z_3g",
    "image": "https://i.ytimg.com/vi/Lc4dLo6z_3g/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "Yeah we go 🆙 w/ 민주 님 #Shorts",
+   "date": "2026-11-14",
+   "published": "2026-11-14T08:30:09Z",
+   "url": "https://www.youtube.com/watch?v=CdWLUeWv9y4",
+   "image": "https://i.ytimg.com/vi/CdWLUeWv9y4/hqdefault.jpg"
   },
   {
    "type": "music",
@@ -182,15 +200,6 @@
   },
   {
    "type": "video",
-   "group": "lngshot",
-   "title": "LOUIS went #Bananas 🐺#LNGSHOT #SWISH",
-   "date": "2026-11-13",
-   "published": "2026-11-13T09:00:18Z",
-   "url": "https://www.youtube.com/watch?v=Fdh5-vCYfj4",
-   "image": "https://i.ytimg.com/vi/Fdh5-vCYfj4/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "seventeen",
    "title": "[INSIDE SEVENTEEN] 2026 디노X피철인 [吉BOARD SHOW] BEHIND #2",
    "date": "2026-11-13",
@@ -224,15 +233,6 @@
    "published": "2026-11-13T13:30:33Z",
    "url": "https://www.youtube.com/watch?v=hI2KZM-TjUM",
    "image": "https://i.ytimg.com/vi/hI2KZM-TjUM/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "미쳐 날뛰어 ‘Bout to go UP #Shorts",
-   "date": "2026-11-13",
-   "published": "2026-11-13T10:30:31Z",
-   "url": "https://www.youtube.com/watch?v=rI6gj5SFFuI",
-   "image": "https://i.ytimg.com/vi/rI6gj5SFFuI/hqdefault.jpg"
   },
   {
    "type": "video",
