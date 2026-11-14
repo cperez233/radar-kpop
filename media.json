@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T09:00:37Z",
+ "updated_at": "2026-11-14T09:45:36Z",
  "sample": false,
  "items": [
   {
@@ -117,6 +117,15 @@
   {
    "type": "video",
    "group": "enhypen",
+   "title": "POV: Waiting for your approval 📸 #NI_KI #THE_SIN_PARALLEL_WORLD #ENHYPEN",
+   "date": "2026-11-14",
+   "published": "2026-11-14T09:33:27Z",
+   "url": "https://www.youtube.com/watch?v=OtwUtkGe2aE",
+   "image": "https://i.ytimg.com/vi/OtwUtkGe2aE/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
    "title": "Coming to you 🎁 #JUNGWON #THE_SIN_PARALLEL_WORLD #ENHYPEN",
    "date": "2026-11-14",
    "published": "2026-11-14T08:35:00Z",
@@ -131,15 +140,6 @@
    "published": "2026-11-14T07:37:51Z",
    "url": "https://www.youtube.com/watch?v=0CXsA59Yc94",
    "image": "https://i.ytimg.com/vi/0CXsA59Yc94/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "Oh...You? #SUNGHOON #THE_SIN_PARALLEL_WORLD #ENHYPEN",
-   "date": "2026-11-14",
-   "published": "2026-11-14T06:35:11Z",
-   "url": "https://www.youtube.com/watch?v=K8o5g5L-2Ag",
-   "image": "https://i.ytimg.com/vi/K8o5g5L-2Ag/hqdefault.jpg"
   },
   {
    "type": "video",

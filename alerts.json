@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-14T09:00:57Z",
+ "updated_at": "2026-11-14T09:46:01Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "POV: Waiting for your approval 📸 #NI_KI #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "POV: Waiting for your approval 📸 #NI_KI #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "when": "2026-11-14T09:33:27Z",
+   "url": "https://www.youtube.com/watch?v=OtwUtkGe2aE"
+  },
   {
    "type": "video",
    "group": "seventeen",
@@ -700,20 +711,6 @@
    "body_en": "LNGSHOT 'Bananas' 응원법 (YouTube)",
    "when": "2026-11-11T16:13:00Z",
    "url": "https://www.youtube.com/watch?v=gfFuiaQjsYQ"
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«El día del lanzamiento con @SpotifyKR fue #Bananas 🤞 deja tu track favorito en los comentarios #LNGSHOT #SWISH» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "«release day with @SpotifyKR went #Bananas 🤞 drop your fav track in the comments #LNGSHOT #SWISH» (LNGSHOT en X).",
-   "when": "2026-11-11T14:10:00Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2120519413619368162",
-   "src_lang": "en",
-   "body_orig": "«release day with @SpotifyKR went #Bananas 🤞 drop your fav track in the comments #LNGSHOT #SWISH» (LNGSHOT en X).",
-   "auto": true
   }
  ]
 }
