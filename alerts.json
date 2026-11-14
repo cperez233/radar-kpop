@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-14T10:30:57Z",
+ "updated_at": "2026-11-14T12:00:59Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "S.W.I.S.H. Photoshoot Behind the Scenes (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "S.W.I.S.H. Photoshoot Behind the Scenes (YouTube)",
+   "when": "2026-11-14T12:00:03Z",
+   "url": "https://www.youtube.com/watch?v=a6n1LlVhSFU"
+  },
   {
    "type": "video",
    "group": "enhypen",
@@ -697,17 +708,6 @@
    "src_lang": "ko",
    "body_orig": "«[🎬] ATEEZ(에이티즈) - 'UP' Official MV Teaser 2 2026. 11. 13 2PM ALBUM RELEASE https://youtu.be/S1g5qrY5w3o #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOU...» (ATEEZ en X).",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "Home Sweet #Bananas 🏠 #LNGSHOT #SWISH (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "Home Sweet #Bananas 🏠 #LNGSHOT #SWISH (YouTube)",
-   "when": "2026-11-12T04:00:25Z",
-   "url": "https://www.youtube.com/watch?v=OjHToSR4cYk"
   }
  ]
 }

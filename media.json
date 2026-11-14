@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T11:00:40Z",
+ "updated_at": "2026-11-14T12:00:37Z",
  "sample": false,
  "items": [
   {
@@ -86,6 +86,15 @@
    "published": "2026-11-14T03:00:01Z",
    "url": "https://www.youtube.com/watch?v=I2qDH2-uNEM",
    "image": "https://i.ytimg.com/vi/I2qDH2-uNEM/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "S.W.I.S.H. Photoshoot Behind the Scenes",
+   "date": "2026-11-14",
+   "published": "2026-11-14T12:00:03Z",
+   "url": "https://www.youtube.com/watch?v=a6n1LlVhSFU",
+   "image": "https://i.ytimg.com/vi/a6n1LlVhSFU/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -187,7 +196,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-14T08"
+   "ytm_try": "2026-11-14T12"
   },
   {
    "type": "video",
@@ -197,15 +206,6 @@
    "published": "2026-11-13T14:10:35Z",
    "url": "https://www.youtube.com/watch?v=6TFHiSj1_Tc",
    "image": "https://i.ytimg.com/vi/6TFHiSj1_Tc/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "#Bananas kickin off on music shows ☑️ #LNGSHOT #SWISH",
-   "date": "2026-11-13",
-   "published": "2026-11-13T12:00:36Z",
-   "url": "https://www.youtube.com/watch?v=ixl20NW59Ao",
-   "image": "https://i.ytimg.com/vi/ixl20NW59Ao/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -343,7 +343,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-14T08"
+   "ytm_try": "2026-11-14T12"
   },
   {
    "type": "video",
