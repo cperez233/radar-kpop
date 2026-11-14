@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-14T04:01:00Z",
+ "updated_at": "2026-11-14T04:46:09Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "𝚈𝚘𝚞 & 𝙰𝚗𝚘𝚝𝚑𝚎𝚛 𝚢𝚘𝚞 #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "𝚈𝚘𝚞 & 𝙰𝚗𝚘𝚝𝚑𝚎𝚛 𝚢𝚘𝚞 #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "when": "2026-11-14T04:40:58Z",
+   "url": "https://www.youtube.com/watch?v=XHFeYdoVaog"
+  },
   {
    "type": "official",
    "group": "seventeen",
@@ -709,17 +720,6 @@
    "src_lang": "en",
    "body_orig": "«Who can see the BABY ANGEL🙋‍♀️ 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Nuevo video: TWICE",
-   "body": "Who can see the BABY ANGEL🙋‍♀️ #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "title_en": "New video: TWICE",
-   "body_en": "Who can see the BABY ANGEL🙋‍♀️ #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "when": "2026-11-11T06:00:19Z",
-   "url": "https://www.youtube.com/watch?v=oJrKKBG_H2U"
   }
  ]
 }
