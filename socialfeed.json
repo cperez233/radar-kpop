@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13T23:16:07Z",
+ "updated_at": "2026-11-14T00:16:29Z",
  "groups": {
   "bts": {
    "x": [
@@ -1379,6 +1379,11 @@
   "lngshot": {
    "x": [
     {
+     "title": "[#BuzzFeed] LNGSHOT React To Their Memes! #LNGSHOT",
+     "url": "https://x.com/LNGSHOT4sho/status/2121392705356148989",
+     "when": "2026-11-14T00:00:09Z"
+    },
+    {
      "title": "Unbox #SWISH with #LNGSHOT: Card Pack Edition 📦",
      "url": "https://x.com/LNGSHOT4sho/status/2121244189635801490",
      "when": "2026-11-13T14:10:00Z"
@@ -1397,11 +1402,6 @@
      "title": "#Bananas kickin off on music shows ☑️ #LNGSHOT #SWISH",
      "url": "https://x.com/LNGSHOT4sho/status/2121211495203655756",
      "when": "2026-11-13T12:00:05Z"
-    },
-    {
-     "title": "[#Spotify] LNGSHOT과의 영통 인터뷰 | RADAR with LNGSHOT #LNGSHOT #SWISH",
-     "url": "https://x.com/LNGSHOT4sho/status/2121189374989877594",
-     "when": "2026-11-13T10:32:11Z"
     }
    ],
    "members": {
@@ -2172,6 +2172,11 @@
   "ateez": {
    "x": [
     {
+     "title": "[📢] ATEEZ(에이티즈) - ‘UP’ Official MV 10,000,000 Views ⠀ ATINY의 뜨거운 사랑에 힘입어 ‘UP’ 뮤직비디오 1,000만 뷰 달성! ATEEZ에게 꾸준한 관심...",
+     "url": "https://x.com/ATEEZofficial/status/2121385118682042714",
+     "when": "2026-11-13T23:30:00Z"
+    },
+    {
      "title": "[🎬] 소리 질러 My name 🔗 🔗 🔗 #ATEEZ #에이티즈 #GOLDENH...",
      "url": "https://x.com/ATEEZofficial/status/2121242656303173910",
      "when": "2026-11-13T14:03:54Z"
@@ -2190,11 +2195,6 @@
      "title": "[🎬] 미쳐 날뛰어 ‘Bout to go UP 🔗 🔗 🔗 #ATEEZ #에이티...",
      "url": "https://x.com/ATEEZofficial/status/2121189917707670015",
      "when": "2026-11-13T10:34:20Z"
-    },
-    {
-     "title": "[🎬] [4K] ATEEZ(에이티즈) - UP [불후의 명곡/덕수궁 중화전 세계 최초 퍼포먼스] KBS #ATEEZ #에이티즈 #GOLDENHO...",
-     "url": "https://x.com/ATEEZofficial/status/2121182389397549361",
-     "when": "2026-11-13T10:04:25Z"
     }
    ],
    "members": {
@@ -2264,5 +2264,5 @@
   }
  },
  "ig_cursor": 2,
- "ig_pause_until": "2026-11-14T00:16:12Z"
+ "ig_pause_until": "2026-11-14T06:16:29Z"
 }
