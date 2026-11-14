@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-14T06:45:59Z",
+ "updated_at": "2026-11-14T07:45:52Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "POV: #JAY is obsessed with you 💘 #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "POV: #JAY is obsessed with you 💘 #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "when": "2026-11-14T07:37:51Z",
+   "url": "https://www.youtube.com/watch?v=0CXsA59Yc94"
+  },
   {
    "type": "video",
    "group": "enhypen",
@@ -706,17 +717,6 @@
    "body_en": "정한X조슈아 (SEVENTEEN) - One plus one @JOURNEY INTO [DREAMING] in INCHEON (YouTube)",
    "when": "2026-11-11T10:59:56Z",
    "url": "https://www.youtube.com/watch?v=ttCHjgJRAWY"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "형이 제 키 가져갔죠? #StrayKids #스트레이키즈 #창빈 #Changbin #현진 #Hyunjin #YouMakeStrayKidsStay (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "형이 제 키 가져갔죠? #StrayKids #스트레이키즈 #창빈 #Changbin #현진 #Hyunjin #YouMakeStrayKidsStay (YouTube)",
-   "when": "2026-11-11T10:00:25Z",
-   "url": "https://www.youtube.com/watch?v=3JHJYqsWAEg"
   }
  ]
 }
