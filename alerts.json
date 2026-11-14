@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-14T01:16:46Z",
+ "updated_at": "2026-11-14T03:01:03Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Nuevo video: Stray Kids",
+   "body": "[kNOw맘대로(The kNOw Way)] Ep.11 (YouTube)",
+   "title_en": "New video: Stray Kids",
+   "body_en": "[kNOw맘대로(The kNOw Way)] Ep.11 (YouTube)",
+   "when": "2026-11-14T03:00:01Z",
+   "url": "https://www.youtube.com/watch?v=I2qDH2-uNEM"
+  },
   {
    "type": "stop_today",
    "group": "twice",
@@ -706,17 +717,6 @@
    "body_en": "✌️She's BACK ✌️#TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
    "when": "2026-11-11T05:00:18Z",
    "url": "https://www.youtube.com/watch?v=E0JUBvAzOVk"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "[GOING SEVENTEEN] EP.166 도둑 #1 (THIEF #1) (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "[GOING SEVENTEEN] EP.166 도둑 #1 (THIEF #1) (YouTube)",
-   "when": "2026-11-11T04:40:37Z",
-   "url": "https://www.youtube.com/watch?v=qCzFO7JUMO4"
   }
  ]
 }
