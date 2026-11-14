@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T14:15:32Z",
+ "updated_at": "2026-11-14T15:00:39Z",
  "sample": false,
  "items": [
   {
@@ -180,6 +180,15 @@
   {
    "type": "video",
    "group": "ateez",
+   "title": "ATEEZ(에이티즈) - 'UP' Visualizer",
+   "date": "2026-11-14",
+   "published": "2026-11-14T15:00:12Z",
+   "url": "https://www.youtube.com/watch?v=9gbcejnz-4s",
+   "image": "https://i.ytimg.com/vi/9gbcejnz-4s/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
    "title": "Yeah we go 🆙 w/ 경민 님 #Shorts",
    "date": "2026-11-14",
    "published": "2026-11-14T14:00:28Z",
@@ -242,15 +251,6 @@
    "published": "2026-11-13T12:00:33Z",
    "url": "https://www.youtube.com/watch?v=LAUBwtYCpGo",
    "image": "https://i.ytimg.com/vi/LAUBwtYCpGo/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "소리 질러 My name #Shorts",
-   "date": "2026-11-13",
-   "published": "2026-11-13T14:00:33Z",
-   "url": "https://www.youtube.com/watch?v=L3pUhm8cFG0",
-   "image": "https://i.ytimg.com/vi/L3pUhm8cFG0/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -580,7 +580,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-14T11",
+   "ytm_try": "2026-11-14T15",
    "sp_try": "2026-11-14"
   },
   {
@@ -1296,7 +1296,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-14T11"
+   "ytm_try": "2026-11-14T15"
   },
   {
    "type": "music",

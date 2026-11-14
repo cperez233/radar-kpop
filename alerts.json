@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-14T14:16:35Z",
+ "updated_at": "2026-11-14T15:00:59Z",
  "alerts": [
+  {
+   "type": "birthday",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "🎂 Hoy cumple Jake (ENHYPEN)",
+   "body": "Cumple 24 años. ¡생일 축하해, Jake!",
+   "title_en": "🎂 It's Jake's birthday (ENHYPEN)",
+   "body_en": "Turning 24. Happy birthday, Jake! 생일 축하해!",
+   "when": "2026-11-14T15:00:59Z",
+   "url": null
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) - 'UP' Visualizer (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) - 'UP' Visualizer (YouTube)",
+   "when": "2026-11-14T15:00:12Z",
+   "url": "https://www.youtube.com/watch?v=9gbcejnz-4s"
+  },
   {
    "type": "next_stop",
    "group": "twice",
@@ -677,31 +699,6 @@
    "body_en": "도겸과 정한 〈정답 없는 여행〉 Highlight Teaser (YouTube)",
    "when": "2026-11-12T09:00:02Z",
    "url": "https://www.youtube.com/watch?v=FEyF183bBWc"
-  },
-  {
-   "type": "comeback",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Comeback: ATEEZ",
-   "body": "Exclusiva: ATEEZ reflexiona sobre el éxito de “BAD” y fija su mirada en “UP” en su conferencia de prensa de regreso (Soompi)",
-   "title_en": "Comeback: ATEEZ",
-   "body_en": "Exclusive: ATEEZ Reflects On “BAD” Success And Sets Their Sights On “UP” At Comeback Press Conference (Soompi)",
-   "when": "2026-11-12T08:31:35Z",
-   "url": "https://www.soompi.com/article/1886248wpp/exclusive-ateez-reflects-on-bad-success-and-sets-their-sights-on-up-at-comeback-press-conference",
-   "src_lang": "en",
-   "body_orig": "Exclusive: ATEEZ Reflects On “BAD” Success And Sets Their Sights On “UP” At Comeback Press Conference (Soompi)",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Nuevo video: TWICE",
-   "body": "WHERE IS NY? #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "title_en": "New video: TWICE",
-   "body_en": "WHERE IS NY? #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "when": "2026-11-12T06:30:20Z",
-   "url": "https://www.youtube.com/watch?v=l0IOElkRH6I"
   }
  ]
 }
