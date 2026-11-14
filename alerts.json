@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-14T04:46:09Z",
+ "updated_at": "2026-11-14T05:45:59Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "Running to you 🏃 #JAKE #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "Running to you 🏃 #JAKE #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "when": "2026-11-14T05:34:09Z",
+   "url": "https://www.youtube.com/watch?v=Lc4dLo6z_3g"
+  },
   {
    "type": "video",
    "group": "enhypen",
@@ -706,20 +717,6 @@
    "body_en": "TWICE 11th Anniversary ‘ONCE UPON A THRI11’ & ‘TWICE THE THRILL’ Behind (YouTube)",
    "when": "2026-11-11T09:00:05Z",
    "url": "https://www.youtube.com/watch?v=wMuJyhxVM-0"
-  },
-  {
-   "type": "official",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Anuncio oficial de TWICE: comeback",
-   "body": "«¿Quién puede ver el BABY ANGEL🙋‍♀️ 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
-   "title_en": "Official TWICE news: comeback",
-   "body_en": "«Who can see the BABY ANGEL🙋‍♀️ 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
-   "when": "2026-11-11T06:03:53Z",
-   "url": "https://x.com/JYPETWICE/status/2120397079734595811",
-   "src_lang": "en",
-   "body_orig": "«Who can see the BABY ANGEL🙋‍♀️ 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
-   "auto": true
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T04:45:36Z",
+ "updated_at": "2026-11-14T05:45:36Z",
  "sample": false,
  "items": [
   {
@@ -99,6 +99,15 @@
   {
    "type": "video",
    "group": "enhypen",
+   "title": "Running to you 🏃 #JAKE #THE_SIN_PARALLEL_WORLD #ENHYPEN",
+   "date": "2026-11-14",
+   "published": "2026-11-14T05:34:09Z",
+   "url": "https://www.youtube.com/watch?v=Lc4dLo6z_3g",
+   "image": "https://i.ytimg.com/vi/Lc4dLo6z_3g/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
    "title": "𝚈𝚘𝚞 & 𝙰𝚗𝚘𝚝𝚑𝚎𝚛 𝚢𝚘𝚞 #THE_SIN_PARALLEL_WORLD #ENHYPEN",
    "date": "2026-11-14",
    "published": "2026-11-14T04:40:58Z",
@@ -114,6 +123,7 @@
    "url": "https://music.apple.com/us/album/golden-hour-part-6-ep/6819932396",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/4c/8e/1d4c8e84-ac53-90ed-1dbe-615fdef5b8f1/196874852668.jpg/300x300bb.jpg",
    "ytm_v": 6,
+   "spotify": "https://open.spotify.com/album/5UKj0Dge5ik5jw3JVjoxof",
    "tracks": [
     {
      "n": "ANEMIA",
@@ -141,8 +151,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-14T04",
-   "spotify": "https://open.spotify.com/album/5UKj0Dge5ik5jw3JVjoxof"
+   "ytm_try": "2026-11-14T04"
   },
   {
    "type": "video",
@@ -335,15 +344,6 @@
    "published": "2026-11-10T14:00:01Z",
    "url": "https://www.youtube.com/watch?v=v7f2hO1Jo2U",
    "image": "https://i.ytimg.com/vi/v7f2hO1Jo2U/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "느끼 쫑냥이😼 #JAY #ENHYPEN",
-   "date": "2026-11-10",
-   "published": "2026-11-10T10:15:11Z",
-   "url": "https://www.youtube.com/watch?v=MZBnpDr1Rvk",
-   "image": "https://i.ytimg.com/vi/MZBnpDr1Rvk/hqdefault.jpg"
   },
   {
    "type": "video",
