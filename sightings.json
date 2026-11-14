@@ -1,8 +1,23 @@
 {
-  "updated_at": "2026-11-14T14:00:40Z",
+  "updated_at": "2026-11-14T20:15:33Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "fan-twice-amsterdam-20261114",
+      "group": "twice",
+      "group_name": "TWICE",
+      "city": "Ámsterdam",
+      "country": "Países Bajos",
+      "lat": 52.3676,
+      "lon": 4.9041,
+      "fan": true,
+      "fans": 2,
+      "text": "",
+      "url": "",
+      "account": "",
+      "when": "2026-11-14T14:15:19Z"
+    },
     {
       "id": "x-2121603925724066260",
       "group": "enhypen",
