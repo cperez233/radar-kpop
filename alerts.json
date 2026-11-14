@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-14T10:00:54Z",
+ "updated_at": "2026-11-14T10:30:57Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "POV: #SUNOO is in love with you 💗 #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "POV: #SUNOO is in love with you 💗 #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "when": "2026-11-14T10:30:01Z",
+   "url": "https://www.youtube.com/watch?v=umQSXm5kScw"
+  },
   {
    "type": "video",
    "group": "enhypen",
@@ -697,20 +708,6 @@
    "body_en": "Home Sweet #Bananas 🏠 #LNGSHOT #SWISH (YouTube)",
    "when": "2026-11-12T04:00:25Z",
    "url": "https://www.youtube.com/watch?v=OjHToSR4cYk"
-  },
-  {
-   "type": "official",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Anuncio oficial de ENHYPEN: comeback",
-   "body": "«Reserva #THE_SIN_PARALLEL_WORLD de #ENHYPEN https://enhypen.lnk.to/THESINPARALLELWORLD ¡Mira las exclusivas! [Target & EU] - Foto exclusiva del coche...» (ENHYPEN en X).",
-   "title_en": "Official ENHYPEN news: comeback",
-   "body_en": "«Pre-order #ENHYPEN 's #THE_SIN_PARALLEL_WORLD https://enhypen.lnk.to/THESINPARALLELWORLD Check out the Exclusives! [Target & EU] - Exclusive Photo car...» (ENHYPEN en X).",
-   "when": "2026-11-12T02:15:08Z",
-   "url": "https://x.com/ENHYPEN/status/2120701902556123556",
-   "src_lang": "en",
-   "body_orig": "«Pre-order #ENHYPEN 's #THE_SIN_PARALLEL_WORLD https://enhypen.lnk.to/THESINPARALLELWORLD Check out the Exclusives! [Target & EU] - Exclusive Photo car...» (ENHYPEN en X).",
-   "auto": true
   }
  ]
 }
