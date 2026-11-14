@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-11-11T14:00:40Z",
+  "updated_at": "2026-11-14T03:15:46Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "x-2121438840946864489",
+      "group": "ateez",
+      "group_name": "ATEEZ",
+      "city": "Nueva York",
+      "country": "EE. UU.",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "text": "[📷] Look up, NYC! 👀 Huge thank you to @amazonmusic for lighting up Times Square!🌟 🎶🔗 📍Times Square #ATEEZ #에이티즈 #GOLDENHOUR #GOLDENHOUR_Part6 #UP #AmazonMusic",
+      "url": "https://x.com/ATEEZofficial/status/2121438840946864489",
+      "account": "ATEEZofficial",
+      "when": "2026-11-14T03:03:28Z"
+    },
     {
       "id": "x-2120516899251626442",
       "group": "ateez",

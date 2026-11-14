@@ -2780,7 +2780,6 @@
   }
  },
  "news_seen": [
-  "911c2d9a565ebf7b",
   "911e2fc0d7e71e7d",
   "911fbf707a1ae1cd",
   "91259e7d06cb30ad",
@@ -3485,6 +3484,7 @@
   "f25e10bb1d46dbbe",
   "f26af648e9a8b18b",
   "f26dd924d89670c4",
+  "f28878003d4a6fd0",
   "f298336dde47c441",
   "f2a43ad1ae955d37",
   "f2a7d61dbfe0599f",
@@ -3582,18 +3582,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "skz",
-   "w": [
-    "actual",
-    "anade",
-    "fechas",
-    "gira",
-    "mundial",
-    "otras"
-   ],
-   "t": "2026-11-12T03:01:52Z"
-  },
   {
    "g": "ateez",
    "w": [
