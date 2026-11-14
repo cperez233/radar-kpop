@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T08:45:32Z",
+ "updated_at": "2026-11-14T09:00:37Z",
  "sample": false,
  "items": [
   {
@@ -95,6 +95,15 @@
    "published": "2026-11-14T08:15:33Z",
    "url": "https://www.youtube.com/watch?v=m7_9Dv-ZNuI",
    "image": "https://i.ytimg.com/vi/m7_9Dv-ZNuI/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "JEONGHAN X JOSHUA (SEVENTEEN) ‘DREAMSCAPE’ Recording BEHIND THE SCENES",
+   "date": "2026-11-14",
+   "published": "2026-11-14T08:59:54Z",
+   "url": "https://www.youtube.com/watch?v=_2PP0xm9A_A",
+   "image": "https://i.ytimg.com/vi/_2PP0xm9A_A/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -269,15 +278,6 @@
    "published": "2026-11-12T05:30:35Z",
    "url": "https://www.youtube.com/watch?v=zDpIVCu_2o4",
    "image": "https://i.ytimg.com/vi/zDpIVCu_2o4/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "S.COUPS(에스쿱스) 쿡스쿱스 | 혼자서도 잘 빚어요 편",
-   "date": "2026-11-12",
-   "published": "2026-11-12T12:59:58Z",
-   "url": "https://www.youtube.com/watch?v=qiOh_IrZ2ug",
-   "image": "https://i.ytimg.com/vi/qiOh_IrZ2ug/hqdefault.jpg"
   },
   {
    "type": "video",
