@@ -1737,7 +1737,11 @@
   "news:87ce50f6ba9d5271|feed": "2026-11-14T10:31:02Z",
   "news:b66f1d67692b650a|feed": "2026-11-14T12:01:04Z",
   "news:32ca7afa1fe70cc0|feed": "2026-11-14T13:01:08Z",
-  "news:2cc74604c8de9413|feed": "2026-11-14T13:01:08Z"
+  "news:2cc74604c8de9413|feed": "2026-11-14T13:01:08Z",
+  "news:37b36ac259e581e4|feed": "2026-11-14T13:17:07Z",
+  "news:37b36ac259e581e4|ntfy": "2026-11-14T13:17:07Z",
+  "news:37b36ac259e581e4|pub:radarkpop-skz-news": "2026-11-14T13:17:07Z",
+  "news:37b36ac259e581e4|foro": "2026-11-14T13:17:07Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3604,18 +3608,6 @@
   {
    "g": "skz",
    "w": [
-    "anuncia",
-    "europa",
-    "gira",
-    "mundial",
-    "norteamerica",
-    "run"
-   ],
-   "t": "2026-11-12T13:15:56Z"
-  },
-  {
-   "g": "skz",
-   "w": [
     "2027",
     "conciertos",
     "dara",
@@ -3759,6 +3751,18 @@
     "success"
    ],
    "t": "2026-11-14T08:48:35Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "2027",
+    "anuncia",
+    "estadios",
+    "gira",
+    "mundial",
+    "run"
+   ],
+   "t": "2026-11-14T13:17:01Z"
   }
  ],
  "discord_threads": {

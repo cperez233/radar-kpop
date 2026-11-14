@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T13:01:00Z",
+ "updated_at": "2026-11-14T13:17:01Z",
  "alerts": [
   {
    "type": "video",
@@ -201,6 +201,20 @@
    "body_en": "Manila. Approximate time, check with the box office.",
    "when": "2026-11-14T00:01:04Z",
    "url": null
+  },
+  {
+   "type": "tour",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Gira: Stray Kids",
+   "body": "Stray Kids anuncia la gira mundial de estadios 'Run it' para 2027 - Hipsterian Circus (Google Noticias)",
+   "title_en": "Tour: Stray Kids",
+   "body_en": "Stray Kids announce 'Run it' world stadium tour for 2027 - Hipsterian Circus (Google News)",
+   "when": "2026-11-13T18:30:00Z",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSm9sUVp3aHdDRGJ2UkhlLXNDUjhWUTdJNWdidlUwRmhCUnpEWHdPNUxzTlZ0alhLLThFTXdpVmJQVHVHN1JMUkxpdWRhM0hSWTZVYU14VHpyYjJQdzhqY2VmVDhxTUZ5aTZySDZqS3YtVENkMVZfRzNuZjlhTEt4Q2hRUTU3bmZLVUxVTVZEMmFpNXBkMjVDUVdibw?oc=5",
+   "src_lang": "es",
+   "body_orig": "Stray Kids anuncia la gira mundial de estadios 'Run it' para 2027 - Hipsterian Circus (Google Noticias)",
+   "auto": true
   },
   {
    "type": "tour",
@@ -691,17 +705,6 @@
    "body_en": ".........📷🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
    "when": "2026-11-12T05:30:35Z",
    "url": "https://www.youtube.com/watch?v=zDpIVCu_2o4"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Nuevo video: TWICE",
-   "body": "I'M HERE! #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "title_en": "New video: TWICE",
-   "body_en": "I'M HERE! #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "when": "2026-11-12T05:00:06Z",
-   "url": "https://www.youtube.com/watch?v=Mm-qZVRc-Bw"
   }
  ]
 }
