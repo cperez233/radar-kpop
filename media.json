@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T05:45:36Z",
+ "updated_at": "2026-11-14T06:45:36Z",
  "sample": false,
  "items": [
   {
@@ -95,6 +95,15 @@
    "published": "2026-11-14T03:59:06Z",
    "url": "https://www.youtube.com/watch?v=HK1h0Xwp3SE",
    "image": "https://i.ytimg.com/vi/HK1h0Xwp3SE/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "Oh...You? #SUNGHOON #THE_SIN_PARALLEL_WORLD #ENHYPEN",
+   "date": "2026-11-14",
+   "published": "2026-11-14T06:35:11Z",
+   "url": "https://www.youtube.com/watch?v=K8o5g5L-2Ag",
+   "image": "https://i.ytimg.com/vi/K8o5g5L-2Ag/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -335,15 +344,6 @@
     }
    ],
    "ytm_try": "2026-11-14T04"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "To YOU, From SUNOO",
-   "date": "2026-11-10",
-   "published": "2026-11-10T14:00:01Z",
-   "url": "https://www.youtube.com/watch?v=v7f2hO1Jo2U",
-   "image": "https://i.ytimg.com/vi/v7f2hO1Jo2U/hqdefault.jpg"
   },
   {
    "type": "video",
