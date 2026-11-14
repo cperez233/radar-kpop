@@ -1746,7 +1746,8 @@
   "next:twice:twice-auto-20261114-manila|ntfy": "2026-11-14T14:01:21Z",
   "next:twice:twice-auto-20261114-manila|pub:radarkpop-twice-shows": "2026-11-14T14:01:21Z",
   "next:twice:twice-auto-20261114-manila|foro": "2026-11-14T14:01:21Z",
-  "news:992879b859ee1fbf|feed": "2026-11-14T14:01:21Z"
+  "news:992879b859ee1fbf|feed": "2026-11-14T14:01:21Z",
+  "news:cfeb5710bacb291f|feed": "2026-11-14T14:16:41Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2808,8 +2809,6 @@
   }
  },
  "news_seen": [
-  "93e7d0d96975c577",
-  "93ee5f868d145778",
   "9420a02cb027e462",
   "943a4e796dcaee22",
   "944b488f7104c4b8",
@@ -3208,6 +3207,7 @@
   "c762b25ee784d8d7",
   "c78ea0ce09af3c26",
   "c8153f655bd5e38c",
+  "c81f272796dc7744",
   "c83c3e3cdebe8430",
   "c8a5b7edba2ce17f",
   "c8c7e5d61ca24a51",
@@ -3275,6 +3275,7 @@
   "cf8004556f016740",
   "cf8b9f4730133ab8",
   "cfa384031ef9ad58",
+  "cfeb5710bacb291f",
   "d0008a3380403320",
   "d06b08d640ac9b8d",
   "d086a34d23f83ee6",

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T14:01:13Z",
+ "updated_at": "2026-11-14T14:16:35Z",
  "alerts": [
   {
    "type": "next_stop",
@@ -11,6 +11,17 @@
    "body_en": "Wrapped up in Manila. Next stop: Seoul, South Korea (Nov 21), about 2,621 km away.",
    "when": "2026-11-14T14:01:13Z",
    "url": null
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "Yeah we go 🆙 w/ 경민 님 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "Yeah we go 🆙 w/ 경민 님 #Shorts (YouTube)",
+   "when": "2026-11-14T14:00:28Z",
+   "url": "https://www.youtube.com/watch?v=ZEIW00RtTSU"
   },
   {
    "type": "video",
@@ -691,20 +702,6 @@
    "body_en": "WHERE IS NY? #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
    "when": "2026-11-12T06:30:20Z",
    "url": "https://www.youtube.com/watch?v=l0IOElkRH6I"
-  },
-  {
-   "type": "official",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Anuncio oficial de TWICE: comeback",
-   "body": "«¿DÓNDE ESTÁ NUEVA YORK? 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KST/0AM ET #TWICE #트와이스 #NAYEON #나연 #NA_sty...» (TWICE en X).",
-   "title_en": "Official TWICE news: comeback",
-   "body_en": "«WHERE IS NY? 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이스 #NAYEON #나연 #NA_sty...» (TWICE en X).",
-   "when": "2026-11-12T06:30:00Z",
-   "url": "https://x.com/JYPETWICE/status/2120766039399235695",
-   "src_lang": "ko",
-   "body_orig": "«WHERE IS NY? 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이스 #NAYEON #나연 #NA_sty...» (TWICE en X).",
-   "auto": true
   }
  ]
 }
