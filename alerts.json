@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-11-14T03:01:03Z",
+ "updated_at": "2026-11-14T04:01:00Z",
  "alerts": [
+  {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: comeback",
+   "body": "«Viajar está bien, muy bien #Enelcaminojusto #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ ESTRENO: 19/11/2026 20:00 (KST) 👉 EN DIRECTO: Weverse, Hulu (Jap...» (SEVENTEEN en X).",
+   "title_en": "Official SEVENTEEN news: comeback",
+   "body_en": "«Traveling is great, but #GoingSEVENTEEN #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ RELEASE: November 19, 2026, 8 PM (KST) 👉 ON-AIR: Weverse, Hulu (Jap...» (SEVENTEEN on X).",
+   "when": "2026-11-14T04:00:28Z",
+   "url": "https://x.com/pledis_17/status/2121453186141900812",
+   "src_lang": "ko",
+   "body_orig": "«여행 좋지 좋은데 #정답행 #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hulu(Jap...» (SEVENTEEN en X).",
+   "auto": true
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "여행 좋지 좋은데 #정답행 #EP1 (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "여행 좋지 좋은데 #정답행 #EP1 (YouTube)",
+   "when": "2026-11-14T03:59:06Z",
+   "url": "https://www.youtube.com/watch?v=HK1h0Xwp3SE"
+  },
   {
    "type": "video",
    "group": "skz",
@@ -695,28 +720,6 @@
    "body_en": "Who can see the BABY ANGEL🙋‍♀️ #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
    "when": "2026-11-11T06:00:19Z",
    "url": "https://www.youtube.com/watch?v=oJrKKBG_H2U"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Nuevo video: TWICE",
-   "body": "I CAN'T STOP ME w.👼 선배님 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "title_en": "New video: TWICE",
-   "body_en": "I CAN'T STOP ME w.👼 선배님 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "when": "2026-11-11T05:30:21Z",
-   "url": "https://www.youtube.com/watch?v=Tu4GGnAvQQs"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Nuevo video: TWICE",
-   "body": "✌️She's BACK ✌️#TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "title_en": "New video: TWICE",
-   "body_en": "✌️She's BACK ✌️#TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "when": "2026-11-11T05:00:18Z",
-   "url": "https://www.youtube.com/watch?v=E0JUBvAzOVk"
   }
  ]
 }
