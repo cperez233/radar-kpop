@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-14T08:30:57Z",
+ "updated_at": "2026-11-14T08:45:52Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "Coming to you 🎁 #JUNGWON #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "Coming to you 🎁 #JUNGWON #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "when": "2026-11-14T08:35:00Z",
+   "url": "https://www.youtube.com/watch?v=o8XlEcD4O6g"
+  },
   {
    "type": "video",
    "group": "ateez",
@@ -706,17 +717,6 @@
    "src_lang": "en",
    "body_orig": "«release day with @SpotifyKR went #Bananas 🤞 drop your fav track in the comments #LNGSHOT #SWISH» (LNGSHOT en X).",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "Go #Bananas 할 사람 구함👌☝️👇 #LNGSHOT #SWISH (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "Go #Bananas 할 사람 구함👌☝️👇 #LNGSHOT #SWISH (YouTube)",
-   "when": "2026-11-11T13:00:02Z",
-   "url": "https://www.youtube.com/watch?v=CnNArL_Of6c"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T08:30:37Z",
+ "updated_at": "2026-11-14T08:45:32Z",
  "sample": false,
  "items": [
   {
@@ -108,6 +108,15 @@
   {
    "type": "video",
    "group": "enhypen",
+   "title": "Coming to you 🎁 #JUNGWON #THE_SIN_PARALLEL_WORLD #ENHYPEN",
+   "date": "2026-11-14",
+   "published": "2026-11-14T08:35:00Z",
+   "url": "https://www.youtube.com/watch?v=o8XlEcD4O6g",
+   "image": "https://i.ytimg.com/vi/o8XlEcD4O6g/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
    "title": "POV: #JAY is obsessed with you 💘 #THE_SIN_PARALLEL_WORLD #ENHYPEN",
    "date": "2026-11-14",
    "published": "2026-11-14T07:37:51Z",
@@ -122,15 +131,6 @@
    "published": "2026-11-14T06:35:11Z",
    "url": "https://www.youtube.com/watch?v=K8o5g5L-2Ag",
    "image": "https://i.ytimg.com/vi/K8o5g5L-2Ag/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "Running to you 🏃 #JAKE #THE_SIN_PARALLEL_WORLD #ENHYPEN",
-   "date": "2026-11-14",
-   "published": "2026-11-14T05:34:09Z",
-   "url": "https://www.youtube.com/watch?v=Lc4dLo6z_3g",
-   "image": "https://i.ytimg.com/vi/Lc4dLo6z_3g/hqdefault.jpg"
   },
   {
    "type": "video",
