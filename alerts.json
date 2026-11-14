@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T00:01:04Z",
+ "updated_at": "2026-11-14T01:16:46Z",
  "alerts": [
   {
    "type": "stop_today",
@@ -249,6 +249,20 @@
    "body_en": "S.COUPS(에스쿱스) 쿡스쿱스 | 혼자서도 잘 빚어요 편 (YouTube)",
    "when": "2026-11-12T12:59:58Z",
    "url": "https://www.youtube.com/watch?v=qiOh_IrZ2ug"
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "GIRA MUNDIAL DE BTS «ARIRANG» EN KAOHSIUNG: VISIÓN EN DIRECTO - SensaCine (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING - SensaCine (Google Noticias)",
+   "when": "2026-11-12T12:16:41Z",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01SlhmSkE3M2tpWEkzMGI0Rlp2aUJhVU5CR2NqZFM1QVZ4bmdSVFYxOVZfXzJsMEliTFkybUllbW1UUlNfanByTjBUcFZCQ0NZRTFlY2p3TDZrQXpiYUhlR3NEVzc3ZVU?oc=5",
+   "src_lang": "en",
+   "body_orig": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING - SensaCine (Google Noticias)",
+   "auto": true
   },
   {
    "type": "video",
@@ -703,17 +717,6 @@
    "body_en": "[GOING SEVENTEEN] EP.166 도둑 #1 (THIEF #1) (YouTube)",
    "when": "2026-11-11T04:40:37Z",
    "url": "https://www.youtube.com/watch?v=qCzFO7JUMO4"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Nuevo video: CORTIS",
-   "body": "happens sometimes #CORTIS #코르티스 (YouTube)",
-   "title_en": "New video: CORTIS",
-   "body_en": "happens sometimes #CORTIS #코르티스 (YouTube)",
-   "when": "2026-11-11T04:00:16Z",
-   "url": "https://www.youtube.com/watch?v=JTOTISOnArU"
   }
  ]
 }

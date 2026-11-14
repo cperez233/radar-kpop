@@ -1713,7 +1713,11 @@
   "official:ateez:comeback:2026-11-14|feed": "2026-11-14T00:01:11Z",
   "official:ateez:comeback:2026-11-14|ntfy": "2026-11-14T00:01:11Z",
   "official:ateez:comeback:2026-11-14|pub:radarkpop-ateez-music": "2026-11-14T00:01:11Z",
-  "official:ateez:comeback:2026-11-14|foro": "2026-11-14T00:01:11Z"
+  "official:ateez:comeback:2026-11-14|foro": "2026-11-14T00:01:11Z",
+  "news:5ea951a62629a94c|feed": "2026-11-14T01:16:53Z",
+  "news:5ea951a62629a94c|ntfy": "2026-11-14T01:16:53Z",
+  "news:5ea951a62629a94c|pub:radarkpop-bts-news": "2026-11-14T01:16:53Z",
+  "news:5ea951a62629a94c|foro": "2026-11-14T01:16:53Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3578,19 +3582,6 @@
  ],
  "news_topics": [
   {
-   "g": "bts",
-   "w": [
-    "2026",
-    "arirang",
-    "cines",
-    "kaohsiung",
-    "tour",
-    "world",
-    "yakarta"
-   ],
-   "t": "2026-11-12T01:01:51Z"
-  },
-  {
    "g": "skz",
    "w": [
     "actual",
@@ -3768,6 +3759,18 @@
     "wonho"
    ],
    "t": "2026-11-13T23:46:01Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "kaohsiung",
+    "live",
+    "tour",
+    "viewing",
+    "world"
+   ],
+   "t": "2026-11-14T01:16:46Z"
   }
  ],
  "discord_threads": {
