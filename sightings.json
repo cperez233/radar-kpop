@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T03:15:46Z",
+  "updated_at": "2026-11-14T07:15:36Z",
   "source": "rsshub",
   "sample": false,
   "items": [
@@ -15,6 +15,21 @@
       "url": "https://x.com/ATEEZofficial/status/2121438840946864489",
       "account": "ATEEZofficial",
       "when": "2026-11-14T03:03:28Z"
+    },
+    {
+      "id": "fan-blackpink-lasvegas-20261114",
+      "group": "blackpink",
+      "group_name": "BLACKPINK",
+      "city": "Las Vegas",
+      "country": "EE. UU.",
+      "lat": 36.1699,
+      "lon": -115.1398,
+      "fan": true,
+      "fans": 2,
+      "text": "",
+      "url": "",
+      "account": "",
+      "when": "2026-11-14T01:06:11Z"
     },
     {
       "id": "x-2120516899251626442",
