@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-15T06:01:02Z",
+ "updated_at": "2026-11-15T06:09:59Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "#JAKE Birthday🎉 #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "#JAKE Birthday🎉 #ENHYPEN (YouTube)",
+   "when": "2026-11-15T06:06:43Z",
+   "url": "https://www.youtube.com/watch?v=lzpcnL9Mn4s"
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -688,17 +699,6 @@
    "body_en": "최희진 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
    "when": "2026-11-12T11:00:26Z",
    "url": "https://www.youtube.com/watch?v=FVHuXifGFR0"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "[SKZ VLOG] Seungmin : Mini's minilog 9 (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "[SKZ VLOG] Seungmin : Mini's minilog 9 (YouTube)",
-   "when": "2026-11-12T10:59:56Z",
-   "url": "https://www.youtube.com/watch?v=6gAzcj3zDi0"
   }
  ]
 }
