@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-15T00:00:56Z",
+ "updated_at": "2026-11-15T03:00:57Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Nuevo video: Stray Kids",
+   "body": "중간이 없는 가을 남자🍂 #StrayKids #스트레이키즈 #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay (YouTube)",
+   "title_en": "New video: Stray Kids",
+   "body_en": "중간이 없는 가을 남자🍂 #StrayKids #스트레이키즈 #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay (YouTube)",
+   "when": "2026-11-15T03:00:02Z",
+   "url": "https://www.youtube.com/watch?v=2yFY8ETwJnI"
+  },
   {
    "type": "birthday",
    "group": "enhypen",
@@ -674,20 +685,6 @@
    "body_en": "like me like me 👉👈 #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou (YouTube)",
    "when": "2026-11-12T10:00:15Z",
    "url": "https://www.youtube.com/watch?v=Tw21uQleyfk"
-  },
-  {
-   "type": "official",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Anuncio oficial de CORTIS: gira",
-   "body": "«2026 CORTIS TOUR <BAJA TU TELÉFONO> Boceto fotográfico de FIESTA DE CUMPLEAÑOS (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
-   "title_en": "Official CORTIS news: tour",
-   "body_en": "«2026 CORTIS TOUR <PUT YOUR PHONE DOWN> BIRTHDAY PARTY Photo Sketch (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
-   "when": "2026-11-12T10:00:03Z",
-   "url": "https://x.com/cortis_bighit/status/2120818898882977863",
-   "src_lang": "en",
-   "body_orig": "«2026 CORTIS TOUR <PUT YOUR PHONE DOWN> BIRTHDAY PARTY Photo Sketch (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
-   "auto": true
   },
   {
    "type": "official",
