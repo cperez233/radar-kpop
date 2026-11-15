@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-15T04:00:58Z",
+ "updated_at": "2026-11-15T05:16:43Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "Yeah we go 🆙 w/ 카이라 님 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "Yeah we go 🆙 w/ 카이라 님 #Shorts (YouTube)",
+   "when": "2026-11-15T05:00:37Z",
+   "url": "https://www.youtube.com/watch?v=gnMro7uPiwQ"
+  },
   {
    "type": "video",
    "group": "cortis",
@@ -688,17 +699,6 @@
    "body_en": "ATEEZ(에이티즈) - [GOLDEN HOUR : Part.6] JACKET Making Film (YouTube)",
    "when": "2026-11-12T10:00:24Z",
    "url": "https://www.youtube.com/watch?v=DJerdqraOdY"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "Lowkey thought we had more room😅👌☝️👇 #LNGSHOT #Bananas #SWISH (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "Lowkey thought we had more room😅👌☝️👇 #LNGSHOT #Bananas #SWISH (YouTube)",
-   "when": "2026-11-12T10:00:21Z",
-   "url": "https://www.youtube.com/watch?v=WkMFbowXWqE"
   }
  ]
 }

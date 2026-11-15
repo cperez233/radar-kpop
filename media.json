@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-15T04:00:36Z",
+ "updated_at": "2026-11-15T05:15:36Z",
  "sample": false,
  "items": [
   {
@@ -95,6 +95,15 @@
    "published": "2026-11-15T04:00:23Z",
    "url": "https://www.youtube.com/watch?v=U8AVJQEJ60c",
    "image": "https://i.ytimg.com/vi/U8AVJQEJ60c/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "Yeah we go 🆙 w/ 카이라 님 #Shorts",
+   "date": "2026-11-15",
+   "published": "2026-11-15T05:00:37Z",
+   "url": "https://www.youtube.com/watch?v=gnMro7uPiwQ",
+   "image": "https://i.ytimg.com/vi/gnMro7uPiwQ/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -212,15 +221,6 @@
    "published": "2026-11-14T14:00:28Z",
    "url": "https://www.youtube.com/watch?v=ZEIW00RtTSU",
    "image": "https://i.ytimg.com/vi/ZEIW00RtTSU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "Yeah we go 🆙 w/ 민주 님 #Shorts",
-   "date": "2026-11-14",
-   "published": "2026-11-14T08:30:09Z",
-   "url": "https://www.youtube.com/watch?v=CdWLUeWv9y4",
-   "image": "https://i.ytimg.com/vi/CdWLUeWv9y4/hqdefault.jpg"
   },
   {
    "type": "music",
