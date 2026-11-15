@@ -1793,7 +1793,11 @@
   "news:8aee57e1896c6095|feed": "2026-11-15T19:42:31Z",
   "news:8aee57e1896c6095|ntfy": "2026-11-15T19:42:31Z",
   "news:8aee57e1896c6095|pub:radarkpop-skz-news": "2026-11-15T19:42:31Z",
-  "news:8aee57e1896c6095|foro": "2026-11-15T19:42:31Z"
+  "news:8aee57e1896c6095|foro": "2026-11-15T19:42:31Z",
+  "news:26307227ef450853|feed": "2026-11-15T20:01:16Z",
+  "news:26307227ef450853|ntfy": "2026-11-15T20:01:16Z",
+  "news:26307227ef450853|pub:radarkpop-bts-news": "2026-11-15T20:01:16Z",
+  "news:26307227ef450853|foro": "2026-11-15T20:01:16Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3658,19 +3662,6 @@
  ],
  "news_topics": [
   {
-   "g": "bts",
-   "w": [
-    "fotos",
-    "gira",
-    "militar",
-    "mundial",
-    "plena",
-    "sorprende",
-    "uniforme"
-   ],
-   "t": "2026-11-13T19:45:57Z"
-  },
-  {
    "g": "lngshot",
    "w": [
     "2027",
@@ -3777,6 +3768,21 @@
     "yuridia"
    ],
    "t": "2026-11-15T19:42:25Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "gira",
+    "integrantes",
+    "medio",
+    "militar",
+    "mundial",
+    "razones",
+    "uniforme",
+    "vestir",
+    "volvieron"
+   ],
+   "t": "2026-11-15T20:01:09Z"
   }
  ],
  "discord_threads": {
