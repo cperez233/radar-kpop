@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-15T12:30:57Z",
+ "updated_at": "2026-11-15T13:00:56Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "[MIN9YU:ON] 한 그릇 툭 | 타코 | 장점뿐인 타코 (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "[MIN9YU:ON] 한 그릇 툭 | 타코 | 장점뿐인 타코 (YouTube)",
+   "when": "2026-11-15T12:45:56Z",
+   "url": "https://www.youtube.com/watch?v=g0XDv8i4eak"
+  },
   {
    "type": "video",
    "group": "skz",
@@ -685,20 +696,6 @@
    "body_en": "S.COUPS(에스쿱스) 쿡스쿱스 | 혼자서도 잘 빚어요 편 (YouTube)",
    "when": "2026-11-12T12:59:58Z",
    "url": "https://www.youtube.com/watch?v=qiOh_IrZ2ug"
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "GIRA MUNDIAL DE BTS «ARIRANG» EN KAOHSIUNG: VISIÓN EN DIRECTO - SensaCine (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING - SensaCine (Google Noticias)",
-   "when": "2026-11-12T12:16:41Z",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01SlhmSkE3M2tpWEkzMGI0Rlp2aUJhVU5CR2NqZFM1QVZ4bmdSVFYxOVZfXzJsMEliTFkybUllbW1UUlNfanByTjBUcFZCQ0NZRTFlY2p3TDZrQXpiYUhlR3NEVzc3ZVU?oc=5",
-   "src_lang": "en",
-   "body_orig": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING - SensaCine (Google Noticias)",
-   "auto": true
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-15T12:30:38Z",
+ "updated_at": "2026-11-15T13:00:36Z",
  "sample": false,
  "items": [
   {
@@ -125,6 +125,15 @@
   },
   {
    "type": "video",
+   "group": "seventeen",
+   "title": "[MIN9YU:ON] 한 그릇 툭 | 타코 | 장점뿐인 타코",
+   "date": "2026-11-15",
+   "published": "2026-11-15T12:45:56Z",
+   "url": "https://www.youtube.com/watch?v=g0XDv8i4eak",
+   "image": "https://i.ytimg.com/vi/g0XDv8i4eak/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "enhypen",
    "title": "#JAKE Birthday🎉 #ENHYPEN",
    "date": "2026-11-15",
@@ -194,15 +203,6 @@
    "published": "2026-11-14T08:59:54Z",
    "url": "https://www.youtube.com/watch?v=_2PP0xm9A_A",
    "image": "https://i.ytimg.com/vi/_2PP0xm9A_A/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "여행 좋지 좋은데 #정답행 #EP1",
-   "date": "2026-11-14",
-   "published": "2026-11-14T03:59:06Z",
-   "url": "https://www.youtube.com/watch?v=HK1h0Xwp3SE",
-   "image": "https://i.ytimg.com/vi/HK1h0Xwp3SE/hqdefault.jpg"
   },
   {
    "type": "video",
