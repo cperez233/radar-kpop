@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-15T13:00:56Z",
+ "updated_at": "2026-11-15T14:46:07Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "4SHO&4EVER thankyou SHOTTIES for the award🤞🔥 #LNGSHOT (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "4SHO&4EVER thankyou SHOTTIES for the award🤞🔥 #LNGSHOT (YouTube)",
+   "when": "2026-11-15T14:40:08Z",
+   "url": "https://www.youtube.com/watch?v=5HHgix6JEFU"
+  },
   {
    "type": "video",
    "group": "seventeen",
@@ -685,17 +696,6 @@
    "body_en": "all you need is a shutter sound #CORTIS #코르티스 (YouTube)",
    "when": "2026-11-12T14:00:15Z",
    "url": "https://www.youtube.com/watch?v=W9oln2WOmMw"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "S.COUPS(에스쿱스) 쿡스쿱스 | 혼자서도 잘 빚어요 편 (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "S.COUPS(에스쿱스) 쿡스쿱스 | 혼자서도 잘 빚어요 편 (YouTube)",
-   "when": "2026-11-12T12:59:58Z",
-   "url": "https://www.youtube.com/watch?v=qiOh_IrZ2ug"
   }
  ]
 }
