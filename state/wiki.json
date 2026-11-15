@@ -45,7 +45,7 @@
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-10T19:30:23Z",
- "last_run": "2026-11-15T00:15:17Z",
+ "last_run": "2026-11-15T02:30:17Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-12T21:00:22Z",
@@ -370,19 +370,9 @@
    "title": "Arirang World Tour"
   },
   "Cortis": {
-   "fetched": "2026-11-07T19:30:18Z",
-   "revid": 1384323850,
-   "rows": [
-    {
-     "cancelled": false,
-     "city": "Singapore",
-     "city_link": null,
-     "country": "Singapore",
-     "date": "2026-10-09",
-     "venue": "Marina Bay Street Circuit",
-     "venue_link": "Marina Bay Street Circuit"
-    }
-   ],
+   "fetched": "2026-11-15T02:30:17Z",
+   "revid": 1385751500,
+   "rows": [],
    "title": "Cortis"
   },
   "Deadline World Tour": {
