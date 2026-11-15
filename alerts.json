@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-15T14:46:07Z",
+ "updated_at": "2026-11-15T16:30:57Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "With all the gratitude we couldn't put into words, 진심으로 감사합니다 코어! 🏆🏆🏆#CORTIS #코르티스 (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "With all the gratitude we couldn't put into words, 진심으로 감사합니다 코어! 🏆🏆🏆#CORTIS #코르티스 (YouTube)",
+   "when": "2026-11-15T16:26:07Z",
+   "url": "https://www.youtube.com/watch?v=opN3H3JLsDg"
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -685,17 +696,6 @@
    "body_en": "Unbox #SWISH with #LNGSHOT 📦 (YouTube)",
    "when": "2026-11-12T14:10:28Z",
    "url": "https://www.youtube.com/watch?v=JQNMfxZahCc"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Nuevo video: CORTIS",
-   "body": "all you need is a shutter sound #CORTIS #코르티스 (YouTube)",
-   "title_en": "New video: CORTIS",
-   "body_en": "all you need is a shutter sound #CORTIS #코르티스 (YouTube)",
-   "when": "2026-11-12T14:00:15Z",
-   "url": "https://www.youtube.com/watch?v=W9oln2WOmMw"
   }
  ]
 }

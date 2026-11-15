@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-15T16:00:45Z",
+ "updated_at": "2026-11-15T16:30:35Z",
  "sample": false,
  "items": [
   {
@@ -144,6 +144,15 @@
   {
    "type": "video",
    "group": "cortis",
+   "title": "With all the gratitude we couldn't put into words, 진심으로 감사합니다 코어! 🏆🏆🏆#CORTIS #코르티스",
+   "date": "2026-11-15",
+   "published": "2026-11-15T16:26:07Z",
+   "url": "https://www.youtube.com/watch?v=opN3H3JLsDg",
+   "image": "https://i.ytimg.com/vi/opN3H3JLsDg/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
    "title": "don't be surprised #CORTIS #코르티스",
    "date": "2026-11-15",
    "published": "2026-11-15T04:00:23Z",
@@ -269,15 +278,6 @@
     }
    ],
    "ytm_try": "2026-11-15T16"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "무슨 생각하셨어요 #CORTIS #코르티스",
-   "date": "2026-11-13",
-   "published": "2026-11-13T12:00:33Z",
-   "url": "https://www.youtube.com/watch?v=LAUBwtYCpGo",
-   "image": "https://i.ytimg.com/vi/LAUBwtYCpGo/hqdefault.jpg"
   },
   {
    "type": "video",
