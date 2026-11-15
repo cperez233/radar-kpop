@@ -45,7 +45,7 @@
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-10T19:30:23Z",
- "last_run": "2026-11-15T17:30:16Z",
+ "last_run": "2026-11-15T19:30:22Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-12T21:00:22Z",
@@ -400,8 +400,8 @@
    "title": "New World Tour"
   },
   "Run It World Tour": {
-   "fetched": "2026-11-10T19:30:23Z",
-   "revid": 1384902108,
+   "fetched": "2026-11-15T19:30:22Z",
+   "revid": 1385873209,
    "rows": [
     {
      "cancelled": false,
@@ -443,7 +443,7 @@
      "cancelled": false,
      "city": "Hong Kong",
      "city_link": "Hong Kong",
-     "country": "China",
+     "country": "Hong Kong",
      "date": "2026-12-05",
      "venue": "Kai Tak Stadium",
      "venue_link": "Kai Tak Stadium"
