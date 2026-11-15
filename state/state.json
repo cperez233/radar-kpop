@@ -1789,7 +1789,11 @@
   "news:bc28065a12e99ee8|feed": "2026-11-15T12:31:04Z",
   "news:36f7d26b06473e64|feed": "2026-11-15T13:01:02Z",
   "news:d278a740e98b03f0|feed": "2026-11-15T14:46:12Z",
-  "news:0c95da79ae685945|feed": "2026-11-15T16:31:04Z"
+  "news:0c95da79ae685945|feed": "2026-11-15T16:31:04Z",
+  "news:8aee57e1896c6095|feed": "2026-11-15T19:42:31Z",
+  "news:8aee57e1896c6095|ntfy": "2026-11-15T19:42:31Z",
+  "news:8aee57e1896c6095|pub:radarkpop-skz-news": "2026-11-15T19:42:31Z",
+  "news:8aee57e1896c6095|foro": "2026-11-15T19:42:31Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3757,6 +3761,22 @@
     "xiv"
    ],
    "t": "2026-11-15T11:01:02Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "abuchean",
+    "concierto",
+    "durante",
+    "fuera",
+    "gobernadora",
+    "indira",
+    "morena",
+    "morenista",
+    "vizcaino",
+    "yuridia"
+   ],
+   "t": "2026-11-15T19:42:25Z"
   }
  ],
  "discord_threads": {

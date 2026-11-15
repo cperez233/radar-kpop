@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-15T16:30:57Z",
+ "updated_at": "2026-11-15T19:42:25Z",
  "alerts": [
+  {
+   "type": "tour",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Gira: Stray Kids",
+   "body": "“Fuera Morena”: abuchean a la gobernadora morenista Indira Vizcaíno durante un concierto de Yuridia - LatinUS (Google Noticias)",
+   "title_en": "Tour: Stray Kids",
+   "body_en": "“Fuera Morena”: Morena governor Indira Vizcaíno is booed during a Yuridia concert - LatinUS (Google News)",
+   "when": "2026-11-15T19:27:38Z",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSlA5dl9pZzNmSzItZXduRkM4MWpOYXNIRW1zbjdkbnRnMmxUeEhLcnlNWVlNQy14VzZvNXBvWWlGMDF0cHlsbWZ4eHAyWmJBM21ydy1pVVZodk9IWHRlYmxYbndhZTJwUjhoVU0tOVFjUk5ueXB6TDAyd0duY3VvY2MyRE95bDJIQU03TUYzQmlMR3Z3T2FsWXVMcGRmenlPY1JKNjgtY2dsN2pPc1ZMX2FlSXpnczdOelhnYmVrb2ZUVWNhdFY0MTRCRUVnY1dGcWpyLTJSTGtqWnBOSGc?oc=5",
+   "src_lang": "es",
+   "body_orig": "“Fuera Morena”: abuchean a la gobernadora morenista Indira Vizcaíno durante un concierto de Yuridia - LatinUS (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "cortis",
@@ -685,17 +699,6 @@
    "src_lang": "es",
    "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "Unbox #SWISH with #LNGSHOT 📦 (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "Unbox #SWISH with #LNGSHOT 📦 (YouTube)",
-   "when": "2026-11-12T14:10:28Z",
-   "url": "https://www.youtube.com/watch?v=JQNMfxZahCc"
   }
  ]
 }
