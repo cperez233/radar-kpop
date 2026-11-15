@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-11-15T03:00:57Z",
+ "updated_at": "2026-11-15T04:00:58Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "don't be surprised #CORTIS #코르티스 (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "don't be surprised #CORTIS #코르티스 (YouTube)",
+   "when": "2026-11-15T04:00:23Z",
+   "url": "https://www.youtube.com/watch?v=U8AVJQEJ60c"
+  },
+  {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[📢] ATEEZ UP lanza agenda conmemorativa de STATIONHEAD y control de asistencia EVENTO Fiesta de escucha con @STATIONHEAD ATEEZ del 17/11 (martes) al 20/11 (viernes)...» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
+   "body_en": "«[📢] ATEEZ UP release commemorative STATIONHEAD scheduler and attendance check EVENT Listening party with @STATIONHEAD ATEEZ from 11/17 (Tuesday) to 11/20 (Friday)...» (ATEEZ en X).",
+   "when": "2026-11-15T04:00:00Z",
+   "url": "https://x.com/ATEEZofficial/status/2121815456319254687",
+   "src_lang": "ko",
+   "body_orig": "«[📢] ATEEZ(에이티즈) UP 발매 기념 STATIONHEAD 스케줄러 및 출석 체크 EVENT 11/17 (화)부터 11/20 (금)까지 @STATIONHEAD 에이티즈와 함께 리스닝 파티 함...» (ATEEZ en X).",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "skz",
@@ -674,31 +699,6 @@
    "body_en": "Lowkey thought we had more room😅👌☝️👇 #LNGSHOT #Bananas #SWISH (YouTube)",
    "when": "2026-11-12T10:00:21Z",
    "url": "https://www.youtube.com/watch?v=WkMFbowXWqE"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "like me like me 👉👈 #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "like me like me 👉👈 #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou (YouTube)",
-   "when": "2026-11-12T10:00:15Z",
-   "url": "https://www.youtube.com/watch?v=Tw21uQleyfk"
-  },
-  {
-   "type": "official",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Anuncio oficial de CORTIS: gira",
-   "body": "«2026 CORTIS TOUR <BAJA TU TELÉFONO> Boceto fotográfico de FIESTA DE CUMPLEAÑOS (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
-   "title_en": "Official CORTIS news: tour",
-   "body_en": "«2026 CORTIS TOUR <PUT YOUR PHONE DOWN> BIRTHDAY PARTY Photo Sketch (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
-   "when": "2026-11-12T10:00:03Z",
-   "url": "https://x.com/cortis_bighit/status/2120818898882977863",
-   "src_lang": "en",
-   "body_orig": "«2026 CORTIS TOUR <PUT YOUR PHONE DOWN> BIRTHDAY PARTY Photo Sketch (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
-   "auto": true
   }
  ]
 }
