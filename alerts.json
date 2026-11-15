@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-15T08:01:04Z",
+ "updated_at": "2026-11-15T08:31:08Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "Yeah we go 🆙 w/ 미나미 님 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "Yeah we go 🆙 w/ 미나미 님 #Shorts (YouTube)",
+   "when": "2026-11-15T08:30:17Z",
+   "url": "https://www.youtube.com/watch?v=sZnsKNSO7gU"
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -688,17 +699,6 @@
    "body_en": "이상한 소리 작작이야 (YouTube)",
    "when": "2026-11-12T11:59:57Z",
    "url": "https://www.youtube.com/watch?v=f11c7oW8OpY"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "[SEVENTEEN’s SNAPSHOOT] EP.91 말랑이들의 만남 (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "[SEVENTEEN’s SNAPSHOOT] EP.91 말랑이들의 만남 (YouTube)",
-   "when": "2026-11-12T11:29:55Z",
-   "url": "https://www.youtube.com/watch?v=5cl-XlV3ZfQ"
   }
  ]
 }

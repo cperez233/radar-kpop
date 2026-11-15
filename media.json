@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-15T08:00:41Z",
+ "updated_at": "2026-11-15T08:30:37Z",
  "sample": false,
  "items": [
   {
@@ -126,6 +126,15 @@
   {
    "type": "video",
    "group": "ateez",
+   "title": "Yeah we go 🆙 w/ 미나미 님 #Shorts",
+   "date": "2026-11-15",
+   "published": "2026-11-15T08:30:17Z",
+   "url": "https://www.youtube.com/watch?v=sZnsKNSO7gU",
+   "image": "https://i.ytimg.com/vi/sZnsKNSO7gU/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
    "title": "Yeah we go 🆙 w/ 카이라 님 #Shorts",
    "date": "2026-11-15",
    "published": "2026-11-15T05:00:37Z",
@@ -212,15 +221,6 @@
    "published": "2026-11-14T15:00:12Z",
    "url": "https://www.youtube.com/watch?v=9gbcejnz-4s",
    "image": "https://i.ytimg.com/vi/9gbcejnz-4s/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "Yeah we go 🆙 w/ 경민 님 #Shorts",
-   "date": "2026-11-14",
-   "published": "2026-11-14T14:00:28Z",
-   "url": "https://www.youtube.com/watch?v=ZEIW00RtTSU",
-   "image": "https://i.ytimg.com/vi/ZEIW00RtTSU/hqdefault.jpg"
   },
   {
    "type": "music",
