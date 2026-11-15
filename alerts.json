@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-15T11:01:02Z",
+ "updated_at": "2026-11-15T12:30:57Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Nuevo video: Stray Kids",
+   "body": "댕냥스쿨 폐교 후 개학 (YouTube)",
+   "title_en": "New video: Stray Kids",
+   "body_en": "댕냥스쿨 폐교 후 개학 (YouTube)",
+   "when": "2026-11-15T12:17:01Z",
+   "url": "https://www.youtube.com/watch?v=M2A1hTv2WTQ"
+  },
   {
    "type": "arrival",
    "group": "bts",
@@ -688,17 +699,6 @@
    "src_lang": "en",
    "body_orig": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING - SensaCine (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "can’t find my heart but found my #SWISH 💿🤞 #LNGSHOT (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "can’t find my heart but found my #SWISH 💿🤞 #LNGSHOT (YouTube)",
-   "when": "2026-11-12T12:00:33Z",
-   "url": "https://www.youtube.com/watch?v=930s9zc7-14"
   }
  ]
 }

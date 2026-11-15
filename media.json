@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-15T12:00:37Z",
+ "updated_at": "2026-11-15T12:30:38Z",
  "sample": false,
  "items": [
   {
@@ -77,6 +77,15 @@
     }
    ],
    "sp_try": "2026-11-15"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "댕냥스쿨 폐교 후 개학",
+   "date": "2026-11-15",
+   "published": "2026-11-15T12:17:01Z",
+   "url": "https://www.youtube.com/watch?v=M2A1hTv2WTQ",
+   "image": "https://i.ytimg.com/vi/M2A1hTv2WTQ/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -269,15 +278,6 @@
    "published": "2026-11-13T12:00:33Z",
    "url": "https://www.youtube.com/watch?v=LAUBwtYCpGo",
    "image": "https://i.ytimg.com/vi/LAUBwtYCpGo/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "[SKZ VLOG] Seungmin : Mini's minilog 9",
-   "date": "2026-11-12",
-   "published": "2026-11-12T10:59:56Z",
-   "url": "https://www.youtube.com/watch?v=6gAzcj3zDi0",
-   "image": "https://i.ytimg.com/vi/6gAzcj3zDi0/hqdefault.jpg"
   },
   {
    "type": "video",
