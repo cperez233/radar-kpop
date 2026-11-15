@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T16:01:02Z",
+ "updated_at": "2026-11-15T00:00:56Z",
  "alerts": [
   {
    "type": "birthday",
@@ -215,6 +215,20 @@
    "group": "seventeen",
    "group_name": "SEVENTEEN",
    "title": "Anuncio oficial de SEVENTEEN: comeback",
+   "body": "«Viajar es bueno #respuesta #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ LANZAMIENTO: 2026.11.19 8PM (KST) 👉 EN EL AIRE: Weverse, Hulu(Japón...» (SEVENTEEN en X).",
+   "title_en": "Official SEVENTEEN news: comeback",
+   "body_en": "«Travel is good #answer #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hulu(Jap...» (SEVENTEEN en X).",
+   "when": "2026-11-14T04:00:28Z",
+   "url": "https://x.com/pledis_17/status/2121453186141900812",
+   "src_lang": "ko",
+   "body_orig": "«여행 좋지 좋은데 #정답행 #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hulu(Jap...» (SEVENTEEN en X).",
+   "auto": true
+  },
+  {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: comeback",
    "body": "«Viajar está bien, muy bien #Enelcaminojusto #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ ESTRENO: 19/11/2026 20:00 (KST) 👉 EN DIRECTO: Weverse, Hulu (Jap...» (SEVENTEEN en X).",
    "title_en": "Official SEVENTEEN news: comeback",
    "body_en": "«Traveling is great, but #GoingSEVENTEEN #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ RELEASE: November 19, 2026, 8 PM (KST) 👉 ON-AIR: Weverse, Hulu (Jap...» (SEVENTEEN on X).",
@@ -331,6 +345,20 @@
    "body_en": "퍼져 온몸에 열기가 Burnin’ UP #Shorts (YouTube)",
    "when": "2026-11-13T13:30:33Z",
    "url": "https://www.youtube.com/watch?v=hI2KZM-TjUM"
+  },
+  {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«NAYEON SINGLE “NA-sty” SNEAK PEEK 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«NAYEON SINGLE “NA-sty” SNEAK PEEK 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
+   "when": "2026-11-13T13:00:01Z",
+   "url": "https://x.com/JYPETWICE/status/2121226578214502839",
+   "src_lang": "en",
+   "body_orig": "«NAYEON SINGLE “NA-sty” SNEAK PEEK 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
+   "auto": true
   },
   {
    "type": "official",
@@ -673,34 +701,6 @@
    "url": "https://x.com/cortis_bighit/status/2120818898882977863",
    "src_lang": "en",
    "body_orig": "«2026 CORTIS TOUR <PUT YOUR PHONE DOWN> BIRTHDAY PARTY Photo Sketch (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Anuncio oficial de CORTIS: gira",
-   "body": "«2026 CORTIS TOUR <BAJA TU TELÉFONO> Boceto fotográfico de FIESTA DE CUMPLEAÑOS (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
-   "title_en": "Official CORTIS news: tour",
-   "body_en": "«2026 CORTIS TOUR <PUT YOUR PHONE DOWN> BIRTHDAY PARTY Photo Sketch (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
-   "when": "2026-11-12T10:00:03Z",
-   "url": "https://x.com/cortis_bighit/status/2120818898882977863",
-   "src_lang": "en",
-   "body_orig": "«2026 CORTIS TOUR <PUT YOUR PHONE DOWN> BIRTHDAY PARTY Photo Sketch (https://weverse.io/cortis/media/0-181485809) #CORTIS #코르티스 #CORTIS_TOUR #PUTYO...» (CORTIS en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«Dokyeom y Jeonghan <Viajes sin respuesta correcta> Teaser destacado ▶️ https://youtu.be/FEyF183bBWc 🎬 VOD ✔️ LANZAMIENTO: 2026.11.19 8PM (KST) 👉 EN EL AIRE: Weverse, Hu...» (SEVENTEEN en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "«Dokyeom and Jeonghan <Travel Without Correct Answer> Highlight Teaser ▶️ https://youtu.be/FEyF183bBWc 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hu...» (SEVENTEEN en X).",
-   "when": "2026-11-12T09:00:09Z",
-   "url": "https://x.com/pledis_17/status/2120803827071041544",
-   "src_lang": "ko",
-   "body_orig": "«도겸과 정한 <정답 없는 여행> Highlight Teaser ▶️ https://youtu.be/FEyF183bBWc 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hu...» (SEVENTEEN en X).",
    "auto": true
   }
  ]
