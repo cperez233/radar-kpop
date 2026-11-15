@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-15T08:31:08Z",
+ "updated_at": "2026-11-15T09:00:59Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "wassup, MMA? #LNGSHOT (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "wassup, MMA? #LNGSHOT (YouTube)",
+   "when": "2026-11-15T09:00:25Z",
+   "url": "https://www.youtube.com/watch?v=I2LDTOXzAg8"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) - 살려는 드릴게 (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) - 살려는 드릴게 (YouTube)",
+   "when": "2026-11-15T09:00:02Z",
+   "url": "https://www.youtube.com/watch?v=IuQj4b6ncvk"
+  },
   {
    "type": "video",
    "group": "ateez",
@@ -677,28 +699,6 @@
    "body_en": "#꼬잉_픽📌 너는 최고의 도둑이 돼 돈은 나에게 줘 #SEVENTEEN #세븐틴 #GOING_SVT #고잉세븐틴 #shorts (YouTube)",
    "when": "2026-11-12T12:00:22Z",
    "url": "https://www.youtube.com/watch?v=5-QbNoQx7mc"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "유하 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "유하 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "when": "2026-11-12T12:00:17Z",
-   "url": "https://www.youtube.com/watch?v=xrj29IM3yjc"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Nuevo video: CORTIS",
-   "body": "이상한 소리 작작이야 (YouTube)",
-   "title_en": "New video: CORTIS",
-   "body_en": "이상한 소리 작작이야 (YouTube)",
-   "when": "2026-11-12T11:59:57Z",
-   "url": "https://www.youtube.com/watch?v=f11c7oW8OpY"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-15T08:30:37Z",
+ "updated_at": "2026-11-15T09:00:39Z",
  "sample": false,
  "items": [
   {
@@ -90,6 +90,15 @@
   {
    "type": "video",
    "group": "lngshot",
+   "title": "wassup, MMA? #LNGSHOT",
+   "date": "2026-11-15",
+   "published": "2026-11-15T09:00:25Z",
+   "url": "https://www.youtube.com/watch?v=I2LDTOXzAg8",
+   "image": "https://i.ytimg.com/vi/I2LDTOXzAg8/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
    "title": "Dancebreak everywhere we go🪩✨ #LNGSHOT #Bananas #SWISH",
    "date": "2026-11-15",
    "published": "2026-11-15T08:00:07Z",
@@ -126,6 +135,15 @@
   {
    "type": "video",
    "group": "ateez",
+   "title": "ATEEZ(에이티즈) - 살려는 드릴게",
+   "date": "2026-11-15",
+   "published": "2026-11-15T09:00:02Z",
+   "url": "https://www.youtube.com/watch?v=IuQj4b6ncvk",
+   "image": "https://i.ytimg.com/vi/IuQj4b6ncvk/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
    "title": "Yeah we go 🆙 w/ 미나미 님 #Shorts",
    "date": "2026-11-15",
    "published": "2026-11-15T08:30:17Z",
@@ -149,15 +167,6 @@
    "published": "2026-11-14T03:00:01Z",
    "url": "https://www.youtube.com/watch?v=I2qDH2-uNEM",
    "image": "https://i.ytimg.com/vi/I2qDH2-uNEM/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "Everywhere we go, it's #Bananas 🍌 #LNGSHOT #SWISH",
-   "date": "2026-11-14",
-   "published": "2026-11-14T13:00:25Z",
-   "url": "https://www.youtube.com/watch?v=uPCYwEkvOG0",
-   "image": "https://i.ytimg.com/vi/uPCYwEkvOG0/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -212,15 +221,6 @@
    "published": "2026-11-14T14:00:08Z",
    "url": "https://www.youtube.com/watch?v=_ymnLJ8yVSQ",
    "image": "https://i.ytimg.com/vi/_ymnLJ8yVSQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) - 'UP' Visualizer",
-   "date": "2026-11-14",
-   "published": "2026-11-14T15:00:12Z",
-   "url": "https://www.youtube.com/watch?v=9gbcejnz-4s",
-   "image": "https://i.ytimg.com/vi/9gbcejnz-4s/hqdefault.jpg"
   },
   {
    "type": "music",
