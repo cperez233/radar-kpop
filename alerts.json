@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-15T09:00:59Z",
+ "updated_at": "2026-11-15T11:01:02Z",
  "alerts": [
+  {
+   "type": "arrival",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Llegada reportada: BTS",
+   "body": "Furor en Perú por los “freebies” del papa León XIV: de qué se trata la tendencia que llegó desde el fandom de BTS - Diario El Norte - San N… (Google Noticias). Lo reporta la prensa, no es confirmación oficial.",
+   "title_en": "Reported arrival: BTS",
+   "body_en": "Furor en Perú por los “freebies” del papa León XIV: de qué se trata la tendencia que llegó desde el fandom de BTS - Diario El Norte - San N… (Google Noticias). Reported by the press, not an official confirmation.",
+   "when": "2026-11-15T10:35:14Z",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJMbUY5MmtfTHFfc2ZWTHhIOGpSRWE2M1JVUFJVMFZJUnlrRmNTa2RiY21XVml3dE1HTExHRzFyQWdNZFlRS0RMVFVnSVdUZTFVTFNBVzZmWkFDbnNTbF81czFBcmtsQ1BCd0UxcWxiY2V6NjhLVDktQW56am9ubjltLURXMGxGQ19UUmEzSXZKVzN1c092ZUhIWHNBczhQWlh1X0dFY0RqZHZEeW1sTEROR0hHTkxiU0JjN2RYUlpFYVhJbkd3SFRienQ5OEstbG9xdEpIbw?oc=5"
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -688,17 +699,6 @@
    "body_en": "can’t find my heart but found my #SWISH 💿🤞 #LNGSHOT (YouTube)",
    "when": "2026-11-12T12:00:33Z",
    "url": "https://www.youtube.com/watch?v=930s9zc7-14"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "#꼬잉_픽📌 너는 최고의 도둑이 돼 돈은 나에게 줘 #SEVENTEEN #세븐틴 #GOING_SVT #고잉세븐틴 #shorts (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "#꼬잉_픽📌 너는 최고의 도둑이 돼 돈은 나에게 줘 #SEVENTEEN #세븐틴 #GOING_SVT #고잉세븐틴 #shorts (YouTube)",
-   "when": "2026-11-12T12:00:22Z",
-   "url": "https://www.youtube.com/watch?v=5-QbNoQx7mc"
   }
  ]
 }

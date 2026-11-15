@@ -1781,7 +1781,11 @@
   "news:ab9e3ae534731934|feed": "2026-11-15T08:01:10Z",
   "news:5c378c5c9fb25926|feed": "2026-11-15T08:31:15Z",
   "news:967408968b2788a1|feed": "2026-11-15T09:01:06Z",
-  "news:ce2fad664ceb2800|feed": "2026-11-15T09:01:06Z"
+  "news:ce2fad664ceb2800|feed": "2026-11-15T09:01:06Z",
+  "news:75d27d4844cf09b9|feed": "2026-11-15T11:01:08Z",
+  "news:75d27d4844cf09b9|ntfy": "2026-11-15T11:01:08Z",
+  "news:75d27d4844cf09b9|pub:radarkpop-bts-news": "2026-11-15T11:01:08Z",
+  "news:75d27d4844cf09b9|foro": "2026-11-15T11:01:08Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3730,6 +3734,25 @@
     "run"
    ],
    "t": "2026-11-14T16:01:02Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "desde",
+    "diario",
+    "fandom",
+    "freebies",
+    "furor",
+    "leon",
+    "llego",
+    "norte",
+    "papa",
+    "peru",
+    "tendencia",
+    "trata",
+    "xiv"
+   ],
+   "t": "2026-11-15T11:01:02Z"
   }
  ],
  "discord_threads": {
