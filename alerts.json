@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-15T06:09:59Z",
+ "updated_at": "2026-11-15T08:01:04Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "Dancebreak everywhere we go🪩✨ #LNGSHOT #Bananas #SWISH (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "Dancebreak everywhere we go🪩✨ #LNGSHOT #Bananas #SWISH (YouTube)",
+   "when": "2026-11-15T08:00:07Z",
+   "url": "https://www.youtube.com/watch?v=blxSwIQb9D4"
+  },
   {
    "type": "video",
    "group": "enhypen",
@@ -688,17 +699,6 @@
    "body_en": "[SEVENTEEN’s SNAPSHOOT] EP.91 말랑이들의 만남 (YouTube)",
    "when": "2026-11-12T11:29:55Z",
    "url": "https://www.youtube.com/watch?v=5cl-XlV3ZfQ"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "최희진 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "최희진 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "when": "2026-11-12T11:00:26Z",
-   "url": "https://www.youtube.com/watch?v=FVHuXifGFR0"
   }
  ]
 }
