@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-15T05:15:36Z",
+ "updated_at": "2026-11-15T06:00:39Z",
  "sample": false,
  "items": [
   {
@@ -89,6 +89,15 @@
   },
   {
    "type": "video",
+   "group": "lngshot",
+   "title": "Go #Bananas w/#미미미누 @mimiminu_official 🍌 #LNGSHOT #SWISH",
+   "date": "2026-11-15",
+   "published": "2026-11-15T06:00:05Z",
+   "url": "https://www.youtube.com/watch?v=I1UEP3tyT-U",
+   "image": "https://i.ytimg.com/vi/I1UEP3tyT-U/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "cortis",
    "title": "don't be surprised #CORTIS #코르티스",
    "date": "2026-11-15",
@@ -131,15 +140,6 @@
    "published": "2026-11-14T12:00:03Z",
    "url": "https://www.youtube.com/watch?v=a6n1LlVhSFU",
    "image": "https://i.ytimg.com/vi/a6n1LlVhSFU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "SHOTTIES🤞 Grab your copy of S.W.I.S.H. online in the US by NOV 16! 💿",
-   "date": "2026-11-14",
-   "published": "2026-11-14T08:15:33Z",
-   "url": "https://www.youtube.com/watch?v=m7_9Dv-ZNuI",
-   "image": "https://i.ytimg.com/vi/m7_9Dv-ZNuI/hqdefault.jpg"
   },
   {
    "type": "video",
