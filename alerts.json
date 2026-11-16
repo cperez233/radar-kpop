@@ -1,6 +1,75 @@
 {
- "updated_at": "2026-11-16T11:38:54Z",
+ "updated_at": "2026-11-16T21:17:54Z",
  "alerts": [
+  {
+   "type": "weekly",
+   "group": "radar",
+   "group_name": "Radar K-pop",
+   "title": "📅 Tu semana K-pop",
+   "body": "🎤 BTS en Kaohsiung (19 nov, 21 nov, 22 nov)\n🎤 TWICE en Seúl (21 nov)\n🎤 SEVENTEEN en Saitama (21 nov, 22 nov)\n💿 ENHYPEN: THE SIN : PARALLEL WORLD (20 nov)\n💿 ATEEZ: UP (Remix 1) (16 nov)\n🎂 Woozi (SEVENTEEN) cumple 30 el 22 nov",
+   "title_en": "📅 Your K-pop week",
+   "body_en": "🎤 BTS in Kaohsiung (Nov 19, Nov 21, Nov 22)\n🎤 TWICE in Seoul (Nov 21)\n🎤 SEVENTEEN in Saitama (Nov 21, Nov 22)\n💿 ENHYPEN: THE SIN : PARALLEL WORLD (Nov 20)\n💿 ATEEZ: UP (Remix 1) (Nov 16)\n🎂 Woozi (SEVENTEEN) turns 30 on Nov 22",
+   "when": "2026-11-16T21:17:54Z",
+   "url": null
+  },
+  {
+   "type": "comeback",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "💿 Hoy sale «UP 발매 기념 STATIONHEAD 스케줄러 및 출석 체크 EVENT» de ATEEZ",
+   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "title_en": "💿 ATEEZ's «UP 발매 기념 STATIONHEAD 스케줄러 및 출석 체크 EVENT» is out today",
+   "body_en": "You can listen to it now! (Or in a few hours, depending on your time zone.)",
+   "when": "2026-11-16T21:17:54Z",
+   "url": "https://x.com/ATEEZofficial/status/2121815456319254687",
+   "src_lang": "es",
+   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "auto": true
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "somehow survived #CORTIS #코르티스 (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "somehow survived #CORTIS #코르티스 (YouTube)",
+   "when": "2026-11-16T14:00:12Z",
+   "url": "https://www.youtube.com/watch?v=dTMqLfWdKHQ"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "[지금은 뿌재중] 🍊뿌이로그🍊 | Eat with 뿌 | 야식 같이 먹어요🍴 (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "[지금은 뿌재중] 🍊뿌이로그🍊 | Eat with 뿌 | 야식 같이 먹어요🍴 (YouTube)",
+   "when": "2026-11-16T13:15:59Z",
+   "url": "https://www.youtube.com/watch?v=U7G2G11laQA"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "LA & NY lookin a lil more #SWISH lately 👀SHOTTIES, go find us! (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "LA & NY lookin a lil more #SWISH lately 👀SHOTTIES, go find us! (YouTube)",
+   "when": "2026-11-16T12:41:54Z",
+   "url": "https://www.youtube.com/watch?v=hGE_zlRvEKQ"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) - 'UP' Choreography Demo (SAN Ver.) (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) - 'UP' Choreography Demo (SAN Ver.) (YouTube)",
+   "when": "2026-11-16T12:00:01Z",
+   "url": "https://www.youtube.com/watch?v=5fr96_cePHQ"
+  },
   {
    "type": "comeback",
    "group": "ateez",
@@ -618,84 +687,6 @@
    "body_en": "[kNOw맘대로(The kNOw Way)] Ep.11 (YouTube)",
    "when": "2026-11-14T03:00:01Z",
    "url": "https://www.youtube.com/watch?v=I2qDH2-uNEM"
-  },
-  {
-   "type": "stop_today",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Hoy TWICE abre en Manila",
-   "body": "Manila. Hora aproximada, confirma en la boletería.",
-   "title_en": "Today TWICE opens in Manila",
-   "body_en": "Manila. Approximate time, check with the box office.",
-   "when": "2026-11-14T00:01:04Z",
-   "url": null
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "En medio de su gira mundial, los integrantes de BTS volvieron a vestir el uniforme militar: las razones - Infobae (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "In the middle of their world tour, the members of BTS wore the military uniform again: the reasons - Infobae (Google News)",
-   "when": "2026-11-13T20:42:00Z",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOOF9INFI0TWZJRU03aTlZMGF5QnVEVmNZNWJfblRobHpybjZ1bFRNR1B4dllkNmR0cEk4cXB4bWxaNS01NmxvMjN6dFVIdVFBZ1B0MVhKcjM4OF9NNzdDTzV0clZ3US0yVkN6Vl94NkF4c1JYQUo4U0kxYVZvYzFCRlFocVhKbjJwVHU5V1RTcjZSXzdFaENGU1ZQalY1MmtGOFR4dzFKVTg4X3lSVlFFbmV6MXJ3TWpDdS1BVnBLRkNnamZDbl81RDB5UjdHU3hma212bV9JdTVTVExNZUFzQk9TTUdSYnBa0gGDAkFVX3lxTE5ZZElEbUJJa1ZxbWFzZGdnczJlSzN6aUxaVlN1bVY0cXQzS3ZYbHd1TnJlbEpHMm1CVHc1SDBmZVpnTVZLOEs1cGlXZ3lqQ1hNYWJMcmQwTENzNjd2UXFzYXVCeU5YOXdjempDTVJILVpsRnFrZGhobkpQd2llMGxDcHN4TWxTaFo0cU9Talp0SEJleEo1U29sbjNLZ0dkZUhYZFBRYUd4SVN4Z3Q1aUFPNlljamFwYWpROThwTWlYU3I0M18tMGNzNTMxX3JNVW0xN1k3bVJMM1g3MGw1NFRiRnJ5cjVuX2liYndhZUd4bjJFcDZIVXBETV92ZFdJY1h2YW8?oc=5",
-   "src_lang": "es",
-   "body_orig": "En medio de su gira mundial, los integrantes de BTS volvieron a vestir el uniforme militar: las razones - Infobae (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Gira: Stray Kids",
-   "body": "Stray Kids anuncia la gira mundial de estadios 'Run it' para 2027 - Hipsterian Circus (Google Noticias)",
-   "title_en": "Tour: Stray Kids",
-   "body_en": "Stray Kids announce 'Run it' world stadium tour for 2027 - Hipsterian Circus (Google News)",
-   "when": "2026-11-13T18:30:00Z",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSm9sUVp3aHdDRGJ2UkhlLXNDUjhWUTdJNWdidlUwRmhCUnpEWHdPNUxzTlZ0alhLLThFTXdpVmJQVHVHN1JMUkxpdWRhM0hSWTZVYU14VHpyYjJQdzhqY2VmVDhxTUZ5aTZySDZqS3YtVENkMVZfRzNuZjlhTEt4Q2hRUTU3bmZLVUxVTVZEMmFpNXBkMjVDUVdibw?oc=5",
-   "src_lang": "es",
-   "body_orig": "Stray Kids anuncia la gira mundial de estadios 'Run it' para 2027 - Hipsterian Circus (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS sorprende con fotos en uniforme militar en plena gira mundial - www.laprensa.hn (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS surprises with photos in military uniform during world tour - www.laprensa.hn (Google News)",
-   "when": "2026-11-13T18:06:00Z",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVkdVS1B3Tm04aW42bk9HTlVKNEEwQktRV3RVTWJZcTR5VmF1SnE1c0ZsbHBYbkF0cWxTYThFdnhucV9Qa3VRa2VJajM4SXFrRDZoaHktSnZWZmRjakdFNnFaSnc2Y0w3dTFuNkdaeld2dnJRYnYteXZOVGFhWlZDbkNzREotNGlISEhjczhRN3ZEMWV0VTRLamFwX1RRbE1MTm84czF3?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS sorprende con fotos en uniforme militar en plena gira mundial - www.laprensa.hn (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "latam",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Latinoamérica: LNGSHOT",
-   "body": "Wonho anuncia gira mundial NOCHE 2027 y nuevo single: fecha, precios y detalles del tour - La Voz de la Frontera - El Sol de México (Google Noticias)",
-   "title_en": "Latin America: LNGSHOT",
-   "body_en": "Wonho announces NOCHE 2027 world tour and new single: tour dates, prices, and details - La Voz de la Frontera - El Sol de México (Google News)",
-   "when": "2026-11-13T17:46:44Z",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRm85LW9qVTBBN2hLVW1LenpucGRMNHdjNkg3TWRfYTg1bXNQY0I1X2tQc3VtQnNOS2pIQVZfVDRUSl90Mm5CSk9ZOEZKNGJodXo0OHMyWGFyNWdOSThhWERjdG9QVzRVMHFHUENFU044Z0hMLVZwUDREM3ZQR2JzNEhPa29GdGd6cGx3VTBNSlNPbnJhdUJpREZHekRNSUQwMURCOWhyTHRhdmJSLUFNdGMtS01iWmR5Qk5pLXdrUHJoTXIzeHZPMmZxR202aEl3dEkzZjBhdWpobmc?oc=5",
-   "src_lang": "es",
-   "body_orig": "Wonho anuncia gira mundial NOCHE 2027 y nuevo single: fecha, precios y detalles del tour - La Voz de la Frontera - El Sol de México (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "Unbox #SWISH with #LNGSHOT: Card Pack Edition 📦 (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "Unbox #SWISH with #LNGSHOT: Card Pack Edition 📦 (YouTube)",
-   "when": "2026-11-13T14:10:35Z",
-   "url": "https://www.youtube.com/watch?v=6TFHiSj1_Tc"
   }
  ]
 }

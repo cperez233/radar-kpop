@@ -1824,7 +1824,19 @@
   "news:f1f17845f2b9d0a0|feed": "2026-11-16T11:39:02Z",
   "news:06d1e5a7f63809dc|feed": "2026-11-16T11:39:02Z",
   "news:bb9a59535acd9b02|feed": "2026-11-16T11:39:02Z",
-  "news:94cc82efab69b885|feed": "2026-11-16T11:39:02Z"
+  "news:94cc82efab69b885|feed": "2026-11-16T11:39:02Z",
+  "weekly:2026-47|feed": "2026-11-16T21:18:01Z",
+  "weekly:2026-47|ntfy": "2026-11-16T21:18:01Z",
+  "weekly:2026-47|pub:radarkpop-semana": "2026-11-16T21:18:01Z",
+  "weekly:2026-47|foro": "2026-11-16T21:18:01Z",
+  "rel:ateez:2026-11-17|feed": "2026-11-16T21:18:01Z",
+  "rel:ateez:2026-11-17|ntfy": "2026-11-16T21:18:01Z",
+  "rel:ateez:2026-11-17|pub:radarkpop-ateez-music": "2026-11-16T21:18:01Z",
+  "rel:ateez:2026-11-17|foro": "2026-11-16T21:18:01Z",
+  "news:34c65a50a44244aa|feed": "2026-11-16T21:18:01Z",
+  "news:ab1d6efa19457af1|feed": "2026-11-16T21:18:01Z",
+  "news:1a7056edbcf39a12|feed": "2026-11-16T21:18:01Z",
+  "news:ed199b017fc964f2|feed": "2026-11-16T21:18:01Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2886,9 +2898,6 @@
   }
  },
  "news_seen": [
-  "9b1f265999273cf3",
-  "9b226d5cc2eb861f",
-  "9bca8df4942bc1c4",
   "9beb0b062483a16b",
   "9c294fdfc8dcf2f8",
   "9c3912794ef934dd",
@@ -3023,6 +3032,7 @@
   "aa43f8e08837f26d",
   "aa98cec9e853de04",
   "ab11224b98b43419",
+  "ab1d6efa19457af1",
   "ab2e843778af2f87",
   "ab2fbcb45155586b",
   "ab4a9fbee2c772ac",
@@ -3528,6 +3538,7 @@
   "eb114ff53d81c04a",
   "eb1885ac5e4c922e",
   "eb28bba42f57cdd4",
+  "eb558a7f511fcba0",
   "eb669ec7e31c809e",
   "eb7586ca057e2dc7",
   "eb79e53ca7681de1",
@@ -3542,6 +3553,7 @@
   "ecc149d792eb1718",
   "ed108b2379080406",
   "ed14d590283a4d80",
+  "ed199b017fc964f2",
   "ed26ef36e036b105",
   "ed3ab22a21249dfc",
   "ed5d4261b9b2393f",
@@ -3688,32 +3700,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "skz",
-   "w": [
-    "2027",
-    "anuncia",
-    "estadios",
-    "gira",
-    "mundial",
-    "run"
-   ],
-   "t": "2026-11-14T13:17:01Z"
-  },
-  {
-   "g": "skz",
-   "w": [
-    "2027",
-    "europa",
-    "gira",
-    "grupo",
-    "llevara",
-    "norteamerica",
-    "pop",
-    "run"
-   ],
-   "t": "2026-11-14T16:01:02Z"
-  },
   {
    "g": "bts",
    "w": [

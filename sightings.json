@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-11-14T20:15:33Z",
+  "updated_at": "2026-11-16T21:16:11Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "x-2122308703852372265",
+      "group": "lngshot",
+      "group_name": "LNGSHOT",
+      "city": "Los Ángeles",
+      "country": "EE. UU.",
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "text": "LA & NY lookin a lil more #SWISH lately 👀 SHOTTIES, go find us! Grab a banana, snap some pics & tag us🍌📸 📍Los Angeles until 11/20 7769 Melrose Ave at Fairfax 📍New York until 11/21 South 3rd St, Williamsburg, Brooklyn #LN",
+      "url": "https://x.com/LNGSHOT4sho/status/2122308703852372265",
+      "account": "LNGSHOT4sho",
+      "when": "2026-11-16T12:40:00Z"
+    },
     {
       "id": "fan-twice-amsterdam-20261114",
       "group": "twice",

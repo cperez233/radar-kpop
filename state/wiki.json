@@ -45,30 +45,12 @@
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-10T19:30:23Z",
- "last_run": "2026-11-16T11:36:52Z",
+ "last_run": "2026-11-16T21:15:08Z",
  "pages": {
   "Arirang World Tour": {
-   "fetched": "2026-11-12T21:00:22Z",
-   "revid": 1385324329,
+   "fetched": "2026-11-16T21:15:08Z",
+   "revid": 1386020155,
    "rows": [
-    {
-     "cancelled": false,
-     "city": "Santiago",
-     "city_link": "Santiago",
-     "country": "Chile",
-     "date": "2026-10-14",
-     "venue": "Estadio Nacional Julio Martínez Prádanos",
-     "venue_link": "Estadio Nacional Julio Martínez Prádanos"
-    },
-    {
-     "cancelled": false,
-     "city": "Santiago",
-     "city_link": "Santiago",
-     "country": "Chile",
-     "date": "2026-10-16",
-     "venue": "Estadio Nacional Julio Martínez Prádanos",
-     "venue_link": "Estadio Nacional Julio Martínez Prádanos"
-    },
     {
      "cancelled": false,
      "city": "Santiago",
