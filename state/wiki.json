@@ -45,7 +45,7 @@
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-10T19:30:23Z",
- "last_run": "2026-11-16T00:00:25Z",
+ "last_run": "2026-11-16T03:12:04Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-12T21:00:22Z",
@@ -370,8 +370,8 @@
    "title": "Arirang World Tour"
   },
   "Cortis": {
-   "fetched": "2026-11-15T02:30:17Z",
-   "revid": 1385751500,
+   "fetched": "2026-11-16T03:12:04Z",
+   "revid": 1385949837,
    "rows": [],
    "title": "Cortis"
   },
@@ -388,8 +388,8 @@
    "title": "List of NewJeans live performances"
   },
   "Lngshot": {
-   "fetched": "2026-11-10T15:15:17Z",
-   "revid": 1384866880,
+   "fetched": "2026-11-16T03:12:04Z",
+   "revid": 1385950713,
    "rows": [],
    "title": "Lngshot"
   },

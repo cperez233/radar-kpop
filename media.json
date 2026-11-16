@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-16T00:00:51Z",
+ "updated_at": "2026-11-16T03:12:27Z",
  "sample": false,
  "items": [
   {
@@ -80,6 +80,15 @@
   },
   {
    "type": "video",
+   "group": "lngshot",
+   "title": "🎂#LNGSHOT4SHO WE DID IT!!!🎂 #LNGSHOT",
+   "date": "2026-11-16",
+   "published": "2026-11-16T03:00:38Z",
+   "url": "https://www.youtube.com/watch?v=3Da7J5CH04Y",
+   "image": "https://i.ytimg.com/vi/3Da7J5CH04Y/hqdefault.jpg"
+  },
+  {
+   "type": "video",
    "group": "skz",
    "title": "댕냥스쿨 폐교 후 개학",
    "date": "2026-11-15",
@@ -113,15 +122,6 @@
    "published": "2026-11-15T09:00:25Z",
    "url": "https://www.youtube.com/watch?v=I2LDTOXzAg8",
    "image": "https://i.ytimg.com/vi/I2LDTOXzAg8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "Dancebreak everywhere we go🪩✨ #LNGSHOT #Bananas #SWISH",
-   "date": "2026-11-15",
-   "published": "2026-11-15T08:00:07Z",
-   "url": "https://www.youtube.com/watch?v=blxSwIQb9D4",
-   "image": "https://i.ytimg.com/vi/blxSwIQb9D4/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -580,7 +580,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-15T23",
+   "ytm_try": "2026-11-16T03",
    "sp_try": "2026-11-16"
   },
   {
@@ -1296,7 +1296,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-15T23"
+   "ytm_try": "2026-11-16T03"
   },
   {
    "type": "music",

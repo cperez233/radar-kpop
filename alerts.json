@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-16T00:02:00Z",
+ "updated_at": "2026-11-16T03:13:47Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "🎂#LNGSHOT4SHO WE DID IT!!!🎂 #LNGSHOT (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "🎂#LNGSHOT4SHO WE DID IT!!!🎂 #LNGSHOT (YouTube)",
+   "when": "2026-11-16T03:00:38Z",
+   "url": "https://www.youtube.com/watch?v=3Da7J5CH04Y"
+  },
   {
    "type": "tour",
    "group": "skz",
@@ -691,17 +702,6 @@
    "body_en": "터져 온몸에 진동이 Risin’ UP #Shorts (YouTube)",
    "when": "2026-11-13T07:30:06Z",
    "url": "https://www.youtube.com/watch?v=m2Rd9UjRI4g"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "ATEEZ(에이티즈) - 'UP' 응원법 (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "ATEEZ(에이티즈) - 'UP' 응원법 (YouTube)",
-   "when": "2026-11-13T06:00:11Z",
-   "url": "https://www.youtube.com/watch?v=zWD7sADRN64"
   }
  ]
 }
