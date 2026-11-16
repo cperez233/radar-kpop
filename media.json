@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-16T03:12:27Z",
+ "updated_at": "2026-11-16T11:37:19Z",
  "sample": false,
  "items": [
   {
@@ -79,6 +79,53 @@
    "sp_try": "2026-11-16"
   },
   {
+   "type": "music",
+   "group": "ateez",
+   "title": "UP (Remix 1)",
+   "kind": "Album",
+   "date": "2026-11-16",
+   "url": "https://music.apple.com/us/album/up-remix-1-single/6829634312",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/7c/e0/ca7ce03f-54e6-8dbf-fa9b-8d2eff278b42/196874925812.jpg/300x300bb.jpg",
+   "ytm_v": 6,
+   "tracks": [
+    {
+     "n": "UP (Orchestra Ver.)",
+     "ms": 215300,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/88/21/0e8821fa-936f-2b40-2e8d-30c2ce1d6e29/mzaf_16597544486357408590.plus.aac.p.m4a"
+    },
+    {
+     "n": "UP (Speed Up Ver.)",
+     "ms": 180981,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/42/a6/bc42a640-9a72-402e-5ba6-f14589ca7c15/mzaf_1942448212278444050.plus.aac.p.m4a"
+    },
+    {
+     "n": "UP (Speed Down Ver.)",
+     "ms": 243386,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/df/be/5bdfbe64-db58-e217-79d8-134c7f79eb1d/mzaf_16454694963235545417.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": "2026-11-16T11",
+   "spotify": "https://open.spotify.com/album/76WxatkFGyv1yCauGOgE5I"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "애기 체포하겠어🚨 #StrayKids #스트레이키즈 #창빈 #Changbin #한 #HAN #YouMakeStrayKidsStay",
+   "date": "2026-11-16",
+   "published": "2026-11-16T10:00:07Z",
+   "url": "https://www.youtube.com/watch?v=Uqpyhrnu1go",
+   "image": "https://i.ytimg.com/vi/Uqpyhrnu1go/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "LNGSHOT - 'Bananas' MV Behind the Scenes",
+   "date": "2026-11-16",
+   "published": "2026-11-16T11:00:06Z",
+   "url": "https://www.youtube.com/watch?v=Y1TSgWsIN74",
+   "image": "https://i.ytimg.com/vi/Y1TSgWsIN74/hqdefault.jpg"
+  },
+  {
    "type": "video",
    "group": "lngshot",
    "title": "🎂#LNGSHOT4SHO WE DID IT!!!🎂 #LNGSHOT",
@@ -86,6 +133,78 @@
    "published": "2026-11-16T03:00:38Z",
    "url": "https://www.youtube.com/watch?v=3Da7J5CH04Y",
    "image": "https://i.ytimg.com/vi/3Da7J5CH04Y/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "world is cute😇 #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
+   "date": "2026-11-16",
+   "published": "2026-11-16T11:00:06Z",
+   "url": "https://www.youtube.com/watch?v=WatPJ0GLMIU",
+   "image": "https://i.ytimg.com/vi/WatPJ0GLMIU/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "[EPISODE] ‘THE SIN : PARALLEL WORLD’ Concept Film & Photo Shoot Sketch - ENHYPEN (엔하이픈)",
+   "date": "2026-11-16",
+   "published": "2026-11-16T10:00:05Z",
+   "url": "https://www.youtube.com/watch?v=lwyHSSnbJnU",
+   "image": "https://i.ytimg.com/vi/lwyHSSnbJnU/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "💘 #NI_KI #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN",
+   "date": "2026-11-16",
+   "published": "2026-11-16T08:55:30Z",
+   "url": "https://www.youtube.com/watch?v=116Ew4k8Wco",
+   "image": "https://i.ytimg.com/vi/116Ew4k8Wco/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "💘 #SUNOO #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN",
+   "date": "2026-11-16",
+   "published": "2026-11-16T08:42:31Z",
+   "url": "https://www.youtube.com/watch?v=tFZ_S-vSIh8",
+   "image": "https://i.ytimg.com/vi/tFZ_S-vSIh8/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "CORTIS (코르티스) MMA 2026 ‘MONEYMONEYMONEY’ + ‘REDRED’ + ‘YOUNGCREATORCREW’ Rehearsal",
+   "date": "2026-11-16",
+   "published": "2026-11-16T04:00:42Z",
+   "url": "https://www.youtube.com/watch?v=r_lbamw4Yy0",
+   "image": "https://i.ytimg.com/vi/r_lbamw4Yy0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "지수 선배님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-16",
+   "published": "2026-11-16T11:00:24Z",
+   "url": "https://www.youtube.com/watch?v=vV3Hc2Wg23s",
+   "image": "https://i.ytimg.com/vi/vV3Hc2Wg23s/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) - 'UP' MV Reaction",
+   "date": "2026-11-16",
+   "published": "2026-11-16T10:00:00Z",
+   "url": "https://www.youtube.com/watch?v=U2HAzfPbZYk",
+   "image": "https://i.ytimg.com/vi/U2HAzfPbZYk/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) - 'UP (Orchestra Ver.)' Lyric Video",
+   "date": "2026-11-16",
+   "published": "2026-11-16T04:59:59Z",
+   "url": "https://www.youtube.com/watch?v=lY-qHy8T1U0",
+   "image": "https://i.ytimg.com/vi/lY-qHy8T1U0/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -116,30 +235,12 @@
   },
   {
    "type": "video",
-   "group": "lngshot",
-   "title": "wassup, MMA? #LNGSHOT",
-   "date": "2026-11-15",
-   "published": "2026-11-15T09:00:25Z",
-   "url": "https://www.youtube.com/watch?v=I2LDTOXzAg8",
-   "image": "https://i.ytimg.com/vi/I2LDTOXzAg8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "seventeen",
    "title": "[MIN9YU:ON] 한 그릇 툭 | 타코 | 장점뿐인 타코",
    "date": "2026-11-15",
    "published": "2026-11-15T12:45:56Z",
    "url": "https://www.youtube.com/watch?v=g0XDv8i4eak",
    "image": "https://i.ytimg.com/vi/g0XDv8i4eak/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "#JAKE Birthday🎉 #ENHYPEN",
-   "date": "2026-11-15",
-   "published": "2026-11-15T06:06:43Z",
-   "url": "https://www.youtube.com/watch?v=lzpcnL9Mn4s",
-   "image": "https://i.ytimg.com/vi/lzpcnL9Mn4s/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -161,84 +262,12 @@
   },
   {
    "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) - 살려는 드릴게",
-   "date": "2026-11-15",
-   "published": "2026-11-15T09:00:02Z",
-   "url": "https://www.youtube.com/watch?v=IuQj4b6ncvk",
-   "image": "https://i.ytimg.com/vi/IuQj4b6ncvk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "Yeah we go 🆙 w/ 미나미 님 #Shorts",
-   "date": "2026-11-15",
-   "published": "2026-11-15T08:30:17Z",
-   "url": "https://www.youtube.com/watch?v=sZnsKNSO7gU",
-   "image": "https://i.ytimg.com/vi/sZnsKNSO7gU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "Yeah we go 🆙 w/ 카이라 님 #Shorts",
-   "date": "2026-11-15",
-   "published": "2026-11-15T05:00:37Z",
-   "url": "https://www.youtube.com/watch?v=gnMro7uPiwQ",
-   "image": "https://i.ytimg.com/vi/gnMro7uPiwQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "[kNOw맘대로(The kNOw Way)] Ep.11",
-   "date": "2026-11-14",
-   "published": "2026-11-14T03:00:01Z",
-   "url": "https://www.youtube.com/watch?v=I2qDH2-uNEM",
-   "image": "https://i.ytimg.com/vi/I2qDH2-uNEM/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "seventeen",
    "title": "[하니랑 슈아랑] EP.1 DREAMSHAPE🍶 | 도예 (HANISHUA EP.1 DREAMSHAPE🍶 | Pottery)",
    "date": "2026-11-14",
    "published": "2026-11-14T13:00:08Z",
    "url": "https://www.youtube.com/watch?v=RrvOS_0VfG4",
    "image": "https://i.ytimg.com/vi/RrvOS_0VfG4/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "JEONGHAN X JOSHUA (SEVENTEEN) ‘DREAMSCAPE’ Recording BEHIND THE SCENES",
-   "date": "2026-11-14",
-   "published": "2026-11-14T08:59:54Z",
-   "url": "https://www.youtube.com/watch?v=_2PP0xm9A_A",
-   "image": "https://i.ytimg.com/vi/_2PP0xm9A_A/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "POV: #SUNOO is in love with you 💗 #THE_SIN_PARALLEL_WORLD #ENHYPEN",
-   "date": "2026-11-14",
-   "published": "2026-11-14T10:30:01Z",
-   "url": "https://www.youtube.com/watch?v=umQSXm5kScw",
-   "image": "https://i.ytimg.com/vi/umQSXm5kScw/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "나의 하루에 들어올래? 🌤️ - ENHYPEN (엔하이픈)",
-   "date": "2026-11-14",
-   "published": "2026-11-14T09:59:59Z",
-   "url": "https://www.youtube.com/watch?v=LQ82n4SCT5g",
-   "image": "https://i.ytimg.com/vi/LQ82n4SCT5g/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "참 이상하다니까 #CORTIS #코르티스",
-   "date": "2026-11-14",
-   "published": "2026-11-14T14:00:08Z",
-   "url": "https://www.youtube.com/watch?v=_ymnLJ8yVSQ",
-   "image": "https://i.ytimg.com/vi/_ymnLJ8yVSQ/hqdefault.jpg"
   },
   {
    "type": "music",
@@ -277,7 +306,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-16T00"
+   "ytm_try": "2026-11-16T11"
   },
   {
    "type": "video",
@@ -343,7 +372,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-16T00"
+   "ytm_try": "2026-11-16T11"
   },
   {
    "type": "video",
@@ -580,7 +609,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-16T03",
+   "ytm_try": "2026-11-16T11",
    "sp_try": "2026-11-16"
   },
   {
@@ -744,19 +773,6 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/e2/94/7de29481-b0d9-fdff-5c28-ce066bd12887/mzaf_10771929580663235334.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19"
-  },
-  {
-   "type": "music",
-   "group": "ateez",
-   "title": "BAD (Japanese Ver.)",
-   "kind": "Album",
-   "date": "2026-07-29",
-   "url": "https://music.apple.com/us/album/bad-japanese-ver-ep/6788966715",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9c/ee/35/9cee35fd-5d10-67a8-3243-c3cbbf828601/26UMGIM71709.rgb.jpg/300x300bb.jpg",
-   "ytm_v": 6,
-   "spotify": "https://open.spotify.com/album/3FVjSZcB5DqJ2TC5VGPgEu",
-   "ytm": "https://music.youtube.com/watch?v=4-6LvN_D0y4",
    "ytm_try": "2026-10-17T19"
   },
   {
@@ -1296,7 +1312,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-16T03"
+   "ytm_try": "2026-11-16T11"
   },
   {
    "type": "music",

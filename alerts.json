@@ -1,6 +1,130 @@
 {
- "updated_at": "2026-11-16T03:13:47Z",
+ "updated_at": "2026-11-16T11:38:54Z",
  "alerts": [
+  {
+   "type": "comeback",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "💿 Hoy sale «UP (Remix 1)» de ATEEZ",
+   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "title_en": "💿 ATEEZ's «UP (Remix 1)» is out today",
+   "body_en": "You can listen to it now! (Or in a few hours, depending on your time zone.)",
+   "when": "2026-11-16T11:38:54Z",
+   "url": "https://music.apple.com/us/album/up-remix-1-single/6829634312",
+   "src_lang": "es",
+   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "auto": true
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "지수 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "지수 선배님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
+   "when": "2026-11-16T11:00:24Z",
+   "url": "https://www.youtube.com/watch?v=vV3Hc2Wg23s"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "LNGSHOT - 'Bananas' MV Behind the Scenes (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "LNGSHOT - 'Bananas' MV Behind the Scenes (YouTube)",
+   "when": "2026-11-16T11:00:06Z",
+   "url": "https://www.youtube.com/watch?v=Y1TSgWsIN74"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "world is cute😇 #JxJ #정한X조슈아 #DREAMSCAPE #12oclock (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "world is cute😇 #JxJ #정한X조슈아 #DREAMSCAPE #12oclock (YouTube)",
+   "when": "2026-11-16T11:00:06Z",
+   "url": "https://www.youtube.com/watch?v=WatPJ0GLMIU"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Nuevo video: Stray Kids",
+   "body": "애기 체포하겠어🚨 #StrayKids #스트레이키즈 #창빈 #Changbin #한 #HAN #YouMakeStrayKidsStay (YouTube)",
+   "title_en": "New video: Stray Kids",
+   "body_en": "애기 체포하겠어🚨 #StrayKids #스트레이키즈 #창빈 #Changbin #한 #HAN #YouMakeStrayKidsStay (YouTube)",
+   "when": "2026-11-16T10:00:07Z",
+   "url": "https://www.youtube.com/watch?v=Uqpyhrnu1go"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "[EPISODE] ‘THE SIN : PARALLEL WORLD’ Concept Film & Photo Shoot Sketch - ENHYPEN (엔하이픈) (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "[EPISODE] ‘THE SIN : PARALLEL WORLD’ Concept Film & Photo Shoot Sketch - ENHYPEN (엔하이픈) (YouTube)",
+   "when": "2026-11-16T10:00:05Z",
+   "url": "https://www.youtube.com/watch?v=lwyHSSnbJnU"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) - 'UP' MV Reaction (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) - 'UP' MV Reaction (YouTube)",
+   "when": "2026-11-16T10:00:00Z",
+   "url": "https://www.youtube.com/watch?v=U2HAzfPbZYk"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "💘 #NI_KI #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "💘 #NI_KI #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "when": "2026-11-16T08:55:30Z",
+   "url": "https://www.youtube.com/watch?v=116Ew4k8Wco"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "💘 #SUNOO #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "💘 #SUNOO #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "when": "2026-11-16T08:42:31Z",
+   "url": "https://www.youtube.com/watch?v=tFZ_S-vSIh8"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) - 'UP (Orchestra Ver.)' Lyric Video (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) - 'UP (Orchestra Ver.)' Lyric Video (YouTube)",
+   "when": "2026-11-16T04:59:59Z",
+   "url": "https://www.youtube.com/watch?v=lY-qHy8T1U0"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "CORTIS (코르티스) MMA 2026 ‘MONEYMONEYMONEY’ + ‘REDRED’ + ‘YOUNGCREATORCREW’ Rehearsal (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "CORTIS (코르티스) MMA 2026 ‘MONEYMONEYMONEY’ + ‘REDRED’ + ‘YOUNGCREATORCREW’ Rehearsal (YouTube)",
+   "when": "2026-11-16T04:00:42Z",
+   "url": "https://www.youtube.com/watch?v=r_lbamw4Yy0"
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -572,136 +696,6 @@
    "body_en": "Unbox #SWISH with #LNGSHOT: Card Pack Edition 📦 (YouTube)",
    "when": "2026-11-13T14:10:35Z",
    "url": "https://www.youtube.com/watch?v=6TFHiSj1_Tc"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "소리 질러 My name #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "소리 질러 My name #Shorts (YouTube)",
-   "when": "2026-11-13T14:00:33Z",
-   "url": "https://www.youtube.com/watch?v=L3pUhm8cFG0"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "퍼져 온몸에 열기가 Burnin’ UP #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "퍼져 온몸에 열기가 Burnin’ UP #Shorts (YouTube)",
-   "when": "2026-11-13T13:30:33Z",
-   "url": "https://www.youtube.com/watch?v=hI2KZM-TjUM"
-  },
-  {
-   "type": "official",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Anuncio oficial de TWICE: comeback",
-   "body": "«NAYEON SINGLE “NA-sty” SNEAK PEEK 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
-   "title_en": "Official TWICE news: comeback",
-   "body_en": "«NAYEON SINGLE “NA-sty” SNEAK PEEK 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
-   "when": "2026-11-13T13:00:01Z",
-   "url": "https://x.com/JYPETWICE/status/2121226578214502839",
-   "src_lang": "en",
-   "body_orig": "«NAYEON SINGLE “NA-sty” SNEAK PEEK 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Anuncio oficial de TWICE: comeback",
-   "body": "«NAYEON SINGLE “NA-sty” SNEAK PEEK 🖥️[NA-sty] Pre-guardado🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 2026.11.20 VIE 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
-   "title_en": "Official TWICE news: comeback",
-   "body_en": "«NAYEON SINGLE “NA-sty” SNEAK PEEK 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
-   "when": "2026-11-13T13:00:01Z",
-   "url": "https://x.com/JYPETWICE/status/2121226578214502839",
-   "src_lang": "en",
-   "body_orig": "«NAYEON SINGLE “NA-sty” SNEAK PEEK 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0AM ET #TWICE #트와이...» (TWICE en X).",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "[INSIDE SEVENTEEN] 2026 디노X피철인 [吉BOARD SHOW] BEHIND #2 (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "[INSIDE SEVENTEEN] 2026 디노X피철인 [吉BOARD SHOW] BEHIND #2 (YouTube)",
-   "when": "2026-11-13T12:59:57Z",
-   "url": "https://www.youtube.com/watch?v=GDACogJ2iGE"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "#Bananas kickin off on music shows ☑️ #LNGSHOT #SWISH (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "#Bananas kickin off on music shows ☑️ #LNGSHOT #SWISH (YouTube)",
-   "when": "2026-11-13T12:00:36Z",
-   "url": "https://www.youtube.com/watch?v=ixl20NW59Ao"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Nuevo video: CORTIS",
-   "body": "무슨 생각하셨어요 #CORTIS #코르티스 (YouTube)",
-   "title_en": "New video: CORTIS",
-   "body_en": "무슨 생각하셨어요 #CORTIS #코르티스 (YouTube)",
-   "when": "2026-11-13T12:00:33Z",
-   "url": "https://www.youtube.com/watch?v=LAUBwtYCpGo"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "미쳐 날뛰어 ‘Bout to go UP #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "미쳐 날뛰어 ‘Bout to go UP #Shorts (YouTube)",
-   "when": "2026-11-13T10:30:31Z",
-   "url": "https://www.youtube.com/watch?v=rI6gj5SFFuI"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "LOUIS went #Bananas 🐺#LNGSHOT #SWISH (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "LOUIS went #Bananas 🐺#LNGSHOT #SWISH (YouTube)",
-   "when": "2026-11-13T09:00:18Z",
-   "url": "https://www.youtube.com/watch?v=Fdh5-vCYfj4"
-  },
-  {
-   "type": "official",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Anuncio oficial de ATEEZ: comeback",
-   "body": "«[📢] Información de aparición de KBS2 'Music Bank' ¡ATEEZ aparecerá en #MusicBank a las 5:10 PM (KST)! ¡El nuevo escenario de regreso de ATEEZ! Escenario ARRIBA, muchos pabellones...» (ATEEZ en X).",
-   "title_en": "Official ATEEZ news: comeback",
-   "body_en": "«[📢] KBS2 'Music Bank' appearance information ATEEZ will appear on #MusicBank at 5:10 PM (KST)! ATEEZ’s new comeback stage! UP stage, many pavilions...» (ATEEZ en X).",
-   "when": "2026-11-13T07:40:00Z",
-   "url": "https://x.com/ATEEZofficial/status/2121146042704117875",
-   "src_lang": "ko",
-   "body_orig": "«[📢] KBS2 '뮤직뱅크' 출연 안내 잠시 후 오후 5시 10분 (KST), #뮤직뱅크 에 ATEEZ가 출연합니다! 새롭게 돌아온 에이티즈의 컴백 스테이지! UP 무대 많은 관...» (ATEEZ en X).",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "터져 온몸에 진동이 Risin’ UP #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "터져 온몸에 진동이 Risin’ UP #Shorts (YouTube)",
-   "when": "2026-11-13T07:30:06Z",
-   "url": "https://www.youtube.com/watch?v=m2Rd9UjRI4g"
   }
  ]
 }
