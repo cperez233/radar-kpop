@@ -1797,7 +1797,19 @@
   "news:26307227ef450853|feed": "2026-11-15T20:01:16Z",
   "news:26307227ef450853|ntfy": "2026-11-15T20:01:16Z",
   "news:26307227ef450853|pub:radarkpop-bts-news": "2026-11-15T20:01:16Z",
-  "news:26307227ef450853|foro": "2026-11-15T20:01:16Z"
+  "news:26307227ef450853|foro": "2026-11-15T20:01:16Z",
+  "official:twice:comeback:2026-11-16|feed": "2026-11-16T00:02:06Z",
+  "official:twice:comeback:2026-11-16|ntfy": "2026-11-16T00:02:06Z",
+  "official:twice:comeback:2026-11-16|pub:radarkpop-twice-music": "2026-11-16T00:02:06Z",
+  "official:twice:comeback:2026-11-16|foro": "2026-11-16T00:02:06Z",
+  "official:seventeen:comeback:2026-11-16|feed": "2026-11-16T00:02:06Z",
+  "official:seventeen:comeback:2026-11-16|ntfy": "2026-11-16T00:02:06Z",
+  "official:seventeen:comeback:2026-11-16|pub:radarkpop-seventeen-music": "2026-11-16T00:02:06Z",
+  "official:seventeen:comeback:2026-11-16|foro": "2026-11-16T00:02:06Z",
+  "official:ateez:comeback:2026-11-16|feed": "2026-11-16T00:02:06Z",
+  "official:ateez:comeback:2026-11-16|ntfy": "2026-11-16T00:02:06Z",
+  "official:ateez:comeback:2026-11-16|pub:radarkpop-ateez-music": "2026-11-16T00:02:06Z",
+  "official:ateez:comeback:2026-11-16|foro": "2026-11-16T00:02:06Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2859,7 +2871,6 @@
   }
  },
  "news_seen": [
-  "97a1a4aaa91d9993",
   "97ad1d110aabb962",
   "97c49036649b5a18",
   "9812990bb2d60696",
@@ -3371,6 +3382,7 @@
   "d7327de7886578d2",
   "d736b30fbaba8bbd",
   "d74be4079c7ff4f2",
+  "d78b6dc9a7689e0f",
   "d7b5b9ed9645a52c",
   "d7d675a5f3e67d14",
   "d7d7d39efa0051dc",
@@ -3661,26 +3673,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "lngshot",
-   "w": [
-    "2027",
-    "anuncia",
-    "detalles",
-    "fecha",
-    "frontera",
-    "gira",
-    "mundial",
-    "noche",
-    "nuevo",
-    "precios",
-    "single",
-    "tour",
-    "voz",
-    "wonho"
-   ],
-   "t": "2026-11-13T23:46:01Z"
-  },
   {
    "g": "bts",
    "w": [

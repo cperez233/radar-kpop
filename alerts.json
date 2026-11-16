@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-15T20:01:09Z",
+ "updated_at": "2026-11-16T00:02:00Z",
  "alerts": [
   {
    "type": "tour",
@@ -36,6 +36,20 @@
    "body_en": "4SHO&4EVER thankyou SHOTTIES for the award🤞🔥 #LNGSHOT (YouTube)",
    "when": "2026-11-15T14:40:08Z",
    "url": "https://www.youtube.com/watch?v=5HHgix6JEFU"
+  },
+  {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«NAYEON SINGLE “NA-sty” ESTACIÓN ¡Fiesta de escucha PRÓXIMAMENTE! ⏰Horario 22/11 DOM KST (HORA TBA) 24/11 MAR KST (HORA TBA) 25/11 MIÉ KST (HORA TBA...» (DOS VECES en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«NAYEON SINGLE “NA-sty” STATIONHEAD Listening party COMING SOON! ⏰Schedule 11/22 SUN KST (TIME TBA) 11/24 TUE KST (TIME TBA) 11/25 WED KST (TIME TBA...» (TWICE en X).",
+   "when": "2026-11-15T13:00:00Z",
+   "url": "https://x.com/JYPETWICE/status/2121951349638144151",
+   "src_lang": "en",
+   "body_orig": "«NAYEON SINGLE “NA-sty” STATIONHEAD Listening party COMING SOON! ⏰Schedule 11/22 SUN KST (TIME TBA) 11/24 TUE KST (TIME TBA) 11/25 WED KST (TIME TBA...» (TWICE en X).",
+   "auto": true
   },
   {
    "type": "video",
@@ -157,6 +171,20 @@
    "body_en": "don't be surprised #CORTIS #코르티스 (YouTube)",
    "when": "2026-11-15T04:00:23Z",
    "url": "https://www.youtube.com/watch?v=U8AVJQEJ60c"
+  },
+  {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[📢] ATEEZ UP lanza agenda conmemorativa de STATIONHEAD y control de asistencia EVENTO Fiesta de escucha con @STATIONHEAD ATEEZ del 17/11 (martes) al 20/11 (viernes)...» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
+   "body_en": "«[📢] ATEEZ UP release commemorative STATIONHEAD scheduler and attendance check EVENT Listening party with @STATIONHEAD ATEEZ from 11/17 (Tuesday) to 11/20 (Friday)...» (ATEEZ en X).",
+   "when": "2026-11-15T04:00:00Z",
+   "url": "https://x.com/ATEEZofficial/status/2121815456319254687",
+   "src_lang": "ko",
+   "body_orig": "«[📢] ATEEZ(에이티즈) UP 발매 기념 STATIONHEAD 스케줄러 및 출석 체크 EVENT 11/17 (화)부터 11/20 (금)까지 @STATIONHEAD 에이티즈와 함께 리스닝 파티 함...» (ATEEZ en X).",
+   "auto": true
   },
   {
    "type": "official",
@@ -391,6 +419,20 @@
    "body_en": "𝚈𝚘𝚞 & 𝙰𝚗𝚘𝚝𝚑𝚎𝚛 𝚢𝚘𝚞 #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
    "when": "2026-11-14T04:40:58Z",
    "url": "https://www.youtube.com/watch?v=XHFeYdoVaog"
+  },
+  {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: comeback",
+   "body": "«Viajar es bueno #respuesta #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ LANZAMIENTO: 2026.11.19 8PM (KST) 👉 EN EL AIRE: Weverse, Hulu(Japón...» (SEVENTEEN en X).",
+   "title_en": "Official SEVENTEEN news: comeback",
+   "body_en": "«Travel is good #answer #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hulu(Jap...» (SEVENTEEN en X).",
+   "when": "2026-11-14T04:00:28Z",
+   "url": "https://x.com/pledis_17/status/2121453186141900812",
+   "src_lang": "ko",
+   "body_orig": "«여행 좋지 좋은데 #정답행 #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hulu(Jap...» (SEVENTEEN en X).",
+   "auto": true
   },
   {
    "type": "official",
@@ -660,45 +702,6 @@
    "body_en": "ATEEZ(에이티즈) - 'UP' 응원법 (YouTube)",
    "when": "2026-11-13T06:00:11Z",
    "url": "https://www.youtube.com/watch?v=zWD7sADRN64"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "ATEEZ(에이티즈) - 'UP' Official MV CLIP #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "ATEEZ(에이티즈) - 'UP' Official MV CLIP #Shorts (YouTube)",
-   "when": "2026-11-13T05:30:19Z",
-   "url": "https://www.youtube.com/watch?v=7Se3WIBeyUw"
-  },
-  {
-   "type": "tour",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Gira: Stray Kids",
-   "body": "El grupo de K-pop Stray Kids llevará su gira 'RUN IT' a Norteamérica y Europa en 2027 - MarketScreener España (Google Noticias)",
-   "title_en": "Tour: Stray Kids",
-   "body_en": "K-pop group Stray Kids will take their 'RUN IT' tour to North America and Europe in 2027 - MarketScreener Spain (Google News)",
-   "when": "2026-11-13T04:16:41Z",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNEdFRExqMXVsSFA4dXhzNjJ2YjMzdzd3NDZpWlZpZDRfZzdrQTl0T3RXVVNVZzZ3T1hrVVJMcFFSTjRXRTI0UHRYNzh2U1JhLUJOWUM5ek53eDhFbXdRUUswdFlaLU8zV1NwNjlHRXV5U0VPN2dJOWpnbENQek9QMW5XTm51dzBWVXVJSVZXVTI5Tmx5VnpLRUdibHlMeVlWVDNxQWVETjRFVzhxaEluNXdkb1lpMy1vamE4T3N0V2Z0YkdRMThnaFVob0hSbG9xbWlMSA?oc=5",
-   "src_lang": "es",
-   "body_orig": "El grupo de K-pop Stray Kids llevará su gira 'RUN IT' a Norteamérica y Europa en 2027 - MarketScreener España (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "latam",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Latinoamérica: Stray Kids",
-   "body": "Stray Kids revela detalles de su gira por Argentina en un nuevo vídeo - www.famtimes.co.kr (Google Noticias)",
-   "title_en": "Latin America: Stray Kids",
-   "body_en": "Stray Kids reveal details of their tour of Argentina in a new video - www.famtimes.co.kr (Google News)",
-   "when": "2026-11-13T02:02:58Z",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE12S3BIU2ZoSjBYZUZiMVZRMjBwNV9LVGNRaEVaRU9BRktIR2FyMGViQzBhZ2VfYTBFWUt1MTRSM0RCRktpSmVCYkpBbTFJLTVyd28xVkxfdWdZdERnYXdBcVJ6Sm16aUd0SUd2MS0tdFkzUQ?oc=5",
-   "src_lang": "es",
-   "body_orig": "Stray Kids revela detalles de su gira por Argentina en un nuevo vídeo - www.famtimes.co.kr (Google Noticias)",
-   "auto": true
   }
  ]
 }
