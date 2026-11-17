@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-11-16T21:16:11Z",
+  "updated_at": "2026-11-17T13:10:05Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "x-2122616367123923436",
+      "group": "cortis",
+      "group_name": "CORTIS",
+      "city": "Singapur",
+      "country": "Singapur",
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "text": "a day in singapore... more to come tomorrow 🔗 #CORTIS #코르티스 #광고 #wedontwaitforfun #싱가포르 #VisitSingapore",
+      "url": "https://x.com/cortis_bighit/status/2122616367123923436",
+      "account": "cortis_bighit",
+      "when": "2026-11-17T09:02:32Z"
+    },
     {
       "id": "x-2122308703852372265",
       "group": "lngshot",
@@ -138,19 +151,6 @@
       "url": "",
       "account": "",
       "when": "2026-11-08T20:38:22Z"
-    },
-    {
-      "id": "x-2119354252254392349",
-      "group": "cortis",
-      "group_name": "CORTIS",
-      "city": "Singapur",
-      "country": "Singapur",
-      "lat": 1.3521,
-      "lon": 103.8198,
-      "text": "CORTIS Formula 1 Singapore Grand Prix 2026 Photo Sketch #CORTIS #코르티스",
-      "url": "https://x.com/cortis_bighit/status/2119354252254392349",
-      "account": "cortis_bighit",
-      "when": "2026-11-08T09:00:04Z"
     },
     {
       "id": "fan-newjeans-nuevayork-20261106",

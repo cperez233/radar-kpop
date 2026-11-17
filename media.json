@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-17T03:59:57Z",
+ "updated_at": "2026-11-17T13:09:23Z",
  "sample": false,
  "items": [
   {
@@ -79,6 +79,79 @@
    "sp_try": "2026-11-17"
   },
   {
+   "type": "music",
+   "group": "ateez",
+   "title": "UP (SEONGHWA&SAN Ver.)",
+   "kind": "Album",
+   "date": "2026-11-17",
+   "url": "https://music.apple.com/us/album/up-seonghwa-san-ver-single/6831446258",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/66/f3/1366f3ac-3703-d947-9002-a1f108d3a8b1/196874950760.jpg/300x300bb.jpg",
+   "ytm_v": 6,
+   "tracks": [
+    {
+     "n": "UP (SEONGHWA&SAN Ver.)",
+     "ms": 206320,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/c9/79/6ac97982-749a-b44d-dbd4-25a4bad8d1a1/mzaf_130015778819592854.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": "2026-11-17T13",
+   "sp_try": "2026-11-17"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "You cannot return #StrayKids #스트레이키즈 #아이엔 #I_N #SKZ_PLAYER #슼즈플레이어 #YouMakeStrayKidsStay",
+   "date": "2026-11-17",
+   "published": "2026-11-17T09:31:11Z",
+   "url": "https://www.youtube.com/watch?v=bpTbA5-A3a8",
+   "image": "https://i.ytimg.com/vi/bpTbA5-A3a8/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "I want it more #StrayKids #스트레이키즈 #아이엔 #I_N #SKZ_PLAYER #슼즈플레이어 #YouMakeStrayKidsStay",
+   "date": "2026-11-17",
+   "published": "2026-11-17T09:29:55Z",
+   "url": "https://www.youtube.com/watch?v=GYmV7Kj6030",
+   "image": "https://i.ytimg.com/vi/GYmV7Kj6030/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "I.N \"NO RETURN\" | [Stray Kids : SKZ-PLAYER]",
+   "date": "2026-11-17",
+   "published": "2026-11-17T09:00:01Z",
+   "url": "https://www.youtube.com/watch?v=masFBnN7jsA",
+   "image": "https://i.ytimg.com/vi/masFBnN7jsA/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "#RYUL doing his thing, behind the scenes🎥 #LNGSHOT #Bananas #SWISH",
+   "date": "2026-11-17",
+   "published": "2026-11-17T11:00:09Z",
+   "url": "https://www.youtube.com/watch?v=FZsypU4oFto",
+   "image": "https://i.ytimg.com/vi/FZsypU4oFto/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "Go #Bananas w/#82MAJOR #조성일 @82major_official 🍌 #LNGSHOT #SWISH",
+   "date": "2026-11-17",
+   "published": "2026-11-17T09:00:02Z",
+   "url": "https://www.youtube.com/watch?v=5ETLdoCA_7I",
+   "image": "https://i.ytimg.com/vi/5ETLdoCA_7I/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "[PREVIEW] SEVENTEEN 2027 SEASON'S GREETINGS SPOT",
+   "date": "2026-11-17",
+   "published": "2026-11-17T07:59:58Z",
+   "url": "https://www.youtube.com/watch?v=6zapPaYSZxs",
+   "image": "https://i.ytimg.com/vi/6zapPaYSZxs/hqdefault.jpg"
+  },
+  {
    "type": "video",
    "group": "seventeen",
    "title": "SEVENTEEN 2027 SEASON'S GREETINGS Assistance Dog Etiquette 🐶🌱",
@@ -90,11 +163,56 @@
   {
    "type": "video",
    "group": "enhypen",
-   "title": "[Shout-out] 2027학년도 대학수학능력시험을 보는 엔진에게",
+   "title": "I WANT BLOOD, I WANT YOU - ENHYPEN (엔하이픈)",
    "date": "2026-11-17",
-   "published": "2026-11-17T03:00:06Z",
-   "url": "https://www.youtube.com/watch?v=88ynqsFxe_8",
-   "image": "https://i.ytimg.com/vi/88ynqsFxe_8/hqdefault.jpg"
+   "published": "2026-11-17T10:00:07Z",
+   "url": "https://www.youtube.com/watch?v=dHEZTY5H3T4",
+   "image": "https://i.ytimg.com/vi/dHEZTY5H3T4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "요리 실력의 비밀 🤫 #JAKE #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN",
+   "date": "2026-11-17",
+   "published": "2026-11-17T06:37:55Z",
+   "url": "https://www.youtube.com/watch?v=05GPgvCAxAQ",
+   "image": "https://i.ytimg.com/vi/05GPgvCAxAQ/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "놀이공원 데이트✨ with #JUNGWON 🎈 #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN",
+   "date": "2026-11-17",
+   "published": "2026-11-17T05:32:17Z",
+   "url": "https://www.youtube.com/watch?v=LxcvYwLSYkU",
+   "image": "https://i.ytimg.com/vi/LxcvYwLSYkU/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "mole check #CORTIS #코르티스",
+   "date": "2026-11-17",
+   "published": "2026-11-17T04:00:31Z",
+   "url": "https://www.youtube.com/watch?v=unxv2OtqLLM",
+   "image": "https://i.ytimg.com/vi/unxv2OtqLLM/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "FIND MY TREASURE",
+   "date": "2026-11-17",
+   "published": "2026-11-17T12:29:51Z",
+   "url": "https://www.youtube.com/watch?v=i6yzA6O4hoM",
+   "image": "https://i.ytimg.com/vi/i6yzA6O4hoM/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) - 에이티니를 위한 다큐 8인",
+   "date": "2026-11-17",
+   "published": "2026-11-17T07:00:01Z",
+   "url": "https://www.youtube.com/watch?v=M_IDeXieWJM",
+   "image": "https://i.ytimg.com/vi/M_IDeXieWJM/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -104,44 +222,6 @@
    "published": "2026-11-17T03:00:03Z",
    "url": "https://www.youtube.com/watch?v=4BSexJbNNLY",
    "image": "https://i.ytimg.com/vi/4BSexJbNNLY/hqdefault.jpg"
-  },
-  {
-   "type": "music",
-   "group": "ateez",
-   "title": "UP (Remix 1)",
-   "kind": "Album",
-   "date": "2026-11-16",
-   "url": "https://music.apple.com/us/album/up-remix-1-single/6829634312",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/7c/e0/ca7ce03f-54e6-8dbf-fa9b-8d2eff278b42/196874925812.jpg/300x300bb.jpg",
-   "ytm_v": 6,
-   "spotify": "https://open.spotify.com/album/76WxatkFGyv1yCauGOgE5I",
-   "tracks": [
-    {
-     "n": "UP (Orchestra Ver.)",
-     "ms": 215300,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/88/21/0e8821fa-936f-2b40-2e8d-30c2ce1d6e29/mzaf_16597544486357408590.plus.aac.p.m4a"
-    },
-    {
-     "n": "UP (Speed Up Ver.)",
-     "ms": 180981,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/42/a6/bc42a640-9a72-402e-5ba6-f14589ca7c15/mzaf_1942448212278444050.plus.aac.p.m4a"
-    },
-    {
-     "n": "UP (Speed Down Ver.)",
-     "ms": 243386,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/df/be/5bdfbe64-db58-e217-79d8-134c7f79eb1d/mzaf_16454694963235545417.plus.aac.p.m4a"
-    }
-   ],
-   "ytm_try": "2026-11-17T03"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "애기 체포하겠어🚨 #StrayKids #스트레이키즈 #창빈 #Changbin #한 #HAN #YouMakeStrayKidsStay",
-   "date": "2026-11-16",
-   "published": "2026-11-16T10:00:07Z",
-   "url": "https://www.youtube.com/watch?v=Uqpyhrnu1go",
-   "image": "https://i.ytimg.com/vi/Uqpyhrnu1go/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -154,57 +234,12 @@
   },
   {
    "type": "video",
-   "group": "lngshot",
-   "title": "LNGSHOT - 'Bananas' MV Behind the Scenes",
-   "date": "2026-11-16",
-   "published": "2026-11-16T11:00:06Z",
-   "url": "https://www.youtube.com/watch?v=Y1TSgWsIN74",
-   "image": "https://i.ytimg.com/vi/Y1TSgWsIN74/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "🎂#LNGSHOT4SHO WE DID IT!!!🎂 #LNGSHOT",
-   "date": "2026-11-16",
-   "published": "2026-11-16T03:00:38Z",
-   "url": "https://www.youtube.com/watch?v=3Da7J5CH04Y",
-   "image": "https://i.ytimg.com/vi/3Da7J5CH04Y/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "seventeen",
    "title": "[지금은 뿌재중] 🍊뿌이로그🍊 | Eat with 뿌 | 야식 같이 먹어요🍴",
    "date": "2026-11-16",
    "published": "2026-11-16T13:15:59Z",
    "url": "https://www.youtube.com/watch?v=U7G2G11laQA",
    "image": "https://i.ytimg.com/vi/U7G2G11laQA/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "world is cute😇 #JxJ #정한X조슈아 #DREAMSCAPE #12oclock",
-   "date": "2026-11-16",
-   "published": "2026-11-16T11:00:06Z",
-   "url": "https://www.youtube.com/watch?v=WatPJ0GLMIU",
-   "image": "https://i.ytimg.com/vi/WatPJ0GLMIU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "[EPISODE] ‘THE SIN : PARALLEL WORLD’ Concept Film & Photo Shoot Sketch - ENHYPEN (엔하이픈)",
-   "date": "2026-11-16",
-   "published": "2026-11-16T10:00:05Z",
-   "url": "https://www.youtube.com/watch?v=lwyHSSnbJnU",
-   "image": "https://i.ytimg.com/vi/lwyHSSnbJnU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "💘 #NI_KI #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN",
-   "date": "2026-11-16",
-   "published": "2026-11-16T08:55:30Z",
-   "url": "https://www.youtube.com/watch?v=116Ew4k8Wco",
-   "image": "https://i.ytimg.com/vi/116Ew4k8Wco/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -223,51 +258,6 @@
    "published": "2026-11-16T04:00:42Z",
    "url": "https://www.youtube.com/watch?v=r_lbamw4Yy0",
    "image": "https://i.ytimg.com/vi/r_lbamw4Yy0/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) - 'UP' Choreography Demo (SAN Ver.)",
-   "date": "2026-11-16",
-   "published": "2026-11-16T12:00:01Z",
-   "url": "https://www.youtube.com/watch?v=5fr96_cePHQ",
-   "image": "https://i.ytimg.com/vi/5fr96_cePHQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "지수 선배님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-16",
-   "published": "2026-11-16T11:00:24Z",
-   "url": "https://www.youtube.com/watch?v=vV3Hc2Wg23s",
-   "image": "https://i.ytimg.com/vi/vV3Hc2Wg23s/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "댕냥스쿨 폐교 후 개학",
-   "date": "2026-11-15",
-   "published": "2026-11-15T13:14:38Z",
-   "url": "https://www.youtube.com/watch?v=M2A1hTv2WTQ",
-   "image": "https://i.ytimg.com/vi/M2A1hTv2WTQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "중간이 없는 가을 남자🍂 #StrayKids #스트레이키즈 #리노 #LeeKnow #kNOw맘대로 #ThekNOwWay #YouMakeStrayKidsStay",
-   "date": "2026-11-15",
-   "published": "2026-11-15T03:00:02Z",
-   "url": "https://www.youtube.com/watch?v=2yFY8ETwJnI",
-   "image": "https://i.ytimg.com/vi/2yFY8ETwJnI/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "With all the gratitude we couldn't put into words, 진심으로 감사합니다 코어! 🏆🏆🏆#CORTIS #코르티스",
-   "date": "2026-11-15",
-   "published": "2026-11-15T16:26:07Z",
-   "url": "https://www.youtube.com/watch?v=opN3H3JLsDg",
-   "image": "https://i.ytimg.com/vi/opN3H3JLsDg/hqdefault.jpg"
   },
   {
    "type": "music",
@@ -306,7 +296,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-17T03"
+   "ytm_try": "2026-11-17T13"
   },
   {
    "type": "video",
@@ -372,7 +362,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-17T03"
+   "ytm_try": "2026-11-17T13"
   },
   {
    "type": "video",
@@ -609,7 +599,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-17T03",
+   "ytm_try": "2026-11-17T13",
    "sp_try": "2026-11-17"
   },
   {
@@ -1312,7 +1302,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-17T03"
+   "ytm_try": "2026-11-17T13"
   },
   {
    "type": "music",

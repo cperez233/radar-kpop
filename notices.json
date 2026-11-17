@@ -1,7 +1,14 @@
 {
- "updated_at": "2026-11-17T04:00:08Z",
+ "updated_at": "2026-11-17T13:10:17Z",
  "groups": {
   "lngshot": [
+   {
+    "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (프롬스토어)",
+    "url": "https://weverse.io/lngshot/notice/41100",
+    "post": "https://x.com/LNGSHOT4sho/status/2122570733033574401",
+    "when": "2026-11-17T06:01:12Z",
+    "weverse": true
+   },
    {
     "title": "[NOTICE] LNGSHOT 261115 SBS 인기가요 참여 안내 (사전녹화)",
     "url": "https://weverse.io/lngshot/notice/41013",
@@ -35,13 +42,6 @@
     "url": "https://weverse.io/lngshot/notice/40902",
     "post": "https://x.com/LNGSHOT4sho/status/2120174242868432911",
     "when": "2026-11-10T15:18:25Z",
-    "weverse": true
-   },
-   {
-    "title": "[EVENT] LNGSHOT EP [S.W.I.S.H.] 발매 기념 음원 스트리밍 이벤트 안내",
-    "url": "https://weverse.io/lngshot/notice/40875",
-    "post": "https://x.com/LNGSHOT4sho/status/2120033721113784710",
-    "when": "2026-11-10T06:00:02Z",
     "weverse": true
    }
   ],
