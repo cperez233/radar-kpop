@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T13:10:05Z",
+  "updated_at": "2026-11-17T21:48:23Z",
   "source": "rsshub",
   "sample": false,
   "items": [
@@ -274,19 +274,6 @@
       "url": "",
       "account": "",
       "when": "2026-10-21T08:51:30Z"
-    },
-    {
-      "id": "x-2111821623900983748",
-      "group": "enhypen",
-      "group_name": "ENHYPEN",
-      "city": "Macao",
-      "country": "China",
-      "lat": 22.1987,
-      "lon": 113.5439,
-      "text": "[#오늘의ENHYPEN] 지난 3일을 사랑과 행복으로 가득 채워준 우리 엔진! 고맙고 사랑합니다💖 엔진이 최고야! 🫶 # 261018 @ BLOOD SAGA IN MACAU",
-      "url": "https://x.com/ENHYPEN/status/2111821623900983748",
-      "account": "ENHYPEN",
-      "when": "2026-10-18T14:08:05Z"
     }
   ]
 }

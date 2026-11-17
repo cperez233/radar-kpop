@@ -1895,7 +1895,8 @@
   "news:b811a8c3f948ef93|feed": "2026-11-17T13:11:43Z",
   "news:8508c89e08a7cad7|feed": "2026-11-17T13:11:43Z",
   "news:c7447980e66266b5|feed": "2026-11-17T13:11:43Z",
-  "news:146a812a852a89f5|feed": "2026-11-17T13:11:43Z"
+  "news:146a812a852a89f5|feed": "2026-11-17T13:11:43Z",
+  "news:ab4414c204efcadb|feed": "2026-11-17T21:50:09Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2957,9 +2958,6 @@
   }
  },
  "news_seen": [
-  "9ee6daa8194380d1",
-  "9eeb1f42eb447f73",
-  "9efe1c9d3e512918",
   "9f02e49d7f0a23cb",
   "9f0eb99337be205c",
   "9f1ac5471e236c8e",
@@ -3066,6 +3064,7 @@
   "ab1d6efa19457af1",
   "ab2e843778af2f87",
   "ab2fbcb45155586b",
+  "ab4414c204efcadb",
   "ab4a9fbee2c772ac",
   "ab624af630b4206d",
   "ab75bc8b945a1300",
@@ -3504,6 +3503,7 @@
   "df27aaea3fe1a414",
   "df508a80852ccfa0",
   "df5549a83fc5ec9b",
+  "df666f928552b97b",
   "df6d838f909c8278",
   "df91eb9facff7351",
   "df9f99baee686f44",
@@ -3525,6 +3525,7 @@
   "e214d74c84970f62",
   "e23d52033c88fcf1",
   "e2567b47950ed5ef",
+  "e28007d0b053ec92",
   "e2a38bee29e1315a",
   "e2d0e4f34327c9c6",
   "e2d1897da009f191",
@@ -3760,37 +3761,6 @@
  ],
  "news_topics": [
   {
-   "g": "skz",
-   "w": [
-    "abuchean",
-    "concierto",
-    "durante",
-    "fuera",
-    "gobernadora",
-    "indira",
-    "morena",
-    "morenista",
-    "vizcaino",
-    "yuridia"
-   ],
-   "t": "2026-11-15T19:42:25Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "gira",
-    "integrantes",
-    "medio",
-    "militar",
-    "mundial",
-    "razones",
-    "uniforme",
-    "vestir",
-    "volvieron"
-   ],
-   "t": "2026-11-15T20:01:09Z"
-  },
-  {
    "g": "bts",
    "w": [
     "arirang",
@@ -3908,6 +3878,22 @@
     "vuelve"
    ],
    "t": "2026-11-17T13:11:37Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "abuchean",
+    "concierto",
+    "durante",
+    "fuera",
+    "gobernadora",
+    "indira",
+    "morena",
+    "morenista",
+    "vizcaino",
+    "yuridia"
+   ],
+   "t": "2026-11-17T21:50:02Z"
   }
  ],
  "discord_threads": {

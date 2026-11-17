@@ -44,8 +44,8 @@
  "discovered": {},
  "drift": [],
  "fails": 0,
- "last_discovery": "2026-11-10T19:30:23Z",
- "last_run": "2026-11-17T13:08:56Z",
+ "last_discovery": "2026-11-17T21:47:43Z",
+ "last_run": "2026-11-17T21:47:43Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-16T21:15:08Z",
@@ -704,7 +704,37 @@
    "title": "Run It World Tour"
   }
  },
- "pending": {},
+ "pending": {
+  "blackpink": [
+   "Blackpink Arena Tour 2018",
+   "Born Pink World Tour"
+  ],
+  "bts": [
+   "The Wings Tour",
+   "The Red Bullet Tour",
+   "Map of the Soul Tour"
+  ],
+  "enhypen": [
+   "Music Bank World Tour"
+  ],
+  "seventeen": [
+   "Warning Tour",
+   "Music Bank World Tour",
+   "Ode to You World Tour",
+   "Haru Japan Tour",
+   "Ideal Cut Tour"
+  ],
+  "skz": [
+   "Dominate World Tour",
+   "5-Star Dome Tour",
+   "Maniac World Tour"
+  ],
+  "twice": [
+   "Ready to Be World Tour",
+   "Twice 4th World Tour III",
+   "Twicelights World Tour"
+  ]
+ },
  "rejected": {
   "2017 BTS Live Trilogy Episode III: The Wings Tour": "2026-11-10T19:30:23Z",
   "5-Star Dome Tour": "2026-11-03T19:15:48Z",
@@ -717,11 +747,11 @@
   "Follow Tour": "2026-11-11T00:00:22Z",
   "Haru Japan Tour": "2026-11-03T19:15:48Z",
   "Ideal Cut Tour": "2026-11-03T19:15:48Z",
-  "In Your Area World Tour": "2026-11-03T19:15:48Z",
+  "In Your Area World Tour": "2026-11-17T21:47:43Z",
   "Love Yourself World Tour": "2026-11-10T19:30:23Z",
   "Maniac World Tour": "2026-11-03T19:15:48Z",
   "Map of the Soul Tour": "2026-11-03T19:15:48Z",
-  "Music Bank World Tour": "2026-11-03T19:15:48Z",
+  "Music Bank World Tour": "2026-11-17T21:47:43Z",
   "New_ World Tour": "2026-11-10T19:30:23Z",
   "Ode to You World Tour": "2026-11-03T19:15:48Z",
   "Ready to Be World Tour": "2026-11-03T19:15:48Z",
@@ -730,7 +760,7 @@
   "The Most Beautiful Moment in Life On Stage Tour": "2026-11-10T21:45:19Z",
   "The Red Bullet Tour": "2026-11-03T19:15:48Z",
   "The Wings Tour": "2026-11-03T19:15:48Z",
-  "This Is For World Tour": "2026-11-03T19:15:48Z",
+  "This Is For World Tour": "2026-11-17T21:47:43Z",
   "Twice 4th World Tour III": "2026-11-03T19:15:48Z",
   "Twicelights World Tour": "2026-11-03T19:15:48Z",
   "Warning Tour": "2026-11-03T19:15:48Z"

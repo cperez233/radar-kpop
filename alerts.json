@@ -1,6 +1,17 @@
 {
- "updated_at": "2026-11-17T13:11:37Z",
+ "updated_at": "2026-11-17T21:50:02Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "Your BABY ANGEL🪽#TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "Your BABY ANGEL🪽#TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "when": "2026-11-17T14:00:06Z",
+   "url": "https://www.youtube.com/watch?v=y5e15Gjb6eY"
+  },
   {
    "type": "official",
    "group": "lngshot",
@@ -694,20 +705,6 @@
    "body_en": "don't be surprised #CORTIS #코르티스 (YouTube)",
    "when": "2026-11-15T04:00:23Z",
    "url": "https://www.youtube.com/watch?v=U8AVJQEJ60c"
-  },
-  {
-   "type": "official",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Anuncio oficial de ATEEZ: comeback",
-   "body": "«[📢] ATEEZ UP lanza agenda conmemorativa de STATIONHEAD y control de asistencia EVENTO Fiesta de escucha con @STATIONHEAD ATEEZ del 17/11 (martes) al 20/11 (viernes)...» (ATEEZ en X).",
-   "title_en": "Official ATEEZ news: comeback",
-   "body_en": "«[📢] ATEEZ UP release commemorative STATIONHEAD scheduler and attendance check EVENT Listening party with @STATIONHEAD ATEEZ from 11/17 (Tuesday) to 11/20 (Friday)...» (ATEEZ en X).",
-   "when": "2026-11-15T04:00:00Z",
-   "url": "https://x.com/ATEEZofficial/status/2121815456319254687",
-   "src_lang": "ko",
-   "body_orig": "«[📢] ATEEZ(에이티즈) UP 발매 기념 STATIONHEAD 스케줄러 및 출석 체크 EVENT 11/17 (화)부터 11/20 (금)까지 @STATIONHEAD 에이티즈와 함께 리스닝 파티 함...» (ATEEZ en X).",
-   "auto": true
   }
  ]
 }
