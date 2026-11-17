@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-15T12:00:49Z",
+ "updated_at": "2026-11-17T04:00:08Z",
  "groups": {
   "lngshot": [
    {
@@ -91,6 +91,13 @@
   ],
   "enhypen": [
    {
+    "title": "[공지] ENHYPEN ‘THE SIN : PARALLEL WORLD’ 활동 기념 팬사인회 안내 (알라딘) (+ENG/JPN/CHN)",
+    "url": "https://weverse.io/enhypen/notice/41041",
+    "post": "https://x.com/ENHYPEN/status/2122516500770934957",
+    "when": "2026-11-17T02:25:42Z",
+    "weverse": true
+   },
+   {
     "title": "[공지] 엔하이픈 'THE SIN : PARALLEL WORLD' 발매 기념 MV 스트리밍 이벤트 안내 (+ENG/JPN/CHN)",
     "url": "https://weverse.io/enhypen/notice/40992",
     "post": "https://x.com/ENHYPEN/status/2121407776513532150",
@@ -124,13 +131,6 @@
     "post": "https://x.com/ENHYPEN/status/2118916384075980920",
     "when": "2026-11-07T04:00:08Z",
     "weverse": false
-   },
-   {
-    "title": "[공지] 아티스트 개인정보 유출 및 스토킹 행위에 대한 강경 대응 안내 (+ENG/JPN/CHN)",
-    "url": "https://weverse.io/enhypen/notice/40665",
-    "post": "https://x.com/ENHYPEN/status/2117459261932659104",
-    "when": "2026-11-03T03:30:03Z",
-    "weverse": true
    }
   ],
   "cortis": [

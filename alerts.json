@@ -1,6 +1,67 @@
 {
- "updated_at": "2026-11-16T21:17:54Z",
+ "updated_at": "2026-11-17T04:01:32Z",
  "alerts": [
+  {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: comeback",
+   "body": "«SEVENTEEN 2027 SEASON'S GREETINGS Normas de comportamiento con perros de asistencia 🐶🌱 ▶️ https://youtube.com/shorts/d0SNagCGWsA 🗓️ RESERVA: 20/11/2026 20.11 (KST) ...» (SEVENTEEN en X).",
+   "title_en": "Official SEVENTEEN news: comeback",
+   "body_en": "«SEVENTEEN 2027 SEASON'S GREETINGS Assistance Dog Etiquette 🐶🌱 ▶️ https://youtube.com/shorts/d0SNagCGWsA 🗓️ PRE-ORDER : 2026. 11. 20 (KST) ...» (SEVENTEEN en X).",
+   "when": "2026-11-17T03:00:29Z",
+   "url": "https://x.com/pledis_17/status/2122525250567192639",
+   "src_lang": "en",
+   "body_orig": "«SEVENTEEN 2027 SEASON'S GREETINGS Assistance Dog Etiquette 🐶🌱 ▶️ https://youtube.com/shorts/d0SNagCGWsA 🗓️ PRE-ORDER : 2026. 11. 20 (KST) ...» (SEVENTEEN en X).",
+   "auto": true
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "[Shout-out] 2027학년도 대학수학능력시험을 보는 엔진에게 (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "[Shout-out] 2027학년도 대학수학능력시험을 보는 엔진에게 (YouTube)",
+   "when": "2026-11-17T03:00:06Z",
+   "url": "https://www.youtube.com/watch?v=88ynqsFxe_8"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) - '친구 (THANK U)' MV (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) - '친구 (THANK U)' MV (YouTube)",
+   "when": "2026-11-17T03:00:03Z",
+   "url": "https://www.youtube.com/watch?v=4BSexJbNNLY"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "SEVENTEEN 2027 SEASON'S GREETINGS Assistance Dog Etiquette 🐶🌱 (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "SEVENTEEN 2027 SEASON'S GREETINGS Assistance Dog Etiquette 🐶🌱 (YouTube)",
+   "when": "2026-11-17T02:59:57Z",
+   "url": "https://www.youtube.com/watch?v=d0SNagCGWsA"
+  },
+  {
+   "type": "official",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Anuncio oficial de Stray Kids: comeback",
+   "body": "«I.N de Stray Kids lanza hoy (17) “NO RETURN”… Participa en la composición, la producción y la dirección del videoclip https://naver.me/FEgXIdtY #StrayKids #스트레이키즈 #아이엔 #...» (Stray Kids en X).",
+   "title_en": "Official Stray Kids news: comeback",
+   "body_en": "«Stray Kids' IN releases ‘NO RETURN’ today (17th)… Involved in songwriting, composition, and MV direction https://naver.me/FEgXIdtY #StrayKids #StrayKids #IN #...» (Stray Kids on X).",
+   "when": "2026-11-17T01:47:09Z",
+   "url": "https://x.com/Stray_Kids/status/2122506799375143118",
+   "src_lang": "ko",
+   "body_orig": "«Stray Kids(스트레이 키즈) 아이엔, 오늘(17일) ‘NO RETURN’ 발매…작사·작곡→MV 연출 참여 https://naver.me/FEgXIdtY #StrayKids #스트레이키즈 #아이엔 #...» (Stray Kids en X).",
+   "auto": true
+  },
   {
    "type": "weekly",
    "group": "radar",
@@ -24,6 +85,48 @@
    "url": "https://x.com/ATEEZofficial/status/2121815456319254687",
    "src_lang": "es",
    "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "auto": true
+  },
+  {
+   "type": "latam",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Latinoamérica: BTS",
+   "body": "Chile vs. Colombia sufre cambio de última hora luego de concierto de BTS - Blu Radio (Google Noticias)",
+   "title_en": "Latin America: BTS",
+   "body_en": "Chile vs. Colombia sees a last-minute change after BTS concert - Blu Radio (Google News)",
+   "when": "2026-11-16T20:41:26Z",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM1MtYjFYUjVhWVpvSS1JWXVQYVVKWlIteGJ1QzhMMU1jbnozaDBaVDgwNGMwZGJPeTEwN2tsX1J1ZjhVY3lJbnZHR3lTSnYxR3VyQ2NtajdDZk1QdUg2Mm9FRVByTkZJNGh3WXg4dUQ4S3dnYW10WjRpVDhkaE5RWG5CUDU4RmY4T0JlNVBRbkM5anp1U3FrbDQwcUkza0MxRWM0YXVucGctUVpzRzZsM3hGZ1Z2U0tm0gHGAUFVX3lxTE1RZ1M1TjlYWVU2Zy0wa3MweXFwVmhoT0N3ckh1ZEVQaFJuLXV1M3lBa0NQR2pRZWd6NVowQUtKLVFzck9Nb2NsTGVLSHUyMU94eTlyMy1SVmN0TnpuR05wVEotMFR1dWszd1RnQy1naDdxdlF4N2Nhei16aHI2eWhjSjF5X09SaFBtYTg5QzRpM2I5MnZpU3kzRDdEa3FqeHpHSUpnR0tOM3AxTTBVMi1tSTZwOXpuLVg0Q2cwQm90c0VtTHh6Zw?oc=5",
+   "src_lang": "es",
+   "body_orig": "Chile vs. Colombia sufre cambio de última hora luego de concierto de BTS - Blu Radio (Google Noticias)",
+   "auto": true
+  },
+  {
+   "type": "latam",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Latinoamérica: BTS",
+   "body": "IND acusa que Chile y Colombia no podrán jugar en el Estadio Nacional por culpa de BTS: \"Su deterioro se produjo como consecuencia del conc… (Google Noticias)",
+   "title_en": "Latin America: BTS",
+   "body_en": "The National Sports Institute (IND) claims that Chile and Colombia will not be able to play at the Estadio Nacional due to BTS: \"Its deterioration occurred as a result of the conc… (Google News)",
+   "when": "2026-11-16T18:41:54Z",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxObHdfYUN2WDJwNFJJQUx4MjdGdzUxdkxFQThhcmZaZ1V4N0NCUFpiRnVoaDZYMTdFYzh1eEVFRFhUTm54czBpSXZYVkR2cVNiNzYtWHg0aXJZUjhaMG1rWHVpbnlDVnJ0dVRzOVNPLWdVajktSEF4dHB1Rnl1WTBDYXV4S2FPdm8xeGdfeWpRVUJ5cE5oT0RuODY5YjJDbWhGWE9KdGFWQzZyZTUzdVdTVkhwcDQxcGZ3cTFZMWpNZmRMNmJzSk1vd3puOGswNGEzMF9IS2gzZDB2U3NwN043VkFkOXptb0YxZjQ1UnZlRC12TlJ1MjAyWENtQTEybUlXRHhmd1B2UmJqckE?oc=5",
+   "src_lang": "es",
+   "body_orig": "IND acusa que Chile y Colombia no podrán jugar en el Estadio Nacional por culpa de BTS: \"Su deterioro se produjo como consecuencia del conc… (Google Noticias)",
+   "auto": true
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "IND responsabilizó a concierto de BTS y multará a productora por estado del Nacional - Cooperativa (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "IND blamed the BTS concert and will fine the producer for the condition of the National Stadium - Cooperativa (Google News)",
+   "when": "2026-11-16T18:13:00Z",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZUlTTFlTZXRmaml3V0l4N2JjR1oycVhkYlNyUHZLLUdKMlM1alpvY1BKcFVneVc0cVhka0tyUGN1UHN4Y0tab3JpQ3JXdDBqaU8tZlJpV3ZCRUdMS0Z1Zm1jS1E3NVFRVzZyR1NRbHktMHNaNDAwMXNzbzFfX2hrM3h0dHpKNmR3RW1hRy03a3d2Qm1tRWhzUVVTWnpMV3pjUWcwQ3VQZVZTOXRuY29Ud0o4STdPZzRIaThjeTRMaVdHb2wtd0tyaUx0VUU4alU4aGJ4bTZB0gGMAUFVX3lxTE4ybXBQR2pUNjc2OVpsb2gtb1ZkS0pwRVdXSW9nSWNzazh1ZjB4S2NiTGdsTW94T3AxNjI1alNDbldFQW1uejYwblU3OWtiNVNlWG9GYXY0elZFRUQ3ZXd1U0x3YnZTSGhuQ3VKY3BCZnN2NlI4dk5xeTd3MVItYmNjMnQxOVlwZ3F3Ymp5?oc=5",
+   "src_lang": "es",
+   "body_orig": "IND responsabilizó a concierto de BTS y multará a productora por estado del Nacional - Cooperativa (Google Noticias)",
    "auto": true
   },
   {
@@ -173,6 +276,20 @@
    "url": "https://www.youtube.com/watch?v=tFZ_S-vSIh8"
   },
   {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[📢] ATEEZ UP (Versión orquestal) ATEEZ [UP (Versión orquesta)]Ya está disponible. Esperamos recibir mucho interés y cariño por parte de ATINY.🥰 Melon ▶️ https://bit.ly/4t0...» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
+   "body_en": "«[📢] ATEEZ UP (Orchestra Ver.) ATEEZ [UP (Orchestra Ver.)]This has been released. We ask for ATINY's great interest and love.🥰 Melon ▶️ https://bit.ly/4t0...» (ATEEZ on X).",
+   "when": "2026-11-16T05:02:16Z",
+   "url": "https://x.com/ATEEZofficial/status/2122193512934645887",
+   "src_lang": "ko",
+   "body_orig": "«[📢] ATEEZ UP (Orchestra Ver.) ATEEZ [UP (Orchestra Ver.)]이 발매되었습니다. ATINY의 많은 관심과 사랑 부탁드립니다🥰 Melon ▶️ https://bit.ly/4t0...» (ATEEZ en X).",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "ateez",
    "group_name": "ATEEZ",
@@ -240,6 +357,20 @@
    "body_en": "4SHO&4EVER thankyou SHOTTIES for the award🤞🔥 #LNGSHOT (YouTube)",
    "when": "2026-11-15T14:40:08Z",
    "url": "https://www.youtube.com/watch?v=5HHgix6JEFU"
+  },
+  {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«¡PRÓXIMAMENTE, sesión de escucha del SENCILLO DE NAYEON “NA-sty” en STATIONHEAD! ⏰Programa 22/11 DOM KST (HORA POR CONFIRMAR) 24/11 MAR KST (HORA POR CONFIRMAR) 25/11 MIÉ KST (HORA POR CONFIRMAR...)» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«NAYEON SINGLE “NA-sty” STATIONHEAD Listening party COMING SOON! ⏰Schedule 11/22 SUN KST (TIME TBA) 11/24 TUE KST (TIME TBA) 11/25 WED KST (TIME TBA...» (TWICE en X).",
+   "when": "2026-11-15T13:00:00Z",
+   "url": "https://x.com/JYPETWICE/status/2121951349638144151",
+   "src_lang": "en",
+   "body_orig": "«NAYEON SINGLE “NA-sty” STATIONHEAD Listening party COMING SOON! ⏰Schedule 11/22 SUN KST (TIME TBA) 11/24 TUE KST (TIME TBA) 11/25 WED KST (TIME TBA...» (TWICE en X).",
+   "auto": true
   },
   {
    "type": "official",
@@ -568,125 +699,6 @@
    "body_en": "Yeah we go 🆙 w/ 민주 님 #Shorts (YouTube)",
    "when": "2026-11-14T08:30:09Z",
    "url": "https://www.youtube.com/watch?v=CdWLUeWv9y4"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "SHOTTIES🤞 Grab your copy of S.W.I.S.H. online in the US by NOV 16! 💿 (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "SHOTTIES🤞 Grab your copy of S.W.I.S.H. online in the US by NOV 16! 💿 (YouTube)",
-   "when": "2026-11-14T08:15:33Z",
-   "url": "https://www.youtube.com/watch?v=m7_9Dv-ZNuI"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "POV: #JAY is obsessed with you 💘 #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "POV: #JAY is obsessed with you 💘 #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
-   "when": "2026-11-14T07:37:51Z",
-   "url": "https://www.youtube.com/watch?v=0CXsA59Yc94"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "Oh...You? #SUNGHOON #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "Oh...You? #SUNGHOON #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
-   "when": "2026-11-14T06:35:11Z",
-   "url": "https://www.youtube.com/watch?v=K8o5g5L-2Ag"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "Running to you 🏃 #JAKE #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "Running to you 🏃 #JAKE #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
-   "when": "2026-11-14T05:34:09Z",
-   "url": "https://www.youtube.com/watch?v=Lc4dLo6z_3g"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "𝚈𝚘𝚞 & 𝙰𝚗𝚘𝚝𝚑𝚎𝚛 𝚢𝚘𝚞 #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "𝚈𝚘𝚞 & 𝙰𝚗𝚘𝚝𝚑𝚎𝚛 𝚢𝚘𝚞 #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
-   "when": "2026-11-14T04:40:58Z",
-   "url": "https://www.youtube.com/watch?v=XHFeYdoVaog"
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«Viajar es bueno #respuesta #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ LANZAMIENTO: 2026.11.19 8PM (KST) 👉 EN EL AIRE: Weverse, Hulu(Japón...» (SEVENTEEN en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "«Travel is good #answer #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hulu(Jap...» (SEVENTEEN en X).",
-   "when": "2026-11-14T04:00:28Z",
-   "url": "https://x.com/pledis_17/status/2121453186141900812",
-   "src_lang": "ko",
-   "body_orig": "«여행 좋지 좋은데 #정답행 #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hulu(Jap...» (SEVENTEEN en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«Viajar es bueno #respuesta #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ LANZAMIENTO: 2026.11.19 8PM (KST) 👉 EN EL AIRE: Weverse, Hulu(Japón...» (SEVENTEEN en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "«Travel is good #answer #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hulu(Jap...» (SEVENTEEN en X).",
-   "when": "2026-11-14T04:00:28Z",
-   "url": "https://x.com/pledis_17/status/2121453186141900812",
-   "src_lang": "ko",
-   "body_orig": "«여행 좋지 좋은데 #정답행 #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hulu(Jap...» (SEVENTEEN en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«Viajar está bien, muy bien #Enelcaminojusto #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ ESTRENO: 19/11/2026 20:00 (KST) 👉 EN DIRECTO: Weverse, Hulu (Jap...» (SEVENTEEN en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "«Traveling is great, but #GoingSEVENTEEN #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ RELEASE: November 19, 2026, 8 PM (KST) 👉 ON-AIR: Weverse, Hulu (Jap...» (SEVENTEEN on X).",
-   "when": "2026-11-14T04:00:28Z",
-   "url": "https://x.com/pledis_17/status/2121453186141900812",
-   "src_lang": "ko",
-   "body_orig": "«여행 좋지 좋은데 #정답행 #EP1 ▶️ https://youtube.com/shorts/HK1h0Xwp3SE 🎬 VOD ✔️ RELEASE : 2026.11.19 8PM (KST) 👉 ON-AIR : Weverse, Hulu(Jap...» (SEVENTEEN en X).",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "여행 좋지 좋은데 #정답행 #EP1 (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "여행 좋지 좋은데 #정답행 #EP1 (YouTube)",
-   "when": "2026-11-14T03:59:06Z",
-   "url": "https://www.youtube.com/watch?v=HK1h0Xwp3SE"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "[kNOw맘대로(The kNOw Way)] Ep.11 (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "[kNOw맘대로(The kNOw Way)] Ep.11 (YouTube)",
-   "when": "2026-11-14T03:00:01Z",
-   "url": "https://www.youtube.com/watch?v=I2qDH2-uNEM"
   }
  ]
 }

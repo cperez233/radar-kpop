@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-16T21:15:33Z",
+ "updated_at": "2026-11-17T03:59:57Z",
  "sample": false,
  "items": [
   {
@@ -76,7 +76,34 @@
      "p": ""
     }
    ],
-   "sp_try": "2026-11-16"
+   "sp_try": "2026-11-17"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "SEVENTEEN 2027 SEASON'S GREETINGS Assistance Dog Etiquette 🐶🌱",
+   "date": "2026-11-17",
+   "published": "2026-11-17T02:59:57Z",
+   "url": "https://www.youtube.com/watch?v=d0SNagCGWsA",
+   "image": "https://i.ytimg.com/vi/d0SNagCGWsA/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "[Shout-out] 2027학년도 대학수학능력시험을 보는 엔진에게",
+   "date": "2026-11-17",
+   "published": "2026-11-17T03:00:06Z",
+   "url": "https://www.youtube.com/watch?v=88ynqsFxe_8",
+   "image": "https://i.ytimg.com/vi/88ynqsFxe_8/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) - '친구 (THANK U)' MV",
+   "date": "2026-11-17",
+   "published": "2026-11-17T03:00:03Z",
+   "url": "https://www.youtube.com/watch?v=4BSexJbNNLY",
+   "image": "https://i.ytimg.com/vi/4BSexJbNNLY/hqdefault.jpg"
   },
   {
    "type": "music",
@@ -105,7 +132,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/df/be/5bdfbe64-db58-e217-79d8-134c7f79eb1d/mzaf_16454694963235545417.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-16T21"
+   "ytm_try": "2026-11-17T03"
   },
   {
    "type": "video",
@@ -181,15 +208,6 @@
   },
   {
    "type": "video",
-   "group": "enhypen",
-   "title": "💘 #SUNOO #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN",
-   "date": "2026-11-16",
-   "published": "2026-11-16T08:42:31Z",
-   "url": "https://www.youtube.com/watch?v=tFZ_S-vSIh8",
-   "image": "https://i.ytimg.com/vi/tFZ_S-vSIh8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "cortis",
    "title": "somehow survived #CORTIS #코르티스",
    "date": "2026-11-16",
@@ -226,15 +244,6 @@
   },
   {
    "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) - 'UP' MV Reaction",
-   "date": "2026-11-16",
-   "published": "2026-11-16T10:00:00Z",
-   "url": "https://www.youtube.com/watch?v=U2HAzfPbZYk",
-   "image": "https://i.ytimg.com/vi/U2HAzfPbZYk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "skz",
    "title": "댕냥스쿨 폐교 후 개학",
    "date": "2026-11-15",
@@ -250,15 +259,6 @@
    "published": "2026-11-15T03:00:02Z",
    "url": "https://www.youtube.com/watch?v=2yFY8ETwJnI",
    "image": "https://i.ytimg.com/vi/2yFY8ETwJnI/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[MIN9YU:ON] 한 그릇 툭 | 타코 | 장점뿐인 타코",
-   "date": "2026-11-15",
-   "published": "2026-11-15T12:45:56Z",
-   "url": "https://www.youtube.com/watch?v=g0XDv8i4eak",
-   "image": "https://i.ytimg.com/vi/g0XDv8i4eak/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -306,7 +306,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-16T21"
+   "ytm_try": "2026-11-17T03"
   },
   {
    "type": "video",
@@ -372,7 +372,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-16T21"
+   "ytm_try": "2026-11-17T03"
   },
   {
    "type": "video",
@@ -609,8 +609,8 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-16T21",
-   "sp_try": "2026-11-16"
+   "ytm_try": "2026-11-17T03",
+   "sp_try": "2026-11-17"
   },
   {
    "type": "music",
@@ -1063,7 +1063,7 @@
     }
    ],
    "ytm_try": "2026-10-17T19",
-   "sp_try": "2026-11-16"
+   "sp_try": "2026-11-17"
   },
   {
    "type": "music",
@@ -1312,7 +1312,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-16T21"
+   "ytm_try": "2026-11-17T03"
   },
   {
    "type": "music",
