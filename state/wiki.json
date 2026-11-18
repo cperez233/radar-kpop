@@ -1,0 +1,756 @@
+{
+ "coords": {
+  "Arnhem": [
+   51.9833,
+   5.9167
+  ],
+  "Baltimore": [
+   39.2894,
+   -76.6153
+  ],
+  "East Rutherford, New Jersey": [
+   40.8171,
+   -74.085
+  ],
+  "GelreDome": [
+   51.9628,
+   5.8928
+  ],
+  "Hard Rock Stadium": [
+   25.9581,
+   -80.2389
+  ],
+  "Inglewood, California": [
+   33.9575,
+   -118.3461
+  ],
+  "M&T Bank Stadium": [
+   39.2781,
+   -76.6228
+  ],
+  "MetLife Stadium": [
+   40.8136,
+   -74.0744
+  ],
+  "Miami Gardens, Florida": [
+   25.9419,
+   -80.2564
+  ],
+  "SoFi Stadium": [
+   33.953,
+   -118.339
+  ]
+ },
+ "discovered": {},
+ "drift": [],
+ "fails": 0,
+ "last_discovery": "2026-11-17T21:47:43Z",
+ "last_run": "2026-11-18T12:10:40Z",
+ "pages": {
+  "Arirang World Tour": {
+   "fetched": "2026-11-16T21:15:08Z",
+   "revid": 1386020155,
+   "rows": [
+    {
+     "cancelled": false,
+     "city": "Santiago",
+     "city_link": "Santiago",
+     "country": "Chile",
+     "date": "2026-10-17",
+     "venue": "Estadio Nacional Julio Martínez Prádanos",
+     "venue_link": "Estadio Nacional Julio Martínez Prádanos"
+    },
+    {
+     "cancelled": false,
+     "city": "La Plata",
+     "city_link": "La Plata",
+     "country": "Argentina",
+     "date": "2026-10-21",
+     "venue": "Estadio Único Diego Armando Maradona",
+     "venue_link": "Estadio Único Diego Armando Maradona"
+    },
+    {
+     "cancelled": false,
+     "city": "La Plata",
+     "city_link": "La Plata",
+     "country": "Argentina",
+     "date": "2026-10-23",
+     "venue": "Estadio Único Diego Armando Maradona",
+     "venue_link": "Estadio Único Diego Armando Maradona"
+    },
+    {
+     "cancelled": false,
+     "city": "La Plata",
+     "city_link": "La Plata",
+     "country": "Argentina",
+     "date": "2026-10-24",
+     "venue": "Estadio Único Diego Armando Maradona",
+     "venue_link": "Estadio Único Diego Armando Maradona"
+    },
+    {
+     "cancelled": false,
+     "city": "São Paulo",
+     "city_link": "São Paulo",
+     "country": "Brazil",
+     "date": "2026-10-28",
+     "venue": "Estádio MorumBIS",
+     "venue_link": "Estádio MorumBIS"
+    },
+    {
+     "cancelled": false,
+     "city": "São Paulo",
+     "city_link": "São Paulo",
+     "country": "Brazil",
+     "date": "2026-10-30",
+     "venue": "Estádio MorumBIS",
+     "venue_link": "Estádio MorumBIS"
+    },
+    {
+     "cancelled": false,
+     "city": "São Paulo",
+     "city_link": "São Paulo",
+     "country": "Brazil",
+     "date": "2026-10-31",
+     "venue": "Estádio MorumBIS",
+     "venue_link": "Estádio MorumBIS"
+    },
+    {
+     "cancelled": false,
+     "city": "Kaohsiung",
+     "city_link": "Kaohsiung",
+     "country": "Taiwan",
+     "date": "2026-11-19",
+     "venue": "Kaohsiung National Stadium",
+     "venue_link": "Kaohsiung National Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Kaohsiung",
+     "city_link": "Kaohsiung",
+     "country": "Taiwan",
+     "date": "2026-11-21",
+     "venue": "Kaohsiung National Stadium",
+     "venue_link": "Kaohsiung National Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Kaohsiung",
+     "city_link": "Kaohsiung",
+     "country": "Taiwan",
+     "date": "2026-11-22",
+     "venue": "Kaohsiung National Stadium",
+     "venue_link": "Kaohsiung National Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Bangkok",
+     "city_link": "Bangkok",
+     "country": "Thailand",
+     "date": "2026-12-03",
+     "venue": "Rajamangala National Stadium",
+     "venue_link": "Rajamangala National Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Bangkok",
+     "city_link": "Bangkok",
+     "country": "Thailand",
+     "date": "2026-12-05",
+     "venue": "Rajamangala National Stadium",
+     "venue_link": "Rajamangala National Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Bangkok",
+     "city_link": "Bangkok",
+     "country": "Thailand",
+     "date": "2026-12-06",
+     "venue": "Rajamangala National Stadium",
+     "venue_link": "Rajamangala National Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Kuala Lumpur",
+     "city_link": "Kuala Lumpur",
+     "country": "Malaysia",
+     "date": "2026-12-12",
+     "venue": "TM National Stadium",
+     "venue_link": "TM National Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Kuala Lumpur",
+     "city_link": "Kuala Lumpur",
+     "country": "Malaysia",
+     "date": "2026-12-13",
+     "venue": "TM National Stadium",
+     "venue_link": "TM National Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Singapore",
+     "city_link": null,
+     "country": "Singapore",
+     "date": "2026-12-17",
+     "venue": "Singapore National Stadium",
+     "venue_link": "Singapore National Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Singapore",
+     "city_link": null,
+     "country": "Singapore",
+     "date": "2026-12-19",
+     "venue": "Singapore National Stadium",
+     "venue_link": "Singapore National Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Singapore",
+     "city_link": null,
+     "country": "Singapore",
+     "date": "2026-12-20",
+     "venue": "Singapore National Stadium",
+     "venue_link": "Singapore National Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Singapore",
+     "city_link": null,
+     "country": "Singapore",
+     "date": "2026-12-22",
+     "venue": "Singapore National Stadium",
+     "venue_link": "Singapore National Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Jakarta",
+     "city_link": "Jakarta",
+     "country": "Indonesia",
+     "date": "2026-12-26",
+     "venue": "Gelora Bung Karno Stadium",
+     "venue_link": "Gelora Bung Karno Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Jakarta",
+     "city_link": "Jakarta",
+     "country": "Indonesia",
+     "date": "2026-12-27",
+     "venue": "Gelora Bung Karno Stadium",
+     "venue_link": "Gelora Bung Karno Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Jakarta",
+     "city_link": "Jakarta",
+     "country": "Indonesia",
+     "date": "2026-12-29",
+     "venue": "Gelora Bung Karno Stadium",
+     "venue_link": "Gelora Bung Karno Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Melbourne",
+     "city_link": "Melbourne",
+     "country": "Australia",
+     "date": "2027-02-10",
+     "venue": "Marvel Stadium",
+     "venue_link": "Marvel Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Melbourne",
+     "city_link": "Melbourne",
+     "country": "Australia",
+     "date": "2027-02-12",
+     "venue": "Marvel Stadium",
+     "venue_link": "Marvel Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Melbourne",
+     "city_link": "Melbourne",
+     "country": "Australia",
+     "date": "2027-02-13",
+     "venue": "Marvel Stadium",
+     "venue_link": "Marvel Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Sydney",
+     "city_link": "Sydney",
+     "country": "Australia",
+     "date": "2027-02-20",
+     "venue": "Accor Stadium",
+     "venue_link": "Accor Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Sydney",
+     "city_link": "Sydney",
+     "country": "Australia",
+     "date": "2027-02-21",
+     "venue": "Accor Stadium",
+     "venue_link": "Accor Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Hong Kong",
+     "city_link": "Hong Kong",
+     "country": "Hong Kong",
+     "date": "2027-03-04",
+     "venue": "Kai Tak Stadium",
+     "venue_link": "Kai Tak Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Hong Kong",
+     "city_link": "Hong Kong",
+     "country": "Hong Kong",
+     "date": "2027-03-06",
+     "venue": "Kai Tak Stadium",
+     "venue_link": "Kai Tak Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Hong Kong",
+     "city_link": "Hong Kong",
+     "country": "Hong Kong",
+     "date": "2027-03-07",
+     "venue": "Kai Tak Stadium",
+     "venue_link": "Kai Tak Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Bocaue",
+     "city_link": "Bocaue",
+     "country": "Philippines",
+     "date": "2027-03-13",
+     "venue": "Philippine Sports Stadium",
+     "venue_link": "Philippine Sports Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Bocaue",
+     "city_link": "Bocaue",
+     "country": "Philippines",
+     "date": "2027-03-14",
+     "venue": "Philippine Sports Stadium",
+     "venue_link": "Philippine Sports Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Bocaue",
+     "city_link": "Bocaue",
+     "country": "Philippines",
+     "date": "2027-03-16",
+     "venue": "Philippine Sports Stadium",
+     "venue_link": "Philippine Sports Stadium"
+    }
+   ],
+   "title": "Arirang World Tour"
+  },
+  "Cortis": {
+   "fetched": "2026-11-17T13:08:56Z",
+   "revid": 1386234217,
+   "rows": [],
+   "title": "Cortis"
+  },
+  "Deadline World Tour": {
+   "fetched": "2026-11-04T21:00:25Z",
+   "revid": 1383775867,
+   "rows": [],
+   "title": "Deadline World Tour"
+  },
+  "List of NewJeans live performances": {
+   "fetched": "2026-11-04T21:00:25Z",
+   "revid": 1383768488,
+   "rows": [],
+   "title": "List of NewJeans live performances"
+  },
+  "Lngshot": {
+   "fetched": "2026-11-16T03:12:04Z",
+   "revid": 1385950713,
+   "rows": [],
+   "title": "Lngshot"
+  },
+  "New World Tour": {
+   "fetched": "2026-11-03T19:15:48Z",
+   "revid": 1371130072,
+   "rows": [],
+   "title": "New World Tour"
+  },
+  "Run It World Tour": {
+   "fetched": "2026-11-16T11:36:52Z",
+   "revid": 1385973406,
+   "rows": [
+    {
+     "cancelled": false,
+     "city": "Fukuoka",
+     "city_link": "Fukuoka",
+     "country": "Japan",
+     "date": "2026-10-24",
+     "venue": "Mizuho PayPay Dome Fukuoka",
+     "venue_link": "Mizuho PayPay Dome Fukuoka"
+    },
+    {
+     "cancelled": false,
+     "city": "Tokyo",
+     "city_link": null,
+     "country": "Japan",
+     "date": "2026-11-06",
+     "venue": "Tokyo Dome",
+     "venue_link": "Tokyo Dome"
+    },
+    {
+     "cancelled": false,
+     "city": "Tokyo",
+     "city_link": null,
+     "country": "Japan",
+     "date": "2026-11-07",
+     "venue": "Tokyo Dome",
+     "venue_link": "Tokyo Dome"
+    },
+    {
+     "cancelled": false,
+     "city": "Tokyo",
+     "city_link": null,
+     "country": "Japan",
+     "date": "2026-11-08",
+     "venue": "Tokyo Dome",
+     "venue_link": "Tokyo Dome"
+    },
+    {
+     "cancelled": false,
+     "city": "Hong Kong",
+     "city_link": "Hong Kong",
+     "country": "China",
+     "date": "2026-12-05",
+     "venue": "Kai Tak Stadium",
+     "venue_link": "Kai Tak Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Taipei",
+     "city_link": "Taipei",
+     "country": "Taiwan",
+     "date": "2026-12-12",
+     "venue": "Taipei Dome",
+     "venue_link": "Taipei Dome"
+    },
+    {
+     "cancelled": false,
+     "city": "Pak Kret",
+     "city_link": "Pak Kret",
+     "country": "Thailand",
+     "date": "2027-01-16",
+     "venue": "Impact Arena",
+     "venue_link": "Impact Arena"
+    },
+    {
+     "cancelled": false,
+     "city": "Pak Kret",
+     "city_link": "Pak Kret",
+     "country": "Thailand",
+     "date": "2027-01-17",
+     "venue": "Impact Arena",
+     "venue_link": "Impact Arena"
+    },
+    {
+     "cancelled": false,
+     "city": "Singapore",
+     "city_link": "Singapore",
+     "country": "Singapore",
+     "date": "2027-03-06",
+     "venue": "Singapore Indoor Stadium",
+     "venue_link": "Singapore Indoor Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Singapore",
+     "city_link": "Singapore",
+     "country": "Singapore",
+     "date": "2027-03-07",
+     "venue": "Singapore Indoor Stadium",
+     "venue_link": "Singapore Indoor Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Yokohama",
+     "city_link": "Yokohama",
+     "country": "Japan",
+     "date": "2027-04-24",
+     "venue": "Nissan Stadium",
+     "venue_link": "Nissan Stadium (Yokohama)"
+    },
+    {
+     "cancelled": false,
+     "city": "Yokohama",
+     "city_link": "Yokohama",
+     "country": "Japan",
+     "date": "2027-04-25",
+     "venue": "Nissan Stadium",
+     "venue_link": "Nissan Stadium (Yokohama)"
+    },
+    {
+     "cancelled": false,
+     "city": "Osaka",
+     "city_link": null,
+     "country": "Japan",
+     "date": "2027-05-04",
+     "venue": "Yanmar Stadium Nagai",
+     "venue_link": "Yanmar Stadium Nagai"
+    },
+    {
+     "cancelled": false,
+     "city": "Osaka",
+     "city_link": null,
+     "country": "Japan",
+     "date": "2027-05-05",
+     "venue": "Yanmar Stadium Nagai",
+     "venue_link": "Yanmar Stadium Nagai"
+    },
+    {
+     "cancelled": false,
+     "city": "Seattle",
+     "city_link": "Seattle",
+     "country": "United States",
+     "date": "2027-05-16",
+     "venue": "Lumen Field",
+     "venue_link": "Lumen Field"
+    },
+    {
+     "cancelled": false,
+     "city": "Vancouver",
+     "city_link": "Vancouver",
+     "country": "Canada",
+     "date": "2027-05-19",
+     "venue": "BC Place",
+     "venue_link": "BC Place"
+    },
+    {
+     "cancelled": false,
+     "city": "Santa Clara",
+     "city_link": "Santa Clara, California",
+     "country": "United States",
+     "date": "2027-05-22",
+     "venue": "Levi's Stadium",
+     "venue_link": "Levi's Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "San Diego",
+     "city_link": "San Diego",
+     "country": "United States",
+     "date": "2027-05-25",
+     "venue": "Petco Park",
+     "venue_link": "Petco Park"
+    },
+    {
+     "cancelled": false,
+     "city": "Inglewood",
+     "city_link": "Inglewood, California",
+     "country": "United States",
+     "date": "2027-05-29",
+     "venue": "SoFi Stadium",
+     "venue_link": "SoFi Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Arlington",
+     "city_link": "Arlington, Texas",
+     "country": "United States",
+     "date": "2027-06-03",
+     "venue": "AT&T Stadium",
+     "venue_link": "AT&T Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Houston",
+     "city_link": "Houston",
+     "country": "United States",
+     "date": "2027-06-05",
+     "venue": "Reliant Stadium",
+     "venue_link": "Reliant Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Atlanta",
+     "city_link": "Atlanta",
+     "country": "United States",
+     "date": "2027-06-08",
+     "venue": "Mercedes-Benz Stadium",
+     "venue_link": "Mercedes-Benz Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Miami Gardens",
+     "city_link": "Miami Gardens, Florida",
+     "country": "United States",
+     "date": "2027-06-11",
+     "venue": "Hard Rock Stadium",
+     "venue_link": "Hard Rock Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Orlando",
+     "city_link": "Orlando, Florida",
+     "country": "United States",
+     "date": "2027-06-14",
+     "venue": "Camping World Stadium",
+     "venue_link": "Camping World Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Chicago",
+     "city_link": "Chicago",
+     "country": "United States",
+     "date": "2027-06-18",
+     "venue": "Soldier Field",
+     "venue_link": "Soldier Field"
+    },
+    {
+     "cancelled": false,
+     "city": "Baltimore",
+     "city_link": "Baltimore",
+     "country": "United States",
+     "date": "2027-06-22",
+     "venue": "M&T Bank Stadium",
+     "venue_link": "M&T Bank Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Toronto",
+     "city_link": "Toronto",
+     "country": "Canada",
+     "date": "2027-06-25",
+     "venue": "Rogers Stadium",
+     "venue_link": "Rogers Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "East Rutherford",
+     "city_link": "East Rutherford, New Jersey",
+     "country": "United States",
+     "date": "2027-06-29",
+     "venue": "MetLife Stadium",
+     "venue_link": "MetLife Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Paris",
+     "city_link": "Paris",
+     "country": "France",
+     "date": "2027-07-09",
+     "venue": "Plenitude Arena",
+     "venue_link": "Plenitude Arena"
+    },
+    {
+     "cancelled": false,
+     "city": "London",
+     "city_link": "London",
+     "country": "England",
+     "date": "2027-07-13",
+     "venue": "Tottenham Hotspur Stadium",
+     "venue_link": "Tottenham Hotspur Stadium"
+    },
+    {
+     "cancelled": false,
+     "city": "Munich",
+     "city_link": "Munich",
+     "country": "Germany",
+     "date": "2027-07-17",
+     "venue": "Allianz Arena",
+     "venue_link": "Allianz Arena"
+    },
+    {
+     "cancelled": false,
+     "city": "Vienna",
+     "city_link": "Vienna",
+     "country": "Austria",
+     "date": "2027-07-21",
+     "venue": "Ernst-Happel-Stadion",
+     "venue_link": "Ernst-Happel-Stadion"
+    },
+    {
+     "cancelled": false,
+     "city": "Barcelona",
+     "city_link": "Barcelona",
+     "country": "Spain",
+     "date": "2027-07-24",
+     "venue": "Estadi Olímpic Lluís Companys",
+     "venue_link": "Estadi Olímpic Lluís Companys"
+    },
+    {
+     "cancelled": false,
+     "city": "Arnhem",
+     "city_link": "Arnhem",
+     "country": "Netherlands",
+     "date": "2027-07-27",
+     "venue": "GelreDome",
+     "venue_link": "GelreDome"
+    },
+    {
+     "cancelled": false,
+     "city": "Milan",
+     "city_link": "Milan",
+     "country": "Italy",
+     "date": "2027-07-31",
+     "venue": "San Siro",
+     "venue_link": "San Siro"
+    }
+   ],
+   "title": "Run It World Tour"
+  }
+ },
+ "pending": {
+  "bts": [
+   "Map of the Soul Tour"
+  ],
+  "seventeen": [
+   "Ode to You World Tour",
+   "Haru Japan Tour",
+   "Ideal Cut Tour"
+  ],
+  "skz": [
+   "5-Star Dome Tour",
+   "Maniac World Tour"
+  ],
+  "twice": [
+   "Ready to Be World Tour",
+   "Twice 4th World Tour III",
+   "Twicelights World Tour"
+  ]
+ },
+ "rejected": {
+  "2017 BTS Live Trilogy Episode III: The Wings Tour": "2026-11-10T19:30:23Z",
+  "5-Star Dome Tour": "2026-11-03T19:15:48Z",
+  "BTS World Tour: Love Yourself": "2026-11-10T21:45:19Z",
+  "Be The Sun World Tour": "2026-11-11T00:00:22Z",
+  "Blackpink Arena Tour 2018": "2026-11-18T03:29:46Z",
+  "Born Pink World Tour": "2026-11-18T12:10:40Z",
+  "Diamond Edge World Tour": "2026-11-10T21:45:19Z",
+  "Dominate World Tour": "2026-11-18T12:10:40Z",
+  "Follow Tour": "2026-11-11T00:00:22Z",
+  "Haru Japan Tour": "2026-11-03T19:15:48Z",
+  "Ideal Cut Tour": "2026-11-03T19:15:48Z",
+  "In Your Area World Tour": "2026-11-17T21:47:43Z",
+  "Love Yourself World Tour": "2026-11-10T19:30:23Z",
+  "Maniac World Tour": "2026-11-03T19:15:48Z",
+  "Map of the Soul Tour": "2026-11-03T19:15:48Z",
+  "Music Bank World Tour": "2026-11-18T12:10:40Z",
+  "New_ World Tour": "2026-11-10T19:30:23Z",
+  "Ode to You World Tour": "2026-11-03T19:15:48Z",
+  "Ready to Be World Tour": "2026-11-03T19:15:48Z",
+  "Right Here World Tour": "2026-11-10T21:45:19Z",
+  "SVT Japan Arena Tour": "2026-11-10T19:30:23Z",
+  "The Most Beautiful Moment in Life On Stage Tour": "2026-11-10T21:45:19Z",
+  "The Red Bullet Tour": "2026-11-18T12:10:40Z",
+  "The Wings Tour": "2026-11-18T03:29:46Z",
+  "This Is For World Tour": "2026-11-17T21:47:43Z",
+  "Twice 4th World Tour III": "2026-11-03T19:15:48Z",
+  "Twicelights World Tour": "2026-11-03T19:15:48Z",
+  "Warning Tour": "2026-11-18T03:29:46Z"
+ }
+}

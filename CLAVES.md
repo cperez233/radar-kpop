@@ -17,6 +17,31 @@ con "✅ ... volvió a funcionar" cuando se arregla. No tienes que revisar nada 
 (sí/no, nunca el valor) y qué tan frescos están las fechas, los videos, los números de Spotify, los avistamientos y las alertas.
 Si un servicio se cae, ese paso sale con advertencia y el resto sigue igual.
 
+## Cron externo (lo que mantiene el robot cada 15 minutos)
+
+El `schedule` de GitHub pide cada 15 minutos, pero GitHub lo retrasa tanto que en la práctica corre una vez cada 6 a 9
+horas. Lo que de verdad lo hace correr cada 15 minutos es un cron externo (cron-job.org o similar) que llama a la API de
+GitHub. Esa configuración no está en el repo, vive en tu cuenta del servicio. Si el robot vuelve a correr solo cada varias
+horas (en **Actions** ya no aparecen corridas `workflow_dispatch` cada 15 minutos), es que ese cron se apagó. Casi siempre
+es porque venció el token y el servicio lo desactiva tras varios fallos seguidos. Pasó el 16 de noviembre de 2026.
+
+Cómo se arma (o se repara):
+
+1. Token: en GitHub, foto de perfil, **Settings**, **Developer settings**, **Personal access tokens**, **Fine-grained tokens**,
+   **Generate new token**. Nombre `radar-kpop cron`, **Expiration** la más larga que te deje (anota la fecha en tu calendario),
+   **Repository access**: *Only select repositories*, `radar-kpop`. **Permissions**, **Repository permissions**, **Actions**:
+   *Read and write*. **Generate token** y cópialo (solo se ve una vez).
+2. En cron-job.org, crea o edita el job:
+   - **URL**: `https://api.github.com/repos/cperez233/radar-kpop/actions/workflows/update-radar.yml/dispatches`
+   - **Schedule**: cada 15 minutos.
+   - **Advanced**, **Request method**: `POST`.
+   - **Headers**: `Authorization: Bearer <el token>`, `Accept: application/vnd.github+json`, `X-GitHub-Api-Version: 2022-11-28`
+     y `User-Agent: radar-kpop-cron`.
+   - **Request body**: `{"ref":"main"}`
+   - GitHub responde `204 No Content` cuando sale bien; márcalo como éxito si el servicio lo pide.
+3. **Test run** en cron-job.org: a los pocos segundos aparece una corrida nueva en **Actions**. Luego activa el job.
+4. Activa en cron-job.org el aviso por correo cuando falle, para enterarte antes de que lo apague.
+
 ## Estado (16 de octubre de 2026)
 
 | Secreto | Qué hace | Costo | Estado |
@@ -25,7 +50,7 @@ Si un servicio se cae, ese paso sale con advertencia y el resto sigue igual.
 | `YT_API_KEY` | Videos nuevos de YouTube y suscriptores | Gratis | Funciona: 27 videos en el primer run |
 | `SPOTIFY_CLIENT_ID` + `SPOTIFY_CLIENT_SECRET` | Enlace directo de cada lanzamiento en Spotify (sin esto, "Listen" abre la búsqueda) | Gratis | Por crear (5 minutos, abajo) |
 | `RSSHUB_URL` | Posts de las cuentas oficiales en X: avistamientos, anuncios oficiales y llegadas | Gratis (tu RSSHub en Vercel) | Guardado y probado: responden las 9 cuentas |
-| `DISCORD_WEBHOOK_URL` | Alertas en tu canal de Discord | Gratis | Funciona: el primer run mandó 26 alertas |
+| `DISCORD_WEBHOOK_URL` | Alertas en tu canal de Discord | Gratis | Roto desde el 17 de octubre (404: el webhook se borró). Crea otro o borra el secreto |
 | `NTFY_TOPIC` | Todas las alertas a tu celular (tu tema privado en ntfy) | Gratis | Funciona: llegó la prueba |
 | (sin clave) | Alertas para los fans en temas públicos de ntfy por grupo y tipo (`ntfyTopicPrefix` en `config.js`) | Gratis | Activo desde la 4.8 |
 | `DISCORD_FORUM_WEBHOOK_URL` | Foro de Discord para los fans: una publicación por grupo, cada quien sigue las suyas | Gratis | Funciona: ya creó las publicaciones de BTS, Stray Kids, TWICE y LNGSHOT (las demás salen con su primera alerta) |

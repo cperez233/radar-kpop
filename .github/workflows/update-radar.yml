@@ -1,6 +1,7 @@
 name: Actualizar radar y mandar alertas
 
-# Corre solo cada 15 minutos (GitHub puede retrasarlo) y también a mano desde Actions > Run workflow.
+# Corre con el cron de GitHub (pide cada 15 minutos, pero en la práctica GitHub lo deja en una corrida cada varias horas), con un
+# cron externo (por ejemplo cron-job.org) que lo dispara cada 15 minutos por la API (ver CLAVES.md, "Cron externo") y a mano desde Actions > Run workflow.
 # Cada paso de datos falla suave (continue-on-error): si un servicio se cae, los demás siguen, los datos se
 # guardan igual en la rama data y el resumen del run dice qué funcionó. Las claves están en Settings > Secrets (ver CLAVES.md).
 
@@ -158,14 +159,15 @@ jobs:
         run: python tools/health.py --notify
 
       # GitHub apaga las tareas programadas de un repo público tras 60 días sin actividad. Los commits del robot ya cuentan,
-      # pero por si un mes no hubiera cambios: una vez al día (la primera corrida después de las 00:00 UTC) se vuelve a habilitar.
+      # pero por si un mes no hubiera cambios, cada corrida programada lo vuelve a habilitar (la llamada no cambia nada si ya
+      # está habilitado). Antes solo lo hacía entre 00:00 y 00:15 UTC, y como GitHub retrasa el cron horas, casi nunca pasaba.
       - name: Mantener vivo el robot
         if: ${{ github.event_name == 'schedule' }}
         continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if [ "$(date -u +%H%M)" -lt 0015 ]; then gh api -X PUT "repos/${{ github.repository }}/actions/workflows/update-radar.yml/enable" && echo "keepalive ok"; fi
+          gh api -X PUT "repos/${{ github.repository }}/actions/workflows/update-radar.yml/enable" && echo "keepalive ok"
 
       # Solo a la rama data: main (y por tanto Vercel) no se toca. index.html ya no se reconstruye aquí; la copia de datos que
       # trae el sitio se refresca cuando se sube código (ver README.es.md, "Datos en vivo").

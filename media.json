@@ -1,7 +1,55 @@
 {
- "updated_at": "2026-11-03T19:00:41Z",
+ "updated_at": "2026-11-18T12:11:04Z",
  "sample": false,
  "items": [
+  {
+   "type": "music",
+   "group": "skz",
+   "title": "SUIATSU",
+   "kind": "Album",
+   "date": "2026-11-25",
+   "url": "https://music.apple.com/us/album/suiatsu/6829772542",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/ea/13/e9ea1310-a7c2-cc23-aa8a-7a9bfce24ee0/4547366864731.jpg/300x300bb.jpg",
+   "ytm_v": 6,
+   "spotify": "https://open.spotify.com/album/6Sbe6k0GV26EDheUyoVGZ3",
+   "tracks": [
+    {
+     "n": "SUIATSU",
+     "ms": 169360,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/85/f1/3b85f15c-921e-2cea-b250-01bf126a2e0e/mzaf_3951745618208177317.plus.aac.p.m4a"
+    },
+    {
+     "n": "TEMPLE",
+     "ms": 186000,
+     "p": ""
+    },
+    {
+     "n": "Lonely Night",
+     "ms": 192000,
+     "p": ""
+    },
+    {
+     "n": "LAST TAKE",
+     "ms": 186507,
+     "p": ""
+    },
+    {
+     "n": "Christmas Love (Party Version)",
+     "ms": 181000,
+     "p": ""
+    },
+    {
+     "n": "SUIATSU (Deep Version)",
+     "ms": 182493,
+     "p": ""
+    },
+    {
+     "n": "SUIATSU (Boost Version)",
+     "ms": 159013,
+     "p": ""
+    }
+   ]
+  },
   {
    "type": "music",
    "group": "enhypen",
@@ -28,7 +76,254 @@
      "p": ""
     }
    ],
-   "sp_try": "2026-11-03"
+   "sp_try": "2026-11-18"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.06 MEXICO CITY",
+   "date": "2026-11-18",
+   "published": "2026-11-18T11:00:01Z",
+   "url": "https://www.youtube.com/watch?v=MJ1Vq5prNLo",
+   "image": "https://i.ytimg.com/vi/MJ1Vq5prNLo/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "수능 대박 부적이 도착했습니다!💌 스트레이 키즈가 수험생 여러분을 응원합니다🍀 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay",
+   "date": "2026-11-18",
+   "published": "2026-11-18T09:30:04Z",
+   "url": "https://www.youtube.com/watch?v=YfbYkfPT5l0",
+   "image": "https://i.ytimg.com/vi/YfbYkfPT5l0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "롱샷 준비. 롱샷 출격. #LNGSHOT",
+   "date": "2026-11-18",
+   "published": "2026-11-18T11:00:30Z",
+   "url": "https://www.youtube.com/watch?v=sCgofMzAZT4",
+   "image": "https://i.ytimg.com/vi/sCgofMzAZT4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "Go #Bananas w/#TREASURE #HARUTO @TREASURE 🍌 #LNGSHOT #SWISH",
+   "date": "2026-11-18",
+   "published": "2026-11-18T09:00:22Z",
+   "url": "https://www.youtube.com/watch?v=m22una76k64",
+   "image": "https://i.ytimg.com/vi/m22una76k64/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "서열 정리 완료🐘👑 #LNGSHOT #Bananas #SWISH",
+   "date": "2026-11-18",
+   "published": "2026-11-18T06:00:16Z",
+   "url": "https://www.youtube.com/watch?v=Kkh1bwwOm3c",
+   "image": "https://i.ytimg.com/vi/Kkh1bwwOm3c/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "[GOING SEVENTEEN] EP.167 도둑 #2 (THIEF #2)",
+   "date": "2026-11-18",
+   "published": "2026-11-18T11:58:09Z",
+   "url": "https://www.youtube.com/watch?v=FZyqm4uJa0c",
+   "image": "https://i.ytimg.com/vi/FZyqm4uJa0c/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "[DK TIME] 오늘도겸 #2 | LA에서 잘 먹고 잘 놀기 🎡🎶",
+   "date": "2026-11-18",
+   "published": "2026-11-18T09:00:01Z",
+   "url": "https://www.youtube.com/watch?v=ljD_HBhKXtU",
+   "image": "https://i.ytimg.com/vi/ljD_HBhKXtU/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "SEVENTEEN 2027 SEASON'S GREETINGS Mood Film #DINO 🌱☀️",
+   "date": "2026-11-18",
+   "published": "2026-11-18T08:00:42Z",
+   "url": "https://www.youtube.com/watch?v=ez9SDexgZ9c",
+   "image": "https://i.ytimg.com/vi/ez9SDexgZ9c/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "계속 마주치는 사람 😵‍💫 #SUNGHOON #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN",
+   "date": "2026-11-18",
+   "published": "2026-11-18T12:06:27Z",
+   "url": "https://www.youtube.com/watch?v=Mi4BlvRmi98",
+   "image": "https://i.ytimg.com/vi/Mi4BlvRmi98/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "#JAY 홀로 집에 🏠 #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN",
+   "date": "2026-11-18",
+   "published": "2026-11-18T11:23:29Z",
+   "url": "https://www.youtube.com/watch?v=bwsoouDpTQo",
+   "image": "https://i.ytimg.com/vi/bwsoouDpTQo/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "You~💖 You~💖 You~💖 You~💖 You~💖 You~💖 You~💖 #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN",
+   "date": "2026-11-18",
+   "published": "2026-11-18T08:24:02Z",
+   "url": "https://www.youtube.com/watch?v=w1dKi2mO0VA",
+   "image": "https://i.ytimg.com/vi/w1dKi2mO0VA/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "a day in singapore",
+   "date": "2026-11-18",
+   "published": "2026-11-18T11:59:58Z",
+   "url": "https://www.youtube.com/watch?v=m1y847vZ-3I",
+   "image": "https://i.ytimg.com/vi/m1y847vZ-3I/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "try this MMM move #CORTIS #코르티스 #CORTIS_MONEYMONEYMONEY",
+   "date": "2026-11-18",
+   "published": "2026-11-18T04:00:26Z",
+   "url": "https://www.youtube.com/watch?v=p3tIc9iKduo",
+   "image": "https://i.ytimg.com/vi/p3tIc9iKduo/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "Yeah we go 🆙 w/ 강현 님 #Shorts",
+   "date": "2026-11-18",
+   "published": "2026-11-18T12:00:31Z",
+   "url": "https://www.youtube.com/watch?v=TGKsPOlmBcs",
+   "image": "https://i.ytimg.com/vi/TGKsPOlmBcs/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "Yeah we go 🆙 w/ 휘서 님 #Shorts",
+   "date": "2026-11-18",
+   "published": "2026-11-18T11:00:27Z",
+   "url": "https://www.youtube.com/watch?v=YJi4Vai7IWA",
+   "image": "https://i.ytimg.com/vi/YJi4Vai7IWA/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) - 2027 수능 응원 영상",
+   "date": "2026-11-18",
+   "published": "2026-11-18T08:00:02Z",
+   "url": "https://www.youtube.com/watch?v=T6DDR52bPrc",
+   "image": "https://i.ytimg.com/vi/T6DDR52bPrc/hqdefault.jpg"
+  },
+  {
+   "type": "music",
+   "group": "ateez",
+   "title": "UP (SEONGHWA&SAN Ver.)",
+   "kind": "Album",
+   "date": "2026-11-17",
+   "url": "https://music.apple.com/us/album/up-seonghwa-san-ver-single/6831446258",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/66/f3/1366f3ac-3703-d947-9002-a1f108d3a8b1/196874950760.jpg/300x300bb.jpg",
+   "ytm_v": 6,
+   "tracks": [
+    {
+     "n": "UP (SEONGHWA&SAN Ver.)",
+     "ms": 206320,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/c9/79/6ac97982-749a-b44d-dbd4-25a4bad8d1a1/mzaf_130015778819592854.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": "2026-11-18T12",
+   "sp_try": "2026-11-18"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "You cannot return #StrayKids #스트레이키즈 #아이엔 #I_N #SKZ_PLAYER #슼즈플레이어 #YouMakeStrayKidsStay",
+   "date": "2026-11-17",
+   "published": "2026-11-17T09:31:11Z",
+   "url": "https://www.youtube.com/watch?v=bpTbA5-A3a8",
+   "image": "https://i.ytimg.com/vi/bpTbA5-A3a8/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "Your BABY ANGEL🪽#TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-17",
+   "published": "2026-11-17T14:00:06Z",
+   "url": "https://www.youtube.com/watch?v=y5e15Gjb6eY",
+   "image": "https://i.ytimg.com/vi/y5e15Gjb6eY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "mole check #CORTIS #코르티스",
+   "date": "2026-11-17",
+   "published": "2026-11-17T04:00:31Z",
+   "url": "https://www.youtube.com/watch?v=unxv2OtqLLM",
+   "image": "https://i.ytimg.com/vi/unxv2OtqLLM/hqdefault.jpg"
+  },
+  {
+   "type": "music",
+   "group": "ateez",
+   "title": "GOLDEN HOUR : Part.6",
+   "kind": "Album",
+   "date": "2026-11-13",
+   "url": "https://music.apple.com/us/album/golden-hour-part-6-ep/6819932396",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/4c/8e/1d4c8e84-ac53-90ed-1dbe-615fdef5b8f1/196874852668.jpg/300x300bb.jpg",
+   "ytm_v": 6,
+   "spotify": "https://open.spotify.com/album/5UKj0Dge5ik5jw3JVjoxof",
+   "tracks": [
+    {
+     "n": "ANEMIA",
+     "ms": 176308,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fa/80/ff/fa80ff4a-da92-c506-b3c4-79c57ee4fd39/mzaf_9671784306708532549.plus.aac.p.m4a"
+    },
+    {
+     "n": "Drip",
+     "ms": 181791,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/ed/7c/3ced7c5b-e640-5036-6aa9-32a6c91215e7/mzaf_3998516705617440073.plus.aac.p.m4a"
+    },
+    {
+     "n": "UP",
+     "ms": 206320,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/e8/d8/10e8d881-1b0b-e096-8d05-8796a3382164/mzaf_14090660317812497319.plus.aac.p.m4a"
+    },
+    {
+     "n": "FAITH",
+     "ms": 208614,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/df/cb/0adfcbea-1d22-8578-f3b4-e799d15b90b0/mzaf_5625868099998870025.plus.aac.p.m4a"
+    },
+    {
+     "n": "Hollow Victory",
+     "ms": 195028,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": "2026-11-18T12"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "WHERE IS NY? #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-12",
+   "published": "2026-11-12T06:30:20Z",
+   "url": "https://www.youtube.com/watch?v=l0IOElkRH6I",
+   "image": "https://i.ytimg.com/vi/l0IOElkRH6I/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "OH NO! Where did she go? #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-12",
+   "published": "2026-11-12T06:00:09Z",
+   "url": "https://www.youtube.com/watch?v=9kmlL58l4QM",
+   "image": "https://i.ytimg.com/vi/9kmlL58l4QM/hqdefault.jpg"
   },
   {
    "type": "music",
@@ -39,6 +334,7 @@
    "url": "https://music.apple.com/us/album/s-w-i-s-h-ep/6821155823",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/db/96/f4db96a4-7283-d95b-18dd-56dccc927855/8804775413131.jpg/300x300bb.jpg",
    "ytm_v": 6,
+   "spotify": "https://open.spotify.com/album/5eKFOQWdmVyj2z4KsKKGnK",
    "tracks": [
     {
      "n": "Track 1",
@@ -66,178 +362,34 @@
      "p": ""
     }
    ],
-   "sp_try": "2026-11-03"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "트둥의 숲 TDOONG's crossing EP.03 Highlight #2 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
-   "date": "2026-11-03",
-   "published": "2026-11-03T09:31:38Z",
-   "url": "https://www.youtube.com/watch?v=zMPXdQkzEcY",
-   "image": "https://i.ytimg.com/vi/zMPXdQkzEcY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "트둥의 숲 TDOONG's crossing EP.03 Highlight #1 #TWICE #트와이스#TWICEREALITY #TIMETOTWICE #TTT",
-   "date": "2026-11-03",
-   "published": "2026-11-03T09:30:00Z",
-   "url": "https://www.youtube.com/watch?v=kss7EqN58Dg",
-   "image": "https://i.ytimg.com/vi/kss7EqN58Dg/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "[TIME TO TWICE] 트둥의 숲 TDOONG's Crossing EP.03",
-   "date": "2026-11-03",
-   "published": "2026-11-03T09:00:07Z",
-   "url": "https://www.youtube.com/watch?v=7R2QUwCk-Js",
-   "image": "https://i.ytimg.com/vi/7R2QUwCk-Js/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "도겸과 정한 〈정답 없는 여행〉 Message for CARAT💌",
-   "date": "2026-11-03",
-   "published": "2026-11-03T01:59:59Z",
-   "url": "https://www.youtube.com/watch?v=RSCFHi4UJj0",
-   "image": "https://i.ytimg.com/vi/RSCFHi4UJj0/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "PYPD NA tour 2",
-   "date": "2026-11-03",
-   "published": "2026-11-03T11:59:58Z",
-   "url": "https://www.youtube.com/watch?v=ODo-pDMzm1Q",
-   "image": "https://i.ytimg.com/vi/ODo-pDMzm1Q/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "for what it is #CORTIS #코르티스",
-   "date": "2026-11-03",
-   "published": "2026-11-03T04:00:33Z",
-   "url": "https://www.youtube.com/watch?v=E29S1T2ev5o",
-   "image": "https://i.ytimg.com/vi/E29S1T2ev5o/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "리즈 님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-03",
-   "published": "2026-11-03T12:00:38Z",
-   "url": "https://www.youtube.com/watch?v=AkwiVZ5cZNY",
-   "image": "https://i.ytimg.com/vi/AkwiVZ5cZNY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "ARNO, XINLONG 님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-03",
-   "published": "2026-11-03T11:00:31Z",
-   "url": "https://www.youtube.com/watch?v=tcCCE65-5XU",
-   "image": "https://i.ytimg.com/vi/tcCCE65-5XU/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "이오, 코타로 님과 해, 쩌는 짓 😎 #Shorts",
-   "date": "2026-11-03",
-   "published": "2026-11-03T10:00:31Z",
-   "url": "https://www.youtube.com/watch?v=LqdkGvhJLwE",
-   "image": "https://i.ytimg.com/vi/LqdkGvhJLwE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "best friend forever :) #JxJ #정한X조슈아 #DREAMSCAPE #Likeyou",
-   "date": "2026-11-02",
-   "published": "2026-11-02T12:00:37Z",
-   "url": "https://www.youtube.com/watch?v=zMhyVV314-Q",
-   "image": "https://i.ytimg.com/vi/zMhyVV314-Q/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "도겸과 정한  〈정답 없는 여행〉 Mood Teaser",
-   "date": "2026-11-02",
-   "published": "2026-11-02T09:00:01Z",
-   "url": "https://www.youtube.com/watch?v=j3ZOrctKziE",
-   "image": "https://i.ytimg.com/vi/j3ZOrctKziE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "사랑이라는 이유로 아파할 수 없어 난  | 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지 Cover by #승민 #한로로 #StrayKids #SONGby #송바이",
-   "date": "2026-11-01",
-   "published": "2026-11-01T05:00:05Z",
-   "url": "https://www.youtube.com/watch?v=CReJVnojbtQ",
-   "image": "https://i.ytimg.com/vi/CReJVnojbtQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "아무도 모를 추억 틈에 너와 나 | 시간을 달리네 Cover by #승민 #Seungmin #한로로 #HARORO #StrayKids #스트레이키즈 #SONGby #송바이",
-   "date": "2026-11-01",
-   "published": "2026-11-01T05:00:02Z",
-   "url": "https://www.youtube.com/watch?v=t0nH8YKg-Dw",
-   "image": "https://i.ytimg.com/vi/t0nH8YKg-Dw/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "Seungmin (with 한로로) - 시간을 달리네 (한로로 Cover) & 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지 (AKMU Cover) | [SONG by 2] S#2",
-   "date": "2026-10-31",
-   "published": "2026-10-31T13:00:05Z",
-   "url": "https://www.youtube.com/watch?v=dlhI9UxRjvA",
-   "image": "https://i.ytimg.com/vi/dlhI9UxRjvA/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "PYPD NA tour 1",
-   "date": "2026-10-31",
-   "published": "2026-10-31T11:59:57Z",
-   "url": "https://www.youtube.com/watch?v=oaoa1noQzBw",
-   "image": "https://i.ytimg.com/vi/oaoa1noQzBw/hqdefault.jpg"
+   "ytm_try": "2026-11-18T12"
   },
   {
    "type": "video",
    "group": "bts",
-   "title": "BTS 'iHeartRadio Music Festival 2026' Sketch",
-   "date": "2026-10-30",
-   "published": "2026-10-30T09:59:59Z",
-   "url": "https://www.youtube.com/watch?v=Z4hrFgiZHVo",
-   "image": "https://i.ytimg.com/vi/Z4hrFgiZHVo/hqdefault.jpg"
+   "title": "[PREVIEW] BTS WORLD TOUR ‘ARIRANG’ IN LONDON SPOT",
+   "date": "2026-11-07",
+   "published": "2026-11-07T12:59:59Z",
+   "url": "https://www.youtube.com/watch?v=cS6F7PMKCO4",
+   "image": "https://i.ytimg.com/vi/cS6F7PMKCO4/hqdefault.jpg"
   },
   {
    "type": "video",
-   "group": "enhypen",
-   "title": "짝수년도 차례입니다",
-   "date": "2026-10-30",
-   "published": "2026-10-30T12:00:52Z",
-   "url": "https://www.youtube.com/watch?v=l_DBejkRi3E",
-   "image": "https://i.ytimg.com/vi/l_DBejkRi3E/hqdefault.jpg"
+   "group": "bts",
+   "title": "BTS (방탄소년단) 'SWIM' Stage CAM @ iHeartRadio Music Festival 2026",
+   "date": "2026-11-06",
+   "published": "2026-11-06T10:00:00Z",
+   "url": "https://www.youtube.com/watch?v=D8MKy5Aax6U",
+   "image": "https://i.ytimg.com/vi/D8MKy5Aax6U/hqdefault.jpg"
   },
   {
    "type": "video",
-   "group": "enhypen",
-   "title": "just 느껴져",
-   "date": "2026-10-30",
-   "published": "2026-10-30T12:00:18Z",
-   "url": "https://www.youtube.com/watch?v=JTsIwXebsYE",
-   "image": "https://i.ytimg.com/vi/JTsIwXebsYE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "pop pop #NI_KI #IROHA #ENHYPEN #ILLIT @ILLIT_official",
-   "date": "2026-10-29",
-   "published": "2026-10-29T14:38:25Z",
-   "url": "https://www.youtube.com/watch?v=jrdans_ucwE",
-   "image": "https://i.ytimg.com/vi/jrdans_ucwE/hqdefault.jpg"
+   "group": "bts",
+   "title": "BTS WORLD TOUR 'ARIRANG' LIVE VIEWING FROM KAOHSIUNG & JAKARTA - Official Trailer",
+   "date": "2026-11-05",
+   "published": "2026-11-05T13:00:01Z",
+   "url": "https://www.youtube.com/watch?v=xzTFYPnoum8",
+   "image": "https://i.ytimg.com/vi/xzTFYPnoum8/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -247,33 +399,6 @@
    "published": "2026-10-29T03:00:22Z",
    "url": "https://www.youtube.com/watch?v=NRbA6pSuZV0",
    "image": "https://i.ytimg.com/vi/NRbA6pSuZV0/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "LNGSHOT EP [S.W.I.S.H.] Highlight Medley",
-   "date": "2026-10-28",
-   "published": "2026-10-28T15:00:03Z",
-   "url": "https://www.youtube.com/watch?v=7eWA-YKZoL8",
-   "image": "https://i.ytimg.com/vi/7eWA-YKZoL8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "Wanna hear more from #SWISH? Stay up till midnight KST🤞 #LNGSHOT #Masterpiece",
-   "date": "2026-10-28",
-   "published": "2026-10-28T03:00:25Z",
-   "url": "https://www.youtube.com/watch?v=EFMIC-TG_5o",
-   "image": "https://i.ytimg.com/vi/EFMIC-TG_5o/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "𝑰'𝒍𝒍 𝒏𝒆𝒗𝒆𝒓 𝒍𝒆𝒕 𝒈𝒐 ₊˚.༄🌊₊˚.༄ #LNGSHOT #OHYUL #RYUL",
-   "date": "2026-10-27",
-   "published": "2026-10-27T15:00:14Z",
-   "url": "https://www.youtube.com/watch?v=dU-o_ALskWk",
-   "image": "https://i.ytimg.com/vi/dU-o_ALskWk/hqdefault.jpg"
   },
   {
    "type": "music",
@@ -401,24 +526,6 @@
    "ytm_try": "2026-10-17T19"
   },
   {
-   "type": "video",
-   "group": "bts",
-   "title": "3 DAYS IN LA l V’s VLOG",
-   "date": "2026-10-15",
-   "published": "2026-10-15T10:00:07Z",
-   "url": "https://www.youtube.com/watch?v=1qOJvWakMz0",
-   "image": "https://i.ytimg.com/vi/1qOJvWakMz0/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "bts",
-   "title": "BTS WORLD TOUR ‘ARIRANG’ IN BUENOS AIRES & SÃO PAULO: LIVE VIEWING - Special Trailer",
-   "date": "2026-10-14",
-   "published": "2026-10-14T13:00:06Z",
-   "url": "https://www.youtube.com/watch?v=EvKMPk3ArNQ",
-   "image": "https://i.ytimg.com/vi/EvKMPk3ArNQ/hqdefault.jpg"
-  },
-  {
    "type": "music",
    "group": "enhypen",
    "title": "Bloody Paradise x VELOCIDADE (PETERBLUE Remix)",
@@ -492,8 +599,8 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-03T19",
-   "sp_try": "2026-11-03"
+   "ytm_try": "2026-11-18T12",
+   "sp_try": "2026-11-18"
   },
   {
    "type": "music",
@@ -640,91 +747,6 @@
   },
   {
    "type": "music",
-   "group": "skz",
-   "title": "SKZ-REPLAY 2026 Pt.1",
-   "kind": "Album",
-   "date": "2026-07-31",
-   "url": "https://music.apple.com/us/album/skz-replay-2026-pt-1/6790903804",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/70/ea/2270ea94-60f0-94a6-bce2-99fafaa8a057/8809928957340_Cover.jpg/300x300bb.jpg",
-   "ytm_v": 6,
-   "spotify": "https://open.spotify.com/album/6xS6wVbYu6DtNh6J1KZ1Gp",
-   "ytm": "https://music.youtube.com/watch?v=3jqy81PCn5I",
-   "tracks": [
-    {
-     "n": "Battle Ground (Korean Version)",
-     "ms": 211000,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/6f/33/9f6f3361-3534-c755-45dc-903d25ff316b/mzaf_1731032329166234454.plus.aac.p.m4a"
-    },
-    {
-     "n": "Roman Empire",
-     "ms": 167000,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/69/97/9169973e-7701-0aff-60e6-cf8dcf19c467/mzaf_180656481726933540.plus.aac.p.m4a"
-    },
-    {
-     "n": "LOVER",
-     "ms": 183000,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/e4/20/d1e42065-bc11-7cc9-e241-0191674a8b7b/mzaf_10998409344296161675.plus.aac.p.m4a"
-    },
-    {
-     "n": "Raining stars",
-     "ms": 218000,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/9a/cf/fd9acf7d-28d1-c397-cb03-13eca69e4bc0/mzaf_1957281231149852243.plus.aac.p.m4a"
-    },
-    {
-     "n": "The Little Things",
-     "ms": 172000,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/44/f4/2244f426-f8b9-c01e-df19-88bb07812410/mzaf_6881537929703826834.plus.aac.p.m4a"
-    },
-    {
-     "n": "Goodbye",
-     "ms": 217000,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/a9/55/49a95582-06ac-75b2-96a3-1197a017ba2a/mzaf_1335340798956482882.plus.aac.p.m4a"
-    },
-    {
-     "n": "Still here",
-     "ms": 183000,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/5c/43/7a5c4381-d021-0155-b194-6d6fa6014d2c/mzaf_6638510757466803380.plus.aac.p.m4a"
-    },
-    {
-     "n": "Into The Current",
-     "ms": 268000,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/61/cf/4361cf2c-ff73-0a16-dc04-ba78c1ae8821/mzaf_8015541017660332433.plus.aac.p.m4a"
-    },
-    {
-     "n": "MIC&BRUSH",
-     "ms": 127000,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/cd/46/d5cd465c-85cf-9e49-682c-a0eb6cf4ce37/mzaf_14653547432876982546.plus.aac.p.m4a"
-    },
-    {
-     "n": "PERFUME",
-     "ms": 123400,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7e/8a/09/7e8a0917-536f-1d3c-0977-743a22aecae6/mzaf_4157426095753020346.plus.aac.p.m4a"
-    },
-    {
-     "n": "BABY",
-     "ms": 120000,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/48/b8/4248b8bb-c3ac-c75d-5a74-0ec5fcc7c834/mzaf_5732396609934755526.plus.aac.p.m4a"
-    },
-    {
-     "n": "Don’t Say",
-     "ms": 120000,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/98/66/10/9866105a-6768-6c46-b0cb-968d20061308/mzaf_1518125846953031582.plus.aac.p.m4a"
-    },
-    {
-     "n": "My Name",
-     "ms": 95000,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/95/6a/59956a71-f238-fac0-19ad-9941564c104c/mzaf_14745899098179121741.plus.aac.p.m4a"
-    },
-    {
-     "n": "REV IT UP",
-     "ms": 113000,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/cf/aa/fdcfaa60-ccb4-ea4c-20f1-7fd39e443148/mzaf_13212625031362410386.plus.aac.p.m4a"
-    }
-   ],
-   "ytm_try": "2026-10-17T19"
-  },
-  {
-   "type": "music",
    "group": "cortis",
    "title": "MOTION (feat. Juicy J)",
    "kind": "Album",
@@ -741,19 +763,6 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/e2/94/7de29481-b0d9-fdff-5c28-ce066bd12887/mzaf_10771929580663235334.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-10-17T19"
-  },
-  {
-   "type": "music",
-   "group": "ateez",
-   "title": "BAD (Japanese Ver.)",
-   "kind": "Album",
-   "date": "2026-07-29",
-   "url": "https://music.apple.com/us/album/bad-japanese-ver-ep/6788966715",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9c/ee/35/9cee35fd-5d10-67a8-3243-c3cbbf828601/26UMGIM71709.rgb.jpg/300x300bb.jpg",
-   "ytm_v": 6,
-   "spotify": "https://open.spotify.com/album/3FVjSZcB5DqJ2TC5VGPgEu",
-   "ytm": "https://music.youtube.com/watch?v=4-6LvN_D0y4",
    "ytm_try": "2026-10-17T19"
   },
   {
@@ -793,46 +802,6 @@
    "published": "2026-07-24T06:00:02Z",
    "url": "https://www.youtube.com/watch?v=fYzUmTJXBQo",
    "image": "https://i.ytimg.com/vi/fYzUmTJXBQo/hqdefault.jpg"
-  },
-  {
-   "type": "music",
-   "group": "ateez",
-   "title": "GOLDEN HOUR : Part.5",
-   "kind": "Album",
-   "date": "2026-06-26",
-   "url": "https://music.apple.com/us/album/golden-hour-part-5-ep/6770401924",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/5e/a0/155ea070-3f0d-84ae-7883-128ecd9ed5bf/196874257944.jpg/300x300bb.jpg",
-   "ytm_v": 6,
-   "spotify": "https://open.spotify.com/album/6Eg6B1mgGj2dGLBajzsVpV",
-   "ytm": "https://music.youtube.com/watch?v=2P3BK8bGxR4",
-   "tracks": [
-    {
-     "n": "BAD",
-     "ms": 156035,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/1e/3e/ed1e3e69-c85a-eeda-fb06-bc0146d71aad/mzaf_15637797788600386546.plus.aac.p.m4a"
-    },
-    {
-     "n": "MAMACITA",
-     "ms": 189254,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/02/0b/89020b2c-49b7-77c1-d12e-5f9a7b1f77d3/mzaf_613921255709576704.plus.aac.p.m4a"
-    },
-    {
-     "n": "TOXIN",
-     "ms": 168254,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/8b/30/b68b3067-07c4-510f-090c-04e11cf69383/mzaf_10897791506687347183.plus.aac.p.m4a"
-    },
-    {
-     "n": "Fallin'",
-     "ms": 198294,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/67/37/bc67379a-890a-59a9-8895-11df8fa2c44a/mzaf_17584743032321544733.plus.aac.p.m4a"
-    },
-    {
-     "n": "Body",
-     "ms": 177254,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/b5/2b/24b52b73-dbe4-fcac-df46-a5f3a1ed655c/mzaf_1726586804421670850.plus.aac.p.m4a"
-    }
-   ],
-   "ytm_try": "2026-10-17T19"
   },
   {
    "type": "music",
@@ -1084,7 +1053,7 @@
     }
    ],
    "ytm_try": "2026-10-17T19",
-   "sp_try": "2026-11-03"
+   "sp_try": "2026-11-18"
   },
   {
    "type": "music",
@@ -1333,7 +1302,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-03T19"
+   "ytm_try": "2026-11-18T12"
   },
   {
    "type": "music",

@@ -1,5 +1,25 @@
 [
  {
+  "version": "4.20",
+  "date": "2026-11-18",
+  "title_es": "Fechas de Asia desde Wikipedia y un globo más ordenado",
+  "title_en": "Asia dates from Wikipedia and a tidier globe",
+  "es": [
+   "Las fechas de Asia y otras que Ticketmaster no trae ahora llegan solas desde las tablas de giras de Wikipedia, marcadas \"por confirmar\" y con enlace \"Ver en Wikipedia\". Las giras nuevas aparecen en horas.",
+   "En el globo, cuando muchos grupos están en la misma zona cada uno se ve como un sticker compacto; la multitud completa sale al elegirlo.",
+   "Las fechas y alertas se actualizan sin esperar a que la página se vuelva a publicar.",
+   "El feed de alertas de la web ya no se congela si falla Discord.",
+   "La política de privacidad avisa de los reproductores incrustados y explica tus derechos."
+  ],
+  "en": [
+   "Asia dates and others Ticketmaster doesn't list now come in on their own from Wikipedia's tour tables, marked \"to be confirmed\" with a \"See on Wikipedia\" link. New tours show up within hours.",
+   "On the globe, when many groups are in the same area each one shows as a compact sticker; the full crowd appears when you pick it.",
+   "Dates and alerts update without waiting for the site to be republished.",
+   "The alerts feed on the site no longer freezes when Discord fails.",
+   "The privacy policy now mentions embedded players and explains your rights."
+  ]
+ },
+ {
   "version": "4.19",
   "date": "2026-10-17",
   "title_es": "Avistamientos de fans, con cuidado",
