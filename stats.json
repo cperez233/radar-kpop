@@ -1,31 +1,31 @@
 {
-  "updated_at": "2026-11-17T13:10:05Z",
+  "updated_at": "2026-11-18T03:30:51Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
-      "listeners": 29048435,
+      "listeners": 29022965,
       "listeners_peak": 46724346,
-      "streams": 51370425559,
+      "streams": 51395528292,
       "top_song": {
         "title": "Dynamite",
-        "streams": 2384545130,
+        "streams": 2385049384,
         "url": "https://open.spotify.com/track/5QDLhrAOJJdNAmCTJ8xMyW"
       },
       "yt_subs": 86500000
     },
     "skz": {
-      "listeners": 9770722,
+      "listeners": 9780145,
       "listeners_peak": 14253317,
-      "streams": 15895357306,
+      "streams": 15904084895,
       "top_song": {
         "title": "God’s Menu",
-        "streams": 558969854,
+        "streams": 559166968,
         "url": "https://open.spotify.com/track/4XPXrcpyNr30Km6aPiflJy"
       },
       "yt_subs": 25700000
     },
     "twice": {
-      "listeners": 14168706,
+      "listeners": 14145147,
       "listeners_peak": 27003979,
       "streams": 13078048605,
       "top_song": {
@@ -36,7 +36,7 @@
       "yt_subs": 19500000
     },
     "blackpink": {
-      "listeners": 17864900,
+      "listeners": 17869099,
       "listeners_peak": 35310315,
       "streams": 16811824840,
       "top_song": {
@@ -53,9 +53,9 @@
         "streams": 122746196,
         "url": "https://open.spotify.com/track/46V2ciN6F5bxjQWityNhkY"
       },
-      "listeners": 4499007,
+      "listeners": 4551158,
       "listeners_peak": 6085028,
-      "yt_subs": 2190000
+      "yt_subs": 2200000
     },
     "seventeen": {
       "streams": 8464888708,
@@ -64,12 +64,12 @@
         "streams": 330353078,
         "url": "https://open.spotify.com/track/3ZpfXyQgcqdSA1TGNc7Ret"
       },
-      "listeners": 4382519,
+      "listeners": 4373988,
       "listeners_peak": 9240435,
       "yt_subs": 18200000
     },
     "enhypen": {
-      "listeners": 9553246,
+      "listeners": 9548525,
       "listeners_peak": 11080262,
       "streams": 8113220327,
       "top_song": {
@@ -80,7 +80,7 @@
       "yt_subs": 14800000
     },
     "newjeans": {
-      "listeners": 13527716,
+      "listeners": 13494201,
       "listeners_peak": 26786050,
       "streams": 8017719482,
       "top_song": {
@@ -91,7 +91,7 @@
       "yt_subs": 8720000
     },
     "cortis": {
-      "listeners": 10572913,
+      "listeners": 10566973,
       "listeners_peak": 12947465,
       "streams": 1518499442,
       "top_song": {
@@ -99,7 +99,7 @@
         "streams": 280977039,
         "url": "https://open.spotify.com/track/34YVCoqIm08nbsxFSPL0Uh"
       },
-      "yt_subs": 7820000
+      "yt_subs": 7830000
     },
     "ateez": {
       "listeners": 7409764,

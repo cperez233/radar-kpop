@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-17T21:50:02Z",
+ "updated_at": "2026-11-18T03:32:05Z",
  "alerts": [
   {
    "type": "video",
@@ -11,6 +11,20 @@
    "body_en": "Your BABY ANGEL🪽#TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
    "when": "2026-11-17T14:00:06Z",
    "url": "https://www.youtube.com/watch?v=y5e15Gjb6eY"
+  },
+  {
+   "type": "official",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Anuncio oficial de LNGSHOT: comeback",
+   "body": "«¿Deberíamos publicar también las fotos del láser? ¿Cuánto las queréis? 📸 #SWISH por todas partes. https://lngshot.lnk.to/SWISH #LNGSHOT» (LNGSHOT en X).",
+   "title_en": "Official LNGSHOT news: comeback",
+   "body_en": "«should we release the laser pics too? how bad u want em 📸 #SWISH out everywhere. https://lngshot.lnk.to/SWISH #LNGSHOT» (LNGSHOT en X).",
+   "when": "2026-11-17T12:30:01Z",
+   "url": "https://x.com/LNGSHOT4sho/status/2122668581628387467",
+   "src_lang": "en",
+   "body_orig": "«should we release the laser pics too? how bad u want em 📸 #SWISH out everywhere. https://lngshot.lnk.to/SWISH #LNGSHOT» (LNGSHOT en X).",
+   "auto": true
   },
   {
    "type": "official",
@@ -96,6 +110,20 @@
    "url": "https://www.youtube.com/watch?v=GYmV7Kj6030"
   },
   {
+   "type": "official",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Anuncio oficial de Stray Kids: comeback",
+   "body": "«I.N (Stray Kids) \"NO RETURN\" publicado en Deezer https://Stray-Kids.lnk.to/NORETURN/Deezer Escucha \"NO RETURN\" ahora🦊 https://Stray-Kids.lnk.to/NORE...» (Stray Kids en X).",
+   "title_en": "Official Stray Kids news: comeback",
+   "body_en": "«I.N (Stray Kids) \"NO RETURN\" Released on Deezer https://Stray-Kids.lnk.to/NORETURN/Deezer Listen to \"NO RETURN\" now🦊 https://Stray-Kids.lnk.to/NORE...» (Stray Kids en X).",
+   "when": "2026-11-17T09:19:46Z",
+   "url": "https://x.com/Stray_Kids/status/2122620702826373495",
+   "src_lang": "en",
+   "body_orig": "«I.N (Stray Kids) \"NO RETURN\" Released on Deezer https://Stray-Kids.lnk.to/NORETURN/Deezer Listen to \"NO RETURN\" now🦊 https://Stray-Kids.lnk.to/NORE...» (Stray Kids en X).",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "lngshot",
    "group_name": "LNGSHOT",
@@ -116,6 +144,20 @@
    "body_en": "I.N \"NO RETURN\" | [Stray Kids : SKZ-PLAYER] (YouTube)",
    "when": "2026-11-17T09:00:01Z",
    "url": "https://www.youtube.com/watch?v=masFBnN7jsA"
+  },
+  {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: comeback",
+   "body": "«[AVANCE] SEVENTEEN 2027 SEASON'S GREETINGS SPOT ▶️ https://youtu.be/6zapPaYSZxs 🗓️ PREVENTA: 20/11/2026 20/11 (KST) #SEVENTEEN #세븐틴 #SVT2027시...» (SEVENTEEN en X).",
+   "title_en": "Official SEVENTEEN news: comeback",
+   "body_en": "«[PREVIEW] SEVENTEEN 2027 SEASON'S GREETINGS SPOT ▶️ https://youtu.be/6zapPaYSZxs 🗓️ PRE-ORDER: 2026. 11. 20 (KST) #SEVENTEEN #세븐틴 #SVT2027시...» (SEVENTEEN on X).",
+   "when": "2026-11-17T08:00:07Z",
+   "url": "https://x.com/pledis_17/status/2122600656141979839",
+   "src_lang": "ko",
+   "body_orig": "«[PREVIEW] SEVENTEEN 2027 SEASON'S GREETINGS SPOT ▶️ https://youtu.be/6zapPaYSZxs 🗓️ PRE-ORDER : 2026. 11. 20 (KST) #SEVENTEEN #세븐틴 #SVT2027시...» (SEVENTEEN en X).",
+   "auto": true
   },
   {
    "type": "video",
@@ -576,6 +618,20 @@
    "group": "twice",
    "group_name": "TWICE",
    "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«¡PRÓXIMAMENTE, sesión de escucha del SENCILLO DE NAYEON “NA-sty” en STATIONHEAD! ⏰Programa 22/11 DOM KST (HORA POR CONFIRMAR) 24/11 MAR KST (HORA POR CONFIRMAR) 25/11 MIÉ KST (HORA POR CONFIRMAR...)» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«NAYEON SINGLE “NA-sty” STATIONHEAD Listening party COMING SOON! ⏰Schedule 11/22 SUN KST (TIME TBA) 11/24 TUE KST (TIME TBA) 11/25 WED KST (TIME TBA...» (TWICE en X).",
+   "when": "2026-11-15T13:00:00Z",
+   "url": "https://x.com/JYPETWICE/status/2121951349638144151",
+   "src_lang": "en",
+   "body_orig": "«NAYEON SINGLE “NA-sty” STATIONHEAD Listening party COMING SOON! ⏰Schedule 11/22 SUN KST (TIME TBA) 11/24 TUE KST (TIME TBA) 11/25 WED KST (TIME TBA...» (TWICE en X).",
+   "auto": true
+  },
+  {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
    "body": "«NAYEON SINGLE “NA-sty” ESTACIÓN ¡Fiesta de escucha PRÓXIMAMENTE! ⏰Horario 22/11 DOM KST (HORA TBA) 24/11 MAR KST (HORA TBA) 25/11 MIÉ KST (HORA TBA...» (DOS VECES en X).",
    "title_en": "Official TWICE news: comeback",
    "body_en": "«NAYEON SINGLE “NA-sty” STATIONHEAD Listening party COMING SOON! ⏰Schedule 11/22 SUN KST (TIME TBA) 11/24 TUE KST (TIME TBA) 11/25 WED KST (TIME TBA...» (TWICE en X).",
@@ -661,50 +717,6 @@
    "body_en": "Dancebreak everywhere we go🪩✨ #LNGSHOT #Bananas #SWISH (YouTube)",
    "when": "2026-11-15T08:00:07Z",
    "url": "https://www.youtube.com/watch?v=blxSwIQb9D4"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "#JAKE Birthday🎉 #ENHYPEN (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "#JAKE Birthday🎉 #ENHYPEN (YouTube)",
-   "when": "2026-11-15T06:06:43Z",
-   "url": "https://www.youtube.com/watch?v=lzpcnL9Mn4s"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "Go #Bananas w/#미미미누 @mimiminu_official 🍌 #LNGSHOT #SWISH (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "Go #Bananas w/#미미미누 @mimiminu_official 🍌 #LNGSHOT #SWISH (YouTube)",
-   "when": "2026-11-15T06:00:05Z",
-   "url": "https://www.youtube.com/watch?v=I1UEP3tyT-U"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "Yeah we go 🆙 w/ 카이라 님 #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "Yeah we go 🆙 w/ 카이라 님 #Shorts (YouTube)",
-   "when": "2026-11-15T05:00:37Z",
-   "url": "https://www.youtube.com/watch?v=gnMro7uPiwQ"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Nuevo video: CORTIS",
-   "body": "don't be surprised #CORTIS #코르티스 (YouTube)",
-   "title_en": "New video: CORTIS",
-   "body_en": "don't be surprised #CORTIS #코르티스 (YouTube)",
-   "when": "2026-11-15T04:00:23Z",
-   "url": "https://www.youtube.com/watch?v=U8AVJQEJ60c"
   }
  ]
 }
