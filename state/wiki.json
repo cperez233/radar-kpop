@@ -45,7 +45,7 @@
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-17T21:47:43Z",
- "last_run": "2026-11-18T03:29:46Z",
+ "last_run": "2026-11-18T12:10:40Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-16T21:15:08Z",
@@ -705,21 +705,15 @@
   }
  },
  "pending": {
-  "blackpink": [
-   "Born Pink World Tour"
-  ],
   "bts": [
-   "The Red Bullet Tour",
    "Map of the Soul Tour"
   ],
   "seventeen": [
-   "Music Bank World Tour",
    "Ode to You World Tour",
    "Haru Japan Tour",
    "Ideal Cut Tour"
   ],
   "skz": [
-   "Dominate World Tour",
    "5-Star Dome Tour",
    "Maniac World Tour"
   ],
@@ -735,9 +729,9 @@
   "BTS World Tour: Love Yourself": "2026-11-10T21:45:19Z",
   "Be The Sun World Tour": "2026-11-11T00:00:22Z",
   "Blackpink Arena Tour 2018": "2026-11-18T03:29:46Z",
-  "Born Pink World Tour": "2026-11-03T19:15:48Z",
+  "Born Pink World Tour": "2026-11-18T12:10:40Z",
   "Diamond Edge World Tour": "2026-11-10T21:45:19Z",
-  "Dominate World Tour": "2026-11-03T19:15:48Z",
+  "Dominate World Tour": "2026-11-18T12:10:40Z",
   "Follow Tour": "2026-11-11T00:00:22Z",
   "Haru Japan Tour": "2026-11-03T19:15:48Z",
   "Ideal Cut Tour": "2026-11-03T19:15:48Z",
@@ -745,14 +739,14 @@
   "Love Yourself World Tour": "2026-11-10T19:30:23Z",
   "Maniac World Tour": "2026-11-03T19:15:48Z",
   "Map of the Soul Tour": "2026-11-03T19:15:48Z",
-  "Music Bank World Tour": "2026-11-18T03:29:46Z",
+  "Music Bank World Tour": "2026-11-18T12:10:40Z",
   "New_ World Tour": "2026-11-10T19:30:23Z",
   "Ode to You World Tour": "2026-11-03T19:15:48Z",
   "Ready to Be World Tour": "2026-11-03T19:15:48Z",
   "Right Here World Tour": "2026-11-10T21:45:19Z",
   "SVT Japan Arena Tour": "2026-11-10T19:30:23Z",
   "The Most Beautiful Moment in Life On Stage Tour": "2026-11-10T21:45:19Z",
-  "The Red Bullet Tour": "2026-11-03T19:15:48Z",
+  "The Red Bullet Tour": "2026-11-18T12:10:40Z",
   "The Wings Tour": "2026-11-18T03:29:46Z",
   "This Is For World Tour": "2026-11-17T21:47:43Z",
   "Twice 4th World Tour III": "2026-11-03T19:15:48Z",
