@@ -1944,7 +1944,49 @@
   "news:076beb68b1c86c63|feed": "2026-11-18T12:12:41Z",
   "news:6e86902a1fdfa7ff|feed": "2026-11-18T12:12:41Z",
   "news:c943ebf14111003e|feed": "2026-11-18T12:12:41Z",
-  "news:75efc74ea10ce106|feed": "2026-11-18T12:12:41Z"
+  "news:75efc74ea10ce106|feed": "2026-11-18T12:12:41Z",
+  "new:skz:skz-auto-20261119-munich|feed": "2026-11-18T20:39:28Z",
+  "new:skz:skz-auto-20261119-munich|ntfy": "2026-11-18T20:39:28Z",
+  "new:skz:skz-auto-20261119-munich|pub:radarkpop-skz-shows": "2026-11-18T20:39:28Z",
+  "new:skz:skz-auto-20261119-munich|pub:radarkpop-pais-alemania": "2026-11-18T20:39:28Z",
+  "new:skz:skz-auto-20261119-munich|foro": "2026-11-18T20:39:28Z",
+  "new:skz:skz-auto-20261119-londres|feed": "2026-11-18T20:39:28Z",
+  "new:skz:skz-auto-20261119-londres|ntfy": "2026-11-18T20:39:28Z",
+  "new:skz:skz-auto-20261119-londres|pub:radarkpop-skz-shows": "2026-11-18T20:39:28Z",
+  "new:skz:skz-auto-20261119-londres|pub:radarkpop-pais-reinounido": "2026-11-18T20:39:28Z",
+  "new:skz:skz-auto-20261119-londres|foro": "2026-11-18T20:39:28Z",
+  "new:skz:skz-wiki-20270710-paris|feed": "2026-11-18T20:39:28Z",
+  "new:skz:skz-wiki-20270710-paris|ntfy": "2026-11-18T20:39:28Z",
+  "new:skz:skz-wiki-20270710-paris|pub:radarkpop-skz-shows": "2026-11-18T20:39:28Z",
+  "new:skz:skz-wiki-20270710-paris|pub:radarkpop-pais-francia": "2026-11-18T20:39:28Z",
+  "new:skz:skz-wiki-20270710-paris|foro": "2026-11-18T20:39:28Z",
+  "new:skz:skz-wiki-20270728-arnhem|feed": "2026-11-18T20:39:28Z",
+  "new:skz:skz-wiki-20270728-arnhem|ntfy": "2026-11-18T20:39:28Z",
+  "new:skz:skz-wiki-20270728-arnhem|pub:radarkpop-skz-shows": "2026-11-18T20:39:28Z",
+  "new:skz:skz-wiki-20270728-arnhem|pub:radarkpop-pais-paisesbajos": "2026-11-18T20:39:28Z",
+  "new:skz:skz-wiki-20270728-arnhem|foro": "2026-11-18T20:39:28Z",
+  "today:skz:skz-auto-20261118-londres|feed": "2026-11-18T20:39:28Z",
+  "today:skz:skz-auto-20261118-londres|ntfy": "2026-11-18T20:39:28Z",
+  "today:skz:skz-auto-20261118-londres|pub:radarkpop-skz-shows": "2026-11-18T20:39:28Z",
+  "today:skz:skz-auto-20261118-londres|pub:radarkpop-pais-reinounido": "2026-11-18T20:39:28Z",
+  "today:skz:skz-auto-20261118-londres|foro": "2026-11-18T20:39:28Z",
+  "rel:seventeen:2026-11-19|feed": "2026-11-18T20:39:28Z",
+  "rel:seventeen:2026-11-19|ntfy": "2026-11-18T20:39:28Z",
+  "rel:seventeen:2026-11-19|pub:radarkpop-seventeen-music": "2026-11-18T20:39:28Z",
+  "rel:seventeen:2026-11-19|foro": "2026-11-18T20:39:28Z",
+  "news:dcfd65826c0280b9|feed": "2026-11-18T20:39:28Z",
+  "news:dcfd65826c0280b9|ntfy": "2026-11-18T20:39:28Z",
+  "news:dcfd65826c0280b9|pub:radarkpop-skz-shows": "2026-11-18T20:39:28Z",
+  "news:dcfd65826c0280b9|foro": "2026-11-18T20:39:28Z",
+  "news:75f80816822cc2fd|feed": "2026-11-18T20:39:28Z",
+  "news:75f80816822cc2fd|ntfy": "2026-11-18T20:39:28Z",
+  "news:75f80816822cc2fd|pub:radarkpop-skz-shows": "2026-11-18T20:39:28Z",
+  "news:75f80816822cc2fd|foro": "2026-11-18T20:39:28Z",
+  "news:54892b22c8dce985|feed": "2026-11-18T20:39:28Z",
+  "news:91e8d4f1999f336e|feed": "2026-11-18T20:39:28Z",
+  "news:a5b6ba5c319b6bd2|feed": "2026-11-18T20:39:28Z",
+  "news:607d122a16208221|feed": "2026-11-18T20:39:28Z",
+  "news:19f66f59199ce79f|feed": "2026-11-18T20:39:28Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2234,6 +2276,27 @@
    "c": "Tokio",
    "v": "Tokyo Dome"
   },
+  "skz-auto-20261118-londres": {
+   "g": "skz",
+   "d": "2026-11-18",
+   "s": "2026-11-18T18:00:00+00:00",
+   "c": "Londres",
+   "v": null
+  },
+  "skz-auto-20261119-londres": {
+   "g": "skz",
+   "d": "2026-11-19",
+   "s": "2026-11-19T18:00:00+00:00",
+   "c": "Londres",
+   "v": null
+  },
+  "skz-auto-20261119-munich": {
+   "g": "skz",
+   "d": "2026-11-19",
+   "s": "2026-11-19T18:00:00+01:00",
+   "c": "Múnich",
+   "v": null
+  },
   "skz-20261205-hongkong": {
    "g": "skz",
    "d": "2026-12-05",
@@ -2409,10 +2472,31 @@
    "c": "París",
    "v": "Plenitude Arena"
   },
+  "skz-wiki-20270710-paris": {
+   "g": "skz",
+   "d": "2027-07-10",
+   "s": "2027-07-10T18:00:00+02:00",
+   "c": "París",
+   "v": "Plenitude Arena"
+  },
+  "skz-auto-20270710-munich": {
+   "g": "skz",
+   "d": "2027-07-10",
+   "s": "2027-07-10T18:00:00+02:00",
+   "c": "Múnich",
+   "v": null
+  },
   "skz-wiki-20270713-londres": {
    "g": "skz",
    "d": "2027-07-13",
    "s": "2027-07-13T18:00:00+01:00",
+   "c": "Londres",
+   "v": "Tottenham Hotspur Stadium"
+  },
+  "skz-wiki-20270714-londres": {
+   "g": "skz",
+   "d": "2027-07-14",
+   "s": "2027-07-14T18:00:00+01:00",
    "c": "Londres",
    "v": "Tottenham Hotspur Stadium"
   },
@@ -2422,6 +2506,20 @@
    "s": "2027-07-17T18:00:00+02:00",
    "c": "Múnich",
    "v": "Allianz Arena"
+  },
+  "skz-wiki-20270718-munich": {
+   "g": "skz",
+   "d": "2027-07-18",
+   "s": "2027-07-18T18:00:00+02:00",
+   "c": "Múnich",
+   "v": "Allianz Arena"
+  },
+  "skz-auto-20270718-paris": {
+   "g": "skz",
+   "d": "2027-07-18",
+   "s": "2027-07-18T18:00:00+02:00",
+   "c": "París",
+   "v": null
   },
   "skz-wiki-20270721-viena": {
    "g": "skz",
@@ -2443,6 +2541,20 @@
    "s": "2027-07-27T18:00:00+02:00",
    "c": "Arnhem",
    "v": "GelreDome"
+  },
+  "skz-wiki-20270728-arnhem": {
+   "g": "skz",
+   "d": "2027-07-28",
+   "s": "2027-07-28T18:00:00+02:00",
+   "c": "Arnhem",
+   "v": "GelreDome"
+  },
+  "skz-auto-20270728-munich": {
+   "g": "skz",
+   "d": "2027-07-28",
+   "s": "2027-07-28T18:00:00+02:00",
+   "c": "Múnich",
+   "v": null
   },
   "skz-wiki-20270731-milan": {
    "g": "skz",
@@ -3006,13 +3118,6 @@
   }
  },
  "news_seen": [
-  "a210cb3e56dacc86",
-  "a2153cb309fc9198",
-  "a278298b2b1f78c1",
-  "a283b56ec497ba1c",
-  "a2c3c8e486f5b0f7",
-  "a2dcb2f9a07781e6",
-  "a2df1bcd2a4d87fa",
   "a32c521e21e1635c",
   "a3395a5672762573",
   "a38bb9fb18ce122b",
@@ -3036,6 +3141,7 @@
   "a58710bfac28ada5",
   "a5b18da4e90b1f3c",
   "a5b37a9f5eb816bf",
+  "a5b6ba5c319b6bd2",
   "a5bf2ac97b586268",
   "a5f6d1248802bd2e",
   "a60832e6a32cfe5d",
@@ -3110,6 +3216,7 @@
   "abefc6be303eac9d",
   "ac24c66799df7986",
   "ac396c6a08b27779",
+  "ac7888d1f2fcf603",
   "ac7c9de55cf54fad",
   "ac8a211458039697",
   "ac8cf14c82a94d2a",
@@ -3343,6 +3450,7 @@
   "c75541069d2a12e5",
   "c762b25ee784d8d7",
   "c78ea0ce09af3c26",
+  "c79371586c3713dc",
   "c8153f655bd5e38c",
   "c81f272796dc7744",
   "c83c3e3cdebe8430",
@@ -3357,6 +3465,7 @@
   "c9a081307f21a439",
   "c9ac1dab8bda2302",
   "c9fe667487046c0e",
+  "ca1830720124e64e",
   "ca335931cc264788",
   "ca3c4512d3a6caec",
   "ca44a3a51355801d",
@@ -3503,6 +3612,7 @@
   "d9bd81b75e4716d6",
   "d9c8f211d0684168",
   "d9cc98a52c2527d1",
+  "d9f009b81625e769",
   "d9f9984aa12546d8",
   "da3154451896a035",
   "da32d48f351ae28f",
@@ -3524,6 +3634,7 @@
   "dc7b8c52b93d8f22",
   "dcb3677f0dc21a32",
   "dcba8a19263dceb4",
+  "dcfd65826c0280b9",
   "dd144002a3d61960",
   "dd1804d1321582aa",
   "dd1e6fc7495ab248",
@@ -3761,6 +3872,7 @@
   "fa2e6ae1622c955e",
   "fa9f82f465a290fe",
   "faa7af492a043829",
+  "fac8d72d2afce45b",
   "fad5ceccc2dcb007",
   "fb17592e55bad939",
   "fb4e97b6e2db366c",

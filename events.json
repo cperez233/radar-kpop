@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T12:10:40Z",
+  "updated_at": "2026-11-18T20:38:05Z",
   "sources": [
     {
       "name": "Live Nation (BTS)",
@@ -404,7 +404,7 @@
           "src": "https://en.wikipedia.org/wiki/Arirang_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -421,7 +421,7 @@
           "tm_name": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
           "onsale": "2026-06-04T00:00:00Z",
           "verified_by": "wiki",
-          "verified_at": "2026-11-18T12:10:40Z"
+          "verified_at": "2026-11-18T20:36:29Z"
         },
         {
           "id": "bts-20270212-melbourne",
@@ -558,7 +558,7 @@
           "src": "https://en.wikipedia.org/wiki/Arirang_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         }
       ],
@@ -656,6 +656,51 @@
           "verified_by": "wiki"
         },
         {
+          "local_date": "2026-11-18",
+          "lat": 51.5074,
+          "lon": -0.1278,
+          "id": "skz-auto-20261118-londres",
+          "start": "2026-11-18T18:00:00+00:00",
+          "city": "Londres",
+          "country": "Reino Unido",
+          "venue": null,
+          "status": "anunciado",
+          "source": "auto",
+          "src": "https://x.com/Stray_Kids/status/2123078794517070023",
+          "src_kind": "official",
+          "time_tbd": true
+        },
+        {
+          "local_date": "2026-11-19",
+          "lat": 51.5074,
+          "lon": -0.1278,
+          "id": "skz-auto-20261119-londres",
+          "start": "2026-11-19T18:00:00+00:00",
+          "city": "Londres",
+          "country": "Reino Unido",
+          "venue": null,
+          "status": "anunciado",
+          "source": "auto",
+          "src": "https://x.com/Stray_Kids/status/2123078794517070023",
+          "src_kind": "official",
+          "time_tbd": true
+        },
+        {
+          "local_date": "2026-11-19",
+          "lat": 48.1351,
+          "lon": 11.582,
+          "id": "skz-auto-20261119-munich",
+          "start": "2026-11-19T18:00:00+01:00",
+          "city": "Múnich",
+          "country": "Alemania",
+          "venue": null,
+          "status": "anunciado",
+          "source": "auto",
+          "src": "https://x.com/Stray_Kids/status/2123083820455080224",
+          "src_kind": "official",
+          "time_tbd": true
+        },
+        {
           "id": "skz-20261205-hongkong",
           "local_date": "2026-12-05",
           "start": "2026-12-05T20:00:00+08:00",
@@ -721,7 +766,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -751,7 +796,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -768,7 +813,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -785,7 +830,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -802,7 +847,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -819,7 +864,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -836,7 +881,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -853,7 +898,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -870,7 +915,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -887,7 +932,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -904,7 +949,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -921,7 +966,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -938,7 +983,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -955,7 +1000,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -972,7 +1017,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -989,7 +1034,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -1006,7 +1051,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -1023,7 +1068,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -1040,7 +1085,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -1057,8 +1102,39 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
+        },
+        {
+          "id": "skz-wiki-20270710-paris",
+          "local_date": "2027-07-10",
+          "start": "2027-07-10T18:00:00+02:00",
+          "city": "París",
+          "country": "Francia",
+          "venue": "Plenitude Arena",
+          "lat": 48.8566,
+          "lon": 2.3522,
+          "status": "anunciado",
+          "source": "wiki",
+          "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
+          "src_kind": "wiki",
+          "time_tbd": true,
+          "verified_at": "2026-11-18T20:36:29Z"
+        },
+        {
+          "local_date": "2027-07-10",
+          "lat": 48.1351,
+          "lon": 11.582,
+          "id": "skz-auto-20270710-munich",
+          "start": "2027-07-10T18:00:00+02:00",
+          "city": "Múnich",
+          "country": "Alemania",
+          "venue": null,
+          "status": "anunciado",
+          "source": "auto",
+          "src": "https://x.com/Stray_Kids/status/2123083820455080224",
+          "src_kind": "official",
+          "time_tbd": true
         },
         {
           "id": "skz-wiki-20270713-londres",
@@ -1074,8 +1150,24 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
+        },
+        {
+          "id": "skz-wiki-20270714-londres",
+          "local_date": "2027-07-14",
+          "start": "2027-07-14T18:00:00+01:00",
+          "city": "Londres",
+          "country": "Reino Unido",
+          "venue": "Tottenham Hotspur Stadium",
+          "lat": 51.5074,
+          "lon": -0.1278,
+          "status": "anunciado",
+          "source": "wiki",
+          "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
+          "src_kind": "wiki",
+          "time_tbd": true,
+          "verified_at": "2026-11-18T20:36:29Z"
         },
         {
           "id": "skz-wiki-20270717-munich",
@@ -1091,8 +1183,39 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
+        },
+        {
+          "id": "skz-wiki-20270718-munich",
+          "local_date": "2027-07-18",
+          "start": "2027-07-18T18:00:00+02:00",
+          "city": "Múnich",
+          "country": "Alemania",
+          "venue": "Allianz Arena",
+          "lat": 48.1351,
+          "lon": 11.582,
+          "status": "anunciado",
+          "source": "wiki",
+          "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
+          "src_kind": "wiki",
+          "time_tbd": true,
+          "verified_at": "2026-11-18T20:36:29Z"
+        },
+        {
+          "local_date": "2027-07-18",
+          "lat": 48.8566,
+          "lon": 2.3522,
+          "id": "skz-auto-20270718-paris",
+          "start": "2027-07-18T18:00:00+02:00",
+          "city": "París",
+          "country": "Francia",
+          "venue": null,
+          "status": "anunciado",
+          "source": "auto",
+          "src": "https://x.com/Stray_Kids/status/2123083820455080224",
+          "src_kind": "official",
+          "time_tbd": true
         },
         {
           "id": "skz-wiki-20270721-viena",
@@ -1108,7 +1231,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -1125,7 +1248,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         },
         {
@@ -1142,8 +1265,39 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
+        },
+        {
+          "id": "skz-wiki-20270728-arnhem",
+          "local_date": "2027-07-28",
+          "start": "2027-07-28T18:00:00+02:00",
+          "city": "Arnhem",
+          "country": "Países Bajos",
+          "venue": "GelreDome",
+          "lat": 51.9628,
+          "lon": 5.8928,
+          "status": "anunciado",
+          "source": "wiki",
+          "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
+          "src_kind": "wiki",
+          "time_tbd": true,
+          "verified_at": "2026-11-18T20:36:29Z"
+        },
+        {
+          "local_date": "2027-07-28",
+          "lat": 48.1351,
+          "lon": 11.582,
+          "id": "skz-auto-20270728-munich",
+          "start": "2027-07-28T18:00:00+02:00",
+          "city": "Múnich",
+          "country": "Alemania",
+          "venue": null,
+          "status": "anunciado",
+          "source": "auto",
+          "src": "https://x.com/Stray_Kids/status/2123083820455080224",
+          "src_kind": "official",
+          "time_tbd": true
         },
         {
           "id": "skz-wiki-20270731-milan",
@@ -1159,7 +1313,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-18T12:10:40Z",
+          "verified_at": "2026-11-18T20:36:29Z",
           "verified_by": "wiki"
         }
       ],

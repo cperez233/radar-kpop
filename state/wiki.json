@@ -45,7 +45,7 @@
  "drift": [],
  "fails": 0,
  "last_discovery": "2026-11-17T21:47:43Z",
- "last_run": "2026-11-18T12:10:40Z",
+ "last_run": "2026-11-18T20:36:29Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-16T21:15:08Z",
@@ -382,8 +382,8 @@
    "title": "New World Tour"
   },
   "Run It World Tour": {
-   "fetched": "2026-11-16T11:36:52Z",
-   "revid": 1385973406,
+   "fetched": "2026-11-18T20:36:29Z",
+   "revid": 1386450358,
    "rows": [
     {
      "cancelled": false,
@@ -648,6 +648,15 @@
     },
     {
      "cancelled": false,
+     "city": "Paris",
+     "city_link": "Paris",
+     "country": "France",
+     "date": "2027-07-10",
+     "venue": "Plenitude Arena",
+     "venue_link": "Plenitude Arena"
+    },
+    {
+     "cancelled": false,
      "city": "London",
      "city_link": "London",
      "country": "England",
@@ -657,10 +666,28 @@
     },
     {
      "cancelled": false,
+     "city": "London",
+     "city_link": "London",
+     "country": "England",
+     "date": "2027-07-14",
+     "venue": "Tottenham Hotspur Stadium",
+     "venue_link": "Tottenham Hotspur Stadium"
+    },
+    {
+     "cancelled": false,
      "city": "Munich",
      "city_link": "Munich",
      "country": "Germany",
      "date": "2027-07-17",
+     "venue": "Allianz Arena",
+     "venue_link": "Allianz Arena"
+    },
+    {
+     "cancelled": false,
+     "city": "Munich",
+     "city_link": "Munich",
+     "country": "Germany",
+     "date": "2027-07-18",
      "venue": "Allianz Arena",
      "venue_link": "Allianz Arena"
     },
@@ -693,6 +720,15 @@
     },
     {
      "cancelled": false,
+     "city": "Arnhem",
+     "city_link": "Arnhem",
+     "country": "Netherlands",
+     "date": "2027-07-28",
+     "venue": "GelreDome",
+     "venue_link": "GelreDome"
+    },
+    {
+     "cancelled": false,
      "city": "Milan",
      "city_link": "Milan",
      "country": "Italy",
@@ -705,27 +741,21 @@
   }
  },
  "pending": {
-  "bts": [
-   "Map of the Soul Tour"
-  ],
   "seventeen": [
-   "Ode to You World Tour",
    "Haru Japan Tour",
    "Ideal Cut Tour"
   ],
   "skz": [
-   "5-Star Dome Tour",
    "Maniac World Tour"
   ],
   "twice": [
-   "Ready to Be World Tour",
    "Twice 4th World Tour III",
    "Twicelights World Tour"
   ]
  },
  "rejected": {
   "2017 BTS Live Trilogy Episode III: The Wings Tour": "2026-11-10T19:30:23Z",
-  "5-Star Dome Tour": "2026-11-03T19:15:48Z",
+  "5-Star Dome Tour": "2026-11-18T20:36:29Z",
   "BTS World Tour: Love Yourself": "2026-11-10T21:45:19Z",
   "Be The Sun World Tour": "2026-11-11T00:00:22Z",
   "Blackpink Arena Tour 2018": "2026-11-18T03:29:46Z",
@@ -738,11 +768,11 @@
   "In Your Area World Tour": "2026-11-17T21:47:43Z",
   "Love Yourself World Tour": "2026-11-10T19:30:23Z",
   "Maniac World Tour": "2026-11-03T19:15:48Z",
-  "Map of the Soul Tour": "2026-11-03T19:15:48Z",
+  "Map of the Soul Tour": "2026-11-18T20:36:29Z",
   "Music Bank World Tour": "2026-11-18T12:10:40Z",
   "New_ World Tour": "2026-11-10T19:30:23Z",
-  "Ode to You World Tour": "2026-11-03T19:15:48Z",
-  "Ready to Be World Tour": "2026-11-03T19:15:48Z",
+  "Ode to You World Tour": "2026-11-18T20:36:29Z",
+  "Ready to Be World Tour": "2026-11-18T20:36:29Z",
   "Right Here World Tour": "2026-11-10T21:45:19Z",
   "SVT Japan Arena Tour": "2026-11-10T19:30:23Z",
   "The Most Beautiful Moment in Life On Stage Tour": "2026-11-10T21:45:19Z",
