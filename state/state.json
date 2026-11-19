@@ -2065,7 +2065,41 @@
   "news:2507d1d2e3325a90|feed": "2026-11-19T10:28:03Z",
   "news:fb35ab5220035c1f|feed": "2026-11-19T10:28:03Z",
   "news:ee69fb937cbc2ef4|feed": "2026-11-19T10:28:03Z",
-  "news:de878f2d175ca008|feed": "2026-11-19T10:28:03Z"
+  "news:de878f2d175ca008|feed": "2026-11-19T10:28:03Z",
+  "today:skz:skz-auto-20261119-chicago|feed": "2026-11-19T19:09:29Z",
+  "today:skz:skz-auto-20261119-chicago|ntfy": "2026-11-19T19:09:29Z",
+  "today:skz:skz-auto-20261119-chicago|pub:radarkpop-skz-shows": "2026-11-19T19:09:29Z",
+  "today:skz:skz-auto-20261119-chicago|pub:radarkpop-pais-eeuu": "2026-11-19T19:09:29Z",
+  "today:skz:skz-auto-20261119-chicago|foro": "2026-11-19T19:09:29Z",
+  "rel:enhypen:2026-11-20|feed": "2026-11-19T19:09:29Z",
+  "rel:enhypen:2026-11-20|ntfy": "2026-11-19T19:09:29Z",
+  "rel:enhypen:2026-11-20|pub:radarkpop-enhypen-music": "2026-11-19T19:09:29Z",
+  "rel:enhypen:2026-11-20|foro": "2026-11-19T19:09:29Z",
+  "rel:twice:2026-11-20|feed": "2026-11-19T19:09:29Z",
+  "rel:twice:2026-11-20|ntfy": "2026-11-19T19:09:29Z",
+  "rel:twice:2026-11-20|pub:radarkpop-twice-music": "2026-11-19T19:09:29Z",
+  "rel:twice:2026-11-20|foro": "2026-11-19T19:09:29Z",
+  "rel:seventeen:2026-11-20|feed": "2026-11-19T19:09:29Z",
+  "rel:seventeen:2026-11-20|ntfy": "2026-11-19T19:09:29Z",
+  "rel:seventeen:2026-11-20|pub:radarkpop-seventeen-music": "2026-11-19T19:09:29Z",
+  "rel:seventeen:2026-11-20|foro": "2026-11-19T19:09:29Z",
+  "news:f04493e57a20a05f|feed": "2026-11-19T19:09:29Z",
+  "news:f04493e57a20a05f|ntfy": "2026-11-19T19:09:29Z",
+  "news:f04493e57a20a05f|pub:radarkpop-bts-news": "2026-11-19T19:09:29Z",
+  "news:f04493e57a20a05f|foro": "2026-11-19T19:09:29Z",
+  "news:6228ddefa78f3566|feed": "2026-11-19T19:09:29Z",
+  "news:6228ddefa78f3566|ntfy": "2026-11-19T19:09:29Z",
+  "news:6228ddefa78f3566|pub:radarkpop-bts-news": "2026-11-19T19:09:29Z",
+  "news:6228ddefa78f3566|foro": "2026-11-19T19:09:29Z",
+  "news:ecd48dc055045b83|feed": "2026-11-19T19:09:29Z",
+  "news:00f22a3e2e731f47|feed": "2026-11-19T19:09:29Z",
+  "news:cfbd2b899461f14e|feed": "2026-11-19T19:09:29Z",
+  "news:5eb58687dcf75b50|feed": "2026-11-19T19:09:29Z",
+  "news:971974cc506de23b|feed": "2026-11-19T19:09:29Z",
+  "news:bd8d8ed26a2da53a|feed": "2026-11-19T19:09:29Z",
+  "news:8faa038fc2afebab|feed": "2026-11-19T19:09:29Z",
+  "news:55bb2b03c21da10b|feed": "2026-11-19T19:09:29Z",
+  "news:fdf0a1f68f16fc99|feed": "2026-11-19T19:09:29Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3211,16 +3245,6 @@
   }
  },
  "news_seen": [
-  "a5b6ba5c319b6bd2",
-  "a5bf2ac97b586268",
-  "a5f6d1248802bd2e",
-  "a60832e6a32cfe5d",
-  "a642a0866add9e62",
-  "a6668d53224ee200",
-  "a66ab1334967daf9",
-  "a67dac0fda656f02",
-  "a694805d07026fe9",
-  "a6aca9d79fc7ba8a",
   "a6b854a8ff4df96b",
   "a6c1167c72bd461a",
   "a6c96c0b8d3de7ec",
@@ -3312,6 +3336,7 @@
   "aef3b1482e3049fa",
   "af02342024848869",
   "af4be65657634118",
+  "af9f307a48274da9",
   "aff012458a449b86",
   "aff6ec8151f66571",
   "b0317da5f998f486",
@@ -3439,7 +3464,9 @@
   "bd3d35beabde84d4",
   "bd4e2c5e453df11f",
   "bd7b5ac71ebe4599",
+  "bd8d8ed26a2da53a",
   "bd93e4e8ea8dd312",
+  "bd982a45674720d9",
   "bda252b7fd72ccc0",
   "bda79a4a0fd61667",
   "bdd07c39e4bcc2f7",
@@ -3609,6 +3636,7 @@
   "cf8004556f016740",
   "cf8b9f4730133ab8",
   "cfa384031ef9ad58",
+  "cfbd2b899461f14e",
   "cfeb5710bacb291f",
   "d0008a3380403320",
   "d06b08d640ac9b8d",
@@ -3818,6 +3846,7 @@
   "e908d5628180edf8",
   "e92311b9b33e2f70",
   "e924263197407fb9",
+  "e978423ee35a421f",
   "e99ac58337c231b1",
   "e9c65297789c9cfb",
   "e9d302cd6f93ce78",
@@ -3847,6 +3876,7 @@
   "ec6ec336427e3264",
   "ec96394f5f41c24a",
   "ecc149d792eb1718",
+  "ecd48dc055045b83",
   "ed108b2379080406",
   "ed14d590283a4d80",
   "ed199b017fc964f2",
@@ -3879,6 +3909,7 @@
   "eff6ab4f2e056ba2",
   "eff7879ec26312c3",
   "f0072dc02c11400a",
+  "f04493e57a20a05f",
   "f057dc4a6d9a8423",
   "f06245cea062042d",
   "f08bbb6cf41c9db0",
@@ -3902,6 +3933,7 @@
   "f2a7d61dbfe0599f",
   "f2ecbe4a9a3ce990",
   "f2f080fbd61c201f",
+  "f31a5bf8e2d1290e",
   "f3274a02a84e5647",
   "f33a32af7da766a8",
   "f37b4482a50c8032",
@@ -3920,6 +3952,7 @@
   "f5253cc63b3471ba",
   "f532b649eeb3f9ab",
   "f537a993e93b0c86",
+  "f56f1ef27937c3f8",
   "f56ff3297e766d73",
   "f5872ce3dd275049",
   "f58973149f33e36c",
@@ -3995,6 +4028,7 @@
   "fddcc05c1a36b5c4",
   "fddfe5d268d69d65",
   "fded445d7afc4a94",
+  "fdf0a1f68f16fc99",
   "fe0c742a7bb314e3",
   "fe382faa86082acd",
   "fea57120d0712dc9",
@@ -4013,67 +4047,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "183",
-    "cines",
-    "conciertos",
-    "domina",
-    "mexicana",
-    "millones",
-    "pesos",
-    "taquilla"
-   ],
-   "t": "2026-11-17T13:11:37Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "antes",
-    "concierto",
-    "gobierno",
-    "morada",
-    "prepara",
-    "yakarta"
-   ],
-   "t": "2026-11-17T13:11:37Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "desde",
-    "diario",
-    "fandom",
-    "freebies",
-    "furor",
-    "leon",
-    "llego",
-    "norte",
-    "papa",
-    "peru",
-    "tendencia",
-    "trata",
-    "xiv"
-   ],
-   "t": "2026-11-17T13:11:37Z"
-  },
-  {
-   "g": "blackpink",
-   "w": [
-    "concierto",
-    "estados",
-    "fanaticos",
-    "gesto",
-    "inesperado",
-    "lisa",
-    "tras",
-    "unidos",
-    "viral",
-    "vuelve"
-   ],
-   "t": "2026-11-17T13:11:37Z"
-  },
   {
    "g": "skz",
    "w": [
@@ -4236,6 +4209,35 @@
     "ver"
    ],
    "t": "2026-11-19T10:27:58Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "asia",
+    "celebracion",
+    "gira",
+    "lleva",
+    "paises",
+    "precedentes",
+    "shows",
+    "siete",
+    "sin",
+    "taiwan",
+    "urbana"
+   ],
+   "t": "2026-11-19T19:09:23Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "ciudades",
+    "conciertos",
+    "gira",
+    "inaugura"
+   ],
+   "t": "2026-11-19T19:09:23Z"
   }
  ],
  "discord_threads": {

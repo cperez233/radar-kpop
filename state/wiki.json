@@ -46,26 +46,16 @@
   "Stray Kids 2027-07-10: la web dice Múnich y Wikipedia dice Paris",
   "Stray Kids 2027-07-18: la web dice París y Wikipedia dice Munich",
   "Stray Kids 2027-07-28: la web dice Múnich y Wikipedia dice Arnhem",
-  "Stray Kids 2026-11-19 Múnich: Wikipedia tiene otras fechas en esa ciudad y no esta (¿se movió?)",
   "Stray Kids 2026-11-19 Chicago: Wikipedia tiene otras fechas en esa ciudad y no esta (¿se movió?)"
  ],
  "fails": 0,
  "last_discovery": "2026-11-17T21:47:43Z",
- "last_run": "2026-11-19T10:25:18Z",
+ "last_run": "2026-11-19T19:07:23Z",
  "pages": {
   "Arirang World Tour": {
-   "fetched": "2026-11-16T21:15:08Z",
-   "revid": 1386020155,
+   "fetched": "2026-11-19T19:07:23Z",
+   "revid": 1386609758,
    "rows": [
-    {
-     "cancelled": false,
-     "city": "Santiago",
-     "city_link": "Santiago",
-     "country": "Chile",
-     "date": "2026-10-17",
-     "venue": "Estadio Nacional Julio Martínez Prádanos",
-     "venue_link": "Estadio Nacional Julio Martínez Prádanos"
-    },
     {
      "cancelled": false,
      "city": "La Plata",
@@ -388,8 +378,8 @@
    "title": "New World Tour"
   },
   "Run It World Tour": {
-   "fetched": "2026-11-19T10:25:18Z",
-   "revid": 1386564420,
+   "fetched": "2026-11-19T19:07:23Z",
+   "revid": 1386635531,
    "rows": [
     {
      "cancelled": false,
