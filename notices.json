@@ -1,7 +1,14 @@
 {
- "updated_at": "2026-11-17T13:10:17Z",
+ "updated_at": "2026-11-19T10:26:36Z",
  "groups": {
   "lngshot": [
+   {
+    "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (팬플리)",
+    "url": "https://weverse.io/lngshot/notice/41169",
+    "post": "https://x.com/LNGSHOT4sho/status/2123295529019048432",
+    "when": "2026-11-19T06:01:17Z",
+    "weverse": true
+   },
    {
     "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (프롬스토어)",
     "url": "https://weverse.io/lngshot/notice/41100",
@@ -36,16 +43,16 @@
     "post": "https://x.com/LNGSHOT4sho/status/2120384412957499798",
     "when": "2026-11-11T05:13:33Z",
     "weverse": true
-   },
-   {
-    "title": "[NOTICE] LNGSHOT 261114 MBC 쇼! 음악중심 참여 안내 (사전녹화)",
-    "url": "https://weverse.io/lngshot/notice/40902",
-    "post": "https://x.com/LNGSHOT4sho/status/2120174242868432911",
-    "when": "2026-11-10T15:18:25Z",
-    "weverse": true
    }
   ],
   "seventeen": [
+   {
+    "title": "[NOTICE] SEVENTEEN 2027 SEASON’S GREETINGS 출시 안내 (+ENG/JPN/CHN) 🐶PRE-ORDER : 2026. 11. 20 (KST)...",
+    "url": "https://weverse.io/seventeen/notice/41104",
+    "post": "https://x.com/pledis_17/status/2123249922107416841",
+    "when": "2026-11-19T03:00:04Z",
+    "weverse": true
+   },
    {
     "title": "[NEWS] 잠시 후 9시 10분! MBC <신인감독 김연경2>에 이 출연합니다.",
     "url": "https://x.com/pledis_17/status/2121933733129490460",
@@ -80,13 +87,6 @@
     "post": "https://x.com/pledis_17/status/2117436607871562068",
     "when": "2026-11-03T02:00:02Z",
     "weverse": false
-   },
-   {
-    "title": "[NOTICE] 아티스트 권익 침해 관련 법적 대응 상황 안내 (11.02.) (+ENG)",
-    "url": "https://weverse.io/seventeen/notice/40619",
-    "post": "https://x.com/pledis_17/status/2117134652762903021",
-    "when": "2026-11-02T06:00:10Z",
-    "weverse": true
    }
   ],
   "enhypen": [

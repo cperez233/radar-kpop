@@ -46,11 +46,12 @@
   "Stray Kids 2027-07-10: la web dice Múnich y Wikipedia dice Paris",
   "Stray Kids 2027-07-18: la web dice París y Wikipedia dice Munich",
   "Stray Kids 2027-07-28: la web dice Múnich y Wikipedia dice Arnhem",
-  "Stray Kids 2026-11-19 Múnich: Wikipedia tiene otras fechas en esa ciudad y no esta (¿se movió?)"
+  "Stray Kids 2026-11-19 Múnich: Wikipedia tiene otras fechas en esa ciudad y no esta (¿se movió?)",
+  "Stray Kids 2026-11-19 Chicago: Wikipedia tiene otras fechas en esa ciudad y no esta (¿se movió?)"
  ],
  "fails": 0,
  "last_discovery": "2026-11-17T21:47:43Z",
- "last_run": "2026-11-19T02:01:42Z",
+ "last_run": "2026-11-19T10:25:18Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-16T21:15:08Z",
@@ -375,8 +376,8 @@
    "title": "List of NewJeans live performances"
   },
   "Lngshot": {
-   "fetched": "2026-11-16T03:12:04Z",
-   "revid": 1385950713,
+   "fetched": "2026-11-19T10:25:18Z",
+   "revid": 1386546264,
    "rows": [],
    "title": "Lngshot"
   },
@@ -387,8 +388,8 @@
    "title": "New World Tour"
   },
   "Run It World Tour": {
-   "fetched": "2026-11-18T20:36:29Z",
-   "revid": 1386450358,
+   "fetched": "2026-11-19T10:25:18Z",
+   "revid": 1386564420,
    "rows": [
     {
      "cancelled": false,
@@ -617,6 +618,15 @@
     },
     {
      "cancelled": false,
+     "city": "Chicago",
+     "city_link": "Chicago",
+     "country": "United States",
+     "date": "2027-06-19",
+     "venue": "Soldier Field",
+     "venue_link": "Soldier Field"
+    },
+    {
+     "cancelled": false,
      "city": "Baltimore",
      "city_link": "Baltimore",
      "country": "United States",
@@ -745,11 +755,7 @@
    "title": "Run It World Tour"
   }
  },
- "pending": {
-  "twice": [
-   "Twicelights World Tour"
-  ]
- },
+ "pending": {},
  "rejected": {
   "2017 BTS Live Trilogy Episode III: The Wings Tour": "2026-11-10T19:30:23Z",
   "5-Star Dome Tour": "2026-11-18T20:36:29Z",
@@ -777,7 +783,7 @@
   "The Wings Tour": "2026-11-18T03:29:46Z",
   "This Is For World Tour": "2026-11-17T21:47:43Z",
   "Twice 4th World Tour III": "2026-11-19T02:01:42Z",
-  "Twicelights World Tour": "2026-11-03T19:15:48Z",
+  "Twicelights World Tour": "2026-11-19T10:25:18Z",
   "Warning Tour": "2026-11-18T03:29:46Z"
  }
 }

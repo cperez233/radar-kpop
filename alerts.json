@@ -1,6 +1,133 @@
 {
- "updated_at": "2026-11-19T02:03:32Z",
+ "updated_at": "2026-11-19T10:27:58Z",
  "alerts": [
+  {
+   "type": "stop_today",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Hoy Stray Kids abre en Múnich",
+   "body": "Múnich. Hora aproximada, confirma en la boletería.",
+   "title_en": "Today Stray Kids opens in Munich",
+   "body_en": "Munich. Approximate time, check with the box office.",
+   "when": "2026-11-19T10:27:58Z",
+   "url": null
+  },
+  {
+   "type": "stop_today",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Hoy Stray Kids abre en Londres",
+   "body": "Londres. Hora aproximada, confirma en la boletería.",
+   "title_en": "Today Stray Kids opens in London",
+   "body_en": "London. Approximate time, check with the box office.",
+   "when": "2026-11-19T10:27:58Z",
+   "url": null
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "Go UP | Create #Shorts with ‘UP’ (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "Go UP | Create #Shorts with ‘UP’ (YouTube)",
+   "when": "2026-11-19T10:00:21Z",
+   "url": "https://www.youtube.com/watch?v=vYJddkTbTpo"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "LNGSHOT X L:A BRUKET | Behind the Scenes (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "LNGSHOT X L:A BRUKET | Behind the Scenes (YouTube)",
+   "when": "2026-11-19T09:30:04Z",
+   "url": "https://www.youtube.com/watch?v=76nx7qY-4r0"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "Yeah we go 🆙 w/ 쿠미 님 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "Yeah we go 🆙 w/ 쿠미 님 #Shorts (YouTube)",
+   "when": "2026-11-19T09:00:37Z",
+   "url": "https://www.youtube.com/watch?v=qWUl8EETbUg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "Go #Bananas w/#KEYVITUP #JAEIN #SENA @KEYVITUP 🍌 #LNGSHOT #SWISH (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "Go #Bananas w/#KEYVITUP #JAEIN #SENA @KEYVITUP 🍌 #LNGSHOT #SWISH (YouTube)",
+   "when": "2026-11-19T09:00:14Z",
+   "url": "https://www.youtube.com/watch?v=00rj7iYk2iM"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "NYC going #Bananas rn🗽🍌 75 spots across the city. how many can u find SHOTTIES? (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "NYC going #Bananas rn🗽🍌 75 spots across the city. how many can u find SHOTTIES? (YouTube)",
+   "when": "2026-11-19T07:50:06Z",
+   "url": "https://www.youtube.com/watch?v=tNWkjB8xu5A"
+  },
+  {
+   "type": "comeback",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Comeback: Stray Kids",
+   "body": "El grupo de K-pop Stray Kids anuncia su regreso a París en 2027 - Sortir à Paris (Google Noticias)",
+   "title_en": "Comeback: Stray Kids",
+   "body_en": "K-pop group Stray Kids announces their return to Paris in 2027 - Sortir à Paris (Google News)",
+   "when": "2026-11-19T07:02:20Z",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNVENGbnhqTDlXQjRSNVNVMnNfWTBZV0tEWEc0dVJRSzVpQk1ONzJjSTZpZVFHN0FVQ1AtNnNrOVVaOUNfSUwtSHRScVdZSkVqOGpocldIY3FpM185OGFyemVoQkhqWVlEQTBlejJPMXJKYUN1STZtU1ZSa2VVLWo1aGZPT094MDBPd3Y1QmlsbzFxVjViRk15WVM0QUd5OGlQalVaamthcHBKb05HRWpqXzJpME5yb1NuQXNobmVmcXljTnU4RlJFSFF4UFNpNFhrajloRkJSalNDOFBUZF9BdjROdUJFbU5NOU5taGRtemhzbTI3cDI4N2h4OWxzX1k?oc=5",
+   "src_lang": "es",
+   "body_orig": "El grupo de K-pop Stray Kids anuncia su regreso a París en 2027 - Sortir à Paris (Google Noticias)",
+   "auto": true
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) - ‘UP (I Hate Models Ver.)’ Lyric Video (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) - ‘UP (I Hate Models Ver.)’ Lyric Video (YouTube)",
+   "when": "2026-11-19T05:05:10Z",
+   "url": "https://www.youtube.com/watch?v=q__azP1kokI"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "SEVENTEEN 2027 SEASON'S GREETINGS Visualizer 🐕🌱 (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "SEVENTEEN 2027 SEASON'S GREETINGS Visualizer 🐕🌱 (YouTube)",
+   "when": "2026-11-19T05:00:36Z",
+   "url": "https://www.youtube.com/watch?v=8bUov1GcDxk"
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "BTS iniciará la etapa por 9 ciudades de Asia y Australia de su gira mundial 'Arirang' - Agencia de Noticias Yonhap (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS to kick off the 9-city Asian and Australian leg of their 'Arirang' world tour - Yonhap News Agency (Google News)",
+   "when": "2026-11-19T02:16:34Z",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zbFpIOXk0TUJBWEQ2WTdUZ205SThybUFTNjlyV001VmFYN0JKS05SY0hQOTBOQVJBMTZwSVFqVHBRdFFMTVVtX1Q5VU9NdGZpM1ZpT0FKRlhaUQ?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS iniciará la etapa por 9 ciudades de Asia y Australia de su gira mundial 'Arirang' - Agencia de Noticias Yonhap (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "new_date",
    "group": "skz",
@@ -154,6 +281,20 @@
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLdlpNV2lnOS1mZ3BpZ0VnT0prZFFFV3hkY2E4cDNPRkE4eWtwOVF0bHBqc3BELUtneEZJeFdZR3ZwZHltd3FOd3FFSWhjbTVkZWY5MmdmNA?oc=5",
    "src_lang": "es",
    "body_orig": "STRAY KIDS ANUNCIAN SU GIRA MUNDIAL 'RUN IT' EN NORTEMAÉRICA, EUROPA Y EL REINO UNIDO - media.livenation.es (Google Noticias)",
+   "auto": true
+  },
+  {
+   "type": "latam",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Latinoamérica: Stray Kids",
+   "body": "Jeonghan y Joshua de SEVENTEEN llegan a la pantalla grande: así podrás ver su concierto en México - SensaCine.com.mx (Google Noticias)",
+   "title_en": "Latin America: Stray Kids",
+   "body_en": "SEVENTEEN's Jeonghan and Joshua hit the big screen: Here's how you can watch their concert in Mexico - SensaCine.com.mx (Google News)",
+   "when": "2026-11-18T16:30:00Z",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByXzdtWTA3bnZmZWNGbURKMElreWhaSFFPdEZDV2F6U004SEZkNVFJN0o2X3F5TkJtTkpZMWZPTW9oTHY1MHBZdDZsMktCcEtuVmV3Z0djRGYtVld0Zmk1VUhxYmJyQWFV0gFuQVVfeXFMUEpGdUhxMjRheHk4YWFFd1JVSnRmU3ZsMWFRRlA2VmRIdFRsQTh1VE8zWGxvMm4xVU9NZkFQeXBmdW91TWNKM2NiYXdCdk5FQ3FsdFJZT0ZLdEdGd0pCMlFDWTdZNmk5R3FaZTNMRkE?oc=5",
+   "src_lang": "es",
+   "body_orig": "Jeonghan y Joshua de SEVENTEEN llegan a la pantalla grande: así podrás ver su concierto en México - SensaCine.com.mx (Google Noticias)",
    "auto": true
   },
   {
@@ -570,147 +711,6 @@
    "src_lang": "es",
    "body_orig": "BTS domina la taquilla mexicana de conciertos en cines con más de 183 millones de pesos - El Sol de México (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "#RYUL doing his thing, behind the scenes🎥 #LNGSHOT #Bananas #SWISH (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "#RYUL doing his thing, behind the scenes🎥 #LNGSHOT #Bananas #SWISH (YouTube)",
-   "when": "2026-11-17T11:00:09Z",
-   "url": "https://www.youtube.com/watch?v=FZsypU4oFto"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "I WANT BLOOD, I WANT YOU - ENHYPEN (엔하이픈) (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "I WANT BLOOD, I WANT YOU - ENHYPEN (엔하이픈) (YouTube)",
-   "when": "2026-11-17T10:00:07Z",
-   "url": "https://www.youtube.com/watch?v=dHEZTY5H3T4"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "You cannot return #StrayKids #스트레이키즈 #아이엔 #I_N #SKZ_PLAYER #슼즈플레이어 #YouMakeStrayKidsStay (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "You cannot return #StrayKids #스트레이키즈 #아이엔 #I_N #SKZ_PLAYER #슼즈플레이어 #YouMakeStrayKidsStay (YouTube)",
-   "when": "2026-11-17T09:31:11Z",
-   "url": "https://www.youtube.com/watch?v=bpTbA5-A3a8"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "I want it more #StrayKids #스트레이키즈 #아이엔 #I_N #SKZ_PLAYER #슼즈플레이어 #YouMakeStrayKidsStay (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "I want it more #StrayKids #스트레이키즈 #아이엔 #I_N #SKZ_PLAYER #슼즈플레이어 #YouMakeStrayKidsStay (YouTube)",
-   "when": "2026-11-17T09:29:55Z",
-   "url": "https://www.youtube.com/watch?v=GYmV7Kj6030"
-  },
-  {
-   "type": "official",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Anuncio oficial de Stray Kids: comeback",
-   "body": "«I.N (Stray Kids) \"NO RETURN\" publicado en Deezer https://Stray-Kids.lnk.to/NORETURN/Deezer Escucha \"NO RETURN\" ahora🦊 https://Stray-Kids.lnk.to/NORE...» (Stray Kids en X).",
-   "title_en": "Official Stray Kids news: comeback",
-   "body_en": "«I.N (Stray Kids) \"NO RETURN\" Released on Deezer https://Stray-Kids.lnk.to/NORETURN/Deezer Listen to \"NO RETURN\" now🦊 https://Stray-Kids.lnk.to/NORE...» (Stray Kids en X).",
-   "when": "2026-11-17T09:19:46Z",
-   "url": "https://x.com/Stray_Kids/status/2122620702826373495",
-   "src_lang": "en",
-   "body_orig": "«I.N (Stray Kids) \"NO RETURN\" Released on Deezer https://Stray-Kids.lnk.to/NORETURN/Deezer Listen to \"NO RETURN\" now🦊 https://Stray-Kids.lnk.to/NORE...» (Stray Kids en X).",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "Go #Bananas w/#82MAJOR #조성일 @82major_official 🍌 #LNGSHOT #SWISH (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "Go #Bananas w/#82MAJOR #조성일 @82major_official 🍌 #LNGSHOT #SWISH (YouTube)",
-   "when": "2026-11-17T09:00:02Z",
-   "url": "https://www.youtube.com/watch?v=5ETLdoCA_7I"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "I.N \"NO RETURN\" | [Stray Kids : SKZ-PLAYER] (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "I.N \"NO RETURN\" | [Stray Kids : SKZ-PLAYER] (YouTube)",
-   "when": "2026-11-17T09:00:01Z",
-   "url": "https://www.youtube.com/watch?v=masFBnN7jsA"
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«[VISTA PREVIA] SPOT DE SALUDOS DE LA TEMPORADA DE SEVENTEEN 2027 ▶️ https://youtu.be/6zapPaYSZxs 🗓️ PRE-ORDEN : 2026. 11. 20 (KST) #SEVENTEEN #세븐틴 #SVT2027시...» (SEVENTEEN en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "«[PREVIEW] SEVENTEEN 2027 SEASON'S GREETINGS SPOT ▶️ https://youtu.be/6zapPaYSZxs 🗓️ PRE-ORDER : 2026. 11. 20 (KST) #SEVENTEEN #세븐틴 #SVT2027시...» (SEVENTEEN en X).",
-   "when": "2026-11-17T08:00:07Z",
-   "url": "https://x.com/pledis_17/status/2122600656141979839",
-   "src_lang": "en",
-   "body_orig": "«[PREVIEW] SEVENTEEN 2027 SEASON'S GREETINGS SPOT ▶️ https://youtu.be/6zapPaYSZxs 🗓️ PRE-ORDER : 2026. 11. 20 (KST) #SEVENTEEN #세븐틴 #SVT2027시...» (SEVENTEEN en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«[AVANCE] SEVENTEEN 2027 SEASON'S GREETINGS SPOT ▶️ https://youtu.be/6zapPaYSZxs 🗓️ PREVENTA: 20/11/2026 20/11 (KST) #SEVENTEEN #세븐틴 #SVT2027시...» (SEVENTEEN en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "«[PREVIEW] SEVENTEEN 2027 SEASON'S GREETINGS SPOT ▶️ https://youtu.be/6zapPaYSZxs 🗓️ PRE-ORDER: 2026. 11. 20 (KST) #SEVENTEEN #세븐틴 #SVT2027시...» (SEVENTEEN on X).",
-   "when": "2026-11-17T08:00:07Z",
-   "url": "https://x.com/pledis_17/status/2122600656141979839",
-   "src_lang": "ko",
-   "body_orig": "«[PREVIEW] SEVENTEEN 2027 SEASON'S GREETINGS SPOT ▶️ https://youtu.be/6zapPaYSZxs 🗓️ PRE-ORDER : 2026. 11. 20 (KST) #SEVENTEEN #세븐틴 #SVT2027시...» (SEVENTEEN en X).",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "[PREVIEW] SEVENTEEN 2027 SEASON'S GREETINGS SPOT (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "[PREVIEW] SEVENTEEN 2027 SEASON'S GREETINGS SPOT (YouTube)",
-   "when": "2026-11-17T07:59:58Z",
-   "url": "https://www.youtube.com/watch?v=6zapPaYSZxs"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "ATEEZ(에이티즈) - 에이티니를 위한 다큐 8인 (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "ATEEZ(에이티즈) - 에이티니를 위한 다큐 8인 (YouTube)",
-   "when": "2026-11-17T07:00:01Z",
-   "url": "https://www.youtube.com/watch?v=M_IDeXieWJM"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "요리 실력의 비밀 🤫 #JAKE #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "요리 실력의 비밀 🤫 #JAKE #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
-   "when": "2026-11-17T06:37:55Z",
-   "url": "https://www.youtube.com/watch?v=05GPgvCAxAQ"
   }
  ]
 }
