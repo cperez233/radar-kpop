@@ -42,10 +42,15 @@
   ]
  },
  "discovered": {},
- "drift": [],
+ "drift": [
+  "Stray Kids 2027-07-10: la web dice Múnich y Wikipedia dice Paris",
+  "Stray Kids 2027-07-18: la web dice París y Wikipedia dice Munich",
+  "Stray Kids 2027-07-28: la web dice Múnich y Wikipedia dice Arnhem",
+  "Stray Kids 2026-11-19 Múnich: Wikipedia tiene otras fechas en esa ciudad y no esta (¿se movió?)"
+ ],
  "fails": 0,
  "last_discovery": "2026-11-17T21:47:43Z",
- "last_run": "2026-11-18T20:36:29Z",
+ "last_run": "2026-11-19T02:01:42Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-16T21:15:08Z",
@@ -741,15 +746,7 @@
   }
  },
  "pending": {
-  "seventeen": [
-   "Haru Japan Tour",
-   "Ideal Cut Tour"
-  ],
-  "skz": [
-   "Maniac World Tour"
-  ],
   "twice": [
-   "Twice 4th World Tour III",
    "Twicelights World Tour"
   ]
  },
@@ -763,11 +760,11 @@
   "Diamond Edge World Tour": "2026-11-10T21:45:19Z",
   "Dominate World Tour": "2026-11-18T12:10:40Z",
   "Follow Tour": "2026-11-11T00:00:22Z",
-  "Haru Japan Tour": "2026-11-03T19:15:48Z",
-  "Ideal Cut Tour": "2026-11-03T19:15:48Z",
+  "Haru Japan Tour": "2026-11-19T02:01:42Z",
+  "Ideal Cut Tour": "2026-11-19T02:01:42Z",
   "In Your Area World Tour": "2026-11-17T21:47:43Z",
   "Love Yourself World Tour": "2026-11-10T19:30:23Z",
-  "Maniac World Tour": "2026-11-03T19:15:48Z",
+  "Maniac World Tour": "2026-11-19T02:01:42Z",
   "Map of the Soul Tour": "2026-11-18T20:36:29Z",
   "Music Bank World Tour": "2026-11-18T12:10:40Z",
   "New_ World Tour": "2026-11-10T19:30:23Z",
@@ -779,7 +776,7 @@
   "The Red Bullet Tour": "2026-11-18T12:10:40Z",
   "The Wings Tour": "2026-11-18T03:29:46Z",
   "This Is For World Tour": "2026-11-17T21:47:43Z",
-  "Twice 4th World Tour III": "2026-11-03T19:15:48Z",
+  "Twice 4th World Tour III": "2026-11-19T02:01:42Z",
   "Twicelights World Tour": "2026-11-03T19:15:48Z",
   "Warning Tour": "2026-11-18T03:29:46Z"
  }

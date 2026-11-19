@@ -7,7 +7,7 @@
    "since": "2026-10-16T07:55:55Z"
   },
   "discord": {
-   "msg": "fallaron los 29 envíos: puede que el webhook se haya borrado (crea otro y actualiza DISCORD_WEBHOOK_URL)",
+   "msg": "fallaron los 28 envíos: puede que el webhook se haya borrado (crea otro y actualiza DISCORD_WEBHOOK_URL)",
    "notified": true,
    "ok": false,
    "since": "2026-10-17T06:01:07Z"
@@ -19,10 +19,10 @@
    "since": "2026-10-17T06:01:07Z"
   },
   "fechas_manuales": {
-   "msg": "",
-   "notified": false,
-   "ok": true,
-   "since": "2026-11-03T19:16:21Z"
+   "msg": "Stray Kids 2027-07-10: la web dice Múnich y Wikipedia dice Paris; Stray Kids 2027-07-18: la web dice París y Wikipedia dice Munich; Stray Kids 2027-07-28: la web dice Múnich y Wikipedia dice Arnhem (+",
+   "notified": true,
+   "ok": false,
+   "since": "2026-11-19T02:01:46Z"
   },
   "instagram": {
    "msg": "Instagram no respondió en RSSHub: puede que haya vencido INSTAGRAM_COOKIE en Vercel",

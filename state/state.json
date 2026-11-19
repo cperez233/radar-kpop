@@ -1986,7 +1986,53 @@
   "news:91e8d4f1999f336e|feed": "2026-11-18T20:39:28Z",
   "news:a5b6ba5c319b6bd2|feed": "2026-11-18T20:39:28Z",
   "news:607d122a16208221|feed": "2026-11-18T20:39:28Z",
-  "news:19f66f59199ce79f|feed": "2026-11-18T20:39:28Z"
+  "news:19f66f59199ce79f|feed": "2026-11-18T20:39:28Z",
+  "new:skz:skz-auto-20261119-chicago|feed": "2026-11-19T02:03:38Z",
+  "new:skz:skz-auto-20261119-chicago|ntfy": "2026-11-19T02:03:38Z",
+  "new:skz:skz-auto-20261119-chicago|pub:radarkpop-skz-shows": "2026-11-19T02:03:38Z",
+  "new:skz:skz-auto-20261119-chicago|pub:radarkpop-pais-eeuu": "2026-11-19T02:03:38Z",
+  "new:skz:skz-auto-20261119-chicago|foro": "2026-11-19T02:03:38Z",
+  "today:bts:bts-20261119-kaohsiung|feed": "2026-11-19T02:03:38Z",
+  "today:bts:bts-20261119-kaohsiung|ntfy": "2026-11-19T02:03:38Z",
+  "today:bts:bts-20261119-kaohsiung|pub:radarkpop-bts-shows": "2026-11-19T02:03:38Z",
+  "today:bts:bts-20261119-kaohsiung|pub:radarkpop-pais-taiwan": "2026-11-19T02:03:38Z",
+  "today:bts:bts-20261119-kaohsiung|foro": "2026-11-19T02:03:38Z",
+  "next:skz:skz-auto-20261118-londres|feed": "2026-11-19T02:03:38Z",
+  "next:skz:skz-auto-20261118-londres|ntfy": "2026-11-19T02:03:38Z",
+  "next:skz:skz-auto-20261118-londres|pub:radarkpop-skz-shows": "2026-11-19T02:03:38Z",
+  "next:skz:skz-auto-20261118-londres|foro": "2026-11-19T02:03:38Z",
+  "news:e7f469a5d2bd3b1e|feed": "2026-11-19T02:03:38Z",
+  "news:e7f469a5d2bd3b1e|ntfy": "2026-11-19T02:03:38Z",
+  "news:e7f469a5d2bd3b1e|pub:radarkpop-bts-news": "2026-11-19T02:03:38Z",
+  "news:e7f469a5d2bd3b1e|foro": "2026-11-19T02:03:38Z",
+  "news:e908d5628180edf8|feed": "2026-11-19T02:03:38Z",
+  "news:e908d5628180edf8|ntfy": "2026-11-19T02:03:38Z",
+  "news:e908d5628180edf8|pub:radarkpop-skz-news": "2026-11-19T02:03:38Z",
+  "news:e908d5628180edf8|foro": "2026-11-19T02:03:38Z",
+  "news:b65907a8b117fda7|feed": "2026-11-19T02:03:38Z",
+  "news:b65907a8b117fda7|ntfy": "2026-11-19T02:03:38Z",
+  "news:b65907a8b117fda7|pub:radarkpop-skz-shows": "2026-11-19T02:03:38Z",
+  "news:b65907a8b117fda7|foro": "2026-11-19T02:03:38Z",
+  "official:skz:tour:2026-11-19|feed": "2026-11-19T02:03:38Z",
+  "official:skz:tour:2026-11-19|ntfy": "2026-11-19T02:03:38Z",
+  "official:skz:tour:2026-11-19|pub:radarkpop-skz-shows": "2026-11-19T02:03:38Z",
+  "official:skz:tour:2026-11-19|foro": "2026-11-19T02:03:38Z",
+  "official:twice:comeback:2026-11-19|feed": "2026-11-19T02:03:38Z",
+  "official:twice:comeback:2026-11-19|ntfy": "2026-11-19T02:03:38Z",
+  "official:twice:comeback:2026-11-19|pub:radarkpop-twice-music": "2026-11-19T02:03:38Z",
+  "official:twice:comeback:2026-11-19|foro": "2026-11-19T02:03:38Z",
+  "official:lngshot:comeback:2026-11-19|feed": "2026-11-19T02:03:38Z",
+  "official:lngshot:comeback:2026-11-19|ntfy": "2026-11-19T02:03:38Z",
+  "official:lngshot:comeback:2026-11-19|pub:radarkpop-lngshot-music": "2026-11-19T02:03:38Z",
+  "official:lngshot:comeback:2026-11-19|foro": "2026-11-19T02:03:38Z",
+  "official:seventeen:comeback:2026-11-19|feed": "2026-11-19T02:03:38Z",
+  "official:seventeen:comeback:2026-11-19|ntfy": "2026-11-19T02:03:38Z",
+  "official:seventeen:comeback:2026-11-19|pub:radarkpop-seventeen-music": "2026-11-19T02:03:38Z",
+  "official:seventeen:comeback:2026-11-19|foro": "2026-11-19T02:03:38Z",
+  "official:ateez:comeback:2026-11-19|feed": "2026-11-19T02:03:38Z",
+  "official:ateez:comeback:2026-11-19|ntfy": "2026-11-19T02:03:38Z",
+  "official:ateez:comeback:2026-11-19|pub:radarkpop-ateez-music": "2026-11-19T02:03:38Z",
+  "official:ateez:comeback:2026-11-19|foro": "2026-11-19T02:03:38Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2297,6 +2343,13 @@
    "c": "Múnich",
    "v": null
   },
+  "skz-auto-20261119-chicago": {
+   "g": "skz",
+   "d": "2026-11-19",
+   "s": "2026-11-19T18:00:00-06:00",
+   "c": "Chicago",
+   "v": null
+  },
   "skz-20261205-hongkong": {
    "g": "skz",
    "d": "2026-12-05",
@@ -2443,6 +2496,13 @@
    "s": "2027-06-18T18:00:00-05:00",
    "c": "Chicago",
    "v": "Soldier Field"
+  },
+  "skz-auto-20270619-chicago": {
+   "g": "skz",
+   "d": "2027-06-19",
+   "s": "2027-06-19T18:00:00-05:00",
+   "c": "Chicago",
+   "v": null
   },
   "skz-wiki-20270622-baltimore": {
    "g": "skz",
@@ -3118,10 +3178,6 @@
   }
  },
  "news_seen": [
-  "a32c521e21e1635c",
-  "a3395a5672762573",
-  "a38bb9fb18ce122b",
-  "a3a17ce2d5e1954f",
   "a3c1e207a9085e9c",
   "a3f774e214b95dd3",
   "a3f9e54ed3654523",
@@ -3266,6 +3322,7 @@
   "b29500f28a8b8bd6",
   "b297d212058d310d",
   "b29e8e12748b781d",
+  "b3061176b8a4c0d3",
   "b31196d76f3368b6",
   "b34b484780bc10c8",
   "b36782312fba7bfa",
@@ -3300,6 +3357,7 @@
   "b63dda6051f26b66",
   "b64fe69ab1855ece",
   "b65806ce2ae1449f",
+  "b65907a8b117fda7",
   "b66f1d67692b650a",
   "b67777856fcac539",
   "b6791db3d42048b5",
@@ -3720,6 +3778,7 @@
   "e772c631232a5c98",
   "e781304ba4f3dc07",
   "e7b44a3b30266ad4",
+  "e7f469a5d2bd3b1e",
   "e8010fd96c4da292",
   "e820ef418c4ff216",
   "e89f63b4fc4534fa",
@@ -3727,6 +3786,7 @@
   "e8be078e06af49dc",
   "e8cd6c36895bfd68",
   "e8f10e5fd3502615",
+  "e908d5628180edf8",
   "e92311b9b33e2f70",
   "e924263197407fb9",
   "e99ac58337c231b1",
@@ -4087,6 +4147,36 @@
     "venta"
    ],
    "t": "2026-11-18T12:12:36Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "actuara",
+    "arranca",
+    "asia",
+    "australia",
+    "dia",
+    "estadio",
+    "gira",
+    "hoy",
+    "kaohsiung",
+    "nacional"
+   ],
+   "t": "2026-11-19T02:03:32Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "anuncian",
+    "europa",
+    "gira",
+    "mundial",
+    "nortemaerica",
+    "reino",
+    "run",
+    "unido"
+   ],
+   "t": "2026-11-19T02:03:32Z"
   }
  ],
  "discord_threads": {
