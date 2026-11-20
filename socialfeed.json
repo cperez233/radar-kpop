@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-19T19:08:19Z",
+ "updated_at": "2026-11-20T01:19:40Z",
  "groups": {
   "bts": {
    "x": [
@@ -381,6 +381,11 @@
    "x": [
     {
      "title": "Stray Kids(스트레이 키즈) World Tour Tickets Open Now! (Local Time) General Sale | 2026.11.19 (THU) 3PM",
+     "url": "https://x.com/Stray_Kids/status/2123506625919267086",
+     "when": "2026-11-19T20:00:07Z"
+    },
+    {
+     "title": "Stray Kids(스트레이 키즈) World Tour Tickets Open Now! (Local Time) General Sale | 2026.11.19 (THU) 3PM",
      "url": "https://x.com/Stray_Kids/status/2123416012221730823",
      "when": "2026-11-19T14:00:03Z"
     },
@@ -398,11 +403,6 @@
      "title": "Stray Kids(스트레이 키즈) World Tour New Shows Added Ticket Open (Local Time) General Sale | 2026.11.19 (THU) 3PM #StrayKids #스트레이키즈 #R...",
      "url": "https://x.com/Stray_Kids/status/2123249924213252116",
      "when": "2026-11-19T03:00:04Z"
-    },
-    {
-     "title": "Stray Kids(스트레이 키즈) World Tour Additional Show Info Show Info 2027.06.19 (SAT) @ Soldier Field Ticket Open (Local Time) 2026.11...",
-     "url": "https://x.com/Stray_Kids/status/2123181973120369133",
-     "when": "2026-11-18T22:30:03Z"
     }
    ],
    "members": {
@@ -2264,5 +2264,5 @@
   }
  },
  "ig_cursor": 2,
- "ig_pause_until": "2026-11-20T01:08:19Z"
+ "ig_pause_until": "2026-11-20T07:19:40Z"
 }

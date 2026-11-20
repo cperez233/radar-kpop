@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-19T10:26:24Z",
+  "updated_at": "2026-11-20T01:19:08Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
-      "listeners": 28984100,
+      "listeners": 28929978,
       "listeners_peak": 46724346,
-      "streams": 51421342858,
+      "streams": 51447422592,
       "top_song": {
         "title": "Dynamite",
-        "streams": 2385569028,
+        "streams": 2386101209,
         "url": "https://open.spotify.com/track/5QDLhrAOJJdNAmCTJ8xMyW"
       },
       "yt_subs": 86500000
@@ -16,10 +16,10 @@
     "skz": {
       "listeners": 9790527,
       "listeners_peak": 14253317,
-      "streams": 15912742164,
+      "streams": 15922068081,
       "top_song": {
         "title": "God’s Menu",
-        "streams": 559357217,
+        "streams": 559574242,
         "url": "https://open.spotify.com/track/4XPXrcpyNr30Km6aPiflJy"
       },
       "yt_subs": 25700000
@@ -38,10 +38,10 @@
     "blackpink": {
       "listeners": 17881625,
       "listeners_peak": 35310315,
-      "streams": 16819413399,
+      "streams": 16823426730,
       "top_song": {
         "title": "How You Like That",
-        "streams": 1306486394,
+        "streams": 1306704104,
         "url": "https://open.spotify.com/track/4SFknyjLcyTLJFPKD2m96o"
       },
       "yt_subs": 102000000
@@ -71,10 +71,10 @@
     "enhypen": {
       "listeners": 9544637,
       "listeners_peak": 11080262,
-      "streams": 8122267670,
+      "streams": 8126807786,
       "top_song": {
         "title": "Bite Me",
-        "streams": 550243901,
+        "streams": 550469812,
         "url": "https://open.spotify.com/track/7mpdNiaQvygj2rHoxkzMfa"
       },
       "yt_subs": 14800000
@@ -99,7 +99,7 @@
         "streams": 282836569,
         "url": "https://open.spotify.com/track/34YVCoqIm08nbsxFSPL0Uh"
       },
-      "yt_subs": 7860000
+      "yt_subs": 7870000
     },
     "ateez": {
       "listeners": 7409764,

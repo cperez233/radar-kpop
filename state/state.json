@@ -2099,7 +2099,52 @@
   "news:bd8d8ed26a2da53a|feed": "2026-11-19T19:09:29Z",
   "news:8faa038fc2afebab|feed": "2026-11-19T19:09:29Z",
   "news:55bb2b03c21da10b|feed": "2026-11-19T19:09:29Z",
-  "news:fdf0a1f68f16fc99|feed": "2026-11-19T19:09:29Z"
+  "news:fdf0a1f68f16fc99|feed": "2026-11-19T19:09:29Z",
+  "new:skz:skz-tm-G5vYZ_p1sRtgV|feed": "2026-11-20T01:20:51Z",
+  "new:skz:skz-tm-G5vYZ_p1sRtgV|ntfy": "2026-11-20T01:20:51Z",
+  "new:skz:skz-tm-G5vYZ_p1sRtgV|pub:radarkpop-skz-shows": "2026-11-20T01:20:51Z",
+  "new:skz:skz-tm-G5vYZ_p1sRtgV|pub:radarkpop-pais-eeuu": "2026-11-20T01:20:51Z",
+  "new:skz:skz-tm-G5vYZ_p1sRtgV|foro": "2026-11-20T01:20:51Z",
+  "next:skz:skz-auto-20261119-munich|feed": "2026-11-20T01:20:51Z",
+  "next:skz:skz-auto-20261119-munich|ntfy": "2026-11-20T01:20:51Z",
+  "next:skz:skz-auto-20261119-munich|pub:radarkpop-skz-shows": "2026-11-20T01:20:51Z",
+  "next:skz:skz-auto-20261119-munich|foro": "2026-11-20T01:20:51Z",
+  "next:skz:skz-auto-20261119-londres|feed": "2026-11-20T01:20:51Z",
+  "next:skz:skz-auto-20261119-londres|ntfy": "2026-11-20T01:20:51Z",
+  "next:skz:skz-auto-20261119-londres|pub:radarkpop-skz-shows": "2026-11-20T01:20:51Z",
+  "next:skz:skz-auto-20261119-londres|foro": "2026-11-20T01:20:51Z",
+  "news:2dfbc78f11e7f10d|feed": "2026-11-20T01:20:51Z",
+  "news:2dfbc78f11e7f10d|ntfy": "2026-11-20T01:20:51Z",
+  "news:2dfbc78f11e7f10d|pub:radarkpop-bts-news": "2026-11-20T01:20:51Z",
+  "news:2dfbc78f11e7f10d|foro": "2026-11-20T01:20:51Z",
+  "news:eabffb426285eb58|feed": "2026-11-20T01:20:51Z",
+  "news:eabffb426285eb58|ntfy": "2026-11-20T01:20:51Z",
+  "news:eabffb426285eb58|pub:radarkpop-bts-news": "2026-11-20T01:20:51Z",
+  "news:eabffb426285eb58|foro": "2026-11-20T01:20:51Z",
+  "news:b8d46f13bd3b7884|feed": "2026-11-20T01:20:51Z",
+  "news:b8d46f13bd3b7884|ntfy": "2026-11-20T01:20:51Z",
+  "news:b8d46f13bd3b7884|pub:radarkpop-enhypen-news": "2026-11-20T01:20:51Z",
+  "news:b8d46f13bd3b7884|foro": "2026-11-20T01:20:51Z",
+  "official:skz:tour:2026-11-20|feed": "2026-11-20T01:20:51Z",
+  "official:skz:tour:2026-11-20|ntfy": "2026-11-20T01:20:51Z",
+  "official:skz:tour:2026-11-20|pub:radarkpop-skz-shows": "2026-11-20T01:20:51Z",
+  "official:skz:tour:2026-11-20|foro": "2026-11-20T01:20:51Z",
+  "official:twice:comeback:2026-11-20|feed": "2026-11-20T01:20:51Z",
+  "official:twice:comeback:2026-11-20|ntfy": "2026-11-20T01:20:51Z",
+  "official:twice:comeback:2026-11-20|pub:radarkpop-twice-music": "2026-11-20T01:20:51Z",
+  "official:twice:comeback:2026-11-20|foro": "2026-11-20T01:20:51Z",
+  "official:lngshot:comeback:2026-11-20|feed": "2026-11-20T01:20:51Z",
+  "official:lngshot:comeback:2026-11-20|ntfy": "2026-11-20T01:20:51Z",
+  "official:lngshot:comeback:2026-11-20|pub:radarkpop-lngshot-music": "2026-11-20T01:20:51Z",
+  "official:lngshot:comeback:2026-11-20|foro": "2026-11-20T01:20:51Z",
+  "official:seventeen:comeback:2026-11-20|feed": "2026-11-20T01:20:51Z",
+  "official:seventeen:comeback:2026-11-20|ntfy": "2026-11-20T01:20:51Z",
+  "official:seventeen:comeback:2026-11-20|pub:radarkpop-seventeen-music": "2026-11-20T01:20:51Z",
+  "official:seventeen:comeback:2026-11-20|foro": "2026-11-20T01:20:51Z",
+  "official:ateez:comeback:2026-11-20|feed": "2026-11-20T01:20:51Z",
+  "official:ateez:comeback:2026-11-20|ntfy": "2026-11-20T01:20:51Z",
+  "official:ateez:comeback:2026-11-20|pub:radarkpop-ateez-music": "2026-11-20T01:20:51Z",
+  "official:ateez:comeback:2026-11-20|foro": "2026-11-20T01:20:51Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -2507,6 +2552,13 @@
    "s": "2027-05-22T18:00:00-07:00",
    "c": "San Francisco",
    "v": "Levi's Stadium"
+  },
+  "skz-tm-G5vYZ_p1sRtgV": {
+   "g": "skz",
+   "d": "2027-05-22",
+   "s": "2027-05-22T19:30:00-07:00",
+   "c": "Santa Clara (San Francisco)",
+   "v": "Levi's® Stadium"
   },
   "skz-wiki-20270525-sandiego": {
    "g": "skz",
@@ -3245,9 +3297,6 @@
   }
  },
  "news_seen": [
-  "a6b854a8ff4df96b",
-  "a6c1167c72bd461a",
-  "a6c96c0b8d3de7ec",
   "a6ca41df68cba93a",
   "a72447cba5f4483d",
   "a73aadf8e148129b",
@@ -3418,6 +3467,7 @@
   "b81687ac8f169694",
   "b871e1efa582aeae",
   "b8b8bc3df5793fd2",
+  "b8d46f13bd3b7884",
   "b90a7624b0e56cc0",
   "b93fa8117cc10d17",
   "b944d67a91068117",
@@ -3851,11 +3901,13 @@
   "e9c65297789c9cfb",
   "e9d302cd6f93ce78",
   "e9f3fa36fb1c8914",
+  "ea0585adffb50578",
   "ea3df2b007090286",
   "ea4783d8f2f1ed39",
   "ea6abf6c33343bfe",
   "ea88499f5b8ad013",
   "eaacbbf21eb48d17",
+  "eabffb426285eb58",
   "eadca81f757098fe",
   "eadcdcb533c0225f",
   "eafb4e1fc39a05c0",
@@ -4048,22 +4100,6 @@
  ],
  "news_topics": [
   {
-   "g": "skz",
-   "w": [
-    "abuchean",
-    "concierto",
-    "durante",
-    "fuera",
-    "gobernadora",
-    "indira",
-    "morena",
-    "morenista",
-    "vizcaino",
-    "yuridia"
-   ],
-   "t": "2026-11-17T21:50:02Z"
-  },
-  {
    "g": "bts",
    "w": [
     "ami",
@@ -4238,6 +4274,45 @@
     "inaugura"
    ],
    "t": "2026-11-19T19:09:23Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "asia",
+    "emprendera",
+    "gira",
+    "incluira",
+    "kuala",
+    "lumpur"
+   ],
+   "t": "2026-11-20T01:20:45Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "asi",
+    "ciudad",
+    "comienza",
+    "convierte",
+    "etapa",
+    "gira",
+    "kaohsiung",
+    "morada",
+    "mundial",
+    "nueva"
+   ],
+   "t": "2026-11-20T01:20:45Z"
+  },
+  {
+   "g": "enhypen",
+   "w": [
+    "agradecimiento",
+    "concierto",
+    "fans",
+    "mbc",
+    "ofrecio"
+   ],
+   "t": "2026-11-20T01:20:45Z"
   }
  ],
  "discord_threads": {

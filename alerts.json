@@ -1,6 +1,67 @@
 {
- "updated_at": "2026-11-19T19:09:23Z",
+ "updated_at": "2026-11-20T01:20:45Z",
  "alerts": [
+  {
+   "type": "new_date",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Stray Kids agregó fechas en Santa Clara (San Francisco)",
+   "body": "22 may 2027 en Levi's® Stadium, EE. UU..",
+   "title_en": "Stray Kids added dates in Santa Clara (San Francisco)",
+   "body_en": "May 22, 2027 at Levi's® Stadium, USA.",
+   "when": "2026-11-20T01:20:45Z",
+   "url": null
+  },
+  {
+   "type": "next_stop",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Stray Kids sigue a Londres",
+   "body": "Cerró en Múnich. Siguiente parada: Londres, Reino Unido (19 nov), a unos 919 km.",
+   "title_en": "Stray Kids moves on to London",
+   "body_en": "Wrapped up in Munich. Next stop: London, United Kingdom (Nov 19), about 919 km away.",
+   "when": "2026-11-20T01:20:45Z",
+   "url": null
+  },
+  {
+   "type": "next_stop",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Stray Kids sigue a Chicago",
+   "body": "Cerró en Londres. Siguiente parada: Chicago, EE. UU. (19 nov), a unos 6.353 km.",
+   "title_en": "Stray Kids moves on to Chicago",
+   "body_en": "Wrapped up in London. Next stop: Chicago, USA (Nov 19), about 6,353 km away.",
+   "when": "2026-11-20T01:20:45Z",
+   "url": null
+  },
+  {
+   "type": "official",
+   "group": "skz",
+   "group_name": "Stray Kids",
+   "title": "Anuncio oficial de Stray Kids: gira",
+   "body": "«¡<RUN IT NORTH AMERICA>Ya están a la venta las entradas para la gira mundial de Stray Kids(스트레이 키즈)! (Hora local) Venta general | 19/11/2026 (JUE) 15:00 https://livenation.com/...» (Stray Kids en X).",
+   "title_en": "Official Stray Kids news: tour",
+   "body_en": "«Stray Kids World Tour <RUN IT NORTH AMERICA> Tickets Open Now! (Local Time) General Sale | 11/19/2026 (THU) 3:00 PM https://livenation.com/...» (Stray Kids on X).",
+   "when": "2026-11-19T20:00:07Z",
+   "url": "https://x.com/Stray_Kids/status/2123506625919267086",
+   "src_lang": "ko",
+   "body_orig": "«Stray Kids(스트레이 키즈) World Tour <RUN IT NORTH AMERICA> Tickets Open Now! (Local Time) General Sale | 2026.11.19 (THU) 3PM https://livenation.com/...» (Stray Kids en X).",
+   "auto": true
+  },
+  {
+   "type": "latam",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Latinoamérica: BTS",
+   "body": "BTS convierte a Kaohsiung en una ciudad morada: así comienza la nueva etapa de su gira mundial - El Sol de México (Google Noticias)",
+   "title_en": "Latin America: BTS",
+   "body_en": "BTS turns Kaohsiung purple: This is how the new leg of their world tour begins - El Sol de México (Google News)",
+   "when": "2026-11-19T19:18:45Z",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNnlJank4Wnc2UnYtQW9lOWFGT0lIQ1RnOWtFVWhiWjc3M2xHeWgzV2pOLXJ1MkhSeTg2QktrZG5SaDdEak1NNHVwcTRYSUY5V0F5ckdWWXJjbjhITVowSlV0TkpHSXdvQ2tadGpEQTVYRzBnRlBUN3FyRk1MMGd4VnpVSHg3V3dIOWpiSzZwcTNIblZuQ2JuVmZ1SzBUNzVTT29oVkxZN1FONjZqOU9ZcGVpazhuajU0cDVXRWFKb2JRc0RVOTVjYnJTdnVfMFE4cm1ld0NpdXdZVW9qU3VZ?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS convierte a Kaohsiung en una ciudad morada: así comienza la nueva etapa de su gira mundial - El Sol de México (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "stop_today",
    "group": "skz",
@@ -59,6 +120,20 @@
    "group": "bts",
    "group_name": "BTS",
    "title": "Gira: BTS",
+   "body": "BTS emprenderá una gira por Asia que incluirá Kuala Lumpur - bernama (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS to embark on an Asian tour that will include Kuala Lumpur - Bernama (Google News)",
+   "when": "2026-11-19T18:13:05Z",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBek4wMFg0VXRJSzRKZzJibXJCcDlEU25QNzJSa2w5VS1BTFpNbGw1N3NhdGxWREFGV2tTdG5kWUhGMEVKWF9GZUlWYkluQmVENzNYem1EV1g0M2M?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS emprenderá una gira por Asia que incluirá Kuala Lumpur - bernama (Google Noticias)",
+   "auto": true
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
    "body": "BTS lleva la gira \"ARIRANG\" a Asia con shows en siete países y una celebración urbana sin precedentes en Taiwán - Infobae (Google Noticias)",
    "title_en": "Tour: BTS",
    "body_en": "BTS takes the \"ARIRANG\" tour to Asia with shows in seven countries and an unprecedented urban celebration in Taiwan - Infobae (Google News)",
@@ -66,6 +141,20 @@
    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONUstR2FCams2VGthU2hwSDc1ZHdLN19SSng5Smo3cVJfWXJzeERESGpsejVTdXVrWVk2ZUFna2tPYlJRdkdsZkVXeWZjUGtIRWdCMksxMWtQbDRUbEg3V0M4WEd3Y0I0VXF2YU0wYkpYRE9kMVBFSzE4NURVSzdMN2pJV2duOWFmYkRBVENUaWowR2ExMnhuOG9jRjU0bXFXaDFEc25PWWFWT1hGT2dpc2EwVzZCdVVrWGplaUxmU242MDgtRmF2NGh5MUZYSjR4TWcxVVV2a2Z3UzhCczhoSGY5cGRPTThhY0c5eEprR3JmMm_SAY4CQVVfeXFMT1RUcFJLUmw5OFVVZGRvWU1TQlFRdjRERDEzZVJlUElRbEk3MFYxZnZHWVNZeVV6ZUpGT2JYX1BoamVxV292ZGl4cGxoczdORFJaQktwaVI3aDNqVjF5Z2l4ZEhOX3Npb3RzNE5sS0VFdENQUFZTZ3FXSTVXTVhBYjRsUi01Um5lSDk4Ti1lcXp4MGd4SmNLaGl2NlNfRWMzWFVqS29TVklZMlFWNFdoZmMzMmxRN2JjWmVDR0gydm1nV094YzVtajZqaUN6bzFqcnVCNENfVGhGQmp5UDVyV2lBbmxBUVE1TlhmRDRIZHpEZWl3RVpaWTIwdjVYX3JlNkd6bFRiTFhiT3d0MXpB?oc=5",
    "src_lang": "es",
    "body_orig": "BTS lleva la gira \"ARIRANG\" a Asia con shows en siete países y una celebración urbana sin precedentes en Taiwán - Infobae (Google Noticias)",
+   "auto": true
+  },
+  {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«DÍA D DEL SENCILLO DE NAYEON “NA-sty” ESTÁ A PUNTO DE PONERSE NA-sty 🖥️[NA-sty] Preservar🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 20/11/2026 VIE 14:00 KST/0...» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«NAYEON SINGLE “NA-sty” D-DAY IT’S ABOUT TO GET NA-sty 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0...» (TWICE en X).",
+   "when": "2026-11-19T15:00:02Z",
+   "url": "https://x.com/JYPETWICE/status/2123431110327853301",
+   "src_lang": "en",
+   "body_orig": "«NAYEON SINGLE “NA-sty” D-DAY IT’S ABOUT TO GET NA-sty 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0...» (TWICE en X).",
    "auto": true
   },
   {
@@ -273,6 +362,20 @@
    "auto": true
   },
   {
+   "type": "official",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Anuncio oficial de LNGSHOT: comeback",
+   "body": "«[AVISO] Aviso sobre la sesión de autógrafos para fans con motivo del lanzamiento del EP [S.W.I.S.H.] de LNGSHOT (fanflip) https://weverse.io/lngshot/notice/41169 #LNGSHOT #SWISH» (LNGSHOT en X).",
+   "title_en": "Official LNGSHOT news: comeback",
+   "body_en": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] Release Celebration Fan Signing Event Notice (Fan Leaflet) https://weverse.io/lngshot/notice/41169 #LNGSHOT #SWISH» (LNGSHOT on X).",
+   "when": "2026-11-19T06:01:17Z",
+   "url": "https://x.com/LNGSHOT4sho/status/2123295529019048432",
+   "src_lang": "ko",
+   "body_orig": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (팬플리) https://weverse.io/lngshot/notice/41169 #LNGSHOT #SWISH» (LNGSHOT en X).",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "ateez",
    "group_name": "ATEEZ",
@@ -293,6 +396,34 @@
    "body_en": "SEVENTEEN 2027 SEASON'S GREETINGS Visualizer 🐕🌱 (YouTube)",
    "when": "2026-11-19T05:00:36Z",
    "url": "https://www.youtube.com/watch?v=8bUov1GcDxk"
+  },
+  {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: comeback",
+   "body": "«Visualizador de SEVENTEEN 2027 SEASON'S GREETINGS 🐕🌱 🗓️ RESERVA: 20/11/2026 20.11 (KST) 🗓️ LANZAMIENTO: 9.12.2026 9/12 (KST) #SEVENTEEN #세븐틴 #SVT...» (SEVENTEEN en X).",
+   "title_en": "Official SEVENTEEN news: comeback",
+   "body_en": "«SEVENTEEN 2027 SEASON'S GREETINGS Visualizer 🐕🌱 🗓️ PRE-ORDER: 11/20/2026 11. 20 (KST) 🗓️ RELEASE: 2026. 12. 9 (KST) #SEVENTEEN #세븐틴 #SVT...» (SEVENTEEN on X).",
+   "when": "2026-11-19T05:00:00Z",
+   "url": "https://x.com/pledis_17/status/2123280107750224073",
+   "src_lang": "ko",
+   "body_orig": "«SEVENTEEN 2027 SEASON'S GREETINGS Visualizer 🐕🌱 🗓️ PRE-ORDER : 2026. 11. 20 (KST) 🗓️ RELEASE : 2026. 12. 9 (KST) #SEVENTEEN #세븐틴 #SVT...» (SEVENTEEN en X).",
+   "auto": true
+  },
+  {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[📢] (EE. UU.) ATEEZ - GOLDEN HOUR : Part.6 CD individual DISPONIBLE EN TIENDA EN: 📍 Tu Target local 📍 Tu Barnes & Noble local *Todos los establecimientos de EE. UU. que cumplan los requisitos...» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
+   "body_en": "«[📢] (U.S.) ATEEZ - GOLDEN HOUR : Part.6 Single CD AVAILABLE IN-STORE AT: 📍 Your Local Target 📍 Your Local Barnes & Noble *All qualifying U.S....» (ATEEZ en X).",
+   "when": "2026-11-19T02:46:02Z",
+   "url": "https://x.com/ATEEZofficial/status/2123246392848384419",
+   "src_lang": "en",
+   "body_orig": "«[📢] (U.S.) ATEEZ - GOLDEN HOUR : Part.6 Single CD AVAILABLE IN-STORE AT: 📍 Your Local Target 📍 Your Local Barnes & Noble *All qualifying U.S....» (ATEEZ en X).",
+   "auto": true
   },
   {
    "type": "tour",
@@ -589,125 +720,6 @@
    "body_en": "Yeah we go 🆙 w/ 강현 님 #Shorts (YouTube)",
    "when": "2026-11-18T12:00:31Z",
    "url": "https://www.youtube.com/watch?v=TGKsPOlmBcs"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Nuevo video: CORTIS",
-   "body": "a day in singapore (YouTube)",
-   "title_en": "New video: CORTIS",
-   "body_en": "a day in singapore (YouTube)",
-   "when": "2026-11-18T11:59:58Z",
-   "url": "https://www.youtube.com/watch?v=m1y847vZ-3I"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "[GOING SEVENTEEN] EP.167 도둑 #2 (THIEF #2) (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "[GOING SEVENTEEN] EP.167 도둑 #2 (THIEF #2) (YouTube)",
-   "when": "2026-11-18T11:58:09Z",
-   "url": "https://www.youtube.com/watch?v=FZyqm4uJa0c"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "#JAY 홀로 집에 🏠 #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "#JAY 홀로 집에 🏠 #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
-   "when": "2026-11-18T11:23:29Z",
-   "url": "https://www.youtube.com/watch?v=bwsoouDpTQo"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "롱샷 준비. 롱샷 출격. #LNGSHOT (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "롱샷 준비. 롱샷 출격. #LNGSHOT (YouTube)",
-   "when": "2026-11-18T11:00:30Z",
-   "url": "https://www.youtube.com/watch?v=sCgofMzAZT4"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "Yeah we go 🆙 w/ 휘서 님 #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "Yeah we go 🆙 w/ 휘서 님 #Shorts (YouTube)",
-   "when": "2026-11-18T11:00:27Z",
-   "url": "https://www.youtube.com/watch?v=YJi4Vai7IWA"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.06 MEXICO CITY (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "[Stray Kids : SKZ-TALKER GO! Season 6] Ep.06 MEXICO CITY (YouTube)",
-   "when": "2026-11-18T11:00:01Z",
-   "url": "https://www.youtube.com/watch?v=MJ1Vq5prNLo"
-  },
-  {
-   "type": "tour",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Gira: Stray Kids",
-   "body": "Stray Kids en concierto en París en 2027: precios de las entradas y apertura de la venta de entradas - Sortir à Paris (Google Noticias)",
-   "title_en": "Tour: Stray Kids",
-   "body_en": "Stray Kids in concert in Paris in 2027: Ticket prices and start of ticket sales - Sortir à Paris (Google News)",
-   "when": "2026-11-18T10:48:03Z",
-   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQYk1Ecjc2TVotRXVYNjVneUpiV2pMUFJUVk1sbGMtZDdmU3hjNHRRMmR5REhfSTMzRkYxckVzQlpjZ2JvSUpPcURuWnRnc0pGV0ZRVllYR2RYT3BYelNJaUtFeTZ6Y3lHNERVclhNTlhiUFVTUmdPRjFDaFZ0R3I1Q1U5LWpLSUlxaEloczRFalhEdGluazVfYU9zUkFpRmNxRC1IRWQ2RmdlamxpU2owckFMaWtNUWhuU2VTUk5uRG5NeXJBbGpWMHNiOTc0MnhHQXlBTVNrZmR2MVA0aE1ob3Y0a2tzVFpieDlsT0NrYlV1MGVHVVBodHdlaFQ5aUNFSWNuRklBc2d4Z1VmUnp1cWhBM0NTYnA2cVE?oc=5",
-   "src_lang": "es",
-   "body_orig": "Stray Kids en concierto en París en 2027: precios de las entradas y apertura de la venta de entradas - Sortir à Paris (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Anuncio oficial de Stray Kids: gira",
-   "body": "«¡<RUN IT EUROPE & UK>Ya están a la venta las entradas para la gira mundial de Stray Kids(스트레이 키즈)! (Hora local) Preventa para miembros de STAY | 18/11/2026 (MIÉR.) 11:00-14:00 https:/...» (Stray Kids en X).",
-   "title_en": "Official Stray Kids news: tour",
-   "body_en": "«Stray Kids World Tour <RUN IT EUROPE & UK> Tickets Open Now! (Local Time) STAY Membership Presale | 11/18/2026 (WED) 11 AM - 2 PM https:/...» (Stray Kids on X).",
-   "when": "2026-11-18T10:00:06Z",
-   "url": "https://x.com/Stray_Kids/status/2122993240794386880",
-   "src_lang": "ko",
-   "body_orig": "«Stray Kids(스트레이 키즈) World Tour <RUN IT EUROPE & UK> Tickets Open Now! (Local Time) STAY Membership Presale | 2026.11.18 (WED) 11AM - 2PM https:/...» (Stray Kids en X).",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "수능 대박 부적이 도착했습니다!💌 스트레이 키즈가 수험생 여러분을 응원합니다🍀 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "수능 대박 부적이 도착했습니다!💌 스트레이 키즈가 수험생 여러분을 응원합니다🍀 #StrayKids #스트레이키즈 #YouMakeStrayKidsStay (YouTube)",
-   "when": "2026-11-18T09:30:04Z",
-   "url": "https://www.youtube.com/watch?v=YfbYkfPT5l0"
-  },
-  {
-   "type": "official",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Anuncio oficial de ATEEZ: comeback",
-   "body": "«[📢] Not Like Lovin’ Me - San (ATEEZ) [Nine to Six OST] Nine to Six OST ‘Not Like Lovin’ Me’, en el que participó ATEEZ San, ha sido lanzado. El lote de ATINY...» (ATEEZ en X).",
-   "title_en": "Official ATEEZ news: comeback",
-   "body_en": "«[📢] Not Like Lovin’ Me - San (ATEEZ) [Nine to Six OST] Nine to Six OST ‘Not Like Lovin’ Me’, in which ATEEZ San participated, has been released. ATINY's lot...» (ATEEZ en X).",
-   "when": "2026-11-18T09:06:11Z",
-   "url": "https://x.com/ATEEZofficial/status/2122979670844912050",
-   "src_lang": "ko",
-   "body_orig": "«[📢] Not Like Lovin’ Me - 산(ATEEZ) [나인 투 식스 OST] 에이티즈 산이 참여한 나인 투 식스 OST 'Not Like Lovin’ Me'가 발매되었습니다. 에이티니의 많...» (ATEEZ en X).",
-   "auto": true
   }
  ]
 }
