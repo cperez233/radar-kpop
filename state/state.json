@@ -2181,7 +2181,21 @@
   "news:9f8a1529ad6b2c77|feed": "2026-11-20T17:52:56Z",
   "news:97db400f90f9652d|feed": "2026-11-20T17:52:56Z",
   "news:fe4b2b0a717816b4|feed": "2026-11-20T17:52:56Z",
-  "news:7f699a20ae505754|feed": "2026-11-20T17:52:56Z"
+  "news:7f699a20ae505754|feed": "2026-11-20T17:52:56Z",
+  "today:twice:twice-auto-20261121-seul|feed": "2026-11-20T23:54:19Z",
+  "today:twice:twice-auto-20261121-seul|ntfy": "2026-11-20T23:54:19Z",
+  "today:twice:twice-auto-20261121-seul|pub:radarkpop-twice-shows": "2026-11-20T23:54:19Z",
+  "today:twice:twice-auto-20261121-seul|pub:radarkpop-pais-coreadelsur": "2026-11-20T23:54:19Z",
+  "today:twice:twice-auto-20261121-seul|foro": "2026-11-20T23:54:19Z",
+  "today:seventeen:svt-20261121-saitama|feed": "2026-11-20T23:54:19Z",
+  "today:seventeen:svt-20261121-saitama|ntfy": "2026-11-20T23:54:19Z",
+  "today:seventeen:svt-20261121-saitama|pub:radarkpop-seventeen-shows": "2026-11-20T23:54:19Z",
+  "today:seventeen:svt-20261121-saitama|pub:radarkpop-pais-japon": "2026-11-20T23:54:19Z",
+  "today:seventeen:svt-20261121-saitama|foro": "2026-11-20T23:54:19Z",
+  "news:0ad14f3a318a1ea9|feed": "2026-11-20T23:54:19Z",
+  "news:0ad14f3a318a1ea9|ntfy": "2026-11-20T23:54:19Z",
+  "news:0ad14f3a318a1ea9|pub:radarkpop-bts-news": "2026-11-20T23:54:19Z",
+  "news:0ad14f3a318a1ea9|foro": "2026-11-20T23:54:19Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -4374,6 +4388,25 @@
     "tine"
    ],
    "t": "2026-11-20T17:52:49Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "concierto",
+    "conquista",
+    "corazon",
+    "encendio",
+    "fans",
+    "kaohsiung",
+    "medios",
+    "mercado",
+    "nocturno",
+    "redes",
+    "sociales",
+    "taiwan",
+    "visita"
+   ],
+   "t": "2026-11-20T23:54:13Z"
   }
  ],
  "discord_threads": {

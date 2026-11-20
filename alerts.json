@@ -1,6 +1,42 @@
 {
- "updated_at": "2026-11-20T17:52:49Z",
+ "updated_at": "2026-11-20T23:54:13Z",
  "alerts": [
+  {
+   "type": "stop_today",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Hoy TWICE abre en Seúl",
+   "body": "Seúl. Hora aproximada, confirma en la boletería.",
+   "title_en": "Today TWICE opens in Seoul",
+   "body_en": "Seoul. Approximate time, check with the box office.",
+   "when": "2026-11-20T23:54:13Z",
+   "url": null
+  },
+  {
+   "type": "stop_today",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Hoy SEVENTEEN abre en Saitama",
+   "body": "Belluna Dome, Saitama. Hora aproximada, confirma en la boletería.",
+   "title_en": "Today SEVENTEEN opens in Saitama",
+   "body_en": "Belluna Dome, Saitama. Approximate time, check with the box office.",
+   "when": "2026-11-20T23:54:13Z",
+   "url": null
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "BTS V, ¡conquista el corazón de los fans en Taiwán! De la concierto en Kaohsiung a la visita al mercado nocturno... encendió las redes y lo… (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS V, conquer the hearts of fans in Taiwan! From the concert in Kaohsiung to the visit to the night market... it lit up the networks and... (Google News)",
+   "when": "2026-11-20T22:48:57Z",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB5dmFlWk1CVWFvMkROU2p6WU5NbzloSk5LZzFzeFpVdGRSNzgzVGdHaG9wLVh1TzVvcjlJOVdvcFRqWEE1Qms3SVV2bXpnSjg4eTFTMXU2T0JqSkZQbE9wUmRmMk5leXBZbHpYWkJiSVJ2ODR6Tjdfdw?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS V, ¡conquista el corazón de los fans en Taiwán! De la concierto en Kaohsiung a la visita al mercado nocturno... encendió las redes y lo… (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "enhypen",
@@ -669,48 +705,6 @@
    "body_en": "SEVENTEEN 2027 SEASON'S GREETINGS Visualizer 🐕🌱 (YouTube)",
    "when": "2026-11-19T05:00:36Z",
    "url": "https://www.youtube.com/watch?v=8bUov1GcDxk"
-  },
-  {
-   "type": "official",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Anuncio oficial de SEVENTEEN: comeback",
-   "body": "«Visualizador de SEVENTEEN 2027 SEASON'S GREETINGS 🐕🌱 🗓️ RESERVA: 20/11/2026 20.11 (KST) 🗓️ LANZAMIENTO: 9.12.2026 9/12 (KST) #SEVENTEEN #세븐틴 #SVT...» (SEVENTEEN en X).",
-   "title_en": "Official SEVENTEEN news: comeback",
-   "body_en": "«SEVENTEEN 2027 SEASON'S GREETINGS Visualizer 🐕🌱 🗓️ PRE-ORDER: 11/20/2026 11. 20 (KST) 🗓️ RELEASE: 2026. 12. 9 (KST) #SEVENTEEN #세븐틴 #SVT...» (SEVENTEEN on X).",
-   "when": "2026-11-19T05:00:00Z",
-   "url": "https://x.com/pledis_17/status/2123280107750224073",
-   "src_lang": "ko",
-   "body_orig": "«SEVENTEEN 2027 SEASON'S GREETINGS Visualizer 🐕🌱 🗓️ PRE-ORDER : 2026. 11. 20 (KST) 🗓️ RELEASE : 2026. 12. 9 (KST) #SEVENTEEN #세븐틴 #SVT...» (SEVENTEEN en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Anuncio oficial de ATEEZ: comeback",
-   "body": "«[📢] (EE. UU.) ATEEZ - GOLDEN HOUR : Part.6 CD individual DISPONIBLE EN TIENDA EN: 📍 Tu Target local 📍 Tu Barnes & Noble local *Todos los establecimientos de EE. UU. que cumplan los requisitos...» (ATEEZ en X).",
-   "title_en": "Official ATEEZ news: comeback",
-   "body_en": "«[📢] (U.S.) ATEEZ - GOLDEN HOUR : Part.6 Single CD AVAILABLE IN-STORE AT: 📍 Your Local Target 📍 Your Local Barnes & Noble *All qualifying U.S....» (ATEEZ en X).",
-   "when": "2026-11-19T02:46:02Z",
-   "url": "https://x.com/ATEEZofficial/status/2123246392848384419",
-   "src_lang": "en",
-   "body_orig": "«[📢] (U.S.) ATEEZ - GOLDEN HOUR : Part.6 Single CD AVAILABLE IN-STORE AT: 📍 Your Local Target 📍 Your Local Barnes & Noble *All qualifying U.S....» (ATEEZ en X).",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS iniciará la etapa por 9 ciudades de Asia y Australia de su gira mundial 'Arirang' - Agencia de Noticias Yonhap (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS to kick off the 9-city Asian and Australian leg of their 'Arirang' world tour - Yonhap News Agency (Google News)",
-   "when": "2026-11-19T02:16:34Z",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zbFpIOXk0TUJBWEQ2WTdUZ205SThybUFTNjlyV001VmFYN0JKS05SY0hQOTBOQVJBMTZwSVFqVHBRdFFMTVVtX1Q5VU9NdGZpM1ZpT0FKRlhaUQ?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS iniciará la etapa por 9 ciudades de Asia y Australia de su gira mundial 'Arirang' - Agencia de Noticias Yonhap (Google Noticias)",
-   "auto": true
   }
  ]
 }
