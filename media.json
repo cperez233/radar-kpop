@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20T09:00:45Z",
+ "updated_at": "2026-11-20T17:50:39Z",
  "sample": false,
  "items": [
   {
@@ -76,7 +76,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-20T09",
+   "ytm_try": "2026-11-20T17",
    "sp_try": "2026-11-20"
   },
   {
@@ -87,6 +87,15 @@
    "published": "2026-11-20T08:59:55Z",
    "url": "https://www.youtube.com/watch?v=7XD8xQxiGUg",
    "image": "https://i.ytimg.com/vi/7XD8xQxiGUg/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "Fascinated?🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-20",
+   "published": "2026-11-20T11:13:20Z",
+   "url": "https://www.youtube.com/watch?v=qBhUV4aLpGc",
+   "image": "https://i.ytimg.com/vi/qBhUV4aLpGc/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -108,12 +117,12 @@
   },
   {
    "type": "video",
-   "group": "twice",
-   "title": "BABY ANGEL spotted! 👼 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL #CGV #KPOPLIVE #LIVEPOP",
+   "group": "lngshot",
+   "title": "곧 해낼 것 같아 샷티의 롱샷이🩶 thank you SHOTTIES🫶 #LNGSHOT #SHOTTIES #2026MAMA",
    "date": "2026-11-20",
-   "published": "2026-11-20T06:00:29Z",
-   "url": "https://www.youtube.com/watch?v=uhza_wdueVg",
-   "image": "https://i.ytimg.com/vi/uhza_wdueVg/hqdefault.jpg"
+   "published": "2026-11-20T14:31:31Z",
+   "url": "https://www.youtube.com/watch?v=pruqq60zkL8",
+   "image": "https://i.ytimg.com/vi/pruqq60zkL8/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -126,21 +135,57 @@
   },
   {
    "type": "video",
-   "group": "enhypen",
-   "title": "ENHYPEN (엔하이픈) ‘I Want You’ 응원법",
+   "group": "seventeen",
+   "title": "JEONGHAN X JOSHUA (SEVENTEEN) ‘DREAMSCAPE’ Dance Practice & Promotions BEHIND THE SCENES",
    "date": "2026-11-20",
-   "published": "2026-11-20T05:30:03Z",
-   "url": "https://www.youtube.com/watch?v=bok8d30O9V8",
-   "image": "https://i.ytimg.com/vi/bok8d30O9V8/hqdefault.jpg"
+   "published": "2026-11-20T13:00:03Z",
+   "url": "https://www.youtube.com/watch?v=-BMhemGBTu0",
+   "image": "https://i.ytimg.com/vi/-BMhemGBTu0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "친구랑 파인다이닝 갈 때 추천룩 #정답행 #EP1",
+   "date": "2026-11-20",
+   "published": "2026-11-20T11:00:00Z",
+   "url": "https://www.youtube.com/watch?v=xMjeFTD2r-g",
+   "image": "https://i.ytimg.com/vi/xMjeFTD2r-g/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "enhypen",
-   "title": "#2026MAMAAWARDS COMING SOON 🏜️ VOTE FOR #ENHYPEN 💕 #MAMAAWARDS",
+   "title": "꿈을 넘어서 #EN_IWantYou 🫵💕#THE_SIN_PARALLEL_WORLD #ENHYPEN",
    "date": "2026-11-20",
-   "published": "2026-11-20T04:17:29Z",
-   "url": "https://www.youtube.com/watch?v=rWKVDfwrvs0",
-   "image": "https://i.ytimg.com/vi/rWKVDfwrvs0/hqdefault.jpg"
+   "published": "2026-11-20T15:41:00Z",
+   "url": "https://www.youtube.com/watch?v=v_EeNo2P1bg",
+   "image": "https://i.ytimg.com/vi/v_EeNo2P1bg/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "운명을 넘어 #EN_IWantYou 🫵💕#THE_SIN_PARALLEL_WORLD #ENHYPEN",
+   "date": "2026-11-20",
+   "published": "2026-11-20T15:37:36Z",
+   "url": "https://www.youtube.com/watch?v=GV2v1br3XQM",
+   "image": "https://i.ytimg.com/vi/GV2v1br3XQM/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "변하지 않을 #엔하이픈이 될게요! Thank you, ENGENE! Love you always ❤️ #ENHYPEN #2026MAMA #MAMAAWARDS",
+   "date": "2026-11-20",
+   "published": "2026-11-20T14:29:48Z",
+   "url": "https://www.youtube.com/watch?v=ZDViEJWNHjk",
+   "image": "https://i.ytimg.com/vi/ZDViEJWNHjk/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "오른손잡이는 어때요 #CORTIS #코르티스",
+   "date": "2026-11-20",
+   "published": "2026-11-20T15:18:50Z",
+   "url": "https://www.youtube.com/watch?v=fp5UxJcaQ3o",
+   "image": "https://i.ytimg.com/vi/fp5UxJcaQ3o/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -150,6 +195,15 @@
    "published": "2026-11-20T04:00:33Z",
    "url": "https://www.youtube.com/watch?v=lJ5AikYRFjg",
    "image": "https://i.ytimg.com/vi/lJ5AikYRFjg/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "Switch 🆙 #Shorts",
+   "date": "2026-11-20",
+   "published": "2026-11-20T13:00:20Z",
+   "url": "https://www.youtube.com/watch?v=w1lsKHPY8E8",
+   "image": "https://i.ytimg.com/vi/w1lsKHPY8E8/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -168,15 +222,6 @@
    "published": "2026-11-20T08:00:21Z",
    "url": "https://www.youtube.com/watch?v=BHfxU86WW4w",
    "image": "https://i.ytimg.com/vi/BHfxU86WW4w/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "Level 🆙 #Shorts",
-   "date": "2026-11-20",
-   "published": "2026-11-20T07:00:21Z",
-   "url": "https://www.youtube.com/watch?v=nQuLwidErhY",
-   "image": "https://i.ytimg.com/vi/nQuLwidErhY/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -207,15 +252,6 @@
   },
   {
    "type": "video",
-   "group": "lngshot",
-   "title": "LNGSHOT X L:A BRUKET | Behind the Scenes",
-   "date": "2026-11-19",
-   "published": "2026-11-19T09:30:04Z",
-   "url": "https://www.youtube.com/watch?v=76nx7qY-4r0",
-   "image": "https://i.ytimg.com/vi/76nx7qY-4r0/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "seventeen",
    "title": "[INSIDE SEVENTEEN] 2026 디노X피철인 [吉BOARD SHOW] BEHIND #3",
    "date": "2026-11-19",
@@ -225,48 +261,12 @@
   },
   {
    "type": "video",
-   "group": "seventeen",
-   "title": "#꼬잉_픽📌 콩트의 악마 부승공 씨의 등장 #SEVENTEEN #세븐틴 #GOING_SVT #고잉세븐틴 #shorts",
-   "date": "2026-11-19",
-   "published": "2026-11-19T12:00:08Z",
-   "url": "https://www.youtube.com/watch?v=socmAUCAuxg",
-   "image": "https://i.ytimg.com/vi/socmAUCAuxg/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "SEVENTEEN 2027 SEASON'S GREETINGS  Visualizer 🐕🌱",
-   "date": "2026-11-19",
-   "published": "2026-11-19T05:00:36Z",
-   "url": "https://www.youtube.com/watch?v=8bUov1GcDxk",
-   "image": "https://i.ytimg.com/vi/8bUov1GcDxk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "#WeverseConFestivalIndia ready with a surprise 🎁 Can’t wait for India ✨#ENHYPEN #HYBEINDIA",
-   "date": "2026-11-19",
-   "published": "2026-11-19T13:11:18Z",
-   "url": "https://www.youtube.com/watch?v=cYDG0rfXjBg",
-   "image": "https://i.ytimg.com/vi/cYDG0rfXjBg/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "cortis",
    "title": "아 이게 아닌데 #CORTIS #코르티스",
    "date": "2026-11-19",
    "published": "2026-11-19T14:00:38Z",
    "url": "https://www.youtube.com/watch?v=fQklzBEO9VY",
    "image": "https://i.ytimg.com/vi/fQklzBEO9VY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "같이 소원 빌 사람 #CORTIS #코르티스 #CORTIS_MONEYMONEYMONEY",
-   "date": "2026-11-19",
-   "published": "2026-11-19T11:00:33Z",
-   "url": "https://www.youtube.com/watch?v=pW1dp5lsPRU",
-   "image": "https://i.ytimg.com/vi/pW1dp5lsPRU/hqdefault.jpg"
   },
   {
    "type": "music",
@@ -284,7 +284,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/c9/79/6ac97982-749a-b44d-dbd4-25a4bad8d1a1/mzaf_130015778819592854.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-20T09",
+   "ytm_try": "2026-11-20T17",
    "sp_try": "2026-11-20"
   },
   {
@@ -324,7 +324,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-20T09"
+   "ytm_try": "2026-11-20T17"
   },
   {
    "type": "music",
@@ -363,7 +363,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-20T09"
+   "ytm_try": "2026-11-20T17"
   },
   {
    "type": "video",
@@ -600,7 +600,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-20T09",
+   "ytm_try": "2026-11-20T17",
    "sp_try": "2026-11-20"
   },
   {
@@ -1303,7 +1303,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-20T09"
+   "ytm_try": "2026-11-20T17"
   },
   {
    "type": "music",

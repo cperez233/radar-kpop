@@ -2164,7 +2164,24 @@
   "news:c5c59a9ec5728000|feed": "2026-11-20T09:02:31Z",
   "news:77c5bf72c9b79e94|feed": "2026-11-20T09:02:31Z",
   "news:241ed2e318974f0e|feed": "2026-11-20T09:02:31Z",
-  "news:d633e3e35085a60e|feed": "2026-11-20T09:02:31Z"
+  "news:d633e3e35085a60e|feed": "2026-11-20T09:02:31Z",
+  "news:7e99591ee4030abe|feed": "2026-11-20T17:52:56Z",
+  "news:7e99591ee4030abe|ntfy": "2026-11-20T17:52:56Z",
+  "news:7e99591ee4030abe|pub:radarkpop-bts-news": "2026-11-20T17:52:56Z",
+  "news:7e99591ee4030abe|foro": "2026-11-20T17:52:56Z",
+  "news:c8ffc17f0ad8113b|feed": "2026-11-20T17:52:56Z",
+  "news:c8ffc17f0ad8113b|ntfy": "2026-11-20T17:52:56Z",
+  "news:c8ffc17f0ad8113b|pub:radarkpop-bts-news": "2026-11-20T17:52:56Z",
+  "news:c8ffc17f0ad8113b|foro": "2026-11-20T17:52:56Z",
+  "news:d4afc10294dbe47f|feed": "2026-11-20T17:52:56Z",
+  "news:5c419de9010c1ec0|feed": "2026-11-20T17:52:56Z",
+  "news:af1012638cb084a2|feed": "2026-11-20T17:52:56Z",
+  "news:95e89e942bfed1d5|feed": "2026-11-20T17:52:56Z",
+  "news:92c6fa3b852f38c8|feed": "2026-11-20T17:52:56Z",
+  "news:9f8a1529ad6b2c77|feed": "2026-11-20T17:52:56Z",
+  "news:97db400f90f9652d|feed": "2026-11-20T17:52:56Z",
+  "news:fe4b2b0a717816b4|feed": "2026-11-20T17:52:56Z",
+  "news:7f699a20ae505754|feed": "2026-11-20T17:52:56Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3317,23 +3334,6 @@
   }
  },
  "news_seen": [
-  "a8aec50c249ff68f",
-  "a8cc82c0ccbdff91",
-  "a8d34f7a2a8aa074",
-  "a8df32e9f180bd02",
-  "a8e8ec7dde77f756",
-  "a90596ae3c0c90f4",
-  "a9212f4983ee92b9",
-  "a9290dba7c903e38",
-  "a950bb914faf44b0",
-  "a96272dccadc4b1c",
-  "a9635cb44733bf5e",
-  "a964c8060216ff4c",
-  "a9d9454ce93c6e21",
-  "a9fe336bc33c5333",
-  "aa252b6cb401facd",
-  "aa26268631739546",
-  "aa2d7110392ee33d",
   "aa2e9b982ea9443b",
   "aa3a90c3ee991629",
   "aa43f8e08837f26d",
@@ -3381,6 +3381,7 @@
   "aeca8fbcd3184748",
   "aef3b1482e3049fa",
   "af02342024848869",
+  "af1012638cb084a2",
   "af4be65657634118",
   "af9f307a48274da9",
   "aff012458a449b86",
@@ -3391,6 +3392,7 @@
   "b096109a7dda99a3",
   "b0bea9e7f5f79574",
   "b0f48e43497afca6",
+  "b0fdac4c2df47e52",
   "b0ff906f396a27d4",
   "b1145b5b44fb7cea",
   "b1413ae9d08af5c8",
@@ -3483,6 +3485,7 @@
   "ba36e88456e5fdd0",
   "ba6a816ae3d30632",
   "ba71ef19905f987b",
+  "ba7eb0e313ca0a56",
   "baab2ae5143b7e41",
   "baf9542031aa987f",
   "baffdb70106f1b7b",
@@ -3524,6 +3527,7 @@
   "be371576d559f700",
   "be49ee0653695c60",
   "be6e39240b6731d2",
+  "be6fca8d5f82871f",
   "be7782d1f887eba9",
   "be888f96ca3c2ca5",
   "be89b4886554962a",
@@ -3552,6 +3556,7 @@
   "c0e6a0a404b4032c",
   "c10c12dc97364372",
   "c127aba58cbbb6f3",
+  "c154cc962b0c4d5a",
   "c203f9eda8404a2c",
   "c233f103b025ddd3",
   "c24bc299f41ceb9a",
@@ -3616,6 +3621,7 @@
   "c8a5b7edba2ce17f",
   "c8c7e5d61ca24a51",
   "c8efc95d0789bdf1",
+  "c8ffc17f0ad8113b",
   "c900372433f3974c",
   "c917979fed8e5d11",
   "c92fce943c2cb151",
@@ -3638,6 +3644,7 @@
   "cb0f18c18551703f",
   "cb2b13f0320e4669",
   "cb9aee1abb461146",
+  "cbd91538b0bac487",
   "cc0d1c687b9a1288",
   "cc15a4364f5c37b0",
   "cc37a3501c42ea08",
@@ -3735,6 +3742,7 @@
   "d436d7f53d04e7e6",
   "d49b948db0bdfcf3",
   "d49f1592d287c649",
+  "d4afc10294dbe47f",
   "d4c624b495b2ce9c",
   "d4c9df50f3292907",
   "d4e3dab0279b83d7",
@@ -3824,6 +3832,7 @@
   "ddfc60117f951dd7",
   "de54a24554f9039d",
   "de5be50aeee3978e",
+  "de77010895759905",
   "de84b9dba50e60a1",
   "de878f2d175ca008",
   "deb871d83eaff2cc",
@@ -3843,6 +3852,7 @@
   "dfa14e6795e46add",
   "dfbb17bf28defa09",
   "dfd57fd34c7c39b8",
+  "dffcaa7413f12b41",
   "e0188d1ce76adebb",
   "e02a3496ca9f6d45",
   "e033a5889e71c195",
@@ -3871,6 +3881,7 @@
   "e3a39d2d8541709d",
   "e3c8ffdfdd5eb953",
   "e3e5fc804ec1b725",
+  "e3e8317b729c1cab",
   "e410e76912425b5a",
   "e413510df0918aa4",
   "e42c8f7751bc019b",
@@ -3967,6 +3978,7 @@
   "ee93d1e2a0a0ba5c",
   "eea80170864408f0",
   "eeb02a951a080561",
+  "ef13ad826bcf7390",
   "ef28705e5a7b737d",
   "ef34cba26af2582b",
   "ef3bc859f6c87e5c",
@@ -3996,6 +4008,7 @@
   "f26af648e9a8b18b",
   "f26dd924d89670c4",
   "f28878003d4a6fd0",
+  "f28ddc08ecd8601b",
   "f298336dde47c441",
   "f298c391ed7fa6ae",
   "f2a43ad1ae955d37",
@@ -4034,6 +4047,7 @@
   "f679a0c04f86ea7e",
   "f6867dc340c1b8e4",
   "f695cb531ed6f29a",
+  "f69a311be2853436",
   "f6bfdc7acd7cf89f",
   "f6c687f5ef32b355",
   "f6fc08a530724648",
@@ -4052,6 +4066,7 @@
   "f8bd057a6b663c21",
   "f8c22c8e360cd198",
   "f8c50587e2b7c4c3",
+  "f8cd0f33e1751818",
   "f8fcb9da9d31d52e",
   "f90da27388d6f25e",
   "f91fa7623939ac18",
@@ -4084,6 +4099,7 @@
   "fc801bb7668ad54b",
   "fc951866a6422435",
   "fca102204bef1f4e",
+  "fcae419c7bb6b978",
   "fcc5d1953a5f1c97",
   "fce6a6e3e0113e5f",
   "fcec910969990478",
@@ -4102,6 +4118,7 @@
   "fdf0a1f68f16fc99",
   "fe0c742a7bb314e3",
   "fe382faa86082acd",
+  "fe4b2b0a717816b4",
   "fe976a0a49f20371",
   "fea57120d0712dc9",
   "fea5af9c7eee9880",
@@ -4119,51 +4136,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "ami",
-    "bora",
-    "ciudad",
-    "completamente",
-    "concierto",
-    "eyes",
-    "gigantes",
-    "hae",
-    "kaohsiung",
-    "morado",
-    "pantallas",
-    "quiero",
-    "semaforos",
-    "tine"
-   ],
-   "t": "2026-11-18T12:12:36Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "arirang",
-    "kaohsiung",
-    "live",
-    "tour",
-    "viewing",
-    "world"
-   ],
-   "t": "2026-11-18T12:12:36Z"
-  },
-  {
-   "g": "skz",
-   "w": [
-    "2027",
-    "apertura",
-    "concierto",
-    "entradas",
-    "paris",
-    "precios",
-    "venta"
-   ],
-   "t": "2026-11-18T12:12:36Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -4349,6 +4321,59 @@
     "ver"
    ],
    "t": "2026-11-20T09:02:25Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "concierto",
+    "congregan",
+    "decenas",
+    "escena",
+    "escuchar",
+    "exterior",
+    "eyes",
+    "filtra",
+    "incluso",
+    "intentando",
+    "inusual",
+    "kaohsiung",
+    "miles",
+    "recinto",
+    "sonido"
+   ],
+   "t": "2026-11-20T17:52:49Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arranca",
+    "gira",
+    "kaohsiung",
+    "llena",
+    "mundial",
+    "purpura"
+   ],
+   "t": "2026-11-20T17:52:49Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "ami",
+    "bora",
+    "ciudad",
+    "completamente",
+    "concierto",
+    "eyes",
+    "gigantes",
+    "hae",
+    "kaohsiung",
+    "morado",
+    "pantallas",
+    "quiero",
+    "semaforos",
+    "tine"
+   ],
+   "t": "2026-11-20T17:52:49Z"
   }
  ],
  "discord_threads": {

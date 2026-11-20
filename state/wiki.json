@@ -50,11 +50,11 @@
  ],
  "fails": 0,
  "last_discovery": "2026-11-17T21:47:43Z",
- "last_run": "2026-11-20T09:00:21Z",
+ "last_run": "2026-11-20T17:50:16Z",
  "pages": {
   "Arirang World Tour": {
-   "fetched": "2026-11-19T19:07:23Z",
-   "revid": 1386609758,
+   "fetched": "2026-11-20T17:50:16Z",
+   "revid": 1386790608,
    "rows": [
     {
      "cancelled": false,

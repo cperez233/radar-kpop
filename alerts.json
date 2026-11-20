@@ -1,6 +1,105 @@
 {
- "updated_at": "2026-11-20T09:02:25Z",
+ "updated_at": "2026-11-20T17:52:49Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "꿈을 넘어서 #EN_IWantYou 🫵💕#THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "꿈을 넘어서 #EN_IWantYou 🫵💕#THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "when": "2026-11-20T15:41:00Z",
+   "url": "https://www.youtube.com/watch?v=v_EeNo2P1bg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "운명을 넘어 #EN_IWantYou 🫵💕#THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "운명을 넘어 #EN_IWantYou 🫵💕#THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "when": "2026-11-20T15:37:36Z",
+   "url": "https://www.youtube.com/watch?v=GV2v1br3XQM"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "오른손잡이는 어때요 #CORTIS #코르티스 (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "오른손잡이는 어때요 #CORTIS #코르티스 (YouTube)",
+   "when": "2026-11-20T15:18:50Z",
+   "url": "https://www.youtube.com/watch?v=fp5UxJcaQ3o"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "곧 해낼 것 같아 샷티의 롱샷이🩶 thank you SHOTTIES🫶 #LNGSHOT #SHOTTIES #2026MAMA (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "곧 해낼 것 같아 샷티의 롱샷이🩶 thank you SHOTTIES🫶 #LNGSHOT #SHOTTIES #2026MAMA (YouTube)",
+   "when": "2026-11-20T14:31:31Z",
+   "url": "https://www.youtube.com/watch?v=pruqq60zkL8"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "변하지 않을 #엔하이픈이 될게요! Thank you, ENGENE! Love you always ❤️ #ENHYPEN #2026MAMA #MAMAAWARDS (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "변하지 않을 #엔하이픈이 될게요! Thank you, ENGENE! Love you always ❤️ #ENHYPEN #2026MAMA #MAMAAWARDS (YouTube)",
+   "when": "2026-11-20T14:29:48Z",
+   "url": "https://www.youtube.com/watch?v=ZDViEJWNHjk"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "Switch 🆙 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "Switch 🆙 #Shorts (YouTube)",
+   "when": "2026-11-20T13:00:20Z",
+   "url": "https://www.youtube.com/watch?v=w1lsKHPY8E8"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "JEONGHAN X JOSHUA (SEVENTEEN) ‘DREAMSCAPE’ Dance Practice & Promotions BEHIND THE SCENES (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "JEONGHAN X JOSHUA (SEVENTEEN) ‘DREAMSCAPE’ Dance Practice & Promotions BEHIND THE SCENES (YouTube)",
+   "when": "2026-11-20T13:00:03Z",
+   "url": "https://www.youtube.com/watch?v=-BMhemGBTu0"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "Fascinated?🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "Fascinated?🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "when": "2026-11-20T11:13:20Z",
+   "url": "https://www.youtube.com/watch?v=qBhUV4aLpGc"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "친구랑 파인다이닝 갈 때 추천룩 #정답행 #EP1 (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "친구랑 파인다이닝 갈 때 추천룩 #정답행 #EP1 (YouTube)",
+   "when": "2026-11-20T11:00:00Z",
+   "url": "https://www.youtube.com/watch?v=xMjeFTD2r-g"
+  },
   {
    "type": "next_stop",
    "group": "skz",
@@ -33,6 +132,20 @@
    "body_en": "𝖍𝖔𝖑𝖞? 𝖒𝖔𝖑𝖞😆 #StrayKids #스트레이키즈 #리노 #LeeKnow #YouMakeStrayKidsStay (YouTube)",
    "when": "2026-11-20T08:59:55Z",
    "url": "https://www.youtube.com/watch?v=7XD8xQxiGUg"
+  },
+  {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "BTS: escena inusual en el exterior del recinto de concierto en Kaohsiung... decenas de miles se congregan intentando escuchar incluso el so… (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS: unusual scene outside the concert venue in Kaohsiung... tens of thousands gather trying to hear even the sound... (Google News)",
+   "when": "2026-11-20T08:48:58Z",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UTVVyOGEwQjV2TXNpTndQUk5adVdqR0NUM0xoaDIzUmxfT1JmTWEwQUtiUjVnc29odTdLMHRGSExOQzlLMm9oZDNsdWhfZ2o2amdBeElmQUhNbi1vX2dvWFpLZDFrZ0JRcmhIbl91SWx1aWdkZkVFQQ?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS: escena inusual en el exterior del recinto de concierto en Kaohsiung... decenas de miles se congregan intentando escuchar incluso el so… (Google Noticias)",
+   "auto": true
   },
   {
    "type": "video",
@@ -483,6 +596,20 @@
    "url": "https://www.youtube.com/watch?v=00rj7iYk2iM"
   },
   {
+   "type": "tour",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Gira: BTS",
+   "body": "BTS llena de púrpura Kaohsiung: arranca su gira mundial - Reporte Asia (Google Noticias)",
+   "title_en": "Tour: BTS",
+   "body_en": "BTS full of purple Kaohsiung: their world tour begins - Asia Report (Google News)",
+   "when": "2026-11-19T08:00:00Z",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWXdxVjRic0Z0bXZ0Nzd4MzQ0cWE5dUFoM2N5RWstTTBhZlV1V3ZVdEJRTjE2TEw0aVYwQ2g3Z2NlQmJDZzVDSlRFRzA0UWFfcUNqOXJOSW1MQnluVXh4ZGpTOU9JQWlQU0Y5NGlGTnhDZ0FWd2VodlBFNXpUa1hGeVdZNzBHODhPaHZZelV1c2lZQV9QX1gxR0hCRTFmUQ?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS llena de púrpura Kaohsiung: arranca su gira mundial - Reporte Asia (Google Noticias)",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "lngshot",
    "group_name": "LNGSHOT",
@@ -583,133 +710,6 @@
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zbFpIOXk0TUJBWEQ2WTdUZ205SThybUFTNjlyV001VmFYN0JKS05SY0hQOTBOQVJBMTZwSVFqVHBRdFFMTVVtX1Q5VU9NdGZpM1ZpT0FKRlhaUQ?oc=5",
    "src_lang": "es",
    "body_orig": "BTS iniciará la etapa por 9 ciudades de Asia y Australia de su gira mundial 'Arirang' - Agencia de Noticias Yonhap (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Chicago (por confirmar)",
-   "body": "19 nov, 19 jun 2027, EE. UU.. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Chicago (to be confirmed)",
-   "body_en": "Nov 19, Jun 19, 2027, USA.",
-   "when": "2026-11-19T02:03:32Z",
-   "url": "https://x.com/Stray_Kids/status/2123181973120369133"
-  },
-  {
-   "type": "stop_today",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Hoy BTS abre en Kaohsiung",
-   "body": "Kaohsiung National Stadium, Kaohsiung. Hora aproximada, confirma en la boletería.",
-   "title_en": "Today BTS opens in Kaohsiung",
-   "body_en": "Kaohsiung National Stadium, Kaohsiung. Approximate time, check with the box office.",
-   "when": "2026-11-19T02:03:32Z",
-   "url": null
-  },
-  {
-   "type": "next_stop",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids sigue a Múnich",
-   "body": "Cerró en Londres. Siguiente parada: Múnich, Alemania (19 nov), a unos 919 km.",
-   "title_en": "Stray Kids moves on to Munich",
-   "body_en": "Wrapped up in London. Next stop: Munich, Germany (Nov 19), about 919 km away.",
-   "when": "2026-11-19T02:03:32Z",
-   "url": null
-  },
-  {
-   "type": "arrival_official",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Posible llegada de Stray Kids a Chicago",
-   "body": "Lo publicó Stray Kids en X: «Stray Kids(스트레이 키즈) World Tour <RUN IT CHICAGO> Additional Show Info Show Info 2027.06.19 (SAT) @ Soldier Field Ticket Open (Local Time) 20…». Salió de su cuenta oficial.",
-   "title_en": "Stray Kids may have arrived in Chicago",
-   "body_en": "Posted by Stray Kids en X: \"Stray Kids(스트레이 키즈) World Tour <RUN IT CHICAGO> Additional Show Info Show Info 2027.06.19 (SAT) @ Soldier Field Ticket Open (Local Time) 20…\". From their official account.",
-   "when": "2026-11-18T22:30:03Z",
-   "url": "https://x.com/Stray_Kids/status/2123181973120369133"
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS, ¡actuará en el Estadio Nacional de Kaohsiung! Hoy (día 19) arranca su gira por Asia y Australia - 스타뉴스 (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS will perform at the Kaohsiung National Stadium! Today (the 19th) their tour of Asia and Australia starts - 스타뉴스 (Google News)",
-   "when": "2026-11-18T22:27:11Z",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8xMEQyaURMbnFYUGZzc01WczE3eVdYa0NUQzhKb1BJY2JLdEdpQnlTYUxIeHNncFI4TU5US2FSdUppMHJlMzNwRlVIMVZyU0JQeGFyRElsM2MtR0plVDlwSGxZTlVaOWY4RnRUOWlxLWgyT0NiOHlKZw?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS, ¡actuará en el Estadio Nacional de Kaohsiung! Hoy (día 19) arranca su gira por Asia y Australia - 스타뉴스 (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Múnich (por confirmar)",
-   "body": "19 nov, 10 jul 2027, 18 jul 2027, 28 jul 2027, Alemania. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Munich (to be confirmed)",
-   "body_en": "Nov 19, Jul 10, 2027, Jul 18, 2027, Jul 28, 2027, Germany.",
-   "when": "2026-11-18T20:39:21Z",
-   "url": "https://x.com/Stray_Kids/status/2123083820455080224"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Londres (por confirmar)",
-   "body": "19 nov, 14 jul 2027, Reino Unido. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in London (to be confirmed)",
-   "body_en": "Nov 19, Jul 14, 2027, United Kingdom.",
-   "when": "2026-11-18T20:39:21Z",
-   "url": "https://x.com/Stray_Kids/status/2123078794517070023"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en París (por confirmar)",
-   "body": "10 jul 2027, 18 jul 2027 en Plenitude Arena, Francia. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Paris (to be confirmed)",
-   "body_en": "Jul 10, 2027, Jul 18, 2027 at Plenitude Arena, France.",
-   "when": "2026-11-18T20:39:21Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "new_date",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids agregó fechas en Arnhem (por confirmar)",
-   "body": "28 jul 2027 en GelreDome, Países Bajos. Salió de un anuncio; la hora y los detalles están por confirmar.",
-   "title_en": "Stray Kids added dates in Arnhem (to be confirmed)",
-   "body_en": "Jul 28, 2027 at GelreDome, Netherlands.",
-   "when": "2026-11-18T20:39:21Z",
-   "url": "https://en.wikipedia.org/wiki/Run_It_World_Tour"
-  },
-  {
-   "type": "stop_today",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Hoy Stray Kids abre en Londres",
-   "body": "Londres. Hora aproximada, confirma en la boletería.",
-   "title_en": "Today Stray Kids opens in London",
-   "body_en": "London. Approximate time, check with the box office.",
-   "when": "2026-11-18T20:39:21Z",
-   "url": null
-  },
-  {
-   "type": "comeback",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "💿 Hoy sale «여행 좋지 좋은데» de SEVENTEEN",
-   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
-   "title_en": "💿 SEVENTEEN's «여행 좋지 좋은데» is out today",
-   "body_en": "You can listen to it now! (Or in a few hours, depending on your time zone.)",
-   "when": "2026-11-18T20:39:21Z",
-   "url": "https://x.com/pledis_17/status/2121453186141900812",
-   "src_lang": "es",
-   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
    "auto": true
   }
  ]

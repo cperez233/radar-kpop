@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T01:19:08Z",
+  "updated_at": "2026-11-20T17:51:14Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
@@ -14,7 +14,7 @@
       "yt_subs": 86500000
     },
     "skz": {
-      "listeners": 9790527,
+      "listeners": 9796940,
       "listeners_peak": 14253317,
       "streams": 15922068081,
       "top_song": {
@@ -25,18 +25,18 @@
       "yt_subs": 25700000
     },
     "twice": {
-      "listeners": 14134022,
+      "listeners": 14133856,
       "listeners_peak": 27003979,
-      "streams": 13085330244,
+      "streams": 13089061932,
       "top_song": {
         "title": "What is Love?",
-        "streams": 719459671,
+        "streams": 719825895,
         "url": "https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y"
       },
       "yt_subs": 19500000
     },
     "blackpink": {
-      "listeners": 17881625,
+      "listeners": 17880069,
       "listeners_peak": 35310315,
       "streams": 16823426730,
       "top_song": {
@@ -47,15 +47,15 @@
       "yt_subs": 102000000
     },
     "lngshot": {
-      "streams": 404487383,
+      "streams": 413075440,
       "top_song": {
         "title": "Moonwalkin'",
-        "streams": 122746196,
+        "streams": 123721681,
         "url": "https://open.spotify.com/track/46V2ciN6F5bxjQWityNhkY"
       },
-      "listeners": 4601389,
+      "listeners": 4669885,
       "listeners_peak": 6085028,
-      "yt_subs": 2200000
+      "yt_subs": 2210000
     },
     "seventeen": {
       "streams": 8464888708,
@@ -64,12 +64,12 @@
         "streams": 330353078,
         "url": "https://open.spotify.com/track/3ZpfXyQgcqdSA1TGNc7Ret"
       },
-      "listeners": 4369598,
+      "listeners": 4360775,
       "listeners_peak": 9240435,
       "yt_subs": 18200000
     },
     "enhypen": {
-      "listeners": 9544637,
+      "listeners": 9542153,
       "listeners_peak": 11080262,
       "streams": 8126807786,
       "top_song": {
@@ -80,18 +80,18 @@
       "yt_subs": 14800000
     },
     "newjeans": {
-      "listeners": 13467421,
+      "listeners": 13442907,
       "listeners_peak": 26786050,
-      "streams": 8017719482,
+      "streams": 8030697001,
       "top_song": {
         "title": "OMG",
-        "streams": 994923647,
+        "streams": 995995932,
         "url": "https://open.spotify.com/track/65FftemJ1DbbZ45DUfHJXE"
       },
       "yt_subs": 8720000
     },
     "cortis": {
-      "listeners": 10568080,
+      "listeners": 10584824,
       "listeners_peak": 12947465,
       "streams": 1526753166,
       "top_song": {
@@ -99,18 +99,18 @@
         "streams": 282836569,
         "url": "https://open.spotify.com/track/34YVCoqIm08nbsxFSPL0Uh"
       },
-      "yt_subs": 7870000
+      "yt_subs": 7880000
     },
     "ateez": {
       "listeners": 7409764,
       "listeners_peak": 7413955,
-      "streams": 4354406805,
+      "streams": 4363280342,
       "top_song": {
         "title": "BOUNCY - K-HOT CHILLI PEPPERS",
-        "streams": 202949218,
+        "streams": 203183167,
         "url": "https://open.spotify.com/track/5VGdz8LeTx2M8LHe9iUSQU"
       },
-      "yt_subs": 5920000
+      "yt_subs": 5930000
     }
   }
 }
