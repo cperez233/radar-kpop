@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-19T19:07:57Z",
+ "updated_at": "2026-11-20T09:00:57Z",
  "groups": {
   "lngshot": [
    {
@@ -91,6 +91,20 @@
   ],
   "enhypen": [
    {
+    "title": "[공지] 'I Want You' 응원법 안내",
+    "url": "https://weverse.io/enhypen/notice/41165",
+    "post": "https://x.com/ENHYPEN/status/2123650043408449849",
+    "when": "2026-11-20T05:30:00Z",
+    "weverse": true
+   },
+   {
+    "title": "[공지] 엔하이픈 'THE SIN : PARALLEL WORLD' 발매 기념 음원 다운로드 이벤트 안내 (+ENG/JPN/CHN)",
+    "url": "https://weverse.io/enhypen/notice/41190",
+    "post": "https://x.com/ENHYPEN/status/2123634942710038627",
+    "when": "2026-11-20T04:30:00Z",
+    "weverse": true
+   },
+   {
     "title": "[공지] ENHYPEN ‘THE SIN : PARALLEL WORLD’ 활동 기념 팬사인회 안내 (알라딘) (+ENG/JPN/CHN)",
     "url": "https://weverse.io/enhypen/notice/41041",
     "post": "https://x.com/ENHYPEN/status/2122516500770934957",
@@ -116,20 +130,6 @@
     "url": "https://x.com/ENHYPEN/status/2119618519679816130",
     "post": "https://x.com/ENHYPEN/status/2119618519679816130",
     "when": "2026-11-09T02:30:10Z",
-    "weverse": false
-   },
-   {
-    "title": "[공지] ENHYPEN ‘THE SIN : PARALLEL WORLD (LOCKET NECKLACE Ver.)’ 예약 구매 (+ENG/JPN/CHN)",
-    "url": "https://weverse.io/enhypen/notice/40803",
-    "post": "https://x.com/ENHYPEN/status/2119595829979992413",
-    "when": "2026-11-09T01:00:00Z",
-    "weverse": true
-   },
-   {
-    "title": "[안내] 2026 MAMA AWARDS 2nd VOTE REMIND 🔥2차 투표 D-1🔥 📅 투표 기간 - 10/28 18:00 ~ 11/8 23:59 (KST) 🗳️ 투표 부문 - 팬스 초이스 2차 투표 ...",
-    "url": "https://x.com/ENHYPEN/status/2118916384075980920",
-    "post": "https://x.com/ENHYPEN/status/2118916384075980920",
-    "when": "2026-11-07T04:00:08Z",
     "weverse": false
    }
   ],
