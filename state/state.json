@@ -2221,7 +2221,40 @@
   "news:8df5a8bdb8f98b41|feed": "2026-11-21T06:38:16Z",
   "news:05918f99f9cb4f38|feed": "2026-11-21T06:38:16Z",
   "news:52b6a55b07190242|feed": "2026-11-21T06:38:16Z",
-  "news:666d68392f50edd1|feed": "2026-11-21T06:38:16Z"
+  "news:666d68392f50edd1|feed": "2026-11-21T06:38:16Z",
+  "live:bts-20261121-kaohsiung|feed": "2026-11-21T14:59:10Z",
+  "live:bts-20261121-kaohsiung|ntfy": "2026-11-21T14:59:10Z",
+  "live:bts-20261121-kaohsiung|pub:radarkpop-bts-shows": "2026-11-21T14:59:10Z",
+  "live:bts-20261121-kaohsiung|foro": "2026-11-21T14:59:10Z",
+  "news:2296c6b678bb040e|feed": "2026-11-21T14:59:10Z",
+  "news:2296c6b678bb040e|ntfy": "2026-11-21T14:59:10Z",
+  "news:2296c6b678bb040e|pub:radarkpop-bts-news": "2026-11-21T14:59:10Z",
+  "news:2296c6b678bb040e|foro": "2026-11-21T14:59:10Z",
+  "news:fba105bceafbd56e|feed": "2026-11-21T14:59:10Z",
+  "news:fba105bceafbd56e|ntfy": "2026-11-21T14:59:10Z",
+  "news:fba105bceafbd56e|pub:radarkpop-bts-news": "2026-11-21T14:59:10Z",
+  "news:fba105bceafbd56e|foro": "2026-11-21T14:59:10Z",
+  "news:2e9a6bfc62dea409|feed": "2026-11-21T14:59:10Z",
+  "news:2e9a6bfc62dea409|ntfy": "2026-11-21T14:59:10Z",
+  "news:2e9a6bfc62dea409|pub:radarkpop-skz-news": "2026-11-21T14:59:10Z",
+  "news:2e9a6bfc62dea409|foro": "2026-11-21T14:59:10Z",
+  "news:610f78d0a6bcf67e|feed": "2026-11-21T14:59:10Z",
+  "news:610f78d0a6bcf67e|ntfy": "2026-11-21T14:59:10Z",
+  "news:610f78d0a6bcf67e|pub:radarkpop-skz-news": "2026-11-21T14:59:10Z",
+  "news:610f78d0a6bcf67e|foro": "2026-11-21T14:59:10Z",
+  "news:72d8a240e28b785e|feed": "2026-11-21T14:59:10Z",
+  "news:72d8a240e28b785e|ntfy": "2026-11-21T14:59:10Z",
+  "news:72d8a240e28b785e|pub:radarkpop-seventeen-news": "2026-11-21T14:59:10Z",
+  "news:72d8a240e28b785e|foro": "2026-11-21T14:59:10Z",
+  "news:941a32832c18eb77|feed": "2026-11-21T14:59:10Z",
+  "news:0327f89d0593844e|feed": "2026-11-21T14:59:10Z",
+  "news:8cf9e0cc5a3da228|feed": "2026-11-21T14:59:10Z",
+  "news:60fd2c58f6c5f90f|feed": "2026-11-21T14:59:10Z",
+  "news:5b87240c0a71b02c|feed": "2026-11-21T14:59:10Z",
+  "news:3c0d65526350f724|feed": "2026-11-21T14:59:10Z",
+  "news:73e7dbe0aec1e7b5|feed": "2026-11-21T14:59:10Z",
+  "news:0952a8c89433d899|feed": "2026-11-21T14:59:10Z",
+  "news:d5d909bcb42c5877|feed": "2026-11-21T14:59:10Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3374,15 +3407,6 @@
   }
  },
  "news_seen": [
-  "ab624af630b4206d",
-  "ab75bc8b945a1300",
-  "ab84f55ae658b9d1",
-  "ab85da89d05dff72",
-  "ab8989d5f6c32ea4",
-  "ab946b9a3bc06950",
-  "ab9e3ae534731934",
-  "abb8afc165b1f7d8",
-  "abdeb0f301c8f868",
   "abefc6be303eac9d",
   "ac24c66799df7986",
   "ac396c6a08b27779",
@@ -3604,6 +3628,7 @@
   "c32ce9cd472e2adc",
   "c369457d8aeb3cd9",
   "c386eea7c7324b32",
+  "c4082e94c2294c0c",
   "c41155d7af671310",
   "c41f7c696a811e71",
   "c425d34757e7c990",
@@ -3652,6 +3677,7 @@
   "c83c3e3cdebe8430",
   "c8a5b7edba2ce17f",
   "c8c3edbbf6d395fe",
+  "c8c592fb9fb6bb6f",
   "c8c7e5d61ca24a51",
   "c8efc95d0789bdf1",
   "c8ffc17f0ad8113b",
@@ -3674,6 +3700,7 @@
   "cad24e12ef042879",
   "cadd9a30442e962e",
   "cae313cf1ee24edd",
+  "cafc6f43412fcfb2",
   "cb0f18c18551703f",
   "cb2b13f0320e4669",
   "cb4c44ad99355366",
@@ -3791,6 +3818,7 @@
   "d5a8d221dec54936",
   "d5a96446e327f726",
   "d5ab59e47686a583",
+  "d5d909bcb42c5877",
   "d5e9f8e16ae44802",
   "d5eb52345f44c7f1",
   "d5ec98ac91819a24",
@@ -3876,6 +3904,7 @@
   "defb1ef553b2225b",
   "df039864311dc247",
   "df100409eedaa607",
+  "df1a9b420f22263b",
   "df27aaea3fe1a414",
   "df28050c9f75a396",
   "df508a80852ccfa0",
@@ -3947,6 +3976,7 @@
   "e75b2f7e17be6f07",
   "e772c631232a5c98",
   "e781304ba4f3dc07",
+  "e79ab03f1bd48ae5",
   "e7b44a3b30266ad4",
   "e7f469a5d2bd3b1e",
   "e8010fd96c4da292",
@@ -3983,6 +4013,7 @@
   "eb669ec7e31c809e",
   "eb7586ca057e2dc7",
   "eb79e53ca7681de1",
+  "eb7f9908e3e85d38",
   "eb82c6edfff459b7",
   "eb8be077d040525d",
   "eb9db11242eda275",
@@ -4110,6 +4141,7 @@
   "f90da27388d6f25e",
   "f91fa7623939ac18",
   "f92981330ec59318",
+  "f94c8422e6624d29",
   "f957e9a1cb7c71cd",
   "f96db7323fe5eb4d",
   "f9785eb4ab993a9c",
@@ -4129,6 +4161,7 @@
   "fb4e97b6e2db366c",
   "fb5b69e204f8fb4a",
   "fb8056f4c7959797",
+  "fba105bceafbd56e",
   "fbb2b6cf76b54310",
   "fbb39c622d8d0a14",
   "fbc6a878dac0d490",
@@ -4176,78 +4209,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "arirang",
-    "asia",
-    "australia",
-    "ciudades",
-    "etapa",
-    "gira",
-    "iniciara",
-    "mundial"
-   ],
-   "t": "2026-11-19T10:27:58Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "cambio",
-    "chile",
-    "colombia",
-    "concierto",
-    "hora",
-    "luego",
-    "sufre",
-    "ultima"
-   ],
-   "t": "2026-11-19T10:27:58Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "atribuye",
-    "cancha",
-    "chile",
-    "colombia",
-    "concierto",
-    "estado",
-    "ind",
-    "mal",
-    "medios"
-   ],
-   "t": "2026-11-19T10:27:58Z"
-  },
-  {
-   "g": "skz",
-   "w": [
-    "2027",
-    "anuncia",
-    "grupo",
-    "paris",
-    "pop",
-    "regreso"
-   ],
-   "t": "2026-11-19T10:27:58Z"
-  },
-  {
-   "g": "skz",
-   "w": [
-    "asi",
-    "concierto",
-    "grande",
-    "jeonghan",
-    "joshua",
-    "llegan",
-    "mexico",
-    "pantalla",
-    "podras",
-    "seventeen",
-    "ver"
-   ],
-   "t": "2026-11-19T10:27:58Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -4403,6 +4364,104 @@
     "visita"
    ],
    "t": "2026-11-20T23:54:13Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "asia",
+    "australia",
+    "ciudades",
+    "etapa",
+    "gira",
+    "iniciara",
+    "mundial"
+   ],
+   "t": "2026-11-21T14:59:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "audiencias",
+    "conquistan",
+    "hambre",
+    "historias",
+    "juegos",
+    "llega",
+    "nuevas",
+    "pantalla"
+   ],
+   "t": "2026-11-21T14:59:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "conciertos",
+    "gaoxiong",
+    "gira",
+    "llega",
+    "tres"
+   ],
+   "t": "2026-11-21T14:59:03Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "barcelona",
+    "concierto",
+    "conseguir",
+    "donde",
+    "entradas",
+    "hora",
+    "precios",
+    "tickets"
+   ],
+   "t": "2026-11-21T14:59:03Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "2027",
+    "cerradas",
+    "concierto",
+    "este",
+    "general",
+    "jueves",
+    "paris",
+    "preventas",
+    "venta"
+   ],
+   "t": "2026-11-21T14:59:03Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "asi",
+    "concierto",
+    "grande",
+    "jeonghan",
+    "joshua",
+    "llegan",
+    "mexico",
+    "pantalla",
+    "podras",
+    "seventeen",
+    "ver"
+   ],
+   "t": "2026-11-21T14:59:03Z"
+  },
+  {
+   "g": "seventeen",
+   "w": [
+    "concierto",
+    "cumple",
+    "dino",
+    "infancia",
+    "primer",
+    "sueno"
+   ],
+   "t": "2026-11-21T14:59:03Z"
   }
  ],
  "discord_threads": {

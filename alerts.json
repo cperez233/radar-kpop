@@ -1,6 +1,127 @@
 {
- "updated_at": "2026-11-21T06:38:10Z",
+ "updated_at": "2026-11-21T14:59:03Z",
  "alerts": [
+  {
+   "type": "live",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "BTS sube al escenario en Kaohsiung",
+   "body": "Kaohsiung National Stadium, Kaohsiung. Hora aproximada, el show puede arrancar un poco antes o después.",
+   "title_en": "BTS goes on stage in Kaohsiung",
+   "body_en": "Kaohsiung National Stadium, Kaohsiung. Approximate time, the show may start a little earlier or later.",
+   "when": "2026-11-21T14:59:03Z",
+   "url": null
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "2026 MAMA 4관왕 만들어 준 코어 고맙고 사랑합니다 🏆🏆🏆🏆❤️‍🔥 #CORTIS #코르티스 #CORTIS_REDRED (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "2026 MAMA 4관왕 만들어 준 코어 고맙고 사랑합니다 🏆🏆🏆🏆❤️‍🔥 #CORTIS #코르티스 #CORTIS_REDRED (YouTube)",
+   "when": "2026-11-21T14:07:22Z",
+   "url": "https://www.youtube.com/watch?v=X39jCXZYoQQ"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "I just wanna feel it like you🥰 #JxJ #정한X조슈아 #JOURNEY_INTO_DREAMING (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "I just wanna feel it like you🥰 #JxJ #정한X조슈아 #JOURNEY_INTO_DREAMING (YouTube)",
+   "when": "2026-11-21T13:33:10Z",
+   "url": "https://www.youtube.com/watch?v=de0ib22nax8"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "흥! #SUNOO #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "흥! #SUNOO #ENHYPEN (YouTube)",
+   "when": "2026-11-21T13:20:26Z",
+   "url": "https://www.youtube.com/watch?v=dTqzcEA5cIk"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "이 Symphony를 진두지휘 #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "이 Symphony를 진두지휘 #Shorts (YouTube)",
+   "when": "2026-11-21T12:00:03Z",
+   "url": "https://www.youtube.com/watch?v=D_uaa-hsELc"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "Cuz I want #WONHEE 🫵 #EN_IWantYou #ILLIT #JUNGWON #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "Cuz I want #WONHEE 🫵 #EN_IWantYou #ILLIT #JUNGWON #ENHYPEN (YouTube)",
+   "when": "2026-11-21T11:28:53Z",
+   "url": "https://www.youtube.com/watch?v=WqOCpyCYPoY"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "8년째 조인 Tension #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "8년째 조인 Tension #Shorts (YouTube)",
+   "when": "2026-11-21T11:00:35Z",
+   "url": "https://www.youtube.com/watch?v=kMJcO2jJt6c"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "With BABY ANGEL #JISOO 👼🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "With BABY ANGEL #JISOO 👼🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "when": "2026-11-21T11:00:15Z",
+   "url": "https://www.youtube.com/watch?v=SSG5sOT0mKs"
+  },
+  {
+   "type": "arrival",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Llegada reportada: BTS",
+   "body": "BTS llega a Gaoxiong para tres conciertos de su gira ARIRANG - Foro3D (Google Noticias). Lo reporta la prensa, no es confirmación oficial.",
+   "title_en": "Reported arrival: BTS",
+   "body_en": "BTS llega a Gaoxiong para tres conciertos de su gira ARIRANG - Foro3D (Google Noticias). Reported by the press, not an official confirmation.",
+   "when": "2026-11-21T10:00:00Z",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMGRUS09RZDhJOE9Sek1BZWxsMXh1eUdWM0FENWUxcWtIMzNXQ3o0dnJ1dmMzNVpkWDlabHAyd19LeTY5T0NiTXdrdWpDMkd6c0JpWmhYM1BYXy1LZ2hYTDB1aTVVdWhkeDgwdDlTWDV3UEpkMkpQREt3TVRYdzRYclE5WlZTcjdGZV9hVU1UOEpWQl8xYTczVFNRR3hfVE4t?oc=5"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "Go #Bananas w/#ALPHADRIVEONE #LEO @ALD1.official 🍌 #LNGSHOT #SWISH (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "Go #Bananas w/#ALPHADRIVEONE #LEO @ALD1.official 🍌 #LNGSHOT #SWISH (YouTube)",
+   "when": "2026-11-21T09:00:06Z",
+   "url": "https://www.youtube.com/watch?v=oKXALvq5BTc"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "ENHYPEN (엔하이픈) 2026 MAMA AWARDS ‘Big Girls Don’t Cry’ & ‘Knife’ Performance Practice (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "ENHYPEN (엔하이픈) 2026 MAMA AWARDS ‘Big Girls Don’t Cry’ & ‘Knife’ Performance Practice (YouTube)",
+   "when": "2026-11-21T08:59:46Z",
+   "url": "https://www.youtube.com/watch?v=Y-5ROMmL5ks"
+  },
   {
    "type": "comeback",
    "group": "enhypen",
@@ -41,6 +162,20 @@
    "auto": true
   },
   {
+   "type": "tour",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Gira: SEVENTEEN",
+   "body": "DINO de SEVENTEEN cumple su sueño de infancia con su primer concierto - www.famtimes.co.kr (Google Noticias)",
+   "title_en": "Tour: SEVENTEEN",
+   "body_en": "SEVENTEEN's DINO fulfills his childhood dream with his first concert - www.famtimes.co.kr (Google News)",
+   "when": "2026-11-21T05:03:57Z",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PVUZPOGRmemNBanVDUWgtbmhUeE5QUWpLRURZWFdsM3VBbFFQSWl6VWZoSWlYUnY1cVRSYzI1MTlBMGtUcVY0cTdXbG51MFE3MTh4cEcwQ2xvVFR5NUR6Q2tMMzk0am4yRDFaZUZDNmdxUQ?oc=5",
+   "src_lang": "es",
+   "body_orig": "DINO de SEVENTEEN cumple su sueño de infancia con su primer concierto - www.famtimes.co.kr (Google Noticias)",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "twice",
    "group_name": "TWICE",
@@ -50,6 +185,17 @@
    "body_en": "베베베베베베 베이비 엔젤🩵 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
    "when": "2026-11-21T05:00:26Z",
    "url": "https://www.youtube.com/watch?v=W8aMWB6D5d0"
+  },
+  {
+   "type": "arrival",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Llegada reportada: BTS",
+   "body": "De los Juegos del Hambre a BTS: lo que llega a la pantalla y las historias que conquistan nuevas audiencias - W Radio (Google Noticias). Lo reporta la prensa, no es confirmación oficial.",
+   "title_en": "Reported arrival: BTS",
+   "body_en": "De los Juegos del Hambre a BTS: lo que llega a la pantalla y las historias que conquistan nuevas audiencias - W Radio (Google Noticias). Reported by the press, not an official confirmation.",
+   "when": "2026-11-21T04:15:04Z",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSjVyck93WnEzdDV5M21reFl3blNkMzJZMGotSUVEUEZiOUxfVzVoc0gya1FXZ0lHd1JObDIxbWFLZlh2NzJ6TXBJMTk5MGtSWlcwcVhMQU05OW5zWVFyX19zZjZoZmwzTFZYdzZQS0NQbTYzTjVST3d0cDZwalV1Y3d5SU5yYUl3S2FsalgzUDl1dXhodGxKLUtJLVFybFNYYVFoLXhHU1hUR1VucFhoZ3pielBEZzJJaTJqcjBzOGdQNFg4TnlIaEI3T1NpQi1mdWdpWDdnVdIB6wFBVV95cUxQMmNYY3hYa05vaFM0b0xyRlgwc1gzSDFndE9oSDZZNmt4LUFxMENQbm9LN015RWE5Y1NhM3hrQi1vYk1VYTZrWFAySElLT2tZOUVmaWQtQ09oc2pUOVdUdUY2bXRoWS1jRkhYRElaM1pYY1RfdDRGbmlOWHo2a25OQmExWWw4VENVNkhIQ1lsVXhpZ2hhNDlSblRjd1laUWpWblRzX1FTMDY4aHdSQ2piUk1BZERrLXBLNlNfOFJySmVtb0pEcUFHLXZPOU9OVFpLNUdLcC1mQXgwTndRbEFwQTBLQnlRZUEtQXJV?oc=5"
   },
   {
    "type": "video",
@@ -559,155 +705,6 @@
    "src_lang": "es",
    "body_orig": "BTS emprenderá una gira por Asia que incluirá Kuala Lumpur - bernama (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS lleva la gira \"ARIRANG\" a Asia con shows en siete países y una celebración urbana sin precedentes en Taiwán - Infobae (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS takes the \"ARIRANG\" tour to Asia with shows in seven countries and an unprecedented urban celebration in Taiwan - Infobae (Google News)",
-   "when": "2026-11-19T16:59:00Z",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONUstR2FCams2VGthU2hwSDc1ZHdLN19SSng5Smo3cVJfWXJzeERESGpsejVTdXVrWVk2ZUFna2tPYlJRdkdsZkVXeWZjUGtIRWdCMksxMWtQbDRUbEg3V0M4WEd3Y0I0VXF2YU0wYkpYRE9kMVBFSzE4NURVSzdMN2pJV2duOWFmYkRBVENUaWowR2ExMnhuOG9jRjU0bXFXaDFEc25PWWFWT1hGT2dpc2EwVzZCdVVrWGplaUxmU242MDgtRmF2NGh5MUZYSjR4TWcxVVV2a2Z3UzhCczhoSGY5cGRPTThhY0c5eEprR3JmMm_SAY4CQVVfeXFMT1RUcFJLUmw5OFVVZGRvWU1TQlFRdjRERDEzZVJlUElRbEk3MFYxZnZHWVNZeVV6ZUpGT2JYX1BoamVxV292ZGl4cGxoczdORFJaQktwaVI3aDNqVjF5Z2l4ZEhOX3Npb3RzNE5sS0VFdENQUFZTZ3FXSTVXTVhBYjRsUi01Um5lSDk4Ti1lcXp4MGd4SmNLaGl2NlNfRWMzWFVqS29TVklZMlFWNFdoZmMzMmxRN2JjWmVDR0gydm1nV094YzVtajZqaUN6bzFqcnVCNENfVGhGQmp5UDVyV2lBbmxBUVE1TlhmRDRIZHpEZWl3RVpaWTIwdjVYX3JlNkd6bFRiTFhiT3d0MXpB?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS lleva la gira \"ARIRANG\" a Asia con shows en siete países y una celebración urbana sin precedentes en Taiwán - Infobae (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Anuncio oficial de TWICE: comeback",
-   "body": "«DÍA D DEL SENCILLO DE NAYEON “NA-sty” ESTÁ A PUNTO DE PONERSE NA-sty 🖥️[NA-sty] Preservar🖥️ https://NAYEON.lnk.to/NAsty ➮ Lanzamiento 20/11/2026 VIE 14:00 KST/0...» (TWICE en X).",
-   "title_en": "Official TWICE news: comeback",
-   "body_en": "«NAYEON SINGLE “NA-sty” D-DAY IT’S ABOUT TO GET NA-sty 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0...» (TWICE en X).",
-   "when": "2026-11-19T15:00:02Z",
-   "url": "https://x.com/JYPETWICE/status/2123431110327853301",
-   "src_lang": "en",
-   "body_orig": "«NAYEON SINGLE “NA-sty” D-DAY IT’S ABOUT TO GET NA-sty 🖥️[NA-sty] Pre-save🖥️ https://NAYEON.lnk.to/NAsty ➮ Release 2026.11.20 FRI 2PM KST/0...» (TWICE en X).",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Nuevo video: CORTIS",
-   "body": "아 이게 아닌데 #CORTIS #코르티스 (YouTube)",
-   "title_en": "New video: CORTIS",
-   "body_en": "아 이게 아닌데 #CORTIS #코르티스 (YouTube)",
-   "when": "2026-11-19T14:00:38Z",
-   "url": "https://www.youtube.com/watch?v=fQklzBEO9VY"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "#WeverseConFestivalIndia ready with a surprise 🎁 Can’t wait for India ✨#ENHYPEN #HYBEINDIA (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "#WeverseConFestivalIndia ready with a surprise 🎁 Can’t wait for India ✨#ENHYPEN #HYBEINDIA (YouTube)",
-   "when": "2026-11-19T13:11:18Z",
-   "url": "https://www.youtube.com/watch?v=cYDG0rfXjBg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "#WeverseConFestivalIndia ready with a surprise 🎁 What’s inside the hamper? 🍬 #ENHYPEN #HYBEINDIA (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "#WeverseConFestivalIndia ready with a surprise 🎁 What’s inside the hamper? 🍬 #ENHYPEN #HYBEINDIA (YouTube)",
-   "when": "2026-11-19T13:00:17Z",
-   "url": "https://www.youtube.com/watch?v=ucat4UUcEqU"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "[INSIDE SEVENTEEN] 2026 디노X피철인 [吉BOARD SHOW] BEHIND #3 (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "[INSIDE SEVENTEEN] 2026 디노X피철인 [吉BOARD SHOW] BEHIND #3 (YouTube)",
-   "when": "2026-11-19T13:00:01Z",
-   "url": "https://www.youtube.com/watch?v=GN5FB-pQUNs"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "Go #Bananas w/#BADA @Bada_bebe 🍌 #LNGSHOT #SWISH (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "Go #Bananas w/#BADA @Bada_bebe 🍌 #LNGSHOT #SWISH (YouTube)",
-   "when": "2026-11-19T12:00:34Z",
-   "url": "https://www.youtube.com/watch?v=CQoFF0WHWFE"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "#꼬잉_픽📌 콩트의 악마 부승공 씨의 등장 #SEVENTEEN #세븐틴 #GOING_SVT #고잉세븐틴 #shorts (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "#꼬잉_픽📌 콩트의 악마 부승공 씨의 등장 #SEVENTEEN #세븐틴 #GOING_SVT #고잉세븐틴 #shorts (YouTube)",
-   "when": "2026-11-19T12:00:08Z",
-   "url": "https://www.youtube.com/watch?v=socmAUCAuxg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "Just One 10 SECONDS #StrayKids #스트레이키즈 #필릭스 #Felix #YouMakeStrayKidsStay (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "Just One 10 SECONDS #StrayKids #스트레이키즈 #필릭스 #Felix #YouMakeStrayKidsStay (YouTube)",
-   "when": "2026-11-19T12:00:04Z",
-   "url": "https://www.youtube.com/watch?v=5SVTu_VXYog"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Nuevo video: CORTIS",
-   "body": "같이 소원 빌 사람 #CORTIS #코르티스 #CORTIS_MONEYMONEYMONEY (YouTube)",
-   "title_en": "New video: CORTIS",
-   "body_en": "같이 소원 빌 사람 #CORTIS #코르티스 #CORTIS_MONEYMONEYMONEY (YouTube)",
-   "when": "2026-11-19T11:00:33Z",
-   "url": "https://www.youtube.com/watch?v=pW1dp5lsPRU"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "I.N \"NO RETURN\" MAKING FILM (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "I.N \"NO RETURN\" MAKING FILM (YouTube)",
-   "when": "2026-11-19T11:00:01Z",
-   "url": "https://www.youtube.com/watch?v=EK7sbGeBmJM"
-  },
-  {
-   "type": "stop_today",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Hoy Stray Kids abre en Múnich",
-   "body": "Múnich. Hora aproximada, confirma en la boletería.",
-   "title_en": "Today Stray Kids opens in Munich",
-   "body_en": "Munich. Approximate time, check with the box office.",
-   "when": "2026-11-19T10:27:58Z",
-   "url": null
-  },
-  {
-   "type": "stop_today",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Hoy Stray Kids abre en Londres",
-   "body": "Londres. Hora aproximada, confirma en la boletería.",
-   "title_en": "Today Stray Kids opens in London",
-   "body_en": "London. Approximate time, check with the box office.",
-   "when": "2026-11-19T10:27:58Z",
-   "url": null
   }
  ]
 }
