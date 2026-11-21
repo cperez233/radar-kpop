@@ -2254,7 +2254,15 @@
   "news:3c0d65526350f724|feed": "2026-11-21T14:59:10Z",
   "news:73e7dbe0aec1e7b5|feed": "2026-11-21T14:59:10Z",
   "news:0952a8c89433d899|feed": "2026-11-21T14:59:10Z",
-  "news:d5d909bcb42c5877|feed": "2026-11-21T14:59:10Z"
+  "news:d5d909bcb42c5877|feed": "2026-11-21T14:59:10Z",
+  "bday:seventeen:woozi:2026|feed": "2026-11-21T20:54:17Z",
+  "bday:seventeen:woozi:2026|ntfy": "2026-11-21T20:54:17Z",
+  "bday:seventeen:woozi:2026|pub:radarkpop-seventeen-members": "2026-11-21T20:54:17Z",
+  "bday:seventeen:woozi:2026|foro": "2026-11-21T20:54:17Z",
+  "news:a9ca4b3bd7fe3a82|feed": "2026-11-21T20:54:17Z",
+  "news:a9ca4b3bd7fe3a82|ntfy": "2026-11-21T20:54:17Z",
+  "news:a9ca4b3bd7fe3a82|pub:radarkpop-bts-news": "2026-11-21T20:54:17Z",
+  "news:a9ca4b3bd7fe3a82|foro": "2026-11-21T20:54:17Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3407,8 +3415,6 @@
   }
  },
  "news_seen": [
-  "abefc6be303eac9d",
-  "ac24c66799df7986",
   "ac396c6a08b27779",
   "ac7888d1f2fcf603",
   "ac7c9de55cf54fad",
@@ -3511,6 +3517,7 @@
   "b6c15524b8fe9de5",
   "b6d4955e04bb1314",
   "b717e25ea286d29f",
+  "b73eeed25d55a5ac",
   "b74ffaca5fee5b69",
   "b795152b51293ce0",
   "b79d006590806ea6",
@@ -3705,6 +3712,7 @@
   "cb2b13f0320e4669",
   "cb4c44ad99355366",
   "cb9aee1abb461146",
+  "cb9b2f20a900554f",
   "cbd91538b0bac487",
   "cc0d1c687b9a1288",
   "cc15a4364f5c37b0",
@@ -4212,35 +4220,6 @@
   {
    "g": "bts",
    "w": [
-    "arirang",
-    "asia",
-    "celebracion",
-    "gira",
-    "lleva",
-    "paises",
-    "precedentes",
-    "shows",
-    "siete",
-    "sin",
-    "taiwan",
-    "urbana"
-   ],
-   "t": "2026-11-19T19:09:23Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "arirang",
-    "ciudades",
-    "conciertos",
-    "gira",
-    "inaugura"
-   ],
-   "t": "2026-11-19T19:09:23Z"
-  },
-  {
-   "g": "bts",
-   "w": [
     "asia",
     "emprendera",
     "gira",
@@ -4462,6 +4441,19 @@
     "sueno"
    ],
    "t": "2026-11-21T14:59:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "ano",
+    "artista",
+    "awards",
+    "escenarios",
+    "gana",
+    "mama",
+    "regreso"
+   ],
+   "t": "2026-11-21T20:54:11Z"
   }
  ],
  "discord_threads": {

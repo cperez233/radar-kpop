@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-11-21T14:59:03Z",
+ "updated_at": "2026-11-21T20:54:11Z",
  "alerts": [
+  {
+   "type": "birthday",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "🎂 Hoy cumple Woozi (SEVENTEEN)",
+   "body": "Cumple 30 años. ¡생일 축하해, Woozi!",
+   "title_en": "🎂 It's Woozi's birthday (SEVENTEEN)",
+   "body_en": "Turning 30. Happy birthday, Woozi! 생일 축하해!",
+   "when": "2026-11-21T20:54:11Z",
+   "url": null
+  },
+  {
+   "type": "comeback",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Comeback: BTS",
+   "body": "BTS gana \"Artista del Año\" en los MAMA Awards en su regreso a los escenarios - LatinUS (Google Noticias)",
+   "title_en": "Comeback: BTS",
+   "body_en": "BTS wins \"Artist of the Year\" at the MAMA Awards on their return to the stage - LatinUS (Google News)",
+   "when": "2026-11-21T20:38:18Z",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORHpCUTFNRFZRamRxVU0xYVcyZ25UV2RIU2ptdDJSd1B6RUJ6MFY5NzYtWmItaWx5MVlBcll2bzNFd24xUHBfM2w1SmsyUkViRkgteFd4MnljdTZmS3RjNjVJT0gzM0Vab2FYMHhvVXBJRkJzY1FyeG9qR0dGNlMtU0tic3BxXzBaOUM2Uk51Q2NZTDYzUGdaTmxLblBPOE1hb2FWbFh2WXRXSHJCRi1UZDJfU3l1SXpaTmc3cktVUzR1czU1VTg2SlNYZWsyQQ?oc=5",
+   "src_lang": "es",
+   "body_orig": "BTS gana \"Artista del Año\" en los MAMA Awards en su regreso a los escenarios - LatinUS (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "live",
    "group": "bts",
@@ -676,34 +701,6 @@
    "url": "https://x.com/JYPETWICE/status/2123431110327853301",
    "src_lang": "es",
    "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
-   "auto": true
-  },
-  {
-   "type": "comeback",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "💿 Hoy sale «SEVENTEEN 2027 SEASON'S GREETINGS Visualizer 🐕🌱 🗓️ PRE-ORDER» de SEVENTEEN",
-   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
-   "title_en": "💿 SEVENTEEN's «SEVENTEEN 2027 SEASON'S GREETINGS Visualizer 🐕🌱 🗓️ PRE-ORDER» is out today",
-   "body_en": "You can now listen to it! (or in a few hours, depending on your time zone)",
-   "when": "2026-11-19T19:09:23Z",
-   "url": "https://x.com/pledis_17/status/2123280107750224073",
-   "src_lang": "es",
-   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
-   "auto": true
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS emprenderá una gira por Asia que incluirá Kuala Lumpur - bernama (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS to embark on an Asian tour that will include Kuala Lumpur - Bernama (Google News)",
-   "when": "2026-11-19T18:13:05Z",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBek4wMFg0VXRJSzRKZzJibXJCcDlEU25QNzJSa2w5VS1BTFpNbGw1N3NhdGxWREFGV2tTdG5kWUhGMEVKWF9GZUlWYkluQmVENzNYem1EV1g0M2M?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS emprenderá una gira por Asia que incluirá Kuala Lumpur - bernama (Google Noticias)",
    "auto": true
   }
  ]
