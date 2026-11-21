@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20T09:00:57Z",
+ "updated_at": "2026-11-21T06:36:53Z",
  "groups": {
   "lngshot": [
    {
@@ -91,6 +91,13 @@
   ],
   "enhypen": [
    {
+    "title": "[공지] ENHYPEN ‘I Want You (ENHYPEN Remix)’ 발매 (+ENG/JPN/CHN)",
+    "url": "https://weverse.io/enhypen/notice/41224",
+    "post": "https://x.com/ENHYPEN/status/2124004886383931680",
+    "when": "2026-11-21T05:00:01Z",
+    "weverse": true
+   },
+   {
     "title": "[공지] 'I Want You' 응원법 안내",
     "url": "https://weverse.io/enhypen/notice/41165",
     "post": "https://x.com/ENHYPEN/status/2123650043408449849",
@@ -124,13 +131,6 @@
     "post": "https://x.com/ENHYPEN/status/2120365903921426706",
     "when": "2026-11-11T04:00:00Z",
     "weverse": true
-   },
-   {
-    "title": "[공지] ENHYPEN ‘THE SIN : PARALLEL WORLD (LOCKET NECKLACE Ver.)’ 예약 구매 링크 안내 위버스샵",
-    "url": "https://x.com/ENHYPEN/status/2119618519679816130",
-    "post": "https://x.com/ENHYPEN/status/2119618519679816130",
-    "when": "2026-11-09T02:30:10Z",
-    "weverse": false
    }
   ],
   "cortis": [

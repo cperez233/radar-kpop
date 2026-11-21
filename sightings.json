@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T09:00:45Z",
+  "updated_at": "2026-11-21T06:36:41Z",
   "source": "rsshub",
   "sample": false,
   "items": [
@@ -246,19 +246,6 @@
       "url": "https://x.com/pledis_17/status/2114597966254358699",
       "account": "pledis_17",
       "when": "2026-10-26T06:00:17Z"
-    },
-    {
-      "id": "x-2113103051016011996",
-      "group": "seventeen",
-      "group_name": "SEVENTEEN",
-      "city": "Seúl",
-      "country": "Corea del Sur",
-      "lat": 37.5665,
-      "lon": 126.978,
-      "text": "our 𝗗𝗥𝗘𝗔𝗠𝗦𝗖𝗔𝗣𝗘, landed in Seoul 📍Location 서울역, 서울 용산구 한강대로 405 #JxJ #정한X조슈아 #DREAMSCAPE",
-      "url": "https://x.com/pledis_17/status/2113103051016011996",
-      "account": "pledis_17",
-      "when": "2026-10-22T03:00:01Z"
     }
   ]
 }

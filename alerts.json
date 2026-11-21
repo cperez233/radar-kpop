@@ -1,6 +1,114 @@
 {
- "updated_at": "2026-11-20T23:54:13Z",
+ "updated_at": "2026-11-21T06:38:10Z",
  "alerts": [
+  {
+   "type": "comeback",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "💿 Hoy sale «I Want You (NI-KI Ver.)» de ENHYPEN",
+   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "title_en": "💿 ENHYPEN's «I Want You (NI-KI Ver.)» is out today",
+   "body_en": "You can listen to it now! (Or in a few hours, depending on your time zone.)",
+   "when": "2026-11-21T06:38:10Z",
+   "url": "https://music.apple.com/us/album/i-want-you-ni-ki-ver-single/6835828378",
+   "src_lang": "es",
+   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "auto": true
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "You can't escape from every ANGLE🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "You can't escape from every ANGLE🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "when": "2026-11-21T06:00:27Z",
+   "url": "https://www.youtube.com/watch?v=PfO0qRdgGfw"
+  },
+  {
+   "type": "official",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Anuncio oficial de ENHYPEN: comeback",
+   "body": "«Escuchad \"I Want You (ENHYPEN Remix)\" de ENHYPEN para DESCARGAR JUNGWON: https://music.apple.com/us/album/i-want-you-jungwon-ver-single/6835791682 JAY: ...» (ENHYPEN en X).",
+   "title_en": "Official ENHYPEN news: comeback",
+   "body_en": "«Check out ENHYPEN 'I Want You (ENHYPEN Remix)' for DOWNLOAD JUNGWON : https://music.apple.com/us/album/i-want-you-jungwon-ver-single/6835791682 JAY : ...» (ENHYPEN en X).",
+   "when": "2026-11-21T05:35:05Z",
+   "url": "https://x.com/ENHYPEN/status/2124013709442142717",
+   "src_lang": "en",
+   "body_orig": "«Check out ENHYPEN 'I Want You (ENHYPEN Remix)' for DOWNLOAD JUNGWON : https://music.apple.com/us/album/i-want-you-jungwon-ver-single/6835791682 JAY : ...» (ENHYPEN en X).",
+   "auto": true
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "베베베베베베 베이비 엔젤🩵 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "베베베베베베 베이비 엔젤🩵 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "when": "2026-11-21T05:00:26Z",
+   "url": "https://www.youtube.com/watch?v=W8aMWB6D5d0"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "You wanna make your BABY ANGEL🩵 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "You wanna make your BABY ANGEL🩵 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "when": "2026-11-21T04:00:15Z",
+   "url": "https://www.youtube.com/watch?v=in_Vln4o5l4"
+  },
+  {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«NAYEON y Forbes 📰 NAYEON está lista para ponerse «NA-Sty» con su nuevo álbum sencillo 🔗 https://www.forbes.com/sites/laurasirikul/2026/11/20/nayeon-is-ready-t...» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«NAYEON & Forbes 📰 NAYEON Is Ready To Get 'NA-Sty' With New Single Album 🔗 https://www.forbes.com/sites/laurasirikul/2026/11/20/nayeon-is-ready-t...» (TWICE en X).",
+   "when": "2026-11-21T03:40:02Z",
+   "url": "https://x.com/JYPETWICE/status/2123984755561845072",
+   "src_lang": "en",
+   "body_orig": "«NAYEON & Forbes 📰 NAYEON Is Ready To Get 'NA-Sty' With New Single Album 🔗 https://www.forbes.com/sites/laurasirikul/2026/11/20/nayeon-is-ready-t...» (TWICE en X).",
+   "auto": true
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "🕺 #CORTIS #코르티스 (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "🕺 #CORTIS #코르티스 (YouTube)",
+   "when": "2026-11-21T03:00:21Z",
+   "url": "https://www.youtube.com/watch?v=hQ77g2dxU20"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "Go #Bananas w/#INGYOO @TEAMWEDEMBOYZ 🍌 #LNGSHOT #SWISH (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "Go #Bananas w/#INGYOO @TEAMWEDEMBOYZ 🍌 #LNGSHOT #SWISH (YouTube)",
+   "when": "2026-11-21T03:00:14Z",
+   "url": "https://www.youtube.com/watch?v=1Hb6xoWc7TA"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "ATEEZ(에이티즈) - ‘UP’ Dance Practice (MATRIX Ver.) (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "ATEEZ(에이티즈) - ‘UP’ Dance Practice (MATRIX Ver.) (YouTube)",
+   "when": "2026-11-21T03:00:06Z",
+   "url": "https://www.youtube.com/watch?v=sLo-xY2g2pE"
+  },
   {
    "type": "stop_today",
    "group": "twice",
@@ -195,6 +303,20 @@
    "url": "https://www.youtube.com/watch?v=BHfxU86WW4w"
   },
   {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: comeback",
+   "body": "«SEVENTEEN 2027 SEASON'S GREETINGS Preview Cuts 🌱☀️ 🗓️ LANZAMIENTO: 9/ 9/12 (KST) #SEVENTEEN #세븐틴 #SVT2027시즌그리팅» (SEVENTEEN en X).",
+   "title_en": "Official SEVENTEEN news: comeback",
+   "body_en": "«SEVENTEEN 2027 SEASON'S GREETINGS Preview Cuts 🌱☀️ 🗓️ RELEASE: 2026. 12. 9 (KST) #SEVENTEEN #세븐틴 #SVT2027시즌그리팅» (SEVENTEEN on X).",
+   "when": "2026-11-20T08:00:00Z",
+   "url": "https://x.com/pledis_17/status/2123687793763475870",
+   "src_lang": "ko",
+   "body_orig": "«SEVENTEEN 2027 SEASON'S GREETINGS Preview Cuts 🌱☀️ 🗓️ RELEASE : 2026. 12. 9 (KST) #SEVENTEEN #세븐틴 #SVT2027시즌그리팅» (SEVENTEEN en X).",
+   "auto": true
+  },
+  {
    "type": "video",
    "group": "twice",
    "group_name": "TWICE",
@@ -273,6 +395,20 @@
    "body_en": "#2026MAMAAWARDS COMING SOON 🏜️ VOTE FOR #ENHYPEN 💕 #MAMAAWARDS (YouTube)",
    "when": "2026-11-20T04:17:29Z",
    "url": "https://www.youtube.com/watch?v=rWKVDfwrvs0"
+  },
+  {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[📷] 2027 SEASON'S GREETINGS '종호(JONGHO)' REAL ATEEZ: SPOTTED #8 PREVENTA: 25/ 25/11, 13:00 (KST) ~ LANZAMIENTO: 29/12/2026. 29/12 #ATEEZ #에이티즈 #JO...» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
+   "body_en": "«[📷] 2027 SEASON'S GREETINGS 'JONGHO' REAL ATEEZ : SPOTTED #8 PRE-ORDER : 2026. 11. 25 1PM (KST) ~ RELEASE: 2026. 12. 29 #ATEEZ #에이티즈 #JO...» (ATEEZ on X).",
+   "when": "2026-11-20T04:02:04Z",
+   "url": "https://x.com/ATEEZofficial/status/2123627915195871698",
+   "src_lang": "ko",
+   "body_orig": "«[📷] 2027 SEASON'S GREETINGS '종호(JONGHO)' REAL ATEEZ : SPOTTED #8 PRE-ORDER : 2026. 11. 25 1PM (KST) ~ RELEASE : 2026. 12. 29 #ATEEZ #에이티즈 #JO...» (ATEEZ en X).",
+   "auto": true
   },
   {
    "type": "video",
@@ -572,139 +708,6 @@
    "body_en": "London. Approximate time, check with the box office.",
    "when": "2026-11-19T10:27:58Z",
    "url": null
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "Go UP | Create #Shorts with ‘UP’ (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "Go UP | Create #Shorts with ‘UP’ (YouTube)",
-   "when": "2026-11-19T10:00:21Z",
-   "url": "https://www.youtube.com/watch?v=vYJddkTbTpo"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "LNGSHOT X L:A BRUKET | Behind the Scenes (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "LNGSHOT X L:A BRUKET | Behind the Scenes (YouTube)",
-   "when": "2026-11-19T09:30:04Z",
-   "url": "https://www.youtube.com/watch?v=76nx7qY-4r0"
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS inaugura la gira «ARIRANG»: 9 ciudades y 26 conciertos - 씨네플레이 (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS inaugurates the «ARIRANG» tour: 9 cities and 26 concerts - 씨네플레이 (Google News)",
-   "when": "2026-11-19T09:24:00Z",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqZm9jRFB6cm1CNW1zUUloQ01ic3k1OEFWMjFiNjBaY1FGcjU3TzVHVDZQWjFQVFhLem52Y1hKMnRlZXpoeWl5NFdnX2lCOWZmaUp1RVZWcWg3Yk0?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS inaugura la gira «ARIRANG»: 9 ciudades y 26 conciertos - 씨네플레이 (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "Yeah we go 🆙 w/ 쿠미 님 #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "Yeah we go 🆙 w/ 쿠미 님 #Shorts (YouTube)",
-   "when": "2026-11-19T09:00:37Z",
-   "url": "https://www.youtube.com/watch?v=qWUl8EETbUg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "Go #Bananas w/#KEYVITUP #JAEIN #SENA @KEYVITUP 🍌 #LNGSHOT #SWISH (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "Go #Bananas w/#KEYVITUP #JAEIN #SENA @KEYVITUP 🍌 #LNGSHOT #SWISH (YouTube)",
-   "when": "2026-11-19T09:00:14Z",
-   "url": "https://www.youtube.com/watch?v=00rj7iYk2iM"
-  },
-  {
-   "type": "tour",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Gira: BTS",
-   "body": "BTS llena de púrpura Kaohsiung: arranca su gira mundial - Reporte Asia (Google Noticias)",
-   "title_en": "Tour: BTS",
-   "body_en": "BTS full of purple Kaohsiung: their world tour begins - Asia Report (Google News)",
-   "when": "2026-11-19T08:00:00Z",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWXdxVjRic0Z0bXZ0Nzd4MzQ0cWE5dUFoM2N5RWstTTBhZlV1V3ZVdEJRTjE2TEw0aVYwQ2g3Z2NlQmJDZzVDSlRFRzA0UWFfcUNqOXJOSW1MQnluVXh4ZGpTOU9JQWlQU0Y5NGlGTnhDZ0FWd2VodlBFNXpUa1hGeVdZNzBHODhPaHZZelV1c2lZQV9QX1gxR0hCRTFmUQ?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS llena de púrpura Kaohsiung: arranca su gira mundial - Reporte Asia (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "NYC going #Bananas rn🗽🍌 75 spots across the city. how many can u find SHOTTIES? (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "NYC going #Bananas rn🗽🍌 75 spots across the city. how many can u find SHOTTIES? (YouTube)",
-   "when": "2026-11-19T07:50:06Z",
-   "url": "https://www.youtube.com/watch?v=tNWkjB8xu5A"
-  },
-  {
-   "type": "comeback",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Comeback: Stray Kids",
-   "body": "El grupo de K-pop Stray Kids anuncia su regreso a París en 2027 - Sortir à Paris (Google Noticias)",
-   "title_en": "Comeback: Stray Kids",
-   "body_en": "K-pop group Stray Kids announces their return to Paris in 2027 - Sortir à Paris (Google News)",
-   "when": "2026-11-19T07:02:20Z",
-   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNVENGbnhqTDlXQjRSNVNVMnNfWTBZV0tEWEc0dVJRSzVpQk1ONzJjSTZpZVFHN0FVQ1AtNnNrOVVaOUNfSUwtSHRScVdZSkVqOGpocldIY3FpM185OGFyemVoQkhqWVlEQTBlejJPMXJKYUN1STZtU1ZSa2VVLWo1aGZPT094MDBPd3Y1QmlsbzFxVjViRk15WVM0QUd5OGlQalVaamthcHBKb05HRWpqXzJpME5yb1NuQXNobmVmcXljTnU4RlJFSFF4UFNpNFhrajloRkJSalNDOFBUZF9BdjROdUJFbU5NOU5taGRtemhzbTI3cDI4N2h4OWxzX1k?oc=5",
-   "src_lang": "es",
-   "body_orig": "El grupo de K-pop Stray Kids anuncia su regreso a París en 2027 - Sortir à Paris (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«[AVISO] Aviso sobre la sesión de autógrafos para fans con motivo del lanzamiento del EP [S.W.I.S.H.] de LNGSHOT (fanflip) https://weverse.io/lngshot/notice/41169 #LNGSHOT #SWISH» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] Release Celebration Fan Signing Event Notice (Fan Leaflet) https://weverse.io/lngshot/notice/41169 #LNGSHOT #SWISH» (LNGSHOT on X).",
-   "when": "2026-11-19T06:01:17Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2123295529019048432",
-   "src_lang": "ko",
-   "body_orig": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (팬플리) https://weverse.io/lngshot/notice/41169 #LNGSHOT #SWISH» (LNGSHOT en X).",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "ATEEZ(에이티즈) - ‘UP (I Hate Models Ver.)’ Lyric Video (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "ATEEZ(에이티즈) - ‘UP (I Hate Models Ver.)’ Lyric Video (YouTube)",
-   "when": "2026-11-19T05:05:10Z",
-   "url": "https://www.youtube.com/watch?v=q__azP1kokI"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "SEVENTEEN 2027 SEASON'S GREETINGS Visualizer 🐕🌱 (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "SEVENTEEN 2027 SEASON'S GREETINGS Visualizer 🐕🌱 (YouTube)",
-   "when": "2026-11-19T05:00:36Z",
-   "url": "https://www.youtube.com/watch?v=8bUov1GcDxk"
   }
  ]
 }

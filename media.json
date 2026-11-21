@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20T23:52:47Z",
+ "updated_at": "2026-11-21T06:36:02Z",
  "sample": false,
  "items": [
   {
@@ -53,6 +53,79 @@
   {
    "type": "music",
    "group": "enhypen",
+   "title": "I Want You (NI-KI Ver.)",
+   "kind": "Album",
+   "date": "2026-11-21",
+   "url": "https://music.apple.com/us/album/i-want-you-ni-ki-ver-single/6835828378",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/f2/6149f232-7adb-ab3a-bf78-99606335105a/823375577027_Cover.jpg/300x300bb.jpg",
+   "ytm_v": 6,
+   "tracks": [
+    {
+     "n": "I Want You (NI-KI Ver.)",
+     "ms": 97000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/2e/8d/112e8d35-28c1-a168-0109-caf1165f3d7d/mzaf_6929279917193721182.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": "2026-11-21T06",
+   "sp_try": "2026-11-21"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "You can't escape from every ANGLE🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-21",
+   "published": "2026-11-21T06:00:27Z",
+   "url": "https://www.youtube.com/watch?v=PfO0qRdgGfw",
+   "image": "https://i.ytimg.com/vi/PfO0qRdgGfw/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "베베베베베베 베이비 엔젤🩵 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-21",
+   "published": "2026-11-21T05:00:26Z",
+   "url": "https://www.youtube.com/watch?v=W8aMWB6D5d0",
+   "image": "https://i.ytimg.com/vi/W8aMWB6D5d0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "You wanna make your BABY ANGEL🩵 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-21",
+   "published": "2026-11-21T04:00:15Z",
+   "url": "https://www.youtube.com/watch?v=in_Vln4o5l4",
+   "image": "https://i.ytimg.com/vi/in_Vln4o5l4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "Go #Bananas w/#INGYOO @TEAMWEDEMBOYZ 🍌 #LNGSHOT #SWISH",
+   "date": "2026-11-21",
+   "published": "2026-11-21T03:00:14Z",
+   "url": "https://www.youtube.com/watch?v=1Hb6xoWc7TA",
+   "image": "https://i.ytimg.com/vi/1Hb6xoWc7TA/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "🕺 #CORTIS #코르티스",
+   "date": "2026-11-21",
+   "published": "2026-11-21T03:00:21Z",
+   "url": "https://www.youtube.com/watch?v=hQ77g2dxU20",
+   "image": "https://i.ytimg.com/vi/hQ77g2dxU20/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) - ‘UP’ Dance Practice (MATRIX Ver.)",
+   "date": "2026-11-21",
+   "published": "2026-11-21T03:00:06Z",
+   "url": "https://www.youtube.com/watch?v=sLo-xY2g2pE",
+   "image": "https://i.ytimg.com/vi/sLo-xY2g2pE/hqdefault.jpg"
+  },
+  {
+   "type": "music",
+   "group": "enhypen",
    "title": "THE SIN : PARALLEL WORLD",
    "kind": "Album",
    "date": "2026-11-20",
@@ -76,8 +149,8 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-20T23",
-   "sp_try": "2026-11-20"
+   "ytm_try": "2026-11-21T06",
+   "spotify": "https://open.spotify.com/album/2Gv2qKwrKxUZ025POfeOmT"
   },
   {
    "type": "video",
@@ -87,33 +160,6 @@
    "published": "2026-11-20T08:59:55Z",
    "url": "https://www.youtube.com/watch?v=7XD8xQxiGUg",
    "image": "https://i.ytimg.com/vi/7XD8xQxiGUg/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "Fascinated?🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
-   "date": "2026-11-20",
-   "published": "2026-11-20T11:13:20Z",
-   "url": "https://www.youtube.com/watch?v=qBhUV4aLpGc",
-   "image": "https://i.ytimg.com/vi/qBhUV4aLpGc/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "BABY ANGEL EVERYWHERE!⚾ #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
-   "date": "2026-11-20",
-   "published": "2026-11-20T07:00:24Z",
-   "url": "https://www.youtube.com/watch?v=WDw4lvrZseY",
-   "image": "https://i.ytimg.com/vi/WDw4lvrZseY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "BABY ANGEL...but a bit of 😈 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
-   "date": "2026-11-20",
-   "published": "2026-11-20T06:30:01Z",
-   "url": "https://www.youtube.com/watch?v=bmyb5_X0CVo",
-   "image": "https://i.ytimg.com/vi/bmyb5_X0CVo/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -216,15 +262,6 @@
   },
   {
    "type": "video",
-   "group": "ateez",
-   "title": "Punch 🆙 #Shorts",
-   "date": "2026-11-20",
-   "published": "2026-11-20T08:00:21Z",
-   "url": "https://www.youtube.com/watch?v=BHfxU86WW4w",
-   "image": "https://i.ytimg.com/vi/BHfxU86WW4w/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "skz",
    "title": "Just One 10 SECONDS #StrayKids #스트레이키즈 #필릭스 #Felix #YouMakeStrayKidsStay",
    "date": "2026-11-19",
@@ -243,30 +280,12 @@
   },
   {
    "type": "video",
-   "group": "lngshot",
-   "title": "Go #Bananas w/#BADA @Bada_bebe 🍌 #LNGSHOT #SWISH",
-   "date": "2026-11-19",
-   "published": "2026-11-19T12:00:34Z",
-   "url": "https://www.youtube.com/watch?v=CQoFF0WHWFE",
-   "image": "https://i.ytimg.com/vi/CQoFF0WHWFE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "seventeen",
    "title": "[INSIDE SEVENTEEN] 2026 디노X피철인 [吉BOARD SHOW] BEHIND #3",
    "date": "2026-11-19",
    "published": "2026-11-19T13:00:01Z",
    "url": "https://www.youtube.com/watch?v=GN5FB-pQUNs",
    "image": "https://i.ytimg.com/vi/GN5FB-pQUNs/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "아 이게 아닌데 #CORTIS #코르티스",
-   "date": "2026-11-19",
-   "published": "2026-11-19T14:00:38Z",
-   "url": "https://www.youtube.com/watch?v=fQklzBEO9VY",
-   "image": "https://i.ytimg.com/vi/fQklzBEO9VY/hqdefault.jpg"
   },
   {
    "type": "music",
@@ -284,8 +303,8 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/c9/79/6ac97982-749a-b44d-dbd4-25a4bad8d1a1/mzaf_130015778819592854.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-20T23",
-   "sp_try": "2026-11-20"
+   "ytm_try": "2026-11-21T06",
+   "sp_try": "2026-11-21"
   },
   {
    "type": "music",
@@ -324,7 +343,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-20T23"
+   "ytm_try": "2026-11-21T06"
   },
   {
    "type": "music",
@@ -363,7 +382,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-20T23"
+   "ytm_try": "2026-11-21T06"
   },
   {
    "type": "video",
@@ -568,31 +587,6 @@
   },
   {
    "type": "music",
-   "group": "enhypen",
-   "title": "Bloody Paradise (English Ver.)",
-   "kind": "Album",
-   "date": "2026-08-26",
-   "url": "https://music.apple.com/us/album/bloody-paradise-english-ver-single/6804583619",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/61/48/5f614875-a66d-c4c2-1737-cd6ce42654ee/823375394006_Cover.jpg/300x300bb.jpg",
-   "ytm_v": 6,
-   "spotify": "https://open.spotify.com/album/0pmGnlSL15kAFrftVmfPsx",
-   "ytm": "https://music.youtube.com/watch?v=SP6V4Tl4rpo",
-   "tracks": [
-    {
-     "n": "Bloody Paradise (English Ver.)",
-     "ms": 131200,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b5/c0/aa/b5c0aa25-8add-9014-aa2b-e30da3da2a7b/mzaf_17945270291858680336.plus.aac.p.m4a"
-    },
-    {
-     "n": "Bloody Paradise (English Ver.)",
-     "ms": 131200,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/2d/6f/542d6f23-caf3-3127-a9ed-7a6e76adac29/mzaf_15965696081842026818.plus.aac.p.m4a"
-    }
-   ],
-   "ytm_try": "2026-10-17T19"
-  },
-  {
-   "type": "music",
    "group": "twice",
    "title": "TWICE BEST ALBUM \"#BEST 2015-2025\" -Japanese ver.-",
    "kind": "Album",
@@ -600,8 +594,8 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-20T23",
-   "sp_try": "2026-11-20"
+   "ytm_try": "2026-11-21T06",
+   "sp_try": "2026-11-21"
   },
   {
    "type": "music",
@@ -1054,7 +1048,7 @@
     }
    ],
    "ytm_try": "2026-10-17T19",
-   "sp_try": "2026-11-20"
+   "sp_try": "2026-11-21"
   },
   {
    "type": "music",
@@ -1303,7 +1297,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-20T23"
+   "ytm_try": "2026-11-21T06"
   },
   {
    "type": "music",
