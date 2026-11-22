@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22T01:06:06Z",
+ "updated_at": "2026-11-22T08:01:50Z",
  "sample": false,
  "items": [
   {
@@ -51,6 +51,105 @@
    ]
   },
   {
+   "type": "video",
+   "group": "twice",
+   "title": "I'll be the🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-22",
+   "published": "2026-11-22T07:00:05Z",
+   "url": "https://www.youtube.com/watch?v=7Sadp8HeovU",
+   "image": "https://i.ytimg.com/vi/7Sadp8HeovU/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "Don’t need a halo 👼 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-22",
+   "published": "2026-11-22T06:00:07Z",
+   "url": "https://www.youtube.com/watch?v=E-cuDsbF-Pk",
+   "image": "https://i.ytimg.com/vi/E-cuDsbF-Pk/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "🌠Glowing ANGEL🌠 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-22",
+   "published": "2026-11-22T05:00:14Z",
+   "url": "https://www.youtube.com/watch?v=9M1smlAiFMg",
+   "image": "https://i.ytimg.com/vi/9M1smlAiFMg/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "SIGMABOIZ gone #Bananas🗿who did it best?👇 #LNGSHOT #SWISH",
+   "date": "2026-11-22",
+   "published": "2026-11-22T07:30:35Z",
+   "url": "https://www.youtube.com/watch?v=ujb3G1tbycY",
+   "image": "https://i.ytimg.com/vi/ujb3G1tbycY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "そろそろ始まるよ #JxJ #정한X조슈아 #DREAMSCAPE",
+   "date": "2026-11-22",
+   "published": "2026-11-22T07:00:16Z",
+   "url": "https://www.youtube.com/watch?v=okw6J7gTRP4",
+   "image": "https://i.ytimg.com/vi/okw6J7gTRP4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "[WOO.ZIP] BIRTHDAY UNLOCKED ❤️",
+   "date": "2026-11-22",
+   "published": "2026-11-22T04:59:57Z",
+   "url": "https://www.youtube.com/watch?v=GXUTPLEbpx4",
+   "image": "https://i.ytimg.com/vi/GXUTPLEbpx4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "[Behind] 방콕에서 ENGENE 만나고 텐션 FULL 충전🔥⚡ #ENHYPEN",
+   "date": "2026-11-22",
+   "published": "2026-11-22T05:03:15Z",
+   "url": "https://www.youtube.com/watch?v=Bwd2yNMLKpg",
+   "image": "https://i.ytimg.com/vi/Bwd2yNMLKpg/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "😚 #JUNGWON #ENHYPEN",
+   "date": "2026-11-22",
+   "published": "2026-11-22T04:15:10Z",
+   "url": "https://www.youtube.com/watch?v=n37MgulK-v4",
+   "image": "https://i.ytimg.com/vi/n37MgulK-v4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "in this town, everybody goes REDRED including me #CORTIS #코르티스",
+   "date": "2026-11-22",
+   "published": "2026-11-22T04:00:34Z",
+   "url": "https://www.youtube.com/watch?v=D4SSmo-OWmE",
+   "image": "https://i.ytimg.com/vi/D4SSmo-OWmE/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "Yeah we go 🆙 w/ 임지민 님 #Shorts",
+   "date": "2026-11-22",
+   "published": "2026-11-22T08:00:27Z",
+   "url": "https://www.youtube.com/watch?v=f4nSm4WQGgg",
+   "image": "https://i.ytimg.com/vi/f4nSm4WQGgg/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "Yeah we go 🆙 w/ 웨인 님 #Shorts",
+   "date": "2026-11-22",
+   "published": "2026-11-22T07:00:28Z",
+   "url": "https://www.youtube.com/watch?v=8ynzy61ZjpU",
+   "image": "https://i.ytimg.com/vi/8ynzy61ZjpU/hqdefault.jpg"
+  },
+  {
    "type": "music",
    "group": "enhypen",
    "title": "I Want You (NI-KI Ver.)",
@@ -66,35 +165,8 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/2e/8d/112e8d35-28c1-a168-0109-caf1165f3d7d/mzaf_6929279917193721182.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-22T01",
+   "ytm_try": "2026-11-22T08",
    "sp_try": "2026-11-22"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "With BABY ANGEL #JISOO 👼🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
-   "date": "2026-11-21",
-   "published": "2026-11-21T11:00:15Z",
-   "url": "https://www.youtube.com/watch?v=SSG5sOT0mKs",
-   "image": "https://i.ytimg.com/vi/SSG5sOT0mKs/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "You can't escape from every ANGLE🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
-   "date": "2026-11-21",
-   "published": "2026-11-21T06:00:27Z",
-   "url": "https://www.youtube.com/watch?v=PfO0qRdgGfw",
-   "image": "https://i.ytimg.com/vi/PfO0qRdgGfw/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "베베베베베베 베이비 엔젤🩵 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
-   "date": "2026-11-21",
-   "published": "2026-11-21T05:00:26Z",
-   "url": "https://www.youtube.com/watch?v=W8aMWB6D5d0",
-   "image": "https://i.ytimg.com/vi/W8aMWB6D5d0/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -134,24 +206,6 @@
   },
   {
    "type": "video",
-   "group": "enhypen",
-   "title": "Cuz I want #WONHEE 🫵 #EN_IWantYou #ILLIT #JUNGWON #ENHYPEN",
-   "date": "2026-11-21",
-   "published": "2026-11-21T11:28:53Z",
-   "url": "https://www.youtube.com/watch?v=WqOCpyCYPoY",
-   "image": "https://i.ytimg.com/vi/WqOCpyCYPoY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "ENHYPEN (엔하이픈) 2026 MAMA AWARDS ‘Big Girls Don’t Cry’ & ‘Knife’ Performance Practice",
-   "date": "2026-11-21",
-   "published": "2026-11-21T08:59:46Z",
-   "url": "https://www.youtube.com/watch?v=Y-5ROMmL5ks",
-   "image": "https://i.ytimg.com/vi/Y-5ROMmL5ks/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "cortis",
    "title": "2026 MAMA 4관왕 만들어 준 코어 고맙고 사랑합니다 🏆🏆🏆🏆❤️‍🔥 #CORTIS #코르티스 #CORTIS_REDRED",
    "date": "2026-11-21",
@@ -176,24 +230,6 @@
    "published": "2026-11-21T12:00:03Z",
    "url": "https://www.youtube.com/watch?v=D_uaa-hsELc",
    "image": "https://i.ytimg.com/vi/D_uaa-hsELc/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "8년째 조인 Tension #Shorts",
-   "date": "2026-11-21",
-   "published": "2026-11-21T11:00:35Z",
-   "url": "https://www.youtube.com/watch?v=kMJcO2jJt6c",
-   "image": "https://i.ytimg.com/vi/kMJcO2jJt6c/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) - ‘UP’ Dance Practice (MATRIX Ver.)",
-   "date": "2026-11-21",
-   "published": "2026-11-21T03:00:06Z",
-   "url": "https://www.youtube.com/watch?v=sLo-xY2g2pE",
-   "image": "https://i.ytimg.com/vi/sLo-xY2g2pE/hqdefault.jpg"
   },
   {
    "type": "music",
@@ -222,7 +258,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-22T01"
+   "ytm_try": "2026-11-22T08"
   },
   {
    "type": "video",
@@ -232,42 +268,6 @@
    "published": "2026-11-20T08:59:55Z",
    "url": "https://www.youtube.com/watch?v=7XD8xQxiGUg",
    "image": "https://i.ytimg.com/vi/7XD8xQxiGUg/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "곧 해낼 것 같아 샷티의 롱샷이🩶 thank you SHOTTIES🫶 #LNGSHOT #SHOTTIES #2026MAMA",
-   "date": "2026-11-20",
-   "published": "2026-11-20T14:31:31Z",
-   "url": "https://www.youtube.com/watch?v=pruqq60zkL8",
-   "image": "https://i.ytimg.com/vi/pruqq60zkL8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "JEONGHAN X JOSHUA (SEVENTEEN) ‘DREAMSCAPE’ Dance Practice & Promotions BEHIND THE SCENES",
-   "date": "2026-11-20",
-   "published": "2026-11-20T13:00:03Z",
-   "url": "https://www.youtube.com/watch?v=-BMhemGBTu0",
-   "image": "https://i.ytimg.com/vi/-BMhemGBTu0/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "친구랑 파인다이닝 갈 때 추천룩 #정답행 #EP1",
-   "date": "2026-11-20",
-   "published": "2026-11-20T11:00:00Z",
-   "url": "https://www.youtube.com/watch?v=xMjeFTD2r-g",
-   "image": "https://i.ytimg.com/vi/xMjeFTD2r-g/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "오른손잡이는 어때요 #CORTIS #코르티스",
-   "date": "2026-11-20",
-   "published": "2026-11-20T15:18:50Z",
-   "url": "https://www.youtube.com/watch?v=fp5UxJcaQ3o",
-   "image": "https://i.ytimg.com/vi/fp5UxJcaQ3o/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -303,7 +303,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/c9/79/6ac97982-749a-b44d-dbd4-25a4bad8d1a1/mzaf_130015778819592854.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-22T01",
+   "ytm_try": "2026-11-22T08",
    "sp_try": "2026-11-22"
   },
   {
@@ -343,7 +343,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-22T01"
+   "ytm_try": "2026-11-22T08"
   },
   {
    "type": "music",
@@ -382,7 +382,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-22T01"
+   "ytm_try": "2026-11-22T08"
   },
   {
    "type": "video",
@@ -594,7 +594,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-22T01",
+   "ytm_try": "2026-11-22T08",
    "sp_try": "2026-11-22"
   },
   {
@@ -1297,7 +1297,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-22T01"
+   "ytm_try": "2026-11-22T08"
   },
   {
    "type": "music",

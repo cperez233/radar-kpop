@@ -2278,7 +2278,22 @@
   "official:ateez:comeback:2026-11-22|feed": "2026-11-22T01:07:50Z",
   "official:ateez:comeback:2026-11-22|ntfy": "2026-11-22T01:07:50Z",
   "official:ateez:comeback:2026-11-22|pub:radarkpop-ateez-music": "2026-11-22T01:07:50Z",
-  "official:ateez:comeback:2026-11-22|foro": "2026-11-22T01:07:50Z"
+  "official:ateez:comeback:2026-11-22|foro": "2026-11-22T01:07:50Z",
+  "live:svt-20261122-saitama|feed": "2026-11-22T08:03:26Z",
+  "live:svt-20261122-saitama|ntfy": "2026-11-22T08:03:26Z",
+  "live:svt-20261122-saitama|pub:radarkpop-seventeen-shows": "2026-11-22T08:03:26Z",
+  "live:svt-20261122-saitama|foro": "2026-11-22T08:03:26Z",
+  "news:8310e9df7f86a97b|feed": "2026-11-22T08:03:26Z",
+  "news:c6bb0990b1206195|feed": "2026-11-22T08:03:26Z",
+  "news:19a9ab8200637a08|feed": "2026-11-22T08:03:26Z",
+  "news:6c9dbead84333a91|feed": "2026-11-22T08:03:26Z",
+  "news:8014c7c8d15fa230|feed": "2026-11-22T08:03:26Z",
+  "news:af7347b02e0fdebb|feed": "2026-11-22T08:03:26Z",
+  "news:dde376d106ee7eaa|feed": "2026-11-22T08:03:26Z",
+  "news:518457c076ae3cc1|feed": "2026-11-22T08:03:26Z",
+  "news:cf99bbe6d91e4eab|feed": "2026-11-22T08:03:26Z",
+  "news:b3c1f464e60cd101|feed": "2026-11-22T08:03:26Z",
+  "news:eb33633ce9cafec5|feed": "2026-11-22T08:03:26Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3431,20 +3446,6 @@
   }
  },
  "news_seen": [
-  "ac396c6a08b27779",
-  "ac7888d1f2fcf603",
-  "ac7c9de55cf54fad",
-  "ac8a211458039697",
-  "ac8cf14c82a94d2a",
-  "acc4375ec5a04c05",
-  "acf82bbb27dfbaf3",
-  "acf9cacc86ed79b1",
-  "ad158f42ac67aa20",
-  "ad862756c22719dc",
-  "ad88bd4f980b0e45",
-  "addf3fc11728cc28",
-  "ade28e0044631cff",
-  "ae18c404c3660082",
   "ae264e2f188bf195",
   "ae3b83ee48a3ad46",
   "ae4549c37d966beb",
@@ -3459,6 +3460,7 @@
   "af1012638cb084a2",
   "af4be65657634118",
   "af6ef1294da858ae",
+  "af7347b02e0fdebb",
   "af9f307a48274da9",
   "aff012458a449b86",
   "aff6ec8151f66571",
@@ -3493,6 +3495,7 @@
   "b36782312fba7bfa",
   "b388e3f3ae10baba",
   "b38fb1ebbcfdd59d",
+  "b3c1f464e60cd101",
   "b3cbf79d69e4f719",
   "b3d17ab58100070a",
   "b3d4517067df4b17",
@@ -3681,6 +3684,7 @@
   "c68e7c87af1ebd44",
   "c6a4c0fa19db881e",
   "c6b4983b79cc14fe",
+  "c6bb0990b1206195",
   "c6bb4877da0a26e3",
   "c6f3c7ff3704ec72",
   "c6f510fb4b19a82a",
@@ -3707,6 +3711,7 @@
   "c900372433f3974c",
   "c917979fed8e5d11",
   "c92fce943c2cb151",
+  "c932491bd2a36acc",
   "c943ebf14111003e",
   "c9447a791ca6069a",
   "c9a081307f21a439",
@@ -3781,6 +3786,7 @@
   "cf7a2c7c50c0bcc3",
   "cf8004556f016740",
   "cf8b9f4730133ab8",
+  "cf99bbe6d91e4eab",
   "cfa384031ef9ad58",
   "cfbd2b899461f14e",
   "cfeb5710bacb291f",
@@ -3796,6 +3802,7 @@
   "d1745e0fb6f5a878",
   "d17d620babad1208",
   "d18d2bb3deb9fee4",
+  "d18ee357c47b82bc",
   "d1a82289c3fb5cb7",
   "d1d43ae98577f558",
   "d1ed264c49bbe789",
@@ -3805,6 +3812,7 @@
   "d24abb7ae6392bbe",
   "d278a740e98b03f0",
   "d29eebea31790037",
+  "d2a4b23ec1c606e3",
   "d2c8d20b2b33e909",
   "d2cf62f089d7e007",
   "d2d8c048e9cc8410",
@@ -3833,6 +3841,7 @@
   "d4e3dab0279b83d7",
   "d502eaaf7489e2a4",
   "d51186be8bd0a24e",
+  "d51d111894eafbdc",
   "d5410b976ca14f0d",
   "d5482280a23df1cd",
   "d568689090239a09",
@@ -3866,6 +3875,7 @@
   "d7dc6b23d3a748de",
   "d80bd76553e6ed2e",
   "d80e74e16f50f6fa",
+  "d8194771eb44d908",
   "d84faca8e271b611",
   "d872ffa2183b9e41",
   "d884c6152f7a8a33",
@@ -3916,6 +3926,7 @@
   "ddb6cc03febd686f",
   "ddcb9dee605c4307",
   "dddfce81c7c4c59a",
+  "dde376d106ee7eaa",
   "ddfc60117f951dd7",
   "de54a24554f9039d",
   "de5be50aeee3978e",
@@ -4000,6 +4011,7 @@
   "e75b2f7e17be6f07",
   "e772c631232a5c98",
   "e781304ba4f3dc07",
+  "e798c915c0e174f7",
   "e79ab03f1bd48ae5",
   "e7b44a3b30266ad4",
   "e7f469a5d2bd3b1e",
@@ -4033,6 +4045,7 @@
   "eb114ff53d81c04a",
   "eb1885ac5e4c922e",
   "eb28bba42f57cdd4",
+  "eb33633ce9cafec5",
   "eb558a7f511fcba0",
   "eb669ec7e31c809e",
   "eb7586ca057e2dc7",
@@ -4060,6 +4073,7 @@
   "ed8176c84b63d146",
   "ed865c1b58456054",
   "ed991ad59fb345eb",
+  "edc2e23c4048564a",
   "edf778c0db632cbe",
   "ee07a3b3b51c993f",
   "ee16ed74a93dfbcf",
@@ -4224,6 +4238,7 @@
   "ff034b7ab6503a06",
   "ff05badd93f8b7a6",
   "ff08e8b6d1b62e15",
+  "ff4afd7fb639c011",
   "ff50509de7f407d1",
   "ff7e28fe717a4438",
   "ff8f526e9edce40d",
@@ -4233,45 +4248,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "asia",
-    "emprendera",
-    "gira",
-    "incluira",
-    "kuala",
-    "lumpur"
-   ],
-   "t": "2026-11-20T01:20:45Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "asi",
-    "ciudad",
-    "comienza",
-    "convierte",
-    "etapa",
-    "gira",
-    "kaohsiung",
-    "morada",
-    "mundial",
-    "nueva"
-   ],
-   "t": "2026-11-20T01:20:45Z"
-  },
-  {
-   "g": "enhypen",
-   "w": [
-    "agradecimiento",
-    "concierto",
-    "fans",
-    "mbc",
-    "ofrecio"
-   ],
-   "t": "2026-11-20T01:20:45Z"
-  },
   {
    "g": "seventeen",
    "w": [
@@ -4481,6 +4457,18 @@
     "inaugura"
    ],
    "t": "2026-11-22T01:07:44Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "asia",
+    "emprendera",
+    "gira",
+    "incluira",
+    "kuala",
+    "lumpur"
+   ],
+   "t": "2026-11-22T08:03:20Z"
   }
  ],
  "discord_threads": {
