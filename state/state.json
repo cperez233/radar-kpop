@@ -2262,7 +2262,23 @@
   "news:a9ca4b3bd7fe3a82|feed": "2026-11-21T20:54:17Z",
   "news:a9ca4b3bd7fe3a82|ntfy": "2026-11-21T20:54:17Z",
   "news:a9ca4b3bd7fe3a82|pub:radarkpop-bts-news": "2026-11-21T20:54:17Z",
-  "news:a9ca4b3bd7fe3a82|foro": "2026-11-21T20:54:17Z"
+  "news:a9ca4b3bd7fe3a82|foro": "2026-11-21T20:54:17Z",
+  "official:twice:comeback:2026-11-22|feed": "2026-11-22T01:07:50Z",
+  "official:twice:comeback:2026-11-22|ntfy": "2026-11-22T01:07:50Z",
+  "official:twice:comeback:2026-11-22|pub:radarkpop-twice-music": "2026-11-22T01:07:50Z",
+  "official:twice:comeback:2026-11-22|foro": "2026-11-22T01:07:50Z",
+  "official:seventeen:comeback:2026-11-22|feed": "2026-11-22T01:07:50Z",
+  "official:seventeen:comeback:2026-11-22|ntfy": "2026-11-22T01:07:50Z",
+  "official:seventeen:comeback:2026-11-22|pub:radarkpop-seventeen-music": "2026-11-22T01:07:50Z",
+  "official:seventeen:comeback:2026-11-22|foro": "2026-11-22T01:07:50Z",
+  "official:enhypen:comeback:2026-11-22|feed": "2026-11-22T01:07:50Z",
+  "official:enhypen:comeback:2026-11-22|ntfy": "2026-11-22T01:07:50Z",
+  "official:enhypen:comeback:2026-11-22|pub:radarkpop-enhypen-music": "2026-11-22T01:07:50Z",
+  "official:enhypen:comeback:2026-11-22|foro": "2026-11-22T01:07:50Z",
+  "official:ateez:comeback:2026-11-22|feed": "2026-11-22T01:07:50Z",
+  "official:ateez:comeback:2026-11-22|ntfy": "2026-11-22T01:07:50Z",
+  "official:ateez:comeback:2026-11-22|pub:radarkpop-ateez-music": "2026-11-22T01:07:50Z",
+  "official:ateez:comeback:2026-11-22|foro": "2026-11-22T01:07:50Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -4454,6 +4470,17 @@
     "regreso"
    ],
    "t": "2026-11-21T20:54:11Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "arirang",
+    "ciudades",
+    "conciertos",
+    "gira",
+    "inaugura"
+   ],
+   "t": "2026-11-22T01:07:44Z"
   }
  ],
  "discord_threads": {

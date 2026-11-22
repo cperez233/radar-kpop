@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T20:54:11Z",
+ "updated_at": "2026-11-22T01:07:44Z",
  "alerts": [
   {
    "type": "birthday",
@@ -212,6 +212,20 @@
    "url": "https://www.youtube.com/watch?v=W8aMWB6D5d0"
   },
   {
+   "type": "official",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Anuncio oficial de ENHYPEN: comeback",
+   "body": "«[Anuncio] Lanzamiento de «I Want You (ENHYPEN Remix)» de ENHYPEN (+ENG/JPN/CHN) https://weverse.io/enhypen/notice/41224» (ENHYPEN en X).",
+   "title_en": "Official ENHYPEN news: comeback",
+   "body_en": "«[Notice] Release of ENHYPEN's \"I Want You (ENHYPEN Remix)\" (+ENG/JPN/CHN) https://weverse.io/enhypen/notice/41224» (ENHYPEN on X).",
+   "when": "2026-11-21T05:00:01Z",
+   "url": "https://x.com/ENHYPEN/status/2124004886383931680",
+   "src_lang": "ko",
+   "body_orig": "«[공지] ENHYPEN ‘I Want You (ENHYPEN Remix)’ 발매 (+ENG/JPN/CHN) https://weverse.io/enhypen/notice/41224» (ENHYPEN en X).",
+   "auto": true
+  },
+  {
    "type": "arrival",
    "group": "bts",
    "group_name": "BTS",
@@ -232,6 +246,20 @@
    "body_en": "You wanna make your BABY ANGEL🩵 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
    "when": "2026-11-21T04:00:15Z",
    "url": "https://www.youtube.com/watch?v=in_Vln4o5l4"
+  },
+  {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«NAYEON y Forbes 📰 NAYEON está lista para ponerse «NA-Sty» con su nuevo álbum single 🔗 https://www.forbes.com/sites/laurasirikul/2026/11/20/nayeon-is-ready-t...» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«NAYEON & Forbes 📰 NAYEON Is Ready To Get 'NA-Sty' With New Single Album 🔗 https://www.forbes.com/sites/laurasirikul/2026/11/20/nayeon-is-ready-t...» (TWICE en X).",
+   "when": "2026-11-21T03:40:02Z",
+   "url": "https://x.com/JYPETWICE/status/2123984755561845072",
+   "src_lang": "en",
+   "body_orig": "«NAYEON & Forbes 📰 NAYEON Is Ready To Get 'NA-Sty' With New Single Album 🔗 https://www.forbes.com/sites/laurasirikul/2026/11/20/nayeon-is-ready-t...» (TWICE en X).",
+   "auto": true
   },
   {
    "type": "official",
@@ -478,6 +506,20 @@
    "group": "seventeen",
    "group_name": "SEVENTEEN",
    "title": "Anuncio oficial de SEVENTEEN: comeback",
+   "body": "«SEVENTEEN 2027 SEASON'S GREETINGS Imágenes de avance 🌱☀️ 🗓️ LANZAMIENTO: 9/ 9/12 (KST) #SEVENTEEN #세븐틴 #SVT2027시즌그리팅» (SEVENTEEN en X).",
+   "title_en": "Official SEVENTEEN news: comeback",
+   "body_en": "«SEVENTEEN 2027 SEASON'S GREETINGS Preview Cuts 🌱☀️ 🗓️ RELEASE: 2026. 12. 9 (KST) #SEVENTEEN #세븐틴 #SVT2027시즌그리팅» (SEVENTEEN on X).",
+   "when": "2026-11-20T08:00:00Z",
+   "url": "https://x.com/pledis_17/status/2123687793763475870",
+   "src_lang": "ko",
+   "body_orig": "«SEVENTEEN 2027 SEASON'S GREETINGS Preview Cuts 🌱☀️ 🗓️ RELEASE : 2026. 12. 9 (KST) #SEVENTEEN #세븐틴 #SVT2027시즌그리팅» (SEVENTEEN en X).",
+   "auto": true
+  },
+  {
+   "type": "official",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Anuncio oficial de SEVENTEEN: comeback",
    "body": "«SEVENTEEN 2027 SEASON'S GREETINGS Preview Cuts 🌱☀️ 🗓️ LANZAMIENTO: 9/ 9/12 (KST) #SEVENTEEN #세븐틴 #SVT2027시즌그리팅» (SEVENTEEN en X).",
    "title_en": "Official SEVENTEEN news: comeback",
    "body_en": "«SEVENTEEN 2027 SEASON'S GREETINGS Preview Cuts 🌱☀️ 🗓️ RELEASE: 2026. 12. 9 (KST) #SEVENTEEN #세븐틴 #SVT2027시즌그리팅» (SEVENTEEN on X).",
@@ -574,6 +616,20 @@
    "title": "Anuncio oficial de ATEEZ: comeback",
    "body": "«[📷] 2027 SEASON'S GREETINGS '종호(JONGHO)' REAL ATEEZ: SPOTTED #8 PREVENTA: 25/ 25/11, 13:00 (KST) ~ LANZAMIENTO: 29/12/2026. 29/12 #ATEEZ #에이티즈 #JO...» (ATEEZ en X).",
    "title_en": "Official ATEEZ news: comeback",
+   "body_en": "«[📷] 2027 SEASON'S GREETINGS 'JONGHO' REAL ATEEZ: SPOTTED #8 PRE-ORDER: 2026. 11. 25 1PM (KST) ~ RELEASE: 2026. 12. 29 #ATEEZ #에이티즈 #JO...» (ATEEZ on X).",
+   "when": "2026-11-20T04:02:04Z",
+   "url": "https://x.com/ATEEZofficial/status/2123627915195871698",
+   "src_lang": "ko",
+   "body_orig": "«[📷] 2027 SEASON'S GREETINGS '종호(JONGHO)' REAL ATEEZ : SPOTTED #8 PRE-ORDER : 2026. 11. 25 1PM (KST) ~ RELEASE : 2026. 12. 29 #ATEEZ #에이티즈 #JO...» (ATEEZ en X).",
+   "auto": true
+  },
+  {
+   "type": "official",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Anuncio oficial de ATEEZ: comeback",
+   "body": "«[📷] 2027 SEASON'S GREETINGS '종호(JONGHO)' REAL ATEEZ: SPOTTED #8 PREVENTA: 25/ 25/11, 13:00 (KST) ~ LANZAMIENTO: 29/12/2026. 29/12 #ATEEZ #에이티즈 #JO...» (ATEEZ en X).",
+   "title_en": "Official ATEEZ news: comeback",
    "body_en": "«[📷] 2027 SEASON'S GREETINGS 'JONGHO' REAL ATEEZ : SPOTTED #8 PRE-ORDER : 2026. 11. 25 1PM (KST) ~ RELEASE: 2026. 12. 29 #ATEEZ #에이티즈 #JO...» (ATEEZ on X).",
    "when": "2026-11-20T04:02:04Z",
    "url": "https://x.com/ATEEZofficial/status/2123627915195871698",
@@ -648,59 +704,6 @@
    "url": "https://x.com/Stray_Kids/status/2123506625919267086",
    "src_lang": "ko",
    "body_orig": "«Stray Kids(스트레이 키즈) World Tour <RUN IT NORTH AMERICA> Tickets Open Now! (Local Time) General Sale | 2026.11.19 (THU) 3PM https://livenation.com/...» (Stray Kids en X).",
-   "auto": true
-  },
-  {
-   "type": "latam",
-   "group": "bts",
-   "group_name": "BTS",
-   "title": "Latinoamérica: BTS",
-   "body": "BTS convierte a Kaohsiung en una ciudad morada: así comienza la nueva etapa de su gira mundial - El Sol de México (Google Noticias)",
-   "title_en": "Latin America: BTS",
-   "body_en": "BTS turns Kaohsiung purple: This is how the new leg of their world tour begins - El Sol de México (Google News)",
-   "when": "2026-11-19T19:18:45Z",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNnlJank4Wnc2UnYtQW9lOWFGT0lIQ1RnOWtFVWhiWjc3M2xHeWgzV2pOLXJ1MkhSeTg2QktrZG5SaDdEak1NNHVwcTRYSUY5V0F5ckdWWXJjbjhITVowSlV0TkpHSXdvQ2tadGpEQTVYRzBnRlBUN3FyRk1MMGd4VnpVSHg3V3dIOWpiSzZwcTNIblZuQ2JuVmZ1SzBUNzVTT29oVkxZN1FONjZqOU9ZcGVpazhuajU0cDVXRWFKb2JRc0RVOTVjYnJTdnVfMFE4cm1ld0NpdXdZVW9qU3VZ?oc=5",
-   "src_lang": "es",
-   "body_orig": "BTS convierte a Kaohsiung en una ciudad morada: así comienza la nueva etapa de su gira mundial - El Sol de México (Google Noticias)",
-   "auto": true
-  },
-  {
-   "type": "stop_today",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Hoy Stray Kids abre en Chicago",
-   "body": "Chicago. Hora aproximada, confirma en la boletería.",
-   "title_en": "Today Stray Kids opens in Chicago",
-   "body_en": "Chicago. Approximate time, check with the box office.",
-   "when": "2026-11-19T19:09:23Z",
-   "url": null
-  },
-  {
-   "type": "comeback",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "💿 Hoy sale «THE SIN : PARALLEL WORLD» de ENHYPEN",
-   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
-   "title_en": "💿 ENHYPEN's «THE SIN : PARALLEL WORLD» is out today",
-   "body_en": "You can now listen to it! (or in a few hours, depending on your time zone)",
-   "when": "2026-11-19T19:09:23Z",
-   "url": "https://music.apple.com/us/album/the-sin-parallel-world-single/6824959794",
-   "src_lang": "es",
-   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
-   "auto": true
-  },
-  {
-   "type": "comeback",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "💿 Hoy sale «NAYEON “BABY ANGEL” M/V» de TWICE",
-   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
-   "title_en": "💿 TWICE's «NAYEON “BABY ANGEL” M/V» is out today",
-   "body_en": "You can now listen to it! (or in a few hours, depending on your time zone)",
-   "when": "2026-11-19T19:09:23Z",
-   "url": "https://x.com/JYPETWICE/status/2123431110327853301",
-   "src_lang": "es",
-   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
    "auto": true
   }
  ]
