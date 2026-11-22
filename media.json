@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22T08:01:50Z",
+ "updated_at": "2026-11-22T16:19:07Z",
  "sample": false,
  "items": [
   {
@@ -53,6 +53,15 @@
   {
    "type": "video",
    "group": "twice",
+   "title": "NAYEON SINGLE = NA-sty..?💭 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-22",
+   "published": "2026-11-22T09:00:21Z",
+   "url": "https://www.youtube.com/watch?v=09mbqA7I94Q",
+   "image": "https://i.ytimg.com/vi/09mbqA7I94Q/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
    "title": "I'll be the🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
    "date": "2026-11-22",
    "published": "2026-11-22T07:00:05Z",
@@ -70,12 +79,12 @@
   },
   {
    "type": "video",
-   "group": "twice",
-   "title": "🌠Glowing ANGEL🌠 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "group": "lngshot",
+   "title": "Go #Bananas w/#Keyveatz #KIMYUNA 🍌#LNGSHOT #SWISH",
    "date": "2026-11-22",
-   "published": "2026-11-22T05:00:14Z",
-   "url": "https://www.youtube.com/watch?v=9M1smlAiFMg",
-   "image": "https://i.ytimg.com/vi/9M1smlAiFMg/hqdefault.jpg"
+   "published": "2026-11-22T09:00:33Z",
+   "url": "https://www.youtube.com/watch?v=Z6QkyKjazFc",
+   "image": "https://i.ytimg.com/vi/Z6QkyKjazFc/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -85,6 +94,15 @@
    "published": "2026-11-22T07:30:35Z",
    "url": "https://www.youtube.com/watch?v=ujb3G1tbycY",
    "image": "https://i.ytimg.com/vi/ujb3G1tbycY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "Even if the world ends tomorrow, 🩷🩵 #JxJ #정한X조슈아 #JOURNEY_INTO_DREAMING",
+   "date": "2026-11-22",
+   "published": "2026-11-22T14:17:58Z",
+   "url": "https://www.youtube.com/watch?v=eDquWCzl750",
+   "image": "https://i.ytimg.com/vi/eDquWCzl750/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -107,20 +125,38 @@
   {
    "type": "video",
    "group": "enhypen",
-   "title": "[Behind] 방콕에서 ENGENE 만나고 텐션 FULL 충전🔥⚡ #ENHYPEN",
+   "title": "Let’s go camping🏕️ #SUNOO #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN",
    "date": "2026-11-22",
-   "published": "2026-11-22T05:03:15Z",
-   "url": "https://www.youtube.com/watch?v=Bwd2yNMLKpg",
-   "image": "https://i.ytimg.com/vi/Bwd2yNMLKpg/hqdefault.jpg"
+   "published": "2026-11-22T14:06:49Z",
+   "url": "https://www.youtube.com/watch?v=HRBQuWQ-S2A",
+   "image": "https://i.ytimg.com/vi/HRBQuWQ-S2A/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "enhypen",
-   "title": "😚 #JUNGWON #ENHYPEN",
+   "title": "Make “I Want You” yours 💿❤️#ENHYPEN #엔하이픈 #THE_SIN_PARALLEL_WORLD",
    "date": "2026-11-22",
-   "published": "2026-11-22T04:15:10Z",
-   "url": "https://www.youtube.com/watch?v=n37MgulK-v4",
-   "image": "https://i.ytimg.com/vi/n37MgulK-v4/hqdefault.jpg"
+   "published": "2026-11-22T13:06:11Z",
+   "url": "https://www.youtube.com/watch?v=QIXACJqfivk",
+   "image": "https://i.ytimg.com/vi/QIXACJqfivk/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "Cuz I want #DOHOON 🫵#EN_IWantYou #TWS #SUNGHOON #ENHYPEN @TWS_PLEDIS",
+   "date": "2026-11-22",
+   "published": "2026-11-22T08:05:02Z",
+   "url": "https://www.youtube.com/watch?v=61ZVuWbGkl0",
+   "image": "https://i.ytimg.com/vi/61ZVuWbGkl0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "이코노미에서 비즈니스 pullin up",
+   "date": "2026-11-22",
+   "published": "2026-11-22T11:59:57Z",
+   "url": "https://www.youtube.com/watch?v=gB2Qi-04ZfM",
+   "image": "https://i.ytimg.com/vi/gB2Qi-04ZfM/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -165,7 +201,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/2e/8d/112e8d35-28c1-a168-0109-caf1165f3d7d/mzaf_6929279917193721182.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-22T08",
+   "ytm_try": "2026-11-22T16",
    "sp_try": "2026-11-22"
   },
   {
@@ -179,48 +215,12 @@
   },
   {
    "type": "video",
-   "group": "lngshot",
-   "title": "Go #Bananas w/#INGYOO @TEAMWEDEMBOYZ 🍌 #LNGSHOT #SWISH",
-   "date": "2026-11-21",
-   "published": "2026-11-21T03:00:14Z",
-   "url": "https://www.youtube.com/watch?v=1Hb6xoWc7TA",
-   "image": "https://i.ytimg.com/vi/1Hb6xoWc7TA/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "I just wanna feel it like you🥰 #JxJ #정한X조슈아 #JOURNEY_INTO_DREAMING",
-   "date": "2026-11-21",
-   "published": "2026-11-21T13:33:10Z",
-   "url": "https://www.youtube.com/watch?v=de0ib22nax8",
-   "image": "https://i.ytimg.com/vi/de0ib22nax8/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "흥! #SUNOO #ENHYPEN",
-   "date": "2026-11-21",
-   "published": "2026-11-21T13:20:26Z",
-   "url": "https://www.youtube.com/watch?v=dTqzcEA5cIk",
-   "image": "https://i.ytimg.com/vi/dTqzcEA5cIk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "cortis",
    "title": "2026 MAMA 4관왕 만들어 준 코어 고맙고 사랑합니다 🏆🏆🏆🏆❤️‍🔥 #CORTIS #코르티스 #CORTIS_REDRED",
    "date": "2026-11-21",
    "published": "2026-11-21T14:07:22Z",
    "url": "https://www.youtube.com/watch?v=X39jCXZYoQQ",
    "image": "https://i.ytimg.com/vi/X39jCXZYoQQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "🕺 #CORTIS #코르티스",
-   "date": "2026-11-21",
-   "published": "2026-11-21T03:00:21Z",
-   "url": "https://www.youtube.com/watch?v=hQ77g2dxU20",
-   "image": "https://i.ytimg.com/vi/hQ77g2dxU20/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -258,7 +258,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-22T08"
+   "ytm_try": "2026-11-22T16"
   },
   {
    "type": "video",
@@ -303,7 +303,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/c9/79/6ac97982-749a-b44d-dbd4-25a4bad8d1a1/mzaf_130015778819592854.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-22T08",
+   "ytm_try": "2026-11-22T16",
    "sp_try": "2026-11-22"
   },
   {
@@ -343,7 +343,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-22T08"
+   "ytm_try": "2026-11-22T16"
   },
   {
    "type": "music",
@@ -382,7 +382,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-22T08"
+   "ytm_try": "2026-11-22T16"
   },
   {
    "type": "video",
@@ -594,7 +594,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-22T08",
+   "ytm_try": "2026-11-22T16",
    "sp_try": "2026-11-22"
   },
   {
@@ -1297,7 +1297,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-22T08"
+   "ytm_try": "2026-11-22T16"
   },
   {
    "type": "music",

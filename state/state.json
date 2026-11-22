@@ -2293,7 +2293,22 @@
   "news:518457c076ae3cc1|feed": "2026-11-22T08:03:26Z",
   "news:cf99bbe6d91e4eab|feed": "2026-11-22T08:03:26Z",
   "news:b3c1f464e60cd101|feed": "2026-11-22T08:03:26Z",
-  "news:eb33633ce9cafec5|feed": "2026-11-22T08:03:26Z"
+  "news:eb33633ce9cafec5|feed": "2026-11-22T08:03:26Z",
+  "next:bts:bts-20261122-kaohsiung|feed": "2026-11-22T16:21:31Z",
+  "next:bts:bts-20261122-kaohsiung|ntfy": "2026-11-22T16:21:31Z",
+  "next:bts:bts-20261122-kaohsiung|pub:radarkpop-bts-shows": "2026-11-22T16:21:31Z",
+  "next:bts:bts-20261122-kaohsiung|foro": "2026-11-22T16:21:31Z",
+  "next:seventeen:svt-20261122-saitama|feed": "2026-11-22T16:21:31Z",
+  "next:seventeen:svt-20261122-saitama|ntfy": "2026-11-22T16:21:31Z",
+  "next:seventeen:svt-20261122-saitama|pub:radarkpop-seventeen-shows": "2026-11-22T16:21:31Z",
+  "next:seventeen:svt-20261122-saitama|foro": "2026-11-22T16:21:31Z",
+  "news:1f9d68a25a07b2eb|feed": "2026-11-22T16:21:31Z",
+  "news:a05b655b9dc97087|feed": "2026-11-22T16:21:31Z",
+  "news:4c9696b43f05f8d2|feed": "2026-11-22T16:21:31Z",
+  "news:ad65efcd3ce054b6|feed": "2026-11-22T16:21:31Z",
+  "news:ac29bbdb889d4d6f|feed": "2026-11-22T16:21:31Z",
+  "news:33899997a420c823|feed": "2026-11-22T16:21:31Z",
+  "news:22a0fed0c2d47a04|feed": "2026-11-22T16:21:31Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3446,9 +3461,6 @@
   }
  },
  "news_seen": [
-  "ae264e2f188bf195",
-  "ae3b83ee48a3ad46",
-  "ae4549c37d966beb",
   "ae73768e4428fcb9",
   "ae89e2ade18e0672",
   "ae92b2cad56f82ba",
@@ -3521,6 +3533,7 @@
   "b52751578780e642",
   "b541ca3e0692d9ee",
   "b574957af8a45a61",
+  "b5a0572e14ffdfb4",
   "b5bef38d5c3675fa",
   "b5e9b97b52840f6f",
   "b61763651497c7f1",
@@ -3532,6 +3545,7 @@
   "b67777856fcac539",
   "b6791db3d42048b5",
   "b6b0b9884e3a5de9",
+  "b6bc246268fc90b0",
   "b6bdfe4d1191ec5f",
   "b6c15524b8fe9de5",
   "b6d4955e04bb1314",
@@ -3731,6 +3745,7 @@
   "cafc6f43412fcfb2",
   "cb0f18c18551703f",
   "cb2b13f0320e4669",
+  "cb31ce51b1ba4c7d",
   "cb4c44ad99355366",
   "cb9aee1abb461146",
   "cb9b2f20a900554f",
@@ -4248,22 +4263,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "seventeen",
-   "w": [
-    "asi",
-    "concierto",
-    "grande",
-    "jeonghan",
-    "joshua",
-    "llegan",
-    "mexico",
-    "pantalla",
-    "podras",
-    "ver"
-   ],
-   "t": "2026-11-20T09:02:25Z"
-  },
   {
    "g": "bts",
    "w": [
