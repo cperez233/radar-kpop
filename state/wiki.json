@@ -50,7 +50,7 @@
  ],
  "fails": 0,
  "last_discovery": "2026-11-17T21:47:43Z",
- "last_run": "2026-11-23T11:11:02Z",
+ "last_run": "2026-11-23T22:41:48Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-23T11:11:02Z",
@@ -330,8 +330,8 @@
    "title": "Arirang World Tour"
   },
   "Cortis": {
-   "fetched": "2026-11-22T08:01:25Z",
-   "revid": 1387062606,
+   "fetched": "2026-11-23T22:41:48Z",
+   "revid": 1387333852,
    "rows": [],
    "title": "Cortis"
   },

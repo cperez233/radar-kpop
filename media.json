@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23T11:11:31Z",
+ "updated_at": "2026-11-23T22:42:14Z",
  "sample": false,
  "items": [
   {
@@ -66,7 +66,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/da/cc/badacc4d-875c-edcd-5004-39e477c9baa9/mzaf_6290537565215650350.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-23T11",
+   "ytm_try": "2026-11-23T22",
    "sp_try": "2026-11-23"
   },
   {
@@ -78,6 +78,7 @@
    "url": "https://music.apple.com/us/album/drip-i%C3%B6n-ver-single/6832445253",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/cd/4a/84cd4a39-1593-7224-d562-bcd369243dc0/196874943939.jpg/300x300bb.jpg",
    "ytm_v": 6,
+   "spotify": "https://open.spotify.com/album/2wAhYbFsdzZZeHxRYFYK0C",
    "tracks": [
     {
      "n": "Drip (IÖN Ver.)",
@@ -85,8 +86,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/ee/a1/0feea18a-66e3-5364-919e-f56685c0d2d2/mzaf_2926928018918726965.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-23T11",
-   "spotify": "https://open.spotify.com/album/2wAhYbFsdzZZeHxRYFYK0C"
+   "ytm_try": "2026-11-23T22"
   },
   {
    "type": "video",
@@ -154,6 +154,15 @@
   {
    "type": "video",
    "group": "seventeen",
+   "title": "DINO 'LIKE IT' Performance Rehearsal",
+   "date": "2026-11-23",
+   "published": "2026-11-23T13:07:16Z",
+   "url": "https://www.youtube.com/watch?v=l1NTtH2p8KU",
+   "image": "https://i.ytimg.com/vi/l1NTtH2p8KU/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
    "title": "[DINOLOGY] DIN💫LOGY Coming Soon",
    "date": "2026-11-23",
    "published": "2026-11-23T10:59:53Z",
@@ -171,12 +180,12 @@
   },
   {
    "type": "video",
-   "group": "seventeen",
-   "title": "SEVENTEEN 2027 SEASON'S GREETINGS Meet Our Paw-some Friends #3 🐶🌱",
+   "group": "enhypen",
+   "title": "#SUNOO Do it to it! CLICK ✨#ClickFlick #WildcardClub #ENHYPEN @the_wildcard_club",
    "date": "2026-11-23",
-   "published": "2026-11-23T08:59:31Z",
-   "url": "https://www.youtube.com/watch?v=sU_7HzIZsII",
-   "image": "https://i.ytimg.com/vi/sU_7HzIZsII/hqdefault.jpg"
+   "published": "2026-11-23T13:15:29Z",
+   "url": "https://www.youtube.com/watch?v=P3Tz2CxkZ3w",
+   "image": "https://i.ytimg.com/vi/P3Tz2CxkZ3w/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -195,6 +204,15 @@
    "published": "2026-11-23T06:08:13Z",
    "url": "https://www.youtube.com/watch?v=ACP2_QB9mI0",
    "image": "https://i.ytimg.com/vi/ACP2_QB9mI0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "🤓 #CORTIS #코르티스",
+   "date": "2026-11-23",
+   "published": "2026-11-23T14:00:23Z",
+   "url": "https://www.youtube.com/watch?v=Pv0q94VvVdY",
+   "image": "https://i.ytimg.com/vi/Pv0q94VvVdY/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -234,30 +252,12 @@
   },
   {
    "type": "video",
-   "group": "enhypen",
-   "title": "Let’s go camping🏕️ #SUNOO #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN",
-   "date": "2026-11-22",
-   "published": "2026-11-22T14:06:49Z",
-   "url": "https://www.youtube.com/watch?v=HRBQuWQ-S2A",
-   "image": "https://i.ytimg.com/vi/HRBQuWQ-S2A/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "cortis",
    "title": "이코노미에서 비즈니스 pullin up",
    "date": "2026-11-22",
    "published": "2026-11-22T11:59:57Z",
    "url": "https://www.youtube.com/watch?v=gB2Qi-04ZfM",
    "image": "https://i.ytimg.com/vi/gB2Qi-04ZfM/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "in this town, everybody goes REDRED including me #CORTIS #코르티스",
-   "date": "2026-11-22",
-   "published": "2026-11-22T04:00:34Z",
-   "url": "https://www.youtube.com/watch?v=D4SSmo-OWmE",
-   "image": "https://i.ytimg.com/vi/D4SSmo-OWmE/hqdefault.jpg"
   },
   {
    "type": "music",
@@ -286,7 +286,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-23T11"
+   "ytm_try": "2026-11-23T22"
   },
   {
    "type": "video",
@@ -322,7 +322,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/c9/79/6ac97982-749a-b44d-dbd4-25a4bad8d1a1/mzaf_130015778819592854.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-23T11",
+   "ytm_try": "2026-11-23T22",
    "sp_try": "2026-11-23"
   },
   {
@@ -362,7 +362,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-23T11"
+   "ytm_try": "2026-11-23T22"
   },
   {
    "type": "music",
@@ -401,7 +401,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-23T11"
+   "ytm_try": "2026-11-23T22"
   },
   {
    "type": "video",
@@ -593,7 +593,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-23T11",
+   "ytm_try": "2026-11-23T22",
    "sp_try": "2026-11-23"
   },
   {
@@ -1296,7 +1296,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-23T11"
+   "ytm_try": "2026-11-23T22"
   },
   {
    "type": "music",

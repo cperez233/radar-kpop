@@ -2360,7 +2360,14 @@
   "news:4e9fce197821f7d0|feed": "2026-11-23T11:13:38Z",
   "news:50f47efeafe394ba|feed": "2026-11-23T11:13:38Z",
   "news:b555c33784d98130|feed": "2026-11-23T11:13:38Z",
-  "news:0975162455837fc2|feed": "2026-11-23T11:13:38Z"
+  "news:0975162455837fc2|feed": "2026-11-23T11:13:38Z",
+  "weekly:2026-48|feed": "2026-11-23T22:44:06Z",
+  "weekly:2026-48|ntfy": "2026-11-23T22:44:06Z",
+  "weekly:2026-48|pub:radarkpop-semana": "2026-11-23T22:44:06Z",
+  "weekly:2026-48|foro": "2026-11-23T22:44:06Z",
+  "news:709ece8916e93097|feed": "2026-11-23T22:44:06Z",
+  "news:116248da3936bab7|feed": "2026-11-23T22:44:06Z",
+  "news:e624bede38d02d96|feed": "2026-11-23T22:44:06Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3513,8 +3520,6 @@
   }
  },
  "news_seen": [
-  "b0ff906f396a27d4",
-  "b1145b5b44fb7cea",
   "b1413ae9d08af5c8",
   "b15e37379dd4366a",
   "b16b50f8b503a02f",
@@ -3625,6 +3630,7 @@
   "bb434866016962a9",
   "bb57c4641a1ef5ac",
   "bb581d0e337c12c6",
+  "bb648d059e0b11bf",
   "bb733867f3b997d0",
   "bb7472fdd8aa1d36",
   "bb9a59535acd9b02",
@@ -4058,6 +4064,7 @@
   "e5768d48c71e00c1",
   "e5ad2bda2a82e939",
   "e614778ee510832b",
+  "e624bede38d02d96",
   "e627becdcae8b661",
   "e677467f806e9c1f",
   "e678d3a794064f30",
@@ -4319,117 +4326,6 @@
    "g": "bts",
    "w": [
     "arirang",
-    "asia",
-    "australia",
-    "ciudades",
-    "etapa",
-    "gira",
-    "iniciara",
-    "mundial"
-   ],
-   "t": "2026-11-21T14:59:03Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "audiencias",
-    "conquistan",
-    "hambre",
-    "historias",
-    "juegos",
-    "llega",
-    "nuevas",
-    "pantalla"
-   ],
-   "t": "2026-11-21T14:59:03Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "arirang",
-    "conciertos",
-    "gaoxiong",
-    "gira",
-    "llega",
-    "tres"
-   ],
-   "t": "2026-11-21T14:59:03Z"
-  },
-  {
-   "g": "skz",
-   "w": [
-    "barcelona",
-    "concierto",
-    "conseguir",
-    "donde",
-    "entradas",
-    "hora",
-    "precios",
-    "tickets"
-   ],
-   "t": "2026-11-21T14:59:03Z"
-  },
-  {
-   "g": "skz",
-   "w": [
-    "2027",
-    "cerradas",
-    "concierto",
-    "este",
-    "general",
-    "jueves",
-    "paris",
-    "preventas",
-    "venta"
-   ],
-   "t": "2026-11-21T14:59:03Z"
-  },
-  {
-   "g": "skz",
-   "w": [
-    "asi",
-    "concierto",
-    "grande",
-    "jeonghan",
-    "joshua",
-    "llegan",
-    "mexico",
-    "pantalla",
-    "podras",
-    "seventeen",
-    "ver"
-   ],
-   "t": "2026-11-21T14:59:03Z"
-  },
-  {
-   "g": "seventeen",
-   "w": [
-    "concierto",
-    "cumple",
-    "dino",
-    "infancia",
-    "primer",
-    "sueno"
-   ],
-   "t": "2026-11-21T14:59:03Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "ano",
-    "artista",
-    "awards",
-    "escenarios",
-    "gana",
-    "mama",
-    "regreso"
-   ],
-   "t": "2026-11-21T20:54:11Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "arirang",
     "ciudades",
     "conciertos",
     "gira",
@@ -4467,6 +4363,45 @@
     "visita"
    ],
    "t": "2026-11-23T11:13:33Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "ano",
+    "artista",
+    "awards",
+    "escenarios",
+    "gana",
+    "mama",
+    "regreso"
+   ],
+   "t": "2026-11-23T22:43:59Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "audiencias",
+    "conquistan",
+    "hambre",
+    "historias",
+    "juegos",
+    "llega",
+    "nuevas",
+    "pantalla"
+   ],
+   "t": "2026-11-23T22:43:59Z"
+  },
+  {
+   "g": "seventeen",
+   "w": [
+    "concierto",
+    "cumple",
+    "dino",
+    "infancia",
+    "primer",
+    "sueno"
+   ],
+   "t": "2026-11-23T22:43:59Z"
   }
  ],
  "discord_threads": {

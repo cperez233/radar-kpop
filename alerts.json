@@ -1,6 +1,50 @@
 {
- "updated_at": "2026-11-23T11:13:33Z",
+ "updated_at": "2026-11-23T22:43:59Z",
  "alerts": [
+  {
+   "type": "weekly",
+   "group": "radar",
+   "group_name": "Radar K-pop",
+   "title": "📅 Tu semana K-pop",
+   "body": "🎤 ENHYPEN en Manila (29 nov)\n💿 Stray Kids: SUIATSU (25 nov)\n💿 ENHYPEN: I Want You (Sped Up Ver.) (23 nov)\n💿 ATEEZ: Drip (IÖN Ver.) (23 nov)\n🎂 Wooyoung (ATEEZ) cumple 27 el 26 nov",
+   "title_en": "📅 Your K-pop week",
+   "body_en": "🎤 ENHYPEN in Manila (Nov 29)\n💿 Stray Kids: SUIATSU (Nov 25)\n💿 ENHYPEN: I Want You (Sped Up Ver.) (Nov 23)\n💿 ATEEZ: Drip (IÖN Ver.) (Nov 23)\n🎂 Wooyoung (ATEEZ) turns 27 on Nov 26",
+   "when": "2026-11-23T22:43:59Z",
+   "url": null
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "group_name": "CORTIS",
+   "title": "Nuevo video: CORTIS",
+   "body": "🤓 #CORTIS #코르티스 (YouTube)",
+   "title_en": "New video: CORTIS",
+   "body_en": "🤓 #CORTIS #코르티스 (YouTube)",
+   "when": "2026-11-23T14:00:23Z",
+   "url": "https://www.youtube.com/watch?v=Pv0q94VvVdY"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "#SUNOO Do it to it! CLICK ✨#ClickFlick #WildcardClub #ENHYPEN @the_wildcard_club (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "#SUNOO Do it to it! CLICK ✨#ClickFlick #WildcardClub #ENHYPEN @the_wildcard_club (YouTube)",
+   "when": "2026-11-23T13:15:29Z",
+   "url": "https://www.youtube.com/watch?v=P3Tz2CxkZ3w"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "group_name": "SEVENTEEN",
+   "title": "Nuevo video: SEVENTEEN",
+   "body": "DINO 'LIKE IT' Performance Rehearsal (YouTube)",
+   "title_en": "New video: SEVENTEEN",
+   "body_en": "DINO 'LIKE IT' Performance Rehearsal (YouTube)",
+   "when": "2026-11-23T13:07:16Z",
+   "url": "https://www.youtube.com/watch?v=l1NTtH2p8KU"
+  },
   {
    "type": "comeback",
    "group": "enhypen",
@@ -640,56 +684,6 @@
    "body_en": "Go #Bananas w/#ALPHADRIVEONE #LEO @ALD1.official 🍌 #LNGSHOT #SWISH (YouTube)",
    "when": "2026-11-21T09:00:06Z",
    "url": "https://www.youtube.com/watch?v=oKXALvq5BTc"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "ENHYPEN (엔하이픈) 2026 MAMA AWARDS ‘Big Girls Don’t Cry’ & ‘Knife’ Performance Practice (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "ENHYPEN (엔하이픈) 2026 MAMA AWARDS ‘Big Girls Don’t Cry’ & ‘Knife’ Performance Practice (YouTube)",
-   "when": "2026-11-21T08:59:46Z",
-   "url": "https://www.youtube.com/watch?v=Y-5ROMmL5ks"
-  },
-  {
-   "type": "comeback",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "💿 Hoy sale «I Want You (NI-KI Ver.)» de ENHYPEN",
-   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
-   "title_en": "💿 ENHYPEN's «I Want You (NI-KI Ver.)» is out today",
-   "body_en": "You can listen to it now! (Or in a few hours, depending on your time zone.)",
-   "when": "2026-11-21T06:38:10Z",
-   "url": "https://music.apple.com/us/album/i-want-you-ni-ki-ver-single/6835828378",
-   "src_lang": "es",
-   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
-   "auto": true
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Nuevo video: TWICE",
-   "body": "You can't escape from every ANGLE🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "title_en": "New video: TWICE",
-   "body_en": "You can't escape from every ANGLE🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "when": "2026-11-21T06:00:27Z",
-   "url": "https://www.youtube.com/watch?v=PfO0qRdgGfw"
-  },
-  {
-   "type": "official",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Anuncio oficial de ENHYPEN: comeback",
-   "body": "«Escuchad \"I Want You (ENHYPEN Remix)\" de ENHYPEN para DESCARGAR JUNGWON: https://music.apple.com/us/album/i-want-you-jungwon-ver-single/6835791682 JAY: ...» (ENHYPEN en X).",
-   "title_en": "Official ENHYPEN news: comeback",
-   "body_en": "«Check out ENHYPEN 'I Want You (ENHYPEN Remix)' for DOWNLOAD JUNGWON : https://music.apple.com/us/album/i-want-you-jungwon-ver-single/6835791682 JAY : ...» (ENHYPEN en X).",
-   "when": "2026-11-21T05:35:05Z",
-   "url": "https://x.com/ENHYPEN/status/2124013709442142717",
-   "src_lang": "en",
-   "body_orig": "«Check out ENHYPEN 'I Want You (ENHYPEN Remix)' for DOWNLOAD JUNGWON : https://music.apple.com/us/album/i-want-you-jungwon-ver-single/6835791682 JAY : ...» (ENHYPEN en X).",
-   "auto": true
   }
  ]
 }
