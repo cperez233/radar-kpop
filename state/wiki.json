@@ -50,21 +50,12 @@
  ],
  "fails": 0,
  "last_discovery": "2026-11-17T21:47:43Z",
- "last_run": "2026-11-23T02:29:57Z",
+ "last_run": "2026-11-23T11:11:02Z",
  "pages": {
   "Arirang World Tour": {
-   "fetched": "2026-11-22T21:57:03Z",
-   "revid": 1387122548,
+   "fetched": "2026-11-23T11:11:02Z",
+   "revid": 1387261490,
    "rows": [
-    {
-     "cancelled": false,
-     "city": "La Plata",
-     "city_link": "La Plata",
-     "country": "Argentina",
-     "date": "2026-10-23",
-     "venue": "Estadio Único Diego Armando Maradona",
-     "venue_link": "Estadio Único Diego Armando Maradona"
-    },
     {
      "cancelled": false,
      "city": "La Plata",

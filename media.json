@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23T02:30:24Z",
+ "updated_at": "2026-11-23T11:11:31Z",
  "sample": false,
  "items": [
   {
@@ -51,76 +51,186 @@
    ]
   },
   {
+   "type": "music",
+   "group": "enhypen",
+   "title": "I Want You (Sped Up Ver.)",
+   "kind": "Album",
+   "date": "2026-11-23",
+   "url": "https://music.apple.com/us/album/i-want-you-sped-up-ver-single/6835831186",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/80/f2/7f80f25c-de12-2be1-b135-bf9b567086ca/823375577058_Cover.jpg/300x300bb.jpg",
+   "ytm_v": 6,
+   "tracks": [
+    {
+     "n": "I Want You (Sped Up Ver.)",
+     "ms": 143000,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/da/cc/badacc4d-875c-edcd-5004-39e477c9baa9/mzaf_6290537565215650350.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": "2026-11-23T11",
+   "sp_try": "2026-11-23"
+  },
+  {
+   "type": "music",
+   "group": "ateez",
+   "title": "Drip (IÖN Ver.)",
+   "kind": "Album",
+   "date": "2026-11-23",
+   "url": "https://music.apple.com/us/album/drip-i%C3%B6n-ver-single/6832445253",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/cd/4a/84cd4a39-1593-7224-d562-bcd369243dc0/196874943939.jpg/300x300bb.jpg",
+   "ytm_v": 6,
+   "tracks": [
+    {
+     "n": "Drip (IÖN Ver.)",
+     "ms": 195300,
+     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/ee/a1/0feea18a-66e3-5364-919e-f56685c0d2d2/mzaf_2926928018918726965.plus.aac.p.m4a"
+    }
+   ],
+   "ytm_try": "2026-11-23T11",
+   "spotify": "https://open.spotify.com/album/2wAhYbFsdzZZeHxRYFYK0C"
+  },
+  {
    "type": "video",
-   "group": "twice",
-   "title": "NAYEON SINGLE = NA-sty..?💭 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
-   "date": "2026-11-22",
-   "published": "2026-11-22T09:00:21Z",
-   "url": "https://www.youtube.com/watch?v=09mbqA7I94Q",
-   "image": "https://i.ytimg.com/vi/09mbqA7I94Q/hqdefault.jpg"
+   "group": "skz",
+   "title": "🐷🐰.｡oO( 우리 🐶 쿵푸 잘하죠 ) #StrayKids #스트레이키즈 #창빈 #Changbin #승민 #Seungmin #YouMakeStrayKidsStay",
+   "date": "2026-11-23",
+   "published": "2026-11-23T08:59:37Z",
+   "url": "https://www.youtube.com/watch?v=x68u7U9y1tg",
+   "image": "https://i.ytimg.com/vi/x68u7U9y1tg/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "twice",
-   "title": "I'll be the🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
-   "date": "2026-11-22",
-   "published": "2026-11-22T07:00:05Z",
-   "url": "https://www.youtube.com/watch?v=7Sadp8HeovU",
-   "image": "https://i.ytimg.com/vi/7Sadp8HeovU/hqdefault.jpg"
+   "title": "BABY ANGEL at MAMA 🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-23",
+   "published": "2026-11-23T11:00:21Z",
+   "url": "https://www.youtube.com/watch?v=iASC_MUgUtc",
+   "image": "https://i.ytimg.com/vi/iASC_MUgUtc/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "twice",
-   "title": "Don’t need a halo 👼 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
-   "date": "2026-11-22",
-   "published": "2026-11-22T06:00:07Z",
-   "url": "https://www.youtube.com/watch?v=E-cuDsbF-Pk",
-   "image": "https://i.ytimg.com/vi/E-cuDsbF-Pk/hqdefault.jpg"
+   "title": "I know I’m a DREAM🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL #Shorts",
+   "date": "2026-11-23",
+   "published": "2026-11-23T07:03:45Z",
+   "url": "https://www.youtube.com/watch?v=cTH3TsdReeo",
+   "image": "https://i.ytimg.com/vi/cTH3TsdReeo/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "☀️☁️ #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-23",
+   "published": "2026-11-23T06:00:37Z",
+   "url": "https://www.youtube.com/watch?v=uIR0WEbB-z8",
+   "image": "https://i.ytimg.com/vi/uIR0WEbB-z8/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "lngshot",
-   "title": "Go #Bananas w/#Keyveatz #KIMYUNA 🍌#LNGSHOT #SWISH",
-   "date": "2026-11-22",
-   "published": "2026-11-22T09:00:33Z",
-   "url": "https://www.youtube.com/watch?v=Z6QkyKjazFc",
-   "image": "https://i.ytimg.com/vi/Z6QkyKjazFc/hqdefault.jpg"
+   "title": "Go #Bananas w/#xikers #YUJUN @xikers_official 🍌 #LNGSHOT #SWISH",
+   "date": "2026-11-23",
+   "published": "2026-11-23T11:00:22Z",
+   "url": "https://www.youtube.com/watch?v=6oODIewwT04",
+   "image": "https://i.ytimg.com/vi/6oODIewwT04/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "lngshot",
-   "title": "SIGMABOIZ gone #Bananas🗿who did it best?👇 #LNGSHOT #SWISH",
-   "date": "2026-11-22",
-   "published": "2026-11-22T07:30:35Z",
-   "url": "https://www.youtube.com/watch?v=ujb3G1tbycY",
-   "image": "https://i.ytimg.com/vi/ujb3G1tbycY/hqdefault.jpg"
+   "title": "Go #Bananas w/#UNCHILD #TINA @official_unchild 🍌 #LNGSHOT #SWISH",
+   "date": "2026-11-23",
+   "published": "2026-11-23T10:00:13Z",
+   "url": "https://www.youtube.com/watch?v=b3d5GnHDtJA",
+   "image": "https://i.ytimg.com/vi/b3d5GnHDtJA/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "SHOTTIES created this #Masterpiece 따라해봄👀 #LNGSHOT #SWISH #OHYUL #LOUIS",
+   "date": "2026-11-23",
+   "published": "2026-11-23T07:00:16Z",
+   "url": "https://www.youtube.com/watch?v=XU8p2W9alqc",
+   "image": "https://i.ytimg.com/vi/XU8p2W9alqc/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "seventeen",
-   "title": "Even if the world ends tomorrow, 🩷🩵 #JxJ #정한X조슈아 #JOURNEY_INTO_DREAMING",
-   "date": "2026-11-22",
-   "published": "2026-11-22T14:17:58Z",
-   "url": "https://www.youtube.com/watch?v=eDquWCzl750",
-   "image": "https://i.ytimg.com/vi/eDquWCzl750/hqdefault.jpg"
+   "title": "[DINOLOGY] DIN💫LOGY Coming Soon",
+   "date": "2026-11-23",
+   "published": "2026-11-23T10:59:53Z",
+   "url": "https://www.youtube.com/watch?v=Y0aGMHGxZk0",
+   "image": "https://i.ytimg.com/vi/Y0aGMHGxZk0/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "seventeen",
-   "title": "そろそろ始まるよ #JxJ #정한X조슈아 #DREAMSCAPE",
-   "date": "2026-11-22",
-   "published": "2026-11-22T07:00:16Z",
-   "url": "https://www.youtube.com/watch?v=okw6J7gTRP4",
-   "image": "https://i.ytimg.com/vi/okw6J7gTRP4/hqdefault.jpg"
+   "title": "SEVENTEEN 2027 SEASON'S GREETINGS Meet Our Paw-some Friends #4 🐶🌱",
+   "date": "2026-11-23",
+   "published": "2026-11-23T08:59:48Z",
+   "url": "https://www.youtube.com/watch?v=0HAfyIv6u8o",
+   "image": "https://i.ytimg.com/vi/0HAfyIv6u8o/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "seventeen",
-   "title": "[WOO.ZIP] BIRTHDAY UNLOCKED ❤️",
-   "date": "2026-11-22",
-   "published": "2026-11-22T04:59:57Z",
-   "url": "https://www.youtube.com/watch?v=GXUTPLEbpx4",
-   "image": "https://i.ytimg.com/vi/GXUTPLEbpx4/hqdefault.jpg"
+   "title": "SEVENTEEN 2027 SEASON'S GREETINGS Meet Our Paw-some Friends #3 🐶🌱",
+   "date": "2026-11-23",
+   "published": "2026-11-23T08:59:31Z",
+   "url": "https://www.youtube.com/watch?v=sU_7HzIZsII",
+   "image": "https://i.ytimg.com/vi/sU_7HzIZsII/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "Cuz I want #EJ #NICHOLAS 🫵#EN_IWantYou #andTEAM #JAY @andTEAM_official",
+   "date": "2026-11-23",
+   "published": "2026-11-23T09:13:05Z",
+   "url": "https://www.youtube.com/watch?v=oTDGpWQnhbs",
+   "image": "https://i.ytimg.com/vi/oTDGpWQnhbs/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "Cuz I want #MINJU 🫵#EN_IWantYou #ILLIT #SUNOO #ENHYPEN @ILLIT_official",
+   "date": "2026-11-23",
+   "published": "2026-11-23T06:08:13Z",
+   "url": "https://www.youtube.com/watch?v=ACP2_QB9mI0",
+   "image": "https://i.ytimg.com/vi/ACP2_QB9mI0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "low low low the musical #CORTIS #코르티스",
+   "date": "2026-11-23",
+   "published": "2026-11-23T10:00:03Z",
+   "url": "https://www.youtube.com/watch?v=3d65qel6uM0",
+   "image": "https://i.ytimg.com/vi/3d65qel6uM0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) - 'Drip' Recording Behind",
+   "date": "2026-11-23",
+   "published": "2026-11-23T09:00:25Z",
+   "url": "https://www.youtube.com/watch?v=71AEpDUIBtQ",
+   "image": "https://i.ytimg.com/vi/71AEpDUIBtQ/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "유준 님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-23",
+   "published": "2026-11-23T07:00:12Z",
+   "url": "https://www.youtube.com/watch?v=m5ImCcKHoLk",
+   "image": "https://i.ytimg.com/vi/m5ImCcKHoLk/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) - ‘Drip (IÖN Ver.)’ Lyric Video",
+   "date": "2026-11-23",
+   "published": "2026-11-23T05:00:05Z",
+   "url": "https://www.youtube.com/watch?v=KpJuKwusa24",
+   "image": "https://i.ytimg.com/vi/KpJuKwusa24/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -130,24 +240,6 @@
    "published": "2026-11-22T14:06:49Z",
    "url": "https://www.youtube.com/watch?v=HRBQuWQ-S2A",
    "image": "https://i.ytimg.com/vi/HRBQuWQ-S2A/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "Make “I Want You” yours 💿❤️#ENHYPEN #엔하이픈 #THE_SIN_PARALLEL_WORLD",
-   "date": "2026-11-22",
-   "published": "2026-11-22T13:06:11Z",
-   "url": "https://www.youtube.com/watch?v=QIXACJqfivk",
-   "image": "https://i.ytimg.com/vi/QIXACJqfivk/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "Cuz I want #DOHOON 🫵#EN_IWantYou #TWS #SUNGHOON #ENHYPEN @TWS_PLEDIS",
-   "date": "2026-11-22",
-   "published": "2026-11-22T08:05:02Z",
-   "url": "https://www.youtube.com/watch?v=61ZVuWbGkl0",
-   "image": "https://i.ytimg.com/vi/61ZVuWbGkl0/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -166,70 +258,6 @@
    "published": "2026-11-22T04:00:34Z",
    "url": "https://www.youtube.com/watch?v=D4SSmo-OWmE",
    "image": "https://i.ytimg.com/vi/D4SSmo-OWmE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "Yeah we go 🆙 w/ 임지민 님 #Shorts",
-   "date": "2026-11-22",
-   "published": "2026-11-22T08:00:27Z",
-   "url": "https://www.youtube.com/watch?v=f4nSm4WQGgg",
-   "image": "https://i.ytimg.com/vi/f4nSm4WQGgg/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "Yeah we go 🆙 w/ 웨인 님 #Shorts",
-   "date": "2026-11-22",
-   "published": "2026-11-22T07:00:28Z",
-   "url": "https://www.youtube.com/watch?v=8ynzy61ZjpU",
-   "image": "https://i.ytimg.com/vi/8ynzy61ZjpU/hqdefault.jpg"
-  },
-  {
-   "type": "music",
-   "group": "enhypen",
-   "title": "I Want You (NI-KI Ver.)",
-   "kind": "Album",
-   "date": "2026-11-21",
-   "url": "https://music.apple.com/us/album/i-want-you-ni-ki-ver-single/6835828378",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/f2/6149f232-7adb-ab3a-bf78-99606335105a/823375577027_Cover.jpg/300x300bb.jpg",
-   "ytm_v": 6,
-   "tracks": [
-    {
-     "n": "I Want You (NI-KI Ver.)",
-     "ms": 97000,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/2e/8d/112e8d35-28c1-a168-0109-caf1165f3d7d/mzaf_6929279917193721182.plus.aac.p.m4a"
-    }
-   ],
-   "ytm_try": "2026-11-23T02",
-   "sp_try": "2026-11-23"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "Go #Bananas w/#ALPHADRIVEONE #LEO @ALD1.official 🍌 #LNGSHOT #SWISH",
-   "date": "2026-11-21",
-   "published": "2026-11-21T09:00:06Z",
-   "url": "https://www.youtube.com/watch?v=oKXALvq5BTc",
-   "image": "https://i.ytimg.com/vi/oKXALvq5BTc/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "cortis",
-   "title": "2026 MAMA 4관왕 만들어 준 코어 고맙고 사랑합니다 🏆🏆🏆🏆❤️‍🔥 #CORTIS #코르티스 #CORTIS_REDRED",
-   "date": "2026-11-21",
-   "published": "2026-11-21T14:07:22Z",
-   "url": "https://www.youtube.com/watch?v=X39jCXZYoQQ",
-   "image": "https://i.ytimg.com/vi/X39jCXZYoQQ/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "이 Symphony를 진두지휘 #Shorts",
-   "date": "2026-11-21",
-   "published": "2026-11-21T12:00:03Z",
-   "url": "https://www.youtube.com/watch?v=D_uaa-hsELc",
-   "image": "https://i.ytimg.com/vi/D_uaa-hsELc/hqdefault.jpg"
   },
   {
    "type": "music",
@@ -258,7 +286,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-23T02"
+   "ytm_try": "2026-11-23T11"
   },
   {
    "type": "video",
@@ -279,15 +307,6 @@
    "image": "https://i.ytimg.com/vi/5SVTu_VXYog/hqdefault.jpg"
   },
   {
-   "type": "video",
-   "group": "skz",
-   "title": "I.N \"NO RETURN\" MAKING FILM",
-   "date": "2026-11-19",
-   "published": "2026-11-19T11:00:01Z",
-   "url": "https://www.youtube.com/watch?v=EK7sbGeBmJM",
-   "image": "https://i.ytimg.com/vi/EK7sbGeBmJM/hqdefault.jpg"
-  },
-  {
    "type": "music",
    "group": "ateez",
    "title": "UP (SEONGHWA&SAN Ver.)",
@@ -303,7 +322,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/c9/79/6ac97982-749a-b44d-dbd4-25a4bad8d1a1/mzaf_130015778819592854.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-23T02",
+   "ytm_try": "2026-11-23T11",
    "sp_try": "2026-11-23"
   },
   {
@@ -343,7 +362,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-23T02"
+   "ytm_try": "2026-11-23T11"
   },
   {
    "type": "music",
@@ -382,7 +401,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-23T02"
+   "ytm_try": "2026-11-23T11"
   },
   {
    "type": "video",
@@ -419,26 +438,6 @@
    "published": "2026-10-29T03:00:22Z",
    "url": "https://www.youtube.com/watch?v=NRbA6pSuZV0",
    "image": "https://i.ytimg.com/vi/NRbA6pSuZV0/hqdefault.jpg"
-  },
-  {
-   "type": "music",
-   "group": "ateez",
-   "title": "Drip",
-   "kind": "Album",
-   "date": "2026-10-23",
-   "url": "https://music.apple.com/us/album/drip-single/6819587309",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c3/c5/84/c3c5844d-602e-e7b7-1efa-2b6bdddc9141/196874851814.jpg/300x300bb.jpg",
-   "ytm_v": 6,
-   "spotify": "https://open.spotify.com/album/5RAg0Dd2xkkZ3LEZzPNxYT",
-   "ytm": "https://music.youtube.com/watch?v=J-_f87dJvB0",
-   "tracks": [
-    {
-     "n": "Drip",
-     "ms": 181791,
-     "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/b4/25/eab425c4-eb7d-2a93-060c-658546351088/mzaf_14094138891772943357.plus.aac.p.m4a"
-    }
-   ],
-   "ytm_try": "2026-10-24T02"
   },
   {
    "type": "music",
@@ -594,7 +593,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-23T02",
+   "ytm_try": "2026-11-23T11",
    "sp_try": "2026-11-23"
   },
   {
@@ -1297,7 +1296,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-23T02"
+   "ytm_try": "2026-11-23T11"
   },
   {
    "type": "music",
