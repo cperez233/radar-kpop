@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22T16:21:24Z",
+ "updated_at": "2026-11-23T02:31:59Z",
  "alerts": [
   {
    "type": "next_stop",
@@ -88,6 +88,20 @@
    "body_en": "NAYEON SINGLE = NA-sty..?💭 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
    "when": "2026-11-22T09:00:21Z",
    "url": "https://www.youtube.com/watch?v=09mbqA7I94Q"
+  },
+  {
+   "type": "official",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Anuncio oficial de TWICE: comeback",
+   "body": "«¿SENCILLO DE NAYEON = NA-sty...?💭 🖥️Escucha NA-sty🖥️ https://NAYEON.lnk.to/NAsty #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL» (TWICE en X).",
+   "title_en": "Official TWICE news: comeback",
+   "body_en": "«NAYEON SINGLE = NA-sty..?💭 🖥️Listen to NA-sty🖥️ https://NAYEON.lnk.to/NAsty #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL» (TWICE on X).",
+   "when": "2026-11-22T09:00:10Z",
+   "url": "https://x.com/JYPETWICE/status/2124427709183131862",
+   "src_lang": "ko",
+   "body_orig": "«NAYEON SINGLE = NA-sty..?💭 🖥️Listen NA-sty🖥️ https://NAYEON.lnk.to/NAsty #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL» (TWICE en X).",
+   "auto": true
   },
   {
    "type": "video",
@@ -457,6 +471,20 @@
    "auto": true
   },
   {
+   "type": "official",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Anuncio oficial de ENHYPEN: comeback",
+   "body": "«[Anuncio] Lanzamiento de «I Want You (ENHYPEN Remix)» de ENHYPEN (+ENG/JPN/CHN) https://weverse.io/enhypen/notice/41224» (ENHYPEN en X).",
+   "title_en": "Official ENHYPEN news: comeback",
+   "body_en": "«[Notice] Release of ENHYPEN's \"I Want You (ENHYPEN Remix)\" (+ENG/JPN/CHN) https://weverse.io/enhypen/notice/41224» (ENHYPEN on X).",
+   "when": "2026-11-21T05:00:01Z",
+   "url": "https://x.com/ENHYPEN/status/2124004886383931680",
+   "src_lang": "ko",
+   "body_orig": "«[공지] ENHYPEN ‘I Want You (ENHYPEN Remix)’ 발매 (+ENG/JPN/CHN) https://weverse.io/enhypen/notice/41224» (ENHYPEN en X).",
+   "auto": true
+  },
+  {
    "type": "arrival",
    "group": "bts",
    "group_name": "BTS",
@@ -662,28 +690,6 @@
    "body_en": "Fascinated?🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
    "when": "2026-11-20T11:13:20Z",
    "url": "https://www.youtube.com/watch?v=qBhUV4aLpGc"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "친구랑 파인다이닝 갈 때 추천룩 #정답행 #EP1 (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "친구랑 파인다이닝 갈 때 추천룩 #정답행 #EP1 (YouTube)",
-   "when": "2026-11-20T11:00:00Z",
-   "url": "https://www.youtube.com/watch?v=xMjeFTD2r-g"
-  },
-  {
-   "type": "next_stop",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Stray Kids sigue a Hong Kong",
-   "body": "Cerró en Chicago. Siguiente parada: Hong Kong, China (5 dic), a unos 12.533 km.",
-   "title_en": "Stray Kids moves on to Hong Kong",
-   "body_en": "Wrapped up in Chicago. Next stop: Hong Kong, China (Dec 5), about 12,533 km away.",
-   "when": "2026-11-20T09:02:25Z",
-   "url": null
   }
  ]
 }

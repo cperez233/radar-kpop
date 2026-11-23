@@ -2308,7 +2308,19 @@
   "news:ad65efcd3ce054b6|feed": "2026-11-22T16:21:31Z",
   "news:ac29bbdb889d4d6f|feed": "2026-11-22T16:21:31Z",
   "news:33899997a420c823|feed": "2026-11-22T16:21:31Z",
-  "news:22a0fed0c2d47a04|feed": "2026-11-22T16:21:31Z"
+  "news:22a0fed0c2d47a04|feed": "2026-11-22T16:21:31Z",
+  "official:twice:comeback:2026-11-23|feed": "2026-11-23T02:32:06Z",
+  "official:twice:comeback:2026-11-23|ntfy": "2026-11-23T02:32:06Z",
+  "official:twice:comeback:2026-11-23|pub:radarkpop-twice-music": "2026-11-23T02:32:06Z",
+  "official:twice:comeback:2026-11-23|foro": "2026-11-23T02:32:06Z",
+  "official:seventeen:comeback:2026-11-23|feed": "2026-11-23T02:32:06Z",
+  "official:seventeen:comeback:2026-11-23|ntfy": "2026-11-23T02:32:06Z",
+  "official:seventeen:comeback:2026-11-23|pub:radarkpop-seventeen-music": "2026-11-23T02:32:06Z",
+  "official:seventeen:comeback:2026-11-23|foro": "2026-11-23T02:32:06Z",
+  "official:enhypen:comeback:2026-11-23|feed": "2026-11-23T02:32:06Z",
+  "official:enhypen:comeback:2026-11-23|ntfy": "2026-11-23T02:32:06Z",
+  "official:enhypen:comeback:2026-11-23|pub:radarkpop-enhypen-music": "2026-11-23T02:32:06Z",
+  "official:enhypen:comeback:2026-11-23|foro": "2026-11-23T02:32:06Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3461,7 +3473,6 @@
   }
  },
  "news_seen": [
-  "ae73768e4428fcb9",
   "ae89e2ade18e0672",
   "ae92b2cad56f82ba",
   "aeb66ecc8e274245",
@@ -3666,6 +3677,7 @@
   "c2ffcbc28e54cc6c",
   "c3082bd6a7f34f5d",
   "c32ce9cd472e2adc",
+  "c367d4415a1ae8ed",
   "c369457d8aeb3cd9",
   "c386eea7c7324b32",
   "c4082e94c2294c0c",
@@ -4263,25 +4275,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "concierto",
-    "conquista",
-    "corazon",
-    "encendio",
-    "fans",
-    "kaohsiung",
-    "medios",
-    "mercado",
-    "nocturno",
-    "redes",
-    "sociales",
-    "taiwan",
-    "visita"
-   ],
-   "t": "2026-11-20T23:54:13Z"
-  },
   {
    "g": "bts",
    "w": [
