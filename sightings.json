@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-11-21T06:36:41Z",
+  "updated_at": "2026-11-24T18:13:05Z",
   "source": "rsshub",
   "sample": false,
   "items": [
+    {
+      "id": "x-2125122242770297274",
+      "group": "seventeen",
+      "group_name": "SEVENTEEN",
+      "city": "Taipéi",
+      "country": "Taiwán",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "text": "[NOTICE] JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - TAIPEI 추가 공연 안내 (+ENG/JPN/CHN) ▶️ #JxJ #정한X조슈아 #JOURNEY_INTO_DREAMING_TAIPEI",
+      "url": "https://x.com/pledis_17/status/2125122242770297274",
+      "account": "pledis_17",
+      "when": "2026-11-24T07:00:00Z"
+    },
     {
       "id": "x-2123325414726648268",
       "group": "ateez",
