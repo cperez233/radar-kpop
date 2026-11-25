@@ -1,31 +1,31 @@
 {
-  "updated_at": "2026-11-24T06:29:39Z",
+  "updated_at": "2026-11-25T02:35:35Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
-      "listeners": 28697450,
+      "listeners": 28642727,
       "listeners_peak": 46724346,
-      "streams": 51545869382,
+      "streams": 51572292847,
       "top_song": {
         "title": "Dynamite",
-        "streams": 2388181798,
+        "streams": 2388706618,
         "url": "https://open.spotify.com/track/5QDLhrAOJJdNAmCTJ8xMyW"
       },
       "yt_subs": 86500000
     },
     "skz": {
-      "listeners": 9839744,
+      "listeners": 9858676,
       "listeners_peak": 14253317,
-      "streams": 15956653926,
+      "streams": 15965246108,
       "top_song": {
         "title": "God’s Menu",
-        "streams": 560389182,
+        "streams": 560586444,
         "url": "https://open.spotify.com/track/4XPXrcpyNr30Km6aPiflJy"
       },
       "yt_subs": 25700000
     },
     "twice": {
-      "listeners": 14098349,
+      "listeners": 14107059,
       "listeners_peak": 27003979,
       "streams": 13103413366,
       "top_song": {
@@ -36,7 +36,7 @@
       "yt_subs": 19600000
     },
     "blackpink": {
-      "listeners": 17900519,
+      "listeners": 17911926,
       "listeners_peak": 35310315,
       "streams": 16838936679,
       "top_song": {
@@ -47,15 +47,15 @@
       "yt_subs": 102000000
     },
     "lngshot": {
-      "streams": 413075440,
+      "streams": 421273317,
       "top_song": {
         "title": "Moonwalkin'",
-        "streams": 123721681,
+        "streams": 124770351,
         "url": "https://open.spotify.com/track/46V2ciN6F5bxjQWityNhkY"
       },
       "listeners": 4872181,
       "listeners_peak": 6085028,
-      "yt_subs": 2220000
+      "yt_subs": 2230000
     },
     "seventeen": {
       "streams": 8472186101,
@@ -64,23 +64,23 @@
         "streams": 330679312,
         "url": "https://open.spotify.com/track/3ZpfXyQgcqdSA1TGNc7Ret"
       },
-      "listeners": 4342585,
+      "listeners": 4345279,
       "listeners_peak": 9240435,
       "yt_subs": 18200000
     },
     "enhypen": {
-      "listeners": 9611765,
+      "listeners": 9627814,
       "listeners_peak": 11080262,
-      "streams": 8149238636,
+      "streams": 8154922351,
       "top_song": {
         "title": "Bite Me",
-        "streams": 551386796,
+        "streams": 551614331,
         "url": "https://open.spotify.com/track/7mpdNiaQvygj2rHoxkzMfa"
       },
       "yt_subs": 14800000
     },
     "newjeans": {
-      "listeners": 13361845,
+      "listeners": 13338593,
       "listeners_peak": 26786050,
       "streams": 8044176882,
       "top_song": {
@@ -91,7 +91,7 @@
       "yt_subs": 8730000
     },
     "cortis": {
-      "listeners": 10672373,
+      "listeners": 10695637,
       "listeners_peak": 12947465,
       "streams": 1543420313,
       "top_song": {
@@ -99,10 +99,10 @@
         "streams": 286698739,
         "url": "https://open.spotify.com/track/34YVCoqIm08nbsxFSPL0Uh"
       },
-      "yt_subs": 7960000
+      "yt_subs": 7980000
     },
     "ateez": {
-      "listeners": 7996092,
+      "listeners": 7989169,
       "listeners_peak": 7997168,
       "streams": 4378811907,
       "top_song": {

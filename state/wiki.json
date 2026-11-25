@@ -46,11 +46,14 @@
   "Stray Kids 2027-05-22: la web dice Santa Clara (San Francisco) y Wikipedia dice Santa Clara",
   "Stray Kids 2027-07-10: la web dice Múnich y Wikipedia dice Paris",
   "Stray Kids 2027-07-18: la web dice París y Wikipedia dice Munich",
-  "Stray Kids 2027-07-28: la web dice Múnich y Wikipedia dice Arnhem"
+  "Stray Kids 2027-07-28: la web dice Múnich y Wikipedia dice Arnhem",
+  "Stray Kids 2026-12-07 Seúl: cae dentro de la gira y Wikipedia no la lista (¿se canceló?)",
+  "Stray Kids 2026-12-08 Seúl: cae dentro de la gira y Wikipedia no la lista (¿se canceló?)",
+  "Stray Kids 2026-12-09 Seúl: cae dentro de la gira y Wikipedia no la lista (¿se canceló?)"
  ],
  "fails": 0,
- "last_discovery": "2026-11-17T21:47:43Z",
- "last_run": "2026-11-24T18:12:40Z",
+ "last_discovery": "2026-11-25T02:34:27Z",
+ "last_run": "2026-11-25T02:34:27Z",
  "pages": {
   "Arirang World Tour": {
    "fetched": "2026-11-23T11:11:02Z",
@@ -736,9 +739,20 @@
    "title": "Run It World Tour"
   }
  },
- "pending": {},
+ "pending": {
+  "bts": [
+   "The Most Beautiful Moment in Life On Stage Tour",
+   "BTS World Tour: Love Yourself"
+  ],
+  "seventeen": [
+   "Diamond Edge World Tour",
+   "Right Here World Tour",
+   "Be The Sun World Tour",
+   "Follow Tour"
+  ]
+ },
  "rejected": {
-  "2017 BTS Live Trilogy Episode III: The Wings Tour": "2026-11-10T19:30:23Z",
+  "2017 BTS Live Trilogy Episode III: The Wings Tour": "2026-11-25T02:34:27Z",
   "5-Star Dome Tour": "2026-11-18T20:36:29Z",
   "BTS World Tour: Love Yourself": "2026-11-10T21:45:19Z",
   "Be The Sun World Tour": "2026-11-11T00:00:22Z",
@@ -750,15 +764,15 @@
   "Haru Japan Tour": "2026-11-19T02:01:42Z",
   "Ideal Cut Tour": "2026-11-19T02:01:42Z",
   "In Your Area World Tour": "2026-11-17T21:47:43Z",
-  "Love Yourself World Tour": "2026-11-10T19:30:23Z",
+  "Love Yourself World Tour": "2026-11-25T02:34:27Z",
   "Maniac World Tour": "2026-11-19T02:01:42Z",
   "Map of the Soul Tour": "2026-11-18T20:36:29Z",
   "Music Bank World Tour": "2026-11-18T12:10:40Z",
-  "New_ World Tour": "2026-11-10T19:30:23Z",
+  "New_ World Tour": "2026-11-25T02:34:27Z",
   "Ode to You World Tour": "2026-11-18T20:36:29Z",
   "Ready to Be World Tour": "2026-11-18T20:36:29Z",
   "Right Here World Tour": "2026-11-10T21:45:19Z",
-  "SVT Japan Arena Tour": "2026-11-10T19:30:23Z",
+  "SVT Japan Arena Tour": "2026-11-25T02:34:27Z",
   "The Most Beautiful Moment in Life On Stage Tour": "2026-11-10T21:45:19Z",
   "The Red Bullet Tour": "2026-11-18T12:10:40Z",
   "The Wings Tour": "2026-11-18T03:29:46Z",
