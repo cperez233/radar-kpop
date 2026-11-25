@@ -1,6 +1,119 @@
 {
- "updated_at": "2026-11-25T02:37:19Z",
+ "updated_at": "2026-11-25T11:48:12Z",
  "alerts": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "LNGSHOT 'Beep Beep' 응원법 (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "LNGSHOT 'Beep Beep' 응원법 (YouTube)",
+   "when": "2026-11-25T10:00:06Z",
+   "url": "https://www.youtube.com/watch?v=ZCXxPKCUhts"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "🫠 #JAKE #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "🫠 #JAKE #ENHYPEN (YouTube)",
+   "when": "2026-11-25T09:37:45Z",
+   "url": "https://www.youtube.com/watch?v=HgaUnKUkQfs"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "The REAL Angel! #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "The REAL Angel! #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "when": "2026-11-25T09:32:24Z",
+   "url": "https://www.youtube.com/watch?v=QmSYH5d8u_4"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "Cuz I Wonchu chu chu...💖 ft. #SUNOO ✨ #JUNGWON #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "Cuz I Wonchu chu chu...💖 ft. #SUNOO ✨ #JUNGWON #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN (YouTube)",
+   "when": "2026-11-25T09:07:29Z",
+   "url": "https://www.youtube.com/watch?v=ydbbO0_ubBI"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "group_name": "ATEEZ",
+   "title": "Nuevo video: ATEEZ",
+   "body": "Drip of the Fit #Shorts (YouTube)",
+   "title_en": "New video: ATEEZ",
+   "body_en": "Drip of the Fit #Shorts (YouTube)",
+   "when": "2026-11-25T09:00:27Z",
+   "url": "https://www.youtube.com/watch?v=uF3Gna-1iVY"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "🩵🖤🩵🖤🩵🖤 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "🩵🖤🩵🖤🩵🖤 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
+   "when": "2026-11-25T07:02:06Z",
+   "url": "https://www.youtube.com/watch?v=LiQ0jW4EC5k"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "Cuz I want #ELENA 🫵#EN_IWantYou #TUIDE #JUNGWON #ENHYPEN (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "Cuz I want #ELENA 🫵#EN_IWantYou #TUIDE #JUNGWON #ENHYPEN (YouTube)",
+   "when": "2026-11-25T06:39:56Z",
+   "url": "https://www.youtube.com/watch?v=IipQ5tbkJts"
+  },
+  {
+   "type": "latam",
+   "group": "bts",
+   "group_name": "BTS",
+   "title": "Latinoamérica: BTS",
+   "body": "Los fans se vuelven locos por la entrevista exclusiva de BTS durante su gira por Latinoamérica (Koreaboo)",
+   "title_en": "Latin America: BTS",
+   "body_en": "Fans Go Crazy For BTS’ Exclusive Interview During Latin American Tour (Koreaboo)",
+   "when": "2026-11-25T06:29:10Z",
+   "url": "https://www.koreaboo.com/news/fans-go-crazy-bts-exclusive-interview-latin-american-tour/",
+   "src_lang": "en",
+   "body_orig": "Fans Go Crazy For BTS’ Exclusive Interview During Latin American Tour (Koreaboo)",
+   "auto": true
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "With BABY ANGEL #WONHEE 👼🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL #ILLIT (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "With BABY ANGEL #WONHEE 👼🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL #ILLIT (YouTube)",
+   "when": "2026-11-25T06:00:11Z",
+   "url": "https://www.youtube.com/watch?v=KMxyZyBwehw"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "2AM glow #BeepBeep 💡 #LNGSHOT #SWISH (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "2AM glow #BeepBeep 💡 #LNGSHOT #SWISH (YouTube)",
+   "when": "2026-11-25T05:00:31Z",
+   "url": "https://www.youtube.com/watch?v=mhfQ3H-MM-k"
+  },
   {
    "type": "video",
    "group": "cortis",
@@ -610,122 +723,6 @@
    "body_en": "ATEEZ(에이티즈) - 'Drip' Recording Behind (YouTube)",
    "when": "2026-11-23T09:00:25Z",
    "url": "https://www.youtube.com/watch?v=71AEpDUIBtQ"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "SEVENTEEN 2027 SEASON'S GREETINGS Meet Our Paw-some Friends #4 🐶🌱 (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "SEVENTEEN 2027 SEASON'S GREETINGS Meet Our Paw-some Friends #4 🐶🌱 (YouTube)",
-   "when": "2026-11-23T08:59:48Z",
-   "url": "https://www.youtube.com/watch?v=0HAfyIv6u8o"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Nuevo video: Stray Kids",
-   "body": "🐷🐰.｡oO( 우리 🐶 쿵푸 잘하죠 ) #StrayKids #스트레이키즈 #창빈 #Changbin #승민 #Seungmin #YouMakeStrayKidsStay (YouTube)",
-   "title_en": "New video: Stray Kids",
-   "body_en": "🐷🐰.｡oO( 우리 🐶 쿵푸 잘하죠 ) #StrayKids #스트레이키즈 #창빈 #Changbin #승민 #Seungmin #YouMakeStrayKidsStay (YouTube)",
-   "when": "2026-11-23T08:59:37Z",
-   "url": "https://www.youtube.com/watch?v=x68u7U9y1tg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "group_name": "SEVENTEEN",
-   "title": "Nuevo video: SEVENTEEN",
-   "body": "SEVENTEEN 2027 SEASON'S GREETINGS Meet Our Paw-some Friends #3 🐶🌱 (YouTube)",
-   "title_en": "New video: SEVENTEEN",
-   "body_en": "SEVENTEEN 2027 SEASON'S GREETINGS Meet Our Paw-some Friends #3 🐶🌱 (YouTube)",
-   "when": "2026-11-23T08:59:31Z",
-   "url": "https://www.youtube.com/watch?v=sU_7HzIZsII"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Nuevo video: TWICE",
-   "body": "I know I’m a DREAM🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL #Shorts (YouTube)",
-   "title_en": "New video: TWICE",
-   "body_en": "I know I’m a DREAM🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL #Shorts (YouTube)",
-   "when": "2026-11-23T07:03:45Z",
-   "url": "https://www.youtube.com/watch?v=cTH3TsdReeo"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "SHOTTIES created this #Masterpiece 따라해봄👀 #LNGSHOT #SWISH #OHYUL #LOUIS (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "SHOTTIES created this #Masterpiece 따라해봄👀 #LNGSHOT #SWISH #OHYUL #LOUIS (YouTube)",
-   "when": "2026-11-23T07:00:16Z",
-   "url": "https://www.youtube.com/watch?v=XU8p2W9alqc"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "group_name": "ATEEZ",
-   "title": "Nuevo video: ATEEZ",
-   "body": "유준 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "title_en": "New video: ATEEZ",
-   "body_en": "유준 님과 해, 쩌는 짓 😎 #Shorts (YouTube)",
-   "when": "2026-11-23T07:00:12Z",
-   "url": "https://www.youtube.com/watch?v=m5ImCcKHoLk"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "group_name": "ENHYPEN",
-   "title": "Nuevo video: ENHYPEN",
-   "body": "Cuz I want #MINJU 🫵#EN_IWantYou #ILLIT #SUNOO #ENHYPEN @ILLIT_official (YouTube)",
-   "title_en": "New video: ENHYPEN",
-   "body_en": "Cuz I want #MINJU 🫵#EN_IWantYou #ILLIT #SUNOO #ENHYPEN @ILLIT_official (YouTube)",
-   "when": "2026-11-23T06:08:13Z",
-   "url": "https://www.youtube.com/watch?v=ACP2_QB9mI0"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "group_name": "TWICE",
-   "title": "Nuevo video: TWICE",
-   "body": "☀️☁️ #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "title_en": "New video: TWICE",
-   "body_en": "☀️☁️ #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL (YouTube)",
-   "when": "2026-11-23T06:00:37Z",
-   "url": "https://www.youtube.com/watch?v=uIR0WEbB-z8"
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«[AVISO] Información sobre la sesión de autógrafos para celebrar el lanzamiento del EP [S.W.I.S.H.] de LNGSHOT (MyStarGoods) https://weverse.io/lngshot/notice/41261 #LNGSHOT #SWISH» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] Release Celebration Fan Signing Event Notice (MyStarGoods) https://weverse.io/lngshot/notice/41261 #LNGSHOT #SWISH» (LNGSHOT on X).",
-   "when": "2026-11-23T06:00:36Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2124744907265036418",
-   "src_lang": "ko",
-   "body_orig": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (마이스타굿즈) https://weverse.io/lngshot/notice/41261 #LNGSHOT #SWISH» (LNGSHOT en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Anuncio oficial de LNGSHOT: comeback",
-   "body": "«[AVISO] Aviso sobre la sesión de autógrafos para celebrar el lanzamiento del EP [S.W.I.S.H.] de LNGSHOT (MyStarGoods) https://weverse.io/lngshot/notice/41261 #LNGSHOT #SWISH» (LNGSHOT en X).",
-   "title_en": "Official LNGSHOT news: comeback",
-   "body_en": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] Release Celebration Fan Signing Event Notice (MyStarGoods) https://weverse.io/lngshot/notice/41261 #LNGSHOT #SWISH» (LNGSHOT on X).",
-   "when": "2026-11-23T06:00:36Z",
-   "url": "https://x.com/LNGSHOT4sho/status/2124744907265036418",
-   "src_lang": "ko",
-   "body_orig": "«[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (마이스타굿즈) https://weverse.io/lngshot/notice/41261 #LNGSHOT #SWISH» (LNGSHOT en X).",
-   "auto": true
   }
  ]
 }

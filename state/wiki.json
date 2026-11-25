@@ -53,21 +53,12 @@
  ],
  "fails": 0,
  "last_discovery": "2026-11-25T02:34:27Z",
- "last_run": "2026-11-25T02:34:27Z",
+ "last_run": "2026-11-25T11:46:15Z",
  "pages": {
   "Arirang World Tour": {
-   "fetched": "2026-11-23T11:11:02Z",
-   "revid": 1387261490,
+   "fetched": "2026-11-25T11:46:15Z",
+   "revid": 1387724801,
    "rows": [
-    {
-     "cancelled": false,
-     "city": "La Plata",
-     "city_link": "La Plata",
-     "country": "Argentina",
-     "date": "2026-10-24",
-     "venue": "Estadio Único Diego Armando Maradona",
-     "venue_link": "Estadio Único Diego Armando Maradona"
-    },
     {
      "cancelled": false,
      "city": "São Paulo",
@@ -363,8 +354,8 @@
    "title": "New World Tour"
   },
   "Run It World Tour": {
-   "fetched": "2026-11-24T18:12:40Z",
-   "revid": 1387577236,
+   "fetched": "2026-11-25T11:46:15Z",
+   "revid": 1387695285,
    "rows": [
     {
      "cancelled": false,
@@ -740,13 +731,7 @@
   }
  },
  "pending": {
-  "bts": [
-   "The Most Beautiful Moment in Life On Stage Tour",
-   "BTS World Tour: Love Yourself"
-  ],
   "seventeen": [
-   "Diamond Edge World Tour",
-   "Right Here World Tour",
    "Be The Sun World Tour",
    "Follow Tour"
   ]
@@ -754,11 +739,11 @@
  "rejected": {
   "2017 BTS Live Trilogy Episode III: The Wings Tour": "2026-11-25T02:34:27Z",
   "5-Star Dome Tour": "2026-11-18T20:36:29Z",
-  "BTS World Tour: Love Yourself": "2026-11-10T21:45:19Z",
+  "BTS World Tour: Love Yourself": "2026-11-25T11:46:15Z",
   "Be The Sun World Tour": "2026-11-11T00:00:22Z",
   "Blackpink Arena Tour 2018": "2026-11-18T03:29:46Z",
   "Born Pink World Tour": "2026-11-18T12:10:40Z",
-  "Diamond Edge World Tour": "2026-11-10T21:45:19Z",
+  "Diamond Edge World Tour": "2026-11-25T11:46:15Z",
   "Dominate World Tour": "2026-11-18T12:10:40Z",
   "Follow Tour": "2026-11-11T00:00:22Z",
   "Haru Japan Tour": "2026-11-19T02:01:42Z",
@@ -771,9 +756,9 @@
   "New_ World Tour": "2026-11-25T02:34:27Z",
   "Ode to You World Tour": "2026-11-18T20:36:29Z",
   "Ready to Be World Tour": "2026-11-18T20:36:29Z",
-  "Right Here World Tour": "2026-11-10T21:45:19Z",
+  "Right Here World Tour": "2026-11-25T11:46:15Z",
   "SVT Japan Arena Tour": "2026-11-25T02:34:27Z",
-  "The Most Beautiful Moment in Life On Stage Tour": "2026-11-10T21:45:19Z",
+  "The Most Beautiful Moment in Life On Stage Tour": "2026-11-25T11:46:15Z",
   "The Red Bullet Tour": "2026-11-18T12:10:40Z",
   "The Wings Tour": "2026-11-18T03:29:46Z",
   "This Is For World Tour": "2026-11-17T21:47:43Z",

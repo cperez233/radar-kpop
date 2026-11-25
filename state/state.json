@@ -2493,7 +2493,20 @@
   "official:ateez:comeback:2026-11-25|ntfy": "2026-11-25T02:37:26Z",
   "official:ateez:comeback:2026-11-25|pub:radarkpop-ateez-music": "2026-11-25T02:37:26Z",
   "official:ateez:comeback:2026-11-25|foro": "2026-11-25T02:37:26Z",
-  "news:ac403f6d183028e6|feed": "2026-11-25T02:37:26Z"
+  "news:ac403f6d183028e6|feed": "2026-11-25T02:37:26Z",
+  "news:e263b98a00844cfa|feed": "2026-11-25T11:48:18Z",
+  "news:e263b98a00844cfa|ntfy": "2026-11-25T11:48:18Z",
+  "news:e263b98a00844cfa|pub:radarkpop-bts-news": "2026-11-25T11:48:18Z",
+  "news:e263b98a00844cfa|foro": "2026-11-25T11:48:18Z",
+  "news:da7a978e66b5f404|feed": "2026-11-25T11:48:18Z",
+  "news:882c0165b93f2801|feed": "2026-11-25T11:48:18Z",
+  "news:7affe33b291973d3|feed": "2026-11-25T11:48:18Z",
+  "news:10f297a687a011d3|feed": "2026-11-25T11:48:18Z",
+  "news:7ec8e75d6404ef53|feed": "2026-11-25T11:48:18Z",
+  "news:38068baf6a1fda02|feed": "2026-11-25T11:48:18Z",
+  "news:44e971f0c0b16cc5|feed": "2026-11-25T11:48:18Z",
+  "news:920e2cea7f49bf49|feed": "2026-11-25T11:48:18Z",
+  "news:f7957d0e987ac648|feed": "2026-11-25T11:48:18Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3681,16 +3694,6 @@
   }
  },
  "news_seen": [
-  "b41944d96bc69ad2",
-  "b4270294e02ed06a",
-  "b4333ab64f1f76e9",
-  "b455626a2377fc14",
-  "b4712ba551623d0a",
-  "b48a37129f83933f",
-  "b48b0379352bb7f7",
-  "b490ee0192c3c009",
-  "b4a5ca75ee1ecb75",
-  "b4abf168efb586f7",
   "b4f37cf30188dacd",
   "b4f3d0e6ca05384b",
   "b4fb12f36eb374d5",
@@ -3764,6 +3767,7 @@
   "bb17286b84c0b911",
   "bb28959efdf88008",
   "bb2c77d4cdc13d0d",
+  "bb3c3a9767a8eb7f",
   "bb434866016962a9",
   "bb57c4641a1ef5ac",
   "bb581d0e337c12c6",
@@ -4020,6 +4024,7 @@
   "d1d43ae98577f558",
   "d1ed264c49bbe789",
   "d1f05823aca4b327",
+  "d2097132ef48e859",
   "d20997fbf6f8567e",
   "d22817df9588237f",
   "d24abb7ae6392bbe",
@@ -4109,6 +4114,7 @@
   "da32d48f351ae28f",
   "da4f680a32738354",
   "da5ff7b4ecf384a9",
+  "da7a978e66b5f404",
   "da7eb585e645e348",
   "daa18ecec0501cb9",
   "daa7e901bae86639",
@@ -4154,6 +4160,7 @@
   "deb871d83eaff2cc",
   "deb880ca0d14f4dc",
   "dedf295cb073965f",
+  "dee070193fb63e26",
   "defb1ef553b2225b",
   "df039864311dc247",
   "df100409eedaa607",
@@ -4191,6 +4198,7 @@
   "e238a27c9e036c71",
   "e23d52033c88fcf1",
   "e2567b47950ed5ef",
+  "e263b98a00844cfa",
   "e28007d0b053ec92",
   "e2990ee1186bf40a",
   "e2a38bee29e1315a",
@@ -4300,6 +4308,7 @@
   "edc2e23c4048564a",
   "edf778c0db632cbe",
   "ee07a3b3b51c993f",
+  "ee13b80aefe9542c",
   "ee16ed74a93dfbcf",
   "ee2addd6800696d7",
   "ee4c1f34cf41aa7c",
@@ -4391,6 +4400,7 @@
   "f70d05b65be8e247",
   "f7756ab99bb704fe",
   "f782188ee622af67",
+  "f7957d0e987ac648",
   "f7bb6d63b372db6e",
   "f7c4a0da1b3ba2bc",
   "f7cd5f900aaaa8ab",
@@ -4427,6 +4437,7 @@
   "fb17592e55bad939",
   "fb35ab5220035c1f",
   "fb4e97b6e2db366c",
+  "fb583b3138fb3969",
   "fb5b69e204f8fb4a",
   "fb73ba04b413ae6f",
   "fb8056f4c7959797",
@@ -4446,6 +4457,7 @@
   "fce6a6e3e0113e5f",
   "fcec910969990478",
   "fd0556c0cbfa610a",
+  "fd100760ca32a380",
   "fd13b425de1c0aff",
   "fd24bcd6786a8add",
   "fd3cfa7463cf7b3c",
@@ -4473,6 +4485,7 @@
   "ff08e8b6d1b62e15",
   "ff4afd7fb639c011",
   "ff50509de7f407d1",
+  "ff665041cab549de",
   "ff7e28fe717a4438",
   "ff8f526e9edce40d",
   "ff9645bd07fd2d0a",
@@ -4483,25 +4496,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "bts",
-   "w": [
-    "concierto",
-    "conquista",
-    "corazon",
-    "encendio",
-    "fans",
-    "kaohsiung",
-    "medios",
-    "mercado",
-    "nocturno",
-    "redes",
-    "sociales",
-    "taiwan",
-    "visita"
-   ],
-   "t": "2026-11-23T11:13:33Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -4596,6 +4590,20 @@
     "world"
    ],
    "t": "2026-11-25T02:37:19Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "american",
+    "crazy",
+    "during",
+    "exclusive",
+    "fans",
+    "interview",
+    "latin",
+    "tour"
+   ],
+   "t": "2026-11-25T11:48:12Z"
   }
  ],
  "discord_threads": {
