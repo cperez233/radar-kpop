@@ -1,7 +1,14 @@
 {
- "updated_at": "2026-11-25T11:46:51Z",
+ "updated_at": "2026-11-25T21:29:07Z",
  "groups": {
   "lngshot": [
+   {
+    "title": "[NOTICE] LNGSHOT 261127 KBS2 뮤직뱅크 참여 안내 (본방송)",
+    "url": "https://weverse.io/lngshot/notice/41351",
+    "post": "https://x.com/LNGSHOT4sho/status/2125597804022403439",
+    "when": "2026-11-25T14:29:42Z",
+    "weverse": true
+   },
    {
     "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (마이스타굿즈)",
     "url": "https://weverse.io/lngshot/notice/41261",
@@ -35,13 +42,6 @@
     "url": "https://weverse.io/lngshot/notice/41013",
     "post": "https://x.com/LNGSHOT4sho/status/2121217272975139257",
     "when": "2026-11-13T12:23:02Z",
-    "weverse": true
-   },
-   {
-    "title": "[NOTICE] LNGSHOT 261114 MBC 쇼! 음악중심 참여 안내 (본방송)",
-    "url": "https://weverse.io/lngshot/notice/40975",
-    "post": "https://x.com/LNGSHOT4sho/status/2120814068059734514",
-    "when": "2026-11-12T09:40:51Z",
     "weverse": true
    }
   ],
@@ -91,6 +91,13 @@
   ],
   "enhypen": [
    {
+    "title": "[공지] 261127 KBS 뮤직뱅크 참여 신청 안내 (+ENG/JPN/CHN)",
+    "url": "https://weverse.io/enhypen/notice/41345",
+    "post": "https://x.com/ENHYPEN/status/2125590328073970015",
+    "when": "2026-11-25T14:00:00Z",
+    "weverse": true
+   },
+   {
     "title": "[공지] 엔하이픈 ‘THE SIN : PARALLEL WORLD’ 공개방송 참여방법 및 주의사항 안내 (+ENG/JPN/CHN)",
     "url": "https://weverse.io/enhypen/notice/41333",
     "post": "https://x.com/ENHYPEN/status/2125514853833969981",
@@ -123,13 +130,6 @@
     "url": "https://weverse.io/enhypen/notice/41224",
     "post": "https://x.com/ENHYPEN/status/2124004886383931680",
     "when": "2026-11-21T05:00:01Z",
-    "weverse": true
-   },
-   {
-    "title": "[공지] 'I Want You' 응원법 안내",
-    "url": "https://weverse.io/enhypen/notice/41165",
-    "post": "https://x.com/ENHYPEN/status/2123650043408449849",
-    "when": "2026-11-20T05:30:00Z",
     "weverse": true
    }
   ],

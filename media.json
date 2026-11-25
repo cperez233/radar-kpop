@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25T11:46:40Z",
+ "updated_at": "2026-11-25T21:28:33Z",
  "sample": false,
  "items": [
   {
@@ -49,7 +49,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-25T11"
+   "ytm_try": "2026-11-25T21"
   },
   {
    "type": "video",
@@ -81,6 +81,15 @@
   {
    "type": "video",
    "group": "lngshot",
+   "title": "beepbeepholic ＜333 #LNGSHOT #BeepBeep #SWISH",
+   "date": "2026-11-25",
+   "published": "2026-11-25T13:00:37Z",
+   "url": "https://www.youtube.com/watch?v=IzjptVsxd8o",
+   "image": "https://i.ytimg.com/vi/IzjptVsxd8o/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
    "title": "LNGSHOT 'Beep Beep' 응원법",
    "date": "2026-11-25",
    "published": "2026-11-25T10:00:06Z",
@@ -99,29 +108,38 @@
   {
    "type": "video",
    "group": "enhypen",
-   "title": "🫠 #JAKE #ENHYPEN",
+   "title": "ENHYPEN 2027 SEASON'S GREETINGS Mood Film #NI_KI",
    "date": "2026-11-25",
-   "published": "2026-11-25T09:37:45Z",
-   "url": "https://www.youtube.com/watch?v=HgaUnKUkQfs",
-   "image": "https://i.ytimg.com/vi/HgaUnKUkQfs/hqdefault.jpg"
+   "published": "2026-11-25T15:02:52Z",
+   "url": "https://www.youtube.com/watch?v=ztb1m0XFYU4",
+   "image": "https://i.ytimg.com/vi/ztb1m0XFYU4/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "enhypen",
-   "title": "Cuz I Wonchu chu chu...💖 ft. #SUNOO ✨ #JUNGWON #EN_IWantYou #THE_SIN_PARALLEL_WORLD #ENHYPEN",
+   "title": "ENHYPEN 2027 SEASON'S GREETINGS Mood Film #SUNOO",
    "date": "2026-11-25",
-   "published": "2026-11-25T09:07:29Z",
-   "url": "https://www.youtube.com/watch?v=ydbbO0_ubBI",
-   "image": "https://i.ytimg.com/vi/ydbbO0_ubBI/hqdefault.jpg"
+   "published": "2026-11-25T15:02:44Z",
+   "url": "https://www.youtube.com/watch?v=-y1f1kadXtc",
+   "image": "https://i.ytimg.com/vi/-y1f1kadXtc/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "enhypen",
-   "title": "Cuz I want #ELENA 🫵#EN_IWantYou #TUIDE #JUNGWON #ENHYPEN",
+   "title": "ENHYPEN 2027 SEASON'S GREETINGS Mood Film #SUNGHOON",
    "date": "2026-11-25",
-   "published": "2026-11-25T06:39:56Z",
-   "url": "https://www.youtube.com/watch?v=IipQ5tbkJts",
-   "image": "https://i.ytimg.com/vi/IipQ5tbkJts/hqdefault.jpg"
+   "published": "2026-11-25T15:02:37Z",
+   "url": "https://www.youtube.com/watch?v=sIlEghWGk6Q",
+   "image": "https://i.ytimg.com/vi/sIlEghWGk6Q/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "cortis",
+   "title": "Full of CORTIS's teenage years. 'SMELLING LIKE A TEEN' #CORTIS #코르티스 #SMELLING_LIKE_A_TEEN",
+   "date": "2026-11-25",
+   "published": "2026-11-25T15:00:12Z",
+   "url": "https://www.youtube.com/watch?v=1oN5PIJ_ctY",
+   "image": "https://i.ytimg.com/vi/1oN5PIJ_ctY/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -188,15 +206,6 @@
   },
   {
    "type": "video",
-   "group": "cortis",
-   "title": "PYPD JP tour",
-   "date": "2026-11-24",
-   "published": "2026-11-24T11:59:59Z",
-   "url": "https://www.youtube.com/watch?v=ZEX9MtAMq4g",
-   "image": "https://i.ytimg.com/vi/ZEX9MtAMq4g/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "ateez",
    "title": "임지민, 배인, 시우 님과 해, 쩌는 짓 😎 #Shorts",
    "date": "2026-11-24",
@@ -229,7 +238,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/da/cc/badacc4d-875c-edcd-5004-39e477c9baa9/mzaf_6290537565215650350.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-25T11",
+   "ytm_try": "2026-11-25T21",
    "sp_try": "2026-11-25"
   },
   {
@@ -249,7 +258,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/ee/a1/0feea18a-66e3-5364-919e-f56685c0d2d2/mzaf_2926928018918726965.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-25T11"
+   "ytm_try": "2026-11-25T21"
   },
   {
    "type": "video",
@@ -259,15 +268,6 @@
    "published": "2026-11-23T08:59:37Z",
    "url": "https://www.youtube.com/watch?v=x68u7U9y1tg",
    "image": "https://i.ytimg.com/vi/x68u7U9y1tg/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "Go #Bananas w/#xikers #YUJUN @xikers_official 🍌 #LNGSHOT #SWISH",
-   "date": "2026-11-23",
-   "published": "2026-11-23T11:00:22Z",
-   "url": "https://www.youtube.com/watch?v=6oODIewwT04",
-   "image": "https://i.ytimg.com/vi/6oODIewwT04/hqdefault.jpg"
   },
   {
    "type": "music",
@@ -296,7 +296,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-25T11"
+   "ytm_try": "2026-11-25T21"
   },
   {
    "type": "video",
@@ -323,7 +323,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/c9/79/6ac97982-749a-b44d-dbd4-25a4bad8d1a1/mzaf_130015778819592854.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-25T11",
+   "ytm_try": "2026-11-25T21",
    "sp_try": "2026-11-25"
   },
   {
@@ -363,7 +363,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-25T11"
+   "ytm_try": "2026-11-25T21"
   },
   {
    "type": "music",
@@ -402,7 +402,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-25T11"
+   "ytm_try": "2026-11-25T21"
   },
   {
    "type": "video",
@@ -594,7 +594,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-25T11",
+   "ytm_try": "2026-11-25T21",
    "sp_try": "2026-11-25"
   },
   {
@@ -1297,7 +1297,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-25T11"
+   "ytm_try": "2026-11-25T21"
   },
   {
    "type": "music",

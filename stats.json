@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-25T02:35:35Z",
+  "updated_at": "2026-11-25T21:28:55Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
       "listeners": 28642727,
       "listeners_peak": 46724346,
-      "streams": 51572292847,
+      "streams": 51598788242,
       "top_song": {
         "title": "Dynamite",
-        "streams": 2388706618,
+        "streams": 2389232457,
         "url": "https://open.spotify.com/track/5QDLhrAOJJdNAmCTJ8xMyW"
       },
       "yt_subs": 86500000
@@ -22,15 +22,15 @@
         "streams": 560586444,
         "url": "https://open.spotify.com/track/4XPXrcpyNr30Km6aPiflJy"
       },
-      "yt_subs": 25700000
+      "yt_subs": 25800000
     },
     "twice": {
       "listeners": 14107059,
       "listeners_peak": 27003979,
-      "streams": 13103413366,
+      "streams": 13107032602,
       "top_song": {
         "title": "What is Love?",
-        "streams": 721248280,
+        "streams": 721606293,
         "url": "https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y"
       },
       "yt_subs": 19600000
@@ -38,10 +38,10 @@
     "blackpink": {
       "listeners": 17911926,
       "listeners_peak": 35310315,
-      "streams": 16838936679,
+      "streams": 16842779449,
       "top_song": {
         "title": "How You Like That",
-        "streams": 1307562105,
+        "streams": 1307767544,
         "url": "https://open.spotify.com/track/4SFknyjLcyTLJFPKD2m96o"
       },
       "yt_subs": 102000000
@@ -53,15 +53,15 @@
         "streams": 124770351,
         "url": "https://open.spotify.com/track/46V2ciN6F5bxjQWityNhkY"
       },
-      "listeners": 4872181,
+      "listeners": 4915459,
       "listeners_peak": 6085028,
       "yt_subs": 2230000
     },
     "seventeen": {
-      "streams": 8472186101,
+      "streams": 8479210693,
       "top_song": {
         "title": "Super",
-        "streams": 330679312,
+        "streams": 330992469,
         "url": "https://open.spotify.com/track/3ZpfXyQgcqdSA1TGNc7Ret"
       },
       "listeners": 4345279,
@@ -77,7 +77,7 @@
         "streams": 551614331,
         "url": "https://open.spotify.com/track/7mpdNiaQvygj2rHoxkzMfa"
       },
-      "yt_subs": 14800000
+      "yt_subs": 14900000
     },
     "newjeans": {
       "listeners": 13338593,
@@ -93,13 +93,13 @@
     "cortis": {
       "listeners": 10695637,
       "listeners_peak": 12947465,
-      "streams": 1543420313,
+      "streams": 1552189839,
       "top_song": {
         "title": "REDRED",
-        "streams": 286698739,
+        "streams": 288732202,
         "url": "https://open.spotify.com/track/34YVCoqIm08nbsxFSPL0Uh"
       },
-      "yt_subs": 7980000
+      "yt_subs": 8000000
     },
     "ateez": {
       "listeners": 7989169,
