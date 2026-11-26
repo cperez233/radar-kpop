@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T11:46:40Z",
+  "updated_at": "2026-11-26T13:14:48Z",
   "source": "rsshub",
   "sample": false,
   "items": [
@@ -233,19 +233,6 @@
       "url": "https://x.com/ATEEZofficial/status/2117542317183635475",
       "account": "ATEEZofficial",
       "when": "2026-11-03T09:00:05Z"
-    },
-    {
-      "id": "x-2114994940346511501",
-      "group": "lngshot",
-      "group_name": "LNGSHOT",
-      "city": "Londres",
-      "country": "Reino Unido",
-      "lat": 51.5074,
-      "lon": -0.1278,
-      "text": "London SHOTTIES, y’all are a #Masterpiece 🇬🇧 Dance practice video drops today at 6PM KST! #SWISH #LNGSHOT",
-      "url": "https://x.com/LNGSHOT4sho/status/2114994940346511501",
-      "account": "LNGSHOT4sho",
-      "when": "2026-10-27T08:17:43Z"
     }
   ]
 }

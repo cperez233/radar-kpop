@@ -1,7 +1,21 @@
 {
- "updated_at": "2026-11-26T03:44:37Z",
+ "updated_at": "2026-11-26T13:14:59Z",
  "groups": {
   "lngshot": [
+   {
+    "title": "[NOTICE] LNGSHOT 261128 MBC 쇼! 음악중심 참여 안내 (사전녹화)",
+    "url": "https://weverse.io/lngshot/notice/41387",
+    "post": "https://x.com/LNGSHOT4sho/status/2125854817348387138",
+    "when": "2026-11-26T07:30:59Z",
+    "weverse": true
+   },
+   {
+    "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (퍼스트뮤직)",
+    "url": "https://weverse.io/lngshot/notice/41354",
+    "post": "https://x.com/LNGSHOT4sho/status/2125832399242375416",
+    "when": "2026-11-26T06:01:54Z",
+    "weverse": true
+   },
    {
     "title": "[NOTICE] LNGSHOT 261127 KBS2 뮤직뱅크 참여 안내 (본방송)",
     "url": "https://weverse.io/lngshot/notice/41351",
@@ -28,20 +42,6 @@
     "url": "https://weverse.io/lngshot/notice/41169",
     "post": "https://x.com/LNGSHOT4sho/status/2123295529019048432",
     "when": "2026-11-19T06:01:17Z",
-    "weverse": true
-   },
-   {
-    "title": "[NOTICE] LNGSHOT EP [S.W.I.S.H.] 발매 기념 팬사인회 안내 (프롬스토어)",
-    "url": "https://weverse.io/lngshot/notice/41100",
-    "post": "https://x.com/LNGSHOT4sho/status/2122570733033574401",
-    "when": "2026-11-17T06:01:12Z",
-    "weverse": true
-   },
-   {
-    "title": "[NOTICE] LNGSHOT 261115 SBS 인기가요 참여 안내 (사전녹화)",
-    "url": "https://weverse.io/lngshot/notice/41013",
-    "post": "https://x.com/LNGSHOT4sho/status/2121217272975139257",
-    "when": "2026-11-13T12:23:02Z",
     "weverse": true
    }
   ],
@@ -91,6 +91,13 @@
   ],
   "enhypen": [
    {
+    "title": "[공지] 261128 MBC 음악중심 참여 신청 안내 (+ENG/JPN/CHN)",
+    "url": "https://weverse.io/enhypen/notice/41399",
+    "post": "https://x.com/ENHYPEN/status/2125884772471935239",
+    "when": "2026-11-26T09:30:01Z",
+    "weverse": true
+   },
+   {
     "title": "ENHYPEN 2027 SEASON'S GREETINGS 출시 안내 🗓️PRE-ORDER : 2026.11.27ㅣFriㅣKST 🗓️RELEASE : 2026.12.0...",
     "url": "https://weverse.io/enhypen/notice/41303",
     "post": "https://x.com/ENHYPEN/status/2125786674513031406",
@@ -123,13 +130,6 @@
     "url": "https://weverse.io/enhypen/notice/41238",
     "post": "https://x.com/ENHYPEN/status/2125031652275744931",
     "when": "2026-11-24T01:00:01Z",
-    "weverse": true
-   },
-   {
-    "title": "[공지] ENHYPEN ‘I Want You (Remix)’ 발매 (+ENG/JPN/CHN)",
-    "url": "https://weverse.io/enhypen/notice/41225",
-    "post": "https://x.com/ENHYPEN/status/2124729662462964165",
-    "when": "2026-11-23T05:00:01Z",
     "weverse": true
    }
   ],

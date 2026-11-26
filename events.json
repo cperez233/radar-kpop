@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T03:43:57Z",
+  "updated_at": "2026-11-26T13:14:07Z",
   "sources": [
     {
       "name": "Live Nation (BTS)",
@@ -404,7 +404,7 @@
           "src": "https://en.wikipedia.org/wiki/Arirang_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki"
         },
         {
@@ -421,7 +421,7 @@
           "tm_name": "BTS WORLD TOUR 'ARIRANG' IN MELBOURNE",
           "onsale": "2026-06-04T00:00:00Z",
           "verified_by": "wiki",
-          "verified_at": "2026-11-26T03:43:57Z"
+          "verified_at": "2026-11-26T13:14:07Z"
         },
         {
           "id": "bts-20270212-melbourne",
@@ -558,7 +558,7 @@
           "src": "https://en.wikipedia.org/wiki/Arirang_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki"
         }
       ],
@@ -800,7 +800,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki"
         },
         {
@@ -817,7 +817,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki"
         },
         {
@@ -831,7 +831,8 @@
           "lon": 100.546,
           "status": "anunciado",
           "verified_by": "wiki",
-          "verified_at": "2026-11-03T19:15:48Z"
+          "verified_at": "2026-11-03T19:15:48Z",
+          "onsale": "2026-09-22T21:00:00Z"
         },
         {
           "id": "skz-20270117-bangkok",
@@ -844,7 +845,8 @@
           "lon": 100.546,
           "status": "anunciado",
           "verified_by": "wiki",
-          "verified_at": "2026-11-03T19:15:48Z"
+          "verified_at": "2026-11-03T19:15:48Z",
+          "onsale": "2026-09-22T21:00:00Z"
         },
         {
           "id": "skz-wiki-20270306-singapur",
@@ -860,8 +862,9 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
-          "verified_by": "wiki"
+          "verified_at": "2026-11-26T13:14:07Z",
+          "verified_by": "wiki",
+          "onsale": "2026-09-02T02:00:00Z"
         },
         {
           "id": "skz-20270307-singapore",
@@ -874,7 +877,8 @@
           "lon": 103.8198,
           "status": "anunciado",
           "verified_by": "wiki",
-          "verified_at": "2026-11-03T19:15:48Z"
+          "verified_at": "2026-11-03T19:15:48Z",
+          "onsale": "2026-09-02T02:00:00Z"
         },
         {
           "id": "skz-wiki-20270424-tokio",
@@ -890,7 +894,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki"
         },
         {
@@ -907,7 +911,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki"
         },
         {
@@ -924,7 +928,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki"
         },
         {
@@ -941,7 +945,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki"
         },
         {
@@ -958,7 +962,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T23:00:00Z"
         },
@@ -976,7 +980,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T23:00:00Z"
         },
@@ -1025,7 +1029,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T23:00:00Z"
         },
@@ -1043,7 +1047,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T23:00:00Z"
         },
@@ -1061,7 +1065,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T21:00:00Z"
         },
@@ -1079,7 +1083,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T21:00:00Z"
         },
@@ -1097,7 +1101,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T20:00:00Z"
         },
@@ -1115,7 +1119,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T20:00:00Z"
         },
@@ -1133,7 +1137,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T20:00:00Z"
         },
@@ -1151,7 +1155,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T21:00:00Z"
         },
@@ -1187,7 +1191,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T20:00:00Z"
         },
@@ -1205,7 +1209,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T20:00:00Z"
         },
@@ -1223,7 +1227,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T20:00:00Z"
         },
@@ -1241,7 +1245,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki"
         },
         {
@@ -1289,7 +1293,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T15:00:00Z"
         },
@@ -1307,7 +1311,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T15:00:00Z"
         },
@@ -1325,7 +1329,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T14:00:00Z"
         },
@@ -1375,7 +1379,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T14:00:00Z"
         },
@@ -1393,7 +1397,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T14:00:00Z"
         },
@@ -1411,7 +1415,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki",
           "onsale": "2026-11-19T14:00:00Z"
         },
@@ -1461,7 +1465,7 @@
           "src": "https://en.wikipedia.org/wiki/Run_It_World_Tour",
           "src_kind": "wiki",
           "time_tbd": true,
-          "verified_at": "2026-11-26T03:43:57Z",
+          "verified_at": "2026-11-26T13:14:07Z",
           "verified_by": "wiki"
         }
       ],
@@ -2159,7 +2163,8 @@
           "venue": "National Stadium",
           "lat": 1.3044,
           "lon": 103.8746,
-          "status": "confirmado"
+          "status": "confirmado",
+          "onsale": "2026-07-17T02:00:00Z"
         }
       ],
       "tour_en": "Blood Saga World Tour"

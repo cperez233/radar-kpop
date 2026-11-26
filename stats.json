@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-25T21:28:55Z",
+  "updated_at": "2026-11-26T13:14:48Z",
   "source": "kworb.net (Spotify), YouTube Data API",
   "groups": {
     "bts": {
-      "listeners": 28642727,
+      "listeners": 28608650,
       "listeners_peak": 46724346,
       "streams": 51598788242,
       "top_song": {
@@ -14,34 +14,34 @@
       "yt_subs": 86500000
     },
     "skz": {
-      "listeners": 9858676,
+      "listeners": 9877508,
       "listeners_peak": 14253317,
-      "streams": 15965246108,
+      "streams": 15974009887,
       "top_song": {
         "title": "God’s Menu",
-        "streams": 560586444,
+        "streams": 560786032,
         "url": "https://open.spotify.com/track/4XPXrcpyNr30Km6aPiflJy"
       },
       "yt_subs": 25800000
     },
     "twice": {
-      "listeners": 14107059,
+      "listeners": 14096279,
       "listeners_peak": 27003979,
-      "streams": 13107032602,
+      "streams": 13110637877,
       "top_song": {
         "title": "What is Love?",
-        "streams": 721606293,
+        "streams": 721958087,
         "url": "https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y"
       },
       "yt_subs": 19600000
     },
     "blackpink": {
-      "listeners": 17911926,
+      "listeners": 17898963,
       "listeners_peak": 35310315,
-      "streams": 16842779449,
+      "streams": 16846661436,
       "top_song": {
         "title": "How You Like That",
-        "streams": 1307767544,
+        "streams": 1307971581,
         "url": "https://open.spotify.com/track/4SFknyjLcyTLJFPKD2m96o"
       },
       "yt_subs": 102000000
@@ -53,7 +53,7 @@
         "streams": 124770351,
         "url": "https://open.spotify.com/track/46V2ciN6F5bxjQWityNhkY"
       },
-      "listeners": 4915459,
+      "listeners": 4937239,
       "listeners_peak": 6085028,
       "yt_subs": 2230000
     },
@@ -64,34 +64,34 @@
         "streams": 330992469,
         "url": "https://open.spotify.com/track/3ZpfXyQgcqdSA1TGNc7Ret"
       },
-      "listeners": 4345279,
+      "listeners": 4346043,
       "listeners_peak": 9240435,
       "yt_subs": 18200000
     },
     "enhypen": {
-      "listeners": 9627814,
+      "listeners": 9656414,
       "listeners_peak": 11080262,
-      "streams": 8154922351,
+      "streams": 8160632110,
       "top_song": {
         "title": "Bite Me",
-        "streams": 551614331,
+        "streams": 551836386,
         "url": "https://open.spotify.com/track/7mpdNiaQvygj2rHoxkzMfa"
       },
       "yt_subs": 14900000
     },
     "newjeans": {
-      "listeners": 13338593,
+      "listeners": 13317247,
       "listeners_peak": 26786050,
-      "streams": 8044176882,
+      "streams": 8050971666,
       "top_song": {
         "title": "OMG",
-        "streams": 997200258,
+        "streams": 997790562,
         "url": "https://open.spotify.com/track/65FftemJ1DbbZ45DUfHJXE"
       },
       "yt_subs": 8730000
     },
     "cortis": {
-      "listeners": 10695637,
+      "listeners": 10720733,
       "listeners_peak": 12947465,
       "streams": 1552189839,
       "top_song": {
@@ -99,18 +99,18 @@
         "streams": 288732202,
         "url": "https://open.spotify.com/track/34YVCoqIm08nbsxFSPL0Uh"
       },
-      "yt_subs": 8000000
+      "yt_subs": 8010000
     },
     "ateez": {
-      "listeners": 7989169,
+      "listeners": 7978855,
       "listeners_peak": 7997168,
-      "streams": 4378811907,
+      "streams": 4386654027,
       "top_song": {
         "title": "BOUNCY - K-HOT CHILLI PEPPERS",
-        "streams": 203610750,
+        "streams": 203836907,
         "url": "https://open.spotify.com/track/5VGdz8LeTx2M8LHe9iUSQU"
       },
-      "yt_subs": 5950000
+      "yt_subs": 5960000
     }
   }
 }
