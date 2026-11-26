@@ -1,7 +1,25 @@
 {
- "updated_at": "2026-11-25T21:28:33Z",
+ "updated_at": "2026-11-26T03:44:26Z",
  "sample": false,
  "items": [
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "+9999999 #Bananas aura🕶️ kkay chad #LNGSHOT #SWISH",
+   "date": "2026-11-26",
+   "published": "2026-11-26T01:00:06Z",
+   "url": "https://www.youtube.com/watch?v=Nck4TmNHKOY",
+   "image": "https://i.ytimg.com/vi/Nck4TmNHKOY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "정우영 님의 미니홈피 | ATEEZ(에이티즈) 우영",
+   "date": "2026-11-26",
+   "published": "2026-11-26T03:01:00Z",
+   "url": "https://www.youtube.com/watch?v=xkhIbVURP6E",
+   "image": "https://i.ytimg.com/vi/xkhIbVURP6E/hqdefault.jpg"
+  },
   {
    "type": "music",
    "group": "skz",
@@ -49,7 +67,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-25T21"
+   "ytm_try": "2026-11-26T03"
   },
   {
    "type": "video",
@@ -95,15 +113,6 @@
    "published": "2026-11-25T10:00:06Z",
    "url": "https://www.youtube.com/watch?v=ZCXxPKCUhts",
    "image": "https://i.ytimg.com/vi/ZCXxPKCUhts/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "2AM glow #BeepBeep 💡 #LNGSHOT #SWISH",
-   "date": "2026-11-25",
-   "published": "2026-11-25T05:00:31Z",
-   "url": "https://www.youtube.com/watch?v=mhfQ3H-MM-k",
-   "image": "https://i.ytimg.com/vi/mhfQ3H-MM-k/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -214,15 +223,6 @@
    "image": "https://i.ytimg.com/vi/mVd8pT1IZBo/hqdefault.jpg"
   },
   {
-   "type": "video",
-   "group": "ateez",
-   "title": "ATEEZ(에이티즈) - ATEEZ 2025 WORLD TOUR [IN YOUR FANTASY] IN JAPAN Blu-ray ＆ DVD Preview",
-   "date": "2026-11-24",
-   "published": "2026-11-24T09:00:01Z",
-   "url": "https://www.youtube.com/watch?v=Rx0DXz7VRZo",
-   "image": "https://i.ytimg.com/vi/Rx0DXz7VRZo/hqdefault.jpg"
-  },
-  {
    "type": "music",
    "group": "enhypen",
    "title": "I Want You (Sped Up Ver.)",
@@ -238,8 +238,8 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/da/cc/badacc4d-875c-edcd-5004-39e477c9baa9/mzaf_6290537565215650350.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-25T21",
-   "sp_try": "2026-11-25"
+   "ytm_try": "2026-11-26T03",
+   "sp_try": "2026-11-26"
   },
   {
    "type": "music",
@@ -258,7 +258,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/ee/a1/0feea18a-66e3-5364-919e-f56685c0d2d2/mzaf_2926928018918726965.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-25T21"
+   "ytm_try": "2026-11-26T03"
   },
   {
    "type": "video",
@@ -296,7 +296,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-25T21"
+   "ytm_try": "2026-11-26T03"
   },
   {
    "type": "video",
@@ -323,8 +323,8 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/c9/79/6ac97982-749a-b44d-dbd4-25a4bad8d1a1/mzaf_130015778819592854.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-25T21",
-   "sp_try": "2026-11-25"
+   "ytm_try": "2026-11-26T03",
+   "sp_try": "2026-11-26"
   },
   {
    "type": "music",
@@ -363,7 +363,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-25T21"
+   "ytm_try": "2026-11-26T03"
   },
   {
    "type": "music",
@@ -402,7 +402,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-25T21"
+   "ytm_try": "2026-11-26T03"
   },
   {
    "type": "video",
@@ -594,8 +594,8 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-25T21",
-   "sp_try": "2026-11-25"
+   "ytm_try": "2026-11-26T03",
+   "sp_try": "2026-11-26"
   },
   {
    "type": "music",
@@ -1048,7 +1048,7 @@
     }
    ],
    "ytm_try": "2026-10-17T19",
-   "sp_try": "2026-11-25"
+   "sp_try": "2026-11-26"
   },
   {
    "type": "music",
@@ -1297,7 +1297,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-25T21"
+   "ytm_try": "2026-11-26T03"
   },
   {
    "type": "music",

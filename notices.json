@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25T21:29:07Z",
+ "updated_at": "2026-11-26T03:44:37Z",
  "groups": {
   "lngshot": [
    {
@@ -47,6 +47,13 @@
   ],
   "seventeen": [
    {
+    "title": "[NEWS] 세븐틴 정한이 참여한 아마존 오디블(Amazon Audible) 오리지널 ‘겨울연가’ OST ‘My Memory (Japanese Version)’가 발매되었습니다. 캐럿 여러분의 ...",
+    "url": "https://x.com/pledis_17/status/2125788050445959568",
+    "post": "https://x.com/pledis_17/status/2125788050445959568",
+    "when": "2026-11-26T03:05:41Z",
+    "weverse": false
+   },
+   {
     "title": "[NOTICE] JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - TAIPEI 추가 공연 안내 (+ENG/JPN/CHN)",
     "url": "https://weverse.io/seventeen/notice/41275",
     "post": "https://x.com/pledis_17/status/2125122242770297274",
@@ -80,16 +87,16 @@
     "post": "https://x.com/pledis_17/status/2121933733129490460",
     "when": "2026-11-15T11:50:00Z",
     "weverse": false
-   },
-   {
-    "title": "[NOTICE] JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - TAIPEI 공연 예매 안내 (+ENG/JPN/CHN)",
-    "url": "https://weverse.io/seventeen/notice/40396",
-    "post": "https://x.com/pledis_17/status/2119671334149984361",
-    "when": "2026-11-09T06:00:02Z",
-    "weverse": true
    }
   ],
   "enhypen": [
+   {
+    "title": "ENHYPEN 2027 SEASON'S GREETINGS 출시 안내 🗓️PRE-ORDER : 2026.11.27ㅣFriㅣKST 🗓️RELEASE : 2026.12.0...",
+    "url": "https://weverse.io/enhypen/notice/41303",
+    "post": "https://x.com/ENHYPEN/status/2125786674513031406",
+    "when": "2026-11-26T03:00:13Z",
+    "weverse": true
+   },
    {
     "title": "[공지] 261127 KBS 뮤직뱅크 참여 신청 안내 (+ENG/JPN/CHN)",
     "url": "https://weverse.io/enhypen/notice/41345",
@@ -124,16 +131,16 @@
     "post": "https://x.com/ENHYPEN/status/2124729662462964165",
     "when": "2026-11-23T05:00:01Z",
     "weverse": true
-   },
-   {
-    "title": "[공지] ENHYPEN ‘I Want You (ENHYPEN Remix)’ 발매 (+ENG/JPN/CHN)",
-    "url": "https://weverse.io/enhypen/notice/41224",
-    "post": "https://x.com/ENHYPEN/status/2124004886383931680",
-    "when": "2026-11-21T05:00:01Z",
-    "weverse": true
    }
   ],
   "cortis": [
+   {
+    "title": "[Notice] CORTIS PHOTOBOOK 'SMELLING LIKE A TEEN' 출시 안내 (+ENG/JPN/CHN) 🗓️ PRE-ORDER : 2026.11.27 11AM (K...",
+    "url": "https://weverse.io/cortis/notice/41323",
+    "post": "https://x.com/cortis_bighit/status/2125786736974524506",
+    "when": "2026-11-26T03:00:27Z",
+    "weverse": true
+   },
    {
     "title": "[Vote] MMA2026 부문별 투표 마감 D-1 🌟 🗳️ Melon ( ✅ 올해의 베스트송 → 'REDRED' 투표...",
     "url": "https://weverse.io/cortis/notice/40456?hl=ko",
@@ -167,13 +174,6 @@
     "url": "https://weverse.io/cortis/notice/40456?hl=ko",
     "post": "https://x.com/cortis_bighit/status/2119308945508511775",
     "when": "2026-11-08T06:00:02Z",
-    "weverse": true
-   },
-   {
-    "title": "[Vote] 2026 MAMA AWARDS FANS' CHOICE 투표 마감 D-2 🗳️ Mnet Plus 투표하기 📆 ~ 2026.11.08 23:59 (KST) 📲 ...",
-    "url": "https://weverse.io/cortis/notice/40215",
-    "post": "https://x.com/cortis_bighit/status/2118555221479612888",
-    "when": "2026-11-06T04:05:00Z",
     "weverse": true
    }
   ]
