@@ -2598,7 +2598,18 @@
   "news:bfd4f5bb62405685|feed": "2026-11-26T13:16:26Z",
   "news:95bea9ffc6d7d834|feed": "2026-11-26T13:16:26Z",
   "news:d52af20205f052c7|feed": "2026-11-26T13:16:26Z",
-  "news:33d036369f1396d7|feed": "2026-11-26T13:16:26Z"
+  "news:33d036369f1396d7|feed": "2026-11-26T13:16:26Z",
+  "rel:enhypen:2026-11-27|feed": "2026-11-26T22:28:42Z",
+  "rel:enhypen:2026-11-27|ntfy": "2026-11-26T22:28:42Z",
+  "rel:enhypen:2026-11-27|pub:radarkpop-enhypen-music": "2026-11-26T22:28:42Z",
+  "rel:enhypen:2026-11-27|foro": "2026-11-26T22:28:42Z",
+  "news:0d40669838fa0a6d|feed": "2026-11-26T22:28:42Z",
+  "news:0d40669838fa0a6d|ntfy": "2026-11-26T22:28:42Z",
+  "news:0d40669838fa0a6d|pub:radarkpop-blackpink-news": "2026-11-26T22:28:42Z",
+  "news:0d40669838fa0a6d|foro": "2026-11-26T22:28:42Z",
+  "news:0cdcbee38d16bffc|feed": "2026-11-26T22:28:42Z",
+  "news:2f0565687728b4b5|feed": "2026-11-26T22:28:42Z",
+  "news:5a45302846c76689|feed": "2026-11-26T22:28:42Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3786,8 +3797,6 @@
   }
  },
  "news_seen": [
-  "b6f181be5cac2a87",
-  "b715cbdec1fb2baf",
   "b717e25ea286d29f",
   "b73eeed25d55a5ac",
   "b74ffaca5fee5b69",
@@ -4484,6 +4493,7 @@
   "f6c687f5ef32b355",
   "f6cf4abd7ebc0ec8",
   "f6fc08a530724648",
+  "f6fce9a3de6a9fff",
   "f70d05b65be8e247",
   "f73d5c8a828642a2",
   "f7756ab99bb704fe",
@@ -4511,6 +4521,7 @@
   "f94c8422e6624d29",
   "f957e9a1cb7c71cd",
   "f96db7323fe5eb4d",
+  "f976f68ed9579739",
   "f9785eb4ab993a9c",
   "f9ff92733f23376d",
   "fa02958b0ab44634",
@@ -4591,32 +4602,6 @@
   {
    "g": "bts",
    "w": [
-    "ano",
-    "arirang",
-    "cine",
-    "concierto",
-    "llega",
-    "salas",
-    "tour",
-    "ultimo",
-    "world"
-   ],
-   "t": "2026-11-24T18:14:41Z"
-  },
-  {
-   "g": "bts",
-   "w": [
-    "cecilia",
-    "celebra",
-    "concierto",
-    "dia",
-    "santa"
-   ],
-   "t": "2026-11-24T18:14:41Z"
-  },
-  {
-   "g": "bts",
-   "w": [
     "arirang",
     "kaohsiung",
     "live",
@@ -4681,6 +4666,38 @@
     "ray"
    ],
    "t": "2026-11-26T03:46:03Z"
+  },
+  {
+   "g": "bts",
+   "w": [
+    "brilla",
+    "concierto",
+    "consecutivos",
+    "dias",
+    "dios",
+    "durante",
+    "global",
+    "jimin",
+    "kaohsiung",
+    "pasion",
+    "tendencia",
+    "tres"
+   ],
+   "t": "2026-11-26T22:28:36Z"
+  },
+  {
+   "g": "blackpink",
+   "w": [
+    "2027",
+    "espectaculo",
+    "live",
+    "pop",
+    "tour",
+    "tributo",
+    "world",
+    "zagreb"
+   ],
+   "t": "2026-11-26T22:28:36Z"
   }
  ],
  "discord_threads": {

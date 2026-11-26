@@ -1,6 +1,53 @@
 {
- "updated_at": "2026-11-26T13:16:19Z",
+ "updated_at": "2026-11-26T22:28:36Z",
  "alerts": [
+  {
+   "type": "comeback",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "💿 Hoy sale «ENHYPEN 2027 SEASON'S GREETINGS» de ENHYPEN",
+   "body": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "title_en": "💿 ENHYPEN's «ENHYPEN 2027 SEASON'S GREETINGS» is out today",
+   "body_en": "You can now listen to it! (or in a few hours, depending on your time zone)",
+   "when": "2026-11-26T22:28:36Z",
+   "url": "https://x.com/ENHYPEN/status/2125967827702288396",
+   "src_lang": "es",
+   "body_orig": "¡Ya puedes escucharlo! (o en unas horas, según tu zona horaria)",
+   "auto": true
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "group_name": "LNGSHOT",
+   "title": "Nuevo video: LNGSHOT",
+   "body": "2 AM no destination, no license either🚗💨 #LNGSHOT #BeepBeep #SWISH (YouTube)",
+   "title_en": "New video: LNGSHOT",
+   "body_en": "2 AM no destination, no license either🚗💨 #LNGSHOT #BeepBeep #SWISH (YouTube)",
+   "when": "2026-11-26T17:00:34Z",
+   "url": "https://www.youtube.com/watch?v=8NBdVbMnKo0"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Nuevo video: ENHYPEN",
+   "body": "추억으로 채운 식탁, 이야기로 물든 밤 | 심야회관 | 2026 ENniversary - ENHYPEN (엔하이픈) (YouTube)",
+   "title_en": "New video: ENHYPEN",
+   "body_en": "추억으로 채운 식탁, 이야기로 물든 밤 | 심야회관 | 2026 ENniversary - ENHYPEN (엔하이픈) (YouTube)",
+   "when": "2026-11-26T14:30:05Z",
+   "url": "https://www.youtube.com/watch?v=P3z0IA7gsMA"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "group_name": "TWICE",
+   "title": "Nuevo video: TWICE",
+   "body": "BOY! 🐰🐶 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BOY (YouTube)",
+   "title_en": "New video: TWICE",
+   "body_en": "BOY! 🐰🐶 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BOY (YouTube)",
+   "when": "2026-11-26T13:30:33Z",
+   "url": "https://www.youtube.com/watch?v=UBagWPXMv2M"
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -676,62 +723,6 @@
    "body_en": "[SVT Record] 정한이의 ON & OFF✨ | 파리 패션위크 참석기🕶️ | 형원이 형과 틈새 힐링 타임 (YouTube)",
    "when": "2026-11-24T12:59:55Z",
    "url": "https://www.youtube.com/watch?v=I8FbchmDoTc"
-  },
-  {
-   "type": "official",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Anuncio oficial de Stray Kids: gira",
-   "body": "«Stray Kids World Tour <RUN IT SEOUL SPECIAL> 01/01/2027 VIE 18:00 02/01/2027 SÁB 17:00 @ GOCHEOK SKY DOME Apertura de venta de entradas | APERTURA DE VENTA DE ENTRADAS Preventa para fan club...» (Stray Kids en X).",
-   "title_en": "Official Stray Kids news: tour",
-   "body_en": "«Stray Kids World Tour <RUN IT SEOUL SPECIAL> 2027.01.01 FRI 6PM 2027.01.02 SAT 5PM @ GOCHEOK SKY DOME Tickets Available | TICKETS AVAILABLE Fan Club Pre-» (Stray Kids on X).",
-   "when": "2026-11-24T12:01:23Z",
-   "url": "https://x.com/Stray_Kids/status/2125198087702348276",
-   "src_lang": "ko",
-   "body_orig": "«Stray Kids(스트레이 키즈) World Tour <RUN IT SEOUL SPECIAL> 2027.01.01 FRI 6PM 2027.01.02 SAT 5PM @ GOCHEOK SKY DOME 티켓 오픈 | TICKET OPEN 팬클럽 선...» (Stray Kids en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Anuncio oficial de Stray Kids: gira",
-   "body": "«Stray Kids World Tour <RUN IT SEOUL SPECIAL> 01/01/2027 VIE 18:00 02/01/2027 SÁB 17:00 @ GOCHEOK SKY DOME Venta de entradas | VENTA DE ENTRADAS Preventa para fan club...» (Stray Kids en X).",
-   "title_en": "Official Stray Kids news: tour",
-   "body_en": "«Stray Kids World Tour <RUN IT SEOUL SPECIAL> 2027.01.01 FRI 6PM 2027.01.02 SAT 5PM @ GOCHEOK SKY DOME Ticket Open | TICKET OPEN Fan Club Pre-...» (Stray Kids on X).",
-   "when": "2026-11-24T12:01:23Z",
-   "url": "https://x.com/Stray_Kids/status/2125198087702348276",
-   "src_lang": "ko",
-   "body_orig": "«Stray Kids(스트레이 키즈) World Tour <RUN IT SEOUL SPECIAL> 2027.01.01 FRI 6PM 2027.01.02 SAT 5PM @ GOCHEOK SKY DOME 티켓 오픈 | TICKET OPEN 팬클럽 선...» (Stray Kids en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "skz",
-   "group_name": "Stray Kids",
-   "title": "Anuncio oficial de Stray Kids: gira",
-   "body": "«Stray Kids World Tour <RUN IT SEOUL SPECIAL> 01/01/2027 VIE 18:00 02/01/2027 SÁB 17:00 @ GOCHEOK SKY DOME Apertura de venta de entradas | APERTURA DE VENTA DE ENTRADAS Venta anticipada para fan club...» (Stray Kids en X).",
-   "title_en": "Official Stray Kids news: tour",
-   "body_en": "«Stray Kids World Tour <RUN IT SEOUL SPECIAL> 2027.01.01 FRI 6PM 2027.01.02 SAT 5PM @ GOCHEOK SKY DOME Ticket Open | TICKET OPEN Fan Club Pre-...» (Stray Kids on X).",
-   "when": "2026-11-24T12:01:23Z",
-   "url": "https://x.com/Stray_Kids/status/2125198087702348276",
-   "src_lang": "ko",
-   "body_orig": "«Stray Kids(스트레이 키즈) World Tour <RUN IT SEOUL SPECIAL> 2027.01.01 FRI 6PM 2027.01.02 SAT 5PM @ GOCHEOK SKY DOME 티켓 오픈 | TICKET OPEN 팬클럽 선...» (Stray Kids en X).",
-   "auto": true
-  },
-  {
-   "type": "official",
-   "group": "cortis",
-   "group_name": "CORTIS",
-   "title": "Anuncio oficial de CORTIS: gira",
-   "body": "«PYPD JP tour 🇯🇵 (https://youtu.be/ZEX9MtAMq4g) #CORTIS #코르티스 #CORTIS_TOUR #PUTYOURPHONEDOWN #PYPD_IN_JAPAN» (CORTIS en X).",
-   "title_en": "Official CORTIS news: tour",
-   "body_en": "«PYPD JP tour 🇯🇵 (https://youtu.be/ZEX9MtAMq4g) #CORTIS #코르티스 #CORTIS_TOUR #PUTYOURPHONEDOWN #PYPD_IN_JAPAN» (CORTIS on X).",
-   "when": "2026-11-24T12:00:01Z",
-   "url": "https://x.com/cortis_bighit/status/2125197745057120703",
-   "src_lang": "ko",
-   "body_orig": "«PYPD JP tour 🇯🇵 (https://youtu.be/ZEX9MtAMq4g) #CORTIS #코르티스 #CORTIS_TOUR #PUTYOURPHONEDOWN #PYPD_IN_JAPAN» (CORTIS en X).",
-   "auto": true
   }
  ]
 }
