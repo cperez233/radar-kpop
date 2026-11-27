@@ -2609,7 +2609,45 @@
   "news:0d40669838fa0a6d|foro": "2026-11-26T22:28:42Z",
   "news:0cdcbee38d16bffc|feed": "2026-11-26T22:28:42Z",
   "news:2f0565687728b4b5|feed": "2026-11-26T22:28:42Z",
-  "news:5a45302846c76689|feed": "2026-11-26T22:28:42Z"
+  "news:5a45302846c76689|feed": "2026-11-26T22:28:42Z",
+  "news:00a8835c0358fbae|feed": "2026-11-27T04:31:28Z",
+  "news:00a8835c0358fbae|ntfy": "2026-11-27T04:31:28Z",
+  "news:00a8835c0358fbae|pub:radarkpop-twice-news": "2026-11-27T04:31:28Z",
+  "news:00a8835c0358fbae|foro": "2026-11-27T04:31:28Z",
+  "official:skz:tour:2026-11-27|feed": "2026-11-27T04:31:28Z",
+  "official:skz:tour:2026-11-27|ntfy": "2026-11-27T04:31:28Z",
+  "official:skz:tour:2026-11-27|pub:radarkpop-skz-shows": "2026-11-27T04:31:28Z",
+  "official:skz:tour:2026-11-27|foro": "2026-11-27T04:31:28Z",
+  "official:twice:comeback:2026-11-27|feed": "2026-11-27T04:31:28Z",
+  "official:twice:comeback:2026-11-27|ntfy": "2026-11-27T04:31:28Z",
+  "official:twice:comeback:2026-11-27|pub:radarkpop-twice-music": "2026-11-27T04:31:28Z",
+  "official:twice:comeback:2026-11-27|foro": "2026-11-27T04:31:28Z",
+  "official:lngshot:comeback:2026-11-27|feed": "2026-11-27T04:31:28Z",
+  "official:lngshot:comeback:2026-11-27|ntfy": "2026-11-27T04:31:28Z",
+  "official:lngshot:comeback:2026-11-27|pub:radarkpop-lngshot-music": "2026-11-27T04:31:28Z",
+  "official:lngshot:comeback:2026-11-27|foro": "2026-11-27T04:31:28Z",
+  "official:seventeen:comeback:2026-11-27|feed": "2026-11-27T04:31:28Z",
+  "official:seventeen:comeback:2026-11-27|ntfy": "2026-11-27T04:31:28Z",
+  "official:seventeen:comeback:2026-11-27|pub:radarkpop-seventeen-music": "2026-11-27T04:31:28Z",
+  "official:seventeen:comeback:2026-11-27|foro": "2026-11-27T04:31:28Z",
+  "official:enhypen:comeback:2026-11-27|feed": "2026-11-27T04:31:28Z",
+  "official:enhypen:comeback:2026-11-27|ntfy": "2026-11-27T04:31:28Z",
+  "official:enhypen:comeback:2026-11-27|pub:radarkpop-enhypen-music": "2026-11-27T04:31:28Z",
+  "official:enhypen:comeback:2026-11-27|foro": "2026-11-27T04:31:28Z",
+  "official:cortis:comeback:2026-11-27|feed": "2026-11-27T04:31:28Z",
+  "official:cortis:comeback:2026-11-27|ntfy": "2026-11-27T04:31:28Z",
+  "official:cortis:comeback:2026-11-27|pub:radarkpop-cortis-music": "2026-11-27T04:31:28Z",
+  "official:cortis:comeback:2026-11-27|foro": "2026-11-27T04:31:28Z",
+  "official:cortis:tour:2026-11-27|feed": "2026-11-27T04:31:28Z",
+  "official:cortis:tour:2026-11-27|ntfy": "2026-11-27T04:31:28Z",
+  "official:cortis:tour:2026-11-27|pub:radarkpop-cortis-shows": "2026-11-27T04:31:28Z",
+  "official:cortis:tour:2026-11-27|foro": "2026-11-27T04:31:28Z",
+  "official:ateez:comeback:2026-11-27|feed": "2026-11-27T04:31:28Z",
+  "official:ateez:comeback:2026-11-27|ntfy": "2026-11-27T04:31:28Z",
+  "official:ateez:comeback:2026-11-27|pub:radarkpop-ateez-music": "2026-11-27T04:31:28Z",
+  "official:ateez:comeback:2026-11-27|foro": "2026-11-27T04:31:28Z",
+  "news:abd4274ff0ad0eb8|feed": "2026-11-27T04:31:28Z",
+  "news:6d949379e27fbc8a|feed": "2026-11-27T04:31:28Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3797,9 +3835,6 @@
   }
  },
  "news_seen": [
-  "b717e25ea286d29f",
-  "b73eeed25d55a5ac",
-  "b74ffaca5fee5b69",
   "b795152b51293ce0",
   "b79d006590806ea6",
   "b7b01701326eef37",
@@ -3991,6 +4026,7 @@
   "c8361c3eb56669c0",
   "c83c3e3cdebe8430",
   "c84919f23638a682",
+  "c89dc21f4d10cc73",
   "c8a5b7edba2ce17f",
   "c8bab2a35f480f6c",
   "c8c3edbbf6d395fe",
@@ -4089,6 +4125,7 @@
   "cfeb5710bacb291f",
   "d0008a3380403320",
   "d03479a8fbe23067",
+  "d04b1487b66277d7",
   "d06b08d640ac9b8d",
   "d086a34d23f83ee6",
   "d09481e5df59702b",
@@ -4502,6 +4539,7 @@
   "f7bb6d63b372db6e",
   "f7c4a0da1b3ba2bc",
   "f7cd5f900aaaa8ab",
+  "f7d052711511546d",
   "f7db80c43d325e3b",
   "f7f27755962b402b",
   "f80a7496563905ba",
@@ -4602,18 +4640,6 @@
   {
    "g": "bts",
    "w": [
-    "arirang",
-    "kaohsiung",
-    "live",
-    "tour",
-    "viewing",
-    "world"
-   ],
-   "t": "2026-11-25T02:37:19Z"
-  },
-  {
-   "g": "bts",
-   "w": [
     "american",
     "crazy",
     "during",
@@ -4698,6 +4724,18 @@
     "zagreb"
    ],
    "t": "2026-11-26T22:28:36Z"
+  },
+  {
+   "g": "twice",
+   "w": [
+    "festival",
+    "jihyo",
+    "llegar",
+    "mar",
+    "podria",
+    "vina"
+   ],
+   "t": "2026-11-27T04:31:20Z"
   }
  ],
  "discord_threads": {
