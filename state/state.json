@@ -2666,7 +2666,11 @@
   "news:9aef9db3bdc12e02|feed": "2026-11-27T14:16:12Z",
   "news:5908ec77fe9c4ca5|feed": "2026-11-27T14:16:12Z",
   "news:4b5652bfdb14a74b|feed": "2026-11-27T14:16:12Z",
-  "news:be4cb7f317945ff5|feed": "2026-11-27T14:16:12Z"
+  "news:be4cb7f317945ff5|feed": "2026-11-27T14:16:12Z",
+  "news:3c90cb0d9d9f84e6|feed": "2026-11-27T22:48:33Z",
+  "news:3c90cb0d9d9f84e6|ntfy": "2026-11-27T22:48:33Z",
+  "news:3c90cb0d9d9f84e6|pub:radarkpop-enhypen-news": "2026-11-27T22:48:33Z",
+  "news:3c90cb0d9d9f84e6|foro": "2026-11-27T22:48:33Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3854,8 +3858,6 @@
   }
  },
  "news_seen": [
-  "b944d67a91068117",
-  "b94718ccade38042",
   "b948cd60c7b066f8",
   "b9a6ad5240339721",
   "b9a9c8d4be0ee214",
@@ -4131,6 +4133,7 @@
   "cfbd2b899461f14e",
   "cfeb5710bacb291f",
   "d0008a3380403320",
+  "d01af181ec196cca",
   "d03479a8fbe23067",
   "d04b1487b66277d7",
   "d06b08d640ac9b8d",
@@ -4260,6 +4263,7 @@
   "db2a194f9821fce3",
   "db3976b1bcc98d23",
   "db3a428f77212c92",
+  "db411798a22fd8f6",
   "db89d8a6ef712ba8",
   "db8a660a80e1add7",
   "dbbdf111144b5aa0",
@@ -4657,20 +4661,6 @@
  ],
  "news_topics": [
   {
-   "g": "bts",
-   "w": [
-    "cazetv",
-    "durante",
-    "elogian",
-    "entrevista",
-    "exclusiva",
-    "fans",
-    "gira",
-    "latinoamerica"
-   ],
-   "t": "2026-11-25T21:30:35Z"
-  },
-  {
    "g": "skz",
    "w": [
     "000",
@@ -4753,6 +4743,18 @@
     "world"
    ],
    "t": "2026-11-27T14:16:02Z"
+  },
+  {
+   "g": "enhypen",
+   "w": [
+    "2027",
+    "cool",
+    "encabezara",
+    "festival",
+    "mad",
+    "madrid"
+   ],
+   "t": "2026-11-27T22:48:27Z"
   }
  ],
  "discord_threads": {

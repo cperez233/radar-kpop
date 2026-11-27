@@ -1,7 +1,14 @@
 {
- "updated_at": "2026-11-27T14:14:38Z",
+ "updated_at": "2026-11-27T22:47:00Z",
  "groups": {
   "lngshot": [
+   {
+    "title": "[Notice] LNGSHOT 261129 SBS 인기가요 (사전녹화+미니팬미팅) 참여 관련 안내드립니다. 신청 페이지 세팅 오류로 인해 부득이하게 신청 시간을 금일 오후 11시 ...",
+    "url": "https://x.com/LNGSHOT4sho/status/2126318792972390806",
+    "post": "https://x.com/LNGSHOT4sho/status/2126318792972390806",
+    "when": "2026-11-27T14:14:39Z",
+    "weverse": false
+   },
    {
     "title": "[NOTICE] LNGSHOT 261129 SBS 인기가요 참여 안내 (사전녹화+미니 팬미팅/막방)",
     "url": "https://weverse.io/lngshot/notice/41417",
@@ -35,13 +42,6 @@
     "url": "https://weverse.io/lngshot/notice/41261",
     "post": "https://x.com/LNGSHOT4sho/status/2124744907265036418",
     "when": "2026-11-23T06:00:36Z",
-    "weverse": true
-   },
-   {
-    "title": "[NOTICE] LNGSHOT 261122 SBS 인기가요 참여 안내 (사전녹화)",
-    "url": "https://weverse.io/lngshot/notice/41189",
-    "post": "https://x.com/LNGSHOT4sho/status/2123363151853006945",
-    "when": "2026-11-19T10:30:00Z",
     "weverse": true
    }
   ],

@@ -1,6 +1,20 @@
 {
- "updated_at": "2026-11-27T14:16:02Z",
+ "updated_at": "2026-11-27T22:48:27Z",
  "alerts": [
+  {
+   "type": "tour",
+   "group": "enhypen",
+   "group_name": "ENHYPEN",
+   "title": "Gira: ENHYPEN",
+   "body": "ENHYPEN encabezará el festival Mad Cool 2027 en Madrid - Unnie Pop (Google Noticias)",
+   "title_en": "Tour: ENHYPEN",
+   "body_en": "ENHYPEN to headline Mad Cool Festival 2027 in Madrid - Unnie Pop (Google News)",
+   "when": "2026-11-27T22:05:38Z",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQemlVR25haVpGQ3kzSXI1MWZ5Q0taUE5kNk9LRUNJaE04ekFFaDFVaDhwN0NIRjc0cHQyeG5NcEtiWng2U0tvMDQ5RklLcDNrMmtCdU1yR3owNDZSRjN6cVdKLUFxRU01TDZqdkVQZWNmQXVpQjJnMTRFZWNEUW5leWx2RDFIWWR1d3JNd01GSQ?oc=5",
+   "src_lang": "es",
+   "body_orig": "ENHYPEN encabezará el festival Mad Cool 2027 en Madrid - Unnie Pop (Google Noticias)",
+   "auto": true
+  },
   {
    "type": "video",
    "group": "lngshot",
@@ -706,17 +720,6 @@
    "src_lang": "es",
    "body_orig": "Fans elogian la entrevista exclusiva de BTS en CazéTV durante la gira por Latinoamérica - Indies.es (Google Noticias)",
    "auto": true
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "group_name": "LNGSHOT",
-   "title": "Nuevo video: LNGSHOT",
-   "body": "beepbeepholic ＜333 #LNGSHOT #BeepBeep #SWISH (YouTube)",
-   "title_en": "New video: LNGSHOT",
-   "body_en": "beepbeepholic ＜333 #LNGSHOT #BeepBeep #SWISH (YouTube)",
-   "when": "2026-11-25T13:00:37Z",
-   "url": "https://www.youtube.com/watch?v=IzjptVsxd8o"
   }
  ]
 }
