@@ -1,24 +1,141 @@
 {
- "updated_at": "2026-11-27T04:29:20Z",
+ "updated_at": "2026-11-27T14:14:26Z",
  "sample": false,
  "items": [
   {
    "type": "video",
-   "group": "twice",
-   "title": "Office life is quite hard.. 🗂️📑 TWICE #트와이스 #NAYEON #나연 #NA_sty #BOY",
+   "group": "skz",
+   "title": "Count to 티격태격 #StrayKids #스트레이키즈 #현진 #Hyunjin #승민 #Seungmin #YouMakeStrayKidsStay",
    "date": "2026-11-27",
-   "published": "2026-11-27T04:00:36Z",
-   "url": "https://www.youtube.com/watch?v=V5vA3xDy7Uw",
-   "image": "https://i.ytimg.com/vi/V5vA3xDy7Uw/hqdefault.jpg"
+   "published": "2026-11-27T10:59:18Z",
+   "url": "https://www.youtube.com/watch?v=S2ru4KUJgRg",
+   "image": "https://i.ytimg.com/vi/S2ru4KUJgRg/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "skz",
+   "title": "끼드럭🐷🐰 vs 찡얼찡얼🐶 #StrayKids #스트레이키즈 #스키즈코드 #SKZCODE #랜덤여행 #RANDOM_Trip #YouMakeStrayKidsStay",
+   "date": "2026-11-27",
+   "published": "2026-11-27T04:59:30Z",
+   "url": "https://www.youtube.com/watch?v=CMl4zudk9W4",
+   "image": "https://i.ytimg.com/vi/CMl4zudk9W4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "With BABY ANGEL #김재원 👼🪽#TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL #KIMJAEWON",
+   "date": "2026-11-27",
+   "published": "2026-11-27T12:00:39Z",
+   "url": "https://www.youtube.com/watch?v=FJYniENKZvY",
+   "image": "https://i.ytimg.com/vi/FJYniENKZvY/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "🌬️💨🪽 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-27",
+   "published": "2026-11-27T09:00:04Z",
+   "url": "https://www.youtube.com/watch?v=CLQ8pHtsp6M",
+   "image": "https://i.ytimg.com/vi/CLQ8pHtsp6M/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "twice",
+   "title": "Poses for ANGELS ✌️ #TWICE #트와이스 #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "date": "2026-11-27",
+   "published": "2026-11-27T06:00:32Z",
+   "url": "https://www.youtube.com/watch?v=7b663Du90Jc",
+   "image": "https://i.ytimg.com/vi/7b663Du90Jc/hqdefault.jpg"
   },
   {
    "type": "video",
    "group": "lngshot",
-   "title": "#OHYUL #RYUL where you at? ʙᴇᴇᴘ ʙᴇᴇᴘ✋🤚 #LNGSHOT #BeepBeep #SWISH",
+   "title": "다들 행복하게 하루 마무𝓛𝓸𝓾𝓲𝓼~😘 #LNGSHOT #LOUIS #SWISH",
    "date": "2026-11-27",
-   "published": "2026-11-27T03:00:27Z",
-   "url": "https://www.youtube.com/watch?v=52FoeMgfQB8",
-   "image": "https://i.ytimg.com/vi/52FoeMgfQB8/hqdefault.jpg"
+   "published": "2026-11-27T14:00:32Z",
+   "url": "https://www.youtube.com/watch?v=Nsob0H4qmtQ",
+   "image": "https://i.ytimg.com/vi/Nsob0H4qmtQ/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "Call me maybeep- beep- 👀 #LNGSHOT #BeepBeep #SWISH",
+   "date": "2026-11-27",
+   "published": "2026-11-27T11:00:24Z",
+   "url": "https://www.youtube.com/watch?v=-0tu38m4Jcg",
+   "image": "https://i.ytimg.com/vi/-0tu38m4Jcg/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "lngshot",
+   "title": "Where you at @Official_JayDon 📞 #BeepBeep #JayDon #LNGSHOT #SWISH",
+   "date": "2026-11-27",
+   "published": "2026-11-27T07:00:20Z",
+   "url": "https://www.youtube.com/watch?v=jnu_QllVQOU",
+   "image": "https://i.ytimg.com/vi/jnu_QllVQOU/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "남찍사 꿀팁 #정답행 #EP2",
+   "date": "2026-11-27",
+   "published": "2026-11-27T11:00:00Z",
+   "url": "https://www.youtube.com/watch?v=8zuuQW5-W0g",
+   "image": "https://i.ytimg.com/vi/8zuuQW5-W0g/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "seventeen",
+   "title": "[HOSHI TAMTAM] 캐리어에 샴푸가 터진 날🧴🧳 | 야시장 꼬치 먹방😋 | 호랑이의 시선",
+   "date": "2026-11-27",
+   "published": "2026-11-27T09:15:05Z",
+   "url": "https://www.youtube.com/watch?v=zOWSZqesAJo",
+   "image": "https://i.ytimg.com/vi/zOWSZqesAJo/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "ENHYPEN 2027 SEASON'S GREETINGS Teaser",
+   "date": "2026-11-27",
+   "published": "2026-11-27T12:38:45Z",
+   "url": "https://www.youtube.com/watch?v=xz92iJpwS3s",
+   "image": "https://i.ytimg.com/vi/xz92iJpwS3s/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "Cuz I want #김재원 🫵#EN_IWantYou #KIMJAEWON #NI_KI #ENHYPEN",
+   "date": "2026-11-27",
+   "published": "2026-11-27T12:38:08Z",
+   "url": "https://www.youtube.com/watch?v=hdW_Of6-Et0",
+   "image": "https://i.ytimg.com/vi/hdW_Of6-Et0/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "enhypen",
+   "title": "Cuz I want #NAYEON 🫵#EN_IWantYou #TWICE #SUNOO #ENHYPEN",
+   "date": "2026-11-27",
+   "published": "2026-11-27T11:35:03Z",
+   "url": "https://www.youtube.com/watch?v=6q24U96vCo4",
+   "image": "https://i.ytimg.com/vi/6q24U96vCo4/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "ATEEZ(에이티즈) - ‘UP’ Recording Behind",
+   "date": "2026-11-27",
+   "published": "2026-11-27T12:00:03Z",
+   "url": "https://www.youtube.com/watch?v=XKZE9w3ISzQ",
+   "image": "https://i.ytimg.com/vi/XKZE9w3ISzQ/hqdefault.jpg"
+  },
+  {
+   "type": "video",
+   "group": "ateez",
+   "title": "나나 님과 해, 쩌는 짓 😎 #Shorts",
+   "date": "2026-11-27",
+   "published": "2026-11-27T11:00:20Z",
+   "url": "https://www.youtube.com/watch?v=MyZ3f4pP5-Y",
+   "image": "https://i.ytimg.com/vi/MyZ3f4pP5-Y/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -31,84 +148,12 @@
   },
   {
    "type": "video",
-   "group": "skz",
-   "title": "랜덤 여행 (RANDOM Trip) #1｜[SKZ CODE] Ep.106",
-   "date": "2026-11-26",
-   "published": "2026-11-26T11:00:05Z",
-   "url": "https://www.youtube.com/watch?v=Fuln7IeZgZc",
-   "image": "https://i.ytimg.com/vi/Fuln7IeZgZc/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "BOY! 🐰🐶 #TWICE #트와이스 #NAYEON #나연 #NA_sty #BOY",
-   "date": "2026-11-26",
-   "published": "2026-11-26T13:30:33Z",
-   "url": "https://www.youtube.com/watch?v=UBagWPXMv2M",
-   "image": "https://i.ytimg.com/vi/UBagWPXMv2M/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "twice",
-   "title": "조금만 자르랬자나 조금만! #TWICE #NAYEON #나연 #NA_sty #BABY_ANGEL",
-   "date": "2026-11-26",
-   "published": "2026-11-26T07:00:11Z",
-   "url": "https://www.youtube.com/watch?v=tIqz9hywVjE",
-   "image": "https://i.ytimg.com/vi/tIqz9hywVjE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "2 AM no destination, no license either🚗💨 #LNGSHOT #BeepBeep #SWISH",
-   "date": "2026-11-26",
-   "published": "2026-11-26T17:00:34Z",
-   "url": "https://www.youtube.com/watch?v=8NBdVbMnKo0",
-   "image": "https://i.ytimg.com/vi/8NBdVbMnKo0/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "lngshot",
-   "title": "텅 비어버린 거리.. 🍂 #LNGSHOT #BeepBeep #SWISH",
-   "date": "2026-11-26",
-   "published": "2026-11-26T13:00:01Z",
-   "url": "https://www.youtube.com/watch?v=jQpwwP0XywY",
-   "image": "https://i.ytimg.com/vi/jQpwwP0XywY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
    "group": "seventeen",
    "title": "진짜 미쳤나 보다 #정답행 #EP2",
    "date": "2026-11-26",
    "published": "2026-11-26T07:59:58Z",
    "url": "https://www.youtube.com/watch?v=VtD5412Ekdo",
    "image": "https://i.ytimg.com/vi/VtD5412Ekdo/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "추억으로 채운 식탁, 이야기로 물든 밤 | 심야회관 | 2026 ENniversary - ENHYPEN (엔하이픈)",
-   "date": "2026-11-26",
-   "published": "2026-11-26T14:30:05Z",
-   "url": "https://www.youtube.com/watch?v=P3z0IA7gsMA",
-   "image": "https://i.ytimg.com/vi/P3z0IA7gsMA/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "사탕처럼 달콤하다는데 🍭 #JUNGWON #THE_SIN_PARALLEL_WORLD #ENHYPEN",
-   "date": "2026-11-26",
-   "published": "2026-11-26T12:09:54Z",
-   "url": "https://www.youtube.com/watch?v=lTldH8qQMLE",
-   "image": "https://i.ytimg.com/vi/lTldH8qQMLE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "enhypen",
-   "title": "Cuz I want #김연경 🫵#EN_IWantYou #kimyeonkoung #ENHYPEN",
-   "date": "2026-11-26",
-   "published": "2026-11-26T11:06:53Z",
-   "url": "https://www.youtube.com/watch?v=-t12mgK7WbY",
-   "image": "https://i.ytimg.com/vi/-t12mgK7WbY/hqdefault.jpg"
   },
   {
    "type": "video",
@@ -127,15 +172,6 @@
    "published": "2026-11-26T11:09:55Z",
    "url": "https://www.youtube.com/watch?v=C-08TgKgpmE",
    "image": "https://i.ytimg.com/vi/C-08TgKgpmE/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "ateez",
-   "title": "정우영 님의 미니홈피 | ATEEZ(에이티즈) 우영",
-   "date": "2026-11-26",
-   "published": "2026-11-26T03:01:00Z",
-   "url": "https://www.youtube.com/watch?v=xkhIbVURP6E",
-   "image": "https://i.ytimg.com/vi/xkhIbVURP6E/hqdefault.jpg"
   },
   {
    "type": "music",
@@ -184,7 +220,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-27T04"
+   "ytm_try": "2026-11-27T14"
   },
   {
    "type": "video",
@@ -205,42 +241,6 @@
    "image": "https://i.ytimg.com/vi/MUFd9N80_lc/hqdefault.jpg"
   },
   {
-   "type": "video",
-   "group": "ateez",
-   "title": "Drip of the Fit #Shorts",
-   "date": "2026-11-25",
-   "published": "2026-11-25T09:00:27Z",
-   "url": "https://www.youtube.com/watch?v=uF3Gna-1iVY",
-   "image": "https://i.ytimg.com/vi/uF3Gna-1iVY/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "skz",
-   "title": "°:•.🐠*.•🪸.•:°🥽 #StrayKids #스트레이키즈 #필릭스 #Felix #YouMakeStrayKidsStay",
-   "date": "2026-11-24",
-   "published": "2026-11-24T11:00:55Z",
-   "url": "https://www.youtube.com/watch?v=eEmR__QN86k",
-   "image": "https://i.ytimg.com/vi/eEmR__QN86k/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "[SVT Record] 정한이의 ON & OFF✨ | 파리 패션위크 참석기🕶️ | 형원이 형과 틈새 힐링 타임",
-   "date": "2026-11-24",
-   "published": "2026-11-24T12:59:55Z",
-   "url": "https://www.youtube.com/watch?v=I8FbchmDoTc",
-   "image": "https://i.ytimg.com/vi/I8FbchmDoTc/hqdefault.jpg"
-  },
-  {
-   "type": "video",
-   "group": "seventeen",
-   "title": "도겸과 정한 〈정답 없는 여행〉 EP.2 Official Clip",
-   "date": "2026-11-24",
-   "published": "2026-11-24T11:00:06Z",
-   "url": "https://www.youtube.com/watch?v=a_X88UYE4w8",
-   "image": "https://i.ytimg.com/vi/a_X88UYE4w8/hqdefault.jpg"
-  },
-  {
    "type": "music",
    "group": "enhypen",
    "title": "I Want You (Sped Up Ver.)",
@@ -256,7 +256,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/da/cc/badacc4d-875c-edcd-5004-39e477c9baa9/mzaf_6290537565215650350.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-27T04",
+   "ytm_try": "2026-11-27T14",
    "sp_try": "2026-11-27"
   },
   {
@@ -276,7 +276,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/ee/a1/0feea18a-66e3-5364-919e-f56685c0d2d2/mzaf_2926928018918726965.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-27T04"
+   "ytm_try": "2026-11-27T14"
   },
   {
    "type": "music",
@@ -305,7 +305,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-27T04"
+   "ytm_try": "2026-11-27T14"
   },
   {
    "type": "music",
@@ -323,7 +323,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/c9/79/6ac97982-749a-b44d-dbd4-25a4bad8d1a1/mzaf_130015778819592854.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-27T04",
+   "ytm_try": "2026-11-27T14",
    "sp_try": "2026-11-27"
   },
   {
@@ -363,7 +363,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/d3/66/4ad366a5-1b13-fee7-e385-4a6c8c77996f/mzaf_1978777015782423847.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-27T04"
+   "ytm_try": "2026-11-27T14"
   },
   {
    "type": "music",
@@ -402,7 +402,7 @@
      "p": ""
     }
    ],
-   "ytm_try": "2026-11-27T04"
+   "ytm_try": "2026-11-27T14"
   },
   {
    "type": "video",
@@ -594,7 +594,7 @@
    "url": "https://music.apple.com/us/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/25/63/d4256363-1db3-8798-504b-17a90e7d463b/1200214831288.jpg/300x300bb.jpg",
    "ytm_v": 6,
-   "ytm_try": "2026-11-27T04",
+   "ytm_try": "2026-11-27T14",
    "sp_try": "2026-11-27"
   },
   {
@@ -1297,7 +1297,7 @@
      "p": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/6e/b6/ca6eb65d-1886-b446-6d6c-e5af212f44f6/mzaf_6521200481313476122.plus.aac.p.m4a"
     }
    ],
-   "ytm_try": "2026-11-27T04"
+   "ytm_try": "2026-11-27T14"
   },
   {
    "type": "music",
