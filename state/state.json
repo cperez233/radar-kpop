@@ -2670,7 +2670,40 @@
   "news:3c90cb0d9d9f84e6|feed": "2026-11-27T22:48:33Z",
   "news:3c90cb0d9d9f84e6|ntfy": "2026-11-27T22:48:33Z",
   "news:3c90cb0d9d9f84e6|pub:radarkpop-enhypen-news": "2026-11-27T22:48:33Z",
-  "news:3c90cb0d9d9f84e6|foro": "2026-11-27T22:48:33Z"
+  "news:3c90cb0d9d9f84e6|foro": "2026-11-27T22:48:33Z",
+  "official:lngshot:comeback:2026-11-28|feed": "2026-11-28T04:40:04Z",
+  "official:lngshot:comeback:2026-11-28|ntfy": "2026-11-28T04:40:04Z",
+  "official:lngshot:comeback:2026-11-28|pub:radarkpop-lngshot-music": "2026-11-28T04:40:04Z",
+  "official:lngshot:comeback:2026-11-28|foro": "2026-11-28T04:40:04Z",
+  "official:seventeen:comeback:2026-11-28|feed": "2026-11-28T04:40:04Z",
+  "official:seventeen:comeback:2026-11-28|ntfy": "2026-11-28T04:40:04Z",
+  "official:seventeen:comeback:2026-11-28|pub:radarkpop-seventeen-music": "2026-11-28T04:40:04Z",
+  "official:seventeen:comeback:2026-11-28|foro": "2026-11-28T04:40:04Z",
+  "official:enhypen:comeback:2026-11-28|feed": "2026-11-28T04:40:04Z",
+  "official:enhypen:comeback:2026-11-28|ntfy": "2026-11-28T04:40:04Z",
+  "official:enhypen:comeback:2026-11-28|pub:radarkpop-enhypen-music": "2026-11-28T04:40:04Z",
+  "official:enhypen:comeback:2026-11-28|foro": "2026-11-28T04:40:04Z",
+  "official:cortis:comeback:2026-11-28|feed": "2026-11-28T04:40:04Z",
+  "official:cortis:comeback:2026-11-28|ntfy": "2026-11-28T04:40:04Z",
+  "official:cortis:comeback:2026-11-28|pub:radarkpop-cortis-music": "2026-11-28T04:40:04Z",
+  "official:cortis:comeback:2026-11-28|foro": "2026-11-28T04:40:04Z",
+  "official:cortis:tour:2026-11-28|feed": "2026-11-28T04:40:04Z",
+  "official:cortis:tour:2026-11-28|ntfy": "2026-11-28T04:40:04Z",
+  "official:cortis:tour:2026-11-28|pub:radarkpop-cortis-shows": "2026-11-28T04:40:04Z",
+  "official:cortis:tour:2026-11-28|foro": "2026-11-28T04:40:04Z",
+  "official:ateez:tour:2026-11-28|feed": "2026-11-28T04:40:04Z",
+  "official:ateez:tour:2026-11-28|ntfy": "2026-11-28T04:40:04Z",
+  "official:ateez:tour:2026-11-28|pub:radarkpop-ateez-shows": "2026-11-28T04:40:04Z",
+  "official:ateez:tour:2026-11-28|foro": "2026-11-28T04:40:04Z",
+  "official:ateez:comeback:2026-11-28|feed": "2026-11-28T04:40:04Z",
+  "official:ateez:comeback:2026-11-28|ntfy": "2026-11-28T04:40:04Z",
+  "official:ateez:comeback:2026-11-28|pub:radarkpop-ateez-music": "2026-11-28T04:40:04Z",
+  "official:ateez:comeback:2026-11-28|foro": "2026-11-28T04:40:04Z",
+  "news:98617cafad2a06b7|feed": "2026-11-28T04:40:04Z",
+  "news:5c977d2f40828ed3|feed": "2026-11-28T04:40:04Z",
+  "news:579fc1e8ee8cc9a0|feed": "2026-11-28T04:40:04Z",
+  "news:54c76b9696e2245e|feed": "2026-11-28T04:40:04Z",
+  "news:7ed1000aa424e173|feed": "2026-11-28T04:40:04Z"
  },
  "snapshot": {
   "bts-20261009-lima": {
@@ -3858,11 +3891,6 @@
   }
  },
  "news_seen": [
-  "b948cd60c7b066f8",
-  "b9a6ad5240339721",
-  "b9a9c8d4be0ee214",
-  "b9b182d056876383",
-  "b9b3afb25bde949b",
   "b9e7ca6fb3d8c00b",
   "b9f910b1371d3bec",
   "ba1bb1493872f211",
@@ -4159,6 +4187,7 @@
   "d278a740e98b03f0",
   "d29eebea31790037",
   "d2a4b23ec1c606e3",
+  "d2c4c285ee7c284d",
   "d2c8d20b2b33e909",
   "d2cf62f089d7e007",
   "d2d8c048e9cc8410",
@@ -4439,11 +4468,13 @@
   "eb9db11242eda275",
   "eba8841f4b10f6cd",
   "eba8c84e78ef9904",
+  "ebfafef055ea65d8",
   "ec325e1df85ea8ee",
   "ec6ec336427e3264",
   "ec96394f5f41c24a",
   "ecc149d792eb1718",
   "ecd48dc055045b83",
+  "eced83e1e9f79f6a",
   "ed108b2379080406",
   "ed14d590283a4d80",
   "ed199b017fc964f2",
@@ -4584,6 +4615,7 @@
   "f96db7323fe5eb4d",
   "f976f68ed9579739",
   "f9785eb4ab993a9c",
+  "f98ca84944360d5a",
   "f9ff92733f23376d",
   "fa02958b0ab44634",
   "fa0b1009580eafb7",
@@ -4650,6 +4682,7 @@
   "ff50509de7f407d1",
   "ff665041cab549de",
   "ff7e28fe717a4438",
+  "ff8d1a059b418637",
   "ff8f526e9edce40d",
   "ff9645bd07fd2d0a",
   "ffabd4c22a5f2209",
@@ -4660,34 +4693,6 @@
   "ffff12b083c9a4d9"
  ],
  "news_topics": [
-  {
-   "g": "skz",
-   "w": [
-    "000",
-    "520",
-    "ante",
-    "fans",
-    "gira",
-    "japonesa",
-    "lanzan",
-    "suiatsu",
-    "tras"
-   ],
-   "t": "2026-11-26T03:46:03Z"
-  },
-  {
-   "g": "ateez",
-   "w": [
-    "blu",
-    "diciembre",
-    "dvd",
-    "gira",
-    "japon",
-    "lanzara",
-    "ray"
-   ],
-   "t": "2026-11-26T03:46:03Z"
-  },
   {
    "g": "bts",
    "w": [
@@ -4755,6 +4760,34 @@
     "madrid"
    ],
    "t": "2026-11-27T22:48:27Z"
+  },
+  {
+   "g": "skz",
+   "w": [
+    "000",
+    "520",
+    "ante",
+    "fans",
+    "gira",
+    "japonesa",
+    "lanzan",
+    "suiatsu",
+    "tras"
+   ],
+   "t": "2026-11-28T04:39:57Z"
+  },
+  {
+   "g": "ateez",
+   "w": [
+    "blu",
+    "diciembre",
+    "dvd",
+    "gira",
+    "japon",
+    "lanzara",
+    "ray"
+   ],
+   "t": "2026-11-28T04:39:57Z"
   }
  ],
  "discord_threads": {
